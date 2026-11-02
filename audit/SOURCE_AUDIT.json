@@ -1,0 +1,34 @@
+{
+  "status": "SOURCE_DOWNLOAD_AUDITED_NOT_HISTORICAL_EDITION_VERIFIED",
+  "source_zip_name": "helloao-historical-commentaries.zip",
+  "source_zip_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+  "download_manifest_utc": "2026-11-01T23:30:53.788652+00:00",
+  "audit_date": "2026-11-01",
+  "chapter_records": 6123,
+  "expected_chapter_records": 6123,
+  "by_author": {
+    "adam-clarke": 854,
+    "jamieson-fausset-brown": 1187,
+    "john-calvin": 817,
+    "john-gill": 1189,
+    "keil-delitzsch": 909,
+    "matthew-henry": 1167
+  },
+  "index_distinct_book_chapters": 1190,
+  "verse_anchored_content_elements": 78053,
+  "content_element_types": {
+    "verse": 78053
+  },
+  "file_manifest_entries_checked": 6130,
+  "file_hash_size_mismatches": [],
+  "json_decode_errors": [],
+  "reported_http_404_count": 15,
+  "upstream_catalog_chapter_counts_match": true,
+  "cautions": [
+    "Catalog claims of public domain are upstream metadata, not independent verification of source editions or transcriptions.",
+    "Commentary content includes chapter introductions and section-level notes; verse anchors do not necessarily mean complete verse coverage.",
+    "Original Hebrew/Greek lexical claims in commentary are historical assertions, not verified modern analysis.",
+    "The 15 missing chapter URLs are retained as upstream gaps; the advertised total matches available successful files.",
+    "No GitHub deployment or player integration performed."
+  ]
+}

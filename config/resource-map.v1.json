@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "library_id": "sotw-historical-commentaries",
+  "routing": {
+    "passage_lookup": "data/index/passage-chapters.v1.json",
+    "source_version_manifest": "config/library-manifest.v1.json",
+    "local_archive": "helloao-historical-commentaries.zip",
+    "publication": "future GitHub Release attachment or separately hosted source data; no public URL assumed"
+  },
+  "consumer_contract": {
+    "input": {
+      "passages": [
+        "GEN.1.1",
+        "GEN.1.2"
+      ],
+      "authors": [
+        "john-gill",
+        "matthew-henry"
+      ],
+      "source_version": "helloao-2026-11-01",
+      "display_edition_id": "ASV1901"
+    },
+    "display_edition_id_is_context_only": true,
+    "output_has": [
+      "canonical_passage",
+      "selected_authors",
+      "source_version",
+      "entries",
+      "missing_authors",
+      "source_checksums",
+      "provenance"
+    ]
+  },
+  "note": "No live HTTP endpoint or GitHub Pages deployment exists yet. Local CLI is the tested retrieval interface; future HTTP adapter should implement this contract."
+}

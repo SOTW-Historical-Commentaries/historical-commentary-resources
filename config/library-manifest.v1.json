@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "library_id": "sotw-historical-commentaries",
+  "default_source_version": "helloao-2026-11-01",
+  "source_versions": [
+    {
+      "version": "helloao-2026-11-01",
+      "archive_filename": "helloao-historical-commentaries.zip",
+      "archive_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+      "storage_kind": "user_local_zip_or_release_asset",
+      "release_asset_url": null,
+      "index_path": "data/index/passage-chapters.v1.json",
+      "data_status": "source_audited_historical_editions_not_independently_verified",
+      "chapter_records": 6123,
+      "author_ids": [
+        "adam-clarke",
+        "jamieson-fausset-brown",
+        "john-calvin",
+        "john-gill",
+        "keil-delitzsch",
+        "matthew-henry"
+      ]
+    }
+  ],
+  "retrieval_contract": {
+    "resource_map": "config/resource-map.v1.json",
+    "script": "scripts/get_passage.py",
+    "passage_id_format": "GEN.1.1",
+    "book_chapter_format": "GEN.1",
+    "translation_independent": true,
+    "supported_author_switch": true,
+    "supported_source_version_switch": true,
+    "supports_full_chapter_retrieval": true,
+    "verse_filtering": "explicit verse anchor filtering, may exclude broader chapter/section notes"
+  },
+  "rights": "retain per-source license metadata; upstream public-domain marks not independently verified"
+}

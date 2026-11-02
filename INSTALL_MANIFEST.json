@@ -1,0 +1,43 @@
+{
+  "package": "historical-commentary-resources-manual-install",
+  "source_zip_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+  "files": {
+    "README.md": {
+      "bytes": 3537,
+      "sha256": "e832900e8cf93e9c5d8307bc66cfd21faea57c1cc37c27970d9ee0a2e9f43fc9"
+    },
+    "audit/SOURCE_AUDIT.json": {
+      "bytes": 1478,
+      "sha256": "9a3a0e36bf1e49987fe007c7e12adcdc261cb1235befefe4129883cbe251ec99"
+    },
+    "audit/SOURCE_CATALOG_SNAPSHOT.json": {
+      "bytes": 6504,
+      "sha256": "6bfef760d5ee685934aa2010ed09eb87d2f8c06454e7382ade25a441934d2bfa"
+    },
+    "audit/UPSTREAM_404_EXCEPTIONS.json": {
+      "bytes": 4927,
+      "sha256": "9f904660ec3571dfbf601a9e82d59febc3b91b013f645a66f982dd0d5eab2a27"
+    },
+    "config/library-manifest.v1.json": {
+      "bytes": 1378,
+      "sha256": "0934daef6833fbc47aff7a9aed2ef0aa6e5e6d4be6e4eb54445f7668bb86fb35"
+    },
+    "config/resource-map.v1.json": {
+      "bytes": 1081,
+      "sha256": "597ad06b9020ff289c5a99d93488c87de10bffdb13077fe14ac4d5382692ac04"
+    },
+    "data/index/passage-chapters.v1.json": {
+      "bytes": 1634550,
+      "sha256": "ee1bd6dd862579c9ee98b792d8fba5a9f9bd4390f37f5a0ee70f57605fed8261"
+    },
+    "docs/ENDPOINT_AND_HOT_SWAP_CONTRACT.md": {
+      "bytes": 1240,
+      "sha256": "031dd84effb45968e344c681710795cacecc39d77a84df426dca5b445a208ed7"
+    },
+    "scripts/get_passage.py": {
+      "bytes": 4602,
+      "sha256": "97f63e1e47d604f5a8d0ac6ef62deb7ce2d533cd51210c3f89df987c01d5949a"
+    }
+  },
+  "test": "GEN.1.1 john-gill and matthew-henry extraction passed"
+}
