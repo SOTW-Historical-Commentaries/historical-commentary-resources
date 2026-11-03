@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.0.0-prototype",
+  "kind": "sotw_commentary_public_manifest",
+  "snapshot_id": "unified-pilot-2026-11-03",
+  "status": "STAGING_NOT_PRODUCTION",
+  "book_ids": [
+    "GEN"
+  ],
+  "author_ids": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "default_source_policy": "CrossWire module text + its own SWORD KJV verse index; HelloAO only when entire SWORD chapter lacks verse records or for John Gill",
+  "verse_gap_policy": "No neighboring-entry inference; no silent per-verse cross-edition patching.",
+  "notes": [
+    "No ASV/KJV translation verses included; KJV in metadata identifies SWORD versification only.",
+    "OSIS raw text preserved; content_plain is a display-only text projection.",
+    "SWORD first-verse records sometimes include introductions/prefaces.",
+    "Source version, archive SHA256, module license and edition provenance retained.",
+    "This prototype is not a deployed API."
+  ],
+  "source_modules": [
+    {
+      "author_id": "matthew-henry",
+      "module": "mhc",
+      "version": "2.2",
+      "archive_sha256": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+      "license": "Public Domain",
+      "text_source": "http://www.ccel.org/"
+    },
+    {
+      "author_id": "john-calvin",
+      "module": "calvincommentaries",
+      "version": "1.1",
+      "archive_sha256": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+      "license": "Public Domain",
+      "text_source": "http://www.ccel.org/"
+    },
+    {
+      "author_id": "adam-clarke",
+      "module": "clarke",
+      "version": "2.0",
+      "archive_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+      "license": "Public Domain",
+      "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible"
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "module": "jfb",
+      "version": "3.0",
+      "archive_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+      "license": "Public Domain",
+      "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt"
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "module": "kd",
+      "version": "2.0",
+      "archive_sha256": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+      "license": "Public Domain",
+      "text_source": "https://en.wikisource.org/wiki/Biblical_commentary_the_Old_Testament"
+    }
+  ],
+  "helloao_archive_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+  "versification_source_sha256": "ce1f526c64c2376f407308c2c23cb2d2fb58efaf5296327d2d8e408c3700650d",
+  "counts": {
+    "books": 1,
+    "chapter_author_records": 300,
+    "entries": 4370,
+    "indexed_verse_links": 7114,
+    "sword_chapter_author_records": 250,
+    "chapter_author_records_with_embedded_front_matter_flag": 53,
+    "helloao_chapter_author_records": 50,
+    "chapters": 50
+  },
+  "author_source_breakdown": {
+    "matthew-henry": {
+      "CrossWire/SWORD": 50
+    },
+    "john-calvin": {
+      "CrossWire/SWORD": 50
+    },
+    "adam-clarke": {
+      "CrossWire/SWORD": 50
+    },
+    "jamieson-fausset-brown": {
+      "CrossWire/SWORD": 50
+    },
+    "keil-delitzsch": {
+      "CrossWire/SWORD": 50
+    },
+    "john-gill": {
+      "HelloAO": 50
+    }
+  }
+}
