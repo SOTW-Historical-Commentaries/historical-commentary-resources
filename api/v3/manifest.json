@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_manifest",
+  "snapshot_id": "structured-genesis-2026-11-03",
+  "status": "STAGING_NOT_PRODUCTION",
+  "source_snapshot": "unified-pilot-2026-11-03",
+  "source_policy": "CrossWire text + native SWORD index for five authors; HelloAO for Gill and missing chapters",
+  "books": [
+    "GEN"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "nonverse_roles": {
+      "volume_preface": 1,
+      "chapter_introduction": 50,
+      "title_page": 1,
+      "translator_preface": 1,
+      "historical_dedication": 1,
+      "author_dedication": 1,
+      "book_preface": 1,
+      "group_introduction": 5,
+      "editorial_edition_notes": 1,
+      "book_heading": 1,
+      "chapter_heading": 1,
+      "book_introduction": 2,
+      "passage_overview": 1
+    },
+    "verse_records_with_front_matter_separated": 50,
+    "navigation_sections": 67,
+    "reader_visible_entries": 4366,
+    "author_chapters": 300,
+    "original_entries": 4370,
+    "sword_chapters": 250,
+    "intro_only_sword_first_verse_records": 4,
+    "helloao_chapters": 50,
+    "chapters": 50,
+    "verse_author_routes": 7110
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "source_integrity": "Raw SWORD content_osis, source SHA, author, verse anchors, rights and source version are preserved in all entry records",
+  "reader_policy": "Nonverse front matter is separately identified and not automatically included in verse reader; no inference, review, or editorial text rewriting.",
+  "compatibility": "Jake and future commentaries may use same labels with their own provenance and status; this publication contains historical authors only.",
+  "notes": [
+    "Book and chapter navigation uses P identifiers not Scripture verse zero.",
+    "Prefatory splits require explicit source headings/section markers; unresolved records remain available as originals.",
+    "Original v1 and v2 APIs are not replaced; this is a separate review pilot.",
+    "Author lifetimes, geographic associations, and publication dates have distinct named fields with source URLs."
+  ]
+}
