@@ -1,0 +1,29 @@
+{
+  "package": "SOTW-Historical-Commentaries-Visual-Review-Demo-v1",
+  "target_repo": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "install": "manual_repo_root_additive",
+  "source_version": "helloao-2026-11-01",
+  "file_count_including_manifest": 3,
+  "files": {
+    "index.html": {
+      "bytes": 16370,
+      "sha256": "25ab87014ef2f4ffc585bab84a99b431ea5ce00f2a442ef98165254150cbc4d4"
+    },
+    "docs/DEMO_REVIEW_SITE.md": {
+      "bytes": 3818,
+      "sha256": "166c1f2dbc07e81718153171acc92170b9f19bc562f83af722daa9de3c086716"
+    }
+  },
+  "preserve_existing_paths": [
+    "api/",
+    "audit/",
+    "config/",
+    "data/",
+    "docs/ENDPOINT_AND_HOT_SWAP_CONTRACT.md",
+    "scripts/",
+    "tests/",
+    "existing GitHub Releases"
+  ],
+  "expected_pages_url": "https://sotw-historical-commentaries.github.io/historical-commentary-resources/",
+  "validation": "Chromium local-fixture UI tests passed; not deployed and not remote HTTP validated"
+}
