@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "mode": "offline_zip",
+  "source_version": "helloao-2026-11-01",
+  "chapter": "GEN.1",
+  "authors_tested": [
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "john-calvin",
+    "john-gill",
+    "keil-delitzsch",
+    "matthew-henry"
+  ],
+  "assertions_passed": 19,
+  "assertions": [
+    "manifest_source_version",
+    "manifest_six_authors",
+    "manifest_genesis_pilot",
+    "index_all_six",
+    "index_no_missing_authors",
+    "packet_six_authors",
+    "independent_author_identifiers",
+    "same_canonical_chapter",
+    "version_pinned",
+    "checksums_present",
+    "distinct_source_records",
+    "explicit_or_empty_not_invented",
+    "range_context_not_overclaimed",
+    "exact_anchor_preferred",
+    "missing_verse_does_not_fabricate",
+    "range_keeps_exact_and_context",
+    "intro_is_separate",
+    "edition_independent",
+    "display_edition_context_only"
+  ],
+  "limitations": [
+    "Source anchors can group multiple verses without explicit machine-readable spans.",
+    "Inferred spans are marked possible_section_context and never verified coverage.",
+    "Validation is source-structure/retrieval, not independent edition/textual fidelity.",
+    "HTTP mode tests served resources; offline mode does not establish HTTP availability."
+  ]
+}

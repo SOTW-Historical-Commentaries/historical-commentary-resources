@@ -1,0 +1,28 @@
+{
+  "package": "SOTW-Historical-Commentaries-Verse-Adapter-v1",
+  "base_commit_reviewed": "887e686c501becbf3f5b57c619b2122198497a09",
+  "source_version": "helloao-2026-11-01",
+  "deployment": "manual_upload_only",
+  "files": {
+    "docs/VERSE_RETRIEVAL_ADAPTER_v1.md": {
+      "bytes": 6459,
+      "sha256": "d01fe38448b80520e2f24c9daed02824627a5f68378c9bbbb7e8360678f2fcd2"
+    },
+    "scripts/commentary_retrieve.py": {
+      "bytes": 9997,
+      "sha256": "3161a7a16e172e98787471148612cd842720c424d402013bc4a84e981d025028"
+    },
+    "scripts/verify_genesis.py": {
+      "bytes": 5014,
+      "sha256": "1bb49707fac600f8b538cd6704adc2e877f37e97185297de5fbb542501451861"
+    },
+    "tests/GEN_1_2_EXAMPLE_PACKET.json": {
+      "bytes": 38966,
+      "sha256": "9bf65c9c40fbfa6af78a91f57cbc7a6babd5ba2dd6477dd26b3e89a8b79be425"
+    },
+    "tests/OFFLINE_ACCEPTANCE_REPORT.json": {
+      "bytes": 1281,
+      "sha256": "7f3f51d6c10c38fb9be2185ca965aa61297c20bc29e6afdb22fe5415ad071be2"
+    }
+  }
+}
