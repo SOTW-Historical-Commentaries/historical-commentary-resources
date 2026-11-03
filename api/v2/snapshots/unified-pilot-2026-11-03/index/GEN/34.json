@@ -1,0 +1,526 @@
+{
+  "schema_version": "2.0.0-prototype",
+  "kind": "sotw_commentary_chapter_index",
+  "snapshot_id": "unified-pilot-2026-11-03",
+  "canonical_chapter": "GEN.34",
+  "verse_count": 31,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v2/snapshots/unified-pilot-2026-11-03/authors/matthew-henry/GEN/34.json",
+      "source_system": "CrossWire/SWORD",
+      "entry_count": 4,
+      "indexed_verse_count": 31,
+      "fallback_reason": "none"
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v2/snapshots/unified-pilot-2026-11-03/authors/john-calvin/GEN/34.json",
+      "source_system": "CrossWire/SWORD",
+      "entry_count": 13,
+      "indexed_verse_count": 13,
+      "fallback_reason": "none"
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v2/snapshots/unified-pilot-2026-11-03/authors/adam-clarke/GEN/34.json",
+      "source_system": "CrossWire/SWORD",
+      "entry_count": 14,
+      "indexed_verse_count": 14,
+      "fallback_reason": "none"
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v2/snapshots/unified-pilot-2026-11-03/authors/jamieson-fausset-brown/GEN/34.json",
+      "source_system": "CrossWire/SWORD",
+      "entry_count": 10,
+      "indexed_verse_count": 15,
+      "fallback_reason": "none"
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v2/snapshots/unified-pilot-2026-11-03/authors/keil-delitzsch/GEN/34.json",
+      "source_system": "CrossWire/SWORD",
+      "entry_count": 7,
+      "indexed_verse_count": 31,
+      "fallback_reason": "none"
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v2/snapshots/unified-pilot-2026-11-03/authors/john-gill/GEN/34.json",
+      "source_system": "HelloAO",
+      "entry_count": 31,
+      "indexed_verse_count": 31,
+      "fallback_reason": "author_not_in_sword"
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        7
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        8
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        9
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        10
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        3
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        11
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        3
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        3
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        30
+      ]
+    }
+  }
+}

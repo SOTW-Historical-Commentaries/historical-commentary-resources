@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOTW | Unified Historical Commentaries v2 Pilot</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#15303b;background:#f3f6f7}*{box-sizing:border-box}body{margin:0}header{background:#102d39;color:#eaf3f2;border-bottom:5px solid #c4a26e;padding:25px clamp(16px,5vw,75px)}header .eyebrow{font-weight:750;letter-spacing:.23em;font-size:11px;color:#9ed0c9}h1{font-size:clamp(26px,3vw,38px);margin:10px 0 6px;letter-spacing:-.035em}header p{margin:0;color:#c4d8dc;font-size:13px;line-height:1.5}main{padding:25px clamp(14px,3vw,45px) 60px;max-width:1560px;margin:auto}.bar{display:grid;grid-template-columns:1.1fr .65fr .65fr 1.25fr 1.25fr auto;gap:12px;align-items:end;background:white;border:1px solid #d8e3e6;border-radius:12px;padding:18px}label{display:block;font-size:11px;font-weight:750;color:#59747b;text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px}select,input,button{font:inherit}select{height:40px;width:100%;border:1px solid #afc5ca;background:white;color:#1a3742;border-radius:7px;padding:0 8px}button{height:40px;border:0;color:white;font-weight:700;background:#155d6c;border-radius:7px;padding:0 18px;cursor:pointer}.status{padding:12px 16px;margin:15px 0;border:1px solid #d6e4e5;border-radius:10px;background:white;color:#4a6870;font-size:13px}.status.fail{background:#fff0ec;color:#833c34;border-color:#eab4a9}.columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{border:1px solid #d8e3e6;border-radius:12px;background:#fff;min-width:0;overflow:hidden}.cardhead{padding:17px 20px;border-bottom:1px solid #d8e3e6}.card h2{font:normal 25px Georgia,serif;margin:0 0 4px}.sub{color:#617780;font-size:12px}.maincard{padding:18px 20px 22px}.tag{display:inline-block;padding:5px 9px;background:#e1f2ec;color:#185d49;font-size:11px;font-weight:750;border-radius:6px;margin-bottom:10px}.tag.none{background:#eef2f4;color:#657981}.tag.warn{color:#7f5518;background:#fff0d2}.meta{font-size:12px;color:#61757e;line-height:1.5;margin:8px 0 15px}.entry{padding:0 0 22px;border-bottom:1px solid #e0e8ea;margin-bottom:18px}.excerpt{font:16px/1.65 Georgia,"Times New Roman",serif;white-space:pre-wrap;overflow-wrap:anywhere;color:#20363c}.excerpt.small{max-height:220px;overflow:hidden;mask-image:linear-gradient(#000 70%,transparent)}details{margin-top:12px}summary{cursor:pointer;font-weight:650;color:#1d6474;font-size:12px}a{color:#1e6273}.help{font-size:12px;color:#627880;line-height:1.6;margin-top:18px;max-width:1050px}.foot{font-size:11px;color:#718790;margin-top:14px}.pre{margin:11px 0;padding:10px 12px;background:#fff8e9;border-left:4px solid #dcba75;font-size:12px;line-height:1.55;color:#78571d}@media(max-width:1040px){.bar{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:720px){.bar{grid-template-columns:repeat(2,minmax(0,1fr))}.columns{grid-template-columns:1fr}}@media(max-width:450px){.bar{grid-template-columns:1fr}}@media print{.bar{display:none}.columns{grid-template-columns:1fr}.excerpt.small{max-height:none;mask-image:none}}
+</style>
+</head>
+<body>
+<header><div class="eyebrow">SERVANTS OF THE WAY · HISTORICAL SOURCES</div><h1>Unified Commentary Review <small style="font-size:14px;font-weight:500;opacity:.9">v2 pilot</small></h1><p>CrossWire/SWORD verse indexing and original module text for five authors · HelloAO for John Gill · Genesis only</p></header>
+<main>
+<form class="bar" id="controls"><div><label for="book">Book</label><select id="book"><option value="GEN">Genesis (pilot)</option></select></div><div><label for="ch">Chapter</label><select id="ch"></select></div><div><label for="v">Verse</label><select id="v"></select></div><div><label for="left">Commentary A</label><select id="left"></select></div><div><label for="right">Commentary B</label><select id="right"></select></div><button type="submit">View passage</button></form>
+<div id="status" class="status" role="status">Loading pilot manifest…</div><div class="columns"><article class="card" id="pane-left"><div class="cardhead"><h2>Commentary A</h2></div><div class="maincard">Loading…</div></article><article class="card" id="pane-right"><div class="cardhead"><h2>Commentary B</h2></div><div class="maincard">Loading…</div></article></div>
+<p class="help"><strong>What these labels mean:</strong> A SWORD indexed range links each verse to the same stored commentary record. This is a native index relationship, not inferred from a neighboring anchor. HelloAO verse anchors identify individual numbered entries; no neighboring coverage is invented. Some SWORD records include front matter with verse commentary, and the preview flags possible examples. No Bible translation text or theological evaluation is included.</p><div class="foot">Read-only demonstration. Published v1 endpoints and the existing review homepage are not modified.</div>
+</main>
+<script>
+'use strict';
+const A=['matthew-henry','john-calvin','adam-clarke','jamieson-fausset-brown','keil-delitzsch','john-gill'];
+const N={'matthew-henry':'Matthew Henry','john-calvin':'John Calvin','adam-clarke':'Adam Clarke','jamieson-fausset-brown':'Jamieson-Fausset-Brown','keil-delitzsch':'Keil & Delitzsch','john-gill':'John Gill'};
+const $=id=>document.getElementById(id), cache=new Map();
+let manifest, snapshot, chapterIndex;
+function elt(tag,txt,cl){let x=document.createElement(tag); if(txt!==undefined&&txt!==null)x.textContent=String(txt);if(cl)x.className=cl;return x}
+function option(sel,value,label){let e=document.createElement('option');e.value=value;e.textContent=label;sel.append(e)}
+function status(s,failed=false){$('status').textContent=s;$('status').className='status'+(failed?' fail':'')}
+async function fetchJSON(path){if(cache.has(path))return cache.get(path);let r=await fetch(path);if(!r.ok)throw Error(path+' responded HTTP '+r.status);let o=await r.json();cache.set(path,o);return o}
+function p(s){return s?.replace(/[^a-zA-Z0-9-]/g,'')||''}
+function dataPath(kind,a,ch){return 'api/v2/snapshots/'+snapshot+'/'+kind+'/'+(kind==='authors'?a+'/':'')+'GEN/'+ch+'.json'}
+function updateURL(){if(!/^https?:$/.test(location.protocol))return;let q=new URLSearchParams({book:'GEN',chapter:$('ch').value,verse:$('v').value,a:$('left').value,b:$('right').value});history.replaceState(null,'','?'+q.toString())}
+async function loadIndex(){let ch=$('ch').value;chapterIndex=await fetchJSON(dataPath('index','',ch));let v=Number($('v').value||2);$('v').replaceChildren();for(let i=1;i<=chapterIndex.verse_count;i++)option($('v'),i,i);$('v').value=String(Math.min(Math.max(v,1),chapterIndex.verse_count));}
+function compose(pane,author,payload,verse,route,docpath){pane.replaceChildren();let head=elt('div',null,'cardhead'),title=elt('h2',N[author]||author);head.append(title);head.append(elt('div',payload.source.system==='CrossWire/SWORD'?'CrossWire module '+(payload.source.module_id||'')+' · '+(payload.source.module_version||''):payload.source.system==='HelloAO'?'HelloAO original JSON':'No source content','sub'));pane.append(head);
+let main=elt('div',null,'maincard');pane.append(main);
+const src=payload.source.system;
+main.append(elt('div',src==='none'?'No source chapter found':'Source: '+src,'tag'+(src==='none'?' none':'')));
+if(!route?.length){main.append(elt('p','No source-indexed entry for Genesis '+payload.chapter+':'+verse+' in this author’s selected edition. Nothing has been inferred from nearby entries.','meta'))}
+else{
+ for(const idx of route){const e=payload.entries[idx];if(!e){main.append(elt('p','Invalid route index '+idx,'meta'));continue}
+ const node=elt('section',null,'entry');node.append(elt('div','Genesis '+payload.chapter+':'+e.start_verse+(e.end_verse===e.start_verse?'':'–'+e.end_verse),'tag'));
+ node.append(elt('div',e.coverage_basis==='sword_same_record_binary_index'?'Native SWORD record link · '+(e.end_verse-e.start_verse+1)+' verse(s)':'Original HelloAO numbered verse anchor','meta'));
+ if(e.embedded_front_matter_possible)node.append(elt('div','This stored SWORD entry appears to contain preface or introduction material. The original record is preserved; it has not been manually split into separate sections.','pre'));
+ const text=e.content_plain||'[Source entry contains no displayable plain text]';
+ if(text.length>2600){node.append(elt('div',text.slice(0,2400)+'…','excerpt small'));let details=elt('details');details.append(elt('summary','Read complete original stored entry ('+text.length.toLocaleString()+' characters)'));details.append(elt('div',text,'excerpt'));node.append(details)}
+ else node.append(elt('div',text,'excerpt'));
+ node.append(elt('div','Entry ID: '+e.entry_id,'foot'));main.append(node)
+ }
+}
+if(payload.chapter_introductions?.chapter){let details=elt('details');details.append(elt('summary','Chapter introduction'));details.append(elt('div',payload.chapter_introductions.chapter,'excerpt'));main.append(details)}
+let link=elt('a','Open exact JSON record');link.href=docpath;link.target='_blank';link.rel='noopener noreferrer';main.append(link)
+}
+async function render(){try{status('Loading source-backed verse index…');updateURL();let ch=$('ch').value;let v=$('v').value;let verseData=chapterIndex.verse_routes[String(v)]||{};
+ const authors=[$('left').value,$('right').value];for(let i=0;i<2;i++){let a=authors[i];let path=dataPath('authors',a,ch);let data=await fetchJSON(path);if(data.canonical_chapter!=='GEN.'+ch)throw Error('Chapter identity mismatch for '+a);compose($('pane-'+(i?'right':'left')),a,data,Number(v),verseData[a],path)}
+ status('Genesis '+ch+':'+v+' · Source: SWORD native range index for five authors, HelloAO exact verse anchors for John Gill. No adjacent-anchor inference.');
+}catch(err){status('Could not load pilot: '+err.message,true);console.error(err)}}
+async function start(){try{manifest=await fetchJSON('api/v2/manifest.json');if(manifest.status!=='STAGING_NOT_PRODUCTION')throw Error('Unexpected manifest');snapshot=manifest.snapshot_id;
+ for(let ch=1;ch<=50;ch++)option($('ch'),ch,ch);
+ for(let i=0;i<2;i++)for(let a of A)option($(i?'right':'left'),a,N[a]);
+ const q=new URLSearchParams(location.search);$('ch').value=q.get('chapter')||'1';$('left').value=A.includes(q.get('a'))?q.get('a'):'matthew-henry';$('right').value=A.includes(q.get('b'))?q.get('b'):'john-gill';
+ await loadIndex();$('v').value=q.get('verse')||'2';await render();
+ $('controls').addEventListener('submit',e=>{e.preventDefault();render()});$('ch').addEventListener('change',async()=>{try{await loadIndex();await render()}catch(e){status(e.message,true)}});$('v').addEventListener('change',render);$('left').addEventListener('change',render);$('right').addEventListener('change',render)
+}catch(e){status('Unable to initialize: '+e.message,true);console.error(e)}}
+start();
+</script>
+</body></html>

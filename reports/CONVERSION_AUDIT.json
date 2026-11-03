@@ -1,0 +1,45 @@
+{
+  "status": "BUILT_NOT_PUBLISHED",
+  "source_policy": "CrossWire module text + its own SWORD KJV verse index; HelloAO only when entire SWORD chapter lacks verse records or for John Gill",
+  "counts": {
+    "books": 1,
+    "chapter_author_records": 300,
+    "entries": 4370,
+    "indexed_verse_links": 7114,
+    "sword_chapter_author_records": 250,
+    "chapter_author_records_with_embedded_front_matter_flag": 53,
+    "helloao_chapter_author_records": 50,
+    "chapters": 50
+  },
+  "author_source_breakdown": {
+    "matthew-henry": {
+      "CrossWire/SWORD": 50
+    },
+    "john-calvin": {
+      "CrossWire/SWORD": 50
+    },
+    "adam-clarke": {
+      "CrossWire/SWORD": 50
+    },
+    "jamieson-fausset-brown": {
+      "CrossWire/SWORD": 50
+    },
+    "keil-delitzsch": {
+      "CrossWire/SWORD": 50
+    },
+    "john-gill": {
+      "HelloAO": 50
+    }
+  },
+  "source_coverage_exceptions": [],
+  "source_coverage_exception_count": 0,
+  "coverage_exception_list_truncated": false,
+  "caveats": [
+    "Binary index equality establishes identical stored SWORD record, not text-level coverage of every verse.",
+    "KJV is the verse numbering system; the commentary does not contain any translation verse texts.",
+    "A SWORD verse-1 entry can include front matter and section text; marked as possible.",
+    "No source-text substitution or cross-edition merging is performed.",
+    "HelloAO fallback operates at the chapter level; absent per-verse indexes remain absent.",
+    "Source content may include historical HTML/OSIS and is not safe to render unsanitized."
+  ]
+}
