@@ -1,0 +1,1797 @@
+{
+  "schema_version": "1.0.0",
+  "package": "SOTW Structured Commentary Genesis v3 staging",
+  "package_type": "repository-root-relative_additive",
+  "generated_from": "SOTW Unified Commentary Genesis v2 staging pilot; no v1/v2 original file replacements",
+  "source_snapshot": "unified-pilot-2026-11-03",
+  "target_snapshot": "structured-genesis-2026-11-03",
+  "file_count_excluding_this_manifest": 357,
+  "files": [
+    {
+      "path": "api/v3/authors.json",
+      "sha256": "0e620f1c2b9c16bcf50b1229dd023f5dcb954159a3f1a971de20d4e52df9bb07",
+      "bytes": 4683
+    },
+    {
+      "path": "api/v3/manifest.json",
+      "sha256": "60d69c5c9e7be806c9a8a798cfb4e13fcd50bcae1cb58cd2b2b28e32893e15c1",
+      "bytes": 2274
+    },
+    {
+      "path": "api/v3/navigation-schema.json",
+      "sha256": "f762cf499dfcd899ee257a989431d782e8dcee934dca067e7db345348fb26d8d",
+      "bytes": 1650
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/1.json",
+      "sha256": "043138258fa6f44fc5e46fb6a8c4757acc9f235cab5a0d031906f13a29ea3b77",
+      "bytes": 245737
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/10.json",
+      "sha256": "12dfd10037cfa400d49b86af3036a6b15f002d9fa6b27f8135a9c1e83b6fa944",
+      "bytes": 82743
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/11.json",
+      "sha256": "e85648e49d932df997854b60d523e18557d466d0a835499997d14d19b5bd6801",
+      "bytes": 88399
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/12.json",
+      "sha256": "5943d1505da58bc4016478a1fe240fccc2e709743515d9f14fc3ab92896b3aab",
+      "bytes": 82394
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/13.json",
+      "sha256": "f26a27e619af075da4572dbb02c66796b66e959050518c1bef6f61f5cdfef858",
+      "bytes": 49557
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/14.json",
+      "sha256": "d1b79e6674ae631304734bc02e514015c14530878cfa84403ca1c25993f1ca1f",
+      "bytes": 81986
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/15.json",
+      "sha256": "7128956935cab65d1d4aa3a2aef2efe4d3d83baa50a84058b40ffcb827501c0d",
+      "bytes": 96546
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/16.json",
+      "sha256": "11544f24524e00968b2403a74f958dbf031367bb96c7b58104713f3bd09994a4",
+      "bytes": 63734
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/17.json",
+      "sha256": "02827c698713aabddc4089e978fef665c902bf47539960a44f63683fdd2b4385",
+      "bytes": 100261
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/18.json",
+      "sha256": "e75df9195ab1ed584353797e4debc637676cf9681337e0e638a07b7ab085145c",
+      "bytes": 81486
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/19.json",
+      "sha256": "332faae84087167723e142400d2a6e6f26f88cca363dbf9cfe9b77ebe6d5eb46",
+      "bytes": 132360
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/2.json",
+      "sha256": "2ddb6e09c5e073fb4aea1ad13601d71728f332ebbbe4b7edb859541b38442634",
+      "bytes": 130436
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/20.json",
+      "sha256": "be4d147a5c4576e8a4c0c1345cf0689ca9875637486478e1afe86f308714fff4",
+      "bytes": 56517
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/21.json",
+      "sha256": "8ae57b058b70bf738bcf76f12f580af8b01998abf574273986f3de670896babe",
+      "bytes": 102597
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/22.json",
+      "sha256": "ba8618b0af97829312933c0eae28a3a85227ed74e33cecb7aa60a8d08fa3609a",
+      "bytes": 92366
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/23.json",
+      "sha256": "8b0b9ee42aede644dac57ebb8a3402e1df895192c3fa2a18dd7ee4ee25a1f52d",
+      "bytes": 56032
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/24.json",
+      "sha256": "2e9e49285bead9e130c55efb8e349288f98e42a650f212af314e39939ff2e6a3",
+      "bytes": 126489
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/25.json",
+      "sha256": "94359c13e3c740594c80d13bc99d3d48d6d69bf8437d44c935852ee62831a98a",
+      "bytes": 165666
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/26.json",
+      "sha256": "f27d29282b160e0cbaa21f76728d654679fa48dd74b4f948dd0ffda3ab745d39",
+      "bytes": 92594
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/27.json",
+      "sha256": "a54353c94eeceb17a5a3b8ddd0c69333a810148e2100f9adb00292686eaccda8",
+      "bytes": 131965
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/28.json",
+      "sha256": "41bcced7499c18b13714ffff9cd89e1fca9d7de2d2cc6725cc645598ad720047",
+      "bytes": 108732
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/29.json",
+      "sha256": "ea996d89c5e8d56cad8eb87a28647a2d12d1429ca6d45f4c8b8b79e240410273",
+      "bytes": 96337
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/3.json",
+      "sha256": "9a1ef4dabef469c35cd51dc7e5e1ca015fb21c392bf17c4859bc7626c14defcf",
+      "bytes": 199666
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/30.json",
+      "sha256": "7b5ce3800e5bef36dae05cbbdbf23c342c647c4f16859e15092137775eb7bbc4",
+      "bytes": 98531
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/31.json",
+      "sha256": "23410836409d3504eda689a698cf097b66e625116e49328d22c6e20c5f2aa24b",
+      "bytes": 151329
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/32.json",
+      "sha256": "c9197e6239229f78b054de5961bbc6d28918a9bf0773609d3341c684d0f188c8",
+      "bytes": 94034
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/33.json",
+      "sha256": "247298045843178a8ef27fe8c5945c5d87d9d93962e03ec2943dc98c73909c2e",
+      "bytes": 44680
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/34.json",
+      "sha256": "2cb5863b826a51bc41f8cedf5e1c6ddd6b6f218185073909498a30f9fe528360",
+      "bytes": 59226
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/35.json",
+      "sha256": "f9634d4735b54746ea162187ac857b0f8395ad2026ddb005610c0c57406c75d8",
+      "bytes": 83494
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/36.json",
+      "sha256": "f76d5c0667743a0f17551740215cfff87802d12b95dfbc0f61480fc75fb06414",
+      "bytes": 76130
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/37.json",
+      "sha256": "2845601405952c62b2bd9a7d6628bc193d51f4d5e28512f590dd650e35323dd1",
+      "bytes": 75170
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/38.json",
+      "sha256": "4f3e653a3e61a35b91eadff8f63a7ea3779f43d15ca60c302e9215b43a3a8f3d",
+      "bytes": 68517
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/39.json",
+      "sha256": "969ec0faabcfc42094b23ccd71e1216de49ed1ea85852a1532788e864c264fb7",
+      "bytes": 39167
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/4.json",
+      "sha256": "223e047e9236cc8ba502e05ab82a6e3a4eca38fe8417da126c629f31914e7352",
+      "bytes": 139067
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/40.json",
+      "sha256": "403b847b1609c24f5f472c2489154963fc08cc06e7b4da8168456bea1179ed82",
+      "bytes": 39382
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/41.json",
+      "sha256": "47e946e457bd6a403eea795487e5b11f894f4b259561428416bc1c0973969f6c",
+      "bytes": 105413
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/42.json",
+      "sha256": "344f2114384d6261407471c278b275e9ce546bd12355fe9d6ff1be1288801ca9",
+      "bytes": 64891
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/43.json",
+      "sha256": "445610ff0243b52d696979cfe63c3397cd3f1e601de2584f7515222c2c3ca506",
+      "bytes": 57336
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/44.json",
+      "sha256": "8e2bbb174b713d2d16b49bc7c31ab2978858e9a4f6e949484b54a2fdf4cbeb61",
+      "bytes": 31602
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/45.json",
+      "sha256": "cffe21bd259042027870be906a55e3320b5d7f272bf5219d16da892240c1ec01",
+      "bytes": 71997
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/46.json",
+      "sha256": "990122d86fb7759827dc906f7e845c7e161960cf7929415a8340d13a5885042a",
+      "bytes": 70721
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/47.json",
+      "sha256": "70b36188630ead4a4d534c6c4bfe8f135ab4a376994f95e2a00b57700dc260cf",
+      "bytes": 68786
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/48.json",
+      "sha256": "d0960bea860d405b73128f8ed6ff236e59404f06531eb876e40785c78862b3bf",
+      "bytes": 78259
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/49.json",
+      "sha256": "b4c0e215c60527a5a454b1c6d0cc5ef4331eb37742c5e8e1526941ee7853d19c",
+      "bytes": 184666
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/5.json",
+      "sha256": "eb7eac370bab59ff097e6b88559391b01240aa7797d0ea3ee768149215c97a8a",
+      "bytes": 45113
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/50.json",
+      "sha256": "f9f8da297dc366fa08bf448d107bcab57b4a3a33c1b3325f49318827c7c1ee0d",
+      "bytes": 192101
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/6.json",
+      "sha256": "666f7d0a17cae4285bef2be9e897551bef79b82e8713a205988536a8d94defaa",
+      "bytes": 88371
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/7.json",
+      "sha256": "87134e0f224401f43e0a9c795a0ef2502eb7332244be33fe2896e4b45710febd",
+      "bytes": 44917
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/8.json",
+      "sha256": "cb9fa0ea51ee8f88255040227bef7addb1e9e6229ce75317b8982ed508ad0281",
+      "bytes": 61077
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/adam-clarke/GEN/9.json",
+      "sha256": "810374612802423ee8c72ce3b788afdf5ed00b81fa1fb537e30b065c29b9ad6c",
+      "bytes": 95221
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+      "sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+      "bytes": 317823
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/10.json",
+      "sha256": "d8b18c251d6d3756c71aec96071460ea259e6efd852c97cfc3c6158a6d05ee29",
+      "bytes": 25197
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/11.json",
+      "sha256": "a70ff64f870145b0ba8514c773db7160cec091c12404c7f92ba6fa3a482356ad",
+      "bytes": 18829
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/12.json",
+      "sha256": "1b2f1679dc4a917798475b97803a1b6abd15ddb9e5c6dd977d738176a41866ad",
+      "bytes": 23839
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/13.json",
+      "sha256": "29c56f3dd5d41d2d7da9fb38dc6f5dd308d4c38b6a1bf25a28350ebe81835eda",
+      "bytes": 21077
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/14.json",
+      "sha256": "d96ba61c4df35359e8bc9816a0c38534ef667dfcc69fab0b1fe2212219cd6693",
+      "bytes": 21403
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/15.json",
+      "sha256": "4b4047200f717e5b54dc905f6124628d4ed18720c7df65c4578dff917b5a18ff",
+      "bytes": 15168
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/16.json",
+      "sha256": "e5b2e182870edbe31f376d59a7c2ab9978661e479da32afe3efb0af4d608ce48",
+      "bytes": 17057
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/17.json",
+      "sha256": "4915e0b74408f0027432becf17d1f78d017e76551868daa6ce0d7257e3c11743",
+      "bytes": 23414
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/18.json",
+      "sha256": "f066faaee8c1b084d9b8abb8defd0a929671c3c4d9a44701de8067c16fc4ab08",
+      "bytes": 33362
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/19.json",
+      "sha256": "5a2a470699c2f11c34c5a87c8f4f8c1ca789c36967bebc82b29162f8257a872b",
+      "bytes": 32077
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/2.json",
+      "sha256": "040d1b05f13737b23e2dc0cab1e1b31c9ea812646320f3bb45a3b34a52c1ee42",
+      "bytes": 40099
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/20.json",
+      "sha256": "22f34407ee90b124bfa1a049060719ba55b2a8d3e2ff920c931bb142965d1fc0",
+      "bytes": 15784
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/21.json",
+      "sha256": "03f7dff446858be50c96ecf8080d87d16477a753ddfd5da6162a7989ca7a62ab",
+      "bytes": 32441
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/22.json",
+      "sha256": "03673758d2323ae70a5fbd746aec7d39c25d6540761cfd58938b13afbe8fdf8a",
+      "bytes": 17902
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/23.json",
+      "sha256": "da49e789a957b41e66afe87f9101aa918e19412b8557fc5b1d17cafec0d1a4cf",
+      "bytes": 16628
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/24.json",
+      "sha256": "9964141e2d4b9851ee68981f78fe3a8af626386c42fa6728ba15428332f5b63e",
+      "bytes": 33285
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/25.json",
+      "sha256": "0c8adb0c9b18cb030b857eacdc8d6d4d1d22a81c9dfa9d8e9a7127f854efd868",
+      "bytes": 27527
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/26.json",
+      "sha256": "c1cc0f7022f9c30797cffd7cc9f94490194eefbf12216a5c5be09a0489795f11",
+      "bytes": 20393
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/27.json",
+      "sha256": "68a39141b1c0e48e075679da925c2a2f485d03b50075ad8dc83a149fc19a4eef",
+      "bytes": 32650
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/28.json",
+      "sha256": "48c1e5283b43846f3e7819193973b6f5407f746e3b93a302a0e65f65fa2f505e",
+      "bytes": 27498
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/29.json",
+      "sha256": "19ea280fe7d7e0a36fe1804c7d1f7c8793e676bda676aa9fe00c17f36fcc54a1",
+      "bytes": 31773
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/3.json",
+      "sha256": "79b753aaceb78b07d57f605d13e0f02699d31c109a4969e5e2d7aeefd2649847",
+      "bytes": 48388
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/30.json",
+      "sha256": "59c5846603055c6271eed029f0798e67239ce80cd2b71f343bb6dec136d8aa41",
+      "bytes": 28506
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/31.json",
+      "sha256": "8b5c2eb4f0827be9f6e9882b89ce3f5efda4d94bd0dc39bf63c0256cd0f1c8cf",
+      "bytes": 49513
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/32.json",
+      "sha256": "c6fa74913b63df808a81679b0931c98629e6e7345704e40ab3b42320a6237cb1",
+      "bytes": 37371
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/33.json",
+      "sha256": "f260b623348a98d1ba31d3765ddc85ceb77e2ff3e2cce4f393a8eb0606ccdf9f",
+      "bytes": 26882
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/34.json",
+      "sha256": "f4c758c5e9668f9f7d5c17c853a1a5c3b2187d613905f0e735b56fc387c6d1f4",
+      "bytes": 27810
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/35.json",
+      "sha256": "4525601e250f008449d9812117e8a1de452a88f0d3d983a6e7c874348971e7e6",
+      "bytes": 47598
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/36.json",
+      "sha256": "be5a6ae810a8cee0d3d8705bae3c30b593f108fde1e5385f80913220ca22bd09",
+      "bytes": 17404
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/37.json",
+      "sha256": "8ff5fa44b7cb3234e6717376bd0cf8c3b5e5f4fd8addff3527d1dc441889765b",
+      "bytes": 52466
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/38.json",
+      "sha256": "11e837b81b0d5a1092060e148e1c205c556d32de5b8293313e0ce1d99719218e",
+      "bytes": 15004
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/39.json",
+      "sha256": "2d3c41dd29ea055a0750f60f774145188fe7aa30d0f197f956407566a92838fd",
+      "bytes": 31334
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/4.json",
+      "sha256": "4cdd7c36ce3196fcd13af9910cbfb79e4c1db882361f1f33cfa73b3f07b3eb0d",
+      "bytes": 33710
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/40.json",
+      "sha256": "ecc7e6c66fe410047ab208f4dfb45cd2d040699e2a003c630c10b99bcf11236b",
+      "bytes": 28948
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/41.json",
+      "sha256": "6fe298b6f653922846126a33df160d94907074ae851d9e6c3eb1d5ab8e307528",
+      "bytes": 67451
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/42.json",
+      "sha256": "4ded906b1d5c04b14db28a61768cc2efd451ce9c551b7fc88527fd78dbac4768",
+      "bytes": 30515
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/43.json",
+      "sha256": "064a9e2e2644f4fae4773beb150c03152405dd485f3e9d49fc4b82357144cdb2",
+      "bytes": 29359
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/44.json",
+      "sha256": "24b0ab82fc09a907e259dd6f4b2f958c3ee3b0dade134c4525b31258e40b21de",
+      "bytes": 22721
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/45.json",
+      "sha256": "723a6bc30378eca7ca5736ba04e3a25952a209dff6a1d961e23563db4e495eb3",
+      "bytes": 27743
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/46.json",
+      "sha256": "6745697bad68cfa2881c16b846677016c9c8ebc7741372aaa08704e64ed4573d",
+      "bytes": 29921
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/47.json",
+      "sha256": "df7123f934014d17928d6aa03a5de668158a0877b9ed3520369a6ae7f1ce67f3",
+      "bytes": 30590
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/48.json",
+      "sha256": "27d6c714ea19b404b658710a159b4f90acf2fce36c0d12dcc53548c714e59d5b",
+      "bytes": 17006
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/49.json",
+      "sha256": "cd098660d7a6e86c786c91598e3a21b521d4eecad1a6654eaeaa8ffe8f8d4e25",
+      "bytes": 27953
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/5.json",
+      "sha256": "c898b2b0a3708aa402a893db853ea6711acc1a3bf25e4435f765db9552e677f0",
+      "bytes": 17491
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/50.json",
+      "sha256": "d17f2edf3f005c2db73250fe9e38aec910e4270e1660c2c67d5fa3576d03da03",
+      "bytes": 21805
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/6.json",
+      "sha256": "0193e0fa8254931c2cd5ed5d58f7024f0e3532c9b14935bfc718c5e2e016f92b",
+      "bytes": 27513
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/7.json",
+      "sha256": "f50a2d7cbdd2fb2d5972b40ca6e81241d52aa32c5dd902b81a96a51aecfd6068",
+      "bytes": 21985
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/8.json",
+      "sha256": "847a4ebaee5e3207622c826f1a505537e0560437777ec39263d7a582b89fef7d",
+      "bytes": 27777
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/9.json",
+      "sha256": "4b0de919b24e9eb6f6d4402f298896e2e158caa6051ea836bc022bfe10330cf0",
+      "bytes": 27961
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/1.json",
+      "sha256": "c1d173d32bb13ab777cc4aa30aa357569eaae19cc3001b6877a690b4727630b6",
+      "bytes": 408187
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/10.json",
+      "sha256": "3767e5c392b9cd5c65541486a4404af08fc54d83d215e58ed9ae02aa4382bed3",
+      "bytes": 98794
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/11.json",
+      "sha256": "4ba3b3f95f9eb1b9680b0413a8d654ea76956a6eefe144e9670f220c8b10fe8b",
+      "bytes": 156193
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/12.json",
+      "sha256": "e6c7eb32331642bbab20f523058443382788e3ba8f47430c338fc650de3d517c",
+      "bytes": 211495
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/13.json",
+      "sha256": "358a9a19ead3d22ed9d3cd6c117897eb88131fc2c1f1e891b513ca4dc30a1616",
+      "bytes": 112174
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/14.json",
+      "sha256": "b419dee18a62ab1a9580df04755809906c57a34dc1f388a723b71a9535e31204",
+      "bytes": 151151
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/15.json",
+      "sha256": "61f49305cd20a5fae30e35e34a7b1c81da20d27aac49157ac04060b950e00b30",
+      "bytes": 206386
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/16.json",
+      "sha256": "ab8ce73937e9c1d49ed38a7a3dc11a548425f63457b656043ea42c627bb37cee",
+      "bytes": 164857
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/17.json",
+      "sha256": "91ff91f0d9446e7f842008fe0542efbe135528dea1096bd12cb0abeb7ee75a52",
+      "bytes": 220402
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/18.json",
+      "sha256": "f4e225f7a24c49779d4a214141d58d3ecd81bcbcd3b7a0c7bee210444bedd4ca",
+      "bytes": 230024
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/19.json",
+      "sha256": "3bc46f7af1fc9bf4377578a6b0d47a9579fb2515803497e568c7501a9da638a7",
+      "bytes": 251624
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/2.json",
+      "sha256": "69e8c1a0a13d2343ce7291f04eeeac31e01b4cf3a8d25396887cfda272f994ad",
+      "bytes": 310845
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/20.json",
+      "sha256": "7bca7e5898527a28bffac29e8669fcb4971ac32f6f691393afdf37cc036ebf9b",
+      "bytes": 150867
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/21.json",
+      "sha256": "05e0f4292ae53f4e5df7e24e2e70b81665734aed9b1c2310eca645b9515eeb3d",
+      "bytes": 195041
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/22.json",
+      "sha256": "f00b92e9022c166203adc7b854eff903864570c486b42d6070be34ba2af513db",
+      "bytes": 142029
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/23.json",
+      "sha256": "4ee3cef654c69cfd46a994a0dec2665e11d62a86dab1630e3ba5253ee8d168b1",
+      "bytes": 79000
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/24.json",
+      "sha256": "8f2b9e4f8e89666fef33699c4d1bbf8e007b7c4f458b46b3fd4008c9b744fefe",
+      "bytes": 197746
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/25.json",
+      "sha256": "695593cb63b7faa7e05df4474d0804c05958a0f8e60697f23dfa1ab21e85abd6",
+      "bytes": 221451
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/26.json",
+      "sha256": "a48e5ab4c6318eba3e325e4dab09ee8e175eb259a700b497969b8065d1e82820",
+      "bytes": 211153
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/27.json",
+      "sha256": "d3a40ca668b9dac88ab4791e68c166abc69de4c5920bc968676840aa8dd0b0a8",
+      "bytes": 210933
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/28.json",
+      "sha256": "72238280e7a0a0e22085770cd90d6c27e6e21788a74d962e6e2871a0042258b5",
+      "bytes": 184102
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/29.json",
+      "sha256": "217963f0691158554a6cde0fe9f6b370d006847375c90740f328d1dd24c62854",
+      "bytes": 131330
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/3.json",
+      "sha256": "cc1c68aabb6c806a7249ddd666a51d7f5da6b4db112a351d231a33c153da4fc9",
+      "bytes": 404710
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/30.json",
+      "sha256": "7f745df38d8e3140bdd4fef20380d46ecb4c44d1a4b92135c9c0a8c3cc00bf84",
+      "bytes": 205567
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/31.json",
+      "sha256": "51cec1bf78c32924b6b890e77cd6b5dd168288453048174ac280253901127fff",
+      "bytes": 209038
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/32.json",
+      "sha256": "3fd2e18699dde86f60ef76a6a68a5c8906ac7fefd038e9707064c692edcf8819",
+      "bytes": 173446
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/33.json",
+      "sha256": "c941c398e0c6e7ea70d4c1913f0530c086751c77e894b1bb5c69aaca87fc2494",
+      "bytes": 122348
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/34.json",
+      "sha256": "66d537bef6854c45d921d4febfc91dec9dead5efbb4016b4474413743fdef880",
+      "bytes": 124315
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/35.json",
+      "sha256": "f0a2b17f9de6d9efd5fe2c6580cc24e19c5f079e3ec386e6380a6e30756064a3",
+      "bytes": 176842
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/36.json",
+      "sha256": "d0441fc5c97a0225249635d13999324129a734c3d4c1af05e9f3badbbdd9a06b",
+      "bytes": 67007
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/37.json",
+      "sha256": "b79f60d209faa02c5e128ea90e74e4dbdf90282289aa4927ce84a7376990e75c",
+      "bytes": 176250
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/38.json",
+      "sha256": "dea1bf9b3d87bc9bed2bcf30e748ee9337bb277a12475f2c0a8ec22a1a255cb9",
+      "bytes": 132147
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/39.json",
+      "sha256": "3d18cebbd6eac804a2375bb813ccae593058192812f57995741b0132daaa4ea9",
+      "bytes": 121361
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/4.json",
+      "sha256": "7d567a25ad16691dc8980ab56a15fe4e6465bc66cd7b53a636fe72cec061c56b",
+      "bytes": 310482
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/40.json",
+      "sha256": "201ffbd0aad08fe89c7b831fc8b73675bbb349118fb93b7d762ae4b58d77310b",
+      "bytes": 123937
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/41.json",
+      "sha256": "63bd5af3b49176e1f172de7a3a20102a36dca8a999231c28a93dfc6ded50f75b",
+      "bytes": 179322
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/42.json",
+      "sha256": "bedd4f12c2c3642ef1865e86e5e20bea342ed24edadf8ae5d78f8d081fd5b30b",
+      "bytes": 149186
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/43.json",
+      "sha256": "03c1102763aa5105ddeb9068cc418058059f0902779fd9da9a56a796e6bb3dea",
+      "bytes": 119798
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/44.json",
+      "sha256": "c6c6df0dc9299ddc01cb9a196485cf429c39f41fbdc027da051cf1664f7fafaa",
+      "bytes": 84291
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/45.json",
+      "sha256": "c7e699a534301a212632032a88d880e3431aa2bd545b82e380ebc8609f7ce675",
+      "bytes": 105745
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/46.json",
+      "sha256": "6cbb32e55ad8b05410d42955da33c852f419d77cb7d0be13b0c032915a38e3d0",
+      "bytes": 116256
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/47.json",
+      "sha256": "c2ebbfe094c059d94db52ec6e590f8fbd48797de0ce1a48545d8b41b9787ec9e",
+      "bytes": 193964
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/48.json",
+      "sha256": "2c96b405ed22b9d26d239983614f8aed9583bf551f75da5724dfd5ed2e5927db",
+      "bytes": 155163
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/49.json",
+      "sha256": "a3aee39982ff4191035030f8ed2629bafb41dd484497945ef7fb91c9c7f53aae",
+      "bytes": 315316
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/5.json",
+      "sha256": "f3886242057ae0d256013137c34af1ea0ffb4e3468efc435b5358714be289e11",
+      "bytes": 100086
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/50.json",
+      "sha256": "b1233260fbc504129efc5116918170d81bce4b9e1eaa30b4b2e893f33bc9f45d",
+      "bytes": 154600
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/6.json",
+      "sha256": "bd91c233eaffbdcd6f5da885262d55085149df0fe6a49e677d73cd65fd3950fa",
+      "bytes": 219714
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/7.json",
+      "sha256": "539c7bad348677bb10bf3fbc8aa18ccbc6723a4fe4bdd660f22946268aba06e7",
+      "bytes": 106509
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/8.json",
+      "sha256": "1ebb2617a4bc3ceb8f0a24d65dc29c8a60cfe3f1a5114ca0e745f08daace4488",
+      "bytes": 116940
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-calvin/GEN/9.json",
+      "sha256": "2dc439a797501d9c85385d074ecb2766c937c677e8b8bdbb1ddc3fef8f30bd26",
+      "bytes": 208176
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/1.json",
+      "sha256": "9282d5b5fc3399b1ccd02f5e41f558e568d4e73349b72cfc2fa41fdd9585f792",
+      "bytes": 332629
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/10.json",
+      "sha256": "ae7e5568156199100ab3c28f1945e77605f1504b268170a3bbe3bf1ac0d69123",
+      "bytes": 406236
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/11.json",
+      "sha256": "4316b7ffc97e8320194057e6b33d91d3533105a6ddc10247b25119a0735a6300",
+      "bytes": 242924
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/12.json",
+      "sha256": "13879212ac4286b9c817bcb8b96f7c050f5a6ce3f3f12674d933865f8091cf25",
+      "bytes": 158524
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/13.json",
+      "sha256": "392e83acc14087751687018d16f056f3870747f480c83c75520a95708714e98e",
+      "bytes": 117640
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/14.json",
+      "sha256": "d57fe1a2e58903371d6c1a5b3f73157db5e952d1a41da4e9cc6da70d704d967f",
+      "bytes": 200840
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/15.json",
+      "sha256": "a37cd1ecb1d4faed4fea83378672a8514384d09a7c5bcec50927519b064806ce",
+      "bytes": 171764
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/16.json",
+      "sha256": "ca4645b2a26459ca8ffcd77bf06ef507c5db4348d384168852b93fcd66cc53fc",
+      "bytes": 134888
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/17.json",
+      "sha256": "171b38bdcb8cb185780ec739227afe3f4a0b4843b6a66bdab5d882eed0c6063d",
+      "bytes": 194412
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/18.json",
+      "sha256": "c61aba35875cd7e86287046e07eda4047dc4498006afca56a6d20682fd0f68aa",
+      "bytes": 177076
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/19.json",
+      "sha256": "23889eeaf68e140795aa16a53316e49e96fe5d6c7236caf1eedcf1268b4d170e",
+      "bytes": 266504
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/2.json",
+      "sha256": "9c72580e3f501b01fa1ea0d738131357bf19211aa47400946e5c8356486a0c3d",
+      "bytes": 262597
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/20.json",
+      "sha256": "3d6d6c529d683c7cb8204f6bf0a260d9636efa85ef9c03d6021661feb8c707ad",
+      "bytes": 117592
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/21.json",
+      "sha256": "489a010f2a3852ff3308e7594f23151824c7721f57122eee3e62fa3ad830add8",
+      "bytes": 195620
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/22.json",
+      "sha256": "b95bb0de0cbcad5885cc40f07aec61f9ef2bad262732efa5598d114b86b3ace0",
+      "bytes": 196420
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/23.json",
+      "sha256": "ccab1b42ea026237ecd966e80fa5d040176e3a128450dd036ec836b8cce1ddfe",
+      "bytes": 104564
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/24.json",
+      "sha256": "01f17730fe68b016f90b01961ef282038c6989c6a0c8fa3ae8cf96a4c7afc607",
+      "bytes": 301940
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/25.json",
+      "sha256": "66195ecdd3247be04e614c4d8a9e76b24b22559947f47204a64de7a378a1d2c2",
+      "bytes": 207840
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/26.json",
+      "sha256": "a950c854c6fe94f76c761d4883971b1e6f2d327054b5630b4b22f60d32a1e8ce",
+      "bytes": 155728
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/27.json",
+      "sha256": "d420e33428d2b9d13e8dd8d63831ade03969db673d4e2ecfcefd4a83495024b9",
+      "bytes": 220680
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/28.json",
+      "sha256": "85440eb042147e78c75e518f9a25d9d8e2ae69f3a46e93a562fc5cb42215e5c6",
+      "bytes": 125832
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/29.json",
+      "sha256": "b567fad65500f28f6269ab58ef727dee300c07b7e271c0ba618f320f549e7080",
+      "bytes": 153172
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/3.json",
+      "sha256": "75b3b7e8502e8ba8c70472436363807624ed29da829288f9f2bb7abaf2c9d879",
+      "bytes": 274281
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/30.json",
+      "sha256": "34198ec058f507458f36a99d8a85cb782a835def08484dcae6114cb49bce8500",
+      "bytes": 191408
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/31.json",
+      "sha256": "93df0e796c940a7cf2dd2fe5c864e2a164ca2eca9350c7241593f89743455dc6",
+      "bytes": 264032
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/32.json",
+      "sha256": "b86e63fb62fd4328f9348d768a02e6759f924dc11621bffdf05a8b101d5f99a4",
+      "bytes": 170012
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/33.json",
+      "sha256": "77ddfeb6b8c27f3cda1cd4addf091ee49332263851b3b23c713f38a56a0839ef",
+      "bytes": 106312
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/34.json",
+      "sha256": "8a71c404e238d6d2a939c268ba4723d8a0804d0e6a1b501bf99f88475a659f4a",
+      "bytes": 141524
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/35.json",
+      "sha256": "31fba731cd1e84db59c8e1038a7aab77db9a3ac92c91778ff6ba699c74a6a83a",
+      "bytes": 147400
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/36.json",
+      "sha256": "123d0b568d8b1b491ec106bbe23901424798f01214bde78274220b4136287c9a",
+      "bytes": 174876
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/37.json",
+      "sha256": "64c9de92e904a6d40aa970e797a53f00fc8af09b64339b9ad1fb3a5240270b3d",
+      "bytes": 199572
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/38.json",
+      "sha256": "189f41db322c74d1a2b68ae873a773546fb9722669ffd1c8af2c66f6a72f31fe",
+      "bytes": 160072
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/39.json",
+      "sha256": "c7c43193da9da66643d0553cdd05dabba81a4e131ef3e3fde87e595b670b042f",
+      "bytes": 109088
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/4.json",
+      "sha256": "61a80a7e7df7616929a5005b2fe748c50a73577c98e3714be8d7c287095694b9",
+      "bytes": 248273
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/40.json",
+      "sha256": "920751e31e2162d85b6797ebff4170ad2006329fd6241e7e0a89796c75d861d0",
+      "bytes": 106004
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/41.json",
+      "sha256": "d607d234c8010115a5a4e7f2e7587f1284a63fc66bb12689743aa09aae5c4293",
+      "bytes": 250124
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/42.json",
+      "sha256": "03bdcdb4c6bac0f861b6f6731cc2c4ef5a998e783f5027eec3686a90d81c254b",
+      "bytes": 166976
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/43.json",
+      "sha256": "27c1290b9e64588f14c0edeab31d35e5b5dfb6d000ba2f3e83067fb7058aa0bb",
+      "bytes": 153471
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/44.json",
+      "sha256": "e0335e6fb91602b878b7474948d443e11ae4a90e67f68ddadd75b7b98364921b",
+      "bytes": 141164
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/45.json",
+      "sha256": "43a0a8907b42cddd971880c64658df89ab87d3c4cdbdcb8d101c6437139be1ff",
+      "bytes": 145308
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/46.json",
+      "sha256": "494f5902afe199b7fe387a5b317004f1183e129d5feda06a2b961811bf581fcd",
+      "bytes": 151536
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/47.json",
+      "sha256": "d8e5239779e7aeda8707007e97888e63bb9bdd97b4bf7d75795c88ae46eb2ced",
+      "bytes": 175140
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/48.json",
+      "sha256": "dcb35b16777554557002134e254b1fa10e3fc748642db18e00cd51c2da7d5bf9",
+      "bytes": 118500
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/49.json",
+      "sha256": "6ae54772b874611ae9f01716571676882c1d6715cd5a7772b96fccdabb05dc9e",
+      "bytes": 288932
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/5.json",
+      "sha256": "8e3df85a1a23ab0750ddc7e118294315f8d838a841d635f5894e661f1a8899c4",
+      "bytes": 155565
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/50.json",
+      "sha256": "e70d22b241ea974bb08e2e69bfaade6735d9669870283341eadd6152b6c246f3",
+      "bytes": 152084
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/6.json",
+      "sha256": "6e8f246d40c9c2335d61c351c7405e62421f90fd329967faa2c70812d6731ab9",
+      "bytes": 219285
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/7.json",
+      "sha256": "47680bc5eb857677b1ad20b1ed4349f3c4a5a909f726d68239da6d51a9a8edce",
+      "bytes": 134765
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/8.json",
+      "sha256": "b126047ecc3b0e5e420a6cd84bf874d62c2376606495930a6d6b9712dd597e5f",
+      "bytes": 173333
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/john-gill/GEN/9.json",
+      "sha256": "ac4a177c55bc6112e48b5b34db6b3c2debc21eae4ff114ff90fd900161c06f58",
+      "bytes": 195101
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/1.json",
+      "sha256": "7aa2e493ff65973812dbd634d019468610f557203948e0943d83c3edc09b602d",
+      "bytes": 445805
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/10.json",
+      "sha256": "6c61f7c0e57028a4f78601b076fd9730656f9f141a0fc7e0839c02db2d491d2b",
+      "bytes": 53080
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/11.json",
+      "sha256": "ea595cde2beb5f46eb90926da5e21a45b5e79be81a5ab6c1e1a031ae7ec8d2bc",
+      "bytes": 166255
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/12.json",
+      "sha256": "8756fce9ca316283e0813d7fd3977bd04dbff69ab42c78cbbf9d2beb43f29f91",
+      "bytes": 55707
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/13.json",
+      "sha256": "eb959aa685916b2177c91a923a14fe3fc2297f9c9b8adf9f7285079b31744c5e",
+      "bytes": 35527
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/14.json",
+      "sha256": "2ec4141602859204f65461dcc3603995da949552bb20a247f16718e308ea52e7",
+      "bytes": 78197
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/15.json",
+      "sha256": "802568e88e1d59dd167d31e5ed9778db0fd469240ee87e032b482e5a9d6d24a6",
+      "bytes": 73422
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/16.json",
+      "sha256": "a5f86888259e5267415535e8af570c4a5a9b3db19bd466a1e35c0cfa6545b84c",
+      "bytes": 34653
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/17.json",
+      "sha256": "2b9fd74c4c085b1f2ee6c40f24cf5efd6ed3f6500f2bedea1061494fdae33a16",
+      "bytes": 50257
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/18.json",
+      "sha256": "062d8c8d078112776dd10f2fc61b8d88fc5a186b278bb47e25e173c37577a36b",
+      "bytes": 42840
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/19.json",
+      "sha256": "5889550dd8f20ae5528bccd9c839696053d52768df41c696eeb5cd99ff6f60b5",
+      "bytes": 63120
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/2.json",
+      "sha256": "e0afab6d4d0c49961d2879f06dd3b2b539778710a60070ae79ce44c6187137a1",
+      "bytes": 201678
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/20.json",
+      "sha256": "def742b5d87486652bad1a40b484e832c22db1b546f285e45f162cab243ca143",
+      "bytes": 42151
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/21.json",
+      "sha256": "4cd345f2afd5459710239e8c148d64572626ff91a28fe7b9a6db2cce74281602",
+      "bytes": 42311
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/22.json",
+      "sha256": "795f26c303157624c268fad6095f09e50d9f30a5930ce4b27594ff35d2fd05be",
+      "bytes": 58991
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/23.json",
+      "sha256": "448e1f4a6ce979b410b3e45ce3bd2d5b66e21f33608c1ab55abc0b5616f427d7",
+      "bytes": 26284
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/24.json",
+      "sha256": "571c8623a5e65aa01bd594eb8c7e4d6cf3c7308c4c46d21e7f9a95a4c0fedaed",
+      "bytes": 43818
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/25.json",
+      "sha256": "100299271e020251ee68923339fc4b383c36a840e53d643ccf8f92c3c5986444",
+      "bytes": 73102
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/26.json",
+      "sha256": "30e7cd5e9ace0f29fc1157aa94f35c71c036bbfee7975fee7137ae65c744b95a",
+      "bytes": 37757
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/27.json",
+      "sha256": "a2cb165de8b13aa104fe631cdcf9ef8bf718a8030f23d6a2c96b8291993f0cf4",
+      "bytes": 66013
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/28.json",
+      "sha256": "f41c37a7ac6c23c04843d9a5f5a3f3c35e27186c65dcfd2eeebcc5b8269f349e",
+      "bytes": 30604
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/29.json",
+      "sha256": "5988412f12558c3a83e9390012bbf7c2350b160a80a258df4b71a298eaf798ab",
+      "bytes": 38515
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/3.json",
+      "sha256": "f132efcc76b3260a17735453ef5bd83fd7e2b81de55ac8e5bf6cc5b2612f93fd",
+      "bytes": 124200
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/30.json",
+      "sha256": "34f72b6db9af94a2fc9960bdb03753a8fb99ec426764b529d3cd11d82f83c596",
+      "bytes": 63491
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/31.json",
+      "sha256": "795c799d6e8b23b05851e7729b03ee387f408a12d1fd12a264621c15f3f50b0b",
+      "bytes": 72181
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/32.json",
+      "sha256": "0f0d94ba930a284a89a62cb9671fbd7cbf27de86b725fb7f3919174fd1a0c1d1",
+      "bytes": 59552
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/33.json",
+      "sha256": "33188097788c4ca098cdbf6ef3ea19bd8671c24185e6cd14b57924492c906b1d",
+      "bytes": 40158
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/34.json",
+      "sha256": "9cf72e59b441388dc86c9d4089069f719801104159423f41414487e5b22d1fc4",
+      "bytes": 41297
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/35.json",
+      "sha256": "4273483b8840998cae69089148b8610c267db6ca1a5c3011f9479db8b7db7dda",
+      "bytes": 37865
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/36.json",
+      "sha256": "a1be358b7a922c7cd3b777772d7309e6ec09e193387aedfebdc589b7dcb3485f",
+      "bytes": 73683
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/37.json",
+      "sha256": "74daec2c4fef749759efbec3bad8232d5e39a444d8f0c28cf7843cf6297ab49d",
+      "bytes": 88647
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/38.json",
+      "sha256": "6bc20423352213c0a53b6f933e1d9ed0891bdab2d46a82607b2d465fa869fdbd",
+      "bytes": 55800
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/39.json",
+      "sha256": "5ac58164805ed6656af9c9025471a86e07dc7c637bd1d5d17451599771e8e122",
+      "bytes": 23563
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/4.json",
+      "sha256": "f57227e85fe7151beeee9238ff7efd7d88898d0eab7bc80934f78f10daf3d647",
+      "bytes": 63707
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/40.json",
+      "sha256": "8f4a6415a50890e868a847591aef56b9724452c19a8808a677b807bf7abbe039",
+      "bytes": 26742
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/41.json",
+      "sha256": "e621e9fd7ffeae19cbe26e4fa40bc2d3800be546affb6054e55796cb138e0d5c",
+      "bytes": 62010
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/42.json",
+      "sha256": "271ee8aefa647550df16e08586e097f8c456139a7b49745b030d9902a0af41a1",
+      "bytes": 47231
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/43.json",
+      "sha256": "f6d3de2a7c8229d99fe2a2bd90ead4add03588dc688abce7f50534036f39e9e8",
+      "bytes": 37879
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/44.json",
+      "sha256": "c468daf6f1209ccc29aa0a0992ceadeb7e6f6446a5e3e91a58d5acd0e46cbb8d",
+      "bytes": 32711
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/45.json",
+      "sha256": "6653228b8356d341cd8d9164a5da6a53c6d9c33242f05eb404a908d5837ac1b4",
+      "bytes": 38231
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/46.json",
+      "sha256": "3d6a7425b7fd89acc3b5c909d8ed8c6fa995fd7f7774bd4b477a95c1d8424ef0",
+      "bytes": 63686
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/47.json",
+      "sha256": "ef1cbbd8fa61dfd724e46c80538000fceeb1c4c953d7ce45c2870a0e74fad183",
+      "bytes": 63909
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/48.json",
+      "sha256": "1440a634bee813b8560901a860ff2a52138ba8e6d1377160c26c325420846a95",
+      "bytes": 46403
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/49.json",
+      "sha256": "21f632675236daa66a078f23acfb0aa0e97f6aa12948855a881c036857b9bc3a",
+      "bytes": 124760
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/5.json",
+      "sha256": "75a0e9ea297fe870620f46f4221bb8ac004436295687296803b1ca4b6bdd10e7",
+      "bytes": 51604
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/50.json",
+      "sha256": "f7cb7f79dfc01121d0d7efa5ca6d9a6c112d798e38740e506cb247b0abb492c0",
+      "bytes": 50014
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/6.json",
+      "sha256": "1320b2f6cf6f370fa2c5f4394849e861633a68891ea6a4584f56f5821036f756",
+      "bytes": 153750
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/7.json",
+      "sha256": "cb7d46c388391d42a55cebbd73b8e76c2036acfd15164e64c17b4068a187553b",
+      "bytes": 32643
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/8.json",
+      "sha256": "ebe71d5e834aa723b1557269a8ad2b09b0290abdae06c7e824422417ab5dfd74",
+      "bytes": 36672
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/9.json",
+      "sha256": "ec7f8e30e22d97fb64bbbdd2769e435d334fc8c039e9d4e2ecc45dc85acd5802",
+      "bytes": 79630
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/1.json",
+      "sha256": "aa829340a557d9344046dd1056d0e50d436a44bb331de71b178683a4a95f2658",
+      "bytes": 325830
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/10.json",
+      "sha256": "6514c2f2f766fe1c07eaf0b4e62269ba4dbf24887cb61094578e9c3d5d29ea83",
+      "bytes": 52807
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/11.json",
+      "sha256": "c8832accd9bc142fef688c0c499f01c64d08e11c178a22cb11edecc6b6296be7",
+      "bytes": 95724
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/12.json",
+      "sha256": "5d7a77c8cf485bc1237074a651ebc0b383f556416025eded78188d2c901693e0",
+      "bytes": 115488
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/13.json",
+      "sha256": "3f4c69492533f5a156bbdf6b6515d9551d50e49dc2f7df796408af29e142c8be",
+      "bytes": 81662
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/14.json",
+      "sha256": "dbe51cdcadbf1b596670a437edbc23e5439b492e46ce79a84b128f0915c70fda",
+      "bytes": 95251
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/15.json",
+      "sha256": "4727cf01c428c2a36c5a871fca694c31933d31c7f02d05bf43bc9618e5399942",
+      "bytes": 125572
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/16.json",
+      "sha256": "f7c7fcdb2ccdcdfeba15d1f30666aea91252006daf822887d34056256d892055",
+      "bytes": 82161
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/17.json",
+      "sha256": "1153f770baab850d40c531927f297b20524466467160550a997aa2f01617b1cc",
+      "bytes": 93549
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/18.json",
+      "sha256": "7d697a82cbf925e0093ceaf7362216dd149feec89809dd6279f7c09b2b7ece42",
+      "bytes": 110552
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/19.json",
+      "sha256": "fa0bf658816b30032b5e66e4a716ca14c20f81cc75e86721cbc4e62040156026",
+      "bytes": 123671
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/2.json",
+      "sha256": "523e68a2a97ff67a4d837451f0aea63aad493d83d736922a136ff354acc48553",
+      "bytes": 156115
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/20.json",
+      "sha256": "77d580e718a55778b756db8e2905b84bd1b71f05ca7563998ef705d48fdfabf4",
+      "bytes": 61407
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/21.json",
+      "sha256": "43d94a6f463c4b3ef7252c35f1fdf1f9123b9bc8c84fef8f76c3487ba9327fcd",
+      "bytes": 99260
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/22.json",
+      "sha256": "deb37faa2e66017972c9cbabd424298121419714ab94f3e50c4399343311e3f2",
+      "bytes": 96287
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/23.json",
+      "sha256": "8c9ddf7a54d55b30796431714a383719ac79eba1b62798ff773608b00013aa95",
+      "bytes": 53213
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/24.json",
+      "sha256": "2d96680be07b3bd18f184923a695ef209ab2de89c0138790ea4fd286a803c7af",
+      "bytes": 143343
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/25.json",
+      "sha256": "0b53160ad918955ae417c5e18fce2fd47099a9c76a8fbe0174fb5e41f1125c28",
+      "bytes": 103003
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/26.json",
+      "sha256": "cda0525cbf26af06167aeeb4fbd9231ab853c2f9d248bee09c65750ccdbaa25c",
+      "bytes": 86472
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/27.json",
+      "sha256": "cdb05e9e7a0265ed68cb6636711a27e9d51b0007f4dcabfaeaa0e338b9d45937",
+      "bytes": 118703
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/28.json",
+      "sha256": "17cd903a025af90e6efe9e5112fb08e1b2edf128f7cdfc9609d3d81755c2e575",
+      "bytes": 96419
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/29.json",
+      "sha256": "7985e89015bf52a8d9e3e88af147677a5f0b58dfe432f21264a609598812bb16",
+      "bytes": 73942
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/3.json",
+      "sha256": "215c21ea5e12aee6245bf911543ce0ed984ab2fcf60e5767407682a5bd8e771d",
+      "bytes": 280220
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/30.json",
+      "sha256": "6217648cd7751a8847256d0cf1603dcfd313ef01383b17907127f4a6a9a65038",
+      "bytes": 97510
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/31.json",
+      "sha256": "4c03a518d056cdfdf1ab4aade3fed3c286fe3f7956e7b8048471235149eb3804",
+      "bytes": 127239
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/32.json",
+      "sha256": "57235d8e41892483b76f42f4c1929406af67e367d6eae8d052b9173ce14f9ef9",
+      "bytes": 117679
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/33.json",
+      "sha256": "22f4dc6ac8f2b45f6995bd99b497301ad0c09284d88156ef8a7a9c6056ea0a80",
+      "bytes": 63621
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/34.json",
+      "sha256": "73aa3d1bc51de6c4edeed5d3ff5742c6de3530356b314e5663d5bb8fb86bae91",
+      "bytes": 73962
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/35.json",
+      "sha256": "2ccf07477845b1daf0e5ebe8949ea21fd91d1d22f47a99407f75746c8d3c762a",
+      "bytes": 81503
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/36.json",
+      "sha256": "e3ce76b30d05203a635a1d87aaa0779191da86d075369d885fb3db0b91f68297",
+      "bytes": 50701
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/37.json",
+      "sha256": "9323a165235f7b0d1b651480d1a0ed5ee59f6393f3e5348657827c00a01c2aaa",
+      "bytes": 92601
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/38.json",
+      "sha256": "63c3528eea64d0af21ef38582eef1579b0d249ffb8f8e653d27666929b4abc65",
+      "bytes": 60887
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/39.json",
+      "sha256": "604f904c86c6942ed89ddac0485e9ec64e09cb7fcc63634c2aa1202aa5d4e339",
+      "bytes": 69658
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/4.json",
+      "sha256": "69b4df009047548e58162e07931b53b128df69ee3fe25643430a9de60fd45d8a",
+      "bytes": 200293
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/40.json",
+      "sha256": "e3ee2e3f89827c10404459c4876fea389d384125878ce6e401dfdb51c1c2a25c",
+      "bytes": 51513
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/41.json",
+      "sha256": "5363a98dd81af2974d350c40f20e912ef061d52c111347d78850448d364295ed",
+      "bytes": 90793
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/42.json",
+      "sha256": "669203d2dd860b20be3c0ac10f2feb4594af88aeae073c995fa8b1b98663c1ef",
+      "bytes": 75975
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/43.json",
+      "sha256": "8d644ac3eff053348935957e977e2e07c5b237aa78491af974e975a62694e5f8",
+      "bytes": 67839
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/44.json",
+      "sha256": "838f233b035084d333ed80863d11cef8580eb352f848d9a8de22607dc4140266",
+      "bytes": 55768
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/45.json",
+      "sha256": "453274c7c25ac32ee5967ff913aca0bcaf4d37448719f3a0aedd88107f16f3b5",
+      "bytes": 67834
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/46.json",
+      "sha256": "b96f98006af1fe1b297ea1d54d0db60c99b6eeb6395732aa84a1ac74ffec4d23",
+      "bytes": 67197
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/47.json",
+      "sha256": "ef4b6bd97b03ea130ae23cd53ecbb87209ded54a6e4c71c5e8d78813e73674de",
+      "bytes": 81509
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/48.json",
+      "sha256": "079e0d7cfb94155965d8cca06a3b588678b89519b8c7647847c803c47dc50e55",
+      "bytes": 61493
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/49.json",
+      "sha256": "532bc572aaea4ee731112f095f836f28d9408cffddfe77c1dc4ab12ddf289a6c",
+      "bytes": 132871
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/5.json",
+      "sha256": "02bad3076ca37e1d0501ed1fce67e80c04cb6908a9f5e92edacf0be756498b84",
+      "bytes": 82920
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/50.json",
+      "sha256": "e698ab9d3668f978880aaf5fdaba79e935d22ebec058e95108da22d0b954af08",
+      "bytes": 69814
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/6.json",
+      "sha256": "f65bd7312a635ee1208dddeb4961e2b76609bffea5dce7013cc721009dea1bc1",
+      "bytes": 128546
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/7.json",
+      "sha256": "5ccdb4a4e600f1762e1dde7d9ddaaae88bf82f8fc60297f344aa1b800cfdab5b",
+      "bytes": 114429
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/8.json",
+      "sha256": "1d320e71282527c926d8aa0654f2daead5b6e7040dda5abbdfbc8352f24c2f64",
+      "bytes": 92154
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/9.json",
+      "sha256": "998d3e5e5590c994c49edcf716bf62d80e3443ac143160f0698c568b842e897d",
+      "bytes": 124134
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/1.json",
+      "sha256": "2811d07aed8868b5e00b42f2b2141fe9af884a49645a07271d4a337f06fe3ba2",
+      "bytes": 13948
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/10.json",
+      "sha256": "a05354b0a19d43b91a29d49217592162fb15294828d1c9fcc7bb9cd5ab7f59d3",
+      "bytes": 9120
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/11.json",
+      "sha256": "b91bae76af2afe5807bb05267c89647dc6fc5482d14d5809125177e8691bd645",
+      "bytes": 8998
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/12.json",
+      "sha256": "4b5b469ca2fdbfc4fdf87be26a881e00f2df767dba9e73861dbe15a5b6771952",
+      "bytes": 7715
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/13.json",
+      "sha256": "05f07f6ce531d980789910489274be3218615d2dd0df9635f8814dc25f5a96b5",
+      "bytes": 6904
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/14.json",
+      "sha256": "96dc274a8f2d344b7fc05e178c99575f47ca22b9694e702719cf82a1ba5023fb",
+      "bytes": 8125
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/15.json",
+      "sha256": "d3b3239fe36c7acd82e053b61ca528e015823bb31e787da35509c1d5645300dd",
+      "bytes": 8063
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/16.json",
+      "sha256": "d17ba47348ac4191525d08bc7bcd1f2528bce79a7badeac5654697a413276895",
+      "bytes": 6577
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/17.json",
+      "sha256": "1adb4492630160c28404c73f3c5dbd44b080dfe48f1ab218a081a64654cbfc41",
+      "bytes": 8860
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/18.json",
+      "sha256": "8fdb2ae3d78b57708381ac2c036d8ecda23bf2de08a7163c661a06f8da54d906",
+      "bytes": 10202
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/19.json",
+      "sha256": "30d91cab00ad7f86e26913a091570792993fc79c5b863f6c993a944905b4d34f",
+      "bytes": 11446
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/2.json",
+      "sha256": "96a234ddb2fd055fc2a27e94ff5bc4859d5638b2fea8d215e53f4ffee8301c73",
+      "bytes": 8911
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/20.json",
+      "sha256": "0a0971f0276212e2e1ad821f57109feea6d4a19548aea8ed286ca4d8914921b9",
+      "bytes": 6820
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/21.json",
+      "sha256": "aae69401d801e65e86f3b16aa872fd57f41863258d7068429309b63d95486ea1",
+      "bytes": 10835
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/22.json",
+      "sha256": "cca9623472595008befea71eae2c739e52d2994f2d05a860d47e214ee54c17d1",
+      "bytes": 8391
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/23.json",
+      "sha256": "df79637779b0393657aa9de50c05da7a86344eebaa980ab3bc5b3838bbaaa68a",
+      "bytes": 7175
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/24.json",
+      "sha256": "060693b2d66d5c5d42597ec042c41da51412bafa715a4324b02323776673dd32",
+      "bytes": 17543
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/25.json",
+      "sha256": "6c3f6ad24254508916be3263df1881743d45a8e72334c68ca2f2d92b409bcf5e",
+      "bytes": 10490
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/26.json",
+      "sha256": "0dcf09ad75bda09ab1c8050bd065f85556e30248da5a233fcbaf646c5cdab919",
+      "bytes": 10876
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/27.json",
+      "sha256": "aa1ee4e089c932ad7bb9b14493a9825b1fda456470257f3b3c065760bd7d1728",
+      "bytes": 13625
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/28.json",
+      "sha256": "fc1ef49c566c79bceb16acd4abeb5df67f95f3fbc33c4c74de73114357be02b9",
+      "bytes": 8042
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/29.json",
+      "sha256": "591fa4e1970d2ba442730cba074be81fe6e157042a4878d12c3a2252a22cbd7e",
+      "bytes": 10772
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/3.json",
+      "sha256": "30dd3ad9f178a878f117fc674b0bc7caa8103a48e721c34811b8f74b874717b9",
+      "bytes": 8960
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/30.json",
+      "sha256": "ce6b46e3526a6764037d8278891e827fb4f2de256caf6180a1851ed9c6d6a4d9",
+      "bytes": 11881
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/31.json",
+      "sha256": "65af7a03f0e71b679392fd53ef46630402a20dfc9e7dd66a08cd38401a5d3a64",
+      "bytes": 14527
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/32.json",
+      "sha256": "84a9deb1700e3f634378d1c248c8e5c1ef3c1ee2dfbfd48665204e4c7ba6aede",
+      "bytes": 10572
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/33.json",
+      "sha256": "9f8cf42a684fc06d6abf1127bbbb8ec1d7ecdaa6acf6b7a9c4f205db5c923737",
+      "bytes": 7082
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/34.json",
+      "sha256": "1dc68bc9aefab23101088a7e61492f7fcd3e9d4b1ec4bb69092c0b6e43de3709",
+      "bytes": 9224
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/35.json",
+      "sha256": "7eac3fcbb4eb793a45f55b2303669755ab6007e835d7fd897aff75bffab15e2e",
+      "bytes": 9180
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/36.json",
+      "sha256": "e75d0bd2faa0fde49c1da638fe928df2e90949fc6d90a5e249fe2780992c0bad",
+      "bytes": 11716
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/37.json",
+      "sha256": "dbbbf410c92dff9e69d7d851e72a41fef2fc5127aafb6d1b0dfba5f1f0af6443",
+      "bytes": 10935
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/38.json",
+      "sha256": "46959e55c943eeda089068594ff21853a83cd6209b26b87354267c2bf019f099",
+      "bytes": 8684
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/39.json",
+      "sha256": "8fdfdc56e426cfaee8a715707c64bd1e26de21f4be2713d4649cf1860110317c",
+      "bytes": 7393
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/4.json",
+      "sha256": "0719f549f38e2b5b4e5556b40d520c597fe0051ba52147f26a41f48911e5d90b",
+      "bytes": 9642
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/40.json",
+      "sha256": "f7e3f7a81c8a714e67f66c6fbf9aa3ee52f1d59b6f06c5db1b16e7c3fe3ff368",
+      "bytes": 8099
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/41.json",
+      "sha256": "ade2494ee56bccead0a13bbce80d5f5baaf480084c8e1391ff55d841c24734c7",
+      "bytes": 14951
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/42.json",
+      "sha256": "3bd3f00ccd5cfde649d7cb00fac9aa158c2430b8b9a9ddf9090ee5f8375fa0dc",
+      "bytes": 11112
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/43.json",
+      "sha256": "575e2b887f0b4ac76954c327ded48f66c11ba05af91787e71b7d91f0291c8cee",
+      "bytes": 9192
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/44.json",
+      "sha256": "3545bedea04e76d7feecb7877e1219daab411f14a3362bd2b7675080c269becb",
+      "bytes": 9571
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/45.json",
+      "sha256": "4e3bac2b5302f9cef12c2167156574d218f37204693b7bb69421274e04dd7dde",
+      "bytes": 8688
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/46.json",
+      "sha256": "3ae429f07aa76d2a266662f020e424db9c213dc76d07416987d2bf25a07198ab",
+      "bytes": 10291
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/47.json",
+      "sha256": "3477e18cf5e965f8faf17a606aa68f39e1952fffa2fd146bd77ab5f2a236fd2f",
+      "bytes": 10091
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/48.json",
+      "sha256": "b277b42c9ccf6e0e7552bb665fc0adb1edfa17f9d75b73b45373eb44865dc714",
+      "bytes": 7614
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/49.json",
+      "sha256": "6af1e596ac40a89a6e54a585d306d564247dbe25367d802c85d9fe0775aec07d",
+      "bytes": 9857
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/5.json",
+      "sha256": "4c59593f83e610e700d261f6dc373bbdf9f652f5d7ba3fedd14819207a6af2a7",
+      "bytes": 8365
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/50.json",
+      "sha256": "5d2c4b9a9786a2c3c23ab1d4f784ad0c1076d64e88e8fc37e70218c11ad22a91",
+      "bytes": 8964
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/6.json",
+      "sha256": "efe0acae3dd3bb868524a25d0f79f6317b8de790439270c43fe53ee000759108",
+      "bytes": 8180
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/7.json",
+      "sha256": "14dd56b7590851736ffdbcbfd573aeb244226451ccc9b3a7d32f862ea6021319",
+      "bytes": 7293
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/8.json",
+      "sha256": "811eb56faec4940aa4b34fc0cfb3c1de6127ed617c869e5d30b9698c50fecad6",
+      "bytes": 7515
+    },
+    {
+      "path": "api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/9.json",
+      "sha256": "041156ea5bc2a35b702d3c1aa7b582458a7c340298d481c4748fcf46b2983390",
+      "bytes": 9116
+    },
+    {
+      "path": "docs/COMMENTARY_STRUCTURED_NAVIGATION_V3.md",
+      "sha256": "b6a42f02807630e5a11712987692345e7a4a0c3e3a022d128cd50c6e1de0b49e",
+      "bytes": 7232
+    },
+    {
+      "path": "reports/STRUCTURED_GENESIS_INDEPENDENT_VERIFICATION.json",
+      "sha256": "2f6cc03d2c6726f712a7ad95f4f1c596d5250234f58652b93bc74c580decbaf5",
+      "bytes": 2561
+    },
+    {
+      "path": "reports/STRUCTURED_GENESIS_NAVIGATION_AUDIT.json",
+      "sha256": "9480cea0c1e021ce5a8ba39a9e7483676f55f03670bb25cac829a49c8155bf07",
+      "bytes": 1075
+    },
+    {
+      "path": "review-v3.html",
+      "sha256": "299a1341bd36db115055afca6facbbd970614b11e63c7112c0b282519ca183a0",
+      "bytes": 14321
+    }
+  ],
+  "installation": "Add all paths at repository root. v1/v2 remain unchanged; staging v3 reader is review-v3.html."
+}

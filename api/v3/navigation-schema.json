@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Shared non-theological navigation labels for historical authors and future separately attributed public commentaries, including Jake if authorized.",
+  "notation": {
+    "nonverse": "P is a non-Scripture navigation namespace, never verse 0.",
+    "book_preface": "GEN:P",
+    "chapter_introduction": "GEN.1:P",
+    "book_group_introduction": "GROUP:GEN-DEU:P",
+    "work_preface": "WORK:P",
+    "passage_overview": "GEN.1:P:creation-overview",
+    "verse": "GEN.1.2",
+    "verse_range": "GEN.1.2-5"
+  },
+  "roles": [
+    "work_preface",
+    "volume_preface",
+    "translator_preface",
+    "title_page",
+    "group_introduction",
+    "book_preface",
+    "book_introduction",
+    "book_heading",
+    "chapter_introduction",
+    "chapter_heading",
+    "passage_overview",
+    "editorial_edition_notes",
+    "historical_dedication",
+    "author_dedication",
+    "verse_commentary",
+    "passage_commentary"
+  ],
+  "scope_values": [
+    "work",
+    "volume",
+    "book_group",
+    "book",
+    "chapter",
+    "passage",
+    "verse"
+  ],
+  "reader_default": "Display verse and verse-range entries only; list P navigation separately with explicit selection.",
+  "source_boundary_rule": "Retain immutable original SWORD/HelloAO source record, include source IDs and character-span locator for derived sections; never infer verse coverage from adjacency.",
+  "future_author_contract": "Expose author_id, display_name, life_dates, geographic_association, work_publication, creator_type, rights, provenance, approval_status when applicable. Do not treat commissioned Jake drafts as published or historical speech."
+}
