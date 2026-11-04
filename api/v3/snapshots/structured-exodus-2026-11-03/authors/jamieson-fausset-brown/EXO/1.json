@@ -1,0 +1,358 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-exodus-2026-11-03",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "EXO",
+  "chapter": 1,
+  "canonical_chapter": "EXO.1",
+  "versification": "KJV",
+  "verse_count": 22,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Exod.1\" sID=\"Exod.1\"/> ",
+      "source_record_sha256": "cd2b9d93f71d9ac5811dd8dd6ac82e39597123a466b9a69f59902d3c8bcf55a8"
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:EXO.1.1-1:2:260:608",
+      "passage_start": "EXO.1.1",
+      "passage_end": "EXO.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv580\"/><title type=\"x-ms\">THE SECOND BOOK OF MOSES, CALLED EXODUS.</title> <div sID=\"gen824\" type=\"x-p\"/> Commentary by Robert Jamieson<div eID=\"gen824\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <title type=\"x-s3\"><reference osisRef=\"Exod.1.1-Exod.1.22\">Ex 1:1-22</reference>. Increase of the Israelites.</title> <div sID=\"gen825\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv580\"/><hi type=\"bold\">1. Now these are the names--</hi>(See <reference osisRef=\"Gen.46.8-Gen.46.26\">Ge 46:8-26</reference>). <div eID=\"gen825\" type=\"x-p\"/>",
+      "content_plain": "THE SECOND BOOK OF MOSES, CALLED EXODUS.\n \n Commentary by Robert Jamieson\n \nCHAPTER 1\n \nEx 1:1-22. Increase of the Israelites.\n\n1. Now these are the names--(See Ge 46:8-26).",
+      "source_record_sha256": "ccdccb3008d04eea5e8af159416e61304c2aa3efda7c6b75b093e97a672c17b5",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 260,
+        "length": 608
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.1",
+      "reader_visible": true,
+      "reader_content_plain": "1. Now these are the names--(See Ge 46:8-26).",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": [
+        "nav:jamieson-fausset-brown:EXO:P:book-heading",
+        "nav:jamieson-fausset-brown:EXO.1:P:chapter-heading",
+        "nav:jamieson-fausset-brown:EXO.1:P:passage-overview"
+      ],
+      "reader_source_character_span": [
+        459,
+        608
+      ],
+      "front_matter_separated": true
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.7-7:2:868:597",
+      "passage_start": "EXO.1.7",
+      "passage_end": "EXO.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv581\"/><div sID=\"gen826\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv581\"/><hi type=\"bold\">7. children of Israel were fruitful--</hi>They were living in a land where, according to the testimony of an ancient author, mothers produced three and four sometimes at a birth; and a modern writer declares \"the females in Egypt, as well among the human race as among animals, surpass all others in fruitfulness.\" To this natural circumstance must be added the fulfilment of the promise made to Abraham. <div eID=\"gen826\" type=\"x-p\"/>",
+      "content_plain": "7. children of Israel were fruitful--They were living in a land where, according to the testimony of an ancient author, mothers produced three and four sometimes at a birth; and a modern writer declares \"the females in Egypt, as well among the human race as among animals, surpass all others in fruitfulness.\" To this natural circumstance must be added the fulfilment of the promise made to Abraham.",
+      "source_record_sha256": "26d515e5ea22519ed523bf808131148eadf78e10306d19e07e4ae079f9c8ceba",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 868,
+        "length": 597
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.7",
+      "reader_visible": true,
+      "reader_content_plain": "7. children of Israel were fruitful--They were living in a land where, according to the testimony of an ancient author, mothers produced three and four sometimes at a birth; and a modern writer declares \"the females in Egypt, as well among the human race as among animals, surpass all others in fruitfulness.\" To this natural circumstance must be added the fulfilment of the promise made to Abraham.",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.8-8:2:1465:626",
+      "passage_start": "EXO.1.8",
+      "passage_end": "EXO.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv582\"/><div sID=\"gen827\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv582\"/><hi type=\"bold\">8. Now there arose up a new king--</hi>About sixty years after the death of Joseph a revolution took place--by which the old dynasty was overthrown, and upper and lower Egypt were united into one kingdom. Assuming that the king formerly reigned in Thebes, it is probable that he would know nothing about the Hebrews; and that, as foreigners and shepherds, the new government would, from the first, regard them with dislike and scorn. <div eID=\"gen827\" type=\"x-p\"/>",
+      "content_plain": "8. Now there arose up a new king--About sixty years after the death of Joseph a revolution took place--by which the old dynasty was overthrown, and upper and lower Egypt were united into one kingdom. Assuming that the king formerly reigned in Thebes, it is probable that he would know nothing about the Hebrews; and that, as foreigners and shepherds, the new government would, from the first, regard them with dislike and scorn.",
+      "source_record_sha256": "acb70cf565af8ed4dd64b304697a50650af0651c4dbb94c49f3f0ae1c23c492a",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 1465,
+        "length": 626
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.8",
+      "reader_visible": true,
+      "reader_content_plain": "8. Now there arose up a new king--About sixty years after the death of Joseph a revolution took place--by which the old dynasty was overthrown, and upper and lower Egypt were united into one kingdom. Assuming that the king formerly reigned in Thebes, it is probable that he would know nothing about the Hebrews; and that, as foreigners and shepherds, the new government would, from the first, regard them with dislike and scorn.",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.9-10:2:2091:951",
+      "passage_start": "EXO.1.9",
+      "passage_end": "EXO.1.10",
+      "start_verse": 9,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv583\"/><div sID=\"gen828\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv583\"/><hi type=\"bold\">9-10. he said ... Behold, the ... children of Israel are more and mightier than we--</hi>They had risen to great prosperity--as during the lifetime of Joseph and his royal patron, they had, probably, enjoyed a free grant of the land. Their increase and prosperity were viewed with jealousy by the new government; and as Goshen lay between Egypt and Canaan, on the border of which latter country were a number of warlike tribes, it was perfectly conformable to the suggestions of worldly policy that they should enslave and maltreat them, through apprehension of their joining in any invasion by those foreign rovers. The new king, who neither knew the name nor cared for the services of Joseph, was either Amosis, or one of his immediate successors [Osburn]. <div eID=\"gen828\" type=\"x-p\"/>",
+      "content_plain": "9-10. he said ... Behold, the ... children of Israel are more and mightier than we--They had risen to great prosperity--as during the lifetime of Joseph and his royal patron, they had, probably, enjoyed a free grant of the land. Their increase and prosperity were viewed with jealousy by the new government; and as Goshen lay between Egypt and Canaan, on the border of which latter country were a number of warlike tribes, it was perfectly conformable to the suggestions of worldly policy that they should enslave and maltreat them, through apprehension of their joining in any invasion by those foreign rovers. The new king, who neither knew the name nor cared for the services of Joseph, was either Amosis, or one of his immediate successors [Osburn].",
+      "source_record_sha256": "e6dcb58d4c3a873f6ecd93df6cea0e071afa4f15e408ee9b8f1d91bc84c7d83c",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 2091,
+        "length": 951
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "EXO.1.9-10",
+      "reader_visible": true,
+      "reader_content_plain": "9-10. he said ... Behold, the ... children of Israel are more and mightier than we--They had risen to great prosperity--as during the lifetime of Joseph and his royal patron, they had, probably, enjoyed a free grant of the land. Their increase and prosperity were viewed with jealousy by the new government; and as Goshen lay between Egypt and Canaan, on the border of which latter country were a number of warlike tribes, it was perfectly conformable to the suggestions of worldly policy that they should enslave and maltreat them, through apprehension of their joining in any invasion by those foreign rovers. The new king, who neither knew the name nor cared for the services of Joseph, was either Amosis, or one of his immediate successors [Osburn].",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.11-11:2:3042:1715",
+      "passage_start": "EXO.1.11",
+      "passage_end": "EXO.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv584\"/><div sID=\"gen829\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv584\"/><hi type=\"bold\">11. Therefore they did set over them taskmasters--</hi>Having first obliged them, it is thought, to pay a ruinous rent and involved them in difficulties, that new government, in pursuance of its oppressive policy, degraded them to the condition of serfs--employing them exactly as the laboring people are in the present day (driven in companies or bands), in rearing the public works, with taskmasters, who anciently had sticks--now whips--to punish the indolent, or spur on the too languid. All public or royal buildings, in ancient Egypt, were built by captives; and on some of them was placed an inscription that no free citizen had been engaged in this servile employment.<div eID=\"gen829\" type=\"x-p\"/> <div sID=\"gen830\" type=\"x-p\"/><hi type=\"bold\">they built for Pharaoh treasure cities--</hi>These two store-places were in the land of Goshen; and being situated near a border liable to invasion, they were fortified cities (compare <reference osisRef=\"2Chr.11.1-2Chr.12.16\">2Ch 11:1-12:16</reference>). Pithom (Greek, Patumos), lay on the eastern Pelusiac branch of the Nile, about twelve Roman miles from Heliopolis; and Raamses, called by the Septuagint Heroopolis, lay between the same branch of the Nile and the Bitter Lakes. These two fortified cities were situated, therefore, in the same valley; and the fortifications, which Pharaoh commanded to be built around both, had probably the same common object, of obstructing the entrance into Egypt, which this valley furnished the enemy from Asia [Hengstenberg]. <div eID=\"gen830\" type=\"x-p\"/>",
+      "content_plain": "11. Therefore they did set over them taskmasters--Having first obliged them, it is thought, to pay a ruinous rent and involved them in difficulties, that new government, in pursuance of its oppressive policy, degraded them to the condition of serfs--employing them exactly as the laboring people are in the present day (driven in companies or bands), in rearing the public works, with taskmasters, who anciently had sticks--now whips--to punish the indolent, or spur on the too languid. All public or royal buildings, in ancient Egypt, were built by captives; and on some of them was placed an inscription that no free citizen had been engaged in this servile employment.\n \nthey built for Pharaoh treasure cities--These two store-places were in the land of Goshen; and being situated near a border liable to invasion, they were fortified cities (compare 2Ch 11:1-12:16). Pithom (Greek, Patumos), lay on the eastern Pelusiac branch of the Nile, about twelve Roman miles from Heliopolis; and Raamses, called by the Septuagint Heroopolis, lay between the same branch of the Nile and the Bitter Lakes. These two fortified cities were situated, therefore, in the same valley; and the fortifications, which Pharaoh commanded to be built around both, had probably the same common object, of obstructing the entrance into Egypt, which this valley furnished the enemy from Asia [Hengstenberg].",
+      "source_record_sha256": "078cf8234f91fe66fdd19b07509cfcd0975d159d2dba7a2dbab9bf7ecdff0582",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 3042,
+        "length": 1715
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.11",
+      "reader_visible": true,
+      "reader_content_plain": "11. Therefore they did set over them taskmasters--Having first obliged them, it is thought, to pay a ruinous rent and involved them in difficulties, that new government, in pursuance of its oppressive policy, degraded them to the condition of serfs--employing them exactly as the laboring people are in the present day (driven in companies or bands), in rearing the public works, with taskmasters, who anciently had sticks--now whips--to punish the indolent, or spur on the too languid. All public or royal buildings, in ancient Egypt, were built by captives; and on some of them was placed an inscription that no free citizen had been engaged in this servile employment.\n \nthey built for Pharaoh treasure cities--These two store-places were in the land of Goshen; and being situated near a border liable to invasion, they were fortified cities (compare 2Ch 11:1-12:16). Pithom (Greek, Patumos), lay on the eastern Pelusiac branch of the Nile, about twelve Roman miles from Heliopolis; and Raamses, called by the Septuagint Heroopolis, lay between the same branch of the Nile and the Bitter Lakes. These two fortified cities were situated, therefore, in the same valley; and the fortifications, which Pharaoh commanded to be built around both, had probably the same common object, of obstructing the entrance into Egypt, which this valley furnished the enemy from Asia [Hengstenberg].",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.13-14:2:4757:933",
+      "passage_start": "EXO.1.13",
+      "passage_end": "EXO.1.14",
+      "start_verse": 13,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv585\"/><div sID=\"gen831\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv585\"/><hi type=\"bold\">13-14. The Egyptians ... made their lives bitter with hard bondage, in mortar, and in brick--</hi>Ruins of great brick buildings are found in all parts of Egypt. The use of crude brick, baked in the sun, was universal in upper and lower Egypt, both for public and private buildings; all but the temples themselves were of crude brick. It is worthy of remark that more bricks bearing the name of Thothmes III, who is supposed to have been the king of Egypt at the time of the Exodus, have been discovered than of any other period [Wilkinson]. Parties of these brickmakers are seen depicted on the ancient monuments with \"taskmasters,\" some standing, others in a sitting posture beside the laborers, with their uplifted sticks in their hands. <div eID=\"gen831\" type=\"x-p\"/>",
+      "content_plain": "13-14. The Egyptians ... made their lives bitter with hard bondage, in mortar, and in brick--Ruins of great brick buildings are found in all parts of Egypt. The use of crude brick, baked in the sun, was universal in upper and lower Egypt, both for public and private buildings; all but the temples themselves were of crude brick. It is worthy of remark that more bricks bearing the name of Thothmes III, who is supposed to have been the king of Egypt at the time of the Exodus, have been discovered than of any other period [Wilkinson]. Parties of these brickmakers are seen depicted on the ancient monuments with \"taskmasters,\" some standing, others in a sitting posture beside the laborers, with their uplifted sticks in their hands.",
+      "source_record_sha256": "9e57c82266cf54c254ee52a44c42a559e076b5ebaae0f97b619e23ff68678067",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 4757,
+        "length": 933
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "EXO.1.13-14",
+      "reader_visible": true,
+      "reader_content_plain": "13-14. The Egyptians ... made their lives bitter with hard bondage, in mortar, and in brick--Ruins of great brick buildings are found in all parts of Egypt. The use of crude brick, baked in the sun, was universal in upper and lower Egypt, both for public and private buildings; all but the temples themselves were of crude brick. It is worthy of remark that more bricks bearing the name of Thothmes III, who is supposed to have been the king of Egypt at the time of the Exodus, have been discovered than of any other period [Wilkinson]. Parties of these brickmakers are seen depicted on the ancient monuments with \"taskmasters,\" some standing, others in a sitting posture beside the laborers, with their uplifted sticks in their hands.",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.15-15:2:5690:455",
+      "passage_start": "EXO.1.15",
+      "passage_end": "EXO.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv586\"/><div sID=\"gen832\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv586\"/><hi type=\"bold\">15. the king of Egypt spake to the Hebrew midwives--</hi>Two only were spoken to--either they were the heads of a large corporation [Laborde], or, by tampering with these two, the king designed to terrify the rest into secret compliance with his wishes [Calvin]. <div eID=\"gen832\" type=\"x-p\"/>",
+      "content_plain": "15. the king of Egypt spake to the Hebrew midwives--Two only were spoken to--either they were the heads of a large corporation [Laborde], or, by tampering with these two, the king designed to terrify the rest into secret compliance with his wishes [Calvin].",
+      "source_record_sha256": "46c33e6f9e223f171ba6a8bc77e47ea30ed3d9e0a50a13247bf1403ead3ed0b3",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 5690,
+        "length": 455
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.15",
+      "reader_visible": true,
+      "reader_content_plain": "15. the king of Egypt spake to the Hebrew midwives--Two only were spoken to--either they were the heads of a large corporation [Laborde], or, by tampering with these two, the king designed to terrify the rest into secret compliance with his wishes [Calvin].",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.16-16:2:6145:766",
+      "passage_start": "EXO.1.16",
+      "passage_end": "EXO.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv587\"/><div sID=\"gen833\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv587\"/><hi type=\"bold\">16. if it be a son, then ye shall kill him--</hi>Opinions are divided, however, what was the method of destruction which the king did recommend. Some think that the \"stools\" were low seats on which these obstetric practitioners sat by the bedside of the Hebrew women; and that, as they might easily discover the sex, so, whenever a boy appeared, they were to strangle it, unknown to its parents; while others are of opinion that the \"stools\" were stone troughs, by the river side--into which, when the infants were washed, they were to be, as it were, accidentally dropped. <div eID=\"gen833\" type=\"x-p\"/>",
+      "content_plain": "16. if it be a son, then ye shall kill him--Opinions are divided, however, what was the method of destruction which the king did recommend. Some think that the \"stools\" were low seats on which these obstetric practitioners sat by the bedside of the Hebrew women; and that, as they might easily discover the sex, so, whenever a boy appeared, they were to strangle it, unknown to its parents; while others are of opinion that the \"stools\" were stone troughs, by the river side--into which, when the infants were washed, they were to be, as it were, accidentally dropped.",
+      "source_record_sha256": "bb5030c8a42bca0fcbdba1e2e3cf6bd508b3ccf83d13a9d3471262cfc6645e72",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 6145,
+        "length": 766
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.16",
+      "reader_visible": true,
+      "reader_content_plain": "16. if it be a son, then ye shall kill him--Opinions are divided, however, what was the method of destruction which the king did recommend. Some think that the \"stools\" were low seats on which these obstetric practitioners sat by the bedside of the Hebrew women; and that, as they might easily discover the sex, so, whenever a boy appeared, they were to strangle it, unknown to its parents; while others are of opinion that the \"stools\" were stone troughs, by the river side--into which, when the infants were washed, they were to be, as it were, accidentally dropped.",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.17-17:2:6911:469",
+      "passage_start": "EXO.1.17",
+      "passage_end": "EXO.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv588\"/><div sID=\"gen834\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv588\"/><hi type=\"bold\">17. But the midwives feared God--</hi>Their faith inspired them with such courage as to risk their lives, by disobeying the mandate of a cruel tyrant; but it was blended with weakness, which made them shrink from speaking the truth, the whole truth, and nothing but the truth. <div eID=\"gen834\" type=\"x-p\"/>",
+      "content_plain": "17. But the midwives feared God--Their faith inspired them with such courage as to risk their lives, by disobeying the mandate of a cruel tyrant; but it was blended with weakness, which made them shrink from speaking the truth, the whole truth, and nothing but the truth.",
+      "source_record_sha256": "d8d3749ce4e7ced105a0a7e6e30811fc9ff3e1611c7074aa3a2ba4b7a8ce226f",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 6911,
+        "length": 469
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "EXO.1.17",
+      "reader_visible": true,
+      "reader_content_plain": "17. But the midwives feared God--Their faith inspired them with such courage as to risk their lives, by disobeying the mandate of a cruel tyrant; but it was blended with weakness, which made them shrink from speaking the truth, the whole truth, and nothing but the truth.",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:EXO.1.20-21:2:7380:607",
+      "passage_start": "EXO.1.20",
+      "passage_end": "EXO.1.21",
+      "start_verse": 20,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv589\"/><div sID=\"gen835\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv589\"/><hi type=\"bold\">20-21. God dealt well with the midwives--</hi>This represents God as rewarding them for telling a lie. This difficulty is wholly removed by a more correct translation. To \"make\" or \"build up a house\" in Hebrew idiom, means to have a numerous progeny. The passage then should be rendered thus: \"God protected the midwives, and the people waxed very mighty; and because the midwives feared, the Hebrews grew and prospered.\" <chapter eID=\"Exod.1\"/>",
+      "content_plain": "20-21. God dealt well with the midwives--This represents God as rewarding them for telling a lie. This difficulty is wholly removed by a more correct translation. To \"make\" or \"build up a house\" in Hebrew idiom, means to have a numerous progeny. The passage then should be rendered thus: \"God protected the midwives, and the people waxed very mighty; and because the midwives feared, the Hebrews grew and prospered.\"",
+      "source_record_sha256": "2c023729f40847d6ef72e5150ee995df65636239d4c641d664e87463cba0f35e",
+      "index_record": {
+        "testament": "OT",
+        "block": 2,
+        "offset": 7380,
+        "length": 607
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "EXO.1.20-21",
+      "reader_visible": true,
+      "reader_content_plain": "20-21. God dealt well with the midwives--This represents God as rewarding them for telling a lie. This difficulty is wholly removed by a more correct translation. To \"make\" or \"build up a house\" in Hebrew idiom, means to have a numerous progeny. The passage then should be rendered thus: \"God protected the midwives, and the people waxed very mighty; and because the midwives feared, the Hebrews grew and prospered.\"",
+      "source_record_immutable": true,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 13,
+  "unindexed_verse_count": 9,
+  "upstream_snapshot_id": "unified-pilot-2026-11-03",
+  "upstream_content_semantics": "Source original entries and SWORD OSIS unchanged; reader_content_plain is display projection only",
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:EXO:P:book-heading",
+      "navigation_id": "EXO:P:book-heading",
+      "kind": "nonverse_navigation",
+      "scope": "book",
+      "role": "book_heading",
+      "title": "Exodus · book heading",
+      "content_plain": "THE SECOND BOOK OF MOSES, CALLED EXODUS.\n \n Commentary by Robert Jamieson",
+      "source_entry_id": "sword:jfb:EXO.1.1-1:2:260:608",
+      "source_character_span": [
+        0,
+        217
+      ],
+      "source_fragment_sha256": "52dd189a0c0b08f87c1a71c80096206c8adcbcc501979e3891fb4b40ed48d760",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:EXO.1:P:chapter-heading",
+      "navigation_id": "EXO.1:P:chapter-heading",
+      "kind": "nonverse_navigation",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "Exodus 1 · chapter heading",
+      "content_plain": "CHAPTER 1",
+      "source_entry_id": "sword:jfb:EXO.1.1-1:2:260:608",
+      "source_character_span": [
+        217,
+        253
+      ],
+      "source_fragment_sha256": "c4c7e85f8cc229520a40ca3c451c39bc0fc2826dbdcfd74bf970753c4e9af4ae",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:EXO.1:P:passage-overview",
+      "navigation_id": "EXO.1:P:passage-overview",
+      "kind": "nonverse_navigation",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Exodus 1 · passage heading",
+      "content_plain": "Ex 1:1-22. Increase of the Israelites.",
+      "source_entry_id": "sword:jfb:EXO.1.1-1:2:260:608",
+      "source_character_span": [
+        253,
+        459
+      ],
+      "source_fragment_sha256": "74e73ba6705fb7cfdbef67ba611e2405b87d5af5b70d2405a85449c28099043f",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    }
+  ],
+  "navigation_section_count": 3,
+  "reader_visible_entry_count": 10
+}
