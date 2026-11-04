@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "assertions_passed": 52404,
+  "assertions_total": 52404,
+  "failures": [],
+  "counts": {
+    "author_chapters": 240,
+    "original_entries": 3122,
+    "reader_visible_entries": 3116,
+    "P_sections": 124,
+    "intro_only_entries": 6,
+    "verse_author_routes": 5347,
+    "chapters": 40
+  },
+  "scope": "Exodus 40 chapters; six authors; compared original v2 source entry fields and all v3 routes",
+  "limitations": [
+    "Structural/source-preservation and navigation checks do not certify the historical text against print editions.",
+    "A CrossWire shared binary record link is a native index connection, not proof that every individual verse is discussed.",
+    "Browser/PAGES HTTP rendering is not established by this JSON audit; no public deployment performed."
+  ]
+}
