@@ -16,7 +16,7 @@
 'use strict';
 const AUTHOR_IDS=['matthew-henry','john-calvin','adam-clarke','jamieson-fausset-brown','keil-delitzsch','john-gill'];
 const $=id=>document.getElementById(id);const cache=new Map();
-let manifest,catalog,index,chapter=1;const modes={left:'verse',right:'verse'};
+let manifest,catalog,index,coverage,chapter=1;const modes={left:'verse',right:'verse'};
 function node(tag,text,cls){const x=document.createElement(tag);if(text!==undefined&&text!==null)x.textContent=String(text);if(cls)x.className=cls;return x}
 function opt(sel,val,text){const o=document.createElement('option');o.value=val;o.textContent=text;sel.append(o)}
 function say(text,bad=false){$('status').textContent=text;$('status').className='status'+(bad?' fail':'')}
@@ -28,14 +28,42 @@ function moreText(target,text){if(!text.trim()){target.append(node('div','No dis
 function addSource(parent,data,path){const link=node('a','Work, edition and source record details','source-link');link.href=path;link.target='_blank';link.rel='noopener noreferrer';parent.append(link)}
 function metaMore(parent,meta){const d=node('details',null,'metadata-more');d.append(node('summary','Author / edition information'));const p=node('p',meta.geographic_meaning||'');if(meta.work_date_scope&&!/genesis/i.test(meta.work_date_scope))p.textContent+=(p.textContent?' · ':'')+'Work dating: '+meta.work_date_scope;if(meta.contributors?.length)p.textContent+=' · Contributors: '+meta.contributors.join('; ');d.append(p);for(const url of meta.sources||[]){const a=node('a','Bibliographic / biographical source');a.href=url;a.target='_blank';a.rel='noopener noreferrer';d.append(a);d.append(node('span',' · '))}parent.append(d)}
 function renderEntries(main,data,author){const routed=(index.verse_routes[$('verse').value]||{})[author]||[];if(!routed.length){main.append(node('p','No verse-specific entry indexed for Numbers '+chapter+':'+$('verse').value+' in this edition. Select a P section above if an introduction or preface is available. No neighboring-entry inference was used.','plain-note'));return}for(const i of routed){const e=data.entries[i];if(!e||e.reader_visible===false||!e.reader_content_plain?.trim()){main.append(node('p','Index record does not contain reader-visible verse text.','bad'));continue}const wrap=node('section',null,'entry');const range='Numbers '+chapter+':'+e.start_verse+(e.end_verse===e.start_verse?'':'–'+e.end_verse);wrap.append(node('div',range,'tag'));const basis=e.coverage_basis==='sword_same_record_binary_index'?'Source-indexed commentary range':'Explicitly numbered verse entry';wrap.append(node('p',basis,'source'));moreText(wrap,e.reader_content_plain);const details=node('details',null,'metadata-more');details.append(node('summary','Entry reference and technical provenance'));details.append(node('p',e.entry_id));wrap.append(details);main.append(wrap)}}
-async function renderPane(which){const author=$(which).value;const data=await get(dataPath('authors',author,chapter));if(data.canonical_chapter!=='NUM.'+chapter)throw Error('Source chapter mismatch for '+author);const top=data.chapter===1?data:await get(dataPath('authors',author,1));const sections=[...top.navigation_sections.filter(s=>['work','volume','book','book_group'].includes(s.scope)),...data.navigation_sections.filter(s=>['chapter','passage'].includes(s.scope))];
+async function renderPane(which){
+ const author=$(which).value;
+ const data=await get(dataPath('authors',author,chapter));
+ if(data.canonical_chapter!=='NUM.'+chapter)throw Error('Source chapter mismatch for '+author);
+ const sections=(coverage.author_sections[author]||[]).filter(s=>eligibleForCurrentVerse(s));
  const pane=$('pane-'+which);pane.replaceChildren();const head=node('div',null,'panel-head');const name=catalog.authors[author]||{display_name:author,life_dates:'',geographic_association:''};const ar=node('div',null,'author-line');ar.append(node('h2',name.display_name));let caption=name.life_dates+' · '+name.geographic_association;ar.append(node('span',caption,'byline'));const workTitle=author==='john-calvin'?'Calvin’s Collected Commentaries':(name.historical_work||data.source.module_title||data.source.source_work_title||'Historical commentary');head.append(ar);head.append(node('div',workTitle+' · Servants of the Way Commentary Library','edition'));metaMore(head,name);pane.append(head);
  const bar=node('div',null,'mode');const lab=node('label','Content to read');lab.htmlFor=which+'-mode';bar.append(lab);const sel=node('select');sel.id=which+'-mode';sel.setAttribute('aria-label','Select commentary or introduction for '+name.display_name);opt(sel,'verse','Verse commentary · Numbers '+chapter+':'+$('verse').value);const seen=new Set();for(const s of sections){if(seen.has(s.section_id))continue;seen.add(s.section_id);opt(sel,s.section_id,'P · '+s.title+' ('+s.navigation_id+')')}if(modes[which]!=='verse'&&!seen.has(modes[which]))modes[which]='verse';sel.value=modes[which];sel.addEventListener('change',()=>{modes[which]=sel.value;deepLink();renderPane(which).catch(e=>say(e.message,true))});bar.append(sel);pane.append(bar);
  const main=node('div',null,'content');pane.append(main);
- if(modes[which]==='verse')renderEntries(main,data,author);
- else {const s=sections.find(x=>x.section_id===modes[which]);if(!s){main.append(node('p','Section not available.','bad'));return}main.append(node('div',s.navigation_id,'tag nonverse'));main.append(node('h3',s.title,'subtitle'));main.append(node('div','Non-Scripture '+s.role.replaceAll('_',' ')+' · original source entry '+(s.source_entry_id||'HelloAO introduction field'),'source'));moreText(main,s.content_plain);if(s.passage_range)main.append(node('p','Overview passage context: '+s.passage_range+'; this overview is a separate navigation section, not a replacement for numbered verse commentary.','notice'))}
- const selected=sections.find(x=>x.section_id===modes[which]);const fromFirst=selected&&top.navigation_sections.some(x=>x.section_id===selected.section_id);addSource(main,data,dataPath('authors',author,fromFirst?1:chapter));}
+ if(modes[which]==='verse'){
+   renderEntries(main,data,author);
+   addSource(main,data,dataPath('authors',author,chapter));
+ }else {
+   const selection=sections.find(s=>s.section_id===modes[which]);
+   if(!selection){main.append(node('p','P section not applicable to this verse.','plain-note'));return}
+   const sourcePath=selection.source.chapter_file;
+   const sourceData=await get(sourcePath);
+   const section=sourceData.navigation_sections.find(s=>s.section_id===selection.section_id);
+   if(!section || section.navigation_id!==selection.navigation_id){throw Error('Original P section is missing or mismatched: '+selection.navigation_id)}
+   main.append(node('div',section.navigation_id,'tag nonverse'));
+   main.append(node('h3',section.title,'subtitle'));
+   main.append(node('div','Non-Scripture '+section.role.replaceAll('_',' ')+' · original source entry '+(section.source_entry_id||'HelloAO introduction field'),'source'));
+   moreText(main,section.content_plain);
+   if(selection.scope==='passage')main.append(node('p','Source-attested passage scope: '+selection.passage_start+' to '+selection.passage_end+' · this is a P section, not a verse-commentary record.','notice'));
+   addSource(main,sourceData,sourcePath);
+ }
+}
+function eligibleForCurrentVerse(s){
+ if(s.status!=='active')return false;
+ if(s.scope==='work'||s.scope==='book'||s.scope==='book_group')return true;
+ if(!s.passage_start||!s.passage_end)return false;
+ const a=s.passage_start.split('.'),b=s.passage_end.split('.'),v=Number($('verse').value);
+ if(a[0]!=='NUM'||b[0]!=='NUM')return false;
+ return (Number(a[1])<chapter||(Number(a[1])===chapter&&Number(a[2])<=v)) &&
+        (Number(b[1])>chapter||(Number(b[1])===chapter&&Number(b[2])>=v));
+}
 async function render(){try{say('Loading original commentary records and non-verse navigation…');deepLink();await Promise.all([renderPane('left'),renderPane('right')]);say('Numbers '+chapter+':'+$('verse').value+' · Passage navigation verified · Prefaces and introductions separated · Original works preserved.')}catch(e){say('Unable to render: '+e.message,true);console.error(e)}}
-async function start(){try{manifest=await get('api/v3/snapshots/structured-numbers-2026-11-03/manifest.json');if(manifest.status!=='STAGING_NOT_PRODUCTION')throw Error('Unknown release status');catalog=await get('api/v3/authors.json');for(let k=1;k<=36;k++)opt($('chapter'),String(k),String(k));for(const side of ['left','right'])for(const id of AUTHOR_IDS)opt($(side),id,catalog.authors[id]?.display_name||id);const q=new URLSearchParams(location.search);chapter=Math.min(36,Math.max(1,Number(q.get('chapter')||'1')||1));$('chapter').value=String(chapter);$('left').value=AUTHOR_IDS.includes(q.get('a'))?q.get('a'):'matthew-henry';$('right').value=AUTHOR_IDS.includes(q.get('b'))?q.get('b'):'john-gill';await loadIndex();$('verse').value=q.get('verse')||'1';modes.left=q.get('leftSection')||'verse';modes.right=q.get('rightSection')||'verse';await render();$('controls').addEventListener('submit',e=>{e.preventDefault();render()});$('chapter').addEventListener('change',async()=>{chapter=Number($('chapter').value);modes.left='verse';modes.right='verse';try{await loadIndex();await render()}catch(e){say(e.message,true)}});$('verse').addEventListener('change',render);$('left').addEventListener('change',()=>{modes.left='verse';render()});$('right').addEventListener('change',()=>{modes.right='verse';render()})}catch(e){say('Unable to initialize: '+e.message,true);console.error(e)}}
+async function start(){try{manifest=await get('api/v3/snapshots/structured-numbers-2026-11-03/manifest.json');if(manifest.status!=='STAGING_NOT_PRODUCTION')throw Error('Unknown release status');catalog=await get('api/v3/authors.json');coverage=await get('api/v3/navigation-coverage/v1/books/NUM.json');if(coverage.book_id!=='NUM'||coverage.source_snapshot_unchanged!==true)throw Error('P coverage catalog identity mismatch');for(let k=1;k<=36;k++)opt($('chapter'),String(k),String(k));for(const side of ['left','right'])for(const id of AUTHOR_IDS)opt($(side),id,catalog.authors[id]?.display_name||id);const q=new URLSearchParams(location.search);chapter=Math.min(36,Math.max(1,Number(q.get('chapter')||'1')||1));$('chapter').value=String(chapter);$('left').value=AUTHOR_IDS.includes(q.get('a'))?q.get('a'):'matthew-henry';$('right').value=AUTHOR_IDS.includes(q.get('b'))?q.get('b'):'john-gill';await loadIndex();$('verse').value=q.get('verse')||'1';modes.left=q.get('leftSection')||'verse';modes.right=q.get('rightSection')||'verse';await render();$('controls').addEventListener('submit',e=>{e.preventDefault();render()});$('chapter').addEventListener('change',async()=>{chapter=Number($('chapter').value);modes.left='verse';modes.right='verse';try{await loadIndex();await render()}catch(e){say(e.message,true)}});$('verse').addEventListener('change',render);$('left').addEventListener('change',()=>{modes.left='verse';render()});$('right').addEventListener('change',()=>{modes.right='verse';render()})}catch(e){say('Unable to initialize: '+e.message,true);console.error(e)}}
 start();
 </script></body></html>
