@@ -1,0 +1,50 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-leviticus-2026-11-03",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "LEV"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 162,
+    "original_entries": 1961,
+    "reader_visible_entries": 1944,
+    "navigation_sections": 115,
+    "sword_chapters": 135,
+    "helloao_chapters": 27,
+    "chapters": 27,
+    "verse_author_routes": 3673,
+    "introduction_only_records": 17,
+    "mixed_records_segmented": 67,
+    "nonverse_roles": {
+      "book_introduction": 3,
+      "book_preface": 1,
+      "book_heading": 1,
+      "chapter_heading": 55,
+      "passage_overview": 28,
+      "group_introduction": 1,
+      "chapter_introduction": 26
+    }
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "CrossWire original module text and native passage index for five authors; HelloAO for John Gill or entire missing source chapters.",
+  "reader_policy": "P sections accessible separately from verses; no neighboring verse inference. Original source text remains preserved.",
+  "provenance_policy": "Display historical author and work as primary attribution; SOTW is public provider. Digital acquisition details are secondary technical evidence.",
+  "notes": [
+    "Existing Genesis v3 snapshot and homepage remain unchanged.",
+    "Author catalog is shared from Genesis; publication dates may describe different works and should not be displayed as Leviticus-specific without appropriate bibliographic evidence.",
+    "SWORD binary shared-record ranges identify source index links, not proof of theological agreement or a verse-by-verse discussion.",
+    "Source entry text, source SHA, and original digital-edition attribution remain unchanged."
+  ]
+}

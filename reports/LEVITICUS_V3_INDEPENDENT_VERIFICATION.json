@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "assertions_passed": 33565,
+  "assertions_total": 33565,
+  "failures": [],
+  "counts": {
+    "author_chapters": 162,
+    "original_entries": 1961,
+    "reader_visible_entries": 1944,
+    "P_sections": 115,
+    "intro_only_entries": 17,
+    "verse_author_routes": 3673,
+    "chapters": 27
+  },
+  "scope": "Leviticus 40 chapters; six authors; compared original v2 source entry fields and all v3 routes",
+  "limitations": [
+    "Structural/source-preservation and navigation checks do not certify the historical text against print editions.",
+    "A CrossWire shared binary record link is a native index connection, not proof that every individual verse is discussed.",
+    "Browser/PAGES HTTP rendering is not established by this JSON audit; no public deployment performed."
+  ]
+}

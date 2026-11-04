@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "mode": "chromium_set_content_local_json_mock",
+  "tests": [
+    {
+      "test": "Leviticus title",
+      "pass": true
+    },
+    {
+      "test": "Default Leviticus 1:1",
+      "pass": true
+    },
+    {
+      "test": "Two author panels",
+      "pass": true
+    },
+    {
+      "test": "Historical author dates",
+      "pass": true
+    },
+    {
+      "test": "John Gill verse commentary",
+      "pass": true
+    },
+    {
+      "test": "KD book introductions selectable",
+      "pass": true
+    },
+    {
+      "test": "KD intro-only verse route removed",
+      "pass": true
+    },
+    {
+      "test": "KD P nonverse entry loaded",
+      "pass": true
+    },
+    {
+      "test": "KD substantive introduction",
+      "pass": true
+    },
+    {
+      "test": "Chapter switch",
+      "pass": true
+    },
+    {
+      "test": "Chapter switch resets mode",
+      "pass": true
+    },
+    {
+      "test": "No JavaScript exceptions",
+      "pass": true
+    }
+  ],
+  "checks_passed": 12,
+  "exceptions": [],
+  "limitations": [
+    "Browser render uses actual generated JSON injected into a local fetch mock. Does not establish GitHub Pages HTTP delivery.",
+    "Only chapters 1 and 16 were exercised in browser; JSON structural tests cover all 27 chapters."
+  ]
+}
