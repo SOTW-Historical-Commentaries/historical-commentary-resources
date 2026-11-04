@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "mode": "chromium_set_content_local_json_mock",
+  "tests": [
+    {
+      "test": "Numbers reader title",
+      "pass": true
+    },
+    {
+      "test": "Default Numbers 1:1",
+      "pass": true
+    },
+    {
+      "test": "Two commentator panels",
+      "pass": true
+    },
+    {
+      "test": "Historical author metadata",
+      "pass": true
+    },
+    {
+      "test": "Matthew Henry native verse range",
+      "pass": true
+    },
+    {
+      "test": "John Gill verse anchor",
+      "pass": true
+    },
+    {
+      "test": "Keil Numbers book intro selectable",
+      "pass": true
+    },
+    {
+      "test": "Keil book overview selectable",
+      "pass": true
+    },
+    {
+      "test": "Keil specific verse text preserved",
+      "pass": true
+    },
+    {
+      "test": "Keil book P namespace",
+      "pass": true
+    },
+    {
+      "test": "Keil substantive introduction",
+      "pass": true
+    },
+    {
+      "test": "Chapter 20 loaded",
+      "pass": true
+    },
+    {
+      "test": "Chapter switch resets P mode",
+      "pass": true
+    },
+    {
+      "test": "Chapter 36 available",
+      "pass": true
+    },
+    {
+      "test": "No JavaScript errors",
+      "pass": true
+    }
+  ],
+  "checks_passed": 15,
+  "exceptions": [],
+  "limitations": [
+    "Browser tests serve actual generated JSON via a local fetch mock, not a public HTTP endpoint.",
+    "Chapters 1, 20, 36 exercised in browser, all 36 chapters checked structurally."
+  ]
+}

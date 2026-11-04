@@ -1,0 +1,80 @@
+{
+  "library": "Servants of the Way · Commentary Library",
+  "book": "NUM",
+  "public_provider": "Servants of the Way",
+  "original_historical_authorship_preserved": true,
+  "author_and_work_are_primary_display_provenance": true,
+  "digital_module_and_acquisition_records_are_internal_provenance": true,
+  "not_a_new_copyright_claim": "Public-domain works supplied with digital archive provenance and the exact source license notice; no SOTW claim of original authorship or exclusive copyright.",
+  "source_evidence_per_author": {
+    "matthew-henry": {
+      "system": "CrossWire/SWORD",
+      "module_id": "mhc",
+      "module_version": "2.2",
+      "module_title": "Matthew Henry's Complete Commentary on the Whole Bible",
+      "module_versification": "KJV",
+      "mod_driver": "zCom4",
+      "distribution_license": "Public Domain",
+      "text_source": "http://www.ccel.org/",
+      "module_zip_sha256": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+      "license_declared_by": "module configuration in original archive"
+    },
+    "john-calvin": {
+      "system": "CrossWire/SWORD",
+      "module_id": "calvincommentaries",
+      "module_version": "1.1",
+      "module_title": "Calvin's Collected Commentaries",
+      "module_versification": "KJV",
+      "mod_driver": "zCom",
+      "distribution_license": "Public Domain",
+      "text_source": "http://www.ccel.org/",
+      "module_zip_sha256": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+      "license_declared_by": "module configuration in original archive"
+    },
+    "adam-clarke": {
+      "system": "CrossWire/SWORD",
+      "module_id": "clarke",
+      "module_version": "2.0",
+      "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+      "module_versification": "KJV",
+      "mod_driver": "zCom",
+      "distribution_license": "Public Domain",
+      "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+      "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+      "license_declared_by": "module configuration in original archive"
+    },
+    "jamieson-fausset-brown": {
+      "system": "CrossWire/SWORD",
+      "module_id": "jfb",
+      "module_version": "3.0",
+      "module_title": "Jamieson Fausset Brown Bible Commentary",
+      "module_versification": "KJV",
+      "mod_driver": "zCom4",
+      "distribution_license": "Public Domain",
+      "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+      "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+      "license_declared_by": "module configuration in original archive"
+    },
+    "keil-delitzsch": {
+      "system": "CrossWire/SWORD",
+      "module_id": "kd",
+      "module_version": "2.0",
+      "module_title": "Keil and Delitzsch Biblical Commentary on the Old Testament",
+      "module_versification": "KJV",
+      "mod_driver": "zCom4",
+      "distribution_license": "Public Domain",
+      "text_source": "https://en.wikisource.org/wiki/Biblical_commentary_the_Old_Testament",
+      "module_zip_sha256": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+      "license_declared_by": "module configuration in original archive"
+    },
+    "john-gill": {
+      "system": "HelloAO",
+      "author_id": "john-gill",
+      "source_archive_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+      "original_path_in_source_archive": "helloao-historical-commentaries/john-gill/NUM/1.json",
+      "distribution_license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_notes": null,
+      "source_work_title": "John Gill Bible Commentary"
+    }
+  }
+}
