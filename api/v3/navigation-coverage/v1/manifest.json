@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_navigation_coverage_overlay",
+  "status": "STAGING_NAVIGATION_CORRECTION",
+  "version": "navigation-coverage-v1",
+  "provider": "Servants of the Way Commentary Library",
+  "books": [
+    "GEN",
+    "EXO",
+    "LEV",
+    "NUM"
+  ],
+  "chapter_snapshots": {
+    "GEN": "structured-genesis-2026-11-03",
+    "EXO": "structured-exodus-2026-11-03",
+    "LEV": "structured-leviticus-2026-11-03",
+    "NUM": "structured-numbers-2026-11-03"
+  },
+  "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
+  "reader_policy": {
+    "default": "verse",
+    "preface_chapter_intro": "book_or_chapter_only",
+    "passage_overview": "explicit_bounded_passage_only",
+    "group_intro": "explicit_eligible_books_only",
+    "book_group_intro_not_assigned": "hidden_until_mapped",
+    "out_of_range_deep_link": "fall_back_to_verse"
+  },
+  "source_text_changed": false,
+  "verse_index_changed": false,
+  "section_counts": {
+    "original_P_sections": 455,
+    "unassigned_P_sections": 3,
+    "source_by_book": {
+      "GEN": 67,
+      "EXO": 124,
+      "LEV": 115,
+      "NUM": 149
+    },
+    "routed_by_book": {
+      "GEN": 64,
+      "EXO": 128,
+      "LEV": 119,
+      "NUM": 153
+    }
+  }
+}

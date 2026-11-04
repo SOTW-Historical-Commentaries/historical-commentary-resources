@@ -1,0 +1,155 @@
+{
+  "kind": "sotw_navigation_coverage_independent_verification",
+  "status": "PASS",
+  "original_sections": 455,
+  "held_unmapped": 3,
+  "assertions": 26772,
+  "failures": [],
+  "test_scenarios": [
+    {
+      "name": "Numbers 31 must NOT display Sinai overview",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Numbers 5 SHOULD display Sinai overview",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Numbers 10:10 SHOULD display Sinai overview",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Numbers 10:11 must NOT display Sinai overview",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Leviticus 6 should show sacrifice group overview",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Leviticus 8 must not show sacrifice group overview",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Leviticus 4 should show rules overview",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Leviticus 6 must not show general rules overview",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Exodus 13:2 has JFB chapter passage heading",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Exodus 13:3 no JFB early passage heading",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Genesis 2:3 retains spanning creation overview",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Genesis 2:4 does not show creation overview",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Genesis should not show JFB poetical books intro",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Genesis should show JFB Pentateuch intro",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Exodus should show JFB Pentateuch intro",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Numbers should show Henry Pentateuch-volume preface",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Numbers 31 shows JFB actual Numbers 31 heading",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Numbers 31 should show KD book intro as book material",
+      "expected_visible": true,
+      "actual_visible": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Genesis no prophetic group intro",
+      "expected_visible": false,
+      "actual_visible": false,
+      "status": "PASS"
+    }
+  ],
+  "per_book_sections": {
+    "GEN": 64,
+    "EXO": 128,
+    "LEV": 119,
+    "NUM": 153
+  },
+  "scope_reclassifications": [
+    {
+      "id": "LEV:P:general-sacrifice-rules",
+      "from": "book",
+      "to": "passage",
+      "start": "LEV.1.1",
+      "end": "LEV.5.19"
+    },
+    {
+      "id": "LEV:P:sacrificial-laws-overview",
+      "from": "book",
+      "to": "passage",
+      "start": "LEV.1.1",
+      "end": "LEV.7.38"
+    },
+    {
+      "id": "NUM:P:preparations-at-sinai",
+      "from": "book",
+      "to": "passage",
+      "start": "NUM.1.1",
+      "end": "NUM.10.10"
+    }
+  ],
+  "original_chapter_json_unchanged": true,
+  "original_verse_routes_unchanged": true
+}

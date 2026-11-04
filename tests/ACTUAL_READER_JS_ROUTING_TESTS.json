@@ -1,0 +1,79 @@
+{
+  "kind": "sotw_actual_browser_javascript_filter_unit_checks",
+  "status": "PASS",
+  "count": 12,
+  "results": [
+    {
+      "test": "NUM.31.31 keil-delitzsch: NUM:P:preparations-at-sinai",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "test": "NUM.5.1 keil-delitzsch: NUM:P:preparations-at-sinai",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "test": "NUM.10.11 keil-delitzsch: NUM:P:preparations-at-sinai",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "test": "LEV.6.1 keil-delitzsch: LEV:P:sacrificial-laws-overview",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "test": "LEV.6.1 keil-delitzsch: LEV:P:general-sacrifice-rules",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "test": "EXO.13.3 jamieson-fausset-brown: EXO.13:P:passage-overview",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "test": "EXO.13.2 jamieson-fausset-brown: EXO.13:P:passage-overview",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "test": "GEN.2.3 keil-delitzsch: GEN.1:P:creation-overview",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "test": "GEN.2.4 keil-delitzsch: GEN.1:P:creation-overview",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "test": "GEN.1.1 jamieson-fausset-brown: GROUP:POETICAL:P:poetical",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "test": "GEN.1.1 jamieson-fausset-brown: GROUP:GEN-HISTORICAL:P:gen-historical",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "test": "NUM.31.31 matthew-henry: GROUP:GEN-DEU:P:pentateuch-volume",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    }
+  ]
+}

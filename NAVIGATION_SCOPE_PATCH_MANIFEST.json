@@ -1,0 +1,139 @@
+{
+  "kind": "sotw_manual_nav_scope_patch_manifest",
+  "version": "1.0.0",
+  "provider": "Servants of the Way Commentary Library",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_branch": "main",
+  "baseline_commit": "2ab15b62caa5afbac71075198eed67e1f6e25227",
+  "scope": "Non-verse navigation coverage for four accepted books, and matching test reader adapters; no source content changed",
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/EXO.json",
+      "bytes": 158631,
+      "sha256": "f7055f176236ee123b8ff1ddd27e5f68acdd80fbb259987c3e43e949bd2dabad",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/GEN.json",
+      "bytes": 75580,
+      "sha256": "63a8c10f9228ca2eb4945cc80932dc1742928dc25b41ff9af909e8fc02a1a3e5",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/LEV.json",
+      "bytes": 147756,
+      "sha256": "4a6f8c3dba9f6a0afe463f787baf7066bdae56a5521681cad65ce33f71743dcf",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/NUM.json",
+      "bytes": 189262,
+      "sha256": "ee4c1834a30688ee95acbc3b2e0d87afb1406ba00bf5f903c1be67006c9ebe4f",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/held-unmapped.json",
+      "bytes": 3693,
+      "sha256": "7a18dec0dbd75564e8625d027e2d5e37ec29a6aafa1f99f6ed5f411877bf44e2",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 1377,
+      "sha256": "012f518c35828de2fe3f10257c4262725da85b348125d59d6f01f7f0e9048525",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "docs/SOTW_P_NAVIGATION_SCOPE_CORRECTION_v1.md",
+      "bytes": 6579,
+      "sha256": "b9e341818a3498241498db8d468e0ba504117480c7de8bc05e98c1b4b60e63ed",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "review-exodus-v3.html",
+      "bytes": 15385,
+      "sha256": "7c9294033edb7e77408153263193eeeabaf4e5461fe89d904e457de43dd3bd6f",
+      "operation": "replace_test_reader",
+      "expected_old_git_blob_sha1": "c509763540bf2a1f2d492ac2fe35b8828e2c3d44"
+    },
+    {
+      "path": "review-leviticus-v3.html",
+      "bytes": 15423,
+      "sha256": "92f92d515d3e5b943b6746185ddbc929a6d12f13cf261798450f6053bcec596e",
+      "operation": "replace_test_reader",
+      "expected_old_git_blob_sha1": "722535efe2bd2a5b89a14b9ed95d296ab79dbd34"
+    },
+    {
+      "path": "review-numbers-v3.html",
+      "bytes": 15407,
+      "sha256": "333e67b32c886fd759f90e2c0f80ae16115c76b8ecb4ea02e9be205792361b88",
+      "operation": "replace_test_reader",
+      "expected_old_git_blob_sha1": "319f838c9e12a016de706e1690f67721f23669aa"
+    },
+    {
+      "path": "review-v3.html",
+      "bytes": 15244,
+      "sha256": "2ee6b51ae72a063d71d326a159b12ec4f54b92f1a6ead9490b89b002a7d3dc79",
+      "operation": "replace_test_reader",
+      "expected_old_git_blob_sha1": "1717c8eaeabb7a4e8bec0f359ba5c384e7f63032"
+    },
+    {
+      "path": "scripts/browser_scope_smoke.py",
+      "bytes": 5460,
+      "sha256": "627b5295e8f2b1353a29dc6296e6f6fd8efc3806269359ec9f4888c3f6b7b5d8",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "scripts/build_navigation_coverage.py",
+      "bytes": 11544,
+      "sha256": "2db4b9dc03a9608cacc627f6f0ba9a365e523214e9d2fa501b299ba63153c07c",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "scripts/patch_test_readers.py",
+      "bytes": 5665,
+      "sha256": "1cd09e0aeac891185060afcbee7835fdf196bbad2e58fe2424757a5190d7b0c9",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "scripts/test_reader_js_routing.js",
+      "bytes": 2825,
+      "sha256": "535673acc0fdf53a05b4c8f8fd3cc2499fcff1819fff97b3c80c183925913114",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "scripts/validate_navigation_coverage.py",
+      "bytes": 9203,
+      "sha256": "d321031fe06d9d06a64cf8623f968b1a97b8d15f37ab9bb6225b6c042d25106f",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "tests/ACTUAL_READER_JS_ROUTING_TESTS.json",
+      "bytes": 1995,
+      "sha256": "57ce89dad261c4b3f75c6d0f64b4fb22c02e947e90992e377c8c1a96e48c0398",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    },
+    {
+      "path": "tests/INDEPENDENT_COVERAGE_VERIFICATION.json",
+      "bytes": 3930,
+      "sha256": "bda8b67435ecc52ee1a0f484ebb34d4c5d8dd968f7acfca89938066d83afb28a",
+      "operation": "add",
+      "expected_old_git_blob_sha1": null
+    }
+  ],
+  "file_count": 18,
+  "note": "Only the four reader html files replace existing repository files. All other entries are additive. Verify stale overwrite protection."
+}
