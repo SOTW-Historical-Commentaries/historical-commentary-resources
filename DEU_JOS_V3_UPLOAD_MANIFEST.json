@@ -1,0 +1,2552 @@
+{
+  "kind": "SOTW_two_book_manual_upload_manifest",
+  "version": "v3-additive-2026-11-04",
+  "provider": "Servants of the Way Commentary Library",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "branch": "main",
+  "baseline_head_commit": "6b45ce1ce65c351f275a908e2fa446a8eff684b6",
+  "expected_prior_navigation_manifest_git_blob_sha1": "2f843832bbe06fc0496e4b24b87fe78034919e46",
+  "books": [
+    "DEU",
+    "JOS"
+  ],
+  "chapter_snapshots": [
+    "structured-deuteronomy-2026-11-04",
+    "structured-joshua-2026-11-04"
+  ],
+  "source_hash_algorithm": "sha256",
+  "file_count_excluding_this_manifest": 421,
+  "file_count_including_this_manifest": 422,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/DEU.json",
+      "bytes": 279534,
+      "sha256": "c5847c5accf1b5ad652d661f6413a7c198e31b49f54a6d3fde2b3b4caadac620",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/JOS.json",
+      "bytes": 241827,
+      "sha256": "7230c67e36f038434d5371016076cbd66fc1cc49f9dd824240be0e0bd7d9eecd",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 2316,
+      "sha256": "df7942153c949629dd5c3119d5041ad941c024d83feeec3c041d4877dfe19fb4",
+      "operation": "replace_after_baseline_check"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/1.json",
+      "bytes": 105482,
+      "sha256": "3d7a5a8fc494b9587c79ec07bab7e50709b4c3180000e1dcc22208fef37b4048",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/10.json",
+      "bytes": 65214,
+      "sha256": "fa503e06409b8c5c14d148c571cf07c623917380a2d7f8288e9777442a73629e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/11.json",
+      "bytes": 44616,
+      "sha256": "16c2bf4dda37f167c5c20c64771bccefb009b101a5f475e385b0690dc5bbeba7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/12.json",
+      "bytes": 28184,
+      "sha256": "4b6556a234398540b4d369efa22668eee982d6245523baeec34005db3d423f67",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/13.json",
+      "bytes": 19120,
+      "sha256": "3f9506fbab571039f92ac6a32df46772e154e147b0889bcaa47a44e70d49c874",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/14.json",
+      "bytes": 38854,
+      "sha256": "617266820413b083977aedab988a40ec2b42fca9a88331983db93f1471711625",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/15.json",
+      "bytes": 24695,
+      "sha256": "d6d3da0cc89a295af3bcedb235000a77ab8972499d7dad7a99012138117a685a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/16.json",
+      "bytes": 20082,
+      "sha256": "14e5b57d54cae54057f2e98f9565cb7a2e77398bc813f70a403c3a0963360639",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/17.json",
+      "bytes": 33999,
+      "sha256": "058f08b042ef2c297f104fcb8b15e5dd6049c648dc2438f7db8f269fc89e70c0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/18.json",
+      "bytes": 47079,
+      "sha256": "491709662b59c697a28093f9b7ba0e243adf8430e0b4dad3d0384cabfba6551d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/19.json",
+      "bytes": 30904,
+      "sha256": "51360076bb40b9eea132ccc533daa31d4b361c5ad526ee9297434ed225701333",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/2.json",
+      "bytes": 33489,
+      "sha256": "970822af7870879f0f655a4a51895a67be328ef971a6e55d392554f1cba3262c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/20.json",
+      "bytes": 48291,
+      "sha256": "0ef7b4f00ba02230fa163d17ea792a904b8913ddab00d74c1562f7f834c70033",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/21.json",
+      "bytes": 31858,
+      "sha256": "8efe2e5bd93ae9fbebee771346ac355f06c509ad1b6194dcb183763413b13545",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/22.json",
+      "bytes": 43928,
+      "sha256": "cfa8c8a983075714feb5ddd759f0befba6d9259b4c3423a1314e8e1dc86e3303",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/23.json",
+      "bytes": 27638,
+      "sha256": "4825eab0c4b08586b4c9d7bbcfe349a8b8e53e04a1bb9543afce0731c98a8d43",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/24.json",
+      "bytes": 36743,
+      "sha256": "31bef7e8596f2149bc0a6e23fabfff89075a547a67e6272e1ecf2361c45fc4ea",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/25.json",
+      "bytes": 48306,
+      "sha256": "c50395dd4c7004b86dfe9f4f132cd8204923768e20a0ea3219594f037064c6f0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/26.json",
+      "bytes": 34162,
+      "sha256": "1a733a85b582b061ab767013a3dcaf5fee8aa4a9cf01d98456b922e375740f8c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/27.json",
+      "bytes": 52273,
+      "sha256": "054e16b0fd15d84b770979f0dc9af1ff2adf377f8b6528bf4af188cc0172c29e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/28.json",
+      "bytes": 104537,
+      "sha256": "f86676934e45ee5a1cc49cd5fab8f26d38dd33bb0f03c91f931b58542f9c35d2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/29.json",
+      "bytes": 40874,
+      "sha256": "1091d16b3469bb03ed1594613cf7cc7b8ffde2271ba85250671e77d2f2f140e1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/3.json",
+      "bytes": 39042,
+      "sha256": "a59b778d3c25e47ef96eed9a63ffc67f20ee81e7ee02e1065d0a486df786d985",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/30.json",
+      "bytes": 33642,
+      "sha256": "bb52de42534292b07cc3421dd1e70cef1c54df447b89073a390d2ea7d07f1f32",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/31.json",
+      "bytes": 50520,
+      "sha256": "a27caf1bdcd79fa86270fd3de6f645e8117eb695b1ebc4a99efa417568348442",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/32.json",
+      "bytes": 184652,
+      "sha256": "9fddcd057732480506ad7e43c6eb9beb1991d70ff698a3c231650ceba8fc2d39",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/33.json",
+      "bytes": 140537,
+      "sha256": "fe56b6b9cc416a5585851c1b618967af815b2f18ea23a0e7511fb91e67308fe2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/34.json",
+      "bytes": 28592,
+      "sha256": "2bdb88652a9cbabdcea560bb36bc607a1f10977ae022c273fb71b691e1a39783",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/4.json",
+      "bytes": 75604,
+      "sha256": "d681533801fbf955618b83d24c902d8f06d9df9f8c35798abaefdd44a5be590a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/5.json",
+      "bytes": 31392,
+      "sha256": "89ad6ca353484c6482095ae612ccde97a7d0605f1a9065d76def61d3c1bac2d1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/6.json",
+      "bytes": 82777,
+      "sha256": "230d3fc3f2b735a538d18932432071c937532b7d0f2d3e20359a184a9069ccc0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/7.json",
+      "bytes": 24755,
+      "sha256": "9e7b7c6aaa721754b469c92d6687953b7924105e79b11791b208ac7ef6b4ad9e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/8.json",
+      "bytes": 55075,
+      "sha256": "48097524f1c1e21d1898ed5873dbf30a608ef6f9125f99917a05d27f1836dda6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/9.json",
+      "bytes": 20514,
+      "sha256": "2a01f843924a60023e8024e92003147a512d3cfff089c7d420ea8dc07771346a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/1.json",
+      "bytes": 39538,
+      "sha256": "82e62ace4cd7bbd9a66a048867236ea9dfaa4c169d8ee7e3d1dcf6cf6805a39e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/10.json",
+      "bytes": 19048,
+      "sha256": "d558c775f24b3797f2b1207762390e020a75b3564dd4bdfc916cb1627889ca73",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/11.json",
+      "bytes": 29309,
+      "sha256": "cf5bb75f599a8fe392fcc3bfae2a75161ce6ea62eb155f17ba7d891efeb463f8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/12.json",
+      "bytes": 38681,
+      "sha256": "d9d5e9f0934fb98c59a5d7ecba02efd700286d2d696b9fc9a66963c8cbccfedc",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/13.json",
+      "bytes": 18023,
+      "sha256": "ee8b8ca08d7e427918457939189b1130e8a6e3b4103d3485ec447d641eda2819",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/14.json",
+      "bytes": 28317,
+      "sha256": "89e7a5e666d543bb6534862f42e676dd77d7c1f74315dd11f5d0579ed54ad4a8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/15.json",
+      "bytes": 31319,
+      "sha256": "23e484d3873a277b6a0b897f00f5b50fe5660d10ea0ad7311ee79ab237dadd46",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/16.json",
+      "bytes": 33684,
+      "sha256": "cdc4f8f276ccb6a68d3f7eab52112cabdb39d9310505138ef61c46adad539079",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/17.json",
+      "bytes": 34840,
+      "sha256": "eaefe82fd6c5b53dcf4f1b21a2d5329b28b0da3a5a402780db325b38348254a3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/18.json",
+      "bytes": 22935,
+      "sha256": "9bda1a7f4f88440c996a433432714a864b9d1189c9bf8107582ab37146c3b729",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/19.json",
+      "bytes": 29662,
+      "sha256": "4f17e0495b272c73f552cd210c982b692919099f83388772208e758b115ef34f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/2.json",
+      "bytes": 28411,
+      "sha256": "09a0566b9a1ba2424ca5103721f91b0856d7e7c4398421b109d9832b2d3c5f4a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/20.json",
+      "bytes": 23520,
+      "sha256": "79aff57109396fae88a24f3b1d58de8f8e85bb54ba76f35f506a1f8d10b4d7e0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/21.json",
+      "bytes": 26471,
+      "sha256": "65a314cffe343db2479f5b7f6081d2f7553b8f0b5e9021132cd188fbcc2453ea",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/22.json",
+      "bytes": 33580,
+      "sha256": "1fe6baedb8b7312aaff2fddfc945f8233f0b0354624de9c3ea212872fadd1ae8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/23.json",
+      "bytes": 19803,
+      "sha256": "64913cbd57d28ead5da2cbe54221e28fc7e1b96854cf8fbf9dd6b5c6645167f1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/24.json",
+      "bytes": 25533,
+      "sha256": "3c08f52c85205493fa70231098618e7ed9d19aee955707e76919bfa617d842ca",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/25.json",
+      "bytes": 19780,
+      "sha256": "e7e0c1db39acb369b79be874d0faa5519c852eb48e41649c72dbca59d0657d20",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/26.json",
+      "bytes": 14629,
+      "sha256": "b7c757caa381cccb86f90bebb83b00bc1c2cf6907b4aff2af5bbf60449c5a21d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/27.json",
+      "bytes": 20978,
+      "sha256": "f6da834a0a0afac56d3fb94b36adda387ed4ab830c8d7eeaffd1baa4b09eb1f6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/28.json",
+      "bytes": 62731,
+      "sha256": "a8f16349d561ade6807240bfd6b480b58d9bfbbc1c7b42dd3fc93bbc890c6855",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/29.json",
+      "bytes": 20336,
+      "sha256": "5f7451abae5a235e69153199798f68cae511b978fc1cf53b7570e99a35e8eac5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/3.json",
+      "bytes": 38741,
+      "sha256": "b210b83cbec1021513b4c3bfed02ce263c7e7ea49ec1ef075f7b221ae4f1d4fb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/30.json",
+      "bytes": 24090,
+      "sha256": "06d68b5ce419f71de6c8ae14d28881362fab4ee2c1f2e1c7c85fad9a67bbd61b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/31.json",
+      "bytes": 24374,
+      "sha256": "96345b9669e29133cad02b300e46e1c2c980783b63bc57c351eb6bdd720fadba",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/32.json",
+      "bytes": 47344,
+      "sha256": "91e07f02c09fb062893e185cd1b98a6a3989aab1d0e82c642243f7c8062576f1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/33.json",
+      "bytes": 38389,
+      "sha256": "e2f3a9ec19417f0aaa35ea3503bcc27aa8bf89d3f216be96e1d627f67773fc98",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/34.json",
+      "bytes": 22726,
+      "sha256": "483b166128fca065552972b438a2a0e67ce2f051251f5364a5080c2ee54e9c73",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/4.json",
+      "bytes": 47034,
+      "sha256": "8b878021c03bb663754e02c76c0340ada8635f7cc3db5a64f122a2c13b44ab66",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/5.json",
+      "bytes": 27193,
+      "sha256": "f44d3d4e781dc28f0e17620da5a505b3c9fcce65b3bf3aecb7165de9b3f5e9bc",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/6.json",
+      "bytes": 17568,
+      "sha256": "6f42c9ce597267c4086ab2e83028593e574189e6c0811d1b5590ef7f149477ff",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/7.json",
+      "bytes": 19917,
+      "sha256": "3fa8cf3e755d855b55a2a1ce8c0bd73ee12c28fb38b459e3d4feb997872fdc97",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/8.json",
+      "bytes": 27780,
+      "sha256": "385d43ccba6aabc5b04d4ded37eeacf2b31f0bf5c49fe16260f4bf3e7585071a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/9.json",
+      "bytes": 17790,
+      "sha256": "515559a5527a7bb58facff051b3a4b509757481caee00248f1d4fadf42d440ae",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/1.json",
+      "bytes": 169568,
+      "sha256": "ccec7e92b590388a95835cd9bfb009fabc6f04fe2675516ca50cd8f7c6fab90e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/10.json",
+      "bytes": 191378,
+      "sha256": "ea1e4b7f6f75ce8f419e1fbb4ad76d38297e88bde5a863d2bf5234f1e387d687",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/11.json",
+      "bytes": 83092,
+      "sha256": "33b2c674e33baa21bff81a88ed04c1b5c4de8c0c31fb60a94aaec47cc22f59f7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/12.json",
+      "bytes": 168782,
+      "sha256": "37e62a2ffa65f5db7284469cea179f05231b294f850cb882ab6ea26bc35f635f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/13.json",
+      "bytes": 190421,
+      "sha256": "22910e6b27e30864427508df21ea21be5327d31729d72321a32c6e11a8fb756a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/14.json",
+      "bytes": 59573,
+      "sha256": "5c6c5d0743545865f4ac4faad43b6a73afd98f15fd56aa4e6a3d1892298490b1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/15.json",
+      "bytes": 89688,
+      "sha256": "9a1426e91f342e19ad334c029771da37d3c60ba7dc999a73f3604c025a429c09",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/16.json",
+      "bytes": 98644,
+      "sha256": "f196cbc77e041a2e501998d6d929ada6ea8b426a893378c9a4f3e5191feb8aff",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/17.json",
+      "bytes": 130551,
+      "sha256": "07552cc6dce4ec4d53a15fe92ed9352cf9e56198933332abe717f6e81a0d8359",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/18.json",
+      "bytes": 183320,
+      "sha256": "b38d2685f928cfb0c733818932186ff212ab77d3ec34ef53134c0cfcc63e82ff",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/19.json",
+      "bytes": 35318,
+      "sha256": "5d25cc7115edc1586b200951ad9aec805a7658c2e32995fd716b81458f09b349",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/2.json",
+      "bytes": 100917,
+      "sha256": "ff434722b3296462aa478d8536dc62a5c02f19a8a71a40bcf4a891ee2b7ca76f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/20.json",
+      "bytes": 86692,
+      "sha256": "651520a94b82bf7195712765dbdf854980fca3a8fc652efd2fb969919028b005",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/21.json",
+      "bytes": 93817,
+      "sha256": "92453ec506cfb5f2cd39612a2fa5e916c08ab1cc842c1ea5a9a674007c2f16f9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/22.json",
+      "bytes": 105890,
+      "sha256": "e6854432faef293d5c554f8ecc4795da9e2f6768f7b8f36e400e5caf38827fbe",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/23.json",
+      "bytes": 232303,
+      "sha256": "02258286f698cc86ef2e8c87b6ddcba3e928eff41b0e6411d8e53e0e178d646c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/24.json",
+      "bytes": 147402,
+      "sha256": "625b4fdf3d42a24bd44b5fa321ffc50a71547788bcfe4eee66906dc367ae9904",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/25.json",
+      "bytes": 62079,
+      "sha256": "c8d10a075e113a78497086b6c3344658b7dea0c4dcd415e64fbd5a88fdd3ef40",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/26.json",
+      "bytes": 79071,
+      "sha256": "f7c235118a9e08a0a20f7e484f018445120ebab290a3d6b9fc7a3d2421fb353f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/27.json",
+      "bytes": 91911,
+      "sha256": "9b53a4900b8e92f401564972574c9bbb115f0254ade28dcbe40f2c71efa828ab",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/28.json",
+      "bytes": 227720,
+      "sha256": "b270954559f31e2ae0dfdf7d861594430b0a2f605ab4b6d89533744c3b167dea",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/29.json",
+      "bytes": 138745,
+      "sha256": "98cb8a9afc55b8d0c3d31c68456d762c95c4de3335f09c69e64841075a184f53",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/3.json",
+      "bytes": 93213,
+      "sha256": "c4f13fbb8150ad9f12e444e3aaa168cd31bac63d09ed54b29a5d5d025d3bab9f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/30.json",
+      "bytes": 89306,
+      "sha256": "f0fe0eb5f96959054ee6a42581c1da6972d441ceda68d50e82f8c34cf8265005",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/31.json",
+      "bytes": 243684,
+      "sha256": "4d74573d5e3ca79b548c788a20be8174ec85c80fa99c9d219e50534d3b60e828",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/32.json",
+      "bytes": 371014,
+      "sha256": "581ef05731261f97381b849b330bb28cbd0923300f1b2c9fa03a9c71df1f4e7b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/33.json",
+      "bytes": 204025,
+      "sha256": "dce36fcee27d6cb4db0b505a38682fd5fca98bc34b5c4d1bf2fa80121070a7a7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/34.json",
+      "bytes": 90750,
+      "sha256": "45e1b7005408e1551b9a666d8acca6923434fa62649f233f5a7095225a3c73f9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/4.json",
+      "bytes": 338207,
+      "sha256": "1e16b9b6317667d9f75c73d9f4db5d6186946d68f6b8e8e4bb152edf78b71a6f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/5.json",
+      "bytes": 135652,
+      "sha256": "cae558d30c773461112c52e50b96dd661a7df3730069fcc549a77742ed939bb0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/6.json",
+      "bytes": 105505,
+      "sha256": "0d7cf83585143faa6219a4a8294d66307f25889f0920e3dc6b3500b4dc7d1910",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/7.json",
+      "bytes": 109537,
+      "sha256": "3055efa632e545748073b5eaef2411f8a8eb57c5be0afc0a1cfc3519bbcc0b49",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/8.json",
+      "bytes": 117845,
+      "sha256": "fff4f627b2ae8b2b7575ea8750fc585f7e1b02b00637e5e947f9bd4f540ebe05",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/9.json",
+      "bytes": 79330,
+      "sha256": "e04d4dedd0fd727fd187299552916ad10293f8fe8bcfb92930234cedd1f18024",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/1.json",
+      "bytes": 212656,
+      "sha256": "f4198a4844203f05e23072700bcfe0aeff99afc2592908ffac8b46eef8077c42",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/10.json",
+      "bytes": 93607,
+      "sha256": "af62c048b2c9246a0e80e83d4fafbfbfdd09eaf68fc05c282d2784f37aad1f45",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/11.json",
+      "bytes": 140871,
+      "sha256": "7e83d1eb5ca62ee7f6fd69006a0c41a414340124ee3fc419ad4397e0909c3735",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/12.json",
+      "bytes": 142855,
+      "sha256": "d42496b809238fd7966cf24571529158da09b46184317dffc29ed298552ba1a8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/13.json",
+      "bytes": 102203,
+      "sha256": "0b9a84185bdd1a578c8407c5381085977151742fbaa37a890dea8da82b25e8b8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/14.json",
+      "bytes": 105221,
+      "sha256": "f79064c57d4a8b9d5e58270d886af749ab1fd6359cb3d0b1f896bd41fe9bbb11",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/15.json",
+      "bytes": 115353,
+      "sha256": "0e4153e692a2d8e6d128930b23d208dbd47665792a8667137c77777772d66216",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/16.json",
+      "bytes": 116335,
+      "sha256": "0aeaa4c64c57634166817329ef7d03d5e12b96298b00110e1d70b3924993603e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/17.json",
+      "bytes": 123551,
+      "sha256": "545db0c734a802f088c06583db0017b4973845ea7b307e7558f986bf9895f48d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/18.json",
+      "bytes": 126679,
+      "sha256": "0aa6d72f2097da173a3568ddad94cd61291f6af176e55889f6bf6481e6c9f978",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/19.json",
+      "bytes": 94573,
+      "sha256": "a4ff34c57bd19cfd20f6a697b384dca4e840764cce085a8290a8f51d4c9ba141",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/2.json",
+      "bytes": 139270,
+      "sha256": "cdde7f8e1e1bda1640f9eca80932a5bdd5b4121989d44bd7cb72ff9862e54a8a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/20.json",
+      "bytes": 125259,
+      "sha256": "19f2b4b454d28529d4b35aca5fcc96504e8f40c45b2ce7a21bbefc386edc6445",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/21.json",
+      "bytes": 206137,
+      "sha256": "8344d2717eace5722af4f6b29e9af7fb328e1872222a89b1d29e61ffe6c72b41",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/22.json",
+      "bytes": 203139,
+      "sha256": "fd0f509eadb9112f3abb57bdbe1b94d8fb1603f1275ac83ab4cc5483f26e58d9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/23.json",
+      "bytes": 165393,
+      "sha256": "fb42f4cdc3d1aabeb050966b8095ea5159d2633e06d1295e703dfed2e1ccd531",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/24.json",
+      "bytes": 143811,
+      "sha256": "f841dff5993babd60725c52fb9a6ada7ea497080c980458a369a7ef6ce6d3511",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/25.json",
+      "bytes": 135513,
+      "sha256": "a9d978e56f136e7033731fc424baf49508f8e81c4ac3b46f431765d663b92b1f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/26.json",
+      "bytes": 121045,
+      "sha256": "1b2fb71aaf562b6c14bfa630c335f4e412e1c28769b37e7962c26f709ab7c42b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/27.json",
+      "bytes": 110679,
+      "sha256": "211d9d76826db3627e13bdf43d50aec289c04392d4704c4e4a2e90bf506d4f9f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/28.json",
+      "bytes": 349491,
+      "sha256": "65b994301fe78b7f21266b574667293c21325281dfcdae03fcbc17edd9f4349f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/29.json",
+      "bytes": 159965,
+      "sha256": "110523a62ba5ffdd93d6847f721e66c3a3386c98f23d9c80e104e0f67ed9a15e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/3.json",
+      "bytes": 126086,
+      "sha256": "50b2fc8ebc97048da6cca9db1fddb973957e8ee08551e7eafcfbe28aec391e4b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/30.json",
+      "bytes": 97435,
+      "sha256": "0adae03bfa13b0bbaf6179048b1654c1030a1360126d86d375033507e2d99297",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/31.json",
+      "bytes": 161347,
+      "sha256": "4e5afd4edd5c903b22cc18df7034e643a3a21e1feab216c4ef1e895b7d1d3a13",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/32.json",
+      "bytes": 582111,
+      "sha256": "5efee364da6805d36fad66fe381eaf622c52aea7c5c9da06da481ee5e67abf5d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/33.json",
+      "bytes": 263025,
+      "sha256": "ccb2a74375a8ae1bcc5a2b53f4a8dd6b3236e58ca85b876206e3af02e490c97a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/34.json",
+      "bytes": 88503,
+      "sha256": "113dda6ddd4e62ffc3defbe6de833802b87ddcc1b89b30af1f5a24c807678d77",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/4.json",
+      "bytes": 215222,
+      "sha256": "f031efaf46afcd4e85b372df6e47c9b9f3f5c144f72cc901d6aeb6eecceccdb4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/5.json",
+      "bytes": 110189,
+      "sha256": "b72f7acb896e151e060fd6aa0536b08456f7e650c44d3bea5753bb2c2c7d3d57",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/6.json",
+      "bytes": 113402,
+      "sha256": "4ad1531400f902196f6f924ddcf2f743a68fc5befd4430b06c62337a5aa29ef4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/7.json",
+      "bytes": 112456,
+      "sha256": "6df0d0bc4ccabf9ac838f179f01440d92b592c97714512e5bc4831d2295095d1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/8.json",
+      "bytes": 114172,
+      "sha256": "a7580f507041da70896ab4ce7740f74b41b736cc28896335debdbbd0f75ad57f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/9.json",
+      "bytes": 134266,
+      "sha256": "946e17fe81d4f77ae27fb5dd36afb20290000a2da217f9f8d6c92c48621acef8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/1.json",
+      "bytes": 185873,
+      "sha256": "af8ed22bc7f6bf55070531aa79f98fb5522398bca93162045bb31700051f6299",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/10.json",
+      "bytes": 58252,
+      "sha256": "73c4e12489b23f20a24b78ee93de613d612209adf28de0c7d55390bed3313788",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/11.json",
+      "bytes": 70520,
+      "sha256": "52b4d7b8d365959b93095fea7f43720608b8b6a11272bbf204a07342e4006b1f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/12.json",
+      "bytes": 107905,
+      "sha256": "1d493ba0eb9506aa959f6b243c2bf8adc9ecb5f91b4c007d1cb1049c8f102541",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/13.json",
+      "bytes": 44625,
+      "sha256": "0c075d992b574068f788b352c0601192e8624b203e210d51d7e90922dc29f6da",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/14.json",
+      "bytes": 31198,
+      "sha256": "36722b13abaee13481affa4a66dae2ece1ced0b8dd780a0e448d737e32a8d008",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/15.json",
+      "bytes": 64349,
+      "sha256": "042fcdfe9c375321b3733dc6fe5398ca230ea774943a450fe70eeace66674c9b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/16.json",
+      "bytes": 58941,
+      "sha256": "184dd76827a967750a50a0a1ffbe4dc5d2e226ad674569cda88fdcff0b2978f0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/17.json",
+      "bytes": 70828,
+      "sha256": "2a8987742a55baf503acf656406dabf002e75b7f539c99523adf03bd36dcb294",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/18.json",
+      "bytes": 56074,
+      "sha256": "b34c7cdd5f32fb8c060757a7775ede1635af5d0eb01c094b33cc625ad3b27eeb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/19.json",
+      "bytes": 32246,
+      "sha256": "a36083a8c91281849f0c0dceb41c1736d02754d73324f0829aabdb7721863442",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/2.json",
+      "bytes": 62290,
+      "sha256": "740e12edcbe65496e3ae988b4752dc0e1ebc00b087adb42953bb6ca2aafba8ee",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/20.json",
+      "bytes": 40107,
+      "sha256": "48a515369fc36d7e17ccc871445e2bec67fec331da22ec9d9caca8368176265b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/21.json",
+      "bytes": 56866,
+      "sha256": "1baa6223b3b7d24f30c3609238c8d13654af8a78270a48537aa1dcf222aa3d8d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/22.json",
+      "bytes": 49453,
+      "sha256": "834467282f443de81f1abc424154e23b26ed8ff171fb09bc9f343be4f610c78d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/23.json",
+      "bytes": 46741,
+      "sha256": "e8df87b161fb625d54a9dd7428f144f5f1e35f9fb3aeeef06c4a0f8e86bebfb9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/24.json",
+      "bytes": 47250,
+      "sha256": "4bc4db52ad456801beb4c6248cd9439c65733b47a3c44f65a0bd3dd94c7e8d06",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/25.json",
+      "bytes": 48367,
+      "sha256": "c99c32ad80a0e5739ab2e1155e97500c26266550100d4b4d96fadc7859499d03",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/26.json",
+      "bytes": 37813,
+      "sha256": "a7ea787a249350d343aeb01b7e1a80685952d5634868c60795ea956f4236578b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/27.json",
+      "bytes": 45389,
+      "sha256": "4f79982b7a40e53e9c41b73b8c4256d3e6164c6f217cb4d1ce840fb8677d9d03",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/28.json",
+      "bytes": 145426,
+      "sha256": "357e45976386ba8ad1c5c6d2977dd7a1fe6e6880f82e369399f937d0255d76f6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/29.json",
+      "bytes": 61249,
+      "sha256": "cbb25b86815c090d6210a970b6bd3ec3874b515d1c1fb0808ecdc05c73eef6ed",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/3.json",
+      "bytes": 96459,
+      "sha256": "524c7702da188da2944502c706f1d7660137d8ec6abeddf7e6311a5b102af3c9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/30.json",
+      "bytes": 44735,
+      "sha256": "2ee3159f4163b321535736a3e0f13b91c382fccf1a589ea8e6a8e708ccaa18be",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/31.json",
+      "bytes": 90182,
+      "sha256": "fcd9ec6033f07e42991beff8b7ffdb50530c12d8cfff343d03ef9e0f00e26fa0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/32.json",
+      "bytes": 122603,
+      "sha256": "c1baf762565e55defba6ac9701fc585044d70b3d4827e427ecf737c874286540",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/33.json",
+      "bytes": 195580,
+      "sha256": "949e3155f1e198ee625ae6412b0eff42c5e68b84e85c85229be3160c46fe76fd",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/34.json",
+      "bytes": 34819,
+      "sha256": "d5c022c3ac1d1792d5c37a0f9ffb175e93750212f243b315bf9df19957d1912e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/4.json",
+      "bytes": 107307,
+      "sha256": "72c5d4ddcd5644ed57f69ab2f90f235284f8863ff8502a837887b790fe8c5e58",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/5.json",
+      "bytes": 31932,
+      "sha256": "e7c655f98240cca93702011c013a635f66fb8da771b213f9402bddd36d5b8553",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/6.json",
+      "bytes": 56335,
+      "sha256": "fc9766fc6bb4060b79036ede94ece617b9b7dd5a679e9685fe9f009e68ea8b26",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/7.json",
+      "bytes": 24266,
+      "sha256": "5d33de0b236865d5628177dfeab1ccbedf352ab0ef6544cd577452b11524a6ca",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/8.json",
+      "bytes": 49530,
+      "sha256": "2434c22c94db5f1e1290f8b8f32b3508c9ba570df60adc5ebc75d4b8e26eca70",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/9.json",
+      "bytes": 37756,
+      "sha256": "2078bda00826c45a4344c446bbd483e8dd086e29537e87cb5b02c40118965da0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/1.json",
+      "bytes": 110974,
+      "sha256": "874fec826636a03b23a9aa54f95ca627469635f72e580fd8aaa4008de71c86b4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/10.json",
+      "bytes": 69296,
+      "sha256": "fbae4514935dff5f8d651dd6d7dcfcd35d930fcb5a94714ab858ee938773215a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/11.json",
+      "bytes": 77510,
+      "sha256": "ad70619c44901531e159330674b49a06389d243dab79f2d5451b59561032aa7a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/12.json",
+      "bytes": 96393,
+      "sha256": "e8a6283bae85c048500f2cfb98030ef9a710325cae83471c3bec49dd5916ae04",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/13.json",
+      "bytes": 65960,
+      "sha256": "0c9f4d1c0d90036aa950065413747174b32a64f220e11022df29e96cf23a02f5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/14.json",
+      "bytes": 65536,
+      "sha256": "bb2d8adddaad96af00032288b6e628b0b4944b859b6655331ff5b7dbd33eb988",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/15.json",
+      "bytes": 67207,
+      "sha256": "5fa3146696a96a029e31ecc3d19deadac150960a4a8876453171909121722dac",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/16.json",
+      "bytes": 62660,
+      "sha256": "8baeafe5a3e5a240224ffd83e138361988ec0575a70d77e17fc4c1ef8a71b526",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/17.json",
+      "bytes": 90754,
+      "sha256": "70108c187a66a0cc086f7cbd279f650bfb0b780f1bc343ce5c4d8456a622902e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/18.json",
+      "bytes": 81324,
+      "sha256": "e75d656e7b9596d0c2d0a4865f8b5f225fb5da1ab43bfc117f429fb6f93ab9ca",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/19.json",
+      "bytes": 60820,
+      "sha256": "7eb7c98fc22760531821e13d619d574978dfaf393a6c42578477e6d93fb3893e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/2.json",
+      "bytes": 69062,
+      "sha256": "26d5884b325cdfde4d00a5bec913ec212e4fe6550d9a81b622418b96ea2001cf",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/20.json",
+      "bytes": 70157,
+      "sha256": "949b4d6134ebb28e603404018f0082d73dd3ad8bc3cfddb8dfca779682259b37",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/21.json",
+      "bytes": 94280,
+      "sha256": "6a0203f7eb086f004e32affd4ee41f589847d065eb5067c9ad213843d53039b5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/22.json",
+      "bytes": 78116,
+      "sha256": "61c73582643a5cd9c7caa7b363caa86d31ce6e9b08a214b5995b7e207f0f15c3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/23.json",
+      "bytes": 82315,
+      "sha256": "884593df860473ce110120b93a4fa5067ade38698a6bdc68db2d4591ffb46988",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/24.json",
+      "bytes": 70620,
+      "sha256": "6833537a787cbb2bb81abb41bdc34c3196f6849bb0477f374f792b905a6021ff",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/25.json",
+      "bytes": 64148,
+      "sha256": "dd32929c3ef8614b524e6957743ed8e63cf2330f95135405c5d638b49a5aadfe",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/26.json",
+      "bytes": 70080,
+      "sha256": "bd2178743f9e43f888e57845bf2c859f1061c8f1e41728cd00984a2a61d6e68d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/27.json",
+      "bytes": 77615,
+      "sha256": "cbe3bcaa6964ad4687b223e49c4364233482491f743db21845039972a89592a7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/28.json",
+      "bytes": 167135,
+      "sha256": "b066479b6cb4eb94ca73702602d23612fd97fce235e78fddc52f316a076a5868",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/29.json",
+      "bytes": 94954,
+      "sha256": "47ba1696e5f330cc7191b45c76ccaa0c91c535b27e49302b1d384b9f37dcb955",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/3.json",
+      "bytes": 70258,
+      "sha256": "b80fcc0f1b2403d73942816ead55311dd7e0a00965322e863360e6c3927b133e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/30.json",
+      "bytes": 81240,
+      "sha256": "75d40c66463fe9e1c720001edb8d5976e8f730a17e00c0612954331e22b31ffa",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/31.json",
+      "bytes": 105016,
+      "sha256": "1870a16517673eebb38c4ba565a82c3a5189d4d84b60d2be42d5a0643dd362aa",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/32.json",
+      "bytes": 234222,
+      "sha256": "67e7a49eac233ccc55773e982d0bcd6c7322fa3e899deefaaaba4943ca7b8d40",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/33.json",
+      "bytes": 217004,
+      "sha256": "4f3816e03f3355dab07d4b201f1208c08d8198bb2348c43702d5cd41464f7f43",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/34.json",
+      "bytes": 80967,
+      "sha256": "9bf29747aedd2999ccfb91f069cad81db65d4033911c96260ff8ed3dd1aafed0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/4.json",
+      "bytes": 130811,
+      "sha256": "4b9f00c264acaf8ada54deb9237b1545b3870a1b1a5c4a24535c6c99ddb42aac",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/5.json",
+      "bytes": 58187,
+      "sha256": "523c13342f3d90f1da1b83e5e626d84d82c0a12bca261df6fbad427156a37f7b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/6.json",
+      "bytes": 81403,
+      "sha256": "2493716c48a5e24065230df395a631b90f60394250f6974338bf15d2557e61a0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/7.json",
+      "bytes": 79682,
+      "sha256": "8c9281ec3204c8852c5d2bc842c5ca039c2c36679d2269b93b04a18f8762dc4e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/8.json",
+      "bytes": 78396,
+      "sha256": "b474e6be2aca5bc2f29b6c689c75504fb00a770902eac484fa546d4564404d81",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/9.json",
+      "bytes": 63597,
+      "sha256": "401e042a3990a0818d86110da9b25c0958c25e3194962ceddad5073644fb4fb4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/1.json",
+      "bytes": 15772,
+      "sha256": "3273fcad8c1897eb11f622a0b32b91367442f4f12ecdfed9083010c11da6d81c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/10.json",
+      "bytes": 8978,
+      "sha256": "fa5bb514e2446b06c2eee44180c309f44134db0fbc3d41b922f3390cd72934ab",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/11.json",
+      "bytes": 10488,
+      "sha256": "90fb833bb586f6c6442dda0b314ea7cffb956a62a955ae4c7eb355ff6a3bce76",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/12.json",
+      "bytes": 10710,
+      "sha256": "4b135e3c91e87e205d3f8a8342c119d617347e8d3e62f184b122d1765a8cb2b2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/13.json",
+      "bytes": 7935,
+      "sha256": "d453b40947c3fced9ae814529648d6ff42b1612e4445b04a92e6ebde06addebb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/14.json",
+      "bytes": 10529,
+      "sha256": "45fd7b8aac5ba64b8042b9dca860313f1066141693259bd460539417a2cc2828",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/15.json",
+      "bytes": 9086,
+      "sha256": "1f5265143f054183f1411212dce5ef3bdef6585f789cce6071f52257705200ee",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/16.json",
+      "bytes": 8681,
+      "sha256": "f88003cb3bbc0b79064b62dbf1cdbfd8eea2f5f0f1050e2f18e2884c0da23be5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/17.json",
+      "bytes": 10153,
+      "sha256": "424a1d13ab708e48b9f47684ffa9aa3c7de6e02e70de7251cd1b0a7dddb514ad",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/18.json",
+      "bytes": 9900,
+      "sha256": "dd84f2c9d350f41e7f8e496ebe3ae4432da69af95adf60f78a1cae76d4087ef3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/19.json",
+      "bytes": 9159,
+      "sha256": "9b5c256711adbd9710ab20b6a27e652ca29946679e140285c0e32f1b57a065a0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/2.json",
+      "bytes": 12093,
+      "sha256": "f2113ec6178b9945812b87a10db26203fa7b5821d5ee802e592059f2f32436e4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/20.json",
+      "bytes": 8611,
+      "sha256": "32be89e869896bef333bb1754e8e32c6d33b6f4f74e41ee41e9565a26baa5353",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/21.json",
+      "bytes": 9905,
+      "sha256": "31313a845db1128fd4dc1e62567307d451b08aa09c3f7819e81efd9e686c639e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/22.json",
+      "bytes": 11445,
+      "sha256": "7920ae4ca5ddf48d851f3d810ed253cf37e70a3545f9991396faad062613fb9a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/23.json",
+      "bytes": 9916,
+      "sha256": "79200645ec09c4dab07fd557bbfb2ce0637f3c93fe7c334d0209f329af25ad63",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/24.json",
+      "bytes": 9484,
+      "sha256": "3552b27ab4243a74bfad5d795f6ab73b89db656dd2f6d0aee5f7cf4bdb6685b2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/25.json",
+      "bytes": 8453,
+      "sha256": "0c72551a6a3d7aae463bf18aa7df39b36e1d0fd23276e88a9c5303fe5d497cb7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/26.json",
+      "bytes": 8138,
+      "sha256": "d221b417260ccb602fa5375eec936225e46914681727d0946d5cffbb4c72903c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/27.json",
+      "bytes": 8857,
+      "sha256": "489fbad3a025c189ad78a154c380e5a7113950b4edd4f708d0acf81454e0e89d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/28.json",
+      "bytes": 18642,
+      "sha256": "d4f9b6649a5c34527e06f4962ad3551d7b63933a9b5ceaff985385f1a497f9d3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/29.json",
+      "bytes": 10497,
+      "sha256": "7714caf0bdda3b1b5773aef95d8b4fc2efd1222a735f407ce52235cc074418d0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/3.json",
+      "bytes": 10060,
+      "sha256": "d51c50db1bfe6c9dcbd14d4ff777370ecc8bd23ba28470fd7da0608e96a71c02",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/30.json",
+      "bytes": 9204,
+      "sha256": "8bb9c60592463cb3879d0697aaa60029d72a017b12c92f1b82686e9d0d3046db",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/31.json",
+      "bytes": 12087,
+      "sha256": "4402054fbe3ff25307d91f520ade976d7fe6c6483fb32cd4a1b751afe77af621",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/32.json",
+      "bytes": 15900,
+      "sha256": "32ac9d3e9bb1dd811343bf1fe9ccfda1c4bb44333cfa4a7eb8631014e906fbf6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/33.json",
+      "bytes": 11446,
+      "sha256": "6902369988c401e56035065dcdec1dd9282456f29b2dc72c7ff6cad754c7c388",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/34.json",
+      "bytes": 7144,
+      "sha256": "465212b18ce59150bfa0efb142e92f0521fa764c01d2eafc88f55c1118bf41a0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/4.json",
+      "bytes": 14570,
+      "sha256": "6b006df89e6400f4554e67767be50759e88432c9d38b0530f96c96d4c3d87dc7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/5.json",
+      "bytes": 10651,
+      "sha256": "b01a8e6cbf9b079b01f5ce7f40f8efd733ddd3ba93064a4443449f017bdec059",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/6.json",
+      "bytes": 9762,
+      "sha256": "5f2692d68fc6c242f3ff0811f08858ffd7741a4696612f48481cbdc6f458c14f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/7.json",
+      "bytes": 9724,
+      "sha256": "61984ab01d762bf1a03436321bbf17791e472deaa66fb5f43886333c7ff03916",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/8.json",
+      "bytes": 8917,
+      "sha256": "9c2cbc5aebc1eef3049a8cca4f40d667574cc0bad42b1bde7977f9ce82024cfd",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/index/DEU/9.json",
+      "bytes": 10593,
+      "sha256": "ad1d748bc4ca5563c1a6c70309e620fe18df54611ddc5a049f1dfa05d941f52a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-deuteronomy-2026-11-04/manifest.json",
+      "bytes": 1820,
+      "sha256": "d375c4b18aa075bfaf445e33464c378bafd48abff49ff858d43f36dbe3d2da51",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/1.json",
+      "bytes": 95464,
+      "sha256": "95b54cdaccb3e0507d6a564c1ed38d8c154862ef07175b31c8f24e9612d6415b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/10.json",
+      "bytes": 180999,
+      "sha256": "cfa5912e44c400452d51021d90c26425a99246e5f4f943e18b9b1afeee4aabf4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/11.json",
+      "bytes": 85862,
+      "sha256": "90dc53ccd77a8a98a48c13aea0d369dfddcc0660ec17c9ae8d6d2ec528babcb5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/12.json",
+      "bytes": 46939,
+      "sha256": "7a1703b1706b7c8f273accf5d90cacce6adeef4e18fefc1e3d6699940a440a92",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/13.json",
+      "bytes": 67565,
+      "sha256": "fd1f65ae349390f5ea85405f5b9771906f3a3be7db25718261fde5223d4b3443",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/14.json",
+      "bytes": 55541,
+      "sha256": "bbc53f584b571f7f55c1129e15b7f98c09504f849588377468adaad3f9f1914c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/15.json",
+      "bytes": 117654,
+      "sha256": "8228f0da63a6ad4f9a53dcb298ef0d5851eace94dd5d38f786a1ac5886657eea",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/16.json",
+      "bytes": 21927,
+      "sha256": "8d2406fa0d0c07a5ef2f8c5e6f9b1d28865870856928ae7e8ca50c4a0bbfd810",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/17.json",
+      "bytes": 41194,
+      "sha256": "f8a7b6495ae438af7624f00e3c498f0721aefd1a9c29977d8d1700bddd317fa5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/18.json",
+      "bytes": 46896,
+      "sha256": "9b831a35033584884b9a68e75e7f468d491713d46104e8b649aaf96377f285bc",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/19.json",
+      "bytes": 74456,
+      "sha256": "64b15561dc62782e64214ed71cf813bfaa1a7a20a7d4b342434a744da0f159dc",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/2.json",
+      "bytes": 86418,
+      "sha256": "e083269d7c0bfff7ceb97b19701def9e5ea79082b8718b9ef2ad5d13c03e8a77",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/20.json",
+      "bytes": 23288,
+      "sha256": "c25b990652915597af65e2809198c0a8c2932b68ab45aa3496ebba8e2208c629",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/21.json",
+      "bytes": 61324,
+      "sha256": "895bee4e53104d41aad09b14dd21f8eeccc36bd069fe82fc2d56566c49736c3c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/22.json",
+      "bytes": 69900,
+      "sha256": "1d4c4ce3032b0e316d0eaf6852f59b1451d150caf88be4f2b952462c43c45c2a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/23.json",
+      "bytes": 45772,
+      "sha256": "940916602f40ebc58bc08cea50e04261c98ddbb68810e6dfd66b8415886b8934",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/24.json",
+      "bytes": 110009,
+      "sha256": "e85a6691fd8dbbf7d43e1a8816e99b437f692d76306502f472d1f7fdab777e3c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/3.json",
+      "bytes": 57558,
+      "sha256": "842c328715efc1c8d6e02d111abad2efc2ee4f6dbb5de1ec2db65b6ad2512d83",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/4.json",
+      "bytes": 51472,
+      "sha256": "574220856bb3325c9ee77f43ee68e7e40f96c9825c13cf8b214f6a997bb7f53f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/5.json",
+      "bytes": 70573,
+      "sha256": "19721511677e666af68efe6045505091e58fd986a692f4d50358a59b6e0311cf",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/6.json",
+      "bytes": 78592,
+      "sha256": "22a5cbddb6233768b3e52a1f7acdda892182bf84f597f80b7c5952f6b660c791",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/7.json",
+      "bytes": 93685,
+      "sha256": "8deb17704b4cef2aeea6b8d843a5ba7079c26555a6dd8bf2cf153ebdad614e8b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/8.json",
+      "bytes": 72026,
+      "sha256": "fc76ac0181f36b347a737e3c0d684c5f55c93ae5443ea52d1c225ab1714bd8d5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/9.json",
+      "bytes": 74605,
+      "sha256": "c85c7cb484d20c1aa3445754d447d62e06184e8494072f88375fc6919c72fcd2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/1.json",
+      "bytes": 14485,
+      "sha256": "2a497cdf3d2fc22ea8ffe88cb35c4123babf123bb3b2033a819dc8b1c4307729",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/10.json",
+      "bytes": 46435,
+      "sha256": "b0ee15bd53dc89087f30024fef6de220874bf657752f74988b4d9fc932ec8205",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/11.json",
+      "bytes": 17361,
+      "sha256": "5c729ec695ceb1d77a1e033a6755a17611b978d7a93e3b8db9d2d8f9b54f84bb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/12.json",
+      "bytes": 10560,
+      "sha256": "bc1ec115b9a4c6079cfc5e0c9c1aab326b1f4e8b55fc1fdd1be646a1bf935f53",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/13.json",
+      "bytes": 13387,
+      "sha256": "60525bb985ce14eb300ca740e80eb542a1886952a361d1129b6aac734ca89db9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/14.json",
+      "bytes": 23222,
+      "sha256": "01dbd7f8ffdc5d742ec64beab0777c815f3d38ac198d25be61cec6e87f947c1d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/15.json",
+      "bytes": 33068,
+      "sha256": "f17db83260b686ccb189d06f78008faaa2b3a73975f9f08f318ea46e08692585",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/16.json",
+      "bytes": 13079,
+      "sha256": "a024ea7eb4146e236f0493dc0bb2e9f8b527afea8774aed34311bc9cb4b1a5ce",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/17.json",
+      "bytes": 17801,
+      "sha256": "9256d477937ba9c38f3b6305277137f63916c03fe9c9e8abda668cda3c0d429c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/18.json",
+      "bytes": 23872,
+      "sha256": "970f6fe9df9c61660eac36148eebbdde7a363792e34b3928c558cf2721c59978",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/19.json",
+      "bytes": 34630,
+      "sha256": "930590e29c7691cb0da65dc18601bc51a0abcbde3b6e95c43edf26955a2b39c7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/2.json",
+      "bytes": 31242,
+      "sha256": "f3c41f7e13e7794b2319b2f8b5dd123f216eca598b85d12ba96aba42329b480f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/20.json",
+      "bytes": 16688,
+      "sha256": "8cdf4875ee4358321966ea07a97bcfde41270c736d242b466c160404452f0a9b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/21.json",
+      "bytes": 21605,
+      "sha256": "922b053174ee50c0bec52f4d8378ba7e04ead635ac0d2df61a6965b6866d4510",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/22.json",
+      "bytes": 29848,
+      "sha256": "0975766e1f1eecbd49251cd77bbc0770904b5bd4754e73e39ba19cf67eaf6c3a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/23.json",
+      "bytes": 21334,
+      "sha256": "0e64ad43ba27301cc92a9e5809fc46fcc0c2bb2af771821f4cf0e5e3b9e342ba",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/24.json",
+      "bytes": 35815,
+      "sha256": "8d2b5b93e333320c7310d028b0fd7d4dba47a73beabb4361cb5f8c2db595addb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/3.json",
+      "bytes": 27839,
+      "sha256": "5b500859739583e30eda3b600799e83adabbf6ece91ae7878f4c379137259101",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/4.json",
+      "bytes": 40341,
+      "sha256": "b86449f8066d4f6035690cbf9305b9b40dc9bd0bb62e56d43f41807078a9857a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/5.json",
+      "bytes": 37944,
+      "sha256": "f65e79bd53584c5ee36f372b5e6cd12a8994f43c761a442b7ea51602e399804b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/6.json",
+      "bytes": 44838,
+      "sha256": "d8b888ae2d0152dee91d323f468b306fc3d3dc2e41654abbdb45a328f37e9f97",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/7.json",
+      "bytes": 37749,
+      "sha256": "5b8ca490596141f4658e09642ba279fbc35f66dd8896e5d67df2887347098119",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/8.json",
+      "bytes": 52715,
+      "sha256": "9d2c8b06a26f2aaa2aeb7beb09103454e9811c2439d1c9ba7b302a0189b750d1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/9.json",
+      "bytes": 19717,
+      "sha256": "508090990c9d3df0df3c418d0c03967ecaf5898f5d20d837d3d676e4075699bc",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/1.json",
+      "bytes": 162568,
+      "sha256": "b178e93a953f1fd87e08e5e07038490b770036ac003a0203c2e895b66b873052",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/10.json",
+      "bytes": 177144,
+      "sha256": "c51688b28560d92520638e6a2b351d3bb2bfbdfc1307aa82ec86f64191fd2d4b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/11.json",
+      "bytes": 124657,
+      "sha256": "b61e6d222f7ccdc51796931c68abba3f830caae7f4ab60a6f28b549373893dd6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/12.json",
+      "bytes": 31852,
+      "sha256": "0e3e9fedd2674c8e95d9c1ce1e620399548f5e7e08997d2646ed0174898a52bb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/13.json",
+      "bytes": 108572,
+      "sha256": "719c2ee32b308294cb4b9cfd147b9b82301938ff3937b10213376154ee016ab3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/14.json",
+      "bytes": 75823,
+      "sha256": "9e1b1caa1aa13c077b6a9fcdba537871ab5506a038cc648b36a0c79c5f6715ed",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/15.json",
+      "bytes": 110554,
+      "sha256": "3c560048fdc5125169b01ad87d483ebda4df116d6de0a01c5ad13ba77b4f5c47",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/16.json",
+      "bytes": 26990,
+      "sha256": "330797f2520c242a8fdc5ae875b528dcba15a08ba3a772846d0a68fbb442cfd0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/17.json",
+      "bytes": 79748,
+      "sha256": "50dcc6c5c80551d7227724e9ab4d69dc68d088b921246fe7fb1f594b1c7f6944",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/18.json",
+      "bytes": 77547,
+      "sha256": "62613a43a2ad6ea29ee5f341f42f3cd946c2b88c407830a83fe19c4b25d5e720",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/19.json",
+      "bytes": 95096,
+      "sha256": "da0a833c8617fe29793b9fa6b329f6a8b2fd6941a6f0ef1c244c9111c0e74056",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/2.json",
+      "bytes": 126452,
+      "sha256": "3e1cbb72d23b8350648c4124b62fc94240b819e554244384818d1da9ea0bedd1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/20.json",
+      "bytes": 37980,
+      "sha256": "11dfc975bb8fb78a05196f798f5f4841779620a7269f6b6e4ed09321ec519aaf",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/21.json",
+      "bytes": 71942,
+      "sha256": "9666c7a60756aa019603a1211db7628488a0b405fba2f205e677fd87a5647d12",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/22.json",
+      "bytes": 133701,
+      "sha256": "97453dc059ab9fb94691f2bc20c83de44da67f2940f98d2087914ac4960dddf8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/23.json",
+      "bytes": 79683,
+      "sha256": "9772b71a20751c939117804be100f50149ee108fa9364bd02a54e99c7322a58c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/24.json",
+      "bytes": 207685,
+      "sha256": "69344143f0d66f62f99edc6aa574001b8ed18c09a84f97085757a5f6c350b814",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/3.json",
+      "bytes": 96933,
+      "sha256": "2c16ea46ae9e352de85dac79b31f5e03090b41de5537bd42035f1a9bc861e198",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/4.json",
+      "bytes": 99039,
+      "sha256": "207007c3d16dd1ff6bece35a2b447299e49fbae1ac6c6743a16eb6e201382256",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/5.json",
+      "bytes": 132244,
+      "sha256": "564f7eb8a92fd3a4fc6eab12824a8a019074f9b313a1728edd8cf57f35231a96",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/6.json",
+      "bytes": 109539,
+      "sha256": "781c4a32b10ff12f25ed4513628937bf2f99a225a9efd56368ef5a690cc0f003",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/7.json",
+      "bytes": 178226,
+      "sha256": "454e025cb779cfa4e96596842d82bc7d27e4b3c9744352bddc0dfec29794c54e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/8.json",
+      "bytes": 124178,
+      "sha256": "dba02537aed06e7cf4a720ad235a5d27f4ecec0b5da8f413484f5751312d4ca5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/9.json",
+      "bytes": 110328,
+      "sha256": "6b4ca4cf9e347feb62719a0e5c86a34b5764ef9a1d76577f9dbb353bd39c74a1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/1.json",
+      "bytes": 107598,
+      "sha256": "5507e3a4cadd624eebfbd11686fbd1fa607305398952f022b180fcc2aab4b8c4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/10.json",
+      "bytes": 217460,
+      "sha256": "aad1ca6554648bdfe30018a0173e66756cb02fc143664ef7ec4db70461c5d879",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/11.json",
+      "bytes": 130620,
+      "sha256": "259cf63e1a054993829b289d8f594a83f963dabdd9e714190a0c80c575c7c683",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/12.json",
+      "bytes": 82870,
+      "sha256": "8760645165806de8da5212a0c1ec3e388799e3ee3f2fa76dd74c6552ae6149b9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/13.json",
+      "bytes": 129692,
+      "sha256": "6ead09296622b0702c5e452dd6e9ae66db481e593cbf8005db2d82676a2baa54",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/14.json",
+      "bytes": 78284,
+      "sha256": "c975822355b069ed3f5109df404f9577f1c32930790ad1c0baf7b8104ea92a62",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/15.json",
+      "bytes": 272556,
+      "sha256": "a7eb36dd01345ade0ae43953f357ba6eb09e30b3ef7edc550c5bece8f0687f9b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/16.json",
+      "bytes": 47422,
+      "sha256": "40f826769a551d743138e595710526ce49b0d16ff8425934a5c8d3f73fbe00dd",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/17.json",
+      "bytes": 90622,
+      "sha256": "eda6d8179330963d6c8dac3a1c58addf75928ffe8c6ad7ec9cac85fef6d92fce",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/18.json",
+      "bytes": 128870,
+      "sha256": "0c55e43532ffa805ca85ca44a38bb41e0b87c0c7fcc8aed8fe8bb0005b83d651",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/19.json",
+      "bytes": 223032,
+      "sha256": "609fa1750fea9621b7e133138897dee008a3ef6e35cd96c980bab405e1624cd7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/2.json",
+      "bytes": 145407,
+      "sha256": "4ce5fec1694f7755c0d8777018d2dcd4acad117dc566c997d94f2708d299f869",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/20.json",
+      "bytes": 40055,
+      "sha256": "f3ce77f9890cf3adb9ff0f1098ce930a66f82e10cc607d16e767d028cea2bfe6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/21.json",
+      "bytes": 136272,
+      "sha256": "ef7cc5be4f0d91b6784d7119494115718f2e01dd050d5ca1e8b0e5f080712f07",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/22.json",
+      "bytes": 181834,
+      "sha256": "465dfd349c5f5a58262975304a319d79ed820d94b0c7ecad3c65a381c86ff85c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/23.json",
+      "bytes": 78994,
+      "sha256": "500f6667d54e5a30a4cb6455e04dd712bd1408cbb446e59456b5574bde1521a2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/24.json",
+      "bytes": 173148,
+      "sha256": "29e75a674f60cb51b2a54b22b0afd3f9727173a7f765f80fa836a27d89677037",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/3.json",
+      "bytes": 110405,
+      "sha256": "a83c15865b571576945ec75cab36a6944f5abbefa429045334a3f55d00044f76",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/4.json",
+      "bytes": 104947,
+      "sha256": "f7f5217c7769a962e9fc12490f9288b7fd7a019ccb99db3b73c7bac7edf825a7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/5.json",
+      "bytes": 114173,
+      "sha256": "455856989eb96c960d8f1866686e17a38424952ac014f00553d68f5786a5b166",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/6.json",
+      "bytes": 150393,
+      "sha256": "b7b1058c89edebca520e8c64f597da528795bc38788a7acb880f0d4e63e942e0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/7.json",
+      "bytes": 153859,
+      "sha256": "a727b4428aa0d2c74f95d4b6cf826e0540a822273a5d13782d92c83eb9fe0f7d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/8.json",
+      "bytes": 137317,
+      "sha256": "7078d97e93c295e66201f1b6e49f5f4379156071dd7dd51e738ce64f7b8778b2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/9.json",
+      "bytes": 143201,
+      "sha256": "b743de2e3a9905c6c16e68fcbf3623eeb18dc43976c779bc8308ec443312ebee",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/1.json",
+      "bytes": 274255,
+      "sha256": "0474a2a398b9a69c2022362f291af2ce3374a8cbd1e18aa317d18ff25d28c274",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/10.json",
+      "bytes": 171212,
+      "sha256": "4bf92c84338e7b98792b254be3b90cc17814ae57f3727cc74397439a9a6f78b0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/11.json",
+      "bytes": 90894,
+      "sha256": "88cf2d8a7b01f12b096d0b08b39d3cbc3bb43a00216c393aca2a598ab8a05ce4",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/12.json",
+      "bytes": 46749,
+      "sha256": "165b2108405add389b592d9a24812b1af2b871c1525f163c497e7b05e6bc0948",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/13.json",
+      "bytes": 133447,
+      "sha256": "7f941b387509dbe5f5ac02868ca94a2bf8008fdded9ee1b49b656a37fa43acf0",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/14.json",
+      "bytes": 69528,
+      "sha256": "a2eb80b02e189fa58f924fd595b36e60e00ba38dd313d1fd494fb2df12e6bdf9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/15.json",
+      "bytes": 58669,
+      "sha256": "76533efa8f7239a99e394edde6fe9ab3c382a098650998567e75a94543728351",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/16.json",
+      "bytes": 50726,
+      "sha256": "46ec24716949a3e664474ea40a76dab5ef7c2b523df02defb8609675b473c28d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/17.json",
+      "bytes": 41516,
+      "sha256": "ed67772c844c1fd9144c4f53c25c61d6055f5413792128e2e9184aa7abb6e6b5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/18.json",
+      "bytes": 39195,
+      "sha256": "9fe7c89dbc2cabc7d0a6cd2479df932b97a61971dd965c0a674cd136204816c6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/19.json",
+      "bytes": 198317,
+      "sha256": "0623858415e13680ca42fe6607e2e5878a3b66921684ee2b511b02971d66aba1",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/2.json",
+      "bytes": 77446,
+      "sha256": "482217bc5f63ea68f54d39d1ecad619015a21772c35d1adcbd6a6c315b035092",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/20.json",
+      "bytes": 13049,
+      "sha256": "a1f1e8fc0db5e0e131391f959edc13568b5ae0207ebd5238194c1b7e10881936",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/21.json",
+      "bytes": 75423,
+      "sha256": "e25d8d97fd3b01c79d33e7d7941a1b9eef23a36648c81feaa51ca05b995ffc14",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/22.json",
+      "bytes": 75814,
+      "sha256": "0872cb310bdfd2c97840087a7c7cae1e2fd06f0b1843334f87b5b695d6b48cc2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/23.json",
+      "bytes": 44471,
+      "sha256": "00afa95af618f4d8686e00f0aa19e3cd8f880c45e2935f30b6f40fd5347bc0b9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/24.json",
+      "bytes": 77490,
+      "sha256": "bcc4bae9c1d9910658363a3f0e50bac10f6f7bf5648edddbb4a3a64e5ad6ad48",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/3.json",
+      "bytes": 81969,
+      "sha256": "deb3735a17195b3b1137bb5cb98e2ae6a81a69430abb9932626768c7c547f89d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/4.json",
+      "bytes": 50461,
+      "sha256": "3121d9fc8da339ec60963dc0f563763684de0a60851a7dd69ad2d43859c172f7",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/5.json",
+      "bytes": 58237,
+      "sha256": "5af54058c4a3fdf625f0f67c741360bfca3ff1ebbd09ec872ba775219cc3792b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/6.json",
+      "bytes": 97633,
+      "sha256": "2a304677d4e2c75bd53d9bb95961b6d818e5c6b65ae138bf42f54bbb795f570f",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/7.json",
+      "bytes": 100846,
+      "sha256": "f2087a11f56628c3aa1f5754607816166df09518d6c1c428054f6d33697ce7bf",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/8.json",
+      "bytes": 70427,
+      "sha256": "11fd06aa84fecf18705fb4bb8f7428c392cba54adee1d01fe4a6e11b3bb34084",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/9.json",
+      "bytes": 85949,
+      "sha256": "bdf344c77a14d498b1928d71454271c4cff120266bc69502d5090e456c677603",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json",
+      "bytes": 196338,
+      "sha256": "bda684d25cee03c45af6c0d07f31e86d39ec2ab8c5dcb8ba60acbe1867be8b58",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/10.json",
+      "bytes": 156891,
+      "sha256": "72a7565cc3b16046b8390777c555ab4c317c27ea1573cf5483064d1c096ab051",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/11.json",
+      "bytes": 73994,
+      "sha256": "81f4d319925b6348ef436542acdead857ecd1a0a695184fdd8143087e30b5929",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/12.json",
+      "bytes": 38450,
+      "sha256": "89a875e1118d66871eb3c574f9b3411d09372c63052397b7d3de411db23d75b6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/13.json",
+      "bytes": 76298,
+      "sha256": "c043450080d7053a55047907e77b94c795c659653232e77e387032262fb20be6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/14.json",
+      "bytes": 74634,
+      "sha256": "5dcffc5da3c1242f94fa6f63e087dd2bf30ad6b6968574fdc9dfa605fc84e686",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/15.json",
+      "bytes": 90760,
+      "sha256": "d8900600a20b168351ea2479ce8a910f7cd9396834618e4e32480f8f03ab2c78",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/16.json",
+      "bytes": 29307,
+      "sha256": "a36840b93e4fa71862a5c926aeb8944a2928f7c0e44baa1a2ae9c3a8961ad1e9",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/17.json",
+      "bytes": 47959,
+      "sha256": "ee6e44564d6d2b5d0db727268d0e7baee0947c70debfc0daebe1bf68375ee584",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/18.json",
+      "bytes": 63811,
+      "sha256": "a8bc7c73e798d78d362194abdbcc16d174b1625c11b958a99b7898b3e47ce1f2",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/19.json",
+      "bytes": 67415,
+      "sha256": "8dd61c3fc1d8799bf06dccb81881225c4df453c6979bc450189161598e506307",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/2.json",
+      "bytes": 99822,
+      "sha256": "1b365021bcc1f81611361b51fa808058bf56a1e054fafe7c86885a6fcb26c46d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/20.json",
+      "bytes": 33765,
+      "sha256": "0a6f0d7c6fd2d4274f1eb2b41e4b30494a867bc7589e7045d453ee108a4a6fd3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/21.json",
+      "bytes": 73349,
+      "sha256": "f6ff231f4a009563b350b64265b83fa20c23ac44872115bf8910a079ae2e4e9d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/22.json",
+      "bytes": 147138,
+      "sha256": "0df62522a582354366d49596eba287ec8dc243361e9d5a2241014f588b7f91d6",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/23.json",
+      "bytes": 77661,
+      "sha256": "745dc82239197953b226e94dac5ed4af65931ad0d9a6e918eace550e12e2925c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/24.json",
+      "bytes": 119549,
+      "sha256": "bffa419bf0ef8688fde9d2b280ff17896f5444b74d0d0bcd6c484483b0b475f8",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/3.json",
+      "bytes": 94917,
+      "sha256": "e7026821f09723528d31e7556f872af6577f04528084e2744810655d37fb84d5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/4.json",
+      "bytes": 81847,
+      "sha256": "c9ea315cbfda0782190eb785afe4fd1982e3a6f286b3a1ea98eeaf1c5a58ef8e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/5.json",
+      "bytes": 114404,
+      "sha256": "bac268141a2d8217ca9e9932aa59a6f6df369c107185b465bf3830392235c451",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/6.json",
+      "bytes": 104271,
+      "sha256": "4485eace9a71d6277a92552076868be133e9727cffc549d78066dcb5c4955c54",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/7.json",
+      "bytes": 163348,
+      "sha256": "8e49dc39fe458790477812dea3a2eda4ee3b68ea55d27e9d93d06cabcf67efb3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/8.json",
+      "bytes": 116034,
+      "sha256": "31eea270fc3931376708f54ba08b4085579469ea64daaf118157947ba24332ef",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/9.json",
+      "bytes": 123656,
+      "sha256": "ad623c2fe3f9d40c485894f61c32982b38a79995cf935da2c8af1a32cac2d16d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/1.json",
+      "bytes": 10422,
+      "sha256": "4e36c6595d9c9ce180dba620d6f625d9d05062e7dd36b2cb285e14a25350202b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/10.json",
+      "bytes": 15810,
+      "sha256": "1d285d9e997ce2ec41afe0315d208c56cbdd1db316578b1476dc26ed932744bb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/11.json",
+      "bytes": 9272,
+      "sha256": "f6e735238fc34844529497bd60b0edb94134e5689c4ea11782785650042e6a54",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/12.json",
+      "bytes": 8447,
+      "sha256": "82d7e8cca29b4029089e2d2f2eeb88d8e12f0b5451ee1767bf79d3b7aab75a64",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/13.json",
+      "bytes": 10291,
+      "sha256": "5d8ea29a505367ce0da7cac4c304846d725751e8d8ccf42ee8935f09727aa094",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/14.json",
+      "bytes": 8250,
+      "sha256": "9fdb80a02b8523b96b043e48899d3e548946461c51b1dbb6fc1600a20bdab31b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/15.json",
+      "bytes": 19738,
+      "sha256": "f35bb97a3d0af1f6dd0d1e36d4d7461e5cdf76057b04b2dcf4edddf90014b03b",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/16.json",
+      "bytes": 6717,
+      "sha256": "852f1ce0ad884c0bb5ef16719a1c524d0ee80843eb2d0eff6066f09c7bb5b780",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/17.json",
+      "bytes": 8531,
+      "sha256": "61729977bcef4f8c4279ade8c6506ae7812727802c638ff1d3ad5b1bf64b6687",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/18.json",
+      "bytes": 10280,
+      "sha256": "3fc61bd464f914861254372297563b2b5ae2dc551a078d7a008e85ec90fe852a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/19.json",
+      "bytes": 17878,
+      "sha256": "5d17f16ffea083a8a6f70a66e216a1562a95793739bce36b6a47d335ebf2ba6a",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/2.json",
+      "bytes": 9672,
+      "sha256": "d73d1d74393bd8e2795d6b14280fdd3c0aaee73584a638d1a2388a6e71f386c3",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/20.json",
+      "bytes": 5934,
+      "sha256": "2839741de8540a8f766fdb2da7fd645122e70526936b1bbec6d83b6ddd687038",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/21.json",
+      "bytes": 14084,
+      "sha256": "35556319211a7084fcc2beb4b77c51d5ab5e945d0582323a2c09a16bef88fecb",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/22.json",
+      "bytes": 12933,
+      "sha256": "449d2afc8602cc1db68d362561972574b2d7d855c93c2685a195efe4ea04ca3d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/23.json",
+      "bytes": 8632,
+      "sha256": "9068978ebc1de7343c6706902cab139988f2b6075de7c3ac60a0ac4d9cc06403",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/24.json",
+      "bytes": 11878,
+      "sha256": "4cbb2d89c48bc87e38c148191a0441c7b6174a436bf7e5f66de77a167ddd8b50",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/3.json",
+      "bytes": 8761,
+      "sha256": "976d613bcc4c3c1f2411ca08063cb64607fda94a796939a381eb479434718794",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/4.json",
+      "bytes": 10289,
+      "sha256": "020441c511bc9f1f0b60f101ff64230ffbbce7f2df7543eaebfff8270dcb7a5d",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/5.json",
+      "bytes": 8517,
+      "sha256": "d1d65f3a3b99fc468bc8c72130205fb25cb1225e5b34f11ae2cc41e0509898cf",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/6.json",
+      "bytes": 10912,
+      "sha256": "21d014b0dc7e3fabf22acd16bfd9d361d43c8746b70ad6ef69b3ba475e4a64e5",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/7.json",
+      "bytes": 10628,
+      "sha256": "71e56799e1e9b919a76dcf9c54c5e8d6e0cdc205ac9060444b1be30fad61485e",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/8.json",
+      "bytes": 12410,
+      "sha256": "ce2237f836f550fc34c298e4823c304c6d5eba30baf37807762cc13c61d3cb2c",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/index/JOS/9.json",
+      "bytes": 11611,
+      "sha256": "ac2c7b75b3581dd2e16db3b31f859593f9147ca84f6458858ed3b63e8b544621",
+      "operation": "add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joshua-2026-11-04/manifest.json",
+      "bytes": 1872,
+      "sha256": "cdce87cc92ee6fa3f7bc65ac046b08a60ea8997f3800536ff3340be4a4da9360",
+      "operation": "add"
+    },
+    {
+      "path": "docs/DEU_JOS_V3_STAGING_INSTALL.md",
+      "bytes": 4411,
+      "sha256": "bfcbbbbee29e904d312b3d4841268d70d18b019dd4ebbfc0de0de9dbd1ec4d83",
+      "operation": "add"
+    },
+    {
+      "path": "reports/DEU_JOS_ACTUAL_READER_JS_TESTS.json",
+      "bytes": 2726,
+      "sha256": "efdf5e6a9a21ef3cbb9ae526aeafaedd2a455562dab10b2cc6532627438fcc0e",
+      "operation": "add"
+    },
+    {
+      "path": "reports/DEU_JOS_BROWSER_SMOKE_TEST.json",
+      "bytes": 687,
+      "sha256": "46e5c66f69edf686ae32afe86a4bac78385c0a6f9d2bee97167d1893d8e4c9d0",
+      "operation": "add"
+    },
+    {
+      "path": "reports/DEU_JOS_INDEPENDENT_VERIFICATION.json",
+      "bytes": 2338,
+      "sha256": "2e30396fe135841210a316ba5318a34d9262ad1216ce88f7a3943862a4559b55",
+      "operation": "add"
+    },
+    {
+      "path": "reports/DEU_JOS_NAVIGATION_AND_RELEASE_AUDIT.json",
+      "bytes": 6347,
+      "sha256": "5d039c6cacead535b3d011666e0bf573ac0a31d842a57d7fa130aa9c8cfc5cd1",
+      "operation": "add"
+    },
+    {
+      "path": "reports/DEU_JOS_SOURCE_AND_RIGHTS_EVIDENCE.json",
+      "bytes": 4994,
+      "sha256": "e79321cf3de8123ce35e698cb74516226c5353b00369d589cdf7059cab207a69",
+      "operation": "add"
+    },
+    {
+      "path": "reports/DEU_V3_BUILD_AUDIT.json",
+      "bytes": 671,
+      "sha256": "16181d49d863e81520a07827c8089cf0a48b9277b529bf41635b47e3f905917a",
+      "operation": "add"
+    },
+    {
+      "path": "reports/JOS_V3_BUILD_AUDIT.json",
+      "bytes": 728,
+      "sha256": "ab1e589359c695d5521a9b5cdbfa61ee113501038247c79e4e0e98ac6e121848",
+      "operation": "add"
+    },
+    {
+      "path": "review-deuteronomy-v3.html",
+      "bytes": 15439,
+      "sha256": "c9e1ac4f8efb04e29a585685355a48fb8f01f0bc6c72d191ace11c7ec9019187",
+      "operation": "add"
+    },
+    {
+      "path": "review-joshua-v3.html",
+      "bytes": 15399,
+      "sha256": "991ae6865195297016269759d5eb1d8e25a225eb7535a5fc1207c114839ba9da",
+      "operation": "add"
+    }
+  ],
+  "limitations": [
+    "A successful GitHub Pages action does not independently prove browser rendering.",
+    "No production files edited by assistant."
+  ]
+}

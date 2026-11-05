@@ -2,19 +2,23 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1",
+  "version": "navigation-coverage-v1.1-additive-deu-jos",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
     "EXO",
     "LEV",
-    "NUM"
+    "NUM",
+    "DEU",
+    "JOS"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
     "EXO": "structured-exodus-2026-11-03",
     "LEV": "structured-leviticus-2026-11-03",
-    "NUM": "structured-numbers-2026-11-03"
+    "NUM": "structured-numbers-2026-11-03",
+    "DEU": "structured-deuteronomy-2026-11-04",
+    "JOS": "structured-joshua-2026-11-04"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -28,19 +32,32 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 455,
+    "original_P_sections": 849,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
       "EXO": 124,
       "LEV": 115,
-      "NUM": 149
+      "NUM": 149,
+      "DEU": 210,
+      "JOS": 184
     },
     "routed_by_book": {
       "GEN": 64,
       "EXO": 128,
       "LEV": 119,
-      "NUM": 153
+      "NUM": 153,
+      "DEU": 213,
+      "JOS": 185
     }
-  }
+  },
+  "previous_manifest_version": "navigation-coverage-v1",
+  "additive_release_notes": [
+    "Existing four coverage files and immutable chapter snapshots remain byte-for-byte unchanged.",
+    "JFB introduction to the Pentateuch and historical books is added to Joshua eligibility by a separate source-backed Joshua coverage entry.",
+    "MHC Joshua-to-Esther volume preface and KD introduction to prophetical histories are eligible in Joshua; later historical books require independent mapping.",
+    "Three other JFB book-group introductions remain held in existing held-unmapped.json.",
+    "Passage_heading P sections are verse/range-bounded, not whole-chapter defaults.",
+    "No direct production UI or media player changes."
+  ]
 }
