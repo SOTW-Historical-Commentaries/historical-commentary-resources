@@ -1,0 +1,569 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-deuteronomy-2026-11-04",
+  "canonical_chapter": "DEU.11",
+  "verse_count": 32,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/matthew-henry/DEU/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 4,
+      "reader_visible_entries": 4,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 32
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-calvin/DEU/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 8,
+      "reader_visible_entries": 8,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 8
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/adam-clarke/DEU/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 9,
+      "reader_visible_entries": 9,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 9
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/jamieson-fausset-brown/DEU/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 7,
+      "reader_visible_entries": 7,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 31
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/keil-delitzsch/DEU/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 21
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-deuteronomy-2026-11-04/authors/john-gill/DEU/11.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 30,
+      "reader_visible_entries": 30,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 30
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        29
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:DEU.11:P:section-heading-0-73",
+        "navigation_id": "DEU.11:P:section-heading-0-73",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "Persuasives to Obedience. (b. c. 1451.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:DEU.11:P:section-heading-3-32",
+        "navigation_id": "DEU.11:P:section-heading-3-32",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "The Blessing and the Curse. (b. c. 1451.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:DEU.11:P:chapter-introduction",
+        "navigation_id": "DEU.11:P:chapter-introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "title": "Introduction · Deuteronomy 11"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:DEU.11:P:chapter-heading-0-59",
+        "navigation_id": "DEU.11:P:chapter-heading-0-59",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "title": "Deuteronomy 11 · chapter heading"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:DEU.11:P:passage-heading-0-97",
+        "navigation_id": "DEU.11:P:passage-heading-0-97",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "Deuteronomy 11 · De 11:1-32. An Exhortation to Obedience."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "P titles are only source evidence; authoritative applicability is navigation-coverage/v1/books/{BOOK}.json. Verse routes are original indexed source records only."
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-deuteronomy-2026-11-04",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "DEU"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "source_fragments_separated": 209,
+    "reader_visible_entries": 2431,
+    "author_chapters": 204,
+    "original_entries": 2441,
+    "navigation_sections": 210,
+    "sword_chapters": 170,
+    "helloao_chapters": 34,
+    "chapters": 34,
+    "verse_author_routes": 4308,
+    "introduction_only_records": 10,
+    "nonverse_roles": {
+      "book_introduction": 3,
+      "passage_heading": 138,
+      "book_preface": 1,
+      "book_heading": 1,
+      "chapter_heading": 34,
+      "chapter_introduction": 33
+    }
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "CrossWire original module and its own KJV passage index for five authors; HelloAO independently for Gill.",
+  "reader_policy": "P navigation only via authoritative per-book coverage overlay; no neighboring verse inference.",
+  "provenance_policy": "Original author, historical work and edition are primary; SOTW is the public provider; technical acquisition preserved.",
+  "notes": [
+    "Additive snapshot. Prior immutable Genesis, Exodus, Leviticus and Numbers snapshots remain unchanged.",
+    "Author catalog contains edition dates of individual works, not globally valid dates for every book.",
+    "Native SWORD source-record passage range does not guarantee per-verse exposition.",
+    "No Bible translation text is bundled."
+  ]
+}

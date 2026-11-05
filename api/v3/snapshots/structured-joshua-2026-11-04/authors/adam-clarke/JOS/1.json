@@ -1,0 +1,605 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-joshua-2026-11-04",
+  "author_id": "adam-clarke",
+  "book_id": "JOS",
+  "chapter": 1,
+  "canonical_chapter": "JOS.1",
+  "versification": "KJV",
+  "verse_count": 18,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Josh.1\" sID=\"Josh.1\"/> ",
+      "source_record_sha256": "8b1587ee77e7c1593e868bffed9ab55e5083ac8b60d858f3b8b453717ce07e24"
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:JOS.1.1-1:6:253:15494",
+      "passage_start": "JOS.1.1",
+      "passage_end": "JOS.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen7341\" type=\"x-p\"/> <title type=\"x-s\">Preface to the Book of Joshua</title> <div sID=\"gen7342\" type=\"x-p\"/> Joshua, the son of Nun, of the tribe of Ephraim, was first called Oshea or Hoshea, הושע, <reference osisRef=\"Num.13.16\">Num 13:16</reference>, which signifies saved, a savior, or salvation; but afterwards Moses, guided no doubt by a prophetic spirit, changed his name into יהוש Yehoshua or Joshua, which signifies he shall save, or the salvation of Jehovah; referring, no doubt, to his being God's instrument in saving the people from the hands of their enemies, and leading them from victory to victory over the different Canaanitish nations, till he put them in possession of the promised land. On the change and meaning of the name, see the note on <reference osisRef=\"Num.13.16\">Num 13:16</reference>. By the Septuagint he is called Ιησους Ναυη, Jesus Naue, or Jesus son of Nave: and in the New Testament he is expressly called Ιησους, Jesus; see <reference osisRef=\"Act.7.45\">Act 7:45</reference>; <reference osisRef=\"Heb.4.8\">Heb 4:8</reference>. Joshua was denominated the servant of Moses, as he seems to have acted sometimes as his secretary, sometimes as his aid-du-camp, and sometimes as the general of the army. He was early appointed to be the successor of Moses, see <reference osisRef=\"Exo.17.14\">Exo 17:14</reference>; and under the instruction of this great master he was fully qualified for the important office. He was a great and pious man, and God honored him in a most extraordinary manner, as the sequel of the history amply proves. From the preceding books it appears that he became attached to Moses shortly after the exodus from Egypt; that he was held by him in the highest esteem; had the command of the army confided to him in the war with the Amalekites; and accompanied his master to the Mount, when he went up to receive the Law from God. These were the highest honors he could possibly receive during the life-time of Moses. <div eID=\"gen7342\" type=\"x-p\"/> <div sID=\"gen7343\" type=\"x-p\"/> Commentators and critics are divided in opinion whether the book that goes under his name was actually compiled by him. <div eID=\"gen7343\" type=\"x-p\"/> <div sID=\"gen7344\" type=\"x-p\"/> It is argued by those who deny Joshua to be the author, that there are both names and transactions in it which did not exist till considerably after Joshua's time. The account we have, <reference osisRef=\"Jos.4.9\">Jos 4:9</reference>, of the twelve stones set up by Joshua in the midst of Jordan remaining to the present day, seems to prove that the book, at least this verse, was not written till after Joshua's time; the same may be said of the account of Ai, that Joshua made it a heap for ever, even a desolation to the present day, <reference osisRef=\"Jos.8.28\">Jos 8:28</reference>, which is a proof, however, that the book was not written after the time of the kings, as Ai subsisted after the return from the captivity; see <reference osisRef=\"Ezr.2.28\">Ezr 2:28</reference> : The men of Beth-el and Ai, two hundred twenty and three. It is supposed also, that the relation of the marriage of Achsah, daughter of Caleb, with Othniel the son of Kenaz, necessarily belongs to the time of the Judges; <reference osisRef=\"Jos.15.16-Jos.15.19\">Jos 15:16-19</reference>; as also the account of the capture of Leshem by the Danites <reference osisRef=\"Jos.19.47\">Jos 19:47</reference>, compared with <reference osisRef=\"Jdg.18.7\">Jdg 18:7</reference>, <reference osisRef=\"Jdg.18.29\">Jdg 18:29</reference>. \"What is related, <reference osisRef=\"Jos.15.63\">Jos 15:63</reference>, concerning the Jebusites dwelling with the children of Judah at Jerusalem unto this day, must certainly have been written before the time of David; for he took the strong hold of Zion, and expelled the Jebusites; see <reference osisRef=\"2Sam.5.7-2Sam.5.9\">2Sam 5:7-9</reference>. Also, what is said, <reference osisRef=\"Jos.16.10\">Jos 16:10</reference>, They drave not out the Canaanites that dwelt in Gezer, but they dwelt among the Ephraimites unto this day, must have been written before the time of Solomon, for in his time Pharaoh, king of Egypt, had taken Gezer, burnt it with fire, slain the Canaanites that dwelt in it, and given it a present to his daughter, the wife of Solomon, <reference osisRef=\"1Kgs.9.16\">1Kgs 9:16</reference>. The country of Cabul, mentioned <reference osisRef=\"Jos.19.27\">Jos 19:27</reference>, had not this name till the time of Solomon, as appears from <reference osisRef=\"1Kgs.9.13\">1Kgs 9:13</reference>; and the city called Joktheel, <reference osisRef=\"Jos.15.38\">Jos 15:38</reference>, had not this name till the reign of Joash, as appears from <reference osisRef=\"2Kgs.14.7\">2Kgs 14:7</reference>, it having been previously called Selah. The like may be said of Tyre, <reference osisRef=\"Jos.19.29\">Jos 19:29</reference>; and of Galilee <reference osisRef=\"Jos.20.7\">Jos 20:7</reference>; <reference osisRef=\"Jos.21.32\">Jos 21:32</reference>.\" <div eID=\"gen7344\" type=\"x-p\"/> <div sID=\"gen7345\" type=\"x-p\"/> These are the principal objections which are made against the book as being the work of Joshua. Some of these difficulties might be so removed as to render it still probable that Joshua was the author of the whole book, as some think to be intimated <reference osisRef=\"Jos.24.26\">Jos 24:26</reference>; And Joshua wrote these words in the book of the law of the Lord; (but this probably refers to nothing more than the words of the covenant which was then made, and which is included in Joshua 24:2-24); but there are other difficulties that cannot be removed on the above supposition and therefore it has been generally supposed that the book was written by some inspired person after the time of Joshua; and positively before many kings had reigned in Israel. The book has been attributed to Samuel, though some give this honor to Ezra. <div eID=\"gen7345\" type=\"x-p\"/> <div sID=\"gen7346\" type=\"x-p\"/> After all, I cannot help considering the book in the main as the composition of Joshua himself. It is certain that Moses kept an accurate register of all the events that took place during his administration in the wilderness, at least from the giving of the law to the time of his death. And in that wilderness he wrote the book of Genesis, as well as the others that bear his name. Now, it is not likely that Joshua, the constant servant and companion of Moses, could see all this - be convinced, as he must be, of its utility - and not adopt the same practice; especially as at the death of Moses he came into the same office. I therefore take it for granted, that the Book of Joshua is as truly his work, as the Commentaries of Caesar are his; and all the real difficulties mentioned above may be rationally and satisfactorily accounted for on the ground, that in transcribing this book in after ages, especially between the times of Joshua and the Kings, some few changes were made, and a very few slight additions, which referred chiefly to the insertion of names by which cities were then known instead of those by which they had been anciently denominated. This book therefore I conceive to be not the work of Ezra, nor of Samuel, nor of any other person of those times; nor can I allow that \"it is called the Book of Joshua, because he is the chief subject of it, as the heroic poem of Virgil is called the Aeneis, because of the prince whose travels and actions it relates;\" but I conceive it to be called the Book of Joshua, <div eID=\"gen7346\" type=\"x-p\"/> <div sID=\"gen7347\" type=\"x-p\"/> 1. Because Joshua wrote it. <div eID=\"gen7347\" type=\"x-p\"/> <div sID=\"gen7348\" type=\"x-p\"/> 2. Because it is the relation of his own conduct in the conquest, division, and settlement of the promised land. <div eID=\"gen7348\" type=\"x-p\"/> <div sID=\"gen7349\" type=\"x-p\"/> 3. Because it contains a multitude of particulars that only himself, or a constant eye-witness, could possibly relate. <div eID=\"gen7349\" type=\"x-p\"/> <div sID=\"gen7350\" type=\"x-p\"/> 4. Because it was evidently designed to be a continuation of the Book of Deuteronomy, and is so connected with it, in narrative, as to prove that it must have been immediately commenced on the termination of the other. <div eID=\"gen7350\" type=\"x-p\"/> <div sID=\"gen7351\" type=\"x-p\"/> 5. I might add to this, that with the exception of a few individuals, the whole of the ancient Jewish and Christian Churches have uniformly acknowledged Joshua to be its author. <div eID=\"gen7351\" type=\"x-p\"/> <div sID=\"gen7352\" type=\"x-p\"/> The Book of Joshua is one of the most important writings in the old covenant, and should never be separated from the Pentateuch, of which it is at once both the continuation and completion. Between this Book and the five Books of Moses, there is the same analogy as between the four Gospels and the Acts of the Apostles. The Pentateuch contains a history of the Acts of the great Jewish legislator, and the Laws on which the Jewish Church should be established. The Book of Joshua gives an account of the establishment of that Church in the Land of Canaan, according to the oft-repeated promises and declarations of God. The Gospels give an account of the transactions of Jesus Christ, the great Christian legislator, and of those Laws on which his Church should be established, and by which it should be governed. The Acts of the Apostles gives an account of the actual establishment of that Church, according to the predictions and promises of its great founder. Thus, then, the Pentateuch bears as pointed a relation to the Gospels as the Book of Joshua does to the Acts of the Apostles. And we might, with great appearance of probability, carry this analogy yet farther, and show that the writings of several of the Prophets bear as strict a relation to the Apostolical Epistles, as the Books of Ezekiel and Daniel do to the Apocalypse. On this very ground of analogy Christ obviously founded the Christian Church; hence he had his twelve disciples, from whom the Christian Church was to spring, as the Jewish Church or twelve tribes sprang from the twelve sons of Jacob. He had his seventy or seventy-two disciples, in reference to the seventy-two elders, six chosen out of each of the twelve tribes, who were united with Moses and Aaron in the administration of justice, etc., among the people. Christ united in his person the characters both of Moses and Aaron, or legislator and high priest; hence he ever considers himself, and is considered by his apostles and followers, the same in the Christian Church that Moses and Aaron were in the Jewish. As a rite of initiation into his Church, he instituted baptism in the place of circumcision, both being types of the purification of the heart and holiness of life; and as a rite of establishment and confirmation, the holy eucharist in place of the paschal lamb, both being intended to commemorate the atonement made to God for the sins of the people. The analogies are so abundant, and indeed universal, that time would fail to enumerate them. On this very principle it would be a matter of high utility to read these Old Testament and the New Testament books together, as they reflect a strong and mutual light on each other, bear the most decided testimony to the words and truth of prophecy, and show the ample fulfillment of all the ancient and gracious designs of God. This appears particularly evident in the five Books of Moses and the Book of Joshua compared and collated with the four Gospels and the Acts of the Apostles; and the analogy will be the more complete as to the number of those books, though that is a matter of minor consideration, when we consider Joshua, as we ought, a continuation of the Book of Deuteronomy, though written by a different hand, which two books should be rated only as one history. Of Judges and Ruth it may be said they are a sort of supplement to the Book of Joshua. <div eID=\"gen7352\" type=\"x-p\"/> <div sID=\"gen7353\" type=\"x-p\"/> Whoever goes immediately from the reading of the Pentateuch to the reading of the Gospels, and from the reading of Joshua to that of the Acts, will carry with him advantages which on no other plan he will be able to command. Even a commentator himself will derive advantages from this plan, which he will seek in vain from any other. To see the wisdom and goodness of God in the ritual of Moses, we must have an eye continually on the incarnation and death of Christ, to which it refers. And to have a proper view of the great atonement made by the sacrifice of our Lord, we must have a constant reference to the Mosaic law, where this is shadowed forth. Without this reference the law of Moses is a system of expensive and burdensome ceremonies, destitute of adequate meaning; and without this entering in of the law that the offense might abound, to show the exceeding sinfulness of sin, the frailty of man, and the holiness of God; the Gospel of Christ, including the account of his incarnation, preaching, miracles, passion, death, burial, ascension, and intercession, would not appear to have a sufficient necessity to explain and justify it. By the Law is the knowledge of sin, and by the Gospel its cure. Either, taken separately, will not answer the purpose for which God gave these astonishing revelations of his justice and his grace. <div eID=\"gen7353\" type=\"x-p\"/> <div sID=\"gen7354\" type=\"x-p\"/> Moses being dead, God commissions Joshua to bring the people into the promised land, <reference osisRef=\"Jos.1.1\">Jos 1:1</reference>, <reference osisRef=\"Jos.1.2\">Jos 1:2</reference>. The extent of the land to be possessed, <reference osisRef=\"Jos.1.3\">Jos 1:3</reference>, <reference osisRef=\"Jos.1.4\">Jos 1:4</reference>. Joshua is assured of victory over all his enemies, and is exhorted to courage and activity, <reference osisRef=\"Jos.1.5\">Jos 1:5</reference>, <reference osisRef=\"Jos.1.6\">Jos 1:6</reference>; and to be careful to act, in all things, according to the law of Moses, in which he us to meditate day and night, <reference osisRef=\"Jos.1.7\">Jos 1:7</reference>, <reference osisRef=\"Jos.1.8\">Jos 1:8</reference>. He is again exhorted to courage, with the promise of continued support, <reference osisRef=\"Jos.1.9\">Jos 1:9</reference>. Joshua commands the officers to prepare the people for their passage over Jordan, <reference osisRef=\"Jos.1.10\">Jos 1:10</reference>, <reference osisRef=\"Jos.1.11\">Jos 1:11</reference>. The Reubenites, Gadites, and half tribe of Manasseh, are put in mind of their engagement to pass over with their brethren, <reference osisRef=\"Jos.1.12-Jos.1.15\">Jos 1:12-15</reference>. They promise the strictest obedience, and pray for the prosperity of their leader, <reference osisRef=\"Jos.1.16-Jos.1.18\">Jos 1:16-18</reference>. <div eID=\"gen7354\" type=\"x-p\"/> <div sID=\"gen7355\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen7355\" type=\"x-p\"/> <div sID=\"gen7356\" type=\"x-p\"/> Now after the death of Moses - ויהי vayehi, and it was or happened after the death of Moses. Even the first words in this book show it to be a continuation of the preceding, and intimately connected with the narrative in the last chapter in Deuteronomy, of which I suppose Joshua to have been the author, and that chapter to have originally made the commencement of this book, <reference osisRef=\"Deu.34.1-Deu.34.12\">Deu 34:1-12</reference> (note). The time referred to here must have been at the conclusion of the thirty days in which they mourned for Moses. ",
+      "content_plain": "Preface to the Book of Joshua\n \n Joshua, the son of Nun, of the tribe of Ephraim, was first called Oshea or Hoshea, הושע, Num 13:16, which signifies saved, a savior, or salvation; but afterwards Moses, guided no doubt by a prophetic spirit, changed his name into יהוש Yehoshua or Joshua, which signifies he shall save, or the salvation of Jehovah; referring, no doubt, to his being God's instrument in saving the people from the hands of their enemies, and leading them from victory to victory over the different Canaanitish nations, till he put them in possession of the promised land. On the change and meaning of the name, see the note on Num 13:16. By the Septuagint he is called Ιησους Ναυη, Jesus Naue, or Jesus son of Nave: and in the New Testament he is expressly called Ιησους, Jesus; see Act 7:45; Heb 4:8. Joshua was denominated the servant of Moses, as he seems to have acted sometimes as his secretary, sometimes as his aid-du-camp, and sometimes as the general of the army. He was early appointed to be the successor of Moses, see Exo 17:14; and under the instruction of this great master he was fully qualified for the important office. He was a great and pious man, and God honored him in a most extraordinary manner, as the sequel of the history amply proves. From the preceding books it appears that he became attached to Moses shortly after the exodus from Egypt; that he was held by him in the highest esteem; had the command of the army confided to him in the war with the Amalekites; and accompanied his master to the Mount, when he went up to receive the Law from God. These were the highest honors he could possibly receive during the life-time of Moses. \n \n Commentators and critics are divided in opinion whether the book that goes under his name was actually compiled by him. \n \n It is argued by those who deny Joshua to be the author, that there are both names and transactions in it which did not exist till considerably after Joshua's time. The account we have, Jos 4:9, of the twelve stones set up by Joshua in the midst of Jordan remaining to the present day, seems to prove that the book, at least this verse, was not written till after Joshua's time; the same may be said of the account of Ai, that Joshua made it a heap for ever, even a desolation to the present day, Jos 8:28, which is a proof, however, that the book was not written after the time of the kings, as Ai subsisted after the return from the captivity; see Ezr 2:28 : The men of Beth-el and Ai, two hundred twenty and three. It is supposed also, that the relation of the marriage of Achsah, daughter of Caleb, with Othniel the son of Kenaz, necessarily belongs to the time of the Judges; Jos 15:16-19; as also the account of the capture of Leshem by the Danites Jos 19:47, compared with Jdg 18:7, Jdg 18:29. \"What is related, Jos 15:63, concerning the Jebusites dwelling with the children of Judah at Jerusalem unto this day, must certainly have been written before the time of David; for he took the strong hold of Zion, and expelled the Jebusites; see 2Sam 5:7-9. Also, what is said, Jos 16:10, They drave not out the Canaanites that dwelt in Gezer, but they dwelt among the Ephraimites unto this day, must have been written before the time of Solomon, for in his time Pharaoh, king of Egypt, had taken Gezer, burnt it with fire, slain the Canaanites that dwelt in it, and given it a present to his daughter, the wife of Solomon, 1Kgs 9:16. The country of Cabul, mentioned Jos 19:27, had not this name till the time of Solomon, as appears from 1Kgs 9:13; and the city called Joktheel, Jos 15:38, had not this name till the reign of Joash, as appears from 2Kgs 14:7, it having been previously called Selah. The like may be said of Tyre, Jos 19:29; and of Galilee Jos 20:7; Jos 21:32.\" \n \n These are the principal objections which are made against the book as being the work of Joshua. Some of these difficulties might be so removed as to render it still probable that Joshua was the author of the whole book, as some think to be intimated Jos 24:26; And Joshua wrote these words in the book of the law of the Lord; (but this probably refers to nothing more than the words of the covenant which was then made, and which is included in Joshua 24:2-24); but there are other difficulties that cannot be removed on the above supposition and therefore it has been generally supposed that the book was written by some inspired person after the time of Joshua; and positively before many kings had reigned in Israel. The book has been attributed to Samuel, though some give this honor to Ezra. \n \n After all, I cannot help considering the book in the main as the composition of Joshua himself. It is certain that Moses kept an accurate register of all the events that took place during his administration in the wilderness, at least from the giving of the law to the time of his death. And in that wilderness he wrote the book of Genesis, as well as the others that bear his name. Now, it is not likely that Joshua, the constant servant and companion of Moses, could see all this - be convinced, as he must be, of its utility - and not adopt the same practice; especially as at the death of Moses he came into the same office. I therefore take it for granted, that the Book of Joshua is as truly his work, as the Commentaries of Caesar are his; and all the real difficulties mentioned above may be rationally and satisfactorily accounted for on the ground, that in transcribing this book in after ages, especially between the times of Joshua and the Kings, some few changes were made, and a very few slight additions, which referred chiefly to the insertion of names by which cities were then known instead of those by which they had been anciently denominated. This book therefore I conceive to be not the work of Ezra, nor of Samuel, nor of any other person of those times; nor can I allow that \"it is called the Book of Joshua, because he is the chief subject of it, as the heroic poem of Virgil is called the Aeneis, because of the prince whose travels and actions it relates;\" but I conceive it to be called the Book of Joshua, \n \n 1. Because Joshua wrote it. \n \n 2. Because it is the relation of his own conduct in the conquest, division, and settlement of the promised land. \n \n 3. Because it contains a multitude of particulars that only himself, or a constant eye-witness, could possibly relate. \n \n 4. Because it was evidently designed to be a continuation of the Book of Deuteronomy, and is so connected with it, in narrative, as to prove that it must have been immediately commenced on the termination of the other. \n \n 5. I might add to this, that with the exception of a few individuals, the whole of the ancient Jewish and Christian Churches have uniformly acknowledged Joshua to be its author. \n \n The Book of Joshua is one of the most important writings in the old covenant, and should never be separated from the Pentateuch, of which it is at once both the continuation and completion. Between this Book and the five Books of Moses, there is the same analogy as between the four Gospels and the Acts of the Apostles. The Pentateuch contains a history of the Acts of the great Jewish legislator, and the Laws on which the Jewish Church should be established. The Book of Joshua gives an account of the establishment of that Church in the Land of Canaan, according to the oft-repeated promises and declarations of God. The Gospels give an account of the transactions of Jesus Christ, the great Christian legislator, and of those Laws on which his Church should be established, and by which it should be governed. The Acts of the Apostles gives an account of the actual establishment of that Church, according to the predictions and promises of its great founder. Thus, then, the Pentateuch bears as pointed a relation to the Gospels as the Book of Joshua does to the Acts of the Apostles. And we might, with great appearance of probability, carry this analogy yet farther, and show that the writings of several of the Prophets bear as strict a relation to the Apostolical Epistles, as the Books of Ezekiel and Daniel do to the Apocalypse. On this very ground of analogy Christ obviously founded the Christian Church; hence he had his twelve disciples, from whom the Christian Church was to spring, as the Jewish Church or twelve tribes sprang from the twelve sons of Jacob. He had his seventy or seventy-two disciples, in reference to the seventy-two elders, six chosen out of each of the twelve tribes, who were united with Moses and Aaron in the administration of justice, etc., among the people. Christ united in his person the characters both of Moses and Aaron, or legislator and high priest; hence he ever considers himself, and is considered by his apostles and followers, the same in the Christian Church that Moses and Aaron were in the Jewish. As a rite of initiation into his Church, he instituted baptism in the place of circumcision, both being types of the purification of the heart and holiness of life; and as a rite of establishment and confirmation, the holy eucharist in place of the paschal lamb, both being intended to commemorate the atonement made to God for the sins of the people. The analogies are so abundant, and indeed universal, that time would fail to enumerate them. On this very principle it would be a matter of high utility to read these Old Testament and the New Testament books together, as they reflect a strong and mutual light on each other, bear the most decided testimony to the words and truth of prophecy, and show the ample fulfillment of all the ancient and gracious designs of God. This appears particularly evident in the five Books of Moses and the Book of Joshua compared and collated with the four Gospels and the Acts of the Apostles; and the analogy will be the more complete as to the number of those books, though that is a matter of minor consideration, when we consider Joshua, as we ought, a continuation of the Book of Deuteronomy, though written by a different hand, which two books should be rated only as one history. Of Judges and Ruth it may be said they are a sort of supplement to the Book of Joshua. \n \n Whoever goes immediately from the reading of the Pentateuch to the reading of the Gospels, and from the reading of Joshua to that of the Acts, will carry with him advantages which on no other plan he will be able to command. Even a commentator himself will derive advantages from this plan, which he will seek in vain from any other. To see the wisdom and goodness of God in the ritual of Moses, we must have an eye continually on the incarnation and death of Christ, to which it refers. And to have a proper view of the great atonement made by the sacrifice of our Lord, we must have a constant reference to the Mosaic law, where this is shadowed forth. Without this reference the law of Moses is a system of expensive and burdensome ceremonies, destitute of adequate meaning; and without this entering in of the law that the offense might abound, to show the exceeding sinfulness of sin, the frailty of man, and the holiness of God; the Gospel of Christ, including the account of his incarnation, preaching, miracles, passion, death, burial, ascension, and intercession, would not appear to have a sufficient necessity to explain and justify it. By the Law is the knowledge of sin, and by the Gospel its cure. Either, taken separately, will not answer the purpose for which God gave these astonishing revelations of his justice and his grace. \n \n Moses being dead, God commissions Joshua to bring the people into the promised land, Jos 1:1, Jos 1:2. The extent of the land to be possessed, Jos 1:3, Jos 1:4. Joshua is assured of victory over all his enemies, and is exhorted to courage and activity, Jos 1:5, Jos 1:6; and to be careful to act, in all things, according to the law of Moses, in which he us to meditate day and night, Jos 1:7, Jos 1:8. He is again exhorted to courage, with the promise of continued support, Jos 1:9. Joshua commands the officers to prepare the people for their passage over Jordan, Jos 1:10, Jos 1:11. The Reubenites, Gadites, and half tribe of Manasseh, are put in mind of their engagement to pass over with their brethren, Jos 1:12-15. They promise the strictest obedience, and pray for the prosperity of their leader, Jos 1:16-18. \n \n Verse 1 \n \n Now after the death of Moses - ויהי vayehi, and it was or happened after the death of Moses. Even the first words in this book show it to be a continuation of the preceding, and intimately connected with the narrative in the last chapter in Deuteronomy, of which I suppose Joshua to have been the author, and that chapter to have originally made the commencement of this book, Deu 34:1-12 (note). The time referred to here must have been at the conclusion of the thirty days in which they mourned for Moses.",
+      "source_record_sha256": "4a5104c9b4b339b321d7ff916e803f5416f3beceb00b4098cf8d1fec3c648303",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 253,
+        "length": 15494
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          14813,
+          15466
+        ]
+      ],
+      "reader_source_character_span": [
+        14813,
+        15466
+      ],
+      "reader_content_plain": "Verse 1 \n \n Now after the death of Moses - ויהי vayehi, and it was or happened after the death of Moses. Even the first words in this book show it to be a continuation of the preceding, and intimately connected with the narrative in the last chapter in Deuteronomy, of which I suppose Joshua to have been the author, and that chapter to have originally made the commencement of this book, Deu 34:1-12 (note). The time referred to here must have been at the conclusion of the thirty days in which they mourned for Moses.",
+      "front_matter_separated": true,
+      "separate_navigation_section_ids": [
+        "nav:adam-clarke:JOS:P:book-preface"
+      ]
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.2-2:6:15747:1720",
+      "passage_start": "JOS.1.2",
+      "passage_end": "JOS.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen7356\" type=\"x-p\"/> <div sID=\"gen7357\" type=\"x-p\"/> Moses my servant - The word, servant, as applied both to Moses and Joshua, is to be understood in a very peculiar sense. It signifies God's prime minister, the person by whom he issued his orders, and by whom he accomplished all his purposes and designs. No person ever bore this title in the like sense but the Redeemer of mankind, of whom Moses and Joshua were types. <div eID=\"gen7357\" type=\"x-p\"/> <div sID=\"gen7358\" type=\"x-p\"/> Go over this Jordan - The account given by Josephus of this river may not be unacceptable here. \"Panium is thought to be the mountain of Jordan, but in reality it is carried thither in an occult manner from the place called Phiala. This place lies on the road to Trachonitis, and is one hundred and twenty furlongs from Caesarea, not far out of the road, on the right hand. It has its name Phiala, (a bowl or basin), very justly, from the roundness of its circumference, being round like a wheel. It is always full, without ever sinking or running over. This origin of the Jordan was not known till the time of Philip, tetrarch of Trachonitis, who having ordered some chaff to be thrown in at Phiala, it was found at Panium. Jordan's visible stream arises from this cavern, (Panium), and divides the marshes and fens of the lake Semechon; and when it has run another hundred and twenty furlongs, it first passes by the city Julias, and then passes through the middle of the lake Gennesareth, after which, running a long way over the desert, it empties itself into the lake Asphaltites.\" - War, book iii. chap. x., sect. 7. See the note on <reference osisRef=\"Num.34.12\">Num 34:12</reference>. ",
+      "content_plain": "Verse 2 \n \n Moses my servant - The word, servant, as applied both to Moses and Joshua, is to be understood in a very peculiar sense. It signifies God's prime minister, the person by whom he issued his orders, and by whom he accomplished all his purposes and designs. No person ever bore this title in the like sense but the Redeemer of mankind, of whom Moses and Joshua were types. \n \n Go over this Jordan - The account given by Josephus of this river may not be unacceptable here. \"Panium is thought to be the mountain of Jordan, but in reality it is carried thither in an occult manner from the place called Phiala. This place lies on the road to Trachonitis, and is one hundred and twenty furlongs from Caesarea, not far out of the road, on the right hand. It has its name Phiala, (a bowl or basin), very justly, from the roundness of its circumference, being round like a wheel. It is always full, without ever sinking or running over. This origin of the Jordan was not known till the time of Philip, tetrarch of Trachonitis, who having ordered some chaff to be thrown in at Phiala, it was found at Panium. Jordan's visible stream arises from this cavern, (Panium), and divides the marshes and fens of the lake Semechon; and when it has run another hundred and twenty furlongs, it first passes by the city Julias, and then passes through the middle of the lake Gennesareth, after which, running a long way over the desert, it empties itself into the lake Asphaltites.\" - War, book iii. chap. x., sect. 7. See the note on Num 34:12.",
+      "source_record_sha256": "bd0bc1cb2024dc1d1418d332e233cbe5652d34c289558f2bb430b4909c60b91b",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 15747,
+        "length": 1720
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1720
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1720
+      ],
+      "reader_content_plain": "Verse 2 \n \n Moses my servant - The word, servant, as applied both to Moses and Joshua, is to be understood in a very peculiar sense. It signifies God's prime minister, the person by whom he issued his orders, and by whom he accomplished all his purposes and designs. No person ever bore this title in the like sense but the Redeemer of mankind, of whom Moses and Joshua were types. \n \n Go over this Jordan - The account given by Josephus of this river may not be unacceptable here. \"Panium is thought to be the mountain of Jordan, but in reality it is carried thither in an occult manner from the place called Phiala. This place lies on the road to Trachonitis, and is one hundred and twenty furlongs from Caesarea, not far out of the road, on the right hand. It has its name Phiala, (a bowl or basin), very justly, from the roundness of its circumference, being round like a wheel. It is always full, without ever sinking or running over. This origin of the Jordan was not known till the time of Philip, tetrarch of Trachonitis, who having ordered some chaff to be thrown in at Phiala, it was found at Panium. Jordan's visible stream arises from this cavern, (Panium), and divides the marshes and fens of the lake Semechon; and when it has run another hundred and twenty furlongs, it first passes by the city Julias, and then passes through the middle of the lake Gennesareth, after which, running a long way over the desert, it empties itself into the lake Asphaltites.\" - War, book iii. chap. x., sect. 7. See the note on Num 34:12.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.3-3:6:17467:879",
+      "passage_start": "JOS.1.3",
+      "passage_end": "JOS.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen7358\" type=\"x-p\"/> <div sID=\"gen7359\" type=\"x-p\"/> The sole of your foot shalt tread upon - That is, the whole land occupied by the seven Canaanitish nations, and as far as the Euphrates on the east; for this was certainly the utmost of the grant now made to them; and all that was included in what is termed the promised land, the boundaries of which have already been defined. See <reference osisRef=\"Deu.34.1-Deu.34.4\">Deu 34:1-4</reference>, and see <reference osisRef=\"Jos.1.4\">Jos 1:4</reference> (note) below. It has been supposed that the words, Every place that the sole of your foot shall tread upon, were intended to express the ease with which they were to conquer the whole land, an instance of which occurs in the taking of Jericho. It was only their unfaithfulness to God that rendered the conquest in any case difficult. ",
+      "content_plain": "Verse 3 \n \n The sole of your foot shalt tread upon - That is, the whole land occupied by the seven Canaanitish nations, and as far as the Euphrates on the east; for this was certainly the utmost of the grant now made to them; and all that was included in what is termed the promised land, the boundaries of which have already been defined. See Deu 34:1-4, and see Jos 1:4 (note) below. It has been supposed that the words, Every place that the sole of your foot shall tread upon, were intended to express the ease with which they were to conquer the whole land, an instance of which occurs in the taking of Jericho. It was only their unfaithfulness to God that rendered the conquest in any case difficult.",
+      "source_record_sha256": "a6bc5d1d0e5f6ab05d9388838557511b99cfb8fdc37d7c7836734ebb03a4bca9",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 17467,
+        "length": 879
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          879
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        879
+      ],
+      "reader_content_plain": "Verse 3 \n \n The sole of your foot shalt tread upon - That is, the whole land occupied by the seven Canaanitish nations, and as far as the Euphrates on the east; for this was certainly the utmost of the grant now made to them; and all that was included in what is termed the promised land, the boundaries of which have already been defined. See Deu 34:1-4, and see Jos 1:4 (note) below. It has been supposed that the words, Every place that the sole of your foot shall tread upon, were intended to express the ease with which they were to conquer the whole land, an instance of which occurs in the taking of Jericho. It was only their unfaithfulness to God that rendered the conquest in any case difficult.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.4-4:6:18346:1596",
+      "passage_start": "JOS.1.4",
+      "passage_end": "JOS.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen7359\" type=\"x-p\"/> <div sID=\"gen7360\" type=\"x-p\"/> From the wilderness and this Lebanon - Joshua appears to be standing with his face towards the promised land, and pointing out the different places, or their situation, with his hand, This Lebanon, etc. The utmost of their limits should be from the desert of Arabia Petraea on the South to Lebanon on the North: and from the Euphrates on the East to the Mediterranean Sea on the West. The Israelites did not possess the full extent of this grant till the days of David. See <reference osisRef=\"2Sam.8.3\">2Sam 8:3</reference>, etc., and <reference osisRef=\"2Chr.9.26\">2Chr 9:26</reference>. <div eID=\"gen7360\" type=\"x-p\"/> <div sID=\"gen7361\" type=\"x-p\"/> Land of the Hittites - These are generally reputed to have been the most hardy and warlike of all the Canaanitish nations; and as they occupied the mountainous countries on the south of the land of Canaan, it is natural to suppose that they would be the most difficult to subdue, and on this account, it is supposed, God particularly specifies these: \"Ye shall subdue and possess even all the land of the Hittites,\" but it is probable that under this one term all the other nations are included, as it is certain they are in other places under the term Amorites. Great sea: The Mediterranean, called great in respect of the lakes in the land of Judea, such as the sea of Gennesareth, or the sea of Tiberias, and the Dead Sea, which were comparatively small lakes; but the Hebrews gave the name of sea, ים yam, to every large collection of waters. ",
+      "content_plain": "Verse 4 \n \n From the wilderness and this Lebanon - Joshua appears to be standing with his face towards the promised land, and pointing out the different places, or their situation, with his hand, This Lebanon, etc. The utmost of their limits should be from the desert of Arabia Petraea on the South to Lebanon on the North: and from the Euphrates on the East to the Mediterranean Sea on the West. The Israelites did not possess the full extent of this grant till the days of David. See 2Sam 8:3, etc., and 2Chr 9:26. \n \n Land of the Hittites - These are generally reputed to have been the most hardy and warlike of all the Canaanitish nations; and as they occupied the mountainous countries on the south of the land of Canaan, it is natural to suppose that they would be the most difficult to subdue, and on this account, it is supposed, God particularly specifies these: \"Ye shall subdue and possess even all the land of the Hittites,\" but it is probable that under this one term all the other nations are included, as it is certain they are in other places under the term Amorites. Great sea: The Mediterranean, called great in respect of the lakes in the land of Judea, such as the sea of Gennesareth, or the sea of Tiberias, and the Dead Sea, which were comparatively small lakes; but the Hebrews gave the name of sea, ים yam, to every large collection of waters.",
+      "source_record_sha256": "fef1ded8edf31056d83220b7f54870ead6d60c2c9288c06e2629d2db25cf97fd",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 18346,
+        "length": 1596
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1594
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1594
+      ],
+      "reader_content_plain": "Verse 4 \n \n From the wilderness and this Lebanon - Joshua appears to be standing with his face towards the promised land, and pointing out the different places, or their situation, with his hand, This Lebanon, etc. The utmost of their limits should be from the desert of Arabia Petraea on the South to Lebanon on the North: and from the Euphrates on the East to the Mediterranean Sea on the West. The Israelites did not possess the full extent of this grant till the days of David. See 2Sam 8:3, etc., and 2Chr 9:26. \n \n Land of the Hittites - These are generally reputed to have been the most hardy and warlike of all the Canaanitish nations; and as they occupied the mountainous countries on the south of the land of Canaan, it is natural to suppose that they would be the most difficult to subdue, and on this account, it is supposed, God particularly specifies these: \"Ye shall subdue and possess even all the land of the Hittites,\" but it is probable that under this one term all the other nations are included, as it is certain they are in other places under the term Amorites. Great sea: The Mediterranean, called great in respect of the lakes in the land of Judea, such as the sea of Gennesareth, or the sea of Tiberias, and the Dead Sea, which were comparatively small lakes; but the Hebrews gave the name of sea, ים yam, to every large collection of waters.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.5-5:6:19942:248",
+      "passage_start": "JOS.1.5",
+      "passage_end": "JOS.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen7361\" type=\"x-p\"/> <div sID=\"gen7362\" type=\"x-p\"/> Be able to stand before thee - Because God shall be with thee, therefore thou shalt be irresistible. This promise was most punctually literally fulfilled. ",
+      "content_plain": "Verse 5 \n \n Be able to stand before thee - Because God shall be with thee, therefore thou shalt be irresistible. This promise was most punctually literally fulfilled.",
+      "source_record_sha256": "5ba88c83d8669488212a08e092a1bd58302bf8bf8b269eb62921fead8ff496da",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 19942,
+        "length": 248
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          248
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        248
+      ],
+      "reader_content_plain": "Verse 5 \n \n Be able to stand before thee - Because God shall be with thee, therefore thou shalt be irresistible. This promise was most punctually literally fulfilled.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.7-7:6:20190:574",
+      "passage_start": "JOS.1.7",
+      "passage_end": "JOS.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen7362\" type=\"x-p\"/> <div sID=\"gen7363\" type=\"x-p\"/> Only be thou strong, and very courageous - Ισχυε ουν, και ανδριζου σφοδρα. - Sept. Be strong therefore, and play the man to the uttermost. Though God had promised him that no man should be able to stand before him, yet it was on condition that he should use all his military skill, and avail himself to the uttermost of all the means, natural and providential, which God should place within his reach. God will not have them who refuse to help themselves. ",
+      "content_plain": "Verse 7 \n \n Only be thou strong, and very courageous - Ισχυε ουν, και ανδριζου σφοδρα. - Sept. Be strong therefore, and play the man to the uttermost. Though God had promised him that no man should be able to stand before him, yet it was on condition that he should use all his military skill, and avail himself to the uttermost of all the means, natural and providential, which God should place within his reach. God will not have them who refuse to help themselves.",
+      "source_record_sha256": "d9b963d53a56385c1b7ced37e4f68b8707460ddeae75ccbdcd824947bd32f44c",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 20190,
+        "length": 574
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          549
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        549
+      ],
+      "reader_content_plain": "Verse 7 \n \n Only be thou strong, and very courageous - Ισχυε ουν, και ανδριζου σφοδρα. - Sept. Be strong therefore, and play the man to the uttermost. Though God had promised him that no man should be able to stand before him, yet it was on condition that he should use all his military skill, and avail himself to the uttermost of all the means, natural and providential, which God should place within his reach. God will not have them who refuse to help themselves.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.8-8:6:20764:777",
+      "passage_start": "JOS.1.8",
+      "passage_end": "JOS.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen7363\" type=\"x-p\"/> <div sID=\"gen7364\" type=\"x-p\"/> This book of the law shall not depart out of thy mouth - The law which had already been written by Moses, and from which he and the people were to take all those precepts by which their lives were to be governed. Though there was a copy of the law laid up in the sanctuary, yet this was not sufficient. Joshua must have a copy for himself, and he was to consult it incessantly, that his way might be made prosperous, and that he might have good success. If he kept God's word, God would keep him in body and soul; if he should observe to do according to that word, then God would cause all his way to be prosperous. Those who are obedient to God lack no manner of thing that is good. ",
+      "content_plain": "Verse 8 \n \n This book of the law shall not depart out of thy mouth - The law which had already been written by Moses, and from which he and the people were to take all those precepts by which their lives were to be governed. Though there was a copy of the law laid up in the sanctuary, yet this was not sufficient. Joshua must have a copy for himself, and he was to consult it incessantly, that his way might be made prosperous, and that he might have good success. If he kept God's word, God would keep him in body and soul; if he should observe to do according to that word, then God would cause all his way to be prosperous. Those who are obedient to God lack no manner of thing that is good.",
+      "source_record_sha256": "c728a47e1dc07993bb07d5a8339068dda2985b607b05acc5d888a70a1d4e4d3c",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 20764,
+        "length": 777
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          777
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        777
+      ],
+      "reader_content_plain": "Verse 8 \n \n This book of the law shall not depart out of thy mouth - The law which had already been written by Moses, and from which he and the people were to take all those precepts by which their lives were to be governed. Though there was a copy of the law laid up in the sanctuary, yet this was not sufficient. Joshua must have a copy for himself, and he was to consult it incessantly, that his way might be made prosperous, and that he might have good success. If he kept God's word, God would keep him in body and soul; if he should observe to do according to that word, then God would cause all his way to be prosperous. Those who are obedient to God lack no manner of thing that is good.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.10-10:6:21541:740",
+      "passage_start": "JOS.1.10",
+      "passage_end": "JOS.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen7364\" type=\"x-p\"/> <div sID=\"gen7365\" type=\"x-p\"/> Commanded the officers - שטרים shoterim. These were different from the שפטים shophetim, who were judges among the people, and whose business it was to determine in all civil cases. The shoterim have been supposed to be subordinate officers, whose business it was to see the decisions of the shophetim carried into effect. Calmet conjectures that the shoterim here may have been the heralds of the army like those so often met with in Homer, who were called the messengers both of the gods and men; who bore sceptres, and whose persons were ever held sacred. See on <reference osisRef=\"Deu.1.13-Deu.1.16\">Deu 1:13-16</reference> (note). ",
+      "content_plain": "Verse 10 \n \n Commanded the officers - שטרים shoterim. These were different from the שפטים shophetim, who were judges among the people, and whose business it was to determine in all civil cases. The shoterim have been supposed to be subordinate officers, whose business it was to see the decisions of the shophetim carried into effect. Calmet conjectures that the shoterim here may have been the heralds of the army like those so often met with in Homer, who were called the messengers both of the gods and men; who bore sceptres, and whose persons were ever held sacred. See on Deu 1:13-16 (note).",
+      "source_record_sha256": "d25f723354c87417b478d164ff486c98fd7d7b185f2189f2a8f8f9a21b6f0a67",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 21541,
+        "length": 740
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          730
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        730
+      ],
+      "reader_content_plain": "Verse 10 \n \n Commanded the officers - שטרים shoterim. These were different from the שפטים shophetim, who were judges among the people, and whose business it was to determine in all civil cases. The shoterim have been supposed to be subordinate officers, whose business it was to see the decisions of the shophetim carried into effect. Calmet conjectures that the shoterim here may have been the heralds of the army like those so often met with in Homer, who were called the messengers both of the gods and men; who bore sceptres, and whose persons were ever held sacred. See on Deu 1:13-16 (note).",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.11-11:6:22281:1115",
+      "passage_start": "JOS.1.11",
+      "passage_end": "JOS.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen7365\" type=\"x-p\"/> <div sID=\"gen7366\" type=\"x-p\"/> Prepare you victuals - צדה tsedah, such prey or provisions as they had taken from the conquered countries, such as corn, oxen, sheep, etc.; for the word signifies prey, or what is taken by hunting, etc. This was necessary, as they were about to undergo considerable fatigue in marching, and in making preparations for the passage of the Jordan; for although the manna had not ceased to fall, yet such other provisions as are mentioned above were necessary on this occasion. <div eID=\"gen7366\" type=\"x-p\"/> <div sID=\"gen7367\" type=\"x-p\"/> For within three days ye shall pass - Calmet contends, with great appearance of truth, that these three days should be reckoned from the first day of their encamping at Jordan, three days after the return of the spies, i.e., on the eighth day of the first month, on the tenth of which they passed over Jordan. The text therefore is supposed to mean, Prepare victuals for three days' march, for \"on the third day after your decampment from Shittim ye shall pass over this Jordan.\" ",
+      "content_plain": "Verse 11 \n \n Prepare you victuals - צדה tsedah, such prey or provisions as they had taken from the conquered countries, such as corn, oxen, sheep, etc.; for the word signifies prey, or what is taken by hunting, etc. This was necessary, as they were about to undergo considerable fatigue in marching, and in making preparations for the passage of the Jordan; for although the manna had not ceased to fall, yet such other provisions as are mentioned above were necessary on this occasion. \n \n For within three days ye shall pass - Calmet contends, with great appearance of truth, that these three days should be reckoned from the first day of their encamping at Jordan, three days after the return of the spies, i.e., on the eighth day of the first month, on the tenth of which they passed over Jordan. The text therefore is supposed to mean, Prepare victuals for three days' march, for \"on the third day after your decampment from Shittim ye shall pass over this Jordan.\"",
+      "source_record_sha256": "4fc5807e5e94844b0d7b9e1897e86826ed7c1ced5b4268e63b5582e7ae03dd82",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 22281,
+        "length": 1115
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1112
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1112
+      ],
+      "reader_content_plain": "Verse 11 \n \n Prepare you victuals - צדה tsedah, such prey or provisions as they had taken from the conquered countries, such as corn, oxen, sheep, etc.; for the word signifies prey, or what is taken by hunting, etc. This was necessary, as they were about to undergo considerable fatigue in marching, and in making preparations for the passage of the Jordan; for although the manna had not ceased to fall, yet such other provisions as are mentioned above were necessary on this occasion. \n \n For within three days ye shall pass - Calmet contends, with great appearance of truth, that these three days should be reckoned from the first day of their encamping at Jordan, three days after the return of the spies, i.e., on the eighth day of the first month, on the tenth of which they passed over Jordan. The text therefore is supposed to mean, Prepare victuals for three days' march, for \"on the third day after your decampment from Shittim ye shall pass over this Jordan.\"",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.13-13:6:23396:325",
+      "passage_start": "JOS.1.13",
+      "passage_end": "JOS.1.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 13</hi> <div eID=\"gen7367\" type=\"x-p\"/> <div sID=\"gen7368\" type=\"x-p\"/> Remember the word - He puts the Reubenites, etc., in remembrance of the engagements they had made with Moses (See <reference osisRef=\"Num.32.20\">Num 32:20</reference>) when he granted them their portion on the east side of Jordan. ",
+      "content_plain": "Verse 13 \n \n Remember the word - He puts the Reubenites, etc., in remembrance of the engagements they had made with Moses (See Num 32:20) when he granted them their portion on the east side of Jordan.",
+      "source_record_sha256": "fef526b059439436402dde485c46bc9db3ee01ddbc591e8eca77e04befc37929",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 23396,
+        "length": 325
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          325
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        325
+      ],
+      "reader_content_plain": "Verse 13 \n \n Remember the word - He puts the Reubenites, etc., in remembrance of the engagements they had made with Moses (See Num 32:20) when he granted them their portion on the east side of Jordan.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.14-14:6:23721:767",
+      "passage_start": "JOS.1.14",
+      "passage_end": "JOS.1.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen7368\" type=\"x-p\"/> <div sID=\"gen7369\" type=\"x-p\"/> Your wives, your little ones - And with these it appears, from <reference osisRef=\"Num.32.17\">Num 32:17</reference>, were left behind 70,580 effective men to guard them and their property; only 40,000 having passed over Jordan to assist the nine tribes and half to conquer the land. See <reference osisRef=\"Jos.4.13\">Jos 4:13</reference>. <div eID=\"gen7369\" type=\"x-p\"/> <div sID=\"gen7370\" type=\"x-p\"/> Armed - חמשים chamushim, by fives; in several lines, five in front, probably the usual method of marching; but it seems to signify arrayed, equipped, accoutred, well-armed, and ready for battle. See the note on <reference osisRef=\"Exo.13.18\">Exo 13:18</reference>. ",
+      "content_plain": "Verse 14 \n \n Your wives, your little ones - And with these it appears, from Num 32:17, were left behind 70,580 effective men to guard them and their property; only 40,000 having passed over Jordan to assist the nine tribes and half to conquer the land. See Jos 4:13. \n \n Armed - חמשים chamushim, by fives; in several lines, five in front, probably the usual method of marching; but it seems to signify arrayed, equipped, accoutred, well-armed, and ready for battle. See the note on Exo 13:18.",
+      "source_record_sha256": "87f213321de752f7cedda983e38671bbf99dd12e6db656ae3b4ea3f8e2527ff2",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 23721,
+        "length": 767
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          762
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        762
+      ],
+      "reader_content_plain": "Verse 14 \n \n Your wives, your little ones - And with these it appears, from Num 32:17, were left behind 70,580 effective men to guard them and their property; only 40,000 having passed over Jordan to assist the nine tribes and half to conquer the land. See Jos 4:13. \n \n Armed - חמשים chamushim, by fives; in several lines, five in front, probably the usual method of marching; but it seems to signify arrayed, equipped, accoutred, well-armed, and ready for battle. See the note on Exo 13:18.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.15-15:6:24488:192",
+      "passage_start": "JOS.1.15",
+      "passage_end": "JOS.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 15</hi> <div eID=\"gen7370\" type=\"x-p\"/> <div sID=\"gen7371\" type=\"x-p\"/> Toward the sun-rising - This is the East, as toward the going down of the sun signifies the West. ",
+      "content_plain": "Verse 15 \n \n Toward the sun-rising - This is the East, as toward the going down of the sun signifies the West.",
+      "source_record_sha256": "b505985a3c12cde840dd253f7c3d728982cf5a8cc6aca12d2aee62dc62d498f0",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 24488,
+        "length": 192
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          192
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        192
+      ],
+      "reader_content_plain": "Verse 15 \n \n Toward the sun-rising - This is the East, as toward the going down of the sun signifies the West.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.16-16:6:24680:284",
+      "passage_start": "JOS.1.16",
+      "passage_end": "JOS.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 16</hi> <div eID=\"gen7371\" type=\"x-p\"/> <div sID=\"gen7372\" type=\"x-p\"/> All that thou commandest us we will do - Here they acknowledge the Divine mission of Joshua, as they had done that of Moses, and consequently promise to follow his directions in all things. ",
+      "content_plain": "Verse 16 \n \n All that thou commandest us we will do - Here they acknowledge the Divine mission of Joshua, as they had done that of Moses, and consequently promise to follow his directions in all things.",
+      "source_record_sha256": "3a42dd4df95231608d7727d91dba1c02d85bc26f9b6bfabc3e8159452f25b8ee",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 24680,
+        "length": 284
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          284
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        284
+      ],
+      "reader_content_plain": "Verse 16 \n \n All that thou commandest us we will do - Here they acknowledge the Divine mission of Joshua, as they had done that of Moses, and consequently promise to follow his directions in all things.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.17-17:6:24964:337",
+      "passage_start": "JOS.1.17",
+      "passage_end": "JOS.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 17</hi> <div eID=\"gen7372\" type=\"x-p\"/> <div sID=\"gen7373\" type=\"x-p\"/> Only the Lord thy God be with thee - Provided God be with thee, as he was with Moses, we will implicitly obey thee. The words however may mean no more than an earnest prayer for Joshua's prosperity: May God be with thee, as he was with Moses! ",
+      "content_plain": "Verse 17 \n \n Only the Lord thy God be with thee - Provided God be with thee, as he was with Moses, we will implicitly obey thee. The words however may mean no more than an earnest prayer for Joshua's prosperity: May God be with thee, as he was with Moses!",
+      "source_record_sha256": "082f2aff7578ad6e04c6f9166822c552ec9ac71c22e69e279cba4da9e2147c2f",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 24964,
+        "length": 337
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          337
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        337
+      ],
+      "reader_content_plain": "Verse 17 \n \n Only the Lord thy God be with thee - Provided God be with thee, as he was with Moses, we will implicitly obey thee. The words however may mean no more than an earnest prayer for Joshua's prosperity: May God be with thee, as he was with Moses!",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:JOS.1.18-18:6:25301:3857",
+      "passage_start": "JOS.1.18",
+      "passage_end": "JOS.1.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 18</hi> <div eID=\"gen7373\" type=\"x-p\"/> <div sID=\"gen7374\" type=\"x-p\"/> He shall be put to death - This was martial law; he who disobeyed the command of his general should be put to death. To this the people agreed, and it was essentially necessary in order that proper discipline should be kept up in this great army. By insubordination their fathers had suffered much in the wilderness; they rejected the authority of Moses, mutinied and made themselves a leader to conduct them back to Egypt. (See <reference osisRef=\"Num.14.4\">Num 14:4</reference>). And Joshua himself, for attempting to encourage them against their fears, was near being stoned to death. It was necessary, therefore, that they should give him the most positive assurance that they would not act as their fathers had done. <div eID=\"gen7374\" type=\"x-p\"/> <div sID=\"gen7375\" type=\"x-p\"/> 1. Notwithstanding the great honor God put on his servants Moses, Aaron, Phinehas, and Joshua, yet we find him using every means to induce the people to trust in himself alone. Hence he is ever showing them that even those great men had nothing but what they had received, and that they were as fully dependent upon himself as the meanest of the people. What was even Moses without his God? <div eID=\"gen7375\" type=\"x-p\"/> <div sID=\"gen7376\" type=\"x-p\"/> 2. Is it not strange that at the death of Moses utter despair had not overwhelmed the whole camp, as he whom they expected to give them rest had died before any conquest was made in Canaan? We find, however, that they are not discouraged; he who gave them Moses, has now given them Joshua in his place; and they had now fully learned that if God be for them, none could be successfully against them. <div eID=\"gen7376\" type=\"x-p\"/> <div sID=\"gen7377\" type=\"x-p\"/> 3. From all this we may learn, that when God has a great work to accomplish, he will provide himself suitable instruments; and though one which he has greatly honored, appear to fail, we should know that he is not confined to work by that one alone. He has way every where, and all things serve the purposes of his will. He will as surely support his Church on earth, as he will support the earth itself; and while the sun and moon endure, the Church shall flourish: this is for his own honor, and he certainly is more concerned for his own glory in the administration of justice, judgment, and salvation in the earth, than any of the children of men can possibly be. <div eID=\"gen7377\" type=\"x-p\"/> <div sID=\"gen7378\" type=\"x-p\"/> 4. Though God had so implicitly promised them his help, yet he strongly insists on their own co-operation. He requires the use of every power and talent he has given; even Joshua himself must be strong and very courageous, and the people must obey him in all things, in order that they may go over the Jordan to possess the good land; and without this they had never got into the promised rest. <div eID=\"gen7378\" type=\"x-p\"/> <div sID=\"gen7379\" type=\"x-p\"/> Shall we suppose, then, that if we be not workers together with God we shall be saved? Vain expectation! He works in us to will and to do, i.e., he gives the principle of volition in things that are holy, and the principle of power to bring the acts of will into good practical effect; therefore, says the apostle, work out your own salvation with fear and trembling. Will, therefore, under the influence of the gracious principle of volition; act under the influence of the principle of power. Without the power you can neither will nor do; but having the power it is your duty to will and do. It is enough that God gives the power. It is our duty, when we receive these talents, to improve them. In a million of cases a man may be both able to will and to do, and yet do neither to the salvation of his soul.  <chapter eID=\"Josh.1\"/> <div eID=\"gen7379\" type=\"x-p\"/>",
+      "content_plain": "Verse 18 \n \n He shall be put to death - This was martial law; he who disobeyed the command of his general should be put to death. To this the people agreed, and it was essentially necessary in order that proper discipline should be kept up in this great army. By insubordination their fathers had suffered much in the wilderness; they rejected the authority of Moses, mutinied and made themselves a leader to conduct them back to Egypt. (See Num 14:4). And Joshua himself, for attempting to encourage them against their fears, was near being stoned to death. It was necessary, therefore, that they should give him the most positive assurance that they would not act as their fathers had done. \n \n 1. Notwithstanding the great honor God put on his servants Moses, Aaron, Phinehas, and Joshua, yet we find him using every means to induce the people to trust in himself alone. Hence he is ever showing them that even those great men had nothing but what they had received, and that they were as fully dependent upon himself as the meanest of the people. What was even Moses without his God? \n \n 2. Is it not strange that at the death of Moses utter despair had not overwhelmed the whole camp, as he whom they expected to give them rest had died before any conquest was made in Canaan? We find, however, that they are not discouraged; he who gave them Moses, has now given them Joshua in his place; and they had now fully learned that if God be for them, none could be successfully against them. \n \n 3. From all this we may learn, that when God has a great work to accomplish, he will provide himself suitable instruments; and though one which he has greatly honored, appear to fail, we should know that he is not confined to work by that one alone. He has way every where, and all things serve the purposes of his will. He will as surely support his Church on earth, as he will support the earth itself; and while the sun and moon endure, the Church shall flourish: this is for his own honor, and he certainly is more concerned for his own glory in the administration of justice, judgment, and salvation in the earth, than any of the children of men can possibly be. \n \n 4. Though God had so implicitly promised them his help, yet he strongly insists on their own co-operation. He requires the use of every power and talent he has given; even Joshua himself must be strong and very courageous, and the people must obey him in all things, in order that they may go over the Jordan to possess the good land; and without this they had never got into the promised rest. \n \n Shall we suppose, then, that if we be not workers together with God we shall be saved? Vain expectation! He works in us to will and to do, i.e., he gives the principle of volition in things that are holy, and the principle of power to bring the acts of will into good practical effect; therefore, says the apostle, work out your own salvation with fear and trembling. Will, therefore, under the influence of the gracious principle of volition; act under the influence of the principle of power. Without the power you can neither will nor do; but having the power it is your duty to will and do. It is enough that God gives the power. It is our duty, when we receive these talents, to improve them. In a million of cases a man may be both able to will and to do, and yet do neither to the salvation of his soul.",
+      "source_record_sha256": "e904a20470cf3289e587fe22ccde978303b7294dac4682ffb737946e0bbd73ca",
+      "index_record": {
+        "testament": "OT",
+        "block": 6,
+        "offset": 25301,
+        "length": 3857
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOS.1.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          3857
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        3857
+      ],
+      "reader_content_plain": "Verse 18 \n \n He shall be put to death - This was martial law; he who disobeyed the command of his general should be put to death. To this the people agreed, and it was essentially necessary in order that proper discipline should be kept up in this great army. By insubordination their fathers had suffered much in the wilderness; they rejected the authority of Moses, mutinied and made themselves a leader to conduct them back to Egypt. (See Num 14:4). And Joshua himself, for attempting to encourage them against their fears, was near being stoned to death. It was necessary, therefore, that they should give him the most positive assurance that they would not act as their fathers had done. \n \n 1. Notwithstanding the great honor God put on his servants Moses, Aaron, Phinehas, and Joshua, yet we find him using every means to induce the people to trust in himself alone. Hence he is ever showing them that even those great men had nothing but what they had received, and that they were as fully dependent upon himself as the meanest of the people. What was even Moses without his God? \n \n 2. Is it not strange that at the death of Moses utter despair had not overwhelmed the whole camp, as he whom they expected to give them rest had died before any conquest was made in Canaan? We find, however, that they are not discouraged; he who gave them Moses, has now given them Joshua in his place; and they had now fully learned that if God be for them, none could be successfully against them. \n \n 3. From all this we may learn, that when God has a great work to accomplish, he will provide himself suitable instruments; and though one which he has greatly honored, appear to fail, we should know that he is not confined to work by that one alone. He has way every where, and all things serve the purposes of his will. He will as surely support his Church on earth, as he will support the earth itself; and while the sun and moon endure, the Church shall flourish: this is for his own honor, and he certainly is more concerned for his own glory in the administration of justice, judgment, and salvation in the earth, than any of the children of men can possibly be. \n \n 4. Though God had so implicitly promised them his help, yet he strongly insists on their own co-operation. He requires the use of every power and talent he has given; even Joshua himself must be strong and very courageous, and the people must obey him in all things, in order that they may go over the Jordan to possess the good land; and without this they had never got into the promised rest. \n \n Shall we suppose, then, that if we be not workers together with God we shall be saved? Vain expectation! He works in us to will and to do, i.e., he gives the principle of volition in things that are holy, and the principle of power to bring the acts of will into good practical effect; therefore, says the apostle, work out your own salvation with fear and trembling. Will, therefore, under the influence of the gracious principle of volition; act under the influence of the principle of power. Without the power you can neither will nor do; but having the power it is your duty to will and do. It is enough that God gives the power. It is our duty, when we receive these talents, to improve them. In a million of cases a man may be both able to will and to do, and yet do neither to the salvation of his soul.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 15,
+  "unindexed_verse_count": 3,
+  "upstream_snapshot_id": "unified-pilot-2026-11-03",
+  "upstream_content_semantics": "Original fields unchanged; P and reader are verified source projections only.",
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:JOS:P:book-preface",
+      "navigation_id": "JOS:P:book-preface",
+      "kind": "nonverse_navigation",
+      "scope": "book",
+      "role": "book_preface",
+      "title": "Preface · Joshua",
+      "content_plain": "Preface to the Book of Joshua\n \n Joshua, the son of Nun, of the tribe of Ephraim, was first called Oshea or Hoshea, הושע, Num 13:16, which signifies saved, a savior, or salvation; but afterwards Moses, guided no doubt by a prophetic spirit, changed his name into יהוש Yehoshua or Joshua, which signifies he shall save, or the salvation of Jehovah; referring, no doubt, to his being God's instrument in saving the people from the hands of their enemies, and leading them from victory to victory over the different Canaanitish nations, till he put them in possession of the promised land. On the change and meaning of the name, see the note on Num 13:16. By the Septuagint he is called Ιησους Ναυη, Jesus Naue, or Jesus son of Nave: and in the New Testament he is expressly called Ιησους, Jesus; see Act 7:45; Heb 4:8. Joshua was denominated the servant of Moses, as he seems to have acted sometimes as his secretary, sometimes as his aid-du-camp, and sometimes as the general of the army. He was early appointed to be the successor of Moses, see Exo 17:14; and under the instruction of this great master he was fully qualified for the important office. He was a great and pious man, and God honored him in a most extraordinary manner, as the sequel of the history amply proves. From the preceding books it appears that he became attached to Moses shortly after the exodus from Egypt; that he was held by him in the highest esteem; had the command of the army confided to him in the war with the Amalekites; and accompanied his master to the Mount, when he went up to receive the Law from God. These were the highest honors he could possibly receive during the life-time of Moses. \n \n Commentators and critics are divided in opinion whether the book that goes under his name was actually compiled by him. \n \n It is argued by those who deny Joshua to be the author, that there are both names and transactions in it which did not exist till considerably after Joshua's time. The account we have, Jos 4:9, of the twelve stones set up by Joshua in the midst of Jordan remaining to the present day, seems to prove that the book, at least this verse, was not written till after Joshua's time; the same may be said of the account of Ai, that Joshua made it a heap for ever, even a desolation to the present day, Jos 8:28, which is a proof, however, that the book was not written after the time of the kings, as Ai subsisted after the return from the captivity; see Ezr 2:28 : The men of Beth-el and Ai, two hundred twenty and three. It is supposed also, that the relation of the marriage of Achsah, daughter of Caleb, with Othniel the son of Kenaz, necessarily belongs to the time of the Judges; Jos 15:16-19; as also the account of the capture of Leshem by the Danites Jos 19:47, compared with Jdg 18:7, Jdg 18:29. \"What is related, Jos 15:63, concerning the Jebusites dwelling with the children of Judah at Jerusalem unto this day, must certainly have been written before the time of David; for he took the strong hold of Zion, and expelled the Jebusites; see 2Sam 5:7-9. Also, what is said, Jos 16:10, They drave not out the Canaanites that dwelt in Gezer, but they dwelt among the Ephraimites unto this day, must have been written before the time of Solomon, for in his time Pharaoh, king of Egypt, had taken Gezer, burnt it with fire, slain the Canaanites that dwelt in it, and given it a present to his daughter, the wife of Solomon, 1Kgs 9:16. The country of Cabul, mentioned Jos 19:27, had not this name till the time of Solomon, as appears from 1Kgs 9:13; and the city called Joktheel, Jos 15:38, had not this name till the reign of Joash, as appears from 2Kgs 14:7, it having been previously called Selah. The like may be said of Tyre, Jos 19:29; and of Galilee Jos 20:7; Jos 21:32.\" \n \n These are the principal objections which are made against the book as being the work of Joshua. Some of these difficulties might be so removed as to render it still probable that Joshua was the author of the whole book, as some think to be intimated Jos 24:26; And Joshua wrote these words in the book of the law of the Lord; (but this probably refers to nothing more than the words of the covenant which was then made, and which is included in Joshua 24:2-24); but there are other difficulties that cannot be removed on the above supposition and therefore it has been generally supposed that the book was written by some inspired person after the time of Joshua; and positively before many kings had reigned in Israel. The book has been attributed to Samuel, though some give this honor to Ezra. \n \n After all, I cannot help considering the book in the main as the composition of Joshua himself. It is certain that Moses kept an accurate register of all the events that took place during his administration in the wilderness, at least from the giving of the law to the time of his death. And in that wilderness he wrote the book of Genesis, as well as the others that bear his name. Now, it is not likely that Joshua, the constant servant and companion of Moses, could see all this - be convinced, as he must be, of its utility - and not adopt the same practice; especially as at the death of Moses he came into the same office. I therefore take it for granted, that the Book of Joshua is as truly his work, as the Commentaries of Caesar are his; and all the real difficulties mentioned above may be rationally and satisfactorily accounted for on the ground, that in transcribing this book in after ages, especially between the times of Joshua and the Kings, some few changes were made, and a very few slight additions, which referred chiefly to the insertion of names by which cities were then known instead of those by which they had been anciently denominated. This book therefore I conceive to be not the work of Ezra, nor of Samuel, nor of any other person of those times; nor can I allow that \"it is called the Book of Joshua, because he is the chief subject of it, as the heroic poem of Virgil is called the Aeneis, because of the prince whose travels and actions it relates;\" but I conceive it to be called the Book of Joshua, \n \n 1. Because Joshua wrote it. \n \n 2. Because it is the relation of his own conduct in the conquest, division, and settlement of the promised land. \n \n 3. Because it contains a multitude of particulars that only himself, or a constant eye-witness, could possibly relate. \n \n 4. Because it was evidently designed to be a continuation of the Book of Deuteronomy, and is so connected with it, in narrative, as to prove that it must have been immediately commenced on the termination of the other. \n \n 5. I might add to this, that with the exception of a few individuals, the whole of the ancient Jewish and Christian Churches have uniformly acknowledged Joshua to be its author. \n \n The Book of Joshua is one of the most important writings in the old covenant, and should never be separated from the Pentateuch, of which it is at once both the continuation and completion. Between this Book and the five Books of Moses, there is the same analogy as between the four Gospels and the Acts of the Apostles. The Pentateuch contains a history of the Acts of the great Jewish legislator, and the Laws on which the Jewish Church should be established. The Book of Joshua gives an account of the establishment of that Church in the Land of Canaan, according to the oft-repeated promises and declarations of God. The Gospels give an account of the transactions of Jesus Christ, the great Christian legislator, and of those Laws on which his Church should be established, and by which it should be governed. The Acts of the Apostles gives an account of the actual establishment of that Church, according to the predictions and promises of its great founder. Thus, then, the Pentateuch bears as pointed a relation to the Gospels as the Book of Joshua does to the Acts of the Apostles. And we might, with great appearance of probability, carry this analogy yet farther, and show that the writings of several of the Prophets bear as strict a relation to the Apostolical Epistles, as the Books of Ezekiel and Daniel do to the Apocalypse. On this very ground of analogy Christ obviously founded the Christian Church; hence he had his twelve disciples, from whom the Christian Church was to spring, as the Jewish Church or twelve tribes sprang from the twelve sons of Jacob. He had his seventy or seventy-two disciples, in reference to the seventy-two elders, six chosen out of each of the twelve tribes, who were united with Moses and Aaron in the administration of justice, etc., among the people. Christ united in his person the characters both of Moses and Aaron, or legislator and high priest; hence he ever considers himself, and is considered by his apostles and followers, the same in the Christian Church that Moses and Aaron were in the Jewish. As a rite of initiation into his Church, he instituted baptism in the place of circumcision, both being types of the purification of the heart and holiness of life; and as a rite of establishment and confirmation, the holy eucharist in place of the paschal lamb, both being intended to commemorate the atonement made to God for the sins of the people. The analogies are so abundant, and indeed universal, that time would fail to enumerate them. On this very principle it would be a matter of high utility to read these Old Testament and the New Testament books together, as they reflect a strong and mutual light on each other, bear the most decided testimony to the words and truth of prophecy, and show the ample fulfillment of all the ancient and gracious designs of God. This appears particularly evident in the five Books of Moses and the Book of Joshua compared and collated with the four Gospels and the Acts of the Apostles; and the analogy will be the more complete as to the number of those books, though that is a matter of minor consideration, when we consider Joshua, as we ought, a continuation of the Book of Deuteronomy, though written by a different hand, which two books should be rated only as one history. Of Judges and Ruth it may be said they are a sort of supplement to the Book of Joshua. \n \n Whoever goes immediately from the reading of the Pentateuch to the reading of the Gospels, and from the reading of Joshua to that of the Acts, will carry with him advantages which on no other plan he will be able to command. Even a commentator himself will derive advantages from this plan, which he will seek in vain from any other. To see the wisdom and goodness of God in the ritual of Moses, we must have an eye continually on the incarnation and death of Christ, to which it refers. And to have a proper view of the great atonement made by the sacrifice of our Lord, we must have a constant reference to the Mosaic law, where this is shadowed forth. Without this reference the law of Moses is a system of expensive and burdensome ceremonies, destitute of adequate meaning; and without this entering in of the law that the offense might abound, to show the exceeding sinfulness of sin, the frailty of man, and the holiness of God; the Gospel of Christ, including the account of his incarnation, preaching, miracles, passion, death, burial, ascension, and intercession, would not appear to have a sufficient necessity to explain and justify it. By the Law is the knowledge of sin, and by the Gospel its cure. Either, taken separately, will not answer the purpose for which God gave these astonishing revelations of his justice and his grace. \n \n Moses being dead, God commissions Joshua to bring the people into the promised land, Jos 1:1, Jos 1:2. The extent of the land to be possessed, Jos 1:3, Jos 1:4. Joshua is assured of victory over all his enemies, and is exhorted to courage and activity, Jos 1:5, Jos 1:6; and to be careful to act, in all things, according to the law of Moses, in which he us to meditate day and night, Jos 1:7, Jos 1:8. He is again exhorted to courage, with the promise of continued support, Jos 1:9. Joshua commands the officers to prepare the people for their passage over Jordan, Jos 1:10, Jos 1:11. The Reubenites, Gadites, and half tribe of Manasseh, are put in mind of their engagement to pass over with their brethren, Jos 1:12-15. They promise the strictest obedience, and pray for the prosperity of their leader, Jos 1:16-18.",
+      "source_entry_id": "sword:clarke:JOS.1.1-1:6:253:15494",
+      "source_character_span": [
+        0,
+        14813
+      ],
+      "source_fragment_sha256": "2e30117f292a1f5659b19f7935185083479b71445f661a033a5190b3d904f13b",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 15
+}
