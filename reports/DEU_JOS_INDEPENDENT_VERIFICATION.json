@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "assertions_total": 83560,
+  "assertions_passed": 83560,
+  "failures": [],
+  "per_book": {
+    "DEU": {
+      "counts": {
+        "original_entries": 2441,
+        "visible_entries": 2431,
+        "P_sections": 210,
+        "author_chapters": 204,
+        "chapters": 34,
+        "introduction_only": 10,
+        "coverage_assignments": 213
+      },
+      "verse_author_routes": 4308,
+      "manifest_counts": {
+        "source_fragments_separated": 209,
+        "reader_visible_entries": 2431,
+        "author_chapters": 204,
+        "original_entries": 2441,
+        "navigation_sections": 210,
+        "sword_chapters": 170,
+        "helloao_chapters": 34,
+        "chapters": 34,
+        "verse_author_routes": 4308,
+        "introduction_only_records": 10,
+        "nonverse_roles": {
+          "book_introduction": 3,
+          "passage_heading": 138,
+          "book_preface": 1,
+          "book_heading": 1,
+          "chapter_heading": 34,
+          "chapter_introduction": 33
+        }
+      }
+    },
+    "JOS": {
+      "counts": {
+        "original_entries": 1759,
+        "visible_entries": 1757,
+        "P_sections": 184,
+        "author_chapters": 144,
+        "chapters": 24,
+        "introduction_only": 2,
+        "coverage_assignments": 185
+      },
+      "verse_author_routes": 3056,
+      "manifest_counts": {
+        "source_fragments_separated": 183,
+        "reader_visible_entries": 1757,
+        "author_chapters": 144,
+        "original_entries": 1759,
+        "navigation_sections": 184,
+        "sword_chapters": 120,
+        "helloao_chapters": 24,
+        "chapters": 24,
+        "verse_author_routes": 3056,
+        "introduction_only_records": 2,
+        "nonverse_roles": {
+          "volume_preface": 1,
+          "book_introduction": 3,
+          "passage_heading": 130,
+          "book_preface": 1,
+          "book_heading": 1,
+          "chapter_heading": 24,
+          "group_introduction": 1,
+          "chapter_introduction": 23
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Source-index equivalence proves reproducibility of existing module, not literal author exposition of every routed verse.",
+    "Translation text is not present.",
+    "Live GitHub Pages rendering cannot be inferred from local source verification."
+  ],
+  "original_sources_mutated": false
+}

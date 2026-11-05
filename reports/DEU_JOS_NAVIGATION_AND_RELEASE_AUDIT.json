@@ -1,0 +1,152 @@
+{
+  "status": "STRUCTURAL_PASS_LIVE_VISUAL_PENDING",
+  "books": {
+    "DEU": {
+      "snapshot": "structured-deuteronomy-2026-11-04",
+      "counts": {
+        "source_fragments_separated": 209,
+        "reader_visible_entries": 2431,
+        "author_chapters": 204,
+        "original_entries": 2441,
+        "navigation_sections": 210,
+        "sword_chapters": 170,
+        "helloao_chapters": 34,
+        "chapters": 34,
+        "verse_author_routes": 4308,
+        "introduction_only_records": 10,
+        "nonverse_roles": {
+          "book_introduction": 3,
+          "passage_heading": 138,
+          "book_preface": 1,
+          "book_heading": 1,
+          "chapter_heading": 34,
+          "chapter_introduction": 33
+        }
+      }
+    },
+    "JOS": {
+      "snapshot": "structured-joshua-2026-11-04",
+      "counts": {
+        "source_fragments_separated": 183,
+        "reader_visible_entries": 1757,
+        "author_chapters": 144,
+        "original_entries": 1759,
+        "navigation_sections": 184,
+        "sword_chapters": 120,
+        "helloao_chapters": 24,
+        "chapters": 24,
+        "verse_author_routes": 3056,
+        "introduction_only_records": 2,
+        "nonverse_roles": {
+          "volume_preface": 1,
+          "book_introduction": 3,
+          "passage_heading": 130,
+          "book_preface": 1,
+          "book_heading": 1,
+          "chapter_heading": 24,
+          "group_introduction": 1,
+          "chapter_introduction": 23
+        }
+      }
+    }
+  },
+  "P_navigation": {
+    "DEU": {
+      "total_routed_P": 213,
+      "roles": {
+        "volume_preface": 1,
+        "book_introduction": 3,
+        "passage_heading": 138,
+        "book_preface": 1,
+        "chapter_introduction": 33,
+        "group_introduction": 2,
+        "book_heading": 1,
+        "chapter_heading": 34
+      },
+      "group_scopes": [
+        {
+          "author": "matthew-henry",
+          "title": "Preface · Genesis to Deuteronomy",
+          "evidence": "source_explicit_pentateuch_scope",
+          "source": "api/v3/snapshots/structured-genesis-2026-11-03/authors/matthew-henry/GEN/1.json"
+        },
+        {
+          "author": "jamieson-fausset-brown",
+          "title": "Introduction to Pentateuch and historical books",
+          "evidence": "source_explicit_pentateuch_scope",
+          "source": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json"
+        },
+        {
+          "author": "keil-delitzsch",
+          "title": "General introduction · Five Books of Moses",
+          "evidence": "source_explicit_pentateuch_scope",
+          "source": "api/v3/snapshots/structured-genesis-2026-11-03/authors/keil-delitzsch/GEN/1.json"
+        }
+      ]
+    },
+    "JOS": {
+      "total_routed_P": 185,
+      "roles": {
+        "volume_preface": 1,
+        "book_introduction": 3,
+        "passage_heading": 130,
+        "book_preface": 1,
+        "chapter_introduction": 23,
+        "group_introduction": 2,
+        "book_heading": 1,
+        "chapter_heading": 24
+      },
+      "group_scopes": [
+        {
+          "author": "matthew-henry",
+          "title": "Preface · Joshua to Esther",
+          "evidence": "source_historical_book_group_heading_current_book_only",
+          "source": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json"
+        },
+        {
+          "author": "jamieson-fausset-brown",
+          "title": "Introduction to Pentateuch and historical books",
+          "evidence": "author_explicit_historical_books_heading_joshua_is_historical",
+          "source": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json"
+        },
+        {
+          "author": "keil-delitzsch",
+          "title": "Introduction · Prophetical Histories of the Old Testament",
+          "evidence": "source_historical_book_group_heading_current_book_only",
+          "source": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/1.json"
+        }
+      ]
+    }
+  },
+  "source_boundaries": {
+    "deuteronomy_keil": "Source explicitly moves from book preface into Deu 1:1-4 exposition; original single SWORD record retained.",
+    "joshua_keil": "Source explicitly changes from prophetic-history group introduction to book introduction and then to Jos 1:1 exposition; original 81,332-character record retained.",
+    "joshua_matthew_henry": "Source preface Joshua to Esther divided at explicit paragraph beginning II. We have next before us the book of Joshua; its first verse commentary remains separate.",
+    "jfb_multiple_headings": "All source-tagged headings reviewed across source entries and restricted to explicit numbered verse ranges; two unstyled headings Deu 14:1-2/Jos 23:1-2 source-captured.",
+    "not_inferred": "JFB headings are not promoted from citations embedded in ordinary commentary; overlapping native SWORD passage ranges are source index facts only.",
+    "original_scripts_preserved": "No historical record fields changed; source fragments are separately hashed."
+  },
+  "existing_source_snapshots_unchanged": [
+    "structured-genesis-2026-11-03",
+    "structured-exodus-2026-11-03",
+    "structured-leviticus-2026-11-03",
+    "structured-numbers-2026-11-03"
+  ],
+  "jfb_held_introductions": {
+    "source": "api/v3/navigation-coverage/v1/held-unmapped.json",
+    "count": 3,
+    "change": "None. Poetical / prophetical / restoration groups not activated in Deuteronomy or Joshua."
+  },
+  "new_book_group_mapping": {
+    "jfb_pentateuch_and_historical_books": "Joshua now included, using the original retained Genesis JFB introduction source. Deuteronomy remains covered as part of Pentateuch.",
+    "matthew_henry_historical_volume": "Joshua to Esther begins at Joshua; no projection to unprocessed books without mapping.",
+    "keil_prophetical_histories": "Joshua is included, future Judges/Samuel/Kings require explicit book-by-book mapping."
+  },
+  "tests": {
+    "source_and_routes": "reports/DEU_JOS_INDEPENDENT_VERIFICATION.json",
+    "actual_reader_JS": "reports/DEU_JOS_ACTUAL_READER_JS_TESTS.json",
+    "visual_browser": "reports/DEU_JOS_BROWSER_SMOKE_TEST.json"
+  },
+  "deployment": "NOT_PUBLISHED_OWNER_MANUAL_UPLOAD_REQUIRED",
+  "author_catalog": "Uses previously installed api/v3/authors.json; not overwritten in this release."
+}

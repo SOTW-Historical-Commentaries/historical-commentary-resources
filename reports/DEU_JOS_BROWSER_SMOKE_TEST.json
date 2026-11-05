@@ -1,0 +1,11 @@
+{
+  "status": "BLOCKED_BY_ADMINISTRATOR",
+  "checks": 0,
+  "passed": 0,
+  "failures": [
+    "EXCEPTION Error('Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8765/review-deuteronomy-v3.html?chapter=14&verse=1&a=jamieson-fausset-brown&b=keil-delitzsch\\nCall log:\\n  - navigating to \"http://127.0.0.1:8765/review-deuteronomy-v3.html?chapter=14&verse=1&a=jamieson-fausset-brown&b=keil-delitzsch\", waiting until \"load\"\\n')"
+  ],
+  "cases": [],
+  "browser_rendering_verified": false,
+  "guidance": "Browser navigation blocked even for local and interception-mocked URLs. Separate ACTUAL_READER_JS_TESTS passed; final public Pages visual check belongs after upload."
+}

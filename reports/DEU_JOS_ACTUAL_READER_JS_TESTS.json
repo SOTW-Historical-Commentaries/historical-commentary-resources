@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "checks": 32,
+  "passed": 32,
+  "failures": [],
+  "tests": [
+    {
+      "test": "DEU: reader full JavaScript parses",
+      "pass": true
+    },
+    {
+      "test": "DEU: actual scope function found",
+      "pass": true
+    },
+    {
+      "test": "DEU: chapter count compiled",
+      "pass": true
+    },
+    {
+      "test": "DEU: loads own coverage",
+      "pass": true
+    },
+    {
+      "test": "DEU: loads own snapshot",
+      "pass": true
+    },
+    {
+      "test": "DEU 14:1 JFB unstyled heading present",
+      "pass": true
+    },
+    {
+      "test": "DEU 14:2 JFB unstyled heading present",
+      "pass": true
+    },
+    {
+      "test": "DEU 14:3 JFB unstyled heading hidden",
+      "pass": true
+    },
+    {
+      "test": "DEU JFB historical group available at 34:12",
+      "pass": true
+    },
+    {
+      "test": "DEU KD book intro available at 34:1",
+      "pass": true
+    },
+    {
+      "test": "DEU unrelated poetical JFB group absent",
+      "pass": true
+    },
+    {
+      "test": "DEU: no group scope escapes",
+      "pass": true
+    },
+    {
+      "test": "DEU: every verse/passage P is bounded",
+      "pass": true
+    },
+    {
+      "test": "JOS: reader full JavaScript parses",
+      "pass": true
+    },
+    {
+      "test": "JOS: actual scope function found",
+      "pass": true
+    },
+    {
+      "test": "JOS: chapter count compiled",
+      "pass": true
+    },
+    {
+      "test": "JOS: loads own coverage",
+      "pass": true
+    },
+    {
+      "test": "JOS: loads own snapshot",
+      "pass": true
+    },
+    {
+      "test": "JOS 19:10 Zebulun visible",
+      "pass": true
+    },
+    {
+      "test": "JOS 19:10 Dan hidden",
+      "pass": true
+    },
+    {
+      "test": "JOS 19:40 Dan visible",
+      "pass": true
+    },
+    {
+      "test": "JOS 19:40 Zebulun hidden",
+      "pass": true
+    },
+    {
+      "test": "JOS 23:1 JFB unstyled 1-2 heading present",
+      "pass": true
+    },
+    {
+      "test": "JOS 23:2 JFB unstyled 1-2 heading present",
+      "pass": true
+    },
+    {
+      "test": "JOS 23:3 JFB unstyled 1-2 heading hidden",
+      "pass": true
+    },
+    {
+      "test": "JOS MHC historical volume preface at 24:1",
+      "pass": true
+    },
+    {
+      "test": "JOS KD prophetical histories group at 24:1",
+      "pass": true
+    },
+    {
+      "test": "JOS KD book introduction at 24:1",
+      "pass": true
+    },
+    {
+      "test": "JOS JFB historical-books introduction at 1:1",
+      "pass": true
+    },
+    {
+      "test": "JOS JFB poetical group not shown",
+      "pass": true
+    },
+    {
+      "test": "JOS: no group scope escapes",
+      "pass": true
+    },
+    {
+      "test": "JOS: every verse/passage P is bounded",
+      "pass": true
+    }
+  ]
+}
