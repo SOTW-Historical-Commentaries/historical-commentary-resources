@@ -1,0 +1,983 @@
+{
+  "kind": "SOTW_two_book_manual_upload_manifest",
+  "version": "jdg-rut-v3-source-verified",
+  "provider": "Servants of the Way Commentary Library",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_head_commit": "74598e23df53271f6eb788a7969e7387bca4d8eb",
+  "expected_prior_navigation_manifest_git_blob_sha1": "0f0b97b6d22f67a12346646b40dc8825067f0c25",
+  "books": [
+    "JDG",
+    "RUT"
+  ],
+  "snapshots": {
+    "JDG": "structured-judges-2026-11-05",
+    "RUT": "structured-ruth-2026-11-05"
+  },
+  "source_archives_verified": [
+    {
+      "filename": "MHC.zip",
+      "sha256": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+      "bytes": 15195123
+    },
+    {
+      "filename": "CalvinCommentaries.zip",
+      "sha256": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+      "bytes": 20897508
+    },
+    {
+      "filename": "Clarke.zip",
+      "sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+      "bytes": 8627265
+    },
+    {
+      "filename": "JFB.zip",
+      "sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+      "bytes": 5687741
+    },
+    {
+      "filename": "KD.zip",
+      "sha256": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+      "bytes": 11170353
+    },
+    {
+      "filename": "helloao-historical-commentaries.zip",
+      "sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+      "bytes": 94274889
+    }
+  ],
+  "file_count_excluding_this_manifest": 186,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/JDG.json",
+      "bytes": 153222,
+      "sha256": "47878c19b94f64acc970f3695ed0be3681d9eebbe366fb64484cf4ad73ecb124"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/RUT.json",
+      "bytes": 37218,
+      "sha256": "54782e91e253b30f93b297cd7f9689858971bd0b5e18278811f320a8bb355b8b"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 2644,
+      "sha256": "f4c414d72e35a2d1dd390230e0c5d2f4f1eb1ae5b81c70d69ab1d8e874de15ab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/1.json",
+      "bytes": 103504,
+      "sha256": "f9388a9032c55d17a2bd055912611d026a7e70ea1ea39b03cd308080615e3b64"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/10.json",
+      "bytes": 26965,
+      "sha256": "33ab1b76c554df9da044a2ee89a6d94f2503c88e1296c41c5bab1afe6a311da0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/11.json",
+      "bytes": 120361,
+      "sha256": "b377c4a0dc1e74b899c1c412ae39543de67c4f6a8db63de5f8dccdc1161d8ac0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/12.json",
+      "bytes": 34811,
+      "sha256": "b2002994beb10f66eac76bad01fbd1552f9632a42fdf5adf33870e1cfa1e15f3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/13.json",
+      "bytes": 42084,
+      "sha256": "14e6340db7e90e5fdfe91f1d77820a9fcb9dd7ee1f71f22763f2950ed20ecd25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/14.json",
+      "bytes": 70066,
+      "sha256": "585b25d3443b565a427157937b0c7d4184eec7b772ace0eb33341021e68b383a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/15.json",
+      "bytes": 66244,
+      "sha256": "31af9ee55fb9319aea7cc67b3760cc347dd444f61a26dd53c13203eb6f019f39"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/16.json",
+      "bytes": 124825,
+      "sha256": "60c185248804fb27caff753fcf5c8879101398e9cc302d0e7a424875609606e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/17.json",
+      "bytes": 39852,
+      "sha256": "14ad0fe4369fcdeeb744264ce438da678816c2e6072b4d6d76de6a5e989046ab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/18.json",
+      "bytes": 59144,
+      "sha256": "2131f51ae9ca1948f01c638423102ba23c6f807bc9ae162b71f7930a4c6d2e63"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/19.json",
+      "bytes": 47764,
+      "sha256": "9260c4e79de26fb6862e5d7e4a3f4cd26651655be74f9aefa61ba499517e1c02"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/2.json",
+      "bytes": 59038,
+      "sha256": "314c9a924a419c026f4398f1483424b34a3cb2989e73c37b083e64b840ad4a0d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/20.json",
+      "bytes": 59083,
+      "sha256": "68dd0075d17949b592ca62c99d42f2b61a1248701dbc52f52755e68e42978139"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/21.json",
+      "bytes": 53247,
+      "sha256": "e095f81418a6916d6e3d0db0efe7cf5fb301abba68260d2383f0c1049f9186ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/3.json",
+      "bytes": 104162,
+      "sha256": "88fa566cf50a6b1fd1edbd3123ab44bd61e4f3503840e8414f07569fc36e8da4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/4.json",
+      "bytes": 58945,
+      "sha256": "baea4c769948453ecbc4b59ccca65089a7262d9e6a05b31acd8973e311d0bc05"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/5.json",
+      "bytes": 103338,
+      "sha256": "1a6a1abfbc072e870de1b6482b79d49be15ce0b9952e5aceef6e6e0a3768bb31"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/6.json",
+      "bytes": 93120,
+      "sha256": "5c6f3b609375bc1ab1d6d26fd1f154676b85387218e02d15c769cefbd6623669"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/7.json",
+      "bytes": 61694,
+      "sha256": "5a87e355c72b638de050ca11d8bc433e69ba7d3ef093c02548ee61825542c6b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/8.json",
+      "bytes": 91981,
+      "sha256": "1bdc5fa3d8c38e2acc5d297488deb92dbaef8d43b49b90e41f79308e2a15f051"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/9.json",
+      "bytes": 119977,
+      "sha256": "83043791a51b27409156d222ca863a4ff45a533d530439738e8a6688e837dca6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/1.json",
+      "bytes": 32500,
+      "sha256": "a2b728fb50e07ef276c70a79859aa81977d348a94096af32f09828f803e297e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/10.json",
+      "bytes": 28948,
+      "sha256": "1c12159767817b23c0ab033c16ef0c3c7fd6c14a51cefd685b791285cc27b08d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/11.json",
+      "bytes": 47065,
+      "sha256": "34ad9055c235a0e975537c730860209db8d108b6aed64f87a078a66cbbb031b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/12.json",
+      "bytes": 20227,
+      "sha256": "cc87e6cb7cbb7a3f01d204703cdece81b8ab0129f41ee6875c99440173c4f200"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/13.json",
+      "bytes": 30873,
+      "sha256": "e0367e2a746902ce03a18c5a8ec87f894f62120636e32de771f692cb164c6b00"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/14.json",
+      "bytes": 25258,
+      "sha256": "a0313d2fc50bbabaf06481a3f7f4071b722ee60d2966631bb1992d1509521a00"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/15.json",
+      "bytes": 30381,
+      "sha256": "13e50df38c7dfaf741cf19ed60c8b26e5ac339fb2a30a32ab6a1313d1575ecb6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+      "bytes": 60301,
+      "sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/17.json",
+      "bytes": 27148,
+      "sha256": "0791f3ecfc4cf008d116b8da2f2667c89448ca4682a93dcb5bca47d7e251e3e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/18.json",
+      "bytes": 33019,
+      "sha256": "9550e8db7c7a255db0e8711eb00f3417176eb78f5585b8ee95b1200ce2e72879"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/19.json",
+      "bytes": 39673,
+      "sha256": "7f06e6446cce4256166047e92376a4bf5cc32e1e895c52496a5f4aad79f4e268"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/2.json",
+      "bytes": 18725,
+      "sha256": "2ff133e7aad24be96d87f6daf06d8e38619602e41d3aecb0d61296b7a5b0b9fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/20.json",
+      "bytes": 32449,
+      "sha256": "59fda8d95e36534e4bda1d0675f3f7686437357de5110cd8bd36fc468d54fc8a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/21.json",
+      "bytes": 26615,
+      "sha256": "89cc32dd508a98503a64cce62cd646cb454379283206e29f632b9317154a1859"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/3.json",
+      "bytes": 37798,
+      "sha256": "051bfe69bda074f2c368c4a5a347fd1cfecff6e9abd02fcb1c694da6a8c8c070"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/4.json",
+      "bytes": 42290,
+      "sha256": "d9e212b9bee518175b646f7969c47de419081112547927c7cd5acd845c5217b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/5.json",
+      "bytes": 32937,
+      "sha256": "3e022644a0d6e9ebff2045ef3c94ab43870224ea245463d2b10e32bf99681132"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+      "bytes": 41488,
+      "sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/7.json",
+      "bytes": 43631,
+      "sha256": "581bd43278612c93f3801ae5ac24fdd887ad89edf03b77c2ef759e55307ad3ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/8.json",
+      "bytes": 57531,
+      "sha256": "9063f9320cfd30af267cb161643407a772c8555a3fadde7980515e151cfb9f77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/9.json",
+      "bytes": 43531,
+      "sha256": "30ecbd7a46e2e19ac491a5a415d7776b08f8b48b5f84543f24cdbd9ea3956e8f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/1.json",
+      "bytes": 1303,
+      "sha256": "17a27ff8de73f8fde7605ec57418cbb1f23dee40a89ec494d84a0a9093a41f49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/10.json",
+      "bytes": 1305,
+      "sha256": "44425721c1c84d04a108900a131a5e2a9934a213bcd59e70f1f0e40dfb29f2ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/11.json",
+      "bytes": 1305,
+      "sha256": "6e687f580bb88f79754cbcb1bd1f0ecb431d9c46a3c78de0a0601b92539c6f99"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/12.json",
+      "bytes": 1305,
+      "sha256": "81f5f8797be41e39e1c96264a4b0cc8d23e937dd7e35aba1ce6f93a3531e4737"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/13.json",
+      "bytes": 1305,
+      "sha256": "e1c1fcbf6c07205c97f4d53bac22f68c0925a8e33021ca6af20802fbefd606ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/14.json",
+      "bytes": 1305,
+      "sha256": "9ecb3c36219cd39de6d2ae4e87340bbef736f3561ac56128fd27397a3d937443"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/15.json",
+      "bytes": 1305,
+      "sha256": "7a76e15e0d77b4d50fba2555086a6f767d4c6b578fc35412a808ab7a0a35e562"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/16.json",
+      "bytes": 1305,
+      "sha256": "df56feecdad1c9ac96981841f1292acbd947f3914dfae77f49698b19fd35afec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/17.json",
+      "bytes": 1305,
+      "sha256": "b1c961765217345d6864f4bcc7b8bf9764e920e3b6a4bcd219cd7df61472b660"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/18.json",
+      "bytes": 1305,
+      "sha256": "344823df86ecbd689658d96f61344d3317fbdbf40ce63a3e1cc3d149c60ab8c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/19.json",
+      "bytes": 1305,
+      "sha256": "70fa8871f8d46d38369cc64cc52a2259743e65912079ac3a99d1232434dfc55d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/2.json",
+      "bytes": 1303,
+      "sha256": "b20505f18f9fe468c717c1752c89c792ee703a6647d11076a24cbec71d8a4ecd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/20.json",
+      "bytes": 1305,
+      "sha256": "7fbca5e9483ffe0cbafbf304837d2d5b1bea776083f72fe9ac3627ee62a51ceb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/21.json",
+      "bytes": 1305,
+      "sha256": "02b66ebc7b5c1951a85e6e0604520f59e7751432e2b698355b4ff0c6ad4345cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/3.json",
+      "bytes": 1303,
+      "sha256": "76da6c0a520ab323bc87aacbd9f0572411292766200d6a8aea9f441777979da1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/4.json",
+      "bytes": 1303,
+      "sha256": "5568a3a318cb1f582f66827ff257229680e5bab4ef599ffc3f1d36d62f81a616"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/5.json",
+      "bytes": 1303,
+      "sha256": "a8df87b14c9a9577ffaebff4e4fdcd09865339f035d47c6c2f6f93df3ef923eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/6.json",
+      "bytes": 1303,
+      "sha256": "84f266e9e952873c5e5f79b9e3d3a8e3b1a4e2ec133a01017f60d7e7ba5f297d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/7.json",
+      "bytes": 1303,
+      "sha256": "1127f1d1a58cb5332782d5ecf62020117de70ca50b38e3887d17d80692c6d95f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/8.json",
+      "bytes": 1303,
+      "sha256": "eb0610e1f2d307f30cfc579a7fd177f0cc69e036c625439187e9f68be92d4549"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-calvin/JDG/9.json",
+      "bytes": 1303,
+      "sha256": "208a361e701b7571bdb74ee6f57802d2ffcc90247be9abeaf3c1a5db4213532b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/1.json",
+      "bytes": 169275,
+      "sha256": "3070a19b4a0cf90e568f3a9d314e02c375e1a88fc67eb4f14b9a4f2e51feaf4b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/10.json",
+      "bytes": 83821,
+      "sha256": "85f330523653fc48ffcbc49766c6162a4e4de1744a148d309a0f12e16302dac4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/11.json",
+      "bytes": 223815,
+      "sha256": "f81cc11d0c66629d8faeee7bb382e572dd8cf6cdb183b9e8e40f3364c5721e18"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/12.json",
+      "bytes": 73448,
+      "sha256": "f2c02e4aed4f03760b7a5ec1635a55f9cc4c4cad205ef10f1ca9a1f6eba25bc5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/13.json",
+      "bytes": 132642,
+      "sha256": "d25860797e145b275b3821daf231502d9a9ed96a3f05737e15ab4d0f811d2e57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/14.json",
+      "bytes": 135007,
+      "sha256": "f3f6154bdc61a914b17245012448fda5924db1f906128b05849c1fceeb56c987"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/15.json",
+      "bytes": 132403,
+      "sha256": "638c607192094ac2ad4da28ac37b47f3ebe1006e9dd50a528d8aa6a1b52dd896"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/16.json",
+      "bytes": 219152,
+      "sha256": "13dc24f1deab43e9ea8352192bfdf5ac91685cfcfc7e13030c202b9770669316"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/17.json",
+      "bytes": 77054,
+      "sha256": "a7e92075f83fb0c2d25f7dd07c6d5e37196ce56878a1f748ae47f8e16e1bbd25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/18.json",
+      "bytes": 159504,
+      "sha256": "de3bfe13362eb8358b72ad46b4c5b1180981d9af717e18906cf7fcc7dcac9a15"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/19.json",
+      "bytes": 151165,
+      "sha256": "8a972a52ad52eae1a85166186ec0e3a22514e4d5367b406cf0dd991e9ba80268"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/2.json",
+      "bytes": 120064,
+      "sha256": "96f3f0d46bb0633816eaf935dc0a791184969d8e82ca0a513ae2677a0255e549"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/20.json",
+      "bytes": 212679,
+      "sha256": "9dc0bf0726a837688b2c3406e560ae651a54e406143c26636ac1ce423a206e27"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/21.json",
+      "bytes": 120466,
+      "sha256": "983a5c41494d3b7b96df30e6abfc78290bf8fd48a700895cbced5e3211b7b88a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/3.json",
+      "bytes": 181336,
+      "sha256": "3226117f16bc6a38cd89e2da2f4b3344fefd7bf6a7bdbc557d664ba934139a62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/4.json",
+      "bytes": 146995,
+      "sha256": "eeb6d2c99ce615cdd1187bb7e7c7e51a33df60a9b36256984c0e923fa1bbf528"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/5.json",
+      "bytes": 225284,
+      "sha256": "9197c81ad9453bbeced5389b497eff6df2b4be575e61892f3b3d10dd889a9b80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/6.json",
+      "bytes": 221699,
+      "sha256": "ce399ff7d9f9e2d7b7b9df4160598e5e149501b551b58a3e1f442efb8bace8bb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/7.json",
+      "bytes": 174474,
+      "sha256": "36102041a0668cabca7b8530e7b070bb4070552801a2a4764d5e2bfbf78f80f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/8.json",
+      "bytes": 179804,
+      "sha256": "57e53d02d0a925d947d056708a02d7e15e6ce44d9dc2178d53f06f15878755fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/9.json",
+      "bytes": 253138,
+      "sha256": "c5ebf1e1183c233019840093b459c0d375d610007117dec6b65e6c7aba0a5b9c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/1.json",
+      "bytes": 236245,
+      "sha256": "691d96b96847794eb18825c90e5b36170c50ceb4d35237b6ebcce2a7141c0188"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/10.json",
+      "bytes": 37556,
+      "sha256": "1c5abc384cf5142d739cd47930c2ea663a4438b80a174bb1004cc8e1263c72e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/11.json",
+      "bytes": 137213,
+      "sha256": "8db920040cf390efab64c94988ea0e7d4804ed8db4ed4d61a9d298082fee8dd5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/12.json",
+      "bytes": 28326,
+      "sha256": "6303a1fa051a6feee5bfaeae49b7a81f12d55be74bce71d323ee571986a0093f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/13.json",
+      "bytes": 106806,
+      "sha256": "433b456e9632b5f17a8186c57a7855cb7f44bf679513200beaa9937cdf5e2d4f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/14.json",
+      "bytes": 51154,
+      "sha256": "71ebb627f9392a1f44e0dd9d12b4f1d227ac4d56752c0e9a071bbe6fbd82b8f8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/15.json",
+      "bytes": 37645,
+      "sha256": "ed99a3704abbbf4f967ddbed14863e3bce4f881313ab521225a7c7e45d89fcc8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/16.json",
+      "bytes": 114619,
+      "sha256": "0a96972e95018f3ac485d8145548fa7a980b9722807f462ca385992b8395ccd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/17.json",
+      "bytes": 39851,
+      "sha256": "32c1c2c8f8871c4246bfd4e7a0e6450f700929903ded63cb4369c7d8d947ce32"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/18.json",
+      "bytes": 101798,
+      "sha256": "f4cbffd5d10ca568dbf44c38cb359ef3b769c8ca8037e257860c463380b952d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/19.json",
+      "bytes": 68061,
+      "sha256": "2d47b8dc2a79b42e70214077ff26d56d443d1a9819ac06728886a83ed45d7718"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/2.json",
+      "bytes": 98004,
+      "sha256": "21c39b266456064df162f2c9e244de6b93acfb17e992d1f014605b7f37f30558"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/20.json",
+      "bytes": 124166,
+      "sha256": "60edb2f446d4a57a04b76ec97220c5922c306a3f57b422546dfdfdb6a2e2a228"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/21.json",
+      "bytes": 72834,
+      "sha256": "dee44dac1a325a9a00c34fefae74a971c53ba34cde18a7e8a557622d55ffb720"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/3.json",
+      "bytes": 238945,
+      "sha256": "63a037c9c69629cc07ad5f9f51eed1cf5cd81c5b6ca4f0fcd66c1d8317a6d710"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/4.json",
+      "bytes": 77323,
+      "sha256": "e7b0a099c7bd1f4747aed7a5a8b3c815e471330f545776ee8b5f87df1449352e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/5.json",
+      "bytes": 121321,
+      "sha256": "8743e58ee7b7123a5d3bc591ed3c55d794007e797fed0f3281527f5631c9b6e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/6.json",
+      "bytes": 78057,
+      "sha256": "293e7a92b9b667cb8b8d9cf58f59f1cb829349155736de50866d247d2e98231f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/7.json",
+      "bytes": 110276,
+      "sha256": "d6123e37f14b4d63c866d998ba77a35f2ef3a9394eed1d937b0febc8a0e23756"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/8.json",
+      "bytes": 104522,
+      "sha256": "77b17b8c8a2b4bf0cdde06ea80f5375206db448b2e9f9117c9e5c4edbb919fc8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/9.json",
+      "bytes": 113696,
+      "sha256": "ab5c1d1982d15bce8067e400c8d222f52c213db1a17c028977d4c72b6af73899"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/1.json",
+      "bytes": 118876,
+      "sha256": "1328b64011aa6aa44f07329481cc29ff4f1b6a461565fcbb47b34e2a853f0ab7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/10.json",
+      "bytes": 71582,
+      "sha256": "6ad234746966bf9bb36226848dfe0746b8ad14b5ae9a27b96abed63a76c642a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/11.json",
+      "bytes": 158404,
+      "sha256": "e3e38ae256f8c5d7e45a07ab26a347f3b28905cef30b104ad87000e2375074e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/12.json",
+      "bytes": 62962,
+      "sha256": "757045ff9f205c60e1cf2d29ea297d55b3b40b92afe89e0e6d12afb148ad0189"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/13.json",
+      "bytes": 119461,
+      "sha256": "79ad00af20a535d530b9cdbdd6deb327d8638fc5a3d3293663a7f927ee524d9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/14.json",
+      "bytes": 84375,
+      "sha256": "69ec75ef112bd9dfaf43eb406533ef66dbe16a38e9a40f059a081f01fefc3957"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/15.json",
+      "bytes": 94003,
+      "sha256": "8f36fc393c7fa7bd147bc6df550224e95170f240bc46a0b62f20971f55493ff3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/16.json",
+      "bytes": 127244,
+      "sha256": "d5224cfe99473f2006c6d1304a70681b880d5427dbc8d6891d19be01b603c80a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/17.json",
+      "bytes": 66003,
+      "sha256": "387835286f480fa4ce12e486e9d5e32970a5bd0ca38c111273a1b2b6bd200692"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/18.json",
+      "bytes": 108537,
+      "sha256": "32b1d7b38b52eb91aec7ec5befe429ae7dfe6e38dd4d145528f606110417ac8c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/19.json",
+      "bytes": 116423,
+      "sha256": "835f45d2e46da6567079150a5436ecf042d82e4806e7f382fa35681e5bfabb15"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/2.json",
+      "bytes": 93728,
+      "sha256": "a4a799be7951db3d0a8a2e1cc08089521da848ca02ef5645af64059641b4aaca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/20.json",
+      "bytes": 126066,
+      "sha256": "4a569a6f9d65e0905742b2baf8181ee9d490c1f02874f86d077a7c4de0b88b06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/21.json",
+      "bytes": 67165,
+      "sha256": "f0863cfe3385ab82b21950e6ab4a8e60cb08f6c7a80cde9324d6e4a6540cb8ed"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/3.json",
+      "bytes": 120755,
+      "sha256": "56936110d629279dfc5ae34a3034b98698abfdfcf6fb81313974214220aeabfe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/4.json",
+      "bytes": 117156,
+      "sha256": "5f823a4857ec5293499f77c48173b72e992d5dd481a69e833aa7789b18301515"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/5.json",
+      "bytes": 152162,
+      "sha256": "975d3f02cd1bece7a1184dd8f54ce497f77bdb5ff5d81016d5763815f5ec1ad7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/6.json",
+      "bytes": 194550,
+      "sha256": "56602a8aee4a00745771bec61f0f2b4555908073b10c02e079a9afb3e76e9680"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/7.json",
+      "bytes": 109879,
+      "sha256": "c844d17aec3296836c6a822e6a42ac40414cc88953dc0228e63dbf4769996eeb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/8.json",
+      "bytes": 120064,
+      "sha256": "2aac4ebfb190b59044a1e6f803d2287340a9664c2bea0a0c8c89467f965d5391"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/9.json",
+      "bytes": 159044,
+      "sha256": "5149d4bf2361a5da72e2d9c580b9492e550baeec1178ebd6f682a8d418718c46"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/1.json",
+      "bytes": 12767,
+      "sha256": "9cab2027bdb13640212f02a9923cca0a16f2e160741adedbd6600ac052b77e64"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/10.json",
+      "bytes": 7850,
+      "sha256": "bea20f24fd6f391266f2c7142bb387987a17b159dfc9f7e4e344413287acbcc7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/11.json",
+      "bytes": 13049,
+      "sha256": "54f133003495ddb38f0b0acdd2d0c103fa049fb0a6f0bdb3a8ec01251da706d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/12.json",
+      "bytes": 6493,
+      "sha256": "b3dab9a8ae3a305cb6efd769099d5d8bde85a530953f1c801ac40dd71181a6ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/13.json",
+      "bytes": 9365,
+      "sha256": "987649cbce00bdbd7e077f71e82c0a0f2ae404c41a813cfbf1f799413fdb6f76"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/14.json",
+      "bytes": 8487,
+      "sha256": "b135f0eeb8d1749fb3f385b6d3f3d36264ecbfe396182a8c0876d3264f59b216"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/15.json",
+      "bytes": 8239,
+      "sha256": "d078a2d36df76b915cd4cc898ea380e0395c71b98cdf8d06bca591f76844cb12"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/16.json",
+      "bytes": 11065,
+      "sha256": "8d540be42fbfca1d68f9f794493c8d8c59e9a01a36d92d7551652228cd4e763a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/17.json",
+      "bytes": 6310,
+      "sha256": "6d66c8267c356d4b327ca3841cf9e3dee9dfa659ed82448b4672e86e0d516d7d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/18.json",
+      "bytes": 10702,
+      "sha256": "1d8adae3924508ace522b481db42262eecfbbfe08742b739233378cb7e528637"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/19.json",
+      "bytes": 9979,
+      "sha256": "f0c0ddcacd042f9c2e3cc3652dd3e287b48a4719a218bb716d49a094602aea03"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/2.json",
+      "bytes": 8846,
+      "sha256": "9a24f95981f351fb863a716b328f82f9fdb2f89af535bea3af0dae64bca4eadd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/20.json",
+      "bytes": 14697,
+      "sha256": "fe959c0687d245c2e07094b605ee13fa71931ff14a82609e26623ad447a30e6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/21.json",
+      "bytes": 8807,
+      "sha256": "1d17c5fe977945e6c9f11651b7220df4013c526959c80066c14ea7bf625aa0e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/3.json",
+      "bytes": 11381,
+      "sha256": "ff7ce8455a229f9b39b95bfa0af36405a66f5b55ff958069ea914b1c2efb0cbd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/4.json",
+      "bytes": 8620,
+      "sha256": "c41662544369cede3f6b2152424d1fc4309eaae1997e752d2b41d1972878542f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/5.json",
+      "bytes": 10486,
+      "sha256": "ee0a9dd5e8a07706d2eb207ce2eccc9ae93bc4552a7e84e973974e48c58e76e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/6.json",
+      "bytes": 13060,
+      "sha256": "810828ba0ac54bf101da83c9c6b510cc3361ffc7f1e1100f4d513014d9c6626b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/7.json",
+      "bytes": 9646,
+      "sha256": "b8384a7fd35dd2f8cc279da26d4c54e9537a7b19586fbb059ce5a097118060e5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/8.json",
+      "bytes": 11502,
+      "sha256": "ebb3889f61b334c43b9067ddac2cd9160fa01fb335e574d680e3cbc69b356bd0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/index/JDG/9.json",
+      "bytes": 15309,
+      "sha256": "5b0ac9d22f4718f006964da2672b18cfa96046c9544e5f3465863f0e2faa3f0d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-judges-2026-11-05/manifest.json",
+      "bytes": 1980,
+      "sha256": "8ea6e9741bddab398e969bd7277ed05a1e0242017d407b4ab28bf70b27efd5cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/1.json",
+      "bytes": 64106,
+      "sha256": "e18646400dc765cc22a38478378de0b268752d2c9488dce0776a04e7842f943e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/2.json",
+      "bytes": 61097,
+      "sha256": "e217358547c4e10c77af43f13139f715284d3a012139716132ce361eb1561695"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/3.json",
+      "bytes": 38144,
+      "sha256": "11d5b3b4b34b0965b35c3f84c25905b0d7889f21fff1ef58b819d2cd29fa6375"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/4.json",
+      "bytes": 64910,
+      "sha256": "e71ea941e9359ce551eb2a2bbc8c1e0a94fe318bb5477ab1d8580c13e21b6a0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/1.json",
+      "bytes": 27419,
+      "sha256": "b417af1fabd44bd575c708ead142bc581b9a23eeba9a51572e4fca21beb95449"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/2.json",
+      "bytes": 32573,
+      "sha256": "5fba2825f301c3cb15e5d3e8bdca95e0b0fdb353d906cae020e8fd5df387e170"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/3.json",
+      "bytes": 19027,
+      "sha256": "ba00261301e6e13bb95cba13e4023a3f13a55641f3ff8e9ea692bac63699f24d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/4.json",
+      "bytes": 34971,
+      "sha256": "65da2edf9c1d9d364de73a041829e00e3e2706b8e48f6262f74cad18ff0311e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-calvin/RUT/1.json",
+      "bytes": 1301,
+      "sha256": "391be56cd00a51f95f5cb9d0e026b19904c46d7455aaaf55d10c357bb1d87c38"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-calvin/RUT/2.json",
+      "bytes": 1301,
+      "sha256": "f285325025cd9b4fdc4c4fe7d751ff98f6d29756f1d81fef617b4b99eb103a08"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-calvin/RUT/3.json",
+      "bytes": 1301,
+      "sha256": "be7b7f21fb3df814928d072e20a3ba47406722ebdf0fd1d818b7a3426db45289"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-calvin/RUT/4.json",
+      "bytes": 1301,
+      "sha256": "6521b22002c681c425a46e73ef0b7914783f92f93daefc8ac455152e911274ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-gill/RUT/1.json",
+      "bytes": 144167,
+      "sha256": "3aaa5bf703ed7fbd9c1e8012d7f901ee69fbccb558c2aeeb821fa6e6b0d609a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-gill/RUT/2.json",
+      "bytes": 151334,
+      "sha256": "a529b0dba5f26f00a9ab2a6581329c4dbe84710072862fc39accfe5b1b4e7b01"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-gill/RUT/3.json",
+      "bytes": 117483,
+      "sha256": "d5dcc1260fd78c6c3e1a23788489f4d4daac68247eb5ec3e08532198cb7e5c86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-gill/RUT/4.json",
+      "bytes": 121975,
+      "sha256": "a59a7317f89d0fe84f2d739871845e19cc0b2fa84c82f693a2c8e763fc2ed77e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/1.json",
+      "bytes": 116987,
+      "sha256": "02ed25527a43dd39ab9ea264f353c40e4ee5b56374b18fe6f545a8c802eb247d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/2.json",
+      "bytes": 76652,
+      "sha256": "7a6149342f4bbda032fd243b45057b359bed3d140a77e9cb1caf736db7e2f89f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/3.json",
+      "bytes": 40260,
+      "sha256": "4c052767aa4952edbf85dc1c06ba96fd5c7a04b469c8b4450d723f8f41c78be1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/4.json",
+      "bytes": 61455,
+      "sha256": "2d8645310a6504f0dcfabe986519743d4d242ac4b8e57639f55baf96b43c8e17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/matthew-henry/RUT/1.json",
+      "bytes": 155842,
+      "sha256": "c3b06440c2a04fbdfbc4eb7194168708d2791d12cde96ae752b3a627c0e235d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/matthew-henry/RUT/2.json",
+      "bytes": 105927,
+      "sha256": "38afe0b727cfe90fd9d2d7205c370dee4b802e27877a3b7a59dad75267e171ad"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/matthew-henry/RUT/3.json",
+      "bytes": 81343,
+      "sha256": "9f75468c3033245218118b2b24d58ad31195020427bd81396278aba987b1eb85"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/authors/matthew-henry/RUT/4.json",
+      "bytes": 83070,
+      "sha256": "3aedf1fb5cef622faaaa104622ceeebd5bc502907e3d636b33e1b289cb29cbe9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/index/RUT/1.json",
+      "bytes": 10019,
+      "sha256": "bc1af64378bca4c4cf099b51ffd00f6d5c88ada1f454b68759a5827832cd871e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/index/RUT/2.json",
+      "bytes": 8457,
+      "sha256": "7edd793d538793c17bfdfdf350de2ea38743d298cfdac7320387133e944fb84e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/index/RUT/3.json",
+      "bytes": 6829,
+      "sha256": "77cc7f8556ea417edb3161394ddaf545583d1e31bb6131a0dddd4338a1fa0b23"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/index/RUT/4.json",
+      "bytes": 9299,
+      "sha256": "90cfb4fecd7b28b1e8baeb5cf9f31f80a3a39792f4ad13f35272e2cbbe70ae68"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ruth-2026-11-05/manifest.json",
+      "bytes": 1966,
+      "sha256": "2326081f1185b57f5c4375d862c7616f05cf8fa182f7fa52a570cddd3ef9c31f"
+    },
+    {
+      "path": "docs/JDG_RUT_V3_STAGING_INSTALL.md",
+      "bytes": 5836,
+      "sha256": "0c0cb2744e59f386420ff50b29c8be168d073fca8a0f397151cc5f1943c940f5"
+    },
+    {
+      "path": "reports/JDG_RUT_ACTUAL_READER_JS_TESTS.json",
+      "bytes": 554,
+      "sha256": "73fca5db1dbf74bc148aa981b18dfec986705cb721e221beacc810ca8b1665b6"
+    },
+    {
+      "path": "reports/JDG_RUT_BROWSER_SMOKE_TEST.json",
+      "bytes": 1045,
+      "sha256": "48c53fdfda98c49553330c4d3311b7e59eae1f1d0dcbb9fe82c3a9e723ec8438"
+    },
+    {
+      "path": "reports/JDG_RUT_INDEPENDENT_VERIFICATION.json",
+      "bytes": 2514,
+      "sha256": "b80ca30edafb8ce29789dd9f1914bdb3f29c73727822d38cecc054283442602e"
+    },
+    {
+      "path": "review-judges-v3.html",
+      "bytes": 16091,
+      "sha256": "8f8fa592844de6f3d38c9b34939a2a7c44d144350d3d9d6e2e5cfde1210d4c6c"
+    },
+    {
+      "path": "review-ruth-v3.html",
+      "bytes": 16080,
+      "sha256": "5a47d4b34da4ce5b42b5b126b62ab6320b349ff934c44cf9924babb4bdb4edd7"
+    }
+  ],
+  "publication": "STAGING_OWNER_MANUAL_UPLOAD",
+  "warning": "Source-content validity depends on the original locked source extraction and independent PASS reports; archive packaging is only file-integrity verification. Recheck live main and reconcile if changed before upload."
+}

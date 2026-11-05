@@ -1,0 +1,3333 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "JDG",
+  "snapshot_id": "structured-judges-2026-11-05",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation sections are historical source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "navigation_id": "GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "title": "Preface · Joshua to Esther",
+        "role": "volume_preface",
+        "scope": "book_group",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json",
+          "chapter_file_sha256": "bda684d25cee03c45af6c0d07f31e86d39ec2ab8c5dcb8ba60acbe1867be8b58",
+          "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+          "source_entry_id": "sword:mhc:JOS.1.1-9:6:231:55617",
+          "fragment_sha256": "55aae99795c47ab5311a1a96180d3328e0842e93191b799ea2479594c35fb49a",
+          "character_span": [
+            0,
+            26969
+          ]
+        },
+        "source_evidence": "Joshua to Esther | historical volume preface",
+        "author_id": "matthew-henry",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "original_scope": "book_group",
+        "applicability_basis": "source_explicit_historical_book_scope"
+      },
+      {
+        "section_id": "nav:matthew-henry:JDG:P:book-introduction",
+        "navigation_id": "JDG:P:book-introduction",
+        "author_id": "matthew-henry",
+        "title": "Introduction · Judges",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Judges\nThis is called the Hebrew Shepher Shophtim, the Book of Judges, which the Syriac and Arabic versions enlarge upon, and call it, The Book of the Judges of the Children of Israel; the judgments of that nation being peculiar, so were their judges, whose office differed vastly from that of the ju",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/1.json",
+          "chapter_file_sha256": "1328b64011aa6aa44f07329481cc29ff4f1b6a461565fcbb47b34e2a853f0ab7",
+          "section_id": "nav:matthew-henry:JDG:P:book-introduction",
+          "source_entry_id": "sword:mhc:JDG.1.1-8:7:231:21992",
+          "fragment_sha256": "7dc8697a62958a5f9eb1a9c2a2416ad692828d4e403165f3f42745994f571b67",
+          "character_span": [
+            0,
+            8233
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JDG.1:P:passage-heading-1-8233",
+        "navigation_id": "JDG.1:P:passage-heading-1-8233",
+        "author_id": "matthew-henry",
+        "title": "Judah Attacks the Canaanites; The Punishment of Adoni-bezek. ( b. c. 1425.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.1.1",
+        "passage_end": "JDG.1.8",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Judah Attacks the Canaanites; The Punishment of Adoni-bezek. ( b. c. 1425.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/matthew-henry/JDG/1.json",
+          "chapter_file_sha256": "1328b64011aa6aa44f07329481cc29ff4f1b6a461565fcbb47b34e2a853f0ab7",
+          "section_id": "nav:matthew-henry:JDG.1:P:passage-heading-1-8233",
+          "source_entry_id": "sword:mhc:JDG.1.1-8:7:231:21992",
+          "fragment_sha256": "e139160a0fdbe759a88d7ba1c19815571d04dec92eadfb55630822dcb5f01a85",
+          "character_span": [
+            8233,
+            8361
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:JDG:P:book-preface",
+        "navigation_id": "JDG:P:book-preface",
+        "author_id": "adam-clarke",
+        "title": "Preface · Judges",
+        "role": "book_preface",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Preface to the Book of Judges\nThe persons called Judges, שופטים Shophetim, from שפט, shaphat, to judge, discern regulate, and direct, were the heads or chiefs of the Israelites who governed the Hebrew republic from the days of Moses and Joshua till the time of Saul. The word judge is not to be taken",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/1.json",
+          "chapter_file_sha256": "f9388a9032c55d17a2bd055912611d026a7e70ea1ea39b03cd308080615e3b64",
+          "section_id": "nav:adam-clarke:JDG:P:book-preface",
+          "source_entry_id": "sword:clarke:JDG.1.1-1:7:253:8451",
+          "fragment_sha256": "255db32284f25a074057f188d08df6fc0595144dad773ceb318dbbfd22de38b6",
+          "character_span": [
+            0,
+            7815
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.2:P:chapter-introduction",
+        "navigation_id": "JDG.2:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 2 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nAn angel comes to the Israelites at Bochim, and gives them various reproofs, at which they are greatly affected, Jdg 2:1-5 . They served the Lord during the days of Joshua, and the elders who succeeded him, Jdg 2:6 , Jdg 2:7 . Joshua having died, and all that generation, the people revo",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/2.json",
+          "chapter_file_sha256": "314c9a924a419c026f4398f1483424b34a3cb2989e73c37b083e64b840ad4a0d",
+          "section_id": "nav:adam-clarke:JDG.2:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.2.1-1:7:28020:3815",
+          "fragment_sha256": "fa585110b4b039bf833d25cec8d47c3358b1e7d9580f43a6c92599d0caed8d44",
+          "character_span": [
+            32,
+            1360
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.3:P:chapter-introduction",
+        "navigation_id": "JDG.3:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 3 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nAn account of the nations that we left to prove Israel, Jdg 3:1-4 . How the people provoked the Lord, Jdg 3:5-7 . They are delivered into the power of the king of Mesopotamia, by whom they are enslaved eight years, Jdg 3:8 . Othniel is raised up as their deliverer; he discomfits the kin",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/3.json",
+          "chapter_file_sha256": "88fa566cf50a6b1fd1edbd3123ab44bd61e4f3503840e8414f07569fc36e8da4",
+          "section_id": "nav:adam-clarke:JDG.3:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.3.1-1:7:42445:1705",
+          "fragment_sha256": "a5b45937d5327cb9aff1fa85a95cc0dc35614d74b623d22af7582de5bb2af46f",
+          "character_span": [
+            32,
+            1192
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.4:P:chapter-introduction",
+        "navigation_id": "JDG.4:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 4 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Israelites again rebel against God, and they are delivered into the hands of Jabin, king of Canaan, Jdg 4:1 , Jdg 4:2 . They cry unto God, and he raises up Deborah and Barak to deliver then, Jdg 4:3-10 . Some account of Heber the Kenite, Jdg 4:11 . Barak attacks Sisera, captain of J",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/4.json",
+          "chapter_file_sha256": "baea4c769948453ecbc4b59ccca65089a7262d9e6a05b31acd8973e311d0bc05",
+          "section_id": "nav:adam-clarke:JDG.4:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.4.1-1:7:71549:1350",
+          "fragment_sha256": "408da550e26d8b5edee4dc3da113745c7038c71c88ec3ba0b2d61b8dab6fd72a",
+          "character_span": [
+            32,
+            1123
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.5:P:chapter-introduction",
+        "navigation_id": "JDG.5:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 5 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe triumphant song of Deborah and Barak, after the defeat of Sisera, captain of the armies of Jabin, king of Canaan.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/5.json",
+          "chapter_file_sha256": "1a6a1abfbc072e870de1b6482b79d49be15ce0b9952e5aceef6e6e0a3768bb31",
+          "section_id": "nav:adam-clarke:JDG.5:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.5.1-1:7:86827:1341",
+          "fragment_sha256": "0603c1ab34820f2752628684e4dba9ae36ae130d95fbc3dff2974d134507ee8a",
+          "character_span": [
+            32,
+            431
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.6:P:chapter-introduction",
+        "navigation_id": "JDG.6:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 6 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Israelites again do evil, and are delivered into the hands of the Midianites, by whom they are oppressed seven years, Jdg 6:1 , Jdg 6:2 . Different tribes spoil their harvests, and take away their cattle, Jdg 6:3-5 . They cry unto the Lord, and he sends them a prophet to reprehend a",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/6.json",
+          "chapter_file_sha256": "5c6f3b609375bc1ab1d6d26fd1f154676b85387218e02d15c769cefbd6623669",
+          "section_id": "nav:adam-clarke:JDG.6:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.6.1-1:7:115440:2115",
+          "fragment_sha256": "1dd32280bc41fb4042cf9f3320804d541fbe53c49e030edabb1dd3b9731524c6",
+          "character_span": [
+            32,
+            1648
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.7:P:chapter-introduction",
+        "navigation_id": "JDG.7:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 7 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Lord commands Gideon to make a selection of a small number of his men to go against the Midianites. Three hundred only are selected; and into the hands of these God promises to deliver the whole Midianitish host, Jdg 7:1-8 . Gideon is directed to go down unto the host in the night, ",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/7.json",
+          "chapter_file_sha256": "5a87e355c72b638de050ca11d8bc433e69ba7d3ef093c02548ee61825542c6b4",
+          "section_id": "nav:adam-clarke:JDG.7:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.7.1-1:7:137710:2234",
+          "fragment_sha256": "f328c2d552411a9c8eca0e8ec0b9e8d244aeb811185605b860b4e24aea6000ed",
+          "character_span": [
+            32,
+            1567
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.8:P:chapter-introduction",
+        "navigation_id": "JDG.8:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 8 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Ephraimites are angry with Gideon because he did not call them particularly to his assistance; he pacifies them, Jdg 8:1-3 . Gideon and his three hundred men pass over Jordan, pursuing the Midianites; and, being faint, ask victuals from the princes of Succoth, but are refused, Jdg 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/8.json",
+          "chapter_file_sha256": "1bdc5fa3d8c38e2acc5d297488deb92dbaef8d43b49b90e41f79308e2a15f051",
+          "section_id": "nav:adam-clarke:JDG.8:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.8.1-1:7:154393:2451",
+          "fragment_sha256": "5aca3eed333590695a0eed2651037e16dcef92a0f75bb4c091b97d063dfa5183",
+          "character_span": [
+            32,
+            1939
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.9:P:chapter-introduction",
+        "navigation_id": "JDG.9:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 9 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nAbimelech is made king; and, to secure himself in the kingdom, slays his brethren; Jotham, the youngest only escapes, Jdg 9:1-4 . Jotham reproves him and the Shechemites by a curious and instructive parable, Jdg 9:7-21 . Abimelech having reigned three years, the Shechemites, headed by G",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/9.json",
+          "chapter_file_sha256": "83043791a51b27409156d222ca863a4ff45a533d530439738e8a6688e837dca6",
+          "section_id": "nav:adam-clarke:JDG.9:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.9.1-1:7:179484:2074",
+          "fragment_sha256": "ebfde9b1af16efc93267dafc7bd2e629fb9a5a786bfeca2d024bc9efc028ec75",
+          "character_span": [
+            32,
+            1661
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.10:P:chapter-introduction",
+        "navigation_id": "JDG.10:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 10 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nTola judges Israel twenty-three years, Jdg 10:1 , Jdg 10:2 . Jair is judge twenty-two years, Jdg 10:3-5 . After him the Israelites rebel against God, and are delivered into the hands of the Philistines and Ammonites eighteen years, Jdg 10:6-9 . They humble themselves, and God reproves t",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/10.json",
+          "chapter_file_sha256": "33ab1b76c554df9da044a2ee89a6d94f2503c88e1296c41c5bab1afe6a311da0",
+          "section_id": "nav:adam-clarke:JDG.10:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.10.1-1:7:213773:1560",
+          "fragment_sha256": "fb17b7f6b50747fba2149e12d5e5a59e2460b5d04935ef98c5d4cc7ec1b7dce5",
+          "character_span": [
+            32,
+            1138
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.11:P:chapter-introduction",
+        "navigation_id": "JDG.11:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 11 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe history of Jephthah, and his covenant with the Gileadites, Jdg 11:1-10 . He is elected by the people, Jdg 11:11 . Sends an embassy to the king of the Ammonites, to inquire why they invaded Israel; and receives an answer, to which he sends back a spirited reply, vv. 12-27. This is di",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/11.json",
+          "chapter_file_sha256": "b377c4a0dc1e74b899c1c412ae39543de67c4f6a8db63de5f8dccdc1161d8ac0",
+          "section_id": "nav:adam-clarke:JDG.11:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.11.1-1:7:220086:2182",
+          "fragment_sha256": "98a8d39ae89397dfca26ee4eb2a02485e5bf84069bbe086bef876397f1fc6b50",
+          "character_span": [
+            32,
+            1289
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.12:P:chapter-introduction",
+        "navigation_id": "JDG.12:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 12 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Ephraimites are incensed against Jephthah, because he did not call them to war against the Ammonites; and threaten his destruction, Jdg 12:1 . He vindicates himself, Jdg 12:2 , Jdg 12:3 ; and arms the Gileadites against the men of Ephraim; they fight against them, and kill forty-two",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/12.json",
+          "chapter_file_sha256": "b2002994beb10f66eac76bad01fbd1552f9632a42fdf5adf33870e1cfa1e15f3",
+          "section_id": "nav:adam-clarke:JDG.12:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.12.1-1:7:255247:1845",
+          "fragment_sha256": "e4beb2b8da75691ed05d883a4d3f88a6faeff28806fabd79e3ea541b215f08ea",
+          "character_span": [
+            32,
+            1494
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.13:P:chapter-introduction",
+        "navigation_id": "JDG.13:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 13 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Israelites corrupt themselves, abut are delivered into the hands of the Philistines forty years, Jdg 13:1 . An Angel appears to the wife of Manoah, foretells the birth of her son, and gives her directions how to treat both herself and her child, who was to be a deliverer of Israel, ",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/13.json",
+          "chapter_file_sha256": "14e6340db7e90e5fdfe91f1d77820a9fcb9dd7ee1f71f22763f2950ed20ecd25",
+          "section_id": "nav:adam-clarke:JDG.13:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.13.1-1:7:265442:2238",
+          "fragment_sha256": "6d4ba73c85c6a4dca47268415ce37058f12e61122fbd465f2b3d449f240348b1",
+          "character_span": [
+            32,
+            1554
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.14:P:chapter-introduction",
+        "navigation_id": "JDG.14:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 14 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nSamson marries a wife of the Philistines, Jdg 14:1-4 . Slays a young lion at Timnath, in the carcass of which he afterwards finds a swarm of bees, Jdg 14:5-9 . He makes a feast; they appoint him thirty companions, to whom he puts forth a riddle, which they cannot expound, Jdg 14:10-14 .",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/14.json",
+          "chapter_file_sha256": "585b25d3443b565a427157937b0c7d4184eec7b772ace0eb33341021e68b383a",
+          "section_id": "nav:adam-clarke:JDG.14:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.14.1-1:7:275081:1610",
+          "fragment_sha256": "467285c4ac5785ecd469ea55954cde1ad30792e9a8ab7e57f504d0b278cdb1e0",
+          "character_span": [
+            32,
+            1097
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.15:P:chapter-introduction",
+        "navigation_id": "JDG.15:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 15 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nSamson, going to visit his wife, finds her bestowed on another, Jdg 15:1 , Jdg 15:2 . He is incensed, vows revenge, and burns the corn of the Philistines, Jdg 15:3-5 . They burn Samson's wife and her father, Jdg 15:6 . He is still incensed, makes a great slaughter among them, Jdg 15:7 ,",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/15.json",
+          "chapter_file_sha256": "31af9ee55fb9319aea7cc67b3760cc347dd444f61a26dd53c13203eb6f019f39",
+          "section_id": "nav:adam-clarke:JDG.15:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.15.1-1:7:296442:1996",
+          "fragment_sha256": "b346718b4be401d57b5a619cc7a995b4b7364f4ae79134c501a90946750b01d4",
+          "character_span": [
+            32,
+            1575
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.16:P:chapter-introduction",
+        "navigation_id": "JDG.16:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 16 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nSamson comes to Gaza; they lay wait for him; he rises by night, and carries away the city gates, Jdg 16:1-3 . Falls in love with Delilah, Jdg 16:4 . The lords of the Philistines promise her money if she will obtain from Samson the secret in which his strength lay, Jdg 16:5 . By various ",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/16.json",
+          "chapter_file_sha256": "60c185248804fb27caff753fcf5c8879101398e9cc302d0e7a424875609606e6",
+          "section_id": "nav:adam-clarke:JDG.16:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.16.1-1:7:315313:2708",
+          "fragment_sha256": "cbe424c1d0eed31b75dac266ce39ec4396eb8580de49b2144a00d5688af20955",
+          "character_span": [
+            32,
+            1577
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.17:P:chapter-introduction",
+        "navigation_id": "JDG.17:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 17 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nMicah, an Ephraimite, restores to his mother eleven hundred shekels of silver, which he had taken from her, Jdg 17:1 , Jdg 17:2 . She dedicates this to God; and out of a part of it makes a graven image and a molten image, and gets them up in the house of Micah, Jdg 17:3 , Jdg 17:4 ; who",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/17.json",
+          "chapter_file_sha256": "14ad0fe4369fcdeeb744264ce438da678816c2e6072b4d6d76de6a5e989046ab",
+          "section_id": "nav:adam-clarke:JDG.17:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.17.1-1:7:351419:1660",
+          "fragment_sha256": "359782d30b845e686f9369ea13684e3119cc9714b170db3179c0d5ce7a5b0e48",
+          "character_span": [
+            32,
+            1066
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.18:P:chapter-introduction",
+        "navigation_id": "JDG.18:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 18 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nSome Danites, seeking an inheritance, send five men to search the land, who arrive at the house of Micah, Jdg 18:1 , Jdg 18:2 . They employ the Levite, who served to his house as priest, to ask counsel for them of God, Jdg 18:3-5 . He inquires, and promises them success, Jdg 18:6 . They",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/18.json",
+          "chapter_file_sha256": "2131f51ae9ca1948f01c638423102ba23c6f807bc9ae162b71f7930a4c6d2e63",
+          "section_id": "nav:adam-clarke:JDG.18:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.18.1-1:7:361226:2851",
+          "fragment_sha256": "8726957a8cb74ef1ac3f6167c89df494bd48e71c1fba5a40a83b231f8d8a630b",
+          "character_span": [
+            32,
+            1729
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.19:P:chapter-introduction",
+        "navigation_id": "JDG.19:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 19 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nA Levite and his concubine disagree; and she leaves him and goes to her father's house, Jdg 19:1 , Jdg 19:2 . He follows to bring her back, and is kindly entertained by her father five days, Jdg 19:3-8 . He returns; and lodges the first night at Gibeah, in the tribe of Benjamin, Jdg 19:",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/19.json",
+          "chapter_file_sha256": "9260c4e79de26fb6862e5d7e4a3f4cd26651655be74f9aefa61ba499517e1c02",
+          "section_id": "nav:adam-clarke:JDG.19:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.19.1-1:7:375720:2131",
+          "fragment_sha256": "c855581ca957d08636e2549ebc9175215963f332a6df22f2e804f258ab0def55",
+          "character_span": [
+            32,
+            1267
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.20:P:chapter-introduction",
+        "navigation_id": "JDG.20:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 20 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe heads of the eleven tribes come before the Lord in Mizpeh, and examine the Levite relative to the murder of his wife, who gives a simple narrative of the whole affair, Jdg 20:1-7 . They unanimously resolve to avenge the wrong, and make provision for a campaign against the Benjamites",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/20.json",
+          "chapter_file_sha256": "68dd0075d17949b592ca62c99d42f2b61a1248701dbc52f52755e68e42978139",
+          "section_id": "nav:adam-clarke:JDG.20:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.20.1-1:7:387295:3076",
+          "fragment_sha256": "7ce15dc97ff6cba0442fe24bd21bc8a082b4bd8c88541acd04cac5abb425b26e",
+          "character_span": [
+            32,
+            2253
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JDG.21:P:chapter-introduction",
+        "navigation_id": "JDG.21:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Judges 21 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nThe Israelites mourn because of the desolation of Benjamin, and consult the Lord, Jdg 21:1-4 . They inquire who of Israel had not come to this war, as they had vowed that those who would not make this a common cause should be put to death, Jdg 21:5 , Jdg 21:6 . They consult how they sha",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/adam-clarke/JDG/21.json",
+          "chapter_file_sha256": "e095f81418a6916d6e3d0db0efe7cf5fb301abba68260d2383f0c1049f9186ee",
+          "section_id": "nav:adam-clarke:JDG.21:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:JDG.21.1-1:7:402146:1979",
+          "fragment_sha256": "4ae0461d5f5f316e4e62008cbbe820fee1b2b7736cec99de7b391e6904273321",
+          "character_span": [
+            32,
+            1539
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+        "navigation_id": "GROUP:GEN-HISTORICAL:P:gen-historical",
+        "title": "Introduction to Pentateuch and historical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "539074c824eb6cf2cfb472df08f2ce3a36cbd9765367eae3efaac4d907513015",
+          "character_span": [
+            56,
+            30473
+          ]
+        },
+        "source_evidence": "Introductory work heading explicitly addresses historical books",
+        "author_id": "jamieson-fausset-brown",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "original_scope": "book_group",
+        "applicability_basis": "source_explicit_historical_book_scope"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:PROPHETICAL:P:prophetical",
+        "navigation_id": "GROUP:PROPHETICAL:P:prophetical",
+        "title": "Introduction to prophetical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:PROPHETICAL:P:prophetical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "4bc153805ba7ea77c4c066e74acfa02f0d20e2efc48e4ca7ea1282fafc5cef0e",
+          "character_span": [
+            48568,
+            58962
+          ]
+        },
+        "source_evidence": "JFB specifically names Joshua, Judges, 1–2 Samuel and 1–2 Kings as former prophets; Ruth not named",
+        "author_id": "jamieson-fausset-brown",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "original_scope": "book_group",
+        "applicability_basis": "source_explicit_former_prophets_enumeration_includes_judges"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG:P:book-introduction",
+        "navigation_id": "JDG:P:book-introduction",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction · Judges",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "THE BOOK OF JUDGES.\nCommentary by Robert Jamieson",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/1.json",
+          "chapter_file_sha256": "a2b728fb50e07ef276c70a79859aa81977d348a94096af32f09828f803e297e6",
+          "section_id": "nav:jamieson-fausset-brown:JDG:P:book-introduction",
+          "source_entry_id": "sword:jfb:JDG.1.1-1:7:240:1522",
+          "fragment_sha256": "afd5adc2203d517cce8246eb545c08f79d21a709a3f91a8698f459bfa96d9dbc",
+          "character_span": [
+            0,
+            199
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.1:P:chapter-heading-1-199",
+        "navigation_id": "JDG.1:P:chapter-heading-1-199",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 1 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/1.json",
+          "chapter_file_sha256": "a2b728fb50e07ef276c70a79859aa81977d348a94096af32f09828f803e297e6",
+          "section_id": "nav:jamieson-fausset-brown:JDG.1:P:chapter-heading-1-199",
+          "source_entry_id": "sword:jfb:JDG.1.1-1:7:240:1522",
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            199,
+            234
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.2:P:chapter-heading-0-59",
+        "navigation_id": "JDG.2:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 2 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/2.json",
+          "chapter_file_sha256": "2ff133e7aad24be96d87f6daf06d8e38619602e41d3aecb0d61296b7a5b0b9fa",
+          "section_id": "nav:jamieson-fausset-brown:JDG.2:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.2.1-3:7:12411:1829",
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.3:P:chapter-heading-0-59",
+        "navigation_id": "JDG.3:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 3 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/3.json",
+          "chapter_file_sha256": "051bfe69bda074f2c368c4a5a347fd1cfecff6e9abd02fcb1c694da6a8c8c070",
+          "section_id": "nav:jamieson-fausset-brown:JDG.3:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.3.1-1:7:19160:947",
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.4:P:chapter-heading-0-59",
+        "navigation_id": "JDG.4:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 4 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/4.json",
+          "chapter_file_sha256": "d9e212b9bee518175b646f7969c47de419081112547927c7cd5acd845c5217b1",
+          "section_id": "nav:jamieson-fausset-brown:JDG.4:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.4.1-1:7:30114:582",
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.5:P:chapter-heading-0-59",
+        "navigation_id": "JDG.5:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 5 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/5.json",
+          "chapter_file_sha256": "3e022644a0d6e9ebff2045ef3c94ab43870224ea245463d2b10e32bf99681132",
+          "section_id": "nav:jamieson-fausset-brown:JDG.5:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.5.1-1:7:40199:494",
+          "fragment_sha256": "28c7aecb7b8150863ebc556b4f18e721a5a0f56caa8d893a04ea73e9a15091ee",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.6:P:chapter-heading-0-59",
+        "navigation_id": "JDG.6:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 6 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 6",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+          "chapter_file_sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b",
+          "section_id": "nav:jamieson-fausset-brown:JDG.6:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.6.1-1:7:50129:1442",
+          "fragment_sha256": "156b149338ab4df993d1da11058affc61b5ad0471fcd353217038eb5acf8d55b",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.7:P:chapter-heading-0-59",
+        "navigation_id": "JDG.7:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 7 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 7",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/7.json",
+          "chapter_file_sha256": "581bd43278612c93f3801ae5ac24fdd887ad89edf03b77c2ef759e55307ad3ce",
+          "section_id": "nav:jamieson-fausset-brown:JDG.7:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.7.1-1:7:61156:1005",
+          "fragment_sha256": "fd5cdd0f2948c8519b7f0cb340762e2d24db08f21871c13503bfc3130fe07404",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.8:P:chapter-heading-0-59",
+        "navigation_id": "JDG.8:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 8 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/8.json",
+          "chapter_file_sha256": "9063f9320cfd30af267cb161643407a772c8555a3fadde7980515e151cfb9f77",
+          "section_id": "nav:jamieson-fausset-brown:JDG.8:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.8.1-1:7:71201:1253",
+          "fragment_sha256": "4d9012f96b6241d9b632a799789d66d9c0710da056965ee37c66ea12bf40f4f8",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.9:P:chapter-heading-0-59",
+        "navigation_id": "JDG.9:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 9 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 9",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/9.json",
+          "chapter_file_sha256": "30ecbd7a46e2e19ac491a5a415d7776b08f8b48b5f84543f24cdbd9ea3956e8f",
+          "section_id": "nav:jamieson-fausset-brown:JDG.9:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.9.1-1:7:85426:1192",
+          "fragment_sha256": "0ea0c486365533614dd010ad9bac13027d59e52fbc2bc06dd8063e83d3000da7",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.10:P:chapter-heading-0-59",
+        "navigation_id": "JDG.10:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 10 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 10",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/10.json",
+          "chapter_file_sha256": "1c12159767817b23c0ab033c16ef0c3c7fd6c14a51cefd685b791285cc27b08d",
+          "section_id": "nav:jamieson-fausset-brown:JDG.10:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.10.1-1:7:95370:1003",
+          "fragment_sha256": "5a065ed82e822dbfc57e8f8b272dfe533505c2c825b573d797ddcc0fe9ad66c7",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.11:P:chapter-heading-0-59",
+        "navigation_id": "JDG.11:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 11 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 11",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/11.json",
+          "chapter_file_sha256": "34ad9055c235a0e975537c730860209db8d108b6aed64f87a078a66cbbb031b9",
+          "section_id": "nav:jamieson-fausset-brown:JDG.11:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.11.1-1:7:101286:948",
+          "fragment_sha256": "8c1ed82d19faef4ff84b7e93a34e9cd01767c5fa3495e81c8e7052867c3bc821",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.12:P:chapter-heading-0-59",
+        "navigation_id": "JDG.12:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 12 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 12",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/12.json",
+          "chapter_file_sha256": "cc87e6cb7cbb7a3f01d204703cdece81b8ab0129f41ee6875c99440173c4f200",
+          "section_id": "nav:jamieson-fausset-brown:JDG.12:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.12.1-1:7:114946:1074",
+          "fragment_sha256": "3f9b5eed29f70265b25f2c974a1528ec6d9dd863009da04efc8b667d049aa414",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.13:P:chapter-heading-0-59",
+        "navigation_id": "JDG.13:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 13 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 13",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/13.json",
+          "chapter_file_sha256": "e0367e2a746902ce03a18c5a8ec87f894f62120636e32de771f692cb164c6b00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.13:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.13.1-1:7:119425:1097",
+          "fragment_sha256": "62f14e497670587b48359cbcbdd0ec0471e9513a1cc8043dee9d4d9ebeb986ab",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.14:P:chapter-heading-0-59",
+        "navigation_id": "JDG.14:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 14 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 14",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/14.json",
+          "chapter_file_sha256": "a0313d2fc50bbabaf06481a3f7f4071b722ee60d2966631bb1992d1509521a00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.14:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.14.1-2:7:126090:1107",
+          "fragment_sha256": "c558fbdb67107653fcfe2c2356cccbc73d6c11caeea21338d8ed4fecbf2b051a",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.15:P:chapter-heading-0-59",
+        "navigation_id": "JDG.15:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 15 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 15",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/15.json",
+          "chapter_file_sha256": "13e50df38c7dfaf741cf19ed60c8b26e5ac339fb2a30a32ab6a1313d1575ecb6",
+          "section_id": "nav:jamieson-fausset-brown:JDG.15:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.15.1-1:7:134825:1218",
+          "fragment_sha256": "87cef34a3978b18c2e74832cdf30b7c6c13b4629f805fd9ce6d025e305679129",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.16:P:chapter-heading-0-59",
+        "navigation_id": "JDG.16:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 16 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 16",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+          "chapter_file_sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21",
+          "section_id": "nav:jamieson-fausset-brown:JDG.16:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.16.1-2:7:142682:872",
+          "fragment_sha256": "51422a2263c433f9a9fddce7fea3ffd7d4fb86c03d45b76bb2d14b2682811a14",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.17:P:chapter-heading-0-59",
+        "navigation_id": "JDG.17:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 17 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 17",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/17.json",
+          "chapter_file_sha256": "0791f3ecfc4cf008d116b8da2f2667c89448ca4682a93dcb5bca47d7e251e3e8",
+          "section_id": "nav:jamieson-fausset-brown:JDG.17:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.17.1-1:7:156410:1233",
+          "fragment_sha256": "65b8844fd172c63c3fae8b8cdd477ac3115d604296a9c212a64a69270c82aa48",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.18:P:chapter-heading-0-59",
+        "navigation_id": "JDG.18:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 18 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 18",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/18.json",
+          "chapter_file_sha256": "9550e8db7c7a255db0e8711eb00f3417176eb78f5585b8ee95b1200ce2e72879",
+          "section_id": "nav:jamieson-fausset-brown:JDG.18:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.18.1-6:7:163092:1971",
+          "fragment_sha256": "332f0adb7a81456238862dbfcd0015bc62798d308040251b1e4d91e142e3e637",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.19:P:chapter-heading-0-59",
+        "navigation_id": "JDG.19:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 19 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 19",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/19.json",
+          "chapter_file_sha256": "7f06e6446cce4256166047e92376a4bf5cc32e1e895c52496a5f4aad79f4e268",
+          "section_id": "nav:jamieson-fausset-brown:JDG.19:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.19.1-1:7:171562:1174",
+          "fragment_sha256": "a337ba0d2e448a6564677f0aae4abbcc64a87b481f122c9c72ff9ccf24e51b4c",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.20:P:chapter-heading-0-59",
+        "navigation_id": "JDG.20:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 20 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 20",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/20.json",
+          "chapter_file_sha256": "59fda8d95e36534e4bda1d0675f3f7686437357de5110cd8bd36fc468d54fc8a",
+          "section_id": "nav:jamieson-fausset-brown:JDG.20:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.20.1-2:7:181260:1580",
+          "fragment_sha256": "9b88cee8a0b83ec6ce6b8097a3f9f77bac9c3f09cda3deddfcd7b506b847ab64",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.21:P:chapter-heading-0-59",
+        "navigation_id": "JDG.21:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Judges 21 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 21",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/21.json",
+          "chapter_file_sha256": "89cc32dd508a98503a64cce62cd646cb454379283206e29f632b9317154a1859",
+          "section_id": "nav:jamieson-fausset-brown:JDG.21:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:JDG.21.2-5:7:192660:1526",
+          "fragment_sha256": "473368e69b39c56aa861374e2f748730ba3cfe7c3baa44f6adac1b3a5707ca11",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.1:P:passage-heading-2-235",
+        "navigation_id": "JDG.1:P:passage-heading-2-235",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 1:1-3 . The Acts of Judah and Simeon.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.1.1",
+        "passage_end": "JDG.1.3",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 1:1-3 . The Acts of Judah and Simeon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/1.json",
+          "chapter_file_sha256": "a2b728fb50e07ef276c70a79859aa81977d348a94096af32f09828f803e297e6",
+          "section_id": "nav:jamieson-fausset-brown:JDG.1:P:passage-heading-2-235",
+          "source_entry_id": "sword:jfb:JDG.1.1-1:7:240:1522",
+          "fragment_sha256": "7779730f7b24009e12205a003be5ed651e0ee55e3456f2219a0bfefad0794baa",
+          "character_span": [
+            235,
+            353
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.1:P:passage-heading-3-59",
+        "navigation_id": "JDG.1:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 1:4-21 . Adoni-bezek Justly Requited.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.1.4",
+        "passage_end": "JDG.1.21",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 1:4-21 . Adoni-bezek Justly Requited.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/1.json",
+          "chapter_file_sha256": "a2b728fb50e07ef276c70a79859aa81977d348a94096af32f09828f803e297e6",
+          "section_id": "nav:jamieson-fausset-brown:JDG.1:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.1.5-6:7:3052:1307",
+          "fragment_sha256": "b408253ece277346ba358f9e9c642a16100d0ab83c0014ad383985811dd4229f",
+          "character_span": [
+            59,
+            178
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.2:P:passage-heading-1-96",
+        "navigation_id": "JDG.2:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 2:1-10 . An Angel Sent to Rebuke the People at Bochim.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.2.1",
+        "passage_end": "JDG.2.10",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 2:1-10 . An Angel Sent to Rebuke the People at Bochim.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/2.json",
+          "chapter_file_sha256": "2ff133e7aad24be96d87f6daf06d8e38619602e41d3aecb0d61296b7a5b0b9fa",
+          "section_id": "nav:jamieson-fausset-brown:JDG.2:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.2.1-3:7:12411:1829",
+          "fragment_sha256": "5ae5ca5aa823176e661d8c851fb0073215e804eaf245862da3301b7c07b997ca",
+          "character_span": [
+            96,
+            232
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.2:P:passage-heading-2-59",
+        "navigation_id": "JDG.2:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 2:11-19 . Wickedness of the New Generation after Joshua.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.2.11",
+        "passage_end": "JDG.2.19",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 2:11-19 . Wickedness of the New Generation after Joshua.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/2.json",
+          "chapter_file_sha256": "2ff133e7aad24be96d87f6daf06d8e38619602e41d3aecb0d61296b7a5b0b9fa",
+          "section_id": "nav:jamieson-fausset-brown:JDG.2:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.2.11-19:7:15722:964",
+          "fragment_sha256": "f8e37b19d3bdfd8daef6c2dbfd96d4f0b1a0181847912f080a260569eb84a78a",
+          "character_span": [
+            59,
+            198
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-1-96",
+        "navigation_id": "JDG.3:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 3:1-4 . Nations Left to Prove Israel.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.3.1",
+        "passage_end": "JDG.3.4",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 3:1-4 . Nations Left to Prove Israel.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/3.json",
+          "chapter_file_sha256": "051bfe69bda074f2c368c4a5a347fd1cfecff6e9abd02fcb1c694da6a8c8c070",
+          "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.3.1-1:7:19160:947",
+          "fragment_sha256": "be3285e784a735ceb3649a5d771311a559bf1b45bd6a8a203224c7d9564a9af3",
+          "character_span": [
+            96,
+            214
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-2-59",
+        "navigation_id": "JDG.3:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 3:5-7 . By Communion with These the Israelites Commit Idolatry.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.3.5",
+        "passage_end": "JDG.3.7",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 3:5-7 . By Communion with These the Israelites Commit Idolatry.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/3.json",
+          "chapter_file_sha256": "051bfe69bda074f2c368c4a5a347fd1cfecff6e9abd02fcb1c694da6a8c8c070",
+          "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.3.5-7:7:20107:662",
+          "fragment_sha256": "b5d368b17ea6e16c07ec190cfda647f58166906985c478b522b163717d8d3a48",
+          "character_span": [
+            59,
+            203
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-3-59",
+        "navigation_id": "JDG.3:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 3:8-11 . Othniel Delivers Israel.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.3.8",
+        "passage_end": "JDG.3.11",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 3:8-11 . Othniel Delivers Israel.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/3.json",
+          "chapter_file_sha256": "051bfe69bda074f2c368c4a5a347fd1cfecff6e9abd02fcb1c694da6a8c8c070",
+          "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.3.8-11:7:20769:829",
+          "fragment_sha256": "684607fc902ee2768ab1ae3b0df6b16102189253eb22519df60a17451c4342bf",
+          "character_span": [
+            59,
+            174
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-4-59",
+        "navigation_id": "JDG.3:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 3:12-30 . Ehud Slays Eglon.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.3.12",
+        "passage_end": "JDG.3.30",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 3:12-30 . Ehud Slays Eglon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/3.json",
+          "chapter_file_sha256": "051bfe69bda074f2c368c4a5a347fd1cfecff6e9abd02fcb1c694da6a8c8c070",
+          "section_id": "nav:jamieson-fausset-brown:JDG.3:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.3.12-14:7:23788:1218",
+          "fragment_sha256": "e2f378597666a5b0e89772ec85203ad8e4bc76ed337ef0e3aa2c12a27658088e",
+          "character_span": [
+            59,
+            169
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.4:P:passage-heading-1-96",
+        "navigation_id": "JDG.4:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 4:1-17 . Deborah and Barak Deliver Israel from Jabin and Sisera.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.4.1",
+        "passage_end": "JDG.4.17",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 4:1-17 . Deborah and Barak Deliver Israel from Jabin and Sisera.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/4.json",
+          "chapter_file_sha256": "d9e212b9bee518175b646f7969c47de419081112547927c7cd5acd845c5217b1",
+          "section_id": "nav:jamieson-fausset-brown:JDG.4:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.4.1-1:7:30114:582",
+          "fragment_sha256": "5118356c2f0461e6eb90455a38e00654bd5f61a8d7b4af4be9744cc79be29686",
+          "character_span": [
+            96,
+            242
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.5:P:passage-heading-1-96",
+        "navigation_id": "JDG.5:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 5:1-31 . Deborah and Barak's Song of Thanksgiving.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.5.1",
+        "passage_end": "JDG.5.31",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 5:1-31 . Deborah and Barak's Song of Thanksgiving.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/5.json",
+          "chapter_file_sha256": "3e022644a0d6e9ebff2045ef3c94ab43870224ea245463d2b10e32bf99681132",
+          "section_id": "nav:jamieson-fausset-brown:JDG.5:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.5.1-1:7:40199:494",
+          "fragment_sha256": "46b1de8b962668d2dd1fd0c0d7b88680c2c64cfc938c330f79fcdcd6f4de3b1b",
+          "character_span": [
+            96,
+            228
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-1-96",
+        "navigation_id": "JDG.6:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 6:1-6 . The Israelites, for Their Sins, Oppressed by Midian.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.6.1",
+        "passage_end": "JDG.6.6",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 6:1-6 . The Israelites, for Their Sins, Oppressed by Midian.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+          "chapter_file_sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b",
+          "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.6.1-1:7:50129:1442",
+          "fragment_sha256": "4af07d5bc3da2fe85625ba3c115af8a8dcfddf575321ec546617b16812181c00",
+          "character_span": [
+            96,
+            237
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-2-59",
+        "navigation_id": "JDG.6:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 6:7-10 . A Prophet Rebukes Them.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.6.7",
+        "passage_end": "JDG.6.10",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 6:7-10 . A Prophet Rebukes Them.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+          "chapter_file_sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b",
+          "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.6.8-8:7:51913:467",
+          "fragment_sha256": "40d96616e4c09b9d397e01404fae1b222e915a5683ae174d1f298ae8d590f9e5",
+          "character_span": [
+            59,
+            173
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-3-59",
+        "navigation_id": "JDG.6:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 6:11-16 . An Angel Sends Gideon to Deliver Them.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.6.11",
+        "passage_end": "JDG.6.16",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 6:11-16 . An Angel Sends Gideon to Deliver Them.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+          "chapter_file_sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b",
+          "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.6.11-11:7:52380:1817",
+          "fragment_sha256": "300d941e935e924e80721b2d2b76a8d4080f57bf745e8e0b613d2dbb754d5203",
+          "character_span": [
+            59,
+            190
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-4-59",
+        "navigation_id": "JDG.6:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 6:17-32 . Gideon's Present Consumed by Fire.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.6.17",
+        "passage_end": "JDG.6.32",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 6:17-32 . Gideon's Present Consumed by Fire.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+          "chapter_file_sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b",
+          "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.6.18-18:7:55668:561",
+          "fragment_sha256": "01676abac079003ff877d22b59b9c95416b6944f53433ccd3b46ddf26121750f",
+          "character_span": [
+            59,
+            186
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-5-59",
+        "navigation_id": "JDG.6:P:passage-heading-5-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 6:33-39 . The Signs.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.6.33",
+        "passage_end": "JDG.6.39",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 6:33-39 . The Signs.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/6.json",
+          "chapter_file_sha256": "3272ba45e70fec88b897bd871185d3dbf5293eaf7e54b9032c6c3effdf893a4b",
+          "section_id": "nav:jamieson-fausset-brown:JDG.6:P:passage-heading-5-59",
+          "source_entry_id": "sword:jfb:JDG.6.33-33:7:59214:824",
+          "fragment_sha256": "93eaea2b3bd22ef82a687c11d54707bbb7dea8d3938158f89af5cfd70f8ea126",
+          "character_span": [
+            59,
+            162
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.7:P:passage-heading-1-96",
+        "navigation_id": "JDG.7:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 7:1-8 . Gideon's Army.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.7.1",
+        "passage_end": "JDG.7.8",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 7:1-8 . Gideon's Army.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/7.json",
+          "chapter_file_sha256": "581bd43278612c93f3801ae5ac24fdd887ad89edf03b77c2ef759e55307ad3ce",
+          "section_id": "nav:jamieson-fausset-brown:JDG.7:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.7.1-1:7:61156:1005",
+          "fragment_sha256": "8bbd45d23646b8d06036bfa40e59ffbd1e7db07fce21d42045f59be658f5c39a",
+          "character_span": [
+            96,
+            199
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.7:P:passage-heading-2-59",
+        "navigation_id": "JDG.7:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 7:9-15 . He Is Encouraged by the Dream and the Interpretation of the Barley Cake.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.7.9",
+        "passage_end": "JDG.7.15",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 7:9-15 . He Is Encouraged by the Dream and the Interpretation of the Barley Cake.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/7.json",
+          "chapter_file_sha256": "581bd43278612c93f3801ae5ac24fdd887ad89edf03b77c2ef759e55307ad3ce",
+          "section_id": "nav:jamieson-fausset-brown:JDG.7:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.7.9-10:7:65122:782",
+          "fragment_sha256": "5fe25f905d0ff2fc9c6b91dd2b625fc46d0260c55244eef803edc2fd9b6320c9",
+          "character_span": [
+            59,
+            222
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.7:P:passage-heading-3-59",
+        "navigation_id": "JDG.7:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 7:16-24 . His Stratagem against Midian.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.7.16",
+        "passage_end": "JDG.7.24",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 7:16-24 . His Stratagem against Midian.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/7.json",
+          "chapter_file_sha256": "581bd43278612c93f3801ae5ac24fdd887ad89edf03b77c2ef759e55307ad3ce",
+          "section_id": "nav:jamieson-fausset-brown:JDG.7:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.7.16-22:7:68325:1345",
+          "fragment_sha256": "c45103cefe6c2c1aa0a2f87b587c2d63e4200a10d8e1e75d9be2eff4ef249fb0",
+          "character_span": [
+            59,
+            181
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.8:P:passage-heading-1-96",
+        "navigation_id": "JDG.8:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 8:1-9 . The Ephraimites Offended, but Pacified.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.8.1",
+        "passage_end": "JDG.8.9",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 8:1-9 . The Ephraimites Offended, but Pacified.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/8.json",
+          "chapter_file_sha256": "9063f9320cfd30af267cb161643407a772c8555a3fadde7980515e151cfb9f77",
+          "section_id": "nav:jamieson-fausset-brown:JDG.8:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.8.1-1:7:71201:1253",
+          "fragment_sha256": "3e64ab6ba25b702dd929f20484819a493d3b8dd3b60cd02ae0d47b983fcf94b1",
+          "character_span": [
+            96,
+            224
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.8:P:passage-heading-2-59",
+        "navigation_id": "JDG.8:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 8:10-27 . Zebah and Zalmunna Taken.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.8.10",
+        "passage_end": "JDG.8.27",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 8:10-27 . Zebah and Zalmunna Taken.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/8.json",
+          "chapter_file_sha256": "9063f9320cfd30af267cb161643407a772c8555a3fadde7980515e151cfb9f77",
+          "section_id": "nav:jamieson-fausset-brown:JDG.8:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.8.10-10:7:76655:448",
+          "fragment_sha256": "ac8a2a012f02788f40cc0d2d901b2ba88617f842d494ec00e1d1b90166d220dd",
+          "character_span": [
+            59,
+            177
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.8:P:passage-heading-3-59",
+        "navigation_id": "JDG.8:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 8:28 . Midian Subdued.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.8.28",
+        "passage_end": "JDG.8.28",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 8:28 . Midian Subdued.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/8.json",
+          "chapter_file_sha256": "9063f9320cfd30af267cb161643407a772c8555a3fadde7980515e151cfb9f77",
+          "section_id": "nav:jamieson-fausset-brown:JDG.8:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.8.28-28:7:84680:669",
+          "fragment_sha256": "627564dba55e371174e3f59cfa4e2c8733cf0c0139ac5388948c862254f6b664",
+          "character_span": [
+            59,
+            154
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-1-96",
+        "navigation_id": "JDG.9:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 9:1-6 . Abimelech Is Made King by the Shechemites.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.9.1",
+        "passage_end": "JDG.9.6",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 9:1-6 . Abimelech Is Made King by the Shechemites.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/9.json",
+          "chapter_file_sha256": "30ecbd7a46e2e19ac491a5a415d7776b08f8b48b5f84543f24cdbd9ea3956e8f",
+          "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:JDG.9.1-1:7:85426:1192",
+          "fragment_sha256": "5b3dc3fea97d5504c86b97ed6afd2c89c97f3e1ff25082830ef613738396bc12",
+          "character_span": [
+            96,
+            227
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-2-59",
+        "navigation_id": "JDG.9:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 9:7-21 . Jotham by a Parable Reproaches Them.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.9.7",
+        "passage_end": "JDG.9.21",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 9:7-21 . Jotham by a Parable Reproaches Them.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/9.json",
+          "chapter_file_sha256": "30ecbd7a46e2e19ac491a5a415d7776b08f8b48b5f84543f24cdbd9ea3956e8f",
+          "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.9.7-7:7:89537:1358",
+          "fragment_sha256": "7c60a5bfac888c76bf666c9be491f7fa0202e929b048f605bb26867d08dc2f0f",
+          "character_span": [
+            59,
+            186
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-3-59",
+        "navigation_id": "JDG.9:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 9:22-49 . Gaal's Conspiracy.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.9.22",
+        "passage_end": "JDG.9.49",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 9:22-49 . Gaal's Conspiracy.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/9.json",
+          "chapter_file_sha256": "30ecbd7a46e2e19ac491a5a415d7776b08f8b48b5f84543f24cdbd9ea3956e8f",
+          "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.9.22-22:7:91659:756",
+          "fragment_sha256": "ae6c4c01431a5aeb6e1f143c2d3ec21a6c2aa4c60e14bce6b475b4658689c306",
+          "character_span": [
+            59,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-4-59",
+        "navigation_id": "JDG.9:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 9:50-57 . Abimelech Slain.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.9.50",
+        "passage_end": "JDG.9.57",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 9:50-57 . Abimelech Slain.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/9.json",
+          "chapter_file_sha256": "30ecbd7a46e2e19ac491a5a415d7776b08f8b48b5f84543f24cdbd9ea3956e8f",
+          "section_id": "nav:jamieson-fausset-brown:JDG.9:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.9.50-50:7:93962:408",
+          "fragment_sha256": "cb0e0c4550d857578cb84928d791b0cfbc9479f04b65aae21dd825f4f0f14e37",
+          "character_span": [
+            59,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-1-97",
+        "navigation_id": "JDG.10:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 10:1-5 . Tola Judges Israel in Shamir.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.10.1",
+        "passage_end": "JDG.10.5",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 10:1-5 . Tola Judges Israel in Shamir.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/10.json",
+          "chapter_file_sha256": "1c12159767817b23c0ab033c16ef0c3c7fd6c14a51cefd685b791285cc27b08d",
+          "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.10.1-1:7:95370:1003",
+          "fragment_sha256": "a55dd0ed0d768ae256e1df4da4defdfda92d68063aef67fc412782f15275bf6a",
+          "character_span": [
+            97,
+            218
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-2-59",
+        "navigation_id": "JDG.10:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 10:6-9 . Israel Oppressed by the Philistines and Ammonites.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.10.6",
+        "passage_end": "JDG.10.9",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 10:6-9 . Israel Oppressed by the Philistines and Ammonites.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/10.json",
+          "chapter_file_sha256": "1c12159767817b23c0ab033c16ef0c3c7fd6c14a51cefd685b791285cc27b08d",
+          "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.10.6-6:7:97596:526",
+          "fragment_sha256": "9eaecd6a25a9371a31e690e156f64343560fe90dad44e57ac9a6dbbd89e5106a",
+          "character_span": [
+            59,
+            201
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-3-59",
+        "navigation_id": "JDG.10:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 10:10-15 . They Cry to God.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.10.10",
+        "passage_end": "JDG.10.15",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 10:10-15 . They Cry to God.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/10.json",
+          "chapter_file_sha256": "1c12159767817b23c0ab033c16ef0c3c7fd6c14a51cefd685b791285cc27b08d",
+          "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.10.10-10:7:98680:669",
+          "fragment_sha256": "6643cefb62c743c802d44e8317f43c855696a02d7471d7e79c5c80c11d746ba7",
+          "character_span": [
+            59,
+            171
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-4-59",
+        "navigation_id": "JDG.10:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 10:16-18 . They Repent; God Pities Them.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.10.16",
+        "passage_end": "JDG.10.18",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 10:16-18 . They Repent; God Pities Them.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/10.json",
+          "chapter_file_sha256": "1c12159767817b23c0ab033c16ef0c3c7fd6c14a51cefd685b791285cc27b08d",
+          "section_id": "nav:jamieson-fausset-brown:JDG.10:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.10.16-16:7:100008:589",
+          "fragment_sha256": "30bc13207de038bd754752ce07c781e3d0d64fc6592b4dd76b44a53c39bc2c85",
+          "character_span": [
+            59,
+            184
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-1-97",
+        "navigation_id": "JDG.11:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 11:1-3 . Jephthah.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.11.1",
+        "passage_end": "JDG.11.3",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 11:1-3 . Jephthah.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/11.json",
+          "chapter_file_sha256": "34ad9055c235a0e975537c730860209db8d108b6aed64f87a078a66cbbb031b9",
+          "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.11.1-1:7:101286:948",
+          "fragment_sha256": "ef22ca6e071cd3661d956c26ab6688876191eccfe4951af6137c69b325dd0d74",
+          "character_span": [
+            97,
+            198
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-2-59",
+        "navigation_id": "JDG.11:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 11:4-11 . The Gileadites Covenant with Jephthah.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.11.4",
+        "passage_end": "JDG.11.11",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 11:4-11 . The Gileadites Covenant with Jephthah.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/11.json",
+          "chapter_file_sha256": "34ad9055c235a0e975537c730860209db8d108b6aed64f87a078a66cbbb031b9",
+          "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.11.4-4:7:104003:783",
+          "fragment_sha256": "e2b22120fca31a3ec9f9b6b1ee6e5f7808d358aae2f7737080a789ea8ed949fd",
+          "character_span": [
+            59,
+            191
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-3-59",
+        "navigation_id": "JDG.11:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 11:12-28 . His Embassy to the King of Ammon.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.11.12",
+        "passage_end": "JDG.11.28",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 11:12-28 . His Embassy to the King of Ammon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/11.json",
+          "chapter_file_sha256": "34ad9055c235a0e975537c730860209db8d108b6aed64f87a078a66cbbb031b9",
+          "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.11.12-28:7:107111:929",
+          "fragment_sha256": "c3120c58342da1ecd7657fe7f88ac55131fdbd4da3fa50307040f3489247c860",
+          "character_span": [
+            59,
+            188
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-4-59",
+        "navigation_id": "JDG.11:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 11:29-31 . His Vow.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.11.29",
+        "passage_end": "JDG.11.31",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 11:29-31 . His Vow.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/11.json",
+          "chapter_file_sha256": "34ad9055c235a0e975537c730860209db8d108b6aed64f87a078a66cbbb031b9",
+          "section_id": "nav:jamieson-fausset-brown:JDG.11:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.11.29-30:7:109751:1577",
+          "fragment_sha256": "ae2ff0d89e6b99537d518cf2ec4f63faa1d4946a66e5db201345bb59fc4795a5",
+          "character_span": [
+            59,
+            163
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.12:P:passage-heading-1-97",
+        "navigation_id": "JDG.12:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 12:1-3 . The Ephraimites Quarrelling with Jephthah.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.12.1",
+        "passage_end": "JDG.12.3",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 12:1-3 . The Ephraimites Quarrelling with Jephthah.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/12.json",
+          "chapter_file_sha256": "cc87e6cb7cbb7a3f01d204703cdece81b8ab0129f41ee6875c99440173c4f200",
+          "section_id": "nav:jamieson-fausset-brown:JDG.12:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.12.1-1:7:114946:1074",
+          "fragment_sha256": "f2ef14b1c4f9f1866fa5a9e0c1e3560ab5591d6fdcf3977aa385e5336bcba3ef",
+          "character_span": [
+            97,
+            231
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.12:P:passage-heading-2-59",
+        "navigation_id": "JDG.12:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 12:4-15 . Discerned by the Word Sibboleth, Are Slain by the Gileadites.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.12.4",
+        "passage_end": "JDG.12.15",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 12:4-15 . Discerned by the Word Sibboleth, Are Slain by the Gileadites.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/12.json",
+          "chapter_file_sha256": "cc87e6cb7cbb7a3f01d204703cdece81b8ab0129f41ee6875c99440173c4f200",
+          "section_id": "nav:jamieson-fausset-brown:JDG.12:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.12.4-6:7:117333:1413",
+          "fragment_sha256": "1db053f1dc9660960d960067d2a5616d3f8e59b55201529484dcc86419f9eab9",
+          "character_span": [
+            59,
+            214
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-1-97",
+        "navigation_id": "JDG.13:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 13:1 . Israel Serves the Philistines Forty Years.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.13.1",
+        "passage_end": "JDG.13.1",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 13:1 . Israel Serves the Philistines Forty Years.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/13.json",
+          "chapter_file_sha256": "e0367e2a746902ce03a18c5a8ec87f894f62120636e32de771f692cb164c6b00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.13.1-1:7:119425:1097",
+          "fragment_sha256": "ea8f3911382a53ede1194d9b13539eb7eefaec3a19baa6837460d0981cb7d662",
+          "character_span": [
+            97,
+            219
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-2-59",
+        "navigation_id": "JDG.13:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 13:2-10 . An Angel Appears to Manoah's Wife.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.13.2",
+        "passage_end": "JDG.13.10",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 13:2-10 . An Angel Appears to Manoah's Wife.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/13.json",
+          "chapter_file_sha256": "e0367e2a746902ce03a18c5a8ec87f894f62120636e32de771f692cb164c6b00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.13.2-2:7:120522:500",
+          "fragment_sha256": "c7cdf3893b81f83d32aaa46d88ad9e4695b6af5f647a5e6657d0a0cd49323301",
+          "character_span": [
+            59,
+            187
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-3-59",
+        "navigation_id": "JDG.13:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 13:11-14 . The Angel Appears to Manoah.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.13.11",
+        "passage_end": "JDG.13.14",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 13:11-14 . The Angel Appears to Manoah.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/13.json",
+          "chapter_file_sha256": "e0367e2a746902ce03a18c5a8ec87f894f62120636e32de771f692cb164c6b00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.13.11-11:7:122626:643",
+          "fragment_sha256": "afc116a484deb0a8ba0ddaf98e05ec559c136c1039135ab8bdc1f19fdd7d17cd",
+          "character_span": [
+            59,
+            183
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-4-59",
+        "navigation_id": "JDG.13:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 13:15-23 . Manoah's Sacrifice.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.13.15",
+        "passage_end": "JDG.13.23",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 13:15-23 . Manoah's Sacrifice.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/13.json",
+          "chapter_file_sha256": "e0367e2a746902ce03a18c5a8ec87f894f62120636e32de771f692cb164c6b00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.13:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.13.15-15:7:123269:1045",
+          "fragment_sha256": "c65bd3234a51946de95aa94838a5d658db8057df160bcf92c756bfb277bee42e",
+          "character_span": [
+            59,
+            174
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.14:P:passage-heading-1-97",
+        "navigation_id": "JDG.14:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 14:1-5 . Samson Desires a Wife of the Philistines.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.14.1",
+        "passage_end": "JDG.14.5",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 14:1-5 . Samson Desires a Wife of the Philistines.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/14.json",
+          "chapter_file_sha256": "a0313d2fc50bbabaf06481a3f7f4071b722ee60d2966631bb1992d1509521a00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.14:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.14.1-2:7:126090:1107",
+          "fragment_sha256": "60ae94ba313bb00504eda08ccdf71fbe3870fc320d0bae29655db359e4274797",
+          "character_span": [
+            97,
+            230
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.14:P:passage-heading-2-59",
+        "navigation_id": "JDG.14:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 14:5-9 . He Kills a Lion.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.14.5",
+        "passage_end": "JDG.14.9",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 14:5-9 . He Kills a Lion.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/14.json",
+          "chapter_file_sha256": "a0313d2fc50bbabaf06481a3f7f4071b722ee60d2966631bb1992d1509521a00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.14:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.14.5-9:7:128544:889",
+          "fragment_sha256": "9d58739f770d8763ac93f37ea13fe2b401347fb5a59d52a6cf115be5396f0ee9",
+          "character_span": [
+            59,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.14:P:passage-heading-3-59",
+        "navigation_id": "JDG.14:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 14:12-18 . His Riddle.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.14.12",
+        "passage_end": "JDG.14.18",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 14:12-18 . His Riddle.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/14.json",
+          "chapter_file_sha256": "a0313d2fc50bbabaf06481a3f7f4071b722ee60d2966631bb1992d1509521a00",
+          "section_id": "nav:jamieson-fausset-brown:JDG.14:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.14.12-18:7:131784:876",
+          "fragment_sha256": "c0d3536711a8490386678faa45828bb3f8d3455d324adb0449c94b88def25bb7",
+          "character_span": [
+            59,
+            166
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.15:P:passage-heading-1-59",
+        "navigation_id": "JDG.15:P:passage-heading-1-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 15:3-8 . He Burns the Philistines' Corn.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.15.3",
+        "passage_end": "JDG.15.8",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 15:3-8 . He Burns the Philistines' Corn.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/15.json",
+          "chapter_file_sha256": "13e50df38c7dfaf741cf19ed60c8b26e5ac339fb2a30a32ab6a1313d1575ecb6",
+          "section_id": "nav:jamieson-fausset-brown:JDG.15:P:passage-heading-1-59",
+          "source_entry_id": "sword:jfb:JDG.15.3-3:7:136603:500",
+          "fragment_sha256": "df3e12999cb93a6a108620941349f6891690a5e8a69f766a476e96da81961fab",
+          "character_span": [
+            59,
+            182
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.15:P:passage-heading-2-59",
+        "navigation_id": "JDG.15:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 15:9-13 . He Is Bound by the Men of Judah, and Delivered to the Philistines.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.15.9",
+        "passage_end": "JDG.15.13",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 15:9-13 . He Is Bound by the Men of Judah, and Delivered to the Philistines.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/15.json",
+          "chapter_file_sha256": "13e50df38c7dfaf741cf19ed60c8b26e5ac339fb2a30a32ab6a1313d1575ecb6",
+          "section_id": "nav:jamieson-fausset-brown:JDG.15:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.15.9-17:7:140056:1285",
+          "fragment_sha256": "a24aad3959c25ed2c020067addb785be5dd6c8794095d9e31f8e4f7c92d40ae5",
+          "character_span": [
+            59,
+            219
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-1-97",
+        "navigation_id": "JDG.16:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 16:1-3 . Samson Carries Away the Gates of Gaza.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.16.1",
+        "passage_end": "JDG.16.3",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 16:1-3 . Samson Carries Away the Gates of Gaza.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+          "chapter_file_sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21",
+          "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.16.1-2:7:142682:872",
+          "fragment_sha256": "b46d1183704672deb6fe0fd9aa52144c189bfc463e234d502b26fbe8b21913e8",
+          "character_span": [
+            97,
+            227
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-2-59",
+        "navigation_id": "JDG.16:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 16:4-14 . Delilah Corrupted by the Philistines.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.16.4",
+        "passage_end": "JDG.16.14",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 16:4-14 . Delilah Corrupted by the Philistines.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+          "chapter_file_sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21",
+          "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.16.4-4:7:144753:605",
+          "fragment_sha256": "edc8eee6ff1ce6eb32d1a82357798f9674d5d05300207e9f21a8a6680ac9d35a",
+          "character_span": [
+            59,
+            190
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-3-59",
+        "navigation_id": "JDG.16:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 16:15-20 . He Is Overcome.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.16.15",
+        "passage_end": "JDG.16.20",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 16:15-20 . He Is Overcome.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+          "chapter_file_sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21",
+          "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.16.16-16:7:149108:604",
+          "fragment_sha256": "69c060b060ec8e88f1af7d4d9a5587121f824591262abc3c4bc8e6db96b09bdb",
+          "character_span": [
+            59,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-4-59",
+        "navigation_id": "JDG.16:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 16:23-25 . Their Feast to Dagon.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.16.23",
+        "passage_end": "JDG.16.25",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 16:23-25 . Their Feast to Dagon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+          "chapter_file_sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21",
+          "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.16.23-23:7:152734:879",
+          "fragment_sha256": "9e21154db561a976b82dc086b89455c80604a7ad42555ff3ef4df43754a9a3ca",
+          "character_span": [
+            59,
+            176
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-5-59",
+        "navigation_id": "JDG.16:P:passage-heading-5-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 16:26-31 . His Death.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.16.26",
+        "passage_end": "JDG.16.31",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 16:26-31 . His Death.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/16.json",
+          "chapter_file_sha256": "9a68062139b87ea2ef6bd056cc137913738d0c9e28f404d74e82d01d5f15af21",
+          "section_id": "nav:jamieson-fausset-brown:JDG.16:P:passage-heading-5-59",
+          "source_entry_id": "sword:jfb:JDG.16.27-27:7:153613:1031",
+          "fragment_sha256": "2f15e29ce1625a7e72273cf7934433055ad615ae1b32d25fe576ff037acee0ee",
+          "character_span": [
+            59,
+            165
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.17:P:passage-heading-1-97",
+        "navigation_id": "JDG.17:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 17:1-4 . Micah Restoring the Stolen Money to His Mother, She Makes Images.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.17.1",
+        "passage_end": "JDG.17.4",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 17:1-4 . Micah Restoring the Stolen Money to His Mother, She Makes Images.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/17.json",
+          "chapter_file_sha256": "0791f3ecfc4cf008d116b8da2f2667c89448ca4682a93dcb5bca47d7e251e3e8",
+          "section_id": "nav:jamieson-fausset-brown:JDG.17:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.17.1-1:7:156410:1233",
+          "fragment_sha256": "6317bcd332222779677648b4fedc16ae7b713bd2ae6d6b0b1cd6d0ba62ed071d",
+          "character_span": [
+            97,
+            254
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.18:P:passage-heading-1-97",
+        "navigation_id": "JDG.18:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 18:1-26 . The Danites Seek Out an Inheritance.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.18.1",
+        "passage_end": "JDG.18.26",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 18:1-26 . The Danites Seek Out an Inheritance.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/18.json",
+          "chapter_file_sha256": "9550e8db7c7a255db0e8711eb00f3417176eb78f5585b8ee95b1200ce2e72879",
+          "section_id": "nav:jamieson-fausset-brown:JDG.18:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.18.1-6:7:163092:1971",
+          "fragment_sha256": "ebccc8e4f29ec8e5cc1fb6d9a8431427ee3cc65a3048d4675a771c6d141cf0c9",
+          "character_span": [
+            97,
+            227
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.18:P:passage-heading-2-59",
+        "navigation_id": "JDG.18:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 18:27-29 . They Win Laish.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.18.27",
+        "passage_end": "JDG.18.29",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 18:27-29 . They Win Laish.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/18.json",
+          "chapter_file_sha256": "9550e8db7c7a255db0e8711eb00f3417176eb78f5585b8ee95b1200ce2e72879",
+          "section_id": "nav:jamieson-fausset-brown:JDG.18:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.18.27-27:7:169570:900",
+          "fragment_sha256": "44f4282cf16551dffa3a9ee4a31812ff70333495cc4b1ee6b120de06cffafa56",
+          "character_span": [
+            59,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.19:P:passage-heading-1-97",
+        "navigation_id": "JDG.19:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 19:1-15 . A Levite Going to Bethlehem to Fetch His Wife.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.19.1",
+        "passage_end": "JDG.19.15",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 19:1-15 . A Levite Going to Bethlehem to Fetch His Wife.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/19.json",
+          "chapter_file_sha256": "7f06e6446cce4256166047e92376a4bf5cc32e1e895c52496a5f4aad79f4e268",
+          "section_id": "nav:jamieson-fausset-brown:JDG.19:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.19.1-1:7:171562:1174",
+          "fragment_sha256": "1fa97007f55be3b1ebb9fb505812d1e16fb079533c50956da2f85aa1ad9ab44d",
+          "character_span": [
+            97,
+            237
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.19:P:passage-heading-2-59",
+        "navigation_id": "JDG.19:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 19:16-21 . An Old Man Entertains Him at Gibeah.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.19.16",
+        "passage_end": "JDG.19.21",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 19:16-21 . An Old Man Entertains Him at Gibeah.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/19.json",
+          "chapter_file_sha256": "7f06e6446cce4256166047e92376a4bf5cc32e1e895c52496a5f4aad79f4e268",
+          "section_id": "nav:jamieson-fausset-brown:JDG.19:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.19.16-16:7:177624:565",
+          "fragment_sha256": "c3dee4b04c4acf38bb86c22e96fd3118315aa919a68c3e164a38f76475b34294",
+          "character_span": [
+            59,
+            191
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.19:P:passage-heading-3-59",
+        "navigation_id": "JDG.19:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 19:22-28 . The Gibeahites Abuse His Concubine to Death.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.19.22",
+        "passage_end": "JDG.19.28",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 19:22-28 . The Gibeahites Abuse His Concubine to Death.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/19.json",
+          "chapter_file_sha256": "7f06e6446cce4256166047e92376a4bf5cc32e1e895c52496a5f4aad79f4e268",
+          "section_id": "nav:jamieson-fausset-brown:JDG.19:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.19.22-24:7:179769:963",
+          "fragment_sha256": "8b9ca0d5887b4c11f2c611c00f4f5f204805c33a853a24742cded08041d37fd3",
+          "character_span": [
+            59,
+            199
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-1-97",
+        "navigation_id": "JDG.20:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 20:1-7 . The Levite, in a General Assembly, Declares His Wrong.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.20.1",
+        "passage_end": "JDG.20.7",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 20:1-7 . The Levite, in a General Assembly, Declares His Wrong.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/20.json",
+          "chapter_file_sha256": "59fda8d95e36534e4bda1d0675f3f7686437357de5110cd8bd36fc468d54fc8a",
+          "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.20.1-2:7:181260:1580",
+          "fragment_sha256": "e9aef69487add1750b145d1b07def863958496b1eae03c05df55f403b13e58fd",
+          "character_span": [
+            97,
+            243
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-2-59",
+        "navigation_id": "JDG.20:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 20:8-17 . Their Decree.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.20.8",
+        "passage_end": "JDG.20.17",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 20:8-17 . Their Decree.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/20.json",
+          "chapter_file_sha256": "59fda8d95e36534e4bda1d0675f3f7686437357de5110cd8bd36fc468d54fc8a",
+          "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.20.8-13:7:184294:1598",
+          "fragment_sha256": "259a566cd2d9b77043bfdeeca113d6abd743c81f451cd2530455e0731e7170e2",
+          "character_span": [
+            59,
+            166
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-3-59",
+        "navigation_id": "JDG.20:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 20:18-28 . The Israelites Lose Forty Thousand.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.20.18",
+        "passage_end": "JDG.20.28",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 20:18-28 . The Israelites Lose Forty Thousand.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/20.json",
+          "chapter_file_sha256": "59fda8d95e36534e4bda1d0675f3f7686437357de5110cd8bd36fc468d54fc8a",
+          "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:JDG.20.18-28:7:187155:1927",
+          "fragment_sha256": "027d79a2da7edd085b4db02d5bd1848d1782beca0d604bc3fc9a102e4337d3cb",
+          "character_span": [
+            59,
+            190
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-4-59",
+        "navigation_id": "JDG.20:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 20:29-48 . They Destroy All the Benjamites, Except Six Hundred.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.20.29",
+        "passage_end": "JDG.20.48",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 20:29-48 . They Destroy All the Benjamites, Except Six Hundred.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/20.json",
+          "chapter_file_sha256": "59fda8d95e36534e4bda1d0675f3f7686437357de5110cd8bd36fc468d54fc8a",
+          "section_id": "nav:jamieson-fausset-brown:JDG.20:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:JDG.20.29-48:7:189082:515",
+          "fragment_sha256": "5563c065c73a24a7cf0748fff3f4ea454b53d9677c4767ece312b29acb4e2b92",
+          "character_span": [
+            59,
+            207
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.21:P:passage-heading-1-97",
+        "navigation_id": "JDG.21:P:passage-heading-1-97",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 21:1-15 . The People Bewail The Desolation of Israel.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.21.1",
+        "passage_end": "JDG.21.15",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 21:1-15 . The People Bewail The Desolation of Israel.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/21.json",
+          "chapter_file_sha256": "89cc32dd508a98503a64cce62cd646cb454379283206e29f632b9317154a1859",
+          "section_id": "nav:jamieson-fausset-brown:JDG.21:P:passage-heading-1-97",
+          "source_entry_id": "sword:jfb:JDG.21.2-5:7:192660:1526",
+          "fragment_sha256": "4c507d2909d660f96cac3ee2a6c64ec99d2efeef27cb92d1caa680d0fffa2a19",
+          "character_span": [
+            97,
+            234
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JDG.21:P:passage-heading-2-59",
+        "navigation_id": "JDG.21:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jud 21:16-21 . The Elders Consult How to Find Wives for Those That Were Left.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.21.16",
+        "passage_end": "JDG.21.21",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Jud 21:16-21 . The Elders Consult How to Find Wives for Those That Were Left.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/jamieson-fausset-brown/JDG/21.json",
+          "chapter_file_sha256": "89cc32dd508a98503a64cce62cd646cb454379283206e29f632b9317154a1859",
+          "section_id": "nav:jamieson-fausset-brown:JDG.21:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:JDG.21.16-16:7:195961:595",
+          "fragment_sha256": "3d0f329215b2d0ba2e142fc9eec0668149f145c0159a2df4c18485dbc98fccbd",
+          "character_span": [
+            59,
+            217
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:GROUP:JOS-HISTORICAL:P:prophetical-histories",
+        "navigation_id": "GROUP:JOS-HISTORICAL:P:prophetical-histories",
+        "title": "Introduction · Prophetical Histories of the Old Testament",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/1.json",
+          "chapter_file_sha256": "0474a2a398b9a69c2022362f291af2ce3374a8cbd1e18aa317d18ff25d28c274",
+          "section_id": "nav:keil-delitzsch:GROUP:JOS-HISTORICAL:P:prophetical-histories",
+          "source_entry_id": "sword:kd:JOS.1.1-1:7:142:81798",
+          "fragment_sha256": "cce7fd8ef6b22ed6faf55fe60cb74908d08d2548026051a1b4a6f99e007e667a",
+          "character_span": [
+            0,
+            32132
+          ]
+        },
+        "source_evidence": "Source heading expressly addresses prophetical histories; Ruth expressly excluded by KD Ruth introduction",
+        "author_id": "keil-delitzsch",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "original_scope": "book_group",
+        "applicability_basis": "source_group_historical_prophetical_books_includes_judges"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:JDG:P:book-introduction",
+        "navigation_id": "JDG:P:book-introduction",
+        "author_id": "keil-delitzsch",
+        "title": "Introduction · Judges",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "The Book of Judges Introduction Contents, and Character, Origin and Sources, of the Book of Judges\nThe book of Judges, headed Shophetim in the Hebrew Bibles, and Κριταί in the Alexandrian version, and called liber Judicum in the Vulgate, contains the history of the Israelitish theocracy for a period",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/1.json",
+          "chapter_file_sha256": "691d96b96847794eb18825c90e5b36170c50ceb4d35237b6ebcce2a7141c0188",
+          "section_id": "nav:keil-delitzsch:JDG:P:book-introduction",
+          "source_entry_id": "sword:kd:JDG.1.1-2:8:142:38805",
+          "fragment_sha256": "600f8fc2f782da3157cb3a18821644687ae7e21671c3fa2c786e633403ee04f1",
+          "character_span": [
+            0,
+            8469
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:JDG.3:P:passage-heading-0-51258",
+        "navigation_id": "JDG.3:P:passage-heading-0-51258",
+        "author_id": "keil-delitzsch",
+        "title": "1. Times Of The Judges: Othniel; Ehud And Shamgar, Deborah And Barak - Judges 3:7-5:31",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.3.7",
+        "passage_end": "JDG.5.31",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "1. Times Of The Judges: Othniel; Ehud And Shamgar, Deborah And Barak - Judges 3:7-5:31",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/3.json",
+          "chapter_file_sha256": "63a037c9c69629cc07ad5f9f51eed1cf5cd81c5b6ca4f0fcd66c1d8317a6d710",
+          "section_id": "nav:keil-delitzsch:JDG.3:P:passage-heading-0-51258",
+          "source_entry_id": "sword:kd:JDG.3.7-11:8:118407:54831",
+          "fragment_sha256": "8a8f541b03a82c838b763017b3acb5eb874df7f6c4888d96cce64c708bd905a8",
+          "character_span": [
+            51258,
+            51370
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:JDG.21:P:passage-heading-0-32",
+        "navigation_id": "JDG.21:P:passage-heading-0-32",
+        "author_id": "keil-delitzsch",
+        "title": "Preservation of the Tribe of Benjamin - The Remnant Provided with Wives - Judges 21",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": "JDG.21.1",
+        "passage_end": "JDG.21.1",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Preservation of the Tribe of Benjamin - The Remnant Provided with Wives - Judges 21",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/keil-delitzsch/JDG/21.json",
+          "chapter_file_sha256": "dee44dac1a325a9a00c34fefae74a971c53ba34cde18a7e8a557622d55ffb720",
+          "section_id": "nav:keil-delitzsch:JDG.21:P:passage-heading-0-32",
+          "source_entry_id": "sword:kd:JDG.21.1-1:8:704554:2161",
+          "fragment_sha256": "a2a8ae27d314df83f20396a93e65aad2342d054132969d5f622a7c5992b29d8f",
+          "character_span": [
+            32,
+            142
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:JDG:P:book-introduction",
+        "navigation_id": "JDG:P:book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Judges",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JDG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "INTRODUCTION TO JUDGES \n\nThe title of this book in the Hebrew copies is Sepher Shophetim, the Book of Judges; but the Syriac and Arabic interpreters call it, \n\n\"the Book of the Judges of the Children of Israel;'' \n\nand the Septuagint only Judges; so called, not because it was written by them, though",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-judges-2026-11-05/authors/john-gill/JDG/1.json",
+          "chapter_file_sha256": "3070a19b4a0cf90e568f3a9d314e02c375e1a88fc67eb4f14b9a4f2e51feaf4b",
+          "section_id": "nav:john-gill:JDG:P:book-introduction",
+          "source_entry_id": "helloao:john-gill:JDG:book-introduction",
+          "fragment_sha256": "a0e1615cc4ea298543ef18a6e4090edfe1f05fedea35e7c369931e80bcbc10ae",
+          "character_span": [
+            0,
+            2903
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Source-derived headings are non-Scripture; a source file location alone is not proof of applicability.",
+    "Passage headings use inclusive, directly bounded local Scripture ranges; out-of-range P links reset to verse.",
+    "Existing accepted GEN/EXO/LEV/NUM/DEU/JOS source records are reused read-only through exact source pointers.",
+    "The JFB Prophetical Books group names Judges among the former prophets; it does not name Ruth.",
+    "Keil and Delitzsch expressly classify Ruth outside the prophetical books of history; do not add the Joshua group introduction to Ruth.",
+    "JFB legacy held-unmapped registry is not overwritten by this book-specific source-backed eligibility; these two book coverage overlays are authoritative for reader selection."
+  ]
+}

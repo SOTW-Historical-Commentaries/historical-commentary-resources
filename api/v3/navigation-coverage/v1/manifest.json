@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.1-additive-deu-jos",
+  "version": "navigation-coverage-v1.2-additive-jdg-rut",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -10,7 +10,9 @@
     "LEV",
     "NUM",
     "DEU",
-    "JOS"
+    "JOS",
+    "JDG",
+    "RUT"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -18,7 +20,9 @@
     "LEV": "structured-leviticus-2026-11-03",
     "NUM": "structured-numbers-2026-11-03",
     "DEU": "structured-deuteronomy-2026-11-04",
-    "JOS": "structured-joshua-2026-11-04"
+    "JOS": "structured-joshua-2026-11-04",
+    "JDG": "structured-judges-2026-11-05",
+    "RUT": "structured-ruth-2026-11-05"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -32,7 +36,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 849,
+    "original_P_sections": 984,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -40,7 +44,9 @@
       "LEV": 115,
       "NUM": 149,
       "DEU": 210,
-      "JOS": 184
+      "JOS": 184,
+      "JDG": 110,
+      "RUT": 25
     },
     "routed_by_book": {
       "GEN": 64,
@@ -48,16 +54,19 @@
       "LEV": 119,
       "NUM": 153,
       "DEU": 213,
-      "JOS": 185
+      "JOS": 185,
+      "JDG": 114,
+      "RUT": 27
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1",
+  "previous_manifest_version": "navigation-coverage-v1.1-additive-deu-jos",
   "additive_release_notes": [
-    "Existing four coverage files and immutable chapter snapshots remain byte-for-byte unchanged.",
-    "JFB introduction to the Pentateuch and historical books is added to Joshua eligibility by a separate source-backed Joshua coverage entry.",
-    "MHC Joshua-to-Esther volume preface and KD introduction to prophetical histories are eligible in Joshua; later historical books require independent mapping.",
-    "Three other JFB book-group introductions remain held in existing held-unmapped.json.",
-    "Passage_heading P sections are verse/range-bounded, not whole-chapter defaults.",
-    "No direct production UI or media player changes."
+    "Existing six-book source snapshots, six P book coverage JSONs and both prior reader HTMLs remain untouched.",
+    "Judges and Ruth each have all six source-faithful author-chapter records with explicit empty states.",
+    "JFB historical books introduction is eligible for both Judges and Ruth from original GEN source evidence.",
+    "JFB Prophetical Books introduction is eligible for Judges only from explicit former-prophets source list. Ruth is not eligible.",
+    "MHC Joshua-to-Esther historical volume preface applies to both books; KD prophetical-histories preface applies to Judges, not Ruth.",
+    "Original P source text stays in immutable originals; passage headings use bounded ranges, no verse zero.",
+    "No production Bible Tools/media-player changes."
   ]
 }

@@ -1,0 +1,812 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "RUT",
+  "snapshot_id": "structured-ruth-2026-11-05",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation sections are historical source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "navigation_id": "GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "title": "Preface · Joshua to Esther",
+        "role": "volume_preface",
+        "scope": "book_group",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json",
+          "chapter_file_sha256": "bda684d25cee03c45af6c0d07f31e86d39ec2ab8c5dcb8ba60acbe1867be8b58",
+          "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+          "source_entry_id": "sword:mhc:JOS.1.1-9:6:231:55617",
+          "fragment_sha256": "55aae99795c47ab5311a1a96180d3328e0842e93191b799ea2479594c35fb49a",
+          "character_span": [
+            0,
+            26969
+          ]
+        },
+        "source_evidence": "Joshua to Esther | historical volume preface",
+        "author_id": "matthew-henry",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "original_scope": "book_group",
+        "applicability_basis": "source_explicit_historical_book_scope"
+      },
+      {
+        "section_id": "nav:matthew-henry:RUT:P:book-introduction",
+        "navigation_id": "RUT:P:book-introduction",
+        "author_id": "matthew-henry",
+        "title": "Introduction · Ruth",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Ruth\nThis short history of the domestic affairs of one particular family fitly follows the book of Judges (the events related here happening in the days of the judges), and fitly goes before the books of Samuel, because in the close it introduces David; yet the Jews, in their Bibles, separate it fro",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/matthew-henry/RUT/1.json",
+          "chapter_file_sha256": "c3b06440c2a04fbdfbc4eb7194168708d2791d12cde96ae752b3a627c0e235d3",
+          "section_id": "nav:matthew-henry:RUT:P:book-introduction",
+          "source_entry_id": "sword:mhc:RUT.1.1-5:8:229:15333",
+          "fragment_sha256": "d45482ac2a9545d5e669fe560d862e8000bc98daacb44020cf669efbcedaec41",
+          "character_span": [
+            0,
+            3730
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:RUT.1:P:passage-heading-1-3730",
+        "navigation_id": "RUT.1:P:passage-heading-1-3730",
+        "author_id": "matthew-henry",
+        "title": "Elimelech and Naomi; Death of Elimelech and His Sons. ( b. c. 1312.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.1.1",
+        "passage_end": "RUT.1.5",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Elimelech and Naomi; Death of Elimelech and His Sons. ( b. c. 1312.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/matthew-henry/RUT/1.json",
+          "chapter_file_sha256": "c3b06440c2a04fbdfbc4eb7194168708d2791d12cde96ae752b3a627c0e235d3",
+          "section_id": "nav:matthew-henry:RUT.1:P:passage-heading-1-3730",
+          "source_entry_id": "sword:mhc:RUT.1.1-5:8:229:15333",
+          "fragment_sha256": "2a4a2bdb9ee250bb58e167660ef2251d325934e9127f1feb2bf310644cf39255",
+          "character_span": [
+            3730,
+            3851
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:RUT:P:book-preface",
+        "navigation_id": "RUT:P:book-preface",
+        "author_id": "adam-clarke",
+        "title": "Preface · Ruth",
+        "role": "book_preface",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Preface to the Book of Ruth\nWhen and by whom the book of Ruth was written, are points not agreed on among critics and commentators.\nAs to the transactions recorded in it, they are variously placed. In the book itself there is no other notation of time than merely this, that the things came to pass i",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/1.json",
+          "chapter_file_sha256": "e18646400dc765cc22a38478378de0b268752d2c9488dce0776a04e7842f943e",
+          "section_id": "nav:adam-clarke:RUT:P:book-preface",
+          "source_entry_id": "sword:clarke:RUT.1.1-1:8:253:6769",
+          "fragment_sha256": "07186179a6bad01acca7787a00f2a4daa5a40cd838ddda8c30182b2a56dd3ea6",
+          "character_span": [
+            0,
+            5490
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:RUT.2:P:chapter-introduction",
+        "navigation_id": "RUT.2:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Ruth 2 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nRuth goes to glean in the field of Boaz, Rut 2:1-3 . Boaz finds her, and inquires who she is, Rut 2:4-7 . He speaks kindly to her, gives her permission to follow his reapers, and orders them to use her well, Rut 2:8-16 . She returns in the evening to Naomi, and tells her of her fare; fr",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/2.json",
+          "chapter_file_sha256": "e217358547c4e10c77af43f13139f715284d3a012139716132ce361eb1561695",
+          "section_id": "nav:adam-clarke:RUT.2:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:RUT.2.1-1:8:17906:1108",
+          "fragment_sha256": "02b16b6ab5602b8a8e6136584d1a771d84e4e384ae9363de875039baf516760b",
+          "character_span": [
+            32,
+            856
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:RUT.3:P:chapter-introduction",
+        "navigation_id": "RUT.3:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Ruth 3 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nNaomi's advice to Ruth, how to procure herself a marriage with Boaz, Rut 3:1-5 . She acts according to her mother-in-law's direction, and is kindly received by Boaz, who promises to marry her, should her nearer kinsman refuse, Rut 3:6-13 . He gives her six measures of barley, and sends ",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/3.json",
+          "chapter_file_sha256": "11d5b3b4b34b0965b35c3f84c25905b0d7889f21fff1ef58b819d2cd29fa6375",
+          "section_id": "nav:adam-clarke:RUT.3:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:RUT.3.1-1:8:33945:1155",
+          "fragment_sha256": "6b6c88500b30102f2b6ffcaecedb8970785c0ee1f626a2dae5df7ea88e2af778",
+          "character_span": [
+            32,
+            862
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:RUT.4:P:chapter-introduction",
+        "navigation_id": "RUT.4:P:chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Ruth 4 · Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction\nBoaz gathers a council of the elders at the city gates, states the case, and proposes to the nearest kinsman to redeem the inheritance of Elimelech, and take Ruth to wife, Rut 4:1-5 . The kinsman refuses, and relinquishes has right to Boaz, Rut 4:6 . The manner of redemption in such cas",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/adam-clarke/RUT/4.json",
+          "chapter_file_sha256": "e71ea941e9359ce551eb2a2bbc8c1e0a94fe318bb5477ab1d8580c13e21b6a0a",
+          "section_id": "nav:adam-clarke:RUT.4:P:chapter-introduction",
+          "source_entry_id": "sword:clarke:RUT.4.1-1:8:42992:2568",
+          "fragment_sha256": "e88e731864dfd5ebec3e444dcded378c120930895720c6426a912528e52a2efc",
+          "character_span": [
+            32,
+            1499
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+        "navigation_id": "GROUP:GEN-HISTORICAL:P:gen-historical",
+        "title": "Introduction to Pentateuch and historical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "539074c824eb6cf2cfb472df08f2ce3a36cbd9765367eae3efaac4d907513015",
+          "character_span": [
+            56,
+            30473
+          ]
+        },
+        "source_evidence": "Introductory work heading explicitly addresses historical books",
+        "author_id": "jamieson-fausset-brown",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "original_scope": "book_group",
+        "applicability_basis": "source_explicit_historical_book_scope"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT:P:book-introduction",
+        "navigation_id": "RUT:P:book-introduction",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction · Ruth",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "THE BOOK OF RUTH.\nCommentary by Robert Jamieson",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/1.json",
+          "chapter_file_sha256": "b417af1fabd44bd575c708ead142bc581b9a23eeba9a51572e4fca21beb95449",
+          "section_id": "nav:jamieson-fausset-brown:RUT:P:book-introduction",
+          "source_entry_id": "sword:jfb:RUT.1.1-1:8:238:694",
+          "fragment_sha256": "d434d4b923999b308ab86bd0ee8f6d871fd0d916dd404f34a81669f001ef58c1",
+          "character_span": [
+            0,
+            197
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.1:P:chapter-heading-1-197",
+        "navigation_id": "RUT.1:P:chapter-heading-1-197",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ruth 1 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/1.json",
+          "chapter_file_sha256": "b417af1fabd44bd575c708ead142bc581b9a23eeba9a51572e4fca21beb95449",
+          "section_id": "nav:jamieson-fausset-brown:RUT.1:P:chapter-heading-1-197",
+          "source_entry_id": "sword:jfb:RUT.1.1-1:8:238:694",
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            197,
+            232
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.2:P:chapter-heading-0-59",
+        "navigation_id": "RUT.2:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ruth 2 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/2.json",
+          "chapter_file_sha256": "5fba2825f301c3cb15e5d3e8bdca95e0b0fdb353d906cae020e8fd5df387e170",
+          "section_id": "nav:jamieson-fausset-brown:RUT.2:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:RUT.2.2-2:8:7356:816",
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.3:P:chapter-heading-0-59",
+        "navigation_id": "RUT.3:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ruth 3 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/3.json",
+          "chapter_file_sha256": "ba00261301e6e13bb95cba13e4023a3f13a55641f3ff8e9ea692bac63699f24d",
+          "section_id": "nav:jamieson-fausset-brown:RUT.3:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:RUT.3.2-2:8:15272:1396",
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.4:P:chapter-heading-0-59",
+        "navigation_id": "RUT.4:P:chapter-heading-0-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ruth 4 · chapter heading",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/4.json",
+          "chapter_file_sha256": "65da2edf9c1d9d364de73a041829e00e3e2706b8e48f6262f74cad18ff0311e8",
+          "section_id": "nav:jamieson-fausset-brown:RUT.4:P:chapter-heading-0-59",
+          "source_entry_id": "sword:jfb:RUT.4.1-1:8:19520:891",
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.1:P:passage-heading-2-233",
+        "navigation_id": "RUT.1:P:passage-heading-2-233",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 1:1-5 . Elimelech, Driven by Famine into Moab, Dies There.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.1.1",
+        "passage_end": "RUT.1.5",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 1:1-5 . Elimelech, Driven by Famine into Moab, Dies There.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/1.json",
+          "chapter_file_sha256": "b417af1fabd44bd575c708ead142bc581b9a23eeba9a51572e4fca21beb95449",
+          "section_id": "nav:jamieson-fausset-brown:RUT.1:P:passage-heading-2-233",
+          "source_entry_id": "sword:jfb:RUT.1.1-1:8:238:694",
+          "fragment_sha256": "b5d9e19df92c0f383116ad0f6cbcb1d92dbcadda6332470cbd46a7d486b9affb",
+          "character_span": [
+            233,
+            371
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.1:P:passage-heading-3-59",
+        "navigation_id": "RUT.1:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 1:6-18 . Naomi Returning Home, Ruth Accompanies Her.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.1.6",
+        "passage_end": "RUT.1.18",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 1:6-18 . Naomi Returning Home, Ruth Accompanies Her.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/1.json",
+          "chapter_file_sha256": "b417af1fabd44bd575c708ead142bc581b9a23eeba9a51572e4fca21beb95449",
+          "section_id": "nav:jamieson-fausset-brown:RUT.1:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:RUT.1.6-7:8:2570:645",
+          "fragment_sha256": "de1fc36dbe04c22b2da0464aa8ff5ecea1509b41f846b710067c00fe79cd63b2",
+          "character_span": [
+            59,
+            192
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.1:P:passage-heading-4-59",
+        "navigation_id": "RUT.1:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 1:19-22 . They Come to Beth-lehem.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.1.19",
+        "passage_end": "RUT.1.22",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 1:19-22 . They Come to Beth-lehem.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/1.json",
+          "chapter_file_sha256": "b417af1fabd44bd575c708ead142bc581b9a23eeba9a51572e4fca21beb95449",
+          "section_id": "nav:jamieson-fausset-brown:RUT.1:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:RUT.1.19-22:8:6455:552",
+          "fragment_sha256": "ce5f89c957990ca81f25af75cb35f49bf7b65f80f1c07485f14cbd1e843952cd",
+          "character_span": [
+            59,
+            175
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.2:P:passage-heading-1-96",
+        "navigation_id": "RUT.2:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 2:1-3 . Ruth Gleans in the Field of Boaz.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.2.1",
+        "passage_end": "RUT.2.3",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 2:1-3 . Ruth Gleans in the Field of Boaz.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/2.json",
+          "chapter_file_sha256": "5fba2825f301c3cb15e5d3e8bdca95e0b0fdb353d906cae020e8fd5df387e170",
+          "section_id": "nav:jamieson-fausset-brown:RUT.2:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:RUT.2.2-2:8:7356:816",
+          "fragment_sha256": "6fb92256ddeea8824d59716d733944e2d0b2a21c091d79768bea43274817b050",
+          "character_span": [
+            96,
+            217
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.2:P:passage-heading-2-59",
+        "navigation_id": "RUT.2:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 2:4-23 . He Takes Knowledge of Her, and Shows Her Favor.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.2.4",
+        "passage_end": "RUT.2.23",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 2:4-23 . He Takes Knowledge of Her, and Shows Her Favor.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/2.json",
+          "chapter_file_sha256": "5fba2825f301c3cb15e5d3e8bdca95e0b0fdb353d906cae020e8fd5df387e170",
+          "section_id": "nav:jamieson-fausset-brown:RUT.2:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:RUT.2.4-4:8:8572:754",
+          "fragment_sha256": "9a5196c5f020a818ac32c86d747e038bc111068c04a93ac0fa26b55acae716db",
+          "character_span": [
+            59,
+            196
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.3:P:passage-heading-1-96",
+        "navigation_id": "RUT.3:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 3:1-13 . By Naomi's Instructions, Ruth Lies at Boaz's Feet, Who Acknowledges the Duty of a Kinsman.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.3.1",
+        "passage_end": "RUT.3.13",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 3:1-13 . By Naomi's Instructions, Ruth Lies at Boaz's Feet, Who Acknowledges the Duty of a Kinsman.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/3.json",
+          "chapter_file_sha256": "ba00261301e6e13bb95cba13e4023a3f13a55641f3ff8e9ea692bac63699f24d",
+          "section_id": "nav:jamieson-fausset-brown:RUT.3:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:RUT.3.2-2:8:15272:1396",
+          "fragment_sha256": "f83e965c850d36b36549cf23a8f4c816b47ff168f746c3b214d4afeec2c24961",
+          "character_span": [
+            96,
+            276
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-1-96",
+        "navigation_id": "RUT.4:P:passage-heading-1-96",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 4:1-5 . Boaz Calls into Judgment the Next Kinsman.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.4.1",
+        "passage_end": "RUT.4.5",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 4:1-5 . Boaz Calls into Judgment the Next Kinsman.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/4.json",
+          "chapter_file_sha256": "65da2edf9c1d9d364de73a041829e00e3e2706b8e48f6262f74cad18ff0311e8",
+          "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-1-96",
+          "source_entry_id": "sword:jfb:RUT.4.1-1:8:19520:891",
+          "fragment_sha256": "a2fe02ff1a4a0f72f99fa298c08da678dcc336e50befb43a6d109b732c02e376",
+          "character_span": [
+            96,
+            226
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-2-59",
+        "navigation_id": "RUT.4:P:passage-heading-2-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 4:6-8 . He Refuses the Redemption.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.4.6",
+        "passage_end": "RUT.4.8",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 4:6-8 . He Refuses the Redemption.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/4.json",
+          "chapter_file_sha256": "65da2edf9c1d9d364de73a041829e00e3e2706b8e48f6262f74cad18ff0311e8",
+          "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-2-59",
+          "source_entry_id": "sword:jfb:RUT.4.6-6:8:22039:862",
+          "fragment_sha256": "d95ac117668c0f57dbb9cf6a666d89bf1d82f17cc799d3aea5ac4e8ab52b2546",
+          "character_span": [
+            59,
+            173
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-3-59",
+        "navigation_id": "RUT.4:P:passage-heading-3-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 4:9-12 . He Marries Ruth.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.4.9",
+        "passage_end": "RUT.4.12",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 4:9-12 . He Marries Ruth.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/4.json",
+          "chapter_file_sha256": "65da2edf9c1d9d364de73a041829e00e3e2706b8e48f6262f74cad18ff0311e8",
+          "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-3-59",
+          "source_entry_id": "sword:jfb:RUT.4.9-9:8:23507:725",
+          "fragment_sha256": "77ed9c07ed07361ab913ad95c6ae02c1001dfa44293375f5fccd57924f76e285",
+          "character_span": [
+            59,
+            165
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-4-59",
+        "navigation_id": "RUT.4:P:passage-heading-4-59",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ru 4:13-18 . She Bears Obed.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.4.13",
+        "passage_end": "RUT.4.18",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ru 4:13-18 . She Bears Obed.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/jamieson-fausset-brown/RUT/4.json",
+          "chapter_file_sha256": "65da2edf9c1d9d364de73a041829e00e3e2706b8e48f6262f74cad18ff0311e8",
+          "section_id": "nav:jamieson-fausset-brown:RUT.4:P:passage-heading-4-59",
+          "source_entry_id": "sword:jfb:RUT.4.17-17:8:25741:336",
+          "fragment_sha256": "f2a24cc5675328963044503844160a3a8990e99daffc2b9eef820f3eea7af022",
+          "character_span": [
+            59,
+            166
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:RUT:P:book-introduction",
+        "navigation_id": "RUT:P:book-introduction",
+        "author_id": "keil-delitzsch",
+        "title": "Introduction · Ruth",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "Introduction Content, Character, and Origin of the Book of Ruth\nThe book of Ruth (Ῥούθ) introduces us to the family life of the ancestors of king David, and informs us, in a simple and attractive form of historical narrative, and one in harmony with the tender and affectionate contents, how Ruth the",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/1.json",
+          "chapter_file_sha256": "02ed25527a43dd39ab9ea264f353c40e4ee5b56374b18fe6f545a8c802eb247d",
+          "section_id": "nav:keil-delitzsch:RUT:P:book-introduction",
+          "source_entry_id": "sword:kd:RUT.1.1-1:9:142:21010",
+          "fragment_sha256": "9932cf59dc1e473d7eb16a9cd21cb3aae8c0e37f0417435cdb99d07c46c0be10",
+          "character_span": [
+            466,
+            15360
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:RUT.1:P:passage-heading-1-15360",
+        "navigation_id": "RUT.1:P:passage-heading-1-15360",
+        "author_id": "keil-delitzsch",
+        "title": "Ruth Goes With Naomi to Bethlehem - Ruth 1",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.1.1",
+        "passage_end": "RUT.1.1",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Ruth Goes With Naomi to Bethlehem - Ruth 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/1.json",
+          "chapter_file_sha256": "02ed25527a43dd39ab9ea264f353c40e4ee5b56374b18fe6f545a8c802eb247d",
+          "section_id": "nav:keil-delitzsch:RUT.1:P:passage-heading-1-15360",
+          "source_entry_id": "sword:kd:RUT.1.1-1:9:142:21010",
+          "fragment_sha256": "2345b4cf5b9736c7e845fc098849b1e408f1b414841ed97be02200d11d39c55b",
+          "character_span": [
+            15360,
+            15429
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:RUT.4:P:passage-heading-0-32",
+        "navigation_id": "RUT.4:P:passage-heading-0-32",
+        "author_id": "keil-delitzsch",
+        "title": "Boaz Marries Ruth - Ruth 4",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": "RUT.4.1",
+        "passage_end": "RUT.4.1",
+        "applicability_basis": "native_shared_sword_record_and_source_heading",
+        "source_evidence": "Boaz Marries Ruth - Ruth 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/keil-delitzsch/RUT/4.json",
+          "chapter_file_sha256": "2d8645310a6504f0dcfabe986519743d4d242ac4b8e57639f55baf96b43c8e17",
+          "section_id": "nav:keil-delitzsch:RUT.4:P:passage-heading-0-32",
+          "source_entry_id": "sword:kd:RUT.4.1-1:9:71554:2363",
+          "fragment_sha256": "8f7694352e085f7e90657b2b90baca70fba999b3fce0f0e9c3cbd54a14849545",
+          "character_span": [
+            32,
+            85
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:RUT:P:book-introduction",
+        "navigation_id": "RUT:P:book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Ruth",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "RUT"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_markup_heading_and_book_or_chapter_identity",
+        "source_evidence": "INTRODUCTION TO RUTH \n\nThis book is called Ruth, not because she was the author of it, but because she is the principal subject of it. In the Syriac and Arabic versions, it is called the Book of Ruth the Moabitess, which describes her by the country of which she was. Her name, according to Hillerus ",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ruth-2026-11-05/authors/john-gill/RUT/1.json",
+          "chapter_file_sha256": "3aaa5bf703ed7fbd9c1e8012d7f901ee69fbccb558c2aeeb821fa6e6b0d609a8",
+          "section_id": "nav:john-gill:RUT:P:book-introduction",
+          "source_entry_id": "helloao:john-gill:RUT:book-introduction",
+          "fragment_sha256": "21f210658f2eff2cf8a3bbbb6158b48cdf29df6f1b1b3b342dddcb9c9f5d2dcb",
+          "character_span": [
+            0,
+            2121
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Source-derived headings are non-Scripture; a source file location alone is not proof of applicability.",
+    "Passage headings use inclusive, directly bounded local Scripture ranges; out-of-range P links reset to verse.",
+    "Existing accepted GEN/EXO/LEV/NUM/DEU/JOS source records are reused read-only through exact source pointers.",
+    "The JFB Prophetical Books group names Judges among the former prophets; it does not name Ruth.",
+    "Keil and Delitzsch expressly classify Ruth outside the prophetical books of history; do not add the Joshua group introduction to Ruth.",
+    "JFB legacy held-unmapped registry is not overwritten by this book-specific source-backed eligibility; these two book coverage overlays are authoritative for reader selection."
+  ]
+}
