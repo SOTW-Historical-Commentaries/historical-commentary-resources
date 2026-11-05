@@ -1,0 +1,555 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-joshua-2026-11-04",
+  "canonical_chapter": "JOS.13",
+  "verse_count": 33,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 33
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-joshua-2026-11-04/authors/john-calvin/JOS/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 6
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-joshua-2026-11-04/authors/adam-clarke/JOS/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 21,
+      "reader_visible_entries": 21,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 21
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-joshua-2026-11-04/authors/jamieson-fausset-brown/JOS/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 3,
+      "reader_visible_entries": 3,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 8
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-joshua-2026-11-04/authors/keil-delitzsch/JOS/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 9,
+      "reader_visible_entries": 9,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 22
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-joshua-2026-11-04/authors/john-gill/JOS/13.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 33,
+      "reader_visible_entries": 33,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 33
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        3
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        1
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        1
+      ],
+      "john-gill": [
+        32
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:JOS.13:P:section-heading-0-73",
+        "navigation_id": "JOS.13:P:section-heading-0-73",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "The Distribution of Canaan. (b. c. 1445.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:JOS.13:P:chapter-introduction",
+        "navigation_id": "JOS.13:P:chapter-introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "title": "Introduction · Joshua 13"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOS.13:P:chapter-heading-0-59",
+        "navigation_id": "JOS.13:P:chapter-heading-0-59",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "title": "Joshua 13 · chapter heading"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOS.13:P:passage-heading-0-97",
+        "navigation_id": "JOS.13:P:passage-heading-0-97",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "Joshua 13 · Jos 13:1-33. Bounds of the Land Not Yet Conquered."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:JOS.13:P:section-heading-0-32",
+        "navigation_id": "JOS.13:P:section-heading-0-32",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "II. Division of the Land of Canaan Among the Tribes of Israel - Joshua 13-24"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:JOS.13:P:section-heading-0-12012",
+        "navigation_id": "JOS.13:P:section-heading-0-12012",
+        "role": "passage_heading",
+        "scope": "passage",
+        "title": "COMMAND OF GOD TO DIVIDE THE LAND OF CANAAN. DESCRIPTION OF THE TERRITORY OF THE TWO TRIBES AND A HALF. — CHAP. XIII."
+      }
+    ],
+    "john-gill": []
+  },
+  "nav_policy": "P titles are only source evidence; authoritative applicability is navigation-coverage/v1/books/{BOOK}.json. Verse routes are original indexed source records only."
+}
