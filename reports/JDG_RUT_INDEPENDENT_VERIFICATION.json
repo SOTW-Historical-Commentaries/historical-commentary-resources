@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": "independent_source_record_byte_index_navigation_rights_and_book_coverage",
+  "assertions_total": 25424,
+  "assertions_passed": 25424,
+  "failures": [],
+  "per_book": {
+    "JDG": {
+      "chapters": 21,
+      "author_chapters": 126,
+      "original_entries": 1606,
+      "navigation_sections_source": 110,
+      "navigation_sections_routed": 114,
+      "status_counts": {
+        "sword_chapters": 105,
+        "explicit_unavailable_chapters": 21,
+        "helloao_chapters": 21
+      },
+      "verse_count": 618,
+      "all_source_archive_hashes_verified": true
+    },
+    "RUT": {
+      "chapters": 4,
+      "author_chapters": 24,
+      "original_entries": 237,
+      "navigation_sections_source": 25,
+      "navigation_sections_routed": 27,
+      "status_counts": {
+        "sword_chapters": 20,
+        "explicit_unavailable_chapters": 4,
+        "helloao_chapters": 4
+      },
+      "verse_count": 85,
+      "all_source_archive_hashes_verified": true
+    }
+  },
+  "original_source_archive_sha256_verified": {
+    "MHC": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "original_sources_mutated": false,
+  "independent_byte_check": "Every SWORD OSIS entry decoded and compared byte-for-byte with original zCom/zCom4 indexes; every HelloAO item compared with original JSON.",
+  "navigator_check": "Every new local P source span and fragment SHA verified against emitted immutable source, plus source-verified historical group fragments from original GEN/JOS archives.",
+  "rights_policy": "Original SWORD conf licenses and HelloAO original catalog metadata retained. No Bible-translation verse text bundled.",
+  "limitations": [
+    "Original source binary indexing identifies a shared comment record for a range, not unique exposition for every verse.",
+    "Source/record integrity is independent of browser rendering. Chromium smoke tests are separately reported.",
+    "Previously accepted GEN–JOS source JSON hash locks are reused by verified pointers and not rewritten in this additive payload."
+  ]
+}

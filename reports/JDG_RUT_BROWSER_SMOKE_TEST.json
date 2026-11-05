@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED_BY_ADMINISTRATOR",
+  "browser_rendering_verified": false,
+  "checks": 0,
+  "passed": 0,
+  "failures": [
+    "Chromium page.goto to the isolated local staging HTTP server returned net::ERR_BLOCKED_BY_ADMINISTRATOR; local page rendering could not be evaluated."
+  ],
+  "environment": "Playwright Chromium installed; localhost port 8765 static staging reader server",
+  "source_js_audit": "reports/JDG_RUT_ACTUAL_READER_JS_TESTS.json",
+  "required_followup": "After the owner manually uploads the complete ZIP and GitHub Pages reports success for the final commit, visually inspect both public readers and test their verse and P/deep-link boundaries.",
+  "reader_urls": [
+    "https://sotw-historical-commentaries.github.io/historical-commentary-resources/review-judges-v3.html",
+    "https://sotw-historical-commentaries.github.io/historical-commentary-resources/review-ruth-v3.html"
+  ],
+  "note": "Staging source and JavaScript test PASS does not imply browser render success, GitHub Pages deployment or owner signoff."
+}

@@ -1,0 +1,725 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-ruth-2026-11-05",
+  "author_id": "adam-clarke",
+  "book_id": "RUT",
+  "chapter": 2,
+  "canonical_chapter": "RUT.2",
+  "versification": "KJV",
+  "verse_count": 23,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen9308\" type=\"x-p\"/> <chapter n=\"2\" osisID=\"Ruth.2\" sID=\"Ruth.2\"/> ",
+      "source_record_sha256": "bc1ac70972e5169838222429dba017f5eef8f224e215e9db900159fe190c17f9",
+      "index_record": {
+        "block": 8,
+        "offset": 17828,
+        "length": 78
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:RUT.2.1-1:8:17906:1108",
+      "passage_start": "RUT.2.1",
+      "passage_end": "RUT.2.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen9308\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen9309\" type=\"introduction\"/> <div sID=\"gen9310\" type=\"x-p\"/> <div eID=\"gen9310\" type=\"x-p\"/> <div eID=\"gen9309\" type=\"introduction\"/> <div sID=\"gen9311\" type=\"x-p\"/> Ruth goes to glean in the field of Boaz, <reference osisRef=\"Rut.2.1-Rut.2.3\">Rut 2:1-3</reference>. Boaz finds her, and inquires who she is, <reference osisRef=\"Rut.2.4-Rut.2.7\">Rut 2:4-7</reference>. He speaks kindly to her, gives her permission to follow his reapers, and orders them to use her well, <reference osisRef=\"Rut.2.8-Rut.2.16\">Rut 2:8-16</reference>. She returns in the evening to Naomi, and tells her of her fare; from whom she receives encouragement and advice, <reference osisRef=\"Rut.2.17-Rut.2.23\">Rut 2:17-23</reference>. <div eID=\"gen9311\" type=\"x-p\"/> <div sID=\"gen9312\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen9312\" type=\"x-p\"/> <div sID=\"gen9313\" type=\"x-p\"/> A mighty man of wealth - We have already seen that some suppose Boaz to have been one of the judges of Israel; he was no doubt a man of considerable property. ",
+      "content_plain": "Introduction\nRuth goes to glean in the field of Boaz, Rut 2:1-3 . Boaz finds her, and inquires who she is, Rut 2:4-7 . He speaks kindly to her, gives her permission to follow his reapers, and orders them to use her well, Rut 2:8-16 . She returns in the evening to Naomi, and tells her of her fare; from whom she receives encouragement and advice, Rut 2:17-23 .\nVerse 1\nA mighty man of wealth - We have already seen that some suppose Boaz to have been one of the judges of Israel; he was no doubt a man of considerable property.",
+      "source_record_sha256": "315e8c30f6548dc8817c8699af16d13c6dd501c9d74db82a090b6ec5fbcbfd9d",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 17906,
+        "length": 1108
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          32
+        ],
+        [
+          856,
+          1108
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1108
+      ],
+      "reader_content_plain": "Verse 1\nA mighty man of wealth - We have already seen that some suppose Boaz to have been one of the judges of Israel; he was no doubt a man of considerable property.",
+      "front_matter_separated": true,
+      "separate_navigation_section_ids": [
+        "nav:adam-clarke:RUT.2:P:chapter-introduction"
+      ]
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.2-2:8:19014:1367",
+      "passage_start": "RUT.2.2",
+      "passage_end": "RUT.2.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen9313\" type=\"x-p\"/> <div sID=\"gen9314\" type=\"x-p\"/> Glean ears of corn - The word glean comes from the French glaner, to gather ears or grains of corn. This was formerly a general custom in England and Ireland; the poor went into the fields and collected the straggling ears of corn after the reapers; and it was long supposed that this was their right, and that the law recognized it. But although it has been an old custom, I find that it is now settled, by a solemn judgment in the court of common pleas, that a right to glean in the harvest field cannot be claimed by any person at common law; see Law Dictionary, article gleaning. Any person may permit or prevent it in his own grounds. By the Irish acts, 25 Hen. VIII., c. 1, and 28 Hen. VIII., c. 24, gleaning and leasing are so restricted as to be in fact prohibited in that part of the United Kingdom. See the note on <reference osisRef=\"Lev.19.9\">Lev 19:9</reference>. <div eID=\"gen9314\" type=\"x-p\"/> <div sID=\"gen9315\" type=\"x-p\"/> After him in whose sight I shall find grace - She did not mean Boaz; but she purposed to go out where they were now reaping, and glean after any person who might permit her, or use her in a friendly manner. The words seem to intimate that, notwithstanding the law of Moses, the gleaners might be prevented by the owner of the field. ",
+      "content_plain": "Verse 2\nGlean ears of corn - The word glean comes from the French glaner, to gather ears or grains of corn. This was formerly a general custom in England and Ireland; the poor went into the fields and collected the straggling ears of corn after the reapers; and it was long supposed that this was their right, and that the law recognized it. But although it has been an old custom, I find that it is now settled, by a solemn judgment in the court of common pleas, that a right to glean in the harvest field cannot be claimed by any person at common law; see Law Dictionary, article gleaning. Any person may permit or prevent it in his own grounds. By the Irish acts, 25 Hen. VIII., c. 1, and 28 Hen. VIII., c. 24, gleaning and leasing are so restricted as to be in fact prohibited in that part of the United Kingdom. See the note on Lev 19:9 .\nAfter him in whose sight I shall find grace - She did not mean Boaz; but she purposed to go out where they were now reaping, and glean after any person who might permit her, or use her in a friendly manner. The words seem to intimate that, notwithstanding the law of Moses, the gleaners might be prevented by the owner of the field.",
+      "source_record_sha256": "a0bb11d3043169ad555a6471d18bdcabbd565dfe6f91c62229c38798647510b5",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 19014,
+        "length": 1367
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1367
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1367
+      ],
+      "reader_content_plain": "Verse 2\nGlean ears of corn - The word glean comes from the French glaner, to gather ears or grains of corn. This was formerly a general custom in England and Ireland; the poor went into the fields and collected the straggling ears of corn after the reapers; and it was long supposed that this was their right, and that the law recognized it. But although it has been an old custom, I find that it is now settled, by a solemn judgment in the court of common pleas, that a right to glean in the harvest field cannot be claimed by any person at common law; see Law Dictionary, article gleaning. Any person may permit or prevent it in his own grounds. By the Irish acts, 25 Hen. VIII., c. 1, and 28 Hen. VIII., c. 24, gleaning and leasing are so restricted as to be in fact prohibited in that part of the United Kingdom. See the note on Lev 19:9 .\nAfter him in whose sight I shall find grace - She did not mean Boaz; but she purposed to go out where they were now reaping, and glean after any person who might permit her, or use her in a friendly manner. The words seem to intimate that, notwithstanding the law of Moses, the gleaners might be prevented by the owner of the field.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.3-3:8:20381:220",
+      "passage_start": "RUT.2.3",
+      "passage_end": "RUT.2.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen9315\" type=\"x-p\"/> <div sID=\"gen9316\" type=\"x-p\"/> And her hap was - So she was accidentally or providentially led to that part of the cultivated country which belonged to Boaz. ",
+      "content_plain": "Verse 3\nAnd her hap was - So she was accidentally or providentially led to that part of the cultivated country which belonged to Boaz.",
+      "source_record_sha256": "bb5be0139278a68556e73d8e3998599f85667b95dafb6753613d8cdbe95fdb26",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 20381,
+        "length": 220
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          220
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        220
+      ],
+      "reader_content_plain": "Verse 3\nAnd her hap was - So she was accidentally or providentially led to that part of the cultivated country which belonged to Boaz.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.4-4:8:20601:695",
+      "passage_start": "RUT.2.4",
+      "passage_end": "RUT.2.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen9316\" type=\"x-p\"/> <div sID=\"gen9317\" type=\"x-p\"/> Boaz came from Beth-lehem - This salutation between Boaz and his reapers is worthy of particular regard; he said, יהוה עמחם Yehovah immachem, \"Jehovah be with you!\" They said, יברכך יהוה yebarechecha Yehovah, \"May Jehovah bless thee!\" Can a pious mind read these godly salutations without wishing for a return of those simple primitive times? The words may be thus paraphrased: \"May God be with you, to preserve you from accidents, and strengthen you to accomplish your work!\" \"May God bless Thee with the increase of the field, and grace to use his bounty to the glory of the Giver!\" ",
+      "content_plain": "Verse 4\nBoaz came from Beth-lehem - This salutation between Boaz and his reapers is worthy of particular regard; he said, יהוה עמחם Yehovah immachem, \"Jehovah be with you!\" They said, יברכך יהוה yebarechecha Yehovah, \"May Jehovah bless thee!\" Can a pious mind read these godly salutations without wishing for a return of those simple primitive times? The words may be thus paraphrased: \"May God be with you, to preserve you from accidents, and strengthen you to accomplish your work!\" \"May God bless Thee with the increase of the field, and grace to use his bounty to the glory of the Giver!\"",
+      "source_record_sha256": "c86b9fe24d72306f20468b5cc690e03e2c8468f51c7db0c3651f94451eae2de6",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 20601,
+        "length": 695
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          678
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        678
+      ],
+      "reader_content_plain": "Verse 4\nBoaz came from Beth-lehem - This salutation between Boaz and his reapers is worthy of particular regard; he said, יהוה עמחם Yehovah immachem, \"Jehovah be with you!\" They said, יברכך יהוה yebarechecha Yehovah, \"May Jehovah bless thee!\" Can a pious mind read these godly salutations without wishing for a return of those simple primitive times? The words may be thus paraphrased: \"May God be with you, to preserve you from accidents, and strengthen you to accomplish your work!\" \"May God bless Thee with the increase of the field, and grace to use his bounty to the glory of the Giver!\"",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.5-5:8:21296:3632",
+      "passage_start": "RUT.2.5",
+      "passage_end": "RUT.2.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen9317\" type=\"x-p\"/> <div sID=\"gen9318\" type=\"x-p\"/> His servant that was set over the reapers - This was a kind of steward or hind who had the under management of the estate. Some think that an officer of this kind is intended in the description given by Homer of the labors of a harvest field, as represented by Vulcan on one compartment of the shield which he made for Achilles: - Εν δ' ετιθει τεμενος βαθυληΐον· ενθα δ εριθοι Ἡμων, οξειας δρεπανας εν χερσιν εχοντες· Δραγματα δ' αλλα μετ' ογμον επμον επητριμα πιπτον εραζε, Αλλα δ' αμαλλοδετηρες εν ελλεδανοισι δεοντο. Τρεις δ' αρ' αμαλλοδετηρες εφεστασαν· αυταρ οπισθε Παιδες δραγμευοντες, εν αγκαλιδεσσι φεροντες, Ασπερχες παρεχον· βασιλευς δ' εν τοισι σιωπῃ Σκηπτρον εχων ἑστηκει επ' ογμου γηθοσυνος κηρ. Κηρυκες δ' απανευθεν ὑπο δρυΐ δαιτα πενοντο· Βουν δ' ἱερευσαντες μεγαν, αμφεπον· αἱ δε γυναικες Δειπνον εριθοισιν, λευκ' αλφιτα πολλα παλυνον. <div eID=\"gen9318\" type=\"x-p\"/> <div sID=\"gen9319\" type=\"x-p\"/> Iliad xviii., v. 550. <div eID=\"gen9319\" type=\"x-p\"/> <div sID=\"gen9320\" type=\"x-p\"/> There too he form'd the likeness of a field <div eID=\"gen9320\" type=\"x-p\"/> <div sID=\"gen9321\" type=\"x-p\"/> Crowded with corn, in which the reapers toil'd, <div eID=\"gen9321\" type=\"x-p\"/> <div sID=\"gen9322\" type=\"x-p\"/> Each with a sharp-tooth'd sickle in his hand. <div eID=\"gen9322\" type=\"x-p\"/> <div sID=\"gen9323\" type=\"x-p\"/> Along the furrow here, the harvest fell <div eID=\"gen9323\" type=\"x-p\"/> <div sID=\"gen9324\" type=\"x-p\"/> In frequent handfuls; there, they bound the sheaves. <div eID=\"gen9324\" type=\"x-p\"/> <div sID=\"gen9325\" type=\"x-p\"/> Three binders of the sheaves their sultry task <div eID=\"gen9325\" type=\"x-p\"/> <div sID=\"gen9326\" type=\"x-p\"/> All plied industrious, and behind them boys <div eID=\"gen9326\" type=\"x-p\"/> <div sID=\"gen9327\" type=\"x-p\"/> Attended, filling with the corn their arms, <div eID=\"gen9327\" type=\"x-p\"/> <div sID=\"gen9328\" type=\"x-p\"/> And offering still their bundles to be bound. <div eID=\"gen9328\" type=\"x-p\"/> <div sID=\"gen9329\" type=\"x-p\"/> Amid them, staff in hand, the master stood, <div eID=\"gen9329\" type=\"x-p\"/> <div sID=\"gen9330\" type=\"x-p\"/> Enjoying, mute the order of the field: <div eID=\"gen9330\" type=\"x-p\"/> <div sID=\"gen9331\" type=\"x-p\"/> While, shaded by an oak, apart his train <div eID=\"gen9331\" type=\"x-p\"/> <div sID=\"gen9332\" type=\"x-p\"/> Prepared the banquet - a well thriven ox <div eID=\"gen9332\" type=\"x-p\"/> <div sID=\"gen9333\" type=\"x-p\"/> New slain, and the attendant maidens mix'd <div eID=\"gen9333\" type=\"x-p\"/> <div sID=\"gen9334\" type=\"x-p\"/> Large supper for the hinds, of whitest flour. <div eID=\"gen9334\" type=\"x-p\"/> <div sID=\"gen9335\" type=\"x-p\"/> Cowper. <div eID=\"gen9335\" type=\"x-p\"/> <div sID=\"gen9336\" type=\"x-p\"/> This scene is well described; and the person who acts as overseer is here called βασιλευς, king, and his staff is called σκηπτρον, a scepter; and he stands in mute dignity, merely to see that the work is well done, and that each person performs his task; and there appear to me to be gleaners in the description, viz., the boys who gather the handfuls after the three binders. See the Greek. ",
+      "content_plain": "Verse 5\nHis servant that was set over the reapers - This was a kind of steward or hind who had the under management of the estate. Some think that an officer of this kind is intended in the description given by Homer of the labors of a harvest field, as represented by Vulcan on one compartment of the shield which he made for Achilles: - Εν δ' ετιθει τεμενος βαθυληΐον· ενθα δ εριθοι Ἡμων, οξειας δρεπανας εν χερσιν εχοντες· Δραγματα δ' αλλα μετ' ογμον επμον επητριμα πιπτον εραζε, Αλλα δ' αμαλλοδετηρες εν ελλεδανοισι δεοντο. Τρεις δ' αρ' αμαλλοδετηρες εφεστασαν· αυταρ οπισθε Παιδες δραγμευοντες, εν αγκαλιδεσσι φεροντες, Ασπερχες παρεχον· βασιλευς δ' εν τοισι σιωπῃ Σκηπτρον εχων ἑστηκει επ' ογμου γηθοσυνος κηρ. Κηρυκες δ' απανευθεν ὑπο δρυΐ δαιτα πενοντο· Βουν δ' ἱερευσαντες μεγαν, αμφεπον· αἱ δε γυναικες Δειπνον εριθοισιν, λευκ' αλφιτα πολλα παλυνον.\nIliad xviii., v. 550.\nThere too he form'd the likeness of a field\nCrowded with corn, in which the reapers toil'd,\nEach with a sharp-tooth'd sickle in his hand.\nAlong the furrow here, the harvest fell\nIn frequent handfuls; there, they bound the sheaves.\nThree binders of the sheaves their sultry task\nAll plied industrious, and behind them boys\nAttended, filling with the corn their arms,\nAnd offering still their bundles to be bound.\nAmid them, staff in hand, the master stood,\nEnjoying, mute the order of the field:\nWhile, shaded by an oak, apart his train\nPrepared the banquet - a well thriven ox\nNew slain, and the attendant maidens mix'd\nLarge supper for the hinds, of whitest flour.\nCowper.\nThis scene is well described; and the person who acts as overseer is here called βασιλευς, king, and his staff is called σκηπτρον, a scepter; and he stands in mute dignity, merely to see that the work is well done, and that each person performs his task; and there appear to me to be gleaners in the description, viz., the boys who gather the handfuls after the three binders. See the Greek.",
+      "source_record_sha256": "314a94cefe858d0ccb62b7f6e998d245da85d433bb472ea021034e99c6a05dab",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 21296,
+        "length": 3632
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          3185
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        3185
+      ],
+      "reader_content_plain": "Verse 5\nHis servant that was set over the reapers - This was a kind of steward or hind who had the under management of the estate. Some think that an officer of this kind is intended in the description given by Homer of the labors of a harvest field, as represented by Vulcan on one compartment of the shield which he made for Achilles: - Εν δ' ετιθει τεμενος βαθυληΐον· ενθα δ εριθοι Ἡμων, οξειας δρεπανας εν χερσιν εχοντες· Δραγματα δ' αλλα μετ' ογμον επμον επητριμα πιπτον εραζε, Αλλα δ' αμαλλοδετηρες εν ελλεδανοισι δεοντο. Τρεις δ' αρ' αμαλλοδετηρες εφεστασαν· αυταρ οπισθε Παιδες δραγμευοντες, εν αγκαλιδεσσι φεροντες, Ασπερχες παρεχον· βασιλευς δ' εν τοισι σιωπῃ Σκηπτρον εχων ἑστηκει επ' ογμου γηθοσυνος κηρ. Κηρυκες δ' απανευθεν ὑπο δρυΐ δαιτα πενοντο· Βουν δ' ἱερευσαντες μεγαν, αμφεπον· αἱ δε γυναικες Δειπνον εριθοισιν, λευκ' αλφιτα πολλα παλυνον.\nIliad xviii., v. 550.\nThere too he form'd the likeness of a field\nCrowded with corn, in which the reapers toil'd,\nEach with a sharp-tooth'd sickle in his hand.\nAlong the furrow here, the harvest fell\nIn frequent handfuls; there, they bound the sheaves.\nThree binders of the sheaves their sultry task\nAll plied industrious, and behind them boys\nAttended, filling with the corn their arms,\nAnd offering still their bundles to be bound.\nAmid them, staff in hand, the master stood,\nEnjoying, mute the order of the field:\nWhile, shaded by an oak, apart his train\nPrepared the banquet - a well thriven ox\nNew slain, and the attendant maidens mix'd\nLarge supper for the hinds, of whitest flour.\nCowper.\nThis scene is well described; and the person who acts as overseer is here called βασιλευς, king, and his staff is called σκηπτρον, a scepter; and he stands in mute dignity, merely to see that the work is well done, and that each person performs his task; and there appear to me to be gleaners in the description, viz., the boys who gather the handfuls after the three binders. See the Greek.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.7-7:8:24928:257",
+      "passage_start": "RUT.2.7",
+      "passage_end": "RUT.2.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen9336\" type=\"x-p\"/> <div sID=\"gen9337\" type=\"x-p\"/> That she tarried a little in the house - It seems as if the reapers were now resting in their tent, and that Ruth had just gone in with them to take her rest also. ",
+      "content_plain": "Verse 7\nThat she tarried a little in the house - It seems as if the reapers were now resting in their tent, and that Ruth had just gone in with them to take her rest also.",
+      "source_record_sha256": "b13253c43d56e539aa173c70dfcf286680426edcbaa4f356f4456fa54f2fd846",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 24928,
+        "length": 257
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          257
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        257
+      ],
+      "reader_content_plain": "Verse 7\nThat she tarried a little in the house - It seems as if the reapers were now resting in their tent, and that Ruth had just gone in with them to take her rest also.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.8-8:8:25185:424",
+      "passage_start": "RUT.2.8",
+      "passage_end": "RUT.2.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen9337\" type=\"x-p\"/> <div sID=\"gen9338\" type=\"x-p\"/> Abide here fast by my maidens - These were probably employed in making bands, and laying on them enough to form a sheaf, which the binders would tie and form into shocks or thraves. When the maidens had gathered up the scattered handfuls thrown down by the reapers, Ruth picked up any straggling heads or ears which they had left. ",
+      "content_plain": "Verse 8\nAbide here fast by my maidens - These were probably employed in making bands, and laying on them enough to form a sheaf, which the binders would tie and form into shocks or thraves. When the maidens had gathered up the scattered handfuls thrown down by the reapers, Ruth picked up any straggling heads or ears which they had left.",
+      "source_record_sha256": "ecc236fd8f81da60fd6fec3c565d1009719e02825680517643d48359de69366e",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 25185,
+        "length": 424
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          424
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        424
+      ],
+      "reader_content_plain": "Verse 8\nAbide here fast by my maidens - These were probably employed in making bands, and laying on them enough to form a sheaf, which the binders would tie and form into shocks or thraves. When the maidens had gathered up the scattered handfuls thrown down by the reapers, Ruth picked up any straggling heads or ears which they had left.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.9-9:8:25609:210",
+      "passage_start": "RUT.2.9",
+      "passage_end": "RUT.2.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen9338\" type=\"x-p\"/> <div sID=\"gen9339\" type=\"x-p\"/> The young men that they shall not touch thee - This was peculiarly necessary, as she was a stranger and unprotected. ",
+      "content_plain": "Verse 9\nThe young men that they shall not touch thee - This was peculiarly necessary, as she was a stranger and unprotected.",
+      "source_record_sha256": "8104245662ca20efcc455249bc81bce50cf11aa6fb87eb60ec45f194988572de",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 25609,
+        "length": 210
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          210
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        210
+      ],
+      "reader_content_plain": "Verse 9\nThe young men that they shall not touch thee - This was peculiarly necessary, as she was a stranger and unprotected.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.10-10:8:25819:809",
+      "passage_start": "RUT.2.10",
+      "passage_end": "RUT.2.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen9339\" type=\"x-p\"/> <div sID=\"gen9340\" type=\"x-p\"/> Then she fell on her face - Prostrated herself, as was the custom in the East when inferiors approached those of superior rank. The Targum adds to the conversation between Ruth and Boaz: \"How, says she, have I obtained grace in thy sight, that thou shouldest acknowledge me who am a stranger and one of the daughters of Moab, of whom it is said, The unclean shall not enter into the congregation of the Lord? And Boaz, answered, It has been certainly told me by the word of the wise, that what the Lord hath decreed, he hath not decreed concerning the women but the men. And it hath been surely said to me by prophecy, that kings and prophets shall proceed from thee because of the good which thou hast done,\" etc. ",
+      "content_plain": "Verse 10\nThen she fell on her face - Prostrated herself, as was the custom in the East when inferiors approached those of superior rank. The Targum adds to the conversation between Ruth and Boaz: \"How, says she, have I obtained grace in thy sight, that thou shouldest acknowledge me who am a stranger and one of the daughters of Moab, of whom it is said, The unclean shall not enter into the congregation of the Lord? And Boaz, answered, It has been certainly told me by the word of the wise, that what the Lord hath decreed, he hath not decreed concerning the women but the men. And it hath been surely said to me by prophecy, that kings and prophets shall proceed from thee because of the good which thou hast done,\" etc.",
+      "source_record_sha256": "c8a81c9d1681b65380ffaac774acb8f0b7e1bfc033e71622d5b98ab55ffaf75a",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 25819,
+        "length": 809
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          809
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        809
+      ],
+      "reader_content_plain": "Verse 10\nThen she fell on her face - Prostrated herself, as was the custom in the East when inferiors approached those of superior rank. The Targum adds to the conversation between Ruth and Boaz: \"How, says she, have I obtained grace in thy sight, that thou shouldest acknowledge me who am a stranger and one of the daughters of Moab, of whom it is said, The unclean shall not enter into the congregation of the Lord? And Boaz, answered, It has been certainly told me by the word of the wise, that what the Lord hath decreed, he hath not decreed concerning the women but the men. And it hath been surely said to me by prophecy, that kings and prophets shall proceed from thee because of the good which thou hast done,\" etc.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.12-12:8:26628:936",
+      "passage_start": "RUT.2.12",
+      "passage_end": "RUT.2.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen9340\" type=\"x-p\"/> <div sID=\"gen9341\" type=\"x-p\"/> The Lord recompense thy work - The dutiful respect which thou hast paid to thy husband, and thy tender and affectionate attachment to thy aged mother-in-law. <div eID=\"gen9341\" type=\"x-p\"/> <div sID=\"gen9342\" type=\"x-p\"/> And a full reward be given thee - This is spoken with great modesty and piety: The kindness I show thee is little in comparison of thy desert; God alone can give thee a full reward for thy kindness to thy husband and mother-in-law, and he will do it, because thou art come to trust under his wings - to become a proselyte to his religion. The metaphor is taken from the young of fowls, who, seeing a bird of prey, run to their mother to be covered by her wings from danger, and also to take shelter from storms, tempests, cold, etc. It is evident from this that Ruth had already attached herself to the Jewish religion. ",
+      "content_plain": "Verse 12\nThe Lord recompense thy work - The dutiful respect which thou hast paid to thy husband, and thy tender and affectionate attachment to thy aged mother-in-law.\nAnd a full reward be given thee - This is spoken with great modesty and piety: The kindness I show thee is little in comparison of thy desert; God alone can give thee a full reward for thy kindness to thy husband and mother-in-law, and he will do it, because thou art come to trust under his wings - to become a proselyte to his religion. The metaphor is taken from the young of fowls, who, seeing a bird of prey, run to their mother to be covered by her wings from danger, and also to take shelter from storms, tempests, cold, etc. It is evident from this that Ruth had already attached herself to the Jewish religion.",
+      "source_record_sha256": "218e2f620f7f56d7f8a5af19700f8ed1940663a0224380be90d1b4b1806989bf",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 26628,
+        "length": 936
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          936
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        936
+      ],
+      "reader_content_plain": "Verse 12\nThe Lord recompense thy work - The dutiful respect which thou hast paid to thy husband, and thy tender and affectionate attachment to thy aged mother-in-law.\nAnd a full reward be given thee - This is spoken with great modesty and piety: The kindness I show thee is little in comparison of thy desert; God alone can give thee a full reward for thy kindness to thy husband and mother-in-law, and he will do it, because thou art come to trust under his wings - to become a proselyte to his religion. The metaphor is taken from the young of fowls, who, seeing a bird of prey, run to their mother to be covered by her wings from danger, and also to take shelter from storms, tempests, cold, etc. It is evident from this that Ruth had already attached herself to the Jewish religion.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.13-13:8:27564:250",
+      "passage_start": "RUT.2.13",
+      "passage_end": "RUT.2.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 13</hi> <div eID=\"gen9342\" type=\"x-p\"/> <div sID=\"gen9343\" type=\"x-p\"/> Not like unto one of thine hand-maidens - I am as unworthy of thy regards as any of thine own maidservants, and yet thou showest me distinguished kindness. ",
+      "content_plain": "Verse 13\nNot like unto one of thine hand-maidens - I am as unworthy of thy regards as any of thine own maidservants, and yet thou showest me distinguished kindness.",
+      "source_record_sha256": "b0d3059c1c694edb116f9000599f2f3683628cf01be86fb874632a4318a8d261",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 27564,
+        "length": 250
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          250
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        250
+      ],
+      "reader_content_plain": "Verse 13\nNot like unto one of thine hand-maidens - I am as unworthy of thy regards as any of thine own maidservants, and yet thou showest me distinguished kindness.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.14-14:8:27814:772",
+      "passage_start": "RUT.2.14",
+      "passage_end": "RUT.2.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen9343\" type=\"x-p\"/> <div sID=\"gen9344\" type=\"x-p\"/> Dip thy morsel in the vinegar - The חמץ chomets, which we here translate vinegar, seems to have been some refreshing kind of acid sauce used by the reapers to dip their bread in, which both cooled and refreshed them. Vinegar, rob of fruits, etc., are used for this purpose in the East to the present day; and the custom of the Arabs, according to Dr. Shaw, is to dip the bread and hand together into these cooling and refreshing articles. <div eID=\"gen9344\" type=\"x-p\"/> <div sID=\"gen9345\" type=\"x-p\"/> Parched corn - This was a frequent repast among the ancients in almost all countries; see the notes on <reference osisRef=\"Lev.2.1-Lev.2.14\">Lev 2:1-14</reference> (note). ",
+      "content_plain": "Verse 14\nDip thy morsel in the vinegar - The חמץ chomets, which we here translate vinegar, seems to have been some refreshing kind of acid sauce used by the reapers to dip their bread in, which both cooled and refreshed them. Vinegar, rob of fruits, etc., are used for this purpose in the East to the present day; and the custom of the Arabs, according to Dr. Shaw, is to dip the bread and hand together into these cooling and refreshing articles.\nParched corn - This was a frequent repast among the ancients in almost all countries; see the notes on Lev 2:1-14 (note).",
+      "source_record_sha256": "79c4136e568a0ff59fd5aa91d4e252002f59dc60e33318fa01c971730959a5be",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 27814,
+        "length": 772
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          769
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        769
+      ],
+      "reader_content_plain": "Verse 14\nDip thy morsel in the vinegar - The חמץ chomets, which we here translate vinegar, seems to have been some refreshing kind of acid sauce used by the reapers to dip their bread in, which both cooled and refreshed them. Vinegar, rob of fruits, etc., are used for this purpose in the East to the present day; and the custom of the Arabs, according to Dr. Shaw, is to dip the bread and hand together into these cooling and refreshing articles.\nParched corn - This was a frequent repast among the ancients in almost all countries; see the notes on Lev 2:1-14 (note).",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.15-15:8:28586:238",
+      "passage_start": "RUT.2.15",
+      "passage_end": "RUT.2.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 15</hi> <div eID=\"gen9345\" type=\"x-p\"/> <div sID=\"gen9346\" type=\"x-p\"/> Let her glean even among the sheaves - This was a privilege; for no person should glean till the sheaves were all bound, and the shocks set up. ",
+      "content_plain": "Verse 15\nLet her glean even among the sheaves - This was a privilege; for no person should glean till the sheaves were all bound, and the shocks set up.",
+      "source_record_sha256": "4b7bae5b3e837389731ece33df5fa7746fb7e505bbb882ce92ed92368b99ce15",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 28586,
+        "length": 238
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          238
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        238
+      ],
+      "reader_content_plain": "Verse 15\nLet her glean even among the sheaves - This was a privilege; for no person should glean till the sheaves were all bound, and the shocks set up.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.17-17:8:28824:276",
+      "passage_start": "RUT.2.17",
+      "passage_end": "RUT.2.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 17</hi> <div eID=\"gen9346\" type=\"x-p\"/> <div sID=\"gen9347\" type=\"x-p\"/> An ephah of barley - Not less than seven gallons and a half; a good day's work. On Hebrew measures of capacity, see the note on <reference osisRef=\"Exo.16.16\">Exo 16:16</reference>. ",
+      "content_plain": "Verse 17\nAn ephah of barley - Not less than seven gallons and a half; a good day's work. On Hebrew measures of capacity, see the note on Exo 16:16 .",
+      "source_record_sha256": "d4266dd7d9f255c0794d2757cec115f2b6f6764d444e6ab47ea9adea8815e011",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 28824,
+        "length": 276
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          276
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        276
+      ],
+      "reader_content_plain": "Verse 17\nAn ephah of barley - Not less than seven gallons and a half; a good day's work. On Hebrew measures of capacity, see the note on Exo 16:16 .",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.18-18:8:29100:363",
+      "passage_start": "RUT.2.18",
+      "passage_end": "RUT.2.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 18</hi> <div eID=\"gen9347\" type=\"x-p\"/> <div sID=\"gen9348\" type=\"x-p\"/> And gave to her that she had reserved - As Ruth had received a distinct portion at dinner-time, of which she had more than she could eat, <reference osisRef=\"Rut.2.14\">Rut 2:14</reference>; it appears she brought the rest home to her mother-in-law, as is here related. ",
+      "content_plain": "Verse 18\nAnd gave to her that she had reserved - As Ruth had received a distinct portion at dinner-time, of which she had more than she could eat, Rut 2:14 ; it appears she brought the rest home to her mother-in-law, as is here related.",
+      "source_record_sha256": "b6a754ae714bad01ec084a418a6b3334ae61fd87f224bd14fa4a6be26f9fed10",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 29100,
+        "length": 363
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          363
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        363
+      ],
+      "reader_content_plain": "Verse 18\nAnd gave to her that she had reserved - As Ruth had received a distinct portion at dinner-time, of which she had more than she could eat, Rut 2:14 ; it appears she brought the rest home to her mother-in-law, as is here related.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.20-20:8:29463:2021",
+      "passage_start": "RUT.2.20",
+      "passage_end": "RUT.2.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 20</hi> <div eID=\"gen9348\" type=\"x-p\"/> <div sID=\"gen9349\" type=\"x-p\"/> To the living and to the dead - Naomi and Ruth were the living; and they were also the representatives of Elimelech and Mahlon, who were dead. Naomi was of the family; and Ruth, though not of the family, was a representative of one of its deceased branches, being the widow of Mahlon. <div eID=\"gen9349\" type=\"x-p\"/> <div sID=\"gen9350\" type=\"x-p\"/> One of our next kinsmen - מגאלינו miggoaleynu, of our redeemers, one who has the right to redeem the forfeited inheritance of the family. The word גאל goel signifies a near kinsman - one who by the Mosaic law had a right to redeem an inheritance, and also was permitted to vindicate or revenge the death of his relation by killing the slayer, if he found him out of the cities of refuge. <div eID=\"gen9350\" type=\"x-p\"/> <div sID=\"gen9351\" type=\"x-p\"/> In order to prevent families from running to decay, if a brother died childless, the next unmarried brother took his widow; and the children from that marriage were reputed the children of the deceased brother. The office of the next akin was threefold: <div eID=\"gen9351\" type=\"x-p\"/> <div sID=\"gen9352\" type=\"x-p\"/> 1. It belonged to him to buy back the forfeited inheritance, or the liberty of him who had been obliged to sell himself for a servant. <div eID=\"gen9352\" type=\"x-p\"/> <div sID=\"gen9353\" type=\"x-p\"/> 2. It was his right to avenge the blood of any of the family who had been killed, by killing the murderer. <div eID=\"gen9353\" type=\"x-p\"/> <div sID=\"gen9354\" type=\"x-p\"/> 3. It belonged to him to take the widow of a deceased brother or relative, if he died childless. <div eID=\"gen9354\" type=\"x-p\"/> <div sID=\"gen9355\" type=\"x-p\"/> If the nearest akin in any case refused, he was treated with indignity, lost his right to the inheritance, and the next akin to him might come forward and take the widow, etc., as in the case of Boaz. See <reference osisRef=\"Rut.4.4-Rut.4.10\">Rut 4:4-10</reference>. ",
+      "content_plain": "Verse 20\nTo the living and to the dead - Naomi and Ruth were the living; and they were also the representatives of Elimelech and Mahlon, who were dead. Naomi was of the family; and Ruth, though not of the family, was a representative of one of its deceased branches, being the widow of Mahlon.\nOne of our next kinsmen - מגאלינו miggoaleynu, of our redeemers, one who has the right to redeem the forfeited inheritance of the family. The word גאל goel signifies a near kinsman - one who by the Mosaic law had a right to redeem an inheritance, and also was permitted to vindicate or revenge the death of his relation by killing the slayer, if he found him out of the cities of refuge.\nIn order to prevent families from running to decay, if a brother died childless, the next unmarried brother took his widow; and the children from that marriage were reputed the children of the deceased brother. The office of the next akin was threefold:\n1. It belonged to him to buy back the forfeited inheritance, or the liberty of him who had been obliged to sell himself for a servant.\n2. It was his right to avenge the blood of any of the family who had been killed, by killing the murderer.\n3. It belonged to him to take the widow of a deceased brother or relative, if he died childless.\nIf the nearest akin in any case refused, he was treated with indignity, lost his right to the inheritance, and the next akin to him might come forward and take the widow, etc., as in the case of Boaz. See Rut 4:4-10 .",
+      "source_record_sha256": "e39974a37ccde532db05b401b09b08293ba4ff4c91456d4606acdd259f8c680f",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 29463,
+        "length": 2021
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          2011
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        2011
+      ],
+      "reader_content_plain": "Verse 20\nTo the living and to the dead - Naomi and Ruth were the living; and they were also the representatives of Elimelech and Mahlon, who were dead. Naomi was of the family; and Ruth, though not of the family, was a representative of one of its deceased branches, being the widow of Mahlon.\nOne of our next kinsmen - מגאלינו miggoaleynu, of our redeemers, one who has the right to redeem the forfeited inheritance of the family. The word גאל goel signifies a near kinsman - one who by the Mosaic law had a right to redeem an inheritance, and also was permitted to vindicate or revenge the death of his relation by killing the slayer, if he found him out of the cities of refuge.\nIn order to prevent families from running to decay, if a brother died childless, the next unmarried brother took his widow; and the children from that marriage were reputed the children of the deceased brother. The office of the next akin was threefold:\n1. It belonged to him to buy back the forfeited inheritance, or the liberty of him who had been obliged to sell himself for a servant.\n2. It was his right to avenge the blood of any of the family who had been killed, by killing the murderer.\n3. It belonged to him to take the widow of a deceased brother or relative, if he died childless.\nIf the nearest akin in any case refused, he was treated with indignity, lost his right to the inheritance, and the next akin to him might come forward and take the widow, etc., as in the case of Boaz. See Rut 4:4-10 .",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.21-21:8:31484:372",
+      "passage_start": "RUT.2.21",
+      "passage_end": "RUT.2.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 21</hi> <div eID=\"gen9355\" type=\"x-p\"/> <div sID=\"gen9356\" type=\"x-p\"/> Keep fast by my young men - The word הנערים hannearim should be translated servants, both the male and female being included in it; the latter especially, as we see in <reference osisRef=\"Rut.2.22\">Rut 2:22</reference>, <reference osisRef=\"Rut.2.23\">Rut 2:23</reference>. ",
+      "content_plain": "Verse 21\nKeep fast by my young men - The word הנערים hannearim should be translated servants, both the male and female being included in it; the latter especially, as we see in Rut 2:22 , Rut 2:23 .",
+      "source_record_sha256": "a703e57bd03b5057e9602c46e9a8a1b392fc0fbb70741e9143d65c7a976bf6a1",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 31484,
+        "length": 372
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          366
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        366
+      ],
+      "reader_content_plain": "Verse 21\nKeep fast by my young men - The word הנערים hannearim should be translated servants, both the male and female being included in it; the latter especially, as we see in Rut 2:22 , Rut 2:23 .",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.2.23-23:8:31856:2011",
+      "passage_start": "RUT.2.23",
+      "passage_end": "RUT.2.23",
+      "start_verse": 23,
+      "end_verse": 23,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 23</hi> <div eID=\"gen9356\" type=\"x-p\"/> <div sID=\"gen9357\" type=\"x-p\"/> And of wheat harvest - That is, she was to continue gleaning in the farm of Boaz to the end of the barley harvest; and then, when the wheat harvest began, to continue to its conclusion in the same way. In the interim, as well as each night, she lodged with her mother-in-law. <div eID=\"gen9357\" type=\"x-p\"/> <div sID=\"gen9358\" type=\"x-p\"/> 1. Ruth seems to have been a woman of a very amiable mind: she was modest, and she was industrious, and most probably a comely woman; and all these things served to attract the attention of Boaz, and to engage his affection. Her attachment also to her mother-in-law could not fail to secure his esteem. All these things worked together in the course of Providence, to bring about a matrimonial connection, which in its issue was intimately connected with the salvation of a lost world; for, from this very line, Jesus Christ, according to the flesh, sprang; and Ruth showed herself as worthy to be one of His progenitors as the Virgin Mary was to be His mother. See the notes on Matthew 1:1-16 (note). <div eID=\"gen9358\" type=\"x-p\"/> <div sID=\"gen9359\" type=\"x-p\"/> 2. We should carefully attend to the leadings and to the workings of God's providence; it is our duty and our interest to do both, for the path of duty is ever the way of safety. Had not Ruth acted thus, how dreary and uncomfortable must her life have been! but she followed God fully, and in a path apparently dangerous, and yet, not only sustained no injury, but succeeded well in all things: from this, as well as from innumerable other circumstances, we see the truth of that word, Acknowledge him in all thy ways, and he will direct thy steps; and with this we may ever connect, Trust in the Lord with thy whole heart, and lean not to thy own understanding. Whosoever follows God in simplicity of heart, will most assuredly be guided into all truth.  <chapter eID=\"Ruth.2\"/> <div eID=\"gen9359\" type=\"x-p\"/>",
+      "content_plain": "Verse 23\nAnd of wheat harvest - That is, she was to continue gleaning in the farm of Boaz to the end of the barley harvest; and then, when the wheat harvest began, to continue to its conclusion in the same way. In the interim, as well as each night, she lodged with her mother-in-law.\n1. Ruth seems to have been a woman of a very amiable mind: she was modest, and she was industrious, and most probably a comely woman; and all these things served to attract the attention of Boaz, and to engage his affection. Her attachment also to her mother-in-law could not fail to secure his esteem. All these things worked together in the course of Providence, to bring about a matrimonial connection, which in its issue was intimately connected with the salvation of a lost world; for, from this very line, Jesus Christ, according to the flesh, sprang; and Ruth showed herself as worthy to be one of His progenitors as the Virgin Mary was to be His mother. See the notes on Matthew 1:1-16 (note).\n2. We should carefully attend to the leadings and to the workings of God's providence; it is our duty and our interest to do both, for the path of duty is ever the way of safety. Had not Ruth acted thus, how dreary and uncomfortable must her life have been! but she followed God fully, and in a path apparently dangerous, and yet, not only sustained no injury, but succeeded well in all things: from this, as well as from innumerable other circumstances, we see the truth of that word, Acknowledge him in all thy ways, and he will direct thy steps; and with this we may ever connect, Trust in the Lord with thy whole heart, and lean not to thy own understanding. Whosoever follows God in simplicity of heart, will most assuredly be guided into all truth.",
+      "source_record_sha256": "80a5946c0b07bb913dffa63dab5131c7fbc8bdb1ca8161b53ec3a865be6ca980",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 31856,
+        "length": 2011
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.2.23",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          2011
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        2011
+      ],
+      "reader_content_plain": "Verse 23\nAnd of wheat harvest - That is, she was to continue gleaning in the farm of Boaz to the end of the barley harvest; and then, when the wheat harvest began, to continue to its conclusion in the same way. In the interim, as well as each night, she lodged with her mother-in-law.\n1. Ruth seems to have been a woman of a very amiable mind: she was modest, and she was industrious, and most probably a comely woman; and all these things served to attract the attention of Boaz, and to engage his affection. Her attachment also to her mother-in-law could not fail to secure his esteem. All these things worked together in the course of Providence, to bring about a matrimonial connection, which in its issue was intimately connected with the salvation of a lost world; for, from this very line, Jesus Christ, according to the flesh, sprang; and Ruth showed herself as worthy to be one of His progenitors as the Virgin Mary was to be His mother. See the notes on Matthew 1:1-16 (note).\n2. We should carefully attend to the leadings and to the workings of God's providence; it is our duty and our interest to do both, for the path of duty is ever the way of safety. Had not Ruth acted thus, how dreary and uncomfortable must her life have been! but she followed God fully, and in a path apparently dangerous, and yet, not only sustained no injury, but succeeded well in all things: from this, as well as from innumerable other circumstances, we see the truth of that word, Acknowledge him in all thy ways, and he will direct thy steps; and with this we may ever connect, Trust in the Lord with thy whole heart, and lean not to thy own understanding. Whosoever follows God in simplicity of heart, will most assuredly be guided into all truth.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 18,
+  "unindexed_verse_count": 5,
+  "upstream_snapshot_id": "SOTW_JDG_RUT_SOURCE_LOCK_2026-11-05",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 18
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:RUT.2:P:chapter-introduction",
+      "navigation_id": "RUT.2:P:chapter-introduction",
+      "kind": "nonverse_navigation",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Ruth 2 · Introduction",
+      "content_plain": "Introduction\nRuth goes to glean in the field of Boaz, Rut 2:1-3 . Boaz finds her, and inquires who she is, Rut 2:4-7 . He speaks kindly to her, gives her permission to follow his reapers, and orders them to use her well, Rut 2:8-16 . She returns in the evening to Naomi, and tells her of her fare; from whom she receives encouragement and advice, Rut 2:17-23 .",
+      "source_entry_id": "sword:clarke:RUT.2.1-1:8:17906:1108",
+      "source_character_span": [
+        32,
+        856
+      ],
+      "source_fragment_sha256": "02b16b6ab5602b8a8e6136584d1a771d84e4e384ae9363de875039baf516760b",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 18
+}

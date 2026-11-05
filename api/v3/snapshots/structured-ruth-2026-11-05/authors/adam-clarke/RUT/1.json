@@ -1,0 +1,623 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-ruth-2026-11-05",
+  "author_id": "adam-clarke",
+  "book_id": "RUT",
+  "chapter": 1,
+  "canonical_chapter": "RUT.1",
+  "versification": "KJV",
+  "verse_count": 22,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Ruth\" sID=\"gen9261\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen9262\" type=\"x-p\"/> ",
+      "source_record_sha256": "f9ef176dffb81ccc3531b7ba5d7567abe829367752e94c6050cc3ae70c39d12f",
+      "index_record": {
+        "block": 8,
+        "offset": 0,
+        "length": 207
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Ruth.1\" sID=\"Ruth.1\"/> ",
+      "source_record_sha256": "a6ddee761e57c66dc2586db89521219f1cc92d2a2085ab9c5c2372be1eca84cf",
+      "index_record": {
+        "block": 8,
+        "offset": 207,
+        "length": 46
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:RUT.1.1-1:8:253:6769",
+      "passage_start": "RUT.1.1",
+      "passage_end": "RUT.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen9262\" type=\"x-p\"/> <title type=\"x-s\">Preface to the Book of Ruth</title> <div sID=\"gen9263\" type=\"x-p\"/> When and by whom the book of Ruth was written, are points not agreed on among critics and commentators. <div eID=\"gen9263\" type=\"x-p\"/> <div sID=\"gen9264\" type=\"x-p\"/> As to the transactions recorded in it, they are variously placed. In the book itself there is no other notation of time than merely this, that the things came to pass in the days when the judges ruled; therefore some have placed these transactions under Ehud; others, under Gideon; others, under Barak; others, under Abimelech; and others, under Shamgar. This last is the opinion of Archbishop Usher; and most chronologers adopt it. The book is evidently an Appendix to the book of Judges, and contains a perfect history in itself; and therefore should not be inserted in any part of that book. It also seems to be an Introduction to the books of Samuel, in which the history of David is contained, as it gives the genealogy of this prince. It is also not without its use in matters which respect the Gospels, as it ascertains the line by which Jesus Christ came. <div eID=\"gen9264\" type=\"x-p\"/> <div sID=\"gen9265\" type=\"x-p\"/> As to the author, he is as uncertain as the time. It has been attributed to Hezekiah, to Ezra, and to Samuel; and it is most likely that the author of the two books of Samuel was also the writer of this little book, as it seems necessary to complete his plan of the history of David. See the preface to the first book of Samuel. <div eID=\"gen9265\" type=\"x-p\"/> <div sID=\"gen9266\" type=\"x-p\"/> The sum of the history contained in this book is the following: A man of Bethlehem, named Elimelech, with his wife Naomi, and his two sons Mahlon and Chilion, left his own country in the time of a famine, and went to sojourn in the land of Moab. There he died; and Naomi married her two sons to two Moabitish women: Mahlon married Ruth, who is the chief subject of this book; and Chilion married one named Orpah. In about ten years both these brethren died; and Naomi, accompanied by her two daughters-in-law, set out to return to the land of Judah, she having heard that plenty was again restored to her country. On the way she besought her daughters to return to their own country and kindred. Orpah took her advice, and, after an affectionate parting, returned; but Ruth insisted on accompanying her mother-in-law. They arrived in Bethlehem about the time of harvest; and Ruth went into the fields to glean for their support. The ground on which she was accidentally employed belonged to Boaz, one of the relatives of Elimelech, her father-in-law; who, finding who she was, ordered her to be kindly treated, and appointed her both meat and drink with his own servants. Finding that she was by marriage his kinswoman, he purposed to take her to wife, if a nearer kinsman who was then living should refuse. He was accordingly applied to, refused to take Ruth, and surrendered his right to her, according to the custom of those times, at the gate of Bethlehem, before the elders of the city. Boaz then took her to wife, by whom she had Obed, who was father to Jesse, the father of David. <div eID=\"gen9266\" type=\"x-p\"/> <div sID=\"gen9267\" type=\"x-p\"/> To the questions, Who was Boaz? and, Who was Ruth? no satisfactory answer can be given: all we know for certain is, that Boaz was an Ephraimite of Bethlehem; and Ruth a Moabitess, and consequently educated a heathen. But what we want in certainty several have attempted to supply by conjecture; with them Boaz was the same as Ibzan, <reference osisRef=\"Jdg.12.8-Jdg.12.10\">Jdg 12:8-10</reference>; and Ruth was the daughter of Eglon, king of Moab. This is the opinion maintained by the Chaldee Targum on this book; to which I shall, in the course of the notes, have farther occasion to refer. The rabbins say that Elimelech was brother to Salmon, who married Rahab; and that Naomi was his niece. <div eID=\"gen9267\" type=\"x-p\"/> <div sID=\"gen9268\" type=\"x-p\"/> The genealogy of David, as stated in this book, is as follows: - <div eID=\"gen9268\" type=\"x-p\"/> <div sID=\"gen9269\" type=\"x-p\"/> A.M. 2236 Judah Pharez Ezron, called also Hezron Aram, called also Ram Amminadab Nahshon Salmon, who married Rahab Boaz, who married Ruth Obed, who begat Jesse A.M. 2919 David born <div eID=\"gen9269\" type=\"x-p\"/> <div sID=\"gen9270\" type=\"x-p\"/> This chronology is according to Archbishop Usher; and includes, from Judah to David six hundred and seventy years. <div eID=\"gen9270\" type=\"x-p\"/> <div sID=\"gen9271\" type=\"x-p\"/> Elimelech, his wife Naomi, and their two sons, Mahlon and Chilion, flee from a famine in the land of Israel, and go to sojourn in Moab, <reference osisRef=\"Rut.1.1\">Rut 1:1</reference>, <reference osisRef=\"Rut.1.2\">Rut 1:2</reference>. Here his two sons marry; and, in the space of ten years, both their father and they die, <reference osisRef=\"Rut.1.3-Rut.1.6\">Rut 1:3-6</reference>. Naomi sets out on her return to her own country, accompanied by her daughters-in-law Orpah and Ruth; whom she endeavors to persuade to return to their own people, <reference osisRef=\"Rut.1.7-Rut.1.13\">Rut 1:7-13</reference>. Orpah returns, but Ruth accompanies her mother-in-law, <reference osisRef=\"Rut.1.14-Rut.1.18\">Rut 1:14-18</reference>. They arrive at Beth-lehem in the time of the barley harvest, <reference osisRef=\"Rut.1.19-Rut.1.22\">Rut 1:19-22</reference>. <div eID=\"gen9271\" type=\"x-p\"/> <div sID=\"gen9272\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen9272\" type=\"x-p\"/> <div sID=\"gen9273\" type=\"x-p\"/> When the judges ruled - We know not under what judge this happened; some say under Ehud, others under Shamgar. See the preface. <div eID=\"gen9273\" type=\"x-p\"/> <div sID=\"gen9274\" type=\"x-p\"/> There was a famine - Probably occasioned by the depredations of the Philistines, Ammonites, etc., carrying off the corn as soon as it was ripe, or destroying it on the field. <div eID=\"gen9274\" type=\"x-p\"/> <div sID=\"gen9275\" type=\"x-p\"/> The Targum says: \"God has decreed ten grievous famines to take place in the world, to punish the inhabitants of the earth, before the coming of Messiah the king. The first in the days of Adam; the second in the days of Lamech; the third in the days of Abraham; the fourth in the days of Isaac; the fifth in the days of Jacob; the sixth in the days of Boaz, who is called Abstan, (Ibzan), the just, of Beth-lehem-judah; the seventh in the days of David, king of Israel; the eighth in the days of Elijah the prophet; the ninth in the days of Elisha, in Samaria; the tenth is yet to come, and it is not a famine of bread or of water but of hearing the word of prophecy from the mouth of the Lord; and even now this famine is grievous in the land of Israel.\" ",
+      "content_plain": "Preface to the Book of Ruth\nWhen and by whom the book of Ruth was written, are points not agreed on among critics and commentators.\nAs to the transactions recorded in it, they are variously placed. In the book itself there is no other notation of time than merely this, that the things came to pass in the days when the judges ruled; therefore some have placed these transactions under Ehud; others, under Gideon; others, under Barak; others, under Abimelech; and others, under Shamgar. This last is the opinion of Archbishop Usher; and most chronologers adopt it. The book is evidently an Appendix to the book of Judges, and contains a perfect history in itself; and therefore should not be inserted in any part of that book. It also seems to be an Introduction to the books of Samuel, in which the history of David is contained, as it gives the genealogy of this prince. It is also not without its use in matters which respect the Gospels, as it ascertains the line by which Jesus Christ came.\nAs to the author, he is as uncertain as the time. It has been attributed to Hezekiah, to Ezra, and to Samuel; and it is most likely that the author of the two books of Samuel was also the writer of this little book, as it seems necessary to complete his plan of the history of David. See the preface to the first book of Samuel.\nThe sum of the history contained in this book is the following: A man of Bethlehem, named Elimelech, with his wife Naomi, and his two sons Mahlon and Chilion, left his own country in the time of a famine, and went to sojourn in the land of Moab. There he died; and Naomi married her two sons to two Moabitish women: Mahlon married Ruth, who is the chief subject of this book; and Chilion married one named Orpah. In about ten years both these brethren died; and Naomi, accompanied by her two daughters-in-law, set out to return to the land of Judah, she having heard that plenty was again restored to her country. On the way she besought her daughters to return to their own country and kindred. Orpah took her advice, and, after an affectionate parting, returned; but Ruth insisted on accompanying her mother-in-law. They arrived in Bethlehem about the time of harvest; and Ruth went into the fields to glean for their support. The ground on which she was accidentally employed belonged to Boaz, one of the relatives of Elimelech, her father-in-law; who, finding who she was, ordered her to be kindly treated, and appointed her both meat and drink with his own servants. Finding that she was by marriage his kinswoman, he purposed to take her to wife, if a nearer kinsman who was then living should refuse. He was accordingly applied to, refused to take Ruth, and surrendered his right to her, according to the custom of those times, at the gate of Bethlehem, before the elders of the city. Boaz then took her to wife, by whom she had Obed, who was father to Jesse, the father of David.\nTo the questions, Who was Boaz? and, Who was Ruth? no satisfactory answer can be given: all we know for certain is, that Boaz was an Ephraimite of Bethlehem; and Ruth a Moabitess, and consequently educated a heathen. But what we want in certainty several have attempted to supply by conjecture; with them Boaz was the same as Ibzan, Jdg 12:8-10 ; and Ruth was the daughter of Eglon, king of Moab. This is the opinion maintained by the Chaldee Targum on this book; to which I shall, in the course of the notes, have farther occasion to refer. The rabbins say that Elimelech was brother to Salmon, who married Rahab; and that Naomi was his niece.\nThe genealogy of David, as stated in this book, is as follows: -\nA.M. 2236 Judah Pharez Ezron, called also Hezron Aram, called also Ram Amminadab Nahshon Salmon, who married Rahab Boaz, who married Ruth Obed, who begat Jesse A.M. 2919 David born\nThis chronology is according to Archbishop Usher; and includes, from Judah to David six hundred and seventy years.\nElimelech, his wife Naomi, and their two sons, Mahlon and Chilion, flee from a famine in the land of Israel, and go to sojourn in Moab, Rut 1:1 , Rut 1:2 . Here his two sons marry; and, in the space of ten years, both their father and they die, Rut 1:3-6 . Naomi sets out on her return to her own country, accompanied by her daughters-in-law Orpah and Ruth; whom she endeavors to persuade to return to their own people, Rut 1:7-13 . Orpah returns, but Ruth accompanies her mother-in-law, Rut 1:14-18 . They arrive at Beth-lehem in the time of the barley harvest, Rut 1:19-22 .\nVerse 1\nWhen the judges ruled - We know not under what judge this happened; some say under Ehud, others under Shamgar. See the preface.\nThere was a famine - Probably occasioned by the depredations of the Philistines, Ammonites, etc., carrying off the corn as soon as it was ripe, or destroying it on the field.\nThe Targum says: \"God has decreed ten grievous famines to take place in the world, to punish the inhabitants of the earth, before the coming of Messiah the king. The first in the days of Adam; the second in the days of Lamech; the third in the days of Abraham; the fourth in the days of Isaac; the fifth in the days of Jacob; the sixth in the days of Boaz, who is called Abstan, (Ibzan), the just, of Beth-lehem-judah; the seventh in the days of David, king of Israel; the eighth in the days of Elijah the prophet; the ninth in the days of Elisha, in Samaria; the tenth is yet to come, and it is not a famine of bread or of water but of hearing the word of prophecy from the mouth of the Lord; and even now this famine is grievous in the land of Israel.\"",
+      "source_record_sha256": "25d9cbdabd68dcbe53054441075391a588e6ee8a284a1a3c4b23fa61ef643054",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 253,
+        "length": 6769
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          5490,
+          6769
+        ]
+      ],
+      "reader_source_character_span": [
+        5490,
+        6769
+      ],
+      "reader_content_plain": "Verse 1\nWhen the judges ruled - We know not under what judge this happened; some say under Ehud, others under Shamgar. See the preface.\nThere was a famine - Probably occasioned by the depredations of the Philistines, Ammonites, etc., carrying off the corn as soon as it was ripe, or destroying it on the field.\nThe Targum says: \"God has decreed ten grievous famines to take place in the world, to punish the inhabitants of the earth, before the coming of Messiah the king. The first in the days of Adam; the second in the days of Lamech; the third in the days of Abraham; the fourth in the days of Isaac; the fifth in the days of Jacob; the sixth in the days of Boaz, who is called Abstan, (Ibzan), the just, of Beth-lehem-judah; the seventh in the days of David, king of Israel; the eighth in the days of Elijah the prophet; the ninth in the days of Elisha, in Samaria; the tenth is yet to come, and it is not a famine of bread or of water but of hearing the word of prophecy from the mouth of the Lord; and even now this famine is grievous in the land of Israel.\"",
+      "front_matter_separated": true,
+      "separate_navigation_section_ids": [
+        "nav:adam-clarke:RUT:P:book-preface"
+      ]
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.2-2:8:7022:403",
+      "passage_start": "RUT.1.2",
+      "passage_end": "RUT.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen9275\" type=\"x-p\"/> <div sID=\"gen9276\" type=\"x-p\"/> Elimelech - That is, God is my king. <div eID=\"gen9276\" type=\"x-p\"/> <div sID=\"gen9277\" type=\"x-p\"/> Naomi - Beautiful or amiable. <div eID=\"gen9277\" type=\"x-p\"/> <div sID=\"gen9278\" type=\"x-p\"/> Mahlon - Infirmity. <div eID=\"gen9278\" type=\"x-p\"/> <div sID=\"gen9279\" type=\"x-p\"/> Chilion - Finished, completed. ",
+      "content_plain": "Verse 2\nElimelech - That is, God is my king.\nNaomi - Beautiful or amiable.\nMahlon - Infirmity.\nChilion - Finished, completed.",
+      "source_record_sha256": "c3419215412ab377372ef9ce1a66be0935875aa0367da61dc09862374f73df6c",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 7022,
+        "length": 403
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          403
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        403
+      ],
+      "reader_content_plain": "Verse 2\nElimelech - That is, God is my king.\nNaomi - Beautiful or amiable.\nMahlon - Infirmity.\nChilion - Finished, completed.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.3-3:8:7425:161",
+      "passage_start": "RUT.1.3",
+      "passage_end": "RUT.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen9279\" type=\"x-p\"/> <div sID=\"gen9280\" type=\"x-p\"/> Elimelech - died - Probably a short time after his arrival in Moab. ",
+      "content_plain": "Verse 3\nElimelech - died - Probably a short time after his arrival in Moab.",
+      "source_record_sha256": "8d8cbd7d8152e6e87976b9fdf026c7f3fb52fad30ba395e4a66c9c856486bbe8",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 7425,
+        "length": 161
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          161
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        161
+      ],
+      "reader_content_plain": "Verse 3\nElimelech - died - Probably a short time after his arrival in Moab.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.4-4:8:7586:252",
+      "passage_start": "RUT.1.4",
+      "passage_end": "RUT.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen9280\" type=\"x-p\"/> <div sID=\"gen9281\" type=\"x-p\"/> And they took them wives - The Targum very properly observes, that they transgressed the decree of the word of the Lord, and took to themselves strange women. ",
+      "content_plain": "Verse 4\nAnd they took them wives - The Targum very properly observes, that they transgressed the decree of the word of the Lord, and took to themselves strange women.",
+      "source_record_sha256": "47a52a34d1f66f4887df19eb465dfe91d5fab23e519b10f1ff8fc95869d0352e",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 7586,
+        "length": 252
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          252
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        252
+      ],
+      "reader_content_plain": "Verse 4\nAnd they took them wives - The Targum very properly observes, that they transgressed the decree of the word of the Lord, and took to themselves strange women.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.5-5:8:7838:341",
+      "passage_start": "RUT.1.5",
+      "passage_end": "RUT.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen9281\" type=\"x-p\"/> <div sID=\"gen9282\" type=\"x-p\"/> And Mahlon and Chilion died - The Targum adds, And because they transgressed the decree of the word of the Lord, and joined affinity with strange people, therefore their days were cut off. It is very likely that there is more here than conjecture. ",
+      "content_plain": "Verse 5\nAnd Mahlon and Chilion died - The Targum adds, And because they transgressed the decree of the word of the Lord, and joined affinity with strange people, therefore their days were cut off. It is very likely that there is more here than conjecture.",
+      "source_record_sha256": "269abbf2c6111f5c27311be2c45c5c28ba57824b964c960a131f5fb72e36ebee",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 7838,
+        "length": 341
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          341
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        341
+      ],
+      "reader_content_plain": "Verse 5\nAnd Mahlon and Chilion died - The Targum adds, And because they transgressed the decree of the word of the Lord, and joined affinity with strange people, therefore their days were cut off. It is very likely that there is more here than conjecture.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.6-6:8:8179:715",
+      "passage_start": "RUT.1.6",
+      "passage_end": "RUT.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen9282\" type=\"x-p\"/> <div sID=\"gen9283\" type=\"x-p\"/> She had heard - By the mouth of an angel, says the Targum. <div eID=\"gen9283\" type=\"x-p\"/> <div sID=\"gen9284\" type=\"x-p\"/> The Lord had visited his people - \"Because of the righteousness of Ibzan the judge, and because of the supplications of pious Boaz.\" - Targum. <div eID=\"gen9284\" type=\"x-p\"/> <div sID=\"gen9285\" type=\"x-p\"/> It is imagined, and not without probability, that Mahlon and Chilion are the same with Joash and Saraph, mentioned <reference osisRef=\"1Chr.4.22\">1Chr 4:22</reference>, where the Hebrew should be thus translated, and Joash and Saraph, who married in Moab, and dwelt in Lehem. See the Hebrew. ",
+      "content_plain": "Verse 6\nShe had heard - By the mouth of an angel, says the Targum.\nThe Lord had visited his people - \"Because of the righteousness of Ibzan the judge, and because of the supplications of pious Boaz.\" - Targum.\nIt is imagined, and not without probability, that Mahlon and Chilion are the same with Joash and Saraph, mentioned 1Chr 4:22 , where the Hebrew should be thus translated, and Joash and Saraph, who married in Moab, and dwelt in Lehem. See the Hebrew.",
+      "source_record_sha256": "3f002b23444ec97170418275dea3141cfcb292a891fdecf143f97eb20f863b99",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 8179,
+        "length": 715
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          715
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        715
+      ],
+      "reader_content_plain": "Verse 6\nShe had heard - By the mouth of an angel, says the Targum.\nThe Lord had visited his people - \"Because of the righteousness of Ibzan the judge, and because of the supplications of pious Boaz.\" - Targum.\nIt is imagined, and not without probability, that Mahlon and Chilion are the same with Joash and Saraph, mentioned 1Chr 4:22 , where the Hebrew should be thus translated, and Joash and Saraph, who married in Moab, and dwelt in Lehem. See the Hebrew.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.11-11:8:8894:1147",
+      "passage_start": "RUT.1.11",
+      "passage_end": "RUT.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen9285\" type=\"x-p\"/> <div sID=\"gen9286\" type=\"x-p\"/> Are there yet any more sons - This was spoken in allusion to the custom, that when a married brother died without leaving posterity, his brother should take his widow; and the children of such a marriage were accounted the children of the deceased brother. There is something very persuasive and affecting in the address of Naomi to her daughters-in-law. Let us observe the particulars: - <div eID=\"gen9286\" type=\"x-p\"/> <div sID=\"gen9287\" type=\"x-p\"/> 1. She intimates that she had no other sons to give them. <div eID=\"gen9287\" type=\"x-p\"/> <div sID=\"gen9288\" type=\"x-p\"/> 2. That she was not with child; so there could be no expectation. <div eID=\"gen9288\" type=\"x-p\"/> <div sID=\"gen9289\" type=\"x-p\"/> 3. That she was too old to have a husband. <div eID=\"gen9289\" type=\"x-p\"/> <div sID=\"gen9290\" type=\"x-p\"/> 4. That though she should marry that night, and have children, yet they could not wait till such sons were marriageable; she therefore begs them to return to their own country where they might be comfortably settled among their own kindred. ",
+      "content_plain": "Verse 11\nAre there yet any more sons - This was spoken in allusion to the custom, that when a married brother died without leaving posterity, his brother should take his widow; and the children of such a marriage were accounted the children of the deceased brother. There is something very persuasive and affecting in the address of Naomi to her daughters-in-law. Let us observe the particulars: -\n1. She intimates that she had no other sons to give them.\n2. That she was not with child; so there could be no expectation.\n3. That she was too old to have a husband.\n4. That though she should marry that night, and have children, yet they could not wait till such sons were marriageable; she therefore begs them to return to their own country where they might be comfortably settled among their own kindred.",
+      "source_record_sha256": "df09e879dcbfea15b55ff12a67deb3224b2c9e2b461d23bca08447a3853ef3de",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 8894,
+        "length": 1147
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1147
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1147
+      ],
+      "reader_content_plain": "Verse 11\nAre there yet any more sons - This was spoken in allusion to the custom, that when a married brother died without leaving posterity, his brother should take his widow; and the children of such a marriage were accounted the children of the deceased brother. There is something very persuasive and affecting in the address of Naomi to her daughters-in-law. Let us observe the particulars: -\n1. She intimates that she had no other sons to give them.\n2. That she was not with child; so there could be no expectation.\n3. That she was too old to have a husband.\n4. That though she should marry that night, and have children, yet they could not wait till such sons were marriageable; she therefore begs them to return to their own country where they might be comfortably settled among their own kindred.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.14-14:8:10041:304",
+      "passage_start": "RUT.1.14",
+      "passage_end": "RUT.1.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen9290\" type=\"x-p\"/> <div sID=\"gen9291\" type=\"x-p\"/> And Orpah kissed her mother-in-law - The Septuagint add, Και επεστρεψεν εις τον λαον αυτης, And returned to her own people. The Vulgate, Syrian, and Arabic, are to the same purpose. ",
+      "content_plain": "Verse 14\nAnd Orpah kissed her mother-in-law - The Septuagint add, Και επεστρεψεν εις τον λαον αυτης, And returned to her own people. The Vulgate, Syrian, and Arabic, are to the same purpose.",
+      "source_record_sha256": "d0337b7d9b9c139a4ef7147b716010f26fb07260ebc65aa466f1774d1c3fbd5e",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 10041,
+        "length": 304
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          276
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        276
+      ],
+      "reader_content_plain": "Verse 14\nAnd Orpah kissed her mother-in-law - The Septuagint add, Και επεστρεψεν εις τον λαον αυτης, And returned to her own people. The Vulgate, Syrian, and Arabic, are to the same purpose.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.15-15:8:10345:314",
+      "passage_start": "RUT.1.15",
+      "passage_end": "RUT.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 15</hi> <div eID=\"gen9291\" type=\"x-p\"/> <div sID=\"gen9292\" type=\"x-p\"/> Gone back - unto her gods - They were probably both idolaters, their having been proselytes is an unfounded conjecture. Chemosh was the grand idol of the Moabites. The conversion of Ruth probably commenced at this time. ",
+      "content_plain": "Verse 15\nGone back - unto her gods - They were probably both idolaters, their having been proselytes is an unfounded conjecture. Chemosh was the grand idol of the Moabites. The conversion of Ruth probably commenced at this time.",
+      "source_record_sha256": "eeb0bdf766881c7d29451bec827ff6d47207511bf8e4248829b0a01e78e88595",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 10345,
+        "length": 314
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          314
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        314
+      ],
+      "reader_content_plain": "Verse 15\nGone back - unto her gods - They were probably both idolaters, their having been proselytes is an unfounded conjecture. Chemosh was the grand idol of the Moabites. The conversion of Ruth probably commenced at this time.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.16-16:8:10659:2239",
+      "passage_start": "RUT.1.16",
+      "passage_end": "RUT.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 16</hi> <div eID=\"gen9292\" type=\"x-p\"/> <div sID=\"gen9293\" type=\"x-p\"/> And Ruth said - A more perfect surrender was never made of friendly feelings to a friend: I will not leave thee - I will follow thee: I will lodge where thou lodgest - take the same fare with which thou meetest; thy people shall be my people - I most cheerfully abandon my own country, and determine to end my days in thine. I will also henceforth have no god but thy God, and be joined with thee in worship, as I am in affection and consanguinity. I will cleave unto thee even unto death; die where thou diest; and be buried, if possible, in the same grave. This was a most extraordinary attachment, and evidently without any secular motive. <div eID=\"gen9293\" type=\"x-p\"/> <div sID=\"gen9294\" type=\"x-p\"/> The Targum adds several things to this conversation between Naomi and Ruth. I shall subjoin them: \"And Ruth said, Entreat me not to leave thee,\" for I desire to become a proselyte. And Naomi said, We are commanded to keep the Sabbath and other holy days; and on it not to travel more than two thousand cubits. And Ruth said, \"Whither thou goest, I will go.\" And Naomi said, We are commanded not to lodge with the Gentiles. Ruth answered, \"Where thou lodgest, I will lodge.\" And Naomi said, We are commanded to observe the one hundred and thirteen precepts. Ruth answered, What thy people observe, that will I observe; as if they had been my people of old. And Naomi said, We are commanded not to worship with any strange worship. Ruth answered, \"Thy God shall be my God.\" Naomi said, We have four kinds of capital punishment for criminals; stoning, burning, beheading, and hanging. Ruth answered, \"In whatsoever manner thou diest, I will die.\" Naomi said, We have a house of burial. Ruth answered, \"And there will I be buried.\" <div eID=\"gen9294\" type=\"x-p\"/> <div sID=\"gen9295\" type=\"x-p\"/> It is very likely that some such conversation as this took place between the elders and those who were becoming proselytes. This verse is famous among those who strive to divine by the Bible. I should relate the particulars, but am afraid they might lead to a continuance of the practice. In my youth I have seen it done, and was then terrified. ",
+      "content_plain": "Verse 16\nAnd Ruth said - A more perfect surrender was never made of friendly feelings to a friend: I will not leave thee - I will follow thee: I will lodge where thou lodgest - take the same fare with which thou meetest; thy people shall be my people - I most cheerfully abandon my own country, and determine to end my days in thine. I will also henceforth have no god but thy God, and be joined with thee in worship, as I am in affection and consanguinity. I will cleave unto thee even unto death; die where thou diest; and be buried, if possible, in the same grave. This was a most extraordinary attachment, and evidently without any secular motive.\nThe Targum adds several things to this conversation between Naomi and Ruth. I shall subjoin them: \"And Ruth said, Entreat me not to leave thee,\" for I desire to become a proselyte. And Naomi said, We are commanded to keep the Sabbath and other holy days; and on it not to travel more than two thousand cubits. And Ruth said, \"Whither thou goest, I will go.\" And Naomi said, We are commanded not to lodge with the Gentiles. Ruth answered, \"Where thou lodgest, I will lodge.\" And Naomi said, We are commanded to observe the one hundred and thirteen precepts. Ruth answered, What thy people observe, that will I observe; as if they had been my people of old. And Naomi said, We are commanded not to worship with any strange worship. Ruth answered, \"Thy God shall be my God.\" Naomi said, We have four kinds of capital punishment for criminals; stoning, burning, beheading, and hanging. Ruth answered, \"In whatsoever manner thou diest, I will die.\" Naomi said, We have a house of burial. Ruth answered, \"And there will I be buried.\"\nIt is very likely that some such conversation as this took place between the elders and those who were becoming proselytes. This verse is famous among those who strive to divine by the Bible. I should relate the particulars, but am afraid they might lead to a continuance of the practice. In my youth I have seen it done, and was then terrified.",
+      "source_record_sha256": "2e1ad8e3a12f7dbe16bb18db070c17249b254cd6d1268a92114fe5181aff5509",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 10659,
+        "length": 2239
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          2239
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        2239
+      ],
+      "reader_content_plain": "Verse 16\nAnd Ruth said - A more perfect surrender was never made of friendly feelings to a friend: I will not leave thee - I will follow thee: I will lodge where thou lodgest - take the same fare with which thou meetest; thy people shall be my people - I most cheerfully abandon my own country, and determine to end my days in thine. I will also henceforth have no god but thy God, and be joined with thee in worship, as I am in affection and consanguinity. I will cleave unto thee even unto death; die where thou diest; and be buried, if possible, in the same grave. This was a most extraordinary attachment, and evidently without any secular motive.\nThe Targum adds several things to this conversation between Naomi and Ruth. I shall subjoin them: \"And Ruth said, Entreat me not to leave thee,\" for I desire to become a proselyte. And Naomi said, We are commanded to keep the Sabbath and other holy days; and on it not to travel more than two thousand cubits. And Ruth said, \"Whither thou goest, I will go.\" And Naomi said, We are commanded not to lodge with the Gentiles. Ruth answered, \"Where thou lodgest, I will lodge.\" And Naomi said, We are commanded to observe the one hundred and thirteen precepts. Ruth answered, What thy people observe, that will I observe; as if they had been my people of old. And Naomi said, We are commanded not to worship with any strange worship. Ruth answered, \"Thy God shall be my God.\" Naomi said, We have four kinds of capital punishment for criminals; stoning, burning, beheading, and hanging. Ruth answered, \"In whatsoever manner thou diest, I will die.\" Naomi said, We have a house of burial. Ruth answered, \"And there will I be buried.\"\nIt is very likely that some such conversation as this took place between the elders and those who were becoming proselytes. This verse is famous among those who strive to divine by the Bible. I should relate the particulars, but am afraid they might lead to a continuance of the practice. In my youth I have seen it done, and was then terrified.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.17-17:8:12898:502",
+      "passage_start": "RUT.1.17",
+      "passage_end": "RUT.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 17</hi> <div eID=\"gen9295\" type=\"x-p\"/> <div sID=\"gen9296\" type=\"x-p\"/> The Lord do so to me, and more - May he inflict any of those punishments on me, and any worse punishment, if I part from thee till death. And it appears that she was true to her engagement; for Naomi was nourished in the house of Boaz in her old age, and became the fosterer and nurse of their son Obed, <reference osisRef=\"Rut.4.15\">Rut 4:15</reference>, <reference osisRef=\"Rut.4.16\">Rut 4:16</reference>. ",
+      "content_plain": "Verse 17\nThe Lord do so to me, and more - May he inflict any of those punishments on me, and any worse punishment, if I part from thee till death. And it appears that she was true to her engagement; for Naomi was nourished in the house of Boaz in her old age, and became the fosterer and nurse of their son Obed, Rut 4:15 , Rut 4:16 .",
+      "source_record_sha256": "e17108da284130c5e920f782ad59ff7b2a1624141ccde62f1408d4490c47924e",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 12898,
+        "length": 502
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          502
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        502
+      ],
+      "reader_content_plain": "Verse 17\nThe Lord do so to me, and more - May he inflict any of those punishments on me, and any worse punishment, if I part from thee till death. And it appears that she was true to her engagement; for Naomi was nourished in the house of Boaz in her old age, and became the fosterer and nurse of their son Obed, Rut 4:15 , Rut 4:16 .",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.19-19:8:13400:281",
+      "passage_start": "RUT.1.19",
+      "passage_end": "RUT.1.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 19</hi> <div eID=\"gen9296\" type=\"x-p\"/> <div sID=\"gen9297\" type=\"x-p\"/> All the city was moved about them - It appears that Naomi was not only well known, but highly respected also at Bethlehem; a proof that Elimelech was of high consideration in that place. ",
+      "content_plain": "Verse 19\nAll the city was moved about them - It appears that Naomi was not only well known, but highly respected also at Bethlehem; a proof that Elimelech was of high consideration in that place.",
+      "source_record_sha256": "092b192f0c58e2d995a9060efac21dd954b3b47580d68e01acf2afd56d1fff02",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 13400,
+        "length": 281
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          281
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        281
+      ],
+      "reader_content_plain": "Verse 19\nAll the city was moved about them - It appears that Naomi was not only well known, but highly respected also at Bethlehem; a proof that Elimelech was of high consideration in that place.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.20-20:8:13681:449",
+      "passage_start": "RUT.1.20",
+      "passage_end": "RUT.1.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 20</hi> <div eID=\"gen9297\" type=\"x-p\"/> <div sID=\"gen9298\" type=\"x-p\"/> Call me not Naomi - That is, beautiful or pleasant. <div eID=\"gen9298\" type=\"x-p\"/> <div sID=\"gen9299\" type=\"x-p\"/> Call me Mara - That is, bitter; one whose life is grievous to her. <div eID=\"gen9299\" type=\"x-p\"/> <div sID=\"gen9300\" type=\"x-p\"/> The Almighty - שדי Shaddai, He who is self-sufficient, has taken away the props and supports of my life. ",
+      "content_plain": "Verse 20\nCall me not Naomi - That is, beautiful or pleasant.\nCall me Mara - That is, bitter; one whose life is grievous to her.\nThe Almighty - שדי Shaddai, He who is self-sufficient, has taken away the props and supports of my life.",
+      "source_record_sha256": "4247eef18af32b2c0a52dccd31a0222ffd5e58f7b54238bf73a21f80223b6dce",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 13681,
+        "length": 449
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          446
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        446
+      ],
+      "reader_content_plain": "Verse 20\nCall me not Naomi - That is, beautiful or pleasant.\nCall me Mara - That is, bitter; one whose life is grievous to her.\nThe Almighty - שדי Shaddai, He who is self-sufficient, has taken away the props and supports of my life.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.21-21:8:14130:580",
+      "passage_start": "RUT.1.21",
+      "passage_end": "RUT.1.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 21</hi> <div eID=\"gen9300\" type=\"x-p\"/> <div sID=\"gen9301\" type=\"x-p\"/> I went out full - Having a husband and two sons. <div eID=\"gen9301\" type=\"x-p\"/> <div sID=\"gen9302\" type=\"x-p\"/> The Lord hath brought me home again empty - Having lost all three by death. It is also likely that Elimelech took considerable property with him into the land of Moab; for as he fled from the face of the famine, he would naturally take his property with him; and on this Naomi subsisted till her return to Bethlehem, which she might not have thought of till all was spent. ",
+      "content_plain": "Verse 21\nI went out full - Having a husband and two sons.\nThe Lord hath brought me home again empty - Having lost all three by death. It is also likely that Elimelech took considerable property with him into the land of Moab; for as he fled from the face of the famine, he would naturally take his property with him; and on this Naomi subsisted till her return to Bethlehem, which she might not have thought of till all was spent.",
+      "source_record_sha256": "95606091990e720b201cceb9a28636e7462baf2c7c6a63531619ce9708308863",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 14130,
+        "length": 580
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          580
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        580
+      ],
+      "reader_content_plain": "Verse 21\nI went out full - Having a husband and two sons.\nThe Lord hath brought me home again empty - Having lost all three by death. It is also likely that Elimelech took considerable property with him into the land of Moab; for as he fled from the face of the famine, he would naturally take his property with him; and on this Naomi subsisted till her return to Bethlehem, which she might not have thought of till all was spent.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:RUT.1.22-22:8:14710:3118",
+      "passage_start": "RUT.1.22",
+      "passage_end": "RUT.1.22",
+      "start_verse": 22,
+      "end_verse": 22,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 22</hi> <div eID=\"gen9302\" type=\"x-p\"/> <div sID=\"gen9303\" type=\"x-p\"/> In the beginning of barley harvest - This was in the beginning of spring, for the barley harvest began immediately after the passover, and that feast was held on the 15th of the month Nisan, which corresponds nearly with our March. <div eID=\"gen9303\" type=\"x-p\"/> <div sID=\"gen9304\" type=\"x-p\"/> The Targum says, \"They came to Beth-lehem on that day in which the children of Israel began to mow the sheaf of barley which was to be waved before the Lord.\" This circumstance is the more distinctly marked, because of Ruth's gleaning, mentioned in the succeeding chapter. <div eID=\"gen9304\" type=\"x-p\"/> <div sID=\"gen9305\" type=\"x-p\"/> 1. The native, the amiable simplicity, in which the story of the preceding chapter is told, is a proof of its genuineness. There are several sympathetic circumstances recorded here which no forger could have invented. There is too much of nature to admit any thing of art. <div eID=\"gen9305\" type=\"x-p\"/> <div sID=\"gen9306\" type=\"x-p\"/> 2. On the marriage of Orpah and Ruth, and the wish of Naomi that they might find rest in the house of their husbands, there are some pious and sensible observations in Mr. Ness's History and Mystery of the Book of Ruth, from which I shall lay the following extract before my readers: - \"A married estate is a state of rest; so it is called here, and in <reference osisRef=\"Rut.3.1\">Rut 3:1</reference>. Hence marriage is called portus juventutis, the port or haven of young people; whose affections, while unmarried, are continually floating or tossed to and fro, like a ship upon the waters, till they come into this happy harbour. There is a natural propension in most persons towards nuptial communion, as all created beings have a natural tendency towards their proper center, (leve sursum, et grave deorsum), and are restless out of it, so the rabbins say, Requiret vir costam suam, et requiret femina sedem suam, 'The man is restless while he misses his rib that was taken out of his side; and the woman is restless till she get under the man's arm, from whence she was taken.' O! look up to God then, ye unmarried ones, and cry with good Naomi, The Lord grant me rest for my roving affections in the house of some good consort, that I may live in peace and plenty, with content and comfort all my days. Know that your marriage is, of all your civil affairs, of the greatest importance, having an influence upon your whole life. It is either your making or marring in this world; 'tis like a stratagem in war, wherein a miscarriage cannot be recalled when we will, for we marry for life. I am thine, and thou art mine, brevis quidem cantiuncula est, 'is a short song;' sed longum habet epiphonema, 'but it hath a long undersong.' So an error here is irrecoverable; you have need of Argus's hundred eyes to look withal before you leap.\" <div eID=\"gen9306\" type=\"x-p\"/> <div sID=\"gen9307\" type=\"x-p\"/> This is good advice; but who among the persons concerned will have grace enough to take it?  <chapter eID=\"Ruth.1\"/> <div eID=\"gen9307\" type=\"x-p\"/>",
+      "content_plain": "Verse 22\nIn the beginning of barley harvest - This was in the beginning of spring, for the barley harvest began immediately after the passover, and that feast was held on the 15th of the month Nisan, which corresponds nearly with our March.\nThe Targum says, \"They came to Beth-lehem on that day in which the children of Israel began to mow the sheaf of barley which was to be waved before the Lord.\" This circumstance is the more distinctly marked, because of Ruth's gleaning, mentioned in the succeeding chapter.\n1. The native, the amiable simplicity, in which the story of the preceding chapter is told, is a proof of its genuineness. There are several sympathetic circumstances recorded here which no forger could have invented. There is too much of nature to admit any thing of art.\n2. On the marriage of Orpah and Ruth, and the wish of Naomi that they might find rest in the house of their husbands, there are some pious and sensible observations in Mr. Ness's History and Mystery of the Book of Ruth, from which I shall lay the following extract before my readers: - \"A married estate is a state of rest; so it is called here, and in Rut 3:1 . Hence marriage is called portus juventutis, the port or haven of young people; whose affections, while unmarried, are continually floating or tossed to and fro, like a ship upon the waters, till they come into this happy harbour. There is a natural propension in most persons towards nuptial communion, as all created beings have a natural tendency towards their proper center, (leve sursum, et grave deorsum), and are restless out of it, so the rabbins say, Requiret vir costam suam, et requiret femina sedem suam, 'The man is restless while he misses his rib that was taken out of his side; and the woman is restless till she get under the man's arm, from whence she was taken.' O! look up to God then, ye unmarried ones, and cry with good Naomi, The Lord grant me rest for my roving affections in the house of some good consort, that I may live in peace and plenty, with content and comfort all my days. Know that your marriage is, of all your civil affairs, of the greatest importance, having an influence upon your whole life. It is either your making or marring in this world; 'tis like a stratagem in war, wherein a miscarriage cannot be recalled when we will, for we marry for life. I am thine, and thou art mine, brevis quidem cantiuncula est, 'is a short song;' sed longum habet epiphonema, 'but it hath a long undersong.' So an error here is irrecoverable; you have need of Argus's hundred eyes to look withal before you leap.\"\nThis is good advice; but who among the persons concerned will have grace enough to take it?",
+      "source_record_sha256": "87ee523ffa920bd728da607446c99e2bd55b89f200f24a9a7873d90fa39de77f",
+      "index_record": {
+        "testament": "OT",
+        "block": 8,
+        "offset": 14710,
+        "length": 3118
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "RUT.1.22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          3118
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        3118
+      ],
+      "reader_content_plain": "Verse 22\nIn the beginning of barley harvest - This was in the beginning of spring, for the barley harvest began immediately after the passover, and that feast was held on the 15th of the month Nisan, which corresponds nearly with our March.\nThe Targum says, \"They came to Beth-lehem on that day in which the children of Israel began to mow the sheaf of barley which was to be waved before the Lord.\" This circumstance is the more distinctly marked, because of Ruth's gleaning, mentioned in the succeeding chapter.\n1. The native, the amiable simplicity, in which the story of the preceding chapter is told, is a proof of its genuineness. There are several sympathetic circumstances recorded here which no forger could have invented. There is too much of nature to admit any thing of art.\n2. On the marriage of Orpah and Ruth, and the wish of Naomi that they might find rest in the house of their husbands, there are some pious and sensible observations in Mr. Ness's History and Mystery of the Book of Ruth, from which I shall lay the following extract before my readers: - \"A married estate is a state of rest; so it is called here, and in Rut 3:1 . Hence marriage is called portus juventutis, the port or haven of young people; whose affections, while unmarried, are continually floating or tossed to and fro, like a ship upon the waters, till they come into this happy harbour. There is a natural propension in most persons towards nuptial communion, as all created beings have a natural tendency towards their proper center, (leve sursum, et grave deorsum), and are restless out of it, so the rabbins say, Requiret vir costam suam, et requiret femina sedem suam, 'The man is restless while he misses his rib that was taken out of his side; and the woman is restless till she get under the man's arm, from whence she was taken.' O! look up to God then, ye unmarried ones, and cry with good Naomi, The Lord grant me rest for my roving affections in the house of some good consort, that I may live in peace and plenty, with content and comfort all my days. Know that your marriage is, of all your civil affairs, of the greatest importance, having an influence upon your whole life. It is either your making or marring in this world; 'tis like a stratagem in war, wherein a miscarriage cannot be recalled when we will, for we marry for life. I am thine, and thou art mine, brevis quidem cantiuncula est, 'is a short song;' sed longum habet epiphonema, 'but it hath a long undersong.' So an error here is irrecoverable; you have need of Argus's hundred eyes to look withal before you leap.\"\nThis is good advice; but who among the persons concerned will have grace enough to take it?",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 15,
+  "unindexed_verse_count": 7,
+  "upstream_snapshot_id": "SOTW_JDG_RUT_SOURCE_LOCK_2026-11-05",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 15
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:RUT:P:book-preface",
+      "navigation_id": "RUT:P:book-preface",
+      "kind": "nonverse_navigation",
+      "scope": "book",
+      "role": "book_preface",
+      "title": "Preface · Ruth",
+      "content_plain": "Preface to the Book of Ruth\nWhen and by whom the book of Ruth was written, are points not agreed on among critics and commentators.\nAs to the transactions recorded in it, they are variously placed. In the book itself there is no other notation of time than merely this, that the things came to pass in the days when the judges ruled; therefore some have placed these transactions under Ehud; others, under Gideon; others, under Barak; others, under Abimelech; and others, under Shamgar. This last is the opinion of Archbishop Usher; and most chronologers adopt it. The book is evidently an Appendix to the book of Judges, and contains a perfect history in itself; and therefore should not be inserted in any part of that book. It also seems to be an Introduction to the books of Samuel, in which the history of David is contained, as it gives the genealogy of this prince. It is also not without its use in matters which respect the Gospels, as it ascertains the line by which Jesus Christ came.\nAs to the author, he is as uncertain as the time. It has been attributed to Hezekiah, to Ezra, and to Samuel; and it is most likely that the author of the two books of Samuel was also the writer of this little book, as it seems necessary to complete his plan of the history of David. See the preface to the first book of Samuel.\nThe sum of the history contained in this book is the following: A man of Bethlehem, named Elimelech, with his wife Naomi, and his two sons Mahlon and Chilion, left his own country in the time of a famine, and went to sojourn in the land of Moab. There he died; and Naomi married her two sons to two Moabitish women: Mahlon married Ruth, who is the chief subject of this book; and Chilion married one named Orpah. In about ten years both these brethren died; and Naomi, accompanied by her two daughters-in-law, set out to return to the land of Judah, she having heard that plenty was again restored to her country. On the way she besought her daughters to return to their own country and kindred. Orpah took her advice, and, after an affectionate parting, returned; but Ruth insisted on accompanying her mother-in-law. They arrived in Bethlehem about the time of harvest; and Ruth went into the fields to glean for their support. The ground on which she was accidentally employed belonged to Boaz, one of the relatives of Elimelech, her father-in-law; who, finding who she was, ordered her to be kindly treated, and appointed her both meat and drink with his own servants. Finding that she was by marriage his kinswoman, he purposed to take her to wife, if a nearer kinsman who was then living should refuse. He was accordingly applied to, refused to take Ruth, and surrendered his right to her, according to the custom of those times, at the gate of Bethlehem, before the elders of the city. Boaz then took her to wife, by whom she had Obed, who was father to Jesse, the father of David.\nTo the questions, Who was Boaz? and, Who was Ruth? no satisfactory answer can be given: all we know for certain is, that Boaz was an Ephraimite of Bethlehem; and Ruth a Moabitess, and consequently educated a heathen. But what we want in certainty several have attempted to supply by conjecture; with them Boaz was the same as Ibzan, Jdg 12:8-10 ; and Ruth was the daughter of Eglon, king of Moab. This is the opinion maintained by the Chaldee Targum on this book; to which I shall, in the course of the notes, have farther occasion to refer. The rabbins say that Elimelech was brother to Salmon, who married Rahab; and that Naomi was his niece.\nThe genealogy of David, as stated in this book, is as follows: -\nA.M. 2236 Judah Pharez Ezron, called also Hezron Aram, called also Ram Amminadab Nahshon Salmon, who married Rahab Boaz, who married Ruth Obed, who begat Jesse A.M. 2919 David born\nThis chronology is according to Archbishop Usher; and includes, from Judah to David six hundred and seventy years.\nElimelech, his wife Naomi, and their two sons, Mahlon and Chilion, flee from a famine in the land of Israel, and go to sojourn in Moab, Rut 1:1 , Rut 1:2 . Here his two sons marry; and, in the space of ten years, both their father and they die, Rut 1:3-6 . Naomi sets out on her return to her own country, accompanied by her daughters-in-law Orpah and Ruth; whom she endeavors to persuade to return to their own people, Rut 1:7-13 . Orpah returns, but Ruth accompanies her mother-in-law, Rut 1:14-18 . They arrive at Beth-lehem in the time of the barley harvest, Rut 1:19-22 .",
+      "source_entry_id": "sword:clarke:RUT.1.1-1:8:253:6769",
+      "source_character_span": [
+        0,
+        5490
+      ],
+      "source_fragment_sha256": "07186179a6bad01acca7787a00f2a4daa5a40cd838ddda8c30182b2a56dd3ea6",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 15
+}
