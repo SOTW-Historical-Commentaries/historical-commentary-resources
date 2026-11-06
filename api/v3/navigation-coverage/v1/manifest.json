@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.3-additive-samuel",
+  "version": "navigation-coverage-v1.4-additive-1ki",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -14,7 +14,8 @@
     "JDG",
     "RUT",
     "1SA",
-    "2SA"
+    "2SA",
+    "1KI"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -26,7 +27,8 @@
     "JDG": "structured-judges-2026-11-05",
     "RUT": "structured-ruth-2026-11-05",
     "1SA": "structured-first-samuel-2026-11-05",
-    "2SA": "structured-second-samuel-2026-11-05"
+    "2SA": "structured-second-samuel-2026-11-05",
+    "1KI": "structured-first-kings-2026-11-06"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -40,7 +42,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 1351,
+    "original_P_sections": 1478,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -52,7 +54,8 @@
       "JDG": 110,
       "RUT": 25,
       "1SA": 209,
-      "2SA": 158
+      "2SA": 158,
+      "1KI": 127
     },
     "routed_by_book": {
       "GEN": 64,
@@ -64,10 +67,11 @@
       "JDG": 114,
       "RUT": 27,
       "1SA": 213,
-      "2SA": 163
+      "2SA": 163,
+      "1KI": 131
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.2-additive-jdg-rut",
+  "previous_manifest_version": "navigation-coverage-v1.3-additive-samuel",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -75,6 +79,8 @@
     "JFB and KD Former Prophets historical group introductions are eligible for both Samuel books by source evidence.",
     "Keil–Delitzsch original shared Books of Samuel introduction is source-linked from 1 Samuel into 2 Samuel; no duplicate text.",
     "Non-verse P material is scoped only to supported book/chapter/passage ranges; original records unchanged.",
-    "No Bible translation text, player integration, or existing runtime file changes."
+    "No Bible translation text, player integration, or existing runtime file changes.",
+    "1 Kings (22 chapters) added with 127 original P sections and four separately verified historical-group source-linked P sections.",
+    "No original commentary source text, prior-book snapshots or navigation overlays were changed; four cross-book source links reuse accepted source file and fragment hashes."
   ]
 }
