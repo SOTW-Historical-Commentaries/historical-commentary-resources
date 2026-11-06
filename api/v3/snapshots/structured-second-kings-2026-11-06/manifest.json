@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-second-kings-2026-11-06",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "2KI"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 150,
+    "original_entries": 1745,
+    "navigation_sections": 131,
+    "sword_chapters": 100,
+    "unavailable_chapters": 25,
+    "helloao_chapters": 25,
+    "verse_author_routes": 2983,
+    "chapters": 25
+  },
+  "chapter_verse_count": {
+    "1": 18,
+    "2": 25,
+    "3": 27,
+    "4": 44,
+    "5": 27,
+    "6": 33,
+    "7": 20,
+    "8": 29,
+    "9": 37,
+    "10": 36,
+    "11": 21,
+    "12": 21,
+    "13": 25,
+    "14": 29,
+    "15": 38,
+    "16": 20,
+    "17": 41,
+    "18": 37,
+    "19": 37,
+    "20": 21,
+    "21": 26,
+    "22": 20,
+    "23": 37,
+    "24": 20,
+    "25": 30
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five locked CrossWire/SWORD OT verse-index archives, original HelloAO Gill; original SHA-256 verified.",
+  "reader_policy": "Verse by default; source-bounded P headings and actual introductions only.",
+  "provenance_policy": "Historical author, edition, source, rights and exact native binary index preserved.",
+  "notes": [
+    "Additive one-book snapshot; never rewrites accepted 1 Kings or earlier books.",
+    "Calvin original module has no 2 Kings source records; absent original source never fabricated.",
+    "Original source indexed verses are not proof of word-level exposition.",
+    "Original exact OSIS and HelloAO source items are retained; no Bible translation bundled.",
+    "Browser rendering is a separate post-publication verification step."
+  ]
+}
