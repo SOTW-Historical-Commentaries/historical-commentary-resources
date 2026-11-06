@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED_BY_ADMINISTRATOR",
+  "browser_rendering_verified": false,
+  "checks": 0,
+  "passed": 0,
+  "failures": [
+    "1-samuel:Error:Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8873/review-1-samuel-v3.html?chapter=1&verse=1\nCall log:\n  - navigating to \"http://127.0.0.1:8873/review-1-samuel-v3.html?chapter=1&verse=1\", waiting until \"domconte",
+    "2-samuel:Error:Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8873/review-2-samuel-v3.html?chapter=1&verse=1\nCall log:\n  - navigating to \"http://127.0.0.1:8873/review-2-samuel-v3.html?chapter=1&verse=1\", waiting until \"domconte"
+  ],
+  "results": [],
+  "environment": "Playwright Chromium using local HTTP staging server and stubbed non-source author-display catalog only",
+  "note": "Real public GitHub Pages URL and public deployment cannot be verified from this local test.",
+  "required_followup": "Owner must verify public reader loading, original historical content, P scope and deep-link behavior after successful final GitHub Pages deployment.",
+  "reader_urls": [
+    "https://sotw-historical-commentaries.github.io/historical-commentary-resources/review-1-samuel-v3.html",
+    "https://sotw-historical-commentaries.github.io/historical-commentary-resources/review-2-samuel-v3.html"
+  ]
+}

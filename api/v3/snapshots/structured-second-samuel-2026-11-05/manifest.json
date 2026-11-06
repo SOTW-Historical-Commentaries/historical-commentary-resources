@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-second-samuel-2026-11-05",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "2SA"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 1666,
+    "reader_visible_entries": 1662,
+    "navigation_sections": 158,
+    "source_fragments_separated": 28,
+    "author_chapters": 144,
+    "sword_chapters": 119,
+    "introduction_only_records": 1,
+    "unavailable_chapters": 25,
+    "helloao_chapters": 25,
+    "chapters": 24,
+    "verse_author_routes": 2869,
+    "nonverse_roles": {
+      "book_introduction": 4,
+      "passage_heading": 104,
+      "chapter_introduction": 24,
+      "book_heading": 2,
+      "chapter_heading": 24
+    }
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Exact original five CrossWire/SWORD modules with matching binary KJV verse/range index; HelloAO independent Gill data, and whole-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default. P navigation controlled only by the authoritative per-book coverage overlay, with explicit passage bounds.",
+  "provenance_policy": "Original historical author, work and edition lead; SOTW is public provider. Preserve acquisition provenance and rights.",
+  "notes": [
+    "Additive two-book snapshot, previously accepted eight books remain byte-for-byte unchanged.",
+    "Unavailable chapters have explicit records. Calvin has no original commentary source indexed in First or Second Samuel in the supplied editions.",
+    "Source-indexing of a shared passage record is not proof of independent exposition for every verse.",
+    "No Bible translation text is bundled, and no player or existing shared runtime is modified."
+  ]
+}

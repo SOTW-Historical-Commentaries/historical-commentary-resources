@@ -1,0 +1,51 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-first-samuel-2026-11-05",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "1SA"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 2162,
+    "reader_visible_entries": 2161,
+    "navigation_sections": 209,
+    "source_fragments_separated": 33,
+    "author_chapters": 186,
+    "sword_chapters": 155,
+    "introduction_only_records": 0,
+    "unavailable_chapters": 31,
+    "helloao_chapters": 31,
+    "chapters": 31,
+    "verse_author_routes": 3501,
+    "nonverse_roles": {
+      "book_introduction": 2,
+      "passage_heading": 137,
+      "book_preface": 1,
+      "chapter_introduction": 30,
+      "book_heading": 2,
+      "chapter_heading": 36,
+      "group_introduction": 1
+    }
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Exact original five CrossWire/SWORD modules with matching binary KJV verse/range index; HelloAO independent Gill data, and whole-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default. P navigation controlled only by the authoritative per-book coverage overlay, with explicit passage bounds.",
+  "provenance_policy": "Original historical author, work and edition lead; SOTW is public provider. Preserve acquisition provenance and rights.",
+  "notes": [
+    "Additive two-book snapshot, previously accepted eight books remain byte-for-byte unchanged.",
+    "Unavailable chapters have explicit records. Calvin has no original commentary source indexed in First or Second Samuel in the supplied editions.",
+    "Source-indexing of a shared passage record is not proof of independent exposition for every verse.",
+    "No Bible translation text is bundled, and no player or existing shared runtime is modified."
+  ]
+}

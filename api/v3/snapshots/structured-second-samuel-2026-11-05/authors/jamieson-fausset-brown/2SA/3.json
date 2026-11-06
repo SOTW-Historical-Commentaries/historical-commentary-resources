@@ -1,0 +1,464 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-second-samuel-2026-11-05",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "2SA",
+  "chapter": 3,
+  "canonical_chapter": "2SA.3",
+  "versification": "KJV",
+  "verse_count": 39,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"3\" osisID=\"2Sam.3\" sID=\"2Sam.3\"/><div eID=\"gen3906\" type=\"x-p\"/> ",
+      "source_record_sha256": "be67e7aa7449d26efbfe8c30e35e0db476efa6ba1128ca954460060c8967c09e",
+      "index_record": {
+        "block": 10,
+        "offset": 16462,
+        "length": 77
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:2SA.3.1-1:10:16539:643",
+      "passage_start": "2SA.3.1",
+      "passage_end": "2SA.3.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2840\"/><title type=\"x-s2\">CHAPTER 3</title> <div sID=\"gen3907\" type=\"x-p\"/> <reference osisRef=\"2Sam.3.1-2Sam.3.5\">2Sa 3:1-5</reference>. Six Sons Born to David.<div eID=\"gen3907\" type=\"x-p\"/> <div sID=\"gen3908\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2840\"/><hi type=\"bold\">1. there was long war between the house of Saul and the house of David--</hi>The rival parties had varying success, but David's interest steadily increased; less, however, by the fortunes of war, than a growing adherence to him as the divinely designated king. <div eID=\"gen3908\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 3\n2Sa 3:1-5 . Six Sons Born to David.\n1. there was long war between the house of Saul and the house of David-- The rival parties had varying success, but David's interest steadily increased; less, however, by the fortunes of war, than a growing adherence to him as the divinely designated king.",
+      "source_record_sha256": "4bb7302787d0c414dfb61726a3e63b345f1d637d689646a9a0b14be975e4b19d",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 16539,
+        "length": 643
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.3.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          59
+        ],
+        [
+          95,
+          128
+        ],
+        [
+          213,
+          643
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        643
+      ],
+      "reader_content_plain": "1. there was long war between the house of Saul and the house of David-- The rival parties had varying success, but David's interest steadily increased; less, however, by the fortunes of war, than a growing adherence to him as the divinely designated king.",
+      "front_matter_separated": true,
+      "separate_navigation_section_ids": [
+        "nav:jamieson-fausset-brown:2SA.3:P:chapter-heading-0-59",
+        "nav:jamieson-fausset-brown:2SA.3:P:source-passage-heading-1-128"
+      ]
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.2-2:10:17182:291",
+      "passage_start": "2SA.3.2",
+      "passage_end": "2SA.3.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2841\"/><div sID=\"gen3909\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2841\"/><hi type=\"bold\">2. unto David were sons born in Hebron--</hi>The six sons mentioned had all different mothers. <div eID=\"gen3909\" type=\"x-p\"/>",
+      "content_plain": "2. unto David were sons born in Hebron-- The six sons mentioned had all different mothers.",
+      "source_record_sha256": "7b6504b9ebaf350cb65511b224779afb1ae54dc89861cb9ce97f7ec376bc089c",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 17182,
+        "length": 291
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.3.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          291
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        291
+      ],
+      "reader_content_plain": "2. unto David were sons born in Hebron-- The six sons mentioned had all different mothers.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.3-3:10:17473:805",
+      "passage_start": "2SA.3.3",
+      "passage_end": "2SA.3.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2842\"/><div sID=\"gen3910\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2842\"/><hi type=\"bold\">3. Chileab--</hi>(\"his father's picture\")--called also Daniel (<reference osisRef=\"1Chr.3.1\">1Ch 3:1</reference>).<div eID=\"gen3910\" type=\"x-p\"/> <div sID=\"gen3911\" type=\"x-p\"/><hi type=\"bold\">Maacah the daughter of Talmai king of Geshur--</hi>a region in Syria, north of Israel. This marriage seems to have been a political match, made by David, with a view to strengthen himself against Ish-bosheth's party, by the aid of a powerful friend and ally in the north. Piety was made to yield to policy, and the bitter fruits of this alliance with a heathen prince he reaped in the life of the turbulent Absalom. <div eID=\"gen3911\" type=\"x-p\"/>",
+      "content_plain": "3. Chileab-- (\"his father's picture\")--called also Daniel ( 1Ch 3:1 ).\nMaacah the daughter of Talmai king of Geshur-- a region in Syria, north of Israel. This marriage seems to have been a political match, made by David, with a view to strengthen himself against Ish-bosheth's party, by the aid of a powerful friend and ally in the north. Piety was made to yield to policy, and the bitter fruits of this alliance with a heathen prince he reaped in the life of the turbulent Absalom.",
+      "source_record_sha256": "5bf1003d3cb150acbd9fa82702ad6ca10c35f1bdeb839943d314bf7e3d9e5d92",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 17473,
+        "length": 805
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.3.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          805
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        805
+      ],
+      "reader_content_plain": "3. Chileab-- (\"his father's picture\")--called also Daniel ( 1Ch 3:1 ).\nMaacah the daughter of Talmai king of Geshur-- a region in Syria, north of Israel. This marriage seems to have been a political match, made by David, with a view to strengthen himself against Ish-bosheth's party, by the aid of a powerful friend and ally in the north. Piety was made to yield to policy, and the bitter fruits of this alliance with a heathen prince he reaped in the life of the turbulent Absalom.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.5-5:10:18278:631",
+      "passage_start": "2SA.3.5",
+      "passage_end": "2SA.3.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2843\"/><div sID=\"gen3912\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2843\"/><hi type=\"bold\">5. Eglah David's wife--</hi>This addition has led many to think that Eglah was another name for Michal, the first and proper wife, who, though she had no family after her insolent ridicule of David (<reference osisRef=\"2Sam.6.23\">2Sa 6:23</reference>), might have had a child before.<div eID=\"gen3912\" type=\"x-p\"/> <div sID=\"gen3913\" type=\"x-p\"/> <reference osisRef=\"2Sam.3.6-2Sam.3.12\">2Sa 3:6-12</reference>. Abner Revolts to David. <div eID=\"gen3913\" type=\"x-p\"/>",
+      "content_plain": "5. Eglah David's wife-- This addition has led many to think that Eglah was another name for Michal, the first and proper wife, who, though she had no family after her insolent ridicule of David ( 2Sa 6:23 ), might have had a child before.\n2Sa 3:6-12 . Abner Revolts to David.",
+      "source_record_sha256": "3b3060a16e262d098e95673b7357a0a649f60b7675de306a37ef8e96c1f29c1c",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 18278,
+        "length": 631
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.3.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          631
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        631
+      ],
+      "reader_content_plain": "5. Eglah David's wife-- This addition has led many to think that Eglah was another name for Michal, the first and proper wife, who, though she had no family after her insolent ridicule of David ( 2Sa 6:23 ), might have had a child before.\n2Sa 3:6-12 . Abner Revolts to David.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.6-11:10:18909:892",
+      "passage_start": "2SA.3.6",
+      "passage_end": "2SA.3.11",
+      "start_verse": 6,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2844\"/><div sID=\"gen3914\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2844\"/><hi type=\"bold\">6-11. Abner made himself strong for the house of Saul--</hi>In the East, the wives and concubines of a king are the property of his successor to this extent, that for a private person to aspire to marry one of them would be considered a virtual advance of pretensions to the crown (see <reference osisRef=\"1Kgs.2.17\">1Ki 2:17</reference>). It is not clear whether the accusation against Abner was well or ill founded. But he resented the charge as an indignity, and, impelled by revenge, determined to transfer all the weight of his influence to the opposite party. He evidently set a full value on his services, and seems to have lorded it over his weak nephew in a haughty, overbearing manner. <div eID=\"gen3914\" type=\"x-p\"/>",
+      "content_plain": "6-11. Abner made himself strong for the house of Saul-- In the East, the wives and concubines of a king are the property of his successor to this extent, that for a private person to aspire to marry one of them would be considered a virtual advance of pretensions to the crown (see 1Ki 2:17 ). It is not clear whether the accusation against Abner was well or ill founded. But he resented the charge as an indignity, and, impelled by revenge, determined to transfer all the weight of his influence to the opposite party. He evidently set a full value on his services, and seems to have lorded it over his weak nephew in a haughty, overbearing manner.",
+      "source_record_sha256": "a9c4df5869985619774761831bb6bcbce0ac9e4bbc6eae9351b8f668cc810d0e",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 18909,
+        "length": 892
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "2SA.3.6-11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          892
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        892
+      ],
+      "reader_content_plain": "6-11. Abner made himself strong for the house of Saul-- In the East, the wives and concubines of a king are the property of his successor to this extent, that for a private person to aspire to marry one of them would be considered a virtual advance of pretensions to the crown (see 1Ki 2:17 ). It is not clear whether the accusation against Abner was well or ill founded. But he resented the charge as an indignity, and, impelled by revenge, determined to transfer all the weight of his influence to the opposite party. He evidently set a full value on his services, and seems to have lorded it over his weak nephew in a haughty, overbearing manner.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.12-13:10:19801:1254",
+      "passage_start": "2SA.3.12",
+      "passage_end": "2SA.3.13",
+      "start_verse": 12,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2845\"/><div sID=\"gen3915\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2845\"/><hi type=\"bold\">12-13. Abner sent messengers to David--</hi>Though his language implied a secret conviction, that in supporting Ish-bosheth he had been laboring to frustrate the divine purpose of conferring the sovereignty of the kingdom on David, this acknowledgment was no justification either of the measure he was now adopting, or of the motives that prompted it. Nor does it seem possible to uphold the full integrity and honor of David's conduct in entertaining his secret overtures for undermining Ish-bosheth, except we take into account the divine promise of the kingdom, and his belief that the secession of Abner was a means designed by Providence for accomplishing it. The demand for the restoration of his wife Michal was perfectly fair; but David's insisting on it at that particular moment, as an indispensable condition of his entering into any treaty with Abner, seems to have proceeded not so much from a lingering attachment as from an expectation that his possession of her would incline some adherents of the house of Saul to be favorable to his cause. <div eID=\"gen3915\" type=\"x-p\"/>",
+      "content_plain": "12-13. Abner sent messengers to David-- Though his language implied a secret conviction, that in supporting Ish-bosheth he had been laboring to frustrate the divine purpose of conferring the sovereignty of the kingdom on David, this acknowledgment was no justification either of the measure he was now adopting, or of the motives that prompted it. Nor does it seem possible to uphold the full integrity and honor of David's conduct in entertaining his secret overtures for undermining Ish-bosheth, except we take into account the divine promise of the kingdom, and his belief that the secession of Abner was a means designed by Providence for accomplishing it. The demand for the restoration of his wife Michal was perfectly fair; but David's insisting on it at that particular moment, as an indispensable condition of his entering into any treaty with Abner, seems to have proceeded not so much from a lingering attachment as from an expectation that his possession of her would incline some adherents of the house of Saul to be favorable to his cause.",
+      "source_record_sha256": "436fdd1cdaaee8d37ab825e89090311576db1f7d0aa8b9d2541988812e53419b",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 19801,
+        "length": 1254
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "2SA.3.12-13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1254
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1254
+      ],
+      "reader_content_plain": "12-13. Abner sent messengers to David-- Though his language implied a secret conviction, that in supporting Ish-bosheth he had been laboring to frustrate the divine purpose of conferring the sovereignty of the kingdom on David, this acknowledgment was no justification either of the measure he was now adopting, or of the motives that prompted it. Nor does it seem possible to uphold the full integrity and honor of David's conduct in entertaining his secret overtures for undermining Ish-bosheth, except we take into account the divine promise of the kingdom, and his belief that the secession of Abner was a means designed by Providence for accomplishing it. The demand for the restoration of his wife Michal was perfectly fair; but David's insisting on it at that particular moment, as an indispensable condition of his entering into any treaty with Abner, seems to have proceeded not so much from a lingering attachment as from an expectation that his possession of her would incline some adherents of the house of Saul to be favorable to his cause.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.17-21:10:21055:2190",
+      "passage_start": "2SA.3.17",
+      "passage_end": "2SA.3.21",
+      "start_verse": 17,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2846\"/><div sID=\"gen3916\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2846\"/><hi type=\"bold\">17-21. Abner had communication with the elders of Israel--</hi>He spoke the truth in impressing their minds with the well-known fact of David's divine designation to the kingdom. But he acted a base and hypocritical part in pretending that his present movement was prompted by religious motives, when it sprang entirely from malice and revenge against Ish-bosheth. The particular appeal of the Benjamites was a necessary policy; their tribe enjoyed the honor of giving birth to the royal dynasty of Saul; they would naturally be disinclined to lose that prestige. They were, besides, a determined people, whose contiguity to Judah might render them troublesome and dangerous. The enlistment of their interest, therefore, in the scheme, would smooth the way for the adhesion of the other tribes; and Abner enjoyed the most convenient opportunity of using his great influence in gaining over that tribe while escorting Michal to David with a suitable equipage. The mission enabled him to cover his treacherous designs against his master--to draw the attention of the elders and people to David as uniting in himself the double recommendation of being the nominee of Jehovah, no less than a connection of the royal house of Saul, and, without suspicion of any dishonorable motives, to advocate policy of terminating the civil discord, by bestowing the sovereignty on the husband of Michal. In the same character of public ambassador, he was received and feted by David; and while, ostensibly, the restoration of Michal was the sole object of his visit, he busily employed himself in making private overtures to David for bringing over to his cause those tribes which he had artfully seduced. Abner pursued a course unworthy of an honorable man and though his offer was accepted by David, the guilt and infamy of the transaction were exclusively his.<div eID=\"gen3916\" type=\"x-p\"/> <div sID=\"gen3917\" type=\"x-p\"/> <reference osisRef=\"2Sam.3.22-2Sam.3.30\">2Sa 3:22-30</reference>. Joab Kills Abner. <div eID=\"gen3917\" type=\"x-p\"/>",
+      "content_plain": "17-21. Abner had communication with the elders of Israel-- He spoke the truth in impressing their minds with the well-known fact of David's divine designation to the kingdom. But he acted a base and hypocritical part in pretending that his present movement was prompted by religious motives, when it sprang entirely from malice and revenge against Ish-bosheth. The particular appeal of the Benjamites was a necessary policy; their tribe enjoyed the honor of giving birth to the royal dynasty of Saul; they would naturally be disinclined to lose that prestige. They were, besides, a determined people, whose contiguity to Judah might render them troublesome and dangerous. The enlistment of their interest, therefore, in the scheme, would smooth the way for the adhesion of the other tribes; and Abner enjoyed the most convenient opportunity of using his great influence in gaining over that tribe while escorting Michal to David with a suitable equipage. The mission enabled him to cover his treacherous designs against his master--to draw the attention of the elders and people to David as uniting in himself the double recommendation of being the nominee of Jehovah, no less than a connection of the royal house of Saul, and, without suspicion of any dishonorable motives, to advocate policy of terminating the civil discord, by bestowing the sovereignty on the husband of Michal. In the same character of public ambassador, he was received and feted by David; and while, ostensibly, the restoration of Michal was the sole object of his visit, he busily employed himself in making private overtures to David for bringing over to his cause those tribes which he had artfully seduced. Abner pursued a course unworthy of an honorable man and though his offer was accepted by David, the guilt and infamy of the transaction were exclusively his.\n2Sa 3:22-30 . Joab Kills Abner.",
+      "source_record_sha256": "50a9deaacb6c2e1af68ce26fc8abbb5262991a8215cb867844959a1c2b1a9ed7",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 21055,
+        "length": 2190
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "2SA.3.17-21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          2190
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        2190
+      ],
+      "reader_content_plain": "17-21. Abner had communication with the elders of Israel-- He spoke the truth in impressing their minds with the well-known fact of David's divine designation to the kingdom. But he acted a base and hypocritical part in pretending that his present movement was prompted by religious motives, when it sprang entirely from malice and revenge against Ish-bosheth. The particular appeal of the Benjamites was a necessary policy; their tribe enjoyed the honor of giving birth to the royal dynasty of Saul; they would naturally be disinclined to lose that prestige. They were, besides, a determined people, whose contiguity to Judah might render them troublesome and dangerous. The enlistment of their interest, therefore, in the scheme, would smooth the way for the adhesion of the other tribes; and Abner enjoyed the most convenient opportunity of using his great influence in gaining over that tribe while escorting Michal to David with a suitable equipage. The mission enabled him to cover his treacherous designs against his master--to draw the attention of the elders and people to David as uniting in himself the double recommendation of being the nominee of Jehovah, no less than a connection of the royal house of Saul, and, without suspicion of any dishonorable motives, to advocate policy of terminating the civil discord, by bestowing the sovereignty on the husband of Michal. In the same character of public ambassador, he was received and feted by David; and while, ostensibly, the restoration of Michal was the sole object of his visit, he busily employed himself in making private overtures to David for bringing over to his cause those tribes which he had artfully seduced. Abner pursued a course unworthy of an honorable man and though his offer was accepted by David, the guilt and infamy of the transaction were exclusively his.\n2Sa 3:22-30 . Joab Kills Abner.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.24-27:10:23245:1445",
+      "passage_start": "2SA.3.24",
+      "passage_end": "2SA.3.27",
+      "start_verse": 24,
+      "end_verse": 27,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2847\"/><div sID=\"gen3918\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2847\"/><hi type=\"bold\">24-27. Joab came to the king, and said, What hast thou done?--</hi>Joab's knowledge of Abner's wily character might have led him to doubt the sincerity of that person's proposals and to disapprove the policy of relying on his fidelity. But undoubtedly there were other reasons of a private and personal nature which made Joab displeased and alarmed by the reception given to Abner. The military talents of that general, his popularity with the army, his influence throughout the nation, rendered him a formidable rival. In the event of his overtures being carried out, the important service of bringing over all the other tribes to the king of Judah would establish so strong a claim on the gratitude of David, that his accession would inevitably raise a serious obstacle to the ambition of Joab. To these considerations was added the remembrance of the blood feud that existed between them since the death of his brother Asahel (<reference osisRef=\"2Sam.2.23\">2Sa 2:23</reference>). Determined, therefore, to get Abner out of the way, Joab feigned some reason, probably in the king's name, for recalling him, and, going out to meet him, stabbed him unawares; not within Hebron, for it was a city of refuge, but at a noted well in the neighborhood. <div eID=\"gen3918\" type=\"x-p\"/>",
+      "content_plain": "24-27. Joab came to the king, and said, What hast thou done?-- Joab's knowledge of Abner's wily character might have led him to doubt the sincerity of that person's proposals and to disapprove the policy of relying on his fidelity. But undoubtedly there were other reasons of a private and personal nature which made Joab displeased and alarmed by the reception given to Abner. The military talents of that general, his popularity with the army, his influence throughout the nation, rendered him a formidable rival. In the event of his overtures being carried out, the important service of bringing over all the other tribes to the king of Judah would establish so strong a claim on the gratitude of David, that his accession would inevitably raise a serious obstacle to the ambition of Joab. To these considerations was added the remembrance of the blood feud that existed between them since the death of his brother Asahel ( 2Sa 2:23 ). Determined, therefore, to get Abner out of the way, Joab feigned some reason, probably in the king's name, for recalling him, and, going out to meet him, stabbed him unawares; not within Hebron, for it was a city of refuge, but at a noted well in the neighborhood.",
+      "source_record_sha256": "49dbfa6beae5deb54d22be3ca6649b9695250060957158653c23cfe113f39bdc",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 23245,
+        "length": 1445
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "2SA.3.24-27",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1445
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1445
+      ],
+      "reader_content_plain": "24-27. Joab came to the king, and said, What hast thou done?-- Joab's knowledge of Abner's wily character might have led him to doubt the sincerity of that person's proposals and to disapprove the policy of relying on his fidelity. But undoubtedly there were other reasons of a private and personal nature which made Joab displeased and alarmed by the reception given to Abner. The military talents of that general, his popularity with the army, his influence throughout the nation, rendered him a formidable rival. In the event of his overtures being carried out, the important service of bringing over all the other tribes to the king of Judah would establish so strong a claim on the gratitude of David, that his accession would inevitably raise a serious obstacle to the ambition of Joab. To these considerations was added the remembrance of the blood feud that existed between them since the death of his brother Asahel ( 2Sa 2:23 ). Determined, therefore, to get Abner out of the way, Joab feigned some reason, probably in the king's name, for recalling him, and, going out to meet him, stabbed him unawares; not within Hebron, for it was a city of refuge, but at a noted well in the neighborhood.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.31-31:10:24690:651",
+      "passage_start": "2SA.3.31",
+      "passage_end": "2SA.3.31",
+      "start_verse": 31,
+      "end_verse": 31,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2848\"/><div sID=\"gen3919\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2848\"/><hi type=\"bold\">31. David said to Joab, and to all the people that were with him, Rend your clothes, and gird you with sackcloth--</hi>David's sorrow was sincere and profound, and he took occasion to give it public expression by the funeral honors he appointed for Abner.<div eID=\"gen3919\" type=\"x-p\"/> <div sID=\"gen3920\" type=\"x-p\"/><hi type=\"bold\">King David himself followed the bier--</hi>a sort of wooden frame, partly resembling a coffin, and partly a hand-barrow. <div eID=\"gen3920\" type=\"x-p\"/>",
+      "content_plain": "31. David said to Joab, and to all the people that were with him, Rend your clothes, and gird you with sackcloth-- David's sorrow was sincere and profound, and he took occasion to give it public expression by the funeral honors he appointed for Abner.\nKing David himself followed the bier-- a sort of wooden frame, partly resembling a coffin, and partly a hand-barrow.",
+      "source_record_sha256": "e706a15d5f994af26c13ea95178facf94cdb874d06924eb813dbe7d776f23998",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 24690,
+        "length": 651
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.3.31",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          651
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        651
+      ],
+      "reader_content_plain": "31. David said to Joab, and to all the people that were with him, Rend your clothes, and gird you with sackcloth-- David's sorrow was sincere and profound, and he took occasion to give it public expression by the funeral honors he appointed for Abner.\nKing David himself followed the bier-- a sort of wooden frame, partly resembling a coffin, and partly a hand-barrow.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:2SA.3.33-34:10:25341:998",
+      "passage_start": "2SA.3.33",
+      "passage_end": "2SA.3.34",
+      "start_verse": 33,
+      "end_verse": 34,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2849\"/><div sID=\"gen3921\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2849\"/><hi type=\"bold\">33-34. the king lamented over Abner--</hi>This brief elegy is an effusion of indignation as much as of sorrow. As Abner had stabbed Asahel in open war [2Sa 2:23], Joab had not the right of the Goel. Besides, he had adopted a lawless and execrable method of obtaining satisfaction (see on <reference osisRef=\"1Kgs.2.5\">1Ki 2:5</reference>). The deed was an insult to the authority, as well as most damaging to the prospects of the king. But David's feelings and conduct on hearing of the death, together with the whole character and accompaniments of the funeral solemnity, tended not only to remove all suspicion of guilt from him, but even to turn the tide of popular opinion in his favor, and to pave the way for his reigning over all the tribes more honorably than by the treacherous negotiations of Abner. <chapter eID=\"2Sam.3\"/>",
+      "content_plain": "33-34. the king lamented over Abner-- This brief elegy is an effusion of indignation as much as of sorrow. As Abner had stabbed Asahel in open war [2Sa 2:23], Joab had not the right of the Goel. Besides, he had adopted a lawless and execrable method of obtaining satisfaction (see on 1Ki 2:5 ). The deed was an insult to the authority, as well as most damaging to the prospects of the king. But David's feelings and conduct on hearing of the death, together with the whole character and accompaniments of the funeral solemnity, tended not only to remove all suspicion of guilt from him, but even to turn the tide of popular opinion in his favor, and to pave the way for his reigning over all the tribes more honorably than by the treacherous negotiations of Abner.",
+      "source_record_sha256": "eb50029c6e4cce0b4228fc86e50b7804ac442e749acbed4ded9b7bf4444410ff",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 25341,
+        "length": 998
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "2SA.3.33-34",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          998
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        998
+      ],
+      "reader_content_plain": "33-34. the king lamented over Abner-- This brief elegy is an effusion of indignation as much as of sorrow. As Abner had stabbed Asahel in open war [2Sa 2:23], Joab had not the right of the Goel. Besides, he had adopted a lawless and execrable method of obtaining satisfaction (see on 1Ki 2:5 ). The deed was an insult to the authority, as well as most damaging to the prospects of the king. But David's feelings and conduct on hearing of the death, together with the whole character and accompaniments of the funeral solemnity, tended not only to remove all suspicion of guilt from him, but even to turn the tide of popular opinion in his favor, and to pave the way for his reigning over all the tribes more honorably than by the treacherous negotiations of Abner.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 24,
+  "unindexed_verse_count": 15,
+  "upstream_snapshot_id": "SOTW_SAMUEL_SOURCE_LOCK_2026-11-05",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 10
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:2SA.3:P:chapter-heading-0-59",
+      "navigation_id": "2SA.3:P:chapter-heading-0-59",
+      "kind": "nonverse_navigation",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "2 Samuel 3 · chapter heading",
+      "content_plain": "CHAPTER 3",
+      "source_entry_id": "sword:jfb:2SA.3.1-1:10:16539:643",
+      "source_character_span": [
+        59,
+        95
+      ],
+      "source_fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:2SA.3:P:source-passage-heading-1-128",
+      "navigation_id": "2SA.3:P:source-passage-heading-1-128",
+      "kind": "nonverse_navigation",
+      "scope": "passage",
+      "role": "passage_heading",
+      "title": "2Sa 3:1-5 . Six Sons Born to David.",
+      "content_plain": "2Sa 3:1-5 . Six Sons Born to David.",
+      "source_entry_id": "sword:jfb:2SA.3.1-1:10:16539:643",
+      "source_character_span": [
+        128,
+        213
+      ],
+      "source_fragment_sha256": "4bffa9d13b0cf799201eb884afae2c8a99212b498d40f32a4dd1fe2efec2ed2b",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary",
+      "_explicit_bounds": [
+        "2SA.3.1",
+        "2SA.3.5"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 10
+}

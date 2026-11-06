@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.2-additive-jdg-rut",
+  "version": "navigation-coverage-v1.3-additive-samuel",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -12,7 +12,9 @@
     "DEU",
     "JOS",
     "JDG",
-    "RUT"
+    "RUT",
+    "1SA",
+    "2SA"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -22,7 +24,9 @@
     "DEU": "structured-deuteronomy-2026-11-04",
     "JOS": "structured-joshua-2026-11-04",
     "JDG": "structured-judges-2026-11-05",
-    "RUT": "structured-ruth-2026-11-05"
+    "RUT": "structured-ruth-2026-11-05",
+    "1SA": "structured-first-samuel-2026-11-05",
+    "2SA": "structured-second-samuel-2026-11-05"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -36,7 +40,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 984,
+    "original_P_sections": 1351,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -46,7 +50,9 @@
       "DEU": 210,
       "JOS": 184,
       "JDG": 110,
-      "RUT": 25
+      "RUT": 25,
+      "1SA": 209,
+      "2SA": 158
     },
     "routed_by_book": {
       "GEN": 64,
@@ -56,17 +62,19 @@
       "DEU": 213,
       "JOS": 185,
       "JDG": 114,
-      "RUT": 27
+      "RUT": 27,
+      "1SA": 213,
+      "2SA": 163
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.1-additive-deu-jos",
+  "previous_manifest_version": "navigation-coverage-v1.2-additive-jdg-rut",
   "additive_release_notes": [
-    "Existing six-book source snapshots, six P book coverage JSONs and both prior reader HTMLs remain untouched.",
-    "Judges and Ruth each have all six source-faithful author-chapter records with explicit empty states.",
-    "JFB historical books introduction is eligible for both Judges and Ruth from original GEN source evidence.",
-    "JFB Prophetical Books introduction is eligible for Judges only from explicit former-prophets source list. Ruth is not eligible.",
-    "MHC Joshua-to-Esther historical volume preface applies to both books; KD prophetical-histories preface applies to Judges, not Ruth.",
-    "Original P source text stays in immutable originals; passage headings use bounded ranges, no verse zero.",
-    "No production Bible Tools/media-player changes."
+    "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
+    "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
+    "Author Calvin chapters absent in supplied original edition are explicitly unavailable; no invented verses.",
+    "JFB and KD Former Prophets historical group introductions are eligible for both Samuel books by source evidence.",
+    "Keil–Delitzsch original shared Books of Samuel introduction is source-linked from 1 Samuel into 2 Samuel; no duplicate text.",
+    "Non-verse P material is scoped only to supported book/chapter/passage ranges; original records unchanged.",
+    "No Bible translation text, player integration, or existing runtime file changes."
   ]
 }

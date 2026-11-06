@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOTW | Structured Commentary Reader · 1 Samuel Pilot</title>
+<style>
+:root{font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1a3440;background:#f3f6f7;--navy:#102e3a;--line:#d5e2e5;--gold:#b49b6c;--teal:#16706c}
+*{box-sizing:border-box}body{margin:0}header{padding:25px clamp(16px,4vw,65px);background:var(--navy);color:#f6fbfb;border-bottom:5px solid var(--gold)}
+header small{display:block;font-size:10px;letter-spacing:.15em;font-weight:750;color:#c0dcd8}header h1{margin:6px 0;font-size:clamp(25px,3.5vw,36px)}header p{color:#d1e0e3;margin:6px 0 0;max-width:900px}
+main{max-width:1280px;margin:auto;padding:22px clamp(14px,3vw,38px) 55px}.intro{margin:0 0 16px;color:#48636c;line-height:1.5}
+.controls{background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:0 3px 13px #18343b0c;padding:18px;display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:12px}
+.field{display:flex;flex-direction:column;gap:5px;font-size:13px;font-weight:700}.field select{padding:10px;border:1px solid #bfd0d3;border-radius:8px;background:#fff;color:#193641;font:inherit;min-width:0}
+.tools{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:13px 0}.button{border:1px solid #a6c7c5;border-radius:8px;color:#134a4a;padding:8px 12px;background:#fff;text-decoration:none;cursor:pointer;font-weight:700;font:inherit}.button:hover{background:#eef7f5}
+.notice{padding:13px 15px;border:1px solid var(--line);border-radius:10px;background:#eaf3f3;color:#254b53;margin:12px 0}.notice.warning{background:#fff6eb;border-color:#e7cfaa;color:#664d2f}
+#status{min-height:22px;color:#48626b;font-size:13px}#pWrap{display:none;flex-direction:column;margin-bottom:14px;gap:8px;padding:16px;background:#edf5f4;border-radius:10px;border:1px solid #bdd9d7}
+#pWrap label{font-size:13px;font-weight:750}#pList{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:8px}
+.pitem{padding:10px;text-align:left;border:1px solid #b0c9c7;background:#fff;border-radius:9px;cursor:pointer;color:#204952}.pitem[aria-pressed=true]{background:#164e51;color:#fff}.pitem .pmeta{font-size:11px;opacity:.75;display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:13px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 2px 12px #19364108}
+.card-head{background:#f1f6f6;border-bottom:1px solid var(--line);padding:13px 17px;display:flex;justify-content:space-between;align-items:center;gap:6px}
+.card h2{font-size:18px;margin:0}.card small{display:block;color:#637880;font-size:11px}.card-body{padding:16px 17px 19px;overflow-wrap:anywhere}.entry+.entry{border-top:1px dashed #cbd9dc;margin-top:17px;padding-top:17px}
+.entryref{font-weight:750;color:var(--teal);font-size:12px;letter-spacing:.025em;margin-bottom:8px}.commentary{white-space:pre-wrap;word-wrap:break-word;line-height:1.64;color:#243e45}.empty{color:#607780;font-style:italic}
+.source-line{font-size:11px;color:#667982;margin-top:12px;border-top:1px solid #e7eeee;padding-top:8px}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+footer{max-width:1280px;margin:auto;padding:0 28px 30px;font-size:12px;color:#667982}
+@media(max-width:670px){.controls{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.cards{grid-template-columns:1fr}header{padding:22px 18px}}
+</style>
+</head>
+<body>
+<header><small>SERVANTS OF THE WAY / HISTORICAL COMMENTARY LIBRARY / SOURCE-FAITHFUL STAGING</small><h1>1 Samuel · Six-author comparison</h1><p>Historical authors remain separately attributed. Verse commentary follows each original source's own index. Prefaces and passage headings are non-Scripture and appear separately only when source scope supports the selected passage.</p></header>
+<main>
+<p class="intro">Explore <strong>1 Samuel</strong> by chapter and verse, or select an eligible <strong>P</strong> section (a preface, introduction or passage heading). These records are historical commentary, not Bible verse text or CGBC sermon material.</p>
+<div class="controls" role="group" aria-label="Commentary navigation">
+<label class="field">Chapter<select id="chapter" aria-label="Chapter"></select></label>
+<label class="field">Verse<select id="verse" aria-label="Verse"></select></label>
+<label class="field">Commentator<select id="author" aria-label="Commentator"></select></label>
+<label class="field">Reading mode<select id="mode" aria-label="Reading mode"><option value="verse">Verse commentary</option><option value="p">P: preface / section</option></select></label>
+</div>
+<div class="tools"><button class="button" id="copylink" type="button">Copy link to this selection</button><a class="button" href="./">Library home</a><span id="status" role="status" aria-live="polite"></span></div>
+<div id="pWrap"><label for="pList">Eligible non-verse sections for this selected Scripture passage</label><div id="pList" role="group" aria-label="Non-verse sections"></div></div>
+<div id="notice" class="notice" hidden></div><section id="cards" class="cards" aria-live="polite"></section>
+</main>
+<footer>Servants of the Way is the current provider. The historical commentators retain author and work credit. Digital archives and modules are acquisition provenance, not historical authorship. Source license and edition information remain attached to each record. No Scripture translation text is reproduced by this reader.</footer>
+<script>
+'use strict';
+const BOOK='1SA', BOOK_NAME='1 Samuel', CHAPTERS=31;
+const SNAP='structured-first-samuel-2026-11-05';
+const NAMES={'matthew-henry':'Matthew Henry','john-calvin':'John Calvin','adam-clarke':'Adam Clarke','jamieson-fausset-brown':'Jamieson–Fausset–Brown','keil-delitzsch':'Keil & Delitzsch','john-gill':'John Gill'};
+const IDS=Object.keys(NAMES),BASE=new URL('./',location.href),cache=new Map();
+const $=id=>document.getElementById(id);
+const initial=new URLSearchParams(location.search);
+let state={chapter:clamp(Number(initial.get('chapter'))||1,1,CHAPTERS),verse:Math.max(1,Number(initial.get('verse'))||1),author:IDS.includes(initial.get('author'))?initial.get('author'):'all',mode:initial.get('mode')==='p'?'p':'verse',section:initial.get('section')||''};
+let coverage=null,authorsCatalog=null,token=0,initialSectionPending=true;
+function clamp(n,lo,hi){return Number.isFinite(n)?Math.min(hi,Math.max(lo,Math.floor(n))):lo;}
+function canon(s){const m=/^([A-Z0-9]+)\.(\d+)\.(\d+)$/.exec(s||'');return m?[m[1],+m[2],+m[3]]:null;}
+function compareRefs(a,b){const x=canon(a),y=canon(b);if(!x||!y||x[0]!==y[0])return null;return (x[1]*10000+x[2])-(y[1]*10000+y[2]);}
+function eligibleSection(section,book,chapter,verse){
+ if(!section||section.status!=='active'||!Array.isArray(section.eligible_books)||!section.eligible_books.includes(book))return false;
+ if(section.scope==='work'||section.scope==='volume')return true;
+ if(section.scope==='book_group'||section.scope==='book')return true;
+ const start=canon(section.passage_start),end=canon(section.passage_end);
+ if(section.scope==='chapter'){
+  if(start&&end)return compareRefs(`${book}.${chapter}.${verse}`,section.passage_start)>=0 && compareRefs(`${book}.${chapter}.${verse}`,section.passage_end)<=0;
+  const p=/^[A-Z0-9]+\.(\d+):P/.exec(section.navigation_id||'');
+  return !!p && Number(p[1])===chapter;
+ }
+ if(section.scope==='passage'){
+  if(!start||!end||start[0]!==book||end[0]!==book)return false;
+  const selected=`${book}.${chapter}.${verse}`;
+  return compareRefs(selected,section.passage_start)>=0&&compareRefs(selected,section.passage_end)<=0;
+ }
+ return false;
+}
+window.SOTWReaderTests={clamp,canon,compareRefs,eligibleSection};
+function uri(path){return new URL(String(path).replace(/^\//,''),BASE).href;}
+async function load(path){const key=String(path).replace(/^\//,'');if(!cache.has(key))cache.set(key,fetch(uri(key),{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status+' for '+key);return r.json();}).catch(err=>{cache.delete(key);throw err}));return cache.get(key);}
+function elem(tag,klass,text){const e=document.createElement(tag);if(klass)e.className=klass;if(text!==undefined)e.textContent=String(text);return e;}
+function updateUrl(){const u=new URL(location.href);u.searchParams.set('chapter',state.chapter);u.searchParams.set('verse',state.verse);if(state.author!=='all')u.searchParams.set('author',state.author);else u.searchParams.delete('author');u.searchParams.set('mode',state.mode);if(state.mode==='p'&&state.section)u.searchParams.set('section',state.section);else u.searchParams.delete('section');history.replaceState(null,'',u);}
+function showNote(txt,warn=false){const n=$('notice');n.hidden=!txt;n.textContent=txt||'';n.className='notice'+(warn?' warning':'');}
+function refreshSelectors(vcount){
+ const ch=$('chapter');ch.replaceChildren();for(let n=1;n<=CHAPTERS;n++){const o=elem('option','',n);o.value=n;ch.append(o)}ch.value=state.chapter;
+ state.verse=clamp(state.verse,1,vcount);const ve=$('verse');ve.replaceChildren();for(let n=1;n<=vcount;n++){const o=elem('option','',n);o.value=n;ve.append(o)}ve.value=state.verse;
+ $('author').value=state.author;$('mode').value=state.mode;
+}
+function eligibleAll(){let out=[];for(const author of IDS){if(state.author!=='all'&&author!==state.author)continue;const rows=coverage?.author_sections?.[author]||[];for(const row of rows){if(eligibleSection(row,BOOK,state.chapter,state.verse))out.push(row)}}return out;}
+function cardFor(author,meta){const card=elem('article','card');const head=elem('div','card-head');const title=elem('h2','',NAMES[author]);const detail=elem('small','',meta?.life_dates||'Historical commentator');const left=elem('div');left.append(title,detail);head.append(left);card.append(head);const body=elem('div','card-body');card.append(body);return [card,body];}
+function appendSource(body,source){let desc=source?.system||'Original source';if(source?.module_id)desc+=` · ${source.module_id} ${source.module_version||''}`;if(source?.distribution_license)desc+=` · ${source.distribution_license}`;body.append(elem('div','source-line',desc));}
+function showVerseEntry(body,entry){const sec=elem('section','entry');sec.append(elem('div','entryref',`${entry.passage_start}${entry.passage_end===entry.passage_start?'':' – '+entry.passage_end}`));sec.append(elem('div','commentary',entry.reader_content_plain??entry.content_plain??''));body.append(sec);}
+async function loadAuthorChapter(author){return load(`api/v3/snapshots/${SNAP}/authors/${author}/${BOOK}/${state.chapter}.json`);}
+async function renderVerse(index,seq){
+ const cards=$('cards');cards.replaceChildren();let shown=0;
+ for(const a of IDS){if(state.author!=='all'&&state.author!==a)continue;
+  const [card,body]=cardFor(a,authorsCatalog?.authors?.[a]);cards.append(card);
+  try{
+   const chapter=await loadAuthorChapter(a);if(seq!==token)return;
+   const entryNums=index.verse_routes?.[String(state.verse)]?.[a]||[];
+   if(entryNums.length){for(const n of entryNums){const e=chapter.entries?.[n];if(e?.reader_visible&&e.reader_content_plain){showVerseEntry(body,e);shown++}}}
+   if(!body.querySelector('.entry'))body.append(elem('div','empty',chapter.entries?.length?'No source-indexed commentary at this verse.':'Unavailable in the selected original digital edition for this chapter.'));
+   appendSource(body,chapter.source);
+  }catch(e){body.append(elem('div','empty','Could not load author record: '+e.message));}
+ }
+ if(seq!==token)return;
+ $('status').textContent=`${BOOK_NAME} ${state.chapter}:${state.verse} · ${shown} source-indexed commentary record${shown===1?'':'s'}`;
+}
+async function renderP(list,seq){
+ const cards=$('cards');cards.replaceChildren();const listbox=$('pList');listbox.replaceChildren();
+ if(!list.length){state.mode='verse';state.section='';$('mode').value='verse';showNote('No source-supported P sections are eligible at this verse. Showing verse commentary instead.',true);return false;}
+ if(initialSectionPending&&initial.get('mode')==='p'&&initial.get('section')&&!list.some(x=>x.section_id===initial.get('section'))){
+  initialSectionPending=false;state.mode='verse';state.section='';$('mode').value='verse';
+  showNote('That P link is outside its supported passage range. Showing verse commentary instead.',true);return false;
+ }
+ initialSectionPending=false;
+ if(!list.some(x=>x.section_id===state.section)){state.section=list[0].section_id;}
+ for(const s of list){
+  const btn=elem('button','pitem');btn.type='button';btn.setAttribute('aria-pressed',s.section_id===state.section?'true':'false');
+  btn.append(elem('span','',s.title));btn.append(elem('span','pmeta',`${NAMES[s.author_id]} · ${s.role.replaceAll('_',' ')}${s.passage_start?' · '+s.passage_start+'–'+s.passage_end:''}`));
+  btn.addEventListener('click',()=>{state.section=s.section_id;render()});listbox.append(btn);
+ }
+ const selected=list.find(x=>x.section_id===state.section);if(!selected)return false;
+ const [card,body]=cardFor(selected.author_id,authorsCatalog?.authors?.[selected.author_id]);cards.append(card);
+ try{
+  const sourceFile=selected.source?.chapter_file;
+  if(!sourceFile)throw new Error('missing original source pointer');
+  const sourceChapter=await load(sourceFile);if(seq!==token)return true;
+  const nav=sourceChapter.navigation_sections?.find(x=>x.section_id===selected.source.section_id);
+  if(!nav)throw new Error('source section not found at the original pointer');
+  body.append(elem('div','entryref',selected.title+' · P (non-Scripture)'));
+  body.append(elem('div','commentary',nav.content_plain||''));
+  appendSource(body,sourceChapter.source);
+  $('status').textContent=`${BOOK_NAME} ${state.chapter}:${state.verse} · ${selected.role.replaceAll('_',' ')} · ${NAMES[selected.author_id]}`;
+ }catch(e){body.append(elem('div','empty',`Original P source unavailable: ${e.message}`));}
+ return true;
+}
+async function render(){
+ const seq=++token;
+ $('status').textContent='Loading original source records…';showNote('',false);
+ try{
+  const idx=await load(`api/v3/snapshots/${SNAP}/index/${BOOK}/${state.chapter}.json`);if(seq!==token)return;
+  refreshSelectors(idx.verse_count);
+  const sections=eligibleAll();$('pWrap').style.display=state.mode==='p'?'flex':'none';
+  if(state.mode==='p'){
+   const did=await renderP(sections,seq);if(!did&&seq===token){$('pWrap').style.display='none';await renderVerse(idx,seq)}
+  }else{state.section='';await renderVerse(idx,seq)}
+  if(seq===token)updateUrl();
+ }catch(e){if(seq!==token)return;$('status').textContent='Load failed';showNote('Could not load the chapter index: '+e.message,true);$('cards').replaceChildren();}
+}
+async function start(){
+ const a=$('author');a.append(new Option('All six commentators','all'));
+ for(const id of IDS)a.append(new Option(NAMES[id],id));
+ $('chapter').addEventListener('change',()=>{state.chapter=Number($('chapter').value);state.verse=1;state.section='';render()});
+ $('verse').addEventListener('change',()=>{state.verse=Number($('verse').value);state.section='';render()});
+ a.addEventListener('change',()=>{state.author=a.value;state.section='';render()});
+ $('mode').addEventListener('change',()=>{state.mode=$('mode').value;state.section='';render()});
+ $('copylink').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);$('status').textContent='Selection link copied';}catch(e){$('status').textContent='Copy unavailable; use your browser address bar.'}});
+ try{[coverage,authorsCatalog]=await Promise.all([load(`api/v3/navigation-coverage/v1/books/${BOOK}.json`),load('api/v3/authors.json')]);
+ if(coverage.book_id!==BOOK||coverage.snapshot_id!==SNAP)throw new Error('navigation/snapshot mismatch');await render();}
+ catch(e){showNote('Unable to initialize the source/coverage library: '+e.message,true);$('status').textContent='Source unavailable';}
+}
+document.addEventListener('DOMContentLoaded',start);
+</script></body></html>

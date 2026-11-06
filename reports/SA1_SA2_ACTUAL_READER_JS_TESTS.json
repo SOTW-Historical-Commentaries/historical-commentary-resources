@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": 915,
+  "passed": 915,
+  "failures": [],
+  "test_type": "real reader JavaScript compiled and run in isolated Node DOM/fetch simulator, actual original chapter JSON and P coverage loaded from staged payload; previously accepted cross-book P sources mocked for UI routing only",
+  "notes": [
+    "Independent original-source hashes are checked in SA1_SA2_INDEPENDENT_VERIFICATION.json.",
+    "A full Chromium browser page render is separately reported; these JS simulator checks are not visual/browser verification."
+  ]
+}

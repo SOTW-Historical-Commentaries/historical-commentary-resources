@@ -1,0 +1,500 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-first-samuel-2026-11-05",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "1SA",
+  "chapter": 13,
+  "canonical_chapter": "1SA.13",
+  "versification": "KJV",
+  "verse_count": 23,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"13\" osisID=\"1Sam.13\" sID=\"1Sam.13\"/><div eID=\"gen3532\" type=\"x-p\"/> ",
+      "source_record_sha256": "21ff503fb26645759ab74672b72c8c86701732bd15ec5751139f3c07e5db3e13",
+      "index_record": {
+        "block": 9,
+        "offset": 90033,
+        "length": 80
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:1SA.13.1-1:9:90113:672",
+      "passage_start": "1SA.13.1",
+      "passage_end": "1SA.13.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2607\"/><title type=\"x-s2\">CHAPTER 13</title> <div sID=\"gen3533\" type=\"x-p\"/> <reference osisRef=\"1Sam.13.1\">1Sa 13:1</reference>, <reference osisRef=\"2Cor.13.2\">2</reference>. Saul's Selected Band.<div eID=\"gen3533\" type=\"x-p\"/> <div sID=\"gen3534\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2607\"/><hi type=\"bold\">1. Saul reigned one year--</hi>(see Margin). The transactions recorded in the eleventh and twelfth chapters were the principal incidents comprising the first year of Saul's reign; and the events about to be described in this happened in the second year. <div eID=\"gen3534\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 13\n1Sa 13:1 , 2 . Saul's Selected Band.\n1. Saul reigned one year-- (see Margin). The transactions recorded in the eleventh and twelfth chapters were the principal incidents comprising the first year of Saul's reign; and the events about to be described in this happened in the second year.",
+      "source_record_sha256": "b9a03f9fa5bb9fc3d8dcc61f7130b297039b32e36222a6013a9d936101fbb4c8",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 90113,
+        "length": 672
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "1SA.13.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          59
+        ],
+        [
+          96,
+          129
+        ],
+        [
+          249,
+          672
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        672
+      ],
+      "reader_content_plain": "1. Saul reigned one year-- (see Margin). The transactions recorded in the eleventh and twelfth chapters were the principal incidents comprising the first year of Saul's reign; and the events about to be described in this happened in the second year.",
+      "front_matter_separated": true,
+      "separate_navigation_section_ids": [
+        "nav:jamieson-fausset-brown:1SA.13:P:chapter-heading-0-59",
+        "nav:jamieson-fausset-brown:1SA.13:P:source-passage-heading-1-129"
+      ]
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.2-2:9:90785:875",
+      "passage_start": "1SA.13.2",
+      "passage_end": "1SA.13.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2608\"/><div sID=\"gen3535\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2608\"/><hi type=\"bold\">2. Saul chose him three thousand men of Israel--</hi>This band of picked men was a bodyguard, who were kept constantly on duty, while the rest of the people were dismissed till their services might be needed. It seems to have been his tactics to attack the Philistine garrisons in the country by different detachments, rather than by risking a general engagement; and his first operations were directed to rid his native territory of Benjamin of these enemies.<div eID=\"gen3535\" type=\"x-p\"/> <div sID=\"gen3536\" type=\"x-p\"/> <reference osisRef=\"1Sam.13.3\">1Sa 13:3</reference>, <reference osisRef=\"1Sam.13.4\">4</reference>. He Calls the Hebrews to Gilgal against the Philistines. <div eID=\"gen3536\" type=\"x-p\"/>",
+      "content_plain": "2. Saul chose him three thousand men of Israel-- This band of picked men was a bodyguard, who were kept constantly on duty, while the rest of the people were dismissed till their services might be needed. It seems to have been his tactics to attack the Philistine garrisons in the country by different detachments, rather than by risking a general engagement; and his first operations were directed to rid his native territory of Benjamin of these enemies.\n1Sa 13:3 , 4 . He Calls the Hebrews to Gilgal against the Philistines.",
+      "source_record_sha256": "95857db5e0be4dd240629424c64fe1ce5afd0fe2c0822aadf791de37b195bdb5",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 90785,
+        "length": 875
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "1SA.13.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          875
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        875
+      ],
+      "reader_content_plain": "2. Saul chose him three thousand men of Israel-- This band of picked men was a bodyguard, who were kept constantly on duty, while the rest of the people were dismissed till their services might be needed. It seems to have been his tactics to attack the Philistine garrisons in the country by different detachments, rather than by risking a general engagement; and his first operations were directed to rid his native territory of Benjamin of these enemies.\n1Sa 13:3 , 4 . He Calls the Hebrews to Gilgal against the Philistines.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.3-4:9:91660:1854",
+      "passage_start": "1SA.13.3",
+      "passage_end": "1SA.13.4",
+      "start_verse": 3,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2609\"/><div sID=\"gen3537\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2609\"/><hi type=\"bold\">3-4. And Jonathan--</hi>that is, \"God-given.\"<div eID=\"gen3537\" type=\"x-p\"/> <div sID=\"gen3538\" type=\"x-p\"/><hi type=\"bold\">smote the garrison of the Philistines ... in Geba--</hi>Geba and Gibeah were towns in Benjamin, very close to each other (<reference osisRef=\"Josh.18.24\">Jos 18:24</reference>, <reference osisRef=\"Josh.18.28\">28</reference>). The word rendered \"garrison\" is different from that of <reference osisRef=\"1Sam.13.23\">1Sa 13:23</reference>; <reference osisRef=\"1Sam.14.1\">14:1</reference>, and signifies, literally, something erected; probably a pillar or flagstaff, indicative of Philistine ascendency. That the secret demolition of this standard, so obnoxious to a young and noble-hearted patriot, was the feat of Jonathan referred to, is evident from the words, \"the Philistines heard of it,\" which is not the way we should expect an attack on a fortress to be noticed.<div eID=\"gen3538\" type=\"x-p\"/> <div sID=\"gen3539\" type=\"x-p\"/><hi type=\"bold\">Saul blew the trumpet throughout all the land--</hi>This, a well-known sound, was the usual Hebrew war-summons; the first blast was answered by the beacon fire in the neighboring places. A second blast was blown--then answered by a fire in a more distant locality, whence the proclamation was speedily diffused over the whole country. As the Philistines resented what Jonathan had done as an overt attempt to throw off their yoke, a levy, en masse, of the people was immediately ordered, the rendezvous to be the old camping-ground at Gilgal.<div eID=\"gen3539\" type=\"x-p\"/> <div sID=\"gen3540\" type=\"x-p\"/> <reference osisRef=\"1Sam.13.5\">1Sa 13:5</reference>. The Philistines' Great Host. <div eID=\"gen3540\" type=\"x-p\"/>",
+      "content_plain": "3-4. And Jonathan-- that is, \"God-given.\"\nsmote the garrison of the Philistines ... in Geba-- Geba and Gibeah were towns in Benjamin, very close to each other ( Jos 18:24 , 28 ). The word rendered \"garrison\" is different from that of 1Sa 13:23 ; 14:1 , and signifies, literally, something erected; probably a pillar or flagstaff, indicative of Philistine ascendency. That the secret demolition of this standard, so obnoxious to a young and noble-hearted patriot, was the feat of Jonathan referred to, is evident from the words, \"the Philistines heard of it,\" which is not the way we should expect an attack on a fortress to be noticed.\nSaul blew the trumpet throughout all the land-- This, a well-known sound, was the usual Hebrew war-summons; the first blast was answered by the beacon fire in the neighboring places. A second blast was blown--then answered by a fire in a more distant locality, whence the proclamation was speedily diffused over the whole country. As the Philistines resented what Jonathan had done as an overt attempt to throw off their yoke, a levy, en masse, of the people was immediately ordered, the rendezvous to be the old camping-ground at Gilgal.\n1Sa 13:5 . The Philistines' Great Host.",
+      "source_record_sha256": "c8fd500cc5980a7d3e5b39e8bef29f965bd0caf25815125c052e6531e8e9e1c1",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 91660,
+        "length": 1854
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1SA.13.3-4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1854
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1854
+      ],
+      "reader_content_plain": "3-4. And Jonathan-- that is, \"God-given.\"\nsmote the garrison of the Philistines ... in Geba-- Geba and Gibeah were towns in Benjamin, very close to each other ( Jos 18:24 , 28 ). The word rendered \"garrison\" is different from that of 1Sa 13:23 ; 14:1 , and signifies, literally, something erected; probably a pillar or flagstaff, indicative of Philistine ascendency. That the secret demolition of this standard, so obnoxious to a young and noble-hearted patriot, was the feat of Jonathan referred to, is evident from the words, \"the Philistines heard of it,\" which is not the way we should expect an attack on a fortress to be noticed.\nSaul blew the trumpet throughout all the land-- This, a well-known sound, was the usual Hebrew war-summons; the first blast was answered by the beacon fire in the neighboring places. A second blast was blown--then answered by a fire in a more distant locality, whence the proclamation was speedily diffused over the whole country. As the Philistines resented what Jonathan had done as an overt attempt to throw off their yoke, a levy, en masse, of the people was immediately ordered, the rendezvous to be the old camping-ground at Gilgal.\n1Sa 13:5 . The Philistines' Great Host.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.5-5:9:93514:1161",
+      "passage_start": "1SA.13.5",
+      "passage_end": "1SA.13.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2610\"/><div sID=\"gen3541\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2610\"/><hi type=\"bold\">5. The Philistines gathered themselves together to fight with Israel, thirty thousand chariots, and six thousand horsemen--</hi>Either this number must include chariots of every kind--or the word \"chariots\" must mean the men fighting in them (<reference osisRef=\"2Sam.10.18\">2Sa 10:18</reference>; <reference osisRef=\"1Kgs.20.21\">1Ki 20:21</reference>; <reference osisRef=\"1Chr.19.18\">1Ch 19:18</reference>); or, as some eminent critics maintain, Sheloshim (\"thirty\"), has crept into the text, instead of Shelosh (\"three\"). The gathering of the chariots and horsemen must be understood to be on the Philistine plain, before they ascended the western passes and pitched in the heart of the Benjamite hills, in \"Michmash,\" (now Mukmas), a \"steep precipitous valley\" [Robinson], eastward from Beth-aven (Beth-el).<div eID=\"gen3541\" type=\"x-p\"/> <div sID=\"gen3542\" type=\"x-p\"/> <reference osisRef=\"1Sam.13.6-1Sam.13.8\">1Sa 13:6-8</reference>. The Israelites' Distress. <div eID=\"gen3542\" type=\"x-p\"/>",
+      "content_plain": "5. The Philistines gathered themselves together to fight with Israel, thirty thousand chariots, and six thousand horsemen-- Either this number must include chariots of every kind--or the word \"chariots\" must mean the men fighting in them ( 2Sa 10:18 ; 1Ki 20:21 ; 1Ch 19:18 ); or, as some eminent critics maintain, Sheloshim (\"thirty\"), has crept into the text, instead of Shelosh (\"three\"). The gathering of the chariots and horsemen must be understood to be on the Philistine plain, before they ascended the western passes and pitched in the heart of the Benjamite hills, in \"Michmash,\" (now Mukmas), a \"steep precipitous valley\" [Robinson], eastward from Beth-aven (Beth-el).\n1Sa 13:6-8 . The Israelites' Distress.",
+      "source_record_sha256": "4ba5ad52379ff6ff19c332900a3355ca80648b0db330e66a919d7988bd5f914a",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 93514,
+        "length": 1161
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "1SA.13.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1161
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1161
+      ],
+      "reader_content_plain": "5. The Philistines gathered themselves together to fight with Israel, thirty thousand chariots, and six thousand horsemen-- Either this number must include chariots of every kind--or the word \"chariots\" must mean the men fighting in them ( 2Sa 10:18 ; 1Ki 20:21 ; 1Ch 19:18 ); or, as some eminent critics maintain, Sheloshim (\"thirty\"), has crept into the text, instead of Shelosh (\"three\"). The gathering of the chariots and horsemen must be understood to be on the Philistine plain, before they ascended the western passes and pitched in the heart of the Benjamite hills, in \"Michmash,\" (now Mukmas), a \"steep precipitous valley\" [Robinson], eastward from Beth-aven (Beth-el).\n1Sa 13:6-8 . The Israelites' Distress.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.6-6:9:94675:910",
+      "passage_start": "1SA.13.6",
+      "passage_end": "1SA.13.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2611\"/><div sID=\"gen3543\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2611\"/><hi type=\"bold\">6. When the men of Israel saw that they were in a strait--</hi>Though Saul's gallantry was unabated, his subjects displayed no degree of zeal and energy. Instead of venturing an encounter, they fled in all directions. Some, in their panic, left the country (<reference osisRef=\"1Sam.13.7\">1Sa 13:7</reference>), but most took refuge in the hiding-places which the broken ridges of the neighborhood abundantly afford. The rocks are perforated in every direction with \"caves,\" and \"holes,\" and \"pits\"--crevices and fissures sunk deep in the rocky soil, subterranean granaries or dry wells in the adjoining fields. The name of Michmash (\"hidden treasure\") seems to be derived from this natural peculiarity [Stanley]. <div eID=\"gen3543\" type=\"x-p\"/>",
+      "content_plain": "6. When the men of Israel saw that they were in a strait-- Though Saul's gallantry was unabated, his subjects displayed no degree of zeal and energy. Instead of venturing an encounter, they fled in all directions. Some, in their panic, left the country ( 1Sa 13:7 ), but most took refuge in the hiding-places which the broken ridges of the neighborhood abundantly afford. The rocks are perforated in every direction with \"caves,\" and \"holes,\" and \"pits\"--crevices and fissures sunk deep in the rocky soil, subterranean granaries or dry wells in the adjoining fields. The name of Michmash (\"hidden treasure\") seems to be derived from this natural peculiarity [Stanley].",
+      "source_record_sha256": "c8f7d0043fc65237de2b192abbc2cea1e0027f5a178fed6028c21d88b9e842b2",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 94675,
+        "length": 910
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "1SA.13.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          910
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        910
+      ],
+      "reader_content_plain": "6. When the men of Israel saw that they were in a strait-- Though Saul's gallantry was unabated, his subjects displayed no degree of zeal and energy. Instead of venturing an encounter, they fled in all directions. Some, in their panic, left the country ( 1Sa 13:7 ), but most took refuge in the hiding-places which the broken ridges of the neighborhood abundantly afford. The rocks are perforated in every direction with \"caves,\" and \"holes,\" and \"pits\"--crevices and fissures sunk deep in the rocky soil, subterranean granaries or dry wells in the adjoining fields. The name of Michmash (\"hidden treasure\") seems to be derived from this natural peculiarity [Stanley].",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.8-8:9:95585:837",
+      "passage_start": "1SA.13.8",
+      "passage_end": "1SA.13.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2612\"/><div sID=\"gen3544\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2612\"/><hi type=\"bold\">8. he--</hi>that is, Saul.<div eID=\"gen3544\" type=\"x-p\"/> <div sID=\"gen3545\" type=\"x-p\"/><hi type=\"bold\">tarried seven days--</hi>He was still in the eastern borders of his kingdom, in the valley of Jordan. Some bolder spirits had ventured to join the camp at Gilgal; but even the courage of those stout-hearted men gave way in prospect of this terrible visitation; and as many of them were stealing away, he thought some immediate and decided step must be taken.<div eID=\"gen3545\" type=\"x-p\"/> <div sID=\"gen3546\" type=\"x-p\"/> <reference osisRef=\"1Sam.13.9-1Sam.13.16\">1Sa 13:9-16</reference>. Saul, Weary of Waiting for Samuel, Sacrifices. <div eID=\"gen3546\" type=\"x-p\"/>",
+      "content_plain": "8. he-- that is, Saul.\ntarried seven days-- He was still in the eastern borders of his kingdom, in the valley of Jordan. Some bolder spirits had ventured to join the camp at Gilgal; but even the courage of those stout-hearted men gave way in prospect of this terrible visitation; and as many of them were stealing away, he thought some immediate and decided step must be taken.\n1Sa 13:9-16 . Saul, Weary of Waiting for Samuel, Sacrifices.",
+      "source_record_sha256": "11907c2851b07c3012db9aa7ed5a4f527afbb326584d2ca7b0e1a247572b221f",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 95585,
+        "length": 837
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "1SA.13.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          837
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        837
+      ],
+      "reader_content_plain": "8. he-- that is, Saul.\ntarried seven days-- He was still in the eastern borders of his kingdom, in the valley of Jordan. Some bolder spirits had ventured to join the camp at Gilgal; but even the courage of those stout-hearted men gave way in prospect of this terrible visitation; and as many of them were stealing away, he thought some immediate and decided step must be taken.\n1Sa 13:9-16 . Saul, Weary of Waiting for Samuel, Sacrifices.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.9-14:9:96422:1165",
+      "passage_start": "1SA.13.9",
+      "passage_end": "1SA.13.14",
+      "start_verse": 9,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2613\"/><div sID=\"gen3547\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2613\"/><hi type=\"bold\">9-14. Saul said, Bring hither a burnt offering to me, and peace offerings--</hi>Saul, though patriotic enough in his own way, was more ambitious of gaining the glory of a triumph to himself than ascribing it to God. He did not understand his proper position as king of Israel; and although aware of the restrictions under which he held the sovereignty, he wished to rule as an autocrat, who possessed absolute power both in civil and sacred things. This occasion was his first trial. Samuel waited till the last day of the seven, in order to put the constitutional character of the king to the test; and, as Saul, in his impatient and passionate haste knowingly transgressed (<reference osisRef=\"1Sam.13.12\">1Sa 13:12</reference>) by invading the priest's office and thus showing his unfitness for his high office (as he showed nothing of the faith of Gideon and other Hebrew generals), he incurred a threat of the rejection which his subsequent waywardness confirmed. <div eID=\"gen3547\" type=\"x-p\"/>",
+      "content_plain": "9-14. Saul said, Bring hither a burnt offering to me, and peace offerings-- Saul, though patriotic enough in his own way, was more ambitious of gaining the glory of a triumph to himself than ascribing it to God. He did not understand his proper position as king of Israel; and although aware of the restrictions under which he held the sovereignty, he wished to rule as an autocrat, who possessed absolute power both in civil and sacred things. This occasion was his first trial. Samuel waited till the last day of the seven, in order to put the constitutional character of the king to the test; and, as Saul, in his impatient and passionate haste knowingly transgressed ( 1Sa 13:12 ) by invading the priest's office and thus showing his unfitness for his high office (as he showed nothing of the faith of Gideon and other Hebrew generals), he incurred a threat of the rejection which his subsequent waywardness confirmed.",
+      "source_record_sha256": "41305a20c8b2d13b7a7f8ec088938b6caf79f77c38119fd0259a6e7926526008",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 96422,
+        "length": 1165
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1SA.13.9-14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          1165
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        1165
+      ],
+      "reader_content_plain": "9-14. Saul said, Bring hither a burnt offering to me, and peace offerings-- Saul, though patriotic enough in his own way, was more ambitious of gaining the glory of a triumph to himself than ascribing it to God. He did not understand his proper position as king of Israel; and although aware of the restrictions under which he held the sovereignty, he wished to rule as an autocrat, who possessed absolute power both in civil and sacred things. This occasion was his first trial. Samuel waited till the last day of the seven, in order to put the constitutional character of the king to the test; and, as Saul, in his impatient and passionate haste knowingly transgressed ( 1Sa 13:12 ) by invading the priest's office and thus showing his unfitness for his high office (as he showed nothing of the faith of Gideon and other Hebrew generals), he incurred a threat of the rejection which his subsequent waywardness confirmed.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.15-16:9:97587:527",
+      "passage_start": "1SA.13.15",
+      "passage_end": "1SA.13.16",
+      "start_verse": 15,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2614\"/><div sID=\"gen3548\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2614\"/><hi type=\"bold\">15-16. Samuel ... gat him ... unto Gibeah ... and Saul, and Jonathan his son, and the people that were present with them, abode in Gibeah--</hi>Saul removed his camp thither, either in the hope that, it being his native town, he would gain an increase of followers or that he might enjoy the counsels and influence of the prophet. <div eID=\"gen3548\" type=\"x-p\"/>",
+      "content_plain": "15-16. Samuel ... gat him ... unto Gibeah ... and Saul, and Jonathan his son, and the people that were present with them, abode in Gibeah-- Saul removed his camp thither, either in the hope that, it being his native town, he would gain an increase of followers or that he might enjoy the counsels and influence of the prophet.",
+      "source_record_sha256": "0a911c30469ef97bab9a40830480547fd191ffce5d6429490f20bdb7b0504474",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 97587,
+        "length": 527
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1SA.13.15-16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          527
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        527
+      ],
+      "reader_content_plain": "15-16. Samuel ... gat him ... unto Gibeah ... and Saul, and Jonathan his son, and the people that were present with them, abode in Gibeah-- Saul removed his camp thither, either in the hope that, it being his native town, he would gain an increase of followers or that he might enjoy the counsels and influence of the prophet.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.17-18:9:98114:522",
+      "passage_start": "1SA.13.17",
+      "passage_end": "1SA.13.18",
+      "start_verse": 17,
+      "end_verse": 18,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2615\"/><div sID=\"gen3549\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2615\"/><hi type=\"bold\">17-18. the spoilers came out of the camp of the Philistines in three companies--</hi>ravaging through the three valleys which radiate from the uplands of Michmash to Ophrah on the north, through the pass of Beth-horon on the west, and down the ravines of Zeboim (\"the hyænas\"), towards the Ghor or Jordan valley on the east. <div eID=\"gen3549\" type=\"x-p\"/>",
+      "content_plain": "17-18. the spoilers came out of the camp of the Philistines in three companies-- ravaging through the three valleys which radiate from the uplands of Michmash to Ophrah on the north, through the pass of Beth-horon on the west, and down the ravines of Zeboim (\"the hyænas\"), towards the Ghor or Jordan valley on the east.",
+      "source_record_sha256": "7f2da6ed50ec5b83836dfc4f5dc93e6527bb59a8fd59a3093a85ed47905f565d",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 98114,
+        "length": 522
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1SA.13.17-18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          521
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        521
+      ],
+      "reader_content_plain": "17-18. the spoilers came out of the camp of the Philistines in three companies-- ravaging through the three valleys which radiate from the uplands of Michmash to Ophrah on the north, through the pass of Beth-horon on the west, and down the ravines of Zeboim (\"the hyænas\"), towards the Ghor or Jordan valley on the east.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.19-20:9:98636:620",
+      "passage_start": "1SA.13.19",
+      "passage_end": "1SA.13.20",
+      "start_verse": 19,
+      "end_verse": 20,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2616\"/><div sID=\"gen3550\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2616\"/><hi type=\"bold\">19-20. Now there was no smith found throughout ... Israel--</hi>The country was in the lowest state of depression and degradation. The Philistines, after the great victory over the sons of Eli, had become the virtual masters of the land. Their policy in disarming the natives has been often followed in the East. For repairing any serious damage to their agricultural implements, they had to apply to the neighboring forts. <div eID=\"gen3550\" type=\"x-p\"/>",
+      "content_plain": "19-20. Now there was no smith found throughout ... Israel-- The country was in the lowest state of depression and degradation. The Philistines, after the great victory over the sons of Eli, had become the virtual masters of the land. Their policy in disarming the natives has been often followed in the East. For repairing any serious damage to their agricultural implements, they had to apply to the neighboring forts.",
+      "source_record_sha256": "9e6c3e60cc2163fa58303dc3a908e117554b56f7ec17e115a914936c80e159d7",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 98636,
+        "length": 620
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1SA.13.19-20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          620
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        620
+      ],
+      "reader_content_plain": "19-20. Now there was no smith found throughout ... Israel-- The country was in the lowest state of depression and degradation. The Philistines, after the great victory over the sons of Eli, had become the virtual masters of the land. Their policy in disarming the natives has been often followed in the East. For repairing any serious damage to their agricultural implements, they had to apply to the neighboring forts.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:jfb:1SA.13.21-21:9:99256:311",
+      "passage_start": "1SA.13.21",
+      "passage_end": "1SA.13.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv2617\"/><div sID=\"gen3551\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv2617\"/><hi type=\"bold\">21. Yet they had a file--</hi>as a kind of privilege, for the purpose of sharpening sundry smaller utensils of husbandry. <chapter eID=\"1Sam.13\"/>",
+      "content_plain": "21. Yet they had a file-- as a kind of privilege, for the purpose of sharpening sundry smaller utensils of husbandry.",
+      "source_record_sha256": "6f1cfd4e1459d4264c43c11d58f9d1932769fc190ed59caaca2ade9587b95548",
+      "index_record": {
+        "testament": "OT",
+        "block": 9,
+        "offset": 99256,
+        "length": 311
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "1SA.13.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          311
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        311
+      ],
+      "reader_content_plain": "21. Yet they had a file-- as a kind of privilege, for the purpose of sharpening sundry smaller utensils of husbandry.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 20,
+  "unindexed_verse_count": 3,
+  "upstream_snapshot_id": "SOTW_SAMUEL_SOURCE_LOCK_2026-11-05",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 11
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:1SA.13:P:chapter-heading-0-59",
+      "navigation_id": "1SA.13:P:chapter-heading-0-59",
+      "kind": "nonverse_navigation",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "1 Samuel 13 · chapter heading",
+      "content_plain": "CHAPTER 13",
+      "source_entry_id": "sword:jfb:1SA.13.1-1:9:90113:672",
+      "source_character_span": [
+        59,
+        96
+      ],
+      "source_fragment_sha256": "62f14e497670587b48359cbcbdd0ec0471e9513a1cc8043dee9d4d9ebeb986ab",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:1SA.13:P:source-passage-heading-1-129",
+      "navigation_id": "1SA.13:P:source-passage-heading-1-129",
+      "kind": "nonverse_navigation",
+      "scope": "passage",
+      "role": "passage_heading",
+      "title": "1Sa 13:1 , 2 . Saul's Selected Band.",
+      "content_plain": "1Sa 13:1 , 2 . Saul's Selected Band.",
+      "source_entry_id": "sword:jfb:1SA.13.1-1:9:90113:672",
+      "source_character_span": [
+        129,
+        249
+      ],
+      "source_fragment_sha256": "7652524586d9e764f91e3333fd417b511b8efcfd38a383929ddec4b41ea7306e",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary",
+      "_explicit_bounds": [
+        "1SA.13.1",
+        "1SA.13.1"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 11
+}

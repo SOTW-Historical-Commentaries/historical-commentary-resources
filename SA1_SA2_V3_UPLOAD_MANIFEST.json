@@ -1,0 +1,2016 @@
+{
+  "kind": "SOTW_two_book_manual_upload_manifest",
+  "version": "1sa-2sa-v3-source-verified",
+  "provider": "Servants of the Way Commentary Library",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_head_commit": "4c68eaac7f62243fa785374f1b97dd69f20cdac3",
+  "expected_prior_navigation_manifest_git_blob_sha1": "0afd502e35852d42828cc5344af6a3345c254f33",
+  "books": [
+    "1SA",
+    "2SA"
+  ],
+  "snapshots": {
+    "1SA": "structured-first-samuel-2026-11-05",
+    "2SA": "structured-second-samuel-2026-11-05"
+  },
+  "source_archives_verified": {
+    "MHC": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 396,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/1SA.json",
+      "bytes": 283421,
+      "sha256": "e752b345a2bdbe144659353976cd5b4af474d57d4e18303d4cc2f374dd209c27"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/2SA.json",
+      "bytes": 217221,
+      "sha256": "e8fa023bb099d8218c74afa03771765b36eb0e1204152bfad99902c61463128b"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 2872,
+      "sha256": "5ed0afaf1d2f8b5f0ffed7ebbd371742edf25ca01b15ab13092ea9df0c84898e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/1.json",
+      "bytes": 90676,
+      "sha256": "1fc4e3f604ed27d575a8d3876997919c68c501f63352aba0db043e598e0808b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/10.json",
+      "bytes": 80256,
+      "sha256": "67d85cebf191b52b7f82ca25d95a1e1a9c40444dbd7ec9ef9796a9e01ea01ff8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/11.json",
+      "bytes": 49880,
+      "sha256": "c2519a6246a7e21e2e821764c7a7193f30934f89cb3e08ff6556c7489cb7e6a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/12.json",
+      "bytes": 50942,
+      "sha256": "ff9d8f2776ddfc6181a1b73ad161b0d878bb29e8ac71158871e0f36110ea73d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/13.json",
+      "bytes": 60235,
+      "sha256": "b3872f691d040d7c70fb85c9e56bd3f09a4973fe98f40facac9b3b25add2f1de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/14.json",
+      "bytes": 83401,
+      "sha256": "f77d66ec31385736bd6fe443893829df00e9b869611ec00031af7da6b092cec6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/15.json",
+      "bytes": 52330,
+      "sha256": "357cd96db6702aea8a3ac108f359e74161d4f6fa18b51aeeb33e0c92ab700577"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/16.json",
+      "bytes": 50457,
+      "sha256": "35c50be281df5ba2b2b5fb8af36cc7db560afd202c78c1a8b60c3a66eaedf383"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/17.json",
+      "bytes": 179251,
+      "sha256": "8decab0596e96a4397aefe0386cdf193b5aa06313750a540efac052748fae220"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/18.json",
+      "bytes": 40632,
+      "sha256": "585883a53c2b0dcb615fe662c1c5b488e6e214b721dc124c48080ef9d67220ad"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/19.json",
+      "bytes": 37574,
+      "sha256": "4bf05c75d7ff22cd38a71da2f3c97b73b6e0833f830c6157533269504f670617"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/2.json",
+      "bytes": 125111,
+      "sha256": "0026708ae7e7919a4d2792b843af7aa39b95600f240607ce51f0db886a083b53"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/20.json",
+      "bytes": 48902,
+      "sha256": "d8dffd39221068e358d9981891b88fc0cb0b342cad6077c78d606aac42317c6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/21.json",
+      "bytes": 27268,
+      "sha256": "b6f5004a4fc740df16272bc50d580a4e2288e775a39cccefcc0d8d617ddd6ce4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/22.json",
+      "bytes": 39825,
+      "sha256": "69b2796ebd689d48dce6a92e5196998ae4fd7b89f48e235d77f19562745d6801"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/23.json",
+      "bytes": 50544,
+      "sha256": "ff2ce1efe135395d98254325b8bccdcb6068a71cfe1b715faa57864c651d77bb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/24.json",
+      "bytes": 49814,
+      "sha256": "eb8fc17095c063fe5f088ad259d8f4af4816b8af76e7a353ff1d55008d6e693b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/25.json",
+      "bytes": 61460,
+      "sha256": "05bd1f93e89c600e46b3f2b4b8846aa659c83d296ebe88c9130b63f2f60b0e34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/26.json",
+      "bytes": 38428,
+      "sha256": "807c1f3192ca20d8c1ac0c3627f37d7414cffd5e2155ce2f6f654c2a9b0ce0c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/27.json",
+      "bytes": 23558,
+      "sha256": "907a43d4cbc3eae18b58919369f0fed5dd54da75d9399d4da072693d9a370336"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/28.json",
+      "bytes": 67595,
+      "sha256": "e8c493defa6653c21b45bb3080e87e13a22a5d3b302e7026f3ddd7fc36664295"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/29.json",
+      "bytes": 24111,
+      "sha256": "f7e795555ec01e060c0c3db89d5dde613d28d6ab087471145593503ab2a89597"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/3.json",
+      "bytes": 54378,
+      "sha256": "76baf1a2d91490c3664cab0bd3ccf735f267b7e3ce945598ebfaa67d3000f32e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/30.json",
+      "bytes": 56969,
+      "sha256": "8c69c94f1d1ba0a3cb5625050e090698c633a663e2dddf599eda2edab6bd7572"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/31.json",
+      "bytes": 49767,
+      "sha256": "8ad973f6db5a679f3f942946f1e71e116d05baa07921a2e594a59e914d56ebba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/4.json",
+      "bytes": 75667,
+      "sha256": "51deb2ceedb21c313c3edfd436405c74968be7c289beca5c0e0cfe21e0489ac6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/5.json",
+      "bytes": 42076,
+      "sha256": "f41a96a880a59b8740aa0be8169117bcae98a416caf0e3f904f1a7ae4847fc1b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/6.json",
+      "bytes": 81164,
+      "sha256": "9adafe648872ebf3fae7f3ddf8582c1ea8594dc87ad08ceee52431f0edd05716"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/7.json",
+      "bytes": 47577,
+      "sha256": "d14c3dd6b5b7fa78d0e3b488efc9b7fe84cc9b1951dec1fe6b4d3718bc1fbe6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/8.json",
+      "bytes": 46606,
+      "sha256": "bac181fbc645e3d0caeb7a95c8cda6f9b380293b7c942f6b7a16b3cdfd269274"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/adam-clarke/1SA/9.json",
+      "bytes": 59156,
+      "sha256": "d27d7dd3666e04acd306ce4646b5b2e6d9e439bc416e1e30a7489ca89850f11d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/1.json",
+      "bytes": 33366,
+      "sha256": "d440dcf60ed86b65f1966c3e05f1de4f59bf7921b76511477c23f9e983f9ea8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/10.json",
+      "bytes": 38353,
+      "sha256": "2d8aabc56d39547fa9d572646894cfacf8bca510c0520ebc9178c084ec1bbb46"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/11.json",
+      "bytes": 23005,
+      "sha256": "56306c9f33217108d951bf95d99e10db0588cc0c219deb488be98e3f9dce3c19"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/12.json",
+      "bytes": 16210,
+      "sha256": "9ca04fcba94603074573ebc5c3385165730830fcc4b91d5df2323739ca5df18b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/13.json",
+      "bytes": 36700,
+      "sha256": "d958c6ebbaa70f976c01096ace5a39e6e783724d69d356b917fdeba36541b2e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/14.json",
+      "bytes": 45182,
+      "sha256": "58db3597e189f97f9d885b7261f0e681b32dc8bde97dfdecec12e7dd4dc6fd57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/15.json",
+      "bytes": 46585,
+      "sha256": "b623359bc4409991fceea4d577fd421a914eb4728bf111a72d87365277d25403"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/16.json",
+      "bytes": 36420,
+      "sha256": "1d4dd9525b5e42714a48b467fd3a67c6439c983faa6bbaf2d77c1455652e1770"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/17.json",
+      "bytes": 46016,
+      "sha256": "fa914d98be039c0c28b0be6f489ad90210fb141ce2d7ae53ae33939592bd6f77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/18.json",
+      "bytes": 40875,
+      "sha256": "3a251e724b8d1a1446bec835b7eafa9e15d7ee95ab05160feb24bbe7276b3521"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/19.json",
+      "bytes": 29033,
+      "sha256": "118f3c60e6c317c0f51461811df3c3c74aeb9e5b145574f01ba680c488a65c31"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/2.json",
+      "bytes": 47734,
+      "sha256": "a43882a5e143510ebcf3a5132a51887fb9b8620941c42d06839517542bdce1dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/20.json",
+      "bytes": 44518,
+      "sha256": "f89c7cfef9fb6622328382ca5280cbbf1d1f7b34c68d8cb2c46f02e44a5ec559"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/21.json",
+      "bytes": 30177,
+      "sha256": "d858711c2a46702da044663dcbca697866ab1990aeb0581caa08aa2d337700e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/22.json",
+      "bytes": 32308,
+      "sha256": "68d4a3101abbae0f74428565425cbffccb0e3b41885233cdc4b5cdac6c48aa07"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/23.json",
+      "bytes": 34716,
+      "sha256": "eb15a4776da68f27c43db9eee373f796aa157a5f2aac6d8844a24398e3e14588"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/24.json",
+      "bytes": 22299,
+      "sha256": "519cfd665034a7381759dfe469889f7bf2af9ba0751d7cc9b476ef68b817069e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/25.json",
+      "bytes": 50808,
+      "sha256": "1afbd572973caa1b4baf84e28e18630e387a6473b9131aaa99758d3a71dd0c3a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/26.json",
+      "bytes": 21085,
+      "sha256": "6069e0299b52f24733b9c608b9995ab1ba8525b12b17074622eeeb4cdadcf49f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/27.json",
+      "bytes": 21434,
+      "sha256": "73221c07754e64615825a9035c7b22e837a7baf36737f5a8f8c5a46c2363120f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/28.json",
+      "bytes": 23575,
+      "sha256": "df9981c9722b18b3c6250f2d954454742c96739661ddd5c7a4a15c73f583eb83"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/29.json",
+      "bytes": 17270,
+      "sha256": "074e88bf04039a44bca9193e609c9c5f54b30da5df9758c345b6b4935eeb6a77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/3.json",
+      "bytes": 16378,
+      "sha256": "2b90087b93dc40d7ff4868363bec19f6d1f2fec43b30ef18899ac85f4a820b84"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/30.json",
+      "bytes": 29391,
+      "sha256": "c138672c2f4a4f5fb99f188774ad227e101bc97d9c3853850303972b379d852f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/31.json",
+      "bytes": 24062,
+      "sha256": "81db3aa815b46ce8a4dd6cdf4ab3c5732f4cf4cdd86bfd3bad53ad5d93b76c5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/4.json",
+      "bytes": 23440,
+      "sha256": "33e1256aed1607e51beef0951dc2569dd1a7b57d221ed007deecdf85df0b23d9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/5.json",
+      "bytes": 23086,
+      "sha256": "7af94ff8f541eed138225052ae6ae2319afd37c5e7544d18b9bd33304fd16d1b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/6.json",
+      "bytes": 37537,
+      "sha256": "0511d81190812e12713add566d1c54f125b25773c0ddcf0b81f9d5e6b9923dfc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/7.json",
+      "bytes": 21562,
+      "sha256": "a943faabffff1b9e634a8fd45a599b9048c77a9487f25713f40b2e7f0272affe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/8.json",
+      "bytes": 23918,
+      "sha256": "cc709cf766a3e87a614c4787656ffe34dd1be36a937d5afd47f6f3b78d51bffb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/jamieson-fausset-brown/1SA/9.json",
+      "bytes": 43474,
+      "sha256": "fe0aacd95b558e0443ef2e051063353f89487e964a60f7286be19e078d708857"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/1.json",
+      "bytes": 1308,
+      "sha256": "32aff9e621c11363ebd943841eac89a1d1e415f78d9635691d354b5c6af5910c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/10.json",
+      "bytes": 1310,
+      "sha256": "e5baa67e80c199819aa35ac6e6a26330678d066275c7d47f48c79f8f83f7ec4c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/11.json",
+      "bytes": 1310,
+      "sha256": "1bdcc8dc33a1a6947b82faeeb4d9ea710414508013f631572f2ad7d5648cf94e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/12.json",
+      "bytes": 1310,
+      "sha256": "5fbbc022be537c41def00f69d183a6fe44785e8d94cc4f92bea434ee84a5f7e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/13.json",
+      "bytes": 1310,
+      "sha256": "258bbb65c96dd6f412811c2e8c7a7e8f215000585b768e1432d1d4cf4cc5a81b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/14.json",
+      "bytes": 1310,
+      "sha256": "3136cbd923e21d85d7a41c8316f10cdffc4336c27efa5f5de5a48f92bf89eb9b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/15.json",
+      "bytes": 1310,
+      "sha256": "2c78c2ca0b9b890fc8edeafc06e74e661f292964d1a2fd3e78ed77efaf4b6141"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/16.json",
+      "bytes": 1310,
+      "sha256": "a751f0e9ec2fdd149c2518ece10104268593db55996a6a3ddf8f88f4e6e7481c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/17.json",
+      "bytes": 1310,
+      "sha256": "83bd99306c6c80be122c3ec58aca22d9ecd31ddfdff37fe74d8f358cde3517cc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/18.json",
+      "bytes": 1310,
+      "sha256": "301eee0c2ff6d7f13fcd4ea3c1935be84249d38c12e3b20c21b350fab996a127"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/19.json",
+      "bytes": 1310,
+      "sha256": "233ead4304dd31d6b9b1913e9d6d2c643e98026a6314fd83b386793f79225347"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/2.json",
+      "bytes": 1308,
+      "sha256": "2507b5f33a5423b87d6c2a287c025a3a8afb63526cda55cf538bf8c89f9ff103"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/20.json",
+      "bytes": 1310,
+      "sha256": "670d24b5a556f96624fb5a590aa6831f1af5de265e97a472aba411f38f4502e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/21.json",
+      "bytes": 1310,
+      "sha256": "1a719b6c4b15886917f117e622d7f48b84a8591b6c09bf12d70f11d06dfcb8e4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/22.json",
+      "bytes": 1310,
+      "sha256": "7031347160a9c25f7566f835f85a2ca7045cff41f555ab9dc11071973461d725"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/23.json",
+      "bytes": 1310,
+      "sha256": "d6352f06a8a0db5e023e78795d566b7cc0d2dc78ae980ac6a638dac0b3707c99"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/24.json",
+      "bytes": 1310,
+      "sha256": "7a60581f08dd99a9b1ba3d0e1e8cb00bbc2737b3c2d667db550dcce9c06ff72b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/25.json",
+      "bytes": 1310,
+      "sha256": "33d96d45281fd400de0744129c61a59fd803623067447a56e2a8b70e7d955e05"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/26.json",
+      "bytes": 1310,
+      "sha256": "5711c4c9265edbb6e194a5c8d51fbf76c22000961250b177926af1133ed7690a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/27.json",
+      "bytes": 1310,
+      "sha256": "e55509f43b65f7adc645154e2dc64906dd521c2252bc8489775bc2643c84ba38"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/28.json",
+      "bytes": 1310,
+      "sha256": "377930bea6dffd3c34f69006b0f65a77016f935745ba83523cbd62baa5481438"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/29.json",
+      "bytes": 1310,
+      "sha256": "e884777da0b3be1f6d8c6b092fa334e0af533f85100af102c6d13b4b72669449"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/3.json",
+      "bytes": 1308,
+      "sha256": "53898315d48c7ce1fd803ca816a5c53ca217d1236dccedc56e3390dbdc683bca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/30.json",
+      "bytes": 1310,
+      "sha256": "7b7d77b260684306520fdadcfd14b14cfb1b5045a0783a0bc446055115918c77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/31.json",
+      "bytes": 1310,
+      "sha256": "d0262943af59cb28f56762b4b24100e0094f71bc475bc300c46306cf506f1444"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/4.json",
+      "bytes": 1308,
+      "sha256": "778498b57fb91c7c1e66a7da918fff7f3d90e4a9f08ef2c5c0fa0376ffdc6c1a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/5.json",
+      "bytes": 1308,
+      "sha256": "65908185d1c7365561cdf8a7b9325c44fa5fd4914519d7734f57fefa5bbe6210"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/6.json",
+      "bytes": 1308,
+      "sha256": "8ceece2ac13196f3e812289a66d24d1f8d0c88908111fd4c350997bb09b30636"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/7.json",
+      "bytes": 1308,
+      "sha256": "d9ac0e5dcf8277d0f2b022f95bf27465dbd3529bbbf7db96a51f7c45465975de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/8.json",
+      "bytes": 1308,
+      "sha256": "ff39cf69c248b818deba3a27ae8fb57981fff1437214e6a7c46f8b11ddbbba5a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-calvin/1SA/9.json",
+      "bytes": 1308,
+      "sha256": "2b2f6bc87246b5b20f373c844a51b354e7a9b73ec4ca6758549879112365b3b3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/1.json",
+      "bytes": 190350,
+      "sha256": "56d3b7f63a59f1125074878d2edb226c55f9bb16291da3a615c81dba4235fac5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/10.json",
+      "bytes": 169065,
+      "sha256": "ff59f92f1170893d92f8dfddcd5c55acc244a7d3f81e74b53e5d7c22914f386f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/11.json",
+      "bytes": 94141,
+      "sha256": "debb189821bd0ec1bd8c27cb1d6ac00cec75bfca11bed59fa764fc793ca8e161"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/12.json",
+      "bytes": 141991,
+      "sha256": "7c1807eff31ec74c367c79efa1483cf2e036ea5af2accebac56dc80fdefba6e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/13.json",
+      "bytes": 141901,
+      "sha256": "cf6ab1a59a53ced34cf38ecedc395ee8889d7ab3b7e44c9d94c4dde5c30c4eb4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/14.json",
+      "bytes": 277932,
+      "sha256": "03036a79a3309de2848d16bd30edad503039147af5ec898eead120a57611f653"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/15.json",
+      "bytes": 182165,
+      "sha256": "2b1f57e784684a88e13fb39f2ba850a485c3d55c8ae8f86f54a29b291caa285e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/16.json",
+      "bytes": 116525,
+      "sha256": "1481665d68ba1b75119b37185bc07b111761a2df47e8a72bbd1beaf0e786b900"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/17.json",
+      "bytes": 292458,
+      "sha256": "498999a221f2e6c13e86f3290351276bb1f586271457a931b2567b85cd0e74c7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/18.json",
+      "bytes": 149778,
+      "sha256": "2aa6aa0ca08a58911ea6539b3ee76631d6fb533b3d1300ef8c5dd61c01155a67"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/19.json",
+      "bytes": 128556,
+      "sha256": "ed7d271ce11fe657470a9e0e27984db228cc3ac6d6c79b3a2f520bb69ff3f4f8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/2.json",
+      "bytes": 342136,
+      "sha256": "cd9c748d0919c93c11ea51f41ba43e258e9fb079964744da98785da34bdd9288"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/20.json",
+      "bytes": 189694,
+      "sha256": "24d8d7a73cd56d59f626bc164bea31317ab3a954c1640133e954547e27c6bbd3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/21.json",
+      "bytes": 104961,
+      "sha256": "6c3e4683ec7017b1a672dcb057956ac93b10ad2079a0f474a29910e962aea680"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/22.json",
+      "bytes": 124157,
+      "sha256": "f4fbcd9ce98ac84f1c3bb8706097dec38d044d0607b9e051883453b8b4eb5b45"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/23.json",
+      "bytes": 126327,
+      "sha256": "94bad347398406d0fb3099db883467212bb3bb6f6ec278f62deb2c4dc1c983cb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/24.json",
+      "bytes": 104298,
+      "sha256": "6d976b7f869558c3b2a9eab95493ef7d8568dc953920a8766ba4d1ebc16f292a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/25.json",
+      "bytes": 232348,
+      "sha256": "f0b6688817c52f1219d1ca16d6e8f91842a997163b1f6adedb3a3c0b4f072461"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/26.json",
+      "bytes": 131791,
+      "sha256": "385e26895ad106b364f3f9bd7913d710ea5a2c586e63cc9cb203bc1a346e69c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/27.json",
+      "bytes": 71180,
+      "sha256": "b78ad9697699db9410c50c3fc723c75ceb50d76094b3b2e23bee75c1e313a19a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/28.json",
+      "bytes": 142739,
+      "sha256": "6bc88f29dab22dc2be2ebef023f28099608bdf643dbbe4417e21646469a33172"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/29.json",
+      "bytes": 54925,
+      "sha256": "34258898f85236bdcd012d2a814444f98b0276f260d33fe025f53f1be9e78e9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/3.json",
+      "bytes": 123855,
+      "sha256": "2cfc1acbad5e3d2b2d6f9f7ba1f29ad87d9c9dff725b945d81574580d23af193"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/30.json",
+      "bytes": 137633,
+      "sha256": "2fa53fc889e55947f569a5ec4dedf31ec12024254788911b93fec6a584323a71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/31.json",
+      "bytes": 62795,
+      "sha256": "46ecc5f3701cfeeb971640b217e5aaa60027e9b6245ffe278a937aa0a0f7e224"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/4.json",
+      "bytes": 139218,
+      "sha256": "c42a8fea280eb5f3d0cd020ef69fa148af4f6a1678eb619740ca7e86f0f283cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/5.json",
+      "bytes": 69576,
+      "sha256": "7a58aa8dbcec43e794d64cc5e8211b4f872f3e865220ded94042cc074f2699bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/6.json",
+      "bytes": 151351,
+      "sha256": "22f28e390ca118f774d7f30431f9118208f40c0a927298f8f477e51df233e754"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/7.json",
+      "bytes": 99691,
+      "sha256": "4bb640ad9bf1ad2542a9d7eb992bed351bafab3cff6bc7f4ad549574331a410f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/8.json",
+      "bytes": 108710,
+      "sha256": "ec38b63b49b6e721d5646ed4a908b0f1b225063c671b0a22eff8d54299c7d137"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/john-gill/1SA/9.json",
+      "bytes": 175497,
+      "sha256": "6541e8b1ae32c9f746d1937f65a36d419bcb8041110a44cfabd450dd16da58e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/1.json",
+      "bytes": 237509,
+      "sha256": "501a612db1f1ce5f73a60bd6687b448528f73a02d8d639e15d7b319f884cf8c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/10.json",
+      "bytes": 105505,
+      "sha256": "bcbb4db4930e088fd4080339dce186039a3a3a2cd1f9c6bfd353032781b23072"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/11.json",
+      "bytes": 46164,
+      "sha256": "41cf43c9b3c09a9f8ac58cc32aa0cf583f735304b40c630f8a6ea435bf6d8223"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/12.json",
+      "bytes": 71016,
+      "sha256": "7f0d45cec42f94caa3f0bc4f0bd5f4829f0b72bbb73f0ccd641117d590a7ba71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/13.json",
+      "bytes": 78858,
+      "sha256": "29d7ad7eaca02cce747cde948e672cd5e1ede34c46706d98dfe8c47545b2ee3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/14.json",
+      "bytes": 143058,
+      "sha256": "d99aaa0ff8d946f1888903f92d01f6f19fcc75f643da698c68be89bd55bafa4d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/15.json",
+      "bytes": 107046,
+      "sha256": "cfd853b9cd91f72950ca55c7b5089e697a3f4ed195d956fd8586054b29028aa7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/16.json",
+      "bytes": 112266,
+      "sha256": "b2e123cc95f25261b414657d8e26fc6d296ef94ea1493a6451276ca907ebd3b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/17.json",
+      "bytes": 49646,
+      "sha256": "6cad0713ce61ffbd68934d59ba8cce1ab09446512e488d15e0b12d0449c2eca7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/18.json",
+      "bytes": 60924,
+      "sha256": "a49c0162e8733806049a1a0f3146785b844503e9807946ca40ff284fa0a48050"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/19.json",
+      "bytes": 106514,
+      "sha256": "85d48720eae9cfe8a2332d6008ec6a15d5f54dcc205f00447fc7ce6add3e5bec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/2.json",
+      "bytes": 175555,
+      "sha256": "f142f233aeffa42ce9ec8c9c75f4aea678a69316cdb8b59ca9ee0a456ca87529"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/20.json",
+      "bytes": 114831,
+      "sha256": "a2ff54304316d6b7b3eaa30e5db2eb02f8054855177076623def84f0ca82985f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/21.json",
+      "bytes": 68860,
+      "sha256": "55f2d06b09f093ce2cef1b34967d93e1a59f4a0ce4f422f6cff76ce57a84298b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/22.json",
+      "bytes": 56341,
+      "sha256": "476c12694dbad7f049f1f425a59f13c8985dd888fa5e4bfa6417e2965cd8f3c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/23.json",
+      "bytes": 64440,
+      "sha256": "05512847d04ad4c8c67cfb072cd9be811341ecf6eca18f28a6a6c6adeda59fa1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/24.json",
+      "bytes": 48954,
+      "sha256": "6f790cb7838ef53cf657a5d804bb4375502bef5b311eadf7ba66e9d69c9be986"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/25.json",
+      "bytes": 96710,
+      "sha256": "3f053d04fc37ad1722e1055d323ad013a73d959c5b602884bd834df5301deeab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/26.json",
+      "bytes": 63330,
+      "sha256": "607debdb1627b7fb05b5f443ba0beff4dd441a2aeed193b29a99ff978f5a581d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/27.json",
+      "bytes": 37820,
+      "sha256": "9af945aaabaa5c10f53702bc5f0d11116497f44a501a76f2f9b93db50c4ac217"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/28.json",
+      "bytes": 92008,
+      "sha256": "3648e8a50065a86eeaa67925612d76a510b7f0205117b6b95e559f90fce0f0a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/29.json",
+      "bytes": 29676,
+      "sha256": "e1808deca1e90a91acb629c5628a0a61041012576dca80af185921ac5fef4929"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/3.json",
+      "bytes": 47030,
+      "sha256": "5bc7365bc9097b3a6540ae0ed791857427d6f22cea88633d7e854aa244eb6228"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/30.json",
+      "bytes": 62831,
+      "sha256": "4e5a215f4dc8fa263a08a7a0c4dc182899404e6efa8bace57649d032737f5f11"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/31.json",
+      "bytes": 46330,
+      "sha256": "6bf59c68ef37aa18fd7b50ce11c37dcafe3655996c940b22123479ba2ef965da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/4.json",
+      "bytes": 49249,
+      "sha256": "3f2eb3f1b642f3759682ec93776eb6160e6082b797bee2e2fd01120ef2538bac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/5.json",
+      "bytes": 44845,
+      "sha256": "71be08ca482cc07f44aa00c38bdb7406063ad1234b3ec9d49be6effe4ad2b8e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/6.json",
+      "bytes": 77841,
+      "sha256": "fd9803cc426a4f776295a4d28f52d4816e9e88e6b37a6dfd0f0f8ec05e800fd8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/7.json",
+      "bytes": 103364,
+      "sha256": "26128539cccf9e083518e2000167d94c50ecba47617218791356a1be6f57c96d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/8.json",
+      "bytes": 57229,
+      "sha256": "152b26315b3aeb17d2b1c6d80973d6a69edc3d8850d3490904b395de980866c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/keil-delitzsch/1SA/9.json",
+      "bytes": 66395,
+      "sha256": "c44c2ca0257490823ce8369c56ea2e1e2b922fd6e824be7331699865d0ed6bee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/1.json",
+      "bytes": 147499,
+      "sha256": "3a1dd4235f302546a0d05b6a3ce92ee6e39d07e624d187594b3a3b6b1b6a6d49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/10.json",
+      "bytes": 107934,
+      "sha256": "5166bd8961d85686c717fac5205a1c60b4995e777a7c18c17e4ac3eda799ff3c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/11.json",
+      "bytes": 72956,
+      "sha256": "4dcb0a660f3534090c83daa72b4796d84094da33e99882de7998aaf0813f90ab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/12.json",
+      "bytes": 98920,
+      "sha256": "d2a5c5d103546201aa22bd33c7209197b7b8694cc9d75aac3b71e888eb188063"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/13.json",
+      "bytes": 78208,
+      "sha256": "39ecc7af1e85ce231209b888b271f58e9ef529aecea8f909852418f0cb0a7416"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/14.json",
+      "bytes": 150530,
+      "sha256": "5a56c3c9336b30801a2a8fee524b914475bcd7e27536ac96e6ab5a7ed6adbf8b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/15.json",
+      "bytes": 132180,
+      "sha256": "b2543596544f46c7f399d83cc58ec7981d15bb980fc722be6240737c4ed081cb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/16.json",
+      "bytes": 94452,
+      "sha256": "b1bfc270abebc9d7420a25361e750c88c34797614b4cf7b5b6d4e3e55fadd5b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/17.json",
+      "bytes": 161106,
+      "sha256": "b1552e8f0ab39fd2825636347b33dae9d0d2258199756aec6a894d541a9f6159"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/18.json",
+      "bytes": 96869,
+      "sha256": "c1a0e202dcb46d7ecec3516c66245ba7584d73bb05b83c7e8599c9d9ebc854a3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/19.json",
+      "bytes": 86970,
+      "sha256": "a3360763d5371eef8e1d5ea1d5d82100f8144b859d5144add1ba89817b670b59"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/2.json",
+      "bytes": 198126,
+      "sha256": "012b0a175e169a37538ba76d610a9c00700983518df6bb5dca1194eee30d8cce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/20.json",
+      "bytes": 103531,
+      "sha256": "04349bc8060dd90b60244b87dbb8c788ecf0964204d037f475baaf61739fc215"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/21.json",
+      "bytes": 70620,
+      "sha256": "d70ef0e71ca74e02987a7ed145a656a14028b9e839a689a281eb0a06cbb3f530"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/22.json",
+      "bytes": 94551,
+      "sha256": "a51d758808f7fe2c0e2487e5f79292e1298147858054d7156e63a9a2a8a3cae4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/23.json",
+      "bytes": 90343,
+      "sha256": "18e4e5c2557d9e6835e897c2401d42bbc86860510a9ebc69b5c2004e9e353d83"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/24.json",
+      "bytes": 82758,
+      "sha256": "54a043238f1be81cb93fc46603ce65d0ccfc4e2eadd365fbda4c084d89f35d2d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/25.json",
+      "bytes": 176806,
+      "sha256": "eef58b2d04b8a0fde584e63c21421e309dbc246f774e02b55fd00f82f008900e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/26.json",
+      "bytes": 95984,
+      "sha256": "b51d121bbfbacc11964b7ebcd6d737dce6d3e65b65a953a8d4f90c3f7cd63a2e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/27.json",
+      "bytes": 48135,
+      "sha256": "8a3301cddd699f8606138703c47198c7ccacdb98f380e8e20c2e24b1d384c1bf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/28.json",
+      "bytes": 114051,
+      "sha256": "2c50b84e96604c6ec98e589a640e9b2e21e63e790ca3818504f10119cf162d6c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/29.json",
+      "bytes": 43334,
+      "sha256": "1f4d7f1edbf38b339128418519d98daa5ba7e4272c6d46db027c2e02e4a8cd3c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/3.json",
+      "bytes": 103446,
+      "sha256": "1f5523e12e201cdd459d7a45207aba73962789de03439d7083642bcf96517053"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/30.json",
+      "bytes": 110216,
+      "sha256": "9ff32f8587237bbd712f1e65eb63c48f729277711b9819dfc72b4bdf3d159cff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/31.json",
+      "bytes": 60243,
+      "sha256": "500f66f1c056eb28ff564f46876216ffb95b84c4be532aefa9fa25b49f183bd5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/4.json",
+      "bytes": 102588,
+      "sha256": "312c5c446684fe47f6d1f4113da5235aaec1765459b6e0d8ab26d49d3c1cad8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/5.json",
+      "bytes": 66839,
+      "sha256": "ad78db2316d3acbf9b0cbc8861af037a77b724941c23ae3b4375531c0f8a8dc1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/6.json",
+      "bytes": 102130,
+      "sha256": "42d4f390bea47e926c531a37346c852a1a13d157be16dbfdeff92299d0ed7a69"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/7.json",
+      "bytes": 105006,
+      "sha256": "7a776f02098069f7f71201341c3c0249657ed3a9e012e38ebbefc563fc8b106d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/8.json",
+      "bytes": 93873,
+      "sha256": "918b6174778d86b3f9349881d2f8dadb17cf45437565a8d9bc528685a77922a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/authors/matthew-henry/1SA/9.json",
+      "bytes": 109343,
+      "sha256": "5a98b7e110bd957512a1712d9ba14c6d683f00f95a943a9aa5ab78138b622734"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/1.json",
+      "bytes": 11641,
+      "sha256": "688c43523a6f87534f0725130be670f7990220106a673bef551aa36a595c02fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/10.json",
+      "bytes": 10279,
+      "sha256": "17890d02039a70dff3982b60790042a40e673796e50727fe7d0d37d222bc3fc5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/11.json",
+      "bytes": 7665,
+      "sha256": "4efaa0c8be2a8fb45324711fe65055c02205c20bcfd5f5cc7a67349491537cf3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/12.json",
+      "bytes": 9808,
+      "sha256": "53474e794c19bb9c6a1d1d9f4bcc3de0de375c16c3356bfdd13a0b4aecdc433b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/13.json",
+      "bytes": 9513,
+      "sha256": "ae5c5ea461086077fb05405cecedd483fc3f45fb2c11a82bd19179f708ba3abe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/14.json",
+      "bytes": 15316,
+      "sha256": "71fe62c394091248bdc0996282d012a445a383c11be61cafe101aad41b0c164b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/15.json",
+      "bytes": 12581,
+      "sha256": "05e22a24f3b52d1e48dfbb4d2f23dc28c2ccc766ed6e165a6e254611a6a80bb9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/16.json",
+      "bytes": 9639,
+      "sha256": "5713b89545cb0e7cfc45bc8f8baa4f3a7872d1bebf313883fbd909bab196520b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/17.json",
+      "bytes": 16791,
+      "sha256": "838b7f5b6640bd4c94f2d7105d3c70c60cc3c8e4e6646655983d509250e832d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/18.json",
+      "bytes": 10342,
+      "sha256": "4fcf744fdd9d2bbf252714f5880567ca53357429630cbcb79e85369ae8a508ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/19.json",
+      "bytes": 9899,
+      "sha256": "7924832ac494ca74b30c9dd0c99798d675c5a08ba6dc847f67a8882356b0d507"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/2.json",
+      "bytes": 11962,
+      "sha256": "d9b09ea1b0593a0f252ac8596ac4113ac2fe3039a2abb5867eec3a606a840666"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/20.json",
+      "bytes": 12424,
+      "sha256": "0bd681cd4cc80f193c5d0d655f46202a85804e8655108b9dd23afa7c6fd9e688"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/21.json",
+      "bytes": 7332,
+      "sha256": "3fa66a3819d2c51350c537b5c873eba4eb3e8302fd090b8975677a45d3225721"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/22.json",
+      "bytes": 9244,
+      "sha256": "9d9ef28508141584d93c3a9d4d2a1cbf6aca9e206850b8fc31a07495a070c238"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/23.json",
+      "bytes": 10556,
+      "sha256": "4389ca3305f637eb93db7be919c7902a12336249e115acb6905aedb9360305a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/24.json",
+      "bytes": 8946,
+      "sha256": "adf0704a488fd72724a0bdec7b1a3d9a2a809d09ea1b1ca915e4c203d9d4562b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/25.json",
+      "bytes": 14027,
+      "sha256": "d231a47f4e85428bfe4a522477d69707529b47441e45827c77a08af67b5a004c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/26.json",
+      "bytes": 9697,
+      "sha256": "40588bf46396719a29fd6d201c7dbfd2f2a4f834da97c235510a15a17b652c19"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/27.json",
+      "bytes": 6445,
+      "sha256": "f11c52c279e976d6cb54ae202f5b522a91c63e44ed79d95e115ee3f659167443"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/28.json",
+      "bytes": 9818,
+      "sha256": "a87dda18bc03430942d88e6bd871a13f7f6b57a83bd611497bb9818e641bf060"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/29.json",
+      "bytes": 6235,
+      "sha256": "41a0560526e770565d934ab1574ca49375c49025936af8bf72f5f66d916ca221"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/3.json",
+      "bytes": 9178,
+      "sha256": "037df51fd8be52df23c660e5330dd7c6e158bda890a927c5aa0bff66a9d3b81d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/30.json",
+      "bytes": 10999,
+      "sha256": "ec151696309e8e78178aeaf22b33af276b40b81e5fcceaa1fe6b8f3d6e7d2dce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/31.json",
+      "bytes": 7378,
+      "sha256": "883a7ffdfa755db180d2806f756c00c218e6fbbef235c25a9feac46071e1ef49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/4.json",
+      "bytes": 9182,
+      "sha256": "215c1e7a14c0cc846e0687df55379a9e08af4164d817b61d042dce65a2229278"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/5.json",
+      "bytes": 6698,
+      "sha256": "029af3bc0dfd18a35fad599daaa605f7784c37a6cc90c1b08a0cfcbf17aaa4f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/6.json",
+      "bytes": 9206,
+      "sha256": "affeda99874a9a46b0aae5e305354120065ed0dc1cf5fa28fa5e42d726633467"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/7.json",
+      "bytes": 8067,
+      "sha256": "05bc0aa43c8e3fbde37757699aa3c7b3510efdf4ec9f1d6f1a42672072674522"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/8.json",
+      "bytes": 8876,
+      "sha256": "f718e84a37a857ef6d0677936f1ce861ee8394158307028385d4ebec48ad03f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/index/1SA/9.json",
+      "bytes": 10823,
+      "sha256": "68976c63d82006bee36654a90b0ea3ee6be3be1e948af88204a43d62a823c5ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-samuel-2026-11-05/manifest.json",
+      "bytes": 2078,
+      "sha256": "6b3cb9aa5e01eb498855870b1ac895788e10e0f6f740fa49edf5001f0a6743a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/1.json",
+      "bytes": 48406,
+      "sha256": "30450337f27a24add16c01444f21b84ab981a1061b97a886e66a961ea225c7d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/10.json",
+      "bytes": 41842,
+      "sha256": "564417fb75b7305c0753f3599e5fd8b01b19226ef224e6c907d92d53e2d9fbea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/11.json",
+      "bytes": 56488,
+      "sha256": "1997acb2bec3003ec12f5db552409c0ff89de3d14a685ea851489fcb262265f5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/12.json",
+      "bytes": 68544,
+      "sha256": "8af3df42607f7c030057abdc0ba88429dd35cd98ce373f865c56f68d34c284f5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/13.json",
+      "bytes": 36642,
+      "sha256": "653e50b455928324f1b9672d690de236c080c4a38469b3e30068ab4fb8e49280"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/14.json",
+      "bytes": 69802,
+      "sha256": "0346dfcb9ddb9e6cca8a8a061789eca1d6d81860de8f6c13c0b973758795d050"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/15.json",
+      "bytes": 64608,
+      "sha256": "695ae646622588e23d61781c60159cde50f038617da19992dc9cfe57c7d2a756"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/16.json",
+      "bytes": 33533,
+      "sha256": "70576253d2ea4ac2a2c87a751204e9c2835c347688d33f171156f243a4910968"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/17.json",
+      "bytes": 40461,
+      "sha256": "2c725ecbfc2b8962c037f1c0e3f9e8e1d5af8836772297d5105dd11fafedb683"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/18.json",
+      "bytes": 53200,
+      "sha256": "f1bf7b5cc33f9fbef29a8e47234c8db1e2ebe35a60268da78bea7c072991f027"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/19.json",
+      "bytes": 55171,
+      "sha256": "85f8980cc086cab5a3ca9709a4f6a45fb6aed2deb4a39a0d7c4c5b1d1f0b56fc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/2.json",
+      "bytes": 40646,
+      "sha256": "0ff55b8c01a9cec466dde3e677b1b7de7b105526002a7e02576410c6422e1ad8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/20.json",
+      "bytes": 45188,
+      "sha256": "9cad4d0c8a89afd56d8658a83f24c1665ed96f8ed2dd14fc1c3594fbd8e70d24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/21.json",
+      "bytes": 60705,
+      "sha256": "564faace2dfd97f62be95d551b27e2b70e4e1bda542857954fe09c417ac97d79"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/22.json",
+      "bytes": 24581,
+      "sha256": "4a4423cdc2e0ff601a4d9cd7e522161e2fcd9280b288614cffb143d809c18088"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/23.json",
+      "bytes": 67161,
+      "sha256": "9c628eed941c4fe09c63a8b262c14b8668dfaa0dc6196ece3c96ec48beb06916"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/24.json",
+      "bytes": 65985,
+      "sha256": "223015a4eaf7e562f38900bd422e67dc59c95f714671480741d06c9e27c19978"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/3.json",
+      "bytes": 44109,
+      "sha256": "baaa87289c029947a66cadca22ef1c3ddc922e33e38ab84bd33e1edd6caa1f48"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/4.json",
+      "bytes": 27331,
+      "sha256": "40cda9d263ef77ba9918737c30a0490695c12f9a01f37a4b8e04766250013f3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/5.json",
+      "bytes": 51133,
+      "sha256": "7e8b8fd938ab3e16ad3c1973e239bf306a0b351ba05ba3dc995b213a6e604c00"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/6.json",
+      "bytes": 43813,
+      "sha256": "2c220fba070a5f45340105d4015f370380ea451b9b339c49e82624ec3ae61d6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/7.json",
+      "bytes": 92430,
+      "sha256": "97c9d21bc2273d5764edaa2886dfb6a860a964ef4a09ba324533ad6882ecbf27"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/8.json",
+      "bytes": 42364,
+      "sha256": "f686fdca40219d3e3eac06e55842e6076deb59d9cf66628166982af01ab6716e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/adam-clarke/2SA/9.json",
+      "bytes": 21729,
+      "sha256": "560693b796b66f8f7c8b8cdc9a4a1c77c6654e1deb1731c3880c0f8eeb7c2373"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/1.json",
+      "bytes": 28579,
+      "sha256": "d02087e7b8acee54602142a80a963f6c0faa5150f32eeac212e7f642f858574e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/10.json",
+      "bytes": 25719,
+      "sha256": "b4a5445e71eafa66757fda97644e771fb7e3dfee7ea351f16ffa948a11f7e011"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/11.json",
+      "bytes": 29689,
+      "sha256": "5a8b79614e49626b9c695a437342fdd21f0857e75e7f48385858542c60a6f8c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/12.json",
+      "bytes": 38549,
+      "sha256": "7bfbea2f037c165a7cef719508adf8e30c0952739ca63f8cc905d23e451bcab5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/13.json",
+      "bytes": 43321,
+      "sha256": "516479877ec49122bd14eabe4594d63401928dd26f1fd606a2f8d1c6104a2878"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/14.json",
+      "bytes": 23667,
+      "sha256": "42e7cd6f0e7492904dafe529ff580130bd325b04fec1116eafe6eedc01e8892d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/15.json",
+      "bytes": 42359,
+      "sha256": "69dec3883bcf5bf5b39e9216ff037be23ffbabe2366f5141754654f93e951755"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/16.json",
+      "bytes": 28652,
+      "sha256": "86a5cb1692ca0f4f482156792c6abf286ed2e1c776455f32c6bfe1acb6aaecdc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/17.json",
+      "bytes": 36434,
+      "sha256": "359c4947077438c2e8c6ae6eef7b08f13b95cce98eb5edd6835f47964560e2aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/18.json",
+      "bytes": 43119,
+      "sha256": "4e3ccdf473bfb14145dc02af8a59bc118585159f00c5d1eec88940bdddfcaa3a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/19.json",
+      "bytes": 40857,
+      "sha256": "8bf557495908005f9f7ff6e3710797c2ce47f41941c8dce8e3db89612cccb701"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/2.json",
+      "bytes": 23364,
+      "sha256": "3ff26e524cb82f5be9d1bfbad5d8c93f264ef0d4a116500894db293066b6b382"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/20.json",
+      "bytes": 42044,
+      "sha256": "bc85c7a78a373e2515b9192202b66590e1a0ffc65e1d5672698308f752cfb17a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/21.json",
+      "bytes": 30978,
+      "sha256": "045ec708d469bbea07e97420d85c3af497bedf0f6026c6f0bd276d075dfbe998"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/22.json",
+      "bytes": 4073,
+      "sha256": "eb3cbb5314d131849f2731e55906e6232799d7d915caa4f6d93af34e9dcf3d2d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/23.json",
+      "bytes": 36700,
+      "sha256": "62bd86e3034d9091caf8bca4baf7cc4ff2bc4395d9c0c51f17164902e3ffe34b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/24.json",
+      "bytes": 47600,
+      "sha256": "0ffe75a98dbb42f42660888256aacbad00205bcd6fcf9e3c05942408bd2e4a56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/3.json",
+      "bytes": 38038,
+      "sha256": "ab687afad3987a60e8c3a5cf9c0d13a5153dce75cafbeb856088a0a4a2f499e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/4.json",
+      "bytes": 15990,
+      "sha256": "b3937a5c789476a3f29730349088a8c5d85ee406c5be46d9189b3765e6d16ffb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/5.json",
+      "bytes": 35609,
+      "sha256": "7d025d56810fdf6ae667f080696c9337371d5cf03093959651fddd6f3f832bc9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/6.json",
+      "bytes": 40568,
+      "sha256": "d0d13ff99415ad04a6d4471b4597698fd1319246a01928a75f1f15454815c39d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/7.json",
+      "bytes": 17879,
+      "sha256": "d6400cc05c02635cc84af62508986735cdbd7d9978a5d9a89f5bd66788d66a3a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/8.json",
+      "bytes": 34002,
+      "sha256": "f01d167c87e096167053aa07b6b0f8eabf88eb461c1672c47f6a9507f2c71b94"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/jamieson-fausset-brown/2SA/9.json",
+      "bytes": 13879,
+      "sha256": "b4fbd24f24d1963330f29d58c0f814c59433fa641b003f0f23a0e6bd70b3b505"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/1.json",
+      "bytes": 1309,
+      "sha256": "9033cde373056aba1fa9fa38f584f2d08b3351988ce7aa7803ba53643d8fbc4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/10.json",
+      "bytes": 1311,
+      "sha256": "56e930979be4131d7d11341ce7761d72408801b66c1debc18dc552a4a511d356"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/11.json",
+      "bytes": 1311,
+      "sha256": "9c9067773c677b6c6c3e84af195bb3ddbc79af672f824fb561d592563176274c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/12.json",
+      "bytes": 1311,
+      "sha256": "54d32d9c76125fba298387b13b17794c0950f0b427a9ef02b86771204cadae6d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/13.json",
+      "bytes": 1311,
+      "sha256": "2b399498e6409087dcaa8ec95ab2ea590b35212fe221dc1310afbf488bb394b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/14.json",
+      "bytes": 1311,
+      "sha256": "4a3e2a8f044080106479ec93e1ed9e52b69a78e65c7c5fc611239c3df0fc9ba4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/15.json",
+      "bytes": 1311,
+      "sha256": "71fdafa4f412e31fa807b98c6e496a32171d928447ed943d77bd4cbb6ea50fc0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/16.json",
+      "bytes": 1311,
+      "sha256": "799d54dd19be60b754265328658ec31c64a1896cd49a9cefee7dc8ef5b9dbda5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/17.json",
+      "bytes": 1311,
+      "sha256": "92da9e4e975c207971317fcb499aae34ea737585ca4149e4e42a82f40fbfb31f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/18.json",
+      "bytes": 1311,
+      "sha256": "e7f59d5ca9f052925aa583dba310872a662f9457a203f002d17ff6e4c8b01537"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/19.json",
+      "bytes": 1311,
+      "sha256": "df55de1f3815145bae03bc8acdd88cf16b3c1b1b127ef23dfc519665eab97f82"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/2.json",
+      "bytes": 1309,
+      "sha256": "129200f60c555f64cc168776791ab634916ab9ce5e68ca45539b1542c9d8b7b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/20.json",
+      "bytes": 1311,
+      "sha256": "b14127f94e2e3d55fa8ed9c4d9dcac93305e97bfb7b0fc167fb442eef90a1738"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/21.json",
+      "bytes": 1311,
+      "sha256": "c5728cbec7bed4333b54927cf65e825cf07f04f9ffcd077280d212db20795d9e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/22.json",
+      "bytes": 1311,
+      "sha256": "b134fae6f60d0845ed2c45a0982203add2e96bd478a01fe3f3b97da76a63d4bf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/23.json",
+      "bytes": 1311,
+      "sha256": "6652a63a9764b59b8a70bc6ebfbe022819acf3fbff425d1b2b5ae5ab89a942ca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/24.json",
+      "bytes": 1311,
+      "sha256": "389c326f1e77343a39baaaa5f3f0a0daff83b345cd1ded0d58e31671607131da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/3.json",
+      "bytes": 1309,
+      "sha256": "8e601fe1e46c47a3aa50f249e737556a850a860f4d3201ae52fc212735b4e0f4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/4.json",
+      "bytes": 1309,
+      "sha256": "b98ad70e54887820063636684d37c7b7a7cadddce8ba91445288797be0a859b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/5.json",
+      "bytes": 1309,
+      "sha256": "f8c97d822d25f23b3d185e321a05ba882d0af6340935698eb3aaa433bd4321ef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/6.json",
+      "bytes": 1309,
+      "sha256": "89e48ba04247737ac38688db7d2949c0710d43417e10b50b8080a5fdc77a3b62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/7.json",
+      "bytes": 1309,
+      "sha256": "4fe47c650206b072faf0f313069a000977cbe8cdf1250a1acfdeaa5804cdbd59"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/8.json",
+      "bytes": 1309,
+      "sha256": "76daeea7d5eb2532e4036bd9599c32baf457a5da6e968c396ae03aa21874aaf1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-calvin/2SA/9.json",
+      "bytes": 1309,
+      "sha256": "0abe4d525bd350d5deb407eec4569825b6d5bd2b16be7f19cc1e1f7a7811da01"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/1.json",
+      "bytes": 132656,
+      "sha256": "b8b3ad49752999e9930a50a9c1bdefe7b547d9e9145b2b682473fcd39ce39b81"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/10.json",
+      "bytes": 94278,
+      "sha256": "79fe6e550b5b10c50410bbfa1a41d56434528afba7bfac27fb43dca144c533c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/11.json",
+      "bytes": 123874,
+      "sha256": "06d301dc280191b3deddd840426461854486abd71b3a5318c348a99d9bc06a87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/12.json",
+      "bytes": 166530,
+      "sha256": "f38924faacee74236ef42f1d4bc07dd7008ba858d0ee0ed8ce79f92022ccf06c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/13.json",
+      "bytes": 171826,
+      "sha256": "33721aeb918e049de9fcc6dcaf314812f3f1957fa5055fc1ffb97c8b93439983"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/14.json",
+      "bytes": 164560,
+      "sha256": "98e7b255a7025d0011971e8b9fd4d110075b6beb92000c892696798c1ade16bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/15.json",
+      "bytes": 144564,
+      "sha256": "172e4d998bf942bf7c80d7daa1bfb76ca3871c8f884584a9ccee20c36d1521b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/16.json",
+      "bytes": 107862,
+      "sha256": "9175062ec512c387cc994f4ed0db268a5ae9ee69262b16d546eb3c96e7be3ba0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/17.json",
+      "bytes": 151532,
+      "sha256": "b4fdd70e70b4c54dba0252d1c7d217f0e570275f9d1ac583e601d79acc8663fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/18.json",
+      "bytes": 145304,
+      "sha256": "040f5c065ee426a1eca16b47faef624846bbbb7311e35c29b5f99e1342ac5d6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/19.json",
+      "bytes": 183694,
+      "sha256": "9a3dc8415b12f21071b1647b1c30060cbe121d2741a16a328347099307bd5656"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/2.json",
+      "bytes": 146941,
+      "sha256": "5b52542fea7d9bcea9a6d78bfb006040a898d3bc89ffe3fd196a8ee84caa5244"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/20.json",
+      "bytes": 127595,
+      "sha256": "2f5c433bd3c1b112cfc53ea27007a9c66600aa6b2b3d44c18d45aea5d9f00a56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/21.json",
+      "bytes": 119167,
+      "sha256": "3bf9b122ccaeff0ee004593361dbcf8ee6089ad945a4ad389740ea93b754f6c0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/22.json",
+      "bytes": 69174,
+      "sha256": "c6ce0bd4f5e77cb45a657efa2bda49522e9fe10f7c5c00f649a21773303d8fd8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/23.json",
+      "bytes": 214714,
+      "sha256": "559f0ea1543b88bb8d6e432bb5614705b674d18f929642a40affb4adc415e650"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/24.json",
+      "bytes": 141060,
+      "sha256": "532ec6b3727fd08a55d6abfac8490743ff586ac115dc21c2c90036acd509a8ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/3.json",
+      "bytes": 200898,
+      "sha256": "6f2dbcee22ce549a5e97a3a4fc2d5534b2079868fe4632cbe96cdf5a26d23c70"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/4.json",
+      "bytes": 66753,
+      "sha256": "81ba1f90d492de308aa5143ff327d14cb59a6086d1ee0ebbdb7380edf11abcbf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/5.json",
+      "bytes": 123452,
+      "sha256": "e109dbd77495d2c10ae202456e16961c4cdd65002f2dd2fabcaadf4e581a9a93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/6.json",
+      "bytes": 115054,
+      "sha256": "2eae03bb09c88c1c80e9f5deb1c722af2c342b0ec58196a85feb8fefae3f511d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/7.json",
+      "bytes": 145048,
+      "sha256": "65ca07d478a98ce468427f2450dd65e2eda7fb14351eb76eab9392b37e8cb833"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/8.json",
+      "bytes": 126643,
+      "sha256": "7ecf1c1fcfd7902ec30a768b8b53e3dca26d2b86229beb7577c50aa35e0a15c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/john-gill/2SA/9.json",
+      "bytes": 55072,
+      "sha256": "a0812b2417ab81fb0c8cf2773f0c3ea8399af39246ebb324db42de1747931a71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/1.json",
+      "bytes": 91637,
+      "sha256": "0bf347cdbce022cd137a7d95d7a56e64e973efcbce4baaaa7695c25a3c0cd054"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/10.json",
+      "bytes": 87459,
+      "sha256": "70e751c61914cb27700f5bf9d5cb1464924ee62d62a3bcd20f4fea71a46b2310"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/11.json",
+      "bytes": 65157,
+      "sha256": "9cc0f1be0ed07a80f70e99b0ac819d1cf1fa7522159bc3a458a03c9f1d3a5eb9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/12.json",
+      "bytes": 75272,
+      "sha256": "68f30daed7794508ed379c1b11de350900381ea20496aba30a6d0006018fb9f5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/13.json",
+      "bytes": 80896,
+      "sha256": "9c6ead6b907465b12ce27b8804b74f7e3d6bc6b56a9fa31e697d4b929301be6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/14.json",
+      "bytes": 94231,
+      "sha256": "4f92f68351d54c4e98ba9e3c48925b4c42b20bd6f9dee1f56415094329553e06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/15.json",
+      "bytes": 102029,
+      "sha256": "d19deb763ebf96acab32f4efccd96f4baba5ac1a4f1e6af20667ab84f3903a03"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/16.json",
+      "bytes": 60310,
+      "sha256": "a7c23128513ead8ccdba7c3316b03de14791f6d0cca02eab5a92cec70c1d9a7a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/17.json",
+      "bytes": 74066,
+      "sha256": "463abc41cc527f01de0335dd08eee311495ccb7d2e8d11f2f1ed20475c26192f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/18.json",
+      "bytes": 88327,
+      "sha256": "3f20a04d12886b92ab7863a948e5c1e0d7476df587e0b32b93d191b798f696b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/19.json",
+      "bytes": 99719,
+      "sha256": "197ecba9ab3cc8d1a692939c3e1dfcb8f9f5a8239518d57d291c9b564053edce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/2.json",
+      "bytes": 79054,
+      "sha256": "9550aefe362f9ce3c7242fc41db8e96320d9fa8aa252f52d72f8972cabb95fff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/20.json",
+      "bytes": 68935,
+      "sha256": "014636684f00e2a4b5cd880f83f657e6cc416f05856d999c434303d52f18faa6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/21.json",
+      "bytes": 37211,
+      "sha256": "c70a3c962f2d622d8ef50cf44ae966305426ec787b85065300421094b758d8b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/22.json",
+      "bytes": 147967,
+      "sha256": "5d22652ff0122ec99382d22aaa4c8f27452e3a22691ef4abf12e939477406d8a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/23.json",
+      "bytes": 76371,
+      "sha256": "63fedf201cd87836854b693bf1be274a9260052b944bb07bacf9ea1605bf19b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/24.json",
+      "bytes": 65006,
+      "sha256": "394a01134e3633482cd80ef4a2550ddfb24e84c37aed57ee2314d4c3a24adf75"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/3.json",
+      "bytes": 22900,
+      "sha256": "baee1ee21ed82b7fe0207d9dd8e325d1a612b2739fe172c2f128aee341048e09"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/4.json",
+      "bytes": 49340,
+      "sha256": "e650b20115e1dbb5b237205f577ef11a7e29817d2e6d396ff10ef194c42fcb49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/5.json",
+      "bytes": 90286,
+      "sha256": "ce5f7ecb8dcee1d81db815eb6c9a1d95e30bfd56d7dce1a0cf8fc0f359f8b888"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/6.json",
+      "bytes": 125584,
+      "sha256": "071169f664c2bd1d3cfc244ca7a8326b8ed973ba5abf6b1718961cad0e3f521a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/7.json",
+      "bytes": 99407,
+      "sha256": "67cc0fb6bd6ab9732d63a70eaa5440177dce711e736d91b9ad17aa6c571711bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/8.json",
+      "bytes": 135487,
+      "sha256": "02f9b0e175fc706ead81739054b70780d8511bfa8309410459acde999577b497"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/keil-delitzsch/2SA/9.json",
+      "bytes": 24855,
+      "sha256": "6519196ed58cb562f757ecd333aeed70e2463ac55403d56563d32813610ea4bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/1.json",
+      "bytes": 107746,
+      "sha256": "d6a55b6b4277dc3398f6d331c0d5d8c87853dfa584a0c1669911843db8bc4ad9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/10.json",
+      "bytes": 65164,
+      "sha256": "3455483fc4d663695317b12bcbef19b5b3938911063635fe3f14e909a8d50ccc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/11.json",
+      "bytes": 92159,
+      "sha256": "41ac2f14b1579c1f9c91fd5033657218fa6d9c43bbbd472ffbc51ce6708a8af6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/12.json",
+      "bytes": 123911,
+      "sha256": "c03123d5d09c21bc5b1992e993eb3ddbbe918f67af8e76d6d9c1cfbf3940f1bb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/13.json",
+      "bytes": 122267,
+      "sha256": "ec631181983f812679d1908770614b7901a8740a55596cd79980c197fafc4e12"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/14.json",
+      "bytes": 111781,
+      "sha256": "1cbaf3224f224f9a233f8118cf78e1751a96f70412da01c67750586df03276c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/15.json",
+      "bytes": 140009,
+      "sha256": "886d819eb46c963dfd90d1f22e1ab51de0b768dc408d198f41bdaf9dbdcd164c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/16.json",
+      "bytes": 88534,
+      "sha256": "1686c4691e5f74ebf909531f74b1de8bcb6da0f72beadf76e2cb7ba36b031ead"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/17.json",
+      "bytes": 101984,
+      "sha256": "e985c47e87330aa3fe99eaf957ee7a1c1d9cb24c95b2423560d8d9a9b5abf5ef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/18.json",
+      "bytes": 107179,
+      "sha256": "593c9d716d3775a7cf45fe6a1e03fd2346c669f3a8af20e9fee125ac30d4e6ba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/19.json",
+      "bytes": 145260,
+      "sha256": "e8bd4449b4cc252bf00e83bcba8d2171f1744c08cf9efa1933a91c440359cd12"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/2.json",
+      "bytes": 102254,
+      "sha256": "e6474a597ac21f7bb6b45132ce3939c73f4ae402b21dc6156ee0af2d180ec707"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/20.json",
+      "bytes": 84030,
+      "sha256": "18ffd5ea8b9449c7412512565a2b2cf1758d732ad6c44e6b841fac87e70b8236"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/21.json",
+      "bytes": 90647,
+      "sha256": "1890602810321335e1cf9c93951625f69562533f4ee596205bcb7e3e1cd5c176"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/22.json",
+      "bytes": 86927,
+      "sha256": "86f5faf4cf847b8139ae8aa7af5159421d180470646028e8fc00608e6b817b80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/23.json",
+      "bytes": 106998,
+      "sha256": "35ba4aaa0490bceb0ac092c9acb8409cc08139f1c5dfc264771acc07ff115315"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/24.json",
+      "bytes": 105879,
+      "sha256": "e40766c944dfd1d8cd632002701785311e261683cbbab5b86c4b71a660b1196a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/3.json",
+      "bytes": 117971,
+      "sha256": "7744660a3acea82621a525ed5fb6fc522573901ff9ce53b208d6f6a7fb1f7a18"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/4.json",
+      "bytes": 49123,
+      "sha256": "f2417111d9311bcd7660b73a87d554d43c04fdb74fdb5897a60861f165068080"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/5.json",
+      "bytes": 95508,
+      "sha256": "94327b435e37131acabbc7c6c9737b1129429ea0629f4de6ff155fa2ea3d7d61"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/6.json",
+      "bytes": 123269,
+      "sha256": "16bab5f262038010cdc303dc9f9722c6e9052418c9955c1e8a2e5856fd03b6db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/7.json",
+      "bytes": 124837,
+      "sha256": "ed25854dd55fdeb6ec41594edd8590914d2193e3f6f4e99555a1ace042826e1d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/8.json",
+      "bytes": 59893,
+      "sha256": "db464699d35d408778e7fe7ef4735b10f517551142c5b2c8381b9417158d1bd5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/authors/matthew-henry/2SA/9.json",
+      "bytes": 56443,
+      "sha256": "594bdc4dcc9282714cefc79427a0369a522e9ac7876fc70451ca6b99663e9612"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/1.json",
+      "bytes": 11037,
+      "sha256": "8dd29d5000713600c4bda032c1509bec5c601cdd806792e77be701732f9f8438"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/10.json",
+      "bytes": 8777,
+      "sha256": "8e00b994a92a1c09ef128385084abb4af729953bf424e26caf89a0f600d29c98"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/11.json",
+      "bytes": 9487,
+      "sha256": "30ed69088e5b400ba2a09ff4c90f703cf2208a624a1e909995bd6e383a65570f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/12.json",
+      "bytes": 10654,
+      "sha256": "4638b33a6628bce8196001ca8ff47ccc9ae6e070dab5e8931d2d28529055bd70"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/13.json",
+      "bytes": 12156,
+      "sha256": "8451768ed25a220d5f4859b07dc0e120071285e5c3d9c94d4f606e90e83cb716"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/14.json",
+      "bytes": 11335,
+      "sha256": "baa7df18d3c480ab6b2c448f5f2ca8c3c9a60311a54750a93b6f69a462e974e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/15.json",
+      "bytes": 12075,
+      "sha256": "f5f61f74284ab27ed2dcebe72c5592544e16fce34f1a70b366f60e44dd165d97"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/16.json",
+      "bytes": 9196,
+      "sha256": "1b52fa63cba2cae55e4fb6437db785e6fec40d3b4d93142d7b2ca3b005fbc1f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/17.json",
+      "bytes": 10146,
+      "sha256": "213b8ef6e89924053670bf93a999f810fb9ae9dc88f05f58760ce1c6526a2a7a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/18.json",
+      "bytes": 11329,
+      "sha256": "526e427e3b207d95be77af93f32cf20f3ecf20085dd0d8619d0f501cc66a007c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/19.json",
+      "bytes": 14062,
+      "sha256": "02e49427bc9fce809308962416dfa997916e133adb090eb971eb587974999515"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/2.json",
+      "bytes": 11529,
+      "sha256": "49fdb4085549556dbbcc23f15a1509e27966d33d56c6559a7396af38709fac6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/20.json",
+      "bytes": 10293,
+      "sha256": "9d9fd79d7f0ad39ee7f4e54ac6be0455aa2a7dd15334806981f750fb94858e80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/21.json",
+      "bytes": 9242,
+      "sha256": "c44c205b8ade6545dbc812d1ed2c3b5c2728b9a336789ce13e1c49f32dfbfe07"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/22.json",
+      "bytes": 11146,
+      "sha256": "72816381f26ee3ce7cc1051eb6c9fe02740562d2f903c56dfca381bbfa6b5f08"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/23.json",
+      "bytes": 12112,
+      "sha256": "9ebde9abb5e574da14f26791906c9e06dc338aaf0947fd5cc8f43e2624972fda"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/24.json",
+      "bytes": 9830,
+      "sha256": "15abab0bff4a2be50a5a198cbc355f2dd0b439ddbbd7ff8ddf29e163d6d06029"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/3.json",
+      "bytes": 11983,
+      "sha256": "ec205beec0189de21a8b7e63cca3af9a70d78f1a29e95470c6eb07dd09c9eb50"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/4.json",
+      "bytes": 6574,
+      "sha256": "0320f831c8442163af3fbd58cba1d35597a8b9fb2bf98305ec3792ca7ca23432"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/5.json",
+      "bytes": 9853,
+      "sha256": "f28a7db8bde94dfc353a8553ffc61bcf7705abc6b2cdcd2d775fa250c19f8237"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/6.json",
+      "bytes": 9913,
+      "sha256": "70ac597ebd0599484909fabe41cece163601578de605bf6716b3a4f099dadf1a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/7.json",
+      "bytes": 10121,
+      "sha256": "36f07dcf6dd273b51641dc5fd86e15ac1092f84b00ce8499590f4b2edef549cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/8.json",
+      "bytes": 8043,
+      "sha256": "3b48834950f5e9f87baa83a370b6faeb9fb6e2667d38b0181765ad388ac6723c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/index/2SA/9.json",
+      "bytes": 6701,
+      "sha256": "f511c78eda3effd88487900632bf372095f84d9d6f7720d5a424201415d6edec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-samuel-2026-11-05/manifest.json",
+      "bytes": 2023,
+      "sha256": "4121ec566a4882c1beff8db7e8b376d3703f60467dd4422301ba4dec81106bab"
+    },
+    {
+      "path": "docs/SA1_SA2_V3_STAGING_INSTALL.md",
+      "bytes": 6203,
+      "sha256": "dc1bbcdc3878411a5a1f16c21dc751929529787e84600b5b32b72da63cd9286f"
+    },
+    {
+      "path": "reports/SA1_SA2_ACTUAL_READER_JS_TESTS.json",
+      "bytes": 554,
+      "sha256": "ee5a898222cfc0b2bfd0b538bb320cca7306f3477570ed044c853250e17dda50"
+    },
+    {
+      "path": "reports/SA1_SA2_BROWSER_SMOKE_TEST.json",
+      "bytes": 1311,
+      "sha256": "012ecf7495eef186ebdf0559c2056737179cd28382febc44237a8309dafd0169"
+    },
+    {
+      "path": "reports/SA1_SA2_INDEPENDENT_VERIFICATION.json",
+      "bytes": 2685,
+      "sha256": "da3eb4604964a06ae51ea2687981eee3d0d1d0370bc5e24b96a3c648cedd84be"
+    },
+    {
+      "path": "review-1-samuel-v3.html",
+      "bytes": 16105,
+      "sha256": "c41bf2a50c579303212da969ce81d903e8e882a45d6a600121e89da7125add14"
+    },
+    {
+      "path": "review-2-samuel-v3.html",
+      "bytes": 16106,
+      "sha256": "3a753fdcaa085668fba2566e8b15039300c44a1ce455e93eafd24efac39497b1"
+    }
+  ],
+  "qa": {
+    "independent_source_assertions_passed": 54526,
+    "reader_javascript_checks_passed": 915,
+    "browser_rendering_verified": false,
+    "browser_limitation": "Chromium blocked by administrator, owner must review public pages after Pages deployment",
+    "repository_edits_performed": false
+  },
+  "one_existing_path_updated": "api/v3/navigation-coverage/v1/manifest.json",
+  "scope": "STAGING_NOT_PRODUCTION; owner manual repository-root upload only"
+}

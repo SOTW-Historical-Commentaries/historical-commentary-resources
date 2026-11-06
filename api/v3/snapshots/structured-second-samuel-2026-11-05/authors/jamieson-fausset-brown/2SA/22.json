@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-second-samuel-2026-11-05",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "2SA",
+  "chapter": 22,
+  "canonical_chapter": "2SA.22",
+  "versification": "KJV",
+  "verse_count": 51,
+  "source": {
+    "system": "HelloAO",
+    "author_id": "jamieson-fausset-brown",
+    "source_archive_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+    "original_path_in_source_archive": "helloao-historical-commentaries/jamieson-fausset-brown/2SA/22.json",
+    "distribution_license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "license_notes": null,
+    "source_work_title": "Jamieson-Fausset-Brown Bible Commentary"
+  },
+  "fallback_reason": "sword_entire_chapter_absent",
+  "chapter_introductions": {
+    "chapter": "DAVID PROFESSES HIS FAITH IN GOD'S PROMISES. (Sa2 23:1-7)\n\nNow these be the last words of David--Various opinions are entertained as to the precise meaning of this statement, which, it is obvious, proceeded from the compiler or collector of the sacred canon. Some think that, as there is no division of chapters in the Hebrew Scriptures, this introduction was intended to show that what follows is no part of the preceding song. Others regard this as the last of the king's poetical compositions; while still others consider it the last of his utterances as an inspired writer. \n\nraised up on high--from an obscure family and condition to a throne. \n\nthe anointed of the God of Jacob--chosen to be king by the special appointment of that God, to whom, by virtue of an ancient covenant, the people of Israel owed all their peculiar destiny and distinguished privileges. \n\nthe sweet psalmist of Israel--that is, delightful, highly esteemed.\n\n",
+    "book": null
+  },
+  "sword_marker_records": [],
+  "entries": [],
+  "indexed_verse_count": 0,
+  "unindexed_verse_count": 51,
+  "upstream_snapshot_id": "SOTW_SAMUEL_SOURCE_LOCK_2026-11-05",
+  "upstream_content_semantics": {
+    "archive_chapter_sha256": "083b0f7c1cb13dbd351416fc2f3a3a76c3a710fbf0143adae6981217a3f5c79c",
+    "upstream_book_id": "2SA",
+    "upstream_chapter_number": 22,
+    "original_number_of_verses": 0
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:2SA.22:P:chapter-introduction",
+      "navigation_id": "2SA.22:P:chapter-introduction",
+      "kind": "nonverse_navigation",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "2 Samuel 22 · Introduction",
+      "content_plain": "DAVID PROFESSES HIS FAITH IN GOD'S PROMISES. (Sa2 23:1-7)\n\nNow these be the last words of David--Various opinions are entertained as to the precise meaning of this statement, which, it is obvious, proceeded from the compiler or collector of the sacred canon. Some think that, as there is no division of chapters in the Hebrew Scriptures, this introduction was intended to show that what follows is no part of the preceding song. Others regard this as the last of the king's poetical compositions; while still others consider it the last of his utterances as an inspired writer. \n\nraised up on high--from an obscure family and condition to a throne. \n\nthe anointed of the God of Jacob--chosen to be king by the special appointment of that God, to whom, by virtue of an ancient covenant, the people of Israel owed all their peculiar destiny and distinguished privileges. \n\nthe sweet psalmist of Israel--that is, delightful, highly esteemed.\n\n",
+      "source_entry_id": "helloao:jamieson-fausset-brown:2SA.22:chapter-introduction",
+      "source_character_span": [
+        0,
+        940
+      ],
+      "source_fragment_sha256": "7a5330a9c9e2df52f0a74a5f63e0792c7ba0095f3bf550d8f85a7a87fcb81e5b",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "helloao_explicit_chapter_introduction"
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 0
+}

@@ -1,0 +1,366 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-second-samuel-2026-11-05",
+  "author_id": "adam-clarke",
+  "book_id": "2SA",
+  "chapter": 1,
+  "canonical_chapter": "2SA.1",
+  "versification": "KJV",
+  "verse_count": 27,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"2Sam\" sID=\"gen10640\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen10641\" type=\"x-p\"/> ",
+      "source_record_sha256": "3692f77bb32f7c9eae553cc7546d930155ccd0131af5630f2628686e6464d88f",
+      "index_record": {
+        "block": 10,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"2Sam.1\" sID=\"2Sam.1\"/> ",
+      "source_record_sha256": "91ab32a044b032a0cf86e1ab66288ee775af1fae71764f8c6a8bc88dfe72f919",
+      "index_record": {
+        "block": 10,
+        "offset": 209,
+        "length": 46
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:2SA.1.1-1:10:255:2046",
+      "passage_start": "2SA.1.1",
+      "passage_end": "2SA.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen10641\" type=\"x-p\"/> <title type=\"x-s\">Introduction to the Second Book of Samuel Otherwise Called the Second Book of the Kings</title> <div sID=\"gen10642\" type=\"x-p\"/> As this is a continuation of the preceding history, without any interruption, it can scarcely be called another book. Originally this and the preceding made but one book, and they have been separated without reason or necessity. For a general account of both, see the preface to the first book of Samuel. <div eID=\"gen10642\" type=\"x-p\"/> <div sID=\"gen10643\" type=\"x-p\"/> It is generally allowed that this book comprehends a period of forty years, from about A.M. 2949 to 2989. See the prefixed chronological account. <div eID=\"gen10643\" type=\"x-p\"/> <div sID=\"gen10644\" type=\"x-p\"/> It has been divided into three parts: in the first we have an account of the happy commencement of David's reign, 2 Samuel 1-10. In the second, David's unhappy fall, and its miserable consequences, 2 Samuel 11-18. In the third, his restoration to the Divine favor, the re-establishment of his kingdom, and the events which signalized the latter part of his reign, 2 Samuel 19-24. <div eID=\"gen10644\" type=\"x-p\"/> <div sID=\"gen10645\" type=\"x-p\"/> An Amalekite comes to David, and informs him that the Philistines had routed the Israelites; and that Saul and his sons were slain, <reference osisRef=\"2Sam.1.1-2Sam.1.4\">2Sam 1:1-4</reference>. And pretends that he himself had despatched Saul, finding him ready to fall alive into the hands of the Philistines, and had brought his crown and bracelets to David, <reference osisRef=\"2Sam.1.5-2Sam.1.10\">2Sam 1:5-10</reference>. David and his men mourn for Saul and his sons, <reference osisRef=\"2Sam.1.11\">2Sam 1:11</reference>, <reference osisRef=\"2Sam.1.12\">2Sam 1:12</reference>. He orders the Amalekite, who professed that he had killed Saul, to be slain, <reference osisRef=\"2Sam.1.13-2Sam.1.16\">2Sam 1:13-16</reference>. David's funeral song for Saul and Jonathan, <reference osisRef=\"2Sam.1.17-2Sam.1.27\">2Sam 1:17-27</reference>. ",
+      "content_plain": "Introduction to the Second Book of Samuel Otherwise Called the Second Book of the Kings\nAs this is a continuation of the preceding history, without any interruption, it can scarcely be called another book. Originally this and the preceding made but one book, and they have been separated without reason or necessity. For a general account of both, see the preface to the first book of Samuel.\nIt is generally allowed that this book comprehends a period of forty years, from about A.M. 2949 to 2989. See the prefixed chronological account.\nIt has been divided into three parts: in the first we have an account of the happy commencement of David's reign, 2 Samuel 1-10. In the second, David's unhappy fall, and its miserable consequences, 2 Samuel 11-18. In the third, his restoration to the Divine favor, the re-establishment of his kingdom, and the events which signalized the latter part of his reign, 2 Samuel 19-24.\nAn Amalekite comes to David, and informs him that the Philistines had routed the Israelites; and that Saul and his sons were slain, 2Sam 1:1-4 . And pretends that he himself had despatched Saul, finding him ready to fall alive into the hands of the Philistines, and had brought his crown and bracelets to David, 2Sam 1:5-10 . David and his men mourn for Saul and his sons, 2Sam 1:11 , 2Sam 1:12 . He orders the Amalekite, who professed that he had killed Saul, to be slain, 2Sam 1:13-16 . David's funeral song for Saul and Jonathan, 2Sam 1:17-27 .",
+      "source_record_sha256": "fb64b95b648c9c1a18663df60958ee0e00cbf72a824a0026bb463f564591b447",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 255,
+        "length": 2046
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.1",
+      "source_record_immutable": true,
+      "reader_visible": false,
+      "reader_source_character_spans": [],
+      "reader_source_character_span": [
+        0,
+        0
+      ],
+      "reader_content_plain": "",
+      "front_matter_separated": true,
+      "separate_navigation_section_ids": [
+        "nav:adam-clarke:2SA:P:book-introduction"
+      ]
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.2-2:10:2301:550",
+      "passage_start": "2SA.1.2",
+      "passage_end": "2SA.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen10645\" type=\"x-p\"/> <div sID=\"gen10646\" type=\"x-p\"/> A man came out of the camp - The whole account which this young man gives is a fabrication: in many of the particulars it is grossly self-contradictory. There is no fact in the case but the bringing of the crown, or diadem, and bracelets of Saul; which, as he appears to have been a plunderer of the slain, he found on the field of battle; and he brought them to David, and told the lie of having despatched Saul, merely to ingratiate himself with David. ",
+      "content_plain": "Verse 2\nA man came out of the camp - The whole account which this young man gives is a fabrication: in many of the particulars it is grossly self-contradictory. There is no fact in the case but the bringing of the crown, or diadem, and bracelets of Saul; which, as he appears to have been a plunderer of the slain, he found on the field of battle; and he brought them to David, and told the lie of having despatched Saul, merely to ingratiate himself with David.",
+      "source_record_sha256": "3a435c4d5c9a9c2b5545c7a02ea701f9f6ccc128e63815961f6ab3f4ea625e22",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 2301,
+        "length": 550
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          550
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        550
+      ],
+      "reader_content_plain": "Verse 2\nA man came out of the camp - The whole account which this young man gives is a fabrication: in many of the particulars it is grossly self-contradictory. There is no fact in the case but the bringing of the crown, or diadem, and bracelets of Saul; which, as he appears to have been a plunderer of the slain, he found on the field of battle; and he brought them to David, and told the lie of having despatched Saul, merely to ingratiate himself with David.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.8-8:10:2851:262",
+      "passage_start": "2SA.1.8",
+      "passage_end": "2SA.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen10646\" type=\"x-p\"/> <div sID=\"gen10647\" type=\"x-p\"/> I am an Amalekite - Dr. Delaney remarks that an Amalekite took that crown from off the head of Saul, which he had forfeited by his disobedience in the case of Amalek. ",
+      "content_plain": "Verse 8\nI am an Amalekite - Dr. Delaney remarks that an Amalekite took that crown from off the head of Saul, which he had forfeited by his disobedience in the case of Amalek.",
+      "source_record_sha256": "5e73d40a8fe1bbde44b8262a74167e4cbcd301341741536710f5a0e62c1f67b6",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 2851,
+        "length": 262
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          262
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        262
+      ],
+      "reader_content_plain": "Verse 8\nI am an Amalekite - Dr. Delaney remarks that an Amalekite took that crown from off the head of Saul, which he had forfeited by his disobedience in the case of Amalek.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.10-10:10:3113:489",
+      "passage_start": "2SA.1.10",
+      "passage_end": "2SA.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen10647\" type=\"x-p\"/> <div sID=\"gen10648\" type=\"x-p\"/> The crown - and the bracelet - The crown was probably no more than a royal fillet or diadem, both being the ensigns of royalty. It is sometimes customary in the East for a sovereign prince to give a crown and bracelets, when investing others with dominion or authority over certain provinces. Had Saul these in token of his being God's vicegerent, and that he held the kingdom from him alone? ",
+      "content_plain": "Verse 10\nThe crown - and the bracelet - The crown was probably no more than a royal fillet or diadem, both being the ensigns of royalty. It is sometimes customary in the East for a sovereign prince to give a crown and bracelets, when investing others with dominion or authority over certain provinces. Had Saul these in token of his being God's vicegerent, and that he held the kingdom from him alone?",
+      "source_record_sha256": "b963e33a63b0709080c9a80f69cd58b3a2bca658c8ca8fad85c606460bc190a1",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 3113,
+        "length": 489
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          489
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        489
+      ],
+      "reader_content_plain": "Verse 10\nThe crown - and the bracelet - The crown was probably no more than a royal fillet or diadem, both being the ensigns of royalty. It is sometimes customary in the East for a sovereign prince to give a crown and bracelets, when investing others with dominion or authority over certain provinces. Had Saul these in token of his being God's vicegerent, and that he held the kingdom from him alone?",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.16-16:10:3602:283",
+      "passage_start": "2SA.1.16",
+      "passage_end": "2SA.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 16</hi> <div eID=\"gen10648\" type=\"x-p\"/> <div sID=\"gen10649\" type=\"x-p\"/> Thy blood be upon thy head - If he killed Saul, as he said he did, then he deserved death; at that time it was not known to the contrary, and this man was executed on his own confession. ",
+      "content_plain": "Verse 16\nThy blood be upon thy head - If he killed Saul, as he said he did, then he deserved death; at that time it was not known to the contrary, and this man was executed on his own confession.",
+      "source_record_sha256": "fb795552829cc48d2ee0f74fca65197a25121e3b27631a27773f5e8874ab2a87",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 3602,
+        "length": 283
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          283
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        283
+      ],
+      "reader_content_plain": "Verse 16\nThy blood be upon thy head - If he killed Saul, as he said he did, then he deserved death; at that time it was not known to the contrary, and this man was executed on his own confession.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.17-17:10:3885:244",
+      "passage_start": "2SA.1.17",
+      "passage_end": "2SA.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 17</hi> <div eID=\"gen10649\" type=\"x-p\"/> <div sID=\"gen10650\" type=\"x-p\"/> David lamented - See this lamentation, and the notes on it at the end of this chapter, <reference osisRef=\"2Sam.1.21\">2Sam 1:21</reference> (note). ",
+      "content_plain": "Verse 17\nDavid lamented - See this lamentation, and the notes on it at the end of this chapter, 2Sam 1:21 (note).",
+      "source_record_sha256": "da8976596882e41212b0f675d0a63b1c9ce42dea465b6f49bef12d3efb5a1415",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 3885,
+        "length": 244
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          244
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        244
+      ],
+      "reader_content_plain": "Verse 17\nDavid lamented - See this lamentation, and the notes on it at the end of this chapter, 2Sam 1:21 (note).",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.18-18:10:4129:297",
+      "passage_start": "2SA.1.18",
+      "passage_end": "2SA.1.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 18</hi> <div eID=\"gen10650\" type=\"x-p\"/> <div sID=\"gen10651\" type=\"x-p\"/> The use of the bow - The use of is not in the Hebrew; it is simply the bow, that is, a song thus entitled. See the observations at the end, <reference osisRef=\"2Sam.1.21\">2Sam 1:21</reference> (note). ",
+      "content_plain": "Verse 18\nThe use of the bow - The use of is not in the Hebrew; it is simply the bow, that is, a song thus entitled. See the observations at the end, 2Sam 1:21 (note).",
+      "source_record_sha256": "0c985304bf90412b521a8ccf99fc18a1405f08a8e4893527fef5fa09a40b0373",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 4129,
+        "length": 297
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          297
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        297
+      ],
+      "reader_content_plain": "Verse 18\nThe use of the bow - The use of is not in the Hebrew; it is simply the bow, that is, a song thus entitled. See the observations at the end, 2Sam 1:21 (note).",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    },
+    {
+      "entry_id": "sword:clarke:2SA.1.21-21:10:4426:11928",
+      "passage_start": "2SA.1.21",
+      "passage_end": "2SA.1.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 21</hi> <div eID=\"gen10651\" type=\"x-p\"/> <div sID=\"gen10652\" type=\"x-p\"/> As though he had not been - In stead of בלי beli, Not, I read כלי keley, Instruments. <div eID=\"gen10652\" type=\"x-p\"/> <div sID=\"gen10653\" type=\"x-p\"/> Anointed with oil - See the observations at the end. <reference osisRef=\"2Sam.1.18\">2Sam 1:18</reference>, etc.: He bade them teach the children of Judah the use of the bow, קשת kasheth. <div eID=\"gen10653\" type=\"x-p\"/> <div sID=\"gen10654\" type=\"x-p\"/> The word kasheth is to be understood of the title of the song which immediately follows, and not of the use of the bow, as our translation intimates. <div eID=\"gen10654\" type=\"x-p\"/> <div sID=\"gen10655\" type=\"x-p\"/> Many of David's Psalms have titles prefixed to them; some are termed Shosannim, some Maschil, Nehiloth, Neginoth, etc., and this one here, Kadesh or The Bow, because it was occasioned by the Philistine archers. <reference osisRef=\"1Sam.31.3\">1Sam 31:3</reference> : \"And the archers hit him.\" <div eID=\"gen10655\" type=\"x-p\"/> <div sID=\"gen10656\" type=\"x-p\"/> But especially respecting the bow of Jonathan, \"which returned not back from the blood of the slain,\" as the song itself expresses. And David could not but remember the bow of Jonathan, out of which \"the arrow was shot beyond the lad,\" <reference osisRef=\"1Sam.20.36\">1Sam 20:36</reference>. It was the time when that covenant was made, and that affection expressed between them \"which was greater than the love of women.\" <div eID=\"gen10656\" type=\"x-p\"/> <div sID=\"gen10657\" type=\"x-p\"/> On these accounts the song was entitled Kasheth, or The song of the Bow, and David commanded the chief musicians, Ethan, Heman, and Jeduthun, to teach the children of Judah to sing it. \"It is written in the book of Jasher.\" Sept., επι βιβλιου του ευθους, \"in the book of the upright.\" ספרא דאוריתא siphra deoraitha, \"The book of the Law.\" - Jonathan. <div eID=\"gen10657\" type=\"x-p\"/> <div sID=\"gen10658\" type=\"x-p\"/> The Arabic says, \"Behold it is written in the book of Ashee; this is the book of Samuel;\" the interpretation of which is, \"book of songs or canticles.\" <div eID=\"gen10658\" type=\"x-p\"/> <div sID=\"gen10659\" type=\"x-p\"/> This lamentation is justly admired as a picture of distress the most tender and the most striking; unequally divided by grief into longer and shorter breaks, as nature could pour them forth from a mind interrupted by the alternate recurrence of the most lively images of love and greatness. <div eID=\"gen10659\" type=\"x-p\"/> <div sID=\"gen10660\" type=\"x-p\"/> His reverence for Saul and his love for Jonathan have their strongest colourings; but their greatness and bravery come full upon him, and are expressed with peculiar energy. <div eID=\"gen10660\" type=\"x-p\"/> <div sID=\"gen10661\" type=\"x-p\"/> Being himself a warrior, it is in that character he sees their greatest excellence; and though his imagination hurries from one point of recollection to another, yet we hear him - at first, at last, everywhere - lamenting, How are the mighty fallen! <div eID=\"gen10661\" type=\"x-p\"/> <div sID=\"gen10662\" type=\"x-p\"/> It is almost impossible to read the noble original without finding every word swollen with a sigh or broken with a sob. A heart pregnant with distress, and striving to utter expressions descriptive of its feelings, which are repeatedly interrupted by an excess of grief, is most sensibly painted throughout the whole. Even an English reader may be convinced of this, from the following specimen in European characters: - <div eID=\"gen10662\" type=\"x-p\"/> <div sID=\"gen10663\" type=\"x-p\"/> 19. Hatstsebi Yishrael al bamotheycha chalal; Eych naphelu gibborim; <div eID=\"gen10663\" type=\"x-p\"/> <div sID=\"gen10664\" type=\"x-p\"/> 20. Al taggidu begath, Al tebasseru bechutsoth Ashkelon; Pen tismachnah benoth Pelishtim, Pen taalozenah benoth haarelim. <div eID=\"gen10664\" type=\"x-p\"/> <div sID=\"gen10665\" type=\"x-p\"/> 21. Harey baggilboa al tal, Veal matar aleychem usedey terumoth; Ki sham nigal magen Gibborim. Magen Shaul keley Mashiach bashshamen! <div eID=\"gen10665\" type=\"x-p\"/> <div sID=\"gen10666\" type=\"x-p\"/> 22. Middam chalalim, mecheleb gibborim, Kesheth Yehonathan lo nashog achor; Vechereb Shaul lo thashub reykam. <div eID=\"gen10666\" type=\"x-p\"/> <div sID=\"gen10667\" type=\"x-p\"/> 23. Shaul Vihonathan, Hannee habim vehanneimim bechaiyeyhem, Ubemotham lo niphradu. Minnesharim kallu, mearayoth gaberu! <div eID=\"gen10667\" type=\"x-p\"/> <div sID=\"gen10668\" type=\"x-p\"/> 24. Benoth Yishrael el Shaul becheynah; Hammalbishchem shani im adanim, Hammaaleh adi zahab al lebushechen. <div eID=\"gen10668\" type=\"x-p\"/> <div sID=\"gen10669\" type=\"x-p\"/> 25. Eych naphelu gibborim bethoch hammilchamah! Yehonathan al bamotheycha chalal! <div eID=\"gen10669\" type=\"x-p\"/> <div sID=\"gen10670\" type=\"x-p\"/> 26. Tsar li aleycha achi Yehonathan, naamta li meod Niphleathah ahabathecha li meahabath nashim! <div eID=\"gen10670\" type=\"x-p\"/> <div sID=\"gen10671\" type=\"x-p\"/> 27. Eych naphelu gibborim, Vaiyobedu keley milchamah! <div eID=\"gen10671\" type=\"x-p\"/> <div sID=\"gen10672\" type=\"x-p\"/> The three last verses in this sublime lamentation have sense and sound so connected as to strike every reader. <div eID=\"gen10672\" type=\"x-p\"/> <div sID=\"gen10673\" type=\"x-p\"/> Dr. Kennicott, from whom I have taken several of the preceding remarks, gives a fine Latin version of this song, which I here subjoin: - <div eID=\"gen10673\" type=\"x-p\"/> <div sID=\"gen10674\" type=\"x-p\"/> O decus Israelis, super excelsa tua Miles! <div eID=\"gen10674\" type=\"x-p\"/> <div sID=\"gen10675\" type=\"x-p\"/> Quomodo ceciderunt Fortes! <div eID=\"gen10675\" type=\"x-p\"/> <div sID=\"gen10676\" type=\"x-p\"/> Nolite indicare in Gatho, <div eID=\"gen10676\" type=\"x-p\"/> <div sID=\"gen10677\" type=\"x-p\"/> Nolite indicare in plateis Ascalonis: <div eID=\"gen10677\" type=\"x-p\"/> <div sID=\"gen10678\" type=\"x-p\"/> Ne laetentur filiae Philistaeorum, <div eID=\"gen10678\" type=\"x-p\"/> <div sID=\"gen10679\" type=\"x-p\"/> Ne exultent filiae incircumcisorum. <div eID=\"gen10679\" type=\"x-p\"/> <div sID=\"gen10680\" type=\"x-p\"/> Montes Gilboani super vos <div eID=\"gen10680\" type=\"x-p\"/> <div sID=\"gen10681\" type=\"x-p\"/> Nec ros, nec pluvia, neque agri primitiarum; <div eID=\"gen10681\" type=\"x-p\"/> <div sID=\"gen10682\" type=\"x-p\"/> Ibi enim abjectus fuit clypeus fortium. <div eID=\"gen10682\" type=\"x-p\"/> <div sID=\"gen10683\" type=\"x-p\"/> Clypeus Saulis, arma inuncti olec! <div eID=\"gen10683\" type=\"x-p\"/> <div sID=\"gen10684\" type=\"x-p\"/> Sine sanguine Militum, <div eID=\"gen10684\" type=\"x-p\"/> <div sID=\"gen10685\" type=\"x-p\"/> Sine adipe Fortium. <div eID=\"gen10685\" type=\"x-p\"/> <div sID=\"gen10686\" type=\"x-p\"/> Arcus Jonathanis non retrocesserat; <div eID=\"gen10686\" type=\"x-p\"/> <div sID=\"gen10687\" type=\"x-p\"/> Gladiusque Saulis non redierat incassum. <div eID=\"gen10687\" type=\"x-p\"/> <div sID=\"gen10688\" type=\"x-p\"/> Saul et Jonathan <div eID=\"gen10688\" type=\"x-p\"/> <div sID=\"gen10689\" type=\"x-p\"/> Amabiles erant et jucundi in vitis suis, <div eID=\"gen10689\" type=\"x-p\"/> <div sID=\"gen10690\" type=\"x-p\"/> Et in morte sua non separati. <div eID=\"gen10690\" type=\"x-p\"/> <div sID=\"gen10691\" type=\"x-p\"/> Prae aquilis veloces! <div eID=\"gen10691\" type=\"x-p\"/> <div sID=\"gen10692\" type=\"x-p\"/> Prae leonibus fortes! <div eID=\"gen10692\" type=\"x-p\"/> <div sID=\"gen10693\" type=\"x-p\"/> Filiae Israelis deflete Saulem; <div eID=\"gen10693\" type=\"x-p\"/> <div sID=\"gen10694\" type=\"x-p\"/> Qui coccino cum deliciis vos vestivit, <div eID=\"gen10694\" type=\"x-p\"/> <div sID=\"gen10695\" type=\"x-p\"/> Qui vestibus vestris ornamenta imposuit aurea! <div eID=\"gen10695\" type=\"x-p\"/> <div sID=\"gen10696\" type=\"x-p\"/> Quomodo ceciderunt Fortes, in medio belli! <div eID=\"gen10696\" type=\"x-p\"/> <div sID=\"gen10697\" type=\"x-p\"/> O Jonathan, super excelsa tua Miles! <div eID=\"gen10697\" type=\"x-p\"/> <div sID=\"gen10698\" type=\"x-p\"/> Versor in angustiis, tui causa, Frater mi, Jonathan! <div eID=\"gen10698\" type=\"x-p\"/> <div sID=\"gen10699\" type=\"x-p\"/> Mihi fuisti admodum jucundus! <div eID=\"gen10699\" type=\"x-p\"/> <div sID=\"gen10700\" type=\"x-p\"/> Mihi tuus amor admodum mirabilis, <div eID=\"gen10700\" type=\"x-p\"/> <div sID=\"gen10701\" type=\"x-p\"/> Mulierum exuperans amorem! <div eID=\"gen10701\" type=\"x-p\"/> <div sID=\"gen10702\" type=\"x-p\"/> Quomodo ceciderunt fortes, <div eID=\"gen10702\" type=\"x-p\"/> <div sID=\"gen10703\" type=\"x-p\"/> Et perierunt arma belli! <div eID=\"gen10703\" type=\"x-p\"/> <div sID=\"gen10704\" type=\"x-p\"/> Dissertation I., p. 122. <div eID=\"gen10704\" type=\"x-p\"/> <div sID=\"gen10705\" type=\"x-p\"/> In <reference osisRef=\"2Sam.1.21\">2Sam 1:21</reference> I have inserted כלי keley for בלי beli. Dr. Delaney rightly observes that the particle בלי beli is not used in any part of the Bible in the sense of quasi non, as though not, in which sense it must be used here if it be retained as a genuine reading: The shield of Saul as though it had not been anointed with oil. <div eID=\"gen10705\" type=\"x-p\"/> <div sID=\"gen10706\" type=\"x-p\"/> In a MS. written about the year 1200, numbered 30 in Kennicott's Bible, כלי keley is found; and also in the first edition of the whole Hebrew Bible, printed Soncini 1488. Neither the Syriac nor Arabic versions, nor the Chaldee paraphrase, acknowledge the negative particle בלי beli, which they would have done had it been in the copies from which they translated. It was easy to make the mistake, as there is such a similarity between ב beth and כ caph; the line therefore should be read thus: The shield of Saul, weapons anointed with oil. <div eID=\"gen10706\" type=\"x-p\"/> <div sID=\"gen10707\" type=\"x-p\"/> In <reference osisRef=\"2Sam.1.22\">2Sam 1:22</reference> נשוג nashog, to obtain, attain, seems to have been written for נסוג nasog, to recede, return. The former destroys the sense, the latter, which our translation has followed, and which is supported by the authority of 30 MSS., makes it not only intelligible but beautiful. <div eID=\"gen10707\" type=\"x-p\"/> <div sID=\"gen10708\" type=\"x-p\"/> In <reference osisRef=\"2Sam.1.19\">2Sam 1:19</reference>, <reference osisRef=\"2Sam.1.22\">2Sam 1:22</reference>, and <reference osisRef=\"2Sam.1.25\">2Sam 1:25</reference>, חלל and חללים chalal and chalalim occur, which we translate the Slain, but which Dr. Kennicott, I think from good authority, renders soldier and soldiers; and thus the version is made more consistent and beautiful. חלל chalal signifies to bore or pierce through; and this epithet might be well given to a soldier, q.d., the Piercer, because his business is to transfix or pierce his enemies with sword, spear, and arrows. <div eID=\"gen10708\" type=\"x-p\"/> <div sID=\"gen10709\" type=\"x-p\"/> If it be translated soldiers in the several places of the Old Testament, where we translate it Slain or Wounded, the sense will be much mended; see <reference osisRef=\"Jdg.20.31\">Jdg 20:31</reference>, <reference osisRef=\"Jdg.20.39\">Jdg 20:39</reference>; <reference osisRef=\"Psa.89.11\">Psa 89:11</reference>; <reference osisRef=\"Pro.7.26\">Pro 7:26</reference>; <reference osisRef=\"Jer.51.4\">Jer 51:4</reference>, <reference osisRef=\"Jer.51.47\">Jer 51:47</reference>, <reference osisRef=\"Jer.51.49\">Jer 51:49</reference>; <reference osisRef=\"Eze.11.6\">Eze 11:6</reference>, <reference osisRef=\"Eze.11.7\">Eze 11:7</reference>; <reference osisRef=\"Eze.21.14\">Eze 21:14</reference>. In several others it retains its radical signification of piercing, wounding, etc. <div eID=\"gen10709\" type=\"x-p\"/> <div sID=\"gen10710\" type=\"x-p\"/> After these general observations I leave the particular beauties of this inimitable song to be sought out by the intelligent reader. Much has been written upon this, which cannot, consistently with the plan of these notes, be admitted here. See Delaney, Kennicott, Lowth, etc.; and, above all, let the reader examine the Hebrew text.  <chapter eID=\"2Sam.1\"/> <div eID=\"gen10710\" type=\"x-p\"/>",
+      "content_plain": "Verse 21\nAs though he had not been - In stead of בלי beli, Not, I read כלי keley, Instruments.\nAnointed with oil - See the observations at the end. 2Sam 1:18 , etc.: He bade them teach the children of Judah the use of the bow, קשת kasheth.\nThe word kasheth is to be understood of the title of the song which immediately follows, and not of the use of the bow, as our translation intimates.\nMany of David's Psalms have titles prefixed to them; some are termed Shosannim, some Maschil, Nehiloth, Neginoth, etc., and this one here, Kadesh or The Bow, because it was occasioned by the Philistine archers. 1Sam 31:3 : \"And the archers hit him.\"\nBut especially respecting the bow of Jonathan, \"which returned not back from the blood of the slain,\" as the song itself expresses. And David could not but remember the bow of Jonathan, out of which \"the arrow was shot beyond the lad,\" 1Sam 20:36 . It was the time when that covenant was made, and that affection expressed between them \"which was greater than the love of women.\"\nOn these accounts the song was entitled Kasheth, or The song of the Bow, and David commanded the chief musicians, Ethan, Heman, and Jeduthun, to teach the children of Judah to sing it. \"It is written in the book of Jasher.\" Sept., επι βιβλιου του ευθους, \"in the book of the upright.\" ספרא דאוריתא siphra deoraitha, \"The book of the Law.\" - Jonathan.\nThe Arabic says, \"Behold it is written in the book of Ashee; this is the book of Samuel;\" the interpretation of which is, \"book of songs or canticles.\"\nThis lamentation is justly admired as a picture of distress the most tender and the most striking; unequally divided by grief into longer and shorter breaks, as nature could pour them forth from a mind interrupted by the alternate recurrence of the most lively images of love and greatness.\nHis reverence for Saul and his love for Jonathan have their strongest colourings; but their greatness and bravery come full upon him, and are expressed with peculiar energy.\nBeing himself a warrior, it is in that character he sees their greatest excellence; and though his imagination hurries from one point of recollection to another, yet we hear him - at first, at last, everywhere - lamenting, How are the mighty fallen!\nIt is almost impossible to read the noble original without finding every word swollen with a sigh or broken with a sob. A heart pregnant with distress, and striving to utter expressions descriptive of its feelings, which are repeatedly interrupted by an excess of grief, is most sensibly painted throughout the whole. Even an English reader may be convinced of this, from the following specimen in European characters: -\n19. Hatstsebi Yishrael al bamotheycha chalal; Eych naphelu gibborim;\n20. Al taggidu begath, Al tebasseru bechutsoth Ashkelon; Pen tismachnah benoth Pelishtim, Pen taalozenah benoth haarelim.\n21. Harey baggilboa al tal, Veal matar aleychem usedey terumoth; Ki sham nigal magen Gibborim. Magen Shaul keley Mashiach bashshamen!\n22. Middam chalalim, mecheleb gibborim, Kesheth Yehonathan lo nashog achor; Vechereb Shaul lo thashub reykam.\n23. Shaul Vihonathan, Hannee habim vehanneimim bechaiyeyhem, Ubemotham lo niphradu. Minnesharim kallu, mearayoth gaberu!\n24. Benoth Yishrael el Shaul becheynah; Hammalbishchem shani im adanim, Hammaaleh adi zahab al lebushechen.\n25. Eych naphelu gibborim bethoch hammilchamah! Yehonathan al bamotheycha chalal!\n26. Tsar li aleycha achi Yehonathan, naamta li meod Niphleathah ahabathecha li meahabath nashim!\n27. Eych naphelu gibborim, Vaiyobedu keley milchamah!\nThe three last verses in this sublime lamentation have sense and sound so connected as to strike every reader.\nDr. Kennicott, from whom I have taken several of the preceding remarks, gives a fine Latin version of this song, which I here subjoin: -\nO decus Israelis, super excelsa tua Miles!\nQuomodo ceciderunt Fortes!\nNolite indicare in Gatho,\nNolite indicare in plateis Ascalonis:\nNe laetentur filiae Philistaeorum,\nNe exultent filiae incircumcisorum.\nMontes Gilboani super vos\nNec ros, nec pluvia, neque agri primitiarum;\nIbi enim abjectus fuit clypeus fortium.\nClypeus Saulis, arma inuncti olec!\nSine sanguine Militum,\nSine adipe Fortium.\nArcus Jonathanis non retrocesserat;\nGladiusque Saulis non redierat incassum.\nSaul et Jonathan\nAmabiles erant et jucundi in vitis suis,\nEt in morte sua non separati.\nPrae aquilis veloces!\nPrae leonibus fortes!\nFiliae Israelis deflete Saulem;\nQui coccino cum deliciis vos vestivit,\nQui vestibus vestris ornamenta imposuit aurea!\nQuomodo ceciderunt Fortes, in medio belli!\nO Jonathan, super excelsa tua Miles!\nVersor in angustiis, tui causa, Frater mi, Jonathan!\nMihi fuisti admodum jucundus!\nMihi tuus amor admodum mirabilis,\nMulierum exuperans amorem!\nQuomodo ceciderunt fortes,\nEt perierunt arma belli!\nDissertation I., p. 122.\nIn 2Sam 1:21 I have inserted כלי keley for בלי beli. Dr. Delaney rightly observes that the particle בלי beli is not used in any part of the Bible in the sense of quasi non, as though not, in which sense it must be used here if it be retained as a genuine reading: The shield of Saul as though it had not been anointed with oil.\nIn a MS. written about the year 1200, numbered 30 in Kennicott's Bible, כלי keley is found; and also in the first edition of the whole Hebrew Bible, printed Soncini 1488. Neither the Syriac nor Arabic versions, nor the Chaldee paraphrase, acknowledge the negative particle בלי beli, which they would have done had it been in the copies from which they translated. It was easy to make the mistake, as there is such a similarity between ב beth and כ caph; the line therefore should be read thus: The shield of Saul, weapons anointed with oil.\nIn 2Sam 1:22 נשוג nashog, to obtain, attain, seems to have been written for נסוג nasog, to recede, return. The former destroys the sense, the latter, which our translation has followed, and which is supported by the authority of 30 MSS., makes it not only intelligible but beautiful.\nIn 2Sam 1:19 , 2Sam 1:22 , and 2Sam 1:25 , חלל and חללים chalal and chalalim occur, which we translate the Slain, but which Dr. Kennicott, I think from good authority, renders soldier and soldiers; and thus the version is made more consistent and beautiful. חלל chalal signifies to bore or pierce through; and this epithet might be well given to a soldier, q.d., the Piercer, because his business is to transfix or pierce his enemies with sword, spear, and arrows.\nIf it be translated soldiers in the several places of the Old Testament, where we translate it Slain or Wounded, the sense will be much mended; see Jdg 20:31 , Jdg 20:39 ; Psa 89:11 ; Pro 7:26 ; Jer 51:4 , Jer 51:47 , Jer 51:49 ; Eze 11:6 , Eze 11:7 ; Eze 21:14 . In several others it retains its radical signification of piercing, wounding, etc.\nAfter these general observations I leave the particular beauties of this inimitable song to be sought out by the intelligent reader. Much has been written upon this, which cannot, consistently with the plan of these notes, be admitted here. See Delaney, Kennicott, Lowth, etc.; and, above all, let the reader examine the Hebrew text.",
+      "source_record_sha256": "0a718e63a13f0b5f7f8d76973019139da40e34c86a1f18113b4938784bdc436a",
+      "index_record": {
+        "testament": "OT",
+        "block": 10,
+        "offset": 4426,
+        "length": 11928
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2SA.1.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_source_character_spans": [
+        [
+          0,
+          11853
+        ]
+      ],
+      "reader_source_character_span": [
+        0,
+        11853
+      ],
+      "reader_content_plain": "Verse 21\nAs though he had not been - In stead of בלי beli, Not, I read כלי keley, Instruments.\nAnointed with oil - See the observations at the end. 2Sam 1:18 , etc.: He bade them teach the children of Judah the use of the bow, קשת kasheth.\nThe word kasheth is to be understood of the title of the song which immediately follows, and not of the use of the bow, as our translation intimates.\nMany of David's Psalms have titles prefixed to them; some are termed Shosannim, some Maschil, Nehiloth, Neginoth, etc., and this one here, Kadesh or The Bow, because it was occasioned by the Philistine archers. 1Sam 31:3 : \"And the archers hit him.\"\nBut especially respecting the bow of Jonathan, \"which returned not back from the blood of the slain,\" as the song itself expresses. And David could not but remember the bow of Jonathan, out of which \"the arrow was shot beyond the lad,\" 1Sam 20:36 . It was the time when that covenant was made, and that affection expressed between them \"which was greater than the love of women.\"\nOn these accounts the song was entitled Kasheth, or The song of the Bow, and David commanded the chief musicians, Ethan, Heman, and Jeduthun, to teach the children of Judah to sing it. \"It is written in the book of Jasher.\" Sept., επι βιβλιου του ευθους, \"in the book of the upright.\" ספרא דאוריתא siphra deoraitha, \"The book of the Law.\" - Jonathan.\nThe Arabic says, \"Behold it is written in the book of Ashee; this is the book of Samuel;\" the interpretation of which is, \"book of songs or canticles.\"\nThis lamentation is justly admired as a picture of distress the most tender and the most striking; unequally divided by grief into longer and shorter breaks, as nature could pour them forth from a mind interrupted by the alternate recurrence of the most lively images of love and greatness.\nHis reverence for Saul and his love for Jonathan have their strongest colourings; but their greatness and bravery come full upon him, and are expressed with peculiar energy.\nBeing himself a warrior, it is in that character he sees their greatest excellence; and though his imagination hurries from one point of recollection to another, yet we hear him - at first, at last, everywhere - lamenting, How are the mighty fallen!\nIt is almost impossible to read the noble original without finding every word swollen with a sigh or broken with a sob. A heart pregnant with distress, and striving to utter expressions descriptive of its feelings, which are repeatedly interrupted by an excess of grief, is most sensibly painted throughout the whole. Even an English reader may be convinced of this, from the following specimen in European characters: -\n19. Hatstsebi Yishrael al bamotheycha chalal; Eych naphelu gibborim;\n20. Al taggidu begath, Al tebasseru bechutsoth Ashkelon; Pen tismachnah benoth Pelishtim, Pen taalozenah benoth haarelim.\n21. Harey baggilboa al tal, Veal matar aleychem usedey terumoth; Ki sham nigal magen Gibborim. Magen Shaul keley Mashiach bashshamen!\n22. Middam chalalim, mecheleb gibborim, Kesheth Yehonathan lo nashog achor; Vechereb Shaul lo thashub reykam.\n23. Shaul Vihonathan, Hannee habim vehanneimim bechaiyeyhem, Ubemotham lo niphradu. Minnesharim kallu, mearayoth gaberu!\n24. Benoth Yishrael el Shaul becheynah; Hammalbishchem shani im adanim, Hammaaleh adi zahab al lebushechen.\n25. Eych naphelu gibborim bethoch hammilchamah! Yehonathan al bamotheycha chalal!\n26. Tsar li aleycha achi Yehonathan, naamta li meod Niphleathah ahabathecha li meahabath nashim!\n27. Eych naphelu gibborim, Vaiyobedu keley milchamah!\nThe three last verses in this sublime lamentation have sense and sound so connected as to strike every reader.\nDr. Kennicott, from whom I have taken several of the preceding remarks, gives a fine Latin version of this song, which I here subjoin: -\nO decus Israelis, super excelsa tua Miles!\nQuomodo ceciderunt Fortes!\nNolite indicare in Gatho,\nNolite indicare in plateis Ascalonis:\nNe laetentur filiae Philistaeorum,\nNe exultent filiae incircumcisorum.\nMontes Gilboani super vos\nNec ros, nec pluvia, neque agri primitiarum;\nIbi enim abjectus fuit clypeus fortium.\nClypeus Saulis, arma inuncti olec!\nSine sanguine Militum,\nSine adipe Fortium.\nArcus Jonathanis non retrocesserat;\nGladiusque Saulis non redierat incassum.\nSaul et Jonathan\nAmabiles erant et jucundi in vitis suis,\nEt in morte sua non separati.\nPrae aquilis veloces!\nPrae leonibus fortes!\nFiliae Israelis deflete Saulem;\nQui coccino cum deliciis vos vestivit,\nQui vestibus vestris ornamenta imposuit aurea!\nQuomodo ceciderunt Fortes, in medio belli!\nO Jonathan, super excelsa tua Miles!\nVersor in angustiis, tui causa, Frater mi, Jonathan!\nMihi fuisti admodum jucundus!\nMihi tuus amor admodum mirabilis,\nMulierum exuperans amorem!\nQuomodo ceciderunt fortes,\nEt perierunt arma belli!\nDissertation I., p. 122.\nIn 2Sam 1:21 I have inserted כלי keley for בלי beli. Dr. Delaney rightly observes that the particle בלי beli is not used in any part of the Bible in the sense of quasi non, as though not, in which sense it must be used here if it be retained as a genuine reading: The shield of Saul as though it had not been anointed with oil.\nIn a MS. written about the year 1200, numbered 30 in Kennicott's Bible, כלי keley is found; and also in the first edition of the whole Hebrew Bible, printed Soncini 1488. Neither the Syriac nor Arabic versions, nor the Chaldee paraphrase, acknowledge the negative particle בלי beli, which they would have done had it been in the copies from which they translated. It was easy to make the mistake, as there is such a similarity between ב beth and כ caph; the line therefore should be read thus: The shield of Saul, weapons anointed with oil.\nIn 2Sam 1:22 נשוג nashog, to obtain, attain, seems to have been written for נסוג nasog, to recede, return. The former destroys the sense, the latter, which our translation has followed, and which is supported by the authority of 30 MSS., makes it not only intelligible but beautiful.\nIn 2Sam 1:19 , 2Sam 1:22 , and 2Sam 1:25 , חלל and חללים chalal and chalalim occur, which we translate the Slain, but which Dr. Kennicott, I think from good authority, renders soldier and soldiers; and thus the version is made more consistent and beautiful. חלל chalal signifies to bore or pierce through; and this epithet might be well given to a soldier, q.d., the Piercer, because his business is to transfix or pierce his enemies with sword, spear, and arrows.\nIf it be translated soldiers in the several places of the Old Testament, where we translate it Slain or Wounded, the sense will be much mended; see Jdg 20:31 , Jdg 20:39 ; Psa 89:11 ; Pro 7:26 ; Jer 51:4 , Jer 51:47 , Jer 51:49 ; Eze 11:6 , Eze 11:7 ; Eze 21:14 . In several others it retains its radical signification of piercing, wounding, etc.\nAfter these general observations I leave the particular beauties of this inimitable song to be sought out by the intelligent reader. Much has been written upon this, which cannot, consistently with the plan of these notes, be admitted here. See Delaney, Kennicott, Lowth, etc.; and, above all, let the reader examine the Hebrew text.",
+      "front_matter_separated": false,
+      "separate_navigation_section_ids": []
+    }
+  ],
+  "indexed_verse_count": 8,
+  "unindexed_verse_count": 19,
+  "upstream_snapshot_id": "SOTW_SAMUEL_SOURCE_LOCK_2026-11-05",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 8
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:2SA:P:book-introduction",
+      "navigation_id": "2SA:P:book-introduction",
+      "kind": "nonverse_navigation",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "Introduction · 2 Samuel",
+      "content_plain": "Introduction to the Second Book of Samuel Otherwise Called the Second Book of the Kings\nAs this is a continuation of the preceding history, without any interruption, it can scarcely be called another book. Originally this and the preceding made but one book, and they have been separated without reason or necessity. For a general account of both, see the preface to the first book of Samuel.\nIt is generally allowed that this book comprehends a period of forty years, from about A.M. 2949 to 2989. See the prefixed chronological account.\nIt has been divided into three parts: in the first we have an account of the happy commencement of David's reign, 2 Samuel 1-10. In the second, David's unhappy fall, and its miserable consequences, 2 Samuel 11-18. In the third, his restoration to the Divine favor, the re-establishment of his kingdom, and the events which signalized the latter part of his reign, 2 Samuel 19-24.\nAn Amalekite comes to David, and informs him that the Philistines had routed the Israelites; and that Saul and his sons were slain, 2Sam 1:1-4 . And pretends that he himself had despatched Saul, finding him ready to fall alive into the hands of the Philistines, and had brought his crown and bracelets to David, 2Sam 1:5-10 . David and his men mourn for Saul and his sons, 2Sam 1:11 , 2Sam 1:12 . He orders the Amalekite, who professed that he had killed Saul, to be slain, 2Sam 1:13-16 . David's funeral song for Saul and Jonathan, 2Sam 1:17-27 .",
+      "source_entry_id": "sword:clarke:2SA.1.1-1:10:255:2046",
+      "source_character_span": [
+        0,
+        2046
+      ],
+      "source_fragment_sha256": "fb64b95b648c9c1a18663df60958ee0e00cbf72a824a0026bb463f564591b447",
+      "section_display_policy": "separate_from_verse_commentary",
+      "coverage_assertion": "none_this_is_not_a_scripture_verse",
+      "extraction_basis": "source_markup_boundary"
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 7
+}
