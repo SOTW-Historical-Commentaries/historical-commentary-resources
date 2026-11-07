@@ -1,0 +1,72 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-first-chronicles-2026-11-06",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "1CH"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 174,
+    "original_entries": 1398,
+    "navigation_sections": 130,
+    "reader_visible_entries": 1398,
+    "verse_author_routes": 3098,
+    "sword_chapters": 116,
+    "unavailable_chapters": 29,
+    "helloao_chapters": 29,
+    "chapters": 29
+  },
+  "chapter_verse_count": {
+    "1": 54,
+    "2": 55,
+    "3": 24,
+    "4": 43,
+    "5": 26,
+    "6": 81,
+    "7": 40,
+    "8": 40,
+    "9": 44,
+    "10": 14,
+    "11": 47,
+    "12": 40,
+    "13": 14,
+    "14": 17,
+    "15": 29,
+    "16": 43,
+    "17": 27,
+    "18": 17,
+    "19": 19,
+    "20": 8,
+    "21": 30,
+    "22": 19,
+    "23": 32,
+    "24": 31,
+    "25": 31,
+    "26": 32,
+    "27": 34,
+    "28": 21,
+    "29": 30
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked original CrossWire/SWORD OT passage-index archives; HelloAO original John Gill and genuinely missing whole-chapter fallback only.",
+  "reader_policy": "Verse by default; source-bounded P headings, introductions and historical group prefaces only.",
+  "provenance_policy": "Historical author, original source, work edition, native binary index, license and attribution preserved.",
+  "notes": [
+    "Additive 1 Chronicles only, preserves existing twelve books and all original source records.",
+    "Calvin source is unavailable in the supplied original edition; no fabricated commentary.",
+    "Gill sparse verse anchors are not extended to unindexed verses. Nonverse introductions remain separate from Scripture verses.",
+    "Original exact OSIS and HelloAO source items retained; no separately licensed Bible translation is bundled.",
+    "GitHub staging/publishing and public web reader checks remain independent deployment gates."
+  ]
+}

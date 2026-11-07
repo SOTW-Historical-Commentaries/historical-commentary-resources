@@ -1,0 +1,296 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-first-chronicles-2026-11-06",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "1CH",
+  "chapter": 1,
+  "canonical_chapter": "1CH.1",
+  "versification": "KJV",
+  "verse_count": 54,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"1Chr\" sID=\"gen5161\" type=\"book\"/> <milestone n=\"THE FIRST BOOK OF THE CHRONICLES.\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> ",
+      "source_record_sha256": "e1ba7092964fa39151dfa16014d5342bf1fd2e2d8f1eeb34cf07ac8d6688caac",
+      "index_record": {
+        "block": 13,
+        "offset": 0,
+        "length": 208
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"1Chr.1\" sID=\"1Chr.1\"/> ",
+      "source_record_sha256": "074939d1ca8a9752cc6edbf88aea854c7c2c9a92b402ee2c4b71f43de461b8b3",
+      "index_record": {
+        "block": 13,
+        "offset": 208,
+        "length": 46
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:1CH.1.1-1:13:254:678",
+      "passage_start": "1CH.1.1",
+      "passage_end": "1CH.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3618\"/><title type=\"x-ms\">THE FIRST BOOK OF THE CHRONICLES.</title> <div sID=\"gen5162\" type=\"x-p\"/> Commentary by Robert Jamieson<div eID=\"gen5162\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <div sID=\"gen5163\" type=\"x-p\"/> <reference osisRef=\"1Chr.1.1-1Chr.1.23\">1Ch 1:1-23</reference>. Adam's Line to Noah.<div eID=\"gen5163\" type=\"x-p\"/> <div sID=\"gen5164\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3618\"/><hi type=\"bold\">1. Adam, &amp;c.--</hi>\"Begat\" must be understood. Only that one member of the family is mentioned, who came in the direct order of succession. <div eID=\"gen5164\" type=\"x-p\"/>",
+      "content_plain": "THE FIRST BOOK OF THE CHRONICLES.\n\n Commentary by Robert Jamieson\n\nCHAPTER 1\n\n 1Ch 1:1-23 . Adam's Line to Noah.\n\n 1. Adam, &c.-- \"Begat\" must be understood. Only that one member of the family is mentioned, who came in the direct order of succession.",
+      "source_record_sha256": "4a0bc96b312bd4bed749e7fc361db1a57c292c4faf9c1ba26288f3c8a948b2f4",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 254,
+        "length": 678
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. Adam, &c.-- \"Begat\" must be understood. Only that one member of the family is mentioned, who came in the direct order of succession.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        487,
+        678
+      ]
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.4-23:13:932:509",
+      "passage_start": "1CH.1.4",
+      "passage_end": "1CH.1.23",
+      "start_verse": 4,
+      "end_verse": 23,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3619\"/><div sID=\"gen5165\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3619\"/><hi type=\"bold\">4-23. Noah, Shem, Ham, and Japheth--</hi>The three sons of this patriarch are enumerated, partly because they were the founders of the new world, and partly because the fulfilment of Noah's prophecy (<reference osisRef=\"Gen.9.25-Gen.9.27\">Ge 9:25-27</reference>) could not otherwise appear to have been verified. <div eID=\"gen5165\" type=\"x-p\"/>",
+      "content_plain": "4-23. Noah, Shem, Ham, and Japheth-- The three sons of this patriarch are enumerated, partly because they were the founders of the new world, and partly because the fulfilment of Noah's prophecy ( Ge 9:25-27 ) could not otherwise appear to have been verified.",
+      "source_record_sha256": "9071b3d28749ee77fe4c11ae0821e973b407389db8d9a96bfafd20a69f52aa2c",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 932,
+        "length": 509
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.4-23",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4-23. Noah, Shem, Ham, and Japheth-- The three sons of this patriarch are enumerated, partly because they were the founders of the new world, and partly because the fulfilment of Noah's prophecy ( Ge 9:25-27 ) could not otherwise appear to have been verified."
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.24-27:13:3933:421",
+      "passage_start": "1CH.1.24",
+      "passage_end": "1CH.1.27",
+      "start_verse": 24,
+      "end_verse": 27,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3626\"/><div sID=\"gen5173\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3626\"/><hi type=\"bold\">24-27. Shem, &amp;c.--</hi>This comprises a list of ten, inclusive of Abraham.<div eID=\"gen5173\" type=\"x-p\"/> <div sID=\"gen5174\" type=\"x-p\"/> <reference osisRef=\"1Chr.1.29-1Chr.1.31\">1Ch 1:29-31</reference>. Sons of Ishmael. <div eID=\"gen5174\" type=\"x-p\"/>",
+      "content_plain": "24-27. Shem, &c.-- This comprises a list of ten, inclusive of Abraham.\n\n 1Ch 1:29-31 . Sons of Ishmael.",
+      "source_record_sha256": "5ccd87174fbc57b94dfe1655adf8f8de4451d30743398eb4e60a4c3e75d4ddaa",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 3933,
+        "length": 421
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.24-27",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "24-27. Shem, &c.-- This comprises a list of ten, inclusive of Abraham.\n\n 1Ch 1:29-31 . Sons of Ishmael."
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.29-29:13:4354:1132",
+      "passage_start": "1CH.1.29",
+      "passage_end": "1CH.1.29",
+      "start_verse": 29,
+      "end_verse": 29,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3627\"/><div sID=\"gen5175\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3627\"/><hi type=\"bold\">29. These are their generations--</hi>the heads of his twelve tribes. The great northern desert of Arabia, including the entire neck, was colonized by these tribes; and if we can recover, in the modern geography of this part of the country, Arab tribes bearing the names of those patriarchs, that is, names corresponding with those preserved in the original catalogue of Scripture, we obtain at once so many evidences, not of mere similarity, but of absolute identification [Forster].<div eID=\"gen5175\" type=\"x-p\"/> <div sID=\"gen5176\" type=\"x-p\"/><hi type=\"bold\">Nebaioth--</hi>gave rise to the Nabathæans of the classic, and the Beni Nabat of Oriental writers.<div eID=\"gen5176\" type=\"x-p\"/> <div sID=\"gen5177\" type=\"x-p\"/><hi type=\"bold\">Kedar--</hi>the Arab tribe, El Khedeyre, on the coast of Hedgar.<div eID=\"gen5177\" type=\"x-p\"/> <div sID=\"gen5178\" type=\"x-p\"/><hi type=\"bold\">Abdeel--</hi>Abdilla, the name of a tribe in Yemen. <div eID=\"gen5178\" type=\"x-p\"/>",
+      "content_plain": "29. These are their generations-- the heads of his twelve tribes. The great northern desert of Arabia, including the entire neck, was colonized by these tribes; and if we can recover, in the modern geography of this part of the country, Arab tribes bearing the names of those patriarchs, that is, names corresponding with those preserved in the original catalogue of Scripture, we obtain at once so many evidences, not of mere similarity, but of absolute identification [Forster].\n\n Nebaioth-- gave rise to the Nabathæans of the classic, and the Beni Nabat of Oriental writers.\n\n Kedar-- the Arab tribe, El Khedeyre, on the coast of Hedgar.\n\n Abdeel-- Abdilla, the name of a tribe in Yemen.",
+      "source_record_sha256": "9f76eb8903b0b0f123298d32a1fbbfc7ca3c4fb005287306784bc2299eaa1887",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 4354,
+        "length": 1132
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.29",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "29. These are their generations-- the heads of his twelve tribes. The great northern desert of Arabia, including the entire neck, was colonized by these tribes; and if we can recover, in the modern geography of this part of the country, Arab tribes bearing the names of those patriarchs, that is, names corresponding with those preserved in the original catalogue of Scripture, we obtain at once so many evidences, not of mere similarity, but of absolute identification [Forster].\n\n Nebaioth-- gave rise to the Nabathæans of the classic, and the Beni Nabat of Oriental writers.\n\n Kedar-- the Arab tribe, El Khedeyre, on the coast of Hedgar.\n\n Abdeel-- Abdilla, the name of a tribe in Yemen."
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.30-30:13:5486:589",
+      "passage_start": "1CH.1.30",
+      "passage_end": "1CH.1.30",
+      "start_verse": 30,
+      "end_verse": 30,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3628\"/><div sID=\"gen5179\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3628\"/><hi type=\"bold\">30. Dumah--</hi>Dumah and Tema, the great Arab tribes of Beni Teman. Thus this writer [Historical Geography of Arabia] traces the names of all the heads of the twelve tribes of Ishmael as perpetuated in the clans or tribes of the Arabs in the present day.<div eID=\"gen5179\" type=\"x-p\"/> <div sID=\"gen5180\" type=\"x-p\"/> <reference osisRef=\"1Chr.1.32\">1Ch 1:32</reference>, 33. Sons of Keturah. <div eID=\"gen5180\" type=\"x-p\"/>",
+      "content_plain": "30. Dumah-- Dumah and Tema, the great Arab tribes of Beni Teman. Thus this writer [Historical Geography of Arabia] traces the names of all the heads of the twelve tribes of Ishmael as perpetuated in the clans or tribes of the Arabs in the present day.\n\n 1Ch 1:32 , 33. Sons of Keturah.",
+      "source_record_sha256": "63d365d27b335f71adb050fec444fb92fd5ff66ec93a483b8c3d6b8a662378f9",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 5486,
+        "length": 589
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.30",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "30. Dumah-- Dumah and Tema, the great Arab tribes of Beni Teman. Thus this writer [Historical Geography of Arabia] traces the names of all the heads of the twelve tribes of Ishmael as perpetuated in the clans or tribes of the Arabs in the present day.\n\n 1Ch 1:32 , 33. Sons of Keturah."
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.32-32:13:6075:761",
+      "passage_start": "1CH.1.32",
+      "passage_end": "1CH.1.32",
+      "start_verse": 32,
+      "end_verse": 32,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3629\"/><div sID=\"gen5181\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3629\"/><hi type=\"bold\">32. sons of Keturah--</hi>These became founders of nomadic tribes in the north of Arabia and Syria, as Midian of the Midianites (<reference osisRef=\"Gen.36.35\">Ge 36:35</reference>; <reference osisRef=\"Judg.6.2\">Jud 6:2</reference>).<div eID=\"gen5181\" type=\"x-p\"/> <div sID=\"gen5182\" type=\"x-p\"/><hi type=\"bold\">and Shuah--</hi>from whom Bildad sprang (<reference osisRef=\"Job.2.11\">Job 2:11</reference>).<div eID=\"gen5182\" type=\"x-p\"/> <div sID=\"gen5183\" type=\"x-p\"/> <reference osisRef=\"1Chr.1.34-1Chr.1.42\">1Ch 1:34-42</reference>. Posterity of Abraham by Esau. <div eID=\"gen5183\" type=\"x-p\"/>",
+      "content_plain": "32. sons of Keturah-- These became founders of nomadic tribes in the north of Arabia and Syria, as Midian of the Midianites ( Ge 36:35 ; Jud 6:2 ).\n\n and Shuah-- from whom Bildad sprang ( Job 2:11 ).\n\n 1Ch 1:34-42 . Posterity of Abraham by Esau.",
+      "source_record_sha256": "5da4c37b8b7cb8fb9c6d077fc695628bc0a66d753b8439f6194137e879195d52",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 6075,
+        "length": 761
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.32",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "32. sons of Keturah-- These became founders of nomadic tribes in the north of Arabia and Syria, as Midian of the Midianites ( Ge 36:35 ; Jud 6:2 ).\n\n and Shuah-- from whom Bildad sprang ( Job 2:11 ).\n\n 1Ch 1:34-42 . Posterity of Abraham by Esau."
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.36-36:13:6836:1274",
+      "passage_start": "1CH.1.36",
+      "passage_end": "1CH.1.36",
+      "start_verse": 36,
+      "end_verse": 36,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3630\"/><div sID=\"gen5184\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3630\"/><hi type=\"bold\">36. sons of Eliphaz--</hi>the tribe Adites, in the center country of the Saracens, so called from his mother, Adah (<reference osisRef=\"Gen.36.10\">Ge 36:10</reference>).<div eID=\"gen5184\" type=\"x-p\"/> <div sID=\"gen5185\" type=\"x-p\"/><hi type=\"bold\">Teman--</hi>gave rise to the land of Teman, near the head of the Red Sea.<div eID=\"gen5185\" type=\"x-p\"/> <div sID=\"gen5186\" type=\"x-p\"/><hi type=\"bold\">Omar--</hi>the tribe Beni-Amma, settled at the northern point of Djebel Shera (Mount Seir).<div eID=\"gen5186\" type=\"x-p\"/> <div sID=\"gen5187\" type=\"x-p\"/><hi type=\"bold\">Zephi--</hi>the tribe Dzaf.<div eID=\"gen5187\" type=\"x-p\"/> <div sID=\"gen5188\" type=\"x-p\"/><hi type=\"bold\">Gatam--</hi>Katam, inhabited by the tribe Al Saruat, or \"people of Sarah.\"<div eID=\"gen5188\" type=\"x-p\"/> <div sID=\"gen5189\" type=\"x-p\"/><hi type=\"bold\">Kenaz--</hi>the tribe Aenezes, a tribe whose settlement lies in the neighborhood of Syria.<div eID=\"gen5189\" type=\"x-p\"/> <div sID=\"gen5190\" type=\"x-p\"/><hi type=\"bold\">Amalek--</hi>the Beni Malak of Zohran, and the Beni Maledj of the Shat el Arab. <div eID=\"gen5190\" type=\"x-p\"/>",
+      "content_plain": "36. sons of Eliphaz-- the tribe Adites, in the center country of the Saracens, so called from his mother, Adah ( Ge 36:10 ).\n\n Teman-- gave rise to the land of Teman, near the head of the Red Sea.\n\n Omar-- the tribe Beni-Amma, settled at the northern point of Djebel Shera (Mount Seir).\n\n Zephi-- the tribe Dzaf.\n\n Gatam-- Katam, inhabited by the tribe Al Saruat, or \"people of Sarah.\"\n\n Kenaz-- the tribe Aenezes, a tribe whose settlement lies in the neighborhood of Syria.\n\n Amalek-- the Beni Malak of Zohran, and the Beni Maledj of the Shat el Arab.",
+      "source_record_sha256": "b39250960daaf45586df40bde12993ed2f0f6abaa05545f7dc1ab2c65950ad81",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 6836,
+        "length": 1274
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.36",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "36. sons of Eliphaz-- the tribe Adites, in the center country of the Saracens, so called from his mother, Adah ( Ge 36:10 ).\n\n Teman-- gave rise to the land of Teman, near the head of the Red Sea.\n\n Omar-- the tribe Beni-Amma, settled at the northern point of Djebel Shera (Mount Seir).\n\n Zephi-- the tribe Dzaf.\n\n Gatam-- Katam, inhabited by the tribe Al Saruat, or \"people of Sarah.\"\n\n Kenaz-- the tribe Aenezes, a tribe whose settlement lies in the neighborhood of Syria.\n\n Amalek-- the Beni Malak of Zohran, and the Beni Maledj of the Shat el Arab."
+    },
+    {
+      "entry_id": "sword:jfb:1CH.1.37-37:13:8110:999",
+      "passage_start": "1CH.1.37",
+      "passage_end": "1CH.1.37",
+      "start_verse": 37,
+      "end_verse": 37,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv3631\"/><div sID=\"gen5191\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv3631\"/><hi type=\"bold\">37. Reuel--</hi>a powerful branch of the great Aeneze tribe, the Rowalla Arabs.<div eID=\"gen5191\" type=\"x-p\"/> <div sID=\"gen5192\" type=\"x-p\"/><hi type=\"bold\">Shammah--</hi>the great tribe Beni Shammar. In the same way, the names of the other kings and dukes are traced in the modern tribes of Arabia. But it is unnecessary to mention any more of these obscure nomads, except to notice that Jobab (<reference osisRef=\"1Chr.1.44\">1Ch 1:44</reference>), one of the kings of Edom, is considered to be Job, and that his seat was in the royal city of Dinahab (<reference osisRef=\"Gen.36.32\">Ge 36:32</reference>; <reference osisRef=\"1Chr.1.43\">1Ch 1:43</reference>), identified with O'Daeb, a well-known town in the center of Al Dahna, a great northern desert in the direction of Chaldea and the Euphrates [Forster]. <chapter eID=\"1Chr.1\"/>",
+      "content_plain": "37. Reuel-- a powerful branch of the great Aeneze tribe, the Rowalla Arabs.\n\n Shammah-- the great tribe Beni Shammar. In the same way, the names of the other kings and dukes are traced in the modern tribes of Arabia. But it is unnecessary to mention any more of these obscure nomads, except to notice that Jobab ( 1Ch 1:44 ), one of the kings of Edom, is considered to be Job, and that his seat was in the royal city of Dinahab ( Ge 36:32 ; 1Ch 1:43 ), identified with O'Daeb, a well-known town in the center of Al Dahna, a great northern desert in the direction of Chaldea and the Euphrates [Forster].",
+      "source_record_sha256": "3fc519d8d94cd815475f4ac6dc8ff8da43a441c1802863668fc94005b463306e",
+      "index_record": {
+        "testament": "OT",
+        "block": 13,
+        "offset": 8110,
+        "length": 999
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "1CH.1.37",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "37. Reuel-- a powerful branch of the great Aeneze tribe, the Rowalla Arabs.\n\n Shammah-- the great tribe Beni Shammar. In the same way, the names of the other kings and dukes are traced in the modern tribes of Arabia. But it is unnecessary to mention any more of these obscure nomads, except to notice that Jobab ( 1Ch 1:44 ), one of the kings of Edom, is considered to be Job, and that his seat was in the royal city of Dinahab ( Ge 36:32 ; 1Ch 1:43 ), identified with O'Daeb, a well-known town in the center of Al Dahna, a great northern desert in the direction of Chaldea and the Euphrates [Forster]."
+    }
+  ],
+  "indexed_verse_count": 30,
+  "unindexed_verse_count": 24,
+  "upstream_snapshot_id": "SOTW_1CH_ORIGINAL_SOURCE_LOCK_2026-11-06",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 8
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:1CH.1:P:book-introduction-1-1-the-first-book-of-the-chronicles",
+      "navigation_id": "1CH.1:P:book-introduction-1-1-the-first-book-of-the-chronicles",
+      "kind": "source_extracted_heading",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "THE FIRST BOOK OF THE CHRONICLES.",
+      "content_plain": "THE FIRST BOOK OF THE CHRONICLES.\n\n Commentary by Robert Jamieson",
+      "source_entry_id": "sword:jfb:1CH.1.1-1:13:254:678",
+      "source_character_span": [
+        59,
+        213
+      ],
+      "source_fragment_sha256": "a2226a27defec36b26d5c1eadc6db2a05e128308fcee1b706f64c4d5494d2a7c",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "only_explicit_source_title_or_scoped_binary_passage",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index"
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:1CH.1:P:chapter-heading-1-2-chapter-1",
+      "navigation_id": "1CH.1:P:chapter-heading-1-2-chapter-1",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1\n\n 1Ch 1:1-23 . Adam's Line to Noah.",
+      "source_entry_id": "sword:jfb:1CH.1.1-1:13:254:678",
+      "source_character_span": [
+        213,
+        487
+      ],
+      "source_fragment_sha256": "7275da3e5f19d536c5fef730b47cb68e026f0a60b145ccf53314b78b7852e7b4",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "only_explicit_source_title_or_scoped_binary_passage",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index"
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 8
+}
