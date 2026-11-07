@@ -1,0 +1,548 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "NEH-v3-2026-11-06",
+  "book": "NEH",
+  "book_name": "Nehemiah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_head_commit_before_Ezra": "d1197721c36507c30c216d5ec00c02786b72dee2",
+  "baseline_tree_sha_before_Ezra": "0d7de699a805b941027e1e763167414229593cc3",
+  "baseline_navigation_manifest_git_blob_sha_before_Ezra": "bb41b6683eb56179b73fabefdc2241740dd3bab1",
+  "prerequisite": {
+    "book": "EZR",
+    "source_release": "EZR-v3-2026-11-06",
+    "required_navigation_version": "navigation-coverage-v1.8-additive-ezr",
+    "required_navigation_manifest_sha256": "ef51bad333f8a80bf25e75ad16c357cc20c7dcec2f39b4f3ce208112ff5848c1",
+    "required_snapshot": "structured-ezra-2026-11-06",
+    "previous_repository_head_was_2CH_only": true,
+    "required_state": "EZRA_INSTALLED_AND_VERIFIED_BEFORE_NEHEMIAH"
+  },
+  "snapshot": "structured-nehemiah-2026-11-06",
+  "source_archives_verified": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 95,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/NEH.json",
+      "bytes": 147863,
+      "sha256": "f1668e002d0ad4008d51abcb010ab2702fda31e4d5d2aacc4c7424040df6982f"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 6187,
+      "sha256": "593470e47c445d286facafa57786f19d3eb4cb256b3d93f01104a7f59bdf404d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/1.json",
+      "bytes": 171836,
+      "sha256": "bac28507a7de8bf6bf8fff5255b5e5dd38b2b4c82dd163339bcca0b6e0c4cac7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/10.json",
+      "bytes": 37594,
+      "sha256": "7a8609fd22244b951a488e2dacb59ae430d55a73f19863953a9ec2611712dc04"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/11.json",
+      "bytes": 37164,
+      "sha256": "e28cb0526243dcfcf234e19a186a8e1384e172ae5a242725139562d3cdc59abb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/12.json",
+      "bytes": 42853,
+      "sha256": "30a18949174c27c05ed89880bc857c8c9314737f43c1f6aa4160e0a52459bbc3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/13.json",
+      "bytes": 57786,
+      "sha256": "1fb132ed31d21df7291519c815d76acdc41f496a9535c07e8809365de22c2116"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/2.json",
+      "bytes": 40201,
+      "sha256": "c6447195a035324187e96a68dbd6b1f018f742c37d3d973628db288b4ca8ca46"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/3.json",
+      "bytes": 34703,
+      "sha256": "8a8e38fed8f8ebf8107f94d4817de45d4943d578f0cc54754d6418cb74b077b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/4.json",
+      "bytes": 55388,
+      "sha256": "cefd42a89cf4dd30f43301b999f570191a9b0f85a003bd3afefe57fdb73b4caa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/5.json",
+      "bytes": 39776,
+      "sha256": "2e5399ec4eef0d6c232ae35f117f3243b4696cd7b739d5c724cf80383eece915"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/6.json",
+      "bytes": 37475,
+      "sha256": "6bc575b183e678ce63bf145b4624897ab0b2899268ed40c726faedbd13ea1c93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/7.json",
+      "bytes": 38710,
+      "sha256": "d1a6b3a347d88d3bed323d93724d2fc1de98062a0d27c3715893f25bde747d0c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/8.json",
+      "bytes": 46587,
+      "sha256": "65c13c5e9c81b3f79e9438536bcb5c6820f3af938db9c03873d207c8f6939442"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/9.json",
+      "bytes": 56518,
+      "sha256": "a6ad48cdf3248d0cd71093f4a07062b6964dc65038a710f03a2d0d107cb96b77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/1.json",
+      "bytes": 18739,
+      "sha256": "681a551656c04079afb84af569381064adcaed89bbb8a996ee0d1e4bcb4b2489"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/10.json",
+      "bytes": 20868,
+      "sha256": "28cf38718bcecaa16cd397b1e8a62a36a1d6c908e222dcc111b99ce2722d769d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/11.json",
+      "bytes": 35853,
+      "sha256": "75ee01e98424a5c735a944183fb7bbf5e1c1c68b533a338ffe48d661754ec26c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/12.json",
+      "bytes": 37646,
+      "sha256": "42d84456b6d5fcae8a3b34347d8f34f81bb07dc249c412d105e7cdab819a29af"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/13.json",
+      "bytes": 38065,
+      "sha256": "74cc11381ea9a7e8375a09e614093201c2db0b3da21686e8495af7f2866df7bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/2.json",
+      "bytes": 25695,
+      "sha256": "9b99317e812aa24c4904317e0ab75a66f968c3ced2af7add5c653149de04da7c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/3.json",
+      "bytes": 26681,
+      "sha256": "82097b0445ec40bb41ae60a6f271ea4e57895035179eb83f2717c63b0fbe4229"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/4.json",
+      "bytes": 21731,
+      "sha256": "9baa73bb577daac154590dd4584438c37ede8dc4f2e4a60a908146cd9b31bf88"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/5.json",
+      "bytes": 22385,
+      "sha256": "4b79289fd02b8a8bf9fd6315ed6777cd01c650d3c4233e7fe5302eb4be0d17f3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/6.json",
+      "bytes": 20035,
+      "sha256": "e5c244af4ee8b60648676f099cf6c37b9b5852be1f5665ba9d66fa3eb7b45fdd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/7.json",
+      "bytes": 32172,
+      "sha256": "a50ccf9f5a446de1130259d8cd38ff916a194eb98545d8d481caffac9c0835a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/8.json",
+      "bytes": 30265,
+      "sha256": "f476ed3be3910a21a7e8138ae7c84be9713f89b4beb337658919155c87086833"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/9.json",
+      "bytes": 29109,
+      "sha256": "c32c797f96f5b2c2eed36061b1067904a6f2230a077ed70da607533bf3035ca2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/1.json",
+      "bytes": 1144,
+      "sha256": "4ec4c6435e60948f552520e38f4653209369f7a0fbadf953651ac48fcf2d1a10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/10.json",
+      "bytes": 1147,
+      "sha256": "6defe06bf53e6af67cb011f7dc844275fa51147020518e5f06dd259dabddd568"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/11.json",
+      "bytes": 1147,
+      "sha256": "1113f162a6268830e5a1efe01e2cec8e211b4e4ff0da890ebe456795cae71d47"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/12.json",
+      "bytes": 1147,
+      "sha256": "f3f727888eb9d685f7dbf64b37177c9773de246895dea2e154b0d6a5f5c503bb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/13.json",
+      "bytes": 1147,
+      "sha256": "b0f832a2fd21ad03476c6c3e629d2ba507b8d74d261c21916c3f50e986ae74a3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/2.json",
+      "bytes": 1144,
+      "sha256": "dfb4d610d0e1fb8fa9bff3ff89d84f6fa166450792ed3f2add08e182941c2d8b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/3.json",
+      "bytes": 1144,
+      "sha256": "32476dad01c67f029b2b566863eb821d9c010810797cefddf938026614324500"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/4.json",
+      "bytes": 1144,
+      "sha256": "5c94def3f618a1f1f519a583b617adf76efdf9b2d5b856a952fe4e6b0d5e46b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/5.json",
+      "bytes": 1144,
+      "sha256": "e5fca10371c4cc920abc96f3ef6f71a3998f30baec638e03cc5a579cb1f5260c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/6.json",
+      "bytes": 1144,
+      "sha256": "21a495fe069520104e877f1824190229903907e07074c178e8d5ceb51643b64a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/7.json",
+      "bytes": 1144,
+      "sha256": "2a2ea8e6a0310970663cdba3ecd9e28189a17bc2725c6c71a06e80f1c8b32c52"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/8.json",
+      "bytes": 1144,
+      "sha256": "57fbb36e6665c0ee1ce55beea4dbd33b04c1c11088662f47e72a84f274952c06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/9.json",
+      "bytes": 1144,
+      "sha256": "ec96d82d43f55c7530954139c428fe100c1c363a019c897a4f0b2eceeea2e076"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/1.json",
+      "bytes": 48962,
+      "sha256": "df8277be575d0e2441fc637a39420bba8c35ff09f83ac0f02bb0f3f4dc7e7818"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/10.json",
+      "bytes": 61005,
+      "sha256": "05a8147b2d9b162f8f8a99ed8a1d89cb192c5614822134fcc361580b8cad70aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/11.json",
+      "bytes": 69430,
+      "sha256": "e0cf0127bde7797c1792dbdd9e166a99c16261d0861dfe0247cacd3e4a400f68"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/12.json",
+      "bytes": 104477,
+      "sha256": "7e161becad659285ea664697af0fe37f3bab095a6f7def1f836e79c23cccb139"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/13.json",
+      "bytes": 109450,
+      "sha256": "e5a67ea852f3815f776f8cea5edf60046dc3b8ef595044fc5f0d23dd8126226a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/2.json",
+      "bytes": 78262,
+      "sha256": "5eee9948a6015c9fee8d32c714970c64d0965ee8443f6c2c7f7ee40f7ee7cf3c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/3.json",
+      "bytes": 96578,
+      "sha256": "eff9144ba77c5e9ef72559066f04f978d7f3a3ffe6b6528ff061622a0f4c50c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/4.json",
+      "bytes": 78851,
+      "sha256": "548a74353a356ecf68fbbc05686303317389e6607d67eb5dfb392c871ce86c7d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/5.json",
+      "bytes": 68403,
+      "sha256": "69a5e78e377546721f80d6b1c9ece750ed027d2ac030a497900a033815ccf7a1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/6.json",
+      "bytes": 70911,
+      "sha256": "77f72b3abeeaf43feb01640c19cf09bc8db5b96ce001f032a2397fa60a10c3c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/7.json",
+      "bytes": 48810,
+      "sha256": "e1801e4045e68465530ed7b214d8d690f928e1e2b8b871f094c95cdf268a0962"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/8.json",
+      "bytes": 89080,
+      "sha256": "33d3e66d78357c2c2e5dae31a1384286f5eb561c022b13ef7311483986b94ef2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/9.json",
+      "bytes": 128228,
+      "sha256": "845a9c303bacd555bab0a573c34d11b181330cf88d8a8770bd1bfa0f20b8daf1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/1.json",
+      "bytes": 243378,
+      "sha256": "78f429cc9e91b0e35773c093a3ff0e15796d4533b8745f000a1a582f3b2be3da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/10.json",
+      "bytes": 64178,
+      "sha256": "6cf9ef99c363a67c291b459752c4cd25ede903a35c77474091b1bfaa7c6cf7f3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/11.json",
+      "bytes": 76107,
+      "sha256": "3fb88ad1eb9bc1b8efbfd4e853e34fc5aadca64866a26946d6b808380632ce91"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/12.json",
+      "bytes": 162134,
+      "sha256": "05a082c6279fd1328e7298278769a76ddefcae42eb71f9d7e582256f210421a6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/13.json",
+      "bytes": 92057,
+      "sha256": "6a8f8a66b29cc21663e5b3ced34997c892adfa5851c1107801f1245d0376a85c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/2.json",
+      "bytes": 94105,
+      "sha256": "b72ff282a3d86720a3377f2687bc62fb40f5d66b6f93dce2cbbe81338c357526"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/3.json",
+      "bytes": 212969,
+      "sha256": "5b79aec17b39dd1bdbeca44a11e4a6b80984769dd2e43f9e7ce2dfe3e07088e4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/4.json",
+      "bytes": 73114,
+      "sha256": "00dfed437785c693e45f89a92c8aaa98cafb7a2dd824dea34bd52c0a7b1573f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/5.json",
+      "bytes": 77422,
+      "sha256": "a24ab59fad09a53ca9e8e40ac91e92460878a4079df41a79d64ad53c83ac017b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/6.json",
+      "bytes": 69323,
+      "sha256": "39746e21f0cece7f04ed6c1636cfa841549d7c9d3824ae35a9af27dfd1d69c87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/7.json",
+      "bytes": 22872,
+      "sha256": "05fa19548bbc014386711259a80993efaba8df4ed825294a29a7f50373c37411"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/8.json",
+      "bytes": 60047,
+      "sha256": "d1f72f0e7feac33e11adc1c49d2292ee415ddec5d622e5394913b6b393754986"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/9.json",
+      "bytes": 114194,
+      "sha256": "077dc7e6a0a24aa0f7d1313ae94ab4412c3b02ba9ad878c370fbc837c6063210"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/1.json",
+      "bytes": 78120,
+      "sha256": "c41c397143755907240f045b78e28da514e0ac62d9aca304b4543ce24be79c78"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/10.json",
+      "bytes": 75463,
+      "sha256": "786c73a235228da71afb6c313135c598a9cc679d9a3283a7d5322ecccbf267c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/11.json",
+      "bytes": 73646,
+      "sha256": "a4fb4968df2edf17d513bf7a75b8b1002b69159288c35778e1707343c78c6a1d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/12.json",
+      "bytes": 82053,
+      "sha256": "2b7d64849c4db0be4b188157455c51156335da0fbe9fe2e0dfc77ca53321eb51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+      "bytes": 136781,
+      "sha256": "f531fc3dfcfa29cac4a1d90a900f6907fbfd78fe6b8c479caf82f660a0f68360"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/2.json",
+      "bytes": 95069,
+      "sha256": "1ec853686c60f93dc1ad282533e8f4d03838687d83b55c5f0e294343ef9e0619"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/3.json",
+      "bytes": 69050,
+      "sha256": "20ada07f2e18627799406fee3bd1412ab456842c492ec3a11658d42b61f2910e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/4.json",
+      "bytes": 83759,
+      "sha256": "3ad14da7b5732db1ac818f4d6749136123c89773beed8c5dd3a35e038b191aab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/5.json",
+      "bytes": 94219,
+      "sha256": "d53fd94ef0e64c59e4c12d59fd34a9329be89a8ebcfdac297d05eb309574d40c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/6.json",
+      "bytes": 85542,
+      "sha256": "20eae1d0dc6e1f990077a12f4e9876c6e0df39860769d56f750b4f6d4db538cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/7.json",
+      "bytes": 70836,
+      "sha256": "2d1493cbea9efe22a25a25f922a95cb02b86eb1813f6128e6326b8aa194d7989"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/8.json",
+      "bytes": 99996,
+      "sha256": "e860646f9834dc3a8fd3b55a9e91ea25cd832a5f76629c412e5b7f0bb6d8932c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/9.json",
+      "bytes": 122909,
+      "sha256": "5baef64f8652dd495651152b9648758024b2b48ffeb7b41ce8b1ba0b0c97b371"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/1.json",
+      "bytes": 8023,
+      "sha256": "714011cf9daca903541f4353b143fee15ee313e1630fb31f323e837293256020"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/10.json",
+      "bytes": 10617,
+      "sha256": "c186c626ac45e28346e4475e0e6a024200362f7c94bb93379ee4d0d4f2231fcd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/11.json",
+      "bytes": 10534,
+      "sha256": "4c1e935c31970d2bc33d330623f7ac6a115b130aac4fc08e3ec0313b5dd2fed5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/12.json",
+      "bytes": 12792,
+      "sha256": "5ac6acc062945f8635807a7e42ff356cabb84531ff142bf5b5073e334fd2eb15"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/13.json",
+      "bytes": 12362,
+      "sha256": "a074425f043d1084849b04562216399bf1cf507d96dd97f4bf93f9046bfe6885"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/2.json",
+      "bytes": 9383,
+      "sha256": "6f347180a4f3fccee8ed8417306f2f0b285d6a315584bf5bb9ef82aae38f9460"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/3.json",
+      "bytes": 9992,
+      "sha256": "74908c8abf11614164962d3c331a3008d8043d7af4fdb3eea5b540d65937e9a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/4.json",
+      "bytes": 9784,
+      "sha256": "05ab00cea3319e8761451ea768a0123c14141f9a713455a7ac59c6e27c8f1220"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/5.json",
+      "bytes": 9424,
+      "sha256": "c745c45dd901480f22c3f64f9e34988ada158bec4c7a814cc2fcf3f377a92f52"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/6.json",
+      "bytes": 8649,
+      "sha256": "660027ad1e392ac949725ee894464f514e8c08e3d81ccfd43d55048b0b9e7a63"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/7.json",
+      "bytes": 14675,
+      "sha256": "ef8b275c2cc9be1b61ff5155281fc513d0868b70ded270780f4febefa4ab5bf6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/8.json",
+      "bytes": 9066,
+      "sha256": "ea689a53ca51681942ee3f9ba3e4f35f9bd8a965edbb571773ecfb6dd9b77e10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/index/NEH/9.json",
+      "bytes": 12971,
+      "sha256": "ecf06029492ebdf8ca1a30264efac5799b0511816768f469e4fe4b83b1462f04"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nehemiah-2026-11-06/manifest.json",
+      "bytes": 2042,
+      "sha256": "ccde369546c02427d72b4c71d5a5a95f9550f0b6b148baf59d3737201c3f27e8"
+    },
+    {
+      "path": "review-nehemiah-v3.html",
+      "bytes": 14263,
+      "sha256": "6d2ad8ce0ebb71e86104520e472785287f3106c7b50ef4c0d5571d0cff179bad"
+    }
+  ],
+  "qa": {
+    "original_archives_sha256_and_zip_integrity": "PASS",
+    "original_SWORD_and_HelloAO_source_parity": "PASS",
+    "independent_audit": "PASS",
+    "audit_assertions": 11318,
+    "Node_reader_javascript_syntax": "PASS",
+    "Node_P_scope_navigation_regressions": "PASS (16 assertions)",
+    "browser_visual": "NOT_PERFORMED__REQUIRES_OWNER_POST_DEPLOYMENT",
+    "GitHub_writes": "NONE",
+    "Pages_release": "NOT_DEPLOYED",
+    "2CH_Pages": "LATEST_RUN_FAILED_SYNCING_FILES_TIMEOUT",
+    "Ezra_prerequisite": "MUST_INSTALL_EZRA_BEFORE_NEHEMIAH"
+  },
+  "counts": {
+    "chapters": 13,
+    "verse_coordinates": 406,
+    "author_chapter_files": 78,
+    "source_entries": 787,
+    "original_P_sections": 103,
+    "routed_P_sections": 106,
+    "previous_15_book_snapshots_modified": 0,
+    "assertions_total": 11318
+  },
+  "release_scope": {
+    "added_book": "NEH",
+    "previous_15_book_snapshots_changed": 0,
+    "shared_files_changed": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "new_files_including_manifest": 96,
+    "no_existing_Ezra_file_copied_into_Nehemiah_package": true
+  },
+  "rights_and_provenance": "Original CrossWire public-domain module declarations and HelloAO Gill public-domain marker; exact edition and source identities retained. No Bible translation text.",
+  "safeguards": [
+    "Manual upload to owner-controlled staging branch only",
+    "Install previously delivered Ezra first: this release contains only new Nehemiah files and cumulative 16-book navigation metadata.",
+    "Recheck live GitHub branch and navigation manifest before upload. Reconcile concurrent changes; never overwrite newer main.",
+    "Do not replace accepted earlier chapter snapshots, earlier P overlays, readers, or author catalog.",
+    "No direct GitHub writes or CGBC player integration",
+    "Public Pages and owner visual checks must pass before declaring deployed"
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_STAGING_AFTER_EZRA_INSTALL__NOT_DEPLOYED__2CH_PAGES_TIMEOUT_UNRESOLVED"
+}

@@ -1,0 +1,3307 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "NEH",
+  "snapshot_id": "structured-nehemiah-2026-11-06",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation_sections remain immutable source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "navigation_id": "GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "author_id": "matthew-henry",
+        "title": "Preface · Joshua to Esther",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Nehemiah",
+        "source_evidence": "Preface · Joshua to Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json",
+          "chapter_file_sha256": "bda684d25cee03c45af6c0d07f31e86d39ec2ab8c5dcb8ba60acbe1867be8b58",
+          "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+          "source_entry_id": "sword:mhc:JOS.1.1-9:6:231:55617",
+          "fragment_sha256": "55aae99795c47ab5311a1a96180d3328e0842e93191b799ea2479594c35fb49a",
+          "character_span": [
+            0,
+            26969
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH:P:nehemiah",
+        "navigation_id": "NEH:P:nehemiah",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/1.json",
+          "chapter_file_sha256": "c41c397143755907240f045b78e28da514e0ac62d9aca304b4543ce24be79c78",
+          "section_id": "nav:matthew-henry:NEH:P:nehemiah",
+          "source_entry_id": "sword:mhc:NEH.1.1-4:16:229:12788",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "506ae0c401ebb78484d79848fb6c823d4b44cbe28e22b70daae77d05d062965c",
+          "character_span": [
+            57,
+            4419
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.1:P:nehemiah-s-distress-b-c-445",
+        "navigation_id": "NEH.1:P:nehemiah-s-distress-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah's Distress. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.1.1",
+        "passage_end": "NEH.1.4",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Nehemiah's Distress. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/1.json",
+          "chapter_file_sha256": "c41c397143755907240f045b78e28da514e0ac62d9aca304b4543ce24be79c78",
+          "section_id": "nav:matthew-henry:NEH.1:P:nehemiah-s-distress-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.1.1-4:16:229:12788",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "75ebc49b610672de5e866353c1750fdfe5337dc29f5085f371f9e607fbe0ded0",
+          "character_span": [
+            4419,
+            4506
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.1:P:nehemiah-s-prayer-b-c-445",
+        "navigation_id": "NEH.1:P:nehemiah-s-prayer-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah's Prayer. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.1.5",
+        "passage_end": "NEH.1.11",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Nehemiah's Prayer. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/1.json",
+          "chapter_file_sha256": "c41c397143755907240f045b78e28da514e0ac62d9aca304b4543ce24be79c78",
+          "section_id": "nav:matthew-henry:NEH.1:P:nehemiah-s-prayer-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.1.5-11:16:13017:9735",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c5b2f7e32f36a0f75cb864dca36332810dc577337de501c9fa66e9afcbe0b61f",
+          "character_span": [
+            32,
+            117
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.2:P:nehemiah-s-request-to-the-king-b-c-445",
+        "navigation_id": "NEH.2:P:nehemiah-s-request-to-the-king-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah's Request to the King. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.2.1",
+        "passage_end": "NEH.2.8",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Nehemiah's Request to the King. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/2.json",
+          "chapter_file_sha256": "1ec853686c60f93dc1ad282533e8f4d03838687d83b55c5f0e294343ef9e0619",
+          "section_id": "nav:matthew-henry:NEH.2:P:nehemiah-s-request-to-the-king-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.2.1-8:16:23956:14433",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ea005971e626f1e34b7d8f6379923e6c18587d3703b69cbcf4443cbbf5e5ee60",
+          "character_span": [
+            73,
+            171
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.2:P:nehemiah-s-journey-to-jerusalem-the-malice-of-sanballat-c-b-c-445",
+        "navigation_id": "NEH.2:P:nehemiah-s-journey-to-jerusalem-the-malice-of-sanballat-c-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah's Journey to Jerusalem; the Malice of Sanballat, &c. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.2.9",
+        "passage_end": "NEH.2.20",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Nehemiah's Journey to Jerusalem; the Malice of Sanballat, &c. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/2.json",
+          "chapter_file_sha256": "1ec853686c60f93dc1ad282533e8f4d03838687d83b55c5f0e294343ef9e0619",
+          "section_id": "nav:matthew-henry:NEH.2:P:nehemiah-s-journey-to-jerusalem-the-malice-of-sanballat-c-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.2.9-20:16:38389:12005",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4e9cee28ac893ee961e753e8e06e15bbe8c1687f3892103253d49f5e50aabbfa",
+          "character_span": [
+            32,
+            164
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.2:P:original-chapter-introduction",
+        "navigation_id": "NEH.2:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 2 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 2 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/2.json",
+          "chapter_file_sha256": "1ec853686c60f93dc1ad282533e8f4d03838687d83b55c5f0e294343ef9e0619",
+          "section_id": "nav:matthew-henry:NEH.2:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12740,
+          "fragment_sha256": "9405f28766d8564f71c5c899d55987fef502ec6df70535637afc8a352a4f0031",
+          "character_span": [
+            0,
+            1204
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.3:P:the-rebuilding-of-the-wall-b-c-445",
+        "navigation_id": "NEH.3:P:the-rebuilding-of-the-wall-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Rebuilding of the Wall. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.3.1",
+        "passage_end": "NEH.3.32",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Rebuilding of the Wall. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/3.json",
+          "chapter_file_sha256": "20ada07f2e18627799406fee3bd1412ab456842c492ec3a11658d42b61f2910e",
+          "section_id": "nav:matthew-henry:NEH.3:P:the-rebuilding-of-the-wall-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.3.1-32:16:52304:16530",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "faf8b98f949cd0c197101c0e49185f90a9f7ad1be899e6fdc8edd3d6874fa110",
+          "character_span": [
+            73,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.3:P:original-chapter-introduction",
+        "navigation_id": "NEH.3:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 3 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 3 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/3.json",
+          "chapter_file_sha256": "20ada07f2e18627799406fee3bd1412ab456842c492ec3a11658d42b61f2910e",
+          "section_id": "nav:matthew-henry:NEH.3:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12761,
+          "fragment_sha256": "4b8d5acc45101d0dac9518fac48a009dbae1e5d31181672360c85e8fc98861d3",
+          "character_span": [
+            0,
+            1908
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.4:P:the-opposition-of-sanballat-c-b-c-445",
+        "navigation_id": "NEH.4:P:the-opposition-of-sanballat-c-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Opposition of Sanballat, &c.. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.4.1",
+        "passage_end": "NEH.4.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Opposition of Sanballat, &c.. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/4.json",
+          "chapter_file_sha256": "3ad14da7b5732db1ac818f4d6749136123c89773beed8c5dd3a35e038b191aab",
+          "section_id": "nav:matthew-henry:NEH.4:P:the-opposition-of-sanballat-c-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.4.1-6:16:70281:7110",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4b6a6ea48b6903755be2a5bb754c2f3289fefd46df1a8ea7107480fc9ee9fa29",
+          "character_span": [
+            73,
+            177
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.4:P:the-precautions-of-nehemiah-b-c-445",
+        "navigation_id": "NEH.4:P:the-precautions-of-nehemiah-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Precautions of Nehemiah. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.4.16",
+        "passage_end": "NEH.4.23",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Precautions of Nehemiah. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/4.json",
+          "chapter_file_sha256": "3ad14da7b5732db1ac818f4d6749136123c89773beed8c5dd3a35e038b191aab",
+          "section_id": "nav:matthew-henry:NEH.4:P:the-precautions-of-nehemiah-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.4.16-23:16:88436:6768",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54865b826c0b149d3c4cd9fdf6aba513b9365b9c91b4ec43849d15170990e8de",
+          "character_span": [
+            32,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.4:P:original-chapter-introduction",
+        "navigation_id": "NEH.4:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 4 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 4 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/4.json",
+          "chapter_file_sha256": "3ad14da7b5732db1ac818f4d6749136123c89773beed8c5dd3a35e038b191aab",
+          "section_id": "nav:matthew-henry:NEH.4:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12794,
+          "fragment_sha256": "8e9201b22fc7f27c1700bb4c97e7544054792baf5dece32e6c2ee0e68c6de4c6",
+          "character_span": [
+            0,
+            1447
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.5:P:the-complaints-of-the-poor-b-c-445",
+        "navigation_id": "NEH.5:P:the-complaints-of-the-poor-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Complaints of the Poor. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.5.1",
+        "passage_end": "NEH.5.5",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Complaints of the Poor. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/5.json",
+          "chapter_file_sha256": "d53fd94ef0e64c59e4c12d59fd34a9329be89a8ebcfdac297d05eb309574d40c",
+          "section_id": "nav:matthew-henry:NEH.5:P:the-complaints-of-the-poor-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.5.1-5:16:96238:8010",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "68c96de158661c752ad7e2ab755994242f088b70d3a4e52919d8e7ba835c3665",
+          "character_span": [
+            73,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.5:P:grievances-of-the-poor-redressed-b-c-445",
+        "navigation_id": "NEH.5:P:grievances-of-the-poor-redressed-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "Grievances of the Poor Redressed. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.5.6",
+        "passage_end": "NEH.5.13",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Grievances of the Poor Redressed. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/5.json",
+          "chapter_file_sha256": "d53fd94ef0e64c59e4c12d59fd34a9329be89a8ebcfdac297d05eb309574d40c",
+          "section_id": "nav:matthew-henry:NEH.5:P:grievances-of-the-poor-redressed-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.5.6-13:16:104248:12211",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0baf90dde476bf08140c2ab95cd95f3fb0b0d790d2b68e75ae92e003087f05b1",
+          "character_span": [
+            32,
+            132
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.5:P:the-generosity-of-nehemiah-b-c-445",
+        "navigation_id": "NEH.5:P:the-generosity-of-nehemiah-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Generosity of Nehemiah. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.5.14",
+        "passage_end": "NEH.5.19",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Generosity of Nehemiah. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/5.json",
+          "chapter_file_sha256": "d53fd94ef0e64c59e4c12d59fd34a9329be89a8ebcfdac297d05eb309574d40c",
+          "section_id": "nav:matthew-henry:NEH.5:P:the-generosity-of-nehemiah-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.5.14-19:16:116459:8339",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b928f7f3acc6e5a2d8e6167a54ba2e953e422ae204ce7dc3af08d5462ffed859",
+          "character_span": [
+            32,
+            126
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.5:P:original-chapter-introduction",
+        "navigation_id": "NEH.5:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 5 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 5 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/5.json",
+          "chapter_file_sha256": "d53fd94ef0e64c59e4c12d59fd34a9329be89a8ebcfdac297d05eb309574d40c",
+          "section_id": "nav:matthew-henry:NEH.5:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12818,
+          "fragment_sha256": "174595771b74277e143a4d14c82f13e45cbc42d919eda43b5d77640c8e9aa172",
+          "character_span": [
+            0,
+            1034
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.6:P:the-plot-of-sanballat-c-b-c-445",
+        "navigation_id": "NEH.6:P:the-plot-of-sanballat-c-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Plot of Sanballat, &c. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.6.1",
+        "passage_end": "NEH.6.9",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Plot of Sanballat, &c. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/6.json",
+          "chapter_file_sha256": "20eae1d0dc6e1f990077a12f4e9876c6e0df39860769d56f750b4f6d4db538cd",
+          "section_id": "nav:matthew-henry:NEH.6:P:the-plot-of-sanballat-c-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.6.1-9:16:126365:8944",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d31f80383302d4d6a30e1ff5bca88dea081644eb95f6fae6610c1d4544bb39d7",
+          "character_span": [
+            73,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.6:P:shemaiah-s-plot-defeated-b-c-445",
+        "navigation_id": "NEH.6:P:shemaiah-s-plot-defeated-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "Shemaiah's Plot Defeated. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.6.10",
+        "passage_end": "NEH.6.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Shemaiah's Plot Defeated. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/6.json",
+          "chapter_file_sha256": "20eae1d0dc6e1f990077a12f4e9876c6e0df39860769d56f750b4f6d4db538cd",
+          "section_id": "nav:matthew-henry:NEH.6:P:shemaiah-s-plot-defeated-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.6.10-14:16:135309:8961",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4d89058fc67ef4e190e884bb499684ba58cf44fc807e5b6e00d7904d5d6b37b3",
+          "character_span": [
+            32,
+            124
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.6:P:the-completion-of-the-wall-b-c-445",
+        "navigation_id": "NEH.6:P:the-completion-of-the-wall-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Completion of the Wall. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.6.15",
+        "passage_end": "NEH.6.19",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Completion of the Wall. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/6.json",
+          "chapter_file_sha256": "20eae1d0dc6e1f990077a12f4e9876c6e0df39860769d56f750b4f6d4db538cd",
+          "section_id": "nav:matthew-henry:NEH.6:P:the-completion-of-the-wall-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.6.15-19:16:144270:6196",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "65cbe47bbd36d987fca4c555499034bf4f1dc78e5c8ca87bf15b0cb1e3589bc2",
+          "character_span": [
+            32,
+            126
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.6:P:original-chapter-introduction",
+        "navigation_id": "NEH.6:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 6 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 6 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/6.json",
+          "chapter_file_sha256": "20eae1d0dc6e1f990077a12f4e9876c6e0df39860769d56f750b4f6d4db538cd",
+          "section_id": "nav:matthew-henry:NEH.6:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12838,
+          "fragment_sha256": "f6522c92d064621f29bd03a01830a862c73f593a459c1880dcee24706493a720",
+          "character_span": [
+            0,
+            1567
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.7:P:the-completion-of-the-wall-b-c-445",
+        "navigation_id": "NEH.7:P:the-completion-of-the-wall-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Completion of the Wall. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.7.1",
+        "passage_end": "NEH.7.4",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Completion of the Wall. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/7.json",
+          "chapter_file_sha256": "2d1493cbea9efe22a25a25f922a95cb02b86eb1813f6128e6326b8aa194d7989",
+          "section_id": "nav:matthew-henry:NEH.7:P:the-completion-of-the-wall-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.7.1-4:16:151431:6009",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "65cbe47bbd36d987fca4c555499034bf4f1dc78e5c8ca87bf15b0cb1e3589bc2",
+          "character_span": [
+            73,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.7:P:the-register-of-the-captives-b-c-445",
+        "navigation_id": "NEH.7:P:the-register-of-the-captives-b-c-445",
+        "author_id": "matthew-henry",
+        "title": "The Register of the Captives. ( b. c. 445.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.7.5",
+        "passage_end": "NEH.7.73",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Register of the Captives. ( b. c. 445.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/7.json",
+          "chapter_file_sha256": "2d1493cbea9efe22a25a25f922a95cb02b86eb1813f6128e6326b8aa194d7989",
+          "section_id": "nav:matthew-henry:NEH.7:P:the-register-of-the-captives-b-c-445",
+          "source_entry_id": "sword:mhc:NEH.7.5-73:16:157440:15311",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "63ef82280bb90951d0c5eb7e370cd51e1857b4b31a6027dd6eac0a49166743fa",
+          "character_span": [
+            32,
+            128
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.7:P:original-chapter-introduction",
+        "navigation_id": "NEH.7:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 7 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 7 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/7.json",
+          "chapter_file_sha256": "2d1493cbea9efe22a25a25f922a95cb02b86eb1813f6128e6326b8aa194d7989",
+          "section_id": "nav:matthew-henry:NEH.7:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12858,
+          "fragment_sha256": "0a7cc34d501141ff4e410a72483b501d6e9f770f86bc8ff1fa61ce14bddc6b1b",
+          "character_span": [
+            0,
+            965
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.8:P:the-explanation-of-the-law-b-c-444",
+        "navigation_id": "NEH.8:P:the-explanation-of-the-law-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Explanation of the Law. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.8.1",
+        "passage_end": "NEH.8.8",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Explanation of the Law. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/8.json",
+          "chapter_file_sha256": "e860646f9834dc3a8fd3b55a9e91ea25cd832a5f76629c412e5b7f0bb6d8932c",
+          "section_id": "nav:matthew-henry:NEH.8:P:the-explanation-of-the-law-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.8.1-8:16:173765:13152",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8b9360b1dfdcfd137571d5bbcef97e744f77fbb2f18c72d1f79dbe913ab28c6e",
+          "character_span": [
+            73,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.8:P:the-joy-of-the-people-b-c-444",
+        "navigation_id": "NEH.8:P:the-joy-of-the-people-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Joy of the People. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.8.13",
+        "passage_end": "NEH.8.18",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Joy of the People. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/8.json",
+          "chapter_file_sha256": "e860646f9834dc3a8fd3b55a9e91ea25cd832a5f76629c412e5b7f0bb6d8932c",
+          "section_id": "nav:matthew-henry:NEH.8:P:the-joy-of-the-people-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.8.13-18:16:194951:7926",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d12fc66a07ad1b7193e01118ba4c91ff6912a8293bdb434eefe6c81d77cfcb5f",
+          "character_span": [
+            32,
+            121
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.8:P:original-chapter-introduction",
+        "navigation_id": "NEH.8:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 8 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 8 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/8.json",
+          "chapter_file_sha256": "e860646f9834dc3a8fd3b55a9e91ea25cd832a5f76629c412e5b7f0bb6d8932c",
+          "section_id": "nav:matthew-henry:NEH.8:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12932,
+          "fragment_sha256": "c1ab7ca61d98211d4e01061a9747eba9c15a803667ebc99301d7c12d57691f4c",
+          "character_span": [
+            0,
+            1014
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.9:P:the-repentance-of-the-people-b-c-444",
+        "navigation_id": "NEH.9:P:the-repentance-of-the-people-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Repentance of the People. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.9.1",
+        "passage_end": "NEH.9.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Repentance of the People. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/9.json",
+          "chapter_file_sha256": "5baef64f8652dd495651152b9648758024b2b48ffeb7b41ce8b1ba0b0c97b371",
+          "section_id": "nav:matthew-henry:NEH.9:P:the-repentance-of-the-people-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.9.1-3:16:204131:4638",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "df8c3c31b588536f941359f8de276155bd6f1fe9407264348decc72ca27edc31",
+          "character_span": [
+            73,
+            169
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.9:P:the-prayer-of-the-levites-b-c-444",
+        "navigation_id": "NEH.9:P:the-prayer-of-the-levites-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Prayer of the Levites. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.9.4",
+        "passage_end": "NEH.9.38",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Prayer of the Levites. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/9.json",
+          "chapter_file_sha256": "5baef64f8652dd495651152b9648758024b2b48ffeb7b41ce8b1ba0b0c97b371",
+          "section_id": "nav:matthew-henry:NEH.9:P:the-prayer-of-the-levites-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.9.4-38:16:208769:36616",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "310c9746576996d1dd33384ca26251870108c630d2678c8ee22fbc929cbb2069",
+          "character_span": [
+            32,
+            125
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.9:P:original-chapter-introduction",
+        "navigation_id": "NEH.9:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 9 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 9 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/9.json",
+          "chapter_file_sha256": "5baef64f8652dd495651152b9648758024b2b48ffeb7b41ce8b1ba0b0c97b371",
+          "section_id": "nav:matthew-henry:NEH.9:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12951,
+          "fragment_sha256": "3cb40f14e9da6bfe08ea72d2613d8575c87f5fc46556f60ef9becaa717691393",
+          "character_span": [
+            0,
+            1254
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.10:P:the-sealing-of-the-covenant-b-c-444",
+        "navigation_id": "NEH.10:P:the-sealing-of-the-covenant-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Sealing of the Covenant. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.10.1",
+        "passage_end": "NEH.10.31",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Sealing of the Covenant. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/10.json",
+          "chapter_file_sha256": "786c73a235228da71afb6c313135c598a9cc679d9a3283a7d5322ecccbf267c6",
+          "section_id": "nav:matthew-henry:NEH.10:P:the-sealing-of-the-covenant-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.10.1-31:16:246725:11599",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "9a6716798239b9e078b9ba5247b598ebf28e19415f6ac7ba3146a38d4d87f512",
+          "character_span": [
+            73,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.10:P:the-renewal-of-sacred-rites-b-c-444",
+        "navigation_id": "NEH.10:P:the-renewal-of-sacred-rites-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Renewal of Sacred Rites. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.10.32",
+        "passage_end": "NEH.10.39",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Renewal of Sacred Rites. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/10.json",
+          "chapter_file_sha256": "786c73a235228da71afb6c313135c598a9cc679d9a3283a7d5322ecccbf267c6",
+          "section_id": "nav:matthew-henry:NEH.10:P:the-renewal-of-sacred-rites-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.10.32-39:16:258324:9002",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5867466af6aca5b8c6fbfc60ef238a294736ba588076e4e90bd9747b37fb6e11",
+          "character_span": [
+            32,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.10:P:original-chapter-introduction",
+        "navigation_id": "NEH.10:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 10 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 10 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/10.json",
+          "chapter_file_sha256": "786c73a235228da71afb6c313135c598a9cc679d9a3283a7d5322ecccbf267c6",
+          "section_id": "nav:matthew-henry:NEH.10:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 12990,
+          "fragment_sha256": "9d7916d63923b9889c211c2a75b2e7667b95af8c54fcfe6318e7147716c42ac4",
+          "character_span": [
+            0,
+            1340
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.11:P:the-re-peopling-of-jerusalem-b-c-444",
+        "navigation_id": "NEH.11:P:the-re-peopling-of-jerusalem-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Re-peopling of Jerusalem. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.11.1",
+        "passage_end": "NEH.11.19",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Re-peopling of Jerusalem. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/11.json",
+          "chapter_file_sha256": "a4fb4968df2edf17d513bf7a75b8b1002b69159288c35778e1707343c78c6a1d",
+          "section_id": "nav:matthew-henry:NEH.11:P:the-re-peopling-of-jerusalem-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.11.1-19:16:268195:13436",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5c1b00e8637080ea116dca97020decf758bacc6077655b00bb2bfc61643878eb",
+          "character_span": [
+            73,
+            169
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.11:P:the-distribution-of-the-people-b-c-444",
+        "navigation_id": "NEH.11:P:the-distribution-of-the-people-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Distribution of the People. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.11.20",
+        "passage_end": "NEH.11.36",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Distribution of the People. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/11.json",
+          "chapter_file_sha256": "a4fb4968df2edf17d513bf7a75b8b1002b69159288c35778e1707343c78c6a1d",
+          "section_id": "nav:matthew-henry:NEH.11:P:the-distribution-of-the-people-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.11.20-36:16:281631:6451",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "309de8f5105ede58f895ba6d908c23067f5f4605829c33c72789046a300ed3f1",
+          "character_span": [
+            32,
+            130
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.11:P:original-chapter-introduction",
+        "navigation_id": "NEH.11:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 11 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 11 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/11.json",
+          "chapter_file_sha256": "a4fb4968df2edf17d513bf7a75b8b1002b69159288c35778e1707343c78c6a1d",
+          "section_id": "nav:matthew-henry:NEH.11:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13030,
+          "fragment_sha256": "698bc515ce39554124e695604d498abd0b99e2f85f0c775bfbbaab145a027bb8",
+          "character_span": [
+            0,
+            869
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.12:P:the-priests-and-levites-that-returned-b-c-444",
+        "navigation_id": "NEH.12:P:the-priests-and-levites-that-returned-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Priests and Levites That Returned. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.12.1",
+        "passage_end": "NEH.12.26",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Priests and Levites That Returned. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/12.json",
+          "chapter_file_sha256": "2b7d64849c4db0be4b188157455c51156335da0fbe9fe2e0dfc77ca53321eb51",
+          "section_id": "nav:matthew-henry:NEH.12:P:the-priests-and-levites-that-returned-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.12.1-26:16:289071:7950",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "376c115fcb7b0d6fa6100a0d6d1b50ecfb0a20d253714a0e37a0837539f686a5",
+          "character_span": [
+            73,
+            178
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.12:P:the-dedication-of-the-wall-b-c-444",
+        "navigation_id": "NEH.12:P:the-dedication-of-the-wall-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The Dedication of the Wall. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.12.27",
+        "passage_end": "NEH.12.43",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Dedication of the Wall. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/12.json",
+          "chapter_file_sha256": "2b7d64849c4db0be4b188157455c51156335da0fbe9fe2e0dfc77ca53321eb51",
+          "section_id": "nav:matthew-henry:NEH.12:P:the-dedication-of-the-wall-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.12.27-43:16:297021:10769",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d2ee90e7280ff3c4ace84ca0a2e43d828c2ea7a1cb3a8a08fcf017e604517c99",
+          "character_span": [
+            32,
+            126
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.12:P:the-people-s-attention-to-their-duty-b-c-444",
+        "navigation_id": "NEH.12:P:the-people-s-attention-to-their-duty-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The People's Attention to Their Duty. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.12.44",
+        "passage_end": "NEH.12.47",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The People's Attention to Their Duty. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/12.json",
+          "chapter_file_sha256": "2b7d64849c4db0be4b188157455c51156335da0fbe9fe2e0dfc77ca53321eb51",
+          "section_id": "nav:matthew-henry:NEH.12:P:the-people-s-attention-to-their-duty-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.12.44-47:16:307790:5541",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3e192ccc814b85d6cd5ec0760d29851babbb1562c96af283ca6944453125eae7",
+          "character_span": [
+            32,
+            136
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.12:P:original-chapter-introduction",
+        "navigation_id": "NEH.12:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 12 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 12 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/12.json",
+          "chapter_file_sha256": "2b7d64849c4db0be4b188157455c51156335da0fbe9fe2e0dfc77ca53321eb51",
+          "section_id": "nav:matthew-henry:NEH.12:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13067,
+          "fragment_sha256": "8ae62422e67a7accaebab357ef79087c3af748ff2f77e48512dcc48be7048c15",
+          "character_span": [
+            0,
+            989
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:the-people-s-attention-to-their-duty-b-c-444",
+        "navigation_id": "NEH.13:P:the-people-s-attention-to-their-duty-b-c-444",
+        "author_id": "matthew-henry",
+        "title": "The People's Attention to Their Duty. ( b. c. 444.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.1",
+        "passage_end": "NEH.13.9",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The People's Attention to Their Duty. ( b. c. 444.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+          "chapter_file_sha256": "f531fc3dfcfa29cac4a1d90a900f6907fbfd78fe6b8c479caf82f660a0f68360",
+          "section_id": "nav:matthew-henry:NEH.13:P:the-people-s-attention-to-their-duty-b-c-444",
+          "source_entry_id": "sword:mhc:NEH.13.1-9:16:314767:10655",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3e192ccc814b85d6cd5ec0760d29851babbb1562c96af283ca6944453125eae7",
+          "character_span": [
+            73,
+            177
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:abuses-rectified-b-c-434",
+        "navigation_id": "NEH.13:P:abuses-rectified-b-c-434",
+        "author_id": "matthew-henry",
+        "title": "Abuses Rectified. ( b. c. 434.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.10",
+        "passage_end": "NEH.13.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Abuses Rectified. ( b. c. 434.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+          "chapter_file_sha256": "f531fc3dfcfa29cac4a1d90a900f6907fbfd78fe6b8c479caf82f660a0f68360",
+          "section_id": "nav:matthew-henry:NEH.13:P:abuses-rectified-b-c-434",
+          "source_entry_id": "sword:mhc:NEH.13.10-14:16:325422:7940",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bd6a01fbcd26ed0f04ca079d344bbc5dadf897a14b566417213c330317798073",
+          "character_span": [
+            32,
+            116
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:the-charge-respecting-the-sabbath-b-c-434",
+        "navigation_id": "NEH.13:P:the-charge-respecting-the-sabbath-b-c-434",
+        "author_id": "matthew-henry",
+        "title": "The Charge Respecting the Sabbath. ( b. c. 434.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.15",
+        "passage_end": "NEH.13.22",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Charge Respecting the Sabbath. ( b. c. 434.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+          "chapter_file_sha256": "f531fc3dfcfa29cac4a1d90a900f6907fbfd78fe6b8c479caf82f660a0f68360",
+          "section_id": "nav:matthew-henry:NEH.13:P:the-charge-respecting-the-sabbath-b-c-434",
+          "source_entry_id": "sword:mhc:NEH.13.15-22:16:333362:11820",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "40a2dd5152971aa406cd35fc6c6196dfa1c4ca3c4a99f2320f9c5aea5040c63b",
+          "character_span": [
+            32,
+            133
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:the-dismissal-of-strange-wives-b-c-434",
+        "navigation_id": "NEH.13:P:the-dismissal-of-strange-wives-b-c-434",
+        "author_id": "matthew-henry",
+        "title": "The Dismissal of Strange Wives. ( b. c. 434.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.23",
+        "passage_end": "NEH.13.31",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Dismissal of Strange Wives. ( b. c. 434.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+          "chapter_file_sha256": "f531fc3dfcfa29cac4a1d90a900f6907fbfd78fe6b8c479caf82f660a0f68360",
+          "section_id": "nav:matthew-henry:NEH.13:P:the-dismissal-of-strange-wives-b-c-434",
+          "source_entry_id": "sword:mhc:NEH.13.23-31:16:345182:12439",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "351eb016cbea2f99f8f6a9343426ff25a6ac4af063baa683664b349f43aa6885",
+          "character_span": [
+            32,
+            130
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:original-chapter-introduction",
+        "navigation_id": "NEH.13:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Nehemiah 13 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Nehemiah 13 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+          "chapter_file_sha256": "f531fc3dfcfa29cac4a1d90a900f6907fbfd78fe6b8c479caf82f660a0f68360",
+          "section_id": "nav:matthew-henry:NEH.13:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13115,
+          "fragment_sha256": "e55b2828c1347bb64dc4386607cbb4477b373b4a1684601ca0ee8bf38fc08ea4",
+          "character_span": [
+            0,
+            1436
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:NEH:P:introduction-to-the-book-of-nehemiah",
+        "navigation_id": "NEH:P:introduction-to-the-book-of-nehemiah",
+        "author_id": "adam-clarke",
+        "title": "Introduction to the Book of Nehemiah",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction to the Book of Nehemiah",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/1.json",
+          "chapter_file_sha256": "bac28507a7de8bf6bf8fff5255b5e5dd38b2b4c82dd163339bcca0b6e0c4cac7",
+          "section_id": "nav:adam-clarke:NEH:P:introduction-to-the-book-of-nehemiah",
+          "source_entry_id": "sword:clarke:NEH.1.1-1:16:252:38560",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "229f9e5739ab622d14d67e8fe7fb31c4ac257947389513ce17a53db8e902dd7a",
+          "character_span": [
+            33,
+            35973
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.2:P:introduction",
+        "navigation_id": "NEH.2:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/2.json",
+          "chapter_file_sha256": "c6447195a035324187e96a68dbd6b1f018f742c37d3d973628db288b4ca8ca46",
+          "section_id": "nav:adam-clarke:NEH.2:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.2.1-1:16:42897:1982",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "6e30b8e51ec8dc8d16c309a57c4221247690aed3d1d0cd32ea7af01d00f01a2d",
+          "character_span": [
+            33,
+            1595
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.3:P:introduction",
+        "navigation_id": "NEH.3:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/3.json",
+          "chapter_file_sha256": "8a8e38fed8f8ebf8107f94d4817de45d4943d578f0cc54754d6418cb74b077b2",
+          "section_id": "nav:adam-clarke:NEH.3:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.3.1-1:16:52787:1059",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e760e932c58179455bd1db45c1c8d445540aa2b0ad915e3d5ff11cbf94019c07",
+          "character_span": [
+            33,
+            424
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.4:P:introduction",
+        "navigation_id": "NEH.4:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/4.json",
+          "chapter_file_sha256": "cefd42a89cf4dd30f43301b999f570191a9b0f85a003bd3afefe57fdb73b4caa",
+          "section_id": "nav:adam-clarke:NEH.4:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.4.1-1:16:60476:1426",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "9028c7b208b2cb9bc620fe01217c3289bef3ca53d0fae728e103f2aa9801c86f",
+          "character_span": [
+            33,
+            1426
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.5:P:introduction",
+        "navigation_id": "NEH.5:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/5.json",
+          "chapter_file_sha256": "2e5399ec4eef0d6c232ae35f117f3243b4696cd7b739d5c724cf80383eece915",
+          "section_id": "nav:adam-clarke:NEH.5:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.5.1-1:16:76045:884",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e1ef87c37c73d884684006c39d53d547b5490401482659feaab183297858bc23",
+          "character_span": [
+            33,
+            884
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.6:P:introduction",
+        "navigation_id": "NEH.6:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/6.json",
+          "chapter_file_sha256": "6bc575b183e678ce63bf145b4624897ab0b2899268ed40c726faedbd13ea1c93",
+          "section_id": "nav:adam-clarke:NEH.6:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.6.1-1:16:86001:1231",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b64adabd4ff310eeb5da7d2d176a0022ba4f486dac0c00c2e553b1dacc5772a6",
+          "character_span": [
+            33,
+            1231
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.7:P:introduction",
+        "navigation_id": "NEH.7:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/7.json",
+          "chapter_file_sha256": "d1a6b3a347d88d3bed323d93724d2fc1de98062a0d27c3715893f25bde747d0c",
+          "section_id": "nav:adam-clarke:NEH.7:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.7.1-1:16:94731:1254",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "67ff1314801d10af8970a80936c561ba00de374f0a3bf5a1f1bda97eced6ed8a",
+          "character_span": [
+            33,
+            1254
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.8:P:introduction",
+        "navigation_id": "NEH.8:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/8.json",
+          "chapter_file_sha256": "65c13c5e9c81b3f79e9438536bcb5c6820f3af938db9c03873d207c8f6939442",
+          "section_id": "nav:adam-clarke:NEH.8:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.8.1-1:16:103698:1279",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "76a9e5af5744c3a850c60203d98b6606d753d9de5da110070de1d79ea59c0b24",
+          "character_span": [
+            33,
+            1084
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.9:P:introduction",
+        "navigation_id": "NEH.9:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/9.json",
+          "chapter_file_sha256": "a6ad48cdf3248d0cd71093f4a07062b6964dc65038a710f03a2d0d107cb96b77",
+          "section_id": "nav:adam-clarke:NEH.9:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.9.1-1:16:116748:1277",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b6ebfbe34f0bd3381b62c151ba8a5b752d4790f68e72fa042401c711a8069e0b",
+          "character_span": [
+            33,
+            739
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.10:P:introduction",
+        "navigation_id": "NEH.10:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/10.json",
+          "chapter_file_sha256": "7a8609fd22244b951a488e2dacb59ae430d55a73f19863953a9ec2611712dc04",
+          "section_id": "nav:adam-clarke:NEH.10:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.10.1-1:16:131164:1906",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "57f4225b60cca3143b40a2b1732b947fca06527528aa38bf56d7323be59e3c7f",
+          "character_span": [
+            33,
+            882
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.11:P:introduction",
+        "navigation_id": "NEH.11:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/11.json",
+          "chapter_file_sha256": "e28cb0526243dcfcf234e19a186a8e1384e172ae5a242725139562d3cdc59abb",
+          "section_id": "nav:adam-clarke:NEH.11:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.11.1-1:16:141848:2100",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e4b7344811253b734dca2ab4724bfcd2ebe4150f569a004f848f65bb19155bd2",
+          "character_span": [
+            33,
+            1513
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.12:P:introduction",
+        "navigation_id": "NEH.12:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/12.json",
+          "chapter_file_sha256": "30a18949174c27c05ed89880bc857c8c9314737f43c1f6aa4160e0a52459bbc3",
+          "section_id": "nav:adam-clarke:NEH.12:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.12.1-1:16:149983:2401",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "660a563333d6cf5d6a9135dc054e4d3b83393f88926d4b33f11c6e903bca131c",
+          "character_span": [
+            33,
+            793
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:NEH.13:P:introduction",
+        "navigation_id": "NEH.13:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/13.json",
+          "chapter_file_sha256": "1fb132ed31d21df7291519c815d76acdc41f496a9535c07e8809365de22c2116",
+          "section_id": "nav:adam-clarke:NEH.13:P:introduction",
+          "source_entry_id": "sword:clarke:NEH.13.1-1:16:161818:2861",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3d1e809ccc5ba801ffb341fed96dfa42a1359bfa3ec89f99bc31887bf6859203",
+          "character_span": [
+            33,
+            1855
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+        "navigation_id": "GROUP:GEN-HISTORICAL:P:gen-historical",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction to Pentateuch and historical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Nehemiah",
+        "source_evidence": "Introduction to Pentateuch and historical books",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "539074c824eb6cf2cfb472df08f2ce3a36cbd9765367eae3efaac4d907513015",
+          "character_span": [
+            56,
+            30473
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH:P:the-book-of-nehemiah",
+        "navigation_id": "NEH:P:the-book-of-nehemiah",
+        "author_id": "jamieson-fausset-brown",
+        "title": "THE BOOK OF NEHEMIAH",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "THE BOOK OF NEHEMIAH",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/1.json",
+          "chapter_file_sha256": "681a551656c04079afb84af569381064adcaed89bbb8a996ee0d1e4bcb4b2489",
+          "section_id": "nav:jamieson-fausset-brown:NEH:P:the-book-of-nehemiah",
+          "source_entry_id": "sword:jfb:NEH.1.1-1:16:238:1620",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1248df2f96727742292f89aa366c92d1d8df400bfe17c6cfbd1eb6f907b421af",
+          "character_span": [
+            59,
+            200
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.1:P:chapter-1",
+        "navigation_id": "NEH.1:P:chapter-1",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 1",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/1.json",
+          "chapter_file_sha256": "681a551656c04079afb84af569381064adcaed89bbb8a996ee0d1e4bcb4b2489",
+          "section_id": "nav:jamieson-fausset-brown:NEH.1:P:chapter-1",
+          "source_entry_id": "sword:jfb:NEH.1.1-1:16:238:1620",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            200,
+            235
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.1:P:ne-1-1-3-nehemiah-understanding-by-hanani-the-afflicted-state-of-jerusalem-mou",
+        "navigation_id": "NEH.1:P:ne-1-1-3-nehemiah-understanding-by-hanani-the-afflicted-state-of-jerusalem-mou",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 1:1-3 . Nehemiah, Understanding by Hanani the Afflicted State of Jerusalem, Mourns, Fasts, and Prays.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.1.1",
+        "passage_end": "NEH.1.3",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 1:1-3 . Nehemiah, Understanding by Hanani the Afflicted State of Jerusalem, Mourns, Fasts, and Prays.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/1.json",
+          "chapter_file_sha256": "681a551656c04079afb84af569381064adcaed89bbb8a996ee0d1e4bcb4b2489",
+          "section_id": "nav:jamieson-fausset-brown:NEH.1:P:ne-1-1-3-nehemiah-understanding-by-hanani-the-afflicted-state-of-jerusalem-mou",
+          "source_entry_id": "sword:jfb:NEH.1.1-1:16:238:1620",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "11fa13c6f83d26b078da5768d9b489c8a5df22e575c98ac2930b5fb5c2edd89e",
+          "character_span": [
+            236,
+            415
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.1:P:ne-1-4-11-his-prayer",
+        "navigation_id": "NEH.1:P:ne-1-4-11-his-prayer",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 1:4-11 . His Prayer.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.1.4",
+        "passage_end": "NEH.1.11",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 1:4-11 . His Prayer.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/1.json",
+          "chapter_file_sha256": "681a551656c04079afb84af569381064adcaed89bbb8a996ee0d1e4bcb4b2489",
+          "section_id": "nav:jamieson-fausset-brown:NEH.1:P:ne-1-4-11-his-prayer",
+          "source_entry_id": "sword:jfb:NEH.1.4-4:16:2966:651",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "eeb21b77d54786261aa3bd523781656dd49d2492240d147da616fccb3e831575",
+          "character_span": [
+            59,
+            158
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.2:P:chapter-2",
+        "navigation_id": "NEH.2:P:chapter-2",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 2",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/2.json",
+          "chapter_file_sha256": "9b99317e812aa24c4904317e0ab75a66f968c3ced2af7add5c653149de04da7c",
+          "section_id": "nav:jamieson-fausset-brown:NEH.2:P:chapter-2",
+          "source_entry_id": "sword:jfb:NEH.2.1-1:16:4131:1479",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.2:P:ne-2-1-20-artaxerxes-understanding-the-cause-of-nehemiah-s-sadness-sends-him-w",
+        "navigation_id": "NEH.2:P:ne-2-1-20-artaxerxes-understanding-the-cause-of-nehemiah-s-sadness-sends-him-w",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 2:1-20 . Artaxerxes, Understanding the Cause of Nehemiah's Sadness, Sends Him with Letters and a Commission to Build Again the Walls of Jerusalem.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.2.1",
+        "passage_end": "NEH.2.20",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 2:1-20 . Artaxerxes, Understanding the Cause of Nehemiah's Sadness, Sends Him with Letters and a Commission to Build Again the Walls of Jerusalem.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/2.json",
+          "chapter_file_sha256": "9b99317e812aa24c4904317e0ab75a66f968c3ced2af7add5c653149de04da7c",
+          "section_id": "nav:jamieson-fausset-brown:NEH.2:P:ne-2-1-20-artaxerxes-understanding-the-cause-of-nehemiah-s-sadness-sends-him-w",
+          "source_entry_id": "sword:jfb:NEH.2.1-1:16:4131:1479",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bcdffb72e017ede3eee40ac9ecc376794f2d0e040821673138f5aeed832d280e",
+          "character_span": [
+            96,
+            321
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.3:P:chapter-3",
+        "navigation_id": "NEH.3:P:chapter-3",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 3",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/3.json",
+          "chapter_file_sha256": "82097b0445ec40bb41ae60a6f271ea4e57895035179eb83f2717c63b0fbe4229",
+          "section_id": "nav:jamieson-fausset-brown:NEH.3:P:chapter-3",
+          "source_entry_id": "sword:jfb:NEH.3.1-1:16:13136:1877",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.3:P:ne-3-1-32-the-names-and-order-of-them-that-builded-the-wall-of-jerusalem",
+        "navigation_id": "NEH.3:P:ne-3-1-32-the-names-and-order-of-them-that-builded-the-wall-of-jerusalem",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 3:1-32 . The Names and Order of Them That Builded the Wall of Jerusalem.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.3.1",
+        "passage_end": "NEH.3.32",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 3:1-32 . The Names and Order of Them That Builded the Wall of Jerusalem.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/3.json",
+          "chapter_file_sha256": "82097b0445ec40bb41ae60a6f271ea4e57895035179eb83f2717c63b0fbe4229",
+          "section_id": "nav:jamieson-fausset-brown:NEH.3:P:ne-3-1-32-the-names-and-order-of-them-that-builded-the-wall-of-jerusalem",
+          "source_entry_id": "sword:jfb:NEH.3.1-1:16:13136:1877",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d72836d5aa6b8471cc9d56952e663b18bd9c46f7c218fe9533672fee287e3bf8",
+          "character_span": [
+            96,
+            247
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.4:P:chapter-4",
+        "navigation_id": "NEH.4:P:chapter-4",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 4",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/4.json",
+          "chapter_file_sha256": "9baa73bb577daac154590dd4584438c37ede8dc4f2e4a60a908146cd9b31bf88",
+          "section_id": "nav:jamieson-fausset-brown:NEH.4:P:chapter-4",
+          "source_entry_id": "sword:jfb:NEH.4.1-1:16:19772:1347",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.4:P:ne-4-1-6-while-the-enemies-scoff-nehemiah-prays-to-god-and-continues-the-work",
+        "navigation_id": "NEH.4:P:ne-4-1-6-while-the-enemies-scoff-nehemiah-prays-to-god-and-continues-the-work",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 4:1-6 . While the Enemies Scoff, Nehemiah Prays to God, and Continues the Work.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.4.1",
+        "passage_end": "NEH.4.6",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 4:1-6 . While the Enemies Scoff, Nehemiah Prays to God, and Continues the Work.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/4.json",
+          "chapter_file_sha256": "9baa73bb577daac154590dd4584438c37ede8dc4f2e4a60a908146cd9b31bf88",
+          "section_id": "nav:jamieson-fausset-brown:NEH.4:P:ne-4-1-6-while-the-enemies-scoff-nehemiah-prays-to-god-and-continues-the-work",
+          "source_entry_id": "sword:jfb:NEH.4.1-1:16:19772:1347",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "321931cf43ffd21f31f7a5fbdae554f03d3860800e1189af560101a742f64124",
+          "character_span": [
+            96,
+            253
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.4:P:ne-4-7-23-he-sets-a-watch",
+        "navigation_id": "NEH.4:P:ne-4-7-23-he-sets-a-watch",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 4:7-23 . He Sets a Watch.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.4.7",
+        "passage_end": "NEH.4.23",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 4:7-23 . He Sets a Watch.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/4.json",
+          "chapter_file_sha256": "9baa73bb577daac154590dd4584438c37ede8dc4f2e4a60a908146cd9b31bf88",
+          "section_id": "nav:jamieson-fausset-brown:NEH.4:P:ne-4-7-23-he-sets-a-watch",
+          "source_entry_id": "sword:jfb:NEH.4.7-21:16:22689:2069",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5edd28ec1b31322fd21dbadd03e696467e839db1007335ec2ed2dcdf849e2791",
+          "character_span": [
+            59,
+            163
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.5:P:chapter-5",
+        "navigation_id": "NEH.5:P:chapter-5",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 5",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/5.json",
+          "chapter_file_sha256": "4b79289fd02b8a8bf9fd6315ed6777cd01c650d3c4233e7fe5302eb4be0d17f3",
+          "section_id": "nav:jamieson-fausset-brown:NEH.5:P:chapter-5",
+          "source_entry_id": "sword:jfb:NEH.5.1-5:16:24833:1710",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "28c7aecb7b8150863ebc556b4f18e721a5a0f56caa8d893a04ea73e9a15091ee",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.5:P:ne-5-1-5-the-people-complain-of-their-debt-mortgage-and-bondage",
+        "navigation_id": "NEH.5:P:ne-5-1-5-the-people-complain-of-their-debt-mortgage-and-bondage",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 5:1-5 . The People Complain of Their Debt, Mortgage, and Bondage.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.5.1",
+        "passage_end": "NEH.5.5",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 5:1-5 . The People Complain of Their Debt, Mortgage, and Bondage.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/5.json",
+          "chapter_file_sha256": "4b79289fd02b8a8bf9fd6315ed6777cd01c650d3c4233e7fe5302eb4be0d17f3",
+          "section_id": "nav:jamieson-fausset-brown:NEH.5:P:ne-5-1-5-the-people-complain-of-their-debt-mortgage-and-bondage",
+          "source_entry_id": "sword:jfb:NEH.5.1-5:16:24833:1710",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "cf69cb8ae983c8f0eb3976c527af6cf817d4e5f62cb22f5e5a0b3b62d8989c04",
+          "character_span": [
+            96,
+            239
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.5:P:ne-5-6-19-the-usurers-rebuked",
+        "navigation_id": "NEH.5:P:ne-5-6-19-the-usurers-rebuked",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 5:6-19 . The Usurers Rebuked.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.5.6",
+        "passage_end": "NEH.5.19",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 5:6-19 . The Usurers Rebuked.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/5.json",
+          "chapter_file_sha256": "4b79289fd02b8a8bf9fd6315ed6777cd01c650d3c4233e7fe5302eb4be0d17f3",
+          "section_id": "nav:jamieson-fausset-brown:NEH.5:P:ne-5-6-19-the-usurers-rebuked",
+          "source_entry_id": "sword:jfb:NEH.5.6-12:16:26543:1818",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ebcb0eb6eebcc50a8fd1089f5f48d8c46ccf52045d8b92d6307b0cb14bf2bed0",
+          "character_span": [
+            59,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.6:P:chapter-6",
+        "navigation_id": "NEH.6:P:chapter-6",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 6",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 6",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/6.json",
+          "chapter_file_sha256": "e5c244af4ee8b60648676f099cf6c37b9b5852be1f5665ba9d66fa3eb7b45fdd",
+          "section_id": "nav:jamieson-fausset-brown:NEH.6:P:chapter-6",
+          "source_entry_id": "sword:jfb:NEH.6.2-4:16:30237:1454",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "156b149338ab4df993d1da11058affc61b5ad0471fcd353217038eb5acf8d55b",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.6:P:ne-6-1-19-sanballat-practises-against-nehemiah-by-insidious-attempts",
+        "navigation_id": "NEH.6:P:ne-6-1-19-sanballat-practises-against-nehemiah-by-insidious-attempts",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 6:1-19 . Sanballat Practises against Nehemiah by Insidious Attempts.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.6.1",
+        "passage_end": "NEH.6.19",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 6:1-19 . Sanballat Practises against Nehemiah by Insidious Attempts.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/6.json",
+          "chapter_file_sha256": "e5c244af4ee8b60648676f099cf6c37b9b5852be1f5665ba9d66fa3eb7b45fdd",
+          "section_id": "nav:jamieson-fausset-brown:NEH.6:P:ne-6-1-19-sanballat-practises-against-nehemiah-by-insidious-attempts",
+          "source_entry_id": "sword:jfb:NEH.6.2-4:16:30237:1454",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d608226e83cb1289b09a988946a9e98fafb6b8fad05af5977adf17201ba4884c",
+          "character_span": [
+            96,
+            243
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.7:P:chapter-7",
+        "navigation_id": "NEH.7:P:chapter-7",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 7",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 7",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/7.json",
+          "chapter_file_sha256": "a50ccf9f5a446de1130259d8cd38ff916a194eb98545d8d481caffac9c0835a4",
+          "section_id": "nav:jamieson-fausset-brown:NEH.7:P:chapter-7",
+          "source_entry_id": "sword:jfb:NEH.7.2-2:16:35442:1707",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "fd5cdd0f2948c8519b7f0cb340762e2d24db08f21871c13503bfc3130fe07404",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.7:P:ne-7-1-4-nehemiah-commits-the-charge-of-jerusalem-to-hanani-and-hananiah",
+        "navigation_id": "NEH.7:P:ne-7-1-4-nehemiah-commits-the-charge-of-jerusalem-to-hanani-and-hananiah",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 7:1-4 . Nehemiah Commits the Charge of Jerusalem to Hanani and Hananiah.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.7.1",
+        "passage_end": "NEH.7.4",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 7:1-4 . Nehemiah Commits the Charge of Jerusalem to Hanani and Hananiah.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/7.json",
+          "chapter_file_sha256": "a50ccf9f5a446de1130259d8cd38ff916a194eb98545d8d481caffac9c0835a4",
+          "section_id": "nav:jamieson-fausset-brown:NEH.7:P:ne-7-1-4-nehemiah-commits-the-charge-of-jerusalem-to-hanani-and-hananiah",
+          "source_entry_id": "sword:jfb:NEH.7.2-2:16:35442:1707",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "642e823caaa53e8f3912879a47a54d602d4b5aec4400efe40f00bf3b59132a97",
+          "character_span": [
+            96,
+            246
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.7:P:ne-7-5-38-genealogy-of-those-who-came-at-the-first-out-of-babylon",
+        "navigation_id": "NEH.7:P:ne-7-5-38-genealogy-of-those-who-came-at-the-first-out-of-babylon",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 7:5-38 . Genealogy of Those Who Came at the First Out of Babylon.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.7.5",
+        "passage_end": "NEH.7.38",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 7:5-38 . Genealogy of Those Who Came at the First Out of Babylon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/7.json",
+          "chapter_file_sha256": "a50ccf9f5a446de1130259d8cd38ff916a194eb98545d8d481caffac9c0835a4",
+          "section_id": "nav:jamieson-fausset-brown:NEH.7:P:ne-7-5-38-genealogy-of-those-who-came-at-the-first-out-of-babylon",
+          "source_entry_id": "sword:jfb:NEH.7.5-5:16:38798:2261",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "6e12fa90ff5c20e0fe98d27cd971f600e57aa490db755ea7c3cefe2f4f770021",
+          "character_span": [
+            59,
+            203
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.7:P:ne-7-39-73-of-the-priests",
+        "navigation_id": "NEH.7:P:ne-7-39-73-of-the-priests",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 7:39-73 . Of the Priests.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.7.39",
+        "passage_end": "NEH.7.73",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 7:39-73 . Of the Priests.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/7.json",
+          "chapter_file_sha256": "a50ccf9f5a446de1130259d8cd38ff916a194eb98545d8d481caffac9c0835a4",
+          "section_id": "nav:jamieson-fausset-brown:NEH.7:P:ne-7-39-73-of-the-priests",
+          "source_entry_id": "sword:jfb:NEH.7.39-39:16:41059:669",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "45c6e479c4b574eabe387c45abca42f5ab0b95f654b5a1da6412d0d355cc82fa",
+          "character_span": [
+            59,
+            164
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.8:P:chapter-8",
+        "navigation_id": "NEH.8:P:chapter-8",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 8",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/8.json",
+          "chapter_file_sha256": "f476ed3be3910a21a7e8138ae7c84be9713f89b4beb337658919155c87086833",
+          "section_id": "nav:jamieson-fausset-brown:NEH.8:P:chapter-8",
+          "source_entry_id": "sword:jfb:NEH.8.1-1:16:43502:2313",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4d9012f96b6241d9b632a799789d66d9c0710da056965ee37c66ea12bf40f4f8",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.8:P:ne-8-1-8-religious-manner-of-reading-and-hearing-the-law",
+        "navigation_id": "NEH.8:P:ne-8-1-8-religious-manner-of-reading-and-hearing-the-law",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 8:1-8 . Religious Manner of Reading and Hearing the Law.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.8.1",
+        "passage_end": "NEH.8.8",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 8:1-8 . Religious Manner of Reading and Hearing the Law.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/8.json",
+          "chapter_file_sha256": "f476ed3be3910a21a7e8138ae7c84be9713f89b4beb337658919155c87086833",
+          "section_id": "nav:jamieson-fausset-brown:NEH.8:P:ne-8-1-8-religious-manner-of-reading-and-hearing-the-law",
+          "source_entry_id": "sword:jfb:NEH.8.1-1:16:43502:2313",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "acb6fa73565c0dde4da0788cfe70b3235d576bfd8ae7928068798d89ff883d49",
+          "character_span": [
+            96,
+            230
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.8:P:ne-8-9-15-the-people-comforted",
+        "navigation_id": "NEH.8:P:ne-8-9-15-the-people-comforted",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 8:9-15 . The People Comforted.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.8.9",
+        "passage_end": "NEH.8.15",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 8:9-15 . The People Comforted.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/8.json",
+          "chapter_file_sha256": "f476ed3be3910a21a7e8138ae7c84be9713f89b4beb337658919155c87086833",
+          "section_id": "nav:jamieson-fausset-brown:NEH.8:P:ne-8-9-15-the-people-comforted",
+          "source_entry_id": "sword:jfb:NEH.8.9-10:16:47695:1112",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4300572822651c48d96831c1c675c69449fe905304c5b1b3b9266c5d9c72882e",
+          "character_span": [
+            59,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.8:P:ne-8-16-18-they-keep-the-feast-of-tabernacles",
+        "navigation_id": "NEH.8:P:ne-8-16-18-they-keep-the-feast-of-tabernacles",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 8:16-18 . They Keep the Feast of Tabernacles.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.8.16",
+        "passage_end": "NEH.8.18",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 8:16-18 . They Keep the Feast of Tabernacles.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/8.json",
+          "chapter_file_sha256": "f476ed3be3910a21a7e8138ae7c84be9713f89b4beb337658919155c87086833",
+          "section_id": "nav:jamieson-fausset-brown:NEH.8:P:ne-8-16-18-they-keep-the-feast-of-tabernacles",
+          "source_entry_id": "sword:jfb:NEH.8.16-16:16:48807:523",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "647a28fde5ac599359aa724200dd5a45602e9e55f6a85526d2b4860c098ea431",
+          "character_span": [
+            59,
+            184
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.9:P:chapter-9",
+        "navigation_id": "NEH.9:P:chapter-9",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 9",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 9",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/9.json",
+          "chapter_file_sha256": "c32c797f96f5b2c2eed36061b1067904a6f2230a077ed70da607533bf3035ca2",
+          "section_id": "nav:jamieson-fausset-brown:NEH.9:P:chapter-9",
+          "source_entry_id": "sword:jfb:NEH.9.1-1:16:51131:1947",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0ea0c486365533614dd010ad9bac13027d59e52fbc2bc06dd8063e83d3000da7",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.9:P:ne-9-1-3-a-solemn-fast-and-repentance-of-the-people",
+        "navigation_id": "NEH.9:P:ne-9-1-3-a-solemn-fast-and-repentance-of-the-people",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 9:1-3 . A Solemn Fast and Repentance of the People.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.9.1",
+        "passage_end": "NEH.9.3",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 9:1-3 . A Solemn Fast and Repentance of the People.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/9.json",
+          "chapter_file_sha256": "c32c797f96f5b2c2eed36061b1067904a6f2230a077ed70da607533bf3035ca2",
+          "section_id": "nav:jamieson-fausset-brown:NEH.9:P:ne-9-1-3-a-solemn-fast-and-repentance-of-the-people",
+          "source_entry_id": "sword:jfb:NEH.9.1-1:16:51131:1947",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "05dfa418022a4eb8cb5d1f7f7b9544b3aaa4f7fe09d38b87ee0e24f8ffb6361a",
+          "character_span": [
+            96,
+            225
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.9:P:ne-9-4-38-the-levites-confess-god-s-manifold-goodness-and-their-own-wickedness",
+        "navigation_id": "NEH.9:P:ne-9-4-38-the-levites-confess-god-s-manifold-goodness-and-their-own-wickedness",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 9:4-38 . The Levites Confess God's Manifold Goodness, and Their Own Wickedness.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.9.4",
+        "passage_end": "NEH.9.38",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 9:4-38 . The Levites Confess God's Manifold Goodness, and Their Own Wickedness.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/9.json",
+          "chapter_file_sha256": "c32c797f96f5b2c2eed36061b1067904a6f2230a077ed70da607533bf3035ca2",
+          "section_id": "nav:jamieson-fausset-brown:NEH.9:P:ne-9-4-38-the-levites-confess-god-s-manifold-goodness-and-their-own-wickedness",
+          "source_entry_id": "sword:jfb:NEH.9.4-4:16:54721:1282",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bc1ca4d8e1f8641185a9bf18024c579ea1d8506c444875464446efc6fb7aa3be",
+          "character_span": [
+            59,
+            217
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.10:P:chapter-10",
+        "navigation_id": "NEH.10:P:chapter-10",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 10",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 10",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/10.json",
+          "chapter_file_sha256": "28cf38718bcecaa16cd397b1e8a62a36a1d6c908e222dcc111b99ce2722d769d",
+          "section_id": "nav:jamieson-fausset-brown:NEH.10:P:chapter-10",
+          "source_entry_id": "sword:jfb:NEH.10.1-1:16:62143:1228",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5a065ed82e822dbfc57e8f8b272dfe533505c2c825b573d797ddcc0fe9ad66c7",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.10:P:ne-10-1-27-the-names-of-those-who-sealed-the-covenant",
+        "navigation_id": "NEH.10:P:ne-10-1-27-the-names-of-those-who-sealed-the-covenant",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 10:1-27 . The Names of Those Who Sealed the Covenant.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.10.1",
+        "passage_end": "NEH.10.27",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 10:1-27 . The Names of Those Who Sealed the Covenant.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/10.json",
+          "chapter_file_sha256": "28cf38718bcecaa16cd397b1e8a62a36a1d6c908e222dcc111b99ce2722d769d",
+          "section_id": "nav:jamieson-fausset-brown:NEH.10:P:ne-10-1-27-the-names-of-those-who-sealed-the-covenant",
+          "source_entry_id": "sword:jfb:NEH.10.1-1:16:62143:1228",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "266928939525797eeb5cd88a1fd5b8efe7e182dc91b62fc020039c53a880e62e",
+          "character_span": [
+            97,
+            231
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.10:P:ne-10-28-the-rest-of-the-people-bound-themselves-to-observe-it",
+        "navigation_id": "NEH.10:P:ne-10-28-the-rest-of-the-people-bound-themselves-to-observe-it",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 10:28 . The Rest of the People Bound Themselves to Observe It.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.10.1",
+        "passage_end": "NEH.10.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ne 10:28 . The Rest of the People Bound Themselves to Observe It.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/10.json",
+          "chapter_file_sha256": "28cf38718bcecaa16cd397b1e8a62a36a1d6c908e222dcc111b99ce2722d769d",
+          "section_id": "nav:jamieson-fausset-brown:NEH.10:P:ne-10-28-the-rest-of-the-people-bound-themselves-to-observe-it",
+          "source_entry_id": "sword:jfb:NEH.10.1-1:16:62143:1228",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5bc836bf8e37ea723c993b51f829d2341177c0d8bacb830e8b244b813ba4e1e2",
+          "character_span": [
+            762,
+            896
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.10:P:ne-10-29-39-points-of-the-covenant",
+        "navigation_id": "NEH.10:P:ne-10-29-39-points-of-the-covenant",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 10:29-39 . Points of the Covenant.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.10.29",
+        "passage_end": "NEH.10.39",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 10:29-39 . Points of the Covenant.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/10.json",
+          "chapter_file_sha256": "28cf38718bcecaa16cd397b1e8a62a36a1d6c908e222dcc111b99ce2722d769d",
+          "section_id": "nav:jamieson-fausset-brown:NEH.10:P:ne-10-29-39-points-of-the-covenant",
+          "source_entry_id": "sword:jfb:NEH.10.29-37:16:63371:1578",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b678db70f6c94d4f9aa1247d45aabb04eec54bc5ac73cb537a26e68586913c55",
+          "character_span": [
+            59,
+            175
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.11:P:chapter-11",
+        "navigation_id": "NEH.11:P:chapter-11",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 11",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 11",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/11.json",
+          "chapter_file_sha256": "75ee01e98424a5c735a944183fb7bbf5e1c1c68b533a338ffe48d661754ec26c",
+          "section_id": "nav:jamieson-fausset-brown:NEH.11:P:chapter-11",
+          "source_entry_id": "sword:jfb:NEH.11.1-1:16:67957:2368",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8c1ed82d19faef4ff84b7e93a34e9cd01767c5fa3495e81c8e7052867c3bc821",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.11:P:ne-11-3-36-their-names",
+        "navigation_id": "NEH.11:P:ne-11-3-36-their-names",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 11:3-36 . Their Names.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.11.3",
+        "passage_end": "NEH.11.36",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 11:3-36 . Their Names.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/11.json",
+          "chapter_file_sha256": "75ee01e98424a5c735a944183fb7bbf5e1c1c68b533a338ffe48d661754ec26c",
+          "section_id": "nav:jamieson-fausset-brown:NEH.11:P:ne-11-3-36-their-names",
+          "source_entry_id": "sword:jfb:NEH.11.3-3:16:70325:1836",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "802890e5c79cc79ade64501f5bf2407bd12f894cd379d875cef152797bef442e",
+          "character_span": [
+            59,
+            162
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.12:P:chapter-12",
+        "navigation_id": "NEH.12:P:chapter-12",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 12",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 12",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/12.json",
+          "chapter_file_sha256": "42d84456b6d5fcae8a3b34347d8f34f81bb07dc249c412d105e7cdab819a29af",
+          "section_id": "nav:jamieson-fausset-brown:NEH.12:P:chapter-12",
+          "source_entry_id": "sword:jfb:NEH.12.1-1:16:77654:2151",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3f9b5eed29f70265b25f2c974a1528ec6d9dd863009da04efc8b667d049aa414",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.12:P:ne-12-1-9-priests-and-levites-who-came-up-with-zerubbabel",
+        "navigation_id": "NEH.12:P:ne-12-1-9-priests-and-levites-who-came-up-with-zerubbabel",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 12:1-9 . Priests and Levites Who Came Up with Zerubbabel.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.12.1",
+        "passage_end": "NEH.12.9",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 12:1-9 . Priests and Levites Who Came Up with Zerubbabel.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/12.json",
+          "chapter_file_sha256": "42d84456b6d5fcae8a3b34347d8f34f81bb07dc249c412d105e7cdab819a29af",
+          "section_id": "nav:jamieson-fausset-brown:NEH.12:P:ne-12-1-9-priests-and-levites-who-came-up-with-zerubbabel",
+          "source_entry_id": "sword:jfb:NEH.12.1-1:16:77654:2151",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5102dc71a27e5b54a10988d816d590a65c819e8d7f4d63a889795fd28fe4f550",
+          "character_span": [
+            97,
+            234
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.12:P:ne-12-10-47-succession-of-the-high-priests",
+        "navigation_id": "NEH.12:P:ne-12-10-47-succession-of-the-high-priests",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 12:10-47 . Succession of the High Priests.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.12.10",
+        "passage_end": "NEH.12.47",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 12:10-47 . Succession of the High Priests.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/12.json",
+          "chapter_file_sha256": "42d84456b6d5fcae8a3b34347d8f34f81bb07dc249c412d105e7cdab819a29af",
+          "section_id": "nav:jamieson-fausset-brown:NEH.12:P:ne-12-10-47-succession-of-the-high-priests",
+          "source_entry_id": "sword:jfb:NEH.12.10-10:16:80609:626",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0443c8c58d5a61c34619b1777f8d4254aa22434f0ec45f54d9fab74a3d5bd142",
+          "character_span": [
+            59,
+            183
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:chapter-13",
+        "navigation_id": "NEH.13:P:chapter-13",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 13",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 13",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/13.json",
+          "chapter_file_sha256": "74cc11381ea9a7e8375a09e614093201c2db0b3da21686e8495af7f2866df7bd",
+          "section_id": "nav:jamieson-fausset-brown:NEH.13:P:chapter-13",
+          "source_entry_id": "sword:jfb:NEH.13.1-1:16:88148:1872",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "62f14e497670587b48359cbcbdd0ec0471e9513a1cc8043dee9d4d9ebeb986ab",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-1-9-upon-the-reading-of-the-law-separation-is-made-from-the-mixed-multit",
+        "navigation_id": "NEH.13:P:ne-13-1-9-upon-the-reading-of-the-law-separation-is-made-from-the-mixed-multit",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 13:1-9 . Upon the Reading of the Law Separation Is Made from the Mixed Multitude.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.1",
+        "passage_end": "NEH.13.9",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 13:1-9 . Upon the Reading of the Law Separation Is Made from the Mixed Multitude.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/13.json",
+          "chapter_file_sha256": "74cc11381ea9a7e8375a09e614093201c2db0b3da21686e8495af7f2866df7bd",
+          "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-1-9-upon-the-reading-of-the-law-separation-is-made-from-the-mixed-multit",
+          "source_entry_id": "sword:jfb:NEH.13.1-1:16:88148:1872",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ef87ea5eb5c6bb8d8866043dc6cd692105b5de9935e5c4d1e37f136bb2535ac9",
+          "character_span": [
+            97,
+            258
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-10-14-nehemiah-reforms-the-officers-in-the-house-of-god",
+        "navigation_id": "NEH.13:P:ne-13-10-14-nehemiah-reforms-the-officers-in-the-house-of-god",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 13:10-14 . Nehemiah Reforms the Officers in the House of God.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.10",
+        "passage_end": "NEH.13.14",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 13:10-14 . Nehemiah Reforms the Officers in the House of God.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/13.json",
+          "chapter_file_sha256": "74cc11381ea9a7e8375a09e614093201c2db0b3da21686e8495af7f2866df7bd",
+          "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-10-14-nehemiah-reforms-the-officers-in-the-house-of-god",
+          "source_entry_id": "sword:jfb:NEH.13.10-13:16:93776:2037",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "814d01dc90fd92e5d55dcb6106006093add89c76dd1ab5611bfe8fdda1bc7eb0",
+          "character_span": [
+            59,
+            202
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-15-31-the-violation-of-the-sabbath",
+        "navigation_id": "NEH.13:P:ne-13-15-31-the-violation-of-the-sabbath",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ne 13:15-31 . The Violation of the Sabbath.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.13.15",
+        "passage_end": "NEH.13.31",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ne 13:15-31 . The Violation of the Sabbath.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/13.json",
+          "chapter_file_sha256": "74cc11381ea9a7e8375a09e614093201c2db0b3da21686e8495af7f2866df7bd",
+          "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-15-31-the-violation-of-the-sabbath",
+          "source_entry_id": "sword:jfb:NEH.13.15-22:16:95813:1319",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "52cf2d2ee56f341b5833b1d1ce032a9aa18b3a927d2323c3e10c292993e92a91",
+          "character_span": [
+            59,
+            181
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+        "navigation_id": "1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+        "author_id": "keil-delitzsch",
+        "title": "Introduction to the Hagiographic Historical Books of the Old Testament",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Nehemiah",
+        "source_evidence": "Introduction to the Hagiographic Historical Books of the Old Testament",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-first-chronicles-2026-11-06/authors/keil-delitzsch/1CH/1.json",
+          "chapter_file_sha256": "209b03ebc67e839a894cac54def713e82910017d8e52891b05b54eabadaca403",
+          "section_id": "nav:keil-delitzsch:1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+          "source_entry_id": "sword:kd:1CH.1.1-4:14:142:136045",
+          "fragment_sha256": "0bdf4479ff1ef6f7f15c46920efb0c2c74388a1e46962e4e7205a1410f1ea168",
+          "character_span": [
+            32,
+            11198
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:NEH:P:the-book-of-nehemiah",
+        "navigation_id": "NEH:P:the-book-of-nehemiah",
+        "author_id": "keil-delitzsch",
+        "title": "The Book of Nehemiah",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "The Book of Nehemiah",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/1.json",
+          "chapter_file_sha256": "78f429cc9e91b0e35773c093a3ff0e15796d4533b8745f000a1a582f3b2be3da",
+          "section_id": "nav:keil-delitzsch:NEH:P:the-book-of-nehemiah",
+          "source_entry_id": "sword:kd:NEH.1.1-1:17:139:41489",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "112b5dcc09762bd0ec8a200192c715d87f408f85d48e5671b9ff2078c5e64f67",
+          "character_span": [
+            32,
+            37571
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:NEH.1:P:i-nehemiahs-journey-to-jerusalem-and-the-restoration-of-the-walls-of-jerusalem",
+        "navigation_id": "NEH.1:P:i-nehemiahs-journey-to-jerusalem-and-the-restoration-of-the-walls-of-jerusalem",
+        "author_id": "keil-delitzsch",
+        "title": "I. Nehemiah’s Journey to Jerusalem, and the Restoration of the Walls of Jerusalem - Neh 1:1",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.1.1",
+        "passage_end": "NEH.1.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "I. Nehemiah’s Journey to Jerusalem, and the Restoration of the Walls of Jerusalem - Neh 1:1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/1.json",
+          "chapter_file_sha256": "78f429cc9e91b0e35773c093a3ff0e15796d4533b8745f000a1a582f3b2be3da",
+          "section_id": "nav:keil-delitzsch:NEH.1:P:i-nehemiahs-journey-to-jerusalem-and-the-restoration-of-the-walls-of-jerusalem",
+          "source_entry_id": "sword:kd:NEH.1.1-1:17:139:41489",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e23e69f4fc7668efe1fec4e11c91ee4416f7b3ddbea47904c3541e5e96351304",
+          "character_span": [
+            37571,
+            37729
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:NEH.2:P:he-makes-a-survey-of-the-walls-and-resolves-to-undertake-the-work-of-building-",
+        "navigation_id": "NEH.2:P:he-makes-a-survey-of-the-walls-and-resolves-to-undertake-the-work-of-building-",
+        "author_id": "keil-delitzsch",
+        "title": "He Makes a Survey of the Walls, and Resolves to Undertake the Work of Building Them - Nehemiah 2",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.2.1",
+        "passage_end": "NEH.2.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "He Makes a Survey of the Walls, and Resolves to Undertake the Work of Building Them - Nehemiah 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/2.json",
+          "chapter_file_sha256": "b72ff282a3d86720a3377f2687bc62fb40f5d66b6f93dce2cbbe81338c357526",
+          "section_id": "nav:keil-delitzsch:NEH.2:P:he-makes-a-survey-of-the-walls-and-resolves-to-undertake-the-work-of-building-",
+          "source_entry_id": "sword:kd:NEH.2.1-1:17:60256:4666",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "73aadaa254a28d3e9406bd3315e0665a15cd8d8ed3280c503749b97faacdd2a3",
+          "character_span": [
+            32,
+            155
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:NEH.5:P:abolition-of-usury-nehemiahs-unselfishness-nehemiah-5",
+        "navigation_id": "NEH.5:P:abolition-of-usury-nehemiahs-unselfishness-nehemiah-5",
+        "author_id": "keil-delitzsch",
+        "title": "Abolition of Usury - Nehemiah’s Unselfishness - Nehemiah 5",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.5.1",
+        "passage_end": "NEH.5.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Abolition of Usury - Nehemiah’s Unselfishness - Nehemiah 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/5.json",
+          "chapter_file_sha256": "a24ab59fad09a53ca9e8e40ac91e92460878a4079df41a79d64ad53c83ac017b",
+          "section_id": "nav:keil-delitzsch:NEH.5:P:abolition-of-usury-nehemiahs-unselfishness-nehemiah-5",
+          "source_entry_id": "sword:kd:NEH.5.1-1:17:183830:2956",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8e62908809b5b9b437bcb9b68b3dc8b694f644f3c991a17c388fe92da8073c95",
+          "character_span": [
+            32,
+            117
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:NEH.7:P:ii-nehemiahs-further-exertions-in-behalf-of-the-community-neh-7-1",
+        "navigation_id": "NEH.7:P:ii-nehemiahs-further-exertions-in-behalf-of-the-community-neh-7-1",
+        "author_id": "keil-delitzsch",
+        "title": "II. Nehemiah’s Further Exertions in Behalf of the Community - Neh 7:1",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.7.1",
+        "passage_end": "NEH.7.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "II. Nehemiah’s Further Exertions in Behalf of the Community - Neh 7:1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/7.json",
+          "chapter_file_sha256": "05fa19548bbc014386711259a80993efaba8df4ed825294a29a7f50373c37411",
+          "section_id": "nav:keil-delitzsch:NEH.7:P:ii-nehemiahs-further-exertions-in-behalf-of-the-community-neh-7-1",
+          "source_entry_id": "sword:kd:NEH.7.1-1:17:228771:3003",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e5b33c8ab62d50ee5d195f04bffaad4ede6df53a7c539c8814bd53acda6bcfe3",
+          "character_span": [
+            32,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:NEH.8:P:public-reading-of-the-law-the-feast-of-tabernacles-a-public-fast-held-and-a-co",
+        "navigation_id": "NEH.8:P:public-reading-of-the-law-the-feast-of-tabernacles-a-public-fast-held-and-a-co",
+        "author_id": "keil-delitzsch",
+        "title": "Public Reading of the Law. the Feast of Tabernacles. A Public Fast Held, and a Covenant Made to Keep the Law - Neh 8:1",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": "NEH.8.1",
+        "passage_end": "NEH.8.2",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Public Reading of the Law. the Feast of Tabernacles. A Public Fast Held, and a Covenant Made to Keep the Law - Neh 8:1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/8.json",
+          "chapter_file_sha256": "d1f72f0e7feac33e11adc1c49d2292ee415ddec5d622e5394913b6b393754986",
+          "section_id": "nav:keil-delitzsch:NEH.8:P:public-reading-of-the-law-the-feast-of-tabernacles-a-public-fast-held-and-a-co",
+          "source_entry_id": "sword:kd:NEH.8.1-2:17:235315:6350",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e36ed38736658c1998db2575a659a50bdee98bfd7ed77e2c0a896a3795345aec",
+          "character_span": [
+            32,
+            218
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:NEH:P:john-gill-book-introduction",
+        "navigation_id": "NEH:P:john-gill-book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Nehemiah",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "NEH"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction · Nehemiah",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/1.json",
+          "chapter_file_sha256": "df8277be575d0e2441fc637a39420bba8c35ff09f83ac0f02bb0f3f4dc7e7818",
+          "section_id": "nav:john-gill:NEH:P:john-gill-book-introduction",
+          "source_entry_id": null,
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "07a02ea040cc0ccbfbdbcfafa39e519b7aab71ac79a2fad6d286c1636e797824",
+          "character_span": null
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Nehemiah (13 chapters) retains exact original native SWORD verse ranges and HelloAO anchored verse records.",
+    "P material is separate non-Scripture navigation; no inferred adjacent verse coverage.",
+    "MHC Joshua-to-Esther, JFB historical-books and KD Hagiographic Historical introductions explicitly encompass Nehemiah; reuse verified existing source links, no duplicate text.",
+    "Book introductions, source-derived passage headings, and original chapter-marker introductions remain exact, source bounded and separate from verse routing.",
+    "Calvin original edition has no Nehemiah records, and no HelloAO Calvin substitute; publish unavailable status."
+  ]
+}

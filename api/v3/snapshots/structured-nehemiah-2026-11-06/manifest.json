@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-nehemiah-2026-11-06",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "NEH"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 78,
+    "original_entries": 787,
+    "navigation_sections": 103,
+    "reader_visible_entries": 787,
+    "verse_author_routes": 1482,
+    "sword_chapters": 52,
+    "unavailable_chapters": 13,
+    "helloao_chapters": 26,
+    "chapters": 13
+  },
+  "chapter_verse_count": {
+    "1": 11,
+    "2": 20,
+    "3": 32,
+    "4": 23,
+    "5": 19,
+    "6": 19,
+    "7": 73,
+    "8": 18,
+    "9": 38,
+    "10": 39,
+    "11": 36,
+    "12": 47,
+    "13": 31
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked original CrossWire/SWORD passage-index archives; HelloAO John Gill and genuinely missing whole-chapter fallback only.",
+  "reader_policy": "Verse by default; source-bounded P headings and validated historical book-group prefaces only.",
+  "provenance_policy": "Original historical author, complete source records, work edition, source record locators, native binary indexes, rights preserved.",
+  "notes": [
+    "Additive Nehemiah only: preserves previous fifteen book snapshots (including the separately packaged Ezra release), navigation overlays and readers.",
+    "No fabricated Calvin commentary: supplied edition has no Nehemiah entries.",
+    "Three original historical-book group prefaces remain external source-linked pointers, not re-copied text.",
+    "Sparse HelloAO anchors are not extended to neighboring verses.",
+    "No Bible translation text or CGBC media-player integration in this ZIP.",
+    "GitHub deployment and public Pages visual verification are separate gates."
+  ]
+}

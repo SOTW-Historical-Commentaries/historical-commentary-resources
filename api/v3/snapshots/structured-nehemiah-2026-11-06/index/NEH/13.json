@@ -1,0 +1,617 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-nehemiah-2026-11-06",
+  "canonical_chapter": "NEH.13",
+  "verse_count": 31,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-nehemiah-2026-11-06/authors/matthew-henry/NEH/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 4,
+      "reader_visible_entries": 4,
+      "navigation_section_count": 5,
+      "indexed_verse_count": 31
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-calvin/NEH/13.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-nehemiah-2026-11-06/authors/adam-clarke/NEH/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 22,
+      "reader_visible_entries": 22,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 22
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-nehemiah-2026-11-06/authors/jamieson-fausset-brown/NEH/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 7,
+      "reader_visible_entries": 7,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 21
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-nehemiah-2026-11-06/authors/keil-delitzsch/NEH/13.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 18,
+      "reader_visible_entries": 18,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 31
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-nehemiah-2026-11-06/authors/john-gill/NEH/13.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 31,
+      "reader_visible_entries": 31,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 31
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        9
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        9
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        10
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        11
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        12
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        13
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        3
+      ],
+      "keil-delitzsch": [
+        14
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        14
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        15
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "keil-delitzsch": [
+        15
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "keil-delitzsch": [
+        15
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "keil-delitzsch": [
+        16
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "keil-delitzsch": [
+        16
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        3
+      ],
+      "keil-delitzsch": [
+        17
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "keil-delitzsch": [
+        17
+      ],
+      "john-gill": [
+        30
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:the-people-s-attention-to-their-duty-b-c-444",
+        "navigation_id": "NEH.13:P:the-people-s-attention-to-their-duty-b-c-444",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The People's Attention to Their Duty. ( b. c. 444.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:abuses-rectified-b-c-434",
+        "navigation_id": "NEH.13:P:abuses-rectified-b-c-434",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Abuses Rectified. ( b. c. 434.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:the-charge-respecting-the-sabbath-b-c-434",
+        "navigation_id": "NEH.13:P:the-charge-respecting-the-sabbath-b-c-434",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Charge Respecting the Sabbath. ( b. c. 434.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:the-dismissal-of-strange-wives-b-c-434",
+        "navigation_id": "NEH.13:P:the-dismissal-of-strange-wives-b-c-434",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Dismissal of Strange Wives. ( b. c. 434.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:NEH.13:P:original-chapter-introduction",
+        "navigation_id": "NEH.13:P:original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Nehemiah 13 · Original chapter introduction"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:NEH.13:P:introduction",
+        "navigation_id": "NEH.13:P:introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:chapter-13",
+        "navigation_id": "NEH.13:P:chapter-13",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 13"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-1-9-upon-the-reading-of-the-law-separation-is-made-from-the-mixed-multit",
+        "navigation_id": "NEH.13:P:ne-13-1-9-upon-the-reading-of-the-law-separation-is-made-from-the-mixed-multit",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Ne 13:1-9 . Upon the Reading of the Law Separation Is Made from the Mixed Multitude."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-10-14-nehemiah-reforms-the-officers-in-the-house-of-god",
+        "navigation_id": "NEH.13:P:ne-13-10-14-nehemiah-reforms-the-officers-in-the-house-of-god",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Ne 13:10-14 . Nehemiah Reforms the Officers in the House of God."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:NEH.13:P:ne-13-15-31-the-violation-of-the-sabbath",
+        "navigation_id": "NEH.13:P:ne-13-15-31-the-violation-of-the-sabbath",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Ne 13:15-31 . The Violation of the Sabbath."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "P titles are source evidence; authoritative P applicability is navigation-coverage/v1/books/NEH.json. Verse routes contain only original source-indexed records."
+}
