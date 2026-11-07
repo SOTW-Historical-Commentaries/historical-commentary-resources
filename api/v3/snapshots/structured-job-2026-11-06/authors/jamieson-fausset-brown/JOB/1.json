@@ -1,0 +1,680 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-job-2026-11-06",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "JOB",
+  "chapter": 1,
+  "canonical_chapter": "JOB.1",
+  "versification": "KJV",
+  "verse_count": 22,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Job\" sID=\"gen6448\" type=\"book\"/> <milestone n=\"THE BOOK OF JOB\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE BOOK OF JOB</title> <div sID=\"gen6449\" type=\"x-p\"/><div eID=\"gen6449\" type=\"x-p\"/> ",
+      "source_record_sha256": "0ed332d90bdbb07d66b5fd40c14cb021b298f6abcb9d89a73eaa7769e6ca0969",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 0,
+        "length": 295
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Job.1\" sID=\"Job.1\"/> <div sID=\"gen6450\" type=\"introduction\"/> ",
+      "source_record_sha256": "9939517c1d25b4b4af15b981360e0ade4b434785d6dcd75d47fabb978b52e237",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 295,
+        "length": 85
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:JOB.1.1-1:18:380:19232",
+      "passage_start": "JOB.1.1",
+      "passage_end": "JOB.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4460\"/><title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen6451\" type=\"x-p\"/><hi type=\"bold\">Job a Real Person.--</hi>It has been supposed by some that the book of Job is an allegory, not a real narrative, on account of the artificial character of many of its statements. Thus the sacred numbers, three and seven, often occur. He had seven thousand sheep, seven sons, both before and after his trials; his three friends sit down with him seven days and seven nights; both before and after his trials he had three daughters. So also the number and form of the speeches of the several speakers seem to be artificial. The name of Job, too, is derived from an Arabic word signifying repentance.<div eID=\"gen6451\" type=\"x-p\"/> <div eID=\"gen6450\" type=\"introduction\"/> <div sID=\"gen6452\" type=\"x-p\"/><hi type=\"bold\">But <reference osisRef=\"Ezek.14.14\">Eze 14:14</reference> (compare <reference osisRef=\"Ezek.14.16\">Eze 14:16</reference>, <reference osisRef=\"Ezek.14.20\">20</reference>) speaks of \"Job\" in conjunction with \"Noah and Daniel,\" real persons. St. James (<reference osisRef=\"Jas.5.11\">Jas 5:11</reference>) also refers to Job as an example of \"patience,\" which he would not have been likely to do had Job been only a fictitious person. Also the names of persons and places are specified with a particularity not to be looked for in an allegory. As to the exact doubling of his possessions after his restoration, no doubt the round number is given for the exact number, as the latter approached near the former; this is often done in undoubtedly historical books. As to the studied number and form of the speeches, it seems likely that the arguments were substantially those which appear in the book, but that the studied and poetic form was given by Job himself, guided by the Holy Spirit. He lived one hundred and forty years after his trials, and nothing would be more natural than that he should, at his leisure, mould into a perfect form the arguments used in the momentous debate, for the instruction of the Church in all ages. Probably, too, the debate itself occupied several sittings; and the number of speeches assigned to each was arranged by preconcerted agreement, and each was allowed the interval of a day or more to prepare carefully his speech and replies; this will account for the speakers bringing forward their arguments in regular series, no one speaking out of his turn. As to the name Job--</hi>repentance (supposing the derivation correct)--it was common in old times to give a name from circumstances which occurred at an advanced period of life, and this is no argument against the reality of the person.<div eID=\"gen6452\" type=\"x-p\"/> <div sID=\"gen6453\" type=\"x-p\"/><hi type=\"bold\">Where Job Lived.--</hi>\"Uz,\" according to Gesenius, means a light, sandy soil, and was in the north of Arabia-Deserta, between Palestine and the Euphrates, called by Ptolemy (Geography, 19) Ausitai or Aisitai. In <reference osisRef=\"Gen.10.23\">Ge 10:23</reference>; <reference osisRef=\"Gen.22.21\">22:21</reference>; <reference osisRef=\"Gen.36.28\">36:28</reference>; and <reference osisRef=\"1Chr.1.17\">1Ch 1:17</reference>, 42, it is the name of a man. In <reference osisRef=\"Jer.25.20\">Jr 25:20</reference>; <reference osisRef=\"Lam.4.21\">La 4:21</reference>; and <reference osisRef=\"Job.1.1\">Job 1:1</reference>, it is a country. Uz, in <reference osisRef=\"Gen.22.21\">Ge 22:21</reference>, is said to be the son of Nahor, brother of Abraham--a different person from the one mentioned (<reference osisRef=\"Gen.10.23\">Ge 10:23</reference>), a grandson of Shem. The probability is that the country took its name from the latter of the two; for this one was the son of Aram, from whom the Arameans take their name, and these dwelt in Mesopotamia, between the rivers Euphrates and Tigris. Compare as to the dwelling of the sons of Shem in <reference osisRef=\"Gen.10.30\">Ge 10:30</reference>, \"a mount of the East,\" answering to \"men of the East\" (<reference osisRef=\"Job.1.3\">Job 1:3</reference>). Rawlinson, in his deciphering of the Assyrian inscriptions, states that \"Uz is the prevailing name of the country at the mouth of the Euphrates.\" It is probable that Eliphaz the Temanite and the Sabeans dwelt in that quarter; and we know that the Chaldeans resided there, and not near Idumea, which some identify with Uz. The tornado from \"the wilderness\" (<reference osisRef=\"Job.1.19\">Job 1:19</reference>) agrees with the view of it being Arabia-Deserta. Job (<reference osisRef=\"Job.1.3\">Job 1:3</reference>) is called \"the greatest of the men of the East\"; but Idumea was not east, but south of Palestine: therefore in Scripture language, the phrase cannot apply to that country, but probably refers to the north of Arabia-Deserta, between Palestine, Idumea, and the Euphrates. So the Arabs still show in the Houran a place called Uz as the residence of Job.<div eID=\"gen6453\" type=\"x-p\"/> <div sID=\"gen6454\" type=\"x-p\"/><hi type=\"bold\">The Age When Job Lived.--</hi>Eusebius fixes it two ages before Moses, that is, about the time of Isaac: eighteen hundred years before Christ, and six hundred after the Deluge. Agreeing with this are the following considerations: 1. Job's length of life is patriarchal, two hundred years. 2. He alludes only to the earliest form of idolatry, namely, the worship of the sun, moon, and heavenly hosts (called Saba, whence arises the title \"Lord of Sabaoth,\" as opposed to Sabeanism) (<reference osisRef=\"Job.31.26-Job.28.3\">Job 31:26-28). 3</reference>. The number of oxen and rams sacrificed, seven, as in the case of Balaam. God would not have sanctioned this after the giving of the Mosaic law, though He might graciously accommodate Himself to existing customs before the law. 4. The language of Job is Hebrew, interspersed occasionally with Syriac and Arabic expressions, implying a time when all the Shemitic tribes spoke one common tongue and had not branched into different dialects, Hebrew, Syriac, and Arabic. 5. He speaks of the most ancient kind of writing, namely, sculpture. Riches also are reckoned by cattle. The Hebrew word, translated \"a piece of money,\" ought rather be rendered \"a lamb.\" 6. There is no allusion to the exodus from Egypt and to the miracles that accompanied it; nor to the destruction of Sodom and Gomorrah (Patrick, however, thinks there is); though there is to the Flood (<reference osisRef=\"Job.22.17\">Job 22:17</reference>); and these events, happening in Job's vicinity, would have been striking illustrations of the argument for God's interposition in destroying the wicked and vindicating the righteous, had Job and his friends known of them. Nor is there any undoubted reference to the Jewish law, ritual, and priesthood. 7. The religion of Job is that which prevailed among the patriarchs previous to the law; sacrifices performed by the head of the family; no officiating priesthood, temple, or consecrated altar.<div eID=\"gen6454\" type=\"x-p\"/> <div sID=\"gen6455\" type=\"x-p\"/><hi type=\"bold\">The Writer.--</hi>All the foregoing facts accord with Job himself having been the author. The style of thought, imagery, and manners, are such as we should look for in the work of an Arabian emir. There is precisely that degree of knowledge of primitive tradition (see <reference osisRef=\"Job.31.33\">Job 31:33</reference>, as to Adam) which was universally spread abroad in the days of Noah and Abraham, and which was subsequently embodied in the early chapters of Genesis. Job, in his speeches, shows that he was much more competent to compose the work than Elihu, to whom Lightfoot attributes it. The style forbids its being attributed to Moses, to whom its composition is by some attributed, \"whilst he was among the Midianites, about 1520 B.C.\" But the fact, that it, though not a Jewish book, appears among the Hebrew sacred writings, makes it likely that it came to the knowledge of Moses during the forty years which he passed in parts of Arabia, chiefly near Horeb; and that he, by divine guidance, introduced it as a sacred writing to the Israelites, to whom, in their affliction, the patience and restoration of Job were calculated to be a lesson of especial utility. That it is inspired appears from the fact that Paul (<reference osisRef=\"1Cor.3.19\">1Co 3:19</reference>) quotes it (<reference osisRef=\"Job.5.13\">Job 5:13</reference>) with the formula, \"It is written.\" Our Savior, too <reference osisRef=\"Matt.24.28\">Mt 24:28</reference>), plainly refers to Job 29:30. Compare also <reference osisRef=\"Jas.4.10\">Jas 4:10</reference> and <reference osisRef=\"1Pet.5.6\">1Pe 5:6</reference> with <reference osisRef=\"Job.22.29\">Job 22:29</reference>; <reference osisRef=\"Rom.11.34\">Ro 11:34</reference>, <reference osisRef=\"Rom.11.35\">35</reference> with <reference osisRef=\"Job.15.8\">Job 15:8</reference>. It is probably the oldest book in the world. It stands among the Hagiographa in the threefold division of Scripture into the Law, the Prophets, and the Hagiographa (\"Psalms,\" <reference osisRef=\"Luke.24.44\">Lu 24:44</reference>).<div eID=\"gen6455\" type=\"x-p\"/> <div sID=\"gen6456\" type=\"x-p\"/><hi type=\"bold\">Design of the Book.--</hi>It is a public debate in poetic form on an important question concerning the divine government; moreover the prologue and epilogue, which are in prose, shed the interest of a living history over the debate, which would otherwise be but a contest of abstract reasonings. To each speaker of the three friends three speeches are assigned. Job having no one to stand by him is allowed to reply to each speech of each of the three. Eliphaz, as the oldest, leads the way. Zophar, at his third turn, failed to speak, thus virtually owning himself overcome (<reference osisRef=\"Job.27.1-Job.27.23\">Job 27:1-23</reference>). Therefore Job continued his reply, which forms three speeches (Job 26:1-14; 27:1-23; 28:1-28; 29:1-31:40). Elihu (Job 32:1-37:24) is allowed four speeches. Jehovah makes three addresses (Job 38:1-41:34). Thus, throughout there is a tripartite division. The whole is divided into three parts--the prologue, poem proper, and epilogue. The poem, into three--(1) The dispute of Job and his three friends; (2) The address of Elihu; (3) The address of God. There are three series in the controversy, and in the same order. The epilogue (<reference osisRef=\"Job.42.1-Job.42.17\">Job 42:1-17</reference>) also is threefold; Job's justification, reconciliation with his friends, restoration. The speakers also in their successive speeches regularly advance from less to greater vehemence. With all this artificial composition, everything seems easy and natural.<div eID=\"gen6456\" type=\"x-p\"/> <div sID=\"gen6457\" type=\"x-p\"/> The question to be solved, as exemplified in the case of Job, is, Why are the righteous afflicted consistently with God's justice? The doctrine of retribution after death, no doubt, is the great solution of the difficulty. And to it Job plainly refers in <reference osisRef=\"Job.14.14\">Job 14:14</reference>, and <reference osisRef=\"Job.19.25\">Job 19:25</reference>. The objection to this, that the explicitness of the language on the resurrection in Job is inconsistent with the obscurity on the subject in the early books of the Old Testament, is answered by the fact that Job enjoyed the divine vision (<reference osisRef=\"Job.38.1\">Job 38:1</reference>; <reference osisRef=\"Job.42.5\">42:5</reference>), and therefore, by inspiration, foretold these truths. Next, the revelations made outside of Israel being few needed to be the more explicit; thus Balaam's prophecy (<reference osisRef=\"Num.24.17\">Nu 24:17</reference>) was clear enough to lead the wise men of the East by the star (<reference osisRef=\"Matt.2.2\">Mt 2:2</reference>); and in the age before the written law, it was the more needful for God not to leave Himself without witness of the truth. Still Job evidently did not fully realize the significance designed by the Spirit in his own words (compare <reference osisRef=\"1Pet.1.11\">1Pe 1:11</reference>, <reference osisRef=\"1Cor.1.12\">12</reference>). The doctrine, though existing, was not plainly revealed or at least understood. Hence he does not mainly refer to this solution. Yes, and even now, we need something in addition to this solution. David, who firmly believed in a future retribution (<reference osisRef=\"Ps.16.10\">Psa 16:10</reference>; <reference osisRef=\"Ps.17.15\">17:15</reference>), still felt the difficulty not entirely solved thereby (<reference osisRef=\"Ps.83.1-Ps.83.18\">Psa 83:1-18</reference>). The solution is not in Job's or in his three friends' speeches. It must, therefore, be in Elihu's. God will hold a final judgment, no doubt, to clear up all that seems dark in His present dealings; but He also now providentially and morally governs the world and all the events of human life. Even the comparatively righteous are not without sin which needs to be corrected. The justice and love of God administer the altogether deserved and merciful correction. Affliction to the godly is thus mercy and justice in disguise. The afflicted believer on repentance sees this. \"Via crucis, via salutis\" [\"The way of the cross, the way of deliverance\"]. Though afflicted, the godly are happier even now than the ungodly, and when affliction has attained its end, it is removed by the Lord. In the Old Testament the consolations are more temporal and outward; in the New Testament, more spiritual; but in neither to the entire exclusion of the other. \"Prosperity,\" says Bacon, \"is the blessing of the Old Testament; adversity that of the New Testament, which is the mark of God's more especial favor. Yet even in the Old Testament, if you listen to David's harp, you shall hear as many hearse-like airs as carols; and the pencil of the Holy Ghost has labored more in describing the afflictions of Job than the felicities of Solomon. Prosperity is not without many fears and distastes; and adversity is not without comforts and hopes.\" This solution of Elihu is seconded by the addresses of God, in which it is shown God must be just (because He is God), as Elihu had shown how God can be just, and yet the righteous be afflicted. It is also acquiesced in by Job, who makes no reply. God reprimands the \"three\" friends, but not Elihu. Job's general course is approved; he is directed to intercede for his friends, and is restored to double his former prosperity.<div eID=\"gen6457\" type=\"x-p\"/> <div sID=\"gen6458\" type=\"x-p\"/><hi type=\"bold\">Poetry.--</hi>In all countries poetry is the earliest form of composition as being best retained in the memory. In the East especially it was customary for sentiments to be preserved in a terse, proverbial, and poetic form (called maschal). Hebrew poetry is not constituted by the rhythm or meter, but in a form peculiar to itself: 1. In an alphabetical arrangement somewhat like our acrostic. For instance, La 1:1-22. 2. The same verse repeated at intervals; as in Psa 42:1-11; 107:1-43. 3. Rhythm of gradation. Psalms of degrees, Psa 120:1-134:3, in which the expression of the previous verse is resumed and carried forward in the next (<reference osisRef=\"Ps.121.1-Ps.8.4\">Psa 121:1-8). 4</reference>. The chief characteristic of Hebrew poetry is parallelism, or the correspondence of the same ideas in the parallel clauses. The earliest instance is Enoch's prophecy (Jude 14), and Lamech's parody of it (<reference osisRef=\"Gen.4.23\">Ge 4:23</reference>). Three kinds occur: (1) The synonymous parallelism, in which the second is a repetition of the first, with or without increase of force (<reference osisRef=\"Ps.22.27\">Psa 22:27</reference>; <reference osisRef=\"Isa.15.1\">Is 15:1</reference>); sometimes with double parallelism (<reference osisRef=\"Isa.1.15\">Is 1:15</reference>). (<reference osisRef=\"2Cor.1.2\">2</reference>) The antithetic, in which the idea of the second clause is the converse of that in the first (<reference osisRef=\"Prov.10.1\">Pr 10:1</reference>). (<reference osisRef=\"Prov.10.3\">3</reference>) The synthetic, where there is a correspondence between different propositions, noun answering to noun, verb to verb, member to member, the sentiment, moreover, being not merely echoed, or put in contrast, but enforced by accessory ideas (<reference osisRef=\"Job.3.3-Job.3.9\">Job 3:3-9</reference>). Also alternate (<reference osisRef=\"Isa.51.19\">Is 51:19</reference>). \"Desolation and destruction, famine and sword,\" that is, desolation by famine, and destruction by the sword. Introverted; where the fourth answers to the first, and the third to the second (<reference osisRef=\"Matt.7.6\">Mt 7:6</reference>). Parallelism thus often affords a key to the interpretation. For fuller information, see Lowth (Introduction to Isaiah, and Lecture on Hebrew Poetry) and Herder (Spirit of Hebrew Poetry, translated by Marsh). The simpler and less artificial forms of parallelism prevail in Job--a mark of its early age.<div eID=\"gen6458\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <div sID=\"gen6459\" type=\"x-p\"/><hi type=\"bold\">PART I--</hi>PROLOGUE OR HISTORICAL INTRODUCTION IN PROSE--(<reference osisRef=\"Job.1.1-Job.2.13\">Job 1:1-2:13</reference>)<div eID=\"gen6459\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Job.1.1-Job.1.5\">Job 1:1-5</reference>. The Holiness of Job, His Wealth, &amp;c.</title> <div sID=\"gen6460\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4460\"/><hi type=\"bold\">1. Uz--</hi>north of Arabia-Deserta, lying towards the Euphrates. It was in this neighborhood, and not in that of Idumea, that the Chaldeans and Sabeans who plundered him dwell. The Arabs divide their country into the north, called Sham, or \"the left\"; and the south, called Yemen, or \"the right\"; for they faced east; and so the west was on their left, and the south on their right. Arabia-Deserta was on the east, Arabia-Petræa on the west, and Arabia-Felix on the south.<div eID=\"gen6460\" type=\"x-p\"/> <div sID=\"gen6461\" type=\"x-p\"/><hi type=\"bold\">Job--</hi>The name comes from an Arabic word meaning \"to return,\" namely, to God, \"to repent,\" referring to his end [Eichorn]; or rather from a Hebrew word signifying one to whom enmity was shown, \"greatly tried\" [Gesenius]. Significant names were often given among the Hebrews, from some event of later life (compare <reference osisRef=\"Gen.4.2\">Ge 4:2</reference>, Abel--a \"feeder\" of sheep). So the emir of Uz was by general consent called Job, on account of his \"trials.\" The only other person so called was a son of Issachar (<reference osisRef=\"Gen.46.13\">Ge 46:13</reference>).<div eID=\"gen6461\" type=\"x-p\"/> <div sID=\"gen6462\" type=\"x-p\"/><hi type=\"bold\">perfect--</hi>not absolute or faultless perfection (compare <reference osisRef=\"Job.9.20\">Job 9:20</reference>; <reference osisRef=\"Eccl.7.20\">Ec 7:20</reference>), but integrity, sincerity, and consistency on the whole, in all relations of life (<reference osisRef=\"Gen.6.9\">Ge 6:9</reference>; <reference osisRef=\"Gen.17.1\">17:1</reference>; <reference osisRef=\"Prov.10.9\">Pr 10:9</reference>; <reference osisRef=\"Matt.5.48\">Mt 5:48</reference>). It was the fear of God that kept Job from evil (<reference osisRef=\"Prov.8.13\">Pr 8:13</reference>). <div eID=\"gen6462\" type=\"x-p\"/>",
+      "content_plain": "INTRODUCTION Job a Real Person.-- It has been supposed by some that the book of Job is an allegory, not a real narrative, on account of the artificial character of many of its statements. Thus the sacred numbers, three and seven, often occur. He had seven thousand sheep, seven sons, both before and after his trials; his three friends sit down with him seven days and seven nights; both before and after his trials he had three daughters. So also the number and form of the speeches of the several speakers seem to be artificial. The name of Job, too, is derived from an Arabic word signifying repentance. But Eze 14:14 (compare Eze 14:16 , 20 ) speaks of \"Job\" in conjunction with \"Noah and Daniel,\" real persons. St. James ( Jas 5:11 ) also refers to Job as an example of \"patience,\" which he would not have been likely to do had Job been only a fictitious person. Also the names of persons and places are specified with a particularity not to be looked for in an allegory. As to the exact doubling of his possessions after his restoration, no doubt the round number is given for the exact number, as the latter approached near the former; this is often done in undoubtedly historical books. As to the studied number and form of the speeches, it seems likely that the arguments were substantially those which appear in the book, but that the studied and poetic form was given by Job himself, guided by the Holy Spirit. He lived one hundred and forty years after his trials, and nothing would be more natural than that he should, at his leisure, mould into a perfect form the arguments used in the momentous debate, for the instruction of the Church in all ages. Probably, too, the debate itself occupied several sittings; and the number of speeches assigned to each was arranged by preconcerted agreement, and each was allowed the interval of a day or more to prepare carefully his speech and replies; this will account for the speakers bringing forward their arguments in regular series, no one speaking out of his turn. As to the name Job-- repentance (supposing the derivation correct)--it was common in old times to give a name from circumstances which occurred at an advanced period of life, and this is no argument against the reality of the person. Where Job Lived.-- \"Uz,\" according to Gesenius, means a light, sandy soil, and was in the north of Arabia-Deserta, between Palestine and the Euphrates, called by Ptolemy (Geography, 19) Ausitai or Aisitai. In Ge 10:23 ; 22:21 ; 36:28 ; and 1Ch 1:17 , 42, it is the name of a man. In Jr 25:20 ; La 4:21 ; and Job 1:1 , it is a country. Uz, in Ge 22:21 , is said to be the son of Nahor, brother of Abraham--a different person from the one mentioned ( Ge 10:23 ), a grandson of Shem. The probability is that the country took its name from the latter of the two; for this one was the son of Aram, from whom the Arameans take their name, and these dwelt in Mesopotamia, between the rivers Euphrates and Tigris. Compare as to the dwelling of the sons of Shem in Ge 10:30 , \"a mount of the East,\" answering to \"men of the East\" ( Job 1:3 ). Rawlinson, in his deciphering of the Assyrian inscriptions, states that \"Uz is the prevailing name of the country at the mouth of the Euphrates.\" It is probable that Eliphaz the Temanite and the Sabeans dwelt in that quarter; and we know that the Chaldeans resided there, and not near Idumea, which some identify with Uz. The tornado from \"the wilderness\" ( Job 1:19 ) agrees with the view of it being Arabia-Deserta. Job ( Job 1:3 ) is called \"the greatest of the men of the East\"; but Idumea was not east, but south of Palestine: therefore in Scripture language, the phrase cannot apply to that country, but probably refers to the north of Arabia-Deserta, between Palestine, Idumea, and the Euphrates. So the Arabs still show in the Houran a place called Uz as the residence of Job. The Age When Job Lived.-- Eusebius fixes it two ages before Moses, that is, about the time of Isaac: eighteen hundred years before Christ, and six hundred after the Deluge. Agreeing with this are the following considerations: 1. Job's length of life is patriarchal, two hundred years. 2. He alludes only to the earliest form of idolatry, namely, the worship of the sun, moon, and heavenly hosts (called Saba, whence arises the title \"Lord of Sabaoth,\" as opposed to Sabeanism) ( Job 31:26-28). 3 . The number of oxen and rams sacrificed, seven, as in the case of Balaam. God would not have sanctioned this after the giving of the Mosaic law, though He might graciously accommodate Himself to existing customs before the law. 4. The language of Job is Hebrew, interspersed occasionally with Syriac and Arabic expressions, implying a time when all the Shemitic tribes spoke one common tongue and had not branched into different dialects, Hebrew, Syriac, and Arabic. 5. He speaks of the most ancient kind of writing, namely, sculpture. Riches also are reckoned by cattle. The Hebrew word, translated \"a piece of money,\" ought rather be rendered \"a lamb.\" 6. There is no allusion to the exodus from Egypt and to the miracles that accompanied it; nor to the destruction of Sodom and Gomorrah (Patrick, however, thinks there is); though there is to the Flood ( Job 22:17 ); and these events, happening in Job's vicinity, would have been striking illustrations of the argument for God's interposition in destroying the wicked and vindicating the righteous, had Job and his friends known of them. Nor is there any undoubted reference to the Jewish law, ritual, and priesthood. 7. The religion of Job is that which prevailed among the patriarchs previous to the law; sacrifices performed by the head of the family; no officiating priesthood, temple, or consecrated altar. The Writer.-- All the foregoing facts accord with Job himself having been the author. The style of thought, imagery, and manners, are such as we should look for in the work of an Arabian emir. There is precisely that degree of knowledge of primitive tradition (see Job 31:33 , as to Adam) which was universally spread abroad in the days of Noah and Abraham, and which was subsequently embodied in the early chapters of Genesis. Job, in his speeches, shows that he was much more competent to compose the work than Elihu, to whom Lightfoot attributes it. The style forbids its being attributed to Moses, to whom its composition is by some attributed, \"whilst he was among the Midianites, about 1520 B.C.\" But the fact, that it, though not a Jewish book, appears among the Hebrew sacred writings, makes it likely that it came to the knowledge of Moses during the forty years which he passed in parts of Arabia, chiefly near Horeb; and that he, by divine guidance, introduced it as a sacred writing to the Israelites, to whom, in their affliction, the patience and restoration of Job were calculated to be a lesson of especial utility. That it is inspired appears from the fact that Paul ( 1Co 3:19 ) quotes it ( Job 5:13 ) with the formula, \"It is written.\" Our Savior, too Mt 24:28 ), plainly refers to Job 29:30. Compare also Jas 4:10 and 1Pe 5:6 with Job 22:29 ; Ro 11:34 , 35 with Job 15:8 . It is probably the oldest book in the world. It stands among the Hagiographa in the threefold division of Scripture into the Law, the Prophets, and the Hagiographa (\"Psalms,\" Lu 24:44 ). Design of the Book.-- It is a public debate in poetic form on an important question concerning the divine government; moreover the prologue and epilogue, which are in prose, shed the interest of a living history over the debate, which would otherwise be but a contest of abstract reasonings. To each speaker of the three friends three speeches are assigned. Job having no one to stand by him is allowed to reply to each speech of each of the three. Eliphaz, as the oldest, leads the way. Zophar, at his third turn, failed to speak, thus virtually owning himself overcome ( Job 27:1-23 ). Therefore Job continued his reply, which forms three speeches (Job 26:1-14; 27:1-23; 28:1-28; 29:1-31:40). Elihu (Job 32:1-37:24) is allowed four speeches. Jehovah makes three addresses (Job 38:1-41:34). Thus, throughout there is a tripartite division. The whole is divided into three parts--the prologue, poem proper, and epilogue. The poem, into three--(1) The dispute of Job and his three friends; (2) The address of Elihu; (3) The address of God. There are three series in the controversy, and in the same order. The epilogue ( Job 42:1-17 ) also is threefold; Job's justification, reconciliation with his friends, restoration. The speakers also in their successive speeches regularly advance from less to greater vehemence. With all this artificial composition, everything seems easy and natural. The question to be solved, as exemplified in the case of Job, is, Why are the righteous afflicted consistently with God's justice? The doctrine of retribution after death, no doubt, is the great solution of the difficulty. And to it Job plainly refers in Job 14:14 , and Job 19:25 . The objection to this, that the explicitness of the language on the resurrection in Job is inconsistent with the obscurity on the subject in the early books of the Old Testament, is answered by the fact that Job enjoyed the divine vision ( Job 38:1 ; 42:5 ), and therefore, by inspiration, foretold these truths. Next, the revelations made outside of Israel being few needed to be the more explicit; thus Balaam's prophecy ( Nu 24:17 ) was clear enough to lead the wise men of the East by the star ( Mt 2:2 ); and in the age before the written law, it was the more needful for God not to leave Himself without witness of the truth. Still Job evidently did not fully realize the significance designed by the Spirit in his own words (compare 1Pe 1:11 , 12 ). The doctrine, though existing, was not plainly revealed or at least understood. Hence he does not mainly refer to this solution. Yes, and even now, we need something in addition to this solution. David, who firmly believed in a future retribution ( Psa 16:10 ; 17:15 ), still felt the difficulty not entirely solved thereby ( Psa 83:1-18 ). The solution is not in Job's or in his three friends' speeches. It must, therefore, be in Elihu's. God will hold a final judgment, no doubt, to clear up all that seems dark in His present dealings; but He also now providentially and morally governs the world and all the events of human life. Even the comparatively righteous are not without sin which needs to be corrected. The justice and love of God administer the altogether deserved and merciful correction. Affliction to the godly is thus mercy and justice in disguise. The afflicted believer on repentance sees this. \"Via crucis, via salutis\" [\"The way of the cross, the way of deliverance\"]. Though afflicted, the godly are happier even now than the ungodly, and when affliction has attained its end, it is removed by the Lord. In the Old Testament the consolations are more temporal and outward; in the New Testament, more spiritual; but in neither to the entire exclusion of the other. \"Prosperity,\" says Bacon, \"is the blessing of the Old Testament; adversity that of the New Testament, which is the mark of God's more especial favor. Yet even in the Old Testament, if you listen to David's harp, you shall hear as many hearse-like airs as carols; and the pencil of the Holy Ghost has labored more in describing the afflictions of Job than the felicities of Solomon. Prosperity is not without many fears and distastes; and adversity is not without comforts and hopes.\" This solution of Elihu is seconded by the addresses of God, in which it is shown God must be just (because He is God), as Elihu had shown how God can be just, and yet the righteous be afflicted. It is also acquiesced in by Job, who makes no reply. God reprimands the \"three\" friends, but not Elihu. Job's general course is approved; he is directed to intercede for his friends, and is restored to double his former prosperity. Poetry.-- In all countries poetry is the earliest form of composition as being best retained in the memory. In the East especially it was customary for sentiments to be preserved in a terse, proverbial, and poetic form (called maschal). Hebrew poetry is not constituted by the rhythm or meter, but in a form peculiar to itself: 1. In an alphabetical arrangement somewhat like our acrostic. For instance, La 1:1-22. 2. The same verse repeated at intervals; as in Psa 42:1-11; 107:1-43. 3. Rhythm of gradation. Psalms of degrees, Psa 120:1-134:3, in which the expression of the previous verse is resumed and carried forward in the next ( Psa 121:1-8). 4 . The chief characteristic of Hebrew poetry is parallelism, or the correspondence of the same ideas in the parallel clauses. The earliest instance is Enoch's prophecy (Jude 14), and Lamech's parody of it ( Ge 4:23 ). Three kinds occur: (1) The synonymous parallelism, in which the second is a repetition of the first, with or without increase of force ( Psa 22:27 ; Is 15:1 ); sometimes with double parallelism ( Is 1:15 ). ( 2 ) The antithetic, in which the idea of the second clause is the converse of that in the first ( Pr 10:1 ). ( 3 ) The synthetic, where there is a correspondence between different propositions, noun answering to noun, verb to verb, member to member, the sentiment, moreover, being not merely echoed, or put in contrast, but enforced by accessory ideas ( Job 3:3-9 ). Also alternate ( Is 51:19 ). \"Desolation and destruction, famine and sword,\" that is, desolation by famine, and destruction by the sword. Introverted; where the fourth answers to the first, and the third to the second ( Mt 7:6 ). Parallelism thus often affords a key to the interpretation. For fuller information, see Lowth (Introduction to Isaiah, and Lecture on Hebrew Poetry) and Herder (Spirit of Hebrew Poetry, translated by Marsh). The simpler and less artificial forms of parallelism prevail in Job--a mark of its early age. CHAPTER 1 PART I-- PROLOGUE OR HISTORICAL INTRODUCTION IN PROSE--( Job 1:1-2:13 ) Job 1:1-5 . The Holiness of Job, His Wealth, &c. 1. Uz-- north of Arabia-Deserta, lying towards the Euphrates. It was in this neighborhood, and not in that of Idumea, that the Chaldeans and Sabeans who plundered him dwell. The Arabs divide their country into the north, called Sham, or \"the left\"; and the south, called Yemen, or \"the right\"; for they faced east; and so the west was on their left, and the south on their right. Arabia-Deserta was on the east, Arabia-Petræa on the west, and Arabia-Felix on the south. Job-- The name comes from an Arabic word meaning \"to return,\" namely, to God, \"to repent,\" referring to his end [Eichorn]; or rather from a Hebrew word signifying one to whom enmity was shown, \"greatly tried\" [Gesenius]. Significant names were often given among the Hebrews, from some event of later life (compare Ge 4:2 , Abel--a \"feeder\" of sheep). So the emir of Uz was by general consent called Job, on account of his \"trials.\" The only other person so called was a son of Issachar ( Ge 46:13 ). perfect-- not absolute or faultless perfection (compare Job 9:20 ; Ec 7:20 ), but integrity, sincerity, and consistency on the whole, in all relations of life ( Ge 6:9 ; 17:1 ; Pr 10:9 ; Mt 5:48 ). It was the fear of God that kept Job from evil ( Pr 8:13 ).",
+      "source_record_sha256": "309f0f7888a768e0ad8c0ff1f1947707d0ddddd92ccd064c0a1a084ec8308a88",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 380,
+        "length": 19232
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. Uz-- north of Arabia-Deserta, lying towards the Euphrates. It was in this neighborhood, and not in that of Idumea, that the Chaldeans and Sabeans who plundered him dwell. The Arabs divide their country into the north, called Sham, or \"the left\"; and the south, called Yemen, or \"the right\"; for they faced east; and so the west was on their left, and the south on their right. Arabia-Deserta was on the east, Arabia-Petræa on the west, and Arabia-Felix on the south. Job-- The name comes from an Arabic word meaning \"to return,\" namely, to God, \"to repent,\" referring to his end [Eichorn]; or rather from a Hebrew word signifying one to whom enmity was shown, \"greatly tried\" [Gesenius]. Significant names were often given among the Hebrews, from some event of later life (compare Ge 4:2 , Abel--a \"feeder\" of sheep). So the emir of Uz was by general consent called Job, on account of his \"trials.\" The only other person so called was a son of Issachar ( Ge 46:13 ). perfect-- not absolute or faultless perfection (compare Job 9:20 ; Ec 7:20 ), but integrity, sincerity, and consistency on the whole, in all relations of life ( Ge 6:9 ; 17:1 ; Pr 10:9 ; Mt 5:48 ). It was the fear of God that kept Job from evil ( Pr 8:13 ).",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        17419,
+        19231
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. Uz--</hi>north of Arabia-Deserta, lying towards the Euphrates. It was in this neighborhood, and not in that of Idumea, that the Chaldeans and Sabeans who plundered him dwell. The Arabs divide their country into the north, called Sham, or \"the left\"; and the south, called Yemen, or \"the right\"; for they faced east; and so the west was on their left, and the south on their right. Arabia-Deserta was on the east, Arabia-Petræa on the west, and Arabia-Felix on the south.<div eID=\"gen6460\" type=\"x-p\"/> <div sID=\"gen6461\" type=\"x-p\"/><hi type=\"bold\">Job--</hi>The name comes from an Arabic word meaning \"to return,\" namely, to God, \"to repent,\" referring to his end [Eichorn]; or rather from a Hebrew word signifying one to whom enmity was shown, \"greatly tried\" [Gesenius]. Significant names were often given among the Hebrews, from some event of later life (compare <reference osisRef=\"Gen.4.2\">Ge 4:2</reference>, Abel--a \"feeder\" of sheep). So the emir of Uz was by general consent called Job, on account of his \"trials.\" The only other person so called was a son of Issachar (<reference osisRef=\"Gen.46.13\">Ge 46:13</reference>).<div eID=\"gen6461\" type=\"x-p\"/> <div sID=\"gen6462\" type=\"x-p\"/><hi type=\"bold\">perfect--</hi>not absolute or faultless perfection (compare <reference osisRef=\"Job.9.20\">Job 9:20</reference>; <reference osisRef=\"Eccl.7.20\">Ec 7:20</reference>), but integrity, sincerity, and consistency on the whole, in all relations of life (<reference osisRef=\"Gen.6.9\">Ge 6:9</reference>; <reference osisRef=\"Gen.17.1\">17:1</reference>; <reference osisRef=\"Prov.10.9\">Pr 10:9</reference>; <reference osisRef=\"Matt.5.48\">Mt 5:48</reference>). It was the fear of God that kept Job from evil (<reference osisRef=\"Prov.8.13\">Pr 8:13</reference>). <div eID=\"gen6462\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.3-3:18:19612:1410",
+      "passage_start": "JOB.1.3",
+      "passage_end": "JOB.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4461\"/><div sID=\"gen6463\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4461\"/><hi type=\"bold\">3. she-asses--</hi>prized on account of their milk, and for riding (<reference osisRef=\"Judg.5.10\">Jud 5:10</reference>). Houses and lands are not mentioned among the emir's wealth, as nomadic tribes dwell in movable tents and live chiefly by pasture, the right to the soil not being appropriated by individuals. The \"five hundred yoke of oxen\" imply, however, that Job tilled the soil. He seems also to have had a dwelling in a town, in which respect he differed from the patriarchs. Camels are well called \"ships of the desert,\" especially valuable for caravans, as being able to lay in a store of water that suffices them for days, and to sustain life on a very few thistles or thorns.<div eID=\"gen6463\" type=\"x-p\"/> <div sID=\"gen6464\" type=\"x-p\"/><hi type=\"bold\">household--</hi>(<reference osisRef=\"Gen.26.14\">Ge 26:14</reference>). The other rendering which the Hebrew admits, \"husbandry,\" is not so probable.<div eID=\"gen6464\" type=\"x-p\"/> <div sID=\"gen6465\" type=\"x-p\"/><hi type=\"bold\">men of the east--</hi>denoting in Scripture those living east of Palestine; as the people of North Arabia-Deserta (<reference osisRef=\"Judg.6.3\">Jud 6:3</reference>; <reference osisRef=\"Ezek.25.4\">Eze 25:4</reference>). <div eID=\"gen6465\" type=\"x-p\"/>",
+      "content_plain": "3. she-asses-- prized on account of their milk, and for riding ( Jud 5:10 ). Houses and lands are not mentioned among the emir's wealth, as nomadic tribes dwell in movable tents and live chiefly by pasture, the right to the soil not being appropriated by individuals. The \"five hundred yoke of oxen\" imply, however, that Job tilled the soil. He seems also to have had a dwelling in a town, in which respect he differed from the patriarchs. Camels are well called \"ships of the desert,\" especially valuable for caravans, as being able to lay in a store of water that suffices them for days, and to sustain life on a very few thistles or thorns. household-- ( Ge 26:14 ). The other rendering which the Hebrew admits, \"husbandry,\" is not so probable. men of the east-- denoting in Scripture those living east of Palestine; as the people of North Arabia-Deserta ( Jud 6:3 ; Eze 25:4 ).",
+      "source_record_sha256": "c65d2e88ad6310ff8c47b01e98884829efd5cc0a378c991701e026fe5b58dcad",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 19612,
+        "length": 1410
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. she-asses-- prized on account of their milk, and for riding ( Jud 5:10 ). Houses and lands are not mentioned among the emir's wealth, as nomadic tribes dwell in movable tents and live chiefly by pasture, the right to the soil not being appropriated by individuals. The \"five hundred yoke of oxen\" imply, however, that Job tilled the soil. He seems also to have had a dwelling in a town, in which respect he differed from the patriarchs. Camels are well called \"ships of the desert,\" especially valuable for caravans, as being able to lay in a store of water that suffices them for days, and to sustain life on a very few thistles or thorns. household-- ( Ge 26:14 ). The other rendering which the Hebrew admits, \"husbandry,\" is not so probable. men of the east-- denoting in Scripture those living east of Palestine; as the people of North Arabia-Deserta ( Jud 6:3 ; Eze 25:4 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.4-4:18:21022:640",
+      "passage_start": "JOB.1.4",
+      "passage_end": "JOB.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4462\"/><div sID=\"gen6466\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4462\"/><hi type=\"bold\">4. every one his day--</hi>namely, the birthday (<reference osisRef=\"Job.3.1\">Job 3:1</reference>). Implying the love and harmony of the members of the family, as contrasted with the ruin which soon broke up such a scene of happiness. The sisters are specified, as these feasts were not for revelry, which would be inconsistent with the presence of sisters. These latter were invited by the brothers, though they gave no invitations in return. <div eID=\"gen6466\" type=\"x-p\"/>",
+      "content_plain": "4. every one his day-- namely, the birthday ( Job 3:1 ). Implying the love and harmony of the members of the family, as contrasted with the ruin which soon broke up such a scene of happiness. The sisters are specified, as these feasts were not for revelry, which would be inconsistent with the presence of sisters. These latter were invited by the brothers, though they gave no invitations in return.",
+      "source_record_sha256": "52bd61de83b778842fb69ca8f9e3ccb7effeaeb19565402d8a38a30db44fb228",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 21022,
+        "length": 640
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. every one his day-- namely, the birthday ( Job 3:1 ). Implying the love and harmony of the members of the family, as contrasted with the ruin which soon broke up such a scene of happiness. The sisters are specified, as these feasts were not for revelry, which would be inconsistent with the presence of sisters. These latter were invited by the brothers, though they gave no invitations in return."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.5-5:18:21662:1916",
+      "passage_start": "JOB.1.5",
+      "passage_end": "JOB.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4463\"/><div sID=\"gen6467\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4463\"/><hi type=\"bold\">5. when the days of their feasting were gone about--</hi>that is, at the end of all the birthdays collectively, when the banquets had gone round through all the families.<div eID=\"gen6467\" type=\"x-p\"/> <div sID=\"gen6468\" type=\"x-p\"/><hi type=\"bold\">Job ... sanctified--</hi>by offering up as many expiatory burnt offerings as he had sons (<reference osisRef=\"Lev.1.4\">Le 1:4</reference>). This was done \"in the morning\" (<reference osisRef=\"Gen.22.3\">Ge 22:3</reference>; <reference osisRef=\"Lev.6.12\">Le 6:12</reference>). Jesus also began devotions early (<reference osisRef=\"Mark.1.35\">Mr 1:35</reference>). The holocaust, or burnt offering, in patriarchal times, was offered (literally, \"caused to ascend,\" referring to the smoke ascending to heaven) by each father of a family officiating as priest in behalf of his household.<div eID=\"gen6468\" type=\"x-p\"/> <div sID=\"gen6469\" type=\"x-p\"/><hi type=\"bold\">cursed God--</hi>The same Hebrew word means to \"curse,\" and to \"bless\"; Gesenius says, the original sense is to \"kneel,\" and thus it came to mean bending the knee in order to invoke either a blessing or a curse. Cursing is a perversion of blessing, as all sin is of goodness. Sin is a degeneracy, not a generation. It is not, however, likely that Job should fear the possibility of his sons cursing God. The sense \"bid farewell to,\" derived from the blessing customary at parting, seems sufficient (<reference osisRef=\"Gen.47.10\">Ge 47:10</reference>). Thus Umbreit translates \"may have dismissed God from their hearts\"; namely, amid the intoxication of pleasure (<reference osisRef=\"Prov.20.1\">Pr 20:1</reference>). This act illustrates Job's \"fear of God\" (<reference osisRef=\"Job.1.1\">Job 1:1</reference>). <div eID=\"gen6469\" type=\"x-p\"/>",
+      "content_plain": "5. when the days of their feasting were gone about-- that is, at the end of all the birthdays collectively, when the banquets had gone round through all the families. Job ... sanctified-- by offering up as many expiatory burnt offerings as he had sons ( Le 1:4 ). This was done \"in the morning\" ( Ge 22:3 ; Le 6:12 ). Jesus also began devotions early ( Mr 1:35 ). The holocaust, or burnt offering, in patriarchal times, was offered (literally, \"caused to ascend,\" referring to the smoke ascending to heaven) by each father of a family officiating as priest in behalf of his household. cursed God-- The same Hebrew word means to \"curse,\" and to \"bless\"; Gesenius says, the original sense is to \"kneel,\" and thus it came to mean bending the knee in order to invoke either a blessing or a curse. Cursing is a perversion of blessing, as all sin is of goodness. Sin is a degeneracy, not a generation. It is not, however, likely that Job should fear the possibility of his sons cursing God. The sense \"bid farewell to,\" derived from the blessing customary at parting, seems sufficient ( Ge 47:10 ). Thus Umbreit translates \"may have dismissed God from their hearts\"; namely, amid the intoxication of pleasure ( Pr 20:1 ). This act illustrates Job's \"fear of God\" ( Job 1:1 ).",
+      "source_record_sha256": "7581b0728e8890ff7a21e072311a5e25f2c1ac392eb940b2099f6284b19e689b",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 21662,
+        "length": 1916
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. when the days of their feasting were gone about-- that is, at the end of all the birthdays collectively, when the banquets had gone round through all the families. Job ... sanctified-- by offering up as many expiatory burnt offerings as he had sons ( Le 1:4 ). This was done \"in the morning\" ( Ge 22:3 ; Le 6:12 ). Jesus also began devotions early ( Mr 1:35 ). The holocaust, or burnt offering, in patriarchal times, was offered (literally, \"caused to ascend,\" referring to the smoke ascending to heaven) by each father of a family officiating as priest in behalf of his household. cursed God-- The same Hebrew word means to \"curse,\" and to \"bless\"; Gesenius says, the original sense is to \"kneel,\" and thus it came to mean bending the knee in order to invoke either a blessing or a curse. Cursing is a perversion of blessing, as all sin is of goodness. Sin is a degeneracy, not a generation. It is not, however, likely that Job should fear the possibility of his sons cursing God. The sense \"bid farewell to,\" derived from the blessing customary at parting, seems sufficient ( Ge 47:10 ). Thus Umbreit translates \"may have dismissed God from their hearts\"; namely, amid the intoxication of pleasure ( Pr 20:1 ). This act illustrates Job's \"fear of God\" ( Job 1:1 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.6-6:18:23578:3090",
+      "passage_start": "JOB.1.6",
+      "passage_end": "JOB.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4464\"/><title type=\"x-s3\"><reference osisRef=\"Job.1.6-Job.1.12\">Job 1:6-12</reference>. Satan, Appearing before God, Falsely Accuses Job.</title> <div sID=\"gen6470\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4464\"/><hi type=\"bold\">6. sons of God--</hi>angels (<reference osisRef=\"Job.38.7\">Job 38:7</reference>; <reference osisRef=\"1Kgs.22.19\">1Ki 22:19</reference>). They present themselves to render account of their \"ministry\" in other parts of the universe (<reference osisRef=\"Heb.1.14\">He 1:14</reference>).<div eID=\"gen6470\" type=\"x-p\"/> <div sID=\"gen6471\" type=\"x-p\"/><hi type=\"bold\">the Lord--</hi>Hebrew, Jehovah, the self-existing God, faithful to His promises. God says (<reference osisRef=\"Exod.6.3\">Ex 6:3</reference>) that He was not known to the patriarchs by this name. But, as the name occurs previously in <reference osisRef=\"Gen.2.7-Gen.2.9\">Ge 2:7-9</reference>, &amp;c., what must be meant is, not until the time of delivering Israel by Moses was He known peculiarly and publicly in the character which the name means; namely, \"making things to be,\" fulfilling the promises made to their forefathers. This name, therefore, here, is no objection against the antiquity of the Book of Job.<div eID=\"gen6471\" type=\"x-p\"/> <div sID=\"gen6472\" type=\"x-p\"/><hi type=\"bold\">Satan--</hi>The tradition was widely spread that he had been the agent in Adam's temptation. Hence his name is given without comment. The feeling with which he looks on Job is similar to that with which he looked on Adam in Paradise: emboldened by his success in the case of one not yet fallen, he is confident that the piety of Job, one of a fallen race, will not stand the test. He had fallen himself (<reference osisRef=\"Job.4.19\">Job 4:19</reference>; <reference osisRef=\"Job.15.15\">15:15</reference>; Jude 6). In the Book of Job, Satan is first designated by name: \"Satan,\" Hebrew, \"one who lies in wait\"; an \"adversary\" in a court of justice (<reference osisRef=\"1Chr.21.1\">1Ch 21:1</reference>; <reference osisRef=\"Ps.109.6\">Psa 109:6</reference>; <reference osisRef=\"Zech.3.1\">Zec 3:1</reference>); \"accuser\" (<reference osisRef=\"Rev.12.10\">Re 12:10</reference>). He has the law of God on his side by man's sin, and against man. But Jesus Christ has fulfilled the law for us; justice is once more on man's side against Satan (<reference osisRef=\"Isa.42.21\">Is 42:21</reference>); and so Jesus Christ can plead as our Advocate against the adversary. \"Devil\" is the Greek name--the \"slanderer,\" or \"accuser.\" He is subject to God, who uses his ministry for chastising man. In Arabic, Satan is often applied to a serpent (<reference osisRef=\"Gen.3.1\">Ge 3:1</reference>). He is called prince of this world (<reference osisRef=\"John.12.31\">Joh 12:31</reference>); the god of this world (<reference osisRef=\"2Cor.4.4\">2Co 4:4</reference>); prince of the power of the air (<reference osisRef=\"Eph.2.2\">Ep 2:2</reference>). God here questions him, in order to vindicate His own ways before angels. <div eID=\"gen6472\" type=\"x-p\"/>",
+      "content_plain": "Job 1:6-12 . Satan, Appearing before God, Falsely Accuses Job. 6. sons of God-- angels ( Job 38:7 ; 1Ki 22:19 ). They present themselves to render account of their \"ministry\" in other parts of the universe ( He 1:14 ). the Lord-- Hebrew, Jehovah, the self-existing God, faithful to His promises. God says ( Ex 6:3 ) that He was not known to the patriarchs by this name. But, as the name occurs previously in Ge 2:7-9 , &c., what must be meant is, not until the time of delivering Israel by Moses was He known peculiarly and publicly in the character which the name means; namely, \"making things to be,\" fulfilling the promises made to their forefathers. This name, therefore, here, is no objection against the antiquity of the Book of Job. Satan-- The tradition was widely spread that he had been the agent in Adam's temptation. Hence his name is given without comment. The feeling with which he looks on Job is similar to that with which he looked on Adam in Paradise: emboldened by his success in the case of one not yet fallen, he is confident that the piety of Job, one of a fallen race, will not stand the test. He had fallen himself ( Job 4:19 ; 15:15 ; Jude 6). In the Book of Job, Satan is first designated by name: \"Satan,\" Hebrew, \"one who lies in wait\"; an \"adversary\" in a court of justice ( 1Ch 21:1 ; Psa 109:6 ; Zec 3:1 ); \"accuser\" ( Re 12:10 ). He has the law of God on his side by man's sin, and against man. But Jesus Christ has fulfilled the law for us; justice is once more on man's side against Satan ( Is 42:21 ); and so Jesus Christ can plead as our Advocate against the adversary. \"Devil\" is the Greek name--the \"slanderer,\" or \"accuser.\" He is subject to God, who uses his ministry for chastising man. In Arabic, Satan is often applied to a serpent ( Ge 3:1 ). He is called prince of this world ( Joh 12:31 ); the god of this world ( 2Co 4:4 ); prince of the power of the air ( Ep 2:2 ). God here questions him, in order to vindicate His own ways before angels.",
+      "source_record_sha256": "006f8b647ddecf958cc06f60090bd80a5f9d675d6ad19b7a3ee5954109257a23",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 23578,
+        "length": 3090
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Job 1:6-12 . Satan, Appearing before God, Falsely Accuses Job. 6. sons of God-- angels ( Job 38:7 ; 1Ki 22:19 ). They present themselves to render account of their \"ministry\" in other parts of the universe ( He 1:14 ). the Lord-- Hebrew, Jehovah, the self-existing God, faithful to His promises. God says ( Ex 6:3 ) that He was not known to the patriarchs by this name. But, as the name occurs previously in Ge 2:7-9 , &c., what must be meant is, not until the time of delivering Israel by Moses was He known peculiarly and publicly in the character which the name means; namely, \"making things to be,\" fulfilling the promises made to their forefathers. This name, therefore, here, is no objection against the antiquity of the Book of Job. Satan-- The tradition was widely spread that he had been the agent in Adam's temptation. Hence his name is given without comment. The feeling with which he looks on Job is similar to that with which he looked on Adam in Paradise: emboldened by his success in the case of one not yet fallen, he is confident that the piety of Job, one of a fallen race, will not stand the test. He had fallen himself ( Job 4:19 ; 15:15 ; Jude 6). In the Book of Job, Satan is first designated by name: \"Satan,\" Hebrew, \"one who lies in wait\"; an \"adversary\" in a court of justice ( 1Ch 21:1 ; Psa 109:6 ; Zec 3:1 ); \"accuser\" ( Re 12:10 ). He has the law of God on his side by man's sin, and against man. But Jesus Christ has fulfilled the law for us; justice is once more on man's side against Satan ( Is 42:21 ); and so Jesus Christ can plead as our Advocate against the adversary. \"Devil\" is the Greek name--the \"slanderer,\" or \"accuser.\" He is subject to God, who uses his ministry for chastising man. In Arabic, Satan is often applied to a serpent ( Ge 3:1 ). He is called prince of this world ( Joh 12:31 ); the god of this world ( 2Co 4:4 ); prince of the power of the air ( Ep 2:2 ). God here questions him, in order to vindicate His own ways before angels."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.7-7:18:26668:1056",
+      "passage_start": "JOB.1.7",
+      "passage_end": "JOB.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4465\"/><div sID=\"gen6473\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4465\"/><hi type=\"bold\">7. going to and fro--</hi>rather, \"hurrying rapidly to and fro.\" The original idea in Arabic is the heat of haste (<reference osisRef=\"Matt.12.43\">Mt 12:43</reference>; <reference osisRef=\"1Pet.5.8\">1Pe 5:8</reference>). Satan seems to have had some peculiar connection with this earth. Perhaps he was formerly its ruler under God. Man succeeded to the vice royalty (<reference osisRef=\"Gen.1.26\">Ge 1:26</reference>; <reference osisRef=\"Ps.8.6\">Psa 8:6</reference>). Man then lost it and Satan became prince of this world. The Son of man (<reference osisRef=\"Ps.8.4\">Psa 8:4</reference>)--the representative man, regains the forfeited inheritance (<reference osisRef=\"Rev.11.15\">Re 11:15</reference>). Satan's replies are characteristically curt and short. When the angels appear before God, Satan is among them, even as there was a Judas among the apostles. <div eID=\"gen6473\" type=\"x-p\"/>",
+      "content_plain": "7. going to and fro-- rather, \"hurrying rapidly to and fro.\" The original idea in Arabic is the heat of haste ( Mt 12:43 ; 1Pe 5:8 ). Satan seems to have had some peculiar connection with this earth. Perhaps he was formerly its ruler under God. Man succeeded to the vice royalty ( Ge 1:26 ; Psa 8:6 ). Man then lost it and Satan became prince of this world. The Son of man ( Psa 8:4 )--the representative man, regains the forfeited inheritance ( Re 11:15 ). Satan's replies are characteristically curt and short. When the angels appear before God, Satan is among them, even as there was a Judas among the apostles.",
+      "source_record_sha256": "905284fd05c4859eff6d35c1166410ef3104422766d9969412b1871fb6bb283c",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 26668,
+        "length": 1056
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. going to and fro-- rather, \"hurrying rapidly to and fro.\" The original idea in Arabic is the heat of haste ( Mt 12:43 ; 1Pe 5:8 ). Satan seems to have had some peculiar connection with this earth. Perhaps he was formerly its ruler under God. Man succeeded to the vice royalty ( Ge 1:26 ; Psa 8:6 ). Man then lost it and Satan became prince of this world. The Son of man ( Psa 8:4 )--the representative man, regains the forfeited inheritance ( Re 11:15 ). Satan's replies are characteristically curt and short. When the angels appear before God, Satan is among them, even as there was a Judas among the apostles."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.8-8:18:27724:343",
+      "passage_start": "JOB.1.8",
+      "passage_end": "JOB.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4466\"/><div sID=\"gen6474\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4466\"/><hi type=\"bold\">8. considered--</hi>Margin, \"set thine heart on\"; that is, considered attentively. No true servant of God escapes the eye of the adversary of God. <div eID=\"gen6474\" type=\"x-p\"/>",
+      "content_plain": "8. considered-- Margin, \"set thine heart on\"; that is, considered attentively. No true servant of God escapes the eye of the adversary of God.",
+      "source_record_sha256": "2e94c76219239ce1959efabbbce796b32d925e5149dca8c0f6fc79436fa11a8a",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 27724,
+        "length": 343
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. considered-- Margin, \"set thine heart on\"; that is, considered attentively. No true servant of God escapes the eye of the adversary of God."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.9-9:18:28067:447",
+      "passage_start": "JOB.1.9",
+      "passage_end": "JOB.1.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4467\"/><div sID=\"gen6475\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4467\"/><hi type=\"bold\">9. fear God for naught--</hi>It is a mark of the children of Satan to sneer and not give credit to any for disinterested piety. Not so much God's gifts, as God Himself is \"the reward\" of His people (<reference osisRef=\"Gen.15.1\">Ge 15:1</reference>). <div eID=\"gen6475\" type=\"x-p\"/>",
+      "content_plain": "9. fear God for naught-- It is a mark of the children of Satan to sneer and not give credit to any for disinterested piety. Not so much God's gifts, as God Himself is \"the reward\" of His people ( Ge 15:1 ).",
+      "source_record_sha256": "d5ca68f890ac48d222fce606ee546d962a6d1e7790ebbb41c4ca544c6d24ce2b",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 28067,
+        "length": 447
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. fear God for naught-- It is a mark of the children of Satan to sneer and not give credit to any for disinterested piety. Not so much God's gifts, as God Himself is \"the reward\" of His people ( Ge 15:1 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.10-10:18:28514:316",
+      "passage_start": "JOB.1.10",
+      "passage_end": "JOB.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4468\"/><div sID=\"gen6476\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4468\"/><hi type=\"bold\">10. his substance is increased--</hi>literally, \"spread out like a flood\"; Job's herds covered the face of the country. <div eID=\"gen6476\" type=\"x-p\"/>",
+      "content_plain": "10. his substance is increased-- literally, \"spread out like a flood\"; Job's herds covered the face of the country.",
+      "source_record_sha256": "81af4874ba856a80864370be0a92243cb628700c2cffc899b3965ea2f5098c55",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 28514,
+        "length": 316
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. his substance is increased-- literally, \"spread out like a flood\"; Job's herds covered the face of the country."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.11-11:18:28830:450",
+      "passage_start": "JOB.1.11",
+      "passage_end": "JOB.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4469\"/><div sID=\"gen6477\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4469\"/><hi type=\"bold\">11. curse thee to thy face--</hi>in antithesis to God's praise of him (<reference osisRef=\"Job.1.8\">Job 1:8</reference>), \"one that feareth God.\" Satan's words are too true of many. Take away their prosperity and you take away their religion (Mal 3:14). <div eID=\"gen6477\" type=\"x-p\"/>",
+      "content_plain": "11. curse thee to thy face-- in antithesis to God's praise of him ( Job 1:8 ), \"one that feareth God.\" Satan's words are too true of many. Take away their prosperity and you take away their religion (Mal 3:14).",
+      "source_record_sha256": "c464161fc87d6541093199a333b0801a40f6251361596ad5fcc48d588a720045",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 28830,
+        "length": 450
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. curse thee to thy face-- in antithesis to God's praise of him ( Job 1:8 ), \"one that feareth God.\" Satan's words are too true of many. Take away their prosperity and you take away their religion (Mal 3:14)."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.12-12:18:29280:432",
+      "passage_start": "JOB.1.12",
+      "passage_end": "JOB.1.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4470\"/><div sID=\"gen6478\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4470\"/><hi type=\"bold\">12. in thy power--</hi>Satan has no power against man till God gives it. God would not touch Job with His own hand, though Satan asks this (<reference osisRef=\"Job.1.11\">Job 1:11</reference>, \"thine\"), but He allows the enemy to do so. <div eID=\"gen6478\" type=\"x-p\"/>",
+      "content_plain": "12. in thy power-- Satan has no power against man till God gives it. God would not touch Job with His own hand, though Satan asks this ( Job 1:11 , \"thine\"), but He allows the enemy to do so.",
+      "source_record_sha256": "a2f6d03a82547bb3d52882d71c28713366eb36022550a5cc5b0005f8d09f9d30",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 29280,
+        "length": 432
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. in thy power-- Satan has no power against man till God gives it. God would not touch Job with His own hand, though Satan asks this ( Job 1:11 , \"thine\"), but He allows the enemy to do so."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.13-13:18:29712:510",
+      "passage_start": "JOB.1.13",
+      "passage_end": "JOB.1.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4471\"/><title type=\"x-s3\"><reference osisRef=\"Job.1.13-Job.1.22\">Job 1:13-22</reference>. Job, in Affliction, Blesses God, &amp;c.</title> <div sID=\"gen6479\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4471\"/><hi type=\"bold\">13. wine--</hi>not specified in <reference osisRef=\"Job.1.4\">Job 1:4</reference>. The mirth inspired by the \"wine\" here contrasts the more sadly with the alarm which interrupted it. <div eID=\"gen6479\" type=\"x-p\"/>",
+      "content_plain": "Job 1:13-22 . Job, in Affliction, Blesses God, &c. 13. wine-- not specified in Job 1:4 . The mirth inspired by the \"wine\" here contrasts the more sadly with the alarm which interrupted it.",
+      "source_record_sha256": "77c95c079dff17b584cf86f2618d53d3fd2ba7b6b07595ded1f2afb0597d081f",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 29712,
+        "length": 510
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Job 1:13-22 . Job, in Affliction, Blesses God, &c. 13. wine-- not specified in Job 1:4 . The mirth inspired by the \"wine\" here contrasts the more sadly with the alarm which interrupted it."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.14-14:18:30222:390",
+      "passage_start": "JOB.1.14",
+      "passage_end": "JOB.1.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4472\"/><div sID=\"gen6480\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4472\"/><hi type=\"bold\">14. the asses feeding beside them--</hi>Hebrew, \"she asses.\" A graphic picture of rural repose and peace; the more dreadful, therefore, by contrast is the sudden attack of the plundering Arabs. <div eID=\"gen6480\" type=\"x-p\"/>",
+      "content_plain": "14. the asses feeding beside them-- Hebrew, \"she asses.\" A graphic picture of rural repose and peace; the more dreadful, therefore, by contrast is the sudden attack of the plundering Arabs.",
+      "source_record_sha256": "aa598f4f3fce543726e3791cf7e1d5a628195579a12cd0496ef16bdc4d9114e8",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 30222,
+        "length": 390
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14. the asses feeding beside them-- Hebrew, \"she asses.\" A graphic picture of rural repose and peace; the more dreadful, therefore, by contrast is the sudden attack of the plundering Arabs."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.15-15:18:30612:915",
+      "passage_start": "JOB.1.15",
+      "passage_end": "JOB.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4473\"/><div sID=\"gen6481\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4473\"/><hi type=\"bold\">15. Sabeans--</hi>not those of Arabia-Felix, but those of Arabia-Deserta, descending from Sheba, grandson of Abraham and Keturah (<reference osisRef=\"Gen.25.3\">Ge 25:3</reference>). The Bedouin Arabs of the present day resemble, in marauding habits, these Sabeans (compare <reference osisRef=\"Gen.16.12\">Ge 16:12</reference>).<div eID=\"gen6481\" type=\"x-p\"/> <div sID=\"gen6482\" type=\"x-p\"/><hi type=\"bold\">I alone am escaped--</hi>cunningly contrived by Satan. One in each case escapes (<reference osisRef=\"Job.1.16\">Job 1:16</reference>, 17, 19), and brings the same kind of message. This was to overwhelm Job, and leave him no time to recover from the rapid succession of calamities--\"misfortunes seldom come single.\" <div eID=\"gen6482\" type=\"x-p\"/>",
+      "content_plain": "15. Sabeans-- not those of Arabia-Felix, but those of Arabia-Deserta, descending from Sheba, grandson of Abraham and Keturah ( Ge 25:3 ). The Bedouin Arabs of the present day resemble, in marauding habits, these Sabeans (compare Ge 16:12 ). I alone am escaped-- cunningly contrived by Satan. One in each case escapes ( Job 1:16 , 17, 19), and brings the same kind of message. This was to overwhelm Job, and leave him no time to recover from the rapid succession of calamities--\"misfortunes seldom come single.\"",
+      "source_record_sha256": "3d98a06c25306c05a0b60e33ed0d95ff631a0c8dd7ca8ba80b3df23f970c6d4b",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 30612,
+        "length": 915
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "15. Sabeans-- not those of Arabia-Felix, but those of Arabia-Deserta, descending from Sheba, grandson of Abraham and Keturah ( Ge 25:3 ). The Bedouin Arabs of the present day resemble, in marauding habits, these Sabeans (compare Ge 16:12 ). I alone am escaped-- cunningly contrived by Satan. One in each case escapes ( Job 1:16 , 17, 19), and brings the same kind of message. This was to overwhelm Job, and leave him no time to recover from the rapid succession of calamities--\"misfortunes seldom come single.\""
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.16-16:18:31527:560",
+      "passage_start": "JOB.1.16",
+      "passage_end": "JOB.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4474\"/><div sID=\"gen6483\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4474\"/><hi type=\"bold\">16. fire of God--</hi>Hebraism for \"a mighty fire\"; as \"cedars of God\"--\"lofty cedars\" [Psa 80:10]. Not lightning, which would not consume all the sheep and servants. Umbreit understands it of the burning wind of Arabia, called by the Turks \"wind of poison.\" \"The prince of the power of the air\" [Ep 2:2] is permitted to have control over such destructive agents. <div eID=\"gen6483\" type=\"x-p\"/>",
+      "content_plain": "16. fire of God-- Hebraism for \"a mighty fire\"; as \"cedars of God\"--\"lofty cedars\" [Psa 80:10]. Not lightning, which would not consume all the sheep and servants. Umbreit understands it of the burning wind of Arabia, called by the Turks \"wind of poison.\" \"The prince of the power of the air\" [Ep 2:2] is permitted to have control over such destructive agents.",
+      "source_record_sha256": "1df68bed9e195189042ea54d98ef06716386e63812bb65192a2222fe8df07424",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 31527,
+        "length": 560
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16. fire of God-- Hebraism for \"a mighty fire\"; as \"cedars of God\"--\"lofty cedars\" [Psa 80:10]. Not lightning, which would not consume all the sheep and servants. Umbreit understands it of the burning wind of Arabia, called by the Turks \"wind of poison.\" \"The prince of the power of the air\" [Ep 2:2] is permitted to have control over such destructive agents."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.17-17:18:32087:1206",
+      "passage_start": "JOB.1.17",
+      "passage_end": "JOB.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4475\"/><div sID=\"gen6484\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4475\"/><hi type=\"bold\">17. Chaldeans--</hi>not merely robbers as the Sabeans; but experienced in war, as is implied by \"they set in array three bands\" (<reference osisRef=\"Hab.1.6-Hab.1.8\">Ha 1:6-8</reference>). Rawlinson distinguishes three periods: 1. When their seat of empire was in the south, towards the confluence of the Tigris and Euphrates. The Chaldean period, from 2300 B.C. to 1500 B.C. In this period was Chedorlaomer (<reference osisRef=\"Gen.14.1\">Ge 14:1</reference>), the Kudur of Hur or Ur of the Chaldees, in the Assyrian inscriptions, and the conqueror of Syria. 2. From 1500 to 625 <hi type=\"bold\">B.C., the Assyrian period. 3. From 625 to 538 B.C. (when Cyrus the Persian took Babylon), the Babylonian period. \"Chaldees\" in Hebrew--</hi>Chasaim. They were akin, perhaps, to the Hebrews, as Abraham's sojourn in Ur, and the name \"Chesed,\" a nephew of Abraham, imply. The three bands were probably in order to attack the three separate thousands of Job's camels (<reference osisRef=\"Job.1.3\">Job 1:3</reference>). <div eID=\"gen6484\" type=\"x-p\"/>",
+      "content_plain": "17. Chaldeans-- not merely robbers as the Sabeans; but experienced in war, as is implied by \"they set in array three bands\" ( Ha 1:6-8 ). Rawlinson distinguishes three periods: 1. When their seat of empire was in the south, towards the confluence of the Tigris and Euphrates. The Chaldean period, from 2300 B.C. to 1500 B.C. In this period was Chedorlaomer ( Ge 14:1 ), the Kudur of Hur or Ur of the Chaldees, in the Assyrian inscriptions, and the conqueror of Syria. 2. From 1500 to 625 B.C., the Assyrian period. 3. From 625 to 538 B.C. (when Cyrus the Persian took Babylon), the Babylonian period. \"Chaldees\" in Hebrew-- Chasaim. They were akin, perhaps, to the Hebrews, as Abraham's sojourn in Ur, and the name \"Chesed,\" a nephew of Abraham, imply. The three bands were probably in order to attack the three separate thousands of Job's camels ( Job 1:3 ).",
+      "source_record_sha256": "05e479280762f0a6c976019ace9cec1dbee9d9eb3631b493e0113625c04b7275",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 32087,
+        "length": 1206
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "17. Chaldeans-- not merely robbers as the Sabeans; but experienced in war, as is implied by \"they set in array three bands\" ( Ha 1:6-8 ). Rawlinson distinguishes three periods: 1. When their seat of empire was in the south, towards the confluence of the Tigris and Euphrates. The Chaldean period, from 2300 B.C. to 1500 B.C. In this period was Chedorlaomer ( Ge 14:1 ), the Kudur of Hur or Ur of the Chaldees, in the Assyrian inscriptions, and the conqueror of Syria. 2. From 1500 to 625 B.C., the Assyrian period. 3. From 625 to 538 B.C. (when Cyrus the Persian took Babylon), the Babylonian period. \"Chaldees\" in Hebrew-- Chasaim. They were akin, perhaps, to the Hebrews, as Abraham's sojourn in Ur, and the name \"Chesed,\" a nephew of Abraham, imply. The three bands were probably in order to attack the three separate thousands of Job's camels ( Job 1:3 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.19-19:18:33293:650",
+      "passage_start": "JOB.1.19",
+      "passage_end": "JOB.1.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4476\"/><div sID=\"gen6485\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4476\"/><hi type=\"bold\">19. a great wind from the wilderness--</hi>south of Job's house. The tornado came the more violently over the desert, being uninterrupted (<reference osisRef=\"Isa.21.1\">Is 21:1</reference>; <reference osisRef=\"Hos.13.15\">Ho 13:15</reference>).<div eID=\"gen6485\" type=\"x-p\"/> <div sID=\"gen6486\" type=\"x-p\"/><hi type=\"bold\">the young men--</hi>rather, \"the young people\"; including the daughters (so in <reference osisRef=\"Ruth.2.21\">Ru 2:21</reference>). <div eID=\"gen6486\" type=\"x-p\"/>",
+      "content_plain": "19. a great wind from the wilderness-- south of Job's house. The tornado came the more violently over the desert, being uninterrupted ( Is 21:1 ; Ho 13:15 ). the young men-- rather, \"the young people\"; including the daughters (so in Ru 2:21 ).",
+      "source_record_sha256": "d2713b29646929f3bb02e598c3f597b825d71fe9828add50c99bcafaa2db1e76",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 33293,
+        "length": 650
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19. a great wind from the wilderness-- south of Job's house. The tornado came the more violently over the desert, being uninterrupted ( Is 21:1 ; Ho 13:15 ). the young men-- rather, \"the young people\"; including the daughters (so in Ru 2:21 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.20-20:18:33943:899",
+      "passage_start": "JOB.1.20",
+      "passage_end": "JOB.1.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4477\"/><div sID=\"gen6487\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4477\"/><hi type=\"bold\">20. Job arose--</hi>not necessarily from sitting. Inward excitement is implied, and the beginning to do anything. He had heard the other messages calmly, but on hearing of the death of his children, then he arose; or, as Eichorn translates, he started up (<reference osisRef=\"2Sam.13.31\">2Sa 13:31</reference>). The rending of the mantle was the conventional mark of deep grief (<reference osisRef=\"Gen.37.34\">Ge 37:34</reference>). Orientals wear a tunic or shirt, and loose pantaloons; and over these a flowing mantle (especially great persons and women). Shaving the head was also usual in grief (<reference osisRef=\"Jer.41.5\">Jr 41:5</reference>; <reference osisRef=\"Mic.1.16\">Mi 1:16</reference>). <div eID=\"gen6487\" type=\"x-p\"/>",
+      "content_plain": "20. Job arose-- not necessarily from sitting. Inward excitement is implied, and the beginning to do anything. He had heard the other messages calmly, but on hearing of the death of his children, then he arose; or, as Eichorn translates, he started up ( 2Sa 13:31 ). The rending of the mantle was the conventional mark of deep grief ( Ge 37:34 ). Orientals wear a tunic or shirt, and loose pantaloons; and over these a flowing mantle (especially great persons and women). Shaving the head was also usual in grief ( Jr 41:5 ; Mi 1:16 ).",
+      "source_record_sha256": "f64c735e44cec7ce04430f90da5663588bf2f241d3ae8a4fcf54269eb9d9db24",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 33943,
+        "length": 899
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20. Job arose-- not necessarily from sitting. Inward excitement is implied, and the beginning to do anything. He had heard the other messages calmly, but on hearing of the death of his children, then he arose; or, as Eichorn translates, he started up ( 2Sa 13:31 ). The rending of the mantle was the conventional mark of deep grief ( Ge 37:34 ). Orientals wear a tunic or shirt, and loose pantaloons; and over these a flowing mantle (especially great persons and women). Shaving the head was also usual in grief ( Jr 41:5 ; Mi 1:16 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.21-21:18:34842:833",
+      "passage_start": "JOB.1.21",
+      "passage_end": "JOB.1.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4478\"/><div sID=\"gen6488\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4478\"/><hi type=\"bold\">21. Naked--</hi>(<reference osisRef=\"1Tim.6.7\">1Ti 6:7</reference>). \"Mother's womb\" is poetically the earth, the universal mother (<reference osisRef=\"Eccl.5.15\">Ec 5:15</reference>; <reference osisRef=\"Eccl.12.7\">12:7</reference>; <reference osisRef=\"Ps.139.15\">Psa 139:15</reference>). Job herein realizes God's assertion (<reference osisRef=\"Job.1.8\">Job 1:8</reference>) against Satan's (<reference osisRef=\"Job.1.11\">Job 1:11</reference>). Instead of cursing, he blesses the name of Jehovah (Hebrew). The name of Jehovah, is Jehovah Himself, as manifested to us in His attributes (<reference osisRef=\"Isa.9.6\">Is 9:6</reference>). <div eID=\"gen6488\" type=\"x-p\"/>",
+      "content_plain": "21. Naked-- ( 1Ti 6:7 ). \"Mother's womb\" is poetically the earth, the universal mother ( Ec 5:15 ; 12:7 ; Psa 139:15 ). Job herein realizes God's assertion ( Job 1:8 ) against Satan's ( Job 1:11 ). Instead of cursing, he blesses the name of Jehovah (Hebrew). The name of Jehovah, is Jehovah Himself, as manifested to us in His attributes ( Is 9:6 ).",
+      "source_record_sha256": "b3e43f2782172095a21d471d48a1f6db900487fb6e20c6a6a6fb6f7367fe429d",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 34842,
+        "length": 833
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "21. Naked-- ( 1Ti 6:7 ). \"Mother's womb\" is poetically the earth, the universal mother ( Ec 5:15 ; 12:7 ; Psa 139:15 ). Job herein realizes God's assertion ( Job 1:8 ) against Satan's ( Job 1:11 ). Instead of cursing, he blesses the name of Jehovah (Hebrew). The name of Jehovah, is Jehovah Himself, as manifested to us in His attributes ( Is 9:6 )."
+    },
+    {
+      "entry_id": "sword:jfb:JOB.1.22-22:18:35675:1044",
+      "passage_start": "JOB.1.22",
+      "passage_end": "JOB.1.22",
+      "start_verse": 22,
+      "end_verse": 22,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4479\"/><div sID=\"gen6489\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4479\"/><hi type=\"bold\">22. nor charged God foolishly--</hi>rather, \"allowed himself to commit no folly against God\" [Umbreit]. <reference osisRef=\"Job.2.10\">Job 2:10</reference> proves that this is the meaning. Not as Margin \"attributed no folly to God.\" Hasty words against God, though natural in the bitterness of grief, are folly; literally, an \"insipid, unsavory\" thing (<reference osisRef=\"Job.6.6\">Job 6:6</reference>; <reference osisRef=\"Jer.23.13\">Jr 23:13</reference>, Margin). Folly in Scripture is continually equivalent to wickedness. For when man sins, it is himself, not God, whom he injures (<reference osisRef=\"Prov.8.36\">Pr 8:36</reference>). We are to submit to trials, not because we see the reasons for them, nor yet as though they were matters of chance, but because God wills them, and has a right to send them, and has His own good reasons in sending them. <chapter eID=\"Job.1\"/>",
+      "content_plain": "22. nor charged God foolishly-- rather, \"allowed himself to commit no folly against God\" [Umbreit]. Job 2:10 proves that this is the meaning. Not as Margin \"attributed no folly to God.\" Hasty words against God, though natural in the bitterness of grief, are folly; literally, an \"insipid, unsavory\" thing ( Job 6:6 ; Jr 23:13 , Margin). Folly in Scripture is continually equivalent to wickedness. For when man sins, it is himself, not God, whom he injures ( Pr 8:36 ). We are to submit to trials, not because we see the reasons for them, nor yet as though they were matters of chance, but because God wills them, and has a right to send them, and has His own good reasons in sending them.",
+      "source_record_sha256": "c703e410255e3fbaadebc69787b5647477e74e078b51464b7da0e85faf540a68",
+      "index_record": {
+        "testament": "OT",
+        "block": 18,
+        "offset": 35675,
+        "length": 1044
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JOB.1.22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "22. nor charged God foolishly-- rather, \"allowed himself to commit no folly against God\" [Umbreit]. Job 2:10 proves that this is the meaning. Not as Margin \"attributed no folly to God.\" Hasty words against God, though natural in the bitterness of grief, are folly; literally, an \"insipid, unsavory\" thing ( Job 6:6 ; Jr 23:13 , Margin). Folly in Scripture is continually equivalent to wickedness. For when man sins, it is himself, not God, whom he injures ( Pr 8:36 ). We are to submit to trials, not because we see the reasons for them, nor yet as though they were matters of chance, but because God wills them, and has a right to send them, and has His own good reasons in sending them."
+    }
+  ],
+  "indexed_verse_count": 20,
+  "unindexed_verse_count": 2,
+  "upstream_snapshot_id": "SOTW_JOB_VERIFIED_ORIGINAL_ARCHIVES_2026-11-06",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 20
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:JOB:P:introduction",
+      "navigation_id": "JOB:P:introduction",
+      "kind": "source_extracted_heading",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "INTRODUCTION",
+      "content_plain": "INTRODUCTION Job a Real Person.-- It has been supposed by some that the book of Job is an allegory, not a real narrative, on account of the artificial character of many of its statements. Thus the sacred numbers, three and seven, often occur. He had seven thousand sheep, seven sons, both before and after his trials; his three friends sit down with him seven days and seven nights; both before and after his trials he had three daughters. So also the number and form of the speeches of the several speakers seem to be artificial. The name of Job, too, is derived from an Arabic word signifying repentance. But Eze 14:14 (compare Eze 14:16 , 20 ) speaks of \"Job\" in conjunction with \"Noah and Daniel,\" real persons. St. James ( Jas 5:11 ) also refers to Job as an example of \"patience,\" which he would not have been likely to do had Job been only a fictitious person. Also the names of persons and places are specified with a particularity not to be looked for in an allegory. As to the exact doubling of his possessions after his restoration, no doubt the round number is given for the exact number, as the latter approached near the former; this is often done in undoubtedly historical books. As to the studied number and form of the speeches, it seems likely that the arguments were substantially those which appear in the book, but that the studied and poetic form was given by Job himself, guided by the Holy Spirit. He lived one hundred and forty years after his trials, and nothing would be more natural than that he should, at his leisure, mould into a perfect form the arguments used in the momentous debate, for the instruction of the Church in all ages. Probably, too, the debate itself occupied several sittings; and the number of speeches assigned to each was arranged by preconcerted agreement, and each was allowed the interval of a day or more to prepare carefully his speech and replies; this will account for the speakers bringing forward their arguments in regular series, no one speaking out of his turn. As to the name Job-- repentance (supposing the derivation correct)--it was common in old times to give a name from circumstances which occurred at an advanced period of life, and this is no argument against the reality of the person. Where Job Lived.-- \"Uz,\" according to Gesenius, means a light, sandy soil, and was in the north of Arabia-Deserta, between Palestine and the Euphrates, called by Ptolemy (Geography, 19) Ausitai or Aisitai. In Ge 10:23 ; 22:21 ; 36:28 ; and 1Ch 1:17 , 42, it is the name of a man. In Jr 25:20 ; La 4:21 ; and Job 1:1 , it is a country. Uz, in Ge 22:21 , is said to be the son of Nahor, brother of Abraham--a different person from the one mentioned ( Ge 10:23 ), a grandson of Shem. The probability is that the country took its name from the latter of the two; for this one was the son of Aram, from whom the Arameans take their name, and these dwelt in Mesopotamia, between the rivers Euphrates and Tigris. Compare as to the dwelling of the sons of Shem in Ge 10:30 , \"a mount of the East,\" answering to \"men of the East\" ( Job 1:3 ). Rawlinson, in his deciphering of the Assyrian inscriptions, states that \"Uz is the prevailing name of the country at the mouth of the Euphrates.\" It is probable that Eliphaz the Temanite and the Sabeans dwelt in that quarter; and we know that the Chaldeans resided there, and not near Idumea, which some identify with Uz. The tornado from \"the wilderness\" ( Job 1:19 ) agrees with the view of it being Arabia-Deserta. Job ( Job 1:3 ) is called \"the greatest of the men of the East\"; but Idumea was not east, but south of Palestine: therefore in Scripture language, the phrase cannot apply to that country, but probably refers to the north of Arabia-Deserta, between Palestine, Idumea, and the Euphrates. So the Arabs still show in the Houran a place called Uz as the residence of Job. The Age When Job Lived.-- Eusebius fixes it two ages before Moses, that is, about the time of Isaac: eighteen hundred years before Christ, and six hundred after the Deluge. Agreeing with this are the following considerations: 1. Job's length of life is patriarchal, two hundred years. 2. He alludes only to the earliest form of idolatry, namely, the worship of the sun, moon, and heavenly hosts (called Saba, whence arises the title \"Lord of Sabaoth,\" as opposed to Sabeanism) ( Job 31:26-28). 3 . The number of oxen and rams sacrificed, seven, as in the case of Balaam. God would not have sanctioned this after the giving of the Mosaic law, though He might graciously accommodate Himself to existing customs before the law. 4. The language of Job is Hebrew, interspersed occasionally with Syriac and Arabic expressions, implying a time when all the Shemitic tribes spoke one common tongue and had not branched into different dialects, Hebrew, Syriac, and Arabic. 5. He speaks of the most ancient kind of writing, namely, sculpture. Riches also are reckoned by cattle. The Hebrew word, translated \"a piece of money,\" ought rather be rendered \"a lamb.\" 6. There is no allusion to the exodus from Egypt and to the miracles that accompanied it; nor to the destruction of Sodom and Gomorrah (Patrick, however, thinks there is); though there is to the Flood ( Job 22:17 ); and these events, happening in Job's vicinity, would have been striking illustrations of the argument for God's interposition in destroying the wicked and vindicating the righteous, had Job and his friends known of them. Nor is there any undoubted reference to the Jewish law, ritual, and priesthood. 7. The religion of Job is that which prevailed among the patriarchs previous to the law; sacrifices performed by the head of the family; no officiating priesthood, temple, or consecrated altar. The Writer.-- All the foregoing facts accord with Job himself having been the author. The style of thought, imagery, and manners, are such as we should look for in the work of an Arabian emir. There is precisely that degree of knowledge of primitive tradition (see Job 31:33 , as to Adam) which was universally spread abroad in the days of Noah and Abraham, and which was subsequently embodied in the early chapters of Genesis. Job, in his speeches, shows that he was much more competent to compose the work than Elihu, to whom Lightfoot attributes it. The style forbids its being attributed to Moses, to whom its composition is by some attributed, \"whilst he was among the Midianites, about 1520 B.C.\" But the fact, that it, though not a Jewish book, appears among the Hebrew sacred writings, makes it likely that it came to the knowledge of Moses during the forty years which he passed in parts of Arabia, chiefly near Horeb; and that he, by divine guidance, introduced it as a sacred writing to the Israelites, to whom, in their affliction, the patience and restoration of Job were calculated to be a lesson of especial utility. That it is inspired appears from the fact that Paul ( 1Co 3:19 ) quotes it ( Job 5:13 ) with the formula, \"It is written.\" Our Savior, too Mt 24:28 ), plainly refers to Job 29:30. Compare also Jas 4:10 and 1Pe 5:6 with Job 22:29 ; Ro 11:34 , 35 with Job 15:8 . It is probably the oldest book in the world. It stands among the Hagiographa in the threefold division of Scripture into the Law, the Prophets, and the Hagiographa (\"Psalms,\" Lu 24:44 ). Design of the Book.-- It is a public debate in poetic form on an important question concerning the divine government; moreover the prologue and epilogue, which are in prose, shed the interest of a living history over the debate, which would otherwise be but a contest of abstract reasonings. To each speaker of the three friends three speeches are assigned. Job having no one to stand by him is allowed to reply to each speech of each of the three. Eliphaz, as the oldest, leads the way. Zophar, at his third turn, failed to speak, thus virtually owning himself overcome ( Job 27:1-23 ). Therefore Job continued his reply, which forms three speeches (Job 26:1-14; 27:1-23; 28:1-28; 29:1-31:40). Elihu (Job 32:1-37:24) is allowed four speeches. Jehovah makes three addresses (Job 38:1-41:34). Thus, throughout there is a tripartite division. The whole is divided into three parts--the prologue, poem proper, and epilogue. The poem, into three--(1) The dispute of Job and his three friends; (2) The address of Elihu; (3) The address of God. There are three series in the controversy, and in the same order. The epilogue ( Job 42:1-17 ) also is threefold; Job's justification, reconciliation with his friends, restoration. The speakers also in their successive speeches regularly advance from less to greater vehemence. With all this artificial composition, everything seems easy and natural. The question to be solved, as exemplified in the case of Job, is, Why are the righteous afflicted consistently with God's justice? The doctrine of retribution after death, no doubt, is the great solution of the difficulty. And to it Job plainly refers in Job 14:14 , and Job 19:25 . The objection to this, that the explicitness of the language on the resurrection in Job is inconsistent with the obscurity on the subject in the early books of the Old Testament, is answered by the fact that Job enjoyed the divine vision ( Job 38:1 ; 42:5 ), and therefore, by inspiration, foretold these truths. Next, the revelations made outside of Israel being few needed to be the more explicit; thus Balaam's prophecy ( Nu 24:17 ) was clear enough to lead the wise men of the East by the star ( Mt 2:2 ); and in the age before the written law, it was the more needful for God not to leave Himself without witness of the truth. Still Job evidently did not fully realize the significance designed by the Spirit in his own words (compare 1Pe 1:11 , 12 ). The doctrine, though existing, was not plainly revealed or at least understood. Hence he does not mainly refer to this solution. Yes, and even now, we need something in addition to this solution. David, who firmly believed in a future retribution ( Psa 16:10 ; 17:15 ), still felt the difficulty not entirely solved thereby ( Psa 83:1-18 ). The solution is not in Job's or in his three friends' speeches. It must, therefore, be in Elihu's. God will hold a final judgment, no doubt, to clear up all that seems dark in His present dealings; but He also now providentially and morally governs the world and all the events of human life. Even the comparatively righteous are not without sin which needs to be corrected. The justice and love of God administer the altogether deserved and merciful correction. Affliction to the godly is thus mercy and justice in disguise. The afflicted believer on repentance sees this. \"Via crucis, via salutis\" [\"The way of the cross, the way of deliverance\"]. Though afflicted, the godly are happier even now than the ungodly, and when affliction has attained its end, it is removed by the Lord. In the Old Testament the consolations are more temporal and outward; in the New Testament, more spiritual; but in neither to the entire exclusion of the other. \"Prosperity,\" says Bacon, \"is the blessing of the Old Testament; adversity that of the New Testament, which is the mark of God's more especial favor. Yet even in the Old Testament, if you listen to David's harp, you shall hear as many hearse-like airs as carols; and the pencil of the Holy Ghost has labored more in describing the afflictions of Job than the felicities of Solomon. Prosperity is not without many fears and distastes; and adversity is not without comforts and hopes.\" This solution of Elihu is seconded by the addresses of God, in which it is shown God must be just (because He is God), as Elihu had shown how God can be just, and yet the righteous be afflicted. It is also acquiesced in by Job, who makes no reply. God reprimands the \"three\" friends, but not Elihu. Job's general course is approved; he is directed to intercede for his friends, and is restored to double his former prosperity. Poetry.-- In all countries poetry is the earliest form of composition as being best retained in the memory. In the East especially it was customary for sentiments to be preserved in a terse, proverbial, and poetic form (called maschal). Hebrew poetry is not constituted by the rhythm or meter, but in a form peculiar to itself: 1. In an alphabetical arrangement somewhat like our acrostic. For instance, La 1:1-22. 2. The same verse repeated at intervals; as in Psa 42:1-11; 107:1-43. 3. Rhythm of gradation. Psalms of degrees, Psa 120:1-134:3, in which the expression of the previous verse is resumed and carried forward in the next ( Psa 121:1-8). 4 . The chief characteristic of Hebrew poetry is parallelism, or the correspondence of the same ideas in the parallel clauses. The earliest instance is Enoch's prophecy (Jude 14), and Lamech's parody of it ( Ge 4:23 ). Three kinds occur: (1) The synonymous parallelism, in which the second is a repetition of the first, with or without increase of force ( Psa 22:27 ; Is 15:1 ); sometimes with double parallelism ( Is 1:15 ). ( 2 ) The antithetic, in which the idea of the second clause is the converse of that in the first ( Pr 10:1 ). ( 3 ) The synthetic, where there is a correspondence between different propositions, noun answering to noun, verb to verb, member to member, the sentiment, moreover, being not merely echoed, or put in contrast, but enforced by accessory ideas ( Job 3:3-9 ). Also alternate ( Is 51:19 ). \"Desolation and destruction, famine and sword,\" that is, desolation by famine, and destruction by the sword. Introverted; where the fourth answers to the first, and the third to the second ( Mt 7:6 ). Parallelism thus often affords a key to the interpretation. For fuller information, see Lowth (Introduction to Isaiah, and Lecture on Hebrew Poetry) and Herder (Spirit of Hebrew Poetry, translated by Marsh). The simpler and less artificial forms of parallelism prevail in Job--a mark of its early age.",
+      "content_osis": "<title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen6451\" type=\"x-p\"/><hi type=\"bold\">Job a Real Person.--</hi>It has been supposed by some that the book of Job is an allegory, not a real narrative, on account of the artificial character of many of its statements. Thus the sacred numbers, three and seven, often occur. He had seven thousand sheep, seven sons, both before and after his trials; his three friends sit down with him seven days and seven nights; both before and after his trials he had three daughters. So also the number and form of the speeches of the several speakers seem to be artificial. The name of Job, too, is derived from an Arabic word signifying repentance.<div eID=\"gen6451\" type=\"x-p\"/> <div eID=\"gen6450\" type=\"introduction\"/> <div sID=\"gen6452\" type=\"x-p\"/><hi type=\"bold\">But <reference osisRef=\"Ezek.14.14\">Eze 14:14</reference> (compare <reference osisRef=\"Ezek.14.16\">Eze 14:16</reference>, <reference osisRef=\"Ezek.14.20\">20</reference>) speaks of \"Job\" in conjunction with \"Noah and Daniel,\" real persons. St. James (<reference osisRef=\"Jas.5.11\">Jas 5:11</reference>) also refers to Job as an example of \"patience,\" which he would not have been likely to do had Job been only a fictitious person. Also the names of persons and places are specified with a particularity not to be looked for in an allegory. As to the exact doubling of his possessions after his restoration, no doubt the round number is given for the exact number, as the latter approached near the former; this is often done in undoubtedly historical books. As to the studied number and form of the speeches, it seems likely that the arguments were substantially those which appear in the book, but that the studied and poetic form was given by Job himself, guided by the Holy Spirit. He lived one hundred and forty years after his trials, and nothing would be more natural than that he should, at his leisure, mould into a perfect form the arguments used in the momentous debate, for the instruction of the Church in all ages. Probably, too, the debate itself occupied several sittings; and the number of speeches assigned to each was arranged by preconcerted agreement, and each was allowed the interval of a day or more to prepare carefully his speech and replies; this will account for the speakers bringing forward their arguments in regular series, no one speaking out of his turn. As to the name Job--</hi>repentance (supposing the derivation correct)--it was common in old times to give a name from circumstances which occurred at an advanced period of life, and this is no argument against the reality of the person.<div eID=\"gen6452\" type=\"x-p\"/> <div sID=\"gen6453\" type=\"x-p\"/><hi type=\"bold\">Where Job Lived.--</hi>\"Uz,\" according to Gesenius, means a light, sandy soil, and was in the north of Arabia-Deserta, between Palestine and the Euphrates, called by Ptolemy (Geography, 19) Ausitai or Aisitai. In <reference osisRef=\"Gen.10.23\">Ge 10:23</reference>; <reference osisRef=\"Gen.22.21\">22:21</reference>; <reference osisRef=\"Gen.36.28\">36:28</reference>; and <reference osisRef=\"1Chr.1.17\">1Ch 1:17</reference>, 42, it is the name of a man. In <reference osisRef=\"Jer.25.20\">Jr 25:20</reference>; <reference osisRef=\"Lam.4.21\">La 4:21</reference>; and <reference osisRef=\"Job.1.1\">Job 1:1</reference>, it is a country. Uz, in <reference osisRef=\"Gen.22.21\">Ge 22:21</reference>, is said to be the son of Nahor, brother of Abraham--a different person from the one mentioned (<reference osisRef=\"Gen.10.23\">Ge 10:23</reference>), a grandson of Shem. The probability is that the country took its name from the latter of the two; for this one was the son of Aram, from whom the Arameans take their name, and these dwelt in Mesopotamia, between the rivers Euphrates and Tigris. Compare as to the dwelling of the sons of Shem in <reference osisRef=\"Gen.10.30\">Ge 10:30</reference>, \"a mount of the East,\" answering to \"men of the East\" (<reference osisRef=\"Job.1.3\">Job 1:3</reference>). Rawlinson, in his deciphering of the Assyrian inscriptions, states that \"Uz is the prevailing name of the country at the mouth of the Euphrates.\" It is probable that Eliphaz the Temanite and the Sabeans dwelt in that quarter; and we know that the Chaldeans resided there, and not near Idumea, which some identify with Uz. The tornado from \"the wilderness\" (<reference osisRef=\"Job.1.19\">Job 1:19</reference>) agrees with the view of it being Arabia-Deserta. Job (<reference osisRef=\"Job.1.3\">Job 1:3</reference>) is called \"the greatest of the men of the East\"; but Idumea was not east, but south of Palestine: therefore in Scripture language, the phrase cannot apply to that country, but probably refers to the north of Arabia-Deserta, between Palestine, Idumea, and the Euphrates. So the Arabs still show in the Houran a place called Uz as the residence of Job.<div eID=\"gen6453\" type=\"x-p\"/> <div sID=\"gen6454\" type=\"x-p\"/><hi type=\"bold\">The Age When Job Lived.--</hi>Eusebius fixes it two ages before Moses, that is, about the time of Isaac: eighteen hundred years before Christ, and six hundred after the Deluge. Agreeing with this are the following considerations: 1. Job's length of life is patriarchal, two hundred years. 2. He alludes only to the earliest form of idolatry, namely, the worship of the sun, moon, and heavenly hosts (called Saba, whence arises the title \"Lord of Sabaoth,\" as opposed to Sabeanism) (<reference osisRef=\"Job.31.26-Job.28.3\">Job 31:26-28). 3</reference>. The number of oxen and rams sacrificed, seven, as in the case of Balaam. God would not have sanctioned this after the giving of the Mosaic law, though He might graciously accommodate Himself to existing customs before the law. 4. The language of Job is Hebrew, interspersed occasionally with Syriac and Arabic expressions, implying a time when all the Shemitic tribes spoke one common tongue and had not branched into different dialects, Hebrew, Syriac, and Arabic. 5. He speaks of the most ancient kind of writing, namely, sculpture. Riches also are reckoned by cattle. The Hebrew word, translated \"a piece of money,\" ought rather be rendered \"a lamb.\" 6. There is no allusion to the exodus from Egypt and to the miracles that accompanied it; nor to the destruction of Sodom and Gomorrah (Patrick, however, thinks there is); though there is to the Flood (<reference osisRef=\"Job.22.17\">Job 22:17</reference>); and these events, happening in Job's vicinity, would have been striking illustrations of the argument for God's interposition in destroying the wicked and vindicating the righteous, had Job and his friends known of them. Nor is there any undoubted reference to the Jewish law, ritual, and priesthood. 7. The religion of Job is that which prevailed among the patriarchs previous to the law; sacrifices performed by the head of the family; no officiating priesthood, temple, or consecrated altar.<div eID=\"gen6454\" type=\"x-p\"/> <div sID=\"gen6455\" type=\"x-p\"/><hi type=\"bold\">The Writer.--</hi>All the foregoing facts accord with Job himself having been the author. The style of thought, imagery, and manners, are such as we should look for in the work of an Arabian emir. There is precisely that degree of knowledge of primitive tradition (see <reference osisRef=\"Job.31.33\">Job 31:33</reference>, as to Adam) which was universally spread abroad in the days of Noah and Abraham, and which was subsequently embodied in the early chapters of Genesis. Job, in his speeches, shows that he was much more competent to compose the work than Elihu, to whom Lightfoot attributes it. The style forbids its being attributed to Moses, to whom its composition is by some attributed, \"whilst he was among the Midianites, about 1520 B.C.\" But the fact, that it, though not a Jewish book, appears among the Hebrew sacred writings, makes it likely that it came to the knowledge of Moses during the forty years which he passed in parts of Arabia, chiefly near Horeb; and that he, by divine guidance, introduced it as a sacred writing to the Israelites, to whom, in their affliction, the patience and restoration of Job were calculated to be a lesson of especial utility. That it is inspired appears from the fact that Paul (<reference osisRef=\"1Cor.3.19\">1Co 3:19</reference>) quotes it (<reference osisRef=\"Job.5.13\">Job 5:13</reference>) with the formula, \"It is written.\" Our Savior, too <reference osisRef=\"Matt.24.28\">Mt 24:28</reference>), plainly refers to Job 29:30. Compare also <reference osisRef=\"Jas.4.10\">Jas 4:10</reference> and <reference osisRef=\"1Pet.5.6\">1Pe 5:6</reference> with <reference osisRef=\"Job.22.29\">Job 22:29</reference>; <reference osisRef=\"Rom.11.34\">Ro 11:34</reference>, <reference osisRef=\"Rom.11.35\">35</reference> with <reference osisRef=\"Job.15.8\">Job 15:8</reference>. It is probably the oldest book in the world. It stands among the Hagiographa in the threefold division of Scripture into the Law, the Prophets, and the Hagiographa (\"Psalms,\" <reference osisRef=\"Luke.24.44\">Lu 24:44</reference>).<div eID=\"gen6455\" type=\"x-p\"/> <div sID=\"gen6456\" type=\"x-p\"/><hi type=\"bold\">Design of the Book.--</hi>It is a public debate in poetic form on an important question concerning the divine government; moreover the prologue and epilogue, which are in prose, shed the interest of a living history over the debate, which would otherwise be but a contest of abstract reasonings. To each speaker of the three friends three speeches are assigned. Job having no one to stand by him is allowed to reply to each speech of each of the three. Eliphaz, as the oldest, leads the way. Zophar, at his third turn, failed to speak, thus virtually owning himself overcome (<reference osisRef=\"Job.27.1-Job.27.23\">Job 27:1-23</reference>). Therefore Job continued his reply, which forms three speeches (Job 26:1-14; 27:1-23; 28:1-28; 29:1-31:40). Elihu (Job 32:1-37:24) is allowed four speeches. Jehovah makes three addresses (Job 38:1-41:34). Thus, throughout there is a tripartite division. The whole is divided into three parts--the prologue, poem proper, and epilogue. The poem, into three--(1) The dispute of Job and his three friends; (2) The address of Elihu; (3) The address of God. There are three series in the controversy, and in the same order. The epilogue (<reference osisRef=\"Job.42.1-Job.42.17\">Job 42:1-17</reference>) also is threefold; Job's justification, reconciliation with his friends, restoration. The speakers also in their successive speeches regularly advance from less to greater vehemence. With all this artificial composition, everything seems easy and natural.<div eID=\"gen6456\" type=\"x-p\"/> <div sID=\"gen6457\" type=\"x-p\"/> The question to be solved, as exemplified in the case of Job, is, Why are the righteous afflicted consistently with God's justice? The doctrine of retribution after death, no doubt, is the great solution of the difficulty. And to it Job plainly refers in <reference osisRef=\"Job.14.14\">Job 14:14</reference>, and <reference osisRef=\"Job.19.25\">Job 19:25</reference>. The objection to this, that the explicitness of the language on the resurrection in Job is inconsistent with the obscurity on the subject in the early books of the Old Testament, is answered by the fact that Job enjoyed the divine vision (<reference osisRef=\"Job.38.1\">Job 38:1</reference>; <reference osisRef=\"Job.42.5\">42:5</reference>), and therefore, by inspiration, foretold these truths. Next, the revelations made outside of Israel being few needed to be the more explicit; thus Balaam's prophecy (<reference osisRef=\"Num.24.17\">Nu 24:17</reference>) was clear enough to lead the wise men of the East by the star (<reference osisRef=\"Matt.2.2\">Mt 2:2</reference>); and in the age before the written law, it was the more needful for God not to leave Himself without witness of the truth. Still Job evidently did not fully realize the significance designed by the Spirit in his own words (compare <reference osisRef=\"1Pet.1.11\">1Pe 1:11</reference>, <reference osisRef=\"1Cor.1.12\">12</reference>). The doctrine, though existing, was not plainly revealed or at least understood. Hence he does not mainly refer to this solution. Yes, and even now, we need something in addition to this solution. David, who firmly believed in a future retribution (<reference osisRef=\"Ps.16.10\">Psa 16:10</reference>; <reference osisRef=\"Ps.17.15\">17:15</reference>), still felt the difficulty not entirely solved thereby (<reference osisRef=\"Ps.83.1-Ps.83.18\">Psa 83:1-18</reference>). The solution is not in Job's or in his three friends' speeches. It must, therefore, be in Elihu's. God will hold a final judgment, no doubt, to clear up all that seems dark in His present dealings; but He also now providentially and morally governs the world and all the events of human life. Even the comparatively righteous are not without sin which needs to be corrected. The justice and love of God administer the altogether deserved and merciful correction. Affliction to the godly is thus mercy and justice in disguise. The afflicted believer on repentance sees this. \"Via crucis, via salutis\" [\"The way of the cross, the way of deliverance\"]. Though afflicted, the godly are happier even now than the ungodly, and when affliction has attained its end, it is removed by the Lord. In the Old Testament the consolations are more temporal and outward; in the New Testament, more spiritual; but in neither to the entire exclusion of the other. \"Prosperity,\" says Bacon, \"is the blessing of the Old Testament; adversity that of the New Testament, which is the mark of God's more especial favor. Yet even in the Old Testament, if you listen to David's harp, you shall hear as many hearse-like airs as carols; and the pencil of the Holy Ghost has labored more in describing the afflictions of Job than the felicities of Solomon. Prosperity is not without many fears and distastes; and adversity is not without comforts and hopes.\" This solution of Elihu is seconded by the addresses of God, in which it is shown God must be just (because He is God), as Elihu had shown how God can be just, and yet the righteous be afflicted. It is also acquiesced in by Job, who makes no reply. God reprimands the \"three\" friends, but not Elihu. Job's general course is approved; he is directed to intercede for his friends, and is restored to double his former prosperity.<div eID=\"gen6457\" type=\"x-p\"/> <div sID=\"gen6458\" type=\"x-p\"/><hi type=\"bold\">Poetry.--</hi>In all countries poetry is the earliest form of composition as being best retained in the memory. In the East especially it was customary for sentiments to be preserved in a terse, proverbial, and poetic form (called maschal). Hebrew poetry is not constituted by the rhythm or meter, but in a form peculiar to itself: 1. In an alphabetical arrangement somewhat like our acrostic. For instance, La 1:1-22. 2. The same verse repeated at intervals; as in Psa 42:1-11; 107:1-43. 3. Rhythm of gradation. Psalms of degrees, Psa 120:1-134:3, in which the expression of the previous verse is resumed and carried forward in the next (<reference osisRef=\"Ps.121.1-Ps.8.4\">Psa 121:1-8). 4</reference>. The chief characteristic of Hebrew poetry is parallelism, or the correspondence of the same ideas in the parallel clauses. The earliest instance is Enoch's prophecy (Jude 14), and Lamech's parody of it (<reference osisRef=\"Gen.4.23\">Ge 4:23</reference>). Three kinds occur: (1) The synonymous parallelism, in which the second is a repetition of the first, with or without increase of force (<reference osisRef=\"Ps.22.27\">Psa 22:27</reference>; <reference osisRef=\"Isa.15.1\">Is 15:1</reference>); sometimes with double parallelism (<reference osisRef=\"Isa.1.15\">Is 1:15</reference>). (<reference osisRef=\"2Cor.1.2\">2</reference>) The antithetic, in which the idea of the second clause is the converse of that in the first (<reference osisRef=\"Prov.10.1\">Pr 10:1</reference>). (<reference osisRef=\"Prov.10.3\">3</reference>) The synthetic, where there is a correspondence between different propositions, noun answering to noun, verb to verb, member to member, the sentiment, moreover, being not merely echoed, or put in contrast, but enforced by accessory ideas (<reference osisRef=\"Job.3.3-Job.3.9\">Job 3:3-9</reference>). Also alternate (<reference osisRef=\"Isa.51.19\">Is 51:19</reference>). \"Desolation and destruction, famine and sword,\" that is, desolation by famine, and destruction by the sword. Introverted; where the fourth answers to the first, and the third to the second (<reference osisRef=\"Matt.7.6\">Mt 7:6</reference>). Parallelism thus often affords a key to the interpretation. For fuller information, see Lowth (Introduction to Isaiah, and Lecture on Hebrew Poetry) and Herder (Spirit of Hebrew Poetry, translated by Marsh). The simpler and less artificial forms of parallelism prevail in Job--a mark of its early age.<div eID=\"gen6458\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:jfb:JOB.1.1-1:18:380:19232",
+      "source_character_span": [
+        59,
+        16963
+      ],
+      "source_fragment_sha256": "ba8bc957715e0471f135119ba9d9c14902b42cad369e4dc4f28d7f63b707c056",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "JOB.1.1",
+        "JOB.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JOB.1:P:chapter-1",
+      "navigation_id": "JOB.1:P:chapter-1",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1",
+      "content_osis": "<title type=\"x-s\">CHAPTER 1</title>",
+      "source_entry_id": "sword:jfb:JOB.1.1-1:18:380:19232",
+      "source_character_span": [
+        16963,
+        16998
+      ],
+      "source_fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "JOB.1.1",
+        "JOB.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JOB.1:P:job-1-1-5-the-holiness-of-job-his-wealth-c",
+      "navigation_id": "JOB.1:P:job-1-1-5-the-holiness-of-job-his-wealth-c",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Job 1:1-5 . The Holiness of Job, His Wealth, &c.",
+      "content_plain": "Job 1:1-5 . The Holiness of Job, His Wealth, &c.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Job.1.1-Job.1.5\">Job 1:1-5</reference>. The Holiness of Job, His Wealth, &amp;c.</title>",
+      "source_entry_id": "sword:jfb:JOB.1.1-1:18:380:19232",
+      "source_character_span": [
+        17201,
+        17328
+      ],
+      "source_fragment_sha256": "21eb8992267a494864d9e3232d15b126a811f47f6314dec0cef60a59e1707c5f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "JOB.1.1",
+        "JOB.1.1"
+      ],
+      "source_title_explicit_range": [
+        "JOB.1.1",
+        "JOB.1.5"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JOB.1:P:job-1-6-12-satan-appearing-before-god-falsely-accuses-job",
+      "navigation_id": "JOB.1:P:job-1-6-12-satan-appearing-before-god-falsely-accuses-job",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Job 1:6-12 . Satan, Appearing before God, Falsely Accuses Job.",
+      "content_plain": "Job 1:6-12 . Satan, Appearing before God, Falsely Accuses Job.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Job.1.6-Job.1.12\">Job 1:6-12</reference>. Satan, Appearing before God, Falsely Accuses Job.</title>",
+      "source_entry_id": "sword:jfb:JOB.1.6-6:18:23578:3090",
+      "source_character_span": [
+        59,
+        197
+      ],
+      "source_fragment_sha256": "82e59529541b63c63e738fc4b6a7a04dbca66581222cab67fe65203700bc8c5f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "JOB.1.6",
+        "JOB.1.6"
+      ],
+      "source_title_explicit_range": [
+        "JOB.1.6",
+        "JOB.1.12"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JOB.1:P:job-1-13-22-job-in-affliction-blesses-god-c",
+      "navigation_id": "JOB.1:P:job-1-13-22-job-in-affliction-blesses-god-c",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Job 1:13-22 . Job, in Affliction, Blesses God, &c.",
+      "content_plain": "Job 1:13-22 . Job, in Affliction, Blesses God, &c.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Job.1.13-Job.1.22\">Job 1:13-22</reference>. Job, in Affliction, Blesses God, &amp;c.</title>",
+      "source_entry_id": "sword:jfb:JOB.1.13-13:18:29712:510",
+      "source_character_span": [
+        59,
+        190
+      ],
+      "source_fragment_sha256": "2cc09bae8d3828d27774d9a3a0f4a98486ef72b04ff2ad1c6169bff82f881729",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "JOB.1.13",
+        "JOB.1.13"
+      ],
+      "source_title_explicit_range": [
+        "JOB.1.13",
+        "JOB.1.22"
+      ]
+    }
+  ],
+  "navigation_section_count": 5,
+  "reader_visible_entry_count": 20
+}
