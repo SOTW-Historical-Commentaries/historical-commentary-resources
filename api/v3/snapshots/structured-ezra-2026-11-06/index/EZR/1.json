@@ -1,0 +1,322 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-ezra-2026-11-06",
+  "canonical_chapter": "EZR.1",
+  "verse_count": 11,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 11
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-ezra-2026-11-06/authors/john-calvin/EZR/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 7,
+      "reader_visible_entries": 7,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 7
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 7,
+      "reader_visible_entries": 7,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 8
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-ezra-2026-11-06/authors/keil-delitzsch/EZR/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 10,
+      "reader_visible_entries": 10,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 11
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-ezra-2026-11-06/authors/john-gill/EZR/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 11,
+      "reader_visible_entries": 11,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 11
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        9
+      ],
+      "john-gill": [
+        10
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:EZR:P:ezra",
+        "navigation_id": "EZR:P:ezra",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Ezra"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.1:P:the-proclamation-of-cyrus-b-c-536",
+        "navigation_id": "EZR.1:P:the-proclamation-of-cyrus-b-c-536",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Proclamation of Cyrus. ( b. c. 536.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:EZR:P:introduction-to-the-book-of-ezra",
+        "navigation_id": "EZR:P:introduction-to-the-book-of-ezra",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction to the Book of Ezra"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR:P:the-book-of-ezra",
+        "navigation_id": "EZR:P:the-book-of-ezra",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "THE BOOK OF EZRA"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.1:P:chapter-1",
+        "navigation_id": "EZR.1:P:chapter-1",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 1"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.1:P:ezr-1-1-6-proclamation-of-cyrus-for-building-the-temple",
+        "navigation_id": "EZR.1:P:ezr-1-1-6-proclamation-of-cyrus-for-building-the-temple",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Ezr 1:1-6 . Proclamation of Cyrus for Building the Temple."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.1:P:ezr-1-7-11-cyrus-restores-the-vessels",
+        "navigation_id": "EZR.1:P:ezr-1-7-11-cyrus-restores-the-vessels",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Ezr 1:7-11 . Cyrus Restores the Vessels."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:EZR:P:the-book-of-ezra",
+        "navigation_id": "EZR:P:the-book-of-ezra",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "The Book of Ezra"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZR.1:P:i-the-return-of-the-jews-from-babylon-under-cyrus-restoration-of-the-temple-an",
+        "navigation_id": "EZR.1:P:i-the-return-of-the-jews-from-babylon-under-cyrus-restoration-of-the-temple-an",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "I. The Return of the Jews from Babylon under Cyrus. Restoration of the Temple and of the Worship of God at Jerusalem - Ezr 1:1"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZR.1:P:the-edict-of-cyrus-the-departure-from-babylon-the-restitution-of-the-sacred-ve",
+        "navigation_id": "EZR.1:P:the-edict-of-cyrus-the-departure-from-babylon-the-restitution-of-the-sacred-ve",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "THe edict of Cyrus, the departure from Babylon, the restitution of the sacred vessels"
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:EZR:P:john-gill-book-introduction",
+        "navigation_id": "EZR:P:john-gill-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction · Ezra"
+      }
+    ]
+  },
+  "nav_policy": "P titles are source evidence; authoritative P applicability is navigation-coverage/v1/books/EZR.json. Verse routes contain only original source-indexed records."
+}

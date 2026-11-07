@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-ezra-2026-11-06",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "EZR"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 60,
+    "original_entries": 519,
+    "navigation_sections": 68,
+    "reader_visible_entries": 519,
+    "verse_author_routes": 1008,
+    "sword_chapters": 40,
+    "unavailable_chapters": 10,
+    "helloao_chapters": 20,
+    "chapters": 10
+  },
+  "chapter_verse_count": {
+    "1": 11,
+    "2": 70,
+    "3": 13,
+    "4": 24,
+    "5": 17,
+    "6": 22,
+    "7": 28,
+    "8": 36,
+    "9": 15,
+    "10": 44
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked original CrossWire/SWORD passage-index archives; HelloAO John Gill and genuinely missing whole-chapter fallback only.",
+  "reader_policy": "Verse by default; source-bounded P headings and validated historical book-group prefaces only.",
+  "provenance_policy": "Original historical author, complete source records, work edition, source record locators, native binary indexes, rights preserved.",
+  "notes": [
+    "Additive Ezra only: preserves previous fourteen book snapshots, navigation overlays and readers.",
+    "No fabricated Calvin commentary: supplied edition has no Ezra entries.",
+    "Three original historical-book group prefaces remain external source-linked pointers, not re-copied text.",
+    "Sparse HelloAO anchors are not extended to neighboring verses.",
+    "No Bible translation text or CGBC media-player integration in this ZIP.",
+    "GitHub deployment and public Pages visual verification are separate gates."
+  ]
+}

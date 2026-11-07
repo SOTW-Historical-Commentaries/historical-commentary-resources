@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.7-additive-2ch",
+  "version": "navigation-coverage-v1.8-additive-ezr",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -18,7 +18,8 @@
     "1KI",
     "2KI",
     "1CH",
-    "2CH"
+    "2CH",
+    "EZR"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -34,7 +35,8 @@
     "1KI": "structured-first-kings-2026-11-06",
     "2KI": "structured-second-kings-2026-11-06",
     "1CH": "structured-first-chronicles-2026-11-06",
-    "2CH": "structured-second-chronicles-2026-11-06"
+    "2CH": "structured-second-chronicles-2026-11-06",
+    "EZR": "structured-ezra-2026-11-06"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -48,7 +50,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 1898,
+    "original_P_sections": 1966,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -64,7 +66,8 @@
       "1KI": 127,
       "2KI": 131,
       "1CH": 130,
-      "2CH": 159
+      "2CH": 159,
+      "EZR": 68
     },
     "routed_by_book": {
       "GEN": 64,
@@ -80,10 +83,11 @@
       "1KI": 131,
       "2KI": 137,
       "1CH": 132,
-      "2CH": 166
+      "2CH": 166,
+      "EZR": 71
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.6-additive-1ch",
+  "previous_manifest_version": "navigation-coverage-v1.7-additive-2ch",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -103,6 +107,10 @@
     "2 Chronicles (36 chapters, 216 author-chapter files) added from six SHA-verified original archives.",
     "Original 2 Chronicles chapter/commentary indexes and original source records preserved; missing author chapters not fabricated.",
     "Accepted Chronicles-wide historical introductions reused as SHA-locked source links; no prior book content changed.",
-    "Only shared navigation coverage manifest updated; media player and original v1/v2/v3 prior snapshots unchanged."
+    "Only shared navigation coverage manifest updated; media player and original v1/v2/v3 prior snapshots unchanged.",
+    "Ezra (10 chapters, 60 author-chapter files) added using exact original SWORD KJV binary indexes and HelloAO Gill records.",
+    "Three original historical-book prefaces link to accepted older source records; no source preface copied.",
+    "Ezra local source sections are independently scoped; verse-mode reader remains default.",
+    "Calvin lacks Ezra in both original-source locations. No content fabricated; all previous 14 book snapshots untouched."
   ]
 }

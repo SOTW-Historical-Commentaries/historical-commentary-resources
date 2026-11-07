@@ -1,0 +1,2086 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "EZR",
+  "snapshot_id": "structured-ezra-2026-11-06",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation_sections remain immutable source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "navigation_id": "GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "author_id": "matthew-henry",
+        "title": "Preface · Joshua to Esther",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Ezra",
+        "source_evidence": "Preface · Joshua to Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json",
+          "chapter_file_sha256": "bda684d25cee03c45af6c0d07f31e86d39ec2ab8c5dcb8ba60acbe1867be8b58",
+          "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+          "source_entry_id": "sword:mhc:JOS.1.1-9:6:231:55617",
+          "fragment_sha256": "55aae99795c47ab5311a1a96180d3328e0842e93191b799ea2479594c35fb49a",
+          "character_span": [
+            0,
+            26969
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR:P:ezra",
+        "navigation_id": "EZR:P:ezra",
+        "author_id": "matthew-henry",
+        "title": "Ezra",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ezra",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/1.json",
+          "chapter_file_sha256": "aed82e11028aa822b4e19e9dc66c7d41fba73cd5473a2a8862dccff40dbdcbac",
+          "section_id": "nav:matthew-henry:EZR:P:ezra",
+          "source_entry_id": "sword:mhc:EZR.1.1-4:15:229:14344",
+          "fragment_sha256": "7be60bc775c61584e1142542ad32af9ae099b3c35cf568e1e5da8ca8e29b3432",
+          "character_span": [
+            57,
+            2916
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.1:P:the-proclamation-of-cyrus-b-c-536",
+        "navigation_id": "EZR.1:P:the-proclamation-of-cyrus-b-c-536",
+        "author_id": "matthew-henry",
+        "title": "The Proclamation of Cyrus. ( b. c. 536.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.1.1",
+        "passage_end": "EZR.1.4",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Proclamation of Cyrus. ( b. c. 536.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/1.json",
+          "chapter_file_sha256": "aed82e11028aa822b4e19e9dc66c7d41fba73cd5473a2a8862dccff40dbdcbac",
+          "section_id": "nav:matthew-henry:EZR.1:P:the-proclamation-of-cyrus-b-c-536",
+          "source_entry_id": "sword:mhc:EZR.1.1-4:15:229:14344",
+          "fragment_sha256": "108ee40389236ffa86003afe9536de5bcb50699423f3e3f616575dd8d3a7bb90",
+          "character_span": [
+            2916,
+            3009
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.2:P:the-return-of-the-captives-b-c-536",
+        "navigation_id": "EZR.2:P:the-return-of-the-captives-b-c-536",
+        "author_id": "matthew-henry",
+        "title": "The Return of the Captives. ( b. c. 536.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.2.1",
+        "passage_end": "EZR.2.35",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Return of the Captives. ( b. c. 536.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/2.json",
+          "chapter_file_sha256": "90cd7da6aac11043bfabfa94c68bf90c334895db33f7bace5ba905cb2d3b2ded",
+          "section_id": "nav:matthew-henry:EZR.2:P:the-return-of-the-captives-b-c-536",
+          "source_entry_id": "sword:mhc:EZR.2.1-35:15:25207:8046",
+          "fragment_sha256": "069374b4f6398ed1f78bed6e30e885429609f06a5e9186a5b8b31564c66d0580",
+          "character_span": [
+            73,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.3:P:the-renewal-of-the-sacrifices-b-c-536",
+        "navigation_id": "EZR.3:P:the-renewal-of-the-sacrifices-b-c-536",
+        "author_id": "matthew-henry",
+        "title": "The Renewal of the Sacrifices. ( b. c. 536.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.3.1",
+        "passage_end": "EZR.3.7",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Renewal of the Sacrifices. ( b. c. 536.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/3.json",
+          "chapter_file_sha256": "f7b37b02741a7f8c0e4c8da5ccc3fd0be3c1ab104d9f339372d54a2ef2f6ba3c",
+          "section_id": "nav:matthew-henry:EZR.3:P:the-renewal-of-the-sacrifices-b-c-536",
+          "source_entry_id": "sword:mhc:EZR.3.1-7:15:50092:10668",
+          "fragment_sha256": "e5fa5d5f6aed89eda5cb8178562e533abd59b000e47dae6a1c90b0b6b8d0bce4",
+          "character_span": [
+            73,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.3:P:the-foundation-of-the-temple-laid-b-c-535",
+        "navigation_id": "EZR.3:P:the-foundation-of-the-temple-laid-b-c-535",
+        "author_id": "matthew-henry",
+        "title": "The Foundation of the Temple Laid. ( b. c. 535.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.3.8",
+        "passage_end": "EZR.3.13",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Foundation of the Temple Laid. ( b. c. 535.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/3.json",
+          "chapter_file_sha256": "f7b37b02741a7f8c0e4c8da5ccc3fd0be3c1ab104d9f339372d54a2ef2f6ba3c",
+          "section_id": "nav:matthew-henry:EZR.3:P:the-foundation-of-the-temple-laid-b-c-535",
+          "source_entry_id": "sword:mhc:EZR.3.8-13:15:60760:8943",
+          "fragment_sha256": "3443867093a1b75554fdc839a03771624023a74f82e6dffaf0a613859e37067f",
+          "character_span": [
+            32,
+            133
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.4:P:opposition-made-to-the-jews-b-c-535",
+        "navigation_id": "EZR.4:P:opposition-made-to-the-jews-b-c-535",
+        "author_id": "matthew-henry",
+        "title": "Opposition Made to the Jews. ( b. c. 535.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.4.1",
+        "passage_end": "EZR.4.5",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Opposition Made to the Jews. ( b. c. 535.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/4.json",
+          "chapter_file_sha256": "b85bc6fc1d953869d655c0815880d3fbc7354e1e815dfaaa63726ade18a2473c",
+          "section_id": "nav:matthew-henry:EZR.4:P:opposition-made-to-the-jews-b-c-535",
+          "source_entry_id": "sword:mhc:EZR.4.1-5:15:70840:8715",
+          "fragment_sha256": "1180c57ceb01b2e8c68c00edf6db97f29a78d2ad41aada203918488889156d46",
+          "character_span": [
+            73,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.4:P:the-jews-misrepresented-b-c-521",
+        "navigation_id": "EZR.4:P:the-jews-misrepresented-b-c-521",
+        "author_id": "matthew-henry",
+        "title": "The Jews Misrepresented. ( b. c. 521.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.4.6",
+        "passage_end": "EZR.4.16",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Jews Misrepresented. ( b. c. 521.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/4.json",
+          "chapter_file_sha256": "b85bc6fc1d953869d655c0815880d3fbc7354e1e815dfaaa63726ade18a2473c",
+          "section_id": "nav:matthew-henry:EZR.4:P:the-jews-misrepresented-b-c-521",
+          "source_entry_id": "sword:mhc:EZR.4.6-16:15:79555:14465",
+          "fragment_sha256": "9ac50e19de5d17202e00e075897e0793122f3624ef990587d5af23443069a871",
+          "character_span": [
+            32,
+            123
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.5:P:the-jews-encouraged-by-their-prophets-b-c-520",
+        "navigation_id": "EZR.5:P:the-jews-encouraged-by-their-prophets-b-c-520",
+        "author_id": "matthew-henry",
+        "title": "The Jews Encouraged by Their Prophets. ( b. c. 520.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.5.1",
+        "passage_end": "EZR.5.2",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Jews Encouraged by Their Prophets. ( b. c. 520.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/5.json",
+          "chapter_file_sha256": "716d96e198b2ebd3a486343e0ba33611e39344ff2c27a0105924b8fe701b9c78",
+          "section_id": "nav:matthew-henry:EZR.5:P:the-jews-encouraged-by-their-prophets-b-c-520",
+          "source_entry_id": "sword:mhc:EZR.5.1-2:15:101912:5481",
+          "fragment_sha256": "bda8ae6ca7a25e878e57ea8c3068924cfb09cb439e9e64573fb155c8bdb46cc0",
+          "character_span": [
+            73,
+            178
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.5:P:the-case-represented-to-darius-b-c-519",
+        "navigation_id": "EZR.5:P:the-case-represented-to-darius-b-c-519",
+        "author_id": "matthew-henry",
+        "title": "The Case Represented to Darius. ( b. c. 519.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.5.3",
+        "passage_end": "EZR.5.17",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Case Represented to Darius. ( b. c. 519.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/5.json",
+          "chapter_file_sha256": "716d96e198b2ebd3a486343e0ba33611e39344ff2c27a0105924b8fe701b9c78",
+          "section_id": "nav:matthew-henry:EZR.5:P:the-case-represented-to-darius-b-c-519",
+          "source_entry_id": "sword:mhc:EZR.5.3-17:15:107393:12467",
+          "fragment_sha256": "0dc01a4e8d61bbe5993511b918d08a8e042a56d06fc6323dfcfa1dbccdc3ebf3",
+          "character_span": [
+            32,
+            130
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.6:P:the-favourable-decree-of-darius-b-c-519",
+        "navigation_id": "EZR.6:P:the-favourable-decree-of-darius-b-c-519",
+        "author_id": "matthew-henry",
+        "title": "The Favourable Decree of Darius. ( b. c. 519.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.6.1",
+        "passage_end": "EZR.6.12",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Favourable Decree of Darius. ( b. c. 519.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/6.json",
+          "chapter_file_sha256": "65c507e4c734e183b3b5c1acd71caa4a04fe518db8acbbf4079147d080e35a43",
+          "section_id": "nav:matthew-henry:EZR.6:P:the-favourable-decree-of-darius-b-c-519",
+          "source_entry_id": "sword:mhc:EZR.6.1-12:15:121315:11229",
+          "fragment_sha256": "0c3fa27c13a2327383918301fb242fdb2e6eed2bf271eab138643aacbc9ba095",
+          "character_span": [
+            73,
+            172
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.6:P:completion-of-the-second-temple-b-c-516",
+        "navigation_id": "EZR.6:P:completion-of-the-second-temple-b-c-516",
+        "author_id": "matthew-henry",
+        "title": "Completion of the Second Temple. ( b. c. 516.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.6.13",
+        "passage_end": "EZR.6.22",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Completion of the Second Temple. ( b. c. 516.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/6.json",
+          "chapter_file_sha256": "65c507e4c734e183b3b5c1acd71caa4a04fe518db8acbbf4079147d080e35a43",
+          "section_id": "nav:matthew-henry:EZR.6:P:completion-of-the-second-temple-b-c-516",
+          "source_entry_id": "sword:mhc:EZR.6.13-22:15:132544:12788",
+          "fragment_sha256": "39724cce384b266fbe5b39eb760620cfcb9733b9fc34acdee6473fdbe134a52a",
+          "character_span": [
+            32,
+            131
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.7:P:ezra-s-arrival-at-jerusalem-b-c-457",
+        "navigation_id": "EZR.7:P:ezra-s-arrival-at-jerusalem-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Arrival at Jerusalem. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.7.1",
+        "passage_end": "EZR.7.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Arrival at Jerusalem. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/7.json",
+          "chapter_file_sha256": "b1a288aa10c41181d2c89c275ebcb7f9792bfd7185779176a7a629bb068520e3",
+          "section_id": "nav:matthew-henry:EZR.7:P:ezra-s-arrival-at-jerusalem-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.7.1-10:15:146682:9403",
+          "fragment_sha256": "0526ea6307c446a465de864d810819ea0e5f6126df9a00adce1c310877ab6705",
+          "character_span": [
+            73,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.7:P:the-decree-of-artaxerxes-b-c-457",
+        "navigation_id": "EZR.7:P:the-decree-of-artaxerxes-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "The Decree of Artaxerxes. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.7.11",
+        "passage_end": "EZR.7.26",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Decree of Artaxerxes. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/7.json",
+          "chapter_file_sha256": "b1a288aa10c41181d2c89c275ebcb7f9792bfd7185779176a7a629bb068520e3",
+          "section_id": "nav:matthew-henry:EZR.7:P:the-decree-of-artaxerxes-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.7.11-26:15:156085:14422",
+          "fragment_sha256": "399691efcd0e7b01a811057d81c5f3e9f818439b26e9d871cea32dcc58c36c66",
+          "character_span": [
+            32,
+            124
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.7:P:ezra-s-thankfulness-to-god-b-c-457",
+        "navigation_id": "EZR.7:P:ezra-s-thankfulness-to-god-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Thankfulness to God. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.7.27",
+        "passage_end": "EZR.7.28",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Thankfulness to God. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/7.json",
+          "chapter_file_sha256": "b1a288aa10c41181d2c89c275ebcb7f9792bfd7185779176a7a629bb068520e3",
+          "section_id": "nav:matthew-henry:EZR.7:P:ezra-s-thankfulness-to-god-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.7.27-28:15:170507:3692",
+          "fragment_sha256": "45dc4020534dcd1a6bc774297d190b7a50944502e16d907a5399936224d72dec",
+          "character_span": [
+            32,
+            126
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.8:P:the-journey-of-ezra-and-others-b-c-457",
+        "navigation_id": "EZR.8:P:the-journey-of-ezra-and-others-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "The Journey of Ezra and Others. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.1",
+        "passage_end": "EZR.8.20",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Journey of Ezra and Others. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/8.json",
+          "chapter_file_sha256": "707094b51610ad09d5abdd7b2b816ab9f4bbbf27d6a8d991ae7d3369f93d918b",
+          "section_id": "nav:matthew-henry:EZR.8:P:the-journey-of-ezra-and-others-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.8.1-20:15:175477:9572",
+          "fragment_sha256": "fe4d879dad9ee0631bdab64033a76ab4eab8633187440e2568a0cff870183582",
+          "character_span": [
+            73,
+            171
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.8:P:ezra-s-fast-b-c-457",
+        "navigation_id": "EZR.8:P:ezra-s-fast-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Fast. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.21",
+        "passage_end": "EZR.8.23",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Fast. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/8.json",
+          "chapter_file_sha256": "707094b51610ad09d5abdd7b2b816ab9f4bbbf27d6a8d991ae7d3369f93d918b",
+          "section_id": "nav:matthew-henry:EZR.8:P:ezra-s-fast-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.8.21-23:15:185049:4883",
+          "fragment_sha256": "2138e3e341702e248f232aace23cc83be3ec37a4aa63984b43fd1656b325bf58",
+          "character_span": [
+            32,
+            111
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.8:P:ezra-s-care-of-the-temple-treasure-b-c-457",
+        "navigation_id": "EZR.8:P:ezra-s-care-of-the-temple-treasure-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Care of the Temple Treasure. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.24",
+        "passage_end": "EZR.8.30",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Care of the Temple Treasure. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/8.json",
+          "chapter_file_sha256": "707094b51610ad09d5abdd7b2b816ab9f4bbbf27d6a8d991ae7d3369f93d918b",
+          "section_id": "nav:matthew-henry:EZR.8:P:ezra-s-care-of-the-temple-treasure-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.8.24-30:15:189932:5346",
+          "fragment_sha256": "a68fe987c3ef1c7c67cca9beb289838babadb074009aef176d4d4d6ef3458068",
+          "character_span": [
+            32,
+            134
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.8:P:ezra-s-arrival-at-jerusalem-b-c-457",
+        "navigation_id": "EZR.8:P:ezra-s-arrival-at-jerusalem-b-c-457",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Arrival at Jerusalem. ( b. c. 457.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.31",
+        "passage_end": "EZR.8.36",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Arrival at Jerusalem. ( b. c. 457.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/8.json",
+          "chapter_file_sha256": "707094b51610ad09d5abdd7b2b816ab9f4bbbf27d6a8d991ae7d3369f93d918b",
+          "section_id": "nav:matthew-henry:EZR.8:P:ezra-s-arrival-at-jerusalem-b-c-457",
+          "source_entry_id": "sword:mhc:EZR.8.31-36:15:195278:5090",
+          "fragment_sha256": "0526ea6307c446a465de864d810819ea0e5f6126df9a00adce1c310877ab6705",
+          "character_span": [
+            32,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.9:P:ezra-s-reformation-b-c-456",
+        "navigation_id": "EZR.9:P:ezra-s-reformation-b-c-456",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Reformation. ( b. c. 456.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.9.1",
+        "passage_end": "EZR.9.4",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Reformation. ( b. c. 456.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/9.json",
+          "chapter_file_sha256": "1e8757488267a1c0c19543a8bd52347e314aa13f0a8518052d19118e16f7066f",
+          "section_id": "nav:matthew-henry:EZR.9:P:ezra-s-reformation-b-c-456",
+          "source_entry_id": "sword:mhc:EZR.9.1-4:15:202055:8544",
+          "fragment_sha256": "c35262e83feaef206b7023069136a910087f253804dd5b9db882f1639c387aff",
+          "character_span": [
+            73,
+            159
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EZR.10:P:ezra-s-reformation-b-c-456",
+        "navigation_id": "EZR.10:P:ezra-s-reformation-b-c-456",
+        "author_id": "matthew-henry",
+        "title": "Ezra's Reformation. ( b. c. 456.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.10.1",
+        "passage_end": "EZR.10.5",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Ezra's Reformation. ( b. c. 456.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/matthew-henry/EZR/10.json",
+          "chapter_file_sha256": "5d2c3b226924759195bb671bf22a40e8ce52e98a4e5f3d24268164fbcf75484d",
+          "section_id": "nav:matthew-henry:EZR.10:P:ezra-s-reformation-b-c-456",
+          "source_entry_id": "sword:mhc:EZR.10.1-5:15:231795:10748",
+          "fragment_sha256": "c35262e83feaef206b7023069136a910087f253804dd5b9db882f1639c387aff",
+          "character_span": [
+            73,
+            159
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:EZR:P:introduction-to-the-book-of-ezra",
+        "navigation_id": "EZR:P:introduction-to-the-book-of-ezra",
+        "author_id": "adam-clarke",
+        "title": "Introduction to the Book of Ezra",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction to the Book of Ezra",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/1.json",
+          "chapter_file_sha256": "5a29a5bde7635884293da9372e4530e269f1df3774f6b7df10b8262ff212b176",
+          "section_id": "nav:adam-clarke:EZR:P:introduction-to-the-book-of-ezra",
+          "source_entry_id": "sword:clarke:EZR.1.1-1:15:255:62574",
+          "fragment_sha256": "28e7f7346e7b050725afa9cacd5d6a1ff865d14e29afddd252e9df3b97d5361c",
+          "character_span": [
+            33,
+            59344
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.2:P:introduction",
+        "navigation_id": "EZR.2:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/2.json",
+          "chapter_file_sha256": "9d8b973c8fb31040624ef6ed375afa7ac774188bf638f6366169d89ed5b339d1",
+          "section_id": "nav:adam-clarke:EZR.2:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.2.1-1:15:67366:2265",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.3:P:introduction",
+        "navigation_id": "EZR.3:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/3.json",
+          "chapter_file_sha256": "8fa6b385640c7a2fdcade97d4b5c9eb38a9630ebca3820237626793cf6dc0d62",
+          "section_id": "nav:adam-clarke:EZR.3:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.3.1-1:15:75318:1589",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.4:P:introduction",
+        "navigation_id": "EZR.4:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/4.json",
+          "chapter_file_sha256": "8ea30b331092efbabcdca9865f0d2c77c78dbefe91811145410a5b1ddcad9d10",
+          "section_id": "nav:adam-clarke:EZR.4:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.4.1-1:15:80629:1254",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.5:P:introduction",
+        "navigation_id": "EZR.5:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/5.json",
+          "chapter_file_sha256": "dbfde38ec4917264dcc4d7f8b67552b61a503716fccf13a82e398f0dd4251f1f",
+          "section_id": "nav:adam-clarke:EZR.5:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.5.1-1:15:91811:1363",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.6:P:introduction",
+        "navigation_id": "EZR.6:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/6.json",
+          "chapter_file_sha256": "6f2c5f000a35e87a8148654b37d0c1d983b787ca5da1a78a63eea8549b595b98",
+          "section_id": "nav:adam-clarke:EZR.6:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.6.1-1:15:96575:1338",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.7:P:introduction",
+        "navigation_id": "EZR.7:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/7.json",
+          "chapter_file_sha256": "ef7919e0d3e9836c53f72393c104f791d945d3108354d323ee6a2c6e82f40bfa",
+          "section_id": "nav:adam-clarke:EZR.7:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.7.1-1:15:104000:2307",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.8:P:introduction",
+        "navigation_id": "EZR.8:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/8.json",
+          "chapter_file_sha256": "f12b01a78309e5b93648c1606119a676c062fca6cdaa53fa931b2150b72b9af8",
+          "section_id": "nav:adam-clarke:EZR.8:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.8.1-1:15:111978:1511",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.9:P:introduction",
+        "navigation_id": "EZR.9:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/9.json",
+          "chapter_file_sha256": "bc205fb59aaa2d3f42e54d6e919eda3af9eddad2b9313d4d20ad02256ef3193c",
+          "section_id": "nav:adam-clarke:EZR.9:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.9.1-1:15:119811:1158",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EZR.10:P:introduction",
+        "navigation_id": "EZR.10:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/adam-clarke/EZR/10.json",
+          "chapter_file_sha256": "e59031d899d4aed79ced8dd4e897c029def3307324a9456767e0b2618334ac4f",
+          "section_id": "nav:adam-clarke:EZR.10:P:introduction",
+          "source_entry_id": "sword:clarke:EZR.10.1-1:15:128132:1663",
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+        "navigation_id": "GROUP:GEN-HISTORICAL:P:gen-historical",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction to Pentateuch and historical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Ezra",
+        "source_evidence": "Introduction to Pentateuch and historical books",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "539074c824eb6cf2cfb472df08f2ce3a36cbd9765367eae3efaac4d907513015",
+          "character_span": [
+            56,
+            30473
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR:P:the-book-of-ezra",
+        "navigation_id": "EZR:P:the-book-of-ezra",
+        "author_id": "jamieson-fausset-brown",
+        "title": "THE BOOK OF EZRA",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "THE BOOK OF EZRA",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/1.json",
+          "chapter_file_sha256": "2c0f135fae37ffd5b1811d6951e68e1a5fce0c5594c95d880c7f75e8f33bef5b",
+          "section_id": "nav:jamieson-fausset-brown:EZR:P:the-book-of-ezra",
+          "source_entry_id": "sword:jfb:EZR.1.1-1:15:237:1063",
+          "fragment_sha256": "b976470404aa7eca460cf8641f9ba62631d3f4751c898484a323ab905e8f6d25",
+          "character_span": [
+            59,
+            196
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.1:P:chapter-1",
+        "navigation_id": "EZR.1:P:chapter-1",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 1",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/1.json",
+          "chapter_file_sha256": "2c0f135fae37ffd5b1811d6951e68e1a5fce0c5594c95d880c7f75e8f33bef5b",
+          "section_id": "nav:jamieson-fausset-brown:EZR.1:P:chapter-1",
+          "source_entry_id": "sword:jfb:EZR.1.1-1:15:237:1063",
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            196,
+            231
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.1:P:ezr-1-1-6-proclamation-of-cyrus-for-building-the-temple",
+        "navigation_id": "EZR.1:P:ezr-1-1-6-proclamation-of-cyrus-for-building-the-temple",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 1:1-6 . Proclamation of Cyrus for Building the Temple.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.1.1",
+        "passage_end": "EZR.1.6",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 1:1-6 . Proclamation of Cyrus for Building the Temple.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/1.json",
+          "chapter_file_sha256": "2c0f135fae37ffd5b1811d6951e68e1a5fce0c5594c95d880c7f75e8f33bef5b",
+          "section_id": "nav:jamieson-fausset-brown:EZR.1:P:ezr-1-1-6-proclamation-of-cyrus-for-building-the-temple",
+          "source_entry_id": "sword:jfb:EZR.1.1-1:15:237:1063",
+          "fragment_sha256": "daa09edfbbc1271f362be576a559bf10c41d24c91b3ab3e4e298cf5dcb43ea78",
+          "character_span": [
+            232,
+            367
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.1:P:ezr-1-7-11-cyrus-restores-the-vessels",
+        "navigation_id": "EZR.1:P:ezr-1-7-11-cyrus-restores-the-vessels",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 1:7-11 . Cyrus Restores the Vessels.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.1.7",
+        "passage_end": "EZR.1.11",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 1:7-11 . Cyrus Restores the Vessels.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/1.json",
+          "chapter_file_sha256": "2c0f135fae37ffd5b1811d6951e68e1a5fce0c5594c95d880c7f75e8f33bef5b",
+          "section_id": "nav:jamieson-fausset-brown:EZR.1:P:ezr-1-7-11-cyrus-restores-the-vessels",
+          "source_entry_id": "sword:jfb:EZR.1.7-7:15:4564:753",
+          "fragment_sha256": "85761032bee9a0f038105bb5e1c19042de608941c35776267dd9645757f77e72",
+          "character_span": [
+            59,
+            177
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.2:P:chapter-2",
+        "navigation_id": "EZR.2:P:chapter-2",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 2",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/2.json",
+          "chapter_file_sha256": "e6075dffd62a4fc796b0766dcfdf9a8038655d079e9866bbcdd0b208d7e39f16",
+          "section_id": "nav:jamieson-fausset-brown:EZR.2:P:chapter-2",
+          "source_entry_id": "sword:jfb:EZR.2.1-1:15:7156:1180",
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.2:P:ezr-2-1-70-number-of-the-people-that-turned",
+        "navigation_id": "EZR.2:P:ezr-2-1-70-number-of-the-people-that-turned",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 2:1-70 . Number of the People That Turned.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.2.1",
+        "passage_end": "EZR.2.70",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 2:1-70 . Number of the People That Turned.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/2.json",
+          "chapter_file_sha256": "e6075dffd62a4fc796b0766dcfdf9a8038655d079e9866bbcdd0b208d7e39f16",
+          "section_id": "nav:jamieson-fausset-brown:EZR.2:P:ezr-2-1-70-number-of-the-people-that-turned",
+          "source_entry_id": "sword:jfb:EZR.2.1-1:15:7156:1180",
+          "fragment_sha256": "fd9428b9fe9f8286c363ab9bbe277fb3b01186136037a0fe844cb7b32635f966",
+          "character_span": [
+            96,
+            220
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.3:P:chapter-3",
+        "navigation_id": "EZR.3:P:chapter-3",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 3",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/3.json",
+          "chapter_file_sha256": "0f3f9eab644a856957e3aae959b19c62e276822a96e1b1d37b39409961594365",
+          "section_id": "nav:jamieson-fausset-brown:EZR.3:P:chapter-3",
+          "source_entry_id": "sword:jfb:EZR.3.1-1:15:15887:1034",
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.3:P:ezr-3-1-13-the-altar-set-up",
+        "navigation_id": "EZR.3:P:ezr-3-1-13-the-altar-set-up",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 3:1-13 . The Altar Set Up.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.3.1",
+        "passage_end": "EZR.3.13",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 3:1-13 . The Altar Set Up.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/3.json",
+          "chapter_file_sha256": "0f3f9eab644a856957e3aae959b19c62e276822a96e1b1d37b39409961594365",
+          "section_id": "nav:jamieson-fausset-brown:EZR.3:P:ezr-3-1-13-the-altar-set-up",
+          "source_entry_id": "sword:jfb:EZR.3.1-1:15:15887:1034",
+          "fragment_sha256": "e4ea05e9b7d44be99f37f3e64a8b794bdfc7cffe7552df4897d504d28458fb7e",
+          "character_span": [
+            96,
+            204
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.3:P:ezr-3-4-7-offerings-renewed",
+        "navigation_id": "EZR.3:P:ezr-3-4-7-offerings-renewed",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 3:4-7 . Offerings Renewed.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.3.4",
+        "passage_end": "EZR.3.7",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 3:4-7 . Offerings Renewed.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/3.json",
+          "chapter_file_sha256": "0f3f9eab644a856957e3aae959b19c62e276822a96e1b1d37b39409961594365",
+          "section_id": "nav:jamieson-fausset-brown:EZR.3:P:ezr-3-4-7-offerings-renewed",
+          "source_entry_id": "sword:jfb:EZR.3.4-6:15:19059:526",
+          "fragment_sha256": "d6239a6311adf28cc259f7b01574fa38aec5f96842fd767e1f0c772ffc5a5734",
+          "character_span": [
+            59,
+            166
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.3:P:ezr-3-8-13-the-foundation-of-the-temple-laid",
+        "navigation_id": "EZR.3:P:ezr-3-8-13-the-foundation-of-the-temple-laid",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 3:8-13 . The Foundation of the Temple Laid.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.3.8",
+        "passage_end": "EZR.3.13",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 3:8-13 . The Foundation of the Temple Laid.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/3.json",
+          "chapter_file_sha256": "0f3f9eab644a856957e3aae959b19c62e276822a96e1b1d37b39409961594365",
+          "section_id": "nav:jamieson-fausset-brown:EZR.3:P:ezr-3-8-13-the-foundation-of-the-temple-laid",
+          "source_entry_id": "sword:jfb:EZR.3.8-8:15:20143:493",
+          "fragment_sha256": "705619df5110b91817212a3d29c611ee0704a6a5e899d2078d52237f883fb1eb",
+          "character_span": [
+            59,
+            184
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.4:P:chapter-4",
+        "navigation_id": "EZR.4:P:chapter-4",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 4",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/4.json",
+          "chapter_file_sha256": "eba467c0515a69dd849ff6348969007008f384f63ba66970ebd75d36d138214d",
+          "section_id": "nav:jamieson-fausset-brown:EZR.4:P:chapter-4",
+          "source_entry_id": "sword:jfb:EZR.4.1-1:15:23256:442",
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.4:P:ezr-4-1-6-the-building-hindered",
+        "navigation_id": "EZR.4:P:ezr-4-1-6-the-building-hindered",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 4:1-6 . The Building Hindered.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.4.1",
+        "passage_end": "EZR.4.6",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 4:1-6 . The Building Hindered.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/4.json",
+          "chapter_file_sha256": "eba467c0515a69dd849ff6348969007008f384f63ba66970ebd75d36d138214d",
+          "section_id": "nav:jamieson-fausset-brown:EZR.4:P:ezr-4-1-6-the-building-hindered",
+          "source_entry_id": "sword:jfb:EZR.4.1-1:15:23256:442",
+          "fragment_sha256": "876b0599746e18a73bf844d1dc1d0a8f29f54dfa7e0dbdcf227dfba39aef7851",
+          "character_span": [
+            96,
+            207
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.4:P:ezr-4-7-24-letter-to-artaxerxes",
+        "navigation_id": "EZR.4:P:ezr-4-7-24-letter-to-artaxerxes",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 4:7-24 . Letter to Artaxerxes.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.4.7",
+        "passage_end": "EZR.4.24",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 4:7-24 . Letter to Artaxerxes.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/4.json",
+          "chapter_file_sha256": "eba467c0515a69dd849ff6348969007008f384f63ba66970ebd75d36d138214d",
+          "section_id": "nav:jamieson-fausset-brown:EZR.4:P:ezr-4-7-24-letter-to-artaxerxes",
+          "source_entry_id": "sword:jfb:EZR.4.7-7:15:27410:1110",
+          "fragment_sha256": "03f6daed3afe55f8803fb81d2164a33ec888a4574d7423f0f3ad73e0d9dc5ff2",
+          "character_span": [
+            59,
+            171
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.5:P:chapter-5",
+        "navigation_id": "EZR.5:P:chapter-5",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 5",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/5.json",
+          "chapter_file_sha256": "b59237147e5908892a235e72235f4528eb4ab6dc12b165c5741ef1b81f1f1e93",
+          "section_id": "nav:jamieson-fausset-brown:EZR.5:P:chapter-5",
+          "source_entry_id": "sword:jfb:EZR.5.1-1:15:31572:1475",
+          "fragment_sha256": "28c7aecb7b8150863ebc556b4f18e721a5a0f56caa8d893a04ea73e9a15091ee",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.5:P:ezr-5-1-17-zerubbabel-and-jeshua-set-forward-the-building-of-the-temple-in-the",
+        "navigation_id": "EZR.5:P:ezr-5-1-17-zerubbabel-and-jeshua-set-forward-the-building-of-the-temple-in-the",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 5:1-17 . Zerubbabel and Jeshua Set Forward the Building of the Temple in the Reign of Darius.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.5.1",
+        "passage_end": "EZR.5.17",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 5:1-17 . Zerubbabel and Jeshua Set Forward the Building of the Temple in the Reign of Darius.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/5.json",
+          "chapter_file_sha256": "b59237147e5908892a235e72235f4528eb4ab6dc12b165c5741ef1b81f1f1e93",
+          "section_id": "nav:jamieson-fausset-brown:EZR.5:P:ezr-5-1-17-zerubbabel-and-jeshua-set-forward-the-building-of-the-temple-in-the",
+          "source_entry_id": "sword:jfb:EZR.5.1-1:15:31572:1475",
+          "fragment_sha256": "9c63dac48bdb68fe4372de43c7433b0ad31be8839fec419c6d3188c6f1ef22c5",
+          "character_span": [
+            96,
+            271
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.6:P:chapter-6",
+        "navigation_id": "EZR.6:P:chapter-6",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 6",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 6",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/6.json",
+          "chapter_file_sha256": "71be33dd7efc62ad2c0ec32622e9c379ed1abd96e8b4a535f53e9affb0756dcb",
+          "section_id": "nav:jamieson-fausset-brown:EZR.6:P:chapter-6",
+          "source_entry_id": "sword:jfb:EZR.6.1-1:15:38827:2406",
+          "fragment_sha256": "156b149338ab4df993d1da11058affc61b5ad0471fcd353217038eb5acf8d55b",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-1-12-darius-decree-for-advancing-the-building",
+        "navigation_id": "EZR.6:P:ezr-6-1-12-darius-decree-for-advancing-the-building",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 6:1-12 . Darius' Decree for Advancing the Building.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.6.1",
+        "passage_end": "EZR.6.12",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 6:1-12 . Darius' Decree for Advancing the Building.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/6.json",
+          "chapter_file_sha256": "71be33dd7efc62ad2c0ec32622e9c379ed1abd96e8b4a535f53e9affb0756dcb",
+          "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-1-12-darius-decree-for-advancing-the-building",
+          "source_entry_id": "sword:jfb:EZR.6.1-1:15:38827:2406",
+          "fragment_sha256": "496937ccc03f41212b914c21885a8e3fae4597a1d4d1e97de0bc2bacb5bd7b51",
+          "character_span": [
+            96,
+            229
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-13-15-the-temple-finished",
+        "navigation_id": "EZR.6:P:ezr-6-13-15-the-temple-finished",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 6:13-15 . The Temple Finished.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.6.13",
+        "passage_end": "EZR.6.15",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 6:13-15 . The Temple Finished.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/6.json",
+          "chapter_file_sha256": "71be33dd7efc62ad2c0ec32622e9c379ed1abd96e8b4a535f53e9affb0756dcb",
+          "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-13-15-the-temple-finished",
+          "source_entry_id": "sword:jfb:EZR.6.13-15:15:43599:789",
+          "fragment_sha256": "e006986ff32cbb041850ab35375d70e771d9ec9cff921593345da7c628ba3069",
+          "character_span": [
+            59,
+            172
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-16-18-feasts-of-the-dedication",
+        "navigation_id": "EZR.6:P:ezr-6-16-18-feasts-of-the-dedication",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 6:16-18 . Feasts of the Dedication.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.6.16",
+        "passage_end": "EZR.6.18",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 6:16-18 . Feasts of the Dedication.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/6.json",
+          "chapter_file_sha256": "71be33dd7efc62ad2c0ec32622e9c379ed1abd96e8b4a535f53e9affb0756dcb",
+          "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-16-18-feasts-of-the-dedication",
+          "source_entry_id": "sword:jfb:EZR.6.16-16:15:44388:630",
+          "fragment_sha256": "465176c92fce3aac4aa5a970686264223922054b024177162f51fafc3109fe62",
+          "character_span": [
+            59,
+            177
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-19-22-and-of-the-passover",
+        "navigation_id": "EZR.6:P:ezr-6-19-22-and-of-the-passover",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 6:19-22 . And of the Passover.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.6.19",
+        "passage_end": "EZR.6.22",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 6:19-22 . And of the Passover.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/6.json",
+          "chapter_file_sha256": "71be33dd7efc62ad2c0ec32622e9c379ed1abd96e8b4a535f53e9affb0756dcb",
+          "section_id": "nav:jamieson-fausset-brown:EZR.6:P:ezr-6-19-22-and-of-the-passover",
+          "source_entry_id": "sword:jfb:EZR.6.21-21:15:45907:639",
+          "fragment_sha256": "2ce8f46e2b69085f13fb1c09b6eb36766362e6d90d9f5eef9ff2ef17306aef68",
+          "character_span": [
+            59,
+            172
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.7:P:chapter-7",
+        "navigation_id": "EZR.7:P:chapter-7",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 7",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 7",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/7.json",
+          "chapter_file_sha256": "fe4a0345c8620c2ea510211d135c96d992429513fdbcd3b1834051b171205d03",
+          "section_id": "nav:jamieson-fausset-brown:EZR.7:P:chapter-7",
+          "source_entry_id": "sword:jfb:EZR.7.1-2:15:47569:1088",
+          "fragment_sha256": "fd5cdd0f2948c8519b7f0cb340762e2d24db08f21871c13503bfc3130fe07404",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.7:P:ezr-7-1-10-ezra-goes-up-to-jerusalem",
+        "navigation_id": "EZR.7:P:ezr-7-1-10-ezra-goes-up-to-jerusalem",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 7:1-10 . Ezra Goes Up to Jerusalem.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.7.1",
+        "passage_end": "EZR.7.10",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 7:1-10 . Ezra Goes Up to Jerusalem.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/7.json",
+          "chapter_file_sha256": "fe4a0345c8620c2ea510211d135c96d992429513fdbcd3b1834051b171205d03",
+          "section_id": "nav:jamieson-fausset-brown:EZR.7:P:ezr-7-1-10-ezra-goes-up-to-jerusalem",
+          "source_entry_id": "sword:jfb:EZR.7.1-2:15:47569:1088",
+          "fragment_sha256": "cbd1b3deaa899bd8a06b24de239151e605bcc20f33787a81a3ace30e4f8bbdc0",
+          "character_span": [
+            96,
+            213
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.7:P:ezr-7-11-26-gracious-commission-of-artaxerxes",
+        "navigation_id": "EZR.7:P:ezr-7-11-26-gracious-commission-of-artaxerxes",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 7:11-26 . Gracious Commission of Artaxerxes.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.7.11",
+        "passage_end": "EZR.7.26",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 7:11-26 . Gracious Commission of Artaxerxes.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/7.json",
+          "chapter_file_sha256": "fe4a0345c8620c2ea510211d135c96d992429513fdbcd3b1834051b171205d03",
+          "section_id": "nav:jamieson-fausset-brown:EZR.7:P:ezr-7-11-26-gracious-commission-of-artaxerxes",
+          "source_entry_id": "sword:jfb:EZR.7.11-11:15:51203:1142",
+          "fragment_sha256": "596b41a725841b5f2777e18795997bf11f1085ec9512d182bf8ac53b6ba35b93",
+          "character_span": [
+            59,
+            186
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.8:P:chapter-8",
+        "navigation_id": "EZR.8:P:chapter-8",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 8",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/8.json",
+          "chapter_file_sha256": "cddf1e90d2004a30ecdb839c35b9eea981297748597a7b06f66d7ac5c20327c9",
+          "section_id": "nav:jamieson-fausset-brown:EZR.8:P:chapter-8",
+          "source_entry_id": "sword:jfb:EZR.8.1-1:15:57077:702",
+          "fragment_sha256": "4d9012f96b6241d9b632a799789d66d9c0710da056965ee37c66ea12bf40f4f8",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.8:P:ezr-8-1-14-ezra-s-companions-from-babylon",
+        "navigation_id": "EZR.8:P:ezr-8-1-14-ezra-s-companions-from-babylon",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 8:1-14 . Ezra's Companions from Babylon.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.1",
+        "passage_end": "EZR.8.14",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 8:1-14 . Ezra's Companions from Babylon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/8.json",
+          "chapter_file_sha256": "cddf1e90d2004a30ecdb839c35b9eea981297748597a7b06f66d7ac5c20327c9",
+          "section_id": "nav:jamieson-fausset-brown:EZR.8:P:ezr-8-1-14-ezra-s-companions-from-babylon",
+          "source_entry_id": "sword:jfb:EZR.8.1-1:15:57077:702",
+          "fragment_sha256": "80755f5e28bcf4e3a21f0f68bf25c00acff3e685f75c70311666afd88d1c79dc",
+          "character_span": [
+            96,
+            218
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.8:P:ezr-8-15-20-he-sends-to-iddo-for-ministers-for-the-temple-service",
+        "navigation_id": "EZR.8:P:ezr-8-15-20-he-sends-to-iddo-for-ministers-for-the-temple-service",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 8:15-20 . He Sends to Iddo for Ministers for the Temple Service.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.15",
+        "passage_end": "EZR.8.20",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 8:15-20 . He Sends to Iddo for Ministers for the Temple Service.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/8.json",
+          "chapter_file_sha256": "cddf1e90d2004a30ecdb839c35b9eea981297748597a7b06f66d7ac5c20327c9",
+          "section_id": "nav:jamieson-fausset-brown:EZR.8:P:ezr-8-15-20-he-sends-to-iddo-for-ministers-for-the-temple-service",
+          "source_entry_id": "sword:jfb:EZR.8.15-15:15:57779:1412",
+          "fragment_sha256": "9675434909068185d9c038959b4fa828e00078917a223bdd2bf02288194023df",
+          "character_span": [
+            59,
+            206
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.8:P:ezr-8-21-36-a-fast-proclaimed",
+        "navigation_id": "EZR.8:P:ezr-8-21-36-a-fast-proclaimed",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 8:21-36 . A Fast Proclaimed.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.8.21",
+        "passage_end": "EZR.8.36",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 8:21-36 . A Fast Proclaimed.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/8.json",
+          "chapter_file_sha256": "cddf1e90d2004a30ecdb839c35b9eea981297748597a7b06f66d7ac5c20327c9",
+          "section_id": "nav:jamieson-fausset-brown:EZR.8:P:ezr-8-21-36-a-fast-proclaimed",
+          "source_entry_id": "sword:jfb:EZR.8.21-21:15:60095:1046",
+          "fragment_sha256": "7377b902218c76c93bba645818e833e12a9f7ab62c35867de7e65580a7441ec7",
+          "character_span": [
+            59,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.9:P:chapter-9",
+        "navigation_id": "EZR.9:P:chapter-9",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 9",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 9",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/9.json",
+          "chapter_file_sha256": "443f2349f78bee565509dbf7509db66f63342a1a4f4c90c49a8e7bc9ff9a3abf",
+          "section_id": "nav:jamieson-fausset-brown:EZR.9:P:chapter-9",
+          "source_entry_id": "sword:jfb:EZR.9.1-2:15:64542:2500",
+          "fragment_sha256": "0ea0c486365533614dd010ad9bac13027d59e52fbc2bc06dd8063e83d3000da7",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.9:P:ezr-9-1-4-ezra-mourns-for-the-affinity-of-the-people-with-strangers",
+        "navigation_id": "EZR.9:P:ezr-9-1-4-ezra-mourns-for-the-affinity-of-the-people-with-strangers",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 9:1-4 . Ezra Mourns for the Affinity of the People with Strangers.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.9.1",
+        "passage_end": "EZR.9.4",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 9:1-4 . Ezra Mourns for the Affinity of the People with Strangers.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/9.json",
+          "chapter_file_sha256": "443f2349f78bee565509dbf7509db66f63342a1a4f4c90c49a8e7bc9ff9a3abf",
+          "section_id": "nav:jamieson-fausset-brown:EZR.9:P:ezr-9-1-4-ezra-mourns-for-the-affinity-of-the-people-with-strangers",
+          "source_entry_id": "sword:jfb:EZR.9.1-2:15:64542:2500",
+          "fragment_sha256": "1b6cd1897b755f1399ad5a576aba7c2059d704cbe67688cb4553ce288da2eb69",
+          "character_span": [
+            96,
+            243
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.9:P:ezr-9-5-15-prays-to-god",
+        "navigation_id": "EZR.9:P:ezr-9-5-15-prays-to-god",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 9:5-15 . Prays to God.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.9.5",
+        "passage_end": "EZR.9.15",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 9:5-15 . Prays to God.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/9.json",
+          "chapter_file_sha256": "443f2349f78bee565509dbf7509db66f63342a1a4f4c90c49a8e7bc9ff9a3abf",
+          "section_id": "nav:jamieson-fausset-brown:EZR.9:P:ezr-9-5-15-prays-to-god",
+          "source_entry_id": "sword:jfb:EZR.9.5-15:15:68714:1238",
+          "fragment_sha256": "12c82b38696e29670a1fe838fe5a58a4e0f9903e014d566a2c8ee2f0f12abf8b",
+          "character_span": [
+            59,
+            163
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.10:P:chapter-10",
+        "navigation_id": "EZR.10:P:chapter-10",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 10",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 10",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/10.json",
+          "chapter_file_sha256": "4841d35ec5270290f40abfefa92d2bec559dceb50fbb5cb596451e2ce451e180",
+          "section_id": "nav:jamieson-fausset-brown:EZR.10:P:chapter-10",
+          "source_entry_id": "sword:jfb:EZR.10.1-1:15:70032:987",
+          "fragment_sha256": "5a065ed82e822dbfc57e8f8b272dfe533505c2c825b573d797ddcc0fe9ad66c7",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.10:P:ezr-10-1-17-ezra-reforms-the-strange-marriages",
+        "navigation_id": "EZR.10:P:ezr-10-1-17-ezra-reforms-the-strange-marriages",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 10:1-17 . Ezra Reforms the Strange Marriages.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.10.1",
+        "passage_end": "EZR.10.17",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 10:1-17 . Ezra Reforms the Strange Marriages.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/10.json",
+          "chapter_file_sha256": "4841d35ec5270290f40abfefa92d2bec559dceb50fbb5cb596451e2ce451e180",
+          "section_id": "nav:jamieson-fausset-brown:EZR.10:P:ezr-10-1-17-ezra-reforms-the-strange-marriages",
+          "source_entry_id": "sword:jfb:EZR.10.1-1:15:70032:987",
+          "fragment_sha256": "bed43e9d9589d5cb042d7399cfd6f6f528e21e2f1dd245df375b1e18bba03ebd",
+          "character_span": [
+            97,
+            226
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZR.10:P:ezr-10-18-44-those-that-had-taken-strange-wives",
+        "navigation_id": "EZR.10:P:ezr-10-18-44-those-that-had-taken-strange-wives",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ezr 10:18-44 . Those That Had Taken Strange Wives.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.10.18",
+        "passage_end": "EZR.10.44",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ezr 10:18-44 . Those That Had Taken Strange Wives.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/jamieson-fausset-brown/EZR/10.json",
+          "chapter_file_sha256": "4841d35ec5270290f40abfefa92d2bec559dceb50fbb5cb596451e2ce451e180",
+          "section_id": "nav:jamieson-fausset-brown:EZR.10:P:ezr-10-18-44-those-that-had-taken-strange-wives",
+          "source_entry_id": "sword:jfb:EZR.10.18-18:15:75143:537",
+          "fragment_sha256": "ad055ed481947845ff533bcc2e14d41e1e5b49f53c238870997b617f5b35b51a",
+          "character_span": [
+            59,
+            190
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+        "navigation_id": "1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+        "author_id": "keil-delitzsch",
+        "title": "Introduction to the Hagiographic Historical Books of the Old Testament",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Ezra",
+        "source_evidence": "Introduction to the Hagiographic Historical Books of the Old Testament",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-first-chronicles-2026-11-06/authors/keil-delitzsch/1CH/1.json",
+          "chapter_file_sha256": "209b03ebc67e839a894cac54def713e82910017d8e52891b05b54eabadaca403",
+          "section_id": "nav:keil-delitzsch:1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+          "source_entry_id": "sword:kd:1CH.1.1-4:14:142:136045",
+          "fragment_sha256": "0bdf4479ff1ef6f7f15c46920efb0c2c74388a1e46962e4e7205a1410f1ea168",
+          "character_span": [
+            32,
+            11198
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZR:P:the-book-of-ezra",
+        "navigation_id": "EZR:P:the-book-of-ezra",
+        "author_id": "keil-delitzsch",
+        "title": "The Book of Ezra",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "The Book of Ezra",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/keil-delitzsch/EZR/1.json",
+          "chapter_file_sha256": "9a23b4c3d0ef4cfe199fe5ae2883e54d857e3d77a1c32d29f7309f62686b4d48",
+          "section_id": "nav:keil-delitzsch:EZR:P:the-book-of-ezra",
+          "source_entry_id": "sword:kd:EZR.1.1-1:16:142:46086",
+          "fragment_sha256": "d3d6ded03955fb1dba466db13ef09b09d543c0eca0796b8862c3635caca1f85b",
+          "character_span": [
+            32,
+            40486
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZR.1:P:i-the-return-of-the-jews-from-babylon-under-cyrus-restoration-of-the-temple-an",
+        "navigation_id": "EZR.1:P:i-the-return-of-the-jews-from-babylon-under-cyrus-restoration-of-the-temple-an",
+        "author_id": "keil-delitzsch",
+        "title": "I. The Return of the Jews from Babylon under Cyrus. Restoration of the Temple and of the Worship of God at Jerusalem - Ezr 1:1",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.1.1",
+        "passage_end": "EZR.1.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "I. The Return of the Jews from Babylon under Cyrus. Restoration of the Temple and of the Worship of God at Jerusalem - Ezr 1:1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/keil-delitzsch/EZR/1.json",
+          "chapter_file_sha256": "9a23b4c3d0ef4cfe199fe5ae2883e54d857e3d77a1c32d29f7309f62686b4d48",
+          "section_id": "nav:keil-delitzsch:EZR.1:P:i-the-return-of-the-jews-from-babylon-under-cyrus-restoration-of-the-temple-an",
+          "source_entry_id": "sword:kd:EZR.1.1-1:16:142:46086",
+          "fragment_sha256": "2e7bd236db832c6497e8f7477bc22dcfba3ca2ea73fdb5bc9153fc06a0d89742",
+          "character_span": [
+            40486,
+            40639
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZR.1:P:the-edict-of-cyrus-the-departure-from-babylon-the-restitution-of-the-sacred-ve",
+        "navigation_id": "EZR.1:P:the-edict-of-cyrus-the-departure-from-babylon-the-restitution-of-the-sacred-ve",
+        "author_id": "keil-delitzsch",
+        "title": "THe edict of Cyrus, the departure from Babylon, the restitution of the sacred vessels",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.1.1",
+        "passage_end": "EZR.1.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "THe edict of Cyrus, the departure from Babylon, the restitution of the sacred vessels",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/keil-delitzsch/EZR/1.json",
+          "chapter_file_sha256": "9a23b4c3d0ef4cfe199fe5ae2883e54d857e3d77a1c32d29f7309f62686b4d48",
+          "section_id": "nav:keil-delitzsch:EZR.1:P:the-edict-of-cyrus-the-departure-from-babylon-the-restitution-of-the-sacred-ve",
+          "source_entry_id": "sword:kd:EZR.1.1-1:16:142:46086",
+          "fragment_sha256": "f04f1d4fb22f496a8f208759955b157d53143b84d70dc967cece2e8e165f2cdf",
+          "character_span": [
+            41420,
+            41532
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZR.3:P:the-altar-of-burnt-offering-erected-the-feast-of-tabernacles-celebrated-and-th",
+        "navigation_id": "EZR.3:P:the-altar-of-burnt-offering-erected-the-feast-of-tabernacles-celebrated-and-th",
+        "author_id": "keil-delitzsch",
+        "title": "The Altar of Burnt-Offering Erected, the Feast of Tabernacles Celebrated, and the Foundations of the Temple Laid - Ezr 3:1-13",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": "EZR.3.1",
+        "passage_end": "EZR.3.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Altar of Burnt-Offering Erected, the Feast of Tabernacles Celebrated, and the Foundations of the Temple Laid - Ezr 3:1-13",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/keil-delitzsch/EZR/3.json",
+          "chapter_file_sha256": "495c50247cac108ddc1eb5905db5a4925d01251b451b1dd1c85560cd1dd91d15",
+          "section_id": "nav:keil-delitzsch:EZR.3:P:the-altar-of-burnt-offering-erected-the-feast-of-tabernacles-celebrated-and-th",
+          "source_entry_id": "sword:kd:EZR.3.1-1:16:118790:1930",
+          "fragment_sha256": "a587be69010ba8290e81f8dfa3482764758d5fc409337b1f4381d6d75e070744",
+          "character_span": [
+            32,
+            184
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:EZR:P:john-gill-book-introduction",
+        "navigation_id": "EZR:P:john-gill-book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Ezra",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EZR"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction · Ezra",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ezra-2026-11-06/authors/john-gill/EZR/1.json",
+          "chapter_file_sha256": "39c8fb6a484a2a4af1b442acdbb980db08010038b7fc18bc13be1ef3b00c34f4",
+          "section_id": "nav:john-gill:EZR:P:john-gill-book-introduction",
+          "source_entry_id": null,
+          "fragment_sha256": "3acfe3a79223f6e78b72b78324d1145fb5cab79c10ce15cfe19d2597cff84ed2",
+          "character_span": null
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Ezra (10 chapters) retains exact original native SWORD verse ranges and HelloAO anchored verse records.",
+    "P material is separate non-Scripture navigation; no inferred adjacent verse coverage.",
+    "MHC Joshua-to-Esther, JFB historical-books and KD Hagiographic Historical introductions explicitly encompass Ezra; reuse verified existing source links, no duplicate text.",
+    "Book introductions and chapter headings are limited to explicit source titles; source text stored once and byte preserved.",
+    "Calvin original edition has no Ezra records, and no HelloAO Calvin substitute; publish unavailable status."
+  ]
+}
