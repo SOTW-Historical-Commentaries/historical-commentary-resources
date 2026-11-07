@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-second-chronicles-2026-11-06",
+  "author_id": "john-gill",
+  "book_id": "2CH",
+  "chapter": 5,
+  "canonical_chapter": "2CH.5",
+  "versification": "KJV",
+  "verse_count": 14,
+  "source": {
+    "system": "HelloAO",
+    "author_id": "john-gill",
+    "source_archive_sha256": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb",
+    "original_path_in_source_archive": "helloao-historical-commentaries/john-gill/2CH/5.json",
+    "distribution_license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "license_notes": null,
+    "source_work_title": "John Gill Bible Commentary"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [],
+  "entries": [
+    {
+      "entry_id": "helloao:john-gill:2CH.5.1:item0",
+      "passage_start": "2CH.5.1",
+      "passage_end": "2CH.5.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "helloao_explicit_verse_anchor",
+      "source_format": "HelloAO-JSON",
+      "content_parts": [
+        "See Chapter Introduction \n"
+      ],
+      "content_plain": "See Chapter Introduction \n",
+      "source_record_sha256": "54f0d6cea763f9cf58756f10cb6ecabf76bb6f0cccf6eb4f18cf02d85562c76d",
+      "source_item_ordinal": 0,
+      "source_item": {
+        "type": "verse",
+        "number": 1,
+        "content": [
+          "See Chapter Introduction \n"
+        ]
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "2CH.5.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "See Chapter Introduction \n"
+    }
+  ],
+  "indexed_verse_count": 1,
+  "unindexed_verse_count": 13,
+  "upstream_snapshot_id": "SOTW_2CH_ORIGINAL_SOURCE_LOCK_2026-11-06",
+  "upstream_content_semantics": {
+    "original_source_index": "HelloAO-original-chapter-items",
+    "original_record_count": 1
+  },
+  "navigation_sections": [],
+  "navigation_section_count": 0,
+  "reader_visible_entry_count": 1
+}

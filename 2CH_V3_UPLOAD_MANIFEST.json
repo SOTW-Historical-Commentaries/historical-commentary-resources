@@ -1,0 +1,1328 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "2CH-v3-2026-11-06",
+  "book": "2CH",
+  "book_name": "2 Chronicles",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_head_commit": "c88bca5014a34e73c8c89e628ddf555497af10f9",
+  "baseline_tree_sha": "af434ee821e937b6aa40f72336588cdcbcac6ab5",
+  "baseline_navigation_manifest_git_blob_sha": "43954b96e5691a370dcf03f9f1cc52dc3a9e951f",
+  "snapshot": "structured-second-chronicles-2026-11-06",
+  "source_archives_verified": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 256,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/2CH.json",
+      "bytes": 223734,
+      "sha256": "630a1189f43120b7f46b835c06757b2d2332265a55732ab5286dfe63616b2c75"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 4885,
+      "sha256": "31df598a9593458669217076c87ae81f1a4e29ce23bd0b4ee8e2525353cc60fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/1.json",
+      "bytes": 69574,
+      "sha256": "2493849f167c44622fcb708cb340bfb54f7318d461a8b7e59963b928ea4ac018"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/10.json",
+      "bytes": 16149,
+      "sha256": "b836e6e000714a43dd5c740523a8e18d3b7122737305bdca4c93e4d91bfb44fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/11.json",
+      "bytes": 27954,
+      "sha256": "e78364aab41c227d8b0c63f48771e60afd56f84d204336f12be25dfe5226f15c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/12.json",
+      "bytes": 24710,
+      "sha256": "23cae97416638d6fc8605302f6ca397eb748e6ac4008b1c7a82c5f1d6f01c435"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/13.json",
+      "bytes": 49381,
+      "sha256": "59806a8244689ef50b8c0fa45dbf9a44fec6e5ae63fd6584ddc4e2cf367f207f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/14.json",
+      "bytes": 19322,
+      "sha256": "a217de4128d71c574e43ef9f52d9bff170b496d1545231d695f298a14a8d2c7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/15.json",
+      "bytes": 32710,
+      "sha256": "f9a33b3a4c0258c94f4098a3291492a09f158f61529327f265f905025a97826f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/16.json",
+      "bytes": 29948,
+      "sha256": "f90560848a668b05d435a7b585cde97b3e95cc58c4a5e6fdfc8efe95f5f5cc47"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/17.json",
+      "bytes": 30621,
+      "sha256": "a1965ff61ad356e5ce60b0c0a3de8e09f6a06e1ea59c34291c1091c10405e0f4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/18.json",
+      "bytes": 23307,
+      "sha256": "3ff41e7b8bed526bfc00a2de93006c03ed54f65ac47b05130b7ff828a52c3191"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/19.json",
+      "bytes": 22054,
+      "sha256": "79e852608043c800d9374fb8a3189a23ba700820573b22817630a4c92d0112da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/2.json",
+      "bytes": 18481,
+      "sha256": "3a87a652ca16b9fd36e043ecc2a7667821ef910ee5e411b589598e18c9d3fd42"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/20.json",
+      "bytes": 47968,
+      "sha256": "7737cafc125711cfafd6aea4731558a06edb6e511c29d6b155ae5cb912d1e739"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/21.json",
+      "bytes": 37885,
+      "sha256": "33b3908af89d339e7fbf065457f72b3f7957cb1f6219e2bc72d3fa07d3530700"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/22.json",
+      "bytes": 18529,
+      "sha256": "66fac805da63e430c000799822b65fdc1454c75a545adddfd84b21ce61ee3194"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/23.json",
+      "bytes": 18427,
+      "sha256": "6837b03024af4fa7910205b620c5a2b4e4623bc5b7420b9cbcbb1bf4651fc59a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/24.json",
+      "bytes": 32926,
+      "sha256": "8cda34193c17cebc838c43f9e085ac1be329c9240abff19f56f796be8d991cae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/25.json",
+      "bytes": 27598,
+      "sha256": "479e1b959cdc2540ec73c462770b7a187b35a46027aaa34d9624ac9382f42b2b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/26.json",
+      "bytes": 32285,
+      "sha256": "bf3d85265b940d5dcce4b6517168ceecbcd03f013ea51913d89576e2e9ab3663"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/27.json",
+      "bytes": 14255,
+      "sha256": "1462d6a26226c4ca433b2b6d3bebf46b8945dd8830cc2478767ef7f9a8a53ad2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/28.json",
+      "bytes": 31531,
+      "sha256": "65414c54254a0de9b58d2f39e1e42d393a9f1839e732cd891605ef06d0adc0d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/29.json",
+      "bytes": 36579,
+      "sha256": "2c816c876d2e769b5103d2bd3dfd6e3344cfff016bd2fd3c43d8fb8cf2be4098"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/3.json",
+      "bytes": 21291,
+      "sha256": "b6e4ca71ac6de1a9ccccdb4c6469da9db4a5257e843505cbfc6aa1e2ee424377"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/30.json",
+      "bytes": 30731,
+      "sha256": "0da5338c8a677e68a6b9c85434180162a6403a135eec213062970f0200ef0bbe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/31.json",
+      "bytes": 22761,
+      "sha256": "80b407b25d6d41b7c074e2ca791a2500db5c5b8cc25deb403f4cbd6d0110929b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/32.json",
+      "bytes": 43813,
+      "sha256": "323376f108fa99747ab4550c8ad73fe667bbb354e67ffb068fa543e8122cf428"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/33.json",
+      "bytes": 44575,
+      "sha256": "c70ed9e8e41a8fbcce2981c663d52a4f1a19b27c3a08f5cafeae338dd5a63346"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/34.json",
+      "bytes": 40655,
+      "sha256": "eb29c873ebd19a28841417aeeab51fb4c9cdc7ce18daa4f5e142d8564f815bf0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/35.json",
+      "bytes": 23195,
+      "sha256": "1423100643770a6c8623be8a6532ae54015da2685ce4dad853e97257bd40a2de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/36.json",
+      "bytes": 27845,
+      "sha256": "3fd80bb279898b9845cc665744434c02f7f50f063d3e18128e8d0f988199462f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/4.json",
+      "bytes": 28191,
+      "sha256": "e8d8898574190f11b9186867b9a4c44db8cba0a111cac0aef1c4a3dffd1d6fc4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/5.json",
+      "bytes": 17005,
+      "sha256": "d387edeba1b814c0e369dd6ca74e0257c4e0d84df1637c18cc65792f08dd77c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/6.json",
+      "bytes": 19740,
+      "sha256": "45568ebff50558d8f6b361890d7771952ba679e8b4d3f0b68f0e7513108076c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/7.json",
+      "bytes": 27406,
+      "sha256": "fb4095b5e0df83c340c57c064be760d0fffb3d79e90c4d3983554f3fb7cdf823"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/8.json",
+      "bytes": 19465,
+      "sha256": "7e076ac32515fe3988d7e1b5a510daaf24c91a422873d8ae91396536ac2cda29"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/9.json",
+      "bytes": 46473,
+      "sha256": "2952a317d72e1d2f3019921eeee3ce8e86febc4b0e18ccf81d6cfc2ffb130193"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/1.json",
+      "bytes": 21162,
+      "sha256": "602863173da09735f4ce05d3058c0ed6659a399e8e9091d4dda4c82775533580"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/10.json",
+      "bytes": 11357,
+      "sha256": "ebd9cb23236f13524b620aa89dc4994e0d9c21134775c901070e60582f35edd0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/11.json",
+      "bytes": 25491,
+      "sha256": "664694e37df65b226997aa2da8c953eda85da6e07c31e4413c06e924506a6532"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/12.json",
+      "bytes": 26797,
+      "sha256": "0a75c5d194f92ce72e7a142f412d4167277ab14838ff7e6b141ce71caf6dd7d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/13.json",
+      "bytes": 26035,
+      "sha256": "97d4e211ccac1a689924489747c6ece363aca9943007fdabc287ef135841b816"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/14.json",
+      "bytes": 23286,
+      "sha256": "0de81ab1f2cc71da6e21df0af2779f44017676d82a3c97efd9266e021f4935b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/15.json",
+      "bytes": 25450,
+      "sha256": "c0b3ae325dffa99877f8f9a8219c7cf58b240135c14189843320d1ad49391fc3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/16.json",
+      "bytes": 22474,
+      "sha256": "a342afcd0870b08cdcf899ccf22fe12e17bce7bf036d964ea8f5115d94f4cccd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/17.json",
+      "bytes": 16155,
+      "sha256": "ebde42688efbeba08fb82b305211464d64a0969ecbed2cf5515a5f73d164ae74"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/18.json",
+      "bytes": 4561,
+      "sha256": "4456258bfacd78917f4ed8a03392b8aa86e7c8d274ca40b6f0a6f2321a2e283b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/19.json",
+      "bytes": 15611,
+      "sha256": "478989f196e9a7f6de9082ee3f8b3f8b2197be85e00dbc7ff41bdceca58ea591"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/2.json",
+      "bytes": 23931,
+      "sha256": "8268252600126c7a49b7dd3e85fccfbe1b872fc348becfd0f934cc0918d545be"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/20.json",
+      "bytes": 36770,
+      "sha256": "54fb686492f70c43a26b743f3c00e8c9cf1cda2b5f6d416cb02a10167dee9f20"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/21.json",
+      "bytes": 16893,
+      "sha256": "55008ec0eb4a2ffb7c1d6820616fa42c166211e4d18c129396b799d44d410468"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/22.json",
+      "bytes": 24271,
+      "sha256": "b0522470757902321c825792bf203878b13c289c7b5c89dfb5bd525e5d1e323b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/23.json",
+      "bytes": 25418,
+      "sha256": "7f5941fef2566a628cc4c6088f90fa7eb670ddea088348e642eb9da0dd89b3c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/24.json",
+      "bytes": 20727,
+      "sha256": "f21284a66116617cdab11c037e07fb63444a9d06ed048ae399a45f925cac6c40"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/25.json",
+      "bytes": 25804,
+      "sha256": "9567fc7bebcb54b212626257e351c343045a40352b68f2441cda465193edc597"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/26.json",
+      "bytes": 27023,
+      "sha256": "d8919b8ebbbcdfe4ea6aca70df9d7be92317a8d83e063f81ae510d3a2b21b0e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/27.json",
+      "bytes": 14643,
+      "sha256": "10a98e2271e35394c871fae1e69ec8e3b714fe18b3fa4084ba7cf97e7b82eb9c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/28.json",
+      "bytes": 30306,
+      "sha256": "b542b1042306c3b535e52107050e3627473334f9da8735e020e2f4b05a0d27e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/29.json",
+      "bytes": 36083,
+      "sha256": "a2517ef9ef1334ee6f06743f8a6624f839dd6c47085b3f8b5857f011447e805e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/3.json",
+      "bytes": 30743,
+      "sha256": "a225cc77fe4317a566ec3a9cd622ac64dd01cbb4361ecb7bd73840e21a1444b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/30.json",
+      "bytes": 32171,
+      "sha256": "dc156728236a77a5b78cc4f369913840b0541170aa60f4b12925a30305dc9998"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/31.json",
+      "bytes": 29393,
+      "sha256": "a4326e808fb02219c24bbd66e82993cdeecde1d53854d529617b1c1b789b82de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/32.json",
+      "bytes": 27708,
+      "sha256": "83b63d023d4bc38ac4948abab9746ff65173f6385c1816cfbf1e12b99e97a1e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/33.json",
+      "bytes": 25954,
+      "sha256": "85f9b51ea9bdb6601171839872db0777ee4e7df1de9089a7b1e3db371cd68ab1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/34.json",
+      "bytes": 24118,
+      "sha256": "09f74068c68cd511b0bf374d56537bfd28d662016b221570ddc93ce2ccdd2fb2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/35.json",
+      "bytes": 64995,
+      "sha256": "ec1f53f3c8089d58bec081a6e107f14eea680fb54c0ec6c5f2c01afb8849ccd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/36.json",
+      "bytes": 42101,
+      "sha256": "3a4ed6633390da564b5cf7d0837b6cc528f698cb18de2fc210988d7a34e05033"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/4.json",
+      "bytes": 17757,
+      "sha256": "29842a9a5be433cfc0fd92f42301b83629ffcf4e78bd21695db0d756c086e1e4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/5.json",
+      "bytes": 16811,
+      "sha256": "321aaf28faeb9edf88fb0342c5c996d1380a36d1494239b785817aae370e5140"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/6.json",
+      "bytes": 30651,
+      "sha256": "c1270252bad0edf8f4bbd2023888658a59858dfb051fec47720863d83190f2a6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/7.json",
+      "bytes": 28610,
+      "sha256": "6287e96e381c12071e129247ba7ff49bce99a03fab279c84ef8d11d4facc3790"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/8.json",
+      "bytes": 24866,
+      "sha256": "505c445cf7f3ed986f09c5d7d9ee288b107a3071feee183aa5d756b950eefce2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/9.json",
+      "bytes": 25951,
+      "sha256": "f9e4e66838122e7f8f35f6b3227ef6b3b089a2ab0f2ccd84f2f821dba02dcadc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/1.json",
+      "bytes": 1319,
+      "sha256": "8316334c18c3aab3bc100f8fdccdadf0171261b6f4e012d3f06e9e4458e83670"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/10.json",
+      "bytes": 1321,
+      "sha256": "ce49ca0cc0bb860d8bbdcd339e40188a4392ef732f53d2bc005f12fa00904d65"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/11.json",
+      "bytes": 1321,
+      "sha256": "6ba335bab8901bf1b36f7ef6857fcecbfb99018640108759880c3082654f0620"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/12.json",
+      "bytes": 1321,
+      "sha256": "3f35a5c0ea4e57674a9ba79a174bd57188056132bdecc2ec8b5a8d3efbd86412"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/13.json",
+      "bytes": 1321,
+      "sha256": "74a9692cea44af198b11456bc41c70be4a55ae39214a75da767bd9e07e0683ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/14.json",
+      "bytes": 1321,
+      "sha256": "7bd3021d9819b70431678beaaac47cde6058d9e3d835e27adcd801ef9e6acb13"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/15.json",
+      "bytes": 1321,
+      "sha256": "83d869795fb6c5baa59bb0ed522115eef152187542a26efe0ade02e23df078d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/16.json",
+      "bytes": 1321,
+      "sha256": "f07aee328b7262068ade956184f587f68bda5adc1b42605ffe8d4405991d88b3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/17.json",
+      "bytes": 1321,
+      "sha256": "fc86d8bef7881f8b17d20961ec069223bdbd84ea7ddacb0971d28bf9e5f1ae90"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/18.json",
+      "bytes": 1321,
+      "sha256": "fbb4d43637df6d3b2781cc1805d1302728d50d125ab656ff8f2105f0cbcd221f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/19.json",
+      "bytes": 1321,
+      "sha256": "e200b433eb43ebba151627d1d8d2aaf03273a7ebc58668f3d7b4711ce685dbde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/2.json",
+      "bytes": 1319,
+      "sha256": "a167eef8221eb888fe36a96beb4a02e4647f8c641db84e3ecbe7810d9dbe238f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/20.json",
+      "bytes": 1321,
+      "sha256": "2ee0d863b9900ec220cd1d231e2c1c69adb4f6339fdc4645e20fb7ae814ca987"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/21.json",
+      "bytes": 1321,
+      "sha256": "ac0ac405877b3895c00153cc43bd0e2ef177b42e755088f8ea71f7c9620e5ad1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/22.json",
+      "bytes": 1321,
+      "sha256": "540d7ec52f7b795f2cf91699c448d05a4d65dd3b1c64017e10f25235397a605e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/23.json",
+      "bytes": 1321,
+      "sha256": "fb276a9054c25596d9df18ceeab2fd5c7c7fda05d509fb57bce7982cca47c3d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/24.json",
+      "bytes": 1321,
+      "sha256": "4b414b0a42e665cd9b635713c9b187c034d7f8e5a324c876d3a5db373284bbe3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/25.json",
+      "bytes": 1321,
+      "sha256": "68cc0ed3bd5e423ce04510222101b5c41b33b42272f2ec8448a820f7b4c26509"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/26.json",
+      "bytes": 1321,
+      "sha256": "48f46bd5c109357bb553e59af4f45ec31eafc686baea322d2afd7f1ea9988241"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/27.json",
+      "bytes": 1319,
+      "sha256": "a25e81b8cd1c564e3a9314634f5d03cbb3461054d8615d88851546f4f3b3b42a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/28.json",
+      "bytes": 1321,
+      "sha256": "cd06416d9d0ed8686bbb6b1738ffe3e97fb031db27d14f849b64d5b56fdd21c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/29.json",
+      "bytes": 1321,
+      "sha256": "730ce6f8528ee444628b3ac09c0de0c844cb9c946bc0a3b3ef48adcd51f29662"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/3.json",
+      "bytes": 1319,
+      "sha256": "d58d82ce0d3fc2efb56a29a389af39e6f94ba44a8efbe7acf41a3f4c650dbac7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/30.json",
+      "bytes": 1321,
+      "sha256": "0e80f885ae420d669110481dc64af8a2fbb050dbdc48916fa562b18518b8e68f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/31.json",
+      "bytes": 1321,
+      "sha256": "3cca0c307d7e3e57ce62e8a967d609c9363be82460aa6a971bea9e22da9c7d52"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/32.json",
+      "bytes": 1321,
+      "sha256": "b55fad23cf57e50024d196a35eed6100c6dd2facdd9d8a819af0e1c02bbdad0c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/33.json",
+      "bytes": 1321,
+      "sha256": "3309e8e0a9f4c7705944a79ca464971c45a01709a672b970633d7d041c4f9118"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/34.json",
+      "bytes": 1321,
+      "sha256": "15f0143bd7cfd1f3280a768534676864741497c95d3dde4a031df3da7ac35ca5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/35.json",
+      "bytes": 1321,
+      "sha256": "d70c9a9eca815391d623bd812d5aadbee44a013f21ee2dcd99c452fb277f8469"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/36.json",
+      "bytes": 1321,
+      "sha256": "30bba749af55c41eb0bfbc9b8a3084c479d3c6ef0098584b26cae7cb9e4cd7a2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/4.json",
+      "bytes": 1319,
+      "sha256": "8de1554faeb2a524339ceb78071112605b642bea16c90956789b65677c597107"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/5.json",
+      "bytes": 1319,
+      "sha256": "d428a193fcaba7e788444b121866a0c89b2980bce54ae79a3c388f1e4fceda34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/6.json",
+      "bytes": 1319,
+      "sha256": "265b277cea228fa61a034ade3ef8a268539b4f8e2bbd7254aa617f66d9d996b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/7.json",
+      "bytes": 1319,
+      "sha256": "c816370c4b369d356ed200290ff5ef432a49c40c5befd90b3f48cd5f3fa0dd40"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/8.json",
+      "bytes": 1319,
+      "sha256": "9883eeca6a9dc17757f8e5338b5e46411c8a05304e7a756f2cd9026a53356d10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/9.json",
+      "bytes": 1319,
+      "sha256": "f3680bfa3ed294fe6ae3051389239e1bf5e3399968002855bdd737941d690287"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/1.json",
+      "bytes": 25174,
+      "sha256": "06ed27b675cb1e33349aa3637f1bc94c3b85e7fc3a4972a3b96a551b5234a6e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/10.json",
+      "bytes": 2197,
+      "sha256": "5d33e7c8566d4725d55987419661dbe296ce05adf8cdfce379600837c7d4b709"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/11.json",
+      "bytes": 62496,
+      "sha256": "0e0c606c302568920e2a5bd49e1d50a90bc02bfbdb4124760db60cb2a91d1c30"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/12.json",
+      "bytes": 42462,
+      "sha256": "53e13c10c435d99ee035840ca4b98b5fc774bb2953cf1fa69362566a89a128e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/13.json",
+      "bytes": 72537,
+      "sha256": "9ec8e143f1500bd6a890ad95c9782caef6c50f93c98805eda613f25509c77c78"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/14.json",
+      "bytes": 56048,
+      "sha256": "e839b98d0614bdfb3b4ea30883b8d9be95a8b53a2f8fc881dfcd54400c503d2a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/15.json",
+      "bytes": 55314,
+      "sha256": "dc8bbcc95ca2c385bef40ed6d613395aaa0033c156d37e3b0b79f5b82097dc3b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/16.json",
+      "bytes": 42952,
+      "sha256": "db8a65b02cb03dedc7e163d09a30e0e2b10d03d5d91d13dc8428f8e8635a1c25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/17.json",
+      "bytes": 54960,
+      "sha256": "ef2caad31b1b3fdd0b8ae16eab87f42604b3684e1a034f62fcc0619ba0220806"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/18.json",
+      "bytes": 6772,
+      "sha256": "fc950f7036833dd512ce403ee9abfe5e599186b27115bcf1cf2304f893344ca2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/19.json",
+      "bytes": 38940,
+      "sha256": "c18cac90657978e2401c3f2b17742a97db420030a2a4a17054d22337dc012cd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/2.json",
+      "bytes": 52694,
+      "sha256": "a62f08fbb1154f6ef26f6d963ba8654938abd91b5267669ab91dc0636cdcc8e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/20.json",
+      "bytes": 118955,
+      "sha256": "92f28294e4c967275e210db64aa973ef40ccc2d55b606b2be65a3d61f37731ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/21.json",
+      "bytes": 54176,
+      "sha256": "6482f25fdff41a36e1acc0f2d662bed326cd36ad3c501479a372bb3558f57343"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/22.json",
+      "bytes": 40663,
+      "sha256": "937d365d2c7ea856b9ad155664da1102df99f32c53759353daf12877394754ed"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/23.json",
+      "bytes": 4542,
+      "sha256": "63b5c0ee6fd2fb05e000b412ce1168b2ea2f993c766cc8d7e0bda69429da96de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/24.json",
+      "bytes": 84548,
+      "sha256": "54542cc7ee03348a11c20ddb1d3897d3c72337697bf2777765b91adaff60ab61"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/25.json",
+      "bytes": 56802,
+      "sha256": "c571106e5ff5dd8901c2b1aa82bbc66db4b44ec3d4ec846f5eb6d00464a481f7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/26.json",
+      "bytes": 73884,
+      "sha256": "9252e54053e597c0485544a22a7ac4584313dd13ecab20ec6a7ec769adb8b07c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/27.json",
+      "bytes": 24408,
+      "sha256": "b3afa432a88467718e2d95c6fc16f873e312d642a47eca90c8a3e712aa97c05d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/28.json",
+      "bytes": 71801,
+      "sha256": "fd5da8c16167011a19145143be1ff855ff014d41fcad59529971dcee04c356e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/29.json",
+      "bytes": 100741,
+      "sha256": "f01077da55c41392241ca7315a72efd4e699da613505e69207a548f6827219a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/3.json",
+      "bytes": 2163,
+      "sha256": "9e459820dea108540616c4b020f0fd4a2de2dbf25a7f1e016501117acb7d4434"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/30.json",
+      "bytes": 102032,
+      "sha256": "7eaf07fdf507c52e5ed146150db6d47efcae44c276b210f799ce67a9cb8919de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/31.json",
+      "bytes": 74414,
+      "sha256": "cb4b6b778a61d1a12ee21be585441eb2ef9b98e49c47006d5d79e303a54ba199"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/32.json",
+      "bytes": 94901,
+      "sha256": "cf218a925a7d9319efafc4a01cd4da89d875e27817587beea6dc8079f4cb13f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/33.json",
+      "bytes": 45008,
+      "sha256": "131c961cc59f2f5024a74d8b492e33f63455671a5f814b0679ccd67d3f1e52aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/34.json",
+      "bytes": 55884,
+      "sha256": "f957d0f5b15424694bd0ee8d10fbf3dc2de7fec5d6d1b62b60e6e1bef6a260e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/35.json",
+      "bytes": 81934,
+      "sha256": "f44adbbcfc6dac6e4ddc6741cb226d45c7bff3e526cf4dd1f34f2122d94e0b55"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/36.json",
+      "bytes": 42838,
+      "sha256": "e1ac3ba745ebdc0cc001a4589174c2378e62917bba0c1c822780617c20ef691d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/4.json",
+      "bytes": 2183,
+      "sha256": "8e9aff5839469e9e49ba8b5bc5bc02282997e815a427a26a195a47138d90e294"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/5.json",
+      "bytes": 2163,
+      "sha256": "28234c02edde6ce766a62bea72c3658a757141a6e6af0daaf7da6948b654a9f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/6.json",
+      "bytes": 2183,
+      "sha256": "2c98f95d40e0bcc4cea8754aaddd389f62fac31dff42fe5c35778bdbeee45310"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/7.json",
+      "bytes": 25515,
+      "sha256": "d5b7ddd968ae30c4e1fd2e5a7b2a07a63d917c79ffff92bdd971336a43ef2851"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/8.json",
+      "bytes": 29101,
+      "sha256": "b119e4cc9ecad5f7d1c1a5577ac36610b5eb3cc7f47b626dec4b8cbe04365f80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/9.json",
+      "bytes": 2163,
+      "sha256": "e0f18a8de52fb6804d620f0f1da8a2ef5e3fbe955be538598d800cf001b54c8a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/1.json",
+      "bytes": 49244,
+      "sha256": "2f96bd72cb244d2f4664103af7167f270d5f450bae9617f8cc759cec440d4922"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/10.json",
+      "bytes": 22761,
+      "sha256": "f6b4cf82e96f57cf64003fa4edc9c7c499a48752a3c77880e429faab4e4c5bf9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/11.json",
+      "bytes": 67986,
+      "sha256": "6dece968a6a8e7313e8a37aefe43e90bcda7c06cf2c8431fa7a3e30336e8d98a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/12.json",
+      "bytes": 26060,
+      "sha256": "6f38e339ca733fe6fe248cba24bdcaade58d802bb36929b0222dad669fc2d0c8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/13.json",
+      "bytes": 71288,
+      "sha256": "2aabf54ea9d27de42a08215a6748359325aa336911eef4660b24c3bae0150335"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/14.json",
+      "bytes": 46016,
+      "sha256": "a3df9fafbafa7fc253cdc918f97d97b606d111d6d5e029aa3561537037aee97a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/15.json",
+      "bytes": 68011,
+      "sha256": "3f02e4d820e8ff26d17ffe334d98513283ceec943bec6ea5678119b300d0469e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/16.json",
+      "bytes": 46830,
+      "sha256": "d18b89e7997ecc188e55f9b03e2034b7c8435474bb9a8a88ff7dc23d1d6d2d2b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/17.json",
+      "bytes": 59114,
+      "sha256": "f7f8516039bba26958aa17244fbf6bc5a1a355b709740044f430b0d06496e8b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/18.json",
+      "bytes": 29487,
+      "sha256": "cb5e2dad4eb6798987af05f89a9be6485bfa52e75ba1b2982c0c7c2e8c5c3109"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/19.json",
+      "bytes": 29059,
+      "sha256": "970b47bd2397ecb392da0334879a4194ea7af46aadd2e5a56f74a327cb7c0037"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/2.json",
+      "bytes": 34715,
+      "sha256": "e9387ff5fe0aa6b2025ba9a3ba50e774e7a415b928cdedb22ee5425ea46f7c51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/20.json",
+      "bytes": 101667,
+      "sha256": "3feb1e0592c0bc13cac1125fa078910efcb935fba494145f96752646cf137a4d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/21.json",
+      "bytes": 79994,
+      "sha256": "12ca6d1089ec6397c004cf99e42ad92f4804dffc8e3946dbe6a644f85d7441f5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/22.json",
+      "bytes": 28307,
+      "sha256": "04267f67193352c866c89f263093d684f55fafd0fd767a403d15054df0768cbd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/23.json",
+      "bytes": 86853,
+      "sha256": "f2cb1c485b93fbd08b563074f4c059529d32cb40bf3aeb3347cd09612f903177"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/24.json",
+      "bytes": 41157,
+      "sha256": "5b84459668261b41bff0ae5ce0c96c5f7e863ac500b46b0b940ecb82fc17b061"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/25.json",
+      "bytes": 54063,
+      "sha256": "630f4fa4c10d788c48e1dfada57be69ab064ab824508c560ad0b348a3ea5f277"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/26.json",
+      "bytes": 54448,
+      "sha256": "e1ac936ec149d2acbef82ecb9c8dd4ae86044f654d20c55ac9cc065a299162c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/27.json",
+      "bytes": 16916,
+      "sha256": "bcddb246d3c3b04647074049f8f35761c6608a846abb9564fa4a56011a902ea1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/28.json",
+      "bytes": 129966,
+      "sha256": "2fe34f52b463191881826b5bd84ae93a94f3fde5a93382d4b3a4b417d1b4c65e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/29.json",
+      "bytes": 92918,
+      "sha256": "6f1f58190a0815f01a9186d8e22414b1d52d45e8e73dc66e1483227778a2ba3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/3.json",
+      "bytes": 63427,
+      "sha256": "36d72f6646f7b9daafe3a6a315ae8f79cca4a88851722a80b1cfa3d15ca98e60"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/30.json",
+      "bytes": 121154,
+      "sha256": "9e36ab6e81e6889ea717d0fd7370078e8075f5186386c810bc6d77bb60c50027"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/31.json",
+      "bytes": 49994,
+      "sha256": "89a72b4bfc202c27104be3603531fa2dd057b16506c6f72af38a42aa8b2a44e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/32.json",
+      "bytes": 61623,
+      "sha256": "ff7d00a4ed37d2a0141d2de1b7ba2ec441da4b932685cf906c00d3be9cb193f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/33.json",
+      "bytes": 84404,
+      "sha256": "1e5f71c457dd94db1a29890977fe30c49d13854b95b81b14e8427b9037e4ba11"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/34.json",
+      "bytes": 73546,
+      "sha256": "06f56c2ccc133a922399a17ac7693bfc0e2b78a002c7426f60953e148d638dde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/35.json",
+      "bytes": 68850,
+      "sha256": "3b53f67fdd1bc019352cd8f652b0969af80b6f8b1253dcfa81eda12ce66fb390"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/36.json",
+      "bytes": 85998,
+      "sha256": "b929f60a14acfdd25c7e6c27498b951fa45f8b875aa70eebcfbeda57367e1241"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/4.json",
+      "bytes": 30929,
+      "sha256": "b1b3cb44d8fc8938fc24234089e71d77b775ed5bb7e06e79dea70633d9d900d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/5.json",
+      "bytes": 27275,
+      "sha256": "6797b911e4de76b48701b3c3f5dcdee08fd40fa9f9051e182afcab705b449f3f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/6.json",
+      "bytes": 25268,
+      "sha256": "4fa2a9fb5001b3e1ea68f00b99147f52732674431681dd3610288ea0cbd7f3a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/7.json",
+      "bytes": 41004,
+      "sha256": "b3904900a41f30bf0c56c2f0bffcdb15c090525a20d1d70353152c9c290e11e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/8.json",
+      "bytes": 49997,
+      "sha256": "53f149c531c3d1fb57f664b3ae5fabb0717eb628e6f844cd504f1f4cf787b23b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/9.json",
+      "bytes": 15105,
+      "sha256": "fda99f1a6e49762af892383f22b821c29725bf5aa1c41e4364574e3fd1b5aced"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/1.json",
+      "bytes": 55007,
+      "sha256": "f98e66c3a3be6acdd0d62b50d4c0e88f64aaa6a59c1590b67218f35fcdc30451"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/10.json",
+      "bytes": 44174,
+      "sha256": "8ab5a9f6c89795e0fe2b7a849e9f0262f39e833d5483fba12d881b10e1b7bf4c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/11.json",
+      "bytes": 60825,
+      "sha256": "9c52178e0c04e6acdfed23f7dda27cba097037cccc6cecbd81a902f14e1f3c7d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/12.json",
+      "bytes": 61675,
+      "sha256": "20eb9d60be15395bf8bb39c40871c06efef88f17d3e6811ee0f8d49c2bc78339"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/13.json",
+      "bytes": 84791,
+      "sha256": "07ad1feb3dfd126ea9bf64d627593e40491521b9e9a28a703f36394d41b36b09"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/14.json",
+      "bytes": 57473,
+      "sha256": "dff1c3393560b6d8797649e54812cd6aac0788fb7f8aae0060e610979b8abbf5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/15.json",
+      "bytes": 80080,
+      "sha256": "2dce765071f4b044d9f31bf8a0b95378a150ada44dcfa5e5d92f786b57d76986"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/16.json",
+      "bytes": 63177,
+      "sha256": "c603f348941492f90bbe84ef5ab738b3bb9750a07b59f4d6f64315c109563492"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/17.json",
+      "bytes": 75735,
+      "sha256": "3a260c5017dca97d9e689e202dab1b3675b0940ab951d684a14de14b22d112f1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/18.json",
+      "bytes": 65547,
+      "sha256": "0b1deea330361f91d78b3e5c75e065287cdc48bd589513f1b624cc01d8ee3282"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/19.json",
+      "bytes": 57931,
+      "sha256": "f7ab4e5f04439c718e308f89db07bd7e0b86a37eadd7cfc34699eebfac959e8e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/2.json",
+      "bytes": 61129,
+      "sha256": "93d46d5c6555459b0ab0706f388bcc26b5de5b8d569d0be10ca51e2ca8ec6f0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/20.json",
+      "bytes": 128400,
+      "sha256": "3f9cda25f24a86aafb56486dbe2bd958e6fbcadf3f23b19d763e65f8c51e5a87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/21.json",
+      "bytes": 77279,
+      "sha256": "9c1a203ccbd4bdeccca570309a64b5bac81d8232cadc6412c12d066869b7189f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/22.json",
+      "bytes": 44748,
+      "sha256": "5c4bbe618057de3dc9a86788581fee9bac37b669624db22ca078c30048cd2129"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/23.json",
+      "bytes": 53759,
+      "sha256": "14233d24a84ca233422c75b53ec57487a0ae8fe829232cb0f7fd7e28a349ade6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/24.json",
+      "bytes": 98743,
+      "sha256": "438921c5a53a9b1752036233e829a5018a82e7e21556f61089c763a14437aa7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/25.json",
+      "bytes": 91114,
+      "sha256": "8ec88086adf8c9e233c572a541f432ace28acae9b38881ffb10e826c6eba8a74"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/26.json",
+      "bytes": 86026,
+      "sha256": "5681ee96be6eccc57b004b2a521c2b02dd47a65127335bb413f2e723a9bd196e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/27.json",
+      "bytes": 28247,
+      "sha256": "d43911435e16dbba1b23e16f653054f14ce26d12a006ad360570be0e9e15e6eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/28.json",
+      "bytes": 94487,
+      "sha256": "f699b2771e68aa5bfbfb8ca3fb89fe41122267a675d402f4f24dec9d8be094a3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/29.json",
+      "bytes": 114564,
+      "sha256": "c746acdc1ce131df115a8c064a16e48375d9ec029a25ab2f66bbe0d1d265a4c0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/3.json",
+      "bytes": 47398,
+      "sha256": "d79fca6cb9312a23ccfa4fee062e0c18d29d0a26b8ceb9a8f881ada2a5d1adac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/30.json",
+      "bytes": 118493,
+      "sha256": "1c112f61c133a3dc92062c057cdcd3c3f36cc986222e64b77982f4ee11300821"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/31.json",
+      "bytes": 79046,
+      "sha256": "7faddf01c604d30dda768b1c4950357ecc746d156cfc9ed43a53266d9de8a7c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/32.json",
+      "bytes": 115933,
+      "sha256": "2022d3432b628fe102943ebda65c2ba04ff9ba73c7685a857a3b496e69942faf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/33.json",
+      "bytes": 73814,
+      "sha256": "ed595abb52358f692a5cab1c85dae21d7bf89b99ac8fd42edb28aa4d5e3b9e6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/34.json",
+      "bytes": 69833,
+      "sha256": "ade59866adc33227c0a47f175f7865ff75ad7b936d972b8f97e23b59c179bccc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/35.json",
+      "bytes": 90272,
+      "sha256": "2afe6df239f4d953de914999af64018b8b5933d6400640745f9c3445d8580d08"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/36.json",
+      "bytes": 75839,
+      "sha256": "1bb42a8c2923a278bb11147a9f261a67be0c489e78c410a4e0cd302b4f963ce0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/4.json",
+      "bytes": 46013,
+      "sha256": "e16bcb16397e45219285ef8cf47c26d5bef11e42675280ffa99ce00ca728a8d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/5.json",
+      "bytes": 53917,
+      "sha256": "4559ecbb8e464f021dea3b1da8cc3306e4046ea7f8d5a816278a8e803d48d31b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/6.json",
+      "bytes": 70292,
+      "sha256": "0fbfcc4f7de4de1344eab7632ff258db7a69891755470111c367d0561ff327b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/7.json",
+      "bytes": 62403,
+      "sha256": "45c86c3208430100b1d083ff245cb6c5654da13c246bbb5840946805c95c020f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/8.json",
+      "bytes": 44343,
+      "sha256": "639a0a72b4c1c80855f08eabc7cd03f841ceaf34dc4aa446e86a07f8e71f964e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/9.json",
+      "bytes": 65842,
+      "sha256": "a48a3afa803e3e156aa029ab56d9dbe3974166223657c3461e6c708944f70f15"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/1.json",
+      "bytes": 7858,
+      "sha256": "0402fc93d237648f85e6f6d8177a322bd20838c4a21e593f57ab4d785b25dbd0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/10.json",
+      "bytes": 6912,
+      "sha256": "6bfd48c249d5685ff37cef2fc47780739a1c6b94030cf56976fd16fdda4f1034"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/11.json",
+      "bytes": 8802,
+      "sha256": "5fb8151e69cc3d6a788adc7ba6544396b810596b9a46bd4055c1ded3c9210c3a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/12.json",
+      "bytes": 7124,
+      "sha256": "548a97f63bec14aa535e81dac64628c6068cf8a4021884cadb9fc0e3ac3e9744"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/13.json",
+      "bytes": 9107,
+      "sha256": "b05ec861a6efb4cc665563ccbab1d7ebc756742d41113079c7da36b2f7d45416"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/14.json",
+      "bytes": 7312,
+      "sha256": "a51759d2dd4fe5c3f1fa39fb0f47709251223d10b2f1214438651a6e5cbb45fc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/15.json",
+      "bytes": 7968,
+      "sha256": "ba523d6b4335d4b51ee10e85d0cebf8a2db98929fab214f0c51b2e4d2d99a4b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/16.json",
+      "bytes": 6690,
+      "sha256": "1bdd0161793ddd0ecf480f3333d27e725eacd53c8d00a11db50531e2dd3dbd56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/17.json",
+      "bytes": 7986,
+      "sha256": "3a177a740718ac4e3659e15b3ee1b3fd4b3579f2eec9e34c0f630f3255ab46b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/18.json",
+      "bytes": 8318,
+      "sha256": "3b36c0f74a0f9975fd7539334657c32040a010f7a921b5b81e4354a806d15cc2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/19.json",
+      "bytes": 5849,
+      "sha256": "52d1ffb3a42030cc9c5e924b4cac3ec4f1bcf9ec4c1e69a818b91c1a6adbc76a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/2.json",
+      "bytes": 7521,
+      "sha256": "f6622ad91a80a4562ccd16ef58fe5791b654c538ce963fc44e61a04176485485"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/20.json",
+      "bytes": 12538,
+      "sha256": "de26524b217ae3d9cb8648775fb5df3492b979f5ebde6b101c126e8eb1dff1bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/21.json",
+      "bytes": 8607,
+      "sha256": "ec46214b51b29168e4f327b20a552312d079d1ad903ec93ebfb8ef938b083e10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/22.json",
+      "bytes": 6231,
+      "sha256": "82c596dfeab7c816d19bdae87c3d28a3d7ecabdcece98c910bb0fba4be07acdc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/23.json",
+      "bytes": 7699,
+      "sha256": "ec76ae04ef58190338a6b40acdc8a33e6ebf9189f119721fac1dc3d29a546768"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/24.json",
+      "bytes": 9583,
+      "sha256": "4b2f3d292ef07a35cf98d68960821825ea320c9e04d258404b276a814a3de2f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/25.json",
+      "bytes": 8834,
+      "sha256": "f820aad68541e7c754b6609af68cd054eb1f1a699e28f302b99886dea0610b85"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/26.json",
+      "bytes": 8752,
+      "sha256": "63fbf8f18f793b8296f8d6fcafb78d69e382e2f985c608ba796ff4ca2d07532e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/27.json",
+      "bytes": 5347,
+      "sha256": "a7d2f2ef1bc1cd869fc765e24367d459033d6165e040e72ba3cf3993029c590b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/28.json",
+      "bytes": 9510,
+      "sha256": "123d561fb6872160d214da54bb9fa42b2c729b01a94cd949008958cb57fca2ed"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/29.json",
+      "bytes": 11637,
+      "sha256": "4a5cda1453563780ca8e45651d20c026ee200b69eeb90cc870282db991dc6753"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/3.json",
+      "bytes": 6900,
+      "sha256": "c5dc07bf37d0b4605847fe2ee034271c6839ac9f709b9bbbb4fe2e858bca45a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/30.json",
+      "bytes": 9635,
+      "sha256": "eb47ba4e45b490007c73690c2e5d36c04d7257631830eea0cad66324b0a67143"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/31.json",
+      "bytes": 8409,
+      "sha256": "441a62d12fe87b96ba9cc572949c15cd867c2a063f7be32fa319d1d3fb47ef5b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/32.json",
+      "bytes": 11296,
+      "sha256": "a38591e5d8e38d8d222c1fc55dad847b96473dbfdcd1e10844f25415586fcfeb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/33.json",
+      "bytes": 8177,
+      "sha256": "bea5442bdb9817325bf2469467de191087f6997562a2dae35c53ce4dff561455"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/34.json",
+      "bytes": 8961,
+      "sha256": "3def72c2da85924f27a219f60ca4ef8330937355bca992db1cc7f7aac500958f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/35.json",
+      "bytes": 9299,
+      "sha256": "e8f114025a67960f5836f3dc5a3d00c482a82e1648c06955802a62387df7ef3f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/36.json",
+      "bytes": 8149,
+      "sha256": "354a6696f79bc9e1ac8301e5b4c46b8bd842c85c7f8f6d6da8c82b0b77adb1f1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/4.json",
+      "bytes": 6656,
+      "sha256": "174bd65204414ae3db262f30eba8f2d87d4c916645561a41e9747b1db1e8bb0b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/5.json",
+      "bytes": 6116,
+      "sha256": "a2a728fb1e8c6f423226262191ba272a792a5766ed90a66cdb90c274be0fc14e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/6.json",
+      "bytes": 8952,
+      "sha256": "6a864ba0a218a0ee8d522e497191ad71c4fc3bfd0a00a70cc393fa5aaacbdccb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/7.json",
+      "bytes": 7588,
+      "sha256": "b7a170c46fd7d0b84e5077733f9123ecf0a8c21502d5baa81b7a4e00d5b75896"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/8.json",
+      "bytes": 7742,
+      "sha256": "2b99723c5106166f55a85482fea42e2e562f120ed8e82f82fc1c9fc1cc57e605"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/index/2CH/9.json",
+      "bytes": 8055,
+      "sha256": "8e6ba75bdbab3cfe27d4295da7f479c2b675c413f73f35664e32d0f15062d77f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-chronicles-2026-11-06/manifest.json",
+      "bytes": 2325,
+      "sha256": "d8bc3a97a086ae7db3639d6af5fe70863f53b1b003ea500bec20802c57f06df2"
+    },
+    {
+      "path": "review-2-chronicles-v3.html",
+      "bytes": 14467,
+      "sha256": "51d093dcb9d596e59ac8c54d1b5daf379fd609b8b23b82896e5b79297d0080e7"
+    }
+  ],
+  "qa": {
+    "independent_original_source_and_navigation_assertions_passed": 17953,
+    "source_zip_SHA256_verified": true,
+    "local_Chromium_DOM_reader_assertions_passed": 15,
+    "local_browser_mode": "headless Chromium using real DOM with exact local source JSON fixtures; HTTP/browser URL navigation blocked",
+    "public_pages_visual_verification": false,
+    "github_published": false
+  },
+  "counts": {
+    "chapter_count": 36,
+    "author_chapters": 216,
+    "original_entries": 1588,
+    "source_P_sections": 159,
+    "routed_P_sections_with_accepted_inherited_links": 166,
+    "original_verse_count": 823
+  },
+  "release_scope": "ONE_BOOK_ADDITIVE_VERIFIED_LOCAL_NOT_YET_GITHUB_PUBLISHED",
+  "rights_and_provenance": "Five original CrossWire/SWORD native KJV verse indexes, source/original config licenses; Gill HelloAO original items; no independent Bible translation text included. Original source hashes and per-record exact provenance preserved. Historical work copyright flags are dataset claims not blanket legal assurance.",
+  "safeguards": [
+    "One-book v3 additive only: no existing chapter snapshots or old P book overlays or readers are modified.",
+    "Exactly one existing shared file is changed: api/v3/navigation-coverage/v1/manifest.json; compare against current baseline before publishing.",
+    "Seven accepted source links preserve original historical prefaces. No repeated source text, no added unverified commentary.",
+    "Reader and index retain six author slots and mark missing original commentary honestly.",
+    "GitHub stage only after complete local release archive and manifest verification."
+  ],
+  "publication_gate": "Recheck current main SHA and shared navigation manifest; stage complete release in unreferenced tree, verify 257 exact Git blobs vs this manifest, create ONE staging branch commit, compare changes, then guarded one-time fast-forward main; verify Pages and public reader."
+}

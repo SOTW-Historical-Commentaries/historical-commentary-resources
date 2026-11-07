@@ -1,0 +1,342 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-second-chronicles-2026-11-06",
+  "canonical_chapter": "2CH.1",
+  "verse_count": 17,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/matthew-henry/2CH/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 17
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-calvin/2CH/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/adam-clarke/2CH/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 10,
+      "reader_visible_entries": 10,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 10
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/jamieson-fausset-brown/2CH/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 8
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/keil-delitzsch/2CH/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 17
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-second-chronicles-2026-11-06/authors/john-gill/2CH/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 8,
+      "reader_visible_entries": 8,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 8
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        1
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "keil-delitzsch": [
+        1
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        1
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        2
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        2
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        3
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "keil-delitzsch": [
+        3
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "keil-delitzsch": [
+        4
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        4
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:2CH.1:P:book-introduction-1-1-second-chronicles",
+        "navigation_id": "2CH.1:P:book-introduction-1-1-second-chronicles",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Second Chronicles"
+      },
+      {
+        "section_id": "nav:matthew-henry:2CH.1:P:passage-heading-1-2-god-s-goodness-to-solomon-b-c-1015",
+        "navigation_id": "2CH.1:P:passage-heading-1-2-god-s-goodness-to-solomon-b-c-1015",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "God's Goodness to Solomon. ( b. c. 1015.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:2CH.1:P:group-introduction-1-1-preface-to-the-two-books-of-chronicles",
+        "navigation_id": "2CH.1:P:group-introduction-1-1-preface-to-the-two-books-of-chronicles",
+        "scope": "book_group",
+        "role": "group_introduction",
+        "title": "Preface to the Two Books of Chronicles"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:2CH.1:P:book-introduction-1-1-the-second-book-of-the-chronicles",
+        "navigation_id": "2CH.1:P:book-introduction-1-1-the-second-book-of-the-chronicles",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "THE SECOND BOOK OF THE CHRONICLES."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:2CH.1:P:chapter-heading-1-2-chapter-1",
+        "navigation_id": "2CH.1:P:chapter-heading-1-2-chapter-1",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 1"
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:2CH.1:P:chapter-overview-1-1-iii-history-of-solomon-s-kingship-2-chronicles-1-9",
+        "navigation_id": "2CH.1:P:chapter-overview-1-1-iii-history-of-solomon-s-kingship-2-chronicles-1-9",
+        "scope": "chapter",
+        "role": "chapter_overview",
+        "title": "III. History of Solomon’s Kingship - 2 Chronicles 1-9"
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:2CH:P:john-gill-book-introduction",
+        "navigation_id": "2CH:P:john-gill-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction · 2 Chronicles"
+      }
+    ]
+  },
+  "nav_policy": "P titles are source evidence; authoritative P applicability is navigation-coverage/v1/books/2CH.json. Verse routes contain only original source-indexed records."
+}

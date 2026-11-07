@@ -1,0 +1,95 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-second-chronicles-2026-11-06",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "2CH",
+  "chapter": 18,
+  "canonical_chapter": "2CH.18",
+  "versification": "KJV",
+  "verse_count": 34,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"18\" osisID=\"2Chr.18\" sID=\"2Chr.18\"/><div eID=\"gen5848\" type=\"x-p\"/> ",
+      "source_record_sha256": "55864e3676b2273b4ae7c446eae9f259b450ed2600b55aad2d75cbce90583eb4",
+      "index_record": {
+        "block": 14,
+        "offset": 115352,
+        "length": 80
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:2CH.18.2-2:14:115432:601",
+      "passage_start": "2CH.18.2",
+      "passage_end": "2CH.18.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv4039\"/><title type=\"x-s2\">CHAPTER 18</title> <div sID=\"gen5849\" type=\"x-p\"/> <reference osisRef=\"2Chr.18.1-2Chr.18.34\">2Ch 18:1-34</reference>. Jehoshaphat and Ahab Go against Ramoth-gilead.<div eID=\"gen5849\" type=\"x-p\"/> <div sID=\"gen5850\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv4039\"/><hi type=\"bold\">2. after certain years he went down to Ahab to Samaria--</hi>This is word for word, the same as <reference osisRef=\"1Kgs.22.1-1Kgs.22.53\">1Ki 22:1-53</reference>. (See commentary on that chapter). <chapter eID=\"2Chr.18\"/>",
+      "content_plain": "CHAPTER 18\n\n 2Ch 18:1-34 . Jehoshaphat and Ahab Go against Ramoth-gilead.\n\n 2. after certain years he went down to Ahab to Samaria-- This is word for word, the same as 1Ki 22:1-53 . (See commentary on that chapter).",
+      "source_record_sha256": "a41d652262d01cb7592227e8f6dbe79d9b573d50ed1eaed1dcab586f8eac59d8",
+      "index_record": {
+        "testament": "OT",
+        "block": 14,
+        "offset": 115432,
+        "length": 601
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "2CH.18.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "CHAPTER 18\n\n 2Ch 18:1-34 . Jehoshaphat and Ahab Go against Ramoth-gilead.\n\n 2. after certain years he went down to Ahab to Samaria-- This is word for word, the same as 1Ki 22:1-53 . (See commentary on that chapter)."
+    }
+  ],
+  "indexed_verse_count": 1,
+  "unindexed_verse_count": 33,
+  "upstream_snapshot_id": "SOTW_2CH_ORIGINAL_SOURCE_LOCK_2026-11-06",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 1
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:2CH.18:P:chapter-heading-1-1-chapter-18",
+      "navigation_id": "2CH.18:P:chapter-heading-1-1-chapter-18",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 18",
+      "content_plain": "CHAPTER 18\n\n 2Ch 18:1-34 . Jehoshaphat and Ahab Go against Ramoth-gilead.\n\n 2. after certain years he went down to Ahab to Samaria-- This is word for word, the same as 1Ki 22:1-53 . (See commentary on that chapter).",
+      "source_entry_id": "sword:jfb:2CH.18.2-2:14:115432:601",
+      "source_character_span": [
+        59,
+        601
+      ],
+      "source_fragment_sha256": "e4205db964e006bc78586bdabf6174d6728183b3527c3b09c112595403ac1294",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "only_explicit_source_title_or_scoped_binary_passage",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index"
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 1
+}

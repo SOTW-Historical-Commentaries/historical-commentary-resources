@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOTW | 2 Chronicles · Six-Author Historical Commentary</title>
+<style>
+:root{font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;color:#1a3440;background:#f3f6f7;--navy:#102e3a;--line:#d5e2e5;--gold:#b49b6c;--teal:#16706c}
+*{box-sizing:border-box}body{margin:0}header{padding:25px clamp(16px,4vw,65px);background:var(--navy);color:#f6fbfb;border-bottom:5px solid var(--gold)}
+header small{display:block;font-size:11px;letter-spacing:.13em;font-weight:750;color:#c0dcd8}header h1{margin:6px 0;font-size:clamp(26px,3.5vw,37px)}header p{color:#d1e0e3;margin:6px 0 0;max-width:950px}
+main{max-width:1280px;margin:auto;padding:22px clamp(14px,3vw,38px) 55px}.intro{margin:0 0 16px;color:#48636c}
+.controls{background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:0 3px 13px #18343b0c;padding:18px;display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:12px}
+.field{display:flex;flex-direction:column;gap:5px;font-size:13px;font-weight:700}.field select{padding:10px;border:1px solid #bfd0d3;border-radius:8px;background:#fff;color:#193641;font:inherit;min-width:0}
+.tools{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:13px 0}.button{border:1px solid #a6c7c5;border-radius:8px;color:#134a4a;padding:8px 12px;background:#fff;text-decoration:none;cursor:pointer;font:inherit;font-weight:700}.button:hover{background:#eef7f5}
+.notice{padding:13px 15px;border:1px solid var(--line);border-radius:10px;background:#eaf3f3;color:#254b53;margin:12px 0}.notice.warning{background:#fff6eb;border-color:#e7cfaa;color:#664d2f}
+#status{min-height:22px;color:#48626b;font-size:13px}#pWrap{display:none;flex-direction:column;margin-bottom:14px;gap:8px;padding:16px;background:#edf5f4;border-radius:10px;border:1px solid #bdd9d7}
+#pWrap label{font-size:13px;font-weight:750}#pList{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:8px}
+.pitem{padding:10px;text-align:left;border:1px solid #b0c9c7;background:#fff;border-radius:9px;cursor:pointer;color:#204952}.pitem[aria-pressed=true]{background:#164e51;color:#fff}.pitem .pmeta{font-size:11px;opacity:.75;display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:13px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 2px 12px #19364108}
+.card-head{background:#f1f6f6;border-bottom:1px solid var(--line);padding:13px 17px}.card h2{font-size:18px;margin:0}.card small{display:block;color:#637880;font-size:11px}
+.card-body{padding:16px 17px 19px;overflow-wrap:anywhere}.entry+.entry{border-top:1px dashed #cbd9dc;margin-top:17px;padding-top:17px}
+.entryref{font-weight:750;color:var(--teal);font-size:12px;letter-spacing:.025em;margin-bottom:8px}.commentary{white-space:pre-wrap;line-height:1.64;color:#243e45}.empty{color:#607780;font-style:italic}
+.source-line{font-size:11px;color:#667982;margin-top:12px;border-top:1px solid #e7eeee;padding-top:8px}
+footer{max-width:1280px;margin:auto;padding:0 28px 30px;font-size:12px;color:#667982}@media(max-width:670px){.controls{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.cards{grid-template-columns:1fr}header{padding:22px 18px}}
+</style></head><body>
+<header><small>SERVANTS OF THE WAY / HISTORICAL COMMENTARY LIBRARY / SOURCE-FAITHFUL STAGING</small><h1>2 Chronicles · Six-author comparison</h1>
+<p>Original historical authors remain separately attributed. Verse commentary follows the source's native index. Prefaces, historical introductions and passage headings are separated using verified source boundaries.</p></header>
+<main><p class="intro">Explore <strong>2 Chronicles</strong> by chapter and verse, or select an eligible <strong>P</strong> introduction or heading. An author without source-indexed commentary is labeled unavailable rather than synthesized.</p>
+<div class="controls" role="group" aria-label="Commentary navigation">
+<label class="field">Chapter<select id="chapter" aria-label="Chapter"></select></label><label class="field">Verse<select id="verse" aria-label="Verse"></select></label>
+<label class="field">Commentator<select id="author" aria-label="Commentator"></select></label><label class="field">Reading mode<select id="mode" aria-label="Reading mode"><option value="verse">Verse commentary</option><option value="p">P: preface / section</option></select></label></div>
+<div class="tools"><button class="button" id="copylink" type="button">Copy link to this selection</button><a class="button" href="./">Library home</a><span id="status" role="status" aria-live="polite"></span></div>
+<div id="pWrap"><label for="pList">Eligible original non-verse sections for this passage</label><div id="pList" role="group" aria-label="Non-verse sections"></div></div>
+<div id="notice" class="notice" hidden></div><section id="cards" class="cards" aria-live="polite"></section></main>
+<footer>Servants of the Way is the current provider. Historical authors retain their authorship and work credit; the digital provider is not the historical publisher. Original source edition, rights, record and passage metadata are retained in the JSON. No separate Bible translation is bundled.</footer>
+<script>
+'use strict';
+const BOOK='2CH',BOOK_NAME='2 Chronicles',CHAPTERS=36,SNAP='structured-second-chronicles-2026-11-06';
+const NAMES={'matthew-henry':'Matthew Henry','john-calvin':'John Calvin','adam-clarke':'Adam Clarke','jamieson-fausset-brown':'Jamieson–Fausset–Brown','keil-delitzsch':'Keil & Delitzsch','john-gill':'John Gill'};
+const IDS=Object.keys(NAMES),BASE=new URL('./',location.href),cache=new Map(),$=id=>document.getElementById(id),initial=new URLSearchParams(location.search);
+function clamp(n,lo,hi){return Number.isFinite(n)?Math.min(hi,Math.max(lo,Math.floor(n))):lo;}
+function canon(s){const m=/^([A-Z0-9]+)\.(\d+)\.(\d+)$/.exec(s||'');return m?[m[1],+m[2],+m[3]]:null;}
+function compareRefs(a,b){const x=canon(a),y=canon(b);if(!x||!y||x[0]!==y[0])return null;return (x[1]*10000+x[2])-(y[1]*10000+y[2]);}
+function eligibleSection(s,book,ch,verse){
+ if(!s||s.status!=='active'||!Array.isArray(s.eligible_books)||!s.eligible_books.includes(book))return false;
+ if(['work','volume','book_group','book'].includes(s.scope))return true;
+ const a=canon(s.passage_start),b=canon(s.passage_end),ref=`${book}.${ch}.${verse}`;
+ if(!a||!b||a[0]!==book||b[0]!==book)return false;
+ const lo=compareRefs(ref,s.passage_start),hi=compareRefs(ref,s.passage_end);
+ return lo!==null&&hi!==null&&lo>=0&&hi<=0;
+}
+window.SOTWReaderTests={clamp,canon,compareRefs,eligibleSection};
+let state={chapter:clamp(Number(initial.get('chapter'))||1,1,CHAPTERS),verse:Math.max(1,Number(initial.get('verse'))||1),author:IDS.includes(initial.get('author'))?initial.get('author'):'all',mode:initial.get('mode')==='p'?'p':'verse',section:initial.get('section')||''};
+let coverage=null,authorMeta=null,token=0,initialSectionPending=true;
+function uri(path){return new URL(String(path).replace(/^\//,''),BASE).href;}
+async function load(path){const key=String(path).replace(/^\//,'');if(!cache.has(key))cache.set(key,fetch(uri(key),{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status+' for '+key);return r.json();}).catch(e=>{cache.delete(key);throw e}));return cache.get(key);}
+function elem(tag,klass,text){const e=document.createElement(tag);if(klass)e.className=klass;if(text!==undefined)e.textContent=String(text);return e;}
+function note(message,warn=false){const e=$('notice');e.hidden=!message;e.textContent=message||'';e.className='notice'+(warn?' warning':'');}
+function syncUrl(){const u=new URL(location.href);u.searchParams.set('chapter',state.chapter);u.searchParams.set('verse',state.verse);if(state.author==='all')u.searchParams.delete('author');else u.searchParams.set('author',state.author);u.searchParams.set('mode',state.mode);if(state.mode==='p'&&state.section)u.searchParams.set('section',state.section);else u.searchParams.delete('section');history.replaceState(null,'',u);}
+function selectors(n){const c=$('chapter');c.replaceChildren();for(let i=1;i<=CHAPTERS;i++){const o=elem('option','',i);o.value=i;c.append(o)}c.value=state.chapter;state.verse=clamp(state.verse,1,n);
+ const v=$('verse');v.replaceChildren();for(let i=1;i<=n;i++){const o=elem('option','',i);o.value=i;v.append(o)}v.value=state.verse;$('author').value=state.author;$('mode').value=state.mode;}
+function allEligible(){const out=[];for(const a of IDS){if(state.author!=='all'&&a!==state.author)continue;for(const s of coverage?.author_sections?.[a]||[]){if(eligibleSection(s,BOOK,state.chapter,state.verse))out.push(s)}}return out;}
+function makeCard(a){const e=elem('article','card'),h=elem('div','card-head'),name=elem('h2','',NAMES[a]),desc=elem('small','',authorMeta?.authors?.[a]?.life_dates||'Historical commentator'),body=elem('div','card-body');h.append(name,desc);e.append(h,body);return [e,body];}
+function appendSource(body,source){let text=source?.system||'Original source';if(source?.module_id)text+=` · ${source.module_id} ${source.module_version||''}`;if(source?.distribution_license)text+=` · ${source.distribution_license}`;body.append(elem('div','source-line',text));}
+async function showVerse(idx,seq){const cards=$('cards');cards.replaceChildren();let shown=0;for(const a of IDS){if(state.author!=='all'&&state.author!==a)continue;
+ const [card,body]=makeCard(a);cards.append(card);
+ try{const d=await load(`api/v3/snapshots/${SNAP}/authors/${a}/${BOOK}/${state.chapter}.json`);if(seq!==token)return;
+ for(const i of idx.verse_routes?.[String(state.verse)]?.[a]||[]){const e=d.entries?.[i];if(e?.reader_visible&&e.reader_content_plain){const section=elem('section','entry');section.append(elem('div','entryref',e.passage_start+(e.passage_end!==e.passage_start?' – '+e.passage_end:'')));section.append(elem('div','commentary',e.reader_content_plain));body.append(section);shown++;}}
+ if(!body.querySelector('.entry'))body.append(elem('div','empty',d.entries?.length?'No original source-indexed commentary for this verse.':'Unavailable in the selected original digital edition for this chapter.'));
+ appendSource(body,d.source);
+ }catch(e){body.append(elem('div','empty','Could not load source: '+e.message))}}
+ if(seq===token)$('status').textContent=`${BOOK_NAME} ${state.chapter}:${state.verse} · ${shown} source-indexed commentary record${shown===1?'':'s'}`;
+}
+async function showP(list,seq){$('cards').replaceChildren();$('pList').replaceChildren();
+ if(!list.length){state.mode='verse';state.section='';$('mode').value='verse';note('No source-supported P sections apply at this verse. Showing verse commentary instead.',true);return false;}
+ if(initialSectionPending&&initial.get('mode')==='p'&&initial.get('section')&&!list.some(x=>x.section_id===initial.get('section'))){initialSectionPending=false;state.mode='verse';state.section='';$('mode').value='verse';note('The requested P link is outside its verified range. Showing verse commentary.',true);return false;}
+ initialSectionPending=false;if(!list.some(x=>x.section_id===state.section))state.section=list[0].section_id;
+ for(const s of list){const b=elem('button','pitem');b.type='button';b.setAttribute('aria-pressed',s.section_id===state.section?'true':'false');b.append(elem('span','',s.title));b.append(elem('span','pmeta',`${NAMES[s.author_id]} · ${s.role.replaceAll('_',' ')}${s.passage_start?' · '+s.passage_start+'–'+s.passage_end:''}`));b.addEventListener('click',()=>{state.section=s.section_id;render()});$('pList').append(b)}
+ const chosen=list.find(x=>x.section_id===state.section),[card,body]=makeCard(chosen.author_id);$('cards').append(card);
+ try{const srcFile=chosen.source?.chapter_file;if(!srcFile)throw Error('Missing original source pointer');const source=await load(srcFile);if(seq!==token)return true;
+ const sec=source.navigation_sections?.find(x=>x.section_id===chosen.source.section_id);if(!sec)throw Error('P section missing from referenced source');
+ body.append(elem('div','entryref',chosen.title+' · P (non-Scripture)'));
+ body.append(elem('div','commentary',sec.content_plain||''));appendSource(body,source.source);
+ $('status').textContent=`${BOOK_NAME} ${state.chapter}:${state.verse} · ${chosen.role.replaceAll('_',' ')} · ${NAMES[chosen.author_id]}`;
+ }catch(e){body.append(elem('div','empty','Original P source unavailable: '+e.message))}return true;
+}
+async function render(){const seq=++token;$('status').textContent='Loading original source records…';note('');try{const idx=await load(`api/v3/snapshots/${SNAP}/index/${BOOK}/${state.chapter}.json`);if(seq!==token)return;
+ selectors(idx.verse_count);const candidates=allEligible();$('pWrap').style.display=state.mode==='p'?'flex':'none';if(state.mode==='p'){
+ const result=await showP(candidates,seq);if(!result&&seq===token){$('pWrap').style.display='none';await showVerse(idx,seq)}}else{state.section='';await showVerse(idx,seq)}if(seq===token)syncUrl();
+ }catch(e){if(seq!==token)return;$('status').textContent='Load failed';note('Chapter index unavailable: '+e.message,true);$('cards').replaceChildren()}}
+async function start(){const a=$('author');a.append(new Option('All six commentators','all'));for(const id of IDS)a.append(new Option(NAMES[id],id));
+ $('chapter').addEventListener('change',()=>{state.chapter=Number($('chapter').value);state.verse=1;state.section='';render()});
+ $('verse').addEventListener('change',()=>{state.verse=Number($('verse').value);state.section='';render()});
+ a.addEventListener('change',()=>{state.author=a.value;state.section='';render()});$('mode').addEventListener('change',()=>{state.mode=$('mode').value;state.section='';render()});
+ $('copylink').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);$('status').textContent='Selection link copied';}catch(e){$('status').textContent='Copy unavailable; copy URL from your address bar.'}});
+ try{[coverage,authorMeta]=await Promise.all([load(`api/v3/navigation-coverage/v1/books/${BOOK}.json`),load('api/v3/authors.json')]);if(coverage.book_id!==BOOK||coverage.snapshot_id!==SNAP)throw Error('Navigation/snapshot mismatch');await render();}
+ catch(e){note('Unable to initialize historical sources: '+e.message,true);$('status').textContent='Source unavailable';}}
+document.addEventListener('DOMContentLoaded',start);
+</script></body></html>
