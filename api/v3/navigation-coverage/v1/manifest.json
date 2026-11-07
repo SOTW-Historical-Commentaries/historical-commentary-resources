@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.9-additive-neh",
+  "version": "navigation-coverage-v1.10-additive-est",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -20,7 +20,8 @@
     "1CH",
     "2CH",
     "EZR",
-    "NEH"
+    "NEH",
+    "EST"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -38,7 +39,8 @@
     "1CH": "structured-first-chronicles-2026-11-06",
     "2CH": "structured-second-chronicles-2026-11-06",
     "EZR": "structured-ezra-2026-11-06",
-    "NEH": "structured-nehemiah-2026-11-06"
+    "NEH": "structured-nehemiah-2026-11-06",
+    "EST": "structured-esther-2026-11-06"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -52,7 +54,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 2069,
+    "original_P_sections": 2140,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -70,7 +72,8 @@
       "1CH": 130,
       "2CH": 159,
       "EZR": 68,
-      "NEH": 103
+      "NEH": 103,
+      "EST": 71
     },
     "routed_by_book": {
       "GEN": 64,
@@ -88,10 +91,11 @@
       "1CH": 132,
       "2CH": 166,
       "EZR": 71,
-      "NEH": 106
+      "NEH": 106,
+      "EST": 74
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.8-additive-ezr",
+  "previous_manifest_version": "navigation-coverage-v1.9-additive-neh",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -120,6 +124,11 @@
     "Original SWORD chapter-marker introductions kept separate from verse routes; title/P scopes never extend by neighboring anchor inference.",
     "Inherited Henry, JFB, and KD historical-book introductions explicitly include Nehemiah and reuse immutable links.",
     "Nehemiah release requires the previously prepared Ezra release to be installed first; all prior book snapshots remain unchanged.",
+    "Calvin missing chapter records are explicitly unavailable; source authenticity and the original six-author layout are preserved.",
+    "Esther (10 chapters, 60 six-author chapter records) added from original SHA-verified CrossWire and HelloAO records.",
+    "Original SWORD chapter-marker introductions are kept separate from verse routes; P scopes never extend by neighboring anchor inference.",
+    "Inherited Henry, JFB, and KD historical-book introductions explicitly include Esther and reuse immutable links.",
+    "Esther release requires the previously prepared Ezra and Nehemiah releases to be installed first; all prior book snapshots remain unchanged.",
     "Calvin missing chapter records are explicitly unavailable; source authenticity and the original six-author layout are preserved."
   ]
 }

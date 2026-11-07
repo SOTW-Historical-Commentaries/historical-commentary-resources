@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-esther-2026-11-06",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "EST"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 60,
+    "original_entries": 449,
+    "navigation_sections": 71,
+    "reader_visible_entries": 449,
+    "verse_author_routes": 690,
+    "sword_chapters": 40,
+    "unavailable_chapters": 10,
+    "helloao_chapters": 20,
+    "chapters": 10
+  },
+  "chapter_verse_count": {
+    "1": 22,
+    "2": 23,
+    "3": 15,
+    "4": 17,
+    "5": 14,
+    "6": 14,
+    "7": 10,
+    "8": 17,
+    "9": 32,
+    "10": 3
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked original CrossWire/SWORD passage-index archives; HelloAO John Gill and genuinely missing whole-chapter fallback only.",
+  "reader_policy": "Verse by default; source-bounded P headings and validated historical book-group prefaces only.",
+  "provenance_policy": "Original historical author, complete source records, work edition, source record locators, native binary indexes, rights preserved.",
+  "notes": [
+    "Additive Esther only: preserves previous sixteen book snapshots (including the separately packaged Ezra and Nehemiah releases), navigation overlays and readers.",
+    "No fabricated Calvin commentary: supplied edition has no Esther entries.",
+    "Three original historical-book group prefaces remain external source-linked pointers, not re-copied text.",
+    "Sparse HelloAO anchors are not extended to neighboring verses.",
+    "No Bible translation text or CGBC media-player integration in this ZIP.",
+    "GitHub deployment and public Pages visual verification are separate gates."
+  ]
+}

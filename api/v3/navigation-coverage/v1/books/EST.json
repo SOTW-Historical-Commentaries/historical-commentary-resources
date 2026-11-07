@@ -1,0 +1,2315 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "EST",
+  "snapshot_id": "structured-esther-2026-11-06",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation_sections remain immutable source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "navigation_id": "GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+        "author_id": "matthew-henry",
+        "title": "Preface · Joshua to Esther",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Esther",
+        "source_evidence": "Preface · Joshua to Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-joshua-2026-11-04/authors/matthew-henry/JOS/1.json",
+          "chapter_file_sha256": "bda684d25cee03c45af6c0d07f31e86d39ec2ab8c5dcb8ba60acbe1867be8b58",
+          "section_id": "nav:matthew-henry:GROUP:JOS-HISTORICAL:P:joshua-to-esther",
+          "source_entry_id": "sword:mhc:JOS.1.1-9:6:231:55617",
+          "fragment_sha256": "55aae99795c47ab5311a1a96180d3328e0842e93191b799ea2479594c35fb49a",
+          "character_span": [
+            0,
+            26969
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST:P:esther",
+        "navigation_id": "EST:P:esther",
+        "author_id": "matthew-henry",
+        "title": "Esther",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/1.json",
+          "chapter_file_sha256": "d8f77f259a817ee4d734388926a220359d94bc85ce47fe87176269591a0c7713",
+          "section_id": "nav:matthew-henry:EST:P:esther",
+          "source_entry_id": "sword:mhc:EST.1.1-9:17:231:13347",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5e2fd37585fe4913a085662dd375d94ffe2e5b6581d8143e73a128dfc22b12ba",
+          "character_span": [
+            57,
+            4999
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.1:P:the-feast-of-ahasuerus-b-c-519",
+        "navigation_id": "EST.1:P:the-feast-of-ahasuerus-b-c-519",
+        "author_id": "matthew-henry",
+        "title": "The Feast of Ahasuerus. ( b. c. 519.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.1.1",
+        "passage_end": "EST.1.9",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Feast of Ahasuerus. ( b. c. 519.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/1.json",
+          "chapter_file_sha256": "d8f77f259a817ee4d734388926a220359d94bc85ce47fe87176269591a0c7713",
+          "section_id": "nav:matthew-henry:EST.1:P:the-feast-of-ahasuerus-b-c-519",
+          "source_entry_id": "sword:mhc:EST.1.1-9:17:231:13347",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bbdd9e79d9f05f4e20738f603e4e6df0041f6680b893b497d8f64c54f0b2a61e",
+          "character_span": [
+            4999,
+            5089
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.1:P:vashti-s-refusal-to-appear-vashti-divorced-b-c-519",
+        "navigation_id": "EST.1:P:vashti-s-refusal-to-appear-vashti-divorced-b-c-519",
+        "author_id": "matthew-henry",
+        "title": "Vashti's Refusal to Appear; Vashti Divorced. ( b. c. 519.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.1.10",
+        "passage_end": "EST.1.22",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Vashti's Refusal to Appear; Vashti Divorced. ( b. c. 519.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/1.json",
+          "chapter_file_sha256": "d8f77f259a817ee4d734388926a220359d94bc85ce47fe87176269591a0c7713",
+          "section_id": "nav:matthew-henry:EST.1:P:vashti-s-refusal-to-appear-vashti-divorced-b-c-519",
+          "source_entry_id": "sword:mhc:EST.1.10-22:17:13578:12485",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "a6f4dca1b2f4637aad6cdaa36e1c928f907d72dc9289abd1d003cd97d970837c",
+          "character_span": [
+            32,
+            143
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.2:P:esther-s-advancement-esther-chosen-queen-b-c-514",
+        "navigation_id": "EST.2:P:esther-s-advancement-esther-chosen-queen-b-c-514",
+        "author_id": "matthew-henry",
+        "title": "Esther's Advancement; Esther Chosen Queen. ( b. c. 514.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.2.1",
+        "passage_end": "EST.2.20",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Esther's Advancement; Esther Chosen Queen. ( b. c. 514.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/2.json",
+          "chapter_file_sha256": "2250afd7c385c53047091b0da399048cca5d716f1dd8ba772ba418780518aab7",
+          "section_id": "nav:matthew-henry:EST.2:P:esther-s-advancement-esther-chosen-queen-b-c-514",
+          "source_entry_id": "sword:mhc:EST.2.1-20:17:27083:16427",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "a48f4a5bba8ac7396ee6a11171717b0ad0894d09f5a67593d90fb81857bfd29e",
+          "character_span": [
+            73,
+            182
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.2:P:mordecai-s-discovery-of-a-plot-b-c-510",
+        "navigation_id": "EST.2:P:mordecai-s-discovery-of-a-plot-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Mordecai's Discovery of a Plot. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.2.21",
+        "passage_end": "EST.2.23",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mordecai's Discovery of a Plot. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/2.json",
+          "chapter_file_sha256": "2250afd7c385c53047091b0da399048cca5d716f1dd8ba772ba418780518aab7",
+          "section_id": "nav:matthew-henry:EST.2:P:mordecai-s-discovery-of-a-plot-b-c-510",
+          "source_entry_id": "sword:mhc:EST.2.21-23:17:43510:3613",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "925e5a037ca017d2d00676c2891d8863557360d2057ad2665fcb9d3019ac9e0c",
+          "character_span": [
+            32,
+            130
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.2:P:original-chapter-introduction",
+        "navigation_id": "EST.2:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 2 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 2 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/2.json",
+          "chapter_file_sha256": "2250afd7c385c53047091b0da399048cca5d716f1dd8ba772ba418780518aab7",
+          "section_id": "nav:matthew-henry:EST.2:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13171,
+          "fragment_sha256": "9f92c4bb9269cd90da0f2f9eedd4cfcd46456dfaf003c0e81bcfd12e55a728e8",
+          "character_span": [
+            0,
+            1018
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.3:P:haman-s-malignant-proposal-b-c-510",
+        "navigation_id": "EST.3:P:haman-s-malignant-proposal-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Haman's Malignant Proposal. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.3.1",
+        "passage_end": "EST.3.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Haman's Malignant Proposal. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/3.json",
+          "chapter_file_sha256": "781af727609c240cbc2b68abc6681528106166cf09373b68adebbce700bfbe79",
+          "section_id": "nav:matthew-henry:EST.3:P:haman-s-malignant-proposal-b-c-510",
+          "source_entry_id": "sword:mhc:EST.3.1-6:17:48118:8460",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "132c25c3d37255acbbcc4e6a795fd6aaf89e046760fa863d6bc7865aa8818c6d",
+          "character_span": [
+            73,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.3:P:haman-obtains-leave-to-slay-the-jews-b-c-510",
+        "navigation_id": "EST.3:P:haman-obtains-leave-to-slay-the-jews-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Haman Obtains Leave to Slay the Jews. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.3.7",
+        "passage_end": "EST.3.15",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Haman Obtains Leave to Slay the Jews. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/3.json",
+          "chapter_file_sha256": "781af727609c240cbc2b68abc6681528106166cf09373b68adebbce700bfbe79",
+          "section_id": "nav:matthew-henry:EST.3:P:haman-obtains-leave-to-slay-the-jews-b-c-510",
+          "source_entry_id": "sword:mhc:EST.3.7-15:17:56578:12305",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "929e52f57832d851cf048b74f7f8fe42b5af8f0fdb6855fe2cc6bd4c0a7610db",
+          "character_span": [
+            32,
+            136
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.3:P:original-chapter-introduction",
+        "navigation_id": "EST.3:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 3 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 3 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/3.json",
+          "chapter_file_sha256": "781af727609c240cbc2b68abc6681528106166cf09373b68adebbce700bfbe79",
+          "section_id": "nav:matthew-henry:EST.3:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13195,
+          "fragment_sha256": "1f46cc14460e9d90e03fd5087fc256ba678626a9718734344a46fdd63ceb97e2",
+          "character_span": [
+            0,
+            995
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.4:P:great-mourning-among-the-jews-b-c-510",
+        "navigation_id": "EST.4:P:great-mourning-among-the-jews-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Great Mourning among the Jews. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.4.1",
+        "passage_end": "EST.4.4",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Great Mourning among the Jews. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/4.json",
+          "chapter_file_sha256": "e288ff2e2dfc9bd1b5804a9b87ab24a5b7afe9662b8b350ee52c4fac3eb0d283",
+          "section_id": "nav:matthew-henry:EST.4:P:great-mourning-among-the-jews-b-c-510",
+          "source_entry_id": "sword:mhc:EST.4.1-4:17:70155:5119",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bce85f43d0bdb867c4c9e77808da560adeb498c3c62df611f78b5987d736e2d8",
+          "character_span": [
+            73,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.4:P:mordecai-s-application-to-esther-esther-urged-to-petition-the-king-esther-reso",
+        "navigation_id": "EST.4:P:mordecai-s-application-to-esther-esther-urged-to-petition-the-king-esther-reso",
+        "author_id": "matthew-henry",
+        "title": "Mordecai's Application to Esther; Esther Urged to Petition the King; Esther Resolves to Petition the King. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.4.5",
+        "passage_end": "EST.4.17",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mordecai's Application to Esther; Esther Urged to Petition the King; Esther Resolves to Petition the King. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/4.json",
+          "chapter_file_sha256": "e288ff2e2dfc9bd1b5804a9b87ab24a5b7afe9662b8b350ee52c4fac3eb0d283",
+          "section_id": "nav:matthew-henry:EST.4:P:mordecai-s-application-to-esther-esther-urged-to-petition-the-king-esther-reso",
+          "source_entry_id": "sword:mhc:EST.4.5-17:17:75274:15828",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f808e6dfca8ca043f07f37dd5e96f88407ad9d203930f93bb6d9ffb6c1d70c1c",
+          "character_span": [
+            32,
+            206
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.4:P:original-chapter-introduction",
+        "navigation_id": "EST.4:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 4 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 4 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/4.json",
+          "chapter_file_sha256": "e288ff2e2dfc9bd1b5804a9b87ab24a5b7afe9662b8b350ee52c4fac3eb0d283",
+          "section_id": "nav:matthew-henry:EST.4:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13211,
+          "fragment_sha256": "094651bf80cbab713a32be347005c90ea72194aa0b2535c67aea1acb76cc591f",
+          "character_span": [
+            0,
+            1272
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.5:P:esther-s-approach-to-the-king-b-c-510",
+        "navigation_id": "EST.5:P:esther-s-approach-to-the-king-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Esther's Approach to the King. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.5.1",
+        "passage_end": "EST.5.8",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Esther's Approach to the King. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/5.json",
+          "chapter_file_sha256": "d8cb370b90ea6a3865a29577677df5edce2b2ebae90959009ebcf354e1a44868",
+          "section_id": "nav:matthew-henry:EST.5:P:esther-s-approach-to-the-king-b-c-510",
+          "source_entry_id": "sword:mhc:EST.5.1-8:17:91933:10838",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "353b224e7c6bb10c2da63ff7703da4285c37878df6deba8e6834a8cdc4197a0f",
+          "character_span": [
+            73,
+            170
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.5:P:haman-s-joy-and-chagrin-haman-s-mediated-revenge-b-c-510",
+        "navigation_id": "EST.5:P:haman-s-joy-and-chagrin-haman-s-mediated-revenge-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Haman's Joy and Chagrin; Haman's Mediated Revenge. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.5.9",
+        "passage_end": "EST.5.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Haman's Joy and Chagrin; Haman's Mediated Revenge. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/5.json",
+          "chapter_file_sha256": "d8cb370b90ea6a3865a29577677df5edce2b2ebae90959009ebcf354e1a44868",
+          "section_id": "nav:matthew-henry:EST.5:P:haman-s-joy-and-chagrin-haman-s-mediated-revenge-b-c-510",
+          "source_entry_id": "sword:mhc:EST.5.9-14:17:102771:8262",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1f39710faeea4298bd2d668326a113a2cc702f630d3e60756cb64291780886a1",
+          "character_span": [
+            32,
+            149
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.5:P:original-chapter-introduction",
+        "navigation_id": "EST.5:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 5 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 5 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/5.json",
+          "chapter_file_sha256": "d8cb370b90ea6a3865a29577677df5edce2b2ebae90959009ebcf354e1a44868",
+          "section_id": "nav:matthew-henry:EST.5:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13229,
+          "fragment_sha256": "ff0f03518ce5acd71d064a762b6ab52a1a83adbd4de607080c335021f8ccba66",
+          "character_span": [
+            0,
+            831
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.6:P:the-record-of-mordecai-s-loyalty-b-c-510",
+        "navigation_id": "EST.6:P:the-record-of-mordecai-s-loyalty-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "The Record of Mordecai's Loyalty. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.6.1",
+        "passage_end": "EST.6.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Record of Mordecai's Loyalty. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/6.json",
+          "chapter_file_sha256": "e596c82bdb8cc021fcf253c9a16d44625463d06477d054e2aded7e003c346a20",
+          "section_id": "nav:matthew-henry:EST.6:P:the-record-of-mordecai-s-loyalty-b-c-510",
+          "source_entry_id": "sword:mhc:EST.6.1-3:17:112072:8114",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "385028ee557f28ca5463a3d60350e20f9bfe446b3283367ebefc4d13c6de6a7e",
+          "character_span": [
+            73,
+            173
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.6:P:the-honour-conferred-on-mordecai-b-c-510",
+        "navigation_id": "EST.6:P:the-honour-conferred-on-mordecai-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "The Honour Conferred on Mordecai. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.6.4",
+        "passage_end": "EST.6.11",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Honour Conferred on Mordecai. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/6.json",
+          "chapter_file_sha256": "e596c82bdb8cc021fcf253c9a16d44625463d06477d054e2aded7e003c346a20",
+          "section_id": "nav:matthew-henry:EST.6:P:the-honour-conferred-on-mordecai-b-c-510",
+          "source_entry_id": "sword:mhc:EST.6.4-11:17:120186:8739",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "71a69bd4fe460af0d4ff52e99e125ebc8eab8bf3d71cd723d91609f848b43c68",
+          "character_span": [
+            32,
+            132
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.6:P:haman-cast-down-b-c-510",
+        "navigation_id": "EST.6:P:haman-cast-down-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Haman Cast Down. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.6.12",
+        "passage_end": "EST.6.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Haman Cast Down. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/6.json",
+          "chapter_file_sha256": "e596c82bdb8cc021fcf253c9a16d44625463d06477d054e2aded7e003c346a20",
+          "section_id": "nav:matthew-henry:EST.6:P:haman-cast-down-b-c-510",
+          "source_entry_id": "sword:mhc:EST.6.12-14:17:128925:4572",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e14bd3378938d40fceba4e6354759bb084f493cc28db33cb999dfa8ac231e420",
+          "character_span": [
+            32,
+            115
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.6:P:original-chapter-introduction",
+        "navigation_id": "EST.6:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 6 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 6 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/6.json",
+          "chapter_file_sha256": "e596c82bdb8cc021fcf253c9a16d44625463d06477d054e2aded7e003c346a20",
+          "section_id": "nav:matthew-henry:EST.6:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13244,
+          "fragment_sha256": "dc617a69d2ffd7b460c36dfb7050d5d5d09d5a58edfbe9f106b960137447e122",
+          "character_span": [
+            0,
+            1037
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.7:P:haman-accused-by-esther-b-c-510",
+        "navigation_id": "EST.7:P:haman-accused-by-esther-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Haman Accused by Esther. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.7.1",
+        "passage_end": "EST.7.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Haman Accused by Esther. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/7.json",
+          "chapter_file_sha256": "67678d515f476b01651b6b6ad97b6cb830383b3a97275eec9bcd1b4d786c63fa",
+          "section_id": "nav:matthew-henry:EST.7:P:haman-accused-by-esther-b-c-510",
+          "source_entry_id": "sword:mhc:EST.7.1-6:17:134395:7418",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ee6a50759dc0b875ad82993ce5a6110d3fd0fd58b4766e228eefa1c2a7878854",
+          "character_span": [
+            73,
+            164
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.7:P:the-king-incensed-against-haman-haman-hanged-upon-his-own-gallows-b-c-510",
+        "navigation_id": "EST.7:P:the-king-incensed-against-haman-haman-hanged-upon-his-own-gallows-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "The King Incensed Against Haman; Haman Hanged upon His Own Gallows. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.7.7",
+        "passage_end": "EST.7.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The King Incensed Against Haman; Haman Hanged upon His Own Gallows. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/7.json",
+          "chapter_file_sha256": "67678d515f476b01651b6b6ad97b6cb830383b3a97275eec9bcd1b4d786c63fa",
+          "section_id": "nav:matthew-henry:EST.7:P:the-king-incensed-against-haman-haman-hanged-upon-his-own-gallows-b-c-510",
+          "source_entry_id": "sword:mhc:EST.7.7-10:17:141813:10108",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "147a19965d91c92c189dc73ed2de1dc6cfa07abb39a3db1a6df4bd24278c670c",
+          "character_span": [
+            32,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.7:P:original-chapter-introduction",
+        "navigation_id": "EST.7:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 7 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 7 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/7.json",
+          "chapter_file_sha256": "67678d515f476b01651b6b6ad97b6cb830383b3a97275eec9bcd1b4d786c63fa",
+          "section_id": "nav:matthew-henry:EST.7:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13259,
+          "fragment_sha256": "1bd4f32c41737b377d4abfa178f603852966ab9d7a5d146bb8d26eb6a52495f1",
+          "character_span": [
+            0,
+            898
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.8:P:esther-and-mordecai-enriched-b-c-510",
+        "navigation_id": "EST.8:P:esther-and-mordecai-enriched-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "Esther and Mordecai Enriched. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.8.1",
+        "passage_end": "EST.8.2",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Esther and Mordecai Enriched. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/8.json",
+          "chapter_file_sha256": "697479709f1754efa0fac45230611dc798df8963ac0f4a9643ae49be6b9f985a",
+          "section_id": "nav:matthew-henry:EST.8:P:esther-and-mordecai-enriched-b-c-510",
+          "source_entry_id": "sword:mhc:EST.8.1-2:17:152887:4585",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "967da754a8705ee63d499fc37d68d275d79f24c0fc1bea776ac4d82094f1f117",
+          "character_span": [
+            73,
+            169
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.8:P:the-jews-encouraged-to-self-defence-b-c-510",
+        "navigation_id": "EST.8:P:the-jews-encouraged-to-self-defence-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "The Jews Encouraged to Self-Defence. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.8.3",
+        "passage_end": "EST.8.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Jews Encouraged to Self-Defence. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/8.json",
+          "chapter_file_sha256": "697479709f1754efa0fac45230611dc798df8963ac0f4a9643ae49be6b9f985a",
+          "section_id": "nav:matthew-henry:EST.8:P:the-jews-encouraged-to-self-defence-b-c-510",
+          "source_entry_id": "sword:mhc:EST.8.3-14:17:157472:13745",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "6f237292c004037242cfe40a221763f7fe4173e9cd190167e94b30f504abb1fd",
+          "character_span": [
+            32,
+            135
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.8:P:the-joy-of-the-jews-b-c-510",
+        "navigation_id": "EST.8:P:the-joy-of-the-jews-b-c-510",
+        "author_id": "matthew-henry",
+        "title": "The Joy of the Jews. ( b. c. 510.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.8.15",
+        "passage_end": "EST.8.17",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Joy of the Jews. ( b. c. 510.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/8.json",
+          "chapter_file_sha256": "697479709f1754efa0fac45230611dc798df8963ac0f4a9643ae49be6b9f985a",
+          "section_id": "nav:matthew-henry:EST.8:P:the-joy-of-the-jews-b-c-510",
+          "source_entry_id": "sword:mhc:EST.8.15-17:17:171217:5098",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "48c12fe444575dd857b4d8bcb9e38adbfbff6e1b8c8abd787106f9c66546d01b",
+          "character_span": [
+            32,
+            119
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.8:P:original-chapter-introduction",
+        "navigation_id": "EST.8:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 8 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 8 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/8.json",
+          "chapter_file_sha256": "697479709f1754efa0fac45230611dc798df8963ac0f4a9643ae49be6b9f985a",
+          "section_id": "nav:matthew-henry:EST.8:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13270,
+          "fragment_sha256": "c00b83298b82dadcf4e07b3ac2f5a855dd12b81550bab81d43610da442dd63d7",
+          "character_span": [
+            0,
+            966
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.9:P:the-jews-avenged-b-c-509",
+        "navigation_id": "EST.9:P:the-jews-avenged-b-c-509",
+        "author_id": "matthew-henry",
+        "title": "The Jews Avenged. ( b. c. 509.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.9.1",
+        "passage_end": "EST.9.19",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Jews Avenged. ( b. c. 509.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/9.json",
+          "chapter_file_sha256": "d837f9293cd9d299f23252dbb06e30a7cf2eeae45046c29f3d5c3e8c3cef1711",
+          "section_id": "nav:matthew-henry:EST.9:P:the-jews-avenged-b-c-509",
+          "source_entry_id": "sword:mhc:EST.9.1-19:17:177897:15930",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "812fccf13c14880cbe0ab3e35e7b8fda8ab7e8ef1b4b00c0763fcdf1680e3822",
+          "character_span": [
+            73,
+            157
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.9:P:the-feast-of-purim-b-c-509",
+        "navigation_id": "EST.9:P:the-feast-of-purim-b-c-509",
+        "author_id": "matthew-henry",
+        "title": "The Feast of Purim. ( b. c. 509.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.9.20",
+        "passage_end": "EST.9.32",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Feast of Purim. ( b. c. 509.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/9.json",
+          "chapter_file_sha256": "d837f9293cd9d299f23252dbb06e30a7cf2eeae45046c29f3d5c3e8c3cef1711",
+          "section_id": "nav:matthew-henry:EST.9:P:the-feast-of-purim-b-c-509",
+          "source_entry_id": "sword:mhc:EST.9.20-32:17:193827:16242",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d90ccbe23f33a0571a5ff8c526e7162b4210103c96e487d537c81ca9f173c3be",
+          "character_span": [
+            32,
+            118
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.9:P:original-chapter-introduction",
+        "navigation_id": "EST.9:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 9 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 9 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/9.json",
+          "chapter_file_sha256": "d837f9293cd9d299f23252dbb06e30a7cf2eeae45046c29f3d5c3e8c3cef1711",
+          "section_id": "nav:matthew-henry:EST.9:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13288,
+          "fragment_sha256": "67a1b5c1904ad0aaf3baa9e07f5a9198f74e0ef8ef5e73000238b11bc8c1a258",
+          "character_span": [
+            0,
+            1580
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.10:P:the-glory-of-mordecai-b-c-495",
+        "navigation_id": "EST.10:P:the-glory-of-mordecai-b-c-495",
+        "author_id": "matthew-henry",
+        "title": "The Glory of Mordecai. ( b. c. 495.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.10.1",
+        "passage_end": "EST.10.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Glory of Mordecai. ( b. c. 495.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/10.json",
+          "chapter_file_sha256": "6057a07b43c9769f862b937fbb4b3c035d92eeb67f22c70eb926c0eff4436f66",
+          "section_id": "nav:matthew-henry:EST.10:P:the-glory-of-mordecai-b-c-495",
+          "source_entry_id": "sword:mhc:EST.10.1-3:17:210747:6333",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "dded21d82b28a4d2c7676014a7750435d7382b3ba359f723d93b5a8c1575181a",
+          "character_span": [
+            32,
+            121
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:EST.10:P:original-chapter-introduction",
+        "navigation_id": "EST.10:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Esther 10 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Esther 10 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/10.json",
+          "chapter_file_sha256": "6057a07b43c9769f862b937fbb4b3c035d92eeb67f22c70eb926c0eff4436f66",
+          "section_id": "nav:matthew-henry:EST.10:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 13321,
+          "fragment_sha256": "1e7a52ce4b6ee86551ba8e54bde42752646bf16bb1563b04fdc4d3a1d739aa1e",
+          "character_span": [
+            0,
+            678
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:EST:P:introduction-to-the-book-of-esther",
+        "navigation_id": "EST:P:introduction-to-the-book-of-esther",
+        "author_id": "adam-clarke",
+        "title": "Introduction to the Book of Esther",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction to the Book of Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/1.json",
+          "chapter_file_sha256": "3fec2c703f0c00a6d59be91181374a8da3be16ebd52e43bdde3dd12fbc004b0f",
+          "section_id": "nav:adam-clarke:EST:P:introduction-to-the-book-of-esther",
+          "source_entry_id": "sword:clarke:EST.1.1-1:17:255:28818",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2a8f8756e450873ebb75ecbb1c0a53e3fb0bc4e2534215dae93ca141adcbe55f",
+          "character_span": [
+            33,
+            27744
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.2:P:introduction",
+        "navigation_id": "EST.2:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/2.json",
+          "chapter_file_sha256": "624273da72383806fbd96ee1d6c7f095eff8ed5688e77a4ff6fb0da5d75a7b71",
+          "section_id": "nav:adam-clarke:EST.2:P:introduction",
+          "source_entry_id": "sword:clarke:EST.2.1-1:17:43313:1478",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8cc3f272ab806c12458535d92e1432abbbbfa47b5b535a467d0f6117e7561c74",
+          "character_span": [
+            33,
+            1478
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.3:P:introduction",
+        "navigation_id": "EST.3:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/3.json",
+          "chapter_file_sha256": "8ee4bddbcf44074d45a7e8ca8ee6123d5ddf39b437536d5ce96d6472a36b124b",
+          "section_id": "nav:adam-clarke:EST.3:P:introduction",
+          "source_entry_id": "sword:clarke:EST.3.1-1:17:55361:1887",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "fb6d928f49180a11f687a7156ea0c0c06b96dfbfc30e54e52039f42e88537165",
+          "character_span": [
+            33,
+            1417
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.4:P:introduction",
+        "navigation_id": "EST.4:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/4.json",
+          "chapter_file_sha256": "d32c3031d880233fa66ad80ef95b4acf257834acd19be56e3fd01740e339cc56",
+          "section_id": "nav:adam-clarke:EST.4:P:introduction",
+          "source_entry_id": "sword:clarke:EST.4.1-1:17:73449:2186",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2eae599ffe18119689b7368f8ddb0e6c90fafac667945d827511c9f564422650",
+          "character_span": [
+            33,
+            1788
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.5:P:introduction",
+        "navigation_id": "EST.5:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/5.json",
+          "chapter_file_sha256": "b742d2502c07e885ffaeca2ce9664433464aaf860df4af97bc4649dd1f328317",
+          "section_id": "nav:adam-clarke:EST.5:P:introduction",
+          "source_entry_id": "sword:clarke:EST.5.1-1:17:83128:1749",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "9d678e6d4c7e67cbd05147be83ebc566e16ea9324bdaf46df49c90191892b8bc",
+          "character_span": [
+            33,
+            1544
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.6:P:introduction",
+        "navigation_id": "EST.6:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/6.json",
+          "chapter_file_sha256": "ef905af5044c51cdce989f593d7d796e552c947a095e74ff8464d532043be6b4",
+          "section_id": "nav:adam-clarke:EST.6:P:introduction",
+          "source_entry_id": "sword:clarke:EST.6.1-1:17:90279:4477",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "aa367623d262cde0335c623bb68d6246d9b43ed9dcc0ae77ec547f72a36b5830",
+          "character_span": [
+            33,
+            1512
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.7:P:introduction",
+        "navigation_id": "EST.7:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/7.json",
+          "chapter_file_sha256": "4e9106e884eea2afea70a997549ba6dacc95ab1159baf82f301d7bf6ce025480",
+          "section_id": "nav:adam-clarke:EST.7:P:introduction",
+          "source_entry_id": "sword:clarke:EST.7.1-1:17:99179:1039",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "198c46b4e1be61d595f39da383e8cd42a583e4ab12492bdab779399a8dd56acd",
+          "character_span": [
+            33,
+            1039
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.8:P:introduction",
+        "navigation_id": "EST.8:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/8.json",
+          "chapter_file_sha256": "fcf399a5c105e84063daa7c7b4303668b8adb90c962f9711c95c5980b15e2de9",
+          "section_id": "nav:adam-clarke:EST.8:P:introduction",
+          "source_entry_id": "sword:clarke:EST.8.1-1:17:103969:2069",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f12af24069bdaf315a7cdf6c73198f14350122776cc0b61a481aba8b5fc1b947",
+          "character_span": [
+            33,
+            1483
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.9:P:introduction",
+        "navigation_id": "EST.9:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/9.json",
+          "chapter_file_sha256": "69ace8b8adb491433872ab6760f207ee058c96cde8bc8f3b1dd5c8257959fbe5",
+          "section_id": "nav:adam-clarke:EST.9:P:introduction",
+          "source_entry_id": "sword:clarke:EST.9.1-1:17:111814:2043",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54514a440b1dd2c7fe0f72d6baaee971b21deeea89e1cfc142efb4c2b28dd670",
+          "character_span": [
+            33,
+            1438
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:EST.10:P:introduction",
+        "navigation_id": "EST.10:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/10.json",
+          "chapter_file_sha256": "fe17bde67d92eb518e7ac8976a0dcb01454069c54ed73721a0d43cc524702ea4",
+          "section_id": "nav:adam-clarke:EST.10:P:introduction",
+          "source_entry_id": "sword:clarke:EST.10.1-1:17:120617:1006",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "358e3713b4233956046828da998abb5ecf316bf81bf8492037146405a051b148",
+          "character_span": [
+            33,
+            569
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+        "navigation_id": "GROUP:GEN-HISTORICAL:P:gen-historical",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction to Pentateuch and historical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Esther",
+        "source_evidence": "Introduction to Pentateuch and historical books",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:GEN-HISTORICAL:P:gen-historical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "539074c824eb6cf2cfb472df08f2ce3a36cbd9765367eae3efaac4d907513015",
+          "character_span": [
+            56,
+            30473
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST:P:the-book-of-esther",
+        "navigation_id": "EST:P:the-book-of-esther",
+        "author_id": "jamieson-fausset-brown",
+        "title": "THE BOOK OF ESTHER",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "THE BOOK OF ESTHER",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/1.json",
+          "chapter_file_sha256": "7236c6524ba6341ad47d85b6f285fc18be4ed7819ae729e6626d96c66025164a",
+          "section_id": "nav:jamieson-fausset-brown:EST:P:the-book-of-esther",
+          "source_entry_id": "sword:jfb:EST.1.1-1:17:239:646",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8eb27e4418e3547b2f14a2570af986c64d3269e2b3b7e51f974cd6322d68f89f",
+          "character_span": [
+            59,
+            198
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.1:P:chapter-1",
+        "navigation_id": "EST.1:P:chapter-1",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 1",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/1.json",
+          "chapter_file_sha256": "7236c6524ba6341ad47d85b6f285fc18be4ed7819ae729e6626d96c66025164a",
+          "section_id": "nav:jamieson-fausset-brown:EST.1:P:chapter-1",
+          "source_entry_id": "sword:jfb:EST.1.1-1:17:239:646",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            198,
+            233
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.1:P:es-1-1-22-ahasuerus-makes-royal-feasts",
+        "navigation_id": "EST.1:P:es-1-1-22-ahasuerus-makes-royal-feasts",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 1:1-22 . Ahasuerus Makes Royal Feasts.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.1.1",
+        "passage_end": "EST.1.22",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 1:1-22 . Ahasuerus Makes Royal Feasts.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/1.json",
+          "chapter_file_sha256": "7236c6524ba6341ad47d85b6f285fc18be4ed7819ae729e6626d96c66025164a",
+          "section_id": "nav:jamieson-fausset-brown:EST.1:P:es-1-1-22-ahasuerus-makes-royal-feasts",
+          "source_entry_id": "sword:jfb:EST.1.1-1:17:239:646",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c48c8f42442e69eb13627444eab2fd01ec83c2f85bdef21fb02cd4a02dbed0ae",
+          "character_span": [
+            234,
+            353
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.2:P:chapter-2",
+        "navigation_id": "EST.2:P:chapter-2",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 2",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/2.json",
+          "chapter_file_sha256": "f29006ab6eea64796eb18bc77005f064c468a707c846060eefe0b0726bfc3bee",
+          "section_id": "nav:jamieson-fausset-brown:EST.2:P:chapter-2",
+          "source_entry_id": "sword:jfb:EST.2.1-3:17:7165:1895",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.2:P:es-2-1-20-esther-chosen-to-be-queen",
+        "navigation_id": "EST.2:P:es-2-1-20-esther-chosen-to-be-queen",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 2:1-20 . Esther Chosen to Be Queen.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.2.1",
+        "passage_end": "EST.2.20",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 2:1-20 . Esther Chosen to Be Queen.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/2.json",
+          "chapter_file_sha256": "f29006ab6eea64796eb18bc77005f064c468a707c846060eefe0b0726bfc3bee",
+          "section_id": "nav:jamieson-fausset-brown:EST.2:P:es-2-1-20-esther-chosen-to-be-queen",
+          "source_entry_id": "sword:jfb:EST.2.1-3:17:7165:1895",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e05fde01de6c558e4e1522e0f9dc87957b55de115de10c57b89334a6b3fa4e6a",
+          "character_span": [
+            96,
+            212
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.2:P:es-2-21-23-mordecai-discovering-a-treason-is-recorded-in-the-chronicles",
+        "navigation_id": "EST.2:P:es-2-21-23-mordecai-discovering-a-treason-is-recorded-in-the-chronicles",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 2:21-23 . Mordecai, Discovering a Treason, Is Recorded in the Chronicles.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.2.21",
+        "passage_end": "EST.2.23",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 2:21-23 . Mordecai, Discovering a Treason, Is Recorded in the Chronicles.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/2.json",
+          "chapter_file_sha256": "f29006ab6eea64796eb18bc77005f064c468a707c846060eefe0b0726bfc3bee",
+          "section_id": "nav:jamieson-fausset-brown:EST.2:P:es-2-21-23-mordecai-discovering-a-treason-is-recorded-in-the-chronicles",
+          "source_entry_id": "sword:jfb:EST.2.21-21:17:12594:1043",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "6f9063cddfea22f2ab0607651e8a59f85446f14ddd93b27dd725caba18563be7",
+          "character_span": [
+            59,
+            214
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.3:P:chapter-3",
+        "navigation_id": "EST.3:P:chapter-3",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 3",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/3.json",
+          "chapter_file_sha256": "0a3ddbc21ecc9e47b849995dad051db34f186af9aea196f4964e754c3ea76907",
+          "section_id": "nav:jamieson-fausset-brown:EST.3:P:chapter-3",
+          "source_entry_id": "sword:jfb:EST.3.1-1:17:13714:792",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.3:P:es-3-1-15-haman-advanced-by-the-king-and-despised-by-mordecai-seeks-revenge-on",
+        "navigation_id": "EST.3:P:es-3-1-15-haman-advanced-by-the-king-and-despised-by-mordecai-seeks-revenge-on",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 3:1-15 . Haman, Advanced by the King, and Despised by Mordecai, Seeks Revenge on All the Jews.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.3.1",
+        "passage_end": "EST.3.15",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 3:1-15 . Haman, Advanced by the King, and Despised by Mordecai, Seeks Revenge on All the Jews.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/3.json",
+          "chapter_file_sha256": "0a3ddbc21ecc9e47b849995dad051db34f186af9aea196f4964e754c3ea76907",
+          "section_id": "nav:jamieson-fausset-brown:EST.3:P:es-3-1-15-haman-advanced-by-the-king-and-despised-by-mordecai-seeks-revenge-on",
+          "source_entry_id": "sword:jfb:EST.3.1-1:17:13714:792",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "96c8b1592186c7a22444794230e86bae0f9ef655d9d6190ccb5ec2d49a0cd037",
+          "character_span": [
+            96,
+            271
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.4:P:chapter-4",
+        "navigation_id": "EST.4:P:chapter-4",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 4",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/4.json",
+          "chapter_file_sha256": "50125a031c96ee1ccfea1a36cdf74854190505a7e13da2bf94451f4edb09b037",
+          "section_id": "nav:jamieson-fausset-brown:EST.4:P:chapter-4",
+          "source_entry_id": "sword:jfb:EST.4.1-2:17:20398:1284",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.4:P:es-4-1-14-mordecai-and-the-jews-mourn",
+        "navigation_id": "EST.4:P:es-4-1-14-mordecai-and-the-jews-mourn",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 4:1-14 . Mordecai and the Jews Mourn.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.4.1",
+        "passage_end": "EST.4.14",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 4:1-14 . Mordecai and the Jews Mourn.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/4.json",
+          "chapter_file_sha256": "50125a031c96ee1ccfea1a36cdf74854190505a7e13da2bf94451f4edb09b037",
+          "section_id": "nav:jamieson-fausset-brown:EST.4:P:es-4-1-14-mordecai-and-the-jews-mourn",
+          "source_entry_id": "sword:jfb:EST.4.1-2:17:20398:1284",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0eb91c38e942585b297365b203dafa89af750b28bf503238f39576f22015407f",
+          "character_span": [
+            96,
+            214
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.5:P:chapter-5",
+        "navigation_id": "EST.5:P:chapter-5",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 5",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/5.json",
+          "chapter_file_sha256": "bf6b3b6509bbc0902579117fce10b1a59b71f152de4bd41715e50338e9d29712",
+          "section_id": "nav:jamieson-fausset-brown:EST.5:P:chapter-5",
+          "source_entry_id": "sword:jfb:EST.5.1-1:17:26556:2191",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "28c7aecb7b8150863ebc556b4f18e721a5a0f56caa8d893a04ea73e9a15091ee",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.5:P:es-5-1-14-esther-invites-the-king-and-haman-to-a-banquet",
+        "navigation_id": "EST.5:P:es-5-1-14-esther-invites-the-king-and-haman-to-a-banquet",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 5:1-14 . Esther Invites the King and Haman to a Banquet.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.5.1",
+        "passage_end": "EST.5.14",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 5:1-14 . Esther Invites the King and Haman to a Banquet.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/5.json",
+          "chapter_file_sha256": "bf6b3b6509bbc0902579117fce10b1a59b71f152de4bd41715e50338e9d29712",
+          "section_id": "nav:jamieson-fausset-brown:EST.5:P:es-5-1-14-esther-invites-the-king-and-haman-to-a-banquet",
+          "source_entry_id": "sword:jfb:EST.5.1-1:17:26556:2191",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "76b21e915e2a2378522a61a686863bb7e26a2a4e8c3faa6177232acddfc5ef6d",
+          "character_span": [
+            96,
+            233
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.6:P:chapter-6",
+        "navigation_id": "EST.6:P:chapter-6",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 6",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 6",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/6.json",
+          "chapter_file_sha256": "963188eb83d1bf97430294b8663bc2cf233391f0035789a2728b8878e20299ba",
+          "section_id": "nav:jamieson-fausset-brown:EST.6:P:chapter-6",
+          "source_entry_id": "sword:jfb:EST.6.1-1:17:32072:1359",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "156b149338ab4df993d1da11058affc61b5ad0471fcd353217038eb5acf8d55b",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.6:P:es-6-1-14-ahasuerus-rewards-mordecai-for-former-service",
+        "navigation_id": "EST.6:P:es-6-1-14-ahasuerus-rewards-mordecai-for-former-service",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 6:1-14 . Ahasuerus Rewards Mordecai for Former Service.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.6.1",
+        "passage_end": "EST.6.14",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 6:1-14 . Ahasuerus Rewards Mordecai for Former Service.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/6.json",
+          "chapter_file_sha256": "963188eb83d1bf97430294b8663bc2cf233391f0035789a2728b8878e20299ba",
+          "section_id": "nav:jamieson-fausset-brown:EST.6:P:es-6-1-14-ahasuerus-rewards-mordecai-for-former-service",
+          "source_entry_id": "sword:jfb:EST.6.1-1:17:32072:1359",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2b55c7bfa5bbc45c2b9df71145ed9e27446a5f82a84dcaf9f2c0a12232b21bf6",
+          "character_span": [
+            96,
+            232
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.7:P:chapter-7",
+        "navigation_id": "EST.7:P:chapter-7",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 7",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 7",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/7.json",
+          "chapter_file_sha256": "d8f289cacd1315c36ce4888c23eef154fced316ea613b1f1c6b0e86d3aa13d10",
+          "section_id": "nav:jamieson-fausset-brown:EST.7:P:chapter-7",
+          "source_entry_id": "sword:jfb:EST.7.4-4:17:36820:1284",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "fd5cdd0f2948c8519b7f0cb340762e2d24db08f21871c13503bfc3130fe07404",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.7:P:es-7-1-6-esther-pleads-for-her-own-life-and-the-life-of-her-people",
+        "navigation_id": "EST.7:P:es-7-1-6-esther-pleads-for-her-own-life-and-the-life-of-her-people",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 7:1-6 . Esther Pleads for Her Own Life and the Life of Her People.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.7.1",
+        "passage_end": "EST.7.6",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 7:1-6 . Esther Pleads for Her Own Life and the Life of Her People.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/7.json",
+          "chapter_file_sha256": "d8f289cacd1315c36ce4888c23eef154fced316ea613b1f1c6b0e86d3aa13d10",
+          "section_id": "nav:jamieson-fausset-brown:EST.7:P:es-7-1-6-esther-pleads-for-her-own-life-and-the-life-of-her-people",
+          "source_entry_id": "sword:jfb:EST.7.4-4:17:36820:1284",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e29b5c35239fda23827f51daa4b11dc2dfc10e301f3652c01e2bdc483ac53482",
+          "character_span": [
+            96,
+            242
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.7:P:es-7-7-10-the-king-causes-haman-to-be-hanged-on-his-own-gallows",
+        "navigation_id": "EST.7:P:es-7-7-10-the-king-causes-haman-to-be-hanged-on-his-own-gallows",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 7:7-10 . The King Causes Haman to Be Hanged on His Own Gallows.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.7.7",
+        "passage_end": "EST.7.10",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 7:7-10 . The King Causes Haman to Be Hanged on His Own Gallows.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/7.json",
+          "chapter_file_sha256": "d8f289cacd1315c36ce4888c23eef154fced316ea613b1f1c6b0e86d3aa13d10",
+          "section_id": "nav:jamieson-fausset-brown:EST.7:P:es-7-7-10-the-king-causes-haman-to-be-hanged-on-his-own-gallows",
+          "source_entry_id": "sword:jfb:EST.7.7-7:17:38104:661",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0f0a42d111f86e5e68e5f0cdb8aae35c76d7b8d97d0926b8a11d28cb78389d6a",
+          "character_span": [
+            59,
+            203
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.8:P:chapter-8",
+        "navigation_id": "EST.8:P:chapter-8",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 8",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/8.json",
+          "chapter_file_sha256": "f8b69162c13c80d84574a8d1fba252b777ac85cd97e5fbd523836398a059d172",
+          "section_id": "nav:jamieson-fausset-brown:EST.8:P:chapter-8",
+          "source_entry_id": "sword:jfb:EST.8.1-1:17:41057:891",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4d9012f96b6241d9b632a799789d66d9c0710da056965ee37c66ea12bf40f4f8",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.8:P:es-8-1-6-mordecai-advanced",
+        "navigation_id": "EST.8:P:es-8-1-6-mordecai-advanced",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 8:1-6 . Mordecai Advanced.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.8.1",
+        "passage_end": "EST.8.6",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 8:1-6 . Mordecai Advanced.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/8.json",
+          "chapter_file_sha256": "f8b69162c13c80d84574a8d1fba252b777ac85cd97e5fbd523836398a059d172",
+          "section_id": "nav:jamieson-fausset-brown:EST.8:P:es-8-1-6-mordecai-advanced",
+          "source_entry_id": "sword:jfb:EST.8.1-1:17:41057:891",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "83277485812d7642a495be8453cea59e5dbbcadc22d485950a0f9bb20b0e0e56",
+          "character_span": [
+            96,
+            202
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.8:P:es-8-7-14-ahasuerus-grants-to-the-jews-to-defend-themselves",
+        "navigation_id": "EST.8:P:es-8-7-14-ahasuerus-grants-to-the-jews-to-defend-themselves",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 8:7-14 . Ahasuerus Grants to the Jews to Defend Themselves.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.8.7",
+        "passage_end": "EST.8.14",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 8:7-14 . Ahasuerus Grants to the Jews to Defend Themselves.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/8.json",
+          "chapter_file_sha256": "f8b69162c13c80d84574a8d1fba252b777ac85cd97e5fbd523836398a059d172",
+          "section_id": "nav:jamieson-fausset-brown:EST.8:P:es-8-7-14-ahasuerus-grants-to-the-jews-to-defend-themselves",
+          "source_entry_id": "sword:jfb:EST.8.8-8:17:44454:879",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b99f82e76e5cc699dc78c19b0f87400b76a8c7ab7c02991f360b644b0e2de94e",
+          "character_span": [
+            59,
+            199
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.8:P:es-8-15-17-mordecai-s-honors-and-the-jews-joy",
+        "navigation_id": "EST.8:P:es-8-15-17-mordecai-s-honors-and-the-jews-joy",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 8:15-17 . Mordecai's Honors, and the Jews' Joy.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.8.15",
+        "passage_end": "EST.8.17",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 8:15-17 . Mordecai's Honors, and the Jews' Joy.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/8.json",
+          "chapter_file_sha256": "f8b69162c13c80d84574a8d1fba252b777ac85cd97e5fbd523836398a059d172",
+          "section_id": "nav:jamieson-fausset-brown:EST.8:P:es-8-15-17-mordecai-s-honors-and-the-jews-joy",
+          "source_entry_id": "sword:jfb:EST.8.15-15:17:47684:741",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ab88cf248dd3ee95b2eefc9d40ce81c8ca85393f7af1aade40e5a5854eb1f01b",
+          "character_span": [
+            59,
+            188
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.9:P:chapter-9",
+        "navigation_id": "EST.9:P:chapter-9",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 9",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 9",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/9.json",
+          "chapter_file_sha256": "c473ef0096d27b1bad650f3de1a61035910a4d280ac85d30ec6eec0f17ec6c8b",
+          "section_id": "nav:jamieson-fausset-brown:EST.9:P:chapter-9",
+          "source_entry_id": "sword:jfb:EST.9.1-1:17:48502:619",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0ea0c486365533614dd010ad9bac13027d59e52fbc2bc06dd8063e83d3000da7",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.9:P:es-9-1-19-the-jews-slay-their-enemies-with-the-ten-sons-of-haman",
+        "navigation_id": "EST.9:P:es-9-1-19-the-jews-slay-their-enemies-with-the-ten-sons-of-haman",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 9:1-19 . The Jews Slay Their Enemies with the Ten Sons of Haman.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.9.1",
+        "passage_end": "EST.9.19",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 9:1-19 . The Jews Slay Their Enemies with the Ten Sons of Haman.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/9.json",
+          "chapter_file_sha256": "c473ef0096d27b1bad650f3de1a61035910a4d280ac85d30ec6eec0f17ec6c8b",
+          "section_id": "nav:jamieson-fausset-brown:EST.9:P:es-9-1-19-the-jews-slay-their-enemies-with-the-ten-sons-of-haman",
+          "source_entry_id": "sword:jfb:EST.9.1-1:17:48502:619",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c2177cd6f2061b6ff2df3527588d4beb1c0a1d288ace6b857961766f22eef93c",
+          "character_span": [
+            96,
+            241
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.9:P:es-9-20-32-the-two-days-of-purim-made-festival",
+        "navigation_id": "EST.9:P:es-9-20-32-the-two-days-of-purim-made-festival",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 9:20-32 . The Two Days of Purim Made Festival.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.9.20",
+        "passage_end": "EST.9.32",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 9:20-32 . The Two Days of Purim Made Festival.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/9.json",
+          "chapter_file_sha256": "c473ef0096d27b1bad650f3de1a61035910a4d280ac85d30ec6eec0f17ec6c8b",
+          "section_id": "nav:jamieson-fausset-brown:EST.9:P:es-9-20-32-the-two-days-of-purim-made-festival",
+          "source_entry_id": "sword:jfb:EST.9.20-20:17:53265:611",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4bd73c9b54eb74bc95c611f12bed588099f63b6da9abb24f11dbd8f0577d92c8",
+          "character_span": [
+            59,
+            187
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.10:P:chapter-10",
+        "navigation_id": "EST.10:P:chapter-10",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 10",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 10",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/10.json",
+          "chapter_file_sha256": "c61326d31a018093621588b36a3070766bfaef255071e0800b7c44524b49a596",
+          "section_id": "nav:jamieson-fausset-brown:EST.10:P:chapter-10",
+          "source_entry_id": "sword:jfb:EST.10.1-1:17:56107:768",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5a065ed82e822dbfc57e8f8b272dfe533505c2c825b573d797ddcc0fe9ad66c7",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EST.10:P:es-10-1-3-ahasuerus-greatness-mordecai-s-advancement",
+        "navigation_id": "EST.10:P:es-10-1-3-ahasuerus-greatness-mordecai-s-advancement",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Es 10:1-3 . Ahasuerus' Greatness. Mordecai's Advancement.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": "EST.10.1",
+        "passage_end": "EST.10.3",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Es 10:1-3 . Ahasuerus' Greatness. Mordecai's Advancement.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/10.json",
+          "chapter_file_sha256": "c61326d31a018093621588b36a3070766bfaef255071e0800b7c44524b49a596",
+          "section_id": "nav:jamieson-fausset-brown:EST.10:P:es-10-1-3-ahasuerus-greatness-mordecai-s-advancement",
+          "source_entry_id": "sword:jfb:EST.10.1-1:17:56107:768",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "eb70f368ff6b088792aeff44103ea4c2404ce4722a50880e376ba38b2613e798",
+          "character_span": [
+            97,
+            233
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+        "navigation_id": "1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+        "author_id": "keil-delitzsch",
+        "title": "Introduction to the Hagiographic Historical Books of the Old Testament",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "source_proven_historical_book_group_includes_Esther",
+        "source_evidence": "Introduction to the Hagiographic Historical Books of the Old Testament",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-first-chronicles-2026-11-06/authors/keil-delitzsch/1CH/1.json",
+          "chapter_file_sha256": "209b03ebc67e839a894cac54def713e82910017d8e52891b05b54eabadaca403",
+          "section_id": "nav:keil-delitzsch:1CH.1:P:group-introduction-1-1-introduction-to-the-hagiographic-historical-books-of-the-o",
+          "source_entry_id": "sword:kd:1CH.1.1-4:14:142:136045",
+          "fragment_sha256": "0bdf4479ff1ef6f7f15c46920efb0c2c74388a1e46962e4e7205a1410f1ea168",
+          "character_span": [
+            32,
+            11198
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EST:P:the-book-of-esther",
+        "navigation_id": "EST:P:the-book-of-esther",
+        "author_id": "keil-delitzsch",
+        "title": "The Book of Esther",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "The Book of Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/1.json",
+          "chapter_file_sha256": "3b8626ba325c319b50449ab788015060104be67758283dc358719f1ff5556774",
+          "section_id": "nav:keil-delitzsch:EST:P:the-book-of-esther",
+          "source_entry_id": "sword:kd:EST.1.1-1:18:142:48875",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e3e189b51ac337a61a3d54fb65ce4172d8ef9f9f83b33808f11bbdd74dddd699",
+          "character_span": [
+            32,
+            42750
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EST.1:P:the-banquet-of-king-ahashverosh-and-the-divorce-of-queen-vashti-esther-1",
+        "navigation_id": "EST.1:P:the-banquet-of-king-ahashverosh-and-the-divorce-of-queen-vashti-esther-1",
+        "author_id": "keil-delitzsch",
+        "title": "The Banquet of King Ahashverosh and the Divorce of Queen Vashti - Esther 1",
+        "role": "chapter_overview",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "The Banquet of King Ahashverosh and the Divorce of Queen Vashti - Esther 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/1.json",
+          "chapter_file_sha256": "3b8626ba325c319b50449ab788015060104be67758283dc358719f1ff5556774",
+          "section_id": "nav:keil-delitzsch:EST.1:P:the-banquet-of-king-ahashverosh-and-the-divorce-of-queen-vashti-esther-1",
+          "source_entry_id": "sword:kd:EST.1.1-1:18:142:48875",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3d6917a7f22578a6a1c3a8f18d24081e789f779549113a193e1ae9decd544197",
+          "character_span": [
+            42750,
+            42850
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EST.2:P:elevation-of-esther-to-the-throne-esther-2",
+        "navigation_id": "EST.2:P:elevation-of-esther-to-the-throne-esther-2",
+        "author_id": "keil-delitzsch",
+        "title": "Elevation of Esther to the Throne - Esther 2",
+        "role": "chapter_overview",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Elevation of Esther to the Throne - Esther 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/2.json",
+          "chapter_file_sha256": "f37261976b942c158c27cad6fe23007f504ab94848c49fa852ca4564768a4d89",
+          "section_id": "nav:keil-delitzsch:EST.2:P:elevation-of-esther-to-the-throne-esther-2",
+          "source_entry_id": "sword:kd:EST.2.1-4:18:79538:4309",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1517acaf5c7f0cd99c054dbfde94a7e6b09eedcf01122b22ee97a03eb74bd84f",
+          "character_span": [
+            32,
+            102
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:EST:P:john-gill-book-introduction",
+        "navigation_id": "EST:P:john-gill-book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Esther",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "EST"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction · Esther",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/1.json",
+          "chapter_file_sha256": "c3434c8d4ceaf4a691d4b94deb976dfa5a1b62a18d023eb71c6ae2e7cce1797e",
+          "section_id": "nav:john-gill:EST:P:john-gill-book-introduction",
+          "source_entry_id": null,
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "a652f019ac7cb383da42d4df4ffcd15c360732b9906d708c2b7728ea3da8d2a5",
+          "character_span": null
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Esther (10 chapters) retains exact original native SWORD verse ranges and HelloAO anchored verse records.",
+    "P material is separate non-Scripture navigation; no inferred adjacent verse coverage.",
+    "MHC Joshua-to-Esther, JFB historical-books and KD Hagiographic Historical introductions explicitly encompass Esther; reuse verified existing source links, no duplicate text.",
+    "Book introductions, source-derived passage headings, and original chapter-marker introductions remain exact, source bounded and separate from verse routing.",
+    "Calvin original edition has no Esther records, and no HelloAO Calvin substitute; publish unavailable status."
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "EST-v3-2026-11-06",
+  "book": "EST",
+  "book_name": "Esther",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_head_commit_before_Ezra": "d1197721c36507c30c216d5ec00c02786b72dee2",
+  "baseline_tree_sha_before_Ezra": "0d7de699a805b941027e1e763167414229593cc3",
+  "baseline_navigation_manifest_git_blob_sha_before_Ezra": "bb41b6683eb56179b73fabefdc2241740dd3bab1",
+  "prerequisites": [
+    {
+      "book": "EZR",
+      "release": "EZR-v3-2026-11-06",
+      "snapshot": "structured-ezra-2026-11-06",
+      "install_order": 1
+    },
+    {
+      "book": "NEH",
+      "release": "NEH-v3-2026-11-06",
+      "snapshot": "structured-nehemiah-2026-11-06",
+      "install_order": 2,
+      "expected_navigation_version": "navigation-coverage-v1.9-additive-neh",
+      "expected_navigation_sha256": "593470e47c445d286facafa57786f19d3eb4cb256b3d93f01104a7f59bdf404d"
+    }
+  ],
+  "snapshot": "structured-esther-2026-11-06",
+  "source_archives_verified": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 74,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/EST.json",
+      "bytes": 102447,
+      "sha256": "52741b160f527905fa2a3b1892ee95cfc66c8bb17fb5e5d18c61f952ef3fb88e"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 6945,
+      "sha256": "ec6be62a0241de2d83c2d2ab01cccf0d3eb1b5e7a29407bc00427c811c095bd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/1.json",
+      "bytes": 171175,
+      "sha256": "3fec2c703f0c00a6d59be91181374a8da3be16ebd52e43bdde3dd12fbc004b0f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/10.json",
+      "bytes": 15521,
+      "sha256": "fe17bde67d92eb518e7ac8976a0dcb01454069c54ed73721a0d43cc524702ea4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/2.json",
+      "bytes": 50533,
+      "sha256": "624273da72383806fbd96ee1d6c7f095eff8ed5688e77a4ff6fb0da5d75a7b71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/3.json",
+      "bytes": 60289,
+      "sha256": "8ee4bddbcf44074d45a7e8ca8ee6123d5ddf39b437536d5ce96d6472a36b124b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/4.json",
+      "bytes": 39789,
+      "sha256": "d32c3031d880233fa66ad80ef95b4acf257834acd19be56e3fd01740e339cc56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/5.json",
+      "bytes": 31423,
+      "sha256": "b742d2502c07e885ffaeca2ce9664433464aaf860df4af97bc4649dd1f328317"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/6.json",
+      "bytes": 39768,
+      "sha256": "ef905af5044c51cdce989f593d7d796e552c947a095e74ff8464d532043be6b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/7.json",
+      "bytes": 22513,
+      "sha256": "4e9106e884eea2afea70a997549ba6dacc95ab1159baf82f301d7bf6ce025480"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/8.json",
+      "bytes": 33961,
+      "sha256": "fcf399a5c105e84063daa7c7b4303668b8adb90c962f9711c95c5980b15e2de9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/adam-clarke/EST/9.json",
+      "bytes": 39313,
+      "sha256": "69ace8b8adb491433872ab6760f207ee058c96cde8bc8f3b1dd5c8257959fbe5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/1.json",
+      "bytes": 27939,
+      "sha256": "7236c6524ba6341ad47d85b6f285fc18be4ed7819ae729e6626d96c66025164a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/10.json",
+      "bytes": 19055,
+      "sha256": "c61326d31a018093621588b36a3070766bfaef255071e0800b7c44524b49a596"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/2.json",
+      "bytes": 26312,
+      "sha256": "f29006ab6eea64796eb18bc77005f064c468a707c846060eefe0b0726bfc3bee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/3.json",
+      "bytes": 24720,
+      "sha256": "0a3ddbc21ecc9e47b849995dad051db34f186af9aea196f4964e754c3ea76907"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/4.json",
+      "bytes": 24473,
+      "sha256": "50125a031c96ee1ccfea1a36cdf74854190505a7e13da2bf94451f4edb09b037"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/5.json",
+      "bytes": 23707,
+      "sha256": "bf6b3b6509bbc0902579117fce10b1a59b71f152de4bd41715e50338e9d29712"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/6.json",
+      "bytes": 21342,
+      "sha256": "963188eb83d1bf97430294b8663bc2cf233391f0035789a2728b8878e20299ba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/7.json",
+      "bytes": 19054,
+      "sha256": "d8f289cacd1315c36ce4888c23eef154fced316ea613b1f1c6b0e86d3aa13d10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/8.json",
+      "bytes": 31479,
+      "sha256": "f8b69162c13c80d84574a8d1fba252b777ac85cd97e5fbd523836398a059d172"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/jamieson-fausset-brown/EST/9.json",
+      "bytes": 23622,
+      "sha256": "c473ef0096d27b1bad650f3de1a61035910a4d280ac85d30ec6eec0f17ec6c8b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/1.json",
+      "bytes": 1141,
+      "sha256": "f3221b3a119f7b199f3baf94b0ccc1013d99a10affe1640d19be4e116ac391d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/10.json",
+      "bytes": 1142,
+      "sha256": "265c6fb38cd95286d597296dd86e7039445c8d481fedf9aca44972aeff503a29"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/2.json",
+      "bytes": 1141,
+      "sha256": "0cd638c7dc91fa5bb0a9f918136015973a634bd6ef4554561ec4dff7813e1098"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/3.json",
+      "bytes": 1141,
+      "sha256": "249e9106fdfa36f78063bd5863a6eaf22b64933ae63cffd3a7d7023e30b6509b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/4.json",
+      "bytes": 1141,
+      "sha256": "a9dc61755524ef85bcd9c237ac6f9165056b26d0efab5e29b1ea07503a139c52"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/5.json",
+      "bytes": 1141,
+      "sha256": "aa7662bc72508dd4f0176268346d39f10f4bef79d9ef363c1d8d9be7fe6d0e30"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/6.json",
+      "bytes": 1141,
+      "sha256": "a66bfaeaa30d33c8c1a8177423acc902aa76bca8d37adc7bc7fcb3cd96363cc1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/7.json",
+      "bytes": 1141,
+      "sha256": "41e49cb8007289ede4d02272746c9d1f04dd719767b25d909baa95308d6b8900"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/8.json",
+      "bytes": 1141,
+      "sha256": "cd6aa71d8d7811ae6fc54e1d879d297b95a7952edfe6e44d39e15b2f4dda8d8b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-calvin/EST/9.json",
+      "bytes": 1141,
+      "sha256": "a07d67dbc9f1d66cb09a88097080e07433a89b6a816d655bb5f0fa8495428442"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/1.json",
+      "bytes": 135529,
+      "sha256": "c3434c8d4ceaf4a691d4b94deb976dfa5a1b62a18d023eb71c6ae2e7cce1797e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/10.json",
+      "bytes": 15851,
+      "sha256": "76f475bf91dc86838d5ae520f78b71eeede78c5a61af7f972d7d74d99b5eb35c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/2.json",
+      "bytes": 111892,
+      "sha256": "68c2c9ad292a724998af901a700fa40e4c8902923ddff0227ed96fb8b92389db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/3.json",
+      "bytes": 81280,
+      "sha256": "505d3bffa24ec6b43c29c96c9659d4bbcaccd413cf3c7eb06d5327172a9fcac1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/4.json",
+      "bytes": 63454,
+      "sha256": "9aa4c0b2e2c03b142416aa01f31e2e580f6815d00472b36fa1b38d193442b34d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/5.json",
+      "bytes": 55293,
+      "sha256": "41d478e81898e32d94cb423a55b1f50ff764877df44d2fc181ce8dfc7066bbf4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/6.json",
+      "bytes": 66997,
+      "sha256": "f1fa2824b5ba9c053c75ca4e6c687785d5472510132c8f99adcec8c6022fe840"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/7.json",
+      "bytes": 53313,
+      "sha256": "d04bc08782a1e6c4da6138026e67b80585abf4253f542f50e7e62624900ef736"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/8.json",
+      "bytes": 76158,
+      "sha256": "e5de75ab40895d5a25aa86953beeb33f9b577fd989f298488e9b56e3c3138903"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/john-gill/EST/9.json",
+      "bytes": 115760,
+      "sha256": "5f1453aa7a5ad32691432e511a2917ca10d76f25b07678d8ab5ed5a64bc48c62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/1.json",
+      "bytes": 281115,
+      "sha256": "3b8626ba325c319b50449ab788015060104be67758283dc358719f1ff5556774"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/10.json",
+      "bytes": 17575,
+      "sha256": "96e6e6b6bb0bd977d03310ceb1986d1e20bd1556a6be12af074e14fc6bebe4c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/2.json",
+      "bytes": 84550,
+      "sha256": "f37261976b942c158c27cad6fe23007f504ab94848c49fa852ca4564768a4d89"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/3.json",
+      "bytes": 41054,
+      "sha256": "65ce616857e8180074b8795308e6b85803696c76f0f21f79ca82ba2db39c018a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/4.json",
+      "bytes": 49579,
+      "sha256": "427f0263ab2c70a0442488f482b5bd3b8e762ec1460ca82304566725874f3c56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/5.json",
+      "bytes": 36885,
+      "sha256": "57d17c8ff570acb919cf893380937c20fb04fadda44aaf12c5a08845c03f34fb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/6.json",
+      "bytes": 42590,
+      "sha256": "7f56736164dc8e6b7c65fd27af932f6cf4505c821f43885b67fa2aa065c4bce6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/7.json",
+      "bytes": 31475,
+      "sha256": "a840e66bb1dc74be34e33c751a59a73e6dd7af0cdedde100c4bac34025a717fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/8.json",
+      "bytes": 47472,
+      "sha256": "acf70fc8f6dc8076f5b47490b75256d9b142f918c37b9177aa1284fb51ef5bad"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/keil-delitzsch/EST/9.json",
+      "bytes": 69851,
+      "sha256": "cb273839f6309a151338e412d6f602cf747bc18da448585e301f5f07d58eb28d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/1.json",
+      "bytes": 87697,
+      "sha256": "d8f77f259a817ee4d734388926a220359d94bc85ce47fe87176269591a0c7713"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/10.json",
+      "bytes": 29254,
+      "sha256": "6057a07b43c9769f862b937fbb4b3c035d92eeb67f22c70eb926c0eff4436f66"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/2.json",
+      "bytes": 79294,
+      "sha256": "2250afd7c385c53047091b0da399048cca5d716f1dd8ba772ba418780518aab7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/3.json",
+      "bytes": 73008,
+      "sha256": "781af727609c240cbc2b68abc6681528106166cf09373b68adebbce700bfbe79"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/4.json",
+      "bytes": 71609,
+      "sha256": "e288ff2e2dfc9bd1b5804a9b87ab24a5b7afe9662b8b350ee52c4fac3eb0d283"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/5.json",
+      "bytes": 70454,
+      "sha256": "d8cb370b90ea6a3865a29577677df5edce2b2ebae90959009ebcf354e1a44868"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/6.json",
+      "bytes": 76739,
+      "sha256": "e596c82bdb8cc021fcf253c9a16d44625463d06477d054e2aded7e003c346a20"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/7.json",
+      "bytes": 62777,
+      "sha256": "67678d515f476b01651b6b6ad97b6cb830383b3a97275eec9bcd1b4d786c63fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/8.json",
+      "bytes": 78197,
+      "sha256": "697479709f1754efa0fac45230611dc798df8963ac0f4a9643ae49be6b9f985a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/authors/matthew-henry/EST/9.json",
+      "bytes": 110212,
+      "sha256": "d837f9293cd9d299f23252dbb06e30a7cf2eeae45046c29f3d5c3e8c3cef1711"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/1.json",
+      "bytes": 10141,
+      "sha256": "bac8c9b8dcc95b8adecc18ba4144f7e030c6ee172d7cd12d3dabb5e4a2380cee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/10.json",
+      "bytes": 4688,
+      "sha256": "6b777de5857965ea76ea555e5e7b50b71ce1259737efa942237557c590d80cba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/2.json",
+      "bytes": 9315,
+      "sha256": "f713142435bb9cee6f659ba5908bbb3fec474a4b47497479c893761a1aede11b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/3.json",
+      "bytes": 7441,
+      "sha256": "00aca58ab7d32ebb4ff664fdc043d9fa06de4dffc21d4afa53673ca755a648af"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/4.json",
+      "bytes": 7791,
+      "sha256": "f1c682b6194beb5eaceea2faa5d6c0c2a820f6d114d16cebf04294d759ac7cf3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/5.json",
+      "bytes": 7048,
+      "sha256": "846417229efdb6d04b28b12e6ab706b4be5a6e516934edc24755a7436c54aefa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/6.json",
+      "bytes": 7418,
+      "sha256": "4b543733e03609392511b49e76eeefcf633787424803a37c01448480ef6273d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/7.json",
+      "bytes": 6865,
+      "sha256": "bfabf627cab22609fcba4c8cc218b82324da24f2241e8a6aba4a740645a0af18"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/8.json",
+      "bytes": 8768,
+      "sha256": "2c123aa8ac9d3f129df298104a0308d38873619ed6cb38f3a7c2b1034a614690"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/index/EST/9.json",
+      "bytes": 10691,
+      "sha256": "21c12e18d160309f34492b2de7948f4c0af4f3837124e27c979a0e96029d4df1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-esther-2026-11-06/manifest.json",
+      "bytes": 2005,
+      "sha256": "d7e0c5d234d68e998808662c0e89bfd18c526f88ef03d48d6a55d3590020ba57"
+    },
+    {
+      "path": "review-esther-v3.html",
+      "bytes": 14232,
+      "sha256": "d0387475ec987d500baaf95768a1a4ae68acb2729cc0a3874f83c80ca28ab2ff"
+    }
+  ],
+  "qa": {
+    "original_archives_sha256_and_zip_integrity": "PASS",
+    "original_SWORD_and_HelloAO_source_parity": "PASS",
+    "independent_audit": "PASS",
+    "audit_assertions": 6527,
+    "Node_reader_javascript_syntax": "PASS",
+    "Node_P_scope_navigation_checks": "PASS (21 checks)",
+    "browser_visual": "NOT_PERFORMED__REQUIRES_OWNER_POST_DEPLOYMENT",
+    "GitHub_writes": "NONE",
+    "Pages_release": "NOT_DEPLOYED",
+    "baseline_2CH_Pages": "LATEST_RUN_FAILED_SYNCING_FILES_TIMEOUT",
+    "prerequisite_order": "MUST_INSTALL_EZRA_THEN_NEHEMIAH_BEFORE_ESTHER"
+  },
+  "counts": {
+    "chapters": 10,
+    "verse_coordinates": 167,
+    "author_chapter_records": 60,
+    "source_entries": 449,
+    "source_P_sections": 71,
+    "routed_P_sections": 74,
+    "inherited_source_links": 3,
+    "source_native_verse_links_checked": 690,
+    "assertions_total": 6527,
+    "all_six_archives": 6,
+    "predecessors": [
+      "EZR",
+      "NEH"
+    ],
+    "baseline_sha": "d1197721c36507c30c216d5ec00c02786b72dee2"
+  },
+  "release_scope": {
+    "added_book": "EST",
+    "previous_16_book_snapshots_changed": 0,
+    "shared_files_changed": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "new_files_including_manifest": 75,
+    "no_Ezra_or_Nehemiah_chapter_file_copied": true
+  },
+  "rights_and_provenance": "Five original CrossWire/SWORD module public-domain declarations and HelloAO original John Gill public-domain mark; exact digital edition/author/source identities preserved. No Bible translation text.",
+  "safeguards": [
+    "Manual owner-controlled upload only; no API publishing",
+    "Install and verify Ezra first, Nehemiah second, and Esther third. Each release updates the same cumulative navigation file.",
+    "On the branch after verified Nehemiah, check exact predecessor navigation SHA. If later commits exist, reconcile instead of overwriting.",
+    "Preserve 14 existing GitHub books, plus the independent Ezra and Nehemiah chapter snapshots, original accepted prefacing and readers.",
+    "Do not change CGBC sermon player, production Bible Tools, original commentary sources, or source module licenses.",
+    "Pages deployment must complete successfully and owner must visually inspect Esther reader before claiming live release."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_STAGING_AFTER_EZRA_AND_NEHEMIAH__NOT_DEPLOYED__PREVIOUS_PAGES_TIMEOUT_UNRESOLVED"
+}
