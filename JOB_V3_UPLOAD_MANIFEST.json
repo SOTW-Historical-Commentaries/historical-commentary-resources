@@ -1,0 +1,1584 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "JOB-v3-2026-11-06",
+  "book": "JOB",
+  "book_name": "Job",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_head_commit_before_Ezra": "d1197721c36507c30c216d5ec00c02786b72dee2",
+  "baseline_tree_sha_before_Ezra": "0d7de699a805b941027e1e763167414229593cc3",
+  "baseline_navigation_manifest_git_blob_sha_before_Ezra": "bb41b6683eb56179b73fabefdc2241740dd3bab1",
+  "prerequisites": [
+    {
+      "book": "EZR",
+      "snapshot": "structured-ezra-2026-11-06",
+      "order": 1
+    },
+    {
+      "book": "NEH",
+      "snapshot": "structured-nehemiah-2026-11-06",
+      "order": 2
+    },
+    {
+      "book": "EST",
+      "snapshot": "structured-esther-2026-11-06",
+      "order": 3,
+      "required_navigation_version": "navigation-coverage-v1.10-additive-est",
+      "required_navigation_sha256": "ec6be62a0241de2d83c2d2ab01cccf0d3eb1b5e7a29407bc00427c811c095bd9"
+    }
+  ],
+  "snapshot": "structured-job-2026-11-06",
+  "source_archives_verified": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 298,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/JOB.json",
+      "bytes": 338828,
+      "sha256": "2172f4a2c87c7dfe24619cffdfa9a5d4c683c3974ec6821c7789bb60ae9b2645"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 7701,
+      "sha256": "f9a49bf05d2503b67859e3ce7a1b49c2bfe872f997dc4ff496dcb9f001e0138e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/1.json",
+      "bytes": 182967,
+      "sha256": "c9329e6ce45b01955512827a3e5dc8d044a8865e668c733ea0e6a8802b4f33ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/10.json",
+      "bytes": 58082,
+      "sha256": "66e9ac249c23ff0be61fcf181eb30f4de1c56510921fa39680c65314396b1a15"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/11.json",
+      "bytes": 59529,
+      "sha256": "2014389db605e528c1a9658ef223b4389255bcb95d21755a72040224867f2194"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/12.json",
+      "bytes": 70579,
+      "sha256": "c53e9a5cba0c04ad7b425597d1bd69f5059717dd853d8fce27cd5b2464aeeabb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/13.json",
+      "bytes": 59147,
+      "sha256": "2ca0b9e2f90b4e3df6730748c78c91a51396bfbe60a56048e10fb2cfc853c475"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/14.json",
+      "bytes": 86041,
+      "sha256": "4f94eee1c69404db761c50f79c2a818efd3c74c8768c9d94e959337498d3a4a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/15.json",
+      "bytes": 90894,
+      "sha256": "e2cb48410f6bd317518e3ed04681d28c0faf87e7be56bd5b728d55b81e7bf8c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/16.json",
+      "bytes": 52392,
+      "sha256": "7d98bba8ad110d24459c67f32d02f959a9b5ae4107d03d482b35312ee2282259"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/17.json",
+      "bytes": 46299,
+      "sha256": "eddb0e5691bba9ae86bc51b6ffa04d4fc9acb368060009934edf3f558954d5fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/18.json",
+      "bytes": 71299,
+      "sha256": "ac047cf859b90d92877921755b38f42f356208261b9081771a5708fb3c57936c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/19.json",
+      "bytes": 127780,
+      "sha256": "36237c47b5cfea8d5b1af84b3f76923b1dcfff0e01af8d8713b1df109a027484"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/2.json",
+      "bytes": 52742,
+      "sha256": "4359919b3e53002eb62c23c3a2b00c2381a218fb9ff7b2a74ab1caaf923d94d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/20.json",
+      "bytes": 97979,
+      "sha256": "0dfd58d55429e09eb8d89e726ad357294ff00e246f0ea494c7d137645601dc98"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/21.json",
+      "bytes": 98271,
+      "sha256": "5c6e14f8898e7a9cd22cab0175871931865270017b588dea14b8c6763f0f44d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/22.json",
+      "bytes": 73638,
+      "sha256": "fa3ed36bd8b468d6cebf8e32b8a9a1a2f5facc6ee76bcfd453d8b82a2679feea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/23.json",
+      "bytes": 52680,
+      "sha256": "5181f7103cee59f22b7ec27a44e7410f4a678d931a7494fdcb557197c2474923"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/24.json",
+      "bytes": 105500,
+      "sha256": "ffae2e19111c94f886558efd9a62be5c624de5ab6ee25aece423122070c9ea9c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/25.json",
+      "bytes": 28817,
+      "sha256": "e5971eabda5a67936b5f7f7b3d2ab9a06bb0f65a449ba0dda2d621a86aa86500"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/26.json",
+      "bytes": 69243,
+      "sha256": "75e480c5b54b0c24785f657809053aef488aa03d898a048913be065999a0bd0b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/27.json",
+      "bytes": 67491,
+      "sha256": "c5fc936c348bce581a18b706eb06584fd6e9e7356ee87de426a9d20e3998b04e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/28.json",
+      "bytes": 154442,
+      "sha256": "f8703ff90c325cb50cd65d833cd50e899f648a8d2dc591bf7d81ce7aad4eded5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/29.json",
+      "bytes": 53515,
+      "sha256": "fe40b4eabad1e5fbe0e1b5e6c1b49c20096a410f0f28e47b4cbb2988c39da4e4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/3.json",
+      "bytes": 101747,
+      "sha256": "947f027b958e674ad34e30367d3436384c379994849eb3b84b1b0eabc17649c8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/30.json",
+      "bytes": 77226,
+      "sha256": "44a70bb184c9c98bbc6fbff7f6bc6a186c32c7963b9ae461370b43a6f1be7883"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/31.json",
+      "bytes": 129216,
+      "sha256": "83990e35e7bde04b220c353012d5d391ccac39695f2bc897de691f09bbbedb6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/32.json",
+      "bytes": 72544,
+      "sha256": "5ce2610dbcac95d3ec3e4f893bd2244da30f8c77c7a2faec25c440cf374d1de1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/33.json",
+      "bytes": 89709,
+      "sha256": "684b5ad33cecb2a5b4e04f36e5d20633c3542e7b4330313441cd7b4031af7127"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/34.json",
+      "bytes": 93981,
+      "sha256": "ace3ecf0118ba5e036532ad6cde393a88bdc6da46777845f46db56fa0f880743"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/35.json",
+      "bytes": 34732,
+      "sha256": "69d1966d236899c52130698fc106e5bbbf86e11b3a86495f36b675fccdf30f2b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/36.json",
+      "bytes": 102518,
+      "sha256": "87684fe0a6718f9d252f0080854ec48b232291cab47fb85eaa4da4da9646280a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/37.json",
+      "bytes": 109594,
+      "sha256": "d4da1d047c76477b123e1b65a120e3f63fe9540143c480fb8545d1fc6eda0c1d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/38.json",
+      "bytes": 168051,
+      "sha256": "bc014406cdd1e5d3a59f885e652bc0a1cdd7330a5ac8d4c7a32427b3b014868c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/39.json",
+      "bytes": 169354,
+      "sha256": "6ddb621ad0a9aa6e13aea47bb72d1921ccae907e8fb54cdf5855d216ca39a5b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/4.json",
+      "bytes": 69427,
+      "sha256": "8d787efa59a863bdf6818622b8c5128393cc54c9e1e360d8234ab9cbd28d673b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/40.json",
+      "bytes": 86009,
+      "sha256": "bb82a5b6f994413920c7b202c036c8864c058572f3055259a66a6535f7d4ff51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/41.json",
+      "bytes": 81109,
+      "sha256": "27fe7476e979c83458e982bf8707a45995297b093ca5aa6fd6c27b27693cb074"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/42.json",
+      "bytes": 63783,
+      "sha256": "80a2f30150869c62a5c8797cdc3415e822a1292f8fe13fc844d1ed015193aa6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/5.json",
+      "bytes": 93897,
+      "sha256": "24d9e5fa7ad518b9c54dd27ff64b0ad1aa350a880776925a8da341b78e9dffbf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/6.json",
+      "bytes": 73528,
+      "sha256": "6897f281c49cebb23bc02ab331984af63e47ccd52593b8fd75bef31e9866a280"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/7.json",
+      "bytes": 72099,
+      "sha256": "2b8ced5c5ddcad45952386bdf5824275778943b7d002f08104850aacfa9b9816"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/8.json",
+      "bytes": 71639,
+      "sha256": "5e31999cf28267434c24d74f250173b324ee74740a324eb2193b5c1b78723ce9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/9.json",
+      "bytes": 110384,
+      "sha256": "fc036a4507c920d578d18126c90b6667a938c8d1f5f351bb56d6851ecd546913"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/1.json",
+      "bytes": 130687,
+      "sha256": "312752148f1d468018aa3adce5b506469b50e1fc1c72ecf9c06762586ce1db70"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/10.json",
+      "bytes": 32680,
+      "sha256": "d10d7e293c7f60783c46e3ae12da191b3cf15e256756fa94fc7af62b809d119c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/11.json",
+      "bytes": 37422,
+      "sha256": "ab03c403a1f76f41280f5c36e4c41c4936c0c22cca1acb63d0300392cfa0760c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/12.json",
+      "bytes": 42473,
+      "sha256": "6d063b0e32a3fe198894b8897b88c6025549de5c18240334073ba35d342a17f8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/13.json",
+      "bytes": 49313,
+      "sha256": "b007a79780912e2eb01894065ec2c4be33a143a6d07f6cb4fa19e366e6bbac48"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/14.json",
+      "bytes": 52657,
+      "sha256": "a9faed19a1c936f124787dc37bb2124182b7f24074fe156763b3c33a37014404"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/15.json",
+      "bytes": 64272,
+      "sha256": "36822b0fa709b0a548a8e409baf10fa7269b2f1aaf9e94382395036b7ea74d92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/16.json",
+      "bytes": 48111,
+      "sha256": "1913af359aded708ac2faaa9c36bb287a82a27e995d201bebf9e860061b0c473"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/17.json",
+      "bytes": 38279,
+      "sha256": "5d16f165bb1df263387ccaa3c6c817e68f9714cbe404cbe4f5810fc9a3f304a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/18.json",
+      "bytes": 42330,
+      "sha256": "8c2df3b5315dbd29315641f1f0120044df630a0538a512f52ec1512e760b4157"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/19.json",
+      "bytes": 69451,
+      "sha256": "1cf3b8a8d7d3e202b450c570ac40a6effe7134d2ae518d9470113b04dba471ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/2.json",
+      "bytes": 32414,
+      "sha256": "c690c90c85e9e0945314653a398b8918a66a69a3cb785c3bc9fbe82cb96c7396"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/20.json",
+      "bytes": 52625,
+      "sha256": "1627c33a37fb7862b1074cbbc2e2fc46a0081ef0c7b6c91232ad86e90b3e5c8f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/21.json",
+      "bytes": 69597,
+      "sha256": "c18a7117e5763fb89c6a085939a482f82578340d52aeecc252555fae7c55ff73"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/22.json",
+      "bytes": 68886,
+      "sha256": "25a4a5611ba207fbc6a1b8bfad519dbfa4357b045fe6ec87d6e129f723af47f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/23.json",
+      "bytes": 37592,
+      "sha256": "a805ebb70b46f070395f7ab77b0ca945597f7137374f7a2c428d9061fb6119c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/24.json",
+      "bytes": 7973,
+      "sha256": "f3e5d464a991c5c25c96b7c65af3e126c3374aea51c81c8803c56e744bdf5f57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/25.json",
+      "bytes": 13522,
+      "sha256": "2cbe698ca6579483d7468a79df439b4cd7b9797705aaf891289189aa5155742d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/26.json",
+      "bytes": 16752,
+      "sha256": "65b60861e92b734cdd887fb1f238e359e8efed50a6c18838a0af637d3f203214"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/27.json",
+      "bytes": 27152,
+      "sha256": "e401a9c6db64d1c598c0ed2830999961f84f5c94fa200eae9a2aa5d99ee33946"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/28.json",
+      "bytes": 60721,
+      "sha256": "da5a00b4546eb7d817911479e2018d7b0e97076988bf23d90e609d4339655874"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/29.json",
+      "bytes": 38445,
+      "sha256": "81f1289cbc12b3aef304a481990bc11f0cb3325afc30822d612c3179878f7b1f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/3.json",
+      "bytes": 51838,
+      "sha256": "0e867caab43d8071a3742b209850d10350c01c0fa3ee4759e94d2efb96735681"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/30.json",
+      "bytes": 59214,
+      "sha256": "85432f35f0525dcfcb2c7f244d14deb08fc914188a449daea7ee5347b2a3d664"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/31.json",
+      "bytes": 54597,
+      "sha256": "3f88f956329e62e442b71e2957785576f555ecbc56e128749e0bcbbc8d4a4979"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/32.json",
+      "bytes": 27198,
+      "sha256": "13eeb2f66e10429c9490e9984f70406e2224ff4893795f8ad68afe5060ce8a58"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/33.json",
+      "bytes": 62946,
+      "sha256": "2280c2b4b4c7b7feb07fc99dd6ce28618a1570ab3def580fdefc6ee06b86cf5d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/34.json",
+      "bytes": 66639,
+      "sha256": "3cfc99dfc08aaf3f4b46ab5b64b4cfc89a039d27eb67a7c43eefb1225ba3d8e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/35.json",
+      "bytes": 25747,
+      "sha256": "e1b434233045cb0f8362574767097aca2f68d47c747566a9f82bfae2a147c028"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/36.json",
+      "bytes": 64181,
+      "sha256": "afe02fa294cefe51077a61fefa089bd3d35d1f8fe6c0b4248cbd203aecd536db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/37.json",
+      "bytes": 51339,
+      "sha256": "0c08ff4da967da26b64503247fd834d9f93e2b94b459f7b3481678ee93204ef9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/38.json",
+      "bytes": 37276,
+      "sha256": "627a88b4ccc585e79ea8790b5b97ed6da7d7e65511582d3dde20b247cb49b589"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/39.json",
+      "bytes": 56803,
+      "sha256": "825038dcfdbb6c1cfd1542165b9b7b67a21d90ccd8f91054c0fb462e463d05ae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/4.json",
+      "bytes": 40493,
+      "sha256": "d0dadde0f6cd4ce1188eec34cf91943c3652cb84603a261dd6144bb5c072e187"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/40.json",
+      "bytes": 32478,
+      "sha256": "455898646bbbf1663b7a49052e56cc5e14f1d84eae6510a9046fe846f3258b19"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/41.json",
+      "bytes": 59845,
+      "sha256": "be565cf878fd7240caba520367b3987ae2490588efb7e57b6fbe3a8b8251e713"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/42.json",
+      "bytes": 47684,
+      "sha256": "be63db35130a267a50b6e5835ab68127ddddea4a08bcf130045f58646836a499"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/5.json",
+      "bytes": 54921,
+      "sha256": "5cc3f33859b7ff6ffb4b1b5db2019780106d08186820b6ab6492cf6424dc116c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/6.json",
+      "bytes": 68992,
+      "sha256": "7bb50d2eeeb42c9d22e4485b73bd1a4289632ab84172cc2af5f6634c2e772e9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/7.json",
+      "bytes": 48273,
+      "sha256": "076e6d25d3fc97d19c353700b2146ec85ebf51a3a9bdbf196bb4a6d5c0a90d2a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/8.json",
+      "bytes": 44457,
+      "sha256": "c969b12018902a2b9d86aaa31d5406fcc163e6b5fbb4f24a114652d4095f9aaa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/9.json",
+      "bytes": 63981,
+      "sha256": "d9df452de9670ad4299882b3080d3da25162fdbb678808f70984283190bc96be"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/1.json",
+      "bytes": 1138,
+      "sha256": "2754c48ee27f2ce01bfc80c5c078e36186c085b994c70602ef20fad318d77000"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/10.json",
+      "bytes": 1141,
+      "sha256": "dcc794bbccf5d487e7af681799183e1f83e32ff63bbbff9951958c366aef854e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/11.json",
+      "bytes": 1141,
+      "sha256": "7990ddd45f072efb3d1426f176bc4b2112285b6e27c3baed68f2600246ad9a9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/12.json",
+      "bytes": 1141,
+      "sha256": "3b37f0ff3a87bd23dad6decc0eb1ac195b5b0a6f3361f96bf010902f5da506b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/13.json",
+      "bytes": 1141,
+      "sha256": "8334933685ea4881acfaff289006e6d76c1a7c1c46eb1f93079a023365999bc2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/14.json",
+      "bytes": 1141,
+      "sha256": "73ecd11d0d0407e3733bdc9766433e487db39bb7f9275af2cb340500bbfc41df"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/15.json",
+      "bytes": 1141,
+      "sha256": "439310d809f9279144ff939d0dc572c7bfc7d577f65a55808a2839ad0d4a42ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/16.json",
+      "bytes": 1141,
+      "sha256": "bfc41a1bec00aa68b59199828ec4f36d7dedd163bc5bbe8e01e5bdc0504c717e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/17.json",
+      "bytes": 1141,
+      "sha256": "3a6067a160952739e344c2279189d07851eb5bf161b58b443d4c46ecbe75e86c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/18.json",
+      "bytes": 1141,
+      "sha256": "8e99277d8c0e21f25a9681a5acc7bb51233b0ae814d1117f5ea9784a8dfef7dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/19.json",
+      "bytes": 1141,
+      "sha256": "0609fb5c0928518100bb086ece35fee2793f71e216a9c68392481ec23ba81993"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/2.json",
+      "bytes": 1138,
+      "sha256": "2b75666694165a943a6f3c927339eb4152288e9185877242a687f9e5beb343f3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/20.json",
+      "bytes": 1141,
+      "sha256": "db4e38f2594feeca9cfcd3db64d612c47d1c54c0fc8b3e8abefe6b363e8f73fb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/21.json",
+      "bytes": 1141,
+      "sha256": "5b1d740e7603cf244bc2f49b2609d344753464c2ac68a75437ab7d09f56f4792"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/22.json",
+      "bytes": 1141,
+      "sha256": "2774c28f9f538c6455b6a7f903f6c317056316cd69812d8bb1529f3f7ccdd0bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/23.json",
+      "bytes": 1141,
+      "sha256": "eba9454f714622fe976696f50981a5f684575c3d2c1a5a3f71ae0422f1a6992e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/24.json",
+      "bytes": 1141,
+      "sha256": "952dd59011208ac593bafb023ad44c571892294b8ba56d70d584bdcbb38bec1f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/25.json",
+      "bytes": 1139,
+      "sha256": "4a4a18e8ebdc3d8df5ada036468e04a306db785813e9a90a632b817aad9eea6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/26.json",
+      "bytes": 1141,
+      "sha256": "6ef0517f2e2937b3660caff2ecaf847433e9c2a0edb69e1a381812da359d6e39"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/27.json",
+      "bytes": 1141,
+      "sha256": "2b816b5f0a856d9c391f46e15570983d39ead5ac74559dc059a4b13fe74b55d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/28.json",
+      "bytes": 1141,
+      "sha256": "ee7e2c6064f3b22adc73b6c739800965e6479770cd41a27a4f683afd2019734b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/29.json",
+      "bytes": 1141,
+      "sha256": "6c8d2db4ee790577eba86049d4bb0f4fcee2968501c4539c19cb1375137c419c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/3.json",
+      "bytes": 1138,
+      "sha256": "42a1c30e171376bc5fb25641011d8783d49013f4fd1ae844b423de1a51a93dd2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/30.json",
+      "bytes": 1141,
+      "sha256": "a49c3619dc1e913809d31a790b924385dc542450549598577858b9ae62a0707a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/31.json",
+      "bytes": 1141,
+      "sha256": "fcfe1a3c169e04a45547ca255a165bda0362c4efd9ae2549636b8894c6bb9ac7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/32.json",
+      "bytes": 1141,
+      "sha256": "8d180b65a25063e44b9306fcf88a566e279c3ce9c7370ad18acc635b624e9ecc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/33.json",
+      "bytes": 1141,
+      "sha256": "f8e4b5d87ea27fae788581970807853fc4a92f95a6cf86e5c65b46b9abc22f9c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/34.json",
+      "bytes": 1141,
+      "sha256": "f4bf0721511c49e82f1f51d15485f013777dfd31d8aac92b1b871570c1ea6e5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/35.json",
+      "bytes": 1141,
+      "sha256": "6144b296eeb3d7fb3ba9e0cf49f5ab8d154fcb74a7e29964480f006b87df804b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/36.json",
+      "bytes": 1141,
+      "sha256": "d614e825ec7f0a1095eb4d7e17f7bfa73924de9ecdc6f930f84695e6ec9dd040"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/37.json",
+      "bytes": 1141,
+      "sha256": "f04edf74e99e6bda8d32aafacd11abe724f4ca48d26d2c16b3617279b2ae7f84"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/38.json",
+      "bytes": 1141,
+      "sha256": "013424e29caa85c220906c8a10f1150ba82b5e3a30f0f443814ec9a0db0020e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/39.json",
+      "bytes": 1141,
+      "sha256": "c178c3022d536ad8da886d0a69eeb8a65e1e53e39c8637c02aecee945b9f166a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/4.json",
+      "bytes": 1138,
+      "sha256": "bfcaf4c424b9add6ac5d93011bf45a7e7fd8080259d1a905f465e1bc8c4379e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/40.json",
+      "bytes": 1141,
+      "sha256": "68c8e4c596d31f6627182eda9c9bf3457a43e77360d2f51a82fd735beb9358e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/41.json",
+      "bytes": 1141,
+      "sha256": "3ba3ab4783c987936a5e6a4ee31b7ea28d13851c8a4139801f6f51dcb1652e79"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/42.json",
+      "bytes": 1141,
+      "sha256": "06d95ea0a3d0d8a2303de53a24d6a3e238320e749edc4f7250f2b3d21b3ae8c8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/5.json",
+      "bytes": 1138,
+      "sha256": "22d16b3955feec1400e0de55b7b5e7eb110e12245c6bf87dd4e7c62c43922191"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/6.json",
+      "bytes": 1138,
+      "sha256": "772cdc43779920b7cd05a2223a76e5788756d6e5b2fa481db79ec6c53fa43447"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/7.json",
+      "bytes": 1138,
+      "sha256": "671f4e62cc71fed293f6754929325d551c98d56904e0dd987ab3b8a3021d23df"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/8.json",
+      "bytes": 1138,
+      "sha256": "8f0c59cfbfce79c85de8e7f69baab71b93dbcf7629995fe9d754478317dc34a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/9.json",
+      "bytes": 1138,
+      "sha256": "7d4a600475ed37918acd0c4bfe9af0cef256553d4a8fe262d9afb04dbec71248"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/1.json",
+      "bytes": 332748,
+      "sha256": "7525cab5cfa9c9526dbccdfa1a2adafdfcaadd90e139c02b467948480fd382b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/10.json",
+      "bytes": 241845,
+      "sha256": "e8a16da995c2611e2fdaf9de464152aa8ef0ee07651abaf0c300ec8ab0eb6c84"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/11.json",
+      "bytes": 192559,
+      "sha256": "1054f3709cdd6c4784f19183fa89ba5056bb559a927253854e80d615ead6681b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/12.json",
+      "bytes": 263194,
+      "sha256": "d4bb7dd5f0ff7cf92eb408c887352d03b4bfb6b13f85eaebde59e8749664ee68"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/13.json",
+      "bytes": 253979,
+      "sha256": "57b2c93c41bea98d9211a46a02b2cb7f5beb6068a7ad1ab83ef6bfed29142155"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/14.json",
+      "bytes": 244921,
+      "sha256": "492cffd743b576fca01c95d9ea612d4daa283964745281052157734c45f42e12"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/15.json",
+      "bytes": 293100,
+      "sha256": "8d8e8f3bf44c24966c7209812d1d4f6fa67387ed786908d10a4173bc5d1e8357"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/16.json",
+      "bytes": 187721,
+      "sha256": "27210feb76e219e8b04d3a55175a2b378b7ed07726b2606e37f61a0ae2a0a371"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/17.json",
+      "bytes": 134083,
+      "sha256": "36d3ee69e4eb6a1d9a5f73e542493e9e1071a365d95378deeaea866be9d7e353"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/18.json",
+      "bytes": 208566,
+      "sha256": "7db1158850473c6b15b802ecaf181894c5bf021987a207415d3140bf09a1cf82"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/19.json",
+      "bytes": 287578,
+      "sha256": "b56b646e8617be4eb560900d5a0449e98cbf2c69cef163bde6801d5d2c868c89"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/2.json",
+      "bytes": 140879,
+      "sha256": "50c1558e64124582584423f8a4abadfd94ea22861990b42578f838bfef1b0708"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/20.json",
+      "bytes": 212882,
+      "sha256": "af81ff5ab396b26e0cc8d11fd7c185a9f762409f74ffe5c95abe4091103559ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/21.json",
+      "bytes": 308929,
+      "sha256": "22be0720f63d8c3276b817077e52c80ef29776d55558311174d779f406263df3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/22.json",
+      "bytes": 275157,
+      "sha256": "b2e4378779c9d22f88990cf0fbd16fb60d137adce3276963c847a509826d6546"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/23.json",
+      "bytes": 168894,
+      "sha256": "f470e182a2f413e374a763e7f33791767f4b8657c50c405d742a0408f46c0f9c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/24.json",
+      "bytes": 230690,
+      "sha256": "b3a12d1297402d0a5b6185d54b8be9a594877cd94eaebd6a31c5311f99c147b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/25.json",
+      "bytes": 51314,
+      "sha256": "44de570f027c96dcee3a4cee6a017fe32f76a0e7e7d233756c4763656f54fbee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/26.json",
+      "bytes": 136369,
+      "sha256": "15cc37c2bfa3ea48dabd1e246f217bbc6377d917370202020b283dbc2c8adb0d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/27.json",
+      "bytes": 209348,
+      "sha256": "93cc41475cf27cb19e2937f34b0b1a157f247da99d0f593820c3f8ae47110876"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/28.json",
+      "bytes": 276935,
+      "sha256": "4792f84911f89be9613f602e6cfb07576422563bdf603f3f72fde8d78fd17102"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/29.json",
+      "bytes": 232386,
+      "sha256": "ce7aad519cb3b8b6b4e506848c1cf282ebfa7b73f7c3fa903ac287fc6d88b22b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/3.json",
+      "bytes": 212646,
+      "sha256": "1e2a7b82213b940fb9509d068be43527d1818bb0d4b92f75b53e08f0043862fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/30.json",
+      "bytes": 265700,
+      "sha256": "1c701743280b6371e38d98eb2b7b2def04981e1b75f5de8322a9f2cae8364949"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/31.json",
+      "bytes": 322163,
+      "sha256": "31fbff2326602c24483bb9cc4ef9b011bf9dff2d285f77b7d4505d52336d42d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/32.json",
+      "bytes": 162813,
+      "sha256": "bb7425a24da72387302f18ffd9ba378a70aa9f05c62db69f1f8370d397ee7636"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/33.json",
+      "bytes": 245098,
+      "sha256": "9087ed55af8c32f4002be11626128cb227e728f7c02117b2dc5f81c0cdd3ac2c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/34.json",
+      "bytes": 263714,
+      "sha256": "2055f6458408e2ca3610585c1ac6c89992299c7402526f14a84accf61d806b25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/35.json",
+      "bytes": 141571,
+      "sha256": "dbaf91f62bfcf7d69acedb3fab0f2c64406496fa790225c56e2f33eb706d3316"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/36.json",
+      "bytes": 304850,
+      "sha256": "7ae99b17a2fc704f9a4886a879a74f501d6173295a328585bc1d74f2a3c7f47c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/37.json",
+      "bytes": 175335,
+      "sha256": "40edcf52893b5149fce50a38dfa727c5476eb5db199ed3a6669f063deeab11b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/38.json",
+      "bytes": 233522,
+      "sha256": "c32f212d729ac4f47521a3b62d3bc638b36cc980dfbad8c92db84e917d5e5d98"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/39.json",
+      "bytes": 166121,
+      "sha256": "39f57d03dafcb847ef707b134ab0ef49ec65f4d428de26d729c3335851ac1def"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/4.json",
+      "bytes": 247975,
+      "sha256": "ef0f447f261f8548c28f5d466811e1943b5094c6b67911cfd968e4774c7e3714"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/40.json",
+      "bytes": 165535,
+      "sha256": "057792fd0d3d22dcaa42bf1c8395e4d3dfbbcd351277949917058f90f43f4c5a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/41.json",
+      "bytes": 169249,
+      "sha256": "1cf712eb2292d65d75d458c4253a89a33c43191a0e79e6ca13e72f1967bec463"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/42.json",
+      "bytes": 154706,
+      "sha256": "9986b49c7493059d3a24f2716f82a6f109f1a92d033d7f0a9c3ac0e0ccd652f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/5.json",
+      "bytes": 319165,
+      "sha256": "7378e6215f9fbe5a7420079f262bc015f73a239836011f125e58b066807d0e51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/6.json",
+      "bytes": 269454,
+      "sha256": "d1b700c129a901abc1a4b54b3a960e2c3f0373641c794f22ae510c9e3c364050"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/7.json",
+      "bytes": 240523,
+      "sha256": "3b693c8bdd904e945bd0ce3e84396bb31f98cb60a12dfc9336c68dc830db7c6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/8.json",
+      "bytes": 207406,
+      "sha256": "d2fc00f615f8975a6cdbfaffedc670d5e39cda92aaa90ed19306377fb714a126"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/9.json",
+      "bytes": 350445,
+      "sha256": "638057fd3fc41918a294d80e167108c3ca8d33fff5a9d226fbf1ef0c2494e312"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/1.json",
+      "bytes": 523311,
+      "sha256": "92686db0941aed6d5e79943fa8e272e167dd73654215a33573b1dc79b49f6ec0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/10.json",
+      "bytes": 99304,
+      "sha256": "2a6bdfff72914cfd6320ade41a0eb5fc47e842d07c5d01935f8daa5e5bd0b880"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/11.json",
+      "bytes": 86567,
+      "sha256": "91132146b3a722352d85433b86f75334e1fae24d5607f9d8dd5c58f1f73d2047"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/12.json",
+      "bytes": 90838,
+      "sha256": "16ea365ddc3676cf40b9b2a2ff74f89153039308ce244877edf1fcd5214bbe07"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/13.json",
+      "bytes": 81222,
+      "sha256": "7884eb94aae9f952ab424125450bddb839ac4084b47559d86fecad041f397a31"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/14.json",
+      "bytes": 177548,
+      "sha256": "de480cb863c84292884b206a48f42caa18fa175cdf950a180484a3670b3fd427"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/15.json",
+      "bytes": 210905,
+      "sha256": "09ace68d49b2d51bcfc009c8409c64ea5dbe13ca8ce98a687787a808f8491980"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/16.json",
+      "bytes": 88493,
+      "sha256": "e7e6ea2fb06b62277c8bff08aa793a34df606d6a4b6e655f555d40546c9960ef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/17.json",
+      "bytes": 156183,
+      "sha256": "210d95ea60879b0a69d01799364720c74d34dfbf405982776b275fa178c41ea2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/18.json",
+      "bytes": 131268,
+      "sha256": "26ba7804b02601cd4ef837bce86385e46a036ec6cb9d4cd497729c7df123b434"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/19.json",
+      "bytes": 252782,
+      "sha256": "b5b08d89017002be3c61835d4a510239d9cd091ec49f182f8f096546dfd2ae33"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/2.json",
+      "bytes": 64870,
+      "sha256": "0495650702e4b4e9293b8c3805a763daa473ece8bfdda2580b6bf8bd69c9094f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/20.json",
+      "bytes": 150798,
+      "sha256": "ea40c83068ec9cd48e934c295eb6b5650e3e41cdb5d8961a1a42d0f7db00893e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/21.json",
+      "bytes": 210665,
+      "sha256": "a6ca4fc0bd3f9712a0e9ad251baecab616895552e76e6cee85ebd297d69ec1c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/22.json",
+      "bytes": 111608,
+      "sha256": "8d84124259bdb6c860b85e9c95a60c7aaf5a64654f7647213e0a4f868471b93b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/23.json",
+      "bytes": 86813,
+      "sha256": "868041af7a199153967a7df80e13e5a50c1c44dd3ad1e28aac4fadb8ccba2ef4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/24.json",
+      "bytes": 189167,
+      "sha256": "b4c9db5fd97186b747959df199cef071fe743236697b094018cedf18eede0dc9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/25.json",
+      "bytes": 13667,
+      "sha256": "3fcb6b71a60b98bc2dae149df148c065309b116075edce07d05f820e0eb8da02"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/26.json",
+      "bytes": 95308,
+      "sha256": "fd092d22ba2d0f7ce25fa4a13ae37a5e702acfd361ac51da6272336090e69b5e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/27.json",
+      "bytes": 185861,
+      "sha256": "fe8de2d863d654d3ed0ec1002a9c8a38e51c29f6a903f7b8a9eb62f58306b6c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/28.json",
+      "bytes": 135174,
+      "sha256": "1423b4550160cc5830bb7f7a0d616ed058d81d74427601a5e67cd028a6658a56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/29.json",
+      "bytes": 119147,
+      "sha256": "deb2d2f920412e0539c1bed52337e58730e4a18c34921c9a609a7f3c42b99e72"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/3.json",
+      "bytes": 97131,
+      "sha256": "5c64f718324d4007cf99912d2bbcf4bdd07e445c408076a2d2ccb7953735b19c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/30.json",
+      "bytes": 246544,
+      "sha256": "881277e445d7b00d56dd0a903d27b669b3ffb828e17699e0f2ac2dd91c445b4d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/31.json",
+      "bytes": 226650,
+      "sha256": "65877eb3402551cddb111c81a7de2b9df490053427086899b6b02805a0891961"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/32.json",
+      "bytes": 75049,
+      "sha256": "1ad9f3cd495c5f892b7c070f11fc704923fef1ddae1f79425da461aec79aa158"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/33.json",
+      "bytes": 182910,
+      "sha256": "ec2e30e65d29a1e5b79164c126fb0b15fae18dcc9ee62380974ff48793a11f2b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/34.json",
+      "bytes": 133892,
+      "sha256": "592a4559b12234fc697438136739536bb67702af074402f08debfc81bc548d0e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/35.json",
+      "bytes": 71191,
+      "sha256": "cc227bfb66c0e2028301bac83cbc15d32a1f6b6c0d3fb37a97abb5a9e70b0f6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/36.json",
+      "bytes": 104574,
+      "sha256": "e4ca572b9e1ae557c2790d44a5068fb7b3fa6116ba35b48da1199ad4a4d3426e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/37.json",
+      "bytes": 134303,
+      "sha256": "9bf1e6fe96aec4cedd1e32fea99c5c71ff00d379dd0251857e75b70eac843f0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/38.json",
+      "bytes": 132412,
+      "sha256": "4637a83869b34a5775753958691f52cb85c1a37c958955a0a64e90034d7488bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/39.json",
+      "bytes": 96171,
+      "sha256": "b2c98000be9761c4607105df03e2922bd39cebfddc85fd321e5b43f06e006fcf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/4.json",
+      "bytes": 46181,
+      "sha256": "5b75ca0ccdc20abf7612a399fa122f37b92ebb2635b71004bab62f10cf33e77e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/40.json",
+      "bytes": 121394,
+      "sha256": "928c84cbedcff535abe726982d7f06ad5f157888cd1a645c5b9a2fa1f791541e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/41.json",
+      "bytes": 115221,
+      "sha256": "1823e22f354a25d9d49032cacfbc835aeded42b91827d2928b304ef477f88d33"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/42.json",
+      "bytes": 459529,
+      "sha256": "984ca85c2faaa4423df32566aa39a1affd972585ed06690ad315e1b3e6ac8618"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/5.json",
+      "bytes": 89740,
+      "sha256": "15166b34337de1e82a20105c32ff145f4609b67498ea3b5e31d62b5240b0d38b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/6.json",
+      "bytes": 75095,
+      "sha256": "961067b5eba7795dda03388c234b22c6227d19b7673911caf597c110defd6197"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/7.json",
+      "bytes": 87494,
+      "sha256": "cd44f10acc447df44a7ce5364bd7a0e6226466d0437b26cbb3bf8ccf22448f1c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/8.json",
+      "bytes": 98511,
+      "sha256": "e535f3845b73c8aefffd4f4029998c707f7663eb276443510817a3bf12e0ab69"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/9.json",
+      "bytes": 108862,
+      "sha256": "f746a1e1870c486ee0ddf6d2f9c626e8bef450b9480871c79312ddaee5a26b21"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/1.json",
+      "bytes": 359228,
+      "sha256": "9017f37894cc7e5967f029e650857091492a83eb44bfe4b54c89cc3d3fe453c7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/10.json",
+      "bytes": 108295,
+      "sha256": "a648e85a7635bce00a594152678cdc75b32d921989b12deea921ad1cc8d39f67"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/11.json",
+      "bytes": 107685,
+      "sha256": "982ea4e534d40cb01e5e6273c91c7ece6e03e8f3f3dd1660018af2974059aeb3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/12.json",
+      "bytes": 123792,
+      "sha256": "aa0d99ae874ee5595fa67ef1d9a20f57181ee440e83c412b02ed4d0dd2eba4c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/13.json",
+      "bytes": 119252,
+      "sha256": "e8e50f1f131dfa618b8e76e45cfcc1e63af8d009acd1dc8d7c90bc2f19f86093"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/14.json",
+      "bytes": 117390,
+      "sha256": "2dd3fc871fbfce8240b7e6a03fceb8c96151ea4fcceeb65f9a585101983c6d86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/15.json",
+      "bytes": 160459,
+      "sha256": "759151fac5e7673909b00a537cf3570f66491dd4f686d486f0e174c50cd4e867"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/16.json",
+      "bytes": 95672,
+      "sha256": "b304e86503b7d7197ef602d1f82892d8ac356535a454afdd3ede917d88f22775"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/17.json",
+      "bytes": 98343,
+      "sha256": "ea2e72ad3e25f915ebb0c6b4061e5f11a9d3c7c9e36ca332776681c8521a41ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/18.json",
+      "bytes": 84580,
+      "sha256": "4d3cb3f812c77c14825a6a822a37dd59ed29ae45b00ae8c38599a323277d30e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/19.json",
+      "bytes": 144708,
+      "sha256": "8973e731e3bc2f3f6e3f3d9a493221e9f35ba14b44cb141dc86ca0bf7dfa5a36"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/2.json",
+      "bytes": 139133,
+      "sha256": "68cfaae339daad5cf23f83705fc78ad4b8eae884af9246ef30ffcec063e53e65"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/20.json",
+      "bytes": 114674,
+      "sha256": "94d09eba79a02de8f2560a09063ca169b3f4caca8d3cd47621f7108b551fb381"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/21.json",
+      "bytes": 124944,
+      "sha256": "19f770c76da1da8faeffeb5f9913610ca6c7317d76b7d1aa36d59f220754ed03"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/22.json",
+      "bytes": 155151,
+      "sha256": "cc5d4af917f1d08306434c11d48c26ea373eb87ccde12a4096db19bea2734e97"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/23.json",
+      "bytes": 93313,
+      "sha256": "627a8fb2c47f2210c929d1865eb7f9c790da2e4ab8794b63f07fef0b8b774803"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/24.json",
+      "bytes": 121718,
+      "sha256": "0ade38da029c02c1fdf61fae85ba3c3bed0d9f5c296e7abeecd4d0ce5cf80965"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/25.json",
+      "bytes": 50170,
+      "sha256": "9485553820ac623c53d2fe8aa184b5f85524cf51d2280a9b03a7ae35ef5c9bb0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/26.json",
+      "bytes": 66680,
+      "sha256": "e6f17136ac5fd0f5f0e8285260bc166367ffc60b6474558681d66a83b6d89484"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/27.json",
+      "bytes": 116413,
+      "sha256": "01a588dbf6d88ba8aaf25d3b14634392b5c36831a37444c132474e01e4043cd5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/28.json",
+      "bytes": 115727,
+      "sha256": "44baceb1cedbde56312b4d0bc3dec52348a57c20824e0a6f2a4050f8824d4d6a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/29.json",
+      "bytes": 116525,
+      "sha256": "0215c2b73c01646484e2134f3d1ece2c191fbbd8afd38a69feec81a0d31989b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/3.json",
+      "bytes": 119750,
+      "sha256": "285e76ef584738dec926c3dc14ed6926c20a7a1b00db3b6d7326a34ccbdab9f8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/30.json",
+      "bytes": 115580,
+      "sha256": "91e9291e86dd1643dead73901ab135120d1cb17787c5a2492e5716f26116b74d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/31.json",
+      "bytes": 192261,
+      "sha256": "21029800a74b782f1fd1921aecae42fa76c53e3f18482d7a5bc94d69645a7427"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/32.json",
+      "bytes": 90206,
+      "sha256": "1213a71db9aee4f1bbb4f7ef02499c580e0ec2dde106c676db0ffba1d7c44eb8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/33.json",
+      "bytes": 153397,
+      "sha256": "66dfa93d76df8a4e143911bce437882248ce9d7d4fbf501aff99d193c8bc2e68"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/34.json",
+      "bytes": 144963,
+      "sha256": "7cecfa82335c4baa3ddfbfd3fe9fcda48affe75b6d1b94eb5328a745748f515a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/35.json",
+      "bytes": 89262,
+      "sha256": "dc8327aa93974d8efaa49d782e928c84acb4e5b407c5962825b7670989a0eb52"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/36.json",
+      "bytes": 133774,
+      "sha256": "9059149e45f402bfb8ffac76216fea380ba0838d743f0049e3fc13270c913baf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/37.json",
+      "bytes": 109993,
+      "sha256": "42c69c54187932e9a977d6b07bb301c3d1b544380deb33ef8792b932b0663717"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/38.json",
+      "bytes": 172227,
+      "sha256": "a72d4ad791541f4d8499378d14236ecfec35edc2d2af88af2adf4e5b9314de58"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/39.json",
+      "bytes": 100820,
+      "sha256": "e59d3a7b46edda2360434d4d6b4c96b26cc93a7617749f744a6164810aea22ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/4.json",
+      "bytes": 131944,
+      "sha256": "02785392cda0be5db1fd0cdcb75ecaf96196926700af5006d5cddfc588eb11c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/40.json",
+      "bytes": 118008,
+      "sha256": "10fb8dfe01dfe63b38946adc7a166c4ab9f9eb0ce9b54aae5ad28653dd1c4e67"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/41.json",
+      "bytes": 80984,
+      "sha256": "29d1836f5c1b5bee13855377686946dfbb83f2850bbe03c8285f50f9e3f93ad6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/42.json",
+      "bytes": 166266,
+      "sha256": "850061a42f5aa46dbf55d3de825b8985b96f528505ff4e09ebe99e17360ae7a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/5.json",
+      "bytes": 139909,
+      "sha256": "e38a3f9a4ed3b9981a493fe022ddde6ddf60f2046de5e26abc43d1e3a255fea5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/6.json",
+      "bytes": 127349,
+      "sha256": "b3dad0d2e0f35e1575046ba1b51d7d85a54856b17ff962dd8b7b3e846c900df5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/7.json",
+      "bytes": 107529,
+      "sha256": "3489203e214d2a15b44065141d4940ec8eabb8ec2f6202c9359b815fd63d0746"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/8.json",
+      "bytes": 96440,
+      "sha256": "ab343bbf86cee46938ae7f9a1cd8fa787b3abb228ac0efe70d28cd8eef78755c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/9.json",
+      "bytes": 148885,
+      "sha256": "4ec932bd93f7b72242d7e4ddbb7e2f54eeb51a78fc03442f5a17cd8561254fd1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/1.json",
+      "bytes": 12188,
+      "sha256": "e056f40a67932c2be1756122f964834e7c73471420c9b84fcf12b46545790c51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/10.json",
+      "bytes": 9066,
+      "sha256": "81e922deba0e57ef4c100d58468cba1083c6e06a979d462e8479ad6072428b6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/11.json",
+      "bytes": 8422,
+      "sha256": "25986a798dddde7a5b3956a02bfc2038c0247c83f58245d1256d1fd54541fd79"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/12.json",
+      "bytes": 9437,
+      "sha256": "0e444992c5a4d842746b491ab2c9074f3a6d091be7058474de7a798232e4b97a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/13.json",
+      "bytes": 10506,
+      "sha256": "77a7af885aa69303d6076e8bb03717acfae2bc8dd741c266f3e50c434f1219aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/14.json",
+      "bytes": 9842,
+      "sha256": "a61fd3107f4fab48394dc203a497212bfc60aa5e916b775797585921b01bd9ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/15.json",
+      "bytes": 12255,
+      "sha256": "b02e167c193edb810dc65a153146d864e85b2909d9a0a8827c546a9c1918bb25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/16.json",
+      "bytes": 9633,
+      "sha256": "b634b995a67b56ad5ecd7a5fedb94890e52671034be50b2ba06ab99f0686532d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/17.json",
+      "bytes": 8306,
+      "sha256": "55d977a13afae62afbf11897fc6f7292bb36a89faf9a195eea4b455506545218"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/18.json",
+      "bytes": 9079,
+      "sha256": "513b06f1af810990b8fbbd36cb6a06481cc602dfb31f50b50044474f7fe46eec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/19.json",
+      "bytes": 11390,
+      "sha256": "2665bf71e1244738fcd2f6d35bab88f8b6e7845f93a51619dda6c02062182c38"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/2.json",
+      "bytes": 7835,
+      "sha256": "fb30f0ef24c26491587bb9280e7f9cbcaba1305ce9babb241faf7737301ee5a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/20.json",
+      "bytes": 10979,
+      "sha256": "ba6138ce1cd3e3e154e2b9c3d908196041f221bcd2284d37143fd33752f9de14"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/21.json",
+      "bytes": 13038,
+      "sha256": "110480384f50fd5ee87bfb424a6e6e76b162848c7ecf68eb8b5373d012b91fde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/22.json",
+      "bytes": 12172,
+      "sha256": "1d5bfc5a6833ef9547450d47bf126c0c0712a7bbd01a9a4e1ffb98949905737c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/23.json",
+      "bytes": 8600,
+      "sha256": "f9bea42cbea20669f825dc08f69fea332aa41780649fe8d6aa751e9f33d7e720"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/24.json",
+      "bytes": 10235,
+      "sha256": "a674de5e9509a8012d1681d1b39872d26c2fe26bfd3d6c4250bd77582777193b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/25.json",
+      "bytes": 5264,
+      "sha256": "ec5e4050f6f13ff3747714ee0a347da2c96474d27db3ce7cc239204a0d6dac50"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/26.json",
+      "bytes": 7463,
+      "sha256": "c936f5cbe1a09fdceaf6ad1629ef0f83327213b99ef6aa950c8d136bc8862ba1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/27.json",
+      "bytes": 9726,
+      "sha256": "99e5c6787d9dfaffaacee056c013f41ec987b05ac64834c55fa922f823197bd1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/28.json",
+      "bytes": 11190,
+      "sha256": "19e653a2beadb679d0c969e589193b874fd448b8a84a4a3c7be307628f83f11c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/29.json",
+      "bytes": 9493,
+      "sha256": "e06c3d1bf7ec224f01ad301cd18e61d07e8e8bd032fb75967cba883403343d3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/3.json",
+      "bytes": 10683,
+      "sha256": "b89f3a01e7e070897812d07a57bcf4c7b30aba496b2588f82322b4b0f974c49f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/30.json",
+      "bytes": 11297,
+      "sha256": "a71c35405dbecf1afd349a2ebc67b73f101440ed27f7fdba9d58d93264d9b364"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/31.json",
+      "bytes": 14095,
+      "sha256": "f8dedd6e18e2dab7f7a466dc6ce2a0cb1f0d57d7832c52b017ac5f064168893b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/32.json",
+      "bytes": 8695,
+      "sha256": "8d476c2634accb14be618e8705ce8cdd1512284827bcc3d1c1c793c0832902e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/33.json",
+      "bytes": 11632,
+      "sha256": "4dde15a8aacfd3abaca2dbda72c82b5467e34e5bc461b81fe9135bdf64c1c540"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/34.json",
+      "bytes": 12354,
+      "sha256": "774ff2d85da111fcd90d4a24aa62d409778998edee73c9c998e95f18846b9e11"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/35.json",
+      "bytes": 7363,
+      "sha256": "881e433c826490f8e0ef889e86fc982cb51916443724cdc131c3347f817949e4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/36.json",
+      "bytes": 11586,
+      "sha256": "a943ecac3a0dc353f6f0916e8d9ab728a090183d81388f2f7e01b4e3ecf63d5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/37.json",
+      "bytes": 9384,
+      "sha256": "f76e2e22e16246da9f275f265f21a7de5a58ecdb472b1bcaecb9971f2288f185"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/38.json",
+      "bytes": 14430,
+      "sha256": "ff7edb03b199ec0dc4f20d0d7b761b445bd76437a631b095f01aba0a0068893c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/39.json",
+      "bytes": 11689,
+      "sha256": "3c8f5d82fdb46cd4ce820592eb2dd9d9179c40ceb01a602e36fc05ffa6e8996f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/4.json",
+      "bytes": 8594,
+      "sha256": "36df2804195d8acea0139b0335113af6d3a6e77cbcc428c056c3e92adfdeaaa6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/40.json",
+      "bytes": 10246,
+      "sha256": "22235a909094ef7fd94346c805ff52b85074059e660cb3ca920a3e0bfbbcf107"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/41.json",
+      "bytes": 11566,
+      "sha256": "32bc0fd903a49f59b3bf8ade3d8b4a342a47e0f6059c513ca24df2a8f9ea6c54"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/42.json",
+      "bytes": 9116,
+      "sha256": "dc7ba5257b279204f8f19980411e2d9d8d1b91a94e0aa7c708ebbc19d46e3909"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/5.json",
+      "bytes": 10379,
+      "sha256": "d327e718187a6e20a8aeb8f6a6ba3dd683d55f04f9fc040b25381b4155893939"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/6.json",
+      "bytes": 11005,
+      "sha256": "cf0d37fc6ac22755eaf524f188904e1ba1204743d9fd200596284d3903eb1af9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/7.json",
+      "bytes": 8816,
+      "sha256": "da14a376bca7ceed409abc1e76ae45f567b7cf886105b947c818e635ffb6842a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/8.json",
+      "bytes": 9078,
+      "sha256": "31c5bc3a5b03416acd4899a3e26e4c9dc4fb01e4365ca8a4ed498dc017c1985b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/index/JOB/9.json",
+      "bytes": 12148,
+      "sha256": "205e52b38acdc97cdabdf0b95281ebdf87746723d11a4aa16adf5d3f3f17fa53"
+    },
+    {
+      "path": "api/v3/snapshots/structured-job-2026-11-06/manifest.json",
+      "bytes": 2464,
+      "sha256": "97891d3401548bf955edc31e6593976678d659275391e32e51fc8124af9fb9ce"
+    },
+    {
+      "path": "review-job-v3.html",
+      "bytes": 14382,
+      "sha256": "d184c1d7b5bc5f127f2f254635eca8847391d047f826889bdf38502f6a41215b"
+    }
+  ],
+  "qa": {
+    "six_source_archive_sha256_and_zip_CRC": "PASS",
+    "source_verbatim_OSIS_HelloAO_native_index": "PASS",
+    "independent_source_and_routing_audit": "PASS",
+    "audit_checks": 43686,
+    "reader_Javascript_syntax": "PASS",
+    "reader_navigation_checks": 33,
+    "browser_visual": "NOT_PERFORMED__POST_UPLOAD_CHECK",
+    "github_writes": "NONE",
+    "github_pages": "NOT_DEPLOYED",
+    "last_confirmed_2CH_pages": "DEPLOYMENT_FAILED_SYNCING_FILES_TIMEOUT",
+    "install_order": "EZRA_THEN_NEHEMIAH_THEN_ESTHER_THEN_JOB"
+  },
+  "counts": {
+    "chapters": 42,
+    "verse_coordinates": 1070,
+    "author_chapter_records": 252,
+    "source_entries": 3328,
+    "source_P_sections": 251,
+    "routed_P_sections": 252,
+    "inherited_source_links": 1,
+    "source_native_verse_links_checked": 5178,
+    "assertions_total": 43686,
+    "all_six_archives": 6,
+    "predecessors": [
+      "EZR",
+      "NEH",
+      "EST"
+    ],
+    "baseline_sha": "d1197721c36507c30c216d5ec00c02786b72dee2"
+  },
+  "release_scope": {
+    "added_book": "JOB",
+    "existing_seventeen_book_snapshot_files_modified": 0,
+    "existing_seventeen_book_preface_overlays_modified": 0,
+    "shared_files_changed": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "new_files_including_this_manifest": 299,
+    "JFB_original_Poetical_group_source_is_existing_GEN_snapshot": true,
+    "JFB_original_held_unmapped_file_unchanged": true
+  },
+  "rights_and_provenance": "Five original CrossWire/SWORD module public-domain declarations and original HelloAO John Gill public-domain marking. Exact original source text, module metadata and historical author attribution preserved. No Bible translation text.",
+  "safeguards": [
+    "User manual upload only, no GitHub writes performed",
+    "Must install and verify Ezra then Nehemiah then Esther first",
+    "Check live main, preexisting navigation SHA and any newer branch changes before applying Job manifest",
+    "Do not overwrite accepted existing 17 book snapshots, any prior readers, or CGBC player",
+    "A held Poetical introduction is activated only for Job through its source-backed author-specific book P overlay; other books remain deferred",
+    "No separate Scripture verse zero, no inferred verse neighbor coverage, no fabricated Calvin material",
+    "No deployment or public browser verification claimed; prior Pages sync timeout remains unresolved"
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_STAGING_AFTER_EZRA_NEHEMIAH_ESTHER__NOT_DEPLOYED"
+}

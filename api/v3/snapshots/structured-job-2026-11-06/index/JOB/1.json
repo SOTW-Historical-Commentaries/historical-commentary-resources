@@ -1,0 +1,546 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-job-2026-11-06",
+  "canonical_chapter": "JOB.1",
+  "verse_count": 22,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 6,
+      "indexed_verse_count": 22
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-job-2026-11-06/authors/john-calvin/JOB/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-job-2026-11-06/authors/adam-clarke/JOB/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 20,
+      "reader_visible_entries": 19,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 20
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-job-2026-11-06/authors/jamieson-fausset-brown/JOB/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 20,
+      "reader_visible_entries": 20,
+      "navigation_section_count": 5,
+      "indexed_verse_count": 20
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-job-2026-11-06/authors/keil-delitzsch/JOB/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 14,
+      "reader_visible_entries": 14,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 22
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-job-2026-11-06/authors/john-gill/JOB/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 22,
+      "reader_visible_entries": 22,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 22
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "keil-delitzsch": [
+        9
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "keil-delitzsch": [
+        10
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        3
+      ],
+      "keil-delitzsch": [
+        11
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "keil-delitzsch": [
+        11
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "keil-delitzsch": [
+        12
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "keil-delitzsch": [
+        12
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "keil-delitzsch": [
+        13
+      ],
+      "john-gill": [
+        21
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOB-SONG:P:job-to-song-of-solomon",
+        "navigation_id": "GROUP:JOB-SONG:P:job-to-song-of-solomon",
+        "scope": "book_group",
+        "role": "group_introduction",
+        "title": "Job to Song of Solomon"
+      },
+      {
+        "section_id": "nav:matthew-henry:JOB.1:P:job-s-character-and-possessions-b-c-1520",
+        "navigation_id": "JOB.1:P:job-s-character-and-possessions-b-c-1520",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Job's Character and Possessions. ( b. c. 1520.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:JOB.1:P:job-s-solicitude-for-his-children-b-c-1520",
+        "navigation_id": "JOB.1:P:job-s-solicitude-for-his-children-b-c-1520",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Job's Solicitude for His Children. ( b. c. 1520.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:JOB.1:P:satan-before-god-satan-permitted-to-afflict-job-b-c-1520",
+        "navigation_id": "JOB.1:P:satan-before-god-satan-permitted-to-afflict-job-b-c-1520",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Satan before God; Satan Permitted to Afflict Job. ( b. c. 1520.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:JOB.1:P:the-calamities-brought-on-job-the-death-of-job-s-children-b-c-1520",
+        "navigation_id": "JOB.1:P:the-calamities-brought-on-job-the-death-of-job-s-children-b-c-1520",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Calamities Brought on Job; The Death of Job's Children. ( b. c. 1520.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:JOB.1:P:job-s-sorrow-and-submission-b-c-1520",
+        "navigation_id": "JOB.1:P:job-s-sorrow-and-submission-b-c-1520",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Job's Sorrow and Submission. ( b. c. 1520.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:JOB:P:preface-to-the-book-of-job",
+        "navigation_id": "JOB:P:preface-to-the-book-of-job",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Preface to the Book of Job"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOB:P:introduction",
+        "navigation_id": "JOB:P:introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "INTRODUCTION"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOB.1:P:chapter-1",
+        "navigation_id": "JOB.1:P:chapter-1",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 1"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOB.1:P:job-1-1-5-the-holiness-of-job-his-wealth-c",
+        "navigation_id": "JOB.1:P:job-1-1-5-the-holiness-of-job-his-wealth-c",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Job 1:1-5 . The Holiness of Job, His Wealth, &c."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOB.1:P:job-1-6-12-satan-appearing-before-god-falsely-accuses-job",
+        "navigation_id": "JOB.1:P:job-1-6-12-satan-appearing-before-god-falsely-accuses-job",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Job 1:6-12 . Satan, Appearing before God, Falsely Accuses Job."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JOB.1:P:job-1-13-22-job-in-affliction-blesses-god-c",
+        "navigation_id": "JOB.1:P:job-1-13-22-job-in-affliction-blesses-god-c",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Job 1:13-22 . Job, in Affliction, Blesses God, &c."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:JOB:P:the-book-of-job",
+        "navigation_id": "JOB:P:the-book-of-job",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "The Book of Job"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:JOB.1:P:the-opening-job-1-1",
+        "navigation_id": "JOB.1:P:the-opening-job-1-1",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "The Opening - Job 1:1"
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:JOB:P:john-gill-book-introduction",
+        "navigation_id": "JOB:P:john-gill-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction · Job"
+      }
+    ]
+  },
+  "nav_policy": "P titles are source evidence; authoritative P applicability is navigation-coverage/v1/books/JOB.json. Verse routes contain only original source-indexed records."
+}
