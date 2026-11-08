@@ -1,0 +1,327 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "PSA",
+  "chapter": 46,
+  "canonical_chapter": "PSA.46",
+  "versification": "KJV",
+  "verse_count": 11,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"46\" osisID=\"Ps.46\" sID=\"Ps.46\"/><div eID=\"gen9142\" type=\"x-p\"/> ",
+      "source_record_sha256": "e1d17388444444af8390e114cbd36c6c8d543e3a2d4fca668727328ba108d262",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 322212,
+        "length": 76
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:PSA.46.1-1:19:322288:1427",
+      "passage_start": "PSA.46.1",
+      "passage_end": "PSA.46.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6000\"/><title type=\"x-s2\">PSALM 46</title> <title type=\"x-s3\"><reference osisRef=\"Ps.46.1-Ps.46.11\">Psa 46:1-11</reference>. Upon Alamoth--most probably denotes the treble, or part sung by female voices, the word meaning \"virgins\"; and which was sung with some appropriately keyed instrument (compare <reference osisRef=\"1Chr.15.19-1Chr.15.21\">1Ch 15:19-21</reference>; see on <reference osisRef=\"Ps.6.1\">Psa 6:1</reference>, title). The theme may be stated in Luther's well-known words, \"A mighty fortress is our God.\" The great deliverance (<reference osisRef=\"2Kgs.19.35\">2Ki 19:35</reference>; <reference osisRef=\"Isa.37.36\">Is 37:36</reference>) may have occasioned its composition.</title> <div sID=\"gen9143\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6000\"/><hi type=\"bold\">1. refuge--</hi>literally, \"a place of trust\" (<reference osisRef=\"Ps.2.12\">Psa 2:12</reference>).<div eID=\"gen9143\" type=\"x-p\"/> <div sID=\"gen9144\" type=\"x-p\"/><hi type=\"bold\">strength--</hi>(<reference osisRef=\"Ps.18.2\">Psa 18:2</reference>).<div eID=\"gen9144\" type=\"x-p\"/> <div sID=\"gen9145\" type=\"x-p\"/><hi type=\"bold\">present help--</hi>literally, \"a help He has been found exceedingly.\"<div eID=\"gen9145\" type=\"x-p\"/> <div sID=\"gen9146\" type=\"x-p\"/><hi type=\"bold\">trouble--</hi>as in <reference osisRef=\"Ps.18.7\">Psa 18:7</reference>. <div eID=\"gen9146\" type=\"x-p\"/>",
+      "content_plain": "PSALM 46 Psa 46:1-11 . Upon Alamoth--most probably denotes the treble, or part sung by female voices, the word meaning \"virgins\"; and which was sung with some appropriately keyed instrument (compare 1Ch 15:19-21 ; see on Psa 6:1 , title). The theme may be stated in Luther's well-known words, \"A mighty fortress is our God.\" The great deliverance ( 2Ki 19:35 ; Is 37:36 ) may have occasioned its composition. 1. refuge-- literally, \"a place of trust\" ( Psa 2:12 ). strength-- ( Psa 18:2 ). present help-- literally, \"a help He has been found exceedingly.\" trouble-- as in Psa 18:7 .",
+      "source_record_sha256": "ffbc88fd14eebf6b005d9a0ca5bd1d09ab2c2d947c48f15c7ef429e7755c9c98",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 322288,
+        "length": 1427
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. refuge-- literally, \"a place of trust\" ( Psa 2:12 ). strength-- ( Psa 18:2 ). present help-- literally, \"a help He has been found exceedingly.\" trouble-- as in Psa 18:7 .",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        838,
+        1427
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. refuge--</hi>literally, \"a place of trust\" (<reference osisRef=\"Ps.2.12\">Psa 2:12</reference>).<div eID=\"gen9143\" type=\"x-p\"/> <div sID=\"gen9144\" type=\"x-p\"/><hi type=\"bold\">strength--</hi>(<reference osisRef=\"Ps.18.2\">Psa 18:2</reference>).<div eID=\"gen9144\" type=\"x-p\"/> <div sID=\"gen9145\" type=\"x-p\"/><hi type=\"bold\">present help--</hi>literally, \"a help He has been found exceedingly.\"<div eID=\"gen9145\" type=\"x-p\"/> <div sID=\"gen9146\" type=\"x-p\"/><hi type=\"bold\">trouble--</hi>as in <reference osisRef=\"Ps.18.7\">Psa 18:7</reference>. <div eID=\"gen9146\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.2-3:19:323715:272",
+      "passage_start": "PSA.46.2",
+      "passage_end": "PSA.46.3",
+      "start_verse": 2,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6001\"/><div sID=\"gen9147\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6001\"/>2-3. The most violent civil commotions are illustrated by the greatest physical commotions. <div eID=\"gen9147\" type=\"x-p\"/>",
+      "content_plain": "2-3. The most violent civil commotions are illustrated by the greatest physical commotions.",
+      "source_record_sha256": "1464328ba8b7ff49e53ef95e52aa54dff643869e4d24f4195311f5dc7c7932c9",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 323715,
+        "length": 272
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "PSA.46.2-3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2-3. The most violent civil commotions are illustrated by the greatest physical commotions."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.4-4:19:324261:948",
+      "passage_start": "PSA.46.4",
+      "passage_end": "PSA.46.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6003\"/><div sID=\"gen9149\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6003\"/>4. God's favor is denoted by a river (compare <reference osisRef=\"Ps.36.8\">Psa 36:8</reference>; <reference osisRef=\"Zech.14.8\">Zec 14:8</reference>; <reference osisRef=\"Rev.22.1\">Re 22:1</reference>).<div eID=\"gen9149\" type=\"x-p\"/> <div sID=\"gen9150\" type=\"x-p\"/><hi type=\"bold\">city of God, the holy place--</hi>His earthly residence, Jerusalem and the temple (compare <reference osisRef=\"Ps.2.6\">Psa 2:6</reference>; <reference osisRef=\"2Cor.3.4\">3:4</reference>; 20:2; 48:2, &amp;c.). God's favor, like a river whose waters are conducted in channels, is distributed to all parts of His Church.<div eID=\"gen9150\" type=\"x-p\"/> <div sID=\"gen9151\" type=\"x-p\"/><hi type=\"bold\">most High--</hi>denoting His supremacy (<reference osisRef=\"Ps.17.2\">Psa 17:2</reference>). <div eID=\"gen9151\" type=\"x-p\"/>",
+      "content_plain": "4. God's favor is denoted by a river (compare Psa 36:8 ; Zec 14:8 ; Re 22:1 ). city of God, the holy place-- His earthly residence, Jerusalem and the temple (compare Psa 2:6 ; 3:4 ; 20:2; 48:2, &c.). God's favor, like a river whose waters are conducted in channels, is distributed to all parts of His Church. most High-- denoting His supremacy ( Psa 17:2 ).",
+      "source_record_sha256": "217afa1c7e3d16fe706320d439d5649aedc2fefef5d4d59b7fbe891f444eccce",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 324261,
+        "length": 948
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. God's favor is denoted by a river (compare Psa 36:8 ; Zec 14:8 ; Re 22:1 ). city of God, the holy place-- His earthly residence, Jerusalem and the temple (compare Psa 2:6 ; 3:4 ; 20:2; 48:2, &c.). God's favor, like a river whose waters are conducted in channels, is distributed to all parts of His Church. most High-- denoting His supremacy ( Psa 17:2 )."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.5-5:19:325209:413",
+      "passage_start": "PSA.46.5",
+      "passage_end": "PSA.46.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6004\"/><div sID=\"gen9152\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6004\"/><hi type=\"bold\">5. right early--</hi>literally, \"at the turn of morning,\" or change from night to day, a critical time (<reference osisRef=\"Ps.30.5\">Psa 30:5</reference>; compare <reference osisRef=\"Isa.37.36\">Is 37:36</reference>). <div eID=\"gen9152\" type=\"x-p\"/>",
+      "content_plain": "5. right early-- literally, \"at the turn of morning,\" or change from night to day, a critical time ( Psa 30:5 ; compare Is 37:36 ).",
+      "source_record_sha256": "69d8274e37c1d855ad250339d46ed0b60272712589813c487904f153f6c71560",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 325209,
+        "length": 413
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. right early-- literally, \"at the turn of morning,\" or change from night to day, a critical time ( Psa 30:5 ; compare Is 37:36 )."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.6-6:19:325622:483",
+      "passage_start": "PSA.46.6",
+      "passage_end": "PSA.46.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6005\"/><div sID=\"gen9153\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6005\"/>6. (Compare <reference osisRef=\"Ps.46.2\">Psa 46:2</reference>).<div eID=\"gen9153\" type=\"x-p\"/> <div sID=\"gen9154\" type=\"x-p\"/><hi type=\"bold\">earth melted--</hi>all powers dissolved by His mere word (<reference osisRef=\"Ps.75.3\">Psa 75:3</reference>; <reference osisRef=\"Hos.2.22\">Ho 2:22</reference>). <div eID=\"gen9154\" type=\"x-p\"/>",
+      "content_plain": "6. (Compare Psa 46:2 ). earth melted-- all powers dissolved by His mere word ( Psa 75:3 ; Ho 2:22 ).",
+      "source_record_sha256": "585d8ae309eeb1c8e2dd7d46d43210c0fb12023f0e87aa07c491a21abd4d7c3a",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 325622,
+        "length": 483
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. (Compare Psa 46:2 ). earth melted-- all powers dissolved by His mere word ( Psa 75:3 ; Ho 2:22 )."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.7-7:19:326105:542",
+      "passage_start": "PSA.46.7",
+      "passage_end": "PSA.46.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6006\"/><div sID=\"gen9155\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6006\"/><hi type=\"bold\">7. with us--</hi>on our side; His presence is terror to our enemies, safety to us.<div eID=\"gen9155\" type=\"x-p\"/> <div sID=\"gen9156\" type=\"x-p\"/><hi type=\"bold\">refuge--</hi>high place (<reference osisRef=\"Ps.9.9\">Psa 9:9</reference>; compare also <reference osisRef=\"Ps.24.6\">Psa 24:6</reference>, <reference osisRef=\"Ps.24.10\">10</reference>). <div eID=\"gen9156\" type=\"x-p\"/>",
+      "content_plain": "7. with us-- on our side; His presence is terror to our enemies, safety to us. refuge-- high place ( Psa 9:9 ; compare also Psa 24:6 , 10 ).",
+      "source_record_sha256": "816a0cbb34ee1c95c5d5843702253cfca790f24151e4dee0a1628acdc69989d5",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 326105,
+        "length": 542
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. with us-- on our side; His presence is terror to our enemies, safety to us. refuge-- high place ( Psa 9:9 ; compare also Psa 24:6 , 10 )."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.8-8:19:326647:285",
+      "passage_start": "PSA.46.8",
+      "passage_end": "PSA.46.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6007\"/><div sID=\"gen9157\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6007\"/><hi type=\"bold\">8. what desolations--</hi>literally, \"who hath put desolations,\" destroying our enemies. <div eID=\"gen9157\" type=\"x-p\"/>",
+      "content_plain": "8. what desolations-- literally, \"who hath put desolations,\" destroying our enemies.",
+      "source_record_sha256": "459cb73941f23f5f5084a6d7b3465bfb18c25f1acf1d9975b95cc1e9e5b33ab5",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 326647,
+        "length": 285
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. what desolations-- literally, \"who hath put desolations,\" destroying our enemies."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.9-9:19:326932:313",
+      "passage_start": "PSA.46.9",
+      "passage_end": "PSA.46.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6008\"/><div sID=\"gen9158\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6008\"/>9. The usual weapons of war (<reference osisRef=\"Ps.7.12\">Psa 7:12</reference>), as well as those using them, are brought to an end. <div eID=\"gen9158\" type=\"x-p\"/>",
+      "content_plain": "9. The usual weapons of war ( Psa 7:12 ), as well as those using them, are brought to an end.",
+      "source_record_sha256": "109053b794ee524e50910679486c46357a638d4d2fefbd2ae446dcb52c9c6ea1",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 326932,
+        "length": 313
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. The usual weapons of war ( Psa 7:12 ), as well as those using them, are brought to an end."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.46.10-10:19:327245:414",
+      "passage_start": "PSA.46.10",
+      "passage_end": "PSA.46.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6009\"/><div sID=\"gen9159\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6009\"/><hi type=\"bold\">10. Be still, &amp;c.--</hi>literally, \"Leave off to oppose Me and vex My people. I am over all for their safety.\" (Compare <reference osisRef=\"Isa.2.11\">Is 2:11</reference>; <reference osisRef=\"Eph.1.22\">Ep 1:22</reference>). <chapter eID=\"Ps.46\"/>",
+      "content_plain": "10. Be still, &c.-- literally, \"Leave off to oppose Me and vex My people. I am over all for their safety.\" (Compare Is 2:11 ; Ep 1:22 ).",
+      "source_record_sha256": "c6905ef8af310208bcd31960747981a4d5c166f7c2a93d1e3c3822912ee3f122",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 327245,
+        "length": 414
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.46.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. Be still, &c.-- literally, \"Leave off to oppose Me and vex My people. I am over all for their safety.\" (Compare Is 2:11 ; Ep 1:22 )."
+    }
+  ],
+  "indexed_verse_count": 10,
+  "unindexed_verse_count": 1,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 9
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.46:P:psalm-46",
+      "navigation_id": "PSA.46:P:psalm-46",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "PSALM 46",
+      "content_plain": "PSALM 46",
+      "content_osis": "<title type=\"x-s2\">PSALM 46</title>",
+      "source_entry_id": "sword:jfb:PSA.46.1-1:19:322288:1427",
+      "source_character_span": [
+        59,
+        94
+      ],
+      "source_fragment_sha256": "3317bed84cfa0a5b98651985ad441d5b017d96dd762c6a6d341311b569491d7e",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.46.1",
+        "PSA.46.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.46:P:psa-46-1-11-upon-alamoth-most-probably-denotes-the-treble-or-part-sung-by-fema",
+      "navigation_id": "PSA.46:P:psa-46-1-11-upon-alamoth-most-probably-denotes-the-treble-or-part-sung-by-fema",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Psa 46:1-11 . Upon Alamoth--most probably denotes the treble, or part sung by female voices, the word meaning \"virgins\"; and which was sung with some appropriately keyed instrument (compare 1Ch 15:19-21 ; see on Psa 6:1 , title). The theme may be stated in Luther's well-known words, \"A mighty fortress is our God.\" The great deliverance ( 2Ki 19:35 ; Is 37:36 ) may have occasioned its composition.",
+      "content_plain": "Psa 46:1-11 . Upon Alamoth--most probably denotes the treble, or part sung by female voices, the word meaning \"virgins\"; and which was sung with some appropriately keyed instrument (compare 1Ch 15:19-21 ; see on Psa 6:1 , title). The theme may be stated in Luther's well-known words, \"A mighty fortress is our God.\" The great deliverance ( 2Ki 19:35 ; Is 37:36 ) may have occasioned its composition.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Ps.46.1-Ps.46.11\">Psa 46:1-11</reference>. Upon Alamoth--most probably denotes the treble, or part sung by female voices, the word meaning \"virgins\"; and which was sung with some appropriately keyed instrument (compare <reference osisRef=\"1Chr.15.19-1Chr.15.21\">1Ch 15:19-21</reference>; see on <reference osisRef=\"Ps.6.1\">Psa 6:1</reference>, title). The theme may be stated in Luther's well-known words, \"A mighty fortress is our God.\" The great deliverance (<reference osisRef=\"2Kgs.19.35\">2Ki 19:35</reference>; <reference osisRef=\"Isa.37.36\">Is 37:36</reference>) may have occasioned its composition.</title>",
+      "source_entry_id": "sword:jfb:PSA.46.1-1:19:322288:1427",
+      "source_character_span": [
+        95,
+        747
+      ],
+      "source_fragment_sha256": "e20d42c7f2145dd4a9e68abac259982f9b0b325c1dbda2e7b68a8b7f1e28ba4b",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.46.1",
+        "PSA.46.1"
+      ],
+      "source_title_explicit_range": [
+        "PSA.46.1",
+        "PSA.46.11"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 9
+}

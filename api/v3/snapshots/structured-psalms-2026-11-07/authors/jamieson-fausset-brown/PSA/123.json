@@ -1,0 +1,201 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "PSA",
+  "chapter": 123,
+  "canonical_chapter": "PSA.123",
+  "versification": "KJV",
+  "verse_count": 4,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"123\" osisID=\"Ps.123\" sID=\"Ps.123\"/><div eID=\"gen10740\" type=\"x-p\"/> ",
+      "source_record_sha256": "e7bec6924621c29ad3734717217ea64c6a609e319f147b085987c81539eda282",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 848344,
+        "length": 80
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:PSA.123.1-1:19:848424:644",
+      "passage_start": "PSA.123.1",
+      "passage_end": "PSA.123.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6999\"/><title type=\"x-s2\">PSALM 123</title> <title type=\"x-s3\"><reference osisRef=\"Ps.123.1-Ps.123.4\">Psa 123:1-4</reference>. An earnest and expecting prayer for divine aid in distress.</title> <div sID=\"gen10741\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6999\"/>1. (Compare <reference osisRef=\"Ps.121.1\">Psa 121:1</reference>).<div eID=\"gen10741\" type=\"x-p\"/> <div sID=\"gen10742\" type=\"x-p\"/><hi type=\"bold\">thou that dwellest--</hi>literally, \"sittest as enthroned\" (compare <reference osisRef=\"Ps.2.4\">Psa 2:4</reference>; 113:4, 5). <div eID=\"gen10742\" type=\"x-p\"/>",
+      "content_plain": "PSALM 123 Psa 123:1-4 . An earnest and expecting prayer for divine aid in distress. 1. (Compare Psa 121:1 ). thou that dwellest-- literally, \"sittest as enthroned\" (compare Psa 2:4 ; 113:4, 5).",
+      "source_record_sha256": "e1b88209d30819de51f74d3db4863352a48da52fe75097cad815b92c096304a7",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 848424,
+        "length": 644
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.123.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "PSALM 123 Psa 123:1-4 . An earnest and expecting prayer for divine aid in distress. 1. (Compare Psa 121:1 ). thou that dwellest-- literally, \"sittest as enthroned\" (compare Psa 2:4 ; 113:4, 5)."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.123.2-2:19:849068:933",
+      "passage_start": "PSA.123.2",
+      "passage_end": "PSA.123.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7000\"/><div sID=\"gen10743\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7000\"/>2. Deference, submission, and trust, are all expressed by the figure. In the East, servants in attending on their masters are almost wholly directed by signs, which require the closest observance of the hands of the latter. The servants of God should look (1) to His directing hand, to appoint them their work; (2) to His supplying hand (<reference osisRef=\"Ps.104.28\">Psa 104:28</reference>), to give them their portion in due season; (3) to His protecting hand, to right them when wronged; (4) to His correcting hand (<reference osisRef=\"Isa.9.13\">Is 9:13</reference>; <reference osisRef=\"1Pet.5.6\">1Pe 5:6</reference>; compare <reference osisRef=\"Gen.16.6\">Ge 16:6</reference>); (<reference osisRef=\"Gen.16.5\">5</reference>) to His rewarding hand. <div eID=\"gen10743\" type=\"x-p\"/>",
+      "content_plain": "2. Deference, submission, and trust, are all expressed by the figure. In the East, servants in attending on their masters are almost wholly directed by signs, which require the closest observance of the hands of the latter. The servants of God should look (1) to His directing hand, to appoint them their work; (2) to His supplying hand ( Psa 104:28 ), to give them their portion in due season; (3) to His protecting hand, to right them when wronged; (4) to His correcting hand ( Is 9:13 ; 1Pe 5:6 ; compare Ge 16:6 ); ( 5 ) to His rewarding hand.",
+      "source_record_sha256": "4da720b9616b388d98a2903ed8c786a95f244ac9928bdbf3afeecf65b8b0ede1",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 849068,
+        "length": 933
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.123.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. Deference, submission, and trust, are all expressed by the figure. In the East, servants in attending on their masters are almost wholly directed by signs, which require the closest observance of the hands of the latter. The servants of God should look (1) to His directing hand, to appoint them their work; (2) to His supplying hand ( Psa 104:28 ), to give them their portion in due season; (3) to His protecting hand, to right them when wronged; (4) to His correcting hand ( Is 9:13 ; 1Pe 5:6 ; compare Ge 16:6 ); ( 5 ) to His rewarding hand."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.123.3-3:19:850001:323",
+      "passage_start": "PSA.123.3",
+      "passage_end": "PSA.123.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7001\"/><div sID=\"gen10744\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7001\"/><hi type=\"bold\">3. contempt--</hi>was that of the heathen, and, perhaps, Samaritans (<reference osisRef=\"Neh.1.3\">Ne 1:3</reference>; 2:19). <div eID=\"gen10744\" type=\"x-p\"/>",
+      "content_plain": "3. contempt-- was that of the heathen, and, perhaps, Samaritans ( Ne 1:3 ; 2:19).",
+      "source_record_sha256": "87401ea7c6b6153ca604f5bfe9c9aa285f13cd0786c3abb9c6add1f939a7f0a7",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 850001,
+        "length": 323
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.123.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. contempt-- was that of the heathen, and, perhaps, Samaritans ( Ne 1:3 ; 2:19)."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.123.4-4:19:850324:293",
+      "passage_start": "PSA.123.4",
+      "passage_end": "PSA.123.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7002\"/><div sID=\"gen10745\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7002\"/><hi type=\"bold\">4. of those that are at ease--</hi>self-complacently, disregarding God's law, and despising His people. <chapter eID=\"Ps.123\"/>",
+      "content_plain": "4. of those that are at ease-- self-complacently, disregarding God's law, and despising His people.",
+      "source_record_sha256": "9e80613fd0c5ac441a08493c37e42967af132711f5a5afe19531754d455fbfa6",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 850324,
+        "length": 293
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.123.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. of those that are at ease-- self-complacently, disregarding God's law, and despising His people."
+    }
+  ],
+  "indexed_verse_count": 4,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 4
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.123:P:psalm-123",
+      "navigation_id": "PSA.123:P:psalm-123",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "PSALM 123",
+      "content_plain": "PSALM 123",
+      "content_osis": "<title type=\"x-s2\">PSALM 123</title>",
+      "source_entry_id": "sword:jfb:PSA.123.1-1:19:848424:644",
+      "source_character_span": [
+        59,
+        95
+      ],
+      "source_fragment_sha256": "a35b91683a036e3e4aa8564c8edf7a590bf0d159c5cefe6dd8c3804ce850b82e",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.123.1",
+        "PSA.123.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.123:P:psa-123-1-4-an-earnest-and-expecting-prayer-for-divine-aid-in-distress",
+      "navigation_id": "PSA.123:P:psa-123-1-4-an-earnest-and-expecting-prayer-for-divine-aid-in-distress",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Psa 123:1-4 . An earnest and expecting prayer for divine aid in distress.",
+      "content_plain": "Psa 123:1-4 . An earnest and expecting prayer for divine aid in distress.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Ps.123.1-Ps.123.4\">Psa 123:1-4</reference>. An earnest and expecting prayer for divine aid in distress.</title>",
+      "source_entry_id": "sword:jfb:PSA.123.1-1:19:848424:644",
+      "source_character_span": [
+        96,
+        246
+      ],
+      "source_fragment_sha256": "309f4fb6e0ba591fdc1cb98f00d92dbc80d458a8bdfb0c15ceecdcaa34e2fb3f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.123.1",
+        "PSA.123.1"
+      ],
+      "source_title_explicit_range": [
+        "PSA.123.1",
+        "PSA.123.4"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 4
+}

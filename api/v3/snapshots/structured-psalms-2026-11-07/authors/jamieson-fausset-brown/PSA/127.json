@@ -1,0 +1,153 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "PSA",
+  "chapter": 127,
+  "canonical_chapter": "PSA.127",
+  "versification": "KJV",
+  "verse_count": 5,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"127\" osisID=\"Ps.127\" sID=\"Ps.127\"/><div eID=\"gen10770\" type=\"x-p\"/> ",
+      "source_record_sha256": "6ac329e55734f057079b14355650d856dc2f41cf7d09e89ab840ba98caccf550",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 860790,
+        "length": 80
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:PSA.127.1-2:19:860870:707",
+      "passage_start": "PSA.127.1",
+      "passage_end": "PSA.127.2",
+      "start_verse": 1,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7018\"/><title type=\"x-s2\">PSALM 127</title> <title type=\"x-s3\"><reference osisRef=\"Ps.127.1-Ps.127.5\">Psa 127:1-5</reference>. The theme of this Psalm, that human enterprises only succeed by the divine blessing, was probably associated with the building of the temple by Solomon, its author. It may have been adopted in this view, as suited to this series especially, as appropriately expressing the sentiments of God's worshippers in relation to the erection of the second temple.</title> <div sID=\"gen10771\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7018\"/>1-2. suggest the view of the theme given. <div eID=\"gen10771\" type=\"x-p\"/>",
+      "content_plain": "PSALM 127 Psa 127:1-5 . The theme of this Psalm, that human enterprises only succeed by the divine blessing, was probably associated with the building of the temple by Solomon, its author. It may have been adopted in this view, as suited to this series especially, as appropriately expressing the sentiments of God's worshippers in relation to the erection of the second temple. 1-2. suggest the view of the theme given.",
+      "source_record_sha256": "eb1eb9cfdb395ac410350ef314dd80a4d8b37df6e1655f7fe97e003ed9dcefa3",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 860870,
+        "length": 707
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "PSA.127.1-2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "PSALM 127 Psa 127:1-5 . The theme of this Psalm, that human enterprises only succeed by the divine blessing, was probably associated with the building of the temple by Solomon, its author. It may have been adopted in this view, as suited to this series especially, as appropriately expressing the sentiments of God's worshippers in relation to the erection of the second temple. 1-2. suggest the view of the theme given."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.127.3-5:19:862031:536",
+      "passage_start": "PSA.127.3",
+      "passage_end": "PSA.127.5",
+      "start_verse": 3,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7020\"/><div sID=\"gen10773\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7020\"/>3-5. Posterity is often represented as a blessing from God (<reference osisRef=\"Gen.30.2\">Ge 30:2</reference>, <reference osisRef=\"Gen.30.18\">18</reference>; <reference osisRef=\"1Sam.1.19\">1Sa 1:19</reference>, <reference osisRef=\"1Cor.1.20\">20</reference>). Children are represented as the defenders (arrows) of their parents in war, and in litigation. <div eID=\"gen10773\" type=\"x-p\"/>",
+      "content_plain": "3-5. Posterity is often represented as a blessing from God ( Ge 30:2 , 18 ; 1Sa 1:19 , 20 ). Children are represented as the defenders (arrows) of their parents in war, and in litigation.",
+      "source_record_sha256": "8ca555a654d525b837342cfe6028fb2ff840d1b6cdc7d22bd5d355bd4923ef50",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 862031,
+        "length": 536
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "PSA.127.3-5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3-5. Posterity is often represented as a blessing from God ( Ge 30:2 , 18 ; 1Sa 1:19 , 20 ). Children are represented as the defenders (arrows) of their parents in war, and in litigation."
+    }
+  ],
+  "indexed_verse_count": 5,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 2
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.127:P:psalm-127",
+      "navigation_id": "PSA.127:P:psalm-127",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "PSALM 127",
+      "content_plain": "PSALM 127",
+      "content_osis": "<title type=\"x-s2\">PSALM 127</title>",
+      "source_entry_id": "sword:jfb:PSA.127.1-2:19:860870:707",
+      "source_character_span": [
+        59,
+        95
+      ],
+      "source_fragment_sha256": "fb0a62f47ec490c1bb788ffbc5c0870e9416885c91a2ed25c8f23a0f0418b1e2",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.127.1",
+        "PSA.127.2"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.127:P:psa-127-1-5-the-theme-of-this-psalm-that-human-enterprises-only-succeed-by-the",
+      "navigation_id": "PSA.127:P:psa-127-1-5-the-theme-of-this-psalm-that-human-enterprises-only-succeed-by-the",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Psa 127:1-5 . The theme of this Psalm, that human enterprises only succeed by the divine blessing, was probably associated with the building of the temple by Solomon, its author. It may have been adopted in this view, as suited to this series especially, as appropriately expressing the sentiments of God's worshippers in relation to the erection of the second temple.",
+      "content_plain": "Psa 127:1-5 . The theme of this Psalm, that human enterprises only succeed by the divine blessing, was probably associated with the building of the temple by Solomon, its author. It may have been adopted in this view, as suited to this series especially, as appropriately expressing the sentiments of God's worshippers in relation to the erection of the second temple.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Ps.127.1-Ps.127.5\">Psa 127:1-5</reference>. The theme of this Psalm, that human enterprises only succeed by the divine blessing, was probably associated with the building of the temple by Solomon, its author. It may have been adopted in this view, as suited to this series especially, as appropriately expressing the sentiments of God's worshippers in relation to the erection of the second temple.</title>",
+      "source_entry_id": "sword:jfb:PSA.127.1-2:19:860870:707",
+      "source_character_span": [
+        96,
+        541
+      ],
+      "source_fragment_sha256": "a173fdb1a3fcae56a8294076bf051e996dfb1eb49615f49b851e0c233f9e7c9f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.127.1",
+        "PSA.127.2"
+      ],
+      "source_title_explicit_range": [
+        "PSA.127.1",
+        "PSA.127.5"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 2
+}
