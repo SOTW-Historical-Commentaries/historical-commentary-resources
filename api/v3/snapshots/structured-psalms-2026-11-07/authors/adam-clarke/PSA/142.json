@@ -1,0 +1,228 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "adam-clarke",
+  "book_id": "PSA",
+  "chapter": 142,
+  "canonical_chapter": "PSA.142",
+  "versification": "KJV",
+  "verse_count": 7,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen23401\" type=\"x-p\"/> <chapter n=\"142\" osisID=\"Ps.142\" sID=\"Ps.142\"/> ",
+      "source_record_sha256": "26dcb00fd7791be2e304faf4123814940d9dbcdcdfd2c138617be4fe33f5dd25",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1899482,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:PSA.142.1-1:19:1899563:1852",
+      "passage_start": "PSA.142.1",
+      "passage_end": "PSA.142.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen23401\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen23402\" type=\"introduction\"/> <div sID=\"gen23403\" type=\"x-p\"/> <div eID=\"gen23403\" type=\"x-p\"/> <div eID=\"gen23402\" type=\"introduction\"/> <div sID=\"gen23404\" type=\"x-p\"/> The psalmist, in great distress and difficulty, calls upon God, <reference osisRef=\"Psa.142.1-Psa.142.7\">Psa 142:1-7</reference>. <div eID=\"gen23404\" type=\"x-p\"/> <div sID=\"gen23405\" type=\"x-p\"/> The title says, \"An Instruction of David,\" or a Psalm of David giving instruction; \"A Prayer when he was in the cave.\" <div eID=\"gen23405\" type=\"x-p\"/> <div sID=\"gen23406\" type=\"x-p\"/> David was twice in great peril in caves. <div eID=\"gen23406\" type=\"x-p\"/> <div sID=\"gen23407\" type=\"x-p\"/> 1. At the cave of Adullam, when he fled from Achish, king of Gath, 1 Samuel 22. <div eID=\"gen23407\" type=\"x-p\"/> <div sID=\"gen23408\" type=\"x-p\"/> 2. When he was in the cave of En-gedi, where he had taken refuge from the pursuit of Saul; and the latter, without knowing that David was in it, had gone into it on some necessary occasion, 1 Samuel 24. <div eID=\"gen23408\" type=\"x-p\"/> <div sID=\"gen23409\" type=\"x-p\"/> If the inscription can be depended on, the cave of En-gedi is the most likely of the two, for the scene laid here. But were there doubts concerning the legitimacy of the title, I should refer the Psalm to the state of the captives in Babylon, to which a great part of the Psalms refer. Bishop Horsley calls it \"A Prayer of the Messiah taken and deserted.\" It may be so: but where is the evidence, except in the conjectural system of Origen. <div eID=\"gen23409\" type=\"x-p\"/> <div sID=\"gen23410\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen23410\" type=\"x-p\"/> <div sID=\"gen23411\" type=\"x-p\"/> I cried unto the Lord - See on <reference osisRef=\"Psa.141.1\">Psa 141:1</reference> (note). ",
+      "content_plain": "Introduction The psalmist, in great distress and difficulty, calls upon God, Psa 142:1-7 . The title says, \"An Instruction of David,\" or a Psalm of David giving instruction; \"A Prayer when he was in the cave.\" David was twice in great peril in caves. 1. At the cave of Adullam, when he fled from Achish, king of Gath, 1 Samuel 22. 2. When he was in the cave of En-gedi, where he had taken refuge from the pursuit of Saul; and the latter, without knowing that David was in it, had gone into it on some necessary occasion, 1 Samuel 24. If the inscription can be depended on, the cave of En-gedi is the most likely of the two, for the scene laid here. But were there doubts concerning the legitimacy of the title, I should refer the Psalm to the state of the captives in Babylon, to which a great part of the Psalms refer. Bishop Horsley calls it \"A Prayer of the Messiah taken and deserted.\" It may be so: but where is the evidence, except in the conjectural system of Origen. Verse 1 I cried unto the Lord - See on Psa 141:1 (note).",
+      "source_record_sha256": "9878eb5ff679c69f25b4ef4429d788fd693c5867ca384a97e2f475c811eeab06",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1899563,
+        "length": 1852
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.142.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 I cried unto the Lord - See on Psa 141:1 (note).",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        1665,
+        1852
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen23410\" type=\"x-p\"/> <div sID=\"gen23411\" type=\"x-p\"/> I cried unto the Lord - See on <reference osisRef=\"Psa.141.1\">Psa 141:1</reference> (note). "
+    },
+    {
+      "entry_id": "sword:clarke:PSA.142.3-3:19:1901415:334",
+      "passage_start": "PSA.142.3",
+      "passage_end": "PSA.142.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen23411\" type=\"x-p\"/> <div sID=\"gen23412\" type=\"x-p\"/> Then thou knewest my path - When Saul and his army were about the cave in which I was hidden, thou knewest my path - that I had then no way of escape but by miracle: but thou didst not permit them to know that I was wholly in their power. ",
+      "content_plain": "Verse 3 Then thou knewest my path - When Saul and his army were about the cave in which I was hidden, thou knewest my path - that I had then no way of escape but by miracle: but thou didst not permit them to know that I was wholly in their power.",
+      "source_record_sha256": "eeed5e4c460766b7c8852c73e46a7bb749cae346bbd57aa7111cea2d1f6099dc",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1901415,
+        "length": 334
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.142.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 Then thou knewest my path - When Saul and his army were about the cave in which I was hidden, thou knewest my path - that I had then no way of escape but by miracle: but thou didst not permit them to know that I was wholly in their power."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.142.4-4:19:1901749:357",
+      "passage_start": "PSA.142.4",
+      "passage_end": "PSA.142.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen23412\" type=\"x-p\"/> <div sID=\"gen23413\" type=\"x-p\"/> There was no man, that would know me - This has been applied to the time in which our Lord was deserted by his disciples. As to the case of David in the cave of En-gedi, he had no refuge: for what were the handful of men that were with him to Saul and his army? ",
+      "content_plain": "Verse 4 There was no man, that would know me - This has been applied to the time in which our Lord was deserted by his disciples. As to the case of David in the cave of En-gedi, he had no refuge: for what were the handful of men that were with him to Saul and his army?",
+      "source_record_sha256": "109f256cc54dc28b23e125373eab6b0a3845ad39100c8f96fe0015a9881a6845",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1901749,
+        "length": 357
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.142.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 There was no man, that would know me - This has been applied to the time in which our Lord was deserted by his disciples. As to the case of David in the cave of En-gedi, he had no refuge: for what were the handful of men that were with him to Saul and his army?"
+    },
+    {
+      "entry_id": "sword:clarke:PSA.142.5-5:19:1902106:190",
+      "passage_start": "PSA.142.5",
+      "passage_end": "PSA.142.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen23413\" type=\"x-p\"/> <div sID=\"gen23414\" type=\"x-p\"/> Thou art my refuge - Even in these most disastrous circumstances, I will put my trust in thee. ",
+      "content_plain": "Verse 5 Thou art my refuge - Even in these most disastrous circumstances, I will put my trust in thee.",
+      "source_record_sha256": "b297b4f9b8d2b79cc7ef6a21f8a4a80bab19d1b93f6504f70bcb2d45ca6a43eb",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1902106,
+        "length": 190
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.142.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 Thou art my refuge - Even in these most disastrous circumstances, I will put my trust in thee."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.142.6-6:19:1902296:511",
+      "passage_start": "PSA.142.6",
+      "passage_end": "PSA.142.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen23414\" type=\"x-p\"/> <div sID=\"gen23415\" type=\"x-p\"/> I am brought very low - Never was I so near total ruin before. <div eID=\"gen23415\" type=\"x-p\"/> <div sID=\"gen23416\" type=\"x-p\"/> Deliver me from my persecutors - They are now in full possession of the only means of my escape. <div eID=\"gen23416\" type=\"x-p\"/> <div sID=\"gen23417\" type=\"x-p\"/> They are stronger than I - What am I and my men against this well-appointed armed multitude, with their king at their head. ",
+      "content_plain": "Verse 6 I am brought very low - Never was I so near total ruin before. Deliver me from my persecutors - They are now in full possession of the only means of my escape. They are stronger than I - What am I and my men against this well-appointed armed multitude, with their king at their head.",
+      "source_record_sha256": "f0b7237117996970d91498d36f2eaa3c76141591ec1d69912448b3830db0caf6",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1902296,
+        "length": 511
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.142.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 I am brought very low - Never was I so near total ruin before. Deliver me from my persecutors - They are now in full possession of the only means of my escape. They are stronger than I - What am I and my men against this well-appointed armed multitude, with their king at their head."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.142.7-7:19:1902807:1022",
+      "passage_start": "PSA.142.7",
+      "passage_end": "PSA.142.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen23417\" type=\"x-p\"/> <div sID=\"gen23418\" type=\"x-p\"/> Bring my soul out of prison - Bring נפשי naphshi, my life, out of this cave in which it is now imprisoned; Saul and his men being in possession of the entrance. <div eID=\"gen23418\" type=\"x-p\"/> <div sID=\"gen23419\" type=\"x-p\"/> The righteous shall compass me about - יכתרו yachtiru, they shall crown me; perhaps meaning that the pious Jews, on the death of Saul, would cheerfully join together to make him king, being convinced that God, by his bountiful dealings with him, intended that it should be so. The old Psalter, which is imperfect from the twenty-frst verse of Psalm 119 to the end of <reference osisRef=\"Psa.141.1-Psa.141.10\">Psa 141:1-10</reference>, concludes this Psalm thus: \"Lede my saule oute of corruption of my body; that corrupcion is bodely pyne, in whilk my saule is anguyst; after that in Godes house, Sal al be louyng (praising) of the.\"  <chapter eID=\"Ps.142\"/> <div eID=\"gen23419\" type=\"x-p\"/>",
+      "content_plain": "Verse 7 Bring my soul out of prison - Bring נפשי naphshi, my life, out of this cave in which it is now imprisoned; Saul and his men being in possession of the entrance. The righteous shall compass me about - יכתרו yachtiru, they shall crown me; perhaps meaning that the pious Jews, on the death of Saul, would cheerfully join together to make him king, being convinced that God, by his bountiful dealings with him, intended that it should be so. The old Psalter, which is imperfect from the twenty-frst verse of Psalm 119 to the end of Psa 141:1-10 , concludes this Psalm thus: \"Lede my saule oute of corruption of my body; that corrupcion is bodely pyne, in whilk my saule is anguyst; after that in Godes house, Sal al be louyng (praising) of the.\"",
+      "source_record_sha256": "ece3cd79bc4b13df40e8895fc8b16ab183c4f33f7e6e701f131196aeb6bc0c01",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1902807,
+        "length": 1022
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.142.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 Bring my soul out of prison - Bring נפשי naphshi, my life, out of this cave in which it is now imprisoned; Saul and his men being in possession of the entrance. The righteous shall compass me about - יכתרו yachtiru, they shall crown me; perhaps meaning that the pious Jews, on the death of Saul, would cheerfully join together to make him king, being convinced that God, by his bountiful dealings with him, intended that it should be so. The old Psalter, which is imperfect from the twenty-frst verse of Psalm 119 to the end of Psa 141:1-10 , concludes this Psalm thus: \"Lede my saule oute of corruption of my body; that corrupcion is bodely pyne, in whilk my saule is anguyst; after that in Godes house, Sal al be louyng (praising) of the.\""
+    }
+  ],
+  "indexed_verse_count": 6,
+  "unindexed_verse_count": 1,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 6
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:PSA.142:P:introduction",
+      "navigation_id": "PSA.142:P:introduction",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Introduction",
+      "content_plain": "Introduction",
+      "content_osis": "<title type=\"x-s\">Introduction</title>",
+      "source_entry_id": "sword:clarke:PSA.142.1-1:19:1899563:1852",
+      "source_character_span": [
+        33,
+        71
+      ],
+      "source_fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.142.1",
+        "PSA.142.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 6
+}

@@ -1,0 +1,252 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "adam-clarke",
+  "book_id": "PSA",
+  "chapter": 129,
+  "canonical_chapter": "PSA.129",
+  "versification": "KJV",
+  "verse_count": 8,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen23133\" type=\"x-p\"/> <chapter n=\"129\" osisID=\"Ps.129\" sID=\"Ps.129\"/> ",
+      "source_record_sha256": "2ed62a1235369e50e2c9127b4e5b3733712170b19f97060338c5d79c16809481",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1803726,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:PSA.129.1-1:19:1803807:1605",
+      "passage_start": "PSA.129.1",
+      "passage_end": "PSA.129.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen23133\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen23134\" type=\"introduction\"/> <div sID=\"gen23135\" type=\"x-p\"/> <div eID=\"gen23135\" type=\"x-p\"/> <div eID=\"gen23134\" type=\"introduction\"/> <div sID=\"gen23136\" type=\"x-p\"/> The Jews give an account of the afflicions which they have passed through, <reference osisRef=\"Psa.129.1-Psa.129.3\">Psa 129:1-3</reference>. And thank God for their deliverance, <reference osisRef=\"Psa.129.4\">Psa 129:4</reference>. The judgments that shall fall on the workers of iniquity, <reference osisRef=\"Psa.129.5-Psa.129.8\">Psa 129:5-8</reference>. <div eID=\"gen23136\" type=\"x-p\"/> <div sID=\"gen23137\" type=\"x-p\"/> This Psalm was written after the captivity; and contains a reference to the many tribulations which the Jews passed through from their youth, i.e., the earliest part of their history, their bondage in Egypt. It has no title in any of the Versions, nor in the Hebrew text, except the general one of A Psalm of Degrees. The author is uncertain. <div eID=\"gen23137\" type=\"x-p\"/> <div sID=\"gen23138\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen23138\" type=\"x-p\"/> <div sID=\"gen23139\" type=\"x-p\"/> Many a time have they afflicted me - The Israelites had been generally in affliction or captivity from the earliest part of their history, here called their youth. So <reference osisRef=\"Hos.2.15\">Hos 2:15</reference> : \"She shall sing as in the days of her youth, when she came up out of the land of Egypt.\" See <reference osisRef=\"Jer.2.2\">Jer 2:2</reference>, and <reference osisRef=\"Eze.16.4\">Eze 16:4</reference>, etc. ",
+      "content_plain": "Introduction The Jews give an account of the afflicions which they have passed through, Psa 129:1-3 . And thank God for their deliverance, Psa 129:4 . The judgments that shall fall on the workers of iniquity, Psa 129:5-8 . This Psalm was written after the captivity; and contains a reference to the many tribulations which the Jews passed through from their youth, i.e., the earliest part of their history, their bondage in Egypt. It has no title in any of the Versions, nor in the Hebrew text, except the general one of A Psalm of Degrees. The author is uncertain. Verse 1 Many a time have they afflicted me - The Israelites had been generally in affliction or captivity from the earliest part of their history, here called their youth. So Hos 2:15 : \"She shall sing as in the days of her youth, when she came up out of the land of Egypt.\" See Jer 2:2 , and Eze 16:4 , etc.",
+      "source_record_sha256": "3f53b2502ad70b1951baf1f67381233c576f8b5d86b4bfefe1c4323c9afdc60f",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1803807,
+        "length": 1605
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 Many a time have they afflicted me - The Israelites had been generally in affliction or captivity from the earliest part of their history, here called their youth. So Hos 2:15 : \"She shall sing as in the days of her youth, when she came up out of the land of Egypt.\" See Jer 2:2 , and Eze 16:4 , etc.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        1086,
+        1605
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen23138\" type=\"x-p\"/> <div sID=\"gen23139\" type=\"x-p\"/> Many a time have they afflicted me - The Israelites had been generally in affliction or captivity from the earliest part of their history, here called their youth. So <reference osisRef=\"Hos.2.15\">Hos 2:15</reference> : \"She shall sing as in the days of her youth, when she came up out of the land of Egypt.\" See <reference osisRef=\"Jer.2.2\">Jer 2:2</reference>, and <reference osisRef=\"Eze.16.4\">Eze 16:4</reference>, etc. "
+    },
+    {
+      "entry_id": "sword:clarke:PSA.129.2-2:19:1805412:217",
+      "passage_start": "PSA.129.2",
+      "passage_end": "PSA.129.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen23139\" type=\"x-p\"/> <div sID=\"gen23140\" type=\"x-p\"/> Yet they have not prevailed - They endeavored to annihilate us as a people; but God still preserves us as his own nation. ",
+      "content_plain": "Verse 2 Yet they have not prevailed - They endeavored to annihilate us as a people; but God still preserves us as his own nation.",
+      "source_record_sha256": "ed96438cdb135cf57e657253034386eff846b211f12c56354bcccc83c8758d87",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1805412,
+        "length": 217
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 Yet they have not prevailed - They endeavored to annihilate us as a people; but God still preserves us as his own nation."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.129.3-3:19:1805629:688",
+      "passage_start": "PSA.129.3",
+      "passage_end": "PSA.129.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen23140\" type=\"x-p\"/> <div sID=\"gen23141\" type=\"x-p\"/> The plowers plowed upon my back - It is possible that this mode of expression may signify that the people, during their captivity, were cruelly used by scourging, etc.; or it may be a sort of proverbial mode of expression for the most cruel usage. There really appears here to be a reference to a yoke, as if they had actually been yoked to the plouph, or to some kind of carriages, and been obliged to draw like beasts of burden. In this way St. Jerome understood the passage; and this has the more likelihood, as in the next verse God is represented as cutting them off from these draughts. ",
+      "content_plain": "Verse 3 The plowers plowed upon my back - It is possible that this mode of expression may signify that the people, during their captivity, were cruelly used by scourging, etc.; or it may be a sort of proverbial mode of expression for the most cruel usage. There really appears here to be a reference to a yoke, as if they had actually been yoked to the plouph, or to some kind of carriages, and been obliged to draw like beasts of burden. In this way St. Jerome understood the passage; and this has the more likelihood, as in the next verse God is represented as cutting them off from these draughts.",
+      "source_record_sha256": "573289d88fe950eea6b49d1ced83292248e1d952a0ad04d70488254420b8a396",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1805629,
+        "length": 688
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 The plowers plowed upon my back - It is possible that this mode of expression may signify that the people, during their captivity, were cruelly used by scourging, etc.; or it may be a sort of proverbial mode of expression for the most cruel usage. There really appears here to be a reference to a yoke, as if they had actually been yoked to the plouph, or to some kind of carriages, and been obliged to draw like beasts of burden. In this way St. Jerome understood the passage; and this has the more likelihood, as in the next verse God is represented as cutting them off from these draughts."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.129.4-4:19:1806317:637",
+      "passage_start": "PSA.129.4",
+      "passage_end": "PSA.129.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen23141\" type=\"x-p\"/> <div sID=\"gen23142\" type=\"x-p\"/> The Lord - hath cut asunder the cords of the wicked - The words have been applied to the sufferings of Christ; but I know not on what authority. No such scourging could take place in his case, as would justify the expression: - \"The ploughers made long furrows there, <div eID=\"gen23142\" type=\"x-p\"/> <div sID=\"gen23143\" type=\"x-p\"/> Till all his body was one wound.\" <div eID=\"gen23143\" type=\"x-p\"/> <div sID=\"gen23144\" type=\"x-p\"/> It is not likely that he received more than thirty-nine stripes. The last line is an unwarranted assertion. ",
+      "content_plain": "Verse 4 The Lord - hath cut asunder the cords of the wicked - The words have been applied to the sufferings of Christ; but I know not on what authority. No such scourging could take place in his case, as would justify the expression: - \"The ploughers made long furrows there, Till all his body was one wound.\" It is not likely that he received more than thirty-nine stripes. The last line is an unwarranted assertion.",
+      "source_record_sha256": "51d3908f567359c59a0876e01c74c8175c0e32009d11398e000084a733df099b",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1806317,
+        "length": 637
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 The Lord - hath cut asunder the cords of the wicked - The words have been applied to the sufferings of Christ; but I know not on what authority. No such scourging could take place in his case, as would justify the expression: - \"The ploughers made long furrows there, Till all his body was one wound.\" It is not likely that he received more than thirty-nine stripes. The last line is an unwarranted assertion."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.129.5-5:19:1806954:278",
+      "passage_start": "PSA.129.5",
+      "passage_end": "PSA.129.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen23144\" type=\"x-p\"/> <div sID=\"gen23145\" type=\"x-p\"/> Let them all be confounded - They shall be confounded. They who hate Zion, the Church of God, hate God himself; and all such must be dealt with as enemies, and be utterly confounded. ",
+      "content_plain": "Verse 5 Let them all be confounded - They shall be confounded. They who hate Zion, the Church of God, hate God himself; and all such must be dealt with as enemies, and be utterly confounded.",
+      "source_record_sha256": "ad71c6f1ee25856a17b65e4d09b60a3631395cd0976a5d5274bbddcb1a8dfcac",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1806954,
+        "length": 278
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 Let them all be confounded - They shall be confounded. They who hate Zion, the Church of God, hate God himself; and all such must be dealt with as enemies, and be utterly confounded."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.129.6-6:19:1807232:711",
+      "passage_start": "PSA.129.6",
+      "passage_end": "PSA.129.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen23145\" type=\"x-p\"/> <div sID=\"gen23146\" type=\"x-p\"/> As the grass upon the housetops - As in the east the roofs of the houses were flat, seeds of various kinds falling upon them would naturally vegetate, though in an imperfect way; and, because of the want of proper nourishment, would necessarily dry and wither away. If grass, the mower cannot make hay of it; if corn, the reaper cannot make a sheaf of it. Let the Babylonians be like such herbage - good for nothing, and come to nothing. <div eID=\"gen23146\" type=\"x-p\"/> <div sID=\"gen23147\" type=\"x-p\"/> Withereth afore it groweth up - Before שלק shalak, it is unsheathed; i.e., before it ears, or comes to seed. ",
+      "content_plain": "Verse 6 As the grass upon the housetops - As in the east the roofs of the houses were flat, seeds of various kinds falling upon them would naturally vegetate, though in an imperfect way; and, because of the want of proper nourishment, would necessarily dry and wither away. If grass, the mower cannot make hay of it; if corn, the reaper cannot make a sheaf of it. Let the Babylonians be like such herbage - good for nothing, and come to nothing. Withereth afore it groweth up - Before שלק shalak, it is unsheathed; i.e., before it ears, or comes to seed.",
+      "source_record_sha256": "281929311b73698387fa258779246444a85059412a498e015b9fba2feb8b4a6a",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1807232,
+        "length": 711
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 As the grass upon the housetops - As in the east the roofs of the houses were flat, seeds of various kinds falling upon them would naturally vegetate, though in an imperfect way; and, because of the want of proper nourishment, would necessarily dry and wither away. If grass, the mower cannot make hay of it; if corn, the reaper cannot make a sheaf of it. Let the Babylonians be like such herbage - good for nothing, and come to nothing. Withereth afore it groweth up - Before שלק shalak, it is unsheathed; i.e., before it ears, or comes to seed."
+    },
+    {
+      "entry_id": "sword:clarke:PSA.129.8-8:19:1807943:772",
+      "passage_start": "PSA.129.8",
+      "passage_end": "PSA.129.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen23147\" type=\"x-p\"/> <div sID=\"gen23148\" type=\"x-p\"/> Neither do they which go by say - There is a reference here to the salutations which were given and returned by the reapers in the time of the harvest. We find that it was customary, when the master came to them into the field, to say unto the reapers, The Lord be with you! and for them to answer, The Lord bless thee! <reference osisRef=\"Rut.2.4\">Rut 2:4</reference>. Let their land become desolate, so that no harvest shall ever more appear in it. No interchange of benedictions between owners and reapers. This has literally taken place: Babylon is utterly destroyed; no harvests grow near the place where it stood.  <chapter eID=\"Ps.129\"/> <div eID=\"gen23148\" type=\"x-p\"/>",
+      "content_plain": "Verse 8 Neither do they which go by say - There is a reference here to the salutations which were given and returned by the reapers in the time of the harvest. We find that it was customary, when the master came to them into the field, to say unto the reapers, The Lord be with you! and for them to answer, The Lord bless thee! Rut 2:4 . Let their land become desolate, so that no harvest shall ever more appear in it. No interchange of benedictions between owners and reapers. This has literally taken place: Babylon is utterly destroyed; no harvests grow near the place where it stood.",
+      "source_record_sha256": "2aa5523fd5f5cbc4293afe03d94d88ca7f063251270da864a0550ba9006f709b",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 1807943,
+        "length": 772
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "PSA.129.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 8 Neither do they which go by say - There is a reference here to the salutations which were given and returned by the reapers in the time of the harvest. We find that it was customary, when the master came to them into the field, to say unto the reapers, The Lord be with you! and for them to answer, The Lord bless thee! Rut 2:4 . Let their land become desolate, so that no harvest shall ever more appear in it. No interchange of benedictions between owners and reapers. This has literally taken place: Babylon is utterly destroyed; no harvests grow near the place where it stood."
+    }
+  ],
+  "indexed_verse_count": 7,
+  "unindexed_verse_count": 1,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 7
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:PSA.129:P:introduction",
+      "navigation_id": "PSA.129:P:introduction",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Introduction",
+      "content_plain": "Introduction",
+      "content_osis": "<title type=\"x-s\">Introduction</title>",
+      "source_entry_id": "sword:clarke:PSA.129.1-1:19:1803807:1605",
+      "source_character_span": [
+        33,
+        71
+      ],
+      "source_fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.129.1",
+        "PSA.129.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 7
+}
