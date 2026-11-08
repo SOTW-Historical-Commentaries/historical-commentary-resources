@@ -1,0 +1,153 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "PSA",
+  "chapter": 114,
+  "canonical_chapter": "PSA.114",
+  "versification": "KJV",
+  "verse_count": 8,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"114\" osisID=\"Ps.114\" sID=\"Ps.114\"/><div eID=\"gen10489\" type=\"x-p\"/> ",
+      "source_record_sha256": "7bc17d356d0e9c8b3d9ca7713b3ade16a35b8a227166740588c48790a22745da",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 761197,
+        "length": 80
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:PSA.114.1-4:19:761277:558",
+      "passage_start": "PSA.114.1",
+      "passage_end": "PSA.114.4",
+      "start_verse": 1,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6830\"/><title type=\"x-s2\">PSALM 114</title> <title type=\"x-s3\"><reference osisRef=\"Ps.114.1-Ps.114.8\">Psa 114:1-8</reference>. The writer briefly and beautifully celebrates God's former care of His people, to whose benefit nature was miraculously made to contribute.</title> <div sID=\"gen10490\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6830\"/><hi type=\"bold\">1-4. of strange language--</hi>(compare <reference osisRef=\"Ps.81.5\">Psa 81:5</reference>). <div eID=\"gen10490\" type=\"x-p\"/>",
+      "content_plain": "PSALM 114 Psa 114:1-8 . The writer briefly and beautifully celebrates God's former care of His people, to whose benefit nature was miraculously made to contribute. 1-4. of strange language-- (compare Psa 81:5 ).",
+      "source_record_sha256": "1a0931390ed56ead940f8b97f3327c8bb7a9126c32ed9146bb887ed57e12aa10",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 761277,
+        "length": 558
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "PSA.114.1-4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "PSALM 114 Psa 114:1-8 . The writer briefly and beautifully celebrates God's former care of His people, to whose benefit nature was miraculously made to contribute. 1-4. of strange language-- (compare Psa 81:5 )."
+    },
+    {
+      "entry_id": "sword:jfb:PSA.114.5-8:19:762537:252",
+      "passage_start": "PSA.114.5",
+      "passage_end": "PSA.114.8",
+      "start_verse": 5,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv6832\"/><div sID=\"gen10492\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv6832\"/>5-8. The questions place the implied answers in a more striking form. <div eID=\"gen10492\" type=\"x-p\"/>",
+      "content_plain": "5-8. The questions place the implied answers in a more striking form.",
+      "source_record_sha256": "5823d6389748bbd9978620148dafc2961e4f725313e1a8f912ae97036ccbb9ba",
+      "index_record": {
+        "testament": "OT",
+        "block": 19,
+        "offset": 762537,
+        "length": 252
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "PSA.114.5-8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5-8. The questions place the implied answers in a more striking form."
+    }
+  ],
+  "indexed_verse_count": 8,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 2
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.114:P:psalm-114",
+      "navigation_id": "PSA.114:P:psalm-114",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "PSALM 114",
+      "content_plain": "PSALM 114",
+      "content_osis": "<title type=\"x-s2\">PSALM 114</title>",
+      "source_entry_id": "sword:jfb:PSA.114.1-4:19:761277:558",
+      "source_character_span": [
+        59,
+        95
+      ],
+      "source_fragment_sha256": "4541a18efbbe18211a15ac95ad7196398ad123643e31ab88bce64352145b30e5",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.114.1",
+        "PSA.114.4"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:PSA.114:P:psa-114-1-8-the-writer-briefly-and-beautifully-celebrates-god-s-former-care-of",
+      "navigation_id": "PSA.114:P:psa-114-1-8-the-writer-briefly-and-beautifully-celebrates-god-s-former-care-of",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Psa 114:1-8 . The writer briefly and beautifully celebrates God's former care of His people, to whose benefit nature was miraculously made to contribute.",
+      "content_plain": "Psa 114:1-8 . The writer briefly and beautifully celebrates God's former care of His people, to whose benefit nature was miraculously made to contribute.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Ps.114.1-Ps.114.8\">Psa 114:1-8</reference>. The writer briefly and beautifully celebrates God's former care of His people, to whose benefit nature was miraculously made to contribute.</title>",
+      "source_entry_id": "sword:jfb:PSA.114.1-4:19:761277:558",
+      "source_character_span": [
+        96,
+        326
+      ],
+      "source_fragment_sha256": "8b420a141eb7c664f375dd7e862c448a93d30da12cabe181b546b03617ae745e",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "PSA.114.1",
+        "PSA.114.4"
+      ],
+      "source_title_explicit_range": [
+        "PSA.114.1",
+        "PSA.114.8"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 2
+}
