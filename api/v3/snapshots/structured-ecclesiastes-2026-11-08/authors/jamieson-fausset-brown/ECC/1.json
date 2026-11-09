@@ -1,0 +1,578 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-ecclesiastes-2026-11-08",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "ECC",
+  "chapter": 1,
+  "canonical_chapter": "ECC.1",
+  "versification": "KJV",
+  "verse_count": 18,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Eccl\" sID=\"gen12342\" type=\"book\"/> <milestone n=\"ECCLESIASTES; OR THE PREACHER.\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">ECCLESIASTES; OR THE PREACHER.</title> <div sID=\"gen12343\" type=\"x-p\"/> THE GREEK TITLE IN THE LXX.<div eID=\"gen12343\" type=\"x-p\"/> <div sID=\"gen12344\" type=\"x-p\"/><div eID=\"gen12344\" type=\"x-p\"/> ",
+      "source_record_sha256": "4799e112eab2eef418ea6e40d3517b1dec78d7619bbc8a00317682cc60ea9462",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 0,
+        "length": 422
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Eccl.1\" sID=\"Eccl.1\"/> <div sID=\"gen12345\" type=\"introduction\"/> ",
+      "source_record_sha256": "60cc56e65490ca923c8a0be2e59070ad0037557abc8e0c0ca2785627a09133b6",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 422,
+        "length": 88
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+      "passage_start": "ECC.1.1",
+      "passage_end": "ECC.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7978\"/><title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen12346\" type=\"x-p\"/> The Hebrew title is Koheleth, which the speaker in it applies to himself (<reference osisRef=\"Eccl.1.12\">Ec 1:12</reference>), \"I, Koheleth, was king over Israel.\" It means an Assembler or Convener of a meeting and a Preacher to such a meeting. The feminine form of the Hebrew noun, and its construction once (<reference osisRef=\"Eccl.7.27\">Ec 7:27</reference>) with a feminine verb, show that it not only signifies Solomon, the Preacher to assemblies (in which case it is construed with the verb or noun masculine), but also Divine Wisdom (feminine in Hebrew) speaking by the mouth of the inspired king. In six cases out of seven it is construed with the masculine. Solomon was endowed with inspired wisdom (1Ki 3:5-14; 6:<reference osisRef=\"1Kgs.11.12\">11, 12</reference>; <reference osisRef=\"1Kgs.9.1-1Kgs.9.9\">9:1-9</reference>; <reference osisRef=\"1Cor.11.9-1Cor.11.11\">11:9-11</reference>), specially fitting him for the task. The Orientals delight in such meetings for grave discourse. Thus the Arabs formerly had an assembly yearly, at Ocadh, for hearing and reciting poems. Compare \"Masters of assemblies\" (see on <reference osisRef=\"Eccl.12.11\">Ec 12:11</reference>, also <reference osisRef=\"Eccl.12.9\">Ec 12:9</reference>). \"The Preacher taught the people knowledge,\" probably viva voce (\"orally\"); <reference osisRef=\"1Kgs.4.34\">1Ki 4:34</reference>; <reference osisRef=\"1Kgs.10.2\">10:2</reference>, <reference osisRef=\"1Kgs.8.24\">8, 24</reference>; <reference osisRef=\"2Chr.9.1\">2Ch 9:1</reference>, 7, 23, plainly refer to a somewhat public divan met for literary discussion. So \"spake,\" thrice repeated (<reference osisRef=\"1Kgs.4.32\">1Ki 4:32</reference>, <reference osisRef=\"1Kgs.4.33\">33</reference>), refers not to written compositions, but to addresses spoken in assemblies convened for the purpose. The Holy Ghost, no doubt, signifies also by the term that Solomon's doctrine is intended for the \"great congregation,\" the Church of all places and ages (<reference osisRef=\"Ps.22.25\">Psa 22:25</reference>; <reference osisRef=\"Ps.49.2-Ps.49.4\">49:2-4</reference>).<div eID=\"gen12346\" type=\"x-p\"/> <div eID=\"gen12345\" type=\"introduction\"/> <div sID=\"gen12347\" type=\"x-p\"/> Solomon was plainly the author (<reference osisRef=\"Eccl.1.12\">Ec 1:12</reference>, <reference osisRef=\"1Cor.1.16\">16</reference>; 2:15; 12:9). That the Rabbins attribute it to Isaiah or Hezekiah is explicable by supposing that one or the other inserted it in the canon. The difference of its style, as compared with Proverbs and Song of Solomon, is due to the difference of subjects, and the different period of his life in which each was written; the Song, in the fervor of his first love to God; Proverbs, about the same time, or somewhat later; but Ecclesiastes in late old age, as the seal and testimony of repentance of his apostasy in the intervening period: <reference osisRef=\"Ps.89.30\">Psa 89:30</reference>, <reference osisRef=\"Ps.89.33\">33</reference> proves his penitence. The substitution of the title Koheleth for Solomon (that is, peace), may imply that, having troubled Israel, meantime he forfeited his name of peace (<reference osisRef=\"1Kgs.11.14\">1Ki 11:14</reference>, <reference osisRef=\"1Kgs.11.23\">23</reference>); but now, having repented, he wishes to be henceforth a Preacher of righteousness. The alleged foreign expressions in the Hebrew may have been easily imported, through the great intercourse there was with other nations during his long reign. Moreover, supposed Chaldaisms may be fragments preserved from the common tongue of which Hebrew, Syriac, Chaldee, and Arabic were offshoots.<div eID=\"gen12347\" type=\"x-p\"/> <div sID=\"gen12348\" type=\"x-p\"/> The Scope of Ecclesiastes is to show the vanity of all mere human pursuits, when made the chief end, as contrasted with the real blessedness of true wisdom, that is, religion. The immortality of the soul is dwelt on incidentally, as subsidiary to the main scope. Moses' law took this truth for granted but drew its sanctions of rewards and punishments in accordance with the theocracy, which was under a special providence of God as the temporal King of Israel, from the present life, rather than the future. But after Israel chose an earthly king, God withdrew, in part, His extraordinary providence, so that under Solomon, temporal rewards did not invariably follow virtue, and punishments vice (compare <reference osisRef=\"Eccl.2.16\">Ec 2:16</reference>; 3:19; <reference osisRef=\"2Cor.4.1\">4:1</reference>; <reference osisRef=\"2Cor.5.8\">5:8</reference>; <reference osisRef=\"2Cor.7.15\">7:15</reference>; <reference osisRef=\"2Cor.8.14\">8:14</reference>; <reference osisRef=\"2Cor.9.2\">9:2</reference>, <reference osisRef=\"2Cor.9.11\">11</reference>). Hence the need arises to show that these anomalies will be rectified hereafter, and this is the grand \"conclusion,\" therefore, of the \"whole\" book, that, seeing there is a coming judgment, and seeing that present goods do not satisfy the soul, \"man's whole duty is to fear God and keep his commandments\" (<reference osisRef=\"Eccl.12.13\">Ec 12:13</reference>, <reference osisRef=\"Eccl.12.14\">14</reference>), and meanwhile, to use, in joyful and serene sobriety, and not abuse, the present life (<reference osisRef=\"Eccl.3.12\">Ec 3:12</reference>, <reference osisRef=\"Eccl.3.13\">13</reference>).<div eID=\"gen12348\" type=\"x-p\"/> <div sID=\"gen12349\" type=\"x-p\"/> It is objected that sensual epicurism seems to be inculcated (<reference osisRef=\"Eccl.3.12\">Ec 3:12</reference>, 13, 22, &amp;c.); but it is a contented, thankful enjoyment of God's present gifts that is taught, as opposed to a murmuring, anxious, avaricious spirit, as is proved by <reference osisRef=\"Eccl.5.18\">Ec 5:18</reference>, compare with <reference osisRef=\"Eccl.5.11-Eccl.5.15\">Ec 5:11-15</reference>, not making them the chief end of life; not the joy of levity and folly; a misunderstanding which he guards against in <reference osisRef=\"Eccl.7.2-Eccl.6.11\">Ec 7:2-6; 11</reference>:9; 12:1. Again, <reference osisRef=\"Eccl.7.16\">Ec 7:16</reference>; <reference osisRef=\"Eccl.9.2-Eccl.9.10\">9:2-10</reference>, might seem to teach fatalism and skepticism. But these are words put in the mouth of an objector; or rather, they were the language of Solomon himself during his apostasy, finding an echo in the heart of every sensualist, who wishes to be an unbeliever, and, who, therefore, sees difficulties enough in the world around wherewith to prop up his wilful unbelief. The answer is given (<reference osisRef=\"Eccl.7.17\">Ec 7:17</reference>, <reference osisRef=\"Eccl.7.18\">18</reference>; <reference osisRef=\"Eccl.9.11\">9:11</reference>, <reference osisRef=\"Eccl.9.12\">12</reference>; <reference osisRef=\"Eccl.11.1\">11:1</reference>, <reference osisRef=\"Eccl.11.6\">6</reference>; <reference osisRef=\"Eccl.12.13\">12:13</reference>). Even if these passages be taken as words of Solomon, they are to be understood as forbidding a self-made \"righteousness,\" which tries to constrain God to grant salvation to imaginary good works and external strictness with which it wearies itself; also, that speculation which tries to fathom all God's inscrutable counsels (<reference osisRef=\"Eccl.8.17\">Ec 8:17</reference>), and that carefulness about the future forbidden in <reference osisRef=\"Matt.6.25\">Mt 6:25</reference>.<div eID=\"gen12349\" type=\"x-p\"/> <div sID=\"gen12350\" type=\"x-p\"/> The Chief Good is that the possession of that which makes us happy, is to be sought as the end, for its own sake; whereas, all other things are but means towards it. Philosophers, who made it the great subject of inquiry, restricted it to the present life, treating the eternal as unreal, and only useful to awe the multitude with. But Solomon shows the vanity of all human things (so-called philosophy included) to satisfy the soul, and that heavenly wisdom alone is the chief good. He had taught so when young (<reference osisRef=\"Prov.1.20\">Pr 1:20</reference>; <reference osisRef=\"1Cor.8.1\">8:1</reference>); so also; in Song of Solomon, he had spiritualized the subject in an allegory; and now, after having long personally tried the manifold ways in which the worldly seek to reach happiness, he gives the fruit of his experience in old age.<div eID=\"gen12350\" type=\"x-p\"/> <div sID=\"gen12351\" type=\"x-p\"/><hi type=\"bold\">It is divided into two parts--</hi>Ec 1:<reference osisRef=\"1Cor.6.10\">1-6:10</reference> showing the vanity of earthly things; Ec 6:10-12:14, the excellence of heavenly wisdom. Deviations from strict logical methods occur in these divisions, but in the main they are observed. The deviations make it the less stiff and artificial, and the more suited to all capacities. It is in poetry; the hemistichal division is mostly observed, but occasionally not so. The choice of epithets, imagery, inverted order of words, ellipses, parallelism, or, in its absence, similarity of diction, mark versification.<div eID=\"gen12351\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <title type=\"x-s3\"><reference osisRef=\"Eccl.1.1-Eccl.1.18\">Ec 1:1-18</reference>. Introduction.</title> <div sID=\"gen12352\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7978\"/><hi type=\"bold\">1. the Preacher--</hi>and Convener of assemblies for the purpose. See my Preface. Koheleth in Hebrew, a symbolical name for Solomon, and of Heavenly Wisdom speaking through and identified with him. <reference osisRef=\"Eccl.1.12\">Ec 1:12</reference> shows that \"king of Jerusalem\" is in apposition, not with \"David,\" but \"Preacher.\"<div eID=\"gen12352\" type=\"x-p\"/> <div sID=\"gen12353\" type=\"x-p\"/><hi type=\"bold\">of Jerusalem--</hi>rather, \"in Jerusalem,\" for it was merely his metropolis, not his whole kingdom. <div eID=\"gen12353\" type=\"x-p\"/>",
+      "content_plain": "INTRODUCTION The Hebrew title is Koheleth, which the speaker in it applies to himself ( Ec 1:12 ), \"I, Koheleth, was king over Israel.\" It means an Assembler or Convener of a meeting and a Preacher to such a meeting. The feminine form of the Hebrew noun, and its construction once ( Ec 7:27 ) with a feminine verb, show that it not only signifies Solomon, the Preacher to assemblies (in which case it is construed with the verb or noun masculine), but also Divine Wisdom (feminine in Hebrew) speaking by the mouth of the inspired king. In six cases out of seven it is construed with the masculine. Solomon was endowed with inspired wisdom (1Ki 3:5-14; 6: 11, 12 ; 9:1-9 ; 11:9-11 ), specially fitting him for the task. The Orientals delight in such meetings for grave discourse. Thus the Arabs formerly had an assembly yearly, at Ocadh, for hearing and reciting poems. Compare \"Masters of assemblies\" (see on Ec 12:11 , also Ec 12:9 ). \"The Preacher taught the people knowledge,\" probably viva voce (\"orally\"); 1Ki 4:34 ; 10:2 , 8, 24 ; 2Ch 9:1 , 7, 23, plainly refer to a somewhat public divan met for literary discussion. So \"spake,\" thrice repeated ( 1Ki 4:32 , 33 ), refers not to written compositions, but to addresses spoken in assemblies convened for the purpose. The Holy Ghost, no doubt, signifies also by the term that Solomon's doctrine is intended for the \"great congregation,\" the Church of all places and ages ( Psa 22:25 ; 49:2-4 ). Solomon was plainly the author ( Ec 1:12 , 16 ; 2:15; 12:9). That the Rabbins attribute it to Isaiah or Hezekiah is explicable by supposing that one or the other inserted it in the canon. The difference of its style, as compared with Proverbs and Song of Solomon, is due to the difference of subjects, and the different period of his life in which each was written; the Song, in the fervor of his first love to God; Proverbs, about the same time, or somewhat later; but Ecclesiastes in late old age, as the seal and testimony of repentance of his apostasy in the intervening period: Psa 89:30 , 33 proves his penitence. The substitution of the title Koheleth for Solomon (that is, peace), may imply that, having troubled Israel, meantime he forfeited his name of peace ( 1Ki 11:14 , 23 ); but now, having repented, he wishes to be henceforth a Preacher of righteousness. The alleged foreign expressions in the Hebrew may have been easily imported, through the great intercourse there was with other nations during his long reign. Moreover, supposed Chaldaisms may be fragments preserved from the common tongue of which Hebrew, Syriac, Chaldee, and Arabic were offshoots. The Scope of Ecclesiastes is to show the vanity of all mere human pursuits, when made the chief end, as contrasted with the real blessedness of true wisdom, that is, religion. The immortality of the soul is dwelt on incidentally, as subsidiary to the main scope. Moses' law took this truth for granted but drew its sanctions of rewards and punishments in accordance with the theocracy, which was under a special providence of God as the temporal King of Israel, from the present life, rather than the future. But after Israel chose an earthly king, God withdrew, in part, His extraordinary providence, so that under Solomon, temporal rewards did not invariably follow virtue, and punishments vice (compare Ec 2:16 ; 3:19; 4:1 ; 5:8 ; 7:15 ; 8:14 ; 9:2 , 11 ). Hence the need arises to show that these anomalies will be rectified hereafter, and this is the grand \"conclusion,\" therefore, of the \"whole\" book, that, seeing there is a coming judgment, and seeing that present goods do not satisfy the soul, \"man's whole duty is to fear God and keep his commandments\" ( Ec 12:13 , 14 ), and meanwhile, to use, in joyful and serene sobriety, and not abuse, the present life ( Ec 3:12 , 13 ). It is objected that sensual epicurism seems to be inculcated ( Ec 3:12 , 13, 22, &c.); but it is a contented, thankful enjoyment of God's present gifts that is taught, as opposed to a murmuring, anxious, avaricious spirit, as is proved by Ec 5:18 , compare with Ec 5:11-15 , not making them the chief end of life; not the joy of levity and folly; a misunderstanding which he guards against in Ec 7:2-6; 11 :9; 12:1. Again, Ec 7:16 ; 9:2-10 , might seem to teach fatalism and skepticism. But these are words put in the mouth of an objector; or rather, they were the language of Solomon himself during his apostasy, finding an echo in the heart of every sensualist, who wishes to be an unbeliever, and, who, therefore, sees difficulties enough in the world around wherewith to prop up his wilful unbelief. The answer is given ( Ec 7:17 , 18 ; 9:11 , 12 ; 11:1 , 6 ; 12:13 ). Even if these passages be taken as words of Solomon, they are to be understood as forbidding a self-made \"righteousness,\" which tries to constrain God to grant salvation to imaginary good works and external strictness with which it wearies itself; also, that speculation which tries to fathom all God's inscrutable counsels ( Ec 8:17 ), and that carefulness about the future forbidden in Mt 6:25 . The Chief Good is that the possession of that which makes us happy, is to be sought as the end, for its own sake; whereas, all other things are but means towards it. Philosophers, who made it the great subject of inquiry, restricted it to the present life, treating the eternal as unreal, and only useful to awe the multitude with. But Solomon shows the vanity of all human things (so-called philosophy included) to satisfy the soul, and that heavenly wisdom alone is the chief good. He had taught so when young ( Pr 1:20 ; 8:1 ); so also; in Song of Solomon, he had spiritualized the subject in an allegory; and now, after having long personally tried the manifold ways in which the worldly seek to reach happiness, he gives the fruit of his experience in old age. It is divided into two parts-- Ec 1: 1-6:10 showing the vanity of earthly things; Ec 6:10-12:14, the excellence of heavenly wisdom. Deviations from strict logical methods occur in these divisions, but in the main they are observed. The deviations make it the less stiff and artificial, and the more suited to all capacities. It is in poetry; the hemistichal division is mostly observed, but occasionally not so. The choice of epithets, imagery, inverted order of words, ellipses, parallelism, or, in its absence, similarity of diction, mark versification. CHAPTER 1 Ec 1:1-18 . Introduction. 1. the Preacher-- and Convener of assemblies for the purpose. See my Preface. Koheleth in Hebrew, a symbolical name for Solomon, and of Heavenly Wisdom speaking through and identified with him. Ec 1:12 shows that \"king of Jerusalem\" is in apposition, not with \"David,\" but \"Preacher.\" of Jerusalem-- rather, \"in Jerusalem,\" for it was merely his metropolis, not his whole kingdom.",
+      "source_record_sha256": "a4905e7b2fbcffc166788142ab4312c1edcbd1f4825ac6e0535457637cc63bf5",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 510,
+        "length": 9871
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. the Preacher-- and Convener of assemblies for the purpose. See my Preface. Koheleth in Hebrew, a symbolical name for Solomon, and of Heavenly Wisdom speaking through and identified with him. Ec 1:12 shows that \"king of Jerusalem\" is in apposition, not with \"David,\" but \"Preacher.\" of Jerusalem-- rather, \"in Jerusalem,\" for it was merely his metropolis, not his whole kingdom.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        9311,
+        9871
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. the Preacher--</hi>and Convener of assemblies for the purpose. See my Preface. Koheleth in Hebrew, a symbolical name for Solomon, and of Heavenly Wisdom speaking through and identified with him. <reference osisRef=\"Eccl.1.12\">Ec 1:12</reference> shows that \"king of Jerusalem\" is in apposition, not with \"David,\" but \"Preacher.\"<div eID=\"gen12352\" type=\"x-p\"/> <div sID=\"gen12353\" type=\"x-p\"/><hi type=\"bold\">of Jerusalem--</hi>rather, \"in Jerusalem,\" for it was merely his metropolis, not his whole kingdom. <div eID=\"gen12353\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.2-2:21:10381:1369",
+      "passage_start": "ECC.1.2",
+      "passage_end": "ECC.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7979\"/><div sID=\"gen12354\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7979\"/>2. The theme proposed of the first part of his discourse.<div eID=\"gen12354\" type=\"x-p\"/> <div sID=\"gen12355\" type=\"x-p\"/><hi type=\"bold\">Vanity of vanities--</hi>Hebraism for the most utter vanity. So \"holy of holies\" (<reference osisRef=\"Exod.26.33\">Ex 26:33</reference>); \"servant of servants\" (<reference osisRef=\"Gen.9.25\">Ge 9:25</reference>). The repetition increases the force.<div eID=\"gen12355\" type=\"x-p\"/> <div sID=\"gen12356\" type=\"x-p\"/><hi type=\"bold\">all--</hi>Hebrew, \"the all\"; all without exception, namely, earthly things.<div eID=\"gen12356\" type=\"x-p\"/> <div sID=\"gen12357\" type=\"x-p\"/><hi type=\"bold\">vanity--</hi>not in themselves, for God maketh nothing in vain (<reference osisRef=\"1Tim.4.4\">1Ti 4:4</reference>, <reference osisRef=\"1Tim.4.5\">5</reference>), but vain when put in the place of God and made the end, instead of the means (<reference osisRef=\"Ps.39.5\">Psa 39:5</reference>, <reference osisRef=\"Ps.39.6\">6</reference>; <reference osisRef=\"Ps.62.9\">62:9</reference>; <reference osisRef=\"Matt.6.33\">Mt 6:33</reference>); vain, also, because of the \"vanity\" to which they are \"subjected\" by the fall (<reference osisRef=\"Rom.8.20\">Ro 8:20</reference>). <div eID=\"gen12357\" type=\"x-p\"/>",
+      "content_plain": "2. The theme proposed of the first part of his discourse. Vanity of vanities-- Hebraism for the most utter vanity. So \"holy of holies\" ( Ex 26:33 ); \"servant of servants\" ( Ge 9:25 ). The repetition increases the force. all-- Hebrew, \"the all\"; all without exception, namely, earthly things. vanity-- not in themselves, for God maketh nothing in vain ( 1Ti 4:4 , 5 ), but vain when put in the place of God and made the end, instead of the means ( Psa 39:5 , 6 ; 62:9 ; Mt 6:33 ); vain, also, because of the \"vanity\" to which they are \"subjected\" by the fall ( Ro 8:20 ).",
+      "source_record_sha256": "b2713a31078df7ddd47bc2fd11eb20c862e05aa20276f185270440997cdabe78",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 10381,
+        "length": 1369
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. The theme proposed of the first part of his discourse. Vanity of vanities-- Hebraism for the most utter vanity. So \"holy of holies\" ( Ex 26:33 ); \"servant of servants\" ( Ge 9:25 ). The repetition increases the force. all-- Hebrew, \"the all\"; all without exception, namely, earthly things. vanity-- not in themselves, for God maketh nothing in vain ( 1Ti 4:4 , 5 ), but vain when put in the place of God and made the end, instead of the means ( Psa 39:5 , 6 ; 62:9 ; Mt 6:33 ); vain, also, because of the \"vanity\" to which they are \"subjected\" by the fall ( Ro 8:20 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.3-3:21:11750:689",
+      "passage_start": "ECC.1.3",
+      "passage_end": "ECC.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7980\"/><div sID=\"gen12358\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7980\"/><hi type=\"bold\">3. What profit ... labour--</hi>that is, \"What profit\" as to the chief good (<reference osisRef=\"Matt.16.26\">Mt 16:26</reference>). Labor is profitable in its proper place (<reference osisRef=\"Gen.2.15\">Ge 2:15</reference>; 3:19; <reference osisRef=\"Prov.14.23\">Pr 14:23</reference>).<div eID=\"gen12358\" type=\"x-p\"/> <div sID=\"gen12359\" type=\"x-p\"/><hi type=\"bold\">under the sun--</hi>that is, in this life, as opposed to the future world. The phrase often recurs, but only in Ecclesiastes. <div eID=\"gen12359\" type=\"x-p\"/>",
+      "content_plain": "3. What profit ... labour-- that is, \"What profit\" as to the chief good ( Mt 16:26 ). Labor is profitable in its proper place ( Ge 2:15 ; 3:19; Pr 14:23 ). under the sun-- that is, in this life, as opposed to the future world. The phrase often recurs, but only in Ecclesiastes.",
+      "source_record_sha256": "91673d47ce9b868dfd92b63ba2afec7dfc5aa86da4f74189e80492d094dae369",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 11750,
+        "length": 689
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. What profit ... labour-- that is, \"What profit\" as to the chief good ( Mt 16:26 ). Labor is profitable in its proper place ( Ge 2:15 ; 3:19; Pr 14:23 ). under the sun-- that is, in this life, as opposed to the future world. The phrase often recurs, but only in Ecclesiastes."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.4-4:21:12439:575",
+      "passage_start": "ECC.1.4",
+      "passage_end": "ECC.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7981\"/><div sID=\"gen12360\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7981\"/><hi type=\"bold\">4. earth ... for ever--</hi>(<reference osisRef=\"Ps.104.5\">Psa 104:5</reference>). While the earth remains the same, the generations of men are ever changing; what lasting profit, then, can there be from the toils of one whose sojourn on earth, as an individual, is so brief? The \"for ever\" is comparative, not absolute (<reference osisRef=\"Ps.102.26\">Psa 102:26</reference>). <div eID=\"gen12360\" type=\"x-p\"/>",
+      "content_plain": "4. earth ... for ever-- ( Psa 104:5 ). While the earth remains the same, the generations of men are ever changing; what lasting profit, then, can there be from the toils of one whose sojourn on earth, as an individual, is so brief? The \"for ever\" is comparative, not absolute ( Psa 102:26 ).",
+      "source_record_sha256": "d53a46b7b992bd98d92cf305a8499433e0b2014761b200a28f4f9fcdec25a575",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 12439,
+        "length": 575
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. earth ... for ever-- ( Psa 104:5 ). While the earth remains the same, the generations of men are ever changing; what lasting profit, then, can there be from the toils of one whose sojourn on earth, as an individual, is so brief? The \"for ever\" is comparative, not absolute ( Psa 102:26 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.5-5:21:13014:638",
+      "passage_start": "ECC.1.5",
+      "passage_end": "ECC.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7982\"/><div sID=\"gen12361\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7982\"/>5. (<reference osisRef=\"Ps.19.5\">Psa 19:5</reference>, <reference osisRef=\"Ps.19.6\">6</reference>). \"Panting\" as the Hebrew for \"hasteth\"; metaphor, from a runner (<reference osisRef=\"Ps.19.5\">Psa 19:5</reference>, \"a strong man\") in a \"race.\" It applies rather to the rising sun, which seems laboriously to mount up to the meridian, than to the setting sun; the accents too favor Maurer, \"And (that too, returning) to his place, where panting he riseth.\" <div eID=\"gen12361\" type=\"x-p\"/>",
+      "content_plain": "5. ( Psa 19:5 , 6 ). \"Panting\" as the Hebrew for \"hasteth\"; metaphor, from a runner ( Psa 19:5 , \"a strong man\") in a \"race.\" It applies rather to the rising sun, which seems laboriously to mount up to the meridian, than to the setting sun; the accents too favor Maurer, \"And (that too, returning) to his place, where panting he riseth.\"",
+      "source_record_sha256": "e5358b0985e1756372082033c4e748a10bbb8c093864ceedd493195ba3664cff",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 13014,
+        "length": 638
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. ( Psa 19:5 , 6 ). \"Panting\" as the Hebrew for \"hasteth\"; metaphor, from a runner ( Psa 19:5 , \"a strong man\") in a \"race.\" It applies rather to the rising sun, which seems laboriously to mount up to the meridian, than to the setting sun; the accents too favor Maurer, \"And (that too, returning) to his place, where panting he riseth.\""
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.6-6:21:13652:408",
+      "passage_start": "ECC.1.6",
+      "passage_end": "ECC.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7983\"/><div sID=\"gen12362\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7983\"/><hi type=\"bold\">6. according to his circuits--</hi>that is, it returns afresh to its former circuits, however many be its previous veerings about. The north and south winds are the two prevailing winds in Palestine and Egypt. <div eID=\"gen12362\" type=\"x-p\"/>",
+      "content_plain": "6. according to his circuits-- that is, it returns afresh to its former circuits, however many be its previous veerings about. The north and south winds are the two prevailing winds in Palestine and Egypt.",
+      "source_record_sha256": "3e21b45a9aa76ed10ecb6263c380f65576ad511386641ce9650514d76a89c3db",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 13652,
+        "length": 408
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. according to his circuits-- that is, it returns afresh to its former circuits, however many be its previous veerings about. The north and south winds are the two prevailing winds in Palestine and Egypt."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.7-7:21:14060:768",
+      "passage_start": "ECC.1.7",
+      "passage_end": "ECC.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7984\"/><div sID=\"gen12363\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7984\"/>7. By subterraneous cavities, and by evaporation forming rain clouds, the fountains and rivers are supplied from the sea, into which they then flow back. The connection is: Individual men are continually changing, while the succession of the race continues; just as the sun, wind, and rivers are ever shifting about, while the cycle in which they move is invariable; they return to the point whence they set out. Hence is man, as in these objects of nature which are his analogue, with all the seeming changes \"there is no new thing\" (<reference osisRef=\"Eccl.1.9\">Ec 1:9</reference>). <div eID=\"gen12363\" type=\"x-p\"/>",
+      "content_plain": "7. By subterraneous cavities, and by evaporation forming rain clouds, the fountains and rivers are supplied from the sea, into which they then flow back. The connection is: Individual men are continually changing, while the succession of the race continues; just as the sun, wind, and rivers are ever shifting about, while the cycle in which they move is invariable; they return to the point whence they set out. Hence is man, as in these objects of nature which are his analogue, with all the seeming changes \"there is no new thing\" ( Ec 1:9 ).",
+      "source_record_sha256": "0d9f275e3a843b600d3544752cac871bce3226abd94896efdf7ca51a4406dd4d",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 14060,
+        "length": 768
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. By subterraneous cavities, and by evaporation forming rain clouds, the fountains and rivers are supplied from the sea, into which they then flow back. The connection is: Individual men are continually changing, while the succession of the race continues; just as the sun, wind, and rivers are ever shifting about, while the cycle in which they move is invariable; they return to the point whence they set out. Hence is man, as in these objects of nature which are his analogue, with all the seeming changes \"there is no new thing\" ( Ec 1:9 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.8-8:21:14828:1201",
+      "passage_start": "ECC.1.8",
+      "passage_end": "ECC.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7985\"/><div sID=\"gen12364\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7985\"/>8. Maurer translates, \"All words are wearied out,\" that is, are inadequate, as also, \"man cannot express\" all the things in the world which undergo this ceaseless, changeless cycle of vicissitudes: \"The eye is not satisfied with seeing them,\" &amp;c. But it is plainly a return to the idea (<reference osisRef=\"Eccl.1.3\">Ec 1:3</reference>) as to man's \"labor,\" which is only wearisome and profitless; \"no new\" good can accrue from it (<reference osisRef=\"Eccl.1.9\">Ec 1:9</reference>); for as the sun, &amp;c., so man's laborious works move in a changeless cycle. The eye and ear are two of the taskmasters for which man toils. But these are never \"satisfied\" (<reference osisRef=\"Eccl.6.7\">Ec 6:7</reference>; <reference osisRef=\"Prov.27.20\">Pr 27:20</reference>). Nor can they be so hereafter, for there will be nothing \"new.\" Not so the chief good, Jesus Christ (<reference osisRef=\"John.4.13\">Joh 4:13</reference>, <reference osisRef=\"John.4.14\">14</reference>; <reference osisRef=\"Rev.21.5\">Re 21:5</reference>). <div eID=\"gen12364\" type=\"x-p\"/>",
+      "content_plain": "8. Maurer translates, \"All words are wearied out,\" that is, are inadequate, as also, \"man cannot express\" all the things in the world which undergo this ceaseless, changeless cycle of vicissitudes: \"The eye is not satisfied with seeing them,\" &c. But it is plainly a return to the idea ( Ec 1:3 ) as to man's \"labor,\" which is only wearisome and profitless; \"no new\" good can accrue from it ( Ec 1:9 ); for as the sun, &c., so man's laborious works move in a changeless cycle. The eye and ear are two of the taskmasters for which man toils. But these are never \"satisfied\" ( Ec 6:7 ; Pr 27:20 ). Nor can they be so hereafter, for there will be nothing \"new.\" Not so the chief good, Jesus Christ ( Joh 4:13 , 14 ; Re 21:5 ).",
+      "source_record_sha256": "7ac824d8163a1a06bfe4de2394c08ee63b07d2b23fdd3112f891f79598c142d5",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 14828,
+        "length": 1201
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. Maurer translates, \"All words are wearied out,\" that is, are inadequate, as also, \"man cannot express\" all the things in the world which undergo this ceaseless, changeless cycle of vicissitudes: \"The eye is not satisfied with seeing them,\" &c. But it is plainly a return to the idea ( Ec 1:3 ) as to man's \"labor,\" which is only wearisome and profitless; \"no new\" good can accrue from it ( Ec 1:9 ); for as the sun, &c., so man's laborious works move in a changeless cycle. The eye and ear are two of the taskmasters for which man toils. But these are never \"satisfied\" ( Ec 6:7 ; Pr 27:20 ). Nor can they be so hereafter, for there will be nothing \"new.\" Not so the chief good, Jesus Christ ( Joh 4:13 , 14 ; Re 21:5 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.9-9:21:16029:518",
+      "passage_start": "ECC.1.9",
+      "passage_end": "ECC.1.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7986\"/><div sID=\"gen12365\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7986\"/>9. Rather, \"no new thing at all\"; as in <reference osisRef=\"Num.11.6\">Nu 11:6</reference>. This is not meant in a general sense; but there is no new source of happiness (the subject in question) which can be devised; the same round of petty pleasures, cares, business, study, wars, &amp;c., being repeated over and over again [Holden]. <div eID=\"gen12365\" type=\"x-p\"/>",
+      "content_plain": "9. Rather, \"no new thing at all\"; as in Nu 11:6 . This is not meant in a general sense; but there is no new source of happiness (the subject in question) which can be devised; the same round of petty pleasures, cares, business, study, wars, &c., being repeated over and over again [Holden].",
+      "source_record_sha256": "ed24ef4676ff4c5c983c2a8d69f9c2ec12cca887059d3119de19f26be1fd7a10",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 16029,
+        "length": 518
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. Rather, \"no new thing at all\"; as in Nu 11:6 . This is not meant in a general sense; but there is no new source of happiness (the subject in question) which can be devised; the same round of petty pleasures, cares, business, study, wars, &c., being repeated over and over again [Holden]."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.10-10:21:16547:655",
+      "passage_start": "ECC.1.10",
+      "passage_end": "ECC.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7987\"/><div sID=\"gen12366\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7987\"/><hi type=\"bold\">10. old time--</hi>Hebrew, \"ages.\"<div eID=\"gen12366\" type=\"x-p\"/> <div sID=\"gen12367\" type=\"x-p\"/><hi type=\"bold\">which was--</hi>The Hebrew plural cannot be joined to the verb singular. Therefore translate: \"It hath been in the ages before; certainly it hath been before us\" [Holden]. Or, as Maurer: \"That which has been (done) before us (in our presence, <reference osisRef=\"1Chr.16.33\">1Ch 16:33</reference>), has been (done) already in the old times.\" <div eID=\"gen12367\" type=\"x-p\"/>",
+      "content_plain": "10. old time-- Hebrew, \"ages.\" which was-- The Hebrew plural cannot be joined to the verb singular. Therefore translate: \"It hath been in the ages before; certainly it hath been before us\" [Holden]. Or, as Maurer: \"That which has been (done) before us (in our presence, 1Ch 16:33 ), has been (done) already in the old times.\"",
+      "source_record_sha256": "954f90dff162a9ede6e79c19334cbbb1e4c9d37c4bdff3db444d7efcac73c903",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 16547,
+        "length": 655
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. old time-- Hebrew, \"ages.\" which was-- The Hebrew plural cannot be joined to the verb singular. Therefore translate: \"It hath been in the ages before; certainly it hath been before us\" [Holden]. Or, as Maurer: \"That which has been (done) before us (in our presence, 1Ch 16:33 ), has been (done) already in the old times.\""
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.11-11:21:17202:858",
+      "passage_start": "ECC.1.11",
+      "passage_end": "ECC.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7988\"/><div sID=\"gen12368\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7988\"/>11. The reason why some things are thought \"new,\" which are not really so, is the imperfect record that exists of preceding ages among their successors.<div eID=\"gen12368\" type=\"x-p\"/> <div sID=\"gen12369\" type=\"x-p\"/><hi type=\"bold\">those that ... come after--</hi>that is, those that live still later than the \"things, rather the persons or generations, <reference osisRef=\"Eccl.1.4\">Ec 1:4</reference>, with which this verse is connected, the six intermediate verses being merely illustrations of <reference osisRef=\"Eccl.1.4\">Ec 1:4</reference> [Weiss], that are to come\" (<reference osisRef=\"Eccl.2.16\">Ec 2:16</reference>; <reference osisRef=\"2Cor.9.5\">9:5</reference>). <div eID=\"gen12369\" type=\"x-p\"/>",
+      "content_plain": "11. The reason why some things are thought \"new,\" which are not really so, is the imperfect record that exists of preceding ages among their successors. those that ... come after-- that is, those that live still later than the \"things, rather the persons or generations, Ec 1:4 , with which this verse is connected, the six intermediate verses being merely illustrations of Ec 1:4 [Weiss], that are to come\" ( Ec 2:16 ; 9:5 ).",
+      "source_record_sha256": "d5ea95d71e98a8eaedb67526a6be77c0bf74448503d4de9c857af795a626a1b3",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 17202,
+        "length": 858
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. The reason why some things are thought \"new,\" which are not really so, is the imperfect record that exists of preceding ages among their successors. those that ... come after-- that is, those that live still later than the \"things, rather the persons or generations, Ec 1:4 , with which this verse is connected, the six intermediate verses being merely illustrations of Ec 1:4 [Weiss], that are to come\" ( Ec 2:16 ; 9:5 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.12-12:21:18060:996",
+      "passage_start": "ECC.1.12",
+      "passage_end": "ECC.1.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7989\"/><div sID=\"gen12370\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7989\"/>12. Resumption of <reference osisRef=\"Eccl.1.1\">Ec 1:1</reference>, the intermediate verses being the introductory statement of his thesis. Therefore, \"the Preacher\" (Koheleth) is repeated.<div eID=\"gen12370\" type=\"x-p\"/> <div sID=\"gen12371\" type=\"x-p\"/><hi type=\"bold\">was king--</hi>instead of \"am,\" because he is about to give the results of his past experience during his long reign.<div eID=\"gen12371\" type=\"x-p\"/> <div sID=\"gen12372\" type=\"x-p\"/><hi type=\"bold\">in Jerusalem--</hi>specified, as opposed to David, who reigned both in Hebron and Jerusalem; whereas Solomon reigned only in Jerusalem. \"King of Israel in Jerusalem,\" implies that he reigned over Israel and Judah combined; whereas David, at Hebron, reigned only over Judah, and not, until he was settled in Jerusalem, over both Israel and Judah. <div eID=\"gen12372\" type=\"x-p\"/>",
+      "content_plain": "12. Resumption of Ec 1:1 , the intermediate verses being the introductory statement of his thesis. Therefore, \"the Preacher\" (Koheleth) is repeated. was king-- instead of \"am,\" because he is about to give the results of his past experience during his long reign. in Jerusalem-- specified, as opposed to David, who reigned both in Hebron and Jerusalem; whereas Solomon reigned only in Jerusalem. \"King of Israel in Jerusalem,\" implies that he reigned over Israel and Judah combined; whereas David, at Hebron, reigned only over Judah, and not, until he was settled in Jerusalem, over both Israel and Judah.",
+      "source_record_sha256": "8d625c0f4a7c2c6d4c1c6d750ec3e4810724cf5d74e1570aaa2a30f937d67aff",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 18060,
+        "length": 996
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. Resumption of Ec 1:1 , the intermediate verses being the introductory statement of his thesis. Therefore, \"the Preacher\" (Koheleth) is repeated. was king-- instead of \"am,\" because he is about to give the results of his past experience during his long reign. in Jerusalem-- specified, as opposed to David, who reigned both in Hebron and Jerusalem; whereas Solomon reigned only in Jerusalem. \"King of Israel in Jerusalem,\" implies that he reigned over Israel and Judah combined; whereas David, at Hebron, reigned only over Judah, and not, until he was settled in Jerusalem, over both Israel and Judah."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.13-13:21:19056:830",
+      "passage_start": "ECC.1.13",
+      "passage_end": "ECC.1.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7990\"/><div sID=\"gen12373\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7990\"/><hi type=\"bold\">13. this sore travail--</hi>namely, that of \"searching out all things done under heaven.\" Not human wisdom in general, which comes afterwards (<reference osisRef=\"Eccl.2.12\">Ec 2:12</reference>, &amp;c.), but laborious enquiries into, and speculations about, the works of men; for example, political science. As man is doomed to get his bread, so his knowledge, by the sweat of his brow (<reference osisRef=\"Gen.3.19\">Ge 3:19</reference>) [Gill].<div eID=\"gen12373\" type=\"x-p\"/> <div sID=\"gen12374\" type=\"x-p\"/><hi type=\"bold\">exercised--</hi>that is, disciplined; literally, \"that they may thereby chastise, or humble themselves.\" <div eID=\"gen12374\" type=\"x-p\"/>",
+      "content_plain": "13. this sore travail-- namely, that of \"searching out all things done under heaven.\" Not human wisdom in general, which comes afterwards ( Ec 2:12 , &c.), but laborious enquiries into, and speculations about, the works of men; for example, political science. As man is doomed to get his bread, so his knowledge, by the sweat of his brow ( Ge 3:19 ) [Gill]. exercised-- that is, disciplined; literally, \"that they may thereby chastise, or humble themselves.\"",
+      "source_record_sha256": "227ea852d505f5551c571583837379e9c922d7df2c6b8dcee96e42b1bd988b47",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 19056,
+        "length": 830
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13. this sore travail-- namely, that of \"searching out all things done under heaven.\" Not human wisdom in general, which comes afterwards ( Ec 2:12 , &c.), but laborious enquiries into, and speculations about, the works of men; for example, political science. As man is doomed to get his bread, so his knowledge, by the sweat of his brow ( Ge 3:19 ) [Gill]. exercised-- that is, disciplined; literally, \"that they may thereby chastise, or humble themselves.\""
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.14-14:21:19886:929",
+      "passage_start": "ECC.1.14",
+      "passage_end": "ECC.1.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7991\"/><div sID=\"gen12375\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7991\"/>14. The reason is here given why investigation into man's \"works\" is only \"sore travail\" (<reference osisRef=\"Eccl.1.13\">Ec 1:13</reference>); namely, because all man's ways are vain (<reference osisRef=\"Eccl.1.18\">Ec 1:18</reference>) and cannot be mended (<reference osisRef=\"Eccl.1.15\">Ec 1:15</reference>).<div eID=\"gen12375\" type=\"x-p\"/> <div sID=\"gen12376\" type=\"x-p\"/><hi type=\"bold\">vexation of--</hi>\"a preying upon\"<div eID=\"gen12376\" type=\"x-p\"/> <div sID=\"gen12377\" type=\"x-p\"/><hi type=\"bold\">the Spirit--</hi>Maurer translates; \"the pursuit of wind,\" as in <reference osisRef=\"Eccl.5.16\">Ec 5:16</reference>; <reference osisRef=\"Hos.12.1\">Ho 12:1</reference>, \"Ephraim feedeth on wind.\" But old versions support the English Version. <div eID=\"gen12377\" type=\"x-p\"/>",
+      "content_plain": "14. The reason is here given why investigation into man's \"works\" is only \"sore travail\" ( Ec 1:13 ); namely, because all man's ways are vain ( Ec 1:18 ) and cannot be mended ( Ec 1:15 ). vexation of-- \"a preying upon\" the Spirit-- Maurer translates; \"the pursuit of wind,\" as in Ec 5:16 ; Ho 12:1 , \"Ephraim feedeth on wind.\" But old versions support the English Version.",
+      "source_record_sha256": "64378bff9bc88c8f8c7889eb294620a112261e8630b3a6c5dcba3e50eba6de7b",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 19886,
+        "length": 929
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14. The reason is here given why investigation into man's \"works\" is only \"sore travail\" ( Ec 1:13 ); namely, because all man's ways are vain ( Ec 1:18 ) and cannot be mended ( Ec 1:15 ). vexation of-- \"a preying upon\" the Spirit-- Maurer translates; \"the pursuit of wind,\" as in Ec 5:16 ; Ho 12:1 , \"Ephraim feedeth on wind.\" But old versions support the English Version."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.15-15:21:20815:1152",
+      "passage_start": "ECC.1.15",
+      "passage_end": "ECC.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7992\"/><div sID=\"gen12378\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7992\"/>15. Investigation (<reference osisRef=\"Eccl.1.13\">Ec 1:13</reference>) into human ways is vain labor, for they are hopelessly \"crooked\" and \"cannot be made straight\" by it (<reference osisRef=\"Eccl.7.13\">Ec 7:13</reference>). God, the chief good, alone can do this (<reference osisRef=\"Isa.40.4\">Is 40:4</reference>; <reference osisRef=\"Isa.45.2\">45:2</reference>).<div eID=\"gen12378\" type=\"x-p\"/> <div sID=\"gen12379\" type=\"x-p\"/><hi type=\"bold\">wanting--</hi>(<reference osisRef=\"Dan.5.27\">Da 5:27</reference>).<div eID=\"gen12379\" type=\"x-p\"/> <div sID=\"gen12380\" type=\"x-p\"/><hi type=\"bold\">numbered--</hi>so as to make a complete number; so equivalent to \"supplied\" [Maurer]. Or, rather, man's state is utterly wanting; and that which is wholly defective cannot be numbered or calculated. The investigator thinks he can draw up, in accurate numbers, statistics of man's wants; but these, including the defects in the investigator's labor, are not partial, but total. <div eID=\"gen12380\" type=\"x-p\"/>",
+      "content_plain": "15. Investigation ( Ec 1:13 ) into human ways is vain labor, for they are hopelessly \"crooked\" and \"cannot be made straight\" by it ( Ec 7:13 ). God, the chief good, alone can do this ( Is 40:4 ; 45:2 ). wanting-- ( Da 5:27 ). numbered-- so as to make a complete number; so equivalent to \"supplied\" [Maurer]. Or, rather, man's state is utterly wanting; and that which is wholly defective cannot be numbered or calculated. The investigator thinks he can draw up, in accurate numbers, statistics of man's wants; but these, including the defects in the investigator's labor, are not partial, but total.",
+      "source_record_sha256": "3d1a0604455615d950ad074728967ea776e6730ae212a30ceb2eb7db212cb502",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 20815,
+        "length": 1152
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "15. Investigation ( Ec 1:13 ) into human ways is vain labor, for they are hopelessly \"crooked\" and \"cannot be made straight\" by it ( Ec 7:13 ). God, the chief good, alone can do this ( Is 40:4 ; 45:2 ). wanting-- ( Da 5:27 ). numbered-- so as to make a complete number; so equivalent to \"supplied\" [Maurer]. Or, rather, man's state is utterly wanting; and that which is wholly defective cannot be numbered or calculated. The investigator thinks he can draw up, in accurate numbers, statistics of man's wants; but these, including the defects in the investigator's labor, are not partial, but total."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.16-16:21:21967:1268",
+      "passage_start": "ECC.1.16",
+      "passage_end": "ECC.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7993\"/><div sID=\"gen12381\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7993\"/><hi type=\"bold\">16. communed with ... heart--</hi>(<reference osisRef=\"Gen.24.45\">Ge 24:45</reference>).<div eID=\"gen12381\" type=\"x-p\"/> <div sID=\"gen12382\" type=\"x-p\"/><hi type=\"bold\">come to great estate--</hi>Rather, \"I have magnified and gotten\" (literally, \"added,\" increased), &amp;c.<div eID=\"gen12382\" type=\"x-p\"/> <div sID=\"gen12383\" type=\"x-p\"/><hi type=\"bold\">all ... before me in Jerusalem--</hi>namely, the priests, judges, and two kings that preceded Solomon. His wisdom exceeded that of all before Jesus Christ, the antitypical Koheleth, or \"Gatherer of men,\" (<reference osisRef=\"Luke.13.34\">Lu 13:34</reference>), and \"Wisdom\" incarnate (<reference osisRef=\"Matt.11.19\">Mt 11:19</reference>; <reference osisRef=\"Matt.12.42\">12:42</reference>).<div eID=\"gen12383\" type=\"x-p\"/> <div sID=\"gen12384\" type=\"x-p\"/><hi type=\"bold\">had ... experience--</hi>literally, \"had seen\" (<reference osisRef=\"Jer.2.31\">Jr 2:31</reference>). Contrast with this glorying in worldly wisdom (<reference osisRef=\"Jer.9.23\">Jr 9:23</reference>, <reference osisRef=\"Jer.9.24\">24</reference>). <div eID=\"gen12384\" type=\"x-p\"/>",
+      "content_plain": "16. communed with ... heart-- ( Ge 24:45 ). come to great estate-- Rather, \"I have magnified and gotten\" (literally, \"added,\" increased), &c. all ... before me in Jerusalem-- namely, the priests, judges, and two kings that preceded Solomon. His wisdom exceeded that of all before Jesus Christ, the antitypical Koheleth, or \"Gatherer of men,\" ( Lu 13:34 ), and \"Wisdom\" incarnate ( Mt 11:19 ; 12:42 ). had ... experience-- literally, \"had seen\" ( Jr 2:31 ). Contrast with this glorying in worldly wisdom ( Jr 9:23 , 24 ).",
+      "source_record_sha256": "e4aa44481bf0b0cd96471ec88cb0123c2a3aa32e6640caef8df11e0d891fde07",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 21967,
+        "length": 1268
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16. communed with ... heart-- ( Ge 24:45 ). come to great estate-- Rather, \"I have magnified and gotten\" (literally, \"added,\" increased), &c. all ... before me in Jerusalem-- namely, the priests, judges, and two kings that preceded Solomon. His wisdom exceeded that of all before Jesus Christ, the antitypical Koheleth, or \"Gatherer of men,\" ( Lu 13:34 ), and \"Wisdom\" incarnate ( Mt 11:19 ; 12:42 ). had ... experience-- literally, \"had seen\" ( Jr 2:31 ). Contrast with this glorying in worldly wisdom ( Jr 9:23 , 24 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.17-17:21:23235:764",
+      "passage_start": "ECC.1.17",
+      "passage_end": "ECC.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7994\"/><div sID=\"gen12385\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7994\"/><hi type=\"bold\">17. wisdom ... madness--</hi>that is, their effects, the works of human wisdom and folly respectively. \"Madness,\" literally, \"vaunting extravagance\"; <reference osisRef=\"Eccl.2.12\">Ec 2:12</reference>; 7:25, &amp;c., support English Version rather than Dathe, \"splendid matters.\" \"Folly\" is read by English Version with some manuscripts, instead of the present Hebrew text, \"prudence.\" If Hebrew be retained, understand \"prudence,\" falsely so called (<reference osisRef=\"1Tim.6.20\">1Ti 6:20</reference>), \"craft\" (<reference osisRef=\"Dan.8.25\">Da 8:25</reference>). <div eID=\"gen12385\" type=\"x-p\"/>",
+      "content_plain": "17. wisdom ... madness-- that is, their effects, the works of human wisdom and folly respectively. \"Madness,\" literally, \"vaunting extravagance\"; Ec 2:12 ; 7:25, &c., support English Version rather than Dathe, \"splendid matters.\" \"Folly\" is read by English Version with some manuscripts, instead of the present Hebrew text, \"prudence.\" If Hebrew be retained, understand \"prudence,\" falsely so called ( 1Ti 6:20 ), \"craft\" ( Da 8:25 ).",
+      "source_record_sha256": "a63d9af598d10b9f9b2ea2fda2f1122e56372f26f0b334ba5af3bb0c278ff36d",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 23235,
+        "length": 764
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "17. wisdom ... madness-- that is, their effects, the works of human wisdom and folly respectively. \"Madness,\" literally, \"vaunting extravagance\"; Ec 2:12 ; 7:25, &c., support English Version rather than Dathe, \"splendid matters.\" \"Folly\" is read by English Version with some manuscripts, instead of the present Hebrew text, \"prudence.\" If Hebrew be retained, understand \"prudence,\" falsely so called ( 1Ti 6:20 ), \"craft\" ( Da 8:25 )."
+    },
+    {
+      "entry_id": "sword:jfb:ECC.1.18-18:21:23999:635",
+      "passage_start": "ECC.1.18",
+      "passage_end": "ECC.1.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv7995\"/><div sID=\"gen12386\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv7995\"/><hi type=\"bold\">18. wisdom ... knowledge--</hi>not in general, for wisdom, &amp;c., are most excellent in their place; but speculative knowledge of man's ways (<reference osisRef=\"Eccl.1.13\">Ec 1:13</reference>, <reference osisRef=\"1Cor.1.17\">17</reference>), which, the farther it goes, gives one the more pain to find how \"crooked\" and \"wanting\" they are (<reference osisRef=\"Eccl.1.15\">Ec 1:15</reference>; <reference osisRef=\"1Cor.12.12\">12:12</reference>). <chapter eID=\"Eccl.1\"/>",
+      "content_plain": "18. wisdom ... knowledge-- not in general, for wisdom, &c., are most excellent in their place; but speculative knowledge of man's ways ( Ec 1:13 , 17 ), which, the farther it goes, gives one the more pain to find how \"crooked\" and \"wanting\" they are ( Ec 1:15 ; 12:12 ).",
+      "source_record_sha256": "ce62b1afff17e0bec626cb33c4e33c1e3ccf3cdde1ed2348b5590113b65f4a6b",
+      "index_record": {
+        "testament": "OT",
+        "block": 21,
+        "offset": 23999,
+        "length": 635
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ECC.1.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "18. wisdom ... knowledge-- not in general, for wisdom, &c., are most excellent in their place; but speculative knowledge of man's ways ( Ec 1:13 , 17 ), which, the farther it goes, gives one the more pain to find how \"crooked\" and \"wanting\" they are ( Ec 1:15 ; 12:12 )."
+    }
+  ],
+  "indexed_verse_count": 18,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_ECC_VERIFIED_ORIGINAL_ARCHIVES_2026-11-08",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 18
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:ECC:P:introduction",
+      "navigation_id": "ECC:P:introduction",
+      "kind": "source_extracted_heading",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "INTRODUCTION",
+      "content_plain": "INTRODUCTION The Hebrew title is Koheleth, which the speaker in it applies to himself ( Ec 1:12 ), \"I, Koheleth, was king over Israel.\" It means an Assembler or Convener of a meeting and a Preacher to such a meeting. The feminine form of the Hebrew noun, and its construction once ( Ec 7:27 ) with a feminine verb, show that it not only signifies Solomon, the Preacher to assemblies (in which case it is construed with the verb or noun masculine), but also Divine Wisdom (feminine in Hebrew) speaking by the mouth of the inspired king. In six cases out of seven it is construed with the masculine. Solomon was endowed with inspired wisdom (1Ki 3:5-14; 6: 11, 12 ; 9:1-9 ; 11:9-11 ), specially fitting him for the task. The Orientals delight in such meetings for grave discourse. Thus the Arabs formerly had an assembly yearly, at Ocadh, for hearing and reciting poems. Compare \"Masters of assemblies\" (see on Ec 12:11 , also Ec 12:9 ). \"The Preacher taught the people knowledge,\" probably viva voce (\"orally\"); 1Ki 4:34 ; 10:2 , 8, 24 ; 2Ch 9:1 , 7, 23, plainly refer to a somewhat public divan met for literary discussion. So \"spake,\" thrice repeated ( 1Ki 4:32 , 33 ), refers not to written compositions, but to addresses spoken in assemblies convened for the purpose. The Holy Ghost, no doubt, signifies also by the term that Solomon's doctrine is intended for the \"great congregation,\" the Church of all places and ages ( Psa 22:25 ; 49:2-4 ). Solomon was plainly the author ( Ec 1:12 , 16 ; 2:15; 12:9). That the Rabbins attribute it to Isaiah or Hezekiah is explicable by supposing that one or the other inserted it in the canon. The difference of its style, as compared with Proverbs and Song of Solomon, is due to the difference of subjects, and the different period of his life in which each was written; the Song, in the fervor of his first love to God; Proverbs, about the same time, or somewhat later; but Ecclesiastes in late old age, as the seal and testimony of repentance of his apostasy in the intervening period: Psa 89:30 , 33 proves his penitence. The substitution of the title Koheleth for Solomon (that is, peace), may imply that, having troubled Israel, meantime he forfeited his name of peace ( 1Ki 11:14 , 23 ); but now, having repented, he wishes to be henceforth a Preacher of righteousness. The alleged foreign expressions in the Hebrew may have been easily imported, through the great intercourse there was with other nations during his long reign. Moreover, supposed Chaldaisms may be fragments preserved from the common tongue of which Hebrew, Syriac, Chaldee, and Arabic were offshoots. The Scope of Ecclesiastes is to show the vanity of all mere human pursuits, when made the chief end, as contrasted with the real blessedness of true wisdom, that is, religion. The immortality of the soul is dwelt on incidentally, as subsidiary to the main scope. Moses' law took this truth for granted but drew its sanctions of rewards and punishments in accordance with the theocracy, which was under a special providence of God as the temporal King of Israel, from the present life, rather than the future. But after Israel chose an earthly king, God withdrew, in part, His extraordinary providence, so that under Solomon, temporal rewards did not invariably follow virtue, and punishments vice (compare Ec 2:16 ; 3:19; 4:1 ; 5:8 ; 7:15 ; 8:14 ; 9:2 , 11 ). Hence the need arises to show that these anomalies will be rectified hereafter, and this is the grand \"conclusion,\" therefore, of the \"whole\" book, that, seeing there is a coming judgment, and seeing that present goods do not satisfy the soul, \"man's whole duty is to fear God and keep his commandments\" ( Ec 12:13 , 14 ), and meanwhile, to use, in joyful and serene sobriety, and not abuse, the present life ( Ec 3:12 , 13 ). It is objected that sensual epicurism seems to be inculcated ( Ec 3:12 , 13, 22, &c.); but it is a contented, thankful enjoyment of God's present gifts that is taught, as opposed to a murmuring, anxious, avaricious spirit, as is proved by Ec 5:18 , compare with Ec 5:11-15 , not making them the chief end of life; not the joy of levity and folly; a misunderstanding which he guards against in Ec 7:2-6; 11 :9; 12:1. Again, Ec 7:16 ; 9:2-10 , might seem to teach fatalism and skepticism. But these are words put in the mouth of an objector; or rather, they were the language of Solomon himself during his apostasy, finding an echo in the heart of every sensualist, who wishes to be an unbeliever, and, who, therefore, sees difficulties enough in the world around wherewith to prop up his wilful unbelief. The answer is given ( Ec 7:17 , 18 ; 9:11 , 12 ; 11:1 , 6 ; 12:13 ). Even if these passages be taken as words of Solomon, they are to be understood as forbidding a self-made \"righteousness,\" which tries to constrain God to grant salvation to imaginary good works and external strictness with which it wearies itself; also, that speculation which tries to fathom all God's inscrutable counsels ( Ec 8:17 ), and that carefulness about the future forbidden in Mt 6:25 . The Chief Good is that the possession of that which makes us happy, is to be sought as the end, for its own sake; whereas, all other things are but means towards it. Philosophers, who made it the great subject of inquiry, restricted it to the present life, treating the eternal as unreal, and only useful to awe the multitude with. But Solomon shows the vanity of all human things (so-called philosophy included) to satisfy the soul, and that heavenly wisdom alone is the chief good. He had taught so when young ( Pr 1:20 ; 8:1 ); so also; in Song of Solomon, he had spiritualized the subject in an allegory; and now, after having long personally tried the manifold ways in which the worldly seek to reach happiness, he gives the fruit of his experience in old age. It is divided into two parts-- Ec 1: 1-6:10 showing the vanity of earthly things; Ec 6:10-12:14, the excellence of heavenly wisdom. Deviations from strict logical methods occur in these divisions, but in the main they are observed. The deviations make it the less stiff and artificial, and the more suited to all capacities. It is in poetry; the hemistichal division is mostly observed, but occasionally not so. The choice of epithets, imagery, inverted order of words, ellipses, parallelism, or, in its absence, similarity of diction, mark versification.",
+      "content_osis": "<title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen12346\" type=\"x-p\"/> The Hebrew title is Koheleth, which the speaker in it applies to himself (<reference osisRef=\"Eccl.1.12\">Ec 1:12</reference>), \"I, Koheleth, was king over Israel.\" It means an Assembler or Convener of a meeting and a Preacher to such a meeting. The feminine form of the Hebrew noun, and its construction once (<reference osisRef=\"Eccl.7.27\">Ec 7:27</reference>) with a feminine verb, show that it not only signifies Solomon, the Preacher to assemblies (in which case it is construed with the verb or noun masculine), but also Divine Wisdom (feminine in Hebrew) speaking by the mouth of the inspired king. In six cases out of seven it is construed with the masculine. Solomon was endowed with inspired wisdom (1Ki 3:5-14; 6:<reference osisRef=\"1Kgs.11.12\">11, 12</reference>; <reference osisRef=\"1Kgs.9.1-1Kgs.9.9\">9:1-9</reference>; <reference osisRef=\"1Cor.11.9-1Cor.11.11\">11:9-11</reference>), specially fitting him for the task. The Orientals delight in such meetings for grave discourse. Thus the Arabs formerly had an assembly yearly, at Ocadh, for hearing and reciting poems. Compare \"Masters of assemblies\" (see on <reference osisRef=\"Eccl.12.11\">Ec 12:11</reference>, also <reference osisRef=\"Eccl.12.9\">Ec 12:9</reference>). \"The Preacher taught the people knowledge,\" probably viva voce (\"orally\"); <reference osisRef=\"1Kgs.4.34\">1Ki 4:34</reference>; <reference osisRef=\"1Kgs.10.2\">10:2</reference>, <reference osisRef=\"1Kgs.8.24\">8, 24</reference>; <reference osisRef=\"2Chr.9.1\">2Ch 9:1</reference>, 7, 23, plainly refer to a somewhat public divan met for literary discussion. So \"spake,\" thrice repeated (<reference osisRef=\"1Kgs.4.32\">1Ki 4:32</reference>, <reference osisRef=\"1Kgs.4.33\">33</reference>), refers not to written compositions, but to addresses spoken in assemblies convened for the purpose. The Holy Ghost, no doubt, signifies also by the term that Solomon's doctrine is intended for the \"great congregation,\" the Church of all places and ages (<reference osisRef=\"Ps.22.25\">Psa 22:25</reference>; <reference osisRef=\"Ps.49.2-Ps.49.4\">49:2-4</reference>).<div eID=\"gen12346\" type=\"x-p\"/> <div eID=\"gen12345\" type=\"introduction\"/> <div sID=\"gen12347\" type=\"x-p\"/> Solomon was plainly the author (<reference osisRef=\"Eccl.1.12\">Ec 1:12</reference>, <reference osisRef=\"1Cor.1.16\">16</reference>; 2:15; 12:9). That the Rabbins attribute it to Isaiah or Hezekiah is explicable by supposing that one or the other inserted it in the canon. The difference of its style, as compared with Proverbs and Song of Solomon, is due to the difference of subjects, and the different period of his life in which each was written; the Song, in the fervor of his first love to God; Proverbs, about the same time, or somewhat later; but Ecclesiastes in late old age, as the seal and testimony of repentance of his apostasy in the intervening period: <reference osisRef=\"Ps.89.30\">Psa 89:30</reference>, <reference osisRef=\"Ps.89.33\">33</reference> proves his penitence. The substitution of the title Koheleth for Solomon (that is, peace), may imply that, having troubled Israel, meantime he forfeited his name of peace (<reference osisRef=\"1Kgs.11.14\">1Ki 11:14</reference>, <reference osisRef=\"1Kgs.11.23\">23</reference>); but now, having repented, he wishes to be henceforth a Preacher of righteousness. The alleged foreign expressions in the Hebrew may have been easily imported, through the great intercourse there was with other nations during his long reign. Moreover, supposed Chaldaisms may be fragments preserved from the common tongue of which Hebrew, Syriac, Chaldee, and Arabic were offshoots.<div eID=\"gen12347\" type=\"x-p\"/> <div sID=\"gen12348\" type=\"x-p\"/> The Scope of Ecclesiastes is to show the vanity of all mere human pursuits, when made the chief end, as contrasted with the real blessedness of true wisdom, that is, religion. The immortality of the soul is dwelt on incidentally, as subsidiary to the main scope. Moses' law took this truth for granted but drew its sanctions of rewards and punishments in accordance with the theocracy, which was under a special providence of God as the temporal King of Israel, from the present life, rather than the future. But after Israel chose an earthly king, God withdrew, in part, His extraordinary providence, so that under Solomon, temporal rewards did not invariably follow virtue, and punishments vice (compare <reference osisRef=\"Eccl.2.16\">Ec 2:16</reference>; 3:19; <reference osisRef=\"2Cor.4.1\">4:1</reference>; <reference osisRef=\"2Cor.5.8\">5:8</reference>; <reference osisRef=\"2Cor.7.15\">7:15</reference>; <reference osisRef=\"2Cor.8.14\">8:14</reference>; <reference osisRef=\"2Cor.9.2\">9:2</reference>, <reference osisRef=\"2Cor.9.11\">11</reference>). Hence the need arises to show that these anomalies will be rectified hereafter, and this is the grand \"conclusion,\" therefore, of the \"whole\" book, that, seeing there is a coming judgment, and seeing that present goods do not satisfy the soul, \"man's whole duty is to fear God and keep his commandments\" (<reference osisRef=\"Eccl.12.13\">Ec 12:13</reference>, <reference osisRef=\"Eccl.12.14\">14</reference>), and meanwhile, to use, in joyful and serene sobriety, and not abuse, the present life (<reference osisRef=\"Eccl.3.12\">Ec 3:12</reference>, <reference osisRef=\"Eccl.3.13\">13</reference>).<div eID=\"gen12348\" type=\"x-p\"/> <div sID=\"gen12349\" type=\"x-p\"/> It is objected that sensual epicurism seems to be inculcated (<reference osisRef=\"Eccl.3.12\">Ec 3:12</reference>, 13, 22, &amp;c.); but it is a contented, thankful enjoyment of God's present gifts that is taught, as opposed to a murmuring, anxious, avaricious spirit, as is proved by <reference osisRef=\"Eccl.5.18\">Ec 5:18</reference>, compare with <reference osisRef=\"Eccl.5.11-Eccl.5.15\">Ec 5:11-15</reference>, not making them the chief end of life; not the joy of levity and folly; a misunderstanding which he guards against in <reference osisRef=\"Eccl.7.2-Eccl.6.11\">Ec 7:2-6; 11</reference>:9; 12:1. Again, <reference osisRef=\"Eccl.7.16\">Ec 7:16</reference>; <reference osisRef=\"Eccl.9.2-Eccl.9.10\">9:2-10</reference>, might seem to teach fatalism and skepticism. But these are words put in the mouth of an objector; or rather, they were the language of Solomon himself during his apostasy, finding an echo in the heart of every sensualist, who wishes to be an unbeliever, and, who, therefore, sees difficulties enough in the world around wherewith to prop up his wilful unbelief. The answer is given (<reference osisRef=\"Eccl.7.17\">Ec 7:17</reference>, <reference osisRef=\"Eccl.7.18\">18</reference>; <reference osisRef=\"Eccl.9.11\">9:11</reference>, <reference osisRef=\"Eccl.9.12\">12</reference>; <reference osisRef=\"Eccl.11.1\">11:1</reference>, <reference osisRef=\"Eccl.11.6\">6</reference>; <reference osisRef=\"Eccl.12.13\">12:13</reference>). Even if these passages be taken as words of Solomon, they are to be understood as forbidding a self-made \"righteousness,\" which tries to constrain God to grant salvation to imaginary good works and external strictness with which it wearies itself; also, that speculation which tries to fathom all God's inscrutable counsels (<reference osisRef=\"Eccl.8.17\">Ec 8:17</reference>), and that carefulness about the future forbidden in <reference osisRef=\"Matt.6.25\">Mt 6:25</reference>.<div eID=\"gen12349\" type=\"x-p\"/> <div sID=\"gen12350\" type=\"x-p\"/> The Chief Good is that the possession of that which makes us happy, is to be sought as the end, for its own sake; whereas, all other things are but means towards it. Philosophers, who made it the great subject of inquiry, restricted it to the present life, treating the eternal as unreal, and only useful to awe the multitude with. But Solomon shows the vanity of all human things (so-called philosophy included) to satisfy the soul, and that heavenly wisdom alone is the chief good. He had taught so when young (<reference osisRef=\"Prov.1.20\">Pr 1:20</reference>; <reference osisRef=\"1Cor.8.1\">8:1</reference>); so also; in Song of Solomon, he had spiritualized the subject in an allegory; and now, after having long personally tried the manifold ways in which the worldly seek to reach happiness, he gives the fruit of his experience in old age.<div eID=\"gen12350\" type=\"x-p\"/> <div sID=\"gen12351\" type=\"x-p\"/><hi type=\"bold\">It is divided into two parts--</hi>Ec 1:<reference osisRef=\"1Cor.6.10\">1-6:10</reference> showing the vanity of earthly things; Ec 6:10-12:14, the excellence of heavenly wisdom. Deviations from strict logical methods occur in these divisions, but in the main they are observed. The deviations make it the less stiff and artificial, and the more suited to all capacities. It is in poetry; the hemistichal division is mostly observed, but occasionally not so. The choice of epithets, imagery, inverted order of words, ellipses, parallelism, or, in its absence, similarity of diction, mark versification.<div eID=\"gen12351\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+      "source_character_span": [
+        59,
+        9080
+      ],
+      "source_fragment_sha256": "7715a44a9cc07b86bbec560b97c92a30388f764f24dccaca3ee672f911159914",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "ECC.1.1",
+        "ECC.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ECC.1:P:chapter-1",
+      "navigation_id": "ECC.1:P:chapter-1",
+      "kind": "source_extracted_heading",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1",
+      "content_osis": "<title type=\"x-s\">CHAPTER 1</title>",
+      "source_entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+      "source_character_span": [
+        9080,
+        9115
+      ],
+      "source_fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "ECC.1.1",
+        "ECC.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ECC.1:P:ec-1-1-18-introduction",
+      "navigation_id": "ECC.1:P:ec-1-1-18-introduction",
+      "kind": "source_extracted_heading",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Ec 1:1-18 . Introduction.",
+      "content_plain": "Ec 1:1-18 . Introduction.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Eccl.1.1-Eccl.1.18\">Ec 1:1-18</reference>. Introduction.</title>",
+      "source_entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+      "source_character_span": [
+        9116,
+        9219
+      ],
+      "source_fragment_sha256": "2a5e6439d178685a8116f4c9668156075531a82384ffc995798d18f8e50ef53c",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_explicit_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_markers_and_native_KJV_binary_index",
+      "source_indexed_passage": [
+        "ECC.1.1",
+        "ECC.1.1"
+      ],
+      "source_title_explicit_range": [
+        "ECC.1.1",
+        "ECC.1.18"
+      ]
+    }
+  ],
+  "navigation_section_count": 3,
+  "reader_visible_entry_count": 18
+}
