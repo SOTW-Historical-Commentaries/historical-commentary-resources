@@ -1,0 +1,2406 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "ISA-v3-2026-11-09",
+  "book": "ISA",
+  "book_name": "Isaiah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-isaiah-2026-11-09",
+  "baseline_main_commit": "4a76b5bcb7f185e0f1623a3b87846b952152d6f2",
+  "baseline_navigation_manifest_git_blob": "df1164273a9d26c818bb5e906482bb94ad72e26d",
+  "prerequisites": [
+    {
+      "book": "SNG",
+      "snapshot": "structured-song-of-solomon-2026-11-08",
+      "required_navigation_version": "navigation-coverage-v1.15-additive-song-of-solomon",
+      "required_navigation_sha256": "e9a45febb258cc77067eef0668a78e2f49077c59ceb24be4295a24e4649c9666",
+      "order": 1
+    }
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 466,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/ISA.json",
+      "bytes": 615935,
+      "sha256": "72c03322f2a177af511b5f2d168d2a7408c359ef67720e451c6904fdb970f3fd"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 11546,
+      "sha256": "ae856208a0ad9c07d9858ec8de15ce11a3eb27b168a6d1cc3bd3837bbe7c60ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/1.json",
+      "bytes": 248767,
+      "sha256": "d83350a413d7d7b9d001a0da88e7fe06b2aed937d94e9fc0a316a815738e1774"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/10.json",
+      "bytes": 74890,
+      "sha256": "2468f4db5d0ab0a6e999f84dbb9840f216040718be043b38cb5b15bf898da76d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/11.json",
+      "bytes": 53367,
+      "sha256": "ef78452be9b90e5be593ef83875012b7740b3ec42b2d350674c5b76badbe5091"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/12.json",
+      "bytes": 23834,
+      "sha256": "f3b3ba05c6acab35ee803bba56055331ea243b847840291180c4322371b50c6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/13.json",
+      "bytes": 99951,
+      "sha256": "5ab62bd735903733236503ccc1bfc7de1d36da7bdf902eff26806732e9b143b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/14.json",
+      "bytes": 67335,
+      "sha256": "db701f8701895f2f6c7e8db1e2b205e0b66402022af5cec4d5b424ff8de93171"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/15.json",
+      "bytes": 38687,
+      "sha256": "80b4aea2fce1b386e5a26e9609b895e08838ba306daa9669ab3dbe308f6d39b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/16.json",
+      "bytes": 55537,
+      "sha256": "30d5d576c48f21cd13dbf7be242c1199291fcd5aa55213c19b4efa5c78232a39"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/17.json",
+      "bytes": 44220,
+      "sha256": "d00bddfb79c8fe879baf4a5723ed26e79bb681e3e591590f14d629e5e3ada490"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/18.json",
+      "bytes": 57857,
+      "sha256": "594ab902bef6cc33c8a9f7eb83f71fb078ef8438621abc91a55adec9908b2a29"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/19.json",
+      "bytes": 66590,
+      "sha256": "ee75803fa000b9ddf4838e6a191da09d8e21a07495b60e8b083b3e8181240843"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/2.json",
+      "bytes": 97497,
+      "sha256": "2d2f042693d7b38ba264b693ea0a427e75c0c051f36bd712e0a51b0d1ce9e745"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/20.json",
+      "bytes": 20079,
+      "sha256": "46c8bc01d350812bfbed89c9add317207f6e86f366a1ed09f52eb306f9916bd3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/21.json",
+      "bytes": 71710,
+      "sha256": "fb5e6f0e1a17daef71ed80ea8b95d87804bab8a43a5e43473a75ca804ae61428"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/22.json",
+      "bytes": 99778,
+      "sha256": "8b9251460271b57936bba4f1459adce41e84f41c842188ad8b2715e74c21706a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/23.json",
+      "bytes": 60107,
+      "sha256": "07775a35f020ac9665438d4b53926b215e875380b50def8bcbd50905caa565ab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/24.json",
+      "bytes": 62628,
+      "sha256": "c2fb91b201f5f53864b3511c0af864a9e749f5852b1ed74f646bd9876ec38a28"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/25.json",
+      "bytes": 60596,
+      "sha256": "537e708fc2342a395cbfb4b26ebaf88b3dd8fcddf622c86436675f502d5ce842"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/26.json",
+      "bytes": 45812,
+      "sha256": "d4f2b3bf22fcd471345e352bae7be64031a26b4f910745e9991a304745883ba7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/27.json",
+      "bytes": 50258,
+      "sha256": "45b82d310ec4a387ba636a8ac606481095e8f8001e66c201310341eb3ef197e9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/28.json",
+      "bytes": 85851,
+      "sha256": "831ecfea7732a3e78fa387d9c02fb0c641546df6e06384332546b20301c30f55"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/29.json",
+      "bytes": 65398,
+      "sha256": "d71e9e9bd63e7e2a294a5ab99489909b516bcc7ee6269b211448f6b12515d741"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/3.json",
+      "bytes": 142291,
+      "sha256": "0f0743059a814f4f231f3812dd5c93d1f9633769fff9faeb134b7782aa35dcfb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/30.json",
+      "bytes": 67904,
+      "sha256": "14d44b1ade1265465760ad23a8d65d9deb18650446cdb52a2ecc2fb0996bce36"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/31.json",
+      "bytes": 40558,
+      "sha256": "472d2223d12787cdd8e4b9c408c80d8f37ab35b45797b6b40d73f22a92389f66"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/32.json",
+      "bytes": 52456,
+      "sha256": "c7a41d998211c70c22e4d76e6078422478bfefddc0fa53e91ace7b5aedf99b7c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/33.json",
+      "bytes": 66457,
+      "sha256": "a5cb78e38e0b70833360c9ee1b2c30ca34fb1d22d84107be69798dc17e462d49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/34.json",
+      "bytes": 60800,
+      "sha256": "5123b673f05286b2a832be6b13ed528f3a0c6a34faca28b0d6ed1a4286917adb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/35.json",
+      "bytes": 44117,
+      "sha256": "8454390b50761f4cdd15f6cc9d82bd3e4503ba61c87cb537fd90715685856e5d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/36.json",
+      "bytes": 32483,
+      "sha256": "b5de626c38ed7a677c67085d4b206da698ea5f8bdef98df30289fdbd02d4c293"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/37.json",
+      "bytes": 55235,
+      "sha256": "fd5a9a5c3de28178717e749d2f6c83ecf2773c65635b501caee61c1e1628a0bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/38.json",
+      "bytes": 52030,
+      "sha256": "59aec13c032ce27db518a30169475447d85bf824302b48483c7dab5ea38fc756"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/39.json",
+      "bytes": 18082,
+      "sha256": "0a3f8a1c18db2cc3a291e80883dba3f6f7db7e1ff899f920fe93882d8dc9bc29"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/4.json",
+      "bytes": 33939,
+      "sha256": "b9aa9d609a696ec2fe0f75a8660fb0b6e233b653f52f2a8385b4526226b4b873"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/40.json",
+      "bytes": 132209,
+      "sha256": "a2c78b2bd90b6924a0fd76d93e10e14830008fa97cf22d8845497b9ff31c555a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/41.json",
+      "bytes": 65871,
+      "sha256": "71a0472727329bce9f63dc2872b52a1fb01c42c9b0067c24fc89db4644f70ee2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/42.json",
+      "bytes": 66998,
+      "sha256": "11ea2f80c975383b41fca5ba01d654346266ff8d64a91948f637f0f2a168af50"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/43.json",
+      "bytes": 59881,
+      "sha256": "0e31a97feead26b48edc7d18ce16ea8ed2e6aeab2b84ca4628a26301f1440880"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/44.json",
+      "bytes": 67710,
+      "sha256": "706744d1db6b58cbb1946738a1db545fcc89df34854cbf917750f66a6959a409"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/45.json",
+      "bytes": 92254,
+      "sha256": "a3534407b76cbe6c3ebfb23cde93a8e7787be1681048f1c98e1a14ac6efa2514"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/46.json",
+      "bytes": 32621,
+      "sha256": "afb36d7fec61b51050a0db50fc5ba42d9a5167f5af6a0c38db57a2d32e629493"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/47.json",
+      "bytes": 37532,
+      "sha256": "9faea00e8c9b92afae4841fa1954475b830162b22b31c6601e4f547ef37d8642"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/48.json",
+      "bytes": 56656,
+      "sha256": "be476b259a41eb80e58879ce411a84e7d401654a51697e7243ebf33b929b964f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/49.json",
+      "bytes": 72624,
+      "sha256": "4cd0fa77d9be45bc3f5f0cb99391ee9336f3babb90c62d3af57ad707679da598"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/5.json",
+      "bytes": 140647,
+      "sha256": "b16c6ef2f20cdb7bf993ccaf70f21ed7f5ce81187c06890f755ee5b07b489ba1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/50.json",
+      "bytes": 47522,
+      "sha256": "1c973ac2f63e216d73870d221181c5c079035006067d7bfad1ad04f29d45832f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/51.json",
+      "bytes": 55359,
+      "sha256": "5e73977e3598c7f45eec151f44517966be23079008c9baa8bedc9c103c79b813"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/52.json",
+      "bytes": 88785,
+      "sha256": "a3fc070a25fd8a835b89d86c0c93192dd21499992a9c49cf2502730cee7ff610"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/53.json",
+      "bytes": 94727,
+      "sha256": "13387a410221e51468b3f2e28ccc7bb9ffa9f9cefe768772748de9952f3d73da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/54.json",
+      "bytes": 25083,
+      "sha256": "a537607d1712e5f5ea8ba4711637a1fbcd08bdd4c75dd25776053c804cd7bf96"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/55.json",
+      "bytes": 29134,
+      "sha256": "cbf40215579e6005abce696cfab34c0b24c1cdc2b5d5bf74ea3f94d01e393d7e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/56.json",
+      "bytes": 33572,
+      "sha256": "9a8e96c1e1ba560ef79ac70bebfa2347e5de89b3e9473453442b76ce0bf852ba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/57.json",
+      "bytes": 74717,
+      "sha256": "27818a7b56d7f64a5b2c91621aa0dd707dc02d8959c638e589be880529d57f72"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/58.json",
+      "bytes": 43536,
+      "sha256": "6cd94f5d9fe5b05dabe91a1dcc78ba34301bd50381b9060ba2d6ac9979fbda77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/59.json",
+      "bytes": 61645,
+      "sha256": "50a3e392b91d886e805ffae363ad7aa5a34b96f3ed7f152d7a5d7b98c3e12575"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/6.json",
+      "bytes": 65457,
+      "sha256": "65793c62eb2b090d1cbd785d6b89ce34878cf93b1315c00ea9ca847090821ff3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/60.json",
+      "bytes": 53454,
+      "sha256": "d42fee5f8c480094fbddc28fd165a31fada1ac49888633be74b2a85dbcdfec94"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/61.json",
+      "bytes": 44657,
+      "sha256": "6bc130df578f732331c246221cbb5bb28693cc64c9bedef523d7ed3143f5e0c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/62.json",
+      "bytes": 41498,
+      "sha256": "49050dc192f490d5eef177bd189fbb5dcb62317c7549b3f309395fd61dbaddc1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/63.json",
+      "bytes": 74656,
+      "sha256": "6275b959c5317c8876e11e0c72bd267a6049418bc017dd3966fc819e2aaa65d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/64.json",
+      "bytes": 44779,
+      "sha256": "ed2a67beabf6641c3dfc2ef4cb5978b771971232886069b6fd1b5d5faab4d3e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/65.json",
+      "bytes": 108791,
+      "sha256": "e24165cc3c4b27c66d8db4a6e7c58682bb42828979a70e1d7d9846b081e4dcbe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/66.json",
+      "bytes": 92626,
+      "sha256": "7f6e9efd63ef78b3984f8afde8fbde1535507c4d9ade5b6e79811ef785a61d06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/7.json",
+      "bytes": 146729,
+      "sha256": "19d05f0727212a8082c4321f01fbfc6871f26f94e330e383faafdb9414a4b919"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/8.json",
+      "bytes": 93394,
+      "sha256": "fa19c0de20f25d542916a1419a0e040439f5c2c051389a046fd0f7742c48c40d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/adam-clarke/ISA/9.json",
+      "bytes": 76881,
+      "sha256": "1419636ab975d95d49848ffd28e5af056f2be8f06390b69f1340ec1da765c8ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/1.json",
+      "bytes": 154841,
+      "sha256": "641dc55769f604e6c1d01742ab313aecd07b81a45c2aab5f792a6de3c21daa8f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/10.json",
+      "bytes": 66656,
+      "sha256": "aa74ad114d6d4df905261ceae4d31dea7ba2a63d5c035b5c1cafcacf91097840"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/11.json",
+      "bytes": 70327,
+      "sha256": "891480481069550e3a187e69af7a2c98e645ef78f59b60ad057a9f9b2ceafd2d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/12.json",
+      "bytes": 18251,
+      "sha256": "a08521b93a2934052d0d12a4f26c1026c8faf3e2113c8f15be923599d0c343f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/13.json",
+      "bytes": 59077,
+      "sha256": "71b7696428ea82ef0b8ff6ed6641bd2e73d08025e06483612a30d8bf1b9bc11d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/14.json",
+      "bytes": 101304,
+      "sha256": "90259b51da1ef92141eae96ad1b4da93753f311c88facacdf894560fbcd65ad9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/15.json",
+      "bytes": 32428,
+      "sha256": "33ef05679d5aca7bee8d2dfb917be982b9c5feef1100f2fccd037ead2f6a42d1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/16.json",
+      "bytes": 40390,
+      "sha256": "6a3689c9a36f877e62adbb583c25a342100f5e294d797057884a15209de4b8f3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/17.json",
+      "bytes": 40755,
+      "sha256": "c8cb60518e84d9192254b11f7ea020a4a95475d0c5c65f25889791615d025b23"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/18.json",
+      "bytes": 46018,
+      "sha256": "85388ad8c555b6cee88a0dc0142ab3dcd8c9fecca07e3311170d62ea4754ef6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/19.json",
+      "bytes": 76785,
+      "sha256": "12dec6b208746adcf8a4886b431d07d81af30cb5a90ebf6cde313a3d722f0174"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/2.json",
+      "bytes": 50560,
+      "sha256": "8a2e9ace0e8f80c1d086ae97c657e2b093528302acd1b342c4148df0e5251648"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/20.json",
+      "bytes": 34187,
+      "sha256": "36537c6ca55fa68ca79178c7f6045a41371866bdeeb9ffafa58938dc4494a92c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/21.json",
+      "bytes": 62947,
+      "sha256": "2a36a0ecb385d07cf442c6060c12ec5f735f842feaa78041a4a425a7e980ca25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/22.json",
+      "bytes": 79309,
+      "sha256": "2a19d77a81fc7d569f24e99576b6913e9fad7f316735148fedaabbde3a67d8fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/23.json",
+      "bytes": 63488,
+      "sha256": "f7f9e876709efd9c250e37c753eb32c21e3fa95e7cd0731829cd19ce855b9ef2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/24.json",
+      "bytes": 54544,
+      "sha256": "db58482e94b393495fc8ec16b69216137c12edfdbaef7355f219219a8a439053"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/25.json",
+      "bytes": 39923,
+      "sha256": "7758da7b4d342f891b59d8f976328cf48800610262a1de87286a2957efbda082"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/26.json",
+      "bytes": 58318,
+      "sha256": "c62398c98cb33ba4a247519b5c60a920660db0942786699a3a15980096c1fab7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/27.json",
+      "bytes": 40725,
+      "sha256": "50af67c7c91169fea2226303115d9276dca26ab26fa5ea965bcb891d6427a282"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/28.json",
+      "bytes": 65750,
+      "sha256": "f79035f64b3e3b5d5a2839ee6ee274d6e5cf5bcd8544fbde0393ba8eb05f4ece"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/29.json",
+      "bytes": 67844,
+      "sha256": "6907ecd8d1f65ae7e96655275ffb07c3379099d31d43089a3314dafb9216ee43"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/3.json",
+      "bytes": 66843,
+      "sha256": "f573deed5f7a2667e2c92d396486a7d5e38438f716d5260704f843cf56960a35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/30.json",
+      "bytes": 88534,
+      "sha256": "ec86ec2cf54dec373bc0dce7cf9252b0f009732db0b4a726e7235b13aa188969"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/31.json",
+      "bytes": 25938,
+      "sha256": "5f638ba47377928efbd0dd867636e9d6499ea6df05e4894d55bf4596686a45a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/32.json",
+      "bytes": 27740,
+      "sha256": "4df2484d9bbf08128af29aa0bf914edf33fe6a9c1ab2153ba2bc0d77ef6f41c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/33.json",
+      "bytes": 59658,
+      "sha256": "9d4197719f97ef31312001204caccad5ddab2c894f56cf9a3fbd10acda7c740c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/34.json",
+      "bytes": 53292,
+      "sha256": "e59a55e708e5ed5e45e231574a3bc2af25d6d72b51d4c8166676732523d7fa04"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/35.json",
+      "bytes": 26993,
+      "sha256": "7251511053ce1f10fd77022112f8f38cc31fa519959f80b252c6613d3e8ac20d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/36.json",
+      "bytes": 56688,
+      "sha256": "d616ec01bda6b87ba7c28262ff160d30be87745ab9ccf8c6c81d5ccd5a7e9c2a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/37.json",
+      "bytes": 98846,
+      "sha256": "1b92f43490ce839633e4fe1eda677d525c61d805b25808cfd4b0fb4b37707d8a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/38.json",
+      "bytes": 32833,
+      "sha256": "b124b587386afaeb2cc02755e20636bfc0bdb62cff8f4b325a953b57b06dc950"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/39.json",
+      "bytes": 30573,
+      "sha256": "9d0a50a13910fe681fb8101d37c8046afc7b74fb9eb2a03a12122dd1462c36e9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/4.json",
+      "bytes": 28638,
+      "sha256": "046b0432bde67158e3e267d37dd4b966a40b11220c8078fd1d3bb35f3d3aa7ae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/40.json",
+      "bytes": 98515,
+      "sha256": "e2659fb9dbf8f05f67168df34776f24e1772b6948ab18c25f8bdb7f78502ce83"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/41.json",
+      "bytes": 77077,
+      "sha256": "2a0e36b301df8c3f186fd1bf04add9ed4116b0d544ca25664982789d4990215b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/42.json",
+      "bytes": 82054,
+      "sha256": "97874ade2499b9fb3967400052388b7f402e5d82527ed5b2a28f2f9d3c88716d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/43.json",
+      "bytes": 80590,
+      "sha256": "7eba9989e0f1b15040c4233c9941fb8ea99dd6c497e3681bcd96ba19c60ceaf9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/44.json",
+      "bytes": 56842,
+      "sha256": "9d5fb3a6d158421ee39845763e7346b6f12d85ad7686e09cf0d3bef71d4c4fa8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/45.json",
+      "bytes": 86451,
+      "sha256": "1ae84f3efd1bccfd02d775b595b9fa20c7a85959534c0e93d9b46274793c1e4f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/46.json",
+      "bytes": 39171,
+      "sha256": "1e6bf106a7d1a1db2166d5a6dea11b269dafd8236dc9cbc786fbb745a824d885"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/47.json",
+      "bytes": 47375,
+      "sha256": "ea4a74c7d55bb8ebaaad9a37c8bd96fb1ef73d3ddea7527b3aa96a5869930b05"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/48.json",
+      "bytes": 54986,
+      "sha256": "4d6c8dd37bde92b2b0dec0b3998096ad91bb3ab86ed42090d34d94a5348dc100"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/49.json",
+      "bytes": 81118,
+      "sha256": "89adcd9452b432ef761695813af136b65f8429c61e8488b0969075feb3c75629"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/5.json",
+      "bytes": 88682,
+      "sha256": "19453546756465ea30d0bbd67654c1c986e75dfeb2b0909f83e47ce0e55c4f02"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/50.json",
+      "bytes": 45326,
+      "sha256": "dfa62f549533c8efd509775d71f900e1dfa48839203b9ccedc632d1f09ef3089"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/51.json",
+      "bytes": 64792,
+      "sha256": "c0073b927934961ba420b53fea5c057fc58609d7bce9b61b4982133d4b2dd179"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/52.json",
+      "bytes": 55275,
+      "sha256": "dcdb9cd69f60b4753a2b2f39d72d34ba9852a5c2dbc8cb106d84dfefbe7d24c8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/53.json",
+      "bytes": 80534,
+      "sha256": "5d19f2e0b7bbc2a05d93b68ed19f7e277515246cf41c63d1276ad9a5c857e265"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/54.json",
+      "bytes": 49938,
+      "sha256": "81d0c64a5e5d480954f1adf8c4103a0d5a7896da9ee83b557aacb2d0ac7694fc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/55.json",
+      "bytes": 49223,
+      "sha256": "4571c16a7f413392067f9dac129f81cd2e556625e6ececf4ca51923dfb5027d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/56.json",
+      "bytes": 39002,
+      "sha256": "a601d5587b173dda9d4a5a66c388247b1e99fd223e00b370c3020882aad6f892"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/57.json",
+      "bytes": 69714,
+      "sha256": "13127ad57148c2f976aa2513cb6e6ba42b7cbcceb25aa35e75882ff3290bf536"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/58.json",
+      "bytes": 51919,
+      "sha256": "579ffb6f564d39c4b2c7b49536c072c5d8e60b8a275193169e33cea10fae147b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/59.json",
+      "bytes": 58890,
+      "sha256": "5df25b3e4dbffad3267344604918829c28c06e84e52f5316760bf53239c01d74"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/6.json",
+      "bytes": 54279,
+      "sha256": "c277f42b7e6f38b5a1033ae14f5b95d3aa19907913a03c33ccabf321634022f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/60.json",
+      "bytes": 61564,
+      "sha256": "f8f1584919612c3bd0f98f54971d3c56d47c469b14a394873f6ccf433c2c8276"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/61.json",
+      "bytes": 43253,
+      "sha256": "918696ef9499496416fa19d201da3f0c6cf8577001505207635ecd16b7d505c7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/62.json",
+      "bytes": 36496,
+      "sha256": "3c43fe87615153909ab82698b55a308d22582e57dbf2f2d4cbd918e196dfc126"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/63.json",
+      "bytes": 56812,
+      "sha256": "f5763d3143e0884b97db0aa028a3a9b642a7d0677b95886cb026b9d599f3ca00"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/64.json",
+      "bytes": 34553,
+      "sha256": "be82f422ec25c40b0bd5a9d616da0041de908ef896a9a26ccd1cf0f1451fa793"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/65.json",
+      "bytes": 88628,
+      "sha256": "138496ac2e7e85885fe3fdd45374acd361e8a17ccd761b5ccf3797fd9e5f9428"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/66.json",
+      "bytes": 79268,
+      "sha256": "80f1d6444dd5b919fc15eea0df88bea585b389e0836da3e97cac551c11448858"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/7.json",
+      "bytes": 91032,
+      "sha256": "221ead3e3e17dae79e6ccb5aa17a2aea14629bdaa7053c9ae314e8d148abb265"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/8.json",
+      "bytes": 62492,
+      "sha256": "8239a3b01a628855df979effc714a9669f5a3f494c6d797b50c1e4f354efe8ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/jamieson-fausset-brown/ISA/9.json",
+      "bytes": 64029,
+      "sha256": "1e3bc1c533fa51f42dd8088263be3875ef5ed89b1279739213b034137ef79873"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/1.json",
+      "bytes": 440651,
+      "sha256": "62055e759e28ffea088199f659c886d30f5479e7ceafb64b6891e9055bcd176a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/10.json",
+      "bytes": 325645,
+      "sha256": "30d371c92ae3a24348c4ad60bbebd7cdd4cc87be9a379cb0746ec930dd11349c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/11.json",
+      "bytes": 212769,
+      "sha256": "fe6de591235ee87908e88392df708ee8496bbdc637fc81133413e6df331276ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/12.json",
+      "bytes": 84670,
+      "sha256": "7d15c75f6b11b22839220d6887a774cdbd10fe5af8168d5ef1ac8b35e2e00c3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/13.json",
+      "bytes": 238347,
+      "sha256": "681903ecd298f304a232bfa3838ce0c8cc8140f3599687fcbf560f94666ae156"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/14.json",
+      "bytes": 302107,
+      "sha256": "ebfe48fcdcfddbcb8c78dacfe661a608cd5892fcc9d8f1cc6495d0927dbb076a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/15.json",
+      "bytes": 91441,
+      "sha256": "2854ad584ea6e4581256845636127e58d51efff9824686fc382ae3e7d513c376"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/16.json",
+      "bytes": 176309,
+      "sha256": "c377c1a6b207169e2a86cc1a0f6d9dcb0014b84f3ff5c9069748d9686e69882a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/17.json",
+      "bytes": 127288,
+      "sha256": "5e0c906723662d657594c6ec3d7e21f6264ac74445b3d78aae268df6d92e63db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/18.json",
+      "bytes": 117830,
+      "sha256": "a9339456145a152378fb065e4861d04a73c6542a4ce7b20cb114992f73327abc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/19.json",
+      "bytes": 308914,
+      "sha256": "041b900ea82100beef8fe2852072d202663fb6b6d8fca403d953e5568bdd0a91"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/2.json",
+      "bytes": 283277,
+      "sha256": "b14361961c5a1bda74c1b84aa03206050b4b819f23fe1b2aea8962f26b35e020"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/20.json",
+      "bytes": 64282,
+      "sha256": "aac569dba2da3c3231100e20835cae8367473066aab5a7a9dbf24cf75e527f92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/21.json",
+      "bytes": 156460,
+      "sha256": "4c189e0499a30b93831b48f93b211dc69a1b7adb6a3d7c3e8dabb91aa0b9a7d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/22.json",
+      "bytes": 289570,
+      "sha256": "5d8038a1988be22243431f80686f48ef9e0de77bf93deb8c1347078aba823590"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/23.json",
+      "bytes": 196733,
+      "sha256": "b3112b83874d58e4fd587ab2e6b74a0d656a847c49bba1cdf8d74334b5339890"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/24.json",
+      "bytes": 204674,
+      "sha256": "247e2d94ae79deafa64a38ee9aab6a029e3dbe41c42a206c6e9dd799ef761fe6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/25.json",
+      "bytes": 166225,
+      "sha256": "02c2b30d084484eb4c2f7ca59a93509f30610171634125ed3e3e29e0659d3a37"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/26.json",
+      "bytes": 311552,
+      "sha256": "84a4f6b6cf8aa9404937ab894c7648bb9a436972113dc3e2130cfe3f2678d75a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/27.json",
+      "bytes": 234111,
+      "sha256": "8893d39ae8077b304bc601648b068e6a8f214f1b891f22408a13cff11807755a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/28.json",
+      "bytes": 302902,
+      "sha256": "a44660de55df474c00b0099e9226fd3518062dcf2a19ec3d13aebc193a0f2cc8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/29.json",
+      "bytes": 310029,
+      "sha256": "a008a825574fbb9a2f73a7408d49c5fd28e06d52f6d83229004adb0b96ca310b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/3.json",
+      "bytes": 218359,
+      "sha256": "316ddfb6385e7527f85009095beda86c51818e1c7af047fc7123aaa852a88a5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/30.json",
+      "bytes": 376439,
+      "sha256": "9e5520283462051c1be5f6afebfcfbca720de0649961e5510a9ba28f2e4d0c3f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/31.json",
+      "bytes": 131197,
+      "sha256": "679d79bb6f289321137f1f6ab570273942dc76c7052d4cc8c27c757911942144"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/32.json",
+      "bytes": 234143,
+      "sha256": "33d97b519ad64b876a738a6acabbdcdd39c41cd05bd6f2eb0fc870f32077219c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/33.json",
+      "bytes": 302329,
+      "sha256": "c6f5d72f5f1fc15d52fc9500dea5bd6244a5301d1104cfef28db7baada0ce84c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/34.json",
+      "bytes": 136259,
+      "sha256": "8f4564db6044a76cf7b181b52c24ddabd08b4fb4f8aecb5435f8b99c3433e868"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/35.json",
+      "bytes": 137888,
+      "sha256": "f299c7e2376651d516c3f2dd83ee2c29ad47946b68746b861362d6b09296081e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/36.json",
+      "bytes": 251013,
+      "sha256": "4b3c8032913d3b93499676e0690ac9c78a6ef360df0640c5c43fcf9b3a94589e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/37.json",
+      "bytes": 371969,
+      "sha256": "f93aa918a2acd06b776fb8bf9e0156f1c258d169e22c32d2562eb39ce9f48151"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/38.json",
+      "bytes": 262940,
+      "sha256": "737262a2e1640be9803c8c2e45426c818b30e3d056baa8ea0cd8d8eb16e42bf0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/39.json",
+      "bytes": 122719,
+      "sha256": "86eee90b9d7551f2a79a81dbafe14303ab55a0291a2e724cf1cf5e3e0ff5cef5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/4.json",
+      "bytes": 113939,
+      "sha256": "41b2a5c4c85f96b51ca36a43ede61277267f77209a317010b1f5d460e1ea72c2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/40.json",
+      "bytes": 384269,
+      "sha256": "45ff2cd12c0ed57933730bd0ec17deb51ab65aa3491ed8b0e5436feb886c030d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/41.json",
+      "bytes": 333746,
+      "sha256": "23a46ed8858015035f65b42f43bc1575ed7c1b385ba3a74004aa7e07365bff70"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/42.json",
+      "bytes": 282165,
+      "sha256": "a04c694de655a1757bfe14a422ccf71d526e0873bb0786764c246467902b34aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/43.json",
+      "bytes": 332238,
+      "sha256": "bf16f2ba10c39ccbcd009f3cd5658fac58dfc06d990dcd8114674a9fa520a8d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/44.json",
+      "bytes": 304365,
+      "sha256": "99c0fec453673821b2cd95a6e5afc645df863b62bbc142b1f2409131b6693dc0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/45.json",
+      "bytes": 312875,
+      "sha256": "d644093dfea21d560a4a35cc7a5e036f205c4adc1d01b0dcb04d922f27e75d8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/46.json",
+      "bytes": 140449,
+      "sha256": "5381f86a5494473e1d49c9efed17661e8340057a16f6b927de62012e16e7358f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/47.json",
+      "bytes": 153379,
+      "sha256": "ffbdd5ee21f908dd0736b1306c881af3dfed362e84d11dc644e02ef649ba7c80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/48.json",
+      "bytes": 228519,
+      "sha256": "4b0402dee6409b6279d9822f4245f1636c084f80a54f3a88c124be4807e15474"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/49.json",
+      "bytes": 363726,
+      "sha256": "fced8faf216e5a22627046ccd116fe3c4cc6e0515efbcb30e7cc9cda047f7593"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/5.json",
+      "bytes": 303306,
+      "sha256": "4f256aceea313affcf64b2aab2a7629ae182b2603200bc764975054732a63f2e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/50.json",
+      "bytes": 154479,
+      "sha256": "2367a585a6e163210648249d4edeeef1a147d1059048c117d87460b4717482a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/51.json",
+      "bytes": 247871,
+      "sha256": "6404f6fc715ffa648c60db959321e3d57df1e1a1249493bf89e1655cf19fc086"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/52.json",
+      "bytes": 163103,
+      "sha256": "f7c695f57113e73706a7877311fce355faa9d58448d8f429238fac4407bebffc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/53.json",
+      "bytes": 202716,
+      "sha256": "53d609f71c02b95f3ab2116f219098de2f61a61fa780fef9ee4e8ef9b23bce56"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/54.json",
+      "bytes": 195861,
+      "sha256": "99733f0524f0e4e13086f0c27746a602dab3d41b4d2482d74d3701df5eb6602f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/55.json",
+      "bytes": 185869,
+      "sha256": "710417e1412bf02d534c05f8ee50140bbf78e6207ccef2741df93bdc6f64a2db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/56.json",
+      "bytes": 164440,
+      "sha256": "ee8f365906652bbc0da7787c0614a08012dea3bf82c523628123222a0951808a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/57.json",
+      "bytes": 258117,
+      "sha256": "b3fd4b8ff8533d073eb8d55fdd948a6003d80540b102bbb3b375fee919d43816"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/58.json",
+      "bytes": 199918,
+      "sha256": "6f73c7165528a8790f8d4e5fd3f4e015227bc8e28862525514d6b0e0e43f3605"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/59.json",
+      "bytes": 256285,
+      "sha256": "44930fdfae076cc1e75c0bb56dcfd3f957d75448167ad2a51db3e3a214c7b282"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/6.json",
+      "bytes": 240569,
+      "sha256": "5f6c560c73d1888cf947b777897cfd8fb70eb9ec5ef51628422cbf7581dabfde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/60.json",
+      "bytes": 264141,
+      "sha256": "fc4a5f628c886dbdc21ebcb9a153f77b25a72ad9b5ff760aec8335643348531d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/61.json",
+      "bytes": 142739,
+      "sha256": "590c3a71bdf3118443ac60e294017be68d053e7110a7de1e4a46695b744e1f42"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/62.json",
+      "bytes": 154496,
+      "sha256": "c5400c86d8c60a5ce861f9f1c56203977ab444ec610eafef88b153500226419a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/63.json",
+      "bytes": 232475,
+      "sha256": "fa0c511eec192f1eaf2f1b7d2ac5d2dae2f99a22e943e56efa5a728c9f7039df"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/64.json",
+      "bytes": 135420,
+      "sha256": "2e25b1c4f4e23132ab89b643e9de84005802239aa273c7116f3837192970a7b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/65.json",
+      "bytes": 283137,
+      "sha256": "744e64913d2d14e7e67eb818bad34118ac4811d63248d08a13a77de5089c4a64"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/66.json",
+      "bytes": 296456,
+      "sha256": "2341455252d0cffc0e4c39105660b13e238f55ec531667804585c2005a49524d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/7.json",
+      "bytes": 275669,
+      "sha256": "35c1c3b8c62e4064ea702a1c508693f7314bfe55f7ab82173add378bc220be3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/8.json",
+      "bytes": 293424,
+      "sha256": "8375b3f6dd0352af3ace00ea21f9d97fc7cd0f93bc09172a9b398bdc13685eae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-calvin/ISA/9.json",
+      "bytes": 315855,
+      "sha256": "816cc240f5a07aa84dc303d37cb0877c3e4a3b730ecbd8e28b1dea6c7cf9c5a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/1.json",
+      "bytes": 265075,
+      "sha256": "0466eb886e29c215bd1777088ee38cac5194990b2b9f8d74070dd31ef68cbdb7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/10.json",
+      "bytes": 234169,
+      "sha256": "306d484b1ac873890c9f9a1c91b85c758c5fa0c71767fc1c4e3c315641651012"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/11.json",
+      "bytes": 174099,
+      "sha256": "7d5aaa8ee45624f848fe8559bf8e365edf640a85e0df1dac085c3ab03a700013"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/12.json",
+      "bytes": 60770,
+      "sha256": "19f3db165b36974b8b3410624f84aec8556d3456ef5363f86b80901708bf1ef6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/13.json",
+      "bytes": 145225,
+      "sha256": "7897dc553b9c4e7e24d14859f01cc1bf46babb3218c63db8dd872289bde6d153"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/14.json",
+      "bytes": 255159,
+      "sha256": "e8949a0f2461e9f01ec7bbe00e7576da05d6be645415dce5ee51556fa59fd5c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/15.json",
+      "bytes": 88280,
+      "sha256": "05f209ca7d32d63e865b6069e9587fd10567dc2b9cb1fedcaf53e604e7566816"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/16.json",
+      "bytes": 117157,
+      "sha256": "b07499e126f32907c8331eb861a5c24200a9a20ed915cd531379c2f939e3e000"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/17.json",
+      "bytes": 100449,
+      "sha256": "050d376dc322e6f342cb8bcdaaf02dc2b88e0fd0c686e6d419dd54c232c43fcd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/18.json",
+      "bytes": 81112,
+      "sha256": "e7da28eaa7a75de07f0eb11eb2e13bc06b534c49fdf20b22280e1817ee0ade0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/19.json",
+      "bytes": 215550,
+      "sha256": "dcd7dd9e7cca5bd495f8ce3a232e0fdc93a57ec9afefa661232584abfa33eba6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/2.json",
+      "bytes": 156430,
+      "sha256": "cef3e610cc46f8cc31116331ec7a927514835ff0735826a5fe997048c6ad72e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/20.json",
+      "bytes": 39406,
+      "sha256": "6a1ba2b66c30bdc5d1cbae4b9d71081fe0820b604f9a08c67b64767e26907957"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/21.json",
+      "bytes": 142242,
+      "sha256": "459a0cb569fe70adc52fe43280448633d943b063bcb62e9ecc83497b29eba51c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/22.json",
+      "bytes": 189046,
+      "sha256": "387899c5e1be02bd92cbe432c1606fc3e765190b3bc5a67beb8d7594554b95a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/23.json",
+      "bytes": 155685,
+      "sha256": "d359d93c66dd6ad6a0d1098877749553cc3053775ba1d5d6d236028cc06e3bee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/24.json",
+      "bytes": 169052,
+      "sha256": "997075b2259bbe61f0b5e575f5322e9fd96e2acf180b65c074a26e521ba9388a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/25.json",
+      "bytes": 104259,
+      "sha256": "4dc52a96239c048df0b6fe5dfe78b12f07e8d7010455652bd790796df4716c3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/26.json",
+      "bytes": 196314,
+      "sha256": "2deabb34f6f2ca254aaa15ad0f3bfa7d5cc325a92526801c6e5c317a02cc6ab9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/27.json",
+      "bytes": 153314,
+      "sha256": "2cc7e40f3507b0077514d93e544fd1405bad2beb2b27a026f496f9a568cbf646"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/28.json",
+      "bytes": 237170,
+      "sha256": "63de59f32f75b84c0b306b819f6752453807bb6b5c481dd097b47af2fc9ec827"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/29.json",
+      "bytes": 179891,
+      "sha256": "e3fdadbb7e8c5033e22b3f19e2122c67caf7b971c8cb2e589c68d1bf037cb126"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/3.json",
+      "bytes": 175902,
+      "sha256": "663a4e2ddd48b7d36a55b484af20e92df1f3ccfcc60e75c989bc3facffe9c36b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/30.json",
+      "bytes": 271698,
+      "sha256": "eb4be26e3ecd411d6f1ae8dc596e3640ef1c5a8d1320d3a6d82baf685a751eb9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/31.json",
+      "bytes": 71448,
+      "sha256": "ebf6bb5c172279857fe9872348672366ff93cd0d17a7ea6d9d315db3d4db8797"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/32.json",
+      "bytes": 147203,
+      "sha256": "6a4666f84582af712ca1a4c5e2588972aab356820c5c15253b7eacc638218c36"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/33.json",
+      "bytes": 193427,
+      "sha256": "ae4e828387c50c1a0792a4160894b782e97cf21cc0c96cc2b66787b598a1bc74"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/34.json",
+      "bytes": 105614,
+      "sha256": "098763c6bde51d1d5f50a94cdbd3b641bf401aa87ac7c53fd30c9491f88d0bde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/35.json",
+      "bytes": 109329,
+      "sha256": "92ac92c7b992ea19fdec0189953ff996028354a53f238a24b2aff718f0b399aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/36.json",
+      "bytes": 125921,
+      "sha256": "d0f1788a1a0aa6c72eccb5aef89ee93038b49936903bc2e4ef93b61618ef66f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/37.json",
+      "bytes": 235177,
+      "sha256": "708b626c5e53c3bb2761bc764a3930148c3dd0edafc13459a758eb33f290bb97"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/38.json",
+      "bytes": 162677,
+      "sha256": "cceea625db543100cf42a863f0146cb7bc678e47b4e8f0be12761ba1dbacb278"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/39.json",
+      "bytes": 50970,
+      "sha256": "4bc02a1b6a916512d80a8e1f4cb74f7de9d8d3b04a3f252dc67b7ee8c9afce06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/4.json",
+      "bytes": 89435,
+      "sha256": "36152ad7fb0b5caa4d01f0c568c440bb4ff87ea786eede32da1a630b2a297f88"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/40.json",
+      "bytes": 255764,
+      "sha256": "70af243580fa67fcf81cf8ba42c44ebc9f87362e4ce1a914473908f328ed082e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/41.json",
+      "bytes": 228634,
+      "sha256": "2786a4bce6b4039a69b731eca2a4f32583fc6bae43a282715f6aefd507a2cf1a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/42.json",
+      "bytes": 199506,
+      "sha256": "d4cc11898539b0fb77da9e25d278e90e930da61a0d77fd12d3686ff1d4c69fe8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/43.json",
+      "bytes": 214491,
+      "sha256": "24104ada2c200c08cf3f6ce713330a0ac35f9930f7073cef0acd3296da105f14"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/44.json",
+      "bytes": 235439,
+      "sha256": "3aaf6b0834107964772c73f1046d8481cdf272d55ccbde57e66e9e67966203c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/45.json",
+      "bytes": 233354,
+      "sha256": "0192ebd315904efd4a64cc0ce8cb0cd288a5c75c9cb0e93bebbc31128ca132fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/46.json",
+      "bytes": 125850,
+      "sha256": "907c7e3e9136a84da0598eb755d2b05d882d9ed4984733a098ccd0d22e306d7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/47.json",
+      "bytes": 107780,
+      "sha256": "0fd2bd45935780c92158dc373a628ec34f193d1476f3b3e0cd3e990c438825ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/48.json",
+      "bytes": 168849,
+      "sha256": "6a81ce755ed532fad722a9abadbae662b7ba6074db15d3d04912daf167cd00e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/49.json",
+      "bytes": 280613,
+      "sha256": "a16a92f828831cfe809f70b54ccbfd6e15576d325353bbaeef5a91569afff83e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/5.json",
+      "bytes": 206306,
+      "sha256": "946f65b266163ad881d9d6ce2734b0c1d7f9179d4c054a7eca4f2aac295bdc17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/50.json",
+      "bytes": 101924,
+      "sha256": "cd408ae111008f014fd773f317f97b759ff680bd8caf3a1c5231dbef8c858ec9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/51.json",
+      "bytes": 209032,
+      "sha256": "273013994c76d2a14225b0e79829fb9b7e7a2bb08e6bfa65542f2cc1c7b5dc40"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/52.json",
+      "bytes": 152352,
+      "sha256": "3e5c317e3d9b9acf93b4827c1ec80b8f8a068adacb2cf74643ec7181e81708e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/53.json",
+      "bytes": 190755,
+      "sha256": "b9f06156741aa920767c106aba242295a1fe0746c1beaa480da0531b1eae1d3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/54.json",
+      "bytes": 175926,
+      "sha256": "035c7e7e3001e8f46589819e0f1bb0acbabd2c672d5382dbd4fc0f0a3c5548dd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/55.json",
+      "bytes": 148710,
+      "sha256": "b2521f14af2873fc9cab121f412a8c8ca13d4f840207ba2f016233ac1f7211d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/56.json",
+      "bytes": 124059,
+      "sha256": "60527ab43d331fd2e3e7ba2e4e5fb72a394125b2e477b6a4b08b3f2bfe8c9cb1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/57.json",
+      "bytes": 184130,
+      "sha256": "34a5cdb1bb3b2d766555ed72818a740c5d8871c6eb7ef47747b09723d13a0267"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/58.json",
+      "bytes": 136145,
+      "sha256": "0dd16eacdf508b7318c3656ab6b6d91e4f4a0f5bbdb25be6233fb55533d192cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/59.json",
+      "bytes": 178626,
+      "sha256": "cc30891ca72eb51dbb2fc883d417a500f223a90172ff1ae77f0a24e757da6c0e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/6.json",
+      "bytes": 128327,
+      "sha256": "920b0bf16bf1f85b3518ffab2b6a0dd7faf5324cf08ea672eacd18f2d40f10e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/60.json",
+      "bytes": 203641,
+      "sha256": "15ebfe967a51e88d9403969e609e2832bcc442557658c5c7faca5cbbfefaa412"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/61.json",
+      "bytes": 127576,
+      "sha256": "fddabc95dfc7b2ac1ca61172b17e6a0e8dd73e1c6bb4af7685af981865665782"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/62.json",
+      "bytes": 130759,
+      "sha256": "c70e23de03d8d9d0fee438542db0394b008aab4d111dc3a8d254b429aff38acc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/63.json",
+      "bytes": 209976,
+      "sha256": "fbd9792579a8404062cdce91de61dfb965970b81257993f0b6b1d34473c02ae2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/64.json",
+      "bytes": 128307,
+      "sha256": "c512f2e88b96b9d21cf8541913f59936bceab6a03b178f93eb405ca708b77609"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/65.json",
+      "bytes": 222842,
+      "sha256": "ec6f2b2bf87dde9578770bda5394c63f021965e6515f89bb0a0c96f09a87809e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/66.json",
+      "bytes": 306339,
+      "sha256": "2a5a36c1e3e9aa01390a4fcbebf2540a45f75c9ec16baa641ee28f5f4342ec90"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/7.json",
+      "bytes": 181879,
+      "sha256": "5be48af18ebd4c27e211c637b01bd94d527ef8cb232092a15ebd0f6e3fb77445"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/8.json",
+      "bytes": 161182,
+      "sha256": "a6411d45b1b4623c9c83366a303dc70b0478db657b8e5b3f288f095c4a266ac9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/john-gill/ISA/9.json",
+      "bytes": 271115,
+      "sha256": "93694a5a2c28b30803591000bbe322ac898bf68c6c80d055d6a35752a11a3307"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/1.json",
+      "bytes": 985521,
+      "sha256": "ccaba586b8fe9b79a92d9016863dcfccea5af1aba3009d511701aafe5ffdf617"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/10.json",
+      "bytes": 169563,
+      "sha256": "c0036114aae4a6dc2c554c6e0977bf90cd77093f980a5d36acbca1c6b05a1593"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/11.json",
+      "bytes": 101516,
+      "sha256": "a409019ec1f37561bfade5fc12faeb02cb9acba254a2113892c6b1c197fcf63d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/12.json",
+      "bytes": 35476,
+      "sha256": "3358e5e068c32ece925c99ff45d6369052163e830217f1bfddd01dccb5032a68"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/13.json",
+      "bytes": 107204,
+      "sha256": "fc888d882aeed39695f8d74984b2cdf506fcbc1aeee6fcab2e15dedcb6932c5b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/14.json",
+      "bytes": 143808,
+      "sha256": "6022a86edbdfc5afa35cee3a16cd83af124dcc5511c66f0d700510824f61afa3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/15.json",
+      "bytes": 63339,
+      "sha256": "43a838ecaf71ce83860e1a97a2b58fe23aa2ca92440e02759dfcb521bffe56d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/16.json",
+      "bytes": 95386,
+      "sha256": "4a9941f828b499879a7e3b91f876d57c9d84b1d4b4e092e1197c6da82d71c557"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/17.json",
+      "bytes": 71053,
+      "sha256": "dda2409860e0438fb2353818f87041675321b215e2ecf23f877fbd39df9da3d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/18.json",
+      "bytes": 60025,
+      "sha256": "9b8c2872fa35627230df684a168ffe39183d1c6a861f3bb440110fbcd5919816"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/19.json",
+      "bytes": 153358,
+      "sha256": "c6bf689f0418243e32dac004075ff809d0a443b73cafd2983f309508ad47ccee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/2.json",
+      "bytes": 163655,
+      "sha256": "14f6c24f1ee877ae4f4b9187b4bd21842f58b447f10111b7495064c0ac0f9655"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/20.json",
+      "bytes": 64323,
+      "sha256": "112254ea40a4090ad3ff521e9a5764d5b30e59ad9b43ebe0a378e8d610614d35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/21.json",
+      "bytes": 115250,
+      "sha256": "a007a34d56f6add877d513f15d03f18e1bb376444b9715facea28123fdc90074"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/22.json",
+      "bytes": 122275,
+      "sha256": "b4350af9743070abff63aacb7d51715630534a74850939e0683348d1250f1d17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/23.json",
+      "bytes": 165135,
+      "sha256": "f8e1b55d513d4a403b721e1380cc002671732910aedf8b8e8e4969d9640ccfcf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/24.json",
+      "bytes": 112827,
+      "sha256": "3e38230ac618283be4c465ab58b199d1fcdb22719860b802e4802c9a6678999c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/25.json",
+      "bytes": 59056,
+      "sha256": "a90b34176dd5898f334873d10675cfdcd8cbf6988b934e64ab9ad810184769c2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/26.json",
+      "bytes": 100422,
+      "sha256": "0cedb40fdb3ab2399b01ba8dc6f656f92b4c94480fe6d4c408939d71cba9450f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/27.json",
+      "bytes": 82374,
+      "sha256": "751285c8c9e0b2e83e098827f25e341b47e028397f46a783e3a0078495006c87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/28.json",
+      "bytes": 138065,
+      "sha256": "a668a5185f97774e3c27e86fc13c3ebd6d9d3c9690adfba904ed7445f56b2d92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/29.json",
+      "bytes": 86015,
+      "sha256": "92d07833b5979005d4fc17ccb7371252703e5d49fb837cb53ffdc2638378e402"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/3.json",
+      "bytes": 191715,
+      "sha256": "a4be5ea5dffb5f2961ff3d63d5a1535fb80943244dbb4f5ce4ef6f2454d9aefa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/30.json",
+      "bytes": 152169,
+      "sha256": "0087e593a3eab0e4f6ce614b80b89ed771d9fd603caee903c85cc9a2eba1a04a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/31.json",
+      "bytes": 41642,
+      "sha256": "61d7d3e1d887b38cab5bd214921bff0da88c3fd7242a655e9715d2dc3262c69c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/32.json",
+      "bytes": 78094,
+      "sha256": "1653d91e8be704f5aa0d0bdd5c863f9c76fb01220606fb9421824b4372367d9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/33.json",
+      "bytes": 120086,
+      "sha256": "50f954d5219132ca22b73a9c91728f28f7a5d48ab6c4041c45be035e34f8bf87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/34.json",
+      "bytes": 67133,
+      "sha256": "717b610d097f2e7db887008fef9c602481eb926ef154cadb3a1200ef8122c50d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/35.json",
+      "bytes": 76258,
+      "sha256": "522b8833ca03c517862aeba92146d0219b8a6ae9b3602dd80984b98b676c23f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/36.json",
+      "bytes": 68667,
+      "sha256": "236178009780de72715854c796b67702547949f193a557df867bc90157acb15d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/37.json",
+      "bytes": 174096,
+      "sha256": "2506683b39c10c298bc3c55950193a4fbf42a977ba674c01c5e76acc1561ff0d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/38.json",
+      "bytes": 100877,
+      "sha256": "1aaa777dfb144bb3b4f76208bb40043b779bc91d1a09579102bfe55515188724"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/39.json",
+      "bytes": 43143,
+      "sha256": "29614b2cb1d5d90e10a3d268b46c49dd15a58262f3d41bb49c567f619ed4d934"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/4.json",
+      "bytes": 82416,
+      "sha256": "9eb41a4ec9d90fd74059aaaab223f02c678761debc36a6adda6f6ac401373579"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/40.json",
+      "bytes": 314641,
+      "sha256": "dbc2f0059617165b3a64f32369d48fe42e5989f65cb9082367b862c8a41dbeb8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/41.json",
+      "bytes": 148690,
+      "sha256": "c1c1c7e7430291dedab469795cea4e2c37b7715f1afa8a674693a69d891e0a18"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/42.json",
+      "bytes": 138282,
+      "sha256": "ecf198ca8ba664116fb842c0b5cb3c6a74feaa668678454122946744c047cb10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/43.json",
+      "bytes": 108108,
+      "sha256": "b5f3fda8c65656b1921f81cf1e8630b2802552e69b1098d6c90e437497380692"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/44.json",
+      "bytes": 148559,
+      "sha256": "e573feaa148952194d6b6e4820f7fea8bee18a7599f5c98050c6906a7c8561f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/45.json",
+      "bytes": 125033,
+      "sha256": "11c73ad3495be31e3b1d4f74ac625038bf8cdab5c52b806b8509381f952a7822"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/46.json",
+      "bytes": 52901,
+      "sha256": "d95b59b9b838cd8db8f9578cfc04640ba7c0e709155c8b2ca11ef70dc3cd4448"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/47.json",
+      "bytes": 68046,
+      "sha256": "8f71b2ff3526bc0ae395d95b5c58275605c5c9986b69271951123c62bc6d1d66"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/48.json",
+      "bytes": 95054,
+      "sha256": "6d0f0ef30992f8172c9d3431f2f444ba2e954b999b833b7955d569ccb866a4b5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/49.json",
+      "bytes": 156516,
+      "sha256": "77605834d73f35df4805b718a10064aabc6712ea57925ec9ad018346bc512afb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/5.json",
+      "bytes": 256852,
+      "sha256": "4dee36ee89d8e7dd96addad3a19b83644b2527a355f1347870f02b43e6da0631"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/50.json",
+      "bytes": 61667,
+      "sha256": "82e7d26778d89363fb67a9ebef92a08282c60f4a2e2413615f6f8c75b3314b80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/51.json",
+      "bytes": 119696,
+      "sha256": "728e01c57dbb6fa0fca526c90810464ca271b18ce9fb7a770f040cf64111b948"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/52.json",
+      "bytes": 130576,
+      "sha256": "0410766b019b068aeb07736163de2d4911d8a48eadee30289d9ecf67927af2a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/53.json",
+      "bytes": 279193,
+      "sha256": "031224dca49eb8070b8c170d6337cd557771a1bb3278866a85ee9aebc1a41aae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/54.json",
+      "bytes": 99282,
+      "sha256": "195fffce1c0cbb02e6c5f4b1edfcb8e9a5233d72846aad7dbbd875ab26b3a3be"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/55.json",
+      "bytes": 68067,
+      "sha256": "476b8e1db8446ddc07b6388d082f06114a41270391008f870d5e62949ab8aa9e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/56.json",
+      "bytes": 69349,
+      "sha256": "5edd405f2f512c10eb0a0e81462f47a13f8752cf43f6df15e104c7df5dd91b60"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/57.json",
+      "bytes": 140584,
+      "sha256": "ce68f49726aae869581dc428d1df0aa546b22dde672661ff79a502477a2f7cff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/58.json",
+      "bytes": 104341,
+      "sha256": "360a72dd97a4394e9fd241dff2128130c51eea61d39fa52455cfc52472392484"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/59.json",
+      "bytes": 127937,
+      "sha256": "535da6f67613277975f4cf296b6352ee49993ce9f693c87a876e82d0d9c67fcd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/6.json",
+      "bytes": 145099,
+      "sha256": "779adc4d885a81c2fc76c3eaba9d0186f0047e4b798afadcf10e14060709158e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/60.json",
+      "bytes": 132984,
+      "sha256": "8ba97dd66316f685bb235bb8554a7f86aa7fe5d677dea5bd7d6cb9f4d9123520"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/61.json",
+      "bytes": 85210,
+      "sha256": "96821e572ee3cb4da1373b89c314773de4e948e9a890229e82a2e889533fc755"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/62.json",
+      "bytes": 90987,
+      "sha256": "c678a0e34786e301688cbf98aa1d61cae92e5c7ac85ff0b0410002a6a85c37e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/63.json",
+      "bytes": 170751,
+      "sha256": "24f7d8f55defe558e6c7ef56c11f8d5c068b86209496a9ecbff140f695185af0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/64.json",
+      "bytes": 88300,
+      "sha256": "42c8efccb7e50a9eb523272141eec6b540e6f91e17a39c828c05096c93bbc3d1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/65.json",
+      "bytes": 171234,
+      "sha256": "26fa8c41c93a234bac3f8179c6627ea345a6ef3d9755ea6a1fa1bab34a615955"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/66.json",
+      "bytes": 218136,
+      "sha256": "a5713ecf8c320f85c4928a3b22e77741bdcc8d1bc2cbac49a6cf67c8ccc8c116"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/7.json",
+      "bytes": 190257,
+      "sha256": "c2fb9163aa95e00488413ad0be620fda777e6341dfc56ced621050f1b170c4b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/8.json",
+      "bytes": 130009,
+      "sha256": "39d67584c2b712e0b636eded20eef99de06ec55f6d50ad2f64fe4fb9dd660b0f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/keil-delitzsch/ISA/9.json",
+      "bytes": 171967,
+      "sha256": "e24df80de621cc308d495680c0f43c5a8d1f3169e4457c7b38efd43214881399"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/1.json",
+      "bytes": 449790,
+      "sha256": "b45d8c0acfadb512ee5f86802defea115b9d4d16b7ea0c06ce01a89b7b60f296"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/10.json",
+      "bytes": 178721,
+      "sha256": "4af9ec13462d56cb089bed94461588f7bcad511afb370f1c469abd37b5b466a2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/11.json",
+      "bytes": 122386,
+      "sha256": "68beccbd775b81679153e3b9038b321182cf291b6da536508f1e4734ea836d03"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/12.json",
+      "bytes": 56808,
+      "sha256": "e44398b8fc06220be46da99167f25022861794ce9dc335cbad1ed2568da264b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/13.json",
+      "bytes": 94574,
+      "sha256": "df84385d0a60886bb80fb9e860bcad42fdb028d38b06a0c70a19d831e9a5db54"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/14.json",
+      "bytes": 155270,
+      "sha256": "f725a28c9a1f2e12dc2c9934b059755dbf611b83f62351c198641a1dc881562d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/15.json",
+      "bytes": 60670,
+      "sha256": "d6a8b351a119b9f243fb00d8cb6d968394c21bbf8790678b1e248162d0e63df8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/16.json",
+      "bytes": 88813,
+      "sha256": "572b7804ed68daa5b85581c2bb33e7148f24ae5ca77ddf63e8f01495eb3f3232"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/17.json",
+      "bytes": 81102,
+      "sha256": "94770fb2e746eb9ae2979ac8faef881a9ae385013da8b62f9c5c25f54920c78f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/18.json",
+      "bytes": 58884,
+      "sha256": "08221ecef7742a1d5e4f73754d1338962fa885dab721cd5aba75c84be66aa484"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/19.json",
+      "bytes": 140637,
+      "sha256": "9494802bbccec68fbab36ed97ae42ee369879b98e559893da1ee975992f60cf2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/2.json",
+      "bytes": 149794,
+      "sha256": "c50d8c36b475cb34f4314475d08c0a9b09d42ef2b633ac5a1fcf1cf1d38d0e0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/20.json",
+      "bytes": 45502,
+      "sha256": "702a71cfb8df1ed785a7e59f121d261f378a3622c0fd2360795f76d5628ebb17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/21.json",
+      "bytes": 108846,
+      "sha256": "75e0a12154089393686188912eec26c4a8ba644f46a91eb8625582dc8f0a3200"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/22.json",
+      "bytes": 134645,
+      "sha256": "54921a1d5bd31245836ca345a2690cf1fff1853e7732b5a1d779b9fcfb542cac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/23.json",
+      "bytes": 104846,
+      "sha256": "a2c4eb1e706e0fab21db6dd65db7284a50cf58f2cf0343127d6c2690814c57a1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/24.json",
+      "bytes": 137881,
+      "sha256": "ad1a58e359e4d0835479cf4fe96c9c164ac826e5db97c73ac3b2cf9c993db418"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/25.json",
+      "bytes": 93797,
+      "sha256": "5730297a393500cceab9bcd1636c5485eb0a2e248dbb56c64dda39f8250b8978"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/26.json",
+      "bytes": 148392,
+      "sha256": "c24d70902206609569e537f08397911eb4b42709e743b1b21cd9c78c51f52449"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/27.json",
+      "bytes": 113013,
+      "sha256": "83cf00f74cce39019967c5e4fd992e092bba53bd82564cd24d07b40d7187b336"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/28.json",
+      "bytes": 176605,
+      "sha256": "8595089cd6c37bf7e659eccd8313423bae573691e492df52f989e45f3de28483"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/29.json",
+      "bytes": 151145,
+      "sha256": "827358c31e98fcac72cd7a76758413e7a79b9b669ad7af17cabf0decee0f6cef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/3.json",
+      "bytes": 143878,
+      "sha256": "e9a88f88401bed982cd412f66e499c85c66b7c9bb81000e15e00f096a648f304"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/30.json",
+      "bytes": 184281,
+      "sha256": "5654d18665253de3ec2eb76109d63b5ce08a9a425cae0aa5ceb7f80def07f9cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/31.json",
+      "bytes": 76953,
+      "sha256": "6186e52f0c9b1f7d3512eb73ffc62b3f966c91bc6b0fc54e47ef84c23f5c5c57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/32.json",
+      "bytes": 123847,
+      "sha256": "23dd0038a27c20cd053434cedb26ad3f3f24bcac8cf6ea5e6d2964cf2149adfa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/33.json",
+      "bytes": 152051,
+      "sha256": "0d1d26b828384c4d3feaba9766e146c159dd547e219535a1f919f7eeca7fc5ab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/34.json",
+      "bytes": 109431,
+      "sha256": "3c12ecb3f4756eaa9f7ecc1ea5d7348633f8a3cf83cfde9f6fb1e4001059eacc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/35.json",
+      "bytes": 77616,
+      "sha256": "f748b3849dfb51578addd814e31e7d1080fd836aaad4c452c32d5dc4cddc8180"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/36.json",
+      "bytes": 55293,
+      "sha256": "adccfdc34c83f1292d45ba5e9154d49777621d43b054f3ab9df47c7525f08296"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/37.json",
+      "bytes": 81745,
+      "sha256": "fc7ee77b02e7b06f01cc88a59d19fffffedd39997f4c2934d733b5a4b137dd48"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/38.json",
+      "bytes": 113340,
+      "sha256": "f3f494a4b475d614e2607b4930e148de7f49b42678627eae5aad618ee711a995"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/39.json",
+      "bytes": 42699,
+      "sha256": "bdf1717025f5d98b06f86de5b955769b3a76263d224f48f0657ae8d6c37a787f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/4.json",
+      "bytes": 69030,
+      "sha256": "5c47ae01df422d5b2253a201d44934eff80300782dfd409be6eaedd29942a12b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/40.json",
+      "bytes": 179383,
+      "sha256": "cd027ad0e6def029017cb63b97000ed94c81650d1f1e49cc0f39f1e4b344f69d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/41.json",
+      "bytes": 157975,
+      "sha256": "ce18fd9d58db5102c16324a9a89128f111ef9a798d0864fa2d06cb63bd872397"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/42.json",
+      "bytes": 137834,
+      "sha256": "534b4b80a1a8993a1dc713c7305e1cd905ee5e201ecc424728104a0d01ffeb08"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/43.json",
+      "bytes": 153774,
+      "sha256": "c43688756aee49eff063f38826b4afabd4dbd6626eea96f9c647aea280e8518d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/44.json",
+      "bytes": 181874,
+      "sha256": "08a1681415159a4097c79ea96a1c5bcf03c9ef6bcda9f9711a6cc31cf89703c0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/45.json",
+      "bytes": 175646,
+      "sha256": "cdee24bcaa420a849131da87b5a65225a29c68198606049c3b61c2a9fa523dcc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/46.json",
+      "bytes": 88236,
+      "sha256": "44fb23a84039eade4514eeef6c50afb3ca8675d8e1ec36e0ab5ba365ef03e6dd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/47.json",
+      "bytes": 111116,
+      "sha256": "3f4f3f82f2db2601a1f956753ad3ab5f6e16ec14ab205bdbcd252ea5d5c6c46e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/48.json",
+      "bytes": 144498,
+      "sha256": "0fc233880cdcfa905fce92dc78ef0a1932494a585ab75325d73e4705c7d8199d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/49.json",
+      "bytes": 188101,
+      "sha256": "d7379f01359150622ba2f1744b40c214dc9e42a0ad25db9ac278d50eda688175"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/5.json",
+      "bytes": 178861,
+      "sha256": "12e53b20975fb30e16c6b610c48dc4c8adc2ee25d708e6b15052ae9e5d2733b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/50.json",
+      "bytes": 101650,
+      "sha256": "10910705da8b27998b3d587e2c685b71ab2eca53fcf45e838394d5871dd97528"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/51.json",
+      "bytes": 161271,
+      "sha256": "3fe0210793a4d205f6243f7f5bfd91e17328d0042f65747aebd556bc1810ddb0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/52.json",
+      "bytes": 120454,
+      "sha256": "564cbe5fcbc040fb7ac548436fdbb2e847f54392dfc06dfb0274f2468e58dfd5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/53.json",
+      "bytes": 182709,
+      "sha256": "6decae51e81052260848d65578f6554f901be8a33c4cf60cf6ee138efd3d7b06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/54.json",
+      "bytes": 137666,
+      "sha256": "0c9eaac7beb401497270cbcad7220d25a6219c6842493225f9fc4d3d3bf02c4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/55.json",
+      "bytes": 139265,
+      "sha256": "ff222437bd5f08d146192ca391f829d4a014fc72d631e5b204a2f6ae9db392f7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/56.json",
+      "bytes": 112707,
+      "sha256": "e2014efefa43a9dac8415449072658fc8845cb6b515893ebde2eadfa66d04073"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/57.json",
+      "bytes": 166119,
+      "sha256": "1b9744ce58692880315894795d8d521a476b1aea28482a4b87a685c0c1035483"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/58.json",
+      "bytes": 154489,
+      "sha256": "831805d14fe92615f54f227493507a762ac5898b82e60bf42b32894217e36fd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/59.json",
+      "bytes": 159066,
+      "sha256": "3369be047d09bf91db8913f4e6f360134909dcc90ccfa566d5878c17994a1b8c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/6.json",
+      "bytes": 136389,
+      "sha256": "54dfe3eb716dd9dac038e9349419d47f6b017e3abcbb51074e52cb8bf04b5a7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/60.json",
+      "bytes": 162632,
+      "sha256": "b20b642db2661d1cf4f8c246886f039dfa674c73b32121217c5b8b4f245d34d5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/61.json",
+      "bytes": 122322,
+      "sha256": "ed6a5dcfc5828b1bfd45886888ad86b5264bd6a78ca3d4c3d0fd37d19ac5b2fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/62.json",
+      "bytes": 101152,
+      "sha256": "fa7a811f557aaf59ea4c45b3940d238a06ec7e7f6d6d300f6d4bc0a7a502f979"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/63.json",
+      "bytes": 179374,
+      "sha256": "07be76ec76916176f5e611da72fd5a9b8186d8ada59d4d67936e1e013cb1a85f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/64.json",
+      "bytes": 120308,
+      "sha256": "80a3db33694cfefc5aba9b1fef76d99516645359e26a5e7a1d4497987b85fdd4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/65.json",
+      "bytes": 180755,
+      "sha256": "e29ca2f9e77ad3ea0de5b5be0c9512ef768477ea52454e6d54fc1fe8805bf6f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/66.json",
+      "bytes": 189648,
+      "sha256": "3b664274342e765a246e99138e24008cb74fdf8ff9950d274614109ddf645a48"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/7.json",
+      "bytes": 143852,
+      "sha256": "adad00e5ebbfb6feafaa2e3d45da5d5053ad62a73b2d386421677222e204637d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/8.json",
+      "bytes": 143160,
+      "sha256": "d7b22f2b974881e3736616bf987644fc5e8a2f4a2a2f855a6fdbd16d4a28dffe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/authors/matthew-henry/ISA/9.json",
+      "bytes": 144672,
+      "sha256": "13b79bf0a955e32385940425beba77237599c8b5e453c54eab060ddf1b87ee6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/1.json",
+      "bytes": 14830,
+      "sha256": "b8e0edd67de34788309e4e704afc0456b3012d816ea3ce892e874cc1bec6ba86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/10.json",
+      "bytes": 13832,
+      "sha256": "af5dbfff8f42c6fe8a80a7738273f561942424e15855f6b2f509c4da74d4f7f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/11.json",
+      "bytes": 8354,
+      "sha256": "07d9597fc1b024889c69d8964b9f5111222e2de3aae5c06d09091d880238b9d1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/12.json",
+      "bytes": 9367,
+      "sha256": "ff1a5752fbefe4aac795e338d926d087d35f407b0ffba3fe052491a209ef5f29"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/13.json",
+      "bytes": 10291,
+      "sha256": "6bb620d1bd385caba1d4c3f5e1a2d6a45cbef60efb27ca6e8a3268d650a5fec7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/14.json",
+      "bytes": 15630,
+      "sha256": "8fe1753c040810fee3adbb8a4c2a704171a49bf3a95fc99d6517c2c9ac8a0c33"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/15.json",
+      "bytes": 6358,
+      "sha256": "9704f75fcf44dd57561a0f6ad6fd1fac93005b23b3f5af83f12e75ac14cdbfba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/16.json",
+      "bytes": 8444,
+      "sha256": "c32c388467adbc0f28a35ad4677f88bcd896c9c957a1a7fa8d02b88ee04c44f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/17.json",
+      "bytes": 8460,
+      "sha256": "fbc9cda9ee393bed9e3f4a21b384be7b3f24441de1133bbd2c8a5513b8b49c53"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/18.json",
+      "bytes": 5610,
+      "sha256": "8582bd11dd2da842d017c2a516110ac03af97ea689a08e17555b937de18abc34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/19.json",
+      "bytes": 10850,
+      "sha256": "b1881f51dc5364da8d751fe191dbebc85077127e342104d03b6542d3eec15413"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/2.json",
+      "bytes": 10014,
+      "sha256": "6cddc2ad65a1a307f38a0bc5475542f143b9426cfce17d4de104040e560d88d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/20.json",
+      "bytes": 5222,
+      "sha256": "0e8c0806b1f51f3547131e29c0ce1d323190996684636dd854ee84cfed997b0e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/21.json",
+      "bytes": 9294,
+      "sha256": "b7362a6313148409081d4957989310e0ab935513ea6edaeccb377e356494c9f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/22.json",
+      "bytes": 11711,
+      "sha256": "80d8bce69be2673f34032aada9844b4a998ff57948d0eb8329947f81886cdd96"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/23.json",
+      "bytes": 11346,
+      "sha256": "89db7310148200fda74ffc4431b07f55d438bad1893b4e9f5e15a167228b3ca5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/24.json",
+      "bytes": 10839,
+      "sha256": "42e1cadb805724814fbe8c505a823fcb0f45c0c640a1732a0a8dffe18d61123e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/25.json",
+      "bytes": 7608,
+      "sha256": "84ae0f67ed808c65309ace1c97a904650778c8873a78fb3f3136c9e55ddefdb4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/26.json",
+      "bytes": 10265,
+      "sha256": "a9e54eca8eb0a3590858b9b14d87f4d1c16dc15b9eef900e4039ccb87d5d47cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/27.json",
+      "bytes": 11729,
+      "sha256": "75fbea3e91d49a3039d6250211362207d9247e7ca8207f3fa7d57d6116d56ca9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/28.json",
+      "bytes": 12936,
+      "sha256": "1f77723d03fc942e4457f0c52b7e24c8f54a2be839aebfc2b270bced15c99726"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/29.json",
+      "bytes": 10752,
+      "sha256": "11418265fc155a5debb91f547b06b725e8d9f6b84322c1d20f8f3553422d4c58"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/3.json",
+      "bytes": 11209,
+      "sha256": "9e2d34d809c20cb7e5069fe651e4b7fa9881235517d9c2d2083e7c1c5c64127e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/30.json",
+      "bytes": 13590,
+      "sha256": "8d05527e5b46e56a734ab00f36011f8d682b6cf4de68ea0851e0310a3f6493a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/31.json",
+      "bytes": 6561,
+      "sha256": "001422f6d6677a426e4204472d79f77fac1003146a5bc76a4ddc4c3ecab52ef4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/32.json",
+      "bytes": 9443,
+      "sha256": "ab8cf35b831e18fa4e413fb1708c993e88a9fade7441831a6b27b9b1ea494da0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/33.json",
+      "bytes": 13383,
+      "sha256": "e9867d7e8f7c3173f8c1c3eb511b46697833a8722891f9c34b0b39535ad8cfb9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/34.json",
+      "bytes": 8605,
+      "sha256": "94c8b5e47a0ef1f7d14b96311f7c381a016ffc1f94b9d92b724b6e8fd96e8db1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/35.json",
+      "bytes": 9559,
+      "sha256": "497d89dccb6d88c219fca71e374e9ca047d69d48cd54762339af11e032b64b54"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/36.json",
+      "bytes": 9730,
+      "sha256": "310965cfbd5e80d050309c3f31587ca7f6a750c220f06c0d00047c1f8bc066bb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/37.json",
+      "bytes": 14185,
+      "sha256": "e4d0a031217f7fa4eac95a6e919e8160c89a1ea4c26433905408072fda135d24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/38.json",
+      "bytes": 9855,
+      "sha256": "834e88040b277eb65cee377bf9f276f914ac890982f5dc25420fcaaa57bc2f90"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/39.json",
+      "bytes": 6019,
+      "sha256": "79ed58a75779e5c30ed44a31a699af5ebad3e2cfa9df0bf899b2a59d4e9c34cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/4.json",
+      "bytes": 5584,
+      "sha256": "93b7251200438a2f9409a33646d685a054a62349a3403796be920e5558cf9da7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/40.json",
+      "bytes": 14804,
+      "sha256": "d62b6aadc4bb2d00d86e2dc4f228db2f63fb0a088e83bfc215810cb19cffb727"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/41.json",
+      "bytes": 12062,
+      "sha256": "90daef6ea0ddc4df42d839f03a8b13b798fb93756f235670fc56879f52ed66a1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/42.json",
+      "bytes": 11336,
+      "sha256": "9ffaed23fb73bed6154dc5db575b26b299b9830c685cecd403a9ad2a14b28e40"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/43.json",
+      "bytes": 12055,
+      "sha256": "77cb325cdcac58a30fe085820587912340811538e603225da6c24caea77734cc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/44.json",
+      "bytes": 11808,
+      "sha256": "234c4393c2634aa686796b210d0821d17ae8fd11b7218d4317ad2ba30813bcd8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/45.json",
+      "bytes": 11397,
+      "sha256": "b48c87a24f0e1c7e875ea318e54a5a94cf0b2e7a9e5c8d832ab79db8f41d6988"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/46.json",
+      "bytes": 7511,
+      "sha256": "c8231ea0feb1ee332622db4da67445526b1536862651a74837870ff668d98f32"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/47.json",
+      "bytes": 8019,
+      "sha256": "78d5579715cff0953ee7dcd0486873c030dce4da41c031fd9ffe546c03928015"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/48.json",
+      "bytes": 10256,
+      "sha256": "3c5f9a7af76b12f1cf749f05d8be56ad33080399243fe4661f80e9c6f511593c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/49.json",
+      "bytes": 11902,
+      "sha256": "32a981c797a1e430bfb30137c08b6afe1c157c9517ce019648dceca70e8e5724"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/5.json",
+      "bytes": 12796,
+      "sha256": "c554b6368d630952ec9d95381a8f735a402f69e4b0107bdc5a8649043470839f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/50.json",
+      "bytes": 7315,
+      "sha256": "23ba3f578296b9c38b911a3c3512043c71ffa53b9ca6b23484e06a778622742b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/51.json",
+      "bytes": 10927,
+      "sha256": "2f4e9d9366d5e368183e6e437333d15247639a53afeaa22d49d9f119b82c8b1b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/52.json",
+      "bytes": 9259,
+      "sha256": "df4a06cd8fb5dd1f212b141094aa737d921dd88f443895cf35a752be96976718"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/53.json",
+      "bytes": 7786,
+      "sha256": "e9cdc4620e7da93ef93621aa95f62f48076164b838eaa59e852790758be0727a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/54.json",
+      "bytes": 8815,
+      "sha256": "b422c4da0a75965ab6c4c846f5ac5b8dc9381b9ef5195b7fa434cb0f3c001be7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/55.json",
+      "bytes": 7422,
+      "sha256": "c3816a233e2c218916ef300292882bd0a3c2db8bcae594fcaac76b73034fb623"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/56.json",
+      "bytes": 7727,
+      "sha256": "7b7e2f525bb499cb7a23b8e05db9fba18b758f6af854096fdcd94dbe4e532d24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/57.json",
+      "bytes": 10472,
+      "sha256": "1b780afc7f70208837226d0c1c663788fc748a8ac778e9acd4aa0ac38802c9ba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/58.json",
+      "bytes": 10982,
+      "sha256": "681ac886e19e3a93335ca78da2aa87fcb2083b3b48a6cff8f9ed5136bd6e7de2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/59.json",
+      "bytes": 10161,
+      "sha256": "9ad1e68a68de7e978fdd66e1f8589d063b9a3f13ca4efae6f2e2e633c49bbd78"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/6.json",
+      "bytes": 7803,
+      "sha256": "fb7181bb7296826a4cd097a102e1e66b52ab50fe01f5bc19640c343f30045459"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/60.json",
+      "bytes": 10167,
+      "sha256": "eacf2c979da0a095c46baf7ad97d9a12e172950c709efbb8cd352235c891e506"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/61.json",
+      "bytes": 7418,
+      "sha256": "cb3b12f7e92debc7cb8becea1622003202fb66fd9b6add7c5c8ddab678e2ae81"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/62.json",
+      "bytes": 7961,
+      "sha256": "cf410b80f3212e35643c9e5e66b9fe328988de1322d8b9310134baea191443c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/63.json",
+      "bytes": 9554,
+      "sha256": "bfd42395f57561b44135ea84a52915e486334d4126a5b9a6c902e3949174ed32"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/64.json",
+      "bytes": 7276,
+      "sha256": "da1caec7e19bb4924d2991d35379ac81bd47136940dc05c10c20699911997d50"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/65.json",
+      "bytes": 11619,
+      "sha256": "2518ba8fce35c0ee17671e0e1ee570d8ef08b60bb121c5fc5f64ff13ec4712c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/66.json",
+      "bytes": 10781,
+      "sha256": "48c4a2948a0ba82ef2a72ba41e147fdebf8b645ecbf53ada85c453897a25dd90"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/7.json",
+      "bytes": 11521,
+      "sha256": "85873658f57cb1972497a2e3fd6200fb0dd05d7a3edee3ca3d6343dafd584fce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/8.json",
+      "bytes": 10072,
+      "sha256": "d186bdb443035e625a3636aae5504859eb12b82211b7cb6e9bff032ef3cf6c67"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/index/ISA/9.json",
+      "bytes": 9881,
+      "sha256": "ed261b0543d50d2240fc0db0665b4e651a53c93d1498839140017ce2fd3b9c62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-isaiah-2026-11-09/manifest.json",
+      "bytes": 2558,
+      "sha256": "5500c6dbea4dcd212f679b9effe380d7acff3e2832cb71dd71d2125204914518"
+    },
+    {
+      "path": "review-isaiah-v3.html",
+      "bytes": 14560,
+      "sha256": "3371a5f07420d0234fb43ce2c16398a8c0474002141114771ad4b6d5b928457f"
+    }
+  ],
+  "qa": {
+    "package_data_and_CRC": "PASS",
+    "independent_original_native_index_audit": "PASS",
+    "source_audit_assertions": 71954,
+    "reader_navigation": "PASS",
+    "reader_checks": 24069,
+    "release_file_count": 467,
+    "batch_count": 5,
+    "original_sources_verified": 6,
+    "prior_22_book_content_paths_repacked": 0,
+    "one_shared_navigation_manifest_replacement": "api/v3/navigation-coverage/v1/manifest.json",
+    "human_browser_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 66,
+    "verse_coordinates": 1292,
+    "author_chapter_records": 396,
+    "source_entries": 5455,
+    "original_P_sections": 423,
+    "total_routed_P_sections": 424,
+    "inherited_source_links": 1,
+    "assertions_total": 71954,
+    "source_archive_count": 6,
+    "baseline_main_commit": "4a76b5bcb7f185e0f1623a3b87846b952152d6f2"
+  },
+  "release_scope": {
+    "added_book": "ISA",
+    "existing_twenty_two_book_snapshots_modified": 0,
+    "existing_twenty_two_book_overlays_modified": 0,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "new_files_including_release_manifest": 466,
+    "inherited_historical_prefaces": 1,
+    "player_and_prior_reader_changes": 0
+  },
+  "source_and_rights": "Original CrossWire/SWORD edition records and native passage indices for five authors, original HelloAO John Gill and full-chapter fallback only; original editions and public-domain notices retained, no Bible translation text.",
+  "safeguards": [
+    "Install only if live main still matches baseline commit or carefully reconcile newer changes; never overwrite cumulative navigation blindly.",
+    "Upload individual extracted root-relative files, NOT the ZIP itself.",
+    "Install all first four batches before final batch with shared cumulative navigation manifest.",
+    "Respect historically original author/source/editor identification; P is non-Scripture and cannot be verse zero.",
+    "If live browser inspection uncovers a problem, use the preserved pre-ISA commit/history and additive-only rollback planning.",
+    "No direct GitHub modifications, code changes, or CGBC player integration by this build."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING"
+}
