@@ -1,0 +1,1183 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "PRO-v3-2026-11-07",
+  "book": "PRO",
+  "book_name": "Proverbs",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_main_commit_before_Psalms": "fc6ac82f1300a8453f0bc8b5c933696962d2e615",
+  "baseline_tree_sha_before_Psalms": "1e638d978a4602f53525f3c6bbc9e1a9c14d41a0",
+  "baseline_navigation_manifest_git_blob_sha_before_Psalms": "5e969f45786d55312f85c1e54186e02582951896",
+  "prerequisites": [
+    {
+      "book": "PSA",
+      "snapshot": "structured-psalms-2026-11-07",
+      "required_navigation_version": "navigation-coverage-v1.12-additive-psalms",
+      "required_navigation_sha256": "05251c391f6fff00dcb423c93cad26b3255c3628847d99478a1401c092fdd408",
+      "order": 1
+    }
+  ],
+  "snapshot": "structured-proverbs-2026-11-07",
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 221,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/PRO.json",
+      "bytes": 266978,
+      "sha256": "e1e367eac072708e63fc9525beeca52aa527f300c1fd250c3aceb181222070be"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 9230,
+      "sha256": "2126ce65d228eb2b3fe309e8a7a4ad6a7dac939fe66b234ca6f8ed79b8fe9828"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/1.json",
+      "bytes": 130042,
+      "sha256": "26b2a73fb4292110d4c292961245cde39076f37fc5c3e451243f0050950beff2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/10.json",
+      "bytes": 62630,
+      "sha256": "ef735a1a645fdd49b7603a5af02d13c7d6b4134d26a5ca751cebd6b6c3e7b652"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/11.json",
+      "bytes": 47977,
+      "sha256": "8e26fb89690f7aeb9c39c9a4436cfe06c0a6b89229c9dcf102c80b4ebef35f95"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/12.json",
+      "bytes": 60212,
+      "sha256": "35d0ee0d7cd303220a1b34803b727e0b1e01c4746aeecf657bdf8d52fbeb4842"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/13.json",
+      "bytes": 49679,
+      "sha256": "4a2cea40a203977b2be801586e77101a8ccfc551d5fc4d445b8721b933674044"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/14.json",
+      "bytes": 71781,
+      "sha256": "131e05b890db88528da1cd0f4d215f875a4d5ddbc0fee02ee4392edca978f955"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/15.json",
+      "bytes": 40111,
+      "sha256": "20e22ac1fc23121b3370dbc225c641a953916c483bfaf82eef3d97fc82ef8df2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/16.json",
+      "bytes": 76632,
+      "sha256": "9989eb56d3e65b61284a46e21bbcd7d00e57f241a31489211b8db01e9a281a45"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/17.json",
+      "bytes": 38696,
+      "sha256": "18c0b51ca3abaf812093cba45e9680156489aa23c624926627ab84ffd350cb2e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/18.json",
+      "bytes": 65023,
+      "sha256": "84f1b96a8d30ccd5b4da72cbc895288628fff8f7c9241d364a3d1bf1879bc5e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/19.json",
+      "bytes": 39915,
+      "sha256": "ca1e79c94b32112d072f2d948f501eea4d44eb528aed592b159e570aa907a57c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/2.json",
+      "bytes": 35726,
+      "sha256": "d14d2ece1513130defd8e10d3bb7c99b528bc8e218ef745c16fc111ee3b23ba5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/20.json",
+      "bytes": 62478,
+      "sha256": "5ee36ae07b5f8a12c6053fa7385abdc0add6ee21765a88c9fc6a32a3187e2601"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/21.json",
+      "bytes": 42799,
+      "sha256": "e922e29b36de746d7f8e3e0a959f015415249642fe686e38f1dfd7711d40f025"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/22.json",
+      "bytes": 88488,
+      "sha256": "ab58d177520a68723aff74667016f77af5f47285912d38e102e515693b5e7cf3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/23.json",
+      "bytes": 47320,
+      "sha256": "05459047b55b5d4a2c4bd462fd36f4d7b443993d5b48ac4c67144bec50d73113"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/24.json",
+      "bytes": 71412,
+      "sha256": "f9e198137663dc3f82d0416824c011636a7da5e5513d1492b6536ffa4daff576"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/25.json",
+      "bytes": 62442,
+      "sha256": "fafa8cda34f0bb3064201bd5d877185ced1d79c1b4240dd532e56c852c85cbf7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/26.json",
+      "bytes": 41938,
+      "sha256": "5b4881bb2126f3a26992ea77c076aceeb0ecc8744d1ebcfd128009cfb1268ede"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/27.json",
+      "bytes": 52943,
+      "sha256": "7c89530a55d241c301cbfd9d11bc9325e4fcda7d7bf58f457cef2ef46c4ecd24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/28.json",
+      "bytes": 44429,
+      "sha256": "e1fc9c5d90a01ec1b8d4f03addbbe3538a72748fc15cce7b6d1e9d01995e2b39"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/29.json",
+      "bytes": 35725,
+      "sha256": "86a3dada68c4ecb54496120d4819f01e9acec671052f0d081fcb5288591e5401"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/3.json",
+      "bytes": 85325,
+      "sha256": "ea81525f00c2ced0a7eab01df5a1af7e48a6918c096f404ce15378781e876612"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/30.json",
+      "bytes": 110218,
+      "sha256": "acf753ca180d2d3856f79cfffda96bc6098a152001a9d8431cf3062e4a167a16"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/31.json",
+      "bytes": 101119,
+      "sha256": "243e66f26c67eff7f057176ed3ce3e1e07f9346367d51c79e4d5f7becaa77826"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/4.json",
+      "bytes": 60174,
+      "sha256": "2f1f15be91b092ca282a9d92945f7412e7198add926c80f34c93bab838706b10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/5.json",
+      "bytes": 36840,
+      "sha256": "f36fbe77f75e4cee79fde7c5979a53df8f39d0972671187026860299a46e06c2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/6.json",
+      "bytes": 64887,
+      "sha256": "44c5a755b2a4baa1a5eb500e103122ed78b04e9422d5965e276db5f93976cfd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/7.json",
+      "bytes": 52173,
+      "sha256": "be61791d54db713325fea27e5b6edace88287d2e61eba4df1e6eb6ac835869b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/8.json",
+      "bytes": 120239,
+      "sha256": "b03158fa2556889492b2ad16a00684002ae3300bb34c8c9db362e414e09f8337"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/adam-clarke/PRO/9.json",
+      "bytes": 51958,
+      "sha256": "c37e797e702af7d25c2cd68b97c2393960bdceeb0a888273c0307ea3c5fbae95"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/1.json",
+      "bytes": 64401,
+      "sha256": "f85f07b6880b3d7f83cc03606eb5b9123f5f768c620ab5a4f8dde523a4639e35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/10.json",
+      "bytes": 53916,
+      "sha256": "0fa97e8e9c5e3bac238f9c397dd2a6940b230fd3cdb6ad1126b80d43bc1216d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/11.json",
+      "bytes": 37009,
+      "sha256": "ade10334808b2e33e94560e06eb71048b21ea2874e4a91db5f54feb061d04e24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/12.json",
+      "bytes": 43626,
+      "sha256": "97dcedfb0adf45a3aaef965c87c537541bd1d52619db0cfcc1b71f13fe168263"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/13.json",
+      "bytes": 38888,
+      "sha256": "8aa994c97ec334e0fd0ae69d919f9eddc8dc0b8e433f35a5adcd3571899d4837"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/14.json",
+      "bytes": 53888,
+      "sha256": "aa133bf313ee024ed2a73072980bb2018b15672c599e05f4a59413d7d3799c9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/15.json",
+      "bytes": 49343,
+      "sha256": "96feba107d032052e7542ecfbfa846e7f8876829875728ec068642351a595a5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/16.json",
+      "bytes": 48949,
+      "sha256": "7ef7a92356d12be1af8ce05f0b11ee47e3f21beaae715ac5b876afb6fdf512de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/17.json",
+      "bytes": 42156,
+      "sha256": "49644f9b80ff36d2895fb3fe8765f32f06d01781fbc554f231c686de4879e7c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/18.json",
+      "bytes": 37709,
+      "sha256": "34147ca6191c9717bd166a3c1ee7b88af3bd6701717540df9cd38aa0ad3f366a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/19.json",
+      "bytes": 41750,
+      "sha256": "627c64e2029bb11b7bec2efbbe0306f918c4e6d6d5f6770664bb0cef944e1cfc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/2.json",
+      "bytes": 21979,
+      "sha256": "3cfc4f8dbc58ce8e954bc1b0370f0fab0b480dc8eb531ada8d8a66616711e4f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/20.json",
+      "bytes": 47238,
+      "sha256": "0878c8e7976e9aefe28c4fce9f86840d76fecbc0502ec7d4f7f8951b97178a8f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/21.json",
+      "bytes": 48045,
+      "sha256": "fb36d83e5ed61669de1141fc1a72f4f0861de3432f7af84231a617388020a29c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/22.json",
+      "bytes": 39918,
+      "sha256": "07b115ca3814593d1db4232092cad0ce8892f89a8dd108acb221f50867e51e17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/23.json",
+      "bytes": 24996,
+      "sha256": "aa0f3b7e99103845e68d2ed2f99f688d1e47bbe89299a4293b548ca79df14b06"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/24.json",
+      "bytes": 32416,
+      "sha256": "5d8ac8d0a1ebebad455c6f35a1963086b0569f51db590c92d4f3995e00bc82cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/25.json",
+      "bytes": 37197,
+      "sha256": "20639714f75ab3538d1195d6cbea51ba9f87598c1d3ef58e838d05aaa78907a3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/26.json",
+      "bytes": 35970,
+      "sha256": "775583f6eaee7e1c7dd8f18a6205389385d863da4722dfd0f1e8a57adfdf119c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/27.json",
+      "bytes": 33490,
+      "sha256": "1c05b355b7ae676d8e4506eaf56695f2da3164b908da3711515657c5e416d6df"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/28.json",
+      "bytes": 44583,
+      "sha256": "201cf9177e0dce695c575962aeb40d9d35282369a894217c4d89f1098d8ab082"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/29.json",
+      "bytes": 44902,
+      "sha256": "6d2ce3db98fd082896d0a423bcf0d86205b9e2575e36c7fa88ddfb334ad492d1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/3.json",
+      "bytes": 42992,
+      "sha256": "b51e9742d6842dd9c1248e33be4f40cdc7fe22d220c2c67263b78d5f44eacb23"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/30.json",
+      "bytes": 30161,
+      "sha256": "ee79f547933173a9199a0f753fc36d5d62b73c16c8bd99b2297adf870656c79a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/31.json",
+      "bytes": 11978,
+      "sha256": "b3e62b839136549f8acc31856d3c2ead7af0c619539e24a804ac83c6640eeec4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/4.json",
+      "bytes": 36162,
+      "sha256": "b7f6c5998ebd24b35751b8656345e00688edf76dcb95e82b38eaef79ed29576b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/5.json",
+      "bytes": 24121,
+      "sha256": "17226bd38225fe9ada360220a1e482a8368c6f81ca402fb085662b4122cdfec6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/6.json",
+      "bytes": 34663,
+      "sha256": "8964b936b8a7fe55aae5e0c1f3f4d8a7851133232d4105ae3f6ebe9abb32c4dd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/7.json",
+      "bytes": 27407,
+      "sha256": "52e1c6a36fb782e1f730e8df667d94583246730d7287331d789d67d90f6fd364"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/8.json",
+      "bytes": 42580,
+      "sha256": "d90c9704f2146b0eea1db4d524b5b4b6468e09ec8296b7edb29bb96ff92f6975"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/jamieson-fausset-brown/PRO/9.json",
+      "bytes": 26315,
+      "sha256": "4cdd101900fd5e8cb52794cfc64e2e7db6a461ea13c737bcb881da463ab80968"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/1.json",
+      "bytes": 1143,
+      "sha256": "61f0622a7d5f9429899d5d141425097b285d8b588f2925471262c8317d4c5b41"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/10.json",
+      "bytes": 1146,
+      "sha256": "d769d5dc4de924d573fda2c2c552aad26a7284a4e141281cdbb981c84ed55489"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/11.json",
+      "bytes": 1146,
+      "sha256": "94c3deb67728e3095a95303341953fb1eebd47b4fb153c22a14176c02d46a3a6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/12.json",
+      "bytes": 1146,
+      "sha256": "afde80d347447714aea1f8b8d8e2d91d6ff155c678ff8bbfc8433b5948f94b3b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/13.json",
+      "bytes": 1146,
+      "sha256": "253988f351c83b6fdd5e3686361e4565178fc80b57615785a01a19e162951403"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/14.json",
+      "bytes": 1146,
+      "sha256": "42c978a2be4fa0ee39442a4e2f5cae415d4cb260627585105b96d1cae4170bde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/15.json",
+      "bytes": 1146,
+      "sha256": "09e3cb88cda2f1b83559aa0158f7bca9f99e15d9bdfcbb6cb3298e7cf21eb299"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/16.json",
+      "bytes": 1146,
+      "sha256": "6d3fbcf5f9b7ab0c863461aac28583946ecf143b5978cfd38d3fa258690dc928"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/17.json",
+      "bytes": 1146,
+      "sha256": "559dd48fdfb49da75acca71bc2e53bb3e88ae17b41ae0dcfe09b326fc2b183bb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/18.json",
+      "bytes": 1146,
+      "sha256": "b2a7999fbafa98c7935800405fb5a97144e184067d6713be4e74aea63546b9d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/19.json",
+      "bytes": 1146,
+      "sha256": "93d880d1bfa2f73b811d1984f2cc38d91acf848d6a8f5b939ad2ad07ae279f8a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/2.json",
+      "bytes": 1143,
+      "sha256": "62a7978b8b25ed7a20abf8ea49a13222f2e35c7f37bdf2c887a03c85a723567e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/20.json",
+      "bytes": 1146,
+      "sha256": "9baf422aa37d4d4c31b84454268589fdd72e30dee518efc856d1ff022f19af85"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/21.json",
+      "bytes": 1146,
+      "sha256": "09953dda1b45a6750d1d613d8a9622f376ba355fe95f71f3f07ed95c1bd26a39"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/22.json",
+      "bytes": 1146,
+      "sha256": "58008c4f08ac43a93927e563d0b8a503f5a83c6eeb92185c7db9a40f8fe17952"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/23.json",
+      "bytes": 1146,
+      "sha256": "a63e35a87f6ac456224eeb01d27e9cd09d3348f8de63fd9703143c3362376382"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/24.json",
+      "bytes": 1146,
+      "sha256": "8721ee8a77b35c45f61037233af825dcc57421780afbc3b088a7877fdfb97240"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/25.json",
+      "bytes": 1146,
+      "sha256": "913458a32ed2efee7011fad5571fbe3803526afbe0b8b928bd558d7f4a875b34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/26.json",
+      "bytes": 1146,
+      "sha256": "0116a9d28ff75cb21b50612038f5add12fe4f887c095ddc13db22a6c3ba5f21e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/27.json",
+      "bytes": 1146,
+      "sha256": "712eda6af9447f69be5ac3531b517bcf47ac867f43ca3e168df53fde113fb561"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/28.json",
+      "bytes": 1146,
+      "sha256": "c1f8723abb93c67dc92f7bb930c9b5d9cab5e299f8fb116273e118280eddd4c2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/29.json",
+      "bytes": 1146,
+      "sha256": "0e027a5fd171a67eabd11b1f8339ce476586d9bcb09b024ff759299f1ea6791b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/3.json",
+      "bytes": 1143,
+      "sha256": "e21eb75ae44f6804492a1e6e51d5edc538e7a7c175a16771a02793d87e191b9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/30.json",
+      "bytes": 1146,
+      "sha256": "47156f85accb98316a292ecdc135b0e2c36190e2360710759e2b922452ac7222"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/31.json",
+      "bytes": 1146,
+      "sha256": "ab2a12f6a8c5a105fe341831f34f568ded01c6e21bda40d1ace4b5fc446108cb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/4.json",
+      "bytes": 1143,
+      "sha256": "091b7390261ce31a66975073ac2fe6747db3395bbe6ef5ba67f47fa007f55594"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/5.json",
+      "bytes": 1143,
+      "sha256": "b735877ff8990f6ff01212facaba0babc356d4b48c60af4c40d4c36646c39f49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/6.json",
+      "bytes": 1143,
+      "sha256": "507b18b7dd78ec95150b561a9136a26776ddb17e2af182b32196130ab8ad3e92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/7.json",
+      "bytes": 1143,
+      "sha256": "95bde2e1c0fc6c467bd20acab5da29c4d3571d1f88f61b73e73fc9dbd43e7bae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/8.json",
+      "bytes": 1143,
+      "sha256": "e639de7654179612004b69173e4a8302b259e1237d2d8e8aa88c824a30a0a692"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-calvin/PRO/9.json",
+      "bytes": 1143,
+      "sha256": "91f9267fc878a0d07cb72440e8a645610daa3b822ae8b253a046acf965a16bcb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/1.json",
+      "bytes": 233035,
+      "sha256": "b7f3cbd830392c9855a49148c8b129fc1c57f8f6cc49f6f61a03f3fa36226e83"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/10.json",
+      "bytes": 257876,
+      "sha256": "e747532b84a3a8551d70e9c8fd3aedca41750433bb8e269e549832b17abd8464"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/11.json",
+      "bytes": 221961,
+      "sha256": "07261c5e5450f457c5845485351a1e57208d4e20c992eb97c3c9f870c82e85be"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/12.json",
+      "bytes": 224688,
+      "sha256": "50ebfb646f09bc311f51222fec1137c9772992d4ebc5c0827b9763709c4a2a1b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/13.json",
+      "bytes": 191183,
+      "sha256": "9451b5a8d40fb6ea776f142c5a2de192350d35f6b28c876cb07a29258df07dfd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/14.json",
+      "bytes": 264569,
+      "sha256": "3648043b3b22db0b45043435f928e96faa9bd7eceb979bacddec3670e76ba683"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/15.json",
+      "bytes": 248839,
+      "sha256": "85b43576a0b89574a34778fc028cbf5cf3b0b5684bf9bc67e2999dc596fac703"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/16.json",
+      "bytes": 237983,
+      "sha256": "29801b130a04580778852ddc6d1557cbbdcdc2802cd26260bec5412af72bbb8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/17.json",
+      "bytes": 191016,
+      "sha256": "5508c517bd71bc6eae8733c1beca820271284e562942264b286d6bd88ab23e43"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/18.json",
+      "bytes": 159700,
+      "sha256": "5e2dfe30d929720cb86ab8839836079c3e4a5a38b89e6637acdd645c888c5cef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/19.json",
+      "bytes": 161443,
+      "sha256": "a855219362b50496798c5295688917f49dedb6f63964f7fc2c5b115d364307a3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/2.json",
+      "bytes": 169467,
+      "sha256": "76d3f322b0c7ab07b6d05ff10805cba79e35b21bc72c67993b0081be0c5fe972"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/20.json",
+      "bytes": 190222,
+      "sha256": "03efcc9fd069f023f946498fbd5a08b4d69b6700208774001eeb5764056fc0d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/21.json",
+      "bytes": 191613,
+      "sha256": "2bd7790dd209d5109a9d02121f96fd03a5c4aaea0910670cc57749f2d6ed66e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/22.json",
+      "bytes": 184039,
+      "sha256": "5cf5101b1a86d7dd49819d7d4a889da8cbc5af75af35af152308815acfc20e76"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/23.json",
+      "bytes": 209785,
+      "sha256": "3827797e0e912e5d1065045be0f3aeef8aeb96297a304a71ab5af9d2ef021c6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/24.json",
+      "bytes": 220138,
+      "sha256": "16a3389f5d65b691d49051785e9982c9434f87f39efbe7db926c06dc9c508482"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/25.json",
+      "bytes": 172168,
+      "sha256": "d1f506944bc7962f56dac2d66f50dcc62a9bdb0b40fd7d1dcdc4bfe6ce409f55"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/26.json",
+      "bytes": 176864,
+      "sha256": "d3229e7a0381a7b7adc803c13d14e11a4ac62faaa64a5dbc004d8df5ea0c2666"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/27.json",
+      "bytes": 188041,
+      "sha256": "576ff29b867620077c2524867818d323ae1676d335b50bf1280ae80c20481586"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/28.json",
+      "bytes": 218556,
+      "sha256": "caa2191be1348edc913720a11e3ee668d51754851705d37f87a89e55313a7925"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/29.json",
+      "bytes": 171145,
+      "sha256": "81929d246a26567de26fde0835db64d5a7a65e2459512866ef42fc2cc7652b81"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/3.json",
+      "bytes": 298226,
+      "sha256": "41b58c647bdd8cf1cdb501a143786f830dfc0ae7a3bdbb9350372e065d5ce8ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/30.json",
+      "bytes": 318003,
+      "sha256": "3eaedcd62fe3f358c981d40ce2040e32a6c369fdf37cb8d93cf746f66e141699"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/31.json",
+      "bytes": 270269,
+      "sha256": "d115357076d54a39dd4286fab289350c23afe381511a9f278ac24f593e59d3c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/4.json",
+      "bytes": 173146,
+      "sha256": "455e1e7c899600f792e0fdae48a8f9444eaa5fde0f7f115058f918426e00d165"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/5.json",
+      "bytes": 145134,
+      "sha256": "618b42a9b35c716b0cccbc3777ea7a630d9e97c181d541ecd23894f87a80d5d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/6.json",
+      "bytes": 201858,
+      "sha256": "9868791b2c2d206481dd9f51198f579b29c2fb296eadab47b686923ab9bef996"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/7.json",
+      "bytes": 171126,
+      "sha256": "13c754a28a598b284ab6af24c4f6aedd4c916ee48510cdc1c583f499f8eee035"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/8.json",
+      "bytes": 323245,
+      "sha256": "4f8ca64ad7f8837c24e22684d9ab055d356ccedef33ce53eb8df1baf0af000dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/john-gill/PRO/9.json",
+      "bytes": 161387,
+      "sha256": "246693bd4990d2140067bceb8ea737ce08e7f70d72ddbc6ce8063a942731aecf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/1.json",
+      "bytes": 790214,
+      "sha256": "a036fa2927b6eb6bead1bc0ef76af2197e94b5ae0f7066649e23b6c434d2739a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/10.json",
+      "bytes": 218885,
+      "sha256": "3e8bd6050506478e1cd5c90a4102027c9274ee7bb2f7e0d5f9b5ebdba0f86cd8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/11.json",
+      "bytes": 207557,
+      "sha256": "41eeec41906b51efc2d5dafa37f45425b661701c7460757e7ef77c7bb966e518"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/12.json",
+      "bytes": 193211,
+      "sha256": "5ba700dba097af0fefb4d680dc2b2418d34b83ea96f0001d7256d93a49ad42c6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/13.json",
+      "bytes": 185607,
+      "sha256": "b03318fe3d79b4ad1f892942b1c14cdcf15f577cce113c80c932114b81cfb177"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/14.json",
+      "bytes": 273252,
+      "sha256": "2c0779d731be86e80899be5c2c0c4e71b3695d5054058e09b3909922f0b24133"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/15.json",
+      "bytes": 173140,
+      "sha256": "3f818efe42a89cd695427241cf2b7794a61778e31ab2ca183872023c3ade8673"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/16.json",
+      "bytes": 189092,
+      "sha256": "5bb7a31b1cae58bfe5418b9d70f6ef0ddd9a581b71de19f677b0808045e6a146"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/17.json",
+      "bytes": 203532,
+      "sha256": "3214ebe8c9a684e6728436bab102cbee5625840f4511dd9ef8a80c9a34f96ba4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/18.json",
+      "bytes": 162085,
+      "sha256": "b5c28a3a462dd7fce6d4015fd94681126023e1e2e1f54079be7dd5667a05cd65"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/19.json",
+      "bytes": 199839,
+      "sha256": "419d71719718ac996363410c4969663a8aa2c01215a67b60cff98709a0eee45f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/2.json",
+      "bytes": 83835,
+      "sha256": "b53afdcf73c0a94a4e52b30117350e65ddc3444f3fa05f36c57e22d4947e1092"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/20.json",
+      "bytes": 211367,
+      "sha256": "28cba2e303d05cfa92e7955929b5eda5f790ae3e6de9cda0df8cfc3a882170e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/21.json",
+      "bytes": 199800,
+      "sha256": "982db7b0a0e65ca5c54c4e074e86a7fb4ff15bc96e6c90f32b6bc251cd80c298"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/22.json",
+      "bytes": 180284,
+      "sha256": "922d68f2a22ee211fc7b1bb34d75bc1746f8b069fe11fd70ad3fda30cf8e9885"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/23.json",
+      "bytes": 188066,
+      "sha256": "504ef8012e32c1683d7b8beb923bf3e507f64174a4256a1a162517b2c86023e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/24.json",
+      "bytes": 194635,
+      "sha256": "b6945ebd5a175e9ae97712b257c90ae6f6026803e9be83d0a745d8ab019f975d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/25.json",
+      "bytes": 221005,
+      "sha256": "5d53514b330f7ed59ce7338488ce2f50db6fc62461f6d829bede65f478fbe3e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/26.json",
+      "bytes": 220251,
+      "sha256": "6c33fe84d330626f461d678467cbf7416f84c75a1f313eb4b67707e1d28d446e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/27.json",
+      "bytes": 204054,
+      "sha256": "1145a5ad8949b9305d0a6177dbdea70c51d4218683b43f47d74cd5e72f47ed84"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/28.json",
+      "bytes": 177028,
+      "sha256": "af09b929de4d413d9ef5d0392efb1c8b9de254a72e8c1dc6ecf10ed3fc2ad7d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/29.json",
+      "bytes": 178530,
+      "sha256": "e25d1e68bcfd78b19679dbc78ec00feae08e381b99658c72424c41b3a95a23db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/3.json",
+      "bytes": 165140,
+      "sha256": "f8c989645e60bba58f81afdf45d1d54e8ecbf4d65fd168f8d56361d7db197fa6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/30.json",
+      "bytes": 427072,
+      "sha256": "2815c2c310c745b4c1101caa070c1ba273511620f55ddfc25565f5450bfcff1f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/31.json",
+      "bytes": 236227,
+      "sha256": "b7c1acfcb65d9bf5a0dd155efba60dd1bc744324ee418e0d111246b138f50a98"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/4.json",
+      "bytes": 89745,
+      "sha256": "1f88a64eceedfa2026a738c3868b809e1a7554b821627aa5991e65597d2925ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/5.json",
+      "bytes": 58288,
+      "sha256": "cfb8195fd2f54efd49733d4ca452df867a31046a82372c4c90ceb49bc4b63f92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/6.json",
+      "bytes": 117728,
+      "sha256": "489068951091efbbf8a87a429409552d14877bc491519784d518f69033d14ed7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/7.json",
+      "bytes": 120214,
+      "sha256": "8bb0fd04b56f503deab3cf6401b1c4504d1d72d88c2f3213b877137d8f8d5007"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/8.json",
+      "bytes": 106617,
+      "sha256": "949e2e15abdda24b2cd63475191611a27200ca81d0a460b5108cd5a8c288285e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/keil-delitzsch/PRO/9.json",
+      "bytes": 95885,
+      "sha256": "9991ffc36d296b6ce8403c5f6a8aef416fd2fe126f850b5f765d480fdc253197"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/1.json",
+      "bytes": 198951,
+      "sha256": "fa39a4ee43014bd30e6a3a35eca365a75248f3123426e250ec3015a664ba6221"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/10.json",
+      "bytes": 155267,
+      "sha256": "6278ebca9ad95966e7521d82a691ffe6474648a3069c30014f7956082803c56e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/11.json",
+      "bytes": 152769,
+      "sha256": "5138b91c661b507b0d81a924bad0f969bcc5a995063c7be09087d19a4540d942"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/12.json",
+      "bytes": 127920,
+      "sha256": "85e5756e0207c2627d17f64c5e43bb839533e36050724195ce5b096984a95e7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/13.json",
+      "bytes": 117352,
+      "sha256": "925651993422cfb2edfb0d898d61a04095935429f2d6ccea7fb5c28fde13fd94"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/14.json",
+      "bytes": 158447,
+      "sha256": "18a4af84524dce5bc8beef89a20c6f4d7c6c08b169360489433cedce0753c70c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/15.json",
+      "bytes": 153202,
+      "sha256": "26f622a0aafadb2cf7d66c439b7ce28a9207c18e3455d7de65eff714e4ed9d36"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/16.json",
+      "bytes": 150139,
+      "sha256": "eaa3bd80d8cc6ef7d27ba9fbbffe899be444f13ab6b0dc056c5e64c17971b272"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/17.json",
+      "bytes": 129353,
+      "sha256": "fd9f49501048ccab29e3409845ea185f5cf11c562d5255d87ec89cfb34436975"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/18.json",
+      "bytes": 112750,
+      "sha256": "97e2a65372a2e9251de006defda6ebaf5e2ad489d078f6565caa8bf27046174a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/19.json",
+      "bytes": 139353,
+      "sha256": "c741f26c31f6d6ef02ce449f7856b0504dbfea2104d8f279986dc98a8878876d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/2.json",
+      "bytes": 94733,
+      "sha256": "bf21af8eeb10d54da2225991a9ba626313adcf324a49febf24330339a7c1aa22"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/20.json",
+      "bytes": 139356,
+      "sha256": "977b13e59deb723d44ccd165703639d17c2fd101d99cccac2025078b44e3e95b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/21.json",
+      "bytes": 140020,
+      "sha256": "9f032c67ce4ca69b9dc1e430d4a567a7cb07b04e985004adec1d6ad241f35069"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/22.json",
+      "bytes": 136094,
+      "sha256": "d6274327dc366196b19496171cd2f422fd1c8ebc6b2693af40fcc23a463b6df7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/23.json",
+      "bytes": 151827,
+      "sha256": "9b9f79bc81b7a98dba1918afa73d10db4c2914d57dce0f411fa0bda997ae4614"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/24.json",
+      "bytes": 134130,
+      "sha256": "f837a5381b9c257a3a2d2eb0188fe8d49f77b99af081023615b10e15bb1ff139"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/25.json",
+      "bytes": 125882,
+      "sha256": "fad4d9e35e77ec65a6a84467eb76e3cc1ca8f5a803223bd96848e6aac28b14e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/26.json",
+      "bytes": 124073,
+      "sha256": "f551059181d0ebbd20527558f76412ca5883bb7e330dbd05efcbd6adfa9f20b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/27.json",
+      "bytes": 116852,
+      "sha256": "e3061d9cfe50abe99cf522ab505490b82de845e1d111a644c527e1ecd7dc7675"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/28.json",
+      "bytes": 133947,
+      "sha256": "4a1587284d6d3708e9d32f91d1482c01f4b986091370f706fae8b3b1c8b67ff0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/29.json",
+      "bytes": 134801,
+      "sha256": "dff1b79133e57dc9389ab16f18e9284fe31974afbceefe45be3f37fd31a1a343"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/3.json",
+      "bytes": 156695,
+      "sha256": "92f9573b0a7e34cc2111dcd18d458c9293bb7331abd370bf15a462d249183621"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/30.json",
+      "bytes": 167564,
+      "sha256": "1aad3a52b638b829c987980b5fb3a551d28db11c8a6269b58ea6640e4618747c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/31.json",
+      "bytes": 186689,
+      "sha256": "590705d56dd47b1f52b781f426987137775d02d85ba796191792a284a4a20007"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/4.json",
+      "bytes": 143534,
+      "sha256": "c2f60e33a0e8840b62a145a933975ce22fd6657842988414af7044fd3c635bde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/5.json",
+      "bytes": 106636,
+      "sha256": "60608201021877649579492ece8ac1d5a76b3f2258023d0025fc6b943a24e9a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/6.json",
+      "bytes": 143171,
+      "sha256": "4e0cb7d07501fc28f94fb3c198ae6673a743e8136698499f49e086e07b951bb9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/7.json",
+      "bytes": 93689,
+      "sha256": "5abc1a483e5a83047d1f04c787996b0cc70bc2255681184ada76d95e348beb71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/8.json",
+      "bytes": 155226,
+      "sha256": "8f6198b9a4dba3f9c00beb5e0ccb5cadfaba381495d29747b2e729f9311c0cbf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/authors/matthew-henry/PRO/9.json",
+      "bytes": 108620,
+      "sha256": "4781aca45db1de480106dc3c895794e5cca4a3c0203205bd9af0ab548763d8c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/1.json",
+      "bytes": 13770,
+      "sha256": "82f39d0d677e0dea71bcbe19932bd647a4257f7c6ea03765694e02868b42b7b3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/10.json",
+      "bytes": 13315,
+      "sha256": "141c0dbf3df61d7b59688f60ff389b5f94c768ae34c998d3a25c1aad3b8af388"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/11.json",
+      "bytes": 11780,
+      "sha256": "be849bd602f551745a6a6e9fa6657358b14414e4b4d1b8b0dde37c6e1e4da55f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/12.json",
+      "bytes": 10216,
+      "sha256": "5e094c72ea2b9904535def6916e2537b4f8c09d85449c971464f50029a9902d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/13.json",
+      "bytes": 9423,
+      "sha256": "06eb415001fc882129ae409e4c812a149fc23b9141d36ebf3107add3b4ab15b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/14.json",
+      "bytes": 11843,
+      "sha256": "759697f8f904a047f7d89dfdbde3655e133e1f98a10b9c6fb38f178d5cab3480"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/15.json",
+      "bytes": 11409,
+      "sha256": "6137b0b09ca1a77953909e8e6efd9e3ce3473f4746d6e4e7f01945faeeb779c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/16.json",
+      "bytes": 11992,
+      "sha256": "eb9989bcff29974e015ee26257194d77dc2bd7651cb9ce1f95a60261185ab652"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/17.json",
+      "bytes": 10727,
+      "sha256": "719909bb42b3c678842b8315549573eca9be89c0c213c68a0abf5756c1ffcec9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/18.json",
+      "bytes": 9755,
+      "sha256": "6a87e1bd213e8b1e5ca72d2ee4968012d0f3d9d70d43b248a0cb37f733c072bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/19.json",
+      "bytes": 10610,
+      "sha256": "6b6561bdef7bfe8c85be218f583de95e39d96c3fbf4cf99abd090ac643fdf8a2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/2.json",
+      "bytes": 9380,
+      "sha256": "c80fde9338bf91256d15d3398bdcbb1202c11cac3f644876dcfaa3bd3880f420"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/20.json",
+      "bytes": 10526,
+      "sha256": "dfb4ae045f6f9c588b3a70c99c9a6785705f07c543f10563552949bd96fc670e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/21.json",
+      "bytes": 10343,
+      "sha256": "039d7228fa4d4e4eb96c92cfa3cf35b4861c3a245ecbf212fcf4e582a96272e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/22.json",
+      "bytes": 10779,
+      "sha256": "35a690d2686945837a5abdd12fe78fe600d716d91f6c57e17e2703782383a7e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/23.json",
+      "bytes": 12014,
+      "sha256": "f9af1ffd2434b4950e256e572c8877f688b4e1bdb27f69d5a64b6515f9e6947d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/24.json",
+      "bytes": 12477,
+      "sha256": "352e8ee2d4ce09e41f4b1fce04b32d6ffd53b992a878694add56279fd1527f54"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/25.json",
+      "bytes": 10848,
+      "sha256": "a2028d2dd5c02a689aae67ff2199e8573a4d717e258b421cce62d1df4ca742e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/26.json",
+      "bytes": 10512,
+      "sha256": "a5c7465045419d72b6684d3828227cad2452c30288794a309d05eecdef49ded8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/27.json",
+      "bytes": 9953,
+      "sha256": "3f1e5169801997b2f07fef0f6234edc477d2f305683054859a068dd9c8be4c28"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/28.json",
+      "bytes": 9817,
+      "sha256": "4e8973b58fd541a2f220f5e731bb8c502636257ceca369cfe89022d9dc0e07a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/29.json",
+      "bytes": 9733,
+      "sha256": "ba9ab96349de2b711400cd4170bb8b40d8916d767a248567781b51b3c3d3c172"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/3.json",
+      "bytes": 14464,
+      "sha256": "ceb62e7ef028416de5e30e650cd41535bf549ca2e2fdf53bf84960e366c1a86f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/30.json",
+      "bytes": 12456,
+      "sha256": "13157171fb4472411563b0cdf29ebc53119582d6f411b28de60b6cc1009579fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/31.json",
+      "bytes": 11304,
+      "sha256": "3424c6d40ad1ddf9ff80e5f903fa09fd7cb56d96c45f529430876d3849107a65"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/4.json",
+      "bytes": 10739,
+      "sha256": "ae384eb826b3eb92cd58f048e9f664494b578f6ec878d048727a77d65bc98f1e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/5.json",
+      "bytes": 9768,
+      "sha256": "24463355c9e973c15a1ac469dd8c3fe7eb732509a73d2c827d8c1a4fc27fd6d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/6.json",
+      "bytes": 13221,
+      "sha256": "472d1ca9b760d3b5ab60bec5ae3ed7da9619026f89054adf0fd550dd7f056474"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/7.json",
+      "bytes": 11064,
+      "sha256": "83fb838b2ada2011a2f0002e897c64d369dc43e81f3381c87b2ce9e539b35521"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/8.json",
+      "bytes": 15042,
+      "sha256": "8bc4a9b69fc35a5087cb6193947833cbb9b0c3c38e038c7a3fc4958dcff8803f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/index/PRO/9.json",
+      "bytes": 8842,
+      "sha256": "dddd2920b859f86e8b354f45d7d67b48ad37de0623e95593b26a5a87b7eeab87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-proverbs-2026-11-07/manifest.json",
+      "bytes": 2137,
+      "sha256": "3bfa53f943472be0ab16c3ef11f32d551ce34a6a3169bc036b8b6debe1d752f1"
+    },
+    {
+      "path": "review-proverbs-v3.html",
+      "bytes": 14400,
+      "sha256": "5abd334879aa2dc5a0e95ccd2ff672f3465ebf855b1487e390c16f7a683ab4f3"
+    }
+  ],
+  "qa": {
+    "six_original_source_archive_SHA256_CRC": "PASS",
+    "original_SWORD_HelloAO_record_source_byte_parity": "PASS",
+    "independent_audit": "PASS",
+    "independent_assertions": 40618,
+    "reader_Javascript_parse_and_navigation": "PASS",
+    "reader_checks": 32,
+    "browser_visual": "PENDING_OWNER_POST_DEPLOYMENT",
+    "github_writes": "NONE",
+    "publication_status": "LOCAL_BUILD_NOT_YET_UPLOADED",
+    "must_install_first": "PSALMS"
+  },
+  "counts": {
+    "chapters": 31,
+    "verse_coordinates": 915,
+    "author_chapter_records": 186,
+    "source_entries": 3500,
+    "original_P_sections": 194,
+    "total_routed_P_sections": 196,
+    "inherited_source_links": 2,
+    "native_verse_links_checked": 4319,
+    "assertions_total": 40618,
+    "source_archive_count": 6,
+    "prerequisite": "PSA",
+    "baseline_main_commit": "fc6ac82f1300a8453f0bc8b5c933696962d2e615"
+  },
+  "release_scope": {
+    "added_book": "PRO",
+    "existing_nineteen_book_snapshot_files_modified": 0,
+    "existing_nineteen_book_overlay_files_modified": 0,
+    "shared_files_to_replace": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "new_files_including_this_manifest": 222,
+    "inherited_historical_prefaces": 2,
+    "held_unmapped_source_record_file_changed": false
+  },
+  "provenance_and_rights": "Original five CrossWire/SWORD module public-domain declarations and HelloAO original John Gill public-domain marking; all original OSIS and verse-indexed source item records preserved. No Bible translation text.",
+  "safeguards": [
+    "Install Psalms first: Proverbs needs Psalms cumulative manifest and original Job/Genesis source pointer files.",
+    "Compare current live navigation version and original bytes/SHA before replacing the single shared manifest; reconcile newer changes instead of stale overwrite.",
+    "Upload extracted files to repository root, preserving nested paths; do not upload child ZIPs as repository files.",
+    "Six authors preserved; Calvin entirely unavailable in supplied Proverbs edition; no substitute or invented texts.",
+    "Reader P introductions are non-Scripture; original unchanged historical text and native verse indexes are separate from P eligibility.",
+    "No changes to existing books or CGBC player; no GitHub deployment or browser inspection claimed."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_STAGING_AFTER_SUCCESSFUL_PSALMS_INSTALL__NOT_DEPLOYED"
+}

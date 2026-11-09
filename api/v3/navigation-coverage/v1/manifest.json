@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.12-additive-psalms",
+  "version": "navigation-coverage-v1.13-additive-proverbs",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -23,7 +23,8 @@
     "NEH",
     "EST",
     "JOB",
-    "PSA"
+    "PSA",
+    "PRO"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -44,7 +45,8 @@
     "NEH": "structured-nehemiah-2026-11-06",
     "EST": "structured-esther-2026-11-06",
     "JOB": "structured-job-2026-11-06",
-    "PSA": "structured-psalms-2026-11-07"
+    "PSA": "structured-psalms-2026-11-07",
+    "PRO": "structured-proverbs-2026-11-07"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -58,7 +60,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 3576,
+    "original_P_sections": 3770,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -79,7 +81,8 @@
       "NEH": 103,
       "EST": 71,
       "JOB": 251,
-      "PSA": 1185
+      "PSA": 1185,
+      "PRO": 194
     },
     "routed_by_book": {
       "GEN": 64,
@@ -100,10 +103,11 @@
       "NEH": 106,
       "EST": 74,
       "JOB": 252,
-      "PSA": 1187
+      "PSA": 1187,
+      "PRO": 196
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.11-additive-job",
+  "previous_manifest_version": "navigation-coverage-v1.12-additive-psalms",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -148,6 +152,11 @@
     "Historical Poetical group introductions reuse accepted Job and Genesis original source references.",
     "Original SWORD OSIS records and HelloAO verse source items remain intact; no inferred neighbor verse coverage.",
     "Original Keil-Delitzsch Psalter Introduction retained; source-labeled literary-division headings bounded only where explicitly present.",
-    "Only new Psalm files and shared cumulative navigation manifest are included; previous 18 accepted snapshots unchanged."
+    "Only new Psalm files and shared cumulative navigation manifest are included; previous 18 accepted snapshots unchanged.",
+    "Proverbs (31 chapters, 186 six-author chapter slots) built from SHA-verified original CrossWire and HelloAO archives.",
+    "Original Matthew Henry, JFB, Clarke and Keil-Delitzsch introductory materials retained in non-Scripture P navigation.",
+    "Psalms is the prerequisite; its cumulative navigation metadata is carried forward without changing previous 19 book snapshots.",
+    "Original immutable index-backed verse ranges, comments, source provenance and author availability states retained.",
+    "Calvin Proverbs commentary unavailable in selected original edition; no text substitution or invented neighboring coverage."
   ]
 }
