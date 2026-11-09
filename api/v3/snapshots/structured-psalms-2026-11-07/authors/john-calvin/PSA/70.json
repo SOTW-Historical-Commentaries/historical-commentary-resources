@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "author_id": "john-calvin",
+  "book_id": "PSA",
+  "chapter": 70,
+  "canonical_chapter": "PSA.70",
+  "versification": "KJV",
+  "verse_count": 5,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "calvincommentaries",
+    "module_version": "1.1",
+    "module_title": "Calvin's Collected Commentaries",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "http://www.ccel.org/",
+    "module_zip_sha256": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [],
+  "entries": [
+    {
+      "entry_id": "sword:calvincommentaries:PSA.70.1-5:210:3783969:1982",
+      "passage_start": "PSA.70.1",
+      "passage_end": "PSA.70.5",
+      "start_verse": 1,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div sID=\"gen30971\"/> <div annotateRef=\"Bible:Ps.70\" annotateType=\"commentary\" osisID=\"Ps.70\" sID=\"gen30972\" type=\"section\"/> <div sID=\"gen30973\" type=\"x-p\"/>PSALM 70<div eID=\"gen30973\" type=\"x-p\"/> <div sID=\"gen30974\" type=\"x-p\"/>This psalm is merely a part of the fortieth, and the inscription, <hi type=\"italic\">To</hi> <hi type=\"italic\">call to remembrance, </hi>is perhaps designed to indicate this; David having taken these five verses out of that other psalm, and accommodated them for being used on some particular occasion. I shall only here repeat the words of the text; and would refer the reader for the interpretation to <a href=\"/ccel/Calvin/comm_vol09.htm|vol09.Ps40.vs13\">the proper place.</a><div eID=\"gen30974\" type=\"x-p\"/> <div sID=\"gen30975\" type=\"x-p\"/>To the chief musician of David, to call to remembrance.<div eID=\"gen30975\" type=\"x-p\"/> <div sID=\"gen30976\"/> <table> <row> <cell> <div sID=\"gen30977\" type=\"x-p\"/><reference osisRef=\"Bible:Ps.70.1-Ps.70.5\">Psalm 70:1-5</reference><div eID=\"gen30977\" type=\"x-p\"/> </cell> </row><row> <cell> <div sID=\"gen30978\" type=\"x-p\"/><hi type=\"bold\">1.</hi> O God! make haste to deliver me: O Jehovah! hasten to my help. <hi type=\"bold\">2.</hi> Let those who seek my life be ashamed and confounded; let those who desire my hurt be turned backward, and put to confusion <hi type=\"bold\">3.</hi> Let those who say to me, Aha! aha! perish as a reward of their shame. <hi type=\"bold\">4.</hi> Let all those who seek thee rejoice and exult in thee: let those who love thy salvation say, Let God be magnified for evermore! <hi type=\"bold\">5.</hi> As for me, I am poor and needy: O God! hasten to me: thou art my help and my deliverer: O Jehovah! make no delay.<div eID=\"gen30978\" type=\"x-p\"/> </cell> </row> </table> <div sID=\"gen30979\" type=\"x-p\"/> <div eID=\"gen30979\" type=\"x-p\"/><div eID=\"gen30976\"/><div annotateRef=\"Bible:Ps.70\" annotateType=\"commentary\" eID=\"gen30972\" osisID=\"Ps.70\" type=\"section\"/><div eID=\"gen30971\"/>",
+      "content_plain": "PSALM 70 This psalm is merely a part of the fortieth, and the inscription, To call to remembrance, is perhaps designed to indicate this; David having taken these five verses out of that other psalm, and accommodated them for being used on some particular occasion. I shall only here repeat the words of the text; and would refer the reader for the interpretation to the proper place. To the chief musician of David, to call to remembrance. Psalm 70:1-5 1. O God! make haste to deliver me: O Jehovah! hasten to my help. 2. Let those who seek my life be ashamed and confounded; let those who desire my hurt be turned backward, and put to confusion 3. Let those who say to me, Aha! aha! perish as a reward of their shame. 4. Let all those who seek thee rejoice and exult in thee: let those who love thy salvation say, Let God be magnified for evermore! 5. As for me, I am poor and needy: O God! hasten to me: thou art my help and my deliverer: O Jehovah! make no delay.",
+      "source_record_sha256": "1265a1624fde5ee48b100ac3617a997ed921876453cd683a6c5f2c382a3cbe64",
+      "index_record": {
+        "testament": "OT",
+        "block": 210,
+        "offset": 3783969,
+        "length": 1982
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "PSA.70.1-5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. O God! make haste to deliver me: O Jehovah! hasten to my help. 2. Let those who seek my life be ashamed and confounded; let those who desire my hurt be turned backward, and put to confusion 3. Let those who say to me, Aha! aha! perish as a reward of their shame. 4. Let all those who seek thee rejoice and exult in thee: let those who love thy salvation say, Let God be magnified for evermore! 5. As for me, I am poor and needy: O God! hasten to me: thou art my help and my deliverer: O Jehovah! make no delay.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        1096,
+        1981
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1.</hi> O God! make haste to deliver me: O Jehovah! hasten to my help. <hi type=\"bold\">2.</hi> Let those who seek my life be ashamed and confounded; let those who desire my hurt be turned backward, and put to confusion <hi type=\"bold\">3.</hi> Let those who say to me, Aha! aha! perish as a reward of their shame. <hi type=\"bold\">4.</hi> Let all those who seek thee rejoice and exult in thee: let those who love thy salvation say, Let God be magnified for evermore! <hi type=\"bold\">5.</hi> As for me, I am poor and needy: O God! hasten to me: thou art my help and my deliverer: O Jehovah! make no delay.<div eID=\"gen30978\" type=\"x-p\"/> </cell> </row> </table> <div sID=\"gen30979\" type=\"x-p\"/> <div eID=\"gen30979\" type=\"x-p\"/><div eID=\"gen30976\"/><div annotateRef=\"Bible:Ps.70\" annotateType=\"commentary\" eID=\"gen30972\" osisID=\"Ps.70\" type=\"section\"/><div eID=\"gen30971\"/>"
+    }
+  ],
+  "indexed_verse_count": 5,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_PSA_VERIFIED_ORIGINAL_ARCHIVES_2026-11-07",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 1
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:john-calvin:PSA.70:P:calvin-original-chapter-argument",
+      "navigation_id": "PSA.70:P:calvin-original-chapter-argument",
+      "kind": "original_source_chapter_argument",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Psalm 70 · Calvin’s original chapter argument",
+      "content_plain": "PSALM 70 This psalm is merely a part of the fortieth, and the inscription, To call to remembrance, is perhaps designed to indicate this; David having taken these five verses out of that other psalm, and accommodated them for being used on some particular occasion. I shall only here repeat the words of the text; and would refer the reader for the interpretation to the proper place. To the chief musician of David, to call to remembrance.",
+      "content_osis": "<div sID=\"gen30973\" type=\"x-p\"/>PSALM 70<div eID=\"gen30973\" type=\"x-p\"/> <div sID=\"gen30974\" type=\"x-p\"/>This psalm is merely a part of the fortieth, and the inscription, <hi type=\"italic\">To</hi> <hi type=\"italic\">call to remembrance, </hi>is perhaps designed to indicate this; David having taken these five verses out of that other psalm, and accommodated them for being used on some particular occasion. I shall only here repeat the words of the text; and would refer the reader for the interpretation to <a href=\"/ccel/Calvin/comm_vol09.htm|vol09.Ps40.vs13\">the proper place.</a><div eID=\"gen30974\" type=\"x-p\"/> <div sID=\"gen30975\" type=\"x-p\"/>To the chief musician of David, to call to remembrance.<div eID=\"gen30975\" type=\"x-p\"/> <div sID=\"gen30976\"/> ",
+      "source_entry_id": "sword:calvincommentaries:PSA.70.1-5:210:3783969:1982",
+      "source_character_span": [
+        126,
+        884
+      ],
+      "source_fragment_sha256": "9ba38253266513ab1d8a676b584884756e972cbd615a241342e18fa7b8af2b3f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_Ps_chapter_heading_followed_by_prose_before_original_table",
+      "extraction_basis": "original_Calvin_OSIS_chapter_section_and_x-p_heading",
+      "source_indexed_passage": [
+        "PSA.70.1",
+        "PSA.70.5"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 1
+}
