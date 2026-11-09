@@ -1,0 +1,376 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "SNG-v3-2026-11-08",
+  "book": "SNG",
+  "book_name": "Song of Solomon",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-song-of-solomon-2026-11-08",
+  "baseline_main_commit": "48d615263460ea3d866cd0b45984e4dd16b61687",
+  "baseline_git_tree": "3fc833589286bb08191f214cb0922951b6d2ce4a",
+  "baseline_navigation_manifest_git_blob": "874d99fb5510438b33f76011e85bb0d1781a644b",
+  "prerequisites": [
+    {
+      "book": "ECC",
+      "snapshot": "structured-ecclesiastes-2026-11-08",
+      "required_navigation_version": "navigation-coverage-v1.14-additive-ecclesiastes",
+      "required_navigation_sha256": "7e98662dc03e1e9241491b0784ceaa09844a836bf1923f0df122dc5773c21b6d",
+      "order": 1
+    }
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 60,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/SNG.json",
+      "bytes": 74241,
+      "sha256": "f32810c485d97f82bd9520e5d82d24f281b2a1d2f975a04bc80c3ae95523fe2b"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 10757,
+      "sha256": "e9a45febb258cc77067eef0668a78e2f49077c59ceb24be4295a24e4649c9666"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/1.json",
+      "bytes": 221554,
+      "sha256": "b08b48407f49805cb1e3ee99d8480f51f359c059b8d2c6fc86a21665d967873b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/2.json",
+      "bytes": 47146,
+      "sha256": "321806ccfc7dc3c584a1294288a09387a347f47f66aad9c84a64da4fd3152921"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/3.json",
+      "bytes": 24857,
+      "sha256": "90157a4988e6c38da78a6146d03f57d9fa741e06c6cea3dcb59649d2786d766b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/4.json",
+      "bytes": 62524,
+      "sha256": "061153f3d4735d830868bf10182d6aa1a4a342c1b9e94c0cf991b52e411408e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/5.json",
+      "bytes": 43079,
+      "sha256": "026663df0128db54fd831f43c5e8eca1e4b5c3de3a0f4d398d7bfb8818a0893e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/6.json",
+      "bytes": 31747,
+      "sha256": "3bd328f104e0e39387dbfa2a16b6e2f162c8933a61883a7db51f185c439f1561"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/7.json",
+      "bytes": 33773,
+      "sha256": "b1c3456af3d54dee59e83d7264e6afa2433a39c3009214d6932e0b4facd98529"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/8.json",
+      "bytes": 41400,
+      "sha256": "2674d927fd4de6471496a20161771abfeaadba86f4fd9d3805d872697b4f3727"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/1.json",
+      "bytes": 141976,
+      "sha256": "faf44b3c28c212efb58dc846ecd72cb627a15fe2f31de3e187edef7c5b4581f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/2.json",
+      "bytes": 88906,
+      "sha256": "d23643aa1cf38670108dc428d383a9dfc5da1083487d9305017f3b5947426b49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/3.json",
+      "bytes": 58180,
+      "sha256": "78398cacec6c6c727da92e715372c410afac6d1c61f3d80111f4e0625ec0fe04"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/4.json",
+      "bytes": 69776,
+      "sha256": "0fadbe5be2463b2f5c6778c092db8f78ef34dcb44236d70ab3ac8216dc44376c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/5.json",
+      "bytes": 73155,
+      "sha256": "1920d2fd522e5b013b9ac1ffd261b71b4c9d2e0ce7d5f70975607f8f0f9126d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/6.json",
+      "bytes": 44778,
+      "sha256": "fc7bc24678d7fa9a96db068d58b89371d43dc592b3f6c6b0c5a06afe1f6dc339"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/7.json",
+      "bytes": 48165,
+      "sha256": "86b6b75a551f5a46c38ea97e55ea42c486d1ed03b9b3f8e76d79de2beaef651e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/8.json",
+      "bytes": 58446,
+      "sha256": "9c29ab44fc8cff3c6e361516572875f5750b0652d34f021cbeed68916422e8de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/1.json",
+      "bytes": 1150,
+      "sha256": "b69357e0f46ffd106e789773dfd6ed3e080e3f42421e6cfc4c09d07d094f3806"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/2.json",
+      "bytes": 1150,
+      "sha256": "7c2cfc097b69c0690f0aa1e90085930273abef5ba9913ce801ddb510d2eed198"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/3.json",
+      "bytes": 1150,
+      "sha256": "fa217c4fa8a8190159153d5d2bcefe0816dba2f41564f257d79a2bb7c9048163"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/4.json",
+      "bytes": 1150,
+      "sha256": "67bcdf3c1a219c4a2319e99cda9aa0bad1aeb4fb90cd00809b916d96c608c47f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/5.json",
+      "bytes": 1150,
+      "sha256": "f692914dc41fc0b3259cc12d6107340bc3be8de0ea8dd16aca2c075f645fb2ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/6.json",
+      "bytes": 1150,
+      "sha256": "5c08d59ca5c9186d936c7bd9c948a4f4299c2d624c07322404f839a763126a9a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/7.json",
+      "bytes": 1150,
+      "sha256": "9ee77cc0f75edd2a3866b109010a06c95e7a579d6c2cc90ea22315a3c47793a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-calvin/SNG/8.json",
+      "bytes": 1150,
+      "sha256": "a949e11cd870fd64a7cd80141a3efec29ca76323a12b6fb10fedb3473ff5c066"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/1.json",
+      "bytes": 241608,
+      "sha256": "874b6253855ec160b6b1004aa1b4c100d7e56b9e8c482ccec3ad65d608315fa3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/2.json",
+      "bytes": 277547,
+      "sha256": "2f3e43ce93c17670252152e065197b6d5f9c42ecdd958258f7b6d23a2d83d007"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/3.json",
+      "bytes": 127305,
+      "sha256": "0a2e271189bbfb3e03f0e79447237c0cc404e9bc95d89cfd585dfc55579b5596"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/4.json",
+      "bytes": 260384,
+      "sha256": "66ac08957db5fc6d30891005d9d1cb04ea469aef2002676decaa8acd16245045"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/5.json",
+      "bytes": 262832,
+      "sha256": "37e3a905ccebeee68335c7c6c5a09699ebdd7001b5c4355bbe7a7d20315c89cf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/6.json",
+      "bytes": 142123,
+      "sha256": "e9779ebf230c4b454e4a23ac2aa983ef040bd3534c2d3386882947c74ada4ed8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/7.json",
+      "bytes": 186527,
+      "sha256": "ba33c4c51ccb4d5a36c0183706b3b76d229603570b99fd767806f37b338943e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/8.json",
+      "bytes": 174794,
+      "sha256": "278c980e034f53e7e72c063ab2f9c93e18dfc005578b877e26b3bb16d8aeefe7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/1.json",
+      "bytes": 391935,
+      "sha256": "2193454c2303272b8ef867f538c4cf4b9b5acde5df3b2b264d2d75b32d6acb14"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/2.json",
+      "bytes": 161774,
+      "sha256": "0ec4aff3738f732e7ad9f97ee31092f106eddd4b98607b7885a87cb2fae68a88"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/3.json",
+      "bytes": 122002,
+      "sha256": "d5f6bb97084195e38767b033987ae2d767036fe67ee76946ccdb4c7388d7c802"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/4.json",
+      "bytes": 165854,
+      "sha256": "deb3085524fae7baa238c3e452d7e1682a47ba682020e00be771bed31268e4f1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/5.json",
+      "bytes": 177196,
+      "sha256": "5827ad5517848f389c4d896ecfd144ed0668e3a181963ae7f99775d1b6eda377"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/6.json",
+      "bytes": 133195,
+      "sha256": "6e7b2ce358b520d2857980a9ea0a9c6065a823294c0cb97b98bcb59c88af7dd3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/7.json",
+      "bytes": 146180,
+      "sha256": "0e8ee195ddd4d9cf3d874dffd8d677b7087904b84663262918a010842c586b41"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/8.json",
+      "bytes": 211024,
+      "sha256": "bf6304ebd15df22cb4de8327e7171c8f9ed55253d86d1c7d8139f38fe395d3e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/1.json",
+      "bytes": 195275,
+      "sha256": "f31cac23c07ca0b372d5724423a03715e2556458e555c87e6c263829da2c838f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/2.json",
+      "bytes": 134425,
+      "sha256": "60e0e69e7af88f11dfadd5fc7289ac3cbce7c39c129084897808e1cd20ec1f96"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/3.json",
+      "bytes": 97758,
+      "sha256": "df78e7b18788ce9ceeb13ea45a762af94fee76124bb9e1668d29d44b34ea5f0f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/4.json",
+      "bytes": 128467,
+      "sha256": "29f99bcefb06f17afe2666253e71894791efcc268fbec6df05e87110371786e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/5.json",
+      "bytes": 144241,
+      "sha256": "deb917c5e351457485cf6fb6ae8aa7eb2915e425ed509f6b8bcdcde7157481e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/6.json",
+      "bytes": 101518,
+      "sha256": "3a1f78509faa72308dbe327dfeded20bfbf5255cbb42490fb39164603fb0df7b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/7.json",
+      "bytes": 86171,
+      "sha256": "4c8d2658a4bc1e78935a1b0a4f43014a6d742a489bbc1d4f3e377925c4fcf281"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+      "bytes": 129310,
+      "sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/1.json",
+      "bytes": 9858,
+      "sha256": "312afcb918c30eb5b24c517bcea0ba9cef652edd00b87b3c2c45c2b5bb44e904"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/2.json",
+      "bytes": 8196,
+      "sha256": "fd52650a070ae3db59482aab6ad5f3c80e649fe6080e93dcb316abff876a11c8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/3.json",
+      "bytes": 6239,
+      "sha256": "d0529b2ebd89d677e730ef5237773d1555f2d6a5641179a6ab891f6334c19593"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/4.json",
+      "bytes": 8021,
+      "sha256": "8bcc319b1b1cc4edcbb50c57a3ee79cc9af852ef5023921fac97108d13fa9828"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/5.json",
+      "bytes": 8283,
+      "sha256": "34ad0246b1b2f9c9ebc9b4db09698ab4208a56d63845fabb127233728f5832db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/6.json",
+      "bytes": 7365,
+      "sha256": "db6dc5459f3cb0a937125d88920e807752d4cf1bf39ba95a021c3b6621bb8722"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/7.json",
+      "bytes": 7298,
+      "sha256": "9d320e69f1fd98f75fc1633571a3d4f08793792915bcc487a89d0100f5f359d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/index/SNG/8.json",
+      "bytes": 8366,
+      "sha256": "eb9dc3cb519a535a20ebbf10bd68c03a1c9adb0dbbfbe0e991984fe85e1cae60"
+    },
+    {
+      "path": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/manifest.json",
+      "bytes": 1824,
+      "sha256": "69a688d369225ba455998f7a9cff4df658703428f8351ab55321f9a2e4fa95db"
+    },
+    {
+      "path": "review-song-of-solomon-v3.html",
+      "bytes": 14396,
+      "sha256": "12e5e853ec2ed465cae37b9f4e9d74e3cf84d2b34f95132700180910a0e32837"
+    }
+  ],
+  "qa": {
+    "six_original_source_archives_SHA256_and_CRC": "PASS",
+    "independent_source_native_index_and_HelloAO_audit": "PASS",
+    "source_audit_checks": 5808,
+    "reader_js_and_navigation": "PASS",
+    "reader_checks": 551,
+    "live_visual": "PENDING_AFTER_INSTALL",
+    "github_writes": "NONE",
+    "publication_status": "LOCAL_BUILD_NOT_INSTALLED",
+    "prerequisite": "ECC"
+  },
+  "counts": {
+    "chapters": 8,
+    "verse_coordinates": 117,
+    "author_chapter_records": 48,
+    "source_entries": 458,
+    "original_P_sections": 52,
+    "total_routed_P_sections": 54,
+    "inherited_source_links": 2,
+    "native_verse_links_checked": 572,
+    "assertions_total": 5808,
+    "source_archive_count": 6,
+    "prerequisite": "ECC",
+    "baseline_main_commit": "48d615263460ea3d866cd0b45984e4dd16b61687"
+  },
+  "release_scope": {
+    "added_book": "SNG",
+    "existing_twenty_one_book_snapshots_modified": 0,
+    "existing_twenty_one_book_overlays_modified": 0,
+    "shared_files_to_replace": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "new_files_including_this_manifest": 61,
+    "inherited_historical_prefaces": 2,
+    "player_and_prior_reader_changes": 0
+  },
+  "provenance_and_rights": "Original CrossWire/SWORD edition records and HelloAO original Gill public-domain chapter items. All native verse index locators, original OSIS/JSON, edition attribution and licensing metadata retained; no separately licensed Bible verse text.",
+  "safeguards": [
+    "Install only when verified prior 21-book Ecclesiastes navigation is present. Compare current remote SHA before overwriting the one cumulative shared navigation manifest.",
+    "Extract numbered ZIPs and upload their individual files, retaining repository-root paths. GitHub cannot unpack uploaded ZIPs.",
+    "Source introductions are P-navigation and not Bible verse one. Original source record bytes are immutable.",
+    "Calvin commentary unavailable for this book in supplied original edition; no invented commentary or range.",
+    "No direct production GitHub edit/deployment or CGBC player modifications."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_STAGING__LIVE_VISUAL_PENDING"
+}
