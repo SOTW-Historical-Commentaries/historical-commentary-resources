@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-ecclesiastes-2026-11-08",
+  "status": "STAGING_NOT_ECCDUCTION",
+  "books": [
+    "ECC"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 72,
+    "original_entries": 850,
+    "navigation_sections": 77,
+    "reader_visible_entries": 850,
+    "verse_author_routes": 1084,
+    "sword_chapters": 48,
+    "unavailable_chapters": 12,
+    "helloao_chapters": 24,
+    "chapters": 12
+  },
+  "chapter_verse_count": {
+    "1": 18,
+    "2": 26,
+    "3": 22,
+    "4": 16,
+    "5": 20,
+    "6": 12,
+    "7": 29,
+    "8": 17,
+    "9": 18,
+    "10": 20,
+    "11": 10,
+    "12": 14
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked original CrossWire/SWORD passage-index archives; HelloAO John Gill and genuinely missing whole-chapter fallback only.",
+  "reader_policy": "Verse by default; source-bounded P headings and validated historical book-group prefaces only.",
+  "provenance_policy": "Original historical author, complete source records, work edition, source record locators, native binary indexes, rights preserved.",
+  "notes": [
+    "Additive Ecclesiastes only: previous twenty snapshots preserved.",
+    "Historical wisdom and poetical prefaces linked to source-locked Job and Genesis records.",
+    "All five SWORD editions retain native binary passage indexes; HelloAO is never pasted across existing edition fragments.",
+    "No Bible translation text or CGBC player integration. Local source audit precedes owner upload and live browser review."
+  ]
+}

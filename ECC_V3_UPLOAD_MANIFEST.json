@@ -1,0 +1,517 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "ECC-v3-2026-11-08",
+  "book": "ECC",
+  "book_name": "Ecclesiastes",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-ecclesiastes-2026-11-08",
+  "baseline_main_commit": "34780b731b5349608bf1c52b50f57ca05c28ec76",
+  "baseline_git_tree": "3f5386cf60479799fa49fe46fd6e5cfb0301dfc5",
+  "baseline_navigation_manifest_git_blob": "32e262810b9c3c72d6e0c92473f777d6ce89a46c",
+  "prerequisites": [
+    {
+      "book": "PRO",
+      "snapshot": "structured-proverbs-2026-11-07",
+      "required_navigation_version": "navigation-coverage-v1.13-additive-proverbs",
+      "required_navigation_sha256": "2126ce65d228eb2b3fe309e8a7a4ad6a7dac939fe66b234ca6f8ed79b8fe9828",
+      "order": 1
+    }
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 88,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/ECC.json",
+      "bytes": 105536,
+      "sha256": "568eb38f1c962aebd20c2e06bc5d525413479cde2ba1cf0458fa735a04bf58b8"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 9987,
+      "sha256": "7e98662dc03e1e9241491b0784ceaa09844a836bf1923f0df122dc5773c21b6d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/1.json",
+      "bytes": 178244,
+      "sha256": "8683b4dd695c5d3ba9444d2028b80c334beebae0b823d065dd36e88223d8da49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/10.json",
+      "bytes": 52958,
+      "sha256": "2a22e16c1759bd081eab618bd3b571d881521732c8af029e742f15b36227db35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/11.json",
+      "bytes": 30958,
+      "sha256": "fbc904a493dd4fead756f649048857056e2c72ef91dfe0ae4f2a75c5d485e1ae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/12.json",
+      "bytes": 91822,
+      "sha256": "c1defdbc09f57a63a21d7716b89ad87e674b7e7ec5a791070d92d7ef27382d7c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/2.json",
+      "bytes": 66884,
+      "sha256": "4b3e48daf252af00c625142e3a3b295c6b3cb09ee699478705df7a135ca7383a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/3.json",
+      "bytes": 75722,
+      "sha256": "dfde94161ab89b9105686b54c573ca6781d5fa7c3af1cdc24fd678bd27ac86f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/4.json",
+      "bytes": 33024,
+      "sha256": "f8cf4cd5def5f1fa0b53c10783c1f848e02d20fbee3e9c2f34c642c885949c36"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/5.json",
+      "bytes": 46868,
+      "sha256": "aa07a6bed4743116040169ad31d3b58bbba2cff9b867c830b1052328f99354b0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/6.json",
+      "bytes": 24209,
+      "sha256": "64a889d9bb15b12bba34533fe60da807f1ebd242bf02992e580472b0b95207e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/7.json",
+      "bytes": 81733,
+      "sha256": "67469fa259cfc62d6f7d86c41d305f5577940cd95e4dd0619d489c6b46f28c7a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/8.json",
+      "bytes": 44905,
+      "sha256": "ac077add5f79378279a2e454a8d6defcd6e6622fc6340c4320dd2492918bfab3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/9.json",
+      "bytes": 61887,
+      "sha256": "2323bd7f79d4193e8e3155a205d1d7fa1991cdcf8157cbb6528aebc587fffd9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/1.json",
+      "bytes": 82835,
+      "sha256": "c7206ea683f33c6cd9a215e75ff381378f2fb7d6b1a2a2aeb37478c10390aab3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/10.json",
+      "bytes": 48118,
+      "sha256": "8d0acdb4e11b74408af461dbef5f6f03987877391947e43f92d26939df023da2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/11.json",
+      "bytes": 29555,
+      "sha256": "4fcf0bc40fe43c7a1db3670822a59903de1b05779f19c98aed36682ac715f259"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/12.json",
+      "bytes": 35343,
+      "sha256": "9efd015fb4b2bf97c91ccc9777ca1a97cc39dce65581f39ca549c2d47ab5f899"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/2.json",
+      "bytes": 43566,
+      "sha256": "886793488dec2f24076e774d3eff4d08d545c9eadacbe31024ae4aa5fabaaea3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/3.json",
+      "bytes": 65505,
+      "sha256": "d0a137ee2dae417100fc22926f6cefc1bde7087f9b37252744ab2b5c103f7345"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/4.json",
+      "bytes": 38136,
+      "sha256": "8a004c30d41599d704b9ff996c577c53cd71c94c67bc1da32af3d7001aa45f45"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/5.json",
+      "bytes": 48409,
+      "sha256": "ded814c95168a502f800a15194d11fe092d810c80a6afb75ea3cc3ef13f9146b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/6.json",
+      "bytes": 30973,
+      "sha256": "94e69705eb5f1087b3e1a86bf111521359e0591fe61d98122dcb5e19ae044ddd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/7.json",
+      "bytes": 73939,
+      "sha256": "7bff75592522daac7fcba0a4858afc6a9d69828f455f3842160343b08167ba41"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/8.json",
+      "bytes": 48739,
+      "sha256": "e9f5ddf94d93ff699400ca8e479d3955514295c72bf1614046020ac1dfed8824"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/9.json",
+      "bytes": 47133,
+      "sha256": "755ba8bf4669de727fc30372f836873edc3c9a5b56592a4352ceed7ce26d536d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/1.json",
+      "bytes": 1147,
+      "sha256": "15ab405ac27ba5575365ea1957a28fef2e480a65ac42d667f24ee217abcaa264"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/10.json",
+      "bytes": 1150,
+      "sha256": "e3bddd1604bc5f92bb1b64de165379ea902d94f89d6aed60e3304eb65d3eee0c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/11.json",
+      "bytes": 1150,
+      "sha256": "6540d0999fcc95cf7bd6b373ce659c9569a7b1dffa3c48e89215cc9baeacd0bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/12.json",
+      "bytes": 1150,
+      "sha256": "30cd73e96f000a9a5441725a748d90cb6ffcff5c051b0e8384f44094ecb4974a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/2.json",
+      "bytes": 1147,
+      "sha256": "f6808b9463169b621f0b434d45387fb4b3f87a9fe2eaf146f6cda8057afd9bcd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/3.json",
+      "bytes": 1147,
+      "sha256": "043b0a8ffde4ea50590bb8a2a9ddcaf060f70696117fc2846f156ae39993907a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/4.json",
+      "bytes": 1147,
+      "sha256": "5e07de6b95ff607754eddc317c05efc0d467ff911c259f29609f52c9feff2445"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/5.json",
+      "bytes": 1147,
+      "sha256": "1d2dbd28bdfc8ddbba5a5f238a2c3bf420dd93912b06479d5e3c51a3c6662d30"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/6.json",
+      "bytes": 1147,
+      "sha256": "9f70f50606708dc6630ae80418df52f224e2e7f65e2a8c44205dc082ce4c542e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/7.json",
+      "bytes": 1147,
+      "sha256": "8ef2b66ee15b3dca2c983c78af4a64e420f8a682bbb5dcd0c3c2eb989d6b526c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/8.json",
+      "bytes": 1147,
+      "sha256": "b8be347dd1a5605400778b548edb3933eb58a4b8f9dc5f493cdbb9fe545681a0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-calvin/ECC/9.json",
+      "bytes": 1147,
+      "sha256": "0799382517ff76561c55970c2d7fbd8eeb50eb582dcba5e23ae09600e9c83710"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/1.json",
+      "bytes": 207649,
+      "sha256": "827e8b9a7216975380d08a9dd2b813ff0464f1fe05126c750d21d39a18ffa3b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/10.json",
+      "bytes": 152248,
+      "sha256": "81454e0afbece17d4710676614978f0714a064e7360618ab16ea2605885dcc4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/11.json",
+      "bytes": 134230,
+      "sha256": "3d81e1d99ddac802eda1b48b8f6953124f5d68801ca06eb3981e575250f22cb0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/12.json",
+      "bytes": 214874,
+      "sha256": "c246650594e848300917c72b67cee499096b79b6aaf8dc93b467e65781523027"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/2.json",
+      "bytes": 212867,
+      "sha256": "5c1a2e15885b9ae5c4fc21427218436b7dfab56cb4ffbf01911634fe79446a96"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/3.json",
+      "bytes": 198459,
+      "sha256": "1b3a1d4072645f22d07ec6dfac0b7331dc699171097afd4f1f8428902f71d33e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/4.json",
+      "bytes": 149417,
+      "sha256": "514fb002ecc6a1820383efc0d62f7d2d7f8dc02f5016492ecca89f489e3673dd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/5.json",
+      "bytes": 202873,
+      "sha256": "20ef7915f250175a7f0fad95a62bfb8bd80c38f71eb3762f1e4654daa940ef6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/6.json",
+      "bytes": 94153,
+      "sha256": "997394539a77cc5eadcf71a42ae935d442a47e57c90c4ac201c6f0982c83b98a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/7.json",
+      "bytes": 267192,
+      "sha256": "4ea6e6245695c0eefc521d9eae6291ef7bb2898a82c2bf7a40a92cd3f271bb8c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/8.json",
+      "bytes": 169560,
+      "sha256": "7bad7f5c787a7e928edb657ade33fafd9f7f9da60d339a5c4b8a9345a03d1d41"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/9.json",
+      "bytes": 218835,
+      "sha256": "d647af1bfc098dac400c7b204154b9804f648836b10b64d00a7d3d96c6920cf9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/1.json",
+      "bytes": 641723,
+      "sha256": "95f93d94373f50572f20e9daa132bee4778f633b1ac520b50727419bbf168696"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/10.json",
+      "bytes": 180212,
+      "sha256": "27a069e37a4e17b442d57dd9bf2646a23e26c31aba4433b88099d529b67f8344"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/11.json",
+      "bytes": 102915,
+      "sha256": "56a579b165a8538e61714dbde469140198100e4e5e0583946ff0d40aeaa4c55d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/12.json",
+      "bytes": 386873,
+      "sha256": "f53611aea38d4948835c7eeb04371023ded1d9eb5ce23c761c3394fad5dd157d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/2.json",
+      "bytes": 215575,
+      "sha256": "6c8ebc22ee91106cddace78d02f6e0d96e9f6baf416b91f28296ff3be4641b59"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/3.json",
+      "bytes": 179944,
+      "sha256": "dbe23dcd0a1c557094801652c06f57b383e270e569e6819648314ad90d42fafb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/4.json",
+      "bytes": 98834,
+      "sha256": "87b32a2856e07d8084dc44e581e57be41f6edc91a9e91d6aaa1ae5324dfa8d6d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/5.json",
+      "bytes": 205951,
+      "sha256": "305b16fb2611151718bba2ba9b34df4f4f5d3659bd214bd06aed3e64588ac6ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/6.json",
+      "bytes": 87415,
+      "sha256": "da8186779b5eac465aa146cb14a6bd6097742e6edcd71c27497572b5da2bea35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/7.json",
+      "bytes": 220971,
+      "sha256": "ac67e875471f04751a208779b80cc991527a4bd5795d2fa088f357c15f9ba764"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/8.json",
+      "bytes": 176478,
+      "sha256": "0ec7d82e6c74683573a6868de1842dc56a2d340e76a9007428d07b208ec5dc3f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/9.json",
+      "bytes": 146653,
+      "sha256": "74b026a437bfc62b8f8598820c364fbf97084663203df69df81951a4d953f070"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/1.json",
+      "bytes": 177016,
+      "sha256": "1da331955bbaaaecc2a9f8b6895cd97f67db82b7eade92f31985c490bc5e31c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/10.json",
+      "bytes": 98449,
+      "sha256": "377b0f03029affa639b08e1741b8de9db5e80b726be4291f7689b1c1316904f8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/11.json",
+      "bytes": 90220,
+      "sha256": "d6ac0ef78072f7a9381f099bb0d1916d6e633c5934863aded52e20a5b2d375e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/12.json",
+      "bytes": 122354,
+      "sha256": "062113abe2ff17b8d0374f9c4662409bc3bf649ec8839de8ec08904d11706805"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/2.json",
+      "bytes": 158079,
+      "sha256": "1c804fac07a8329b937bf3cbd2f4f3bdc4d28964a21b9d23cf1e0cc0e8fd090e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/3.json",
+      "bytes": 125718,
+      "sha256": "a8d3bbfa32032f722e6eded5c4c08fd9fea5942647c74ad99e949e808ede9248"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/4.json",
+      "bytes": 88721,
+      "sha256": "1972a73cdc2fb23c3d4ca940a57c71047440892a433552fe2097567932facca2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/5.json",
+      "bytes": 138875,
+      "sha256": "7fac1523aeae79fa356ad70b6e312c3eea3d9fe1103c349e1cb7d22bb8e4ae62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/6.json",
+      "bytes": 83979,
+      "sha256": "44eaf906fe5b13907a83ecab3660523914466602446a785360804a09bfbbf660"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/7.json",
+      "bytes": 187387,
+      "sha256": "910453363fd8ff3803886c91cfc8127a78a55c90e5ef191dbacdd8929a4a7b21"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/8.json",
+      "bytes": 104948,
+      "sha256": "0d7ee078bf5bbb4124be828b5040022a66911bfee491c8381d30ddaaebad39fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/9.json",
+      "bytes": 137228,
+      "sha256": "29d553a67d5be5c329f7b6915af8f0d19f5352f0488bb6ef9861fe3c826c6ba1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/1.json",
+      "bytes": 9532,
+      "sha256": "de46de7fe5c4ace662d06bd617fec96efddde853d3696b433b4eb3da434bc3d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/10.json",
+      "bytes": 8965,
+      "sha256": "723c1ad08399f5c61fe5cd4b0dbe21cfa29b5ef3e5f1514f5e3bf35bb922bb38"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/11.json",
+      "bytes": 6532,
+      "sha256": "68eeb75565fd947de769a25487392208246aff90d8927d386e72151e52f52375"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/12.json",
+      "bytes": 7648,
+      "sha256": "df44a6a86ec70b5c57f643145f691eeda72270e4ef1ef89a878d3117cc8f717f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/2.json",
+      "bytes": 10519,
+      "sha256": "50f0f1482b0d217336151917b313aa716d686e542458910a668e6abedfcbbf78"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/3.json",
+      "bytes": 9249,
+      "sha256": "f9f62b864f11df6a646f575ae8dcfc3e313edf942a9fe17181eb433335a7c37f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/4.json",
+      "bytes": 7883,
+      "sha256": "c0a8d0c83da67ff4a8a455306e8d3963dc0d366430d0c13a6450ad4634127692"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/5.json",
+      "bytes": 9104,
+      "sha256": "94c68b219378e02720fffc77b248478e7e1f14493893bdd5a2d83240bf831266"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/6.json",
+      "bytes": 6640,
+      "sha256": "4df0c78c91d9599f99f05542a4d7de717c43374547cbe16bf9c9da250cb9eed9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/7.json",
+      "bytes": 11340,
+      "sha256": "3d08d901b28414334bc32cbc334de064aa9652c677b270da5342c2d2f56e3993"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/8.json",
+      "bytes": 8485,
+      "sha256": "879e15cb040b679ce464cdcd9a3cf1b085d668435d6876e096f1653649343f74"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/index/ECC/9.json",
+      "bytes": 8796,
+      "sha256": "f84a9f54933eb1f6a8b9114c556a3e5b4723b8f7cc54168c635c8abf7104734a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/manifest.json",
+      "bytes": 1872,
+      "sha256": "82821585a06c7999b31a92dfe38937fa95fbb7fcd978664c154a4bb731549913"
+    },
+    {
+      "path": "review-ecclesiastes-v3.html",
+      "bytes": 14383,
+      "sha256": "4143f6a9271a29979656b565d171e39240b0d9a6d8402fc75e6493546f482219"
+    }
+  ],
+  "qa": {
+    "six_original_archives_SHA256_and_CRC": "PASS",
+    "SWORD_and_HelloAO_original_bytes": "PASS",
+    "independent_source_audit": "PASS",
+    "source_audit_checks": 10464,
+    "reader_javascript_and_navigation": "PASS",
+    "reader_checks": 965,
+    "browser_visual": "PENDING_POST_DEPLOYMENT",
+    "github_writes": "NONE",
+    "publication_status": "LOCAL_BUILD_NOT_YET_UPLOADED",
+    "must_install_first": "PRO"
+  },
+  "counts": {
+    "chapters": 12,
+    "verse_coordinates": 222,
+    "author_chapter_records": 72,
+    "source_entries": 850,
+    "original_P_sections": 77,
+    "total_routed_P_sections": 79,
+    "inherited_source_links": 2,
+    "native_verse_links_checked": 1084,
+    "assertions_total": 10464,
+    "source_archive_count": 6,
+    "prerequisite": "PRO",
+    "baseline_main_commit": "34780b731b5349608bf1c52b50f57ca05c28ec76"
+  },
+  "release_scope": {
+    "added_book": "ECC",
+    "existing_twenty_book_snapshot_files_modified": 0,
+    "existing_twenty_book_overlay_files_modified": 0,
+    "shared_files_to_replace": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "new_files_including_this_manifest": 89,
+    "inherited_historical_prefaces": 2,
+    "no_prior_reader_or_player_changes": true
+  },
+  "provenance_and_rights": "Original CrossWire/SWORD public-domain module declarations and HelloAO original Gill public-domain source; source-record bytes, verse index keys, editions, locators and metadata preserved. No separate licensed Bible text corpus.",
+  "safeguards": [
+    "Install only after Proverbs verified at the expected baseline. If the current manifest differs, reconcile before overwriting newer information.",
+    "Extract ZIPs locally and upload individual files preserving repository-root directories. GitHub will not unzip archives.",
+    "Keep source-linked headings and separate original prefaces in P navigation, not as invented verse coverage.",
+    "Calvin unavailable in original Ecclesiastes module; twelve source-missing slots retained.",
+    "No direct production edit, deployment, or CGBC media player change."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_STAGING__NOT_DEPLOYED"
+}

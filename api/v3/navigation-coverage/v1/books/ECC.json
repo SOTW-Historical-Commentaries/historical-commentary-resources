@@ -1,0 +1,2473 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "ECC",
+  "snapshot_id": "structured-ecclesiastes-2026-11-08",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation_sections remain immutable source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOB-SONG:P:job-to-song-of-solomon",
+        "navigation_id": "GROUP:JOB-SONG:P:job-to-song-of-solomon",
+        "author_id": "matthew-henry",
+        "title": "Job to Song of Solomon",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_poetical_book_group_includes_Ecclesiastes",
+        "source_evidence": "Job to Song of Solomon",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/1.json",
+          "chapter_file_sha256": "9017f37894cc7e5967f029e650857091492a83eb44bfe4b54c89cc3d3fe453c7",
+          "section_id": "nav:matthew-henry:GROUP:JOB-SONG:P:job-to-song-of-solomon",
+          "source_entry_id": "sword:mhc:JOB.1.1-3:18:224:55152",
+          "fragment_sha256": "758e55bf32cfad1d1c3ea4fbe7341bf9904ec64db4749147bad0b1824c6e41ad",
+          "character_span": [
+            57,
+            44152
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC:P:ecclesiastes",
+        "navigation_id": "ECC:P:ecclesiastes",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/1.json",
+          "chapter_file_sha256": "1da331955bbaaaecc2a9f8b6895cd97f67db82b7eade92f31985c490bc5e31c3",
+          "section_id": "nav:matthew-henry:ECC:P:ecclesiastes",
+          "source_entry_id": "sword:mhc:ECC.1.1-3:21:238:24641",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "316a959483389973616f97dca8139f7dbf2bfee228e79dbb2334aa076ec10c24",
+          "character_span": [
+            57,
+            8475
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.1:P:the-vanity-of-the-world",
+        "navigation_id": "ECC.1:P:the-vanity-of-the-world",
+        "author_id": "matthew-henry",
+        "title": "The Vanity of the World.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.1.1",
+        "passage_end": "ECC.1.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Vanity of the World.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/1.json",
+          "chapter_file_sha256": "1da331955bbaaaecc2a9f8b6895cd97f67db82b7eade92f31985c490bc5e31c3",
+          "section_id": "nav:matthew-henry:ECC.1:P:the-vanity-of-the-world",
+          "source_entry_id": "sword:mhc:ECC.1.1-3:21:238:24641",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "9ef2e5560d645475fda8a6d4edd23e9f0e74e6d3c0b3df4286b3f3224ed5ac63",
+          "character_span": [
+            8475,
+            8526
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.1:P:change-without-novelty",
+        "navigation_id": "ECC.1:P:change-without-novelty",
+        "author_id": "matthew-henry",
+        "title": "Change without Novelty.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.1.9",
+        "passage_end": "ECC.1.11",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Change without Novelty.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/1.json",
+          "chapter_file_sha256": "1da331955bbaaaecc2a9f8b6895cd97f67db82b7eade92f31985c490bc5e31c3",
+          "section_id": "nav:matthew-henry:ECC.1:P:change-without-novelty",
+          "source_entry_id": "sword:mhc:ECC.1.9-11:21:31971:7481",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "157032c0231546102fac6f87d7976d76edb884d0ad282e9e2e557946b589e3d6",
+          "character_span": [
+            33,
+            83
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.1:P:vanity-of-human-wisdom",
+        "navigation_id": "ECC.1:P:vanity-of-human-wisdom",
+        "author_id": "matthew-henry",
+        "title": "Vanity of Human Wisdom.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.1.12",
+        "passage_end": "ECC.1.18",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Vanity of Human Wisdom.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/1.json",
+          "chapter_file_sha256": "1da331955bbaaaecc2a9f8b6895cd97f67db82b7eade92f31985c490bc5e31c3",
+          "section_id": "nav:matthew-henry:ECC.1:P:vanity-of-human-wisdom",
+          "source_entry_id": "sword:mhc:ECC.1.12-18:21:39452:14928",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8c31b1b27e92ce90af27066f5c63e500df12a0ae72d09005fb5b78ee1948c5b9",
+          "character_span": [
+            33,
+            83
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.2:P:vanity-of-worldly-pleasure",
+        "navigation_id": "ECC.2:P:vanity-of-worldly-pleasure",
+        "author_id": "matthew-henry",
+        "title": "Vanity of Worldly Pleasure.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.2.1",
+        "passage_end": "ECC.2.11",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Vanity of Worldly Pleasure.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/2.json",
+          "chapter_file_sha256": "1c804fac07a8329b937bf3cbd2f4f3bdc4d28964a21b9d23cf1e0cc0e8fd090e",
+          "section_id": "nav:matthew-henry:ECC.2:P:vanity-of-worldly-pleasure",
+          "source_entry_id": "sword:mhc:ECC.2.1-11:21:55768:23145",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1f1fc9577f616bfba8a1b6048ae2b051e66c241a8f91106d5dbb0caa90ae50b3",
+          "character_span": [
+            75,
+            129
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.2:P:superiority-of-wisdom-to-folly",
+        "navigation_id": "ECC.2:P:superiority-of-wisdom-to-folly",
+        "author_id": "matthew-henry",
+        "title": "Superiority of Wisdom to Folly.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.2.12",
+        "passage_end": "ECC.2.16",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Superiority of Wisdom to Folly.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/2.json",
+          "chapter_file_sha256": "1c804fac07a8329b937bf3cbd2f4f3bdc4d28964a21b9d23cf1e0cc0e8fd090e",
+          "section_id": "nav:matthew-henry:ECC.2:P:superiority-of-wisdom-to-folly",
+          "source_entry_id": "sword:mhc:ECC.2.12-16:21:78913:10085",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b533d73b4af9bde6767b9282cc9797c367e9278a798eeaaad355304702e7ae7c",
+          "character_span": [
+            33,
+            91
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.2:P:sources-of-dissatisfaction-the-cheerful-use-of-abundance",
+        "navigation_id": "ECC.2:P:sources-of-dissatisfaction-the-cheerful-use-of-abundance",
+        "author_id": "matthew-henry",
+        "title": "Sources of Dissatisfaction; The Cheerful Use of Abundance.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.2.17",
+        "passage_end": "ECC.2.26",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Sources of Dissatisfaction; The Cheerful Use of Abundance.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/2.json",
+          "chapter_file_sha256": "1c804fac07a8329b937bf3cbd2f4f3bdc4d28964a21b9d23cf1e0cc0e8fd090e",
+          "section_id": "nav:matthew-henry:ECC.2:P:sources-of-dissatisfaction-the-cheerful-use-of-abundance",
+          "source_entry_id": "sword:mhc:ECC.2.17-26:21:88998:22247",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f4c742dc1d6294069d52db6d2eaf559d63e2ed8c4c002c9a6c77e0f462c9b90b",
+          "character_span": [
+            33,
+            118
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.2:P:original-chapter-introduction",
+        "navigation_id": "ECC.2:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 2 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 2 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/2.json",
+          "chapter_file_sha256": "1c804fac07a8329b937bf3cbd2f4f3bdc4d28964a21b9d23cf1e0cc0e8fd090e",
+          "section_id": "nav:matthew-henry:ECC.2:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18017,
+          "fragment_sha256": "983b452e917c3a0feb6a626fcda9b5427bd7443e0c6f50cfa1f21b319a9100f8",
+          "character_span": [
+            0,
+            1388
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.3:P:mutability-of-human-affairs",
+        "navigation_id": "ECC.3:P:mutability-of-human-affairs",
+        "author_id": "matthew-henry",
+        "title": "Mutability of Human Affairs.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.3.1",
+        "passage_end": "ECC.3.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mutability of Human Affairs.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/3.json",
+          "chapter_file_sha256": "a8d3bbfa32032f722e6eded5c4c08fd9fea5942647c74ad99e949e808ede9248",
+          "section_id": "nav:matthew-henry:ECC.3:P:mutability-of-human-affairs",
+          "source_entry_id": "sword:mhc:ECC.3.1-10:21:112868:15125",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2fbe6e3c54b1b3f9883e23d30b9b450067b293930c6e2edb9aa9b07f03fdfe64",
+          "character_span": [
+            75,
+            130
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.3:P:immutability-of-god-s-counsel-the-extent-of-mortality",
+        "navigation_id": "ECC.3:P:immutability-of-god-s-counsel-the-extent-of-mortality",
+        "author_id": "matthew-henry",
+        "title": "Immutability of God's Counsel; The Extent of Mortality.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.3.16",
+        "passage_end": "ECC.3.22",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Immutability of God's Counsel; The Extent of Mortality.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/3.json",
+          "chapter_file_sha256": "a8d3bbfa32032f722e6eded5c4c08fd9fea5942647c74ad99e949e808ede9248",
+          "section_id": "nav:matthew-henry:ECC.3:P:immutability-of-god-s-counsel-the-extent-of-mortality",
+          "source_entry_id": "sword:mhc:ECC.3.16-22:21:140372:16021",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "a5878d42241529a709da6fe15e91c7c5a37e214e453157ab5f72d7ba2cd813ff",
+          "character_span": [
+            33,
+            115
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.3:P:original-chapter-introduction",
+        "navigation_id": "ECC.3:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 3 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 3 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/3.json",
+          "chapter_file_sha256": "a8d3bbfa32032f722e6eded5c4c08fd9fea5942647c74ad99e949e808ede9248",
+          "section_id": "nav:matthew-henry:ECC.3:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18044,
+          "fragment_sha256": "fe6eac4dae217eb088232614732b6cb85205062d9352da6f999d20e0edce4eca",
+          "character_span": [
+            0,
+            1623
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.4:P:the-prevalence-of-oppression",
+        "navigation_id": "ECC.4:P:the-prevalence-of-oppression",
+        "author_id": "matthew-henry",
+        "title": "The Prevalence of Oppression.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.4.1",
+        "passage_end": "ECC.4.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Prevalence of Oppression.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/4.json",
+          "chapter_file_sha256": "1972a73cdc2fb23c3d4ca940a57c71047440892a433552fe2097567932facca2",
+          "section_id": "nav:matthew-henry:ECC.4:P:the-prevalence-of-oppression",
+          "source_entry_id": "sword:mhc:ECC.4.1-3:21:157796:7045",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2cb5c609818611f42f24251a7931db569110d69179328fe9c6f3905a2b8c8659",
+          "character_span": [
+            75,
+            131
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.4:P:the-vanity-of-human-wishes",
+        "navigation_id": "ECC.4:P:the-vanity-of-human-wishes",
+        "author_id": "matthew-henry",
+        "title": "The Vanity of Human Wishes.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.4.7",
+        "passage_end": "ECC.4.12",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Vanity of Human Wishes.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/4.json",
+          "chapter_file_sha256": "1972a73cdc2fb23c3d4ca940a57c71047440892a433552fe2097567932facca2",
+          "section_id": "nav:matthew-henry:ECC.4:P:the-vanity-of-human-wishes",
+          "source_entry_id": "sword:mhc:ECC.4.7-12:21:170499:10041",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "71f04ac6321ef2bccd396e54b82367a679ca127cbab784ca471f12e10a191cce",
+          "character_span": [
+            33,
+            87
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.4:P:the-advantages-of-society",
+        "navigation_id": "ECC.4:P:the-advantages-of-society",
+        "author_id": "matthew-henry",
+        "title": "The Advantages of Society.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.4.13",
+        "passage_end": "ECC.4.16",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Advantages of Society.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/4.json",
+          "chapter_file_sha256": "1972a73cdc2fb23c3d4ca940a57c71047440892a433552fe2097567932facca2",
+          "section_id": "nav:matthew-henry:ECC.4:P:the-advantages-of-society",
+          "source_entry_id": "sword:mhc:ECC.4.13-16:21:180540:6412",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "792240a2d190b3c8e7e3097ecfc413978f599d17376a2218f9281738f24d4e70",
+          "character_span": [
+            33,
+            86
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.4:P:original-chapter-introduction",
+        "navigation_id": "ECC.4:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 4 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 4 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/4.json",
+          "chapter_file_sha256": "1972a73cdc2fb23c3d4ca940a57c71047440892a433552fe2097567932facca2",
+          "section_id": "nav:matthew-henry:ECC.4:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18067,
+          "fragment_sha256": "f27e0756ffa483808cc451c364aa0afdc249b2dab11d4355613b793701e99356",
+          "character_span": [
+            0,
+            1403
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.5:P:a-caution-to-worshippers",
+        "navigation_id": "ECC.5:P:a-caution-to-worshippers",
+        "author_id": "matthew-henry",
+        "title": "A Caution to Worshippers.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.5.1",
+        "passage_end": "ECC.5.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "A Caution to Worshippers.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/5.json",
+          "chapter_file_sha256": "7fac1523aeae79fa356ad70b6e312c3eea3d9fe1103c349e1cb7d22bb8e4ae62",
+          "section_id": "nav:matthew-henry:ECC.5:P:a-caution-to-worshippers",
+          "source_entry_id": "sword:mhc:ECC.5.1-3:21:190034:11533",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8d82fc27696a6300f164c79292fb4c2471ccd197f97c357f270e16e0f35538ff",
+          "character_span": [
+            75,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.5:P:the-obligation-of-a-vow",
+        "navigation_id": "ECC.5:P:the-obligation-of-a-vow",
+        "author_id": "matthew-henry",
+        "title": "The Obligation of a Vow.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.5.4",
+        "passage_end": "ECC.5.8",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Obligation of a Vow.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/5.json",
+          "chapter_file_sha256": "7fac1523aeae79fa356ad70b6e312c3eea3d9fe1103c349e1cb7d22bb8e4ae62",
+          "section_id": "nav:matthew-henry:ECC.5:P:the-obligation-of-a-vow",
+          "source_entry_id": "sword:mhc:ECC.5.4-8:21:201567:12222",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e9bd64d315118606c1ebbbf6c7d6ac3ad93e1fff5b228a139a58e55bc2b860d1",
+          "character_span": [
+            33,
+            84
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.5:P:the-vanity-of-riches",
+        "navigation_id": "ECC.5:P:the-vanity-of-riches",
+        "author_id": "matthew-henry",
+        "title": "The Vanity of Riches.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.5.9",
+        "passage_end": "ECC.5.17",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Vanity of Riches.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/5.json",
+          "chapter_file_sha256": "7fac1523aeae79fa356ad70b6e312c3eea3d9fe1103c349e1cb7d22bb8e4ae62",
+          "section_id": "nav:matthew-henry:ECC.5:P:the-vanity-of-riches",
+          "source_entry_id": "sword:mhc:ECC.5.9-17:21:213789:17557",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7938f84ea0df0e3d28627fe8fb2d8872fdcaade0b47178b60acaab76e73765ef",
+          "character_span": [
+            33,
+            81
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.5:P:grateful-enjoyment",
+        "navigation_id": "ECC.5:P:grateful-enjoyment",
+        "author_id": "matthew-henry",
+        "title": "Grateful Enjoyment.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.5.18",
+        "passage_end": "ECC.5.20",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Grateful Enjoyment.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/5.json",
+          "chapter_file_sha256": "7fac1523aeae79fa356ad70b6e312c3eea3d9fe1103c349e1cb7d22bb8e4ae62",
+          "section_id": "nav:matthew-henry:ECC.5:P:grateful-enjoyment",
+          "source_entry_id": "sword:mhc:ECC.5.18-20:21:231346:5436",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0d4ab9d20c61978cdbff3307bac4f548724a94984ee2bbf2c600af99e128c151",
+          "character_span": [
+            33,
+            79
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.5:P:original-chapter-introduction",
+        "navigation_id": "ECC.5:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 5 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 5 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/5.json",
+          "chapter_file_sha256": "7fac1523aeae79fa356ad70b6e312c3eea3d9fe1103c349e1cb7d22bb8e4ae62",
+          "section_id": "nav:matthew-henry:ECC.5:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18084,
+          "fragment_sha256": "555b78d238e0a81311f1e245523300e70463d84d59a7df58c3ce4899677abd6e",
+          "character_span": [
+            0,
+            3082
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.6:P:the-miseries-of-covetousness",
+        "navigation_id": "ECC.6:P:the-miseries-of-covetousness",
+        "author_id": "matthew-henry",
+        "title": "The Miseries of Covetousness.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.6.1",
+        "passage_end": "ECC.6.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Miseries of Covetousness.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/6.json",
+          "chapter_file_sha256": "44eaf906fe5b13907a83ecab3660523914466602446a785360804a09bfbbf660",
+          "section_id": "nav:matthew-henry:ECC.6:P:the-miseries-of-covetousness",
+          "source_entry_id": "sword:mhc:ECC.6.1-6:21:239147:14204",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "324f389f9ae9a321c06d62fda0e22e7245be51f9b23ae6ac8d13289b00bae481",
+          "character_span": [
+            75,
+            131
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.6:P:the-insatiableness-of-desire",
+        "navigation_id": "ECC.6:P:the-insatiableness-of-desire",
+        "author_id": "matthew-henry",
+        "title": "The Insatiableness of Desire.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.6.7",
+        "passage_end": "ECC.6.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Insatiableness of Desire.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/6.json",
+          "chapter_file_sha256": "44eaf906fe5b13907a83ecab3660523914466602446a785360804a09bfbbf660",
+          "section_id": "nav:matthew-henry:ECC.6:P:the-insatiableness-of-desire",
+          "source_entry_id": "sword:mhc:ECC.6.7-10:21:253351:9569",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "22b8f63cf2c2bd571f78b081a2b8d357e548f281488b6e05128022fe2ebf640d",
+          "character_span": [
+            33,
+            89
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.6:P:original-chapter-introduction",
+        "navigation_id": "ECC.6:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 6 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 6 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/6.json",
+          "chapter_file_sha256": "44eaf906fe5b13907a83ecab3660523914466602446a785360804a09bfbbf660",
+          "section_id": "nav:matthew-henry:ECC.6:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18105,
+          "fragment_sha256": "cbba82d74b0c636852b787ee500832b4f5a7897f1097c0981066409356185928",
+          "character_span": [
+            0,
+            2365
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.7:P:the-value-of-a-good-name",
+        "navigation_id": "ECC.7:P:the-value-of-a-good-name",
+        "author_id": "matthew-henry",
+        "title": "The Value of a Good Name.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.7.1",
+        "passage_end": "ECC.7.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Value of a Good Name.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/7.json",
+          "chapter_file_sha256": "910453363fd8ff3803886c91cfc8127a78a55c90e5ef191dbacdd8929a4a7b21",
+          "section_id": "nav:matthew-henry:ECC.7:P:the-value-of-a-good-name",
+          "source_entry_id": "sword:mhc:ECC.7.1-6:21:268383:11952",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bad1a1b0a60c40eecd97cc90bfb7883314d7e906b596d58e9140eae30d62dbcf",
+          "character_span": [
+            75,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.7:P:scenes-of-mourning-and-of-joy",
+        "navigation_id": "ECC.7:P:scenes-of-mourning-and-of-joy",
+        "author_id": "matthew-henry",
+        "title": "Scenes of Mourning and of Joy.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.7.7",
+        "passage_end": "ECC.7.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Scenes of Mourning and of Joy.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/7.json",
+          "chapter_file_sha256": "910453363fd8ff3803886c91cfc8127a78a55c90e5ef191dbacdd8929a4a7b21",
+          "section_id": "nav:matthew-henry:ECC.7:P:scenes-of-mourning-and-of-joy",
+          "source_entry_id": "sword:mhc:ECC.7.7-10:21:280335:8769",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7c86a0060eefe3a8648e43c2e5feba6350956faf19bda96c45fbc8303ed1057c",
+          "character_span": [
+            33,
+            90
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.7:P:the-advantages-of-wisdom",
+        "navigation_id": "ECC.7:P:the-advantages-of-wisdom",
+        "author_id": "matthew-henry",
+        "title": "The Advantages of Wisdom.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.7.11",
+        "passage_end": "ECC.7.22",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Advantages of Wisdom.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/7.json",
+          "chapter_file_sha256": "910453363fd8ff3803886c91cfc8127a78a55c90e5ef191dbacdd8929a4a7b21",
+          "section_id": "nav:matthew-henry:ECC.7:P:the-advantages-of-wisdom",
+          "source_entry_id": "sword:mhc:ECC.7.11-22:21:289104:24966",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "80774affb5c6ffb532af33f191f9d8a953766949d6561a1d9a5b500382c212b0",
+          "character_span": [
+            33,
+            85
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.7:P:the-evil-of-sin",
+        "navigation_id": "ECC.7:P:the-evil-of-sin",
+        "author_id": "matthew-henry",
+        "title": "The Evil of Sin.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.7.23",
+        "passage_end": "ECC.7.29",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Evil of Sin.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/7.json",
+          "chapter_file_sha256": "910453363fd8ff3803886c91cfc8127a78a55c90e5ef191dbacdd8929a4a7b21",
+          "section_id": "nav:matthew-henry:ECC.7:P:the-evil-of-sin",
+          "source_entry_id": "sword:mhc:ECC.7.23-29:21:314070:20384",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7f35d59af0dfc7ea16d59efe219f0680fef947b87b51b67401b46620fe5c28ec",
+          "character_span": [
+            33,
+            76
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.7:P:original-chapter-introduction",
+        "navigation_id": "ECC.7:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 7 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 7 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/7.json",
+          "chapter_file_sha256": "910453363fd8ff3803886c91cfc8127a78a55c90e5ef191dbacdd8929a4a7b21",
+          "section_id": "nav:matthew-henry:ECC.7:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18118,
+          "fragment_sha256": "40873e9eb882bd91c58bebd0fa4dbdc725346a78be380109cdabc860e31de2a7",
+          "character_span": [
+            0,
+            1724
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.8:P:the-excellence-of-wisdom-the-duty-of-subjects",
+        "navigation_id": "ECC.8:P:the-excellence-of-wisdom-the-duty-of-subjects",
+        "author_id": "matthew-henry",
+        "title": "The Excellence of Wisdom; The Duty of Subjects.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.8.1",
+        "passage_end": "ECC.8.5",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Excellence of Wisdom; The Duty of Subjects.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/8.json",
+          "chapter_file_sha256": "0d7ee078bf5bbb4124be828b5040022a66911bfee491c8381d30ddaaebad39fd",
+          "section_id": "nav:matthew-henry:ECC.8:P:the-excellence-of-wisdom-the-duty-of-subjects",
+          "source_entry_id": "sword:mhc:ECC.8.1-5:21:336232:10433",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0281bd22954ff6141125396a643dc836d6dc8ae0d7c10e3294bef63248c7fde8",
+          "character_span": [
+            75,
+            149
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.8:P:the-certainty-of-death",
+        "navigation_id": "ECC.8:P:the-certainty-of-death",
+        "author_id": "matthew-henry",
+        "title": "The Certainty of Death.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.8.6",
+        "passage_end": "ECC.8.8",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Certainty of Death.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/8.json",
+          "chapter_file_sha256": "0d7ee078bf5bbb4124be828b5040022a66911bfee491c8381d30ddaaebad39fd",
+          "section_id": "nav:matthew-henry:ECC.8:P:the-certainty-of-death",
+          "source_entry_id": "sword:mhc:ECC.8.6-8:21:346665:5800",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b4ba5151321f8b650b145b7219dd09d4f16593f5f08e9d28ec64a4446cdb04b9",
+          "character_span": [
+            33,
+            83
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.8:P:the-evil-of-oppressive-rulers",
+        "navigation_id": "ECC.8:P:the-evil-of-oppressive-rulers",
+        "author_id": "matthew-henry",
+        "title": "The Evil of Oppressive Rulers.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.8.9",
+        "passage_end": "ECC.8.13",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Evil of Oppressive Rulers.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/8.json",
+          "chapter_file_sha256": "0d7ee078bf5bbb4124be828b5040022a66911bfee491c8381d30ddaaebad39fd",
+          "section_id": "nav:matthew-henry:ECC.8:P:the-evil-of-oppressive-rulers",
+          "source_entry_id": "sword:mhc:ECC.8.9-13:21:352465:10088",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e07b6024b2bad379223d50b83386a869287dcfc8cb03a69b94ece631d6e9b44c",
+          "character_span": [
+            33,
+            90
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.8:P:the-mysteries-of-providence",
+        "navigation_id": "ECC.8:P:the-mysteries-of-providence",
+        "author_id": "matthew-henry",
+        "title": "The Mysteries of Providence.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.8.14",
+        "passage_end": "ECC.8.17",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Mysteries of Providence.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/8.json",
+          "chapter_file_sha256": "0d7ee078bf5bbb4124be828b5040022a66911bfee491c8381d30ddaaebad39fd",
+          "section_id": "nav:matthew-henry:ECC.8:P:the-mysteries-of-providence",
+          "source_entry_id": "sword:mhc:ECC.8.14-17:21:362553:8224",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c590ca503df6b5ac03fa88bd0775ace953bd29786da243f3896dd8c6f6f6e783",
+          "character_span": [
+            33,
+            88
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.8:P:original-chapter-introduction",
+        "navigation_id": "ECC.8:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 8 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 8 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/8.json",
+          "chapter_file_sha256": "0d7ee078bf5bbb4124be828b5040022a66911bfee491c8381d30ddaaebad39fd",
+          "section_id": "nav:matthew-henry:ECC.8:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18148,
+          "fragment_sha256": "5c000908648f0089ba06c4b42fee78b12f41bb2bfa7b7b0b70987efb35592845",
+          "character_span": [
+            0,
+            1778
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.9:P:mysteries-in-providence",
+        "navigation_id": "ECC.9:P:mysteries-in-providence",
+        "author_id": "matthew-henry",
+        "title": "Mysteries in Providence.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.9.1",
+        "passage_end": "ECC.9.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mysteries in Providence.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/9.json",
+          "chapter_file_sha256": "29d553a67d5be5c329f7b6915af8f0d19f5352f0488bb6ef9861fe3c826c6ba1",
+          "section_id": "nav:matthew-henry:ECC.9:P:mysteries-in-providence",
+          "source_entry_id": "sword:mhc:ECC.9.1-3:21:372108:12314",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e900bd7a378cd03160b9393078dd3e089af3f12e472b6379be6b28640d0babd9",
+          "character_span": [
+            75,
+            126
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.9:P:the-consequences-of-death-the-proper-enjoyment-of-life",
+        "navigation_id": "ECC.9:P:the-consequences-of-death-the-proper-enjoyment-of-life",
+        "author_id": "matthew-henry",
+        "title": "The Consequences of Death; The Proper Enjoyment of Life.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.9.4",
+        "passage_end": "ECC.9.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Consequences of Death; The Proper Enjoyment of Life.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/9.json",
+          "chapter_file_sha256": "29d553a67d5be5c329f7b6915af8f0d19f5352f0488bb6ef9861fe3c826c6ba1",
+          "section_id": "nav:matthew-henry:ECC.9:P:the-consequences-of-death-the-proper-enjoyment-of-life",
+          "source_entry_id": "sword:mhc:ECC.9.4-10:21:384422:17375",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1f680239fb6b69605cfaa8352a6ce88596f28514438fd1ad4e903b2c3c444f8e",
+          "character_span": [
+            33,
+            116
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.9:P:the-disappointment-of-hopes",
+        "navigation_id": "ECC.9:P:the-disappointment-of-hopes",
+        "author_id": "matthew-henry",
+        "title": "The Disappointment of Hopes.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.9.11",
+        "passage_end": "ECC.9.12",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Disappointment of Hopes.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/9.json",
+          "chapter_file_sha256": "29d553a67d5be5c329f7b6915af8f0d19f5352f0488bb6ef9861fe3c826c6ba1",
+          "section_id": "nav:matthew-henry:ECC.9:P:the-disappointment-of-hopes",
+          "source_entry_id": "sword:mhc:ECC.9.11-12:21:401797:6593",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4db6f0ce366a964c0171ca80287a9e90cd02d64fcace1dad3c9203cf2bd0c028",
+          "character_span": [
+            33,
+            88
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.9:P:the-advantages-of-wisdom",
+        "navigation_id": "ECC.9:P:the-advantages-of-wisdom",
+        "author_id": "matthew-henry",
+        "title": "The Advantages of Wisdom.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.9.13",
+        "passage_end": "ECC.9.18",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Advantages of Wisdom.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/9.json",
+          "chapter_file_sha256": "29d553a67d5be5c329f7b6915af8f0d19f5352f0488bb6ef9861fe3c826c6ba1",
+          "section_id": "nav:matthew-henry:ECC.9:P:the-advantages-of-wisdom",
+          "source_entry_id": "sword:mhc:ECC.9.13-18:21:408390:11125",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "80774affb5c6ffb532af33f191f9d8a953766949d6561a1d9a5b500382c212b0",
+          "character_span": [
+            33,
+            85
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.9:P:original-chapter-introduction",
+        "navigation_id": "ECC.9:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 9 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 9 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/9.json",
+          "chapter_file_sha256": "29d553a67d5be5c329f7b6915af8f0d19f5352f0488bb6ef9861fe3c826c6ba1",
+          "section_id": "nav:matthew-henry:ECC.9:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18166,
+          "fragment_sha256": "ef8761c3a706978e330520e72b32d1ed87d08e101226daa0ac8f52ec7d22bdf7",
+          "character_span": [
+            0,
+            1329
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.10:P:the-advantages-of-wisdom",
+        "navigation_id": "ECC.10:P:the-advantages-of-wisdom",
+        "author_id": "matthew-henry",
+        "title": "The Advantages of Wisdom.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.10.1",
+        "passage_end": "ECC.10.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Advantages of Wisdom.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/10.json",
+          "chapter_file_sha256": "377b0f03029affa639b08e1741b8de9db5e80b726be4291f7689b1c1316904f8",
+          "section_id": "nav:matthew-henry:ECC.10:P:the-advantages-of-wisdom",
+          "source_entry_id": "sword:mhc:ECC.10.1-3:21:421719:3601",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "80774affb5c6ffb532af33f191f9d8a953766949d6561a1d9a5b500382c212b0",
+          "character_span": [
+            75,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.10:P:mutual-duties-of-princes-and-subjects",
+        "navigation_id": "ECC.10:P:mutual-duties-of-princes-and-subjects",
+        "author_id": "matthew-henry",
+        "title": "Mutual Duties of Princes and Subjects.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.10.4",
+        "passage_end": "ECC.10.11",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mutual Duties of Princes and Subjects.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/10.json",
+          "chapter_file_sha256": "377b0f03029affa639b08e1741b8de9db5e80b726be4291f7689b1c1316904f8",
+          "section_id": "nav:matthew-henry:ECC.10:P:mutual-duties-of-princes-and-subjects",
+          "source_entry_id": "sword:mhc:ECC.10.4-11:21:425320:11071",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e376475c5749316fa0cdf3f770e8fbd717f465405bf70f8d05f90a05d528a62f",
+          "character_span": [
+            33,
+            98
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.10:P:the-contemptibleness-of-folly",
+        "navigation_id": "ECC.10:P:the-contemptibleness-of-folly",
+        "author_id": "matthew-henry",
+        "title": "The Contemptibleness of Folly.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.10.12",
+        "passage_end": "ECC.10.15",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Contemptibleness of Folly.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/10.json",
+          "chapter_file_sha256": "377b0f03029affa639b08e1741b8de9db5e80b726be4291f7689b1c1316904f8",
+          "section_id": "nav:matthew-henry:ECC.10:P:the-contemptibleness-of-folly",
+          "source_entry_id": "sword:mhc:ECC.10.12-15:21:436391:7126",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "61b455164d59e6b5f5321742c8764453453f019a290e0e88ede9d00ae06fd99b",
+          "character_span": [
+            33,
+            90
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.10:P:original-chapter-introduction",
+        "navigation_id": "ECC.10:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 10 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 10 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/10.json",
+          "chapter_file_sha256": "377b0f03029affa639b08e1741b8de9db5e80b726be4291f7689b1c1316904f8",
+          "section_id": "nav:matthew-henry:ECC.10:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18185,
+          "fragment_sha256": "2f96688f129a86ad364a8fde8ac2638306db5bcf01d124b3aa7c9de4f663fe43",
+          "character_span": [
+            0,
+            2204
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.11:P:the-obligations-to-be-liberal-answers-to-objections-against-liberality",
+        "navigation_id": "ECC.11:P:the-obligations-to-be-liberal-answers-to-objections-against-liberality",
+        "author_id": "matthew-henry",
+        "title": "The Obligations to Be Liberal; Answers to Objections against Liberality.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.11.1",
+        "passage_end": "ECC.11.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Obligations to Be Liberal; Answers to Objections against Liberality.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/11.json",
+          "chapter_file_sha256": "d6ac0ef78072f7a9381f099bb0d1916d6e633c5934863aded52e20a5b2d375e3",
+          "section_id": "nav:matthew-henry:ECC.11:P:the-obligations-to-be-liberal-answers-to-objections-against-liberality",
+          "source_entry_id": "sword:mhc:ECC.11.1-6:21:454173:17674",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "fc03825bca33fb50cd65c6c878a42f3947928a7a0c270a71b8b11f2265219ff0",
+          "character_span": [
+            75,
+            174
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.11:P:a-caution-to-the-young-exhortation-to-early-piety",
+        "navigation_id": "ECC.11:P:a-caution-to-the-young-exhortation-to-early-piety",
+        "author_id": "matthew-henry",
+        "title": "A Caution to the Young; Exhortation to Early Piety.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.11.7",
+        "passage_end": "ECC.11.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "A Caution to the Young; Exhortation to Early Piety.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/11.json",
+          "chapter_file_sha256": "d6ac0ef78072f7a9381f099bb0d1916d6e633c5934863aded52e20a5b2d375e3",
+          "section_id": "nav:matthew-henry:ECC.11:P:a-caution-to-the-young-exhortation-to-early-piety",
+          "source_entry_id": "sword:mhc:ECC.11.7-10:21:471847:13159",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b11ac005de9cb41bf58391df650fbc5d7beed498a62b24b2367cff3733c58e93",
+          "character_span": [
+            33,
+            111
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.11:P:original-chapter-introduction",
+        "navigation_id": "ECC.11:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 11 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 11 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/11.json",
+          "chapter_file_sha256": "d6ac0ef78072f7a9381f099bb0d1916d6e633c5934863aded52e20a5b2d375e3",
+          "section_id": "nav:matthew-henry:ECC.11:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18206,
+          "fragment_sha256": "76017f45e67e8e1e19a9c3e1e3531b66184decd1a53d2a97039491cfa2292932",
+          "character_span": [
+            0,
+            675
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.12:P:the-infirmities-of-old-age-the-effects-of-death",
+        "navigation_id": "ECC.12:P:the-infirmities-of-old-age-the-effects-of-death",
+        "author_id": "matthew-henry",
+        "title": "The Infirmities of Old Age; The Effects of Death.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.12.1",
+        "passage_end": "ECC.12.7",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Infirmities of Old Age; The Effects of Death.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/12.json",
+          "chapter_file_sha256": "062113abe2ff17b8d0374f9c4662409bc3bf649ec8839de8ec08904d11706805",
+          "section_id": "nav:matthew-henry:ECC.12:P:the-infirmities-of-old-age-the-effects-of-death",
+          "source_entry_id": "sword:mhc:ECC.12.1-7:21:486398:23300",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f5c60497677b6856bc77b6eabd00890c6cf067f50673bccd8e371afd82ea1154",
+          "character_span": [
+            75,
+            151
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.12:P:the-conclusion-of-the-whole",
+        "navigation_id": "ECC.12:P:the-conclusion-of-the-whole",
+        "author_id": "matthew-henry",
+        "title": "The Conclusion of the Whole.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.12.8",
+        "passage_end": "ECC.12.12",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Conclusion of the Whole.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/12.json",
+          "chapter_file_sha256": "062113abe2ff17b8d0374f9c4662409bc3bf649ec8839de8ec08904d11706805",
+          "section_id": "nav:matthew-henry:ECC.12:P:the-conclusion-of-the-whole",
+          "source_entry_id": "sword:mhc:ECC.12.8-12:21:509698:14049",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "70af34e2309d62fa9719e9db9aeb0944978ba3315662f06a518f073c05222b37",
+          "character_span": [
+            33,
+            88
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:ECC.12:P:original-chapter-introduction",
+        "navigation_id": "ECC.12:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Ecclesiastes 12 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Ecclesiastes 12 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/matthew-henry/ECC/12.json",
+          "chapter_file_sha256": "062113abe2ff17b8d0374f9c4662409bc3bf649ec8839de8ec08904d11706805",
+          "section_id": "nav:matthew-henry:ECC.12:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18217,
+          "fragment_sha256": "c82073ccc98dc530f9e6fd0c7023f8c916d8b9a97bc2dcf18bfec39dc23ac094",
+          "character_span": [
+            0,
+            1392
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:ECC:P:introduction-to-the-book-of-ecclesiastes",
+        "navigation_id": "ECC:P:introduction-to-the-book-of-ecclesiastes",
+        "author_id": "adam-clarke",
+        "title": "Introduction to the Book of Ecclesiastes",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction to the Book of Ecclesiastes",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/1.json",
+          "chapter_file_sha256": "8683b4dd695c5d3ba9444d2028b80c334beebae0b823d065dd36e88223d8da49",
+          "section_id": "nav:adam-clarke:ECC:P:introduction-to-the-book-of-ecclesiastes",
+          "source_entry_id": "sword:clarke:ECC.1.1-1:21:255:33173",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "a6b180065819915fd89748bbe7f170f9261ead03f47a82919fcd9007205c024c",
+          "character_span": [
+            33,
+            32061
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.2:P:introduction",
+        "navigation_id": "ECC.2:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/2.json",
+          "chapter_file_sha256": "4b3e48daf252af00c625142e3a3b295c6b3cb09ee699478705df7a135ca7383a",
+          "section_id": "nav:adam-clarke:ECC.2:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.2.1-1:21:49352:2026",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.3:P:introduction",
+        "navigation_id": "ECC.3:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/3.json",
+          "chapter_file_sha256": "dfde94161ab89b9105686b54c573ca6781d5fa7c3af1cdc24fd678bd27ac86f9",
+          "section_id": "nav:adam-clarke:ECC.3:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.3.1-1:21:68749:3409",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.4:P:introduction",
+        "navigation_id": "ECC.4:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/4.json",
+          "chapter_file_sha256": "f8cf4cd5def5f1fa0b53c10783c1f848e02d20fbee3e9c2f34c642c885949c36",
+          "section_id": "nav:adam-clarke:ECC.4:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.4.1-1:21:92932:1313",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.5:P:introduction",
+        "navigation_id": "ECC.5:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/5.json",
+          "chapter_file_sha256": "aa07a6bed4743116040169ad31d3b58bbba2cff9b867c830b1052328f99354b0",
+          "section_id": "nav:adam-clarke:ECC.5:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.5.1-1:21:101517:2280",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.6:P:introduction",
+        "navigation_id": "ECC.6:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/6.json",
+          "chapter_file_sha256": "64a889d9bb15b12bba34533fe60da807f1ebd242bf02992e580472b0b95207e1",
+          "section_id": "nav:adam-clarke:ECC.6:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.6.1-1:21:114419:612",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.7:P:introduction",
+        "navigation_id": "ECC.7:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/7.json",
+          "chapter_file_sha256": "67469fa259cfc62d6f7d86c41d305f5577940cd95e4dd0619d489c6b46f28c7a",
+          "section_id": "nav:adam-clarke:ECC.7:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.7.1-1:21:120555:2846",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.8:P:introduction",
+        "navigation_id": "ECC.8:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/8.json",
+          "chapter_file_sha256": "ac077add5f79378279a2e454a8d6defcd6e6622fc6340c4320dd2492918bfab3",
+          "section_id": "nav:adam-clarke:ECC.8:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.8.1-1:21:143720:2743",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.9:P:introduction",
+        "navigation_id": "ECC.9:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/9.json",
+          "chapter_file_sha256": "2323bd7f79d4193e8e3155a205d1d7fa1991cdcf8157cbb6528aebc587fffd9f",
+          "section_id": "nav:adam-clarke:ECC.9:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.9.1-1:21:155917:1708",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.10:P:introduction",
+        "navigation_id": "ECC.10:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/10.json",
+          "chapter_file_sha256": "2a22e16c1759bd081eab618bd3b571d881521732c8af029e742f15b36227db35",
+          "section_id": "nav:adam-clarke:ECC.10:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.10.1-1:21:174549:1753",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.11:P:introduction",
+        "navigation_id": "ECC.11:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/11.json",
+          "chapter_file_sha256": "fbc904a493dd4fead756f649048857056e2c72ef91dfe0ae4f2a75c5d485e1ae",
+          "section_id": "nav:adam-clarke:ECC.11:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.11.1-1:21:189263:1481",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:ECC.12:P:introduction",
+        "navigation_id": "ECC.12:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/adam-clarke/ECC/12.json",
+          "chapter_file_sha256": "c1defdbc09f57a63a21d7716b89ad87e674b7e7ec5a791070d92d7ef27382d7c",
+          "section_id": "nav:adam-clarke:ECC.12:P:introduction",
+          "source_entry_id": "sword:clarke:ECC.12.1-1:21:197196:5575",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:POETICAL:P:poetical",
+        "navigation_id": "GROUP:POETICAL:P:poetical",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction to poetical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_poetical_book_group_includes_Ecclesiastes",
+        "source_evidence": "Introduction to poetical books",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:POETICAL:P:poetical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "109ce38540ba4849e8beced6b9338ae38fe847437c5ebed0c31a4523b92872fc",
+          "character_span": [
+            30473,
+            48568
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC:P:introduction",
+        "navigation_id": "ECC:P:introduction",
+        "author_id": "jamieson-fausset-brown",
+        "title": "INTRODUCTION",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "INTRODUCTION",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/1.json",
+          "chapter_file_sha256": "c7206ea683f33c6cd9a215e75ff381378f2fb7d6b1a2a2aeb37478c10390aab3",
+          "section_id": "nav:jamieson-fausset-brown:ECC:P:introduction",
+          "source_entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7715a44a9cc07b86bbec560b97c92a30388f764f24dccaca3ee672f911159914",
+          "character_span": [
+            59,
+            9080
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.1:P:chapter-1",
+        "navigation_id": "ECC.1:P:chapter-1",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 1",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/1.json",
+          "chapter_file_sha256": "c7206ea683f33c6cd9a215e75ff381378f2fb7d6b1a2a2aeb37478c10390aab3",
+          "section_id": "nav:jamieson-fausset-brown:ECC.1:P:chapter-1",
+          "source_entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            9080,
+            9115
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.1:P:ec-1-1-18-introduction",
+        "navigation_id": "ECC.1:P:ec-1-1-18-introduction",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Ec 1:1-18 . Introduction.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.1.1",
+        "passage_end": "ECC.1.18",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "Ec 1:1-18 . Introduction.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/1.json",
+          "chapter_file_sha256": "c7206ea683f33c6cd9a215e75ff381378f2fb7d6b1a2a2aeb37478c10390aab3",
+          "section_id": "nav:jamieson-fausset-brown:ECC.1:P:ec-1-1-18-introduction",
+          "source_entry_id": "sword:jfb:ECC.1.1-1:21:510:9871",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2a5e6439d178685a8116f4c9668156075531a82384ffc995798d18f8e50ef53c",
+          "character_span": [
+            9116,
+            9219
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.2:P:chapter-2",
+        "navigation_id": "ECC.2:P:chapter-2",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 2",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/2.json",
+          "chapter_file_sha256": "886793488dec2f24076e774d3eff4d08d545c9eadacbe31024ae4aa5fabaaea3",
+          "section_id": "nav:jamieson-fausset-brown:ECC.2:P:chapter-2",
+          "source_entry_id": "sword:jfb:ECC.2.1-1:21:24712:982",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.3:P:chapter-3",
+        "navigation_id": "ECC.3:P:chapter-3",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 3",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/3.json",
+          "chapter_file_sha256": "d0a137ee2dae417100fc22926f6cefc1bde7087f9b37252744ab2b5c103f7345",
+          "section_id": "nav:jamieson-fausset-brown:ECC.3:P:chapter-3",
+          "source_entry_id": "sword:jfb:ECC.3.1-1:21:44717:2185",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.4:P:chapter-4",
+        "navigation_id": "ECC.4:P:chapter-4",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 4",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/4.json",
+          "chapter_file_sha256": "8a004c30d41599d704b9ff996c577c53cd71c94c67bc1da32af3d7001aa45f45",
+          "section_id": "nav:jamieson-fausset-brown:ECC.4:P:chapter-4",
+          "source_entry_id": "sword:jfb:ECC.4.1-1:21:67680:867",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.5:P:chapter-5",
+        "navigation_id": "ECC.5:P:chapter-5",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 5",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/5.json",
+          "chapter_file_sha256": "ded814c95168a502f800a15194d11fe092d810c80a6afb75ea3cc3ef13f9146b",
+          "section_id": "nav:jamieson-fausset-brown:ECC.5:P:chapter-5",
+          "source_entry_id": "sword:jfb:ECC.5.1-1:21:79346:2557",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "28c7aecb7b8150863ebc556b4f18e721a5a0f56caa8d893a04ea73e9a15091ee",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.6:P:chapter-6",
+        "navigation_id": "ECC.6:P:chapter-6",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 6",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 6",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/6.json",
+          "chapter_file_sha256": "94e69705eb5f1087b3e1a86bf111521359e0591fe61d98122dcb5e19ae044ddd",
+          "section_id": "nav:jamieson-fausset-brown:ECC.6:P:chapter-6",
+          "source_entry_id": "sword:jfb:ECC.6.1-1:21:95324:446",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "156b149338ab4df993d1da11058affc61b5ad0471fcd353217038eb5acf8d55b",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.7:P:chapter-7",
+        "navigation_id": "ECC.7:P:chapter-7",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 7",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 7",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/7.json",
+          "chapter_file_sha256": "7bff75592522daac7fcba0a4858afc6a9d69828f455f3842160343b08167ba41",
+          "section_id": "nav:jamieson-fausset-brown:ECC.7:P:chapter-7",
+          "source_entry_id": "sword:jfb:ECC.7.1-1:21:104899:1999",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "fd5cdd0f2948c8519b7f0cb340762e2d24db08f21871c13503bfc3130fe07404",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.8:P:chapter-8",
+        "navigation_id": "ECC.8:P:chapter-8",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 8",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/8.json",
+          "chapter_file_sha256": "e9f5ddf94d93ff699400ca8e479d3955514295c72bf1614046020ac1dfed8824",
+          "section_id": "nav:jamieson-fausset-brown:ECC.8:P:chapter-8",
+          "source_entry_id": "sword:jfb:ECC.8.1-1:21:129531:1974",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4d9012f96b6241d9b632a799789d66d9c0710da056965ee37c66ea12bf40f4f8",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.9:P:chapter-9",
+        "navigation_id": "ECC.9:P:chapter-9",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 9",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 9",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/9.json",
+          "chapter_file_sha256": "755ba8bf4669de727fc30372f836873edc3c9a5b56592a4352ceed7ce26d536d",
+          "section_id": "nav:jamieson-fausset-brown:ECC.9:P:chapter-9",
+          "source_entry_id": "sword:jfb:ECC.9.1-1:21:146409:1202",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0ea0c486365533614dd010ad9bac13027d59e52fbc2bc06dd8063e83d3000da7",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.10:P:chapter-10",
+        "navigation_id": "ECC.10:P:chapter-10",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 10",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 10",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/10.json",
+          "chapter_file_sha256": "8d0acdb4e11b74408af461dbef5f6f03987877391947e43f92d26939df023da2",
+          "section_id": "nav:jamieson-fausset-brown:ECC.10:P:chapter-10",
+          "source_entry_id": "sword:jfb:ECC.10.1-1:21:163584:1520",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5a065ed82e822dbfc57e8f8b272dfe533505c2c825b573d797ddcc0fe9ad66c7",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.11:P:chapter-11",
+        "navigation_id": "ECC.11:P:chapter-11",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 11",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 11",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/11.json",
+          "chapter_file_sha256": "4fcf0bc40fe43c7a1db3670822a59903de1b05779f19c98aed36682ac715f259",
+          "section_id": "nav:jamieson-fausset-brown:ECC.11:P:chapter-11",
+          "source_entry_id": "sword:jfb:ECC.11.1-1:21:179122:1362",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8c1ed82d19faef4ff84b7e93a34e9cd01767c5fa3495e81c8e7052867c3bc821",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ECC.12:P:chapter-12",
+        "navigation_id": "ECC.12:P:chapter-12",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 12",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 12",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/jamieson-fausset-brown/ECC/12.json",
+          "chapter_file_sha256": "9efd015fb4b2bf97c91ccc9777ca1a97cc39dce65581f39ca549c2d47ab5f899",
+          "section_id": "nav:jamieson-fausset-brown:ECC.12:P:chapter-12",
+          "source_entry_id": "sword:jfb:ECC.12.1-1:21:189087:2002",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3f9b5eed29f70265b25f2c974a1528ec6d9dd863009da04efc8b667d049aa414",
+          "character_span": [
+            59,
+            96
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:ECC:P:the-book-of-ecclesiastes",
+        "navigation_id": "ECC:P:the-book-of-ecclesiastes",
+        "author_id": "keil-delitzsch",
+        "title": "The Book of Ecclesiastes",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "The Book of Ecclesiastes",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/1.json",
+          "chapter_file_sha256": "95f93d94373f50572f20e9daa132bee4778f633b1ac520b50727419bbf168696",
+          "section_id": "nav:keil-delitzsch:ECC:P:the-book-of-ecclesiastes",
+          "source_entry_id": "sword:kd:ECC.1.1-1:22:144:148489",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d4a2397ba8eb6830d962fa0730c186be3a8fc5e2bcf7560daf0574a0eea13991",
+          "character_span": [
+            33,
+            145608
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:ECC.12:P:c-the-epilogue-xii-9-14",
+        "navigation_id": "ECC.12:P:c-the-epilogue-xii-9-14",
+        "author_id": "keil-delitzsch",
+        "title": "(C.) THE EPILOGUE. XII. 9-14.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": "ECC.12.9",
+        "passage_end": "ECC.12.9",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "(C.) THE EPILOGUE. XII. 9-14.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/keil-delitzsch/ECC/12.json",
+          "chapter_file_sha256": "f53611aea38d4948835c7eeb04371023ded1d9eb5ce23c761c3394fad5dd157d",
+          "section_id": "nav:keil-delitzsch:ECC.12:P:c-the-epilogue-xii-9-14",
+          "source_entry_id": "sword:kd:ECC.12.9-9:22:864640:12231",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "de8b438a89e7c873df3629e9238edae67da52566f1dab396c8d9bc8e73da3b23",
+          "character_span": [
+            33,
+            89
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:ECC:P:john-gill-book-introduction",
+        "navigation_id": "ECC:P:john-gill-book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Ecclesiastes",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "ECC"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction · Ecclesiastes",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-ecclesiastes-2026-11-08/authors/john-gill/ECC/1.json",
+          "chapter_file_sha256": "827e8b9a7216975380d08a9dd2b813ff0464f1fe05126c750d21d39a18ffa3b4",
+          "section_id": "nav:john-gill:ECC:P:john-gill-book-introduction",
+          "source_entry_id": null,
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f1c4f129d5587d6921c89e3aec9d40b86e175e7078f044970ff987b68bb785ee",
+          "character_span": null
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Ecclesiastes 12 chapters preserve exact original native SWORD/KJV verse keys and HelloAO anchors; no inferred neighbor ranges.",
+    "Matthew Henry and Jamieson-Fausset-Brown original wisdom/poetical group introductions are source-linked from the accepted Job and Genesis records.",
+    "Keil and Delitzsch substantial original scholarly introduction is preserved in the original Ecclesiastes 1 source record and separately reachable through P.",
+    "Original author opening prefaces are not presented as Ecclesiastes 1:1 verse commentary.",
+    "P passage labels use only explicit source/title bounds or exact native SWORD record spans, never literary guesses.",
+    "Calvin Ecclesiastes availability is determined from the supplied edition; no replacement historical prose is invented."
+  ]
+}
