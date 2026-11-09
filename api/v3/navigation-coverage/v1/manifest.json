@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.11-additive-job",
+  "version": "navigation-coverage-v1.12-additive-psalms",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -22,7 +22,8 @@
     "EZR",
     "NEH",
     "EST",
-    "JOB"
+    "JOB",
+    "PSA"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -42,7 +43,8 @@
     "EZR": "structured-ezra-2026-11-06",
     "NEH": "structured-nehemiah-2026-11-06",
     "EST": "structured-esther-2026-11-06",
-    "JOB": "structured-job-2026-11-06"
+    "JOB": "structured-job-2026-11-06",
+    "PSA": "structured-psalms-2026-11-07"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -56,7 +58,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 2391,
+    "original_P_sections": 3576,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -76,7 +78,8 @@
       "EZR": 68,
       "NEH": 103,
       "EST": 71,
-      "JOB": 251
+      "JOB": 251,
+      "PSA": 1185
     },
     "routed_by_book": {
       "GEN": 64,
@@ -96,10 +99,11 @@
       "EZR": 71,
       "NEH": 106,
       "EST": 74,
-      "JOB": 252
+      "JOB": 252,
+      "PSA": 1187
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.10-additive-est",
+  "previous_manifest_version": "navigation-coverage-v1.11-additive-job",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -138,6 +142,12 @@
     "Job original volume and book introductions are kept separate from verse routes; P scopes never extend by neighboring anchor inference.",
     "JFB Poetical Books introduction explicitly includes Job and reuses the immutable original source link.",
     "Job release requires the separately prepared Ezra, Nehemiah and Esther releases to be installed first; all prior book snapshots remain unchanged.",
-    "Absent commentary source chapters remain explicitly unavailable; source authenticity and the original six-author layout are preserved."
+    "Absent commentary source chapters remain explicitly unavailable; source authenticity and the original six-author layout are preserved.",
+    "Psalms (150 chapters, 900 six-author author-chapter records) built from verified original source archives.",
+    "All 2,461 canonical KJV Psalms verse coordinates preserved, Psalm 119:1–176 intact.",
+    "Historical Poetical group introductions reuse accepted Job and Genesis original source references.",
+    "Original SWORD OSIS records and HelloAO verse source items remain intact; no inferred neighbor verse coverage.",
+    "Original Keil-Delitzsch Psalter Introduction retained; source-labeled literary-division headings bounded only where explicitly present.",
+    "Only new Psalm files and shared cumulative navigation manifest are included; previous 18 accepted snapshots unchanged."
   ]
 }
