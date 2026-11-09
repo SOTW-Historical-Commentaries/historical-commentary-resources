@@ -1,0 +1,50 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-song-of-solomon-2026-11-08",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "SNG"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 48,
+    "original_entries": 458,
+    "navigation_sections": 52,
+    "reader_visible_entries": 458,
+    "verse_author_routes": 572,
+    "sword_chapters": 32,
+    "unavailable_chapters": 8,
+    "helloao_chapters": 16,
+    "chapters": 8
+  },
+  "chapter_verse_count": {
+    "1": 17,
+    "2": 17,
+    "3": 11,
+    "4": 16,
+    "5": 16,
+    "6": 13,
+    "7": 13,
+    "8": 14
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked original CrossWire/SWORD passage-index archives; HelloAO John Gill and genuinely missing whole-chapter fallback only.",
+  "reader_policy": "Verse by default; source-bounded P headings and validated historical book-group prefaces only.",
+  "provenance_policy": "Original historical author, complete source records, work edition, source record locators, native binary indexes, rights preserved.",
+  "notes": [
+    "Additive Song of Solomon only: previous twenty-one snapshots preserved.",
+    "Historical wisdom and poetical prefaces linked to source-locked Job and Genesis records.",
+    "All five SWORD editions retain native binary passage indexes; HelloAO is never pasted across existing edition fragments.",
+    "No Bible translation text or CGBC player integration. Local source audit precedes owner upload and live browser review."
+  ]
+}
