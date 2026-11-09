@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.15-additive-song-of-solomon",
+  "version": "navigation-coverage-v1.16-additive-isaiah",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -26,7 +26,8 @@
     "PSA",
     "PRO",
     "ECC",
-    "SNG"
+    "SNG",
+    "ISA"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -50,7 +51,8 @@
     "PSA": "structured-psalms-2026-11-07",
     "PRO": "structured-proverbs-2026-11-07",
     "ECC": "structured-ecclesiastes-2026-11-08",
-    "SNG": "structured-song-of-solomon-2026-11-08"
+    "SNG": "structured-song-of-solomon-2026-11-08",
+    "ISA": "structured-isaiah-2026-11-09"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -64,7 +66,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 3899,
+    "original_P_sections": 4322,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -88,7 +90,8 @@
       "PSA": 1185,
       "PRO": 194,
       "ECC": 77,
-      "SNG": 52
+      "SNG": 52,
+      "ISA": 423
     },
     "routed_by_book": {
       "GEN": 64,
@@ -112,10 +115,11 @@
       "PSA": 1187,
       "PRO": 196,
       "ECC": 79,
-      "SNG": 54
+      "SNG": 54,
+      "ISA": 424
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.14-additive-ecclesiastes",
+  "previous_manifest_version": "navigation-coverage-v1.15-additive-song-of-solomon",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -175,6 +179,11 @@
     "Original Matthew Henry, JFB, Clarke and Keil-Delitzsch introductions remain separately accessible in non-Scripture P navigation.",
     "Ecclesiastes is the prerequisite; its cumulative navigation metadata is carried forward without changing previous 21 book snapshots.",
     "Original immutable index-backed verse ranges, comments, source provenance and author availability states retained.",
-    "Calvin Song of Solomon commentary unavailable in selected original edition; no text substitution or invented neighboring coverage."
+    "Calvin Song of Solomon commentary unavailable in selected original edition; no text substitution or invented neighboring coverage.",
+    "Isaiah (66 chapters; 1292 KJV verse coordinates) added from native original CrossWire SWORD indexes and original HelloAO Gill anchors.",
+    "JFB Prophetical Books original Genesis section now source-linked for Isaiah; held-unmapped evidence record remains untouched.",
+    "Matthew Henry and Keil-Delitzsch original prophetic introductions and Keil-Delitzsch Isaiah 40-66 source are separately routed as P.",
+    "Historical Calvin edition actual Isaiah availability and all source fallback states verified chapter by chapter; original author records untouched.",
+    "Prior twenty-two book snapshots, overlays, readers and source bytes are not repackaged. No Bible translation or player changes."
   ]
 }
