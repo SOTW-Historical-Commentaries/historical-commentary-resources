@@ -1,0 +1,298 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "canonical_chapter": "PSA.1",
+  "verse_count": 6,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/matthew-henry/PSA/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 6
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/john-calvin/PSA/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 1,
+      "reader_visible_entries": 1,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 6
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/adam-clarke/PSA/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 6
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/jamieson-fausset-brown/PSA/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 6
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/keil-delitzsch/PSA/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 6
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/john-gill/PSA/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 6
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:PSA:P:psalms",
+        "navigation_id": "PSA:P:psalms",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Psalms"
+      },
+      {
+        "section_id": "nav:matthew-henry:PSA.1:P:the-happy-man",
+        "navigation_id": "PSA.1:P:the-happy-man",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Happy Man."
+      },
+      {
+        "section_id": "nav:matthew-henry:PSA.1:P:description-and-doom-of-the-ungodly",
+        "navigation_id": "PSA.1:P:description-and-doom-of-the-ungodly",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Description and Doom of the Ungodly."
+      }
+    ],
+    "john-calvin": [
+      {
+        "section_id": "nav:john-calvin:PSA.1:P:calvin-original-chapter-argument",
+        "navigation_id": "PSA.1:P:calvin-original-chapter-argument",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Psalm 1 · Calvin’s original chapter argument"
+      }
+    ],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:PSA:P:introduction-to-the-book-of-psalms",
+        "navigation_id": "PSA:P:introduction-to-the-book-of-psalms",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction to the Book of Psalms"
+      },
+      {
+        "section_id": "nav:adam-clarke:PSA.1:P:analysis-of-the-first-psalm",
+        "navigation_id": "PSA.1:P:analysis-of-the-first-psalm",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "ANALYSIS OF THE FIRST PSALM"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:PSA:P:introduction",
+        "navigation_id": "PSA:P:introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "INTRODUCTION"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:PSA.1:P:psalm-1",
+        "navigation_id": "PSA.1:P:psalm-1",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "PSALM 1"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:PSA.1:P:psa-1-1-6-the-character-and-condition-and-the-present-and-future-destiny-of-th",
+        "navigation_id": "PSA.1:P:psa-1-1-6-the-character-and-condition-and-the-present-and-future-destiny-of-th",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Psa 1:1-6 . The character and condition, and the present and future destiny, of the pious and the wicked are described and contrasted, teaching that true piety is the source of ultimate happiness, and sin of misery. As this is a summary of the teachings of the whole book, this Psalm, whether designedly so placed or not, forms a suitable preface."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:PSA:P:the-book-of-psalms",
+        "navigation_id": "PSA:P:the-book-of-psalms",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "The Book of Psalms"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:PSA.1:P:first-book-of-the-psalter-ps-i-xli",
+        "navigation_id": "PSA.1:P:first-book-of-the-psalter-ps-i-xli",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "FIRST BOOK OF THE PSALTER Ps. I.-XLI."
+      },
+      {
+        "section_id": "nav:keil-delitzsch:PSA.1:P:psalm-i",
+        "navigation_id": "PSA.1:P:psalm-i",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "PSALM I."
+      },
+      {
+        "section_id": "nav:keil-delitzsch:PSA.1:P:the-radically-distinct-lot-of-the-pious-and-the-ungodly",
+        "navigation_id": "PSA.1:P:the-radically-distinct-lot-of-the-pious-and-the-ungodly",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "THE RADICALLY DISTINCT LOT OF THE PIOUS AND THE UNGODLY."
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:PSA:P:john-gill-book-introduction",
+        "navigation_id": "PSA:P:john-gill-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction · Psalms"
+      }
+    ]
+  },
+  "nav_policy": "P titles are source evidence; authoritative P applicability is navigation-coverage/v1/books/PSA.json. Verse routes contain only original source-indexed records."
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-psalms-2026-11-07",
+  "canonical_chapter": "PSA.133",
+  "verse_count": 3,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/matthew-henry/PSA/133.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 1,
+      "reader_visible_entries": 1,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 3
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/john-calvin/PSA/133.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 1,
+      "reader_visible_entries": 1,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 3
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/adam-clarke/PSA/133.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 3,
+      "reader_visible_entries": 3,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 3
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/jamieson-fausset-brown/PSA/133.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 3
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/keil-delitzsch/PSA/133.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 1,
+      "reader_visible_entries": 1,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 3
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-psalms-2026-11-07/authors/john-gill/PSA/133.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 3,
+      "reader_visible_entries": 3,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 3
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:PSA.133:P:brotherly-love",
+        "navigation_id": "PSA.133:P:brotherly-love",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Brotherly Love."
+      },
+      {
+        "section_id": "nav:matthew-henry:PSA.133:P:original-chapter-introduction",
+        "navigation_id": "PSA.133:P:original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Psalms 133 · Original chapter introduction"
+      }
+    ],
+    "john-calvin": [
+      {
+        "section_id": "nav:john-calvin:PSA.133:P:calvin-original-chapter-argument",
+        "navigation_id": "PSA.133:P:calvin-original-chapter-argument",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Psalm 133 · Calvin’s original chapter argument"
+      }
+    ],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:PSA.133:P:introduction",
+        "navigation_id": "PSA.133:P:introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:PSA.133:P:psalm-133",
+        "navigation_id": "PSA.133:P:psalm-133",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "PSALM 133"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:PSA.133:P:psa-133-1-3-the-blessings-of-fraternal-unity",
+        "navigation_id": "PSA.133:P:psa-133-1-3-the-blessings-of-fraternal-unity",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Psa 133:1-3 . The blessings of fraternal unity."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:PSA.133:P:praise-of-brotherly-fellowship",
+        "navigation_id": "PSA.133:P:praise-of-brotherly-fellowship",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "PRAISE OF BROTHERLY FELLOWSHIP."
+      }
+    ],
+    "john-gill": []
+  },
+  "nav_policy": "P titles are source evidence; authoritative P applicability is navigation-coverage/v1/books/PSA.json. Verse routes contain only original source-indexed records."
+}
