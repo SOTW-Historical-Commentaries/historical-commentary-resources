@@ -1,0 +1,1698 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "SNG",
+  "snapshot_id": "structured-song-of-solomon-2026-11-08",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P navigation. Original chapter navigation_sections remain immutable source evidence.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:GROUP:JOB-SONG:P:job-to-song-of-solomon",
+        "navigation_id": "GROUP:JOB-SONG:P:job-to-song-of-solomon",
+        "author_id": "matthew-henry",
+        "title": "Job to Song of Solomon",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_poetical_book_group_includes_Song of Solomon",
+        "source_evidence": "Job to Song of Solomon",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-job-2026-11-06/authors/matthew-henry/JOB/1.json",
+          "chapter_file_sha256": "9017f37894cc7e5967f029e650857091492a83eb44bfe4b54c89cc3d3fe453c7",
+          "section_id": "nav:matthew-henry:GROUP:JOB-SONG:P:job-to-song-of-solomon",
+          "source_entry_id": "sword:mhc:JOB.1.1-3:18:224:55152",
+          "fragment_sha256": "758e55bf32cfad1d1c3ea4fbe7341bf9904ec64db4749147bad0b1824c6e41ad",
+          "character_span": [
+            57,
+            44152
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG:P:song-of-solomon",
+        "navigation_id": "SNG:P:song-of-solomon",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/1.json",
+          "chapter_file_sha256": "f31cac23c07ca0b372d5724423a03715e2556458e555c87e6c263829da2c838f",
+          "section_id": "nav:matthew-henry:SNG:P:song-of-solomon",
+          "source_entry_id": "sword:mhc:SNG.1.1-1:22:241:13261",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "acd2950d800db13ff59df02879f498dc044a3d6a1e34349c0167d1d27cebe571",
+          "character_span": [
+            57,
+            8573
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.1:P:the-title-of-the-book",
+        "navigation_id": "SNG.1:P:the-title-of-the-book",
+        "author_id": "matthew-henry",
+        "title": "The Title of the Book.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.1.1",
+        "passage_end": "SNG.1.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Title of the Book.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/1.json",
+          "chapter_file_sha256": "f31cac23c07ca0b372d5724423a03715e2556458e555c87e6c263829da2c838f",
+          "section_id": "nav:matthew-henry:SNG.1:P:the-title-of-the-book",
+          "source_entry_id": "sword:mhc:SNG.1.1-1:22:241:13261",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "cbf983d9edf002fd073eacd9793861df764cf33a1367e91f0b1a9a98b89e5002",
+          "character_span": [
+            8573,
+            8622
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.1:P:the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.1:P:the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.1.2",
+        "passage_end": "SNG.1.6",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/1.json",
+          "chapter_file_sha256": "f31cac23c07ca0b372d5724423a03715e2556458e555c87e6c263829da2c838f",
+          "section_id": "nav:matthew-henry:SNG.1:P:the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.1.2-6:22:13502:26708",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54e5927f42ba4ae784f0aed7bec8544625019c7b47d001de2328c53a9c6f6110",
+          "character_span": [
+            33,
+            93
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.1:P:conference-between-christ-and-his-church",
+        "navigation_id": "SNG.1:P:conference-between-christ-and-his-church",
+        "author_id": "matthew-henry",
+        "title": "Conference between Christ and His Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.1.12",
+        "passage_end": "SNG.1.17",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Conference between Christ and His Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/1.json",
+          "chapter_file_sha256": "f31cac23c07ca0b372d5724423a03715e2556458e555c87e6c263829da2c838f",
+          "section_id": "nav:matthew-henry:SNG.1:P:conference-between-christ-and-his-church",
+          "source_entry_id": "sword:mhc:SNG.1.12-17:22:53553:14634",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7c4e33bd9a02c683d63101b523da606e12f200322e0982d682ac8d76497784b1",
+          "character_span": [
+            33,
+            101
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.2:P:christ-the-rose-of-sharon",
+        "navigation_id": "SNG.2:P:christ-the-rose-of-sharon",
+        "author_id": "matthew-henry",
+        "title": "Christ the Rose of Sharon.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.2.1",
+        "passage_end": "SNG.2.2",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Christ the Rose of Sharon.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/2.json",
+          "chapter_file_sha256": "60e0e69e7af88f11dfadd5fc7289ac3cbce7c39c129084897808e1cd20ec1f96",
+          "section_id": "nav:matthew-henry:SNG.2:P:christ-the-rose-of-sharon",
+          "source_entry_id": "sword:mhc:SNG.2.1-2:22:69668:5045",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "3a1aaa4eac73c40e49092a083f80a6ac063d284141f552e38cb456f38d1d1da4",
+          "character_span": [
+            75,
+            128
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.2:P:the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.2:P:the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.2.3",
+        "passage_end": "SNG.2.7",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/2.json",
+          "chapter_file_sha256": "60e0e69e7af88f11dfadd5fc7289ac3cbce7c39c129084897808e1cd20ec1f96",
+          "section_id": "nav:matthew-henry:SNG.2:P:the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.2.3-7:22:74713:12931",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54e5927f42ba4ae784f0aed7bec8544625019c7b47d001de2328c53a9c6f6110",
+          "character_span": [
+            33,
+            93
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.2:P:mutual-love-of-christ-and-the-church",
+        "navigation_id": "SNG.2:P:mutual-love-of-christ-and-the-church",
+        "author_id": "matthew-henry",
+        "title": "Mutual Love of Christ and the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.2.8",
+        "passage_end": "SNG.2.13",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mutual Love of Christ and the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/2.json",
+          "chapter_file_sha256": "60e0e69e7af88f11dfadd5fc7289ac3cbce7c39c129084897808e1cd20ec1f96",
+          "section_id": "nav:matthew-henry:SNG.2:P:mutual-love-of-christ-and-the-church",
+          "source_entry_id": "sword:mhc:SNG.2.8-13:22:87644:16875",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "66c919fbd570c3d40bae485c532f1a9261f444dff313da1c30dbc39a3ac4190f",
+          "character_span": [
+            33,
+            97
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.2:P:original-chapter-introduction",
+        "navigation_id": "SNG.2:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 2 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 2 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/2.json",
+          "chapter_file_sha256": "60e0e69e7af88f11dfadd5fc7289ac3cbce7c39c129084897808e1cd20ec1f96",
+          "section_id": "nav:matthew-henry:SNG.2:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18251,
+          "fragment_sha256": "c9c314e2dd9b3c8965b2efb445a558a710910bf2b1d19129d367bcddc75c6391",
+          "character_span": [
+            0,
+            1481
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.3:P:the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.3:P:the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.3.1",
+        "passage_end": "SNG.3.5",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/3.json",
+          "chapter_file_sha256": "df78e7b18788ce9ceeb13ea45a762af94fee76124bb9e1668d29d44b34ea5f0f",
+          "section_id": "nav:matthew-henry:SNG.3:P:the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.3.1-5:22:119104:14012",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54e5927f42ba4ae784f0aed7bec8544625019c7b47d001de2328c53a9c6f6110",
+          "character_span": [
+            75,
+            135
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.3:P:original-chapter-introduction",
+        "navigation_id": "SNG.3:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 3 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 3 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/3.json",
+          "chapter_file_sha256": "df78e7b18788ce9ceeb13ea45a762af94fee76124bb9e1668d29d44b34ea5f0f",
+          "section_id": "nav:matthew-henry:SNG.3:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18269,
+          "fragment_sha256": "8bc30b8e4da9e3009d70094f7efcc1a889744df76e94a033298cc34b2eb793ad",
+          "character_span": [
+            0,
+            1173
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.4:P:the-beauty-of-the-church",
+        "navigation_id": "SNG.4:P:the-beauty-of-the-church",
+        "author_id": "matthew-henry",
+        "title": "The Beauty of the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.4.1",
+        "passage_end": "SNG.4.7",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Beauty of the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/4.json",
+          "chapter_file_sha256": "29f99bcefb06f17afe2666253e71894791efcc268fbec6df05e87110371786e8",
+          "section_id": "nav:matthew-henry:SNG.4:P:the-beauty-of-the-church",
+          "source_entry_id": "sword:mhc:SNG.4.1-7:22:155197:17315",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "26eeb2ac4b0a718f3c2b375d57b277864ade8f0e81fa4a106aa0c70da83b4971",
+          "character_span": [
+            75,
+            127
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.4:P:the-love-of-christ-to-the-church",
+        "navigation_id": "SNG.4:P:the-love-of-christ-to-the-church",
+        "author_id": "matthew-henry",
+        "title": "The Love of Christ to the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.4.8",
+        "passage_end": "SNG.4.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of Christ to the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/4.json",
+          "chapter_file_sha256": "29f99bcefb06f17afe2666253e71894791efcc268fbec6df05e87110371786e8",
+          "section_id": "nav:matthew-henry:SNG.4:P:the-love-of-christ-to-the-church",
+          "source_entry_id": "sword:mhc:SNG.4.8-14:22:172512:23292",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ab2b06d1312e33595c89331eeb22fc099110358ac10d422e0ac2166785475b4c",
+          "character_span": [
+            33,
+            93
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.4:P:the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.4:P:the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.4.15",
+        "passage_end": "SNG.4.16",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/4.json",
+          "chapter_file_sha256": "29f99bcefb06f17afe2666253e71894791efcc268fbec6df05e87110371786e8",
+          "section_id": "nav:matthew-henry:SNG.4:P:the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.4.15-16:22:195804:6478",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54e5927f42ba4ae784f0aed7bec8544625019c7b47d001de2328c53a9c6f6110",
+          "character_span": [
+            33,
+            93
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.4:P:original-chapter-introduction",
+        "navigation_id": "SNG.4:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 4 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 4 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/4.json",
+          "chapter_file_sha256": "29f99bcefb06f17afe2666253e71894791efcc268fbec6df05e87110371786e8",
+          "section_id": "nav:matthew-henry:SNG.4:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18281,
+          "fragment_sha256": "c4fc725914c9b3aee675f69dd72c0616b620a32160009d1697fe313580170135",
+          "character_span": [
+            0,
+            1090
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.5:P:the-love-of-christ-to-the-church",
+        "navigation_id": "SNG.5:P:the-love-of-christ-to-the-church",
+        "author_id": "matthew-henry",
+        "title": "The Love of Christ to the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.5.1",
+        "passage_end": "SNG.5.1",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of Christ to the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/5.json",
+          "chapter_file_sha256": "deb917c5e351457485cf6fb6ae8aa7eb2915e425ed509f6b8bcdcde7157481e0",
+          "section_id": "nav:matthew-henry:SNG.5:P:the-love-of-christ-to-the-church",
+          "source_entry_id": "sword:mhc:SNG.5.1-1:22:203184:7499",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ab2b06d1312e33595c89331eeb22fc099110358ac10d422e0ac2166785475b4c",
+          "character_span": [
+            75,
+            135
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.5:P:the-love-of-christ-to-the-church-spiritual-desertion",
+        "navigation_id": "SNG.5:P:the-love-of-christ-to-the-church-spiritual-desertion",
+        "author_id": "matthew-henry",
+        "title": "The Love of Christ to the Church; Spiritual Desertion.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.5.2",
+        "passage_end": "SNG.5.8",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of Christ to the Church; Spiritual Desertion.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/5.json",
+          "chapter_file_sha256": "deb917c5e351457485cf6fb6ae8aa7eb2915e425ed509f6b8bcdcde7157481e0",
+          "section_id": "nav:matthew-henry:SNG.5:P:the-love-of-christ-to-the-church-spiritual-desertion",
+          "source_entry_id": "sword:mhc:SNG.5.2-8:22:210683:22581",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e91d7d7af20846ca131a4c7458843acb56e9ea1b522789073598c8e62e957ad2",
+          "character_span": [
+            33,
+            114
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.5:P:enquiring-after-the-excellencies-of-christ-the-church-s-confidence-in-christ",
+        "navigation_id": "SNG.5:P:enquiring-after-the-excellencies-of-christ-the-church-s-confidence-in-christ",
+        "author_id": "matthew-henry",
+        "title": "Enquiring after the Excellencies of Christ; The Church's Confidence in Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.5.9",
+        "passage_end": "SNG.5.16",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Enquiring after the Excellencies of Christ; The Church's Confidence in Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/5.json",
+          "chapter_file_sha256": "deb917c5e351457485cf6fb6ae8aa7eb2915e425ed509f6b8bcdcde7157481e0",
+          "section_id": "nav:matthew-henry:SNG.5:P:enquiring-after-the-excellencies-of-christ-the-church-s-confidence-in-christ",
+          "source_entry_id": "sword:mhc:SNG.5.9-16:22:233264:20820",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e865db806fed4d1280296dab11e7a65e43be2b8f2b1ef31cc687df2f64ed05e6",
+          "character_span": [
+            51,
+            156
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.5:P:original-chapter-introduction",
+        "navigation_id": "SNG.5:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 5 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 5 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/5.json",
+          "chapter_file_sha256": "deb917c5e351457485cf6fb6ae8aa7eb2915e425ed509f6b8bcdcde7157481e0",
+          "section_id": "nav:matthew-henry:SNG.5:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18298,
+          "fragment_sha256": "e3da10ae0a327c5e123319cff460c234de8e5a360d45fab14dd0255f3cde6f6e",
+          "character_span": [
+            0,
+            902
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.6:P:enquiring-after-christ",
+        "navigation_id": "SNG.6:P:enquiring-after-christ",
+        "author_id": "matthew-henry",
+        "title": "Enquiring after Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.6.1",
+        "passage_end": "SNG.6.3",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Enquiring after Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/6.json",
+          "chapter_file_sha256": "3a1f78509faa72308dbe327dfeded20bfbf5255cbb42490fb39164603fb0df7b",
+          "section_id": "nav:matthew-henry:SNG.6:P:enquiring-after-christ",
+          "source_entry_id": "sword:mhc:SNG.6.1-3:22:255164:11209",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "05945674ef5c2ebc3bf59a12a28762e84c8e7955bc37bba945c17e1428d182a9",
+          "character_span": [
+            75,
+            125
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.6:P:the-church-s-confidence-in-christ-the-love-of-christ-to-the-church",
+        "navigation_id": "SNG.6:P:the-church-s-confidence-in-christ-the-love-of-christ-to-the-church",
+        "author_id": "matthew-henry",
+        "title": "The Church's Confidence in Christ; The Love of Christ to the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.6.4",
+        "passage_end": "SNG.6.10",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Church's Confidence in Christ; The Love of Christ to the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/6.json",
+          "chapter_file_sha256": "3a1f78509faa72308dbe327dfeded20bfbf5255cbb42490fb39164603fb0df7b",
+          "section_id": "nav:matthew-henry:SNG.6:P:the-church-s-confidence-in-christ-the-love-of-christ-to-the-church",
+          "source_entry_id": "sword:mhc:SNG.6.4-10:22:266373:15161",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e801ea0b41fc8ffef06a3bacc12c4d3455f4ddb17cdb14b52430d3388c50b24d",
+          "character_span": [
+            33,
+            128
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.6:P:the-love-of-christ-to-the-church",
+        "navigation_id": "SNG.6:P:the-love-of-christ-to-the-church",
+        "author_id": "matthew-henry",
+        "title": "The Love of Christ to the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.6.11",
+        "passage_end": "SNG.6.13",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of Christ to the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/6.json",
+          "chapter_file_sha256": "3a1f78509faa72308dbe327dfeded20bfbf5255cbb42490fb39164603fb0df7b",
+          "section_id": "nav:matthew-henry:SNG.6:P:the-love-of-christ-to-the-church",
+          "source_entry_id": "sword:mhc:SNG.6.11-13:22:281534:8844",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ab2b06d1312e33595c89331eeb22fc099110358ac10d422e0ac2166785475b4c",
+          "character_span": [
+            33,
+            93
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.6:P:original-chapter-introduction",
+        "navigation_id": "SNG.6:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 6 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 6 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/6.json",
+          "chapter_file_sha256": "3a1f78509faa72308dbe327dfeded20bfbf5255cbb42490fb39164603fb0df7b",
+          "section_id": "nav:matthew-henry:SNG.6:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18315,
+          "fragment_sha256": "6cd06e647001e83a0c505ff999060226c598c06a1e95ea8c9221276de82e6870",
+          "character_span": [
+            0,
+            1080
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.7:P:the-beauty-of-the-church-the-complacency-of-christ-in-his-church",
+        "navigation_id": "SNG.7:P:the-beauty-of-the-church-the-complacency-of-christ-in-his-church",
+        "author_id": "matthew-henry",
+        "title": "The Beauty of the Church; The Complacency of Christ in His Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.7.1",
+        "passage_end": "SNG.7.9",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Beauty of the Church; The Complacency of Christ in His Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/7.json",
+          "chapter_file_sha256": "4c8d2658a4bc1e78935a1b0a4f43014a6d742a489bbc1d4f3e377925c4fcf281",
+          "section_id": "nav:matthew-henry:SNG.7:P:the-beauty-of-the-church-the-complacency-of-christ-in-his-church",
+          "source_entry_id": "sword:mhc:SNG.7.1-9:22:291197:17870",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "41e3d5e40cc48e3db40b64f6695e1dc5d0c1b4a6cf3f7557c9918aba4fa0277a",
+          "character_span": [
+            75,
+            168
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.7:P:desiring-communion-with-christ-the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.7:P:desiring-communion-with-christ-the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "Desiring Communion with Christ; The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.7.10",
+        "passage_end": "SNG.7.13",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Desiring Communion with Christ; The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/7.json",
+          "chapter_file_sha256": "4c8d2658a4bc1e78935a1b0a4f43014a6d742a489bbc1d4f3e377925c4fcf281",
+          "section_id": "nav:matthew-henry:SNG.7:P:desiring-communion-with-christ-the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.7.10-13:22:309067:12517",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c0f67cd930bef729dce7b74d38730df283c23b4050efc70ebb11ead81c4d49d0",
+          "character_span": [
+            33,
+            125
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.7:P:original-chapter-introduction",
+        "navigation_id": "SNG.7:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 7 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 7 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/7.json",
+          "chapter_file_sha256": "4c8d2658a4bc1e78935a1b0a4f43014a6d742a489bbc1d4f3e377925c4fcf281",
+          "section_id": "nav:matthew-henry:SNG.7:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18329,
+          "fragment_sha256": "cdb3a16043282aec104dcec658961f04bdd1e5a7898f2437f1e5586b1b7affa7",
+          "character_span": [
+            0,
+            819
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.8:P:the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.8:P:the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.8.1",
+        "passage_end": "SNG.8.4",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+          "chapter_file_sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a",
+          "section_id": "nav:matthew-henry:SNG.8:P:the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.8.1-4:22:323314:8294",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "54e5927f42ba4ae784f0aed7bec8544625019c7b47d001de2328c53a9c6f6110",
+          "character_span": [
+            75,
+            135
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.8:P:the-church-s-dependence-on-christ-the-love-of-the-church-to-christ",
+        "navigation_id": "SNG.8:P:the-church-s-dependence-on-christ-the-love-of-the-church-to-christ",
+        "author_id": "matthew-henry",
+        "title": "The Church's Dependence on Christ; The Love of the Church to Christ.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.8.5",
+        "passage_end": "SNG.8.7",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "The Church's Dependence on Christ; The Love of the Church to Christ.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+          "chapter_file_sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a",
+          "section_id": "nav:matthew-henry:SNG.8:P:the-church-s-dependence-on-christ-the-love-of-the-church-to-christ",
+          "source_entry_id": "sword:mhc:SNG.8.5-7:22:331608:13367",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "cf192aa4f3978338ac3cb669dbd03ef08577d7337b44d3dd481cdde9eaaa5ce0",
+          "character_span": [
+            33,
+            128
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.8:P:concern-for-the-gentiles-privileges-and-duties-of-the-church",
+        "navigation_id": "SNG.8:P:concern-for-the-gentiles-privileges-and-duties-of-the-church",
+        "author_id": "matthew-henry",
+        "title": "Concern for the Gentiles; Privileges and Duties of the Church.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.8.8",
+        "passage_end": "SNG.8.12",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Concern for the Gentiles; Privileges and Duties of the Church.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+          "chapter_file_sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a",
+          "section_id": "nav:matthew-henry:SNG.8:P:concern-for-the-gentiles-privileges-and-duties-of-the-church",
+          "source_entry_id": "sword:mhc:SNG.8.8-12:22:344975:14062",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5288f69fbcd325ca005e0a8e87ece2dc720fd570a5c0bb38ff95f491e35608c7",
+          "character_span": [
+            33,
+            122
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.8:P:mutual-love-of-christ-and-the-church-expectation-of-the-glory-to-be-revealed",
+        "navigation_id": "SNG.8:P:mutual-love-of-christ-and-the-church-expectation-of-the-glory-to-be-revealed",
+        "author_id": "matthew-henry",
+        "title": "Mutual Love of Christ and the Church; Expectation of the Glory to Be Revealed.",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.8.13",
+        "passage_end": "SNG.8.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "Mutual Love of Christ and the Church; Expectation of the Glory to Be Revealed.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+          "chapter_file_sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a",
+          "section_id": "nav:matthew-henry:SNG.8:P:mutual-love-of-christ-and-the-church-expectation-of-the-glory-to-be-revealed",
+          "source_entry_id": "sword:mhc:SNG.8.13-14:22:359037:7740",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "113234fa8c857236e1127729be0a08a9156a4732394ae556025770714865c452",
+          "character_span": [
+            33,
+            138
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.8:P:preface",
+        "navigation_id": "SNG.8:P:preface",
+        "author_id": "matthew-henry",
+        "title": "PREFACE",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.8.13",
+        "passage_end": "SNG.8.14",
+        "applicability_basis": "original_KJV_index_bounded_passage",
+        "source_evidence": "PREFACE",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+          "chapter_file_sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a",
+          "section_id": "nav:matthew-henry:SNG.8:P:preface",
+          "source_entry_id": "sword:mhc:SNG.8.13-14:22:359037:7740",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8fd758edb261a6c33c6fb764adba5619109774f1617c5431b7093916a622701d",
+          "character_span": [
+            7637,
+            7671
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:SNG.8:P:original-chapter-introduction",
+        "navigation_id": "SNG.8:P:original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Song of Solomon 8 · Original chapter introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Song of Solomon 8 · Original chapter introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/matthew-henry/SNG/8.json",
+          "chapter_file_sha256": "de3c0d1a7f6a17bc15126325aa20613be421e686bb272622dfe8b649abefea0a",
+          "section_id": "nav:matthew-henry:SNG.8:P:original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 18343,
+          "fragment_sha256": "776e8c40f728b1e890d4242e2b74515b4bee68b22716be89dda84057a29ee6d6",
+          "character_span": [
+            0,
+            1730
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:SNG:P:introduction-to-the-canticles-or-song-of-solomon",
+        "navigation_id": "SNG:P:introduction-to-the-canticles-or-song-of-solomon",
+        "author_id": "adam-clarke",
+        "title": "Introduction to the Canticles,or Song of Solomon",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction to the Canticles,or Song of Solomon",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/1.json",
+          "chapter_file_sha256": "b08b48407f49805cb1e3ee99d8480f51f359c059b8d2c6fc86a21665d967873b",
+          "section_id": "nav:adam-clarke:SNG:P:introduction-to-the-canticles-or-song-of-solomon",
+          "source_entry_id": "sword:clarke:SNG.1.1-1:22:255:48676",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7b1c4b4ca89c8a68ca4a0d0258baf8f8f9afbd1e7cf00b9f41b9aa65f3181e90",
+          "character_span": [
+            33,
+            46966
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.2:P:introduction",
+        "navigation_id": "SNG.2:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/2.json",
+          "chapter_file_sha256": "321806ccfc7dc3c584a1294288a09387a347f47f66aad9c84a64da4fd3152921",
+          "section_id": "nav:adam-clarke:SNG.2:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.2.1-1:22:61045:1519",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.3:P:introduction",
+        "navigation_id": "SNG.3:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/3.json",
+          "chapter_file_sha256": "90157a4988e6c38da78a6146d03f57d9fa741e06c6cea3dcb59649d2786d766b",
+          "section_id": "nav:adam-clarke:SNG.3:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.3.1-1:22:74739:1073",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.4:P:introduction",
+        "navigation_id": "SNG.4:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/4.json",
+          "chapter_file_sha256": "061153f3d4735d830868bf10182d6aa1a4a342c1b9e94c0cf991b52e411408e1",
+          "section_id": "nav:adam-clarke:SNG.4:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.4.1-1:22:81013:2961",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.5:P:introduction",
+        "navigation_id": "SNG.5:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/5.json",
+          "chapter_file_sha256": "026663df0128db54fd831f43c5e8eca1e4b5c3de3a0f4d398d7bfb8818a0893e",
+          "section_id": "nav:adam-clarke:SNG.5:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.5.1-1:22:100842:2147",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.6:P:introduction",
+        "navigation_id": "SNG.6:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/6.json",
+          "chapter_file_sha256": "3bd328f104e0e39387dbfa2a16b6e2f162c8933a61883a7db51f185c439f1561",
+          "section_id": "nav:adam-clarke:SNG.6:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.6.1-1:22:112102:807",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.7:P:introduction",
+        "navigation_id": "SNG.7:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/7.json",
+          "chapter_file_sha256": "b1c3456af3d54dee59e83d7264e6afa2433a39c3009214d6932e0b4facd98529",
+          "section_id": "nav:adam-clarke:SNG.7:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.7.1-1:22:120292:1393",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:SNG.8:P:introduction",
+        "navigation_id": "SNG.8:P:introduction",
+        "author_id": "adam-clarke",
+        "title": "Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/adam-clarke/SNG/8.json",
+          "chapter_file_sha256": "2674d927fd4de6471496a20161771abfeaadba86f4fd9d3805d872697b4f3727",
+          "section_id": "nav:adam-clarke:SNG.8:P:introduction",
+          "source_entry_id": "sword:clarke:SNG.8.1-1:22:128867:1237",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5596f9acbbe09793ea1e9cf3931ca030e736cc97a71be7e47d01eacb48d5eb3d",
+          "character_span": [
+            33,
+            71
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:POETICAL:P:poetical",
+        "navigation_id": "GROUP:POETICAL:P:poetical",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction to poetical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_poetical_book_group_includes_Song of Solomon",
+        "source_evidence": "Introduction to poetical books",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:POETICAL:P:poetical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "109ce38540ba4849e8beced6b9338ae38fe847437c5ebed0c31a4523b92872fc",
+          "character_span": [
+            30473,
+            48568
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG:P:introduction",
+        "navigation_id": "SNG:P:introduction",
+        "author_id": "jamieson-fausset-brown",
+        "title": "INTRODUCTION",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "INTRODUCTION",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/1.json",
+          "chapter_file_sha256": "faf44b3c28c212efb58dc846ecd72cb627a15fe2f31de3e187edef7c5b4581f2",
+          "section_id": "nav:jamieson-fausset-brown:SNG:P:introduction",
+          "source_entry_id": "sword:jfb:SNG.1.1-1:22:397:15379",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0d979d9568c60e420bb13b4ee2d99d85ce3f18043979b5ec8a16cb47bd43100d",
+          "character_span": [
+            59,
+            13613
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.1:P:chapter-1",
+        "navigation_id": "SNG.1:P:chapter-1",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 1",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/1.json",
+          "chapter_file_sha256": "faf44b3c28c212efb58dc846ecd72cb627a15fe2f31de3e187edef7c5b4581f2",
+          "section_id": "nav:jamieson-fausset-brown:SNG.1:P:chapter-1",
+          "source_entry_id": "sword:jfb:SNG.1.1-1:22:397:15379",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e992dc954113669ffeb95ece0bbb0492b7fd4ab9989d28de50c414c4b17a07db",
+          "character_span": [
+            13613,
+            13648
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.1:P:so-1-1-17-canticle-i-so-1-2-2-7-the-bride-searching-for-and-finding-the-king",
+        "navigation_id": "SNG.1:P:so-1-1-17-canticle-i-so-1-2-2-7-the-bride-searching-for-and-finding-the-king",
+        "author_id": "jamieson-fausset-brown",
+        "title": "So 1:1-17 . Canticle I.--( So 1:2-2:7 )--The Bride Searching for and Finding the King.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": "SNG.1.1",
+        "passage_end": "SNG.1.17",
+        "applicability_basis": "explicit_original_OSIS_heading_range",
+        "source_evidence": "So 1:1-17 . Canticle I.--( So 1:2-2:7 )--The Bride Searching for and Finding the King.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/1.json",
+          "chapter_file_sha256": "faf44b3c28c212efb58dc846ecd72cb627a15fe2f31de3e187edef7c5b4581f2",
+          "section_id": "nav:jamieson-fausset-brown:SNG.1:P:so-1-1-17-canticle-i-so-1-2-2-7-the-bride-searching-for-and-finding-the-king",
+          "source_entry_id": "sword:jfb:SNG.1.1-1:22:397:15379",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f6398f3ce4d79bc09db6ea547a0e3b1afee6e3168c656f7a59a22cad4ff3219d",
+          "character_span": [
+            13649,
+            13862
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.2:P:chapter-2",
+        "navigation_id": "SNG.2:P:chapter-2",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 2",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/2.json",
+          "chapter_file_sha256": "d23643aa1cf38670108dc428d383a9dfc5da1083487d9305017f3b5947426b49",
+          "section_id": "nav:jamieson-fausset-brown:SNG.2:P:chapter-2",
+          "source_entry_id": "sword:jfb:SNG.2.1-1:22:49433:1664",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "88a16481b77ebcc1997d74f0d588e6e1b76d11081c7f489977874772fa9e2618",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.3:P:chapter-3",
+        "navigation_id": "SNG.3:P:chapter-3",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 3",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/3.json",
+          "chapter_file_sha256": "78398cacec6c6c727da92e715372c410afac6d1c61f3d80111f4e0625ec0fe04",
+          "section_id": "nav:jamieson-fausset-brown:SNG.3:P:chapter-3",
+          "source_entry_id": "sword:jfb:SNG.3.1-1:22:85511:2981",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7bce38542b568e937d3772af04c1c943d700954406e500887ebff79d2bfde066",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.4:P:chapter-4",
+        "navigation_id": "SNG.4:P:chapter-4",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 4",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/4.json",
+          "chapter_file_sha256": "0fadbe5be2463b2f5c6778c092db8f78ef34dcb44236d70ab3ac8216dc44376c",
+          "section_id": "nav:jamieson-fausset-brown:SNG.4:P:chapter-4",
+          "source_entry_id": "sword:jfb:SNG.4.1-1:22:108492:3839",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "507cc7f392f124420941c42defbe9809355a4852c6d82bef8e4e8145e1bac8c2",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.5:P:chapter-5",
+        "navigation_id": "SNG.5:P:chapter-5",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 5",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 5",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/5.json",
+          "chapter_file_sha256": "1920d2fd522e5b013b9ac1ffd261b71b4c9d2e0ce7d5f70975607f8f0f9126d3",
+          "section_id": "nav:jamieson-fausset-brown:SNG.5:P:chapter-5",
+          "source_entry_id": "sword:jfb:SNG.5.1-1:22:136271:3865",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "28c7aecb7b8150863ebc556b4f18e721a5a0f56caa8d893a04ea73e9a15091ee",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.6:P:chapter-6",
+        "navigation_id": "SNG.6:P:chapter-6",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 6",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 6",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/6.json",
+          "chapter_file_sha256": "fc7bc24678d7fa9a96db068d58b89371d43dc592b3f6c6b0c5a06afe1f6dc339",
+          "section_id": "nav:jamieson-fausset-brown:SNG.6:P:chapter-6",
+          "source_entry_id": "sword:jfb:SNG.6.1-1:22:164928:812",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "156b149338ab4df993d1da11058affc61b5ad0471fcd353217038eb5acf8d55b",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.7:P:chapter-7",
+        "navigation_id": "SNG.7:P:chapter-7",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 7",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 7",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/7.json",
+          "chapter_file_sha256": "86b6b75a551f5a46c38ea97e55ea42c486d1ed03b9b3f8e76d79de2beaef651e",
+          "section_id": "nav:jamieson-fausset-brown:SNG.7:P:chapter-7",
+          "source_entry_id": "sword:jfb:SNG.7.1-1:22:180919:2600",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "fd5cdd0f2948c8519b7f0cb340762e2d24db08f21871c13503bfc3130fe07404",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:SNG.8:P:chapter-8",
+        "navigation_id": "SNG.8:P:chapter-8",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 8",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "CHAPTER 8",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/jamieson-fausset-brown/SNG/8.json",
+          "chapter_file_sha256": "9c29ab44fc8cff3c6e361516572875f5750b0652d34f021cbeed68916422e8de",
+          "section_id": "nav:jamieson-fausset-brown:SNG.8:P:chapter-8",
+          "source_entry_id": "sword:jfb:SNG.8.1-1:22:199077:1245",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4d9012f96b6241d9b632a799789d66d9c0710da056965ee37c66ea12bf40f4f8",
+          "character_span": [
+            59,
+            95
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:SNG:P:the-song-of-solomon",
+        "navigation_id": "SNG:P:the-song-of-solomon",
+        "author_id": "keil-delitzsch",
+        "title": "The Song of Solomon",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "The Song of Solomon",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/1.json",
+          "chapter_file_sha256": "2193454c2303272b8ef867f538c4cf4b9b5acde5df3b2b264d2d75b32d6acb14",
+          "section_id": "nav:keil-delitzsch:SNG:P:the-song-of-solomon",
+          "source_entry_id": "sword:kd:SNG.1.1-1:23:144:50813",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "486290543385cd7bf789bd8a85851fb35ed6566d4f5cbc5071b1d8ff103f5dbe",
+          "character_span": [
+            33,
+            44357
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:SNG.1:P:exposition-of-the-song-of-songs",
+        "navigation_id": "SNG.1:P:exposition-of-the-song-of-songs",
+        "author_id": "keil-delitzsch",
+        "title": "EXPOSITION OF THE SONG OF SONGS.",
+        "role": "chapter_overview",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "EXPOSITION OF THE SONG OF SONGS.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/keil-delitzsch/SNG/1.json",
+          "chapter_file_sha256": "2193454c2303272b8ef867f538c4cf4b9b5acde5df3b2b264d2d75b32d6acb14",
+          "section_id": "nav:keil-delitzsch:SNG.1:P:exposition-of-the-song-of-songs",
+          "source_entry_id": "sword:kd:SNG.1.1-1:23:144:50813",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "08bab2a34785db1e0fbf81134b87a6f0220aceeec972fc676bb3c89a086c9ec7",
+          "character_span": [
+            44357,
+            44416
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:SNG:P:john-gill-book-introduction",
+        "navigation_id": "SNG:P:john-gill-book-introduction",
+        "author_id": "john-gill",
+        "title": "Introduction · Song of Solomon",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "SNG"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_source_title_or_book_chapter_heading",
+        "source_evidence": "Introduction · Song of Solomon",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-song-of-solomon-2026-11-08/authors/john-gill/SNG/1.json",
+          "chapter_file_sha256": "874b6253855ec160b6b1004aa1b4c100d7e56b9e8c482ccec3ad65d608315fa3",
+          "section_id": "nav:john-gill:SNG:P:john-gill-book-introduction",
+          "source_entry_id": null,
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "26220bbe2cc9862cefa17fdae546787fc228f0db13633fe764041b3afd1d658d",
+          "character_span": null
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Song of Solomon 8 chapters preserve exact original native SWORD/KJV verse keys and HelloAO anchors; no inferred neighbor ranges.",
+    "Matthew Henry and Jamieson-Fausset-Brown original wisdom/poetical group introductions are source-linked from the accepted Job and Genesis records.",
+    "Keil and Delitzsch original Song of Solomon introduction remains preserved in its original SWORD source record and separately reachable through P.",
+    "Original author opening prefaces are not presented as Song of Solomon 1:1 verse commentary.",
+    "P passage labels use only explicit source/title bounds or exact native SWORD record spans, never literary guesses.",
+    "Calvin Song of Solomon availability is determined from the supplied edition; no replacement historical prose is invented."
+  ]
+}
