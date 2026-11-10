@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.16-additive-isaiah",
+  "version": "navigation-coverage-v1.17-additive-jeremiah",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -27,7 +27,8 @@
     "PRO",
     "ECC",
     "SNG",
-    "ISA"
+    "ISA",
+    "JER"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -52,7 +53,8 @@
     "PRO": "structured-proverbs-2026-11-07",
     "ECC": "structured-ecclesiastes-2026-11-08",
     "SNG": "structured-song-of-solomon-2026-11-08",
-    "ISA": "structured-isaiah-2026-11-09"
+    "ISA": "structured-isaiah-2026-11-09",
+    "JER": "structured-jeremiah-2026-11-09"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -66,7 +68,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 4322,
+    "original_P_sections": 4692,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -91,7 +93,8 @@
       "PRO": 194,
       "ECC": 77,
       "SNG": 52,
-      "ISA": 423
+      "ISA": 423,
+      "JER": 370
     },
     "routed_by_book": {
       "GEN": 64,
@@ -116,10 +119,11 @@
       "PRO": 196,
       "ECC": 79,
       "SNG": 54,
-      "ISA": 424
+      "ISA": 424,
+      "JER": 371
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.15-additive-song-of-solomon",
+  "previous_manifest_version": "navigation-coverage-v1.16-additive-isaiah",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -184,6 +188,11 @@
     "JFB Prophetical Books original Genesis section now source-linked for Isaiah; held-unmapped evidence record remains untouched.",
     "Matthew Henry and Keil-Delitzsch original prophetic introductions and Keil-Delitzsch Isaiah 40-66 source are separately routed as P.",
     "Historical Calvin edition actual Isaiah availability and all source fallback states verified chapter by chapter; original author records untouched.",
-    "Prior twenty-two book snapshots, overlays, readers and source bytes are not repackaged. No Bible translation or player changes."
+    "Prior twenty-two book snapshots, overlays, readers and source bytes are not repackaged. No Bible translation or player changes.",
+    "Jeremiah (52 chapters, 1364 KJV verse coordinates) added from original SWORD/HelloAO author indexes.",
+    "JFB original Prophetical Books source-linked to Jeremiah from immutable Genesis source.",
+    "Keil-Delitzsch original long Jeremiah preface and Jeremiah 2-22 introduction are distinctly source-backed P sections.",
+    "HelloAO John Gill has no original Jeremiah 8:12 verse item; original missing verse is disclosed, not invented.",
+    "All earlier twenty-three book snapshots, overlays, and review readers remain untouched."
   ]
 }
