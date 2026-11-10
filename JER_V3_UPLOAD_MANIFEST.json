@@ -1,0 +1,1922 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "JER-v3-2026-11-09",
+  "book": "JER",
+  "book_name": "Jeremiah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-jeremiah-2026-11-09",
+  "baseline_main_commit": "1440fd1886ed342c98ea08df2ae06b885f2678be",
+  "baseline_navigation_manifest_git_blob": "fb701f0fb47e08d4258a58a025a1518a48d22e1b",
+  "baseline_navigation_sha256": "ae856208a0ad9c07d9858ec8de15ce11a3eb27b168a6d1cc3bd3837bbe7c60ce",
+  "prerequisites": [
+    {
+      "book": "ISA",
+      "snapshot": "structured-isaiah-2026-11-09",
+      "required_navigation_version": "navigation-coverage-v1.16-additive-isaiah",
+      "required_navigation_sha256": "ae856208a0ad9c07d9858ec8de15ce11a3eb27b168a6d1cc3bd3837bbe7c60ce",
+      "order": 1
+    }
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 368,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/JER.json",
+      "bytes": 523616,
+      "sha256": "2e1cea8a4d9511b64460a16a8c043adcc49b5ae3e78ab21f2fe68354cca9d83a"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 12172,
+      "sha256": "54370f9382e8d95da48035f0b5b99590dbfb784b8b39d0844eea7678da961838"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/1.json",
+      "bytes": 111201,
+      "sha256": "4f2fc3553a6f316f9206ade9a85445321a4a66a060f5ce0493fa6e2fa79302f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/10.json",
+      "bytes": 62993,
+      "sha256": "dab96ecbf5389810237d6c8880906438c0a7a72b3973e55be3b0d03dd42b1363"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/11.json",
+      "bytes": 37778,
+      "sha256": "3fb36c15fef7f057d6bb91aead342e2e1e68ba63c17345b51084849ae750974e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/12.json",
+      "bytes": 41935,
+      "sha256": "9d710397917a23ef1b0a747923ae20d589adcd914a80056673ba480bc55ac6fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/13.json",
+      "bytes": 46704,
+      "sha256": "7bf65b4d7395b9c922623e37b87c583c45359823df3947aab8aacc1ff71d0bbf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/14.json",
+      "bytes": 49326,
+      "sha256": "23edd8640560decbbe4b62c1140dd036cb3775150b0d08fbdcd4cd6239d57cab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/15.json",
+      "bytes": 44862,
+      "sha256": "8ebeb4c835e8a08ce3195ad90d821cbc7a2baf2025b34acfcd407023e61dd4b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/16.json",
+      "bytes": 31218,
+      "sha256": "d392a69541fae16c64803793339db0b4a44368dc6cc25840c81b22d156f41430"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/17.json",
+      "bytes": 54644,
+      "sha256": "9f763a642a0fdd1e65664078e0785f5a12e9951a8e460c11a4b06d13a7118cca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/18.json",
+      "bytes": 40377,
+      "sha256": "b206d4a8265911fe394d2f363214e54532f0740ced16ed56d85bc2233c7ab7b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/19.json",
+      "bytes": 19723,
+      "sha256": "6501204cfcdc51765aeb362c66c80b41d9615ca28eebc2df4678d9bc88f5feef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/2.json",
+      "bytes": 81678,
+      "sha256": "01b16a8f40882d23c1ff3a5ca0cea82dbe417c2a85e86eea9485bf5705f735f5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/20.json",
+      "bytes": 36387,
+      "sha256": "edfed3907103833483a57f991501783bb6ca74adb9471350404f8477b9f3164e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/21.json",
+      "bytes": 26856,
+      "sha256": "da020952565e0db021a22d31834788e17eedd1be4e5d898ebc5a7c3eed44fcce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/22.json",
+      "bytes": 46950,
+      "sha256": "7857ee719758a5094d444573ce4ddc77dd1363cb9d875a490d4fbfb1cc4c8fd0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/23.json",
+      "bytes": 76431,
+      "sha256": "dfbb8defdb0bc0352ee13be6f55c162602b59bf5fe01a98e7d2d103855ff3c47"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/24.json",
+      "bytes": 24130,
+      "sha256": "c8aff106f8f3feebd718b9bc3e345230fd57ba087eb30133b53575668ce3eaa7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/25.json",
+      "bytes": 48004,
+      "sha256": "db2cdbdaa5e2405616d2e143aba88be8bd25a7922dca802c8295b14f8a788dd6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/26.json",
+      "bytes": 25493,
+      "sha256": "710fbb1bd909691ed90c3ea9da8e39facf8ba8d4787bec213af88dd2bc3deb9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/27.json",
+      "bytes": 32996,
+      "sha256": "94550c25a19aca601211f97783c2425bb92cf12b8e7c2f48da7eddd39a800ba7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/28.json",
+      "bytes": 25928,
+      "sha256": "b6abb054cf9c7881c8747c6cef3ccbc75411cc38d8162630ccfb0362b9aa06b5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/29.json",
+      "bytes": 44558,
+      "sha256": "09104d693ece33631b6e8791822bc089a669546da1e523b1e806863fb0ead1a0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/3.json",
+      "bytes": 55706,
+      "sha256": "1220eeb765679383b74be3dc9a5d19a0bb1bd8f8435492d88529a525fa404a86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/30.json",
+      "bytes": 47895,
+      "sha256": "7a3245fba8fa41098448808a68e25bbab0cb7698b4d935d7bf4c3d652ce06da1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/31.json",
+      "bytes": 129331,
+      "sha256": "92bd4bdf453d956329243e6d52008258506b1d9728b50837834a022171fed275"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/32.json",
+      "bytes": 52752,
+      "sha256": "07c78195303c7d52011ebf2a60c07cb96dbb0dac40646adb8d35867ebbfe0cbf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/33.json",
+      "bytes": 43387,
+      "sha256": "eb2b6f08173b0a68d386e6152b109233ace90262ce27bafdb56a09a2fe14809a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/34.json",
+      "bytes": 37158,
+      "sha256": "847973de2bd164d0da0804fc94cbdebdc4952897f8af538b9f078ee31a49c202"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/35.json",
+      "bytes": 37153,
+      "sha256": "fe6ad7b400fa923f1d59b1fde3393588efe5f75a5f6cbb382c33dc3390188061"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/36.json",
+      "bytes": 42024,
+      "sha256": "105539ede43a8c3985238d4abdbfcef9d188eacebb227b357eabec93d159e751"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/37.json",
+      "bytes": 31732,
+      "sha256": "fc95896767dc4ef75987262f8d7dfb49dc4cc49a139a27efb3967dff84651b35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/38.json",
+      "bytes": 36422,
+      "sha256": "4585793effecfde9eeb034a358d3e1ed298bb6aa28af19426f70f06877efea88"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/39.json",
+      "bytes": 27717,
+      "sha256": "df2dc6601ec02f5f76725293a669d4c5107d40e309b288e2ec02fc1daa72a72f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/4.json",
+      "bytes": 55974,
+      "sha256": "c6d92d5a7c9a5bd8322b7a5aad6f3c71c1b2578650092be992d634ff54db0778"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/40.json",
+      "bytes": 23404,
+      "sha256": "679c692c50fd6eb6dd3dbc6a5ff4f98a9bdd455144edc307803c30e990b8f8d7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/41.json",
+      "bytes": 21090,
+      "sha256": "bc3a634d625e91c910625b4160f53e2f9b1acda87a068a686795a0c98a82df24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/42.json",
+      "bytes": 25432,
+      "sha256": "6db14051a89ae3df56806aaf0680204dfee0a6ed2f7f894d956857837bc54e57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/43.json",
+      "bytes": 23141,
+      "sha256": "5a83560a4a8c3cb17e8c5da557046041600f64ee5cbe813a42c76ea6d45de79f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/44.json",
+      "bytes": 31974,
+      "sha256": "1857c0db0394398a44d1079eff8cd49126c8e5e7755cc8b95bb5d7efa1b146f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/45.json",
+      "bytes": 18185,
+      "sha256": "44a56f778a72f1bff27cc14c92961185038108c503d955abdc8413e446e51add"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/46.json",
+      "bytes": 76600,
+      "sha256": "ca7398e6b5bd2f29376c8bc2e8dd0828fc1abeb3dc19aca8f62c148a3b1aa9f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/47.json",
+      "bytes": 23797,
+      "sha256": "1dda61916f025742ccde0793a5c625632e38992f890fd02d4de636f49809355c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/48.json",
+      "bytes": 68939,
+      "sha256": "f54796cd79a3cd2b23202cc8b552388ce4a300b4f2465a35b668465933e970d5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/49.json",
+      "bytes": 73615,
+      "sha256": "33ebb7b8164fb287b7b2a3e14c7bb2b245514507e7c5a8252aa56db0cc115990"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/5.json",
+      "bytes": 56980,
+      "sha256": "f9d63f931aea50415d07dc64a98336b924316b57f354f818cde80971a90f1042"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/50.json",
+      "bytes": 84474,
+      "sha256": "b856a7a2ac14fe44a87a93cbadd352a0265ce0c37a75c24aa4cb6d2d2f4e6fc3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/51.json",
+      "bytes": 101554,
+      "sha256": "ea08673c554ddb9a8e5228aa83a13ea0c4286510f7d00def7a68efd70f40a84d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/52.json",
+      "bytes": 56455,
+      "sha256": "34fce1aace287fd35b45a2fcfb2169e4509ed5612511d77f80d9405bab94e238"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/6.json",
+      "bytes": 49450,
+      "sha256": "74886f84d590dbbfb79638564d8e4ed98438a05734acece9e853d85b72864766"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/7.json",
+      "bytes": 47198,
+      "sha256": "5de77021d05e236d58125dd15bc79a3d64f9821507a560af984839a62c8c6dbd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/8.json",
+      "bytes": 44733,
+      "sha256": "701d3a843b7ec4cc5665f2d644fd9da8d08732c0cfe7fd1aed73e2ddd3761142"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/adam-clarke/JER/9.json",
+      "bytes": 54381,
+      "sha256": "b730377d4f9631ce989830b7718c3d8011fae58c818d96bbc6ee9e9380cee5a2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/1.json",
+      "bytes": 85323,
+      "sha256": "4fdecc2f16dfd2cc4a54ee6c6a767067180cbeb2bdb63493bd44ac37cbbed1bf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/10.json",
+      "bytes": 63259,
+      "sha256": "f3b498f932279d4bed1e7f4baade4b67c957c4e7d563dd041473c900db82a50f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/11.json",
+      "bytes": 48429,
+      "sha256": "6dd1cfb194d1957220a96546f24b252c1c8052b41edb71d48cd1925c6e1924eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/12.json",
+      "bytes": 44863,
+      "sha256": "d786905c05fbdc4e450a50b78682754fd4e403a379592b8e8a2b175d0b7c6fc3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/13.json",
+      "bytes": 55097,
+      "sha256": "e144547dca0b2e7c6755326906d65e5ec5769d0e3dac7cc45fc463569df8c2e4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/14.json",
+      "bytes": 49031,
+      "sha256": "b97bf447fe7d3dc284b852d4914ab23ca71537b8dd36e0e7db287b284746ffaa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/15.json",
+      "bytes": 63898,
+      "sha256": "0a5e96e0f4d71c22bead12b8542b4b10819fa08280413f69499564ac156fad0c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/16.json",
+      "bytes": 44033,
+      "sha256": "cb419d71561b713007fe1058a40cf3d79f1632867ab1e49321320950de18cfff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/17.json",
+      "bytes": 53406,
+      "sha256": "f7fca7a4dd5aed19b4c4f19ec6b985888607d74ca9bffe2556f97f611e78b36a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/18.json",
+      "bytes": 59932,
+      "sha256": "af21eb1488b21eb103c95558e2e64d9866decbaff2af07dd6c3241672c86d5bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/19.json",
+      "bytes": 36299,
+      "sha256": "1aebbae9142985256719b3f7640bc5404bdb4839e0d066b8ae7583a6f46b90d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/2.json",
+      "bytes": 113609,
+      "sha256": "076da97f39927e4e4d0fdfd81f05bc6fea75cc12598d259dfcfe6c3f99bea80f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/20.json",
+      "bytes": 41487,
+      "sha256": "1e7f1f714bfd140bb4e6274c2858c08b38034c5e1f54dce2441d85f4c0410be0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/21.json",
+      "bytes": 36636,
+      "sha256": "76c708caca271e58fb986dc869ad1548dd733d248f1462a6c8a2206aab2774a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/22.json",
+      "bytes": 82546,
+      "sha256": "65d0ebb962e3af552b825c9935fb46ede582ac6d75f3f7250f6bd00ffee6100d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/23.json",
+      "bytes": 94066,
+      "sha256": "1ed83d5a2615171887a77536092a89f0cf201e24b4023b9ef23fe8208c8d84dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/24.json",
+      "bytes": 20762,
+      "sha256": "d52457cfcbbe47e4fcb2761d86142441b0eaadd3f880c9d23c7090b932111d70"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/25.json",
+      "bytes": 83687,
+      "sha256": "f5adfffdb43fe0ef78f0886da51b54f6a304ef4b55249fcb2656fe384c58b966"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/26.json",
+      "bytes": 49744,
+      "sha256": "47a1a6160d2a4a926ff1620dbc7bd1aba2e76354a481047192a7bba6dcd721c0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/27.json",
+      "bytes": 44613,
+      "sha256": "1170cb44c403082e9cdecf2d4a4f2079602b67e6af8e26c6cc870d2582ca9b9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/28.json",
+      "bytes": 36901,
+      "sha256": "2c7198cdd1c90eb702de54a2c4ab0a4243c2f617acbb2b6b92794749abbb4ad6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/29.json",
+      "bytes": 48254,
+      "sha256": "c494115278fdf464b4e9ac8dcade329a866c5bc833affb3992df25569e7ab19b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/3.json",
+      "bytes": 69344,
+      "sha256": "f9345daf68261e49f4a2ce82fd876f2ee2233b3953e7eff102b4dc81a2af8905"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/30.json",
+      "bytes": 60892,
+      "sha256": "a429ec78730f4bf8e5cab06a8acef47251788e327537486f449fa0df214eb0ca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/31.json",
+      "bytes": 125771,
+      "sha256": "c4af680b108c3b32a51d7f7f75ee51257888385346092bb02ea054c1091e47b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/32.json",
+      "bytes": 87004,
+      "sha256": "11fb61b91af89936d65fba2af9bca447f24d17d6976fdb4830921e2c9bc70212"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/33.json",
+      "bytes": 52445,
+      "sha256": "c083c7d831cc4d0e1d836cfd36d6bddd45e144a42cdc5382d091627409044255"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/34.json",
+      "bytes": 35368,
+      "sha256": "420f97e5ff99ac866ec59542fb1d193f00ae9552a9d72d447ce37d4ab6dd6843"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/35.json",
+      "bytes": 34269,
+      "sha256": "0d63d8d4955a48badf6d507220892df29f8bcc027b65fffd716ef62a3d850092"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/36.json",
+      "bytes": 63303,
+      "sha256": "728e61023556c64a9a3b974dd5e41c7755b686b8b779f7069313a6f6cac92661"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/37.json",
+      "bytes": 43454,
+      "sha256": "d754902aa4d3299f02c018035dc7169061a261169a96f4209f5cf12bf212280e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/38.json",
+      "bytes": 55649,
+      "sha256": "d89eb3a68690090307f667d5480cc7afed623c4f482e10dc8a357c3404af1a19"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/39.json",
+      "bytes": 35974,
+      "sha256": "e057db64f6eb1a45f555096beb78a6a8a58824025fb5ba1139c7302a6d7ebbc2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/4.json",
+      "bytes": 66609,
+      "sha256": "59d702ecc191123ca1328253bbfbd4b8341472fcba8516909448b9ac6e7a855c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/40.json",
+      "bytes": 35670,
+      "sha256": "1567b949d5398a04b87442995d4efdba1498fb6b1892800ea6e0d7c34a8147cb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/41.json",
+      "bytes": 40139,
+      "sha256": "6e907d6e452554e34f619b5edfe5cb73bd983375081292d8a05f05007cbbb12a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/42.json",
+      "bytes": 43060,
+      "sha256": "5768388a87feb3bdad36dbbd9db4208791977331828b9fde4118c6601e7b8590"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/43.json",
+      "bytes": 27368,
+      "sha256": "c56c063002a4873cb86bbf5dc6d85f09b81150d90902bf7c370726bcd1013d44"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/44.json",
+      "bytes": 57522,
+      "sha256": "9bcb04ae1e3f25e5293ad22fdc8756bb16712158550b50ffa8394b633b00ed5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/45.json",
+      "bytes": 17715,
+      "sha256": "2a03206c53f248c0706aa864d6f7118b6c9206b94325e182d43d66852e61604a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/46.json",
+      "bytes": 38538,
+      "sha256": "6d820b14b2762458105c57674ca212632689d2cadcffc03739bb30746a72fde9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/47.json",
+      "bytes": 23172,
+      "sha256": "4fa2d2671501f7198607146a57169e9115267a4e6311ec3121137d40205d37ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/48.json",
+      "bytes": 108277,
+      "sha256": "98ba1855519c7bd06edb50718e1107a8debc24291118007e3f7c204001da1fb8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/49.json",
+      "bytes": 91440,
+      "sha256": "a554d11186ff053fb2b734886a44713573ad3f6c4970674df0ea16f83016e8e8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/5.json",
+      "bytes": 65516,
+      "sha256": "e3b74fe3651cd0d51a8f2f6500cf90d7bec4f462b50fd3c73a0dda6416a8cee8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/50.json",
+      "bytes": 95357,
+      "sha256": "8cfdca8c6d92047fa8ff5027aca9193253fa11c2194029a7f3cddf9ffa154247"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/51.json",
+      "bytes": 122469,
+      "sha256": "12e20587b3f6415639201499e15aad9bf7740a1ac51e864abe9a2df118232b6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/52.json",
+      "bytes": 59204,
+      "sha256": "f4c0359d267c402970236d78063425d94aa47a98642378e64f0289e4c55cb789"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/6.json",
+      "bytes": 70295,
+      "sha256": "a9d278867fb92cab4eb67c9ded5aeb8315e29f7c9e8413580af9ae5bfabbe982"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/7.json",
+      "bytes": 71109,
+      "sha256": "4d6eb9e652bfa1a71ea6e41597577e3ff0e9a04b3d041ab81ec9f9eb4cc3a36c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/8.json",
+      "bytes": 49197,
+      "sha256": "631e4be437900d3b35890fe8fac32bd2d09e59e14ed41c3b5d17533ef6629812"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/jamieson-fausset-brown/JER/9.json",
+      "bytes": 58310,
+      "sha256": "a4e14447af3d230468e6267bdcace69af3a84bdd0265e629407be1991f497108"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/1.json",
+      "bytes": 320685,
+      "sha256": "0b92df8703ffc4a6dacf3a77213dd5a0dbbf89fcc5fab958580c900759c82be0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/10.json",
+      "bytes": 521842,
+      "sha256": "fdfb1b992048532d3ac3a8684b7d5c9cc689172c3e60f35dd6f2e02ef5b7df92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/11.json",
+      "bytes": 400581,
+      "sha256": "db71e98551ef87ae0e8ec521f55902f52311861bc910f7f24c30a768ab0ffa7b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/12.json",
+      "bytes": 348771,
+      "sha256": "bc9803c5b49206773412140b0d1e91ecff9a4037b3f01df9468c58c068ac5de2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/13.json",
+      "bytes": 358558,
+      "sha256": "ae6acff2ea29bdb10db587c8ff6d801bde665b39f6a96c8903b0e980735bfdd4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/14.json",
+      "bytes": 381202,
+      "sha256": "8ac3b6a008106ccf6857b42c5ead9eb3f0d7fba469649d9280b9e465bdea2973"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/15.json",
+      "bytes": 453104,
+      "sha256": "351c927d6dd0a8680a384a59605637eae01cd06a1876f285f49ef9b3cc951765"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/16.json",
+      "bytes": 297268,
+      "sha256": "4450870c1f798a21f388d0837e4c540b7a63c74845b7a459103b74fb342d1f57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/17.json",
+      "bytes": 456904,
+      "sha256": "05efc45d5aed80d5b0a4d1a756ced1c3f81760eb976b810e535e77b0234d2551"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/18.json",
+      "bytes": 315929,
+      "sha256": "02595406d51377391fd2cef5463ade60fcab6780477b0f8d28746b15a00a797e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/19.json",
+      "bytes": 292902,
+      "sha256": "a33a362d4d4b0bd6e7a3db87e40acadfc6fbfc0f433321dcf04862f5299927c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/2.json",
+      "bytes": 706951,
+      "sha256": "71f8193dd2144bc24ec712306a2ab793723c2e1f520b9f281a465fee36c05ca6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/20.json",
+      "bytes": 319494,
+      "sha256": "a5056cf1ecd9f0a269dc35fec8527a9cf8fbc7ddacfc522159c0e01da68b7050"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/21.json",
+      "bytes": 189350,
+      "sha256": "d2598ca6636ec723485b285f302f09d37db37a32c64bc94453f024cc0b8e4e64"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/22.json",
+      "bytes": 464108,
+      "sha256": "054b407022c9083bcafb115c24bd831138094f0ebe15ab1b587fbd972a7b3de3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/23.json",
+      "bytes": 754559,
+      "sha256": "e2b40398651b9b83aa8d7f16617ab94cfb5be05075c4ccb64ac91b7eb7ee2522"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/24.json",
+      "bytes": 157272,
+      "sha256": "43b8ea2ea615bfcdbf70485947a046db04d893d3f0734187fa5347570925c03a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/25.json",
+      "bytes": 547363,
+      "sha256": "3d9183696261934feb17f039826f51e29a9645733fdf85d506d84d1ce9c0ed3f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/26.json",
+      "bytes": 353640,
+      "sha256": "99c4215a341d5484bed1d0353c4ba9290e7228779b9084204d7ea44cb7578214"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/27.json",
+      "bytes": 301412,
+      "sha256": "b986788e9611fa18bb72bfa8067717377fd37d74a073818bf7b390524a43d0d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/28.json",
+      "bytes": 223875,
+      "sha256": "43d3f139a1077cd3a75625a62c22c10c62ca3f2c73cf2fa16bf739a0c27cf0e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/29.json",
+      "bytes": 466023,
+      "sha256": "988fb1d5c817fab251a6436ea80348e24a45bff3d5ce7251b5646dd44fb4c758"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/3.json",
+      "bytes": 398548,
+      "sha256": "ca6ed170141af8d382d86254925b726126a9c60afc6fb36a6f1bb449cafd56ba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/30.json",
+      "bytes": 403110,
+      "sha256": "26abdf4f6f1756f89b0a0d52f6cb1c25389f4af63f3b098a68e8516ead6037ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/31.json",
+      "bytes": 801595,
+      "sha256": "ec4ecfe9f12174d3007876119e6b6c418a51792a2163b3733b7e586752a8c78c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/32.json",
+      "bytes": 613567,
+      "sha256": "5755665a9b0e56a6e5f17121fc7f27e6ebd6e1e1396b215c6166659273bd104e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/33.json",
+      "bytes": 335454,
+      "sha256": "daae0e4885837d40e9a7af4be8eccda064e810a9a073bd2b6d248ee02e9d4a3b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/34.json",
+      "bytes": 287631,
+      "sha256": "ad833d973a9cbc6a4b1acf46fb349afa3e33455b467f266f2204e70658d89848"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/35.json",
+      "bytes": 179862,
+      "sha256": "1dcd30a36b348199d1b6e5f5e7e6d5df09a8d73a945caf7bc5b17f76418a172a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/36.json",
+      "bytes": 306636,
+      "sha256": "19b08935ec954150d0b9ecc8abc1aea9bf74e03bcfc426ef85019e343ddf51a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/37.json",
+      "bytes": 197706,
+      "sha256": "6b18ba02ff94fc3e25107a7d8a4330421a38000394b73384e4e45dcd4c07ca5b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/38.json",
+      "bytes": 309922,
+      "sha256": "5b3b297045f061fbb01d3cb3cd5578ced81fb0e863e6dbc7ab73b1c687e3a013"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/39.json",
+      "bytes": 167615,
+      "sha256": "29fa12c1b7fe8ea79830d172e7012680d40bd679292296c3833fbe326fa126a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/4.json",
+      "bytes": 466963,
+      "sha256": "d707b0d380f6872dbb73cb199a797691f658cbc23907253a6944cc027739ed9a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/40.json",
+      "bytes": 156812,
+      "sha256": "68334a0790f5f2f3d9eab9dd2e69d0ea7543cdfce93070f077647381e60c47f5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/41.json",
+      "bytes": 155684,
+      "sha256": "1caf2fd64810d9127bc2300a752acafa35c84413b5914b02eddc23b53384e439"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/42.json",
+      "bytes": 220067,
+      "sha256": "3c9fbde1db094cd003e18a1fe9e8e9502955b73d8461f42fbcbb045b9199b927"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/43.json",
+      "bytes": 144156,
+      "sha256": "cc91b799c13c733d4310eb0d87af4b043b274a7f81635e81fc4c8c697c1a27f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/44.json",
+      "bytes": 358831,
+      "sha256": "f4778011ee634de40f6271c7b0ae4e6ee1c3a327e543988c0060743c480b7d43"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/45.json",
+      "bytes": 58207,
+      "sha256": "741bd3dd300d755cb948c0781046a4052bd013df08378bb6f1ac2f62800693d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/46.json",
+      "bytes": 312519,
+      "sha256": "1eea918c67a1fb155c898a0d10a39cf83862d72e48debd4fad5cbc5544672571"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/47.json",
+      "bytes": 104169,
+      "sha256": "08f83188fd38d831ce860a390cf26c59713dfb8777906cfddd114551718031a0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/48.json",
+      "bytes": 437883,
+      "sha256": "1708e149af3cc177f1d4bf243db4b2165dc950ab73539e542804003483b11d7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/49.json",
+      "bytes": 549290,
+      "sha256": "4cdd7229c2d039837eea454065d73f79bafa50a9b967e5f8f3ad2d2e13044b17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/5.json",
+      "bytes": 524094,
+      "sha256": "fd3b44608ef009712f8dd8a6c5ad13dc19ff0b5126e387c06f3dc1d82bcd3c25"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/50.json",
+      "bytes": 620594,
+      "sha256": "55b37841d37e73f85b5a638edd73c2e793ce55b73936d12ab147d9789116c674"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/51.json",
+      "bytes": 894597,
+      "sha256": "ace357fcbc6a876d9695ef14e473552989e66ac261f85e83420f923a30ded927"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/52.json",
+      "bytes": 1131,
+      "sha256": "7c113de66d8af4a7b8dc04da394feea146f41e2a96868b3ab086acb8b638b201"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/6.json",
+      "bytes": 435996,
+      "sha256": "f553782cefe04b0176c96cfe2783b6d63bb37ac13dbd0ba3e4e61691d16a73c0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/7.json",
+      "bytes": 474991,
+      "sha256": "8a618b80eb085a96e28307454f71766cc02efbf0c9d937c446aeb4550c52821f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/8.json",
+      "bytes": 332310,
+      "sha256": "9d523b27cc53e8b9d5c75e8ae71b580edd909b242c19b3b08da31923c8914ced"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-calvin/JER/9.json",
+      "bytes": 546204,
+      "sha256": "62b563f4464af2da69b13dd67ac737f2f5e62c3af86f28ab8125ffbf561e0ff8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/1.json",
+      "bytes": 94827,
+      "sha256": "453115665593247d4f2f985d21a9acea86dfbd3b073e424664b824391a283190"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/10.json",
+      "bytes": 158900,
+      "sha256": "9823946520010ad76121cd95d7e5ecacfe42775784a4347392f403e3d347c9f7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/11.json",
+      "bytes": 134786,
+      "sha256": "4240053888d77b3e205ef26eec226fd8663724963054e4afd2d8ccdcbde79a01"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/12.json",
+      "bytes": 125660,
+      "sha256": "c8a77554ba95d581dd4270dcb6615919aebbb766fca64b77330a7f2956747c38"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/13.json",
+      "bytes": 174658,
+      "sha256": "152ae35308cf1f1fb7345cded6def5b38afa6351720030a30e03d9711c273ca0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/14.json",
+      "bytes": 145771,
+      "sha256": "a76724c4cfdefcdd94a1778ffed8c406397d4b2671e8c40a2e5161bcb19001a6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/15.json",
+      "bytes": 152468,
+      "sha256": "d8c056984b03611d81e5ea9d8ebdc324cd66e6da457b1ec40de803f3705dac27"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/16.json",
+      "bytes": 138340,
+      "sha256": "f93c9bc3396c97ee9af47e2e71ec8d8056c72e2a18afc34a6350373bef52e1f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/17.json",
+      "bytes": 235410,
+      "sha256": "6e3cc7ca8fdbdee6edfaa73a146f05d456dfc3ffc39f5eceffc1ea094fabd286"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/18.json",
+      "bytes": 151934,
+      "sha256": "62098c9b2453021be6a1d3710cb93b1fc2fe5c87b53127a6f4b42c2506f42c9a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/19.json",
+      "bytes": 89750,
+      "sha256": "c9bcbd5431f7d58843048f003dd634e41c7075df89ecd33bbca079a2c3c6ae93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/2.json",
+      "bytes": 279553,
+      "sha256": "33126275c6f4ebfe35658b5f7ed5e69e87d7e7a0c3045c4ade023cc27d9bc77f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/20.json",
+      "bytes": 129899,
+      "sha256": "c1f82cb72d1a3c27f7a818f125145758dcfbc0551f9dcc755728d99fd0b4f263"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/21.json",
+      "bytes": 81123,
+      "sha256": "5f31372bdc6bfceb318a44f55f58f8488a5c58e7e19989833b77c88fd7207886"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/22.json",
+      "bytes": 186023,
+      "sha256": "152d1361979ac61c40da2cce515277dcb83e1ef7f2a3569c67bce26cae536795"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/23.json",
+      "bytes": 309701,
+      "sha256": "1eb16d440c187fc32a48dc2520c23cbdf61c53a0b6bbe01a5aa68b3fe2643959"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/24.json",
+      "bytes": 71023,
+      "sha256": "2da31a561e81c0b653462f0fbc9e3e6ed099b0996c70c9c9204c7936296304da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/25.json",
+      "bytes": 191151,
+      "sha256": "a97f20981adca0d1d6cf700fea2ccb7c5a6d193581f87f4a089593799a53b06f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/26.json",
+      "bytes": 120405,
+      "sha256": "0aea268f58d13f762267c946a00d8e45c0178ae0e71ffc73bdd8ff9fe2afd3e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/27.json",
+      "bytes": 103351,
+      "sha256": "47372d0f4a023d6bafa7360072d0dda3301f43e4543ad5a62c3d8aaf511bb704"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/28.json",
+      "bytes": 84756,
+      "sha256": "0bbae3740b219b01541d12e9926e07018cb4506b88602d4bee179c8c741d3a53"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/29.json",
+      "bytes": 173449,
+      "sha256": "7c538af2e8f0ad650b901d37ac30bf0c34598b3d87b0405c7d4ac7644559f0db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/3.json",
+      "bytes": 205049,
+      "sha256": "af06485385764d81e38fb592b79fad967c6de4af1e9584e59d14a49de4829dc7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/30.json",
+      "bytes": 162229,
+      "sha256": "aa1f5833cd811e3e329ac54abc251a041c570c8fddb9b701b6aa3fa39c17cbe1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/31.json",
+      "bytes": 387469,
+      "sha256": "0a5a68fcee49e2a544add1f0446af2ceef4aac855dd821dad0b9864fa3a6a963"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/32.json",
+      "bytes": 266241,
+      "sha256": "0b26ada02287f83d36067acc8db1aa54c7d6b43a9a8959923227f8404f901a3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/33.json",
+      "bytes": 186767,
+      "sha256": "2369ecfbf86544a07720acbc23e9be8ac733e9720442a48a964f5b73bd9c3cdf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/34.json",
+      "bytes": 140031,
+      "sha256": "99cb3dcfff3e37af54a6fba17b71b35ae997c8351644d908da62177674f32e57"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/35.json",
+      "bytes": 106814,
+      "sha256": "1c6fa92cd8b8b01df1bc762126f52d9823fed4e7c0745ed03adac8af776f0912"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/36.json",
+      "bytes": 178977,
+      "sha256": "31dfb156607d6521455ae140723d6a610c2daa2eb9cd3c171f191abacce34f1d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/37.json",
+      "bytes": 105492,
+      "sha256": "811afff4101ce02240a4f54c47cc3bb36443a507191ded3d9bb34b3cc0ec97c7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/38.json",
+      "bytes": 169873,
+      "sha256": "1d7c947cd6dbc29624582bfca88b54407188e8496ae770e6dfb3d3a3d7f75ed2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/39.json",
+      "bytes": 104063,
+      "sha256": "9be7786d57e58936da17860a357da05f884bad4a1ffb4079a6c46a53059d96b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/4.json",
+      "bytes": 222911,
+      "sha256": "7e452590307939d6c8bf24da11955110e59ec41e7a55ed8adbf77af879c491cb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/40.json",
+      "bytes": 109545,
+      "sha256": "609707b061560b91e3339aad9c5fa64042fe9099facdca8f75007428a9e88af3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/41.json",
+      "bytes": 106859,
+      "sha256": "cef7dde29c33f2924deab53e78759578c9f31b78cf230475b28b1433f60eb6e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/42.json",
+      "bytes": 113443,
+      "sha256": "0405551fb1530fba48b716bffef1f8f38b197fdb1002334dc677857e3900485f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/43.json",
+      "bytes": 88244,
+      "sha256": "65301c82e3206539badbc118a5f5bc3a3dc9741e0a71279bc1696149a8f809d9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/44.json",
+      "bytes": 167843,
+      "sha256": "4a82bee959b0dbc1780e496dfa92d5b1e07c216dfa72db66da98a8d204f2a562"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/45.json",
+      "bytes": 30698,
+      "sha256": "612dd110429682421493ba51bf6a09aadab6f726cc41275a0021338454c99bb4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/46.json",
+      "bytes": 207121,
+      "sha256": "798a4a2d9bb9c753dbd3d7ad6e0dd0256d5bad5eca1bb3bcc6867ab77353bdaa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/47.json",
+      "bytes": 40990,
+      "sha256": "11542c842fa19a532c745921f29e8cebc16317e54f62c75d061bf4e3160fad78"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/48.json",
+      "bytes": 262346,
+      "sha256": "8ca3df664eaad91c768657b35c5584f3643737dff9bafdda210f0ce425f651be"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/49.json",
+      "bytes": 261242,
+      "sha256": "dd327ee3a2e85902b4e7030e3d02791be7f56571d7dc8b5d0c0e0758634a41d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/5.json",
+      "bytes": 190887,
+      "sha256": "7b3041411409fa1b56a254b0f494787db8f1d0d950134d77e8ffdfe7d5bd236d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/50.json",
+      "bytes": 283431,
+      "sha256": "437495f3ae4d7cc8a0adafa7da6456c57102af31d823fa34d72d1b0e94a0adc7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/51.json",
+      "bytes": 372737,
+      "sha256": "59f83a685c50f74228d370ab0ba18ec8aaa12d53175d8bb75824b5c565065e7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/52.json",
+      "bytes": 148899,
+      "sha256": "17a5dd70d7e1a2c1f27fa11c9b30e68d31deeb877d838d79ae395fc942e971da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/6.json",
+      "bytes": 199060,
+      "sha256": "e7831363b5e463f985b1ff5f47d0a7fa4e1013455943212dd511fc1605ceac97"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/7.json",
+      "bytes": 185588,
+      "sha256": "3b95d3b14e1f1d93b6b572f20c2f26a88ead37599e0fc156e5d937de0772c656"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/8.json",
+      "bytes": 129153,
+      "sha256": "5d5f1e15eff7680462ef32cbefe4ec69bcff1b4961c7e7cd9e8807675b4bb2d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/john-gill/JER/9.json",
+      "bytes": 155364,
+      "sha256": "728f45c37640a61011f38e7c481a014262e398717158649bbc47cccdf057e149"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/1.json",
+      "bytes": 445845,
+      "sha256": "91d3f7e3578c677cd93194d3eb733ddfd8bf1d88b2e5b6ddd639fb983130b3b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/10.json",
+      "bytes": 138299,
+      "sha256": "2dc89675e0d43bca5a241f5182ba00ff0477d0030f98e828881a39fe01dc1067"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/11.json",
+      "bytes": 60360,
+      "sha256": "0c45879d09495f47e1f28db0189dcf683f163aef9823870ea56ef271698e6e29"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/12.json",
+      "bytes": 80801,
+      "sha256": "85bf9a97b9998be0804341e00da663d336e77c19b7c056f8ad1fe1c76c986084"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/13.json",
+      "bytes": 106123,
+      "sha256": "30ab42814d3c24b7c631f1015fdaf7d63f8f71c058e0832dbaa27e52ec969751"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/14.json",
+      "bytes": 85375,
+      "sha256": "6ab4f7d184144001e333032f4e97df9ba914f1307ced8cc0a9f8c13589efaa46"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/15.json",
+      "bytes": 82452,
+      "sha256": "674681e61587a2ded925d25fa4b1f38cfdd0134cef3ff767109f7c7f7ec2dc23"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/16.json",
+      "bytes": 69420,
+      "sha256": "de9b6c7a73baa1d15052f62ad422b65a234cd3d5a51f47f49f3a3616c664d6d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/17.json",
+      "bytes": 127065,
+      "sha256": "633bf5e32470f3b0019f6292154748c8ab16bc836606f3428be09fdca2233034"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/18.json",
+      "bytes": 104538,
+      "sha256": "df0cd02f6d88042ffeab17a064f7e16a6bbed204b98a652e064641156f00b40e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/19.json",
+      "bytes": 28862,
+      "sha256": "124fa388bec2c7ce47bfb6e46167a1bfde42ae378ad9e903fb97aa0459a82902"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/2.json",
+      "bytes": 206888,
+      "sha256": "5924f1924602a3e24f5e8dd2a0980fb8bcd0bcd758a655d9aff2bd51776a202f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/20.json",
+      "bytes": 59437,
+      "sha256": "a80cf8abe10ddad60dd680189fbdc6335a2b7991ec559640432715cfb72c0384"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/21.json",
+      "bytes": 68703,
+      "sha256": "8c11b97b49836f67132e80401c000e53c668ea1e63272b9c2852572b7fe0f723"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/22.json",
+      "bytes": 119965,
+      "sha256": "2f1ce4db82954e4b96087617625f492bc3ae270f09d57c84c182731fd943e8cc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/23.json",
+      "bytes": 161884,
+      "sha256": "5d426db2dae8da174fe615ce9aaa98a61a587ed1758750b09494ea41af80cbf3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/24.json",
+      "bytes": 27263,
+      "sha256": "374c08192ede7e2fda0f776d9c695c44dec45507b8955d512711aa8d63582330"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/25.json",
+      "bytes": 175603,
+      "sha256": "80b42fe944e480da03bf86298175009e5fa37ee4259919d9afe12b56e99e5100"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/26.json",
+      "bytes": 53036,
+      "sha256": "a302b91d3d3fcdbac17cb5c8387957b1c928465c4de14f5d8ed2df150a0dae59"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/27.json",
+      "bytes": 67527,
+      "sha256": "f35db589a912e18f7a267d27116993458171c779833634429360ac9677085b24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/28.json",
+      "bytes": 29038,
+      "sha256": "0d1c42386e57d03e38427aeab6b6311303b4d7f37bfbdea5b0a455e7e3989f83"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/29.json",
+      "bytes": 94794,
+      "sha256": "c52faac4b6b301d2b9d3e96901a9d3ae8c01420643801d197198b568401d971a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/3.json",
+      "bytes": 181338,
+      "sha256": "70521a70f26221362b1e655e0b4a13d939525a40fb6ab8e370f700501e400fd6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/30.json",
+      "bytes": 92488,
+      "sha256": "96495bae44fd8f956526475389a42757816ed2a6f61065032cc6ba6666facd6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/31.json",
+      "bytes": 179697,
+      "sha256": "bc5d64ebfd075fb4d7db47da82bbaf4a00a4cdde1d390c0abf31b91f04c15465"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/32.json",
+      "bytes": 107803,
+      "sha256": "9d9b7f0a8780d66d58dc34280ab9257415a173c29cad92050ca650e6b003a1b5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/33.json",
+      "bytes": 124893,
+      "sha256": "a3667e59e641493f164e052f9bd3258f548a3d3677c9fe44a9ad362614b42854"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/34.json",
+      "bytes": 77978,
+      "sha256": "cbf83a4a7dd8dedc9c0e219a0adcb0c1527e208b971c0fa49be038f6d377737c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/35.json",
+      "bytes": 25798,
+      "sha256": "e09e2cffc29fb9c21ec837df87dc6df5f9bb39e15d4b9fcf1410bf747f46b36f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/36.json",
+      "bytes": 52246,
+      "sha256": "a703d7341a834b0fc6a1c73fcf10af16169064236d6252d267868efba3b9cde7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/37.json",
+      "bytes": 43300,
+      "sha256": "83bcc73ff2ea5cbba1b20480a4fa0c2878d8375251be34f0dde4b71dd40e5c48"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/38.json",
+      "bytes": 66904,
+      "sha256": "5a6301d6c2030a3521e10037e55ee6ddaf0533f2aae8b3f5ed6f9ca5fc90789c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/39.json",
+      "bytes": 77440,
+      "sha256": "bfbe52bdf63940cd6b456583c42a14a59491691844dd736ceb4f0809371a9d1a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/4.json",
+      "bytes": 32393,
+      "sha256": "128a774aa7721b1684769b6bfc067310818ab594846b335f7fb3fbeaf2b60246"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/40.json",
+      "bytes": 47259,
+      "sha256": "76e4890f45001988e466376c2077b996854b5721ef16638d0500cc6d66329278"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/41.json",
+      "bytes": 79220,
+      "sha256": "9064753b9d55622f670971ef3a2c9cc304e340a7d47c4492649d2a68da723f46"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/42.json",
+      "bytes": 46564,
+      "sha256": "71701f7a0f816c0cfecdb4d8ebe5c3da11c7723477694f2f35a00d0dbe6a624c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/43.json",
+      "bytes": 84039,
+      "sha256": "9cf86db99c63413000a820ac4626b5685a0f6c4461cac7a87d5c2cd302dcf4ba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/44.json",
+      "bytes": 99106,
+      "sha256": "8a072dec738160247371542ba1bb3b56d453faf3db74148598ace065877ea3f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/45.json",
+      "bytes": 54569,
+      "sha256": "db46aa2d73f33e436e0c4abe92f2087c95765a6bc8916d5f802a787dbd1129af"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/46.json",
+      "bytes": 136842,
+      "sha256": "3041575c3f55362f474fbb2e089296107f65b44c8b5e34dd70961cc92665a2a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/47.json",
+      "bytes": 102858,
+      "sha256": "351a0f00064859a854f4abc8cddd919ad08606882748ed04e5dce69abfdb7c6e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/48.json",
+      "bytes": 179843,
+      "sha256": "91fbb747fdf928f3c6d5fc11122f602e0dd6060dbae0b4d15ab38bd4a0cb9fcc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/49.json",
+      "bytes": 80192,
+      "sha256": "c6db84e905b2b758c61ca716ff7f0289241561c3dff5f4e8dd9174843609ed2c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/5.json",
+      "bytes": 125322,
+      "sha256": "a6d0820e68df5faeca2ee43ce22ecd3da1906215220d05831b680be647ac6f51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/50.json",
+      "bytes": 128324,
+      "sha256": "d41b1aad93c8f9ac9de67e279b3e209e6e6d2047b9910d0f6d170a81400f3357"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/51.json",
+      "bytes": 257771,
+      "sha256": "802d889f340a93a2b28ec8828e688484d65fb6237d6cf35b6ba399ad76afab34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/52.json",
+      "bytes": 64414,
+      "sha256": "b535e7461e1a18f9ac492d4f391f98976d902aa68180fc22309a6ed482be44e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/6.json",
+      "bytes": 159378,
+      "sha256": "2a49de7de5350d624344a3e6379f68fbb716d8e91091c531ee3fe6629719a6fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/7.json",
+      "bytes": 103838,
+      "sha256": "ca06bdb35d8a64dc74c467f6020e180eb9217aa7d93a5ee495dc442acf7efe4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/8.json",
+      "bytes": 82776,
+      "sha256": "b47ec3973edc6265a6215cb48a544514614c52720d5a484714e347edd25c813f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/keil-delitzsch/JER/9.json",
+      "bytes": 100037,
+      "sha256": "1e86debe685db10ee818d10ef3ab4dd373cbb58784372a7b48714a03f3b5e62a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/1.json",
+      "bytes": 133259,
+      "sha256": "753baf609fa42eedac434fa9bb02d2f03d5e3f3d3b6b32ec376f61310f9971ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/10.json",
+      "bytes": 164963,
+      "sha256": "d118ae598630f39b06ca62d60a3b3167c0ae0d75722e8c331945d0ed74df9f67"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/11.json",
+      "bytes": 131976,
+      "sha256": "0bd62a253cd81eae7441a473291ac28823fdfe949611a58dfad581d007d553a2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/12.json",
+      "bytes": 140117,
+      "sha256": "eecb9740eca15cfe5d78c51506a79d3a587535b55a3d3a447c79fe5d13d32e72"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/13.json",
+      "bytes": 133215,
+      "sha256": "cb4485a9dca0b452f8e6eb10206ce7621e228f6238b08935df2daf06624b4b4e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/14.json",
+      "bytes": 143968,
+      "sha256": "a2c2e079980681b8c07ba022a4f5ae87f82eb0a387d9f8c6dcc21f4ce536cf87"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/15.json",
+      "bytes": 161947,
+      "sha256": "cc8b7cafffc294505d76c0256eeb9358d7c3142340dc17d5939a911782f1911f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/16.json",
+      "bytes": 129245,
+      "sha256": "5ae2eb9a5626772731da981fc4c49494a345833ce96554950e32ec67699397ae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/17.json",
+      "bytes": 168612,
+      "sha256": "302a6cb8fc83d99753b62bef11a83588a93e7d602e41a16046683c41b18fe0ef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/18.json",
+      "bytes": 132547,
+      "sha256": "e664f808f7eb2d12b4e9e5ea1450c8075e283ca6ba5bccf276a67bdeffe9df5e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/19.json",
+      "bytes": 89632,
+      "sha256": "078762605b8a739a2521f5d79ad92fc0590e2b99813492ffeb24b6adb4f64485"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/2.json",
+      "bytes": 248839,
+      "sha256": "2d741923a0a9546c073af99cdbfef7c2e07045eb00717090662914a482224ec1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/20.json",
+      "bytes": 146776,
+      "sha256": "e8027468365d812064effa22ae797be12a5f2ae9ede7ab018a0fdb53b63892a0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/21.json",
+      "bytes": 83439,
+      "sha256": "15474e8105def30af73b719cabeea2f96fcf71e10b0f07d9b17a555516ccdc4b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/22.json",
+      "bytes": 146965,
+      "sha256": "9271a53ec35961ff0bac7edbc31e93420e264bf97810442d978c7a90f43f202a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/23.json",
+      "bytes": 192849,
+      "sha256": "422b6ecb409f2697f7e161a05a0e255e9439759a25cf11247cf643fad1e9967b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/24.json",
+      "bytes": 76584,
+      "sha256": "bc083c6dff0088752a1201e691842a61b1ea014472d10bc4c26b2806e12eae4d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/25.json",
+      "bytes": 154545,
+      "sha256": "b854af1693854ad1905d170220dcb084d4e20c05af50a3603b2b10a47b1c83f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/26.json",
+      "bytes": 109263,
+      "sha256": "fbeb667875d2f87b267f713a3eb15c6fb9c0c4e02f3498fe8e04493b6389a7fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/27.json",
+      "bytes": 98552,
+      "sha256": "dd4f03ec7eef95e39836d3f13f7f014327011801589eac3dcd6cd59e1bb1e8c0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/28.json",
+      "bytes": 67180,
+      "sha256": "e38ede5839a1710d56a8770e9643431978650248c1f883c623ffdd6142daa685"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/29.json",
+      "bytes": 147287,
+      "sha256": "1197050b8ecd4f3d06a548032efcaed6ddb73b0e133fa0288faf9e6931bf3912"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/3.json",
+      "bytes": 179773,
+      "sha256": "fa95c28d8ee76e84fbb3c320e389848de0673c1037bdfeb0a7c0e4fbb10a953b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/30.json",
+      "bytes": 124845,
+      "sha256": "a87c28c1846f3b0a2b05401825661853fd2f65a87b42a2711e874d5f926912d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/31.json",
+      "bytes": 241596,
+      "sha256": "0015532b427a9fe4217b2e5b01151060a58bc12022257a3488a0327d483b1791"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/32.json",
+      "bytes": 171915,
+      "sha256": "2c08cda3eaed0eefe6bf009afc093212e2830c6ba91f282d78ace1648265168e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/33.json",
+      "bytes": 133142,
+      "sha256": "c92e03a513b419cbac0498014b2ba4a281dfeb7962bf5d40cd921329c6dc83e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/34.json",
+      "bytes": 84817,
+      "sha256": "fce9f2ec54a4ca12fdffe19eadff7ada96f5b558bf0213d3ac92192dd4710f92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/35.json",
+      "bytes": 89457,
+      "sha256": "7e022da4166fb90ee55325b2bdce77826a8289de384b0c82e0a9bbfa312c649d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/36.json",
+      "bytes": 109615,
+      "sha256": "76b4f8690494694221e1cc25d7b7a3c9497fc61e10abc0c774053d0916ef82e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/37.json",
+      "bytes": 87996,
+      "sha256": "b96c4e3441b6d1532c4a9f1c6449f80a59ada667220cd28235e58be706978271"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/38.json",
+      "bytes": 111059,
+      "sha256": "9d9dd36161bf0c081344d91c75fdb39b09ce28a98530872ae3c713308e3ec28b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/39.json",
+      "bytes": 72002,
+      "sha256": "1f2621257c0003d1a10fb3d87d58ca9acd022f9313691ad51c917ef6be919931"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/4.json",
+      "bytes": 176043,
+      "sha256": "690f65290d4b610e196c1c3c66aad6b546f8f35ca09e2caa69ba7cc37e07d155"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/40.json",
+      "bytes": 78701,
+      "sha256": "379f4bca18f5f7c95ef20304b72f6f1ccbf5306a99f3b614be3aa71a7dbc4119"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/41.json",
+      "bytes": 79591,
+      "sha256": "e98ff14045d0b32a52fc5efe84e4479d2614dccfb0905d7364eaf30852700b22"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/42.json",
+      "bytes": 85184,
+      "sha256": "e406a04469e3e1c365e3607b62b95d0235a05aa8952d6da9551d2b538899250b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/43.json",
+      "bytes": 64372,
+      "sha256": "aa7e5a1da464302b7fb7fae77a77e223df553a950af1aaa157ac98d587a37fdb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/44.json",
+      "bytes": 131223,
+      "sha256": "975d8cb36fbe8a55c2a3cac43845ec9b555abe67665362746d8136bd67da16a2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/45.json",
+      "bytes": 41250,
+      "sha256": "cd993a56d19f68a5aeced746c4f2ce4e8bb1606988fab578f45939ea2c7fc319"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/46.json",
+      "bytes": 102605,
+      "sha256": "6ba241db4a1a6705492300558a53cdb58a280db914cd897aa3f26d899d5d0362"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/47.json",
+      "bytes": 41690,
+      "sha256": "c09395a40f72ad10d9850c2fadaeea45c0140c127308e6659e9500e5b9c26bd3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/48.json",
+      "bytes": 137035,
+      "sha256": "5558a39b8f88abccd5257f75a07ff1e496ce3f37dc1f0daefff07629b3f8b3e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/49.json",
+      "bytes": 144947,
+      "sha256": "262c40aa14d5104582129e663cd5cb61b04ddde905922ba667b5b63deb4b1f78"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/5.json",
+      "bytes": 173579,
+      "sha256": "a8326de15c748cc201709e4ddf369adf64e08cbc89c98fae5aad29bd684388e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/50.json",
+      "bytes": 169948,
+      "sha256": "a4b6156b17f00cf05c20afa28ae77d8e9ccf228cd14410138aeb0384b0d9379b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/51.json",
+      "bytes": 215596,
+      "sha256": "4f474ec0f336cdee8280b93f99aad0c25d95cd9330182d65149973d7fe6eb873"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/52.json",
+      "bytes": 96070,
+      "sha256": "eb85f89ac03cadb953f755731baede1d3702d38bdde09304a7357b2723b59be5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/6.json",
+      "bytes": 162691,
+      "sha256": "1b8483c0ca64922be35f72b4b2a5fdbffc6d063b8f3a4db6243da5e58ef4e30d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/7.json",
+      "bytes": 190830,
+      "sha256": "606b648f415ee692ea3ca7367d0dd6e616cbae2d0a3bafeed260dccfd4173c4f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/8.json",
+      "bytes": 133200,
+      "sha256": "85858ff2afacaaf859c6c91c590d113a1720ba2a280a4698ff9ce3a358dbac71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/authors/matthew-henry/JER/9.json",
+      "bytes": 168215,
+      "sha256": "bc1a8584ea3ea0007ef5001e854d9ffd24bace80b81268757917805f338ef751"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/1.json",
+      "bytes": 11902,
+      "sha256": "12b199e394363f42c211c2fd8a366e5d793d610c5dbdb9e02f1c61411b1a9fa7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/10.json",
+      "bytes": 11496,
+      "sha256": "d1ac21909255a0312de4e26aa72db6333a1dcb93bbddcf7b4d06cd1b0840be8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/11.json",
+      "bytes": 10886,
+      "sha256": "de8ab4ad7adbcccf2436ef53c4b6253a53ec024b51da229797338c6e991bab0e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/12.json",
+      "bytes": 9444,
+      "sha256": "bf2bdff01f73f721332563f2d52fd36da9f41f9a603cd94c7129d805b9606b6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/13.json",
+      "bytes": 11487,
+      "sha256": "b6d39704c6aa8517b7838e54787cebbb4f88f155704b7aa2f02f0f44ab00c737"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/14.json",
+      "bytes": 10821,
+      "sha256": "37ca07731fdfc14ddccfbe1d0afe9cd25f85c5dfe01c522141e3c640749aafcb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/15.json",
+      "bytes": 10810,
+      "sha256": "78fd715faec9e94797ff5847211654bf8bc4068d5e8e136ee937318a1dc55905"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/16.json",
+      "bytes": 10294,
+      "sha256": "04aeac7c56c7466a973b19ed354e78b212b1d6e7950f317bff3ffda4681de477"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/17.json",
+      "bytes": 12500,
+      "sha256": "6f11c603290ee63ae0df4967ae3439d726ccb9f6a9e71b1d92417a92edbbed3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/18.json",
+      "bytes": 10771,
+      "sha256": "61c84d0639adb921fbd0205354db9825ad7330c2ae4abc855d76377c998a17af"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/19.json",
+      "bytes": 8461,
+      "sha256": "73b8e5b78541ebe1a59749be2bcae5fcaef0e1db8eb78f4d10b16d3e5677b75a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/2.json",
+      "bytes": 16604,
+      "sha256": "2b470f8de625434da13e613241c9c104cc7b9fdd724316104d9173d9b5089d34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/20.json",
+      "bytes": 9756,
+      "sha256": "d04d19167e23e134d3a0a5772d9e6b97d3aae31407600574863bdf98a5965edd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/21.json",
+      "bytes": 8132,
+      "sha256": "444fc3db537d7a4aeba7cd4987754264f8bfa3c50e203856faff4e86711cbbc1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/22.json",
+      "bytes": 12820,
+      "sha256": "018d4acb17fcb0bcf9eafacda4e1084aa1e2606d86eaedcb9a532b4b3cf30d9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/23.json",
+      "bytes": 15486,
+      "sha256": "7e25732d5f4ac51b54a9db95282d1746585b5f13dd684d2475cdcdd647bfa39d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/24.json",
+      "bytes": 6716,
+      "sha256": "3bf8bc7855832569033b76bcc6b98a653c4560bb3db37e60a5805f51e2f3088d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/25.json",
+      "bytes": 15019,
+      "sha256": "670f95c66948763a26aaee087e4e7a7a90e6e7d4eab10ab54e765cc8d8d0ad4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/26.json",
+      "bytes": 10947,
+      "sha256": "2495f3bc534398363d1c047204c1bb4a90f68505af9ef4b66bd6e62d102445d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/27.json",
+      "bytes": 10162,
+      "sha256": "0ff64d8fd6f4bb14f0c868dd9edf6111d07b6934a9b6d92f931ee6a3ba9b25e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/28.json",
+      "bytes": 8936,
+      "sha256": "b819846e323cc243621d08cb56b07a4cf86d8f0402d13bfe1b80f27b5a625913"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/29.json",
+      "bytes": 13304,
+      "sha256": "778f803ed5b7d64d3326b1219cd4f6b5ec5c7ab560205661b6d3d2eae797f88c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/3.json",
+      "bytes": 12756,
+      "sha256": "4b8878f89365ff625d624ab653cce44a8e27210acea7b0ab1eb205d867cdbca9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/30.json",
+      "bytes": 11983,
+      "sha256": "390c1b5c9884c69c62cd76b7180e78df82f9fc6f2c7c33e16254acda287ba3b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/31.json",
+      "bytes": 16421,
+      "sha256": "0dd77447d39848bab693123f3fb8f59b0e2db6a53cd67a33ead3ac2345cdd5ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/32.json",
+      "bytes": 16100,
+      "sha256": "03810979942c994d8044945da194da1d05dbbde2a8ccf4752fce1f3897542308"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/33.json",
+      "bytes": 11571,
+      "sha256": "9553c3f6176678772c4848794b7514928ff5ebfaa94afd339d2e2456cdb9a587"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/34.json",
+      "bytes": 9912,
+      "sha256": "d08920b9333708f97e9db10a2b5970f5ea0e2f87b6c2df6c552cf4713537737f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/35.json",
+      "bytes": 8892,
+      "sha256": "d914779a5487f82e4a6b17949b0b750bb36a0a85721b3e55cee9ef71e26584b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/36.json",
+      "bytes": 12813,
+      "sha256": "1180427d83db7f3dc293d3385e98e28085715d13a0b811372c009ffe3ecb4ae7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/37.json",
+      "bytes": 10170,
+      "sha256": "d1efbcc1bf7af3fd2951f1e4c2300ddae994a0793cffdbaa84e9a8c816bb3f37"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/38.json",
+      "bytes": 11881,
+      "sha256": "97e650b49124d89a47a203e2d9f424bc4d2abd82db7ec39920e7a9b7dca63dd8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/39.json",
+      "bytes": 9032,
+      "sha256": "0cd7aaca05d0b0f6df206ca734f8f615bff310f8a83888bef6a37e7eee5b4849"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/4.json",
+      "bytes": 13545,
+      "sha256": "e260197a66d0b13753930812c2df87b7781541f9bb1cf3801b0b648650685fa2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/40.json",
+      "bytes": 8535,
+      "sha256": "b496e89e65eaabc7ef1f12c843a31ba2194123d726434a821d5fb6183bfe5abc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/41.json",
+      "bytes": 9011,
+      "sha256": "d0aea6848c5043b66e7df18d2f7907bfffd3118a0cc238b36fe9514d64f02a75"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/42.json",
+      "bytes": 10221,
+      "sha256": "40bb78d657ed5c0aa8ec120895afb0b7436118e9df2c1fdf26ac16323151994c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/43.json",
+      "bytes": 7811,
+      "sha256": "28509b0084b922083db1c0ef2a7a3acbbcc988db0a97d64dcf6bd2874b4ece18"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/44.json",
+      "bytes": 12152,
+      "sha256": "21497a464214de74be8b424349ea3e7ca36216ff44d26262fbb476f6e8bdc08d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/45.json",
+      "bytes": 5237,
+      "sha256": "100037c7dca4defc7ae36c05bfadec6596d9dbec6e7178599cb733279c029cfb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/46.json",
+      "bytes": 12333,
+      "sha256": "cf9f5ed81b9d21b38eeb0c6e66d320d42c1c6dcdfa32f04741b2edcbfede4340"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/47.json",
+      "bytes": 5973,
+      "sha256": "3ce42c884615409b38cc4ac260da5c58481732de777e6a378009b27bc4eb227d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/48.json",
+      "bytes": 16558,
+      "sha256": "bc553322e4215995e16eb54b5405e2b8926956c3611b5bb2056b8c5e58eabf44"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/49.json",
+      "bytes": 16052,
+      "sha256": "6eb56f536f37467b8b216f7e6b22fb962877bc78e601c69758b77801092bce3c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/5.json",
+      "bytes": 14033,
+      "sha256": "45a28ba3ec852ff557b48fbe04537d1fca120448068b7df2723c933d466a3d71"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/50.json",
+      "bytes": 17770,
+      "sha256": "5f1df55891ecdfb104dc003758dc341b7d6d4661a74a4ef130471e43d0de60b0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/51.json",
+      "bytes": 21317,
+      "sha256": "7fede249fed05a0f468d82c5d86efa951b39fedfb14a1a75fb95947e54a428ed"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/52.json",
+      "bytes": 12007,
+      "sha256": "eb63b411ee499adec10e5f8c6fcc788720b5292db5850ff6c1e09b9363cd34bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/6.json",
+      "bytes": 12825,
+      "sha256": "db3856a5fd0a51371f73c7a772c09745392a8c63d478d5e2e68d9990ef52deaf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/7.json",
+      "bytes": 13848,
+      "sha256": "9e9116f0dc0d277b59ec7a79f5f82c3da6f223960b01aabd0d1873a20e4c20ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/8.json",
+      "bytes": 10667,
+      "sha256": "6fc8547820bf94df1edc2474bd52e1e313af972ce1cf94de3eb86bd9bc4d8fcd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/index/JER/9.json",
+      "bytes": 11615,
+      "sha256": "09d75356251b6b0b3d970f841e88cafdc3161a1230460c8846bfd98ae18e54da"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jeremiah-2026-11-09/manifest.json",
+      "bytes": 2422,
+      "sha256": "692fcbe828e7d219b48c74696e69ac0c7376b1b0c8d73789afc69f073b84fe06"
+    },
+    {
+      "path": "review-jeremiah-v3.html",
+      "bytes": 14543,
+      "sha256": "a18040696fb1aade9e9d4ab7698a9273ff51a0668f81805c75b0501df1ce117e"
+    }
+  ],
+  "qa": {
+    "source_archive_SHA_and_CRC": "PASS",
+    "original_SWORD_native_index_verses": "PASS",
+    "independent_source_assertions": 72346,
+    "reader_syntax_navigation": "PASS",
+    "reader_checks": 23682,
+    "cumulative_manifest_predecessor_sha256": "ae856208a0ad9c07d9858ec8de15ce11a3eb27b168a6d1cc3bd3837bbe7c60ce",
+    "expected_root_file_count": 369,
+    "planned_upload_batches": 4,
+    "previous_23_book_files_repacked": 0,
+    "existing_path_changes": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "live_browser_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 52,
+    "verse_coordinates": 1364,
+    "author_chapter_records": 312,
+    "source_entries": 5233,
+    "original_P_sections": 370,
+    "total_routed_P_sections": 371,
+    "inherited_source_links": 1,
+    "assertions_total": 72346,
+    "source_archive_count": 6,
+    "baseline_main_commit": "1440fd1886ed342c98ea08df2ae06b885f2678be"
+  },
+  "release_scope": {
+    "added_book": "JER",
+    "previous_23_books_unchanged": true,
+    "new_paths": 368,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "original_source_P_sections": 370,
+    "source_linked_inherited_prefaces": 1,
+    "player_and_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Original publicly cataloged historical authors, five original CrossWire/SWORD module texts and native binary verse indexes (module license notices preserved), original HelloAO Gill and whole-missing-SWORD-chapter fallback only. No translation text, no unsourced commentary.",
+  "explicit_unavailable_states": [
+    "John Gill Jeremiah 8:12 is absent in supplied original HelloAO; preserve verse coordinate without commentary",
+    "John Calvin Jeremiah 52 entirely unavailable in supplied SWORD and HelloAO; no replacement by other authors"
+  ],
+  "safeguards": [
+    "Do not upload until GitHub main and navigation manifest have been reconfirmed; reconcile later changes.",
+    "Upload one individual repository-root path at a time or in numbered browser batches; ZIPs are transport containers, not GitHub repository items.",
+    "Upload cumulative navigation manifest LAST after every index and source record exists.",
+    "P introduction text is original non-Scripture; no verse zero or invented scope.",
+    "No automatic deployment or CGBC production/player integration."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING"
+}
