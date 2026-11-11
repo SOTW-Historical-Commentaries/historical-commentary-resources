@@ -1,0 +1,277 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-jonah-2026-11-11",
+  "book": "JON",
+  "book_name": "Jonah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-jonah-2026-11-11",
+  "baseline_main_commit": "394ae6a603f277e07092f2f425ebeaeaa52ed6ec",
+  "baseline_navigation_manifest_git_blob": "67fc52844aa0be8624f689ed37176de1845c85c7",
+  "baseline_navigation_sha256": "cfc5bb93ba665942bad35640fb7e9fe95bdafbb9533bc410bfb556810601c49b",
+  "prerequisites": [
+    "OBA"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 32,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/JON.json",
+      "bytes": 44516,
+      "sha256": "7b91fe683de7d322a04745b220b09c447f96e66997388c316ed07174b07c75fe",
+      "git_blob_sha": "921325ad352dfde41f01e0cc36c1a6c961b379c1"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 16590,
+      "sha256": "c2efccce26d0f27c2241744b6903a8551fcadd060fdc8d011b107d8f75171919",
+      "git_blob_sha": "6547d3182706230d078776c72a80fd7bd4ab114d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/1.json",
+      "bytes": 80465,
+      "sha256": "2bdb031efa3a890d1c0de1fb15e87ada17189389dc86c5cc338332249602d9cd",
+      "git_blob_sha": "bab9a419bc525477f33f432b20fab3d499e492b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/2.json",
+      "bytes": 33737,
+      "sha256": "51f02d25b2f292c691aab4b63e1b7d96b4c5450506f2236fb83bd8a19f5c06f3",
+      "git_blob_sha": "b39fc2dbbe6e3848edc8aca1a896045e3d60fbea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/3.json",
+      "bytes": 33093,
+      "sha256": "03a2df3fccd84b61a54b8eac91501e5217070968eeae0b23b951258f1b026c2c",
+      "git_blob_sha": "69786c6da683479a3d8b242e69896a82e4b85ed2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/4.json",
+      "bytes": 55857,
+      "sha256": "eb15e1d664b24275b5ebbe79bfd1f22d81e7ad9be330b4abe594f1589aebe7c4",
+      "git_blob_sha": "ac9223b1b2e1fbb40ac34f487262c97470f0a87f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/1.json",
+      "bytes": 88888,
+      "sha256": "0d9a5cedb649a8410c630080d1b33d64650c3b389970b801cd8301e25a0f3c76",
+      "git_blob_sha": "f42a2426cc4588358f18fd38996626cdcc25623a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/2.json",
+      "bytes": 33801,
+      "sha256": "f1d08a191bfd54d75bdc4430f55999e0c431fe62df8cb54850918dc3d261347c",
+      "git_blob_sha": "20e5003c0f0c0e22f170d0a3368460388cb0469f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/3.json",
+      "bytes": 52499,
+      "sha256": "d38a6647fceeb70dcc64e262c26f5b9f5014b112424b1b2518caf5c86e49124b",
+      "git_blob_sha": "a7192bcb24dfc252fa2c72d0dd002a2924e7d605"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/4.json",
+      "bytes": 48072,
+      "sha256": "e5e7acfda556d57869925db24595ab06286df2d0901ec7bd17f31207028c7b61",
+      "git_blob_sha": "5e8bc8bbac63b0fa6026b1497b5d826b35671ba0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-calvin/JON/1.json",
+      "bytes": 431095,
+      "sha256": "ad53e760aae9450e0541b250b9e30190c8da3bc0d84181e35a52b1a77279b471",
+      "git_blob_sha": "eb070801a4e5a6b434fe6c7455348faaed582fcb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-calvin/JON/2.json",
+      "bytes": 148869,
+      "sha256": "51f9ca84a4c4c44d6d12316dc98ea985da748d0367ef4c91f3c3c43a08fa861b",
+      "git_blob_sha": "5ab6092441378ae5c90081c02806d4612a3fa96d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-calvin/JON/3.json",
+      "bytes": 208222,
+      "sha256": "7e29016eea5a9bf2846b0dbe8bab7b1ea58ed8d30bd3dfdbad228540590d0f10",
+      "git_blob_sha": "2cd0677ac4be29ebf81b789833a065b40cd408ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-calvin/JON/4.json",
+      "bytes": 224564,
+      "sha256": "b2b3056e547aaa88a4783a5753c0514030431d9a32f3a0175332e1cbd82a1650",
+      "git_blob_sha": "05fce348a9f398e526c0f29ad205678b4433eb4d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-gill/JON/1.json",
+      "bytes": 180779,
+      "sha256": "5e8c14b20f7d762cc07b301243ab7aca5f73ffb64e9b29183946bba8d3a46229",
+      "git_blob_sha": "bef3188b9aae89cc814cafc0f16b701065264338"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-gill/JON/2.json",
+      "bytes": 86597,
+      "sha256": "6422370beea3b188c11e266dc778dccfdf432dd27601475b40dd528fa6bf377f",
+      "git_blob_sha": "7398e8472c31e995ca90c4b4de6efc8dbc11fe86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-gill/JON/3.json",
+      "bytes": 82589,
+      "sha256": "f8decfdd8c17c86138badd2b36c23a359ccf491f6f7456dc1d4d1ad75fc08de2",
+      "git_blob_sha": "4c3d55b89a1e03213bca2af99e505647743144c7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-gill/JON/4.json",
+      "bytes": 132680,
+      "sha256": "3f7edbeb4f39bffffa15b7cd492e79ea817349e9ea9db97a000e3a5e634e47f5",
+      "git_blob_sha": "e24454938439a57fd76ca21d2f8b7d5b39ac346f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/keil-delitzsch/JON/1.json",
+      "bytes": 200743,
+      "sha256": "0ba9212a09fa81ae9d75bf9999128748be0f6309554e4c40cb8f16afaf07ddcd",
+      "git_blob_sha": "fe9dc3a9036d72e87505c495cf227ff4fa7c12a1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/keil-delitzsch/JON/2.json",
+      "bytes": 50860,
+      "sha256": "a54e64c50477dc03a30a14e087a0461ef3f846a888c8c86a303fb1554ddb364b",
+      "git_blob_sha": "eadc809b8ea9695206d5fdbe072ead05895401b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/keil-delitzsch/JON/3.json",
+      "bytes": 50124,
+      "sha256": "f67424575cb9c9c97e152b07dc1a719adb134457b4fbbef7d2cdabf6a44cd61f",
+      "git_blob_sha": "bf93bf953e905928514ec82e11fee21d281b8d8a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/keil-delitzsch/JON/4.json",
+      "bytes": 60922,
+      "sha256": "f8ce59802b730fb735bd921320678b2ed723aac356f26c3558588027f89fac99",
+      "git_blob_sha": "1a2f7c541ddbd3c9e487ffb88644ca1669a61cf7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/1.json",
+      "bytes": 175100,
+      "sha256": "92acc0aa0201d5a2d6c90142ed1e49c536442ce4207dfb818121d60b615b408f",
+      "git_blob_sha": "4818e811a59a227aa5ad167b7a7ed800be28d6f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/2.json",
+      "bytes": 96237,
+      "sha256": "8512d3748b4ad22a42e47bd971e9afe0f5b067c15dd250aea74010ae00bc5d30",
+      "git_blob_sha": "c9bf23212597b2956ea2170e75defa70b98ea339"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/3.json",
+      "bytes": 109706,
+      "sha256": "e9ce42a2ef17fae6405cf6497e23a9fde39463df20d25786e8804c6d73db6dbb",
+      "git_blob_sha": "e288166d6a2eb7f96b9117b3c5e05a076992004a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/4.json",
+      "bytes": 106868,
+      "sha256": "3230ae009876fe8a25a762c8c978d25553529917e75c0171e58bc91d52778708",
+      "git_blob_sha": "cafe6e9717ef1b60dbaa3570021288b8ed48d1f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/index/JON/1.json",
+      "bytes": 11080,
+      "sha256": "7754817ab0bcb02185143e823b39308bd638186d77b87fb2e8fa18f390bcd944",
+      "git_blob_sha": "ce40c1ce01f4e267fd936d86a632bee274c2a09d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/index/JON/2.json",
+      "bytes": 7234,
+      "sha256": "28555e95944c50267dea2bf4c97e7f34e87d9a43f1bde91afeed859c1cd55a48",
+      "git_blob_sha": "e190874f87b930a8de214127024ce7ebfb5c84eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/index/JON/3.json",
+      "bytes": 7298,
+      "sha256": "d4353c4001bf39f0268c15bcadcc26e71ecdd4f9556b150373142768db74095f",
+      "git_blob_sha": "6f38c2eb4e0207c87c8cb28e4c4a477946957eca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/index/JON/4.json",
+      "bytes": 7720,
+      "sha256": "f498db400327556bb5855d38ea33a228990cef17017d834d5af967924ce9627e",
+      "git_blob_sha": "81d75794a985fe02964f3c2e089562014642309a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-jonah-2026-11-11/manifest.json",
+      "bytes": 1688,
+      "sha256": "3ab31fb0c2fb22587fda051839e0988484307954a41fdd3cd81265fbf2dfe835",
+      "git_blob_sha": "17a8e000aca179312ca918455423026756d26776"
+    },
+    {
+      "path": "review-jonah-v3.html",
+      "bytes": 14366,
+      "sha256": "ea955802f0317e84dd52d3615a25304f306eff70fc788341335501ee2d15c80d",
+      "git_blob_sha": "c266233f0d99af29c286c3106148293ce73f2bc1"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": "PASS",
+    "source_assertions_total": 4335,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 3568,
+    "predecessor_navigation_sha256": "PASS",
+    "release_files_total": 33,
+    "batch_counts": [
+      32,
+      1
+    ],
+    "previous_31_books_repacked": false,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0
+  },
+  "counts": {
+    "chapters": 4,
+    "verse_coordinates": 48,
+    "author_chapters": 24,
+    "original_entries": 217,
+    "original_P_sections": 29,
+    "routed_P_sections": 30,
+    "inherited_source_links": 1,
+    "source_backed_verse_author_links": 284,
+    "source_archive_count": 6,
+    "baseline_main_commit": "394ae6a603f277e07092f2f425ebeaeaa52ed6ec"
+  },
+  "release_scope": {
+    "added_book": "JON",
+    "previous_31_books_unchanged": true,
+    "new_paths": 32,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "original_P_sections": 29,
+    "inherited_P_sections": 1,
+    "total_routed_P_sections": 30,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Original six SHA-locked archives: five CrossWire/SWORD module Public Domain declarations plus original HelloAO John Gill. Original historical author/work/edition, source OSIS/HelloAO text, native range keys, source hashes, digital edition notices and attribution retained. No Bible translation is bundled; digital licenses are source assertions, not a universal legal warranty.",
+  "source_scoped_exceptions": [
+    "Clarke original SWORD verse slots absent at Jonah 1:10, 1:15, 3:7; no neighboring verse or other edition substituted.",
+    "JFB original SWORD Jonah 3:1 verse slot is absent, although the original JFB heading explicitly covers Jonah 3:1-10; the P chapter/passage heading is offered separately and does not establish verse-1 exposition.",
+    "Matthew Henry original paragraph groups follow exact native shared verse record boundaries, not 48 independently written verse entries.",
+    "Original Matthew Henry general Jonah book opening and chapter-marker introductions for chapters 2-4 are P material.",
+    "Original Clarke source-marked introductions for chapters 1-4 are P; verse-one commentary begins at the original explicit Verse 1 label.",
+    "Original JFB title-scoped book introduction, four chapter headings and source-printed chapter passage overviews are P; actual verse records remain original.",
+    "Original Keil & Delitzsch Jonah book introduction and Mission of Jonah chapter overview are P; Jonah 1:1-2 actual exposition preserved in verse mode.",
+    "Original John Gill HelloAO explicit verse anchors present for all 48 verse coordinates; one original book introduction is referenced only once.",
+    "The earlier Genesis-hosted JFB Prophetical Books introduction is pointed to by immutable accepted original source path, span and hash; no original source text recopied.",
+    "Historical commentaries may hold differing chronological, philological and historical claims; no SOTW theological verdict or silent modernization imposed."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Before uploading, compare live GitHub main commit and cumulative navigation manifest blob/sha against pinned baseline; reconcile drift, never overwrite newer work.",
+    "Extract Batch 01 and upload all new repository-root files; then extract Batch 02 and replace ONLY cumulative navigation manifest last.",
+    "Verify all 33 files against SHA-256 manifest, ensure Pages deployment for final upload commit, then visually inspect verse/P behavior across chapters.",
+    "Do not edit previous 31 book snapshots, author catalog, schemas, workflows, CGBC project files or any existing reader."
+  ]
+}

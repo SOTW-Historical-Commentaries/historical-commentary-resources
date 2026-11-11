@@ -1,0 +1,367 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-jonah-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "JON",
+  "chapter": 2,
+  "canonical_chapter": "JON.2",
+  "versification": "KJV",
+  "verse_count": 10,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Jonah\" sID=\"gen23424\" type=\"book\"/> <milestone n=\"THE BOOK OF JONAH\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE BOOK OF JONAH</title> <div sID=\"gen23425\" type=\"x-p\"/><div eID=\"gen23425\" type=\"x-p\"/> ",
+      "source_record_sha256": "fb4c27bd2c80ee2ab8caacdd9c474deb5a45accebd3c595fd29b22fa44236daf",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 0,
+        "length": 304
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"2\" osisID=\"Jonah.2\" sID=\"Jonah.2\"/><div eID=\"gen23467\" type=\"x-p\"/> ",
+      "source_record_sha256": "f9090f7a7b59602161a644a67a2bc213e6bc4f3d1f4058d60f50b34c8561df2b",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 25841,
+        "length": 80
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:JON.2.1-1:32:25921:906",
+      "passage_start": "JON.2.1",
+      "passage_end": "JON.2.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12686\"/><title type=\"x-s2\">CHAPTER 2</title> <title type=\"x-s3\"><reference osisRef=\"Jonah.2.1-Jonah.2.10\">Jon 2:1-10</reference>. Jonah's Prayer of Faith and Deliverance.</title> <div sID=\"gen23468\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12686\"/><hi type=\"bold\">1. his God--</hi>\"his\" still, though Jonah had fled from Him. Faith enables Jonah now to feel this; just as the returning prodigal says of the Father, from whom he had wandered, \"I will arise and go to my Father\" (<reference osisRef=\"Luke.15.18\">Lu 15:18</reference>).<div eID=\"gen23468\" type=\"x-p\"/> <div sID=\"gen23469\" type=\"x-p\"/><hi type=\"bold\">out of the fish's belly--</hi>Every place may serve as an oratory. No place is amiss for prayer. Others translate, \"when (delivered) out of the fish's belly.\" English Version is better. <div eID=\"gen23469\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 2 Jon 2:1-10 . Jonah's Prayer of Faith and Deliverance. 1. his God-- \"his\" still, though Jonah had fled from Him. Faith enables Jonah now to feel this; just as the returning prodigal says of the Father, from whom he had wandered, \"I will arise and go to my Father\" ( Lu 15:18 ). out of the fish's belly-- Every place may serve as an oratory. No place is amiss for prayer. Others translate, \"when (delivered) out of the fish's belly.\" English Version is better.",
+      "source_record_sha256": "650a9d843cfedb5188bbaa1732a0ae87db5402b9fe8365cfeeb4efe155deb9f3",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 25921,
+        "length": 906
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. his God-- \"his\" still, though Jonah had fled from Him. Faith enables Jonah now to feel this; just as the returning prodigal says of the Father, from whom he had wandered, \"I will arise and go to my Father\" ( Lu 15:18 ). out of the fish's belly-- Every place may serve as an oratory. No place is amiss for prayer. Others translate, \"when (delivered) out of the fish's belly.\" English Version is better.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "JFB original preverse milestone closes heading before verse commentary",
+      "reader_source_character_span": [
+        323,
+        906
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. his God--</hi>\"his\" still, though Jonah had fled from Him. Faith enables Jonah now to feel this; just as the returning prodigal says of the Father, from whom he had wandered, \"I will arise and go to my Father\" (<reference osisRef=\"Luke.15.18\">Lu 15:18</reference>).<div eID=\"gen23468\" type=\"x-p\"/> <div sID=\"gen23469\" type=\"x-p\"/><hi type=\"bold\">out of the fish's belly--</hi>Every place may serve as an oratory. No place is amiss for prayer. Others translate, \"when (delivered) out of the fish's belly.\" English Version is better. <div eID=\"gen23469\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.2-2:32:26827:1750",
+      "passage_start": "JON.2.2",
+      "passage_end": "JON.2.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12687\"/><div sID=\"gen23470\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12687\"/>2. His prayer is partly descriptive and precatory, partly eucharistical. Jonah incorporates with his own language inspired utterances familiar to the Church long before in <reference osisRef=\"Jonah.2.2\">Jon 2:2</reference>, <reference osisRef=\"Ps.120.1\">Psa 120:1</reference>; in <reference osisRef=\"Jonah.2.3\">Jon 2:3</reference>, <reference osisRef=\"Ps.42.7\">Psa 42:7</reference>; in <reference osisRef=\"Jonah.2.4\">Jon 2:4</reference>, <reference osisRef=\"Ps.31.22\">Psa 31:22</reference>; in <reference osisRef=\"Jonah.2.5\">Jon 2:5</reference>, <reference osisRef=\"Ps.69.1\">Psa 69:1</reference>; in <reference osisRef=\"Jonah.2.7\">Jon 2:7</reference>, <reference osisRef=\"Ps.142.3\">Psa 142:3</reference>; <reference osisRef=\"Ps.18.6\">18:6</reference>; in <reference osisRef=\"Jonah.2.8\">Jon 2:8</reference>, <reference osisRef=\"Ps.31.6\">Psa 31:6</reference>; in <reference osisRef=\"Jonah.2.9\">Jon 2:9</reference>, <reference osisRef=\"Ps.116.17\">Psa 116:17</reference>, <reference osisRef=\"Ps.116.18\">18</reference>, and 3:8. Jonah, an inspired man, thus attests both the antiquity and inspiration of the Psalms. It marks the spirit of faith, that Jonah identifies himself with the saints of old, appropriating their experiences as recorded in the Word of God (<reference osisRef=\"Ps.119.50\">Psa 119:50</reference>). Affliction opens up the mine of Scripture, before seen only on the surface.<div eID=\"gen23470\" type=\"x-p\"/> <div sID=\"gen23471\" type=\"x-p\"/><hi type=\"bold\">out of the belly of hell--</hi>Sheol, the unseen world, which the belly of the fish resembled. <div eID=\"gen23471\" type=\"x-p\"/>",
+      "content_plain": "2. His prayer is partly descriptive and precatory, partly eucharistical. Jonah incorporates with his own language inspired utterances familiar to the Church long before in Jon 2:2 , Psa 120:1 ; in Jon 2:3 , Psa 42:7 ; in Jon 2:4 , Psa 31:22 ; in Jon 2:5 , Psa 69:1 ; in Jon 2:7 , Psa 142:3 ; 18:6 ; in Jon 2:8 , Psa 31:6 ; in Jon 2:9 , Psa 116:17 , 18 , and 3:8. Jonah, an inspired man, thus attests both the antiquity and inspiration of the Psalms. It marks the spirit of faith, that Jonah identifies himself with the saints of old, appropriating their experiences as recorded in the Word of God ( Psa 119:50 ). Affliction opens up the mine of Scripture, before seen only on the surface. out of the belly of hell-- Sheol, the unseen world, which the belly of the fish resembled.",
+      "source_record_sha256": "f4511589a838f173dc9f9962dd70543a494f87e349c2364d3ad3c177907145b8",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 26827,
+        "length": 1750
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. His prayer is partly descriptive and precatory, partly eucharistical. Jonah incorporates with his own language inspired utterances familiar to the Church long before in Jon 2:2 , Psa 120:1 ; in Jon 2:3 , Psa 42:7 ; in Jon 2:4 , Psa 31:22 ; in Jon 2:5 , Psa 69:1 ; in Jon 2:7 , Psa 142:3 ; 18:6 ; in Jon 2:8 , Psa 31:6 ; in Jon 2:9 , Psa 116:17 , 18 , and 3:8. Jonah, an inspired man, thus attests both the antiquity and inspiration of the Psalms. It marks the spirit of faith, that Jonah identifies himself with the saints of old, appropriating their experiences as recorded in the Word of God ( Psa 119:50 ). Affliction opens up the mine of Scripture, before seen only on the surface. out of the belly of hell-- Sheol, the unseen world, which the belly of the fish resembled."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.3-3:32:28577:572",
+      "passage_start": "JON.2.3",
+      "passage_end": "JON.2.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12688\"/><div sID=\"gen23472\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12688\"/><hi type=\"bold\">3. thou hadst cast ... thy billows ... thy waves--</hi>Jonah recognizes the source whence his sufferings came. It was no mere chance, but the hand of God which sent them. Compare Job's similar recognition of God's hand in calamities, <reference osisRef=\"Job.1.21\">Job 1:21</reference>; 2:10; and David's, <reference osisRef=\"2Sam.16.5-2Sam.16.11\">2Sa 16:5-11</reference>. <div eID=\"gen23472\" type=\"x-p\"/>",
+      "content_plain": "3. thou hadst cast ... thy billows ... thy waves-- Jonah recognizes the source whence his sufferings came. It was no mere chance, but the hand of God which sent them. Compare Job's similar recognition of God's hand in calamities, Job 1:21 ; 2:10; and David's, 2Sa 16:5-11 .",
+      "source_record_sha256": "6c9c1a8439548eea03804cf0b6ae5ab7b987ced571dcad1e4ef63fa8cf10441e",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 28577,
+        "length": 572
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. thou hadst cast ... thy billows ... thy waves-- Jonah recognizes the source whence his sufferings came. It was no mere chance, but the hand of God which sent them. Compare Job's similar recognition of God's hand in calamities, Job 1:21 ; 2:10; and David's, 2Sa 16:5-11 ."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.4-4:32:29149:1217",
+      "passage_start": "JON.2.4",
+      "passage_end": "JON.2.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12689\"/><div sID=\"gen23473\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12689\"/><hi type=\"bold\">4. cast out from thy sight--</hi>that is, from Thy favorable regard. A just retribution on one who had fled \"from the presence of the Lord\" (<reference osisRef=\"Jonah.1.3\">Jon 1:3</reference>). Now that he has got his desire, he feels it to be his bitterest sorrow to be deprived of God's presence, which once he regarded as a burden, and from which he desired to escape. He had turned his back on God; so God turned His back on him, making his sin his punishment.<div eID=\"gen23473\" type=\"x-p\"/> <div sID=\"gen23474\" type=\"x-p\"/><hi type=\"bold\">toward thy holy temple--</hi>In the confidence of faith he anticipates yet to see the temple at Jerusalem, the appointed place of worship (<reference osisRef=\"1Kgs.8.38\">1Ki 8:38</reference>), and there to render thanksgiving [Henderson]. Rather, I think, \"Though cast out of Thy sight, I will still with the eye of faith once more look in prayer towards Thy temple at Jerusalem, whither, as Thy earthly throne, Thou hast desired Thy worshippers to direct their prayers.\" <div eID=\"gen23474\" type=\"x-p\"/>",
+      "content_plain": "4. cast out from thy sight-- that is, from Thy favorable regard. A just retribution on one who had fled \"from the presence of the Lord\" ( Jon 1:3 ). Now that he has got his desire, he feels it to be his bitterest sorrow to be deprived of God's presence, which once he regarded as a burden, and from which he desired to escape. He had turned his back on God; so God turned His back on him, making his sin his punishment. toward thy holy temple-- In the confidence of faith he anticipates yet to see the temple at Jerusalem, the appointed place of worship ( 1Ki 8:38 ), and there to render thanksgiving [Henderson]. Rather, I think, \"Though cast out of Thy sight, I will still with the eye of faith once more look in prayer towards Thy temple at Jerusalem, whither, as Thy earthly throne, Thou hast desired Thy worshippers to direct their prayers.\"",
+      "source_record_sha256": "1be60af60b408ae1f0e1a2411571446cdf90b15ce5ceb6e4989ffe81d60578d9",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 29149,
+        "length": 1217
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. cast out from thy sight-- that is, from Thy favorable regard. A just retribution on one who had fled \"from the presence of the Lord\" ( Jon 1:3 ). Now that he has got his desire, he feels it to be his bitterest sorrow to be deprived of God's presence, which once he regarded as a burden, and from which he desired to escape. He had turned his back on God; so God turned His back on him, making his sin his punishment. toward thy holy temple-- In the confidence of faith he anticipates yet to see the temple at Jerusalem, the appointed place of worship ( 1Ki 8:38 ), and there to render thanksgiving [Henderson]. Rather, I think, \"Though cast out of Thy sight, I will still with the eye of faith once more look in prayer towards Thy temple at Jerusalem, whither, as Thy earthly throne, Thou hast desired Thy worshippers to direct their prayers.\""
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.5-5:32:30366:455",
+      "passage_start": "JON.2.5",
+      "passage_end": "JON.2.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12690\"/><div sID=\"gen23475\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12690\"/><hi type=\"bold\">5. even to the soul--</hi>that is, threatening to extinguish the animal life.<div eID=\"gen23475\" type=\"x-p\"/> <div sID=\"gen23476\" type=\"x-p\"/><hi type=\"bold\">weeds--</hi>He felt as if the seaweeds through which he was dragged were wrapped about his head. <div eID=\"gen23476\" type=\"x-p\"/>",
+      "content_plain": "5. even to the soul-- that is, threatening to extinguish the animal life. weeds-- He felt as if the seaweeds through which he was dragged were wrapped about his head.",
+      "source_record_sha256": "180e42d8d2e1a3030767f4770d657f3c70a39073df890bf72d8341815bab33f7",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 30366,
+        "length": 455
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. even to the soul-- that is, threatening to extinguish the animal life. weeds-- He felt as if the seaweeds through which he was dragged were wrapped about his head."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.6-6:32:30821:1391",
+      "passage_start": "JON.2.6",
+      "passage_end": "JON.2.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12691\"/><div sID=\"gen23477\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12691\"/><hi type=\"bold\">6. bottoms of ... mountains--</hi>their extremities where they terminate in the hidden depths of the sea. Compare <reference osisRef=\"Ps.18.7\">Psa 18:7</reference>, \"the foundations of the hills\" (<reference osisRef=\"Ps.18.15\">Psa 18:15</reference>).<div eID=\"gen23477\" type=\"x-p\"/> <div sID=\"gen23478\" type=\"x-p\"/><hi type=\"bold\">earth with her bars was about me--</hi>Earth, the land of the living, is (not \"was\") shut against me.<div eID=\"gen23478\" type=\"x-p\"/> <div sID=\"gen23479\" type=\"x-p\"/><hi type=\"bold\">for ever--</hi>so far as any effort of mine can deliver me.<div eID=\"gen23479\" type=\"x-p\"/> <div sID=\"gen23480\" type=\"x-p\"/><hi type=\"bold\">yet hast thou brought up my life from corruption--</hi>rather, \"Thou bringest ... from the pit\" [Maurer]. As in the previous clauses he expresses the hopelessness of his state, so in this, his sure hope of deliverance through Jehovah's infinite resources. \"Against hope he believes in hope,\" and speaks as if the deliverance were actually being accomplished. Hezekiah seems to have incorporated Jonah's very words in his prayer (<reference osisRef=\"Isa.38.17\">Is 38:17</reference>), just as Jonah appropriated the language of the Psalms. <div eID=\"gen23480\" type=\"x-p\"/>",
+      "content_plain": "6. bottoms of ... mountains-- their extremities where they terminate in the hidden depths of the sea. Compare Psa 18:7 , \"the foundations of the hills\" ( Psa 18:15 ). earth with her bars was about me-- Earth, the land of the living, is (not \"was\") shut against me. for ever-- so far as any effort of mine can deliver me. yet hast thou brought up my life from corruption-- rather, \"Thou bringest ... from the pit\" [Maurer]. As in the previous clauses he expresses the hopelessness of his state, so in this, his sure hope of deliverance through Jehovah's infinite resources. \"Against hope he believes in hope,\" and speaks as if the deliverance were actually being accomplished. Hezekiah seems to have incorporated Jonah's very words in his prayer ( Is 38:17 ), just as Jonah appropriated the language of the Psalms.",
+      "source_record_sha256": "8c52775707b1853fc7bebc5101dd2d41dc8f340399a90dcb7e6990e1214ee376",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 30821,
+        "length": 1391
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. bottoms of ... mountains-- their extremities where they terminate in the hidden depths of the sea. Compare Psa 18:7 , \"the foundations of the hills\" ( Psa 18:15 ). earth with her bars was about me-- Earth, the land of the living, is (not \"was\") shut against me. for ever-- so far as any effort of mine can deliver me. yet hast thou brought up my life from corruption-- rather, \"Thou bringest ... from the pit\" [Maurer]. As in the previous clauses he expresses the hopelessness of his state, so in this, his sure hope of deliverance through Jehovah's infinite resources. \"Against hope he believes in hope,\" and speaks as if the deliverance were actually being accomplished. Hezekiah seems to have incorporated Jonah's very words in his prayer ( Is 38:17 ), just as Jonah appropriated the language of the Psalms."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.7-7:32:32212:912",
+      "passage_start": "JON.2.7",
+      "passage_end": "JON.2.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12692\"/><div sID=\"gen23481\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12692\"/><hi type=\"bold\">7. soul fainted ... I remembered the Lord--</hi>beautifully exemplifying the triumph of spirit over flesh, of faith over sense (<reference osisRef=\"Ps.73.26\">Psa 73:26</reference>; <reference osisRef=\"Ps.42.6\">42:6</reference>). For a time troubles shut out hope; but faith revived when Jonah \"remembered the Lord,\" what a gracious God He is, and how now He still preserves his life and consciousness in his dark prison-house.<div eID=\"gen23481\" type=\"x-p\"/> <div sID=\"gen23482\" type=\"x-p\"/><hi type=\"bold\">into thine holy temple--</hi>the temple at Jerusalem (<reference osisRef=\"Jonah.2.4\">Jon 2:4</reference>). As there he looks in believing prayer towards it, so here he regards his prayer as already heard. <div eID=\"gen23482\" type=\"x-p\"/>",
+      "content_plain": "7. soul fainted ... I remembered the Lord-- beautifully exemplifying the triumph of spirit over flesh, of faith over sense ( Psa 73:26 ; 42:6 ). For a time troubles shut out hope; but faith revived when Jonah \"remembered the Lord,\" what a gracious God He is, and how now He still preserves his life and consciousness in his dark prison-house. into thine holy temple-- the temple at Jerusalem ( Jon 2:4 ). As there he looks in believing prayer towards it, so here he regards his prayer as already heard.",
+      "source_record_sha256": "9f869570f694a76d7ba9b92e629ecf3c351001311cf999af900125bba036a20b",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 32212,
+        "length": 912
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. soul fainted ... I remembered the Lord-- beautifully exemplifying the triumph of spirit over flesh, of faith over sense ( Psa 73:26 ; 42:6 ). For a time troubles shut out hope; but faith revived when Jonah \"remembered the Lord,\" what a gracious God He is, and how now He still preserves his life and consciousness in his dark prison-house. into thine holy temple-- the temple at Jerusalem ( Jon 2:4 ). As there he looks in believing prayer towards it, so here he regards his prayer as already heard."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.8-8:32:33124:1360",
+      "passage_start": "JON.2.8",
+      "passage_end": "JON.2.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12693\"/><div sID=\"gen23483\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12693\"/><hi type=\"bold\">8. observe lying vanities--</hi>regard or reverence idols, powerless to save (<reference osisRef=\"Ps.31.6\">Psa 31:6</reference>).<div eID=\"gen23483\" type=\"x-p\"/> <div sID=\"gen23484\" type=\"x-p\"/><hi type=\"bold\">mercy--</hi>Jehovah, the very idea of whom is identified now in Jonah's mind with mercy and loving-kindness. As the Psalmist (<reference osisRef=\"Ps.144.2\">Psa 144:2</reference>) styles Him, \"my goodness\"; God who is to me all beneficence. Compare <reference osisRef=\"Ps.59.17\">Psa 59:17</reference>, \"the God of my mercy,\" literally, \"my kindness-God.\" Jonah had \"forsaken His own mercy,\" God, to flee to heathen lands where \"lying vanities\" (idols) were worshipped. But now, taught by his own preservation in conscious life in the fish's belly, and by the inability of the mariners' idols to lull the storm (<reference osisRef=\"Jonah.1.5\">Jon 1:5</reference>), estrangement from God seems estrangement from his own happiness (<reference osisRef=\"Jer.2.13\">Jr 2:13</reference>; 17:13). Prayer has been restrained in Jonah's case, so that he was \"fast asleep\" in the midst of danger, heretofore; but now prayer is the sure sign of his return to God. <div eID=\"gen23484\" type=\"x-p\"/>",
+      "content_plain": "8. observe lying vanities-- regard or reverence idols, powerless to save ( Psa 31:6 ). mercy-- Jehovah, the very idea of whom is identified now in Jonah's mind with mercy and loving-kindness. As the Psalmist ( Psa 144:2 ) styles Him, \"my goodness\"; God who is to me all beneficence. Compare Psa 59:17 , \"the God of my mercy,\" literally, \"my kindness-God.\" Jonah had \"forsaken His own mercy,\" God, to flee to heathen lands where \"lying vanities\" (idols) were worshipped. But now, taught by his own preservation in conscious life in the fish's belly, and by the inability of the mariners' idols to lull the storm ( Jon 1:5 ), estrangement from God seems estrangement from his own happiness ( Jr 2:13 ; 17:13). Prayer has been restrained in Jonah's case, so that he was \"fast asleep\" in the midst of danger, heretofore; but now prayer is the sure sign of his return to God.",
+      "source_record_sha256": "53f26d7fe7f24be5ad95d1def154d70427654f71e491355fae212ad01e04ac8c",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 33124,
+        "length": 1360
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. observe lying vanities-- regard or reverence idols, powerless to save ( Psa 31:6 ). mercy-- Jehovah, the very idea of whom is identified now in Jonah's mind with mercy and loving-kindness. As the Psalmist ( Psa 144:2 ) styles Him, \"my goodness\"; God who is to me all beneficence. Compare Psa 59:17 , \"the God of my mercy,\" literally, \"my kindness-God.\" Jonah had \"forsaken His own mercy,\" God, to flee to heathen lands where \"lying vanities\" (idols) were worshipped. But now, taught by his own preservation in conscious life in the fish's belly, and by the inability of the mariners' idols to lull the storm ( Jon 1:5 ), estrangement from God seems estrangement from his own happiness ( Jr 2:13 ; 17:13). Prayer has been restrained in Jonah's case, so that he was \"fast asleep\" in the midst of danger, heretofore; but now prayer is the sure sign of his return to God."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.9-9:32:34484:725",
+      "passage_start": "JON.2.9",
+      "passage_end": "JON.2.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12694\"/><div sID=\"gen23485\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12694\"/><hi type=\"bold\">9. I will sacrifice ... thanksgiving--</hi>In the believing anticipation of sure deliverance, he offers thanksgivings already. So Jehoshaphat (<reference osisRef=\"2Chr.20.21\">2Ch 20:21</reference>) appointed singers to praise the Lord in front of the army before the battle with Moab and Ammon, as if the victory was already gained. God honors such confidence in Him. There is also herein a mark of sanctified affliction, that he vows amendment and thankful obedience (<reference osisRef=\"Ps.119.67\">Psa 119:67</reference>). <div eID=\"gen23485\" type=\"x-p\"/>",
+      "content_plain": "9. I will sacrifice ... thanksgiving-- In the believing anticipation of sure deliverance, he offers thanksgivings already. So Jehoshaphat ( 2Ch 20:21 ) appointed singers to praise the Lord in front of the army before the battle with Moab and Ammon, as if the victory was already gained. God honors such confidence in Him. There is also herein a mark of sanctified affliction, that he vows amendment and thankful obedience ( Psa 119:67 ).",
+      "source_record_sha256": "788345a55846028990425c902a1b6b701212dde84981443d065b76a9580af6db",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 34484,
+        "length": 725
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. I will sacrifice ... thanksgiving-- In the believing anticipation of sure deliverance, he offers thanksgivings already. So Jehoshaphat ( 2Ch 20:21 ) appointed singers to praise the Lord in front of the army before the battle with Moab and Ammon, as if the victory was already gained. God honors such confidence in Him. There is also herein a mark of sanctified affliction, that he vows amendment and thankful obedience ( Psa 119:67 )."
+    },
+    {
+      "entry_id": "sword:jfb:JON.2.10-10:32:35209:256",
+      "passage_start": "JON.2.10",
+      "passage_end": "JON.2.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12695\"/><div sID=\"gen23486\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12695\"/><hi type=\"bold\">10. upon the dry land--</hi>probably on the coast of Palestine. <chapter eID=\"Jonah.2\"/>",
+      "content_plain": "10. upon the dry land-- probably on the coast of Palestine.",
+      "source_record_sha256": "71c6f0cd41e8ecaf54e206643fba670d92a6dc23f1339dfb3aa7b887858d9caf",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 35209,
+        "length": 256
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. upon the dry land-- probably on the coast of Palestine."
+    }
+  ],
+  "indexed_verse_count": 10,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_JON_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 10
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:JON.2:P:chapter-2",
+      "navigation_id": "JON.2:P:chapter-2",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 2",
+      "content_plain": "CHAPTER 2",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 2</title> ",
+      "source_entry_id": "sword:jfb:JON.2.1-1:32:25921:906",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        97
+      ],
+      "source_fragment_sha256": "5db6ab0485cf770c72a9672669f91033d4fc62dce54517a07efd2aa35d0de581",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "JON.2.1",
+        "JON.2.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JON.2:P:jon-2-1-10-jonah-s-prayer-of-faith-and-deliverance",
+      "navigation_id": "JON.2:P:jon-2-1-10-jonah-s-prayer-of-faith-and-deliverance",
+      "kind": "original_SWORD_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Jon 2:1-10 . Jonah's Prayer of Faith and Deliverance.",
+      "content_plain": "Jon 2:1-10 . Jonah's Prayer of Faith and Deliverance.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Jonah.2.1-Jonah.2.10\">Jon 2:1-10</reference>. Jonah's Prayer of Faith and Deliverance.</title> <div sID=\"gen23468\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12686\"/>",
+      "source_entry_id": "sword:jfb:JON.2.1-1:32:25921:906",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        97,
+        323
+      ],
+      "source_fragment_sha256": "d14df8a009aa4ba752193b0bc757bd677544d579be34eb6eb451722c9b9d184d",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "JON.2.1",
+        "JON.2.1"
+      ],
+      "source_title_explicit_range": [
+        "JON.2.1",
+        "JON.2.10"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 10
+}

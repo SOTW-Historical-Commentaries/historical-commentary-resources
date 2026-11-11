@@ -1,0 +1,338 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-jonah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "JON",
+  "chapter": 2,
+  "canonical_chapter": "JON.2",
+  "versification": "KJV",
+  "verse_count": 10,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Jonah\" sID=\"gen34552\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen34553\" type=\"x-p\"/> ",
+      "source_record_sha256": "21493047bc2e7a801a7047b0e8742c6d3e05541db6696ca3e7f7c105c2ce7035",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 0,
+        "length": 210
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen34607\" type=\"x-p\"/> <chapter n=\"2\" osisID=\"Jonah.2\" sID=\"Jonah.2\"/> ",
+      "source_record_sha256": "fdbb5b4bbe81cb43dec0a43fbdb054226e8171e9ba497be737d2b65f04e7bb75",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 21497,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:JON.2.1-1:32:21578:1280",
+      "passage_start": "JON.2.1",
+      "passage_end": "JON.2.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen34607\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen34608\" type=\"introduction\"/> <div sID=\"gen34609\" type=\"x-p\"/> <div eID=\"gen34609\" type=\"x-p\"/> <div eID=\"gen34608\" type=\"introduction\"/> <div sID=\"gen34610\" type=\"x-p\"/> This chapter (except the first verse and the last, which make a part of the narrative) contains a beautiful prayer or hymn, formed of those devout thoughts which Jonah had in the belly of the great fish, with a thanksgiving for his miraculous deliverance. <div eID=\"gen34610\" type=\"x-p\"/> <div sID=\"gen34611\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen34611\" type=\"x-p\"/> <div sID=\"gen34612\" type=\"x-p\"/> Then Jonah prayed - out of the fish's belly - This verse makes the first of the second chapter in the Hebrew text. <div eID=\"gen34612\" type=\"x-p\"/> <div sID=\"gen34613\" type=\"x-p\"/> It may be asked, \"How could Jonah either pray or breathe in the stomach of the fish?\" Very easily, if God so willed it. And let the reader keep this constantly in view; the whole is a miracle, from Jonah's being swallowed by the fish till he was cast ashore by the same animal. It was God that had prepared the great fish. It was the Lord that spake to the fish, and caused it to vomit Jonah upon the dry land. All is miracle. ",
+      "content_plain": "Introduction This chapter (except the first verse and the last, which make a part of the narrative) contains a beautiful prayer or hymn, formed of those devout thoughts which Jonah had in the belly of the great fish, with a thanksgiving for his miraculous deliverance. Verse 1 Then Jonah prayed - out of the fish's belly - This verse makes the first of the second chapter in the Hebrew text. It may be asked, \"How could Jonah either pray or breathe in the stomach of the fish?\" Very easily, if God so willed it. And let the reader keep this constantly in view; the whole is a miracle, from Jonah's being swallowed by the fish till he was cast ashore by the same animal. It was God that had prepared the great fish. It was the Lord that spake to the fish, and caused it to vomit Jonah upon the dry land. All is miracle.",
+      "source_record_sha256": "33638bbd5afd9c5b04dbfa5c4cb36d1ad570bb33f7cff92f33f7cb82b51e2c72",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 21578,
+        "length": 1280
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 Then Jonah prayed - out of the fish's belly - This verse makes the first of the second chapter in the Hebrew text. It may be asked, \"How could Jonah either pray or breathe in the stomach of the fish?\" Very easily, if God so willed it. And let the reader keep this constantly in view; the whole is a miracle, from Jonah's being swallowed by the fish till he was cast ashore by the same animal. It was God that had prepared the great fish. It was the Lord that spake to the fish, and caused it to vomit Jonah upon the dry land. All is miracle.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original explicit Verse 1 label following introduction",
+      "reader_source_character_span": [
+        577,
+        1280
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen34611\" type=\"x-p\"/> <div sID=\"gen34612\" type=\"x-p\"/> Then Jonah prayed - out of the fish's belly - This verse makes the first of the second chapter in the Hebrew text. <div eID=\"gen34612\" type=\"x-p\"/> <div sID=\"gen34613\" type=\"x-p\"/> It may be asked, \"How could Jonah either pray or breathe in the stomach of the fish?\" Very easily, if God so willed it. And let the reader keep this constantly in view; the whole is a miracle, from Jonah's being swallowed by the fish till he was cast ashore by the same animal. It was God that had prepared the great fish. It was the Lord that spake to the fish, and caused it to vomit Jonah upon the dry land. All is miracle. "
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.2-2:32:22858:334",
+      "passage_start": "JON.2.2",
+      "passage_end": "JON.2.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen34613\" type=\"x-p\"/> <div sID=\"gen34614\" type=\"x-p\"/> Out of the belly of hell - Among the Hebrews שאול sheol means the grave, any deep pit, the place of separate spirits, etc. Here the prophet represents himself as in the bottom of the sea; for so sheol must be understood in this place. ",
+      "content_plain": "Verse 2 Out of the belly of hell - Among the Hebrews שאול sheol means the grave, any deep pit, the place of separate spirits, etc. Here the prophet represents himself as in the bottom of the sea; for so sheol must be understood in this place.",
+      "source_record_sha256": "a28ea62ad7d2f44aae29b64e81ef04f2d7a38a9ea296d79f7299fabeb6a7732b",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 22858,
+        "length": 334
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 Out of the belly of hell - Among the Hebrews שאול sheol means the grave, any deep pit, the place of separate spirits, etc. Here the prophet represents himself as in the bottom of the sea; for so sheol must be understood in this place."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.3-3:32:23192:410",
+      "passage_start": "JON.2.3",
+      "passage_end": "JON.2.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen34614\" type=\"x-p\"/> <div sID=\"gen34615\" type=\"x-p\"/> All thy billows and thy waves passed over me - This may be understood literally; while the fish, in whose belly he was, sought its pleasure or sustenance in the paths of the deep, the waves and billows of the sea were rolling above. This line seems borrowed from <reference osisRef=\"Psa.42.7\">Psa 42:7</reference>. ",
+      "content_plain": "Verse 3 All thy billows and thy waves passed over me - This may be understood literally; while the fish, in whose belly he was, sought its pleasure or sustenance in the paths of the deep, the waves and billows of the sea were rolling above. This line seems borrowed from Psa 42:7 .",
+      "source_record_sha256": "c1f3125ffc8b48b213fb8a63d288f54baf6faa4c5d5303b0101deec4455e3037",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 23192,
+        "length": 410
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 All thy billows and thy waves passed over me - This may be understood literally; while the fish, in whose belly he was, sought its pleasure or sustenance in the paths of the deep, the waves and billows of the sea were rolling above. This line seems borrowed from Psa 42:7 ."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.4-4:32:23602:333",
+      "passage_start": "JON.2.4",
+      "passage_end": "JON.2.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen34615\" type=\"x-p\"/> <div sID=\"gen34616\" type=\"x-p\"/> I am cast out of thy sight - See <reference osisRef=\"Psa.31.22\">Psa 31:22</reference>. <div eID=\"gen34616\" type=\"x-p\"/> <div sID=\"gen34617\" type=\"x-p\"/> Thy holy temple - Then Jerusalem was not yet destroyed, for the temple was standing. ",
+      "content_plain": "Verse 4 I am cast out of thy sight - See Psa 31:22 . Thy holy temple - Then Jerusalem was not yet destroyed, for the temple was standing.",
+      "source_record_sha256": "6b21db1ee9bb3b356766204384ab19e6c3ea9715e62f6ce43ce9d369ce3f98df",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 23602,
+        "length": 333
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 I am cast out of thy sight - See Psa 31:22 . Thy holy temple - Then Jerusalem was not yet destroyed, for the temple was standing."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.5-5:32:23935:485",
+      "passage_start": "JON.2.5",
+      "passage_end": "JON.2.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen34617\" type=\"x-p\"/> <div sID=\"gen34618\" type=\"x-p\"/> The waters compassed me about even to the soul - So as to seem to deprive me of life. I had no hope left. <div eID=\"gen34618\" type=\"x-p\"/> <div sID=\"gen34619\" type=\"x-p\"/> The weeds were wrapped about my head - This may be understood literally also. He found himself in the fish's stomach, together with sea weeds, and such like marine substances, which the fish had taken for its aliment. ",
+      "content_plain": "Verse 5 The waters compassed me about even to the soul - So as to seem to deprive me of life. I had no hope left. The weeds were wrapped about my head - This may be understood literally also. He found himself in the fish's stomach, together with sea weeds, and such like marine substances, which the fish had taken for its aliment.",
+      "source_record_sha256": "a2db223297aaf5d968059587b194323d865f540ca856ef1dc7c702bf18508adf",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 23935,
+        "length": 485
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 The waters compassed me about even to the soul - So as to seem to deprive me of life. I had no hope left. The weeds were wrapped about my head - This may be understood literally also. He found himself in the fish's stomach, together with sea weeds, and such like marine substances, which the fish had taken for its aliment."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.6-6:32:24420:1022",
+      "passage_start": "JON.2.6",
+      "passage_end": "JON.2.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen34619\" type=\"x-p\"/> <div sID=\"gen34620\" type=\"x-p\"/> I went down to the bottoms of the mountains - This also may be literally understood. The fish followed the slanting base of the mountains, till they terminated in a plain at the bottom of the great deep. <div eID=\"gen34620\" type=\"x-p\"/> <div sID=\"gen34621\" type=\"x-p\"/> The earth with her bars - He represents himself as a prisoner in a dungeon, closed in with bars which he could not remove, and which at first appeared to be for ever, i.e., the place where his life must terminate. <div eID=\"gen34621\" type=\"x-p\"/> <div sID=\"gen34622\" type=\"x-p\"/> Yet hast thou brought up my life - The substance of this poetic prayer was composed while in the fish's belly; but afterwards the prophet appears to have thrown it into its present poetic form, and to have added some circumstances, such as that before us; for he now speaks of his deliverance from this imminent danger of death. \"Thou hast brought up my life from corruption.\" ",
+      "content_plain": "Verse 6 I went down to the bottoms of the mountains - This also may be literally understood. The fish followed the slanting base of the mountains, till they terminated in a plain at the bottom of the great deep. The earth with her bars - He represents himself as a prisoner in a dungeon, closed in with bars which he could not remove, and which at first appeared to be for ever, i.e., the place where his life must terminate. Yet hast thou brought up my life - The substance of this poetic prayer was composed while in the fish's belly; but afterwards the prophet appears to have thrown it into its present poetic form, and to have added some circumstances, such as that before us; for he now speaks of his deliverance from this imminent danger of death. \"Thou hast brought up my life from corruption.\"",
+      "source_record_sha256": "5a97f5e539599929404df984890e3a4aea74b475961a329a01267c9e724f4d32",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 24420,
+        "length": 1022
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 I went down to the bottoms of the mountains - This also may be literally understood. The fish followed the slanting base of the mountains, till they terminated in a plain at the bottom of the great deep. The earth with her bars - He represents himself as a prisoner in a dungeon, closed in with bars which he could not remove, and which at first appeared to be for ever, i.e., the place where his life must terminate. Yet hast thou brought up my life - The substance of this poetic prayer was composed while in the fish's belly; but afterwards the prophet appears to have thrown it into its present poetic form, and to have added some circumstances, such as that before us; for he now speaks of his deliverance from this imminent danger of death. \"Thou hast brought up my life from corruption.\""
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.7-7:32:25442:541",
+      "passage_start": "JON.2.7",
+      "passage_end": "JON.2.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen34622\" type=\"x-p\"/> <div sID=\"gen34623\" type=\"x-p\"/> When my soul fainted - When I had given up all hope of life. <div eID=\"gen34623\" type=\"x-p\"/> <div sID=\"gen34624\" type=\"x-p\"/> My prayer came in unto thee - Here prayer is personified, and is represented as a messenger going from the distressed, and entering into the temple of God, and standing before him. This is a very fine and delicate image. This clause is one of those which I suppose the prophet to have added when he penned this prayer. ",
+      "content_plain": "Verse 7 When my soul fainted - When I had given up all hope of life. My prayer came in unto thee - Here prayer is personified, and is represented as a messenger going from the distressed, and entering into the temple of God, and standing before him. This is a very fine and delicate image. This clause is one of those which I suppose the prophet to have added when he penned this prayer.",
+      "source_record_sha256": "21916b88992d76f85bf4fa1b895eb605820defc59a4c97f879fefbb1b4b800f9",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 25442,
+        "length": 541
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 When my soul fainted - When I had given up all hope of life. My prayer came in unto thee - Here prayer is personified, and is represented as a messenger going from the distressed, and entering into the temple of God, and standing before him. This is a very fine and delicate image. This clause is one of those which I suppose the prophet to have added when he penned this prayer."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.8-8:32:25983:438",
+      "passage_start": "JON.2.8",
+      "passage_end": "JON.2.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen34624\" type=\"x-p\"/> <div sID=\"gen34625\" type=\"x-p\"/> They that observe lying vanities - They that trust in idols, follow vain predictions, permit themselves to be influenced with foolish fears, so as to induce them to leave the path of obvious duty, forsake their own mercy. In leaving that God who is the Fountain of mercy, they abandon that measure of mercy which he had treasured up for them. ",
+      "content_plain": "Verse 8 They that observe lying vanities - They that trust in idols, follow vain predictions, permit themselves to be influenced with foolish fears, so as to induce them to leave the path of obvious duty, forsake their own mercy. In leaving that God who is the Fountain of mercy, they abandon that measure of mercy which he had treasured up for them.",
+      "source_record_sha256": "0e7e518acbe70c60df5718c850dbd58e2befa167dc81a79a0c146d9beb21ee01",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 25983,
+        "length": 438
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 8 They that observe lying vanities - They that trust in idols, follow vain predictions, permit themselves to be influenced with foolish fears, so as to induce them to leave the path of obvious duty, forsake their own mercy. In leaving that God who is the Fountain of mercy, they abandon that measure of mercy which he had treasured up for them."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.9-9:32:26421:635",
+      "passage_start": "JON.2.9",
+      "passage_end": "JON.2.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen34625\" type=\"x-p\"/> <div sID=\"gen34626\" type=\"x-p\"/> But I will sacrifice unto thee - I will make a sincere vow, which, as soon as my circumstances will permit, I will faithfully execute; and therefore he adds, \"I will pay that which I have vowed.\" <div eID=\"gen34626\" type=\"x-p\"/> <div sID=\"gen34627\" type=\"x-p\"/> Salvation is of the Lord - All deliverance from danger, preservation of life, recovery from sickness, and redemption of the soul from the power, guilt, and pollution of sin, is from Jehovah. He alone is the Savior, he alone is the Deliverer; for all salvation is from the Lord. ",
+      "content_plain": "Verse 9 But I will sacrifice unto thee - I will make a sincere vow, which, as soon as my circumstances will permit, I will faithfully execute; and therefore he adds, \"I will pay that which I have vowed.\" Salvation is of the Lord - All deliverance from danger, preservation of life, recovery from sickness, and redemption of the soul from the power, guilt, and pollution of sin, is from Jehovah. He alone is the Savior, he alone is the Deliverer; for all salvation is from the Lord.",
+      "source_record_sha256": "a795b3bf861d8a6eb098018135d92738db2c52619a51210bd09340bc76677393",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 26421,
+        "length": 635
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 But I will sacrifice unto thee - I will make a sincere vow, which, as soon as my circumstances will permit, I will faithfully execute; and therefore he adds, \"I will pay that which I have vowed.\" Salvation is of the Lord - All deliverance from danger, preservation of life, recovery from sickness, and redemption of the soul from the power, guilt, and pollution of sin, is from Jehovah. He alone is the Savior, he alone is the Deliverer; for all salvation is from the Lord."
+    },
+    {
+      "entry_id": "sword:clarke:JON.2.10-10:32:27056:2709",
+      "passage_start": "JON.2.10",
+      "passage_end": "JON.2.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen34627\" type=\"x-p\"/> <div sID=\"gen34628\" type=\"x-p\"/> And the Lord spake unto the fish - That is, by his influence the fish swam to shore, and cast Jonah on the dry land. So the whole was a miracle from the beginning to the end; and we need not perplex ourselves to find out literal interpretations; such as, \"When Jonah was thrown overboard he swam for his life, earnestly praying God to preserve him from drowning; and by his providence he was thrown into a place of fish - a fishing cove, where he was for a time entangled among the weeds, and hardly escaped with his life; and when safe, he composed this poetic prayer, in metaphorical language, which some have wrongly interpreted, by supposing that he was swallowed by a fish; when דג dag should have been understood, as a place of fish, or fishing creek,\" etc. Now I say the original has no such meaning in the Bible: and this gloss is plainly contrary to the letter of the text; to all sober and rational modes of interpretation; and to the express purpose for which God appears to have wrought this miracle, and to which Jesus Christ himself applies it. For as Jonah was intended for a sign to the Jews of the resurrection of Christ, they were to have the proof of this semiosis, in his lying as long in the heart of the earth as the prophet was in the belly of the fish, and all interpretations of this kind go to deny both the sign and the thing signified. Some men, because they cannot work a miracle themselves, can hardly be persuaded that God can do it. <div eID=\"gen34628\" type=\"x-p\"/> <div sID=\"gen34629\" type=\"x-p\"/> The text, and the use made of it by Christ, most plainly teach us that the prophet was literally swallowed by a fish, by the order of God; and that by the Divine power he was preserved alive, for what is called three days and three nights, in the stomach of the fish; and at the conclusion of the above time that same fish was led by the unseen power of God to the shore, and there compelled to eject the prey that he could neither kill nor digest. And how easy is all this to the almighty power of the Author and Sustainer of life, who has a sovereign, omnipresent, and energetic sway in the heavens and in the earth. But foolish man will affect to be wise; though, in such cases, he appears as the recently born, stupid offspring of the wild ass. It is bad to follow fancy, where there is so much at stake. Both ancients and moderns have grievously trifled with this prophet's narrative; merely because they could not rationally account for the thing, and were unwilling (and why?) to allow any miraculous interference.  <chapter eID=\"Jonah.2\"/> <div eID=\"gen34629\" type=\"x-p\"/>",
+      "content_plain": "Verse 10 And the Lord spake unto the fish - That is, by his influence the fish swam to shore, and cast Jonah on the dry land. So the whole was a miracle from the beginning to the end; and we need not perplex ourselves to find out literal interpretations; such as, \"When Jonah was thrown overboard he swam for his life, earnestly praying God to preserve him from drowning; and by his providence he was thrown into a place of fish - a fishing cove, where he was for a time entangled among the weeds, and hardly escaped with his life; and when safe, he composed this poetic prayer, in metaphorical language, which some have wrongly interpreted, by supposing that he was swallowed by a fish; when דג dag should have been understood, as a place of fish, or fishing creek,\" etc. Now I say the original has no such meaning in the Bible: and this gloss is plainly contrary to the letter of the text; to all sober and rational modes of interpretation; and to the express purpose for which God appears to have wrought this miracle, and to which Jesus Christ himself applies it. For as Jonah was intended for a sign to the Jews of the resurrection of Christ, they were to have the proof of this semiosis, in his lying as long in the heart of the earth as the prophet was in the belly of the fish, and all interpretations of this kind go to deny both the sign and the thing signified. Some men, because they cannot work a miracle themselves, can hardly be persuaded that God can do it. The text, and the use made of it by Christ, most plainly teach us that the prophet was literally swallowed by a fish, by the order of God; and that by the Divine power he was preserved alive, for what is called three days and three nights, in the stomach of the fish; and at the conclusion of the above time that same fish was led by the unseen power of God to the shore, and there compelled to eject the prey that he could neither kill nor digest. And how easy is all this to the almighty power of the Author and Sustainer of life, who has a sovereign, omnipresent, and energetic sway in the heavens and in the earth. But foolish man will affect to be wise; though, in such cases, he appears as the recently born, stupid offspring of the wild ass. It is bad to follow fancy, where there is so much at stake. Both ancients and moderns have grievously trifled with this prophet's narrative; merely because they could not rationally account for the thing, and were unwilling (and why?) to allow any miraculous interference.",
+      "source_record_sha256": "d6ec5e1f06b5be85f60ec35582abcf16a47aa4afc7c742ae45e1a154afdae77c",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 27056,
+        "length": 2709
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.2.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 And the Lord spake unto the fish - That is, by his influence the fish swam to shore, and cast Jonah on the dry land. So the whole was a miracle from the beginning to the end; and we need not perplex ourselves to find out literal interpretations; such as, \"When Jonah was thrown overboard he swam for his life, earnestly praying God to preserve him from drowning; and by his providence he was thrown into a place of fish - a fishing cove, where he was for a time entangled among the weeds, and hardly escaped with his life; and when safe, he composed this poetic prayer, in metaphorical language, which some have wrongly interpreted, by supposing that he was swallowed by a fish; when דג dag should have been understood, as a place of fish, or fishing creek,\" etc. Now I say the original has no such meaning in the Bible: and this gloss is plainly contrary to the letter of the text; to all sober and rational modes of interpretation; and to the express purpose for which God appears to have wrought this miracle, and to which Jesus Christ himself applies it. For as Jonah was intended for a sign to the Jews of the resurrection of Christ, they were to have the proof of this semiosis, in his lying as long in the heart of the earth as the prophet was in the belly of the fish, and all interpretations of this kind go to deny both the sign and the thing signified. Some men, because they cannot work a miracle themselves, can hardly be persuaded that God can do it. The text, and the use made of it by Christ, most plainly teach us that the prophet was literally swallowed by a fish, by the order of God; and that by the Divine power he was preserved alive, for what is called three days and three nights, in the stomach of the fish; and at the conclusion of the above time that same fish was led by the unseen power of God to the shore, and there compelled to eject the prey that he could neither kill nor digest. And how easy is all this to the almighty power of the Author and Sustainer of life, who has a sovereign, omnipresent, and energetic sway in the heavens and in the earth. But foolish man will affect to be wise; though, in such cases, he appears as the recently born, stupid offspring of the wild ass. It is bad to follow fancy, where there is so much at stake. Both ancients and moderns have grievously trifled with this prophet's narrative; merely because they could not rationally account for the thing, and were unwilling (and why?) to allow any miraculous interference."
+    }
+  ],
+  "indexed_verse_count": 10,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_JON_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 10
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:JON.2:P:jonah-2-original-chapter-introduction",
+      "navigation_id": "JON.2:P:jonah-2-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Jonah 2 · Original Chapter Introduction",
+      "content_plain": "Introduction This chapter (except the first verse and the last, which make a part of the narrative) contains a beautiful prayer or hymn, formed of those devout thoughts which Jonah had in the belly of the great fish, with a thanksgiving for his miraculous deliverance.",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen34608\" type=\"introduction\"/> <div sID=\"gen34609\" type=\"x-p\"/> <div eID=\"gen34609\" type=\"x-p\"/> <div eID=\"gen34608\" type=\"introduction\"/> <div sID=\"gen34610\" type=\"x-p\"/> This chapter (except the first verse and the last, which make a part of the narrative) contains a beautiful prayer or hymn, formed of those devout thoughts which Jonah had in the belly of the great fish, with a thanksgiving for his miraculous deliverance. <div eID=\"gen34610\" type=\"x-p\"/> <div sID=\"gen34611\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:JON.2.1-1:32:21578:1280",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        577
+      ],
+      "source_fragment_sha256": "8031d8067a1f2af30a8b07736ea9bf1e558d031c4d5beee35f15a7d7a4677e63",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "JON.2.1",
+        "JON.2.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 10
+}

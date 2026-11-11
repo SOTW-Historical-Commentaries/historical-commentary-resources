@@ -1,0 +1,314 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-jonah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "JON",
+  "chapter": 3,
+  "canonical_chapter": "JON.3",
+  "versification": "KJV",
+  "verse_count": 10,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Jonah\" sID=\"gen34552\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen34553\" type=\"x-p\"/> ",
+      "source_record_sha256": "21493047bc2e7a801a7047b0e8742c6d3e05541db6696ca3e7f7c105c2ce7035",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 0,
+        "length": 210
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen34630\" type=\"x-p\"/> <chapter n=\"3\" osisID=\"Jonah.3\" sID=\"Jonah.3\"/> ",
+      "source_record_sha256": "b39e72ea2bcb350c965b2c7caef80d62ff3115362fa5d3027fe1d5b318e18411",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 29765,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:JON.3.1-1:32:29846:1156",
+      "passage_start": "JON.3.1",
+      "passage_end": "JON.3.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen34630\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen34631\" type=\"introduction\"/> <div sID=\"gen34632\" type=\"x-p\"/> <div eID=\"gen34632\" type=\"x-p\"/> <div eID=\"gen34631\" type=\"introduction\"/> <div sID=\"gen34633\" type=\"x-p\"/> Jonah is sent again to Nineveh, a city of three days' journey, (being sixty miles in circumference, according to Diodorus Siculus), <reference osisRef=\"Jon.3.1-Jon.3.4\">Jon 3:1-4</reference>. The inhabitants, in consequence of the prophet's preaching, repent in dust and ashes, <reference osisRef=\"Jon.3.5-Jon.3.9\">Jon 3:5-9</reference>. God, seeing that they were deeply humbled on account of their sins, and that they turned away from all their iniquities, repents of the evil with which he had threatened them, <reference osisRef=\"Jon.3.10\">Jon 3:10</reference>. <div eID=\"gen34633\" type=\"x-p\"/> <div sID=\"gen34634\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen34634\" type=\"x-p\"/> <div sID=\"gen34635\" type=\"x-p\"/> And the word of the Lord - The same oracle as that before given; and which, from what he had felt and seen of the justice and mercy of the Lord, he was now prepared to obey. ",
+      "content_plain": "Introduction Jonah is sent again to Nineveh, a city of three days' journey, (being sixty miles in circumference, according to Diodorus Siculus), Jon 3:1-4 . The inhabitants, in consequence of the prophet's preaching, repent in dust and ashes, Jon 3:5-9 . God, seeing that they were deeply humbled on account of their sins, and that they turned away from all their iniquities, repents of the evil with which he had threatened them, Jon 3:10 . Verse 1 And the word of the Lord - The same oracle as that before given; and which, from what he had felt and seen of the justice and mercy of the Lord, he was now prepared to obey.",
+      "source_record_sha256": "55b9d06366669b59dd3274d03edb5f60f90f511579fc9762e0e773aae1d1c3e9",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 29846,
+        "length": 1156
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 And the word of the Lord - The same oracle as that before given; and which, from what he had felt and seen of the justice and mercy of the Lord, he was now prepared to obey.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original explicit Verse 1 label following introduction",
+      "reader_source_character_span": [
+        887,
+        1156
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen34634\" type=\"x-p\"/> <div sID=\"gen34635\" type=\"x-p\"/> And the word of the Lord - The same oracle as that before given; and which, from what he had felt and seen of the justice and mercy of the Lord, he was now prepared to obey. "
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.2-2:32:31002:1176",
+      "passage_start": "JON.3.2",
+      "passage_end": "JON.3.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen34635\" type=\"x-p\"/> <div sID=\"gen34636\" type=\"x-p\"/> And preach unto it the preaching - וקרא את הקריאה vekera eth hakkeriah, \"And cry the cry that I bid thee.\" Be my herald, and faithfully deliver my message. The word κηρυξ in Greek answers to the Hebrew קורא kore: both signifying a crier, a herald, a preacher; one that makes proclamation with a loud and earnest cry. Such was John Baptist, <reference osisRef=\"Isa.40.3\">Isa 40:3</reference>; such was Jesus Christ, John 7:18-37; and such were all his apostles. And such earnestness becomes a ministry that has to do with immortal souls, asleep and dead in sin, hanging on the brink of perdition, and insensible of their state. The soft-speaking, gentle-toned, unmoved preacher, is never likely to awaken souls. As we preach, so the people hear; scarcely receiving any counsels that appear to have no importance by the manner in which they are delivered. But this earnestness is widely different from that noisy, blustering, screaming rant, that manifests more of the turbulence of disorderly passions, than of the real inspired influence of the Spirit of God. ",
+      "content_plain": "Verse 2 And preach unto it the preaching - וקרא את הקריאה vekera eth hakkeriah, \"And cry the cry that I bid thee.\" Be my herald, and faithfully deliver my message. The word κηρυξ in Greek answers to the Hebrew קורא kore: both signifying a crier, a herald, a preacher; one that makes proclamation with a loud and earnest cry. Such was John Baptist, Isa 40:3 ; such was Jesus Christ, John 7:18-37; and such were all his apostles. And such earnestness becomes a ministry that has to do with immortal souls, asleep and dead in sin, hanging on the brink of perdition, and insensible of their state. The soft-speaking, gentle-toned, unmoved preacher, is never likely to awaken souls. As we preach, so the people hear; scarcely receiving any counsels that appear to have no importance by the manner in which they are delivered. But this earnestness is widely different from that noisy, blustering, screaming rant, that manifests more of the turbulence of disorderly passions, than of the real inspired influence of the Spirit of God.",
+      "source_record_sha256": "59b499b4a9bfa471ab3deeb8f4c40740c980903cddd78e752929f94eeb212bb1",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 31002,
+        "length": 1176
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 And preach unto it the preaching - וקרא את הקריאה vekera eth hakkeriah, \"And cry the cry that I bid thee.\" Be my herald, and faithfully deliver my message. The word κηρυξ in Greek answers to the Hebrew קורא kore: both signifying a crier, a herald, a preacher; one that makes proclamation with a loud and earnest cry. Such was John Baptist, Isa 40:3 ; such was Jesus Christ, John 7:18-37; and such were all his apostles. And such earnestness becomes a ministry that has to do with immortal souls, asleep and dead in sin, hanging on the brink of perdition, and insensible of their state. The soft-speaking, gentle-toned, unmoved preacher, is never likely to awaken souls. As we preach, so the people hear; scarcely receiving any counsels that appear to have no importance by the manner in which they are delivered. But this earnestness is widely different from that noisy, blustering, screaming rant, that manifests more of the turbulence of disorderly passions, than of the real inspired influence of the Spirit of God."
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.3-3:32:32178:769",
+      "passage_start": "JON.3.3",
+      "passage_end": "JON.3.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen34636\" type=\"x-p\"/> <div sID=\"gen34637\" type=\"x-p\"/> Nineveh was an exceeding great city, of three days' journey - See on <reference osisRef=\"Jon.1.2\">Jon 1:2</reference> (note). Strabo says, lib. xvi., πολυ μειζων ην της Βαβυλωνος, \"it was much larger than Babylon:\" and Ninus, the builder, not only proposed to make it the largest city of the world, but the largest that could be built by man. See Diodor. Sic. Bib. 50:2. And as we find, from the lowest computation, that it was at least fifty-four or sixty English miles in circumference, it would take the prophet three days to walk round upon the walls, and announce from them the terrible message, \"Yet forty days, and Nineveh will be destroyed!\" ",
+      "content_plain": "Verse 3 Nineveh was an exceeding great city, of three days' journey - See on Jon 1:2 (note). Strabo says, lib. xvi., πολυ μειζων ην της Βαβυλωνος, \"it was much larger than Babylon:\" and Ninus, the builder, not only proposed to make it the largest city of the world, but the largest that could be built by man. See Diodor. Sic. Bib. 50:2. And as we find, from the lowest computation, that it was at least fifty-four or sixty English miles in circumference, it would take the prophet three days to walk round upon the walls, and announce from them the terrible message, \"Yet forty days, and Nineveh will be destroyed!\"",
+      "source_record_sha256": "6b9e681ccbc5b60a849df709c11ab97b10952b805ce867d124eff3397ab8a70e",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 32178,
+        "length": 769
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 Nineveh was an exceeding great city, of three days' journey - See on Jon 1:2 (note). Strabo says, lib. xvi., πολυ μειζων ην της Βαβυλωνος, \"it was much larger than Babylon:\" and Ninus, the builder, not only proposed to make it the largest city of the world, but the largest that could be built by man. See Diodor. Sic. Bib. 50:2. And as we find, from the lowest computation, that it was at least fifty-four or sixty English miles in circumference, it would take the prophet three days to walk round upon the walls, and announce from them the terrible message, \"Yet forty days, and Nineveh will be destroyed!\""
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.4-4:32:32947:878",
+      "passage_start": "JON.3.4",
+      "passage_end": "JON.3.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen34637\" type=\"x-p\"/> <div sID=\"gen34638\" type=\"x-p\"/> Yet forty days - Both the Septuagint and Arabic read three days. Probably some early copyist of the Septuagint, from whom our modern editions are derived, mistook the Greek numerals μ forty for γ three; or put the three days' journey in preaching instead of the forty days mentioned in the denunciation. One of Kennicott's MSS., instead of ארבעים arbaim, forty, has שלשים sheloshim, thirty: but the Hebrew text is undoubtedly the true reading; and it is followed by all the ancient versions, the Septuagint and Vulgate excepted. thus God gives them time to think, reflect, take counsel, and return to him. Had they only three days' space, the denunciation would have so completely confounded them, as to excite nothing but terror, and prevent repentance and conversion. ",
+      "content_plain": "Verse 4 Yet forty days - Both the Septuagint and Arabic read three days. Probably some early copyist of the Septuagint, from whom our modern editions are derived, mistook the Greek numerals μ forty for γ three; or put the three days' journey in preaching instead of the forty days mentioned in the denunciation. One of Kennicott's MSS., instead of ארבעים arbaim, forty, has שלשים sheloshim, thirty: but the Hebrew text is undoubtedly the true reading; and it is followed by all the ancient versions, the Septuagint and Vulgate excepted. thus God gives them time to think, reflect, take counsel, and return to him. Had they only three days' space, the denunciation would have so completely confounded them, as to excite nothing but terror, and prevent repentance and conversion.",
+      "source_record_sha256": "f8fb22c29b54605b1e12c31ee7e1210c48416e661af8e0c37f4d0bfe644cfdae",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 32947,
+        "length": 878
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 Yet forty days - Both the Septuagint and Arabic read three days. Probably some early copyist of the Septuagint, from whom our modern editions are derived, mistook the Greek numerals μ forty for γ three; or put the three days' journey in preaching instead of the forty days mentioned in the denunciation. One of Kennicott's MSS., instead of ארבעים arbaim, forty, has שלשים sheloshim, thirty: but the Hebrew text is undoubtedly the true reading; and it is followed by all the ancient versions, the Septuagint and Vulgate excepted. thus God gives them time to think, reflect, take counsel, and return to him. Had they only three days' space, the denunciation would have so completely confounded them, as to excite nothing but terror, and prevent repentance and conversion."
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.5-5:32:33825:861",
+      "passage_start": "JON.3.5",
+      "passage_end": "JON.3.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen34638\" type=\"x-p\"/> <div sID=\"gen34639\" type=\"x-p\"/> The people of Nineveh believed God - They had no doubt that the threatening would be fulfilled, unless their speedy conversion prevented it; but, though not expressed, they knew that the threatening was conditional. \"The promises and threatenings of God, which are merely personal, either to any particular man or number of men, are always conditional, because the wisdom of God hath thought fit to make these depend on the behavior of men.\" - Dr. S. Clarke's Sermons, vol. i. <div eID=\"gen34639\" type=\"x-p\"/> <div sID=\"gen34640\" type=\"x-p\"/> Proclaimed a fast - And never was there one so general, so deep, and so effectual. Men and women, old and young, high and low, and even the cattle themselves, all kept such a fast as the total abstinence from food implies. ",
+      "content_plain": "Verse 5 The people of Nineveh believed God - They had no doubt that the threatening would be fulfilled, unless their speedy conversion prevented it; but, though not expressed, they knew that the threatening was conditional. \"The promises and threatenings of God, which are merely personal, either to any particular man or number of men, are always conditional, because the wisdom of God hath thought fit to make these depend on the behavior of men.\" - Dr. S. Clarke's Sermons, vol. i. Proclaimed a fast - And never was there one so general, so deep, and so effectual. Men and women, old and young, high and low, and even the cattle themselves, all kept such a fast as the total abstinence from food implies.",
+      "source_record_sha256": "0cc9c4e34f3aafce6e9e74e72ad4181f9bdf7653090d53d2ecc5f06412a8fa57",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 33825,
+        "length": 861
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 The people of Nineveh believed God - They had no doubt that the threatening would be fulfilled, unless their speedy conversion prevented it; but, though not expressed, they knew that the threatening was conditional. \"The promises and threatenings of God, which are merely personal, either to any particular man or number of men, are always conditional, because the wisdom of God hath thought fit to make these depend on the behavior of men.\" - Dr. S. Clarke's Sermons, vol. i. Proclaimed a fast - And never was there one so general, so deep, and so effectual. Men and women, old and young, high and low, and even the cattle themselves, all kept such a fast as the total abstinence from food implies."
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.6-6:32:34686:452",
+      "passage_start": "JON.3.6",
+      "passage_end": "JON.3.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen34640\" type=\"x-p\"/> <div sID=\"gen34641\" type=\"x-p\"/> Word came unto the king - This, some think, was Pul; others, Sardanapalus his son, king of Assyria, who flourished in the reign of Jeroboam the Second: but it seems more probable that the monarch here alluded to was a king of Assyria contemporary with Joash, king of Judah. It was by the decree of the king that the fast was instituted, and became general. ",
+      "content_plain": "Verse 6 Word came unto the king - This, some think, was Pul; others, Sardanapalus his son, king of Assyria, who flourished in the reign of Jeroboam the Second: but it seems more probable that the monarch here alluded to was a king of Assyria contemporary with Joash, king of Judah. It was by the decree of the king that the fast was instituted, and became general.",
+      "source_record_sha256": "eaad4cd056e17f8306ad61de00ff78c699e48e760d04910029bc6d6bbcebcc42",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 34686,
+        "length": 452
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 Word came unto the king - This, some think, was Pul; others, Sardanapalus his son, king of Assyria, who flourished in the reign of Jeroboam the Second: but it seems more probable that the monarch here alluded to was a king of Assyria contemporary with Joash, king of Judah. It was by the decree of the king that the fast was instituted, and became general."
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.8-8:32:35138:2161",
+      "passage_start": "JON.3.8",
+      "passage_end": "JON.3.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen34641\" type=\"x-p\"/> <div sID=\"gen34642\" type=\"x-p\"/> Let man and beast be covered - This was done that every object which they beheld might deepen the impression already made, and cause them to mourn after a godly sort. Virgil tells us that the mourning for the death of Julius Caesar was so general, that the cattle neither ate nor drank: - <div eID=\"gen34642\" type=\"x-p\"/> <div sID=\"gen34643\" type=\"x-p\"/> Non ulli pastos illis egere diebus <div eID=\"gen34643\" type=\"x-p\"/> <div sID=\"gen34644\" type=\"x-p\"/> Frigida, Daphni, boves ad flumina: nulla neque amnem <div eID=\"gen34644\" type=\"x-p\"/> <div sID=\"gen34645\" type=\"x-p\"/> Libavit quadrupes, nec graminis attigit herbam. <div eID=\"gen34645\" type=\"x-p\"/> <div sID=\"gen34646\" type=\"x-p\"/> Ecl. 5:24. \"The swains forgot their sheep, nor near the brink <div eID=\"gen34646\" type=\"x-p\"/> <div sID=\"gen34647\" type=\"x-p\"/> Of running waters brought their herds to drink. <div eID=\"gen34647\" type=\"x-p\"/> <div sID=\"gen34648\" type=\"x-p\"/> The thirsty cattle of themselves abstain'd, <div eID=\"gen34648\" type=\"x-p\"/> <div sID=\"gen34649\" type=\"x-p\"/> From water, and their grassy fare disdain'd.\" <div eID=\"gen34649\" type=\"x-p\"/> <div sID=\"gen34650\" type=\"x-p\"/> Dryden. <div eID=\"gen34650\" type=\"x-p\"/> <div sID=\"gen34651\" type=\"x-p\"/> And that they sometimes changed: or reversed the harness and ornaments of cattle, as indicative of mourning, we have a proof in Virgil's description of the funeral procession in honor of Pallas, slain by Turnus, Aen. 11 ver. 89. <div eID=\"gen34651\" type=\"x-p\"/> <div sID=\"gen34652\" type=\"x-p\"/> Post bellator equus, positis insignibus, Aethon <div eID=\"gen34652\" type=\"x-p\"/> <div sID=\"gen34653\" type=\"x-p\"/> It lacrymans, guttisque humectat grandibus ora. \"Stripp'd of his trappings, and his head declined, <div eID=\"gen34653\" type=\"x-p\"/> <div sID=\"gen34654\" type=\"x-p\"/> Aethon, his generous warrior-horse, behind, <div eID=\"gen34654\" type=\"x-p\"/> <div sID=\"gen34655\" type=\"x-p\"/> Moves with a solemn, slow, majestic pace; <div eID=\"gen34655\" type=\"x-p\"/> <div sID=\"gen34656\" type=\"x-p\"/> And the big tears come rolling down his face.\" ",
+      "content_plain": "Verse 8 Let man and beast be covered - This was done that every object which they beheld might deepen the impression already made, and cause them to mourn after a godly sort. Virgil tells us that the mourning for the death of Julius Caesar was so general, that the cattle neither ate nor drank: - Non ulli pastos illis egere diebus Frigida, Daphni, boves ad flumina: nulla neque amnem Libavit quadrupes, nec graminis attigit herbam. Ecl. 5:24. \"The swains forgot their sheep, nor near the brink Of running waters brought their herds to drink. The thirsty cattle of themselves abstain'd, From water, and their grassy fare disdain'd.\" Dryden. And that they sometimes changed: or reversed the harness and ornaments of cattle, as indicative of mourning, we have a proof in Virgil's description of the funeral procession in honor of Pallas, slain by Turnus, Aen. 11 ver. 89. Post bellator equus, positis insignibus, Aethon It lacrymans, guttisque humectat grandibus ora. \"Stripp'd of his trappings, and his head declined, Aethon, his generous warrior-horse, behind, Moves with a solemn, slow, majestic pace; And the big tears come rolling down his face.\"",
+      "source_record_sha256": "29d6fd4beb52591af32f1f37d0c8f14348813ec98ce905baf7b5b2579f437145",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 35138,
+        "length": 2161
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 8 Let man and beast be covered - This was done that every object which they beheld might deepen the impression already made, and cause them to mourn after a godly sort. Virgil tells us that the mourning for the death of Julius Caesar was so general, that the cattle neither ate nor drank: - Non ulli pastos illis egere diebus Frigida, Daphni, boves ad flumina: nulla neque amnem Libavit quadrupes, nec graminis attigit herbam. Ecl. 5:24. \"The swains forgot their sheep, nor near the brink Of running waters brought their herds to drink. The thirsty cattle of themselves abstain'd, From water, and their grassy fare disdain'd.\" Dryden. And that they sometimes changed: or reversed the harness and ornaments of cattle, as indicative of mourning, we have a proof in Virgil's description of the funeral procession in honor of Pallas, slain by Turnus, Aen. 11 ver. 89. Post bellator equus, positis insignibus, Aethon It lacrymans, guttisque humectat grandibus ora. \"Stripp'd of his trappings, and his head declined, Aethon, his generous warrior-horse, behind, Moves with a solemn, slow, majestic pace; And the big tears come rolling down his face.\""
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.9-9:32:37299:501",
+      "passage_start": "JON.3.9",
+      "passage_end": "JON.3.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen34656\" type=\"x-p\"/> <div sID=\"gen34657\" type=\"x-p\"/> Who can tell if God will turn and repent - There is at least a peradventure for our salvation. God may turn towards us, change his purpose, and save us alive. While there is life there is hope; God has no pleasure in the death of sinners; he is gracious and compassionate. Himself has prescribed repentance; if we repent, and turn to him from our iniquities, who knows then whether God will not turn, etc. ",
+      "content_plain": "Verse 9 Who can tell if God will turn and repent - There is at least a peradventure for our salvation. God may turn towards us, change his purpose, and save us alive. While there is life there is hope; God has no pleasure in the death of sinners; he is gracious and compassionate. Himself has prescribed repentance; if we repent, and turn to him from our iniquities, who knows then whether God will not turn, etc.",
+      "source_record_sha256": "0b09c738b58d37d9786e1133de0310b192e5f8826e43d185c830ebc22d15240c",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 37299,
+        "length": 501
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 Who can tell if God will turn and repent - There is at least a peradventure for our salvation. God may turn towards us, change his purpose, and save us alive. While there is life there is hope; God has no pleasure in the death of sinners; he is gracious and compassionate. Himself has prescribed repentance; if we repent, and turn to him from our iniquities, who knows then whether God will not turn, etc."
+    },
+    {
+      "entry_id": "sword:clarke:JON.3.10-10:32:37800:640",
+      "passage_start": "JON.3.10",
+      "passage_end": "JON.3.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen34657\" type=\"x-p\"/> <div sID=\"gen34658\" type=\"x-p\"/> And Gods saw their works - They repented, and brought forth fruits meet for repentance; works which showed that they did most earnestly repent. He therefore changed his purpose, and the city was saved. The purpose was: If the Ninevites do not return from their evil ways, and the violence that is in their hands, within forty days, I will destroy the city. The Ninevites did return, etc., and therefore escaped the threatened judgment. Thus we see that the threatening was conditional.  <chapter eID=\"Jonah.3\"/> <div eID=\"gen34658\" type=\"x-p\"/>",
+      "content_plain": "Verse 10 And Gods saw their works - They repented, and brought forth fruits meet for repentance; works which showed that they did most earnestly repent. He therefore changed his purpose, and the city was saved. The purpose was: If the Ninevites do not return from their evil ways, and the violence that is in their hands, within forty days, I will destroy the city. The Ninevites did return, etc., and therefore escaped the threatened judgment. Thus we see that the threatening was conditional.",
+      "source_record_sha256": "1ae1a8ceaac1b2ad9a146863f68c18e0c55ba94afcba9baf5df0b085dbf283f7",
+      "index_record": {
+        "testament": "OT",
+        "block": 32,
+        "offset": 37800,
+        "length": 640
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JON.3.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 And Gods saw their works - They repented, and brought forth fruits meet for repentance; works which showed that they did most earnestly repent. He therefore changed his purpose, and the city was saved. The purpose was: If the Ninevites do not return from their evil ways, and the violence that is in their hands, within forty days, I will destroy the city. The Ninevites did return, etc., and therefore escaped the threatened judgment. Thus we see that the threatening was conditional."
+    }
+  ],
+  "indexed_verse_count": 9,
+  "unindexed_verse_count": 1,
+  "upstream_snapshot_id": "SOTW_JON_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 9
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:JON.3:P:jonah-3-original-chapter-introduction",
+      "navigation_id": "JON.3:P:jonah-3-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Jonah 3 · Original Chapter Introduction",
+      "content_plain": "Introduction Jonah is sent again to Nineveh, a city of three days' journey, (being sixty miles in circumference, according to Diodorus Siculus), Jon 3:1-4 . The inhabitants, in consequence of the prophet's preaching, repent in dust and ashes, Jon 3:5-9 . God, seeing that they were deeply humbled on account of their sins, and that they turned away from all their iniquities, repents of the evil with which he had threatened them, Jon 3:10 .",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen34631\" type=\"introduction\"/> <div sID=\"gen34632\" type=\"x-p\"/> <div eID=\"gen34632\" type=\"x-p\"/> <div eID=\"gen34631\" type=\"introduction\"/> <div sID=\"gen34633\" type=\"x-p\"/> Jonah is sent again to Nineveh, a city of three days' journey, (being sixty miles in circumference, according to Diodorus Siculus), <reference osisRef=\"Jon.3.1-Jon.3.4\">Jon 3:1-4</reference>. The inhabitants, in consequence of the prophet's preaching, repent in dust and ashes, <reference osisRef=\"Jon.3.5-Jon.3.9\">Jon 3:5-9</reference>. God, seeing that they were deeply humbled on account of their sins, and that they turned away from all their iniquities, repents of the evil with which he had threatened them, <reference osisRef=\"Jon.3.10\">Jon 3:10</reference>. <div eID=\"gen34633\" type=\"x-p\"/> <div sID=\"gen34634\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:JON.3.1-1:32:29846:1156",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        887
+      ],
+      "source_fragment_sha256": "9884d24dfcf300ce8fb0a709ba0d5669a7d967e7028f4d04676de871e1d567bb",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "JON.3.1",
+        "JON.3.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 9
+}

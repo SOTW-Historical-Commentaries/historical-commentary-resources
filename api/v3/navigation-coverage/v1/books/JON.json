@@ -1,0 +1,957 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "JON",
+  "snapshot_id": "structured-jonah-2026-11-11",
+  "source_snapshot_unchanged": true,
+  "contract": "Use only this book file for P eligibility; preserved original author chapter sections supply source text.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:JON:P:jonah-original-book-introduction",
+        "navigation_id": "JON:P:jonah-original-book-introduction",
+        "author_id": "matthew-henry",
+        "title": "Jonah · Original Book Introduction",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/1.json",
+          "chapter_file_sha256": "92acc0aa0201d5a2d6c90142ed1e49c536442ce4207dfb818121d60b615b408f",
+          "section_id": "nav:matthew-henry:JON:P:jonah-original-book-introduction",
+          "source_entry_id": "sword:mhc:JON.1.1-3:32:233:12518",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "2f361db74a5b39a6a0f7309a20cfac150eb5fce49cf9fe129456c402084ca9d3",
+          "character_span": [
+            57,
+            3295
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.1:P:a-commission-against-nineveh-the-prophet-s-disobedience-b-c-840",
+        "navigation_id": "JON.1:P:a-commission-against-nineveh-the-prophet-s-disobedience-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "A Commission against Nineveh; The Prophet's Disobedience. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.1.1",
+        "passage_end": "JON.1.3",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "A Commission against Nineveh; The Prophet's Disobedience. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/1.json",
+          "chapter_file_sha256": "92acc0aa0201d5a2d6c90142ed1e49c536442ce4207dfb818121d60b615b408f",
+          "section_id": "nav:matthew-henry:JON.1:P:a-commission-against-nineveh-the-prophet-s-disobedience-b-c-840",
+          "source_entry_id": "sword:mhc:JON.1.1-3:32:233:12518",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7eabff2228586827bf7992df4ce036614aa5e0ec14bc97c0ab3cb86497af5cd5",
+          "character_span": [
+            3295,
+            3453
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.1:P:the-prophet-in-the-storm-the-prophet-convicted-by-the-lot-b-c-840",
+        "navigation_id": "JON.1:P:the-prophet-in-the-storm-the-prophet-convicted-by-the-lot-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "The Prophet in the Storm; The Prophet Convicted by the Lot. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.1.4",
+        "passage_end": "JON.1.10",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "The Prophet in the Storm; The Prophet Convicted by the Lot. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/1.json",
+          "chapter_file_sha256": "92acc0aa0201d5a2d6c90142ed1e49c536442ce4207dfb818121d60b615b408f",
+          "section_id": "nav:matthew-henry:JON.1:P:the-prophet-in-the-storm-the-prophet-convicted-by-the-lot-b-c-840",
+          "source_entry_id": "sword:mhc:JON.1.4-10:32:12751:23455",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "61c7cc0f77121ac9cd0a8a5d4dd85555c9fcecfe1facdac775c0c153dbc06b7a",
+          "character_span": [
+            33,
+            159
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.1:P:the-prophet-confesses-his-folly-the-prophet-reads-his-own-doom-the-prophet-cas",
+        "navigation_id": "JON.1:P:the-prophet-confesses-his-folly-the-prophet-reads-his-own-doom-the-prophet-cas",
+        "author_id": "matthew-henry",
+        "title": "The Prophet Confesses His Folly; The Prophet Reads His Own Doom; The Prophet Cast into the Sea; Jonah's Preservation in the Fish's Belly. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.1.11",
+        "passage_end": "JON.1.17",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "The Prophet Confesses His Folly; The Prophet Reads His Own Doom; The Prophet Cast into the Sea; Jonah's Preservation in the Fish's Belly. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/1.json",
+          "chapter_file_sha256": "92acc0aa0201d5a2d6c90142ed1e49c536442ce4207dfb818121d60b615b408f",
+          "section_id": "nav:matthew-henry:JON.1:P:the-prophet-confesses-his-folly-the-prophet-reads-his-own-doom-the-prophet-cas",
+          "source_entry_id": "sword:mhc:JON.1.11-17:32:36206:21158",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "72215257f5d393f7b87ab41a0b634edf09d628aecd461c2bbbd955a3119c1141",
+          "character_span": [
+            33,
+            238
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.2:P:jonah-2-original-chapter-introduction",
+        "navigation_id": "JON.2:P:jonah-2-original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Jonah 2 · Original Chapter Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah 2 · Original Chapter Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/2.json",
+          "chapter_file_sha256": "8512d3748b4ad22a42e47bd971e9afe0f5b067c15dd250aea74010ae00bc5d30",
+          "section_id": "nav:matthew-henry:JON.2:P:jonah-2-original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 23473,
+          "fragment_sha256": "05bd0c22cfbaead468d0e88efefab26bd2b4331ecfd395799a0ff1a5da6971f9",
+          "character_span": [
+            0,
+            1885
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.2:P:jonah-s-prayer-the-prophet-in-the-fish-s-belly-b-c-840",
+        "navigation_id": "JON.2:P:jonah-s-prayer-the-prophet-in-the-fish-s-belly-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "Jonah's Prayer; The Prophet in the Fish's Belly. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.2.1",
+        "passage_end": "JON.2.9",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jonah's Prayer; The Prophet in the Fish's Belly. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/2.json",
+          "chapter_file_sha256": "8512d3748b4ad22a42e47bd971e9afe0f5b067c15dd250aea74010ae00bc5d30",
+          "section_id": "nav:matthew-henry:JON.2:P:jonah-s-prayer-the-prophet-in-the-fish-s-belly-b-c-840",
+          "source_entry_id": "sword:mhc:JON.2.1-9:32:59249:29307",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "bb48944d2360e31bbc8bfe91dd8dfa9f829447d181e959f1b92bb8ad43f866ce",
+          "character_span": [
+            75,
+            190
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.2:P:jonah-s-deliverance-b-c-840",
+        "navigation_id": "JON.2:P:jonah-s-deliverance-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "Jonah's Deliverance. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.2.10",
+        "passage_end": "JON.2.10",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jonah's Deliverance. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/2.json",
+          "chapter_file_sha256": "8512d3748b4ad22a42e47bd971e9afe0f5b067c15dd250aea74010ae00bc5d30",
+          "section_id": "nav:matthew-henry:JON.2:P:jonah-s-deliverance-b-c-840",
+          "source_entry_id": "sword:mhc:JON.2.10-10:32:88556:2651",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "19ae4bc49d588955011b249d484c68a30763612220e46be3ae4b425083cb9ff5",
+          "character_span": [
+            33,
+            120
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.3:P:jonah-3-original-chapter-introduction",
+        "navigation_id": "JON.3:P:jonah-3-original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Jonah 3 · Original Chapter Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah 3 · Original Chapter Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/3.json",
+          "chapter_file_sha256": "e9ce42a2ef17fae6405cf6497e23a9fde39463df20d25786e8804c6d73db6dbb",
+          "section_id": "nav:matthew-henry:JON.3:P:jonah-3-original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 23484,
+          "fragment_sha256": "46b6fd358d9d7b101576b199d73b06e541a43076b29e820436b40163035d930e",
+          "character_span": [
+            0,
+            834
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.3:P:jonah-s-mission-renewed-the-prophet-s-mission-to-nineveh-b-c-840",
+        "navigation_id": "JON.3:P:jonah-s-mission-renewed-the-prophet-s-mission-to-nineveh-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "Jonah's Mission Renewed; The Prophet's Mission to Nineveh. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.3.1",
+        "passage_end": "JON.3.4",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jonah's Mission Renewed; The Prophet's Mission to Nineveh. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/3.json",
+          "chapter_file_sha256": "e9ce42a2ef17fae6405cf6497e23a9fde39463df20d25786e8804c6d73db6dbb",
+          "section_id": "nav:matthew-henry:JON.3:P:jonah-s-mission-renewed-the-prophet-s-mission-to-nineveh-b-c-840",
+          "source_entry_id": "sword:mhc:JON.3.1-4:32:92041:17165",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "e0b85467be2996cc16847a0ecee647e97a3b710d03978bd4182f1a1adc26b7a9",
+          "character_span": [
+            75,
+            200
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.3:P:nineveh-s-repentance-b-c-840",
+        "navigation_id": "JON.3:P:nineveh-s-repentance-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "Nineveh's Repentance. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.3.5",
+        "passage_end": "JON.3.10",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Nineveh's Repentance. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/3.json",
+          "chapter_file_sha256": "e9ce42a2ef17fae6405cf6497e23a9fde39463df20d25786e8804c6d73db6dbb",
+          "section_id": "nav:matthew-henry:JON.3:P:nineveh-s-repentance-b-c-840",
+          "source_entry_id": "sword:mhc:JON.3.5-10:32:109206:19509",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "b54e50d439c71a9eb108cf7548b653ca10fe20c909199984f33bf3fc20f01048",
+          "character_span": [
+            51,
+            139
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.4:P:jonah-4-original-chapter-introduction",
+        "navigation_id": "JON.4:P:jonah-4-original-chapter-introduction",
+        "author_id": "matthew-henry",
+        "title": "Jonah 4 · Original Chapter Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah 4 · Original Chapter Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/4.json",
+          "chapter_file_sha256": "3230ae009876fe8a25a762c8c978d25553529917e75c0171e58bc91d52778708",
+          "section_id": "nav:matthew-henry:JON.4:P:jonah-4-original-chapter-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "chapter_marker",
+          "source_marker_index": 23495,
+          "fragment_sha256": "3bfdc9805aeac056c30c87b9bce4f2db053bbec87522913961ae317b717c0a93",
+          "character_span": [
+            0,
+            2002
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.4:P:the-prophet-s-discontent-b-c-840",
+        "navigation_id": "JON.4:P:the-prophet-s-discontent-b-c-840",
+        "author_id": "matthew-henry",
+        "title": "The Prophet's Discontent. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.4.1",
+        "passage_end": "JON.4.4",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "The Prophet's Discontent. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/4.json",
+          "chapter_file_sha256": "3230ae009876fe8a25a762c8c978d25553529917e75c0171e58bc91d52778708",
+          "section_id": "nav:matthew-henry:JON.4:P:the-prophet-s-discontent-b-c-840",
+          "source_entry_id": "sword:mhc:JON.4.1-4:32:130717:13506",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d7b8cbe5be4b8b9415cfdfb0eb20e98fb5a48dfdcd3ac80aeb6b6a14e746c06a",
+          "character_span": [
+            75,
+            167
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:JON.4:P:the-prophet-s-discontent-the-withering-of-the-prophet-s-gourd-god-s-remonstran",
+        "navigation_id": "JON.4:P:the-prophet-s-discontent-the-withering-of-the-prophet-s-gourd-god-s-remonstran",
+        "author_id": "matthew-henry",
+        "title": "The Prophet's Discontent; The Withering of the Prophet's Gourd; God's Remonstrance with Jonah. ( b. c. 840.)",
+        "role": "passage_heading",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.4.5",
+        "passage_end": "JON.4.11",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "The Prophet's Discontent; The Withering of the Prophet's Gourd; God's Remonstrance with Jonah. ( b. c. 840.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/matthew-henry/JON/4.json",
+          "chapter_file_sha256": "3230ae009876fe8a25a762c8c978d25553529917e75c0171e58bc91d52778708",
+          "section_id": "nav:matthew-henry:JON.4:P:the-prophet-s-discontent-the-withering-of-the-prophet-s-gourd-god-s-remonstran",
+          "source_entry_id": "sword:mhc:JON.4.5-11:32:144223:20907",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "af51df0927560cfcbbd74c8cb0de19c1a47af607d2feb425e2e9ac2b8bdc0667",
+          "character_span": [
+            33,
+            195
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:JON:P:jonah-original-book-introduction",
+        "navigation_id": "JON:P:jonah-original-book-introduction",
+        "author_id": "adam-clarke",
+        "title": "Jonah · Original Book Introduction",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/1.json",
+          "chapter_file_sha256": "2bdb031efa3a890d1c0de1fb15e87ada17189389dc86c5cc338332249602d9cd",
+          "section_id": "nav:adam-clarke:JON:P:jonah-original-book-introduction",
+          "source_entry_id": "sword:clarke:JON.1.1-1:32:258:10213",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f16702d4e44f9de90260ba644aff824ebc68c70081414e9d0f8f6db30c7fbdb9",
+          "character_span": [
+            33,
+            9446
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JON.2:P:jonah-2-original-chapter-introduction",
+        "navigation_id": "JON.2:P:jonah-2-original-chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Jonah 2 · Original Chapter Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah 2 · Original Chapter Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/2.json",
+          "chapter_file_sha256": "51f02d25b2f292c691aab4b63e1b7d96b4c5450506f2236fb83bd8a19f5c06f3",
+          "section_id": "nav:adam-clarke:JON.2:P:jonah-2-original-chapter-introduction",
+          "source_entry_id": "sword:clarke:JON.2.1-1:32:21578:1280",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "8031d8067a1f2af30a8b07736ea9bf1e558d031c4d5beee35f15a7d7a4677e63",
+          "character_span": [
+            33,
+            577
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JON.3:P:jonah-3-original-chapter-introduction",
+        "navigation_id": "JON.3:P:jonah-3-original-chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Jonah 3 · Original Chapter Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah 3 · Original Chapter Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/3.json",
+          "chapter_file_sha256": "03a2df3fccd84b61a54b8eac91501e5217070968eeae0b23b951258f1b026c2c",
+          "section_id": "nav:adam-clarke:JON.3:P:jonah-3-original-chapter-introduction",
+          "source_entry_id": "sword:clarke:JON.3.1-1:32:29846:1156",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "9884d24dfcf300ce8fb0a709ba0d5669a7d967e7028f4d04676de871e1d567bb",
+          "character_span": [
+            33,
+            887
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:adam-clarke:JON.4:P:jonah-4-original-chapter-introduction",
+        "navigation_id": "JON.4:P:jonah-4-original-chapter-introduction",
+        "author_id": "adam-clarke",
+        "title": "Jonah 4 · Original Chapter Introduction",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah 4 · Original Chapter Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/adam-clarke/JON/4.json",
+          "chapter_file_sha256": "eb15e1d664b24275b5ebbe79bfd1f22d81e7ad9be330b4abe594f1589aebe7c4",
+          "section_id": "nav:adam-clarke:JON.4:P:jonah-4-original-chapter-introduction",
+          "source_entry_id": "sword:clarke:JON.4.1-1:32:38521:1661",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "ed7f4ae950b86f0366d8d986eba40b6ce397306514d39cde9e2f54bcc9eeac87",
+          "character_span": [
+            33,
+            975
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:GROUP:PROPHETICAL:P:prophetical",
+        "navigation_id": "GROUP:PROPHETICAL:P:prophetical",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Introduction to prophetical books",
+        "role": "group_introduction",
+        "scope": "book_group",
+        "original_scope": "book_group",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "accepted_original_JFB_latter_prophets_group_includes_Jonah",
+        "source_evidence": "Previously verified Genesis-hosted JFB Prophetical Books introduction applies to Jonah by original former/latter-prophet scope; immutable source pointer reused.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-genesis-2026-11-03/authors/jamieson-fausset-brown/GEN/1.json",
+          "chapter_file_sha256": "e6ee6f2a7ac203401b1a2389d08f3a85970a445dd79b3450acd9926559b18217",
+          "section_id": "nav:jamieson-fausset-brown:GROUP:PROPHETICAL:P:prophetical",
+          "source_entry_id": "sword:jfb:GEN.1.1-1:1:345:107688",
+          "fragment_sha256": "4bc153805ba7ea77c4c066e74acfa02f0d20e2efc48e4ca7ea1282fafc5cef0e",
+          "character_span": [
+            48568,
+            58962
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON:P:jonah-original-book-introduction",
+        "navigation_id": "JON:P:jonah-original-book-introduction",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jonah · Original Book Introduction",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/1.json",
+          "chapter_file_sha256": "0d9a5cedb649a8410c630080d1b33d64650c3b389970b801cd8301e25a0f3c76",
+          "section_id": "nav:jamieson-fausset-brown:JON:P:jonah-original-book-introduction",
+          "source_entry_id": "sword:jfb:JON.1.1-1:32:394:9121",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4bd4c2e1cb754b6c2b407f0cbbd49efbd3d1602016cacb2f174c049c15534bd3",
+          "character_span": [
+            60,
+            8276
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.1:P:chapter-1",
+        "navigation_id": "JON.1:P:chapter-1",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 1",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "CHAPTER 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/1.json",
+          "chapter_file_sha256": "0d9a5cedb649a8410c630080d1b33d64650c3b389970b801cd8301e25a0f3c76",
+          "section_id": "nav:jamieson-fausset-brown:JON.1:P:chapter-1",
+          "source_entry_id": "sword:jfb:JON.1.1-1:32:394:9121",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c4c7e85f8cc229520a40ca3c451c39bc0fc2826dbdcfd74bf970753c4e9af4ae",
+          "character_span": [
+            8276,
+            8312
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.1:P:jon-1-1-17-jonah-s-commission-to-nineveh-flight-punishment-and-preservation-by",
+        "navigation_id": "JON.1:P:jon-1-1-17-jonah-s-commission-to-nineveh-flight-punishment-and-preservation-by",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jon 1:1-17 . Jonah's Commission to Nineveh, Flight, Punishment, and Preservation by Miracle.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.1.1",
+        "passage_end": "JON.1.17",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jon 1:1-17 . Jonah's Commission to Nineveh, Flight, Punishment, and Preservation by Miracle.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/1.json",
+          "chapter_file_sha256": "0d9a5cedb649a8410c630080d1b33d64650c3b389970b801cd8301e25a0f3c76",
+          "section_id": "nav:jamieson-fausset-brown:JON.1:P:jon-1-1-17-jonah-s-commission-to-nineveh-flight-punishment-and-preservation-by",
+          "source_entry_id": "sword:jfb:JON.1.1-1:32:394:9121",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "0a1d977cfc4582ee4905d9bc516f806598c62109f664c1e39d756ce3852cd38b",
+          "character_span": [
+            8312,
+            8577
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.2:P:chapter-2",
+        "navigation_id": "JON.2:P:chapter-2",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 2",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "CHAPTER 2",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/2.json",
+          "chapter_file_sha256": "f1d08a191bfd54d75bdc4430f55999e0c431fe62df8cb54850918dc3d261347c",
+          "section_id": "nav:jamieson-fausset-brown:JON.2:P:chapter-2",
+          "source_entry_id": "sword:jfb:JON.2.1-1:32:25921:906",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "5db6ab0485cf770c72a9672669f91033d4fc62dce54517a07efd2aa35d0de581",
+          "character_span": [
+            60,
+            97
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.2:P:jon-2-1-10-jonah-s-prayer-of-faith-and-deliverance",
+        "navigation_id": "JON.2:P:jon-2-1-10-jonah-s-prayer-of-faith-and-deliverance",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jon 2:1-10 . Jonah's Prayer of Faith and Deliverance.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.2.1",
+        "passage_end": "JON.2.10",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jon 2:1-10 . Jonah's Prayer of Faith and Deliverance.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/2.json",
+          "chapter_file_sha256": "f1d08a191bfd54d75bdc4430f55999e0c431fe62df8cb54850918dc3d261347c",
+          "section_id": "nav:jamieson-fausset-brown:JON.2:P:jon-2-1-10-jonah-s-prayer-of-faith-and-deliverance",
+          "source_entry_id": "sword:jfb:JON.2.1-1:32:25921:906",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "d14df8a009aa4ba752193b0bc757bd677544d579be34eb6eb451722c9b9d184d",
+          "character_span": [
+            97,
+            323
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.3:P:chapter-3",
+        "navigation_id": "JON.3:P:chapter-3",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 3",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "CHAPTER 3",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/3.json",
+          "chapter_file_sha256": "d38a6647fceeb70dcc64e262c26f5b9f5014b112424b1b2518caf5c86e49124b",
+          "section_id": "nav:jamieson-fausset-brown:JON.3:P:chapter-3",
+          "source_entry_id": "sword:jfb:JON.3.2-2:32:35545:755",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "11c2a8bbcd5fbe57ee52779ab16c7bb95d345b94df70b1537e6c774524219511",
+          "character_span": [
+            60,
+            97
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.3:P:jon-3-1-10-jonah-s-second-commission-to-nineveh-the-ninevites-repent-of-their-",
+        "navigation_id": "JON.3:P:jon-3-1-10-jonah-s-second-commission-to-nineveh-the-ninevites-repent-of-their-",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jon 3:1-10 . Jonah's Second Commission to Nineveh: The Ninevites Repent of Their Evil Way: So God Repents of the Evil Threatened.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.3.1",
+        "passage_end": "JON.3.10",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jon 3:1-10 . Jonah's Second Commission to Nineveh: The Ninevites Repent of Their Evil Way: So God Repents of the Evil Threatened.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/3.json",
+          "chapter_file_sha256": "d38a6647fceeb70dcc64e262c26f5b9f5014b112424b1b2518caf5c86e49124b",
+          "section_id": "nav:jamieson-fausset-brown:JON.3:P:jon-3-1-10-jonah-s-second-commission-to-nineveh-the-ninevites-repent-of-their-",
+          "source_entry_id": "sword:jfb:JON.3.2-2:32:35545:755",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "a83ace120219e0ee515601e05683ee340998ab87fb97433e95be9e3dd477c777",
+          "character_span": [
+            97,
+            399
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.4:P:chapter-4",
+        "navigation_id": "JON.4:P:chapter-4",
+        "author_id": "jamieson-fausset-brown",
+        "title": "CHAPTER 4",
+        "role": "chapter_heading",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "CHAPTER 4",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/4.json",
+          "chapter_file_sha256": "e5e7acfda556d57869925db24595ab06286df2d0901ec7bd17f31207028c7b61",
+          "section_id": "nav:jamieson-fausset-brown:JON.4:P:chapter-4",
+          "source_entry_id": "sword:jfb:JON.4.1-1:32:51318:3973",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "7686630479bceb56329c1949b5132c655de72487e42154de43636bbbd3d5181f",
+          "character_span": [
+            60,
+            97
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:JON.4:P:jon-4-1-11-jonah-frets-at-god-s-mercy-to-nineveh-is-reproved-by-the-type-of-a-",
+        "navigation_id": "JON.4:P:jon-4-1-11-jonah-frets-at-god-s-mercy-to-nineveh-is-reproved-by-the-type-of-a-",
+        "author_id": "jamieson-fausset-brown",
+        "title": "Jon 4:1-11 . Jonah Frets at God's Mercy to Nineveh: Is Reproved by the Type of a Gourd.",
+        "role": "passage_overview",
+        "scope": "passage",
+        "original_scope": "passage",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": "JON.4.1",
+        "passage_end": "JON.4.11",
+        "applicability_basis": "explicit_original_SWORD_title_or_same_binary_record_range",
+        "source_evidence": "Jon 4:1-11 . Jonah Frets at God's Mercy to Nineveh: Is Reproved by the Type of a Gourd.",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/jamieson-fausset-brown/JON/4.json",
+          "chapter_file_sha256": "e5e7acfda556d57869925db24595ab06286df2d0901ec7bd17f31207028c7b61",
+          "section_id": "nav:jamieson-fausset-brown:JON.4:P:jon-4-1-11-jonah-frets-at-god-s-mercy-to-nineveh-is-reproved-by-the-type-of-a-",
+          "source_entry_id": "sword:jfb:JON.4.1-1:32:51318:3973",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1ee1d3a7676467159b968a36cba79d639c47a0139b00de97ef36f0fef024d74c",
+          "character_span": [
+            97,
+            357
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:JON:P:jonah-original-book-introduction",
+        "navigation_id": "JON:P:jonah-original-book-introduction",
+        "author_id": "keil-delitzsch",
+        "title": "Jonah · Original Book Introduction",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/keil-delitzsch/JON/1.json",
+          "chapter_file_sha256": "0ba9212a09fa81ae9d75bf9999128748be0f6309554e4c40cb8f16afaf07ddcd",
+          "section_id": "nav:keil-delitzsch:JON:P:jonah-original-book-introduction",
+          "source_entry_id": "sword:kd:JON.1.1-2:40:147:34131",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "4c9d3e1c28bd1e4c0bcbbe4708ab98becfb557a8acc6678ec0744b565d5e17fe",
+          "character_span": [
+            33,
+            27474
+          ]
+        },
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:keil-delitzsch:JON.1:P:mission-of-jonah-to-nineveh-his-flight-and-punishment-jonah-1",
+        "navigation_id": "JON.1:P:mission-of-jonah-to-nineveh-his-flight-and-punishment-jonah-1",
+        "author_id": "keil-delitzsch",
+        "title": "Mission of Jonah to Nineveh His Flight and Punishment - Jonah 1",
+        "role": "chapter_introduction",
+        "scope": "chapter",
+        "original_scope": "chapter",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Mission of Jonah to Nineveh His Flight and Punishment - Jonah 1",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/keil-delitzsch/JON/1.json",
+          "chapter_file_sha256": "0ba9212a09fa81ae9d75bf9999128748be0f6309554e4c40cb8f16afaf07ddcd",
+          "section_id": "nav:keil-delitzsch:JON.1:P:mission-of-jonah-to-nineveh-his-flight-and-punishment-jonah-1",
+          "source_entry_id": "sword:kd:JON.1.1-2:40:147:34131",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "774b4cfdde9ed18fd5559ee4932e7ab68203e1ac5a5cb328fd77598694d4c043",
+          "character_span": [
+            27474,
+            28291
+          ]
+        },
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:JON:P:john-gill-book-introduction",
+        "navigation_id": "JON:P:john-gill-book-introduction",
+        "author_id": "john-gill",
+        "title": "Jonah · Original Book Introduction",
+        "role": "book_introduction",
+        "scope": "book",
+        "original_scope": "book",
+        "status": "active",
+        "eligible_books": [
+          "JON"
+        ],
+        "passage_start": null,
+        "passage_end": null,
+        "applicability_basis": "verified_original_book_or_chapter_source_introduction",
+        "source_evidence": "Jonah · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-jonah-2026-11-11/authors/john-gill/JON/1.json",
+          "chapter_file_sha256": "5e8c14b20f7d762cc07b301243ab7aca5f73ffb64e9b29183946bba8d3a46229",
+          "section_id": "nav:john-gill:JON:P:john-gill-book-introduction",
+          "source_entry_id": null,
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "cc1e881043874fd83f7fa2965a3415081e8dc248e8386057098ba125e4c3a44d",
+          "character_span": null
+        },
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Jonah comprises four KJV chapters and 48 verse coordinates, verified from original SWORD native book/chapter markers.",
+    "Original Matthew Henry book introduction and subsequent chapter marker prose are P sections, not standalone verse-one exposition.",
+    "Original Clarke four introductions and JFB book/chapters and chapter-range headings are source-bounded P, never substituted for verse commentary.",
+    "Original KD Jonah book introduction and separate chapter-one overview are P; original linked Jonah 1:1-2 exposition remains in verse mode.",
+    "All John Gill source original explicit verse anchors preserved; missing source-specific SWORD indexes remain unavailable rather than inferred.",
+    "Previously accepted JFB Prophetical Books introduction reused by original immutable Genesis source pointer/hash.",
+    "Earlier 31 accepted book snapshots, readers, shared metadata, CGBC/player and workflows unchanged."
+  ]
+}
