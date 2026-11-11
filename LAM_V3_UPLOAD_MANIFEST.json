@@ -1,0 +1,281 @@
+{
+  "kind": "SOTW_one_book_verified_repo_root_release_manifest",
+  "version": "LAM-v3-2026-11-10",
+  "book": "LAM",
+  "book_name": "Lamentations",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-lamentations-2026-11-10",
+  "baseline_main_commit": "c93e9b4629e3f7ebedf9145b85a3fc6537afb057",
+  "baseline_navigation_manifest_git_blob": "717eff4f3604180bdfe6df6516328e4e1a9aafd1",
+  "baseline_navigation_sha256": "54370f9382e8d95da48035f0b5b99590dbfb784b8b39d0844eea7678da961838",
+  "prerequisites": [
+    {
+      "book": "JER",
+      "snapshot": "structured-jeremiah-2026-11-09",
+      "required_navigation_version": "navigation-coverage-v1.17-additive-jeremiah",
+      "required_navigation_sha256": "54370f9382e8d95da48035f0b5b99590dbfb784b8b39d0844eea7678da961838",
+      "order": 1
+    }
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 39,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/LAM.json",
+      "bytes": 59514,
+      "sha256": "a2b66259638bff318e4f6a92cd26231d4d4f2a2c008dc24747d0699c70cc3158"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 12783,
+      "sha256": "2b7d0ce0e422a34f0fdb192c4e112232dd4dac374529cab887d83ed22e7ecb33"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/adam-clarke/LAM/1.json",
+      "bytes": 85010,
+      "sha256": "a18ca2bf0ec7082d0d6b868440f4a527df8364b768fc902bf06333cff0025138"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/adam-clarke/LAM/2.json",
+      "bytes": 50359,
+      "sha256": "b5343dbae5f3d52a6a70d0a1021644fdf3ee0a61e6f59eff253aa3bb660e6a64"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/adam-clarke/LAM/3.json",
+      "bytes": 78992,
+      "sha256": "ce0e198a2f09139c273c5b950fd62d14795511c92df92ae39a58a702d7622632"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/adam-clarke/LAM/4.json",
+      "bytes": 47668,
+      "sha256": "234b3459eee270807c6032d1630c10c2411d0e8b8f711b0ae93a4a33e889108d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/adam-clarke/LAM/5.json",
+      "bytes": 58537,
+      "sha256": "213d0cff396a1c809477f70aca6abbe179b9422e1479b111fbedd3f9c94cb8ae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/jamieson-fausset-brown/LAM/1.json",
+      "bytes": 69231,
+      "sha256": "236a3db2e75d7af963659373910769f9a64bc75bcef340f46082f29995ca48ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/jamieson-fausset-brown/LAM/2.json",
+      "bytes": 54615,
+      "sha256": "82b6ebbf843adfce8f7df759b79243d1053b3a858bc3c966d18ee87b67c0c3fc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/jamieson-fausset-brown/LAM/3.json",
+      "bytes": 37464,
+      "sha256": "298c48afbee713ffe42fcb9f601ec02951688e71c914e96d8315c80550fa1511"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/jamieson-fausset-brown/LAM/4.json",
+      "bytes": 58492,
+      "sha256": "01f7e2b37f358876720a36cf7487e1d2aed7bcfe65f1b2dca6615701326dbfa4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/jamieson-fausset-brown/LAM/5.json",
+      "bytes": 41942,
+      "sha256": "6b51be8e76ad6e0d0c7f2c03774dffb1bfb622d61c11e703c5f59b508e50edb7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-calvin/LAM/1.json",
+      "bytes": 352955,
+      "sha256": "8131f00f9afd669764bebe6110714f730b2662a4850c093046b8c84e3837f87b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-calvin/LAM/2.json",
+      "bytes": 373967,
+      "sha256": "d7f8bde757bae9da8ad49ca57c6e0ee32b053aa358e34b754becc8e544308935"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-calvin/LAM/3.json",
+      "bytes": 588198,
+      "sha256": "380305b140d630226501d10c5a1f2284c42d981308e64123456616e070825da9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-calvin/LAM/4.json",
+      "bytes": 308196,
+      "sha256": "46725730db38b4d040c1c015c1fbb2045a695e4ce0b32feef9f7f31f18e5e86f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-calvin/LAM/5.json",
+      "bytes": 210884,
+      "sha256": "21394994d4fba3df7fe4780a7b812ad51ab8601dece352434f2bbf5be35a670b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-gill/LAM/1.json",
+      "bytes": 200224,
+      "sha256": "236e8124fcda18ed8494456bc7df06aaab973f13e644ffd12c38ce1a65341a10"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-gill/LAM/2.json",
+      "bytes": 160820,
+      "sha256": "ee661562d876aebc793a05157f37d0cde2f1f34bf76612ed5f0924b856cbeb2e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-gill/LAM/3.json",
+      "bytes": 336280,
+      "sha256": "9658bc66c07b5c4323844ad121e16d39bd13d7fe87ab3306289c27b3928714c2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-gill/LAM/4.json",
+      "bytes": 179144,
+      "sha256": "ab7cebb1659d5be24e4857d7bba626513168d132f378200a8152f7aba3eaa207"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/john-gill/LAM/5.json",
+      "bytes": 96372,
+      "sha256": "bc404077cf8bbabf3bbc97e527ebd852c16ecd924fcced8fee7f876f37245ff7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/keil-delitzsch/LAM/1.json",
+      "bytes": 349436,
+      "sha256": "3a405a086e535a5191113003162304e4cde0c07eca0f496a7b0dec8c3981763f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/keil-delitzsch/LAM/2.json",
+      "bytes": 12312,
+      "sha256": "f28e14106cbcb3a1170a05dd4ee5dc957714f3cb63a2c7c12062c8c1714c7062"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/keil-delitzsch/LAM/3.json",
+      "bytes": 202197,
+      "sha256": "008650ea5ba3181aa10bdc34a29185817ec04b2e242813e27bc7563f4789e73a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/keil-delitzsch/LAM/4.json",
+      "bytes": 123926,
+      "sha256": "7a018f2edd3fec6d8eb28a52cf4309329dd02c3f5b33842db6eb0285ccf19030"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/keil-delitzsch/LAM/5.json",
+      "bytes": 54510,
+      "sha256": "20a117a88980e7a4b2fba75c8d20c7ca2ab1d91c2aa33b7fae294e3cfea5fba4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/matthew-henry/LAM/1.json",
+      "bytes": 174181,
+      "sha256": "c6eb41dd8d6c066b97590d11b68d55a285d1a842f56d73ff27f559c1f95f9452"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/matthew-henry/LAM/2.json",
+      "bytes": 134657,
+      "sha256": "47e757dd06a1a0d12cc94661122d55d9e3bbecc1ff084c2ff5f752fc7451d320"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/matthew-henry/LAM/3.json",
+      "bytes": 209527,
+      "sha256": "17e5e28adf6e1552f8f8d2f0a22e2983946fff3e4e4a981577679d87abeab383"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/matthew-henry/LAM/4.json",
+      "bytes": 108384,
+      "sha256": "a40188de3d21a4a02a9ce3e344166a3c087c364b5d8e133a4669cbb78031f13f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/authors/matthew-henry/LAM/5.json",
+      "bytes": 85713,
+      "sha256": "b0ebfe0a9f821c0fc3c24c8c455b4c24574c1cd1eb6784f007bccd746e6eac9b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/index/LAM/1.json",
+      "bytes": 13219,
+      "sha256": "216f6f449d34d05d09d6b52adc7dab0eebd073d4a557a901002b17d681a71b5e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/index/LAM/2.json",
+      "bytes": 10239,
+      "sha256": "5beea809121ec04afa553609f4baa8b9b41e1d8e44dcdece5afc9983ce0917b8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/index/LAM/3.json",
+      "bytes": 22699,
+      "sha256": "246911c8eca56192237123463a3350e7594bf936c6fc621313bf7b9986946b19"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/index/LAM/4.json",
+      "bytes": 11035,
+      "sha256": "b3cccd92c4fdbc72e1bf9defe5a894d7cc655baace9b71caa278b0f1ff448744"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/index/LAM/5.json",
+      "bytes": 10618,
+      "sha256": "eb83c4ce7890a5ddf5a632858758896f1ed2ed83a8a555e1e038e8232f66ab43"
+    },
+    {
+      "path": "api/v3/snapshots/structured-lamentations-2026-11-10/manifest.json",
+      "bytes": 1753,
+      "sha256": "85d907f6360f69c9ed7a3bd74365a635f8c065d537c66fcac5482eb677b94774"
+    },
+    {
+      "path": "review-lamentations-v3.html",
+      "bytes": 14439,
+      "sha256": "3623005b8cdcbb156e23ac3efb910cb4280f5106c69927703a911c81435b194e"
+    }
+  ],
+  "qa": {
+    "source_archive_SHA_and_CRC": "PASS",
+    "original_SWORD_native_index_verses": "PASS",
+    "independent_source_assertions": 8635,
+    "reader_syntax_navigation": "PASS",
+    "reader_checks": 2902,
+    "cumulative_manifest_predecessor_sha256": "54370f9382e8d95da48035f0b5b99590dbfb784b8b39d0844eea7678da961838",
+    "expected_root_file_count": 40,
+    "planned_upload_batches": 1,
+    "previous_24_book_files_repacked": 0,
+    "existing_path_changes": [
+      "api/v3/navigation-coverage/v1/manifest.json"
+    ],
+    "live_browser_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 5,
+    "verse_coordinates": 154,
+    "author_chapter_records": 30,
+    "source_entries": 588,
+    "original_P_sections": 42,
+    "total_routed_P_sections": 42,
+    "inherited_source_links": 0,
+    "assertions_total": 8635,
+    "source_archive_count": 6,
+    "baseline_main_commit": "c93e9b4629e3f7ebedf9145b85a3fc6537afb057"
+  },
+  "release_scope": {
+    "added_book": "LAM",
+    "previous_24_books_unchanged": true,
+    "new_paths": 39,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "original_source_P_sections": 42,
+    "source_linked_inherited_prefaces": 0,
+    "player_and_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Original historical commentators, five SHA-locked CrossWire/SWORD module texts and original binary verse indexes with module rights notices; original HelloAO John Gill only and whole-missing-SWORD-chapter fallback when applicable. No Bible translation text. Partial-source verse gaps left unindexed.",
+  "high_risk_original_source_evidence": [
+    "Keil-Delitzsch original long Lamentations introduction and poem kept separate from first-verse exposition",
+    "Adam Clarke original book and chapter introductory material separated using native bold Verse 1 markers",
+    "Matthew Henry original Lamentations book introduction separated at original superscript 1",
+    "JFB CHAPTER (ELEGY) headings are chapter-scoped, not invented book introductions",
+    "No inherited JFB Prophetical Books P item because original group does not explicitly list Lamentations",
+    "John Gill all 154 original verse items independently source-verified"
+  ],
+  "safeguards": [
+    "Recheck live GitHub main and cumulative navigation manifest before installation; never overwrite new unrelated commits.",
+    "ZIPs are transport packages: extract before GitHub upload, preserving all repository-root paths.",
+    "Upload cumulative navigation manifest LAST, after all 39 new files are present.",
+    "Do not modify previous book records, production CGBC player, Github actions or deployment settings.",
+    "Latest observed Jeremiah GitHub Pages deploy failed after successful build; investigate deployment independently before claiming browser availability."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_AND_LATEST_PAGES_PENDING"
+}

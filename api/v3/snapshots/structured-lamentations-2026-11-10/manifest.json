@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-lamentations-2026-11-10",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "LAM"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 30,
+    "original_entries": 588,
+    "navigation_sections": 42,
+    "reader_visible_entries": 588,
+    "verse_author_routes": 874,
+    "sword_chapters": 25,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 5,
+    "chapters": 5
+  },
+  "chapter_verse_count": {
+    "1": 22,
+    "2": 22,
+    "3": 66,
+    "4": 22,
+    "5": 22
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "SHA-locked original five CrossWire SWORD editions with native binary verse/range index; HelloAO John Gill and wholly missing SWORD chapters only.",
+  "reader_policy": "Verse by default; source-scoped P introductions and headings. Prefatory prose not automatically Lamentations x:1 exposition.",
+  "provenance_policy": "Original historical author, original source OSIS/HelloAO items, native binary index, file SHA and licenses retained.",
+  "notes": [
+    "Only Lamentations added after twenty-four book cumulative navigation baseline.",
+    "No inherited group preface is activated without verified explicit book membership.",
+    "Original source gaps are retained only for their actual chapter coordinates; no per-verse cross-edition substitution.",
+    "No Bible translation text, CGBC player integration, or deployment."
+  ]
+}
