@@ -1,0 +1,632 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-daniel-2026-11-11",
+  "canonical_chapter": "DAN.9",
+  "verse_count": 27,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/9.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 3,
+      "reader_visible_entries": 3,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 27
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/9.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 26,
+      "reader_visible_entries": 26,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 26
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/9.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 15,
+      "reader_visible_entries": 15,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 15
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/9.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 26,
+      "reader_visible_entries": 26,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 26
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/9.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 8,
+      "reader_visible_entries": 8,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 27
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/9.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 27,
+      "reader_visible_entries": 27,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 27
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        7
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        15
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        17
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        19
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        21
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        22
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        22
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        23
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        23
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        24
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        24
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        25
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        25
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        26
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:DAN.9:P:daniel-s-confession-and-prayer-b-c-538",
+        "navigation_id": "DAN.9:P:daniel-s-confession-and-prayer-b-c-538",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Daniel's Confession and Prayer. ( b. c. 538.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:DAN.9:P:daniel-s-confession-and-prayer-daniel-s-prayer-for-his-people-b-c-538",
+        "navigation_id": "DAN.9:P:daniel-s-confession-and-prayer-daniel-s-prayer-for-his-people-b-c-538",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Daniel's Confession and Prayer; Daniel's Prayer for His People. ( b. c. 538.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:DAN.9:P:daniel-s-prayer-answered-the-answer-to-daniel-s-prayer-the-coming-of-the-messi",
+        "navigation_id": "DAN.9:P:daniel-s-prayer-answered-the-answer-to-daniel-s-prayer-the-coming-of-the-messi",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Daniel's Prayer Answered; The Answer to Daniel's Prayer; The Coming of the Messiah; Destruction of Jerusalem Foretold. ( b. c. 538.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:DAN.9:P:original-chapter-introduction",
+        "navigation_id": "DAN.9:P:original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Daniel 9 · Original chapter introduction"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:DAN.9:P:introduction",
+        "navigation_id": "DAN.9:P:introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:DAN.9:P:chapter-9",
+        "navigation_id": "DAN.9:P:chapter-9",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 9"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:DAN.9:P:da-9-1-27-daniel-s-confession-and-prayer-for-jerusalem-gabriel-comforts-him-by",
+        "navigation_id": "DAN.9:P:da-9-1-27-daniel-s-confession-and-prayer-for-jerusalem-gabriel-comforts-him-by",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Da 9:1-27 . Daniel's Confession and Prayer for Jerusalem: Gabriel Comforts Him by the Prophecy of the Seventy Weeks."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:DAN.9:P:the-seventy-weeks",
+        "navigation_id": "DAN.9:P:the-seventy-weeks",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Seventy Weeks"
+      }
+    ],
+    "john-gill": []
+  },
+  "nav_policy": "P headings are source evidence; authoritative P applicability is api/v3/navigation-coverage/v1/books/DAN.json. Verse routes link only original source-indexed records."
+}

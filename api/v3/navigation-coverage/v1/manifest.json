@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.19-additive-ezekiel",
+  "version": "navigation-coverage-v1.20-additive-daniel",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -30,7 +30,8 @@
     "ISA",
     "JER",
     "LAM",
-    "EZK"
+    "EZK",
+    "DAN"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -58,7 +59,8 @@
     "ISA": "structured-isaiah-2026-11-09",
     "JER": "structured-jeremiah-2026-11-09",
     "LAM": "structured-lamentations-2026-11-10",
-    "EZK": "structured-ezekiel-2026-11-11"
+    "EZK": "structured-ezekiel-2026-11-11",
+    "DAN": "structured-daniel-2026-11-11"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -72,7 +74,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 5214,
+    "original_P_sections": 5329,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -100,7 +102,8 @@
       "ISA": 423,
       "JER": 370,
       "LAM": 42,
-      "EZK": 480
+      "EZK": 480,
+      "DAN": 115
     },
     "routed_by_book": {
       "GEN": 64,
@@ -128,10 +131,11 @@
       "ISA": 424,
       "JER": 371,
       "LAM": 42,
-      "EZK": 481
+      "EZK": 481,
+      "DAN": 115
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.18-additive-lamentations",
+  "previous_manifest_version": "navigation-coverage-v1.19-additive-ezekiel",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -212,6 +216,11 @@
     "Keil-Delitzsch original Ezekiel 1 introduction and extensive Ezekiel 40-48 review are source-backed P, not verse-one exposition.",
     "Gill Ezekiel 40:36-37 absent in original HelloAO source and remain unindexed.",
     "Calvin supplied SWORD edition ends in Ezekiel 21; original editor note is not represented as Calvin speech.",
-    "All 25 prior original book snapshots and readers unchanged."
+    "All 25 prior original book snapshots and readers unchanged.",
+    "Daniel (12 chapters, 357 KJV coordinates), all six original author sources, native indexed SWORD and explicitly anchored HelloAO.",
+    "John Gill original Daniel 4:21 has no source anchor; later verse IDs remain unchanged.",
+    "Keil & Delitzsch Daniel 1 original 213,669-character study retained as source-backed P material, not all claimed as verse-one exposition.",
+    "JFB historical Prophetical Books introduction is not inherited: its original author explicitly excludes Daniel from that grouping.",
+    "All prior 26 book snapshots and readers remain unchanged."
   ]
 }

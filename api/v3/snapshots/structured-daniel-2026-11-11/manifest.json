@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-daniel-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "DAN"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 72,
+    "original_entries": 1440,
+    "navigation_sections": 115,
+    "reader_visible_entries": 1439,
+    "verse_author_routes": 1946,
+    "sword_chapters": 60,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 12,
+    "chapters": 12
+  },
+  "chapter_verse_count": {
+    "1": 21,
+    "2": 49,
+    "3": 30,
+    "4": 37,
+    "5": 31,
+    "6": 28,
+    "7": 28,
+    "8": 27,
+    "9": 27,
+    "10": 21,
+    "11": 45,
+    "12": 13
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Six original SHA-locked historical sources: five CrossWire SWORD editions with native OT binary verse/range indexes; HelloAO Gill and entire-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default, author-original scoped P. Keil-Delitzsch Daniel 1 study preserved in P; no unverified verse-one exposition.",
+  "provenance_policy": "Original source records, exact index triplets, OSIS/HelloAO text, source hash and rights metadata preserved.",
+  "notes": [
+    "Daniel is the 27th canonical book after Ezekiel; all prior records immutable.",
+    "Original Gill Daniel 4:21 anchor absent; gap unfilled.",
+    "JFB Prophetical Books group introduction does not apply to Daniel by its own explicit original text.",
+    "No translation verse text, fabricated commentary, changed historical prose or GitHub deployment."
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-daniel-2026-11-11",
+  "book": "DAN",
+  "book_name": "Daniel",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-daniel-2026-11-11",
+  "baseline_main_commit": "d47309d2871aa43c7bf549b0eb00fb4bd8491add",
+  "baseline_navigation_manifest_git_blob": "f7b22014ad58b64b3c5d92f2a44828c107290183",
+  "baseline_navigation_sha256": "dd427a9adcf3da4deb45a5ae6ed8476ec1448b2ede15749a02225bbe24f1ee4e",
+  "prerequisites": [
+    "EZK"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 88,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/DAN.json",
+      "bytes": 168966,
+      "sha256": "cc29c85b054c8787c5ac473bdb2d3cd960e58e43e4acc5a02a751c92cf8cf9ff"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 14133,
+      "sha256": "8d2f11dcf3e622d5197edd95dd0e030d63bedd288daf7a6433d2cc25c8747a8c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/1.json",
+      "bytes": 109830,
+      "sha256": "2c23946c67e88f81fdcb9fc6278b3b469798325958609c668b2e2d3736f17dc9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/10.json",
+      "bytes": 42492,
+      "sha256": "bf3cc5aba378b370124adb1ce62fe33c880f7fc6c5fbedd68e240d0fd4a2942c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/11.json",
+      "bytes": 176637,
+      "sha256": "d129355260594bf13de6e9fe63fc18b4cba656fc5198e62d77ceedda648ac7b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/12.json",
+      "bytes": 44362,
+      "sha256": "cd77e998a0976c7fee4c23b0228b23d7f431ab6c4b198c9b68773e489e9a4eb5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/2.json",
+      "bytes": 188937,
+      "sha256": "8ae83749f8c97d63505eb80dd47a274644e5f61c187ef3d42236d40a9e8ffdd1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/3.json",
+      "bytes": 72340,
+      "sha256": "a70f95b5e40c530c229b2d2ce2cbe636de286b8e7a0957299429ff88c72dae27"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/4.json",
+      "bytes": 47061,
+      "sha256": "96efb5b24266c13c91760c55849f8220b6934961be36a68a22019c5e3e906fca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/5.json",
+      "bytes": 66166,
+      "sha256": "807466cfa8efe9753c881a9d2ea0727a385c0edd4e6d048dcd34a4b5353d54b0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/6.json",
+      "bytes": 54295,
+      "sha256": "bfe5a7c6d451251f27feca3a72e225541df2deeac4583b8a2b2cb2b2fa44e966"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/7.json",
+      "bytes": 101223,
+      "sha256": "fdcf6bff2bd905f675eba7553f0d9c0921c8d8fe0562e8742156676c01573bce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/8.json",
+      "bytes": 73656,
+      "sha256": "fa3cbb207e5375b0253d6f63ee092f483338ea6a2133eeb98b9bbc6abfc23636"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/adam-clarke/DAN/9.json",
+      "bytes": 92069,
+      "sha256": "d5212c68db5e8b2443cf1f1879b9703a08225160554cf016e63ef1969c224130"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/1.json",
+      "bytes": 144003,
+      "sha256": "82bc9c81c4088926a5a4b0933fc20eebb18548ad7fdb07903b122315f8688b9e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/10.json",
+      "bytes": 59131,
+      "sha256": "b02be94b54020386780788b100aa53b0d52743e7947ec5da35c86884bfc0f0d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/11.json",
+      "bytes": 177596,
+      "sha256": "52680358e3348fe5985da939e6c189e558006619bb8a565b38d498413b0633a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/12.json",
+      "bytes": 63718,
+      "sha256": "09b95ce0aa7de16731e3cb68954512c1197d9e95d49881d67c276a97baad4e1f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/2.json",
+      "bytes": 154020,
+      "sha256": "a1ff2e369a581c450cba72a8d3a9489de2a332cf620378d6b5de5cf554420f6c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/3.json",
+      "bytes": 76701,
+      "sha256": "a14c91c38598b34a54b1d63aca558e121938e6ee4ce5e3983b6586b6c7f9857c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/4.json",
+      "bytes": 93519,
+      "sha256": "fdb1be1151d6e5b7af3eae0fb9db4de908016f8512fb722b8d69d4b830dca479"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/5.json",
+      "bytes": 68483,
+      "sha256": "d66adc85bf0de6605fec7d412723eea4f054dfcfeac8465392b1943c4cbaa713"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/6.json",
+      "bytes": 66365,
+      "sha256": "da3af8569fd7a992fc567192c6c286cf52a4733c77741ec6f6c696d0d4e6a28f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/7.json",
+      "bytes": 147765,
+      "sha256": "5bca3c1274e2bced1628b4f92a29188e10069fa1c250efdf1fbfd3bf56543112"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/8.json",
+      "bytes": 98825,
+      "sha256": "115f0cd2d4325637b83f77447c3b6b9e00fef632c4811cdb6684be8c29e8609e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/jamieson-fausset-brown/DAN/9.json",
+      "bytes": 131740,
+      "sha256": "7ff00f3580e79aed6e4c138bb9d38d8c65953e4528899f2686897bd29e24d9bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/1.json",
+      "bytes": 257478,
+      "sha256": "d051b4f8522cb9dd691647e3ef80e664aac8efc821b22738cdfa23d8a589eb6c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/10.json",
+      "bytes": 277435,
+      "sha256": "ba6f81abf9202e24508419bcf7f18c489f3c419bf686f0378bbe9b01dbb3c39f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/11.json",
+      "bytes": 785700,
+      "sha256": "aad9fe632f34b53a8cc4afb207b3c4680b1a8ce32ab43e24facc046a50a7941a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/12.json",
+      "bytes": 328149,
+      "sha256": "393bb963e4049fea0a414f1ab8ffad469bff1d0c36c2e9d36d73352c531b567d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/2.json",
+      "bytes": 675708,
+      "sha256": "37007d6f4b0168e096a947f1d1b3e4da05b280d6d60cdb47c15b3418292e64ca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/3.json",
+      "bytes": 337277,
+      "sha256": "2e373670848fa3ff30c4c2b24734db4eaac4e929d9a1adba195d9e1e7a649ca4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/4.json",
+      "bytes": 494109,
+      "sha256": "845ab5ad6569a7d9e8645ef03902291bc884e274bca7cd29b521d62b2fb9df4b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/5.json",
+      "bytes": 353450,
+      "sha256": "9d179e0518a15e751cf8d3003b985d31e2ebaaa5353983f504f34b2795fd80e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/6.json",
+      "bytes": 466384,
+      "sha256": "3568c4f8d227af52db7f839caedcf3fe64f2f16c2010a902e3e4cac5af8b8ceb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/7.json",
+      "bytes": 559955,
+      "sha256": "609434e3aac84e5fe309f069480cf405fbd77081ceec84abdfe7bcdc83aff214"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/8.json",
+      "bytes": 433526,
+      "sha256": "514de66c5934536c931d36899e80c0110790195d83d28f7e1ab1e41d5e910fb1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-calvin/DAN/9.json",
+      "bytes": 730290,
+      "sha256": "72514d176811e181f863944474ccc31aa2652d9075cfa1403a8a16fa414b2e31"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/1.json",
+      "bytes": 198336,
+      "sha256": "1649944c21e1cb84af1cc65ec469cec2eb52fc2fd658cc7e536a9a2f553f3660"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/10.json",
+      "bytes": 183330,
+      "sha256": "f8b626b343e81b9e644959d196dc0db318a314d294dc0fa3d649a3c5d727fb6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/11.json",
+      "bytes": 494702,
+      "sha256": "849edeeb38bf2eaaffa1853ce63b751742750d38fdccec6c7da2cea66e353498"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/12.json",
+      "bytes": 148074,
+      "sha256": "6c362f6f90a7936b0f3abc4d351028692bff0e7f6aa7582d046c7dbcc2d91201"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/2.json",
+      "bytes": 353031,
+      "sha256": "5d5d990d4ac29787aeffa3ab6c4da09a9ebd6ee05d6544679977b750b018e8cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/3.json",
+      "bytes": 199218,
+      "sha256": "07d0595aa3fbb7d70ba92a7e971519963cbac1a25179738234adebb66c25484d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/4.json",
+      "bytes": 268200,
+      "sha256": "bdddcac4902f2665c3ffeb8a4473027bdc22df354e5289a5d60a0917618d7159"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/5.json",
+      "bytes": 215685,
+      "sha256": "8db15a628958b51a42aa920449903ef202fb1780069f1ee1b1771ba137e7ed9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/6.json",
+      "bytes": 185212,
+      "sha256": "1d817a07e0208fd2116c07d26074d8f79aa94a15e3ca8d89240ac9d1f0b8d644"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/7.json",
+      "bytes": 273344,
+      "sha256": "575a822df39a4dee8996148b32233b6fd2f795f188027a147f12c4bb2fdf4d52"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/8.json",
+      "bytes": 298669,
+      "sha256": "5e7a2c86146c76c2dc162c993c214c9709286106f21c2351625dc5b2121bb10d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/john-gill/DAN/9.json",
+      "bytes": 275105,
+      "sha256": "e24454e784ce3261f341296fac1a74a004330c44caaf6be8e3b42f8e2dc9ecda"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/1.json",
+      "bytes": 1281007,
+      "sha256": "f7bb19c422bb91491cfb37077a7d6df02eda9dd03565a0403526155bcde675e5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/10.json",
+      "bytes": 200404,
+      "sha256": "bcc34c65569b716a3ba99b409c704bb4e3b886fbbb2866b8a1ac4bfcb864d085"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/11.json",
+      "bytes": 429679,
+      "sha256": "fddcfaffad38f2fc8735ddf6feb791de40f01b3cb1c0a5d36dadcfee288c109e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/12.json",
+      "bytes": 103910,
+      "sha256": "8155fb8eb5531a3522d89ca864155b2e2f06f512b23a3bf4f5de9026d187700e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/2.json",
+      "bytes": 217669,
+      "sha256": "4270b4e501dab30300d064ccb7bbfb734696b288762d65635f6d54828fc1d0b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/3.json",
+      "bytes": 225974,
+      "sha256": "8e65f28d80fdb118f727409115f9918e818f94dc9e9cc602fde69ba32bb14e54"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/4.json",
+      "bytes": 341956,
+      "sha256": "321194894adff8c99afce4185a4b142a4b0ebe66870ddd7da2830076496333f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/5.json",
+      "bytes": 219999,
+      "sha256": "8d2ff0f8147d02982ea6768e010e3e85d5a2ef8c6c234621557de44ecf810719"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/6.json",
+      "bytes": 148354,
+      "sha256": "c571df9e243c86a1ba4e74b411023a5678d0194e26e0fcf2283cdaba24c8a965"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/7.json",
+      "bytes": 519749,
+      "sha256": "e5e707b4d55f02812d9ffd363ce815305976b030f3c50cf4975f653456f2ba4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/8.json",
+      "bytes": 219765,
+      "sha256": "aca3b529145b8f0e98f2ca98e16b9056c0c7ae9893ccd630ebcaa99f7b2662ec"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/keil-delitzsch/DAN/9.json",
+      "bytes": 684916,
+      "sha256": "389d809c6b5675e8938109faadd263074cc6200ff35b525efa765b8949f2d8a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/1.json",
+      "bytes": 139717,
+      "sha256": "080f09d2619ce6b0c4f16b5897cbe984b7da9d987e1d5a816bfee970642404a1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/10.json",
+      "bytes": 106559,
+      "sha256": "4b8a609918d232b95c390c01e07c818273292a68eff91c54dbeb2228ec7f9514"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/11.json",
+      "bytes": 184644,
+      "sha256": "20c5498cbc8ca9eab954e3d74993641871e373844196b3bcd76d844044c609ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/12.json",
+      "bytes": 122420,
+      "sha256": "cda06379699725df5d93221753ce2729a60a63d553062f10e51dbc912b98f8a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/2.json",
+      "bytes": 223329,
+      "sha256": "df46b5d88f11c7969431fa7bcb60bddc87d59ccaaa1ae2aeec0efead99bcac9a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/3.json",
+      "bytes": 184757,
+      "sha256": "4a0c64962fa24152d33055de575579c9a54b522895caaa51bb4a02330db8dd5c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/4.json",
+      "bytes": 187507,
+      "sha256": "a7e956a6425a52531f4ffac76d289d962cd5938d0e6a40ed6ad806f7fee3575c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/5.json",
+      "bytes": 146330,
+      "sha256": "8df2d81f10e602dad92eb7164eee61bb4ff1465ebc0370b354fd129225c4be58"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/6.json",
+      "bytes": 160100,
+      "sha256": "9aca967e5c6213740eff76729cb4a78816848b3b4f7214b884139e6d7f55e0d2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/7.json",
+      "bytes": 141474,
+      "sha256": "f9706c5150177f9587a39b67f0dfa13ee64d9c493bc52d3a00d3aa2ad2228709"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/8.json",
+      "bytes": 141265,
+      "sha256": "b6c844c31009dcfdf69d595ca9af9359c6b13a3571e01185c1476a7889fcd990"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/authors/matthew-henry/DAN/9.json",
+      "bytes": 220365,
+      "sha256": "0fd1336bba19f74be3c3e5ddd7c2e079730d45138df06519cf41c8e8aad8111f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/1.json",
+      "bytes": 12729,
+      "sha256": "c2e2213337815d2b7a7f32e6c4358b459fb6d79302abe84b682b80a405f73bbd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/10.json",
+      "bytes": 11159,
+      "sha256": "03dffff3193b2d4f70570cccf515052b0028cd3d625e4c4549589633ba3883a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/11.json",
+      "bytes": 18803,
+      "sha256": "390e94befa620ab57cd3099b4c479c40a0717ecd59d1d5ddedb3333804d61ba6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/12.json",
+      "bytes": 8532,
+      "sha256": "a9faaf9f444e8276d78f5c92de94171131bb38f619dcf6bf52b4c212ca8ea652"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/2.json",
+      "bytes": 18996,
+      "sha256": "2d2e9e45f1ec00ed1886de276f1a9d2946f5867fdf90202cda02385f9ea37888"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/3.json",
+      "bytes": 12657,
+      "sha256": "d5e02005d72cf2b09b5288f6e0ec774eed5ecdcc9af87635a140aaad36a252f4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/4.json",
+      "bytes": 17451,
+      "sha256": "415cfcf2ab0a5bb925af3593ca3ccd4a45532945c6694094057e783b2e0b0959"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/5.json",
+      "bytes": 12995,
+      "sha256": "c066c1ea0240980d42ec3a29c1cce9a20e5adb30049709ebf3d652e389a704d5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/6.json",
+      "bytes": 12633,
+      "sha256": "5a88d46f52e0fd8a6191c4cd16b1f6608edb20e143a33b552afd0c8d2a763c5b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/7.json",
+      "bytes": 13447,
+      "sha256": "ef0c4ce53f196319e6ae0f74f124f56ed05fe85215fe4ecfb6c17d422b8b41b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/8.json",
+      "bytes": 12327,
+      "sha256": "6d46695856edbc382abc7b20bed4a1041d9ff80cd906b7684def367d49a54e1a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/index/DAN/9.json",
+      "bytes": 12351,
+      "sha256": "d95e35215487c5d8143a2136c78eea844db7f102246f7b8dbb6d501308a549ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-daniel-2026-11-11/manifest.json",
+      "bytes": 1856,
+      "sha256": "dc4767409e3d38d05f40bcc9da12c62389006e6b0b2af6a588de6948ae7c7321"
+    },
+    {
+      "path": "review-daniel-v3.html",
+      "bytes": 14405,
+      "sha256": "786864b27663afd1600b71e8b47cb3c64a34ab9377b15f79e83310c8c009948f"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_zip_CRC": "PASS",
+    "five_native_SWORD_indexes": "PASS",
+    "independent_source_assertions": 17474,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 6380,
+    "predecessor_navigation_sha256": "dd427a9adcf3da4deb45a5ae6ed8476ec1448b2ede15749a02225bbe24f1ee4e",
+    "release_files_total": 89,
+    "batch_counts": [
+      89
+    ],
+    "prior_26_books_repacked": 0,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 12,
+    "verse_coordinates": 357,
+    "author_chapters": 72,
+    "original_entries": 1440,
+    "original_P_sections": 115,
+    "routed_P_sections": 115,
+    "inherited_source_links": 0,
+    "assertions_total": 17474,
+    "source_archive_count": 6,
+    "baseline_main_commit": "d47309d2871aa43c7bf549b0eb00fb4bd8491add"
+  },
+  "release_scope": {
+    "added_book": "DAN",
+    "previous_26_books_unchanged": true,
+    "new_paths": 88,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "source_original_P_sections": 115,
+    "inherited_P_sections": 0,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "SHA-locked original public-domain historical CrossWire/SWORD module indexes and original HelloAO John Gill JSON items; individual edition rights/source details retained in author-chapter JSON. No Bible translation verse text, editorialized author quotes, fabricated commentary or geographic mappings.",
+  "source_scoped_exceptions": [
+    "Gill original HelloAO Daniel 4:21 has no verse item. Preserve the missing anchor and original 4:22 position.",
+    "Keil & Delitzsch original Daniel 1 first SWORD record contains 213,669 characters of preface and chapter material without independently demarcated Daniel 1:1 exposition: preserve source in P and suppress the undelimited first record in verse-mode only.",
+    "Original JFB Prophetical Books preface explicitly says Daniel is excluded from that classification. Do not inherit the Genesis-hosted group introduction into Daniel.",
+    "KJV canonical Daniel 12 chapters only: no unindexed apocryphal sections or reconstructed comments."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Confirm GitHub baseline and 26-book predecessor navigation before modifying shared manifest.",
+    "Extract the ZIP before manual upload. Upload all 88 new files before the single cumulative manifest replacement last.",
+    "Never overwrite accepted original source snapshots for books 1-26.",
+    "Verify all content SHA256 files, GitHub Pages build and deploy, then visually test the Daniel reader.",
+    "No automatic GitHub writes, CGBC media player integration, workflow changes or deployments."
+  ]
+}
