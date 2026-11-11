@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.23-additive-amos",
+  "version": "navigation-coverage-v1.24-additive-obadiah",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -34,7 +34,8 @@
     "DAN",
     "HOS",
     "JOL",
-    "AMO"
+    "AMO",
+    "OBA"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -66,7 +67,8 @@
     "DAN": "structured-daniel-2026-11-11",
     "HOS": "structured-hosea-2026-11-11",
     "JOL": "structured-joel-2026-11-11",
-    "AMO": "structured-amos-2026-11-11"
+    "AMO": "structured-amos-2026-11-11",
+    "OBA": "structured-obadiah-2026-11-11"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -80,7 +82,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 5526,
+    "original_P_sections": 5535,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -112,7 +114,8 @@
       "DAN": 115,
       "HOS": 102,
       "JOL": 29,
-      "AMO": 66
+      "AMO": 66,
+      "OBA": 9
     },
     "routed_by_book": {
       "GEN": 64,
@@ -144,10 +147,11 @@
       "DAN": 115,
       "HOS": 103,
       "JOL": 30,
-      "AMO": 67
+      "AMO": 67,
+      "OBA": 10
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.22-additive-joel",
+  "previous_manifest_version": "navigation-coverage-v1.23-additive-amos",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -245,6 +249,10 @@
     "Amos (9 chapters, 146 KJV verse coordinates), six historical authors, original source-backed SWORD/HelloAO.",
     "Amos original book introductions are source-linked P, not verse-one exposition.",
     "JFB Genesis-hosted Prophetical Books group introduction reused with accepted immutable source identity and fragment SHA.",
-    "All 29 previous snapshots and readers remain unchanged."
+    "All 29 previous snapshots and readers remain unchanged.",
+    "Obadiah (one chapter, 21 KJV verse coordinates), six historical authors, source-backed SWORD/HelloAO.",
+    "Original Obadiah author introductions are P-only, with verse-one commentary correctly separated.",
+    "Original Genesis-hosted JFB Prophetical Books group introduction reused by stable source pointer and SHA.",
+    "All 30 prior snapshots and readers remain unchanged."
   ]
 }

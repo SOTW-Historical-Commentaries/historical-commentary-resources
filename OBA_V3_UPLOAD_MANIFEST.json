@@ -1,0 +1,137 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-obadiah-2026-11-11",
+  "book": "OBA",
+  "book_name": "Obadiah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-obadiah-2026-11-11",
+  "baseline_main_commit": "a3e13ba004e62f4882d02792ea19e9961e647179",
+  "baseline_navigation_manifest_git_blob": "11254d0079fc202f778c9d16e6a4ebe6d957d004",
+  "baseline_navigation_sha256": "10481143d72507001323cbe61f1f69b3bf7b7af763c8d0ab20c4ed76662b7999",
+  "prerequisites": [
+    "AMO"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 11,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/OBA.json",
+      "bytes": 15249,
+      "sha256": "b6a1ef8a0a130a0b41a6fbb2beb3db06db785764392da139ff50a16f5b02622b"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 16099,
+      "sha256": "cfc5bb93ba665942bad35640fb7e9fe95bdafbb9533bc410bfb556810601c49b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/authors/adam-clarke/OBA/1.json",
+      "bytes": 64424,
+      "sha256": "3d44ec2f485437baa23fd422009130239014f8992cf35c14e70cf5f2eb748b66"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/authors/jamieson-fausset-brown/OBA/1.json",
+      "bytes": 97658,
+      "sha256": "04d1c8e3033a33761196ffebe8a5715b2f6274a91f72941bac94a3142379fe6c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/authors/john-calvin/OBA/1.json",
+      "bytes": 357257,
+      "sha256": "1347c979836590f3c2ad029f74cb71856fec08044f89ed094f23cddffff41dd0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/authors/john-gill/OBA/1.json",
+      "bytes": 216175,
+      "sha256": "8ff7ed80b7b3d5e48c3d9f4498bc506ced263a7943ca0402996a998ee55aad7e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/authors/keil-delitzsch/OBA/1.json",
+      "bytes": 307712,
+      "sha256": "83623d97cba64a1dc8c248ab7ac3137c74a7ebca2394baaf287f05356318174e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/authors/matthew-henry/OBA/1.json",
+      "bytes": 152605,
+      "sha256": "ced3a729dd835a514ef8994cf3eedd0e0c66213cf61fbaf62a1ac2a18309b4b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/index/OBA/1.json",
+      "bytes": 11056,
+      "sha256": "edfd1ae00537f78d001f0714b657437a9b31302e248402cd9e3fa9b711bc9a9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-obadiah-2026-11-11/manifest.json",
+      "bytes": 1705,
+      "sha256": "59b9d107cedbeedecd5d8b18947007a3bfabf529f2d16dbe57db58aec65afd42"
+    },
+    {
+      "path": "review-obadiah-v3.html",
+      "bytes": 14376,
+      "sha256": "82e8ac128392c51cb559567c93f0b0e99d069e8ed29a36fd06400177f92eb706"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": "PASS",
+    "source_assertions_total": 1455,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 685,
+    "predecessor_navigation_sha256": "PASS",
+    "release_files_total": 12,
+    "batch_counts": [
+      12
+    ],
+    "prior_30_books_repacked": false,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0
+  },
+  "counts": {
+    "chapters": 1,
+    "verse_coordinates": 21,
+    "author_chapters": 6,
+    "original_entries": 95,
+    "original_P_sections": 9,
+    "routed_P_sections": 10,
+    "inherited_source_links": 1,
+    "assertions_total": 1455,
+    "source_archive_count": 6,
+    "baseline_main_commit": "a3e13ba004e62f4882d02792ea19e9961e647179"
+  },
+  "release_scope": {
+    "added_book": "OBA",
+    "previous_30_books_unchanged": true,
+    "new_paths": 10,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "source_original_P_sections": 9,
+    "inherited_P_sections": 1,
+    "total_routed_P_sections": 10,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Original historical author/work is reader-facing; SOTW is library provider. Original six SHA-locked archives: five CrossWire/SWORD public-domain module declarations and original HelloAO John Gill source. Preserve source module version, historical work/edition, original OSIS or item text, native binary range, provider/rights, locators, hashes. Translation text is not bundled.",
+  "source_scoped_exceptions": [
+    "Calvin has an unindexed original Obadiah 1:4 slot; no substitute from adjacent verse or another edition.",
+    "Clarke has unindexed original Obadiah 1:6 and 1:13 slots; no substitution.",
+    "Matthew Henry original commentary groups are precisely Obadiah 1:1–9, 1:10–16, 1:17–21, according to shared native SWORD records; sections are not inferred for every independent verse.",
+    "Original Matthew Henry general book introduction is a chapter-marker record (not an author verse-1 entry).",
+    "Original Clarke, JFB, Keil & Delitzsch long introductions are source-bounded into P; original verse-one exposition survives in verse mode.",
+    "The original JFB Prophetical Books section is referenced by accepted immutable Genesis fragment locator/SHA; no duplicated text.",
+    "All 21 Gill HelloAO explicit original verse anchors preserved.",
+    "Obadiah introductory authors discuss different proposed dating and historical interpretations. No SOTW theological-historical verdict is imposed; original text unaltered."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Check latest GitHub main commit and authoritative navigation manifest before uploading; any baseline change requires reconciliation.",
+    "Extract the one numbered upload batch, upload ten new files first, then update navigation manifest last.",
+    "Verify all 12 release files with SHA-256 and final GitHub Pages successful deployment; visually inspect P and verse behavior.",
+    "Do not edit any of the preceding 30 book snapshots, authors catalog, schema, scripts, existing readers, or CGBC media player."
+  ]
+}

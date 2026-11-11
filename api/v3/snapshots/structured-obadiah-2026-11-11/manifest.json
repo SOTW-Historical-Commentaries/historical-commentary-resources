@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-obadiah-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "OBA"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 6,
+    "original_entries": 95,
+    "navigation_sections": 9,
+    "reader_visible_entries": 95,
+    "verse_author_routes": 123,
+    "sword_chapters": 5,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 1,
+    "chapters": 1
+  },
+  "chapter_verse_count": {
+    "1": 21
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked CrossWire/SWORD digital edition text and native OT binary KJV keys; original HelloAO John Gill items; whole-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default, original-source scoped P. Long Obadiah introductions are P-only, source-labeled verse expositions remain in native verse mode.",
+  "provenance_policy": "Original source records, binary index triplets, OSIS/HelloAO item data, exact hashes and rights evidence preserved.",
+  "notes": [
+    "Obadiah is canonical book 31 following Amos; 30 preceding snapshots remain immutable.",
+    "All 21 Gill explicit verse anchors are preserved.",
+    "The accepted Genesis-hosted JFB group introduction is referenced, not duplicated.",
+    "No Scripture translation verse text, fabricated historical commentary, GitHub mutation, or CGBC player edit."
+  ]
+}
