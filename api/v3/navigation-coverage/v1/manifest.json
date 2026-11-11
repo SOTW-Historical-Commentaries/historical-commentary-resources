@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.20-additive-daniel",
+  "version": "navigation-coverage-v1.21-additive-hosea",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -31,7 +31,8 @@
     "JER",
     "LAM",
     "EZK",
-    "DAN"
+    "DAN",
+    "HOS"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -60,7 +61,8 @@
     "JER": "structured-jeremiah-2026-11-09",
     "LAM": "structured-lamentations-2026-11-10",
     "EZK": "structured-ezekiel-2026-11-11",
-    "DAN": "structured-daniel-2026-11-11"
+    "DAN": "structured-daniel-2026-11-11",
+    "HOS": "structured-hosea-2026-11-11"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -74,7 +76,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 5329,
+    "original_P_sections": 5431,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -103,7 +105,8 @@
       "JER": 370,
       "LAM": 42,
       "EZK": 480,
-      "DAN": 115
+      "DAN": 115,
+      "HOS": 102
     },
     "routed_by_book": {
       "GEN": 64,
@@ -132,10 +135,11 @@
       "JER": 371,
       "LAM": 42,
       "EZK": 481,
-      "DAN": 115
+      "DAN": 115,
+      "HOS": 103
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.19-additive-ezekiel",
+  "previous_manifest_version": "navigation-coverage-v1.20-additive-daniel",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -221,6 +225,10 @@
     "John Gill original Daniel 4:21 has no source anchor; later verse IDs remain unchanged.",
     "Keil & Delitzsch Daniel 1 original 213,669-character study retained as source-backed P material, not all claimed as verse-one exposition.",
     "JFB historical Prophetical Books introduction is not inherited: its original author explicitly excludes Daniel from that grouping.",
-    "All prior 26 book snapshots and readers remain unchanged."
+    "All prior 26 book snapshots and readers remain unchanged.",
+    "Hosea (14 chapters, 197 KJV verse coordinates), six historical authors, original source-backed SWORD/HelloAO.",
+    "Twelve Minor Prophets and Hosea original book introductions are source-linked P, not verse-one exposition.",
+    "JFB Genesis-hosted Prophetical Books group introduction reused with accepted immutable source identity and fragment SHA.",
+    "All 27 previous snapshots and readers remain unchanged."
   ]
 }

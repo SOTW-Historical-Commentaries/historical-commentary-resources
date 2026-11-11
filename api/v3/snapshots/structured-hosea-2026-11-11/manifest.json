@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-hosea-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "HOS"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 84,
+    "original_entries": 924,
+    "navigation_sections": 102,
+    "reader_visible_entries": 924,
+    "verse_author_routes": 1169,
+    "sword_chapters": 70,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 14,
+    "chapters": 14
+  },
+  "chapter_verse_count": {
+    "1": 11,
+    "2": 23,
+    "3": 5,
+    "4": 19,
+    "5": 15,
+    "6": 11,
+    "7": 16,
+    "8": 14,
+    "9": 17,
+    "10": 15,
+    "11": 12,
+    "12": 14,
+    "13": 16,
+    "14": 9
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Six original SHA-locked historical sources: five CrossWire SWORD editions with native OT binary verse/range indexes; HelloAO Gill and entire-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default, original-source scoped P. Long Twelve Minor Prophets group, Hosea and chapter material remain separate from original verse-one exposition.",
+  "provenance_policy": "Original source records, exact index triplets, OSIS/HelloAO text, source hash and rights metadata preserved.",
+  "notes": [
+    "Hosea is canonical book 28 after Daniel; 27 preceding books remain immutable.",
+    "All 197 Gill anchors are preserved.",
+    "Original JFB Prophetical Books preface is inherited through its existing Genesis source pointer with byte-verified fragment.",
+    "No Bible translation verse text, fabricated commentary, changed historical prose or GitHub deployment."
+  ]
+}
