@@ -1,0 +1,507 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-amos-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "AMO",
+  "chapter": 1,
+  "canonical_chapter": "AMO.1",
+  "versification": "KJV",
+  "verse_count": 15,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Amos\" sID=\"gen22992\" type=\"book\"/> <milestone n=\"THE BOOK OF AMOS\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE BOOK OF AMOS</title> <div sID=\"gen22993\" type=\"x-p\"/><div eID=\"gen22993\" type=\"x-p\"/> ",
+      "source_record_sha256": "e1e007e6882cdd97ab9d51d4d572f05240020b65a9313a2d4a07df955f72c6d2",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 0,
+        "length": 301
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Amos.1\" sID=\"Amos.1\"/> <div sID=\"gen22994\" type=\"introduction\"/> ",
+      "source_record_sha256": "550c2146053a94e5a7ba6876f4e13e34dffdf48c8aff27ec9901f4d5af270d0c",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 301,
+        "length": 88
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:AMO.1.1-1:30:389:7284",
+      "passage_start": "AMO.1.1",
+      "passage_end": "AMO.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12507\"/><title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen22995\" type=\"x-p\"/> Amos (meaning in Hebrew \"a burden\") was (<reference osisRef=\"Amos.1.1\">Am 1:1</reference>) a shepherd of Tekoa, a small town of Judah, six miles southeast from Beth-lehem, and twelve from Jerusalem, on the borders of the great desert (<reference osisRef=\"2Chr.20.20\">2Ch 20:20</reference>; compare <reference osisRef=\"2Chr.11.6\">2Ch 11:6</reference>). The region being sandy was more fit for pastoral than for agricultural purposes. Amos therefore owned and tended flocks, and collected sycamore figs; not that the former was a menial office, kings themselves, as Mesha of Moab (<reference osisRef=\"2Kgs.3.4\">2Ki 3:4</reference>), exercising it. Amos, however (from <reference osisRef=\"Amos.7.14\">Am 7:14</reference>, <reference osisRef=\"Amos.7.15\">15</reference>), seems to have been of humble rank.<div eID=\"gen22995\" type=\"x-p\"/> <div eID=\"gen22994\" type=\"introduction\"/> <div sID=\"gen22996\" type=\"x-p\"/> Though belonging to Judah, he was commissioned by God to exercise his prophetical function in Israel; as the latter kingdom abounded in impostors, and the prophets of God generally fled to Judah through fear of the kings of Israel, a true prophet from Judah was the more needed in it. His name is not to be confounded with that of Isaiah's father, Amoz.<div eID=\"gen22996\" type=\"x-p\"/> <div sID=\"gen22997\" type=\"x-p\"/> The time of his prophesying was in the reigns of Uzziah king of Judea, and Jeroboam II, son of Joash, king of Israel (<reference osisRef=\"Amos.1.1\">Am 1:1</reference>), that is, in part of the time in which the two kings were contemporary; probably in Jeroboam's latter years, after that monarch had recovered from Syria \"the coast of Israel from the entering of Hamath to the sea of the plain\" (<reference osisRef=\"2Kgs.14.25-2Kgs.14.27\">2Ki 14:25-27</reference>); for Amos foretells that these same coasts, \"from the entering in of Hamath unto the river of the wilderness,\" should be the scene of Israel's being afflicted (<reference osisRef=\"Amos.6.14\">Am 6:14</reference>); also his references to the state of luxurious security then existing (<reference osisRef=\"Amos.6.1\">Am 6:1</reference>, <reference osisRef=\"Amos.4.13\">4, 13</reference>), and to the speedy termination of it by the Assyrian foe (<reference osisRef=\"Amos.1.5\">Am 1:5</reference>; <reference osisRef=\"1Cor.3.12\">3:12</reference>, <reference osisRef=\"1Cor.3.15\">15</reference>; 5:27; <reference osisRef=\"1Cor.8.2\">8:2</reference>), point to the latter part of Jeroboam's reign, which terminated in 784 B.C., the twenty-seventh year of Uzziah's reign, which continued down to 759 B.C.<div eID=\"gen22997\" type=\"x-p\"/> <div sID=\"gen22998\" type=\"x-p\"/> He was contemporary with Hosea, only that the latter continued to prophesy in reigns subsequent to Uzziah (<reference osisRef=\"Hos.1.1\">Ho 1:1</reference>); whereas Amos ceased to prophesy in the reign of that monarch. The scene of his ministry was Beth-el, where the idol calves were set up (<reference osisRef=\"Amos.7.10-Amos.7.13\">Am 7:10-13</reference>). There his prophecies roused Amaziah, the idol priest, to accuse him of conspiracy and to try to drive him back to Judah.<div eID=\"gen22998\" type=\"x-p\"/> <div sID=\"gen22999\" type=\"x-p\"/> The first six chapters are without figure; the last three symbolical, but with the explanation subjoined. He first denounces the neighboring peoples, then the Jews, then Israel (from the third chapter to the end), closing with the promise or restoration under Messiah (<reference osisRef=\"Amos.9.11-Amos.9.15\">Am 9:11-15</reference>). His style is thought by Jerome to betray his humble origin; but though not sublime, it is regular, perspicuous, and energetic; his images are taken from the scenes in nature with which he was familiar; his rhythms are flowing, his parallelisms exact, and his descriptions minute and graphic. Some peculiar expressions occur: \"cleanness of teeth,\" that is, want of bread (<reference osisRef=\"Amos.4.6\">Am 4:6</reference>); \"the excellency of Jacob\" (<reference osisRef=\"Amos.6.8\">Am 6:8</reference>; <reference osisRef=\"Amos.8.7\">8:7</reference>); \"the high places of Isaac\" (<reference osisRef=\"Amos.7.9\">Am 7:9</reference>); \"the house of Isaac\" (<reference osisRef=\"Amos.7.16\">Am 7:16</reference>); \"he that createth the wind\" (<reference osisRef=\"Amos.4.13\">Am 4:13</reference>).<div eID=\"gen22999\" type=\"x-p\"/> <div sID=\"gen23000\" type=\"x-p\"/> Hengstenberg draws an able argument for the genuineness of the Mosaic records from the evidence in Amos, that the existing institutions in Israel as well as Judah (excepting the calves of Jeroboam), were framed according to the Pentateuch rules.<div eID=\"gen23000\" type=\"x-p\"/> <div sID=\"gen23001\" type=\"x-p\"/> Two quotations from Amos occur in the New Testament (compare <reference osisRef=\"Acts.7.42\">Ac 7:42</reference>, <reference osisRef=\"Acts.7.43\">43</reference>, with <reference osisRef=\"Amos.5.25\">Am 5:25</reference>, <reference osisRef=\"Amos.5.26\">26</reference>; and <reference osisRef=\"Acts.15.16\">Ac 15:16</reference>, <reference osisRef=\"Acts.15.17\">17</reference>, with <reference osisRef=\"Amos.9.11\">Am 9:11</reference>).<div eID=\"gen23001\" type=\"x-p\"/> <div sID=\"gen23002\" type=\"x-p\"/> Philo, Josephus, Melito's catalogue, Jerome, Justin Martyr (Dialogue with Trypho, 22, quoting the fifth and six chapters of Amos as \"one of the twelve minor prophets\"), and the sixtieth canon of the Laodicean council support the canonicity of the book of Amos.<div eID=\"gen23002\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <title type=\"x-s3\"><reference osisRef=\"Amos.1.1-Amos.1.15\">Am 1:1-15</reference>. God's Judgments on Syria, Philistia, Tyre, Edom, and Ammon.</title> <div sID=\"gen23003\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12507\"/><hi type=\"bold\">1. The words of Amos--</hi>that is, Amos' oracular communications. A heading found only in <reference osisRef=\"Jer.1.1\">Jr 1:1</reference>.<div eID=\"gen23003\" type=\"x-p\"/> <div sID=\"gen23004\" type=\"x-p\"/><hi type=\"bold\">among the herdmen--</hi>rather, \"shepherds\"; both owning and tending sheep; from an Arabic root, \"to mark with pricks,\" namely, to select the best among a species of sheep and goats ill-shapen and short-footed (as others explain the name from an Arabic root), but distinguished by their wool [Maurer]. God chooses \"the weak things of the world to confound the mighty,\" and makes a humble shepherd reprove the arrogance of Israel and her king arising from prosperity (compare <reference osisRef=\"1Sam.17.40\">1Sa 17:40</reference>).<div eID=\"gen23004\" type=\"x-p\"/> <div sID=\"gen23005\" type=\"x-p\"/><hi type=\"bold\">which he saw--</hi>in supernatural vision (<reference osisRef=\"Isa.1.1\">Is 1:1</reference>).<div eID=\"gen23005\" type=\"x-p\"/> <div sID=\"gen23006\" type=\"x-p\"/><hi type=\"bold\">two years before the earthquake--</hi>mentioned in <reference osisRef=\"Zech.14.5\">Zec 14:5</reference>. The earthquake occurred in Uzziah's reign, at the time of his being stricken with leprosy for usurping the priest's functions [Josephus, Antiquities, 9:10.4]. This clause must have been inserted by Ezra and the compilers of the Jewish canon. <div eID=\"gen23006\" type=\"x-p\"/>",
+      "content_plain": "INTRODUCTION Amos (meaning in Hebrew \"a burden\") was ( Am 1:1 ) a shepherd of Tekoa, a small town of Judah, six miles southeast from Beth-lehem, and twelve from Jerusalem, on the borders of the great desert ( 2Ch 20:20 ; compare 2Ch 11:6 ). The region being sandy was more fit for pastoral than for agricultural purposes. Amos therefore owned and tended flocks, and collected sycamore figs; not that the former was a menial office, kings themselves, as Mesha of Moab ( 2Ki 3:4 ), exercising it. Amos, however (from Am 7:14 , 15 ), seems to have been of humble rank. Though belonging to Judah, he was commissioned by God to exercise his prophetical function in Israel; as the latter kingdom abounded in impostors, and the prophets of God generally fled to Judah through fear of the kings of Israel, a true prophet from Judah was the more needed in it. His name is not to be confounded with that of Isaiah's father, Amoz. The time of his prophesying was in the reigns of Uzziah king of Judea, and Jeroboam II, son of Joash, king of Israel ( Am 1:1 ), that is, in part of the time in which the two kings were contemporary; probably in Jeroboam's latter years, after that monarch had recovered from Syria \"the coast of Israel from the entering of Hamath to the sea of the plain\" ( 2Ki 14:25-27 ); for Amos foretells that these same coasts, \"from the entering in of Hamath unto the river of the wilderness,\" should be the scene of Israel's being afflicted ( Am 6:14 ); also his references to the state of luxurious security then existing ( Am 6:1 , 4, 13 ), and to the speedy termination of it by the Assyrian foe ( Am 1:5 ; 3:12 , 15 ; 5:27; 8:2 ), point to the latter part of Jeroboam's reign, which terminated in 784 B.C., the twenty-seventh year of Uzziah's reign, which continued down to 759 B.C. He was contemporary with Hosea, only that the latter continued to prophesy in reigns subsequent to Uzziah ( Ho 1:1 ); whereas Amos ceased to prophesy in the reign of that monarch. The scene of his ministry was Beth-el, where the idol calves were set up ( Am 7:10-13 ). There his prophecies roused Amaziah, the idol priest, to accuse him of conspiracy and to try to drive him back to Judah. The first six chapters are without figure; the last three symbolical, but with the explanation subjoined. He first denounces the neighboring peoples, then the Jews, then Israel (from the third chapter to the end), closing with the promise or restoration under Messiah ( Am 9:11-15 ). His style is thought by Jerome to betray his humble origin; but though not sublime, it is regular, perspicuous, and energetic; his images are taken from the scenes in nature with which he was familiar; his rhythms are flowing, his parallelisms exact, and his descriptions minute and graphic. Some peculiar expressions occur: \"cleanness of teeth,\" that is, want of bread ( Am 4:6 ); \"the excellency of Jacob\" ( Am 6:8 ; 8:7 ); \"the high places of Isaac\" ( Am 7:9 ); \"the house of Isaac\" ( Am 7:16 ); \"he that createth the wind\" ( Am 4:13 ). Hengstenberg draws an able argument for the genuineness of the Mosaic records from the evidence in Amos, that the existing institutions in Israel as well as Judah (excepting the calves of Jeroboam), were framed according to the Pentateuch rules. Two quotations from Amos occur in the New Testament (compare Ac 7:42 , 43 , with Am 5:25 , 26 ; and Ac 15:16 , 17 , with Am 9:11 ). Philo, Josephus, Melito's catalogue, Jerome, Justin Martyr (Dialogue with Trypho, 22, quoting the fifth and six chapters of Amos as \"one of the twelve minor prophets\"), and the sixtieth canon of the Laodicean council support the canonicity of the book of Amos. CHAPTER 1 Am 1:1-15 . God's Judgments on Syria, Philistia, Tyre, Edom, and Ammon. 1. The words of Amos-- that is, Amos' oracular communications. A heading found only in Jr 1:1 . among the herdmen-- rather, \"shepherds\"; both owning and tending sheep; from an Arabic root, \"to mark with pricks,\" namely, to select the best among a species of sheep and goats ill-shapen and short-footed (as others explain the name from an Arabic root), but distinguished by their wool [Maurer]. God chooses \"the weak things of the world to confound the mighty,\" and makes a humble shepherd reprove the arrogance of Israel and her king arising from prosperity (compare 1Sa 17:40 ). which he saw-- in supernatural vision ( Is 1:1 ). two years before the earthquake-- mentioned in Zec 14:5 . The earthquake occurred in Uzziah's reign, at the time of his being stricken with leprosy for usurping the priest's functions [Josephus, Antiquities, 9:10.4]. This clause must have been inserted by Ezra and the compilers of the Jewish canon.",
+      "source_record_sha256": "d2dd3f1c798612bbf906788da4170f560ea06b86a466797f5a6fc571a0bb7a77",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 389,
+        "length": 7284
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. The words of Amos-- that is, Amos' oracular communications. A heading found only in Jr 1:1 . among the herdmen-- rather, \"shepherds\"; both owning and tending sheep; from an Arabic root, \"to mark with pricks,\" namely, to select the best among a species of sheep and goats ill-shapen and short-footed (as others explain the name from an Arabic root), but distinguished by their wool [Maurer]. God chooses \"the weak things of the world to confound the mighty,\" and makes a humble shepherd reprove the arrogance of Israel and her king arising from prosperity (compare 1Sa 17:40 ). which he saw-- in supernatural vision ( Is 1:1 ). two years before the earthquake-- mentioned in Zec 14:5 . The earthquake occurred in Uzziah's reign, at the time of his being stricken with leprosy for usurping the priest's functions [Josephus, Antiquities, 9:10.4]. This clause must have been inserted by Ezra and the compilers of the Jewish canon.",
+      "reader_source_character_span": [
+        5886,
+        7284
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. The words of Amos--</hi>that is, Amos' oracular communications. A heading found only in <reference osisRef=\"Jer.1.1\">Jr 1:1</reference>.<div eID=\"gen23003\" type=\"x-p\"/> <div sID=\"gen23004\" type=\"x-p\"/><hi type=\"bold\">among the herdmen--</hi>rather, \"shepherds\"; both owning and tending sheep; from an Arabic root, \"to mark with pricks,\" namely, to select the best among a species of sheep and goats ill-shapen and short-footed (as others explain the name from an Arabic root), but distinguished by their wool [Maurer]. God chooses \"the weak things of the world to confound the mighty,\" and makes a humble shepherd reprove the arrogance of Israel and her king arising from prosperity (compare <reference osisRef=\"1Sam.17.40\">1Sa 17:40</reference>).<div eID=\"gen23004\" type=\"x-p\"/> <div sID=\"gen23005\" type=\"x-p\"/><hi type=\"bold\">which he saw--</hi>in supernatural vision (<reference osisRef=\"Isa.1.1\">Is 1:1</reference>).<div eID=\"gen23005\" type=\"x-p\"/> <div sID=\"gen23006\" type=\"x-p\"/><hi type=\"bold\">two years before the earthquake--</hi>mentioned in <reference osisRef=\"Zech.14.5\">Zec 14:5</reference>. The earthquake occurred in Uzziah's reign, at the time of his being stricken with leprosy for usurping the priest's functions [Josephus, Antiquities, 9:10.4]. This clause must have been inserted by Ezra and the compilers of the Jewish canon. <div eID=\"gen23006\" type=\"x-p\"/>",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "JFB original preverse milestone closes introduction"
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.2-2:30:7673:1481",
+      "passage_start": "AMO.1.2",
+      "passage_end": "AMO.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12508\"/><div sID=\"gen23007\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12508\"/><hi type=\"bold\">2. will roar--</hi>as a lion (<reference osisRef=\"Joel.3.16\">Joe 3:16</reference>). Whereas Jehovah is there represented roaring in Israel's behalf, here He roars against her (compare <reference osisRef=\"Ps.18.13\">Psa 18:13</reference>; <reference osisRef=\"Jer.25.30\">Jr 25:30</reference>).<div eID=\"gen23007\" type=\"x-p\"/> <div sID=\"gen23008\" type=\"x-p\"/><hi type=\"bold\">from Zion ... Jerusalem--</hi>the seat of the theocracy, from which ye have revolted; not from Dan and Beth-el, the seat of your idolatrous worship of the calves.<div eID=\"gen23008\" type=\"x-p\"/> <div sID=\"gen23009\" type=\"x-p\"/><hi type=\"bold\">habitations ... mourn--</hi>poetical personification. Their inhabitants shall mourn, imparting a sadness to the very habitations.<div eID=\"gen23009\" type=\"x-p\"/> <div sID=\"gen23010\" type=\"x-p\"/><hi type=\"bold\">Carmel--</hi>the mountain promontory north of Israel, in Asher, abounding in rich pastures, olives, and vines. The name is the symbol of fertility. When Carmel itself \"withers,\" how utter the desolation! (<reference osisRef=\"Song.7.5\">So 7:5</reference>; <reference osisRef=\"Isa.33.9\">Is 33:9</reference>; <reference osisRef=\"Isa.35.2\">35:2</reference>; <reference osisRef=\"Jer.50.19\">Jr 50:19</reference>; <reference osisRef=\"Nah.1.4\">Na 1:4</reference>). <div eID=\"gen23010\" type=\"x-p\"/>",
+      "content_plain": "2. will roar-- as a lion ( Joe 3:16 ). Whereas Jehovah is there represented roaring in Israel's behalf, here He roars against her (compare Psa 18:13 ; Jr 25:30 ). from Zion ... Jerusalem-- the seat of the theocracy, from which ye have revolted; not from Dan and Beth-el, the seat of your idolatrous worship of the calves. habitations ... mourn-- poetical personification. Their inhabitants shall mourn, imparting a sadness to the very habitations. Carmel-- the mountain promontory north of Israel, in Asher, abounding in rich pastures, olives, and vines. The name is the symbol of fertility. When Carmel itself \"withers,\" how utter the desolation! ( So 7:5 ; Is 33:9 ; 35:2 ; Jr 50:19 ; Na 1:4 ).",
+      "source_record_sha256": "304595c063b38dbe875d0853f623f8b8b07cef82921782ce15345a0dc1b1c5c4",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 7673,
+        "length": 1481
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. will roar-- as a lion ( Joe 3:16 ). Whereas Jehovah is there represented roaring in Israel's behalf, here He roars against her (compare Psa 18:13 ; Jr 25:30 ). from Zion ... Jerusalem-- the seat of the theocracy, from which ye have revolted; not from Dan and Beth-el, the seat of your idolatrous worship of the calves. habitations ... mourn-- poetical personification. Their inhabitants shall mourn, imparting a sadness to the very habitations. Carmel-- the mountain promontory north of Israel, in Asher, abounding in rich pastures, olives, and vines. The name is the symbol of fertility. When Carmel itself \"withers,\" how utter the desolation! ( So 7:5 ; Is 33:9 ; 35:2 ; Jr 50:19 ; Na 1:4 )."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.3-3:30:9154:3133",
+      "passage_start": "AMO.1.3",
+      "passage_end": "AMO.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12509\"/><div sID=\"gen23011\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12509\"/>3. Here begins a series of threatenings of vengeance against six other states, followed by one against Judah, and ending with one against Israel, with whom the rest of the prophecy is occupied. The eight predictions are in symmetrical stanzas, each prefaced by \"Thus saith the Lord.\" Beginning with the sin of others, which Israel would be ready enough to recognize, he proceeds to bring home to Israel her own guilt. Israel must not think hereafter, because she sees others visited similarly to herself, that such judgments are matters of chance; nay, they are divinely foreseen and foreordered, and are confirmations of the truth that God will not clear the guilty. If God spares not the nations that know not the truth, how much less Israel that sins wilfully (<reference osisRef=\"Luke.12.47\">Lu 12:47</reference>, <reference osisRef=\"Luke.12.48\">48</reference>; <reference osisRef=\"Jas.4.17\">Jas 4:17</reference>)!<div eID=\"gen23011\" type=\"x-p\"/> <div sID=\"gen23012\" type=\"x-p\"/><hi type=\"bold\">for three transgressions ... and for four--</hi>If Damascus had only sinned once or twice, I would have spared them, but since, after having been so often pardoned, they still persevere so continually, I will no longer \"turn away\" their punishment. The Hebrew is simply, \"I will not reverse it,\" namely, the sentence of punishment which follows; the negative expression implies more than it expresses; that is, \"I will most surely execute it\"; God's fulfilment of His threats being more awful than human language can express. \"Three and four\" imply sin multiplied on sin (compare <reference osisRef=\"Exod.20.5\">Ex 20:5</reference>; <reference osisRef=\"Prov.30.15\">Pr 30:15</reference>, <reference osisRef=\"Prov.18.21\">18, 21</reference>; \"six and seven,\" <reference osisRef=\"Job.5.19\">Job 5:19</reference>; \"once and twice,\" <reference osisRef=\"Job.33.14\">Job 33:14</reference>; \"twice and thrice,\" Margin; \"oftentimes,\" English Version, <reference osisRef=\"Job.33.29\">Job 33:29</reference>; \"seven and also eight,\" <reference osisRef=\"Eccl.11.2\">Ec 11:2</reference>). There may be also a reference to seven, the product of three and four added; seven expressing the full completion of the measure of their guilt (<reference osisRef=\"Lev.26.18\">Le 26:18</reference>, <reference osisRef=\"Lev.21.24\">21, 24</reference>; compare <reference osisRef=\"Matt.23.32\">Mt 23:32</reference>).<div eID=\"gen23012\" type=\"x-p\"/> <div sID=\"gen23013\" type=\"x-p\"/><hi type=\"bold\">threshed--</hi>the very term used of the Syrian king Hazael's oppression of Israel under Jehu and Jehoahaz (<reference osisRef=\"2Kgs.10.32\">2Ki 10:32</reference>, <reference osisRef=\"2Kgs.10.33\">33</reference>; <reference osisRef=\"2Kgs.13.7\">13:7</reference>). The victims were thrown before the threshing sledges, the teeth of which tore their bodies. So David to Ammon (<reference osisRef=\"2Sam.12.31\">2Sa 12:31</reference>; compare <reference osisRef=\"Isa.28.27\">Is 28:27</reference>). <div eID=\"gen23013\" type=\"x-p\"/>",
+      "content_plain": "3. Here begins a series of threatenings of vengeance against six other states, followed by one against Judah, and ending with one against Israel, with whom the rest of the prophecy is occupied. The eight predictions are in symmetrical stanzas, each prefaced by \"Thus saith the Lord.\" Beginning with the sin of others, which Israel would be ready enough to recognize, he proceeds to bring home to Israel her own guilt. Israel must not think hereafter, because she sees others visited similarly to herself, that such judgments are matters of chance; nay, they are divinely foreseen and foreordered, and are confirmations of the truth that God will not clear the guilty. If God spares not the nations that know not the truth, how much less Israel that sins wilfully ( Lu 12:47 , 48 ; Jas 4:17 )! for three transgressions ... and for four-- If Damascus had only sinned once or twice, I would have spared them, but since, after having been so often pardoned, they still persevere so continually, I will no longer \"turn away\" their punishment. The Hebrew is simply, \"I will not reverse it,\" namely, the sentence of punishment which follows; the negative expression implies more than it expresses; that is, \"I will most surely execute it\"; God's fulfilment of His threats being more awful than human language can express. \"Three and four\" imply sin multiplied on sin (compare Ex 20:5 ; Pr 30:15 , 18, 21 ; \"six and seven,\" Job 5:19 ; \"once and twice,\" Job 33:14 ; \"twice and thrice,\" Margin; \"oftentimes,\" English Version, Job 33:29 ; \"seven and also eight,\" Ec 11:2 ). There may be also a reference to seven, the product of three and four added; seven expressing the full completion of the measure of their guilt ( Le 26:18 , 21, 24 ; compare Mt 23:32 ). threshed-- the very term used of the Syrian king Hazael's oppression of Israel under Jehu and Jehoahaz ( 2Ki 10:32 , 33 ; 13:7 ). The victims were thrown before the threshing sledges, the teeth of which tore their bodies. So David to Ammon ( 2Sa 12:31 ; compare Is 28:27 ).",
+      "source_record_sha256": "91ebe6165796436bc8c8bdcee41b2386c82b4a3aeb98bee16a6c752e065e62e7",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 9154,
+        "length": 3133
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. Here begins a series of threatenings of vengeance against six other states, followed by one against Judah, and ending with one against Israel, with whom the rest of the prophecy is occupied. The eight predictions are in symmetrical stanzas, each prefaced by \"Thus saith the Lord.\" Beginning with the sin of others, which Israel would be ready enough to recognize, he proceeds to bring home to Israel her own guilt. Israel must not think hereafter, because she sees others visited similarly to herself, that such judgments are matters of chance; nay, they are divinely foreseen and foreordered, and are confirmations of the truth that God will not clear the guilty. If God spares not the nations that know not the truth, how much less Israel that sins wilfully ( Lu 12:47 , 48 ; Jas 4:17 )! for three transgressions ... and for four-- If Damascus had only sinned once or twice, I would have spared them, but since, after having been so often pardoned, they still persevere so continually, I will no longer \"turn away\" their punishment. The Hebrew is simply, \"I will not reverse it,\" namely, the sentence of punishment which follows; the negative expression implies more than it expresses; that is, \"I will most surely execute it\"; God's fulfilment of His threats being more awful than human language can express. \"Three and four\" imply sin multiplied on sin (compare Ex 20:5 ; Pr 30:15 , 18, 21 ; \"six and seven,\" Job 5:19 ; \"once and twice,\" Job 33:14 ; \"twice and thrice,\" Margin; \"oftentimes,\" English Version, Job 33:29 ; \"seven and also eight,\" Ec 11:2 ). There may be also a reference to seven, the product of three and four added; seven expressing the full completion of the measure of their guilt ( Le 26:18 , 21, 24 ; compare Mt 23:32 ). threshed-- the very term used of the Syrian king Hazael's oppression of Israel under Jehu and Jehoahaz ( 2Ki 10:32 , 33 ; 13:7 ). The victims were thrown before the threshing sledges, the teeth of which tore their bodies. So David to Ammon ( 2Sa 12:31 ; compare Is 28:27 )."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.4-4:30:12287:1295",
+      "passage_start": "AMO.1.4",
+      "passage_end": "AMO.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12510\"/><div sID=\"gen23014\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12510\"/><hi type=\"bold\">4. Hazael ... Ben-hadad--</hi>A black marble obelisk found in the central palace of Nimroud, and now in the British Museum, is inscribed with the names of Hazael and Ben-hadad of Syria, as well as Jehu of Israel, mentioned as tributaries of \"Shalmanubar,\" king of Assyria. The kind of tribute from Jehu is mentioned: gold, pearls, precious oil, &amp;c. [G. V. Smith]. The Ben-hadad here is the son of Hazael (<reference osisRef=\"2Kgs.13.3\">2Ki 13:3</reference>), not the Ben-hadad supplanted and slain by Hazael (<reference osisRef=\"2Kgs.8.7\">2Ki 8:7</reference>, <reference osisRef=\"2Kgs.8.15\">15</reference>). The phrase, \"I will send a fire,\" that is, the flame of war (<reference osisRef=\"Ps.78.63\">Psa 78:63</reference>), occurs also in <reference osisRef=\"Amos.1.7\">Am 1:7</reference>, <reference osisRef=\"1Cor.10.12\">10, 12</reference>, <reference osisRef=\"1Cor.10.14\">14</reference>, and <reference osisRef=\"Amos.2.2\">Am 2:2</reference>, <reference osisRef=\"2Cor.2.5\">5</reference>; <reference osisRef=\"Jer.49.27\">Jr 49:27</reference>; <reference osisRef=\"Hos.8.14\">Ho 8:14</reference>. <div eID=\"gen23014\" type=\"x-p\"/>",
+      "content_plain": "4. Hazael ... Ben-hadad-- A black marble obelisk found in the central palace of Nimroud, and now in the British Museum, is inscribed with the names of Hazael and Ben-hadad of Syria, as well as Jehu of Israel, mentioned as tributaries of \"Shalmanubar,\" king of Assyria. The kind of tribute from Jehu is mentioned: gold, pearls, precious oil, &c. [G. V. Smith]. The Ben-hadad here is the son of Hazael ( 2Ki 13:3 ), not the Ben-hadad supplanted and slain by Hazael ( 2Ki 8:7 , 15 ). The phrase, \"I will send a fire,\" that is, the flame of war ( Psa 78:63 ), occurs also in Am 1:7 , 10, 12 , 14 , and Am 2:2 , 5 ; Jr 49:27 ; Ho 8:14 .",
+      "source_record_sha256": "21fd1f34e755c6f6cacd72adce4532bae1e5d5f18dba0922e1aba0e79fab7023",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 12287,
+        "length": 1295
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. Hazael ... Ben-hadad-- A black marble obelisk found in the central palace of Nimroud, and now in the British Museum, is inscribed with the names of Hazael and Ben-hadad of Syria, as well as Jehu of Israel, mentioned as tributaries of \"Shalmanubar,\" king of Assyria. The kind of tribute from Jehu is mentioned: gold, pearls, precious oil, &c. [G. V. Smith]. The Ben-hadad here is the son of Hazael ( 2Ki 13:3 ), not the Ben-hadad supplanted and slain by Hazael ( 2Ki 8:7 , 15 ). The phrase, \"I will send a fire,\" that is, the flame of war ( Psa 78:63 ), occurs also in Am 1:7 , 10, 12 , 14 , and Am 2:2 , 5 ; Jr 49:27 ; Ho 8:14 ."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.5-5:30:13582:2129",
+      "passage_start": "AMO.1.5",
+      "passage_end": "AMO.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12511\"/><div sID=\"gen23015\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12511\"/><hi type=\"bold\">5. bar of Damascus--</hi>that is, the bar of its gates (compare <reference osisRef=\"Jer.51.30\">Jr 51:30</reference>).<div eID=\"gen23015\" type=\"x-p\"/> <div sID=\"gen23016\" type=\"x-p\"/><hi type=\"bold\">the inhabitant--</hi>singular for plural, \"inhabitants.\" Henderson, because of the parallel, \"him that holdeth the scepter,\" translates, \"the ruler.\" But the parallelism is that of one clause complementing the other, \"the inhabitant\" or subject here answering to \"him that holdeth the scepter\" or ruler there, both ruler and subject alike being cut off.<div eID=\"gen23016\" type=\"x-p\"/> <div sID=\"gen23017\" type=\"x-p\"/><hi type=\"bold\">Aven--</hi>the same as Oon or Un, a delightful valley, four hours' journey from Damascus, towards the desert. Proverbial in the East as a place of delight [Josephus Abassus]. It is here parallel to \"Eden,\" which also means \"pleasantness\"; situated at Lebanon. As Josephus Abassus is a doubtful authority, perhaps the reference may be rather to the valley between Lebanon and Anti-Lebanon, called El-Bekaa, where are the ruins of the Baal-bek temple of the sun; so the Septuagint renders it On, the same name as the city in Egypt bears, dedicated to the sun-worship (<reference osisRef=\"Gen.41.45\">Ge 41:45</reference>; Heliopolis, \"the city of the sun,\" <reference osisRef=\"Ezek.30.17\">Eze 30:17</reference>, Margin). It is termed by Amos \"the valley of Aven,\" or \"vanity,\" from the worship of idols in it.<div eID=\"gen23017\" type=\"x-p\"/> <div sID=\"gen23018\" type=\"x-p\"/><hi type=\"bold\">Kir--</hi>a region subject to Assyria (<reference osisRef=\"Isa.22.6\">Is 22:6</reference>) in Iberia, the same as that called now in Armenian Kur, lying by the river Cyrus which empties itself into the Caspian Sea. Tiglath-pileser fulfilled this prophecy when Ahaz applied for help to him against Rezin king of Syria, and the Assyrian king took Damascus, slew Rezin, and carried away its people captive to Kir. <div eID=\"gen23018\" type=\"x-p\"/>",
+      "content_plain": "5. bar of Damascus-- that is, the bar of its gates (compare Jr 51:30 ). the inhabitant-- singular for plural, \"inhabitants.\" Henderson, because of the parallel, \"him that holdeth the scepter,\" translates, \"the ruler.\" But the parallelism is that of one clause complementing the other, \"the inhabitant\" or subject here answering to \"him that holdeth the scepter\" or ruler there, both ruler and subject alike being cut off. Aven-- the same as Oon or Un, a delightful valley, four hours' journey from Damascus, towards the desert. Proverbial in the East as a place of delight [Josephus Abassus]. It is here parallel to \"Eden,\" which also means \"pleasantness\"; situated at Lebanon. As Josephus Abassus is a doubtful authority, perhaps the reference may be rather to the valley between Lebanon and Anti-Lebanon, called El-Bekaa, where are the ruins of the Baal-bek temple of the sun; so the Septuagint renders it On, the same name as the city in Egypt bears, dedicated to the sun-worship ( Ge 41:45 ; Heliopolis, \"the city of the sun,\" Eze 30:17 , Margin). It is termed by Amos \"the valley of Aven,\" or \"vanity,\" from the worship of idols in it. Kir-- a region subject to Assyria ( Is 22:6 ) in Iberia, the same as that called now in Armenian Kur, lying by the river Cyrus which empties itself into the Caspian Sea. Tiglath-pileser fulfilled this prophecy when Ahaz applied for help to him against Rezin king of Syria, and the Assyrian king took Damascus, slew Rezin, and carried away its people captive to Kir.",
+      "source_record_sha256": "e9069fe3a0bd19609e790e204a042aef010b457db9523a06df605c4b9f52e11d",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 13582,
+        "length": 2129
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. bar of Damascus-- that is, the bar of its gates (compare Jr 51:30 ). the inhabitant-- singular for plural, \"inhabitants.\" Henderson, because of the parallel, \"him that holdeth the scepter,\" translates, \"the ruler.\" But the parallelism is that of one clause complementing the other, \"the inhabitant\" or subject here answering to \"him that holdeth the scepter\" or ruler there, both ruler and subject alike being cut off. Aven-- the same as Oon or Un, a delightful valley, four hours' journey from Damascus, towards the desert. Proverbial in the East as a place of delight [Josephus Abassus]. It is here parallel to \"Eden,\" which also means \"pleasantness\"; situated at Lebanon. As Josephus Abassus is a doubtful authority, perhaps the reference may be rather to the valley between Lebanon and Anti-Lebanon, called El-Bekaa, where are the ruins of the Baal-bek temple of the sun; so the Septuagint renders it On, the same name as the city in Egypt bears, dedicated to the sun-worship ( Ge 41:45 ; Heliopolis, \"the city of the sun,\" Eze 30:17 , Margin). It is termed by Amos \"the valley of Aven,\" or \"vanity,\" from the worship of idols in it. Kir-- a region subject to Assyria ( Is 22:6 ) in Iberia, the same as that called now in Armenian Kur, lying by the river Cyrus which empties itself into the Caspian Sea. Tiglath-pileser fulfilled this prophecy when Ahaz applied for help to him against Rezin king of Syria, and the Assyrian king took Damascus, slew Rezin, and carried away its people captive to Kir."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.6-6:30:15711:1834",
+      "passage_start": "AMO.1.6",
+      "passage_end": "AMO.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12512\"/><div sID=\"gen23019\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12512\"/><hi type=\"bold\">6. Gaza--</hi>the southernmost of the five capitals of the five divisions of Philistia, and the key to Palestine on the south: hence put for the whole Philistine nation. Uzziah commenced the fulfilment of this prophecy (see <reference osisRef=\"2Chr.26.6\">2Ch 26:6</reference>).<div eID=\"gen23019\" type=\"x-p\"/> <div sID=\"gen23020\" type=\"x-p\"/><hi type=\"bold\">because they carried away ... the whole captivity--</hi>that is, they left none. Compare with the phrase here, <reference osisRef=\"Jer.13.19\">Jr 13:19</reference>, \"Judah ... carried captive all of it ... wholly carried away.\" Under Jehoram already the Philistines had carried away all the substance of the king of Judah, and his wives and his sons, \"so that there was never a son left to him, save Jehoahaz\"; and after Amos' time (if the reference includes the future, which to the prophet's eye is as if already done), under Ahaz (<reference osisRef=\"2Chr.28.18\">2Ch 28:18</reference>), they seized on all the cities and villages of the low country and south of Judah.<div eID=\"gen23020\" type=\"x-p\"/> <div sID=\"gen23021\" type=\"x-p\"/><hi type=\"bold\">to deliver them up to Edom--</hi>Judah's bitterest foe; as slaves (<reference osisRef=\"Amos.1.9\">Am 1:9</reference>; compare <reference osisRef=\"Joel.3.1\">Joe 3:1</reference>, <reference osisRef=\"Joel.3.6\">3, 6</reference>). Grotius refers it to the fact (<reference osisRef=\"Isa.16.4\">Is 16:4</reference>) that on Sennacherib's invasion of Judah, many fled for refuge to neighboring countries; the Philistines, instead of hospitably sheltering the refugees, sold them, as if captives in war, to their enemies, the Idumeans. <div eID=\"gen23021\" type=\"x-p\"/>",
+      "content_plain": "6. Gaza-- the southernmost of the five capitals of the five divisions of Philistia, and the key to Palestine on the south: hence put for the whole Philistine nation. Uzziah commenced the fulfilment of this prophecy (see 2Ch 26:6 ). because they carried away ... the whole captivity-- that is, they left none. Compare with the phrase here, Jr 13:19 , \"Judah ... carried captive all of it ... wholly carried away.\" Under Jehoram already the Philistines had carried away all the substance of the king of Judah, and his wives and his sons, \"so that there was never a son left to him, save Jehoahaz\"; and after Amos' time (if the reference includes the future, which to the prophet's eye is as if already done), under Ahaz ( 2Ch 28:18 ), they seized on all the cities and villages of the low country and south of Judah. to deliver them up to Edom-- Judah's bitterest foe; as slaves ( Am 1:9 ; compare Joe 3:1 , 3, 6 ). Grotius refers it to the fact ( Is 16:4 ) that on Sennacherib's invasion of Judah, many fled for refuge to neighboring countries; the Philistines, instead of hospitably sheltering the refugees, sold them, as if captives in war, to their enemies, the Idumeans.",
+      "source_record_sha256": "ec19cfdaa454c8e5f2f2a6489639ce7779b7d0203f0ed74522f2375ccee7e654",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 15711,
+        "length": 1834
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. Gaza-- the southernmost of the five capitals of the five divisions of Philistia, and the key to Palestine on the south: hence put for the whole Philistine nation. Uzziah commenced the fulfilment of this prophecy (see 2Ch 26:6 ). because they carried away ... the whole captivity-- that is, they left none. Compare with the phrase here, Jr 13:19 , \"Judah ... carried captive all of it ... wholly carried away.\" Under Jehoram already the Philistines had carried away all the substance of the king of Judah, and his wives and his sons, \"so that there was never a son left to him, save Jehoahaz\"; and after Amos' time (if the reference includes the future, which to the prophet's eye is as if already done), under Ahaz ( 2Ch 28:18 ), they seized on all the cities and villages of the low country and south of Judah. to deliver them up to Edom-- Judah's bitterest foe; as slaves ( Am 1:9 ; compare Joe 3:1 , 3, 6 ). Grotius refers it to the fact ( Is 16:4 ) that on Sennacherib's invasion of Judah, many fled for refuge to neighboring countries; the Philistines, instead of hospitably sheltering the refugees, sold them, as if captives in war, to their enemies, the Idumeans."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.7-7:30:17545:587",
+      "passage_start": "AMO.1.7",
+      "passage_end": "AMO.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12513\"/><div sID=\"gen23022\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12513\"/><hi type=\"bold\">7. fire--</hi>that is, the flame of war (<reference osisRef=\"Num.21.28\">Nu 21:28</reference>; <reference osisRef=\"Isa.26.11\">Is 26:11</reference>). Hezekiah fulfilled the prophecy, smiting the Philistines unto Gaza (<reference osisRef=\"2Kgs.18.8\">2Ki 18:8</reference>). Foretold also by <reference osisRef=\"Isa.14.29\">Is 14:29</reference>, <reference osisRef=\"Isa.14.31\">31</reference>. <div eID=\"gen23022\" type=\"x-p\"/>",
+      "content_plain": "7. fire-- that is, the flame of war ( Nu 21:28 ; Is 26:11 ). Hezekiah fulfilled the prophecy, smiting the Philistines unto Gaza ( 2Ki 18:8 ). Foretold also by Is 14:29 , 31 .",
+      "source_record_sha256": "1ba2ab835517f71f61a5b584de683a21904723afbe9a648df5e977c089d90217",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 17545,
+        "length": 587
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. fire-- that is, the flame of war ( Nu 21:28 ; Is 26:11 ). Hezekiah fulfilled the prophecy, smiting the Philistines unto Gaza ( 2Ki 18:8 ). Foretold also by Is 14:29 , 31 ."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.8-8:30:18132:975",
+      "passage_start": "AMO.1.8",
+      "passage_end": "AMO.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12514\"/><div sID=\"gen23023\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12514\"/><hi type=\"bold\">8. Ashdod, &amp;c.--</hi>Gath alone is not mentioned of the five chief Philistine cities. It had already been subdued by David; and it, as well as Ashdod, was taken by Uzziah (<reference osisRef=\"2Chr.26.6\">2Ch 26:6</reference>). Gath perhaps had lost its position as one of the five primary cities before Amos uttered this prophecy, whence arose his omission of it. So <reference osisRef=\"Zeph.2.4\">Zep 2:4</reference>, <reference osisRef=\"2Cor.2.5\">5</reference>. Compare <reference osisRef=\"Jer.47.4\">Jr 47:4</reference>; <reference osisRef=\"Ezek.25.16\">Eze 25:16</reference>. Subsequently to the subjugation of the Philistines by Uzziah, and then by Hezekiah, they were reduced by Psammetichus of Egypt, Nebuchadnezzar, the Persians, Alexander, and lastly the Asmoneans. <div eID=\"gen23023\" type=\"x-p\"/>",
+      "content_plain": "8. Ashdod, &c.-- Gath alone is not mentioned of the five chief Philistine cities. It had already been subdued by David; and it, as well as Ashdod, was taken by Uzziah ( 2Ch 26:6 ). Gath perhaps had lost its position as one of the five primary cities before Amos uttered this prophecy, whence arose his omission of it. So Zep 2:4 , 5 . Compare Jr 47:4 ; Eze 25:16 . Subsequently to the subjugation of the Philistines by Uzziah, and then by Hezekiah, they were reduced by Psammetichus of Egypt, Nebuchadnezzar, the Persians, Alexander, and lastly the Asmoneans.",
+      "source_record_sha256": "f5963562009a1b9e030ae62a12bd8b8fd136394e7eae2015c08a61d49b1bb8f7",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 18132,
+        "length": 975
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. Ashdod, &c.-- Gath alone is not mentioned of the five chief Philistine cities. It had already been subdued by David; and it, as well as Ashdod, was taken by Uzziah ( 2Ch 26:6 ). Gath perhaps had lost its position as one of the five primary cities before Amos uttered this prophecy, whence arose his omission of it. So Zep 2:4 , 5 . Compare Jr 47:4 ; Eze 25:16 . Subsequently to the subjugation of the Philistines by Uzziah, and then by Hezekiah, they were reduced by Psammetichus of Egypt, Nebuchadnezzar, the Persians, Alexander, and lastly the Asmoneans."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.9-9:30:19107:924",
+      "passage_start": "AMO.1.9",
+      "passage_end": "AMO.1.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12515\"/><div sID=\"gen23024\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12515\"/><hi type=\"bold\">9. Tyrus ... delivered up the ... captivity to Edom--</hi>the same charge as against the Philistines (<reference osisRef=\"Amos.1.6\">Am 1:6</reference>).<div eID=\"gen23024\" type=\"x-p\"/> <div sID=\"gen23025\" type=\"x-p\"/><hi type=\"bold\">remembered not the brotherly covenant--</hi>the league of Hiram of Tyre with David and Solomon, the former supplying cedars for the building of the temple and king's house in return for oil and corn (<reference osisRef=\"2Sam.5.11\">2Sa 5:11</reference>; <reference osisRef=\"1Kgs.5.2-1Kgs.6.9\">1Ki 5:2-6; 9</reference>:11-14, 27; 10-22; <reference osisRef=\"1Chr.14.1\">1Ch 14:1</reference>; <reference osisRef=\"2Chr.8.18\">2Ch 8:18</reference>; <reference osisRef=\"2Chr.9.10\">9:10</reference>). <div eID=\"gen23025\" type=\"x-p\"/>",
+      "content_plain": "9. Tyrus ... delivered up the ... captivity to Edom-- the same charge as against the Philistines ( Am 1:6 ). remembered not the brotherly covenant-- the league of Hiram of Tyre with David and Solomon, the former supplying cedars for the building of the temple and king's house in return for oil and corn ( 2Sa 5:11 ; 1Ki 5:2-6; 9 :11-14, 27; 10-22; 1Ch 14:1 ; 2Ch 8:18 ; 9:10 ).",
+      "source_record_sha256": "6c2329d290ce457dd3e0605e861f299ab0e0e056e865c458615686b63a68b329",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 19107,
+        "length": 924
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. Tyrus ... delivered up the ... captivity to Edom-- the same charge as against the Philistines ( Am 1:6 ). remembered not the brotherly covenant-- the league of Hiram of Tyre with David and Solomon, the former supplying cedars for the building of the temple and king's house in return for oil and corn ( 2Sa 5:11 ; 1Ki 5:2-6; 9 :11-14, 27; 10-22; 1Ch 14:1 ; 2Ch 8:18 ; 9:10 )."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.10-10:30:20031:535",
+      "passage_start": "AMO.1.10",
+      "passage_end": "AMO.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12516\"/><div sID=\"gen23026\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12516\"/><hi type=\"bold\">10. fire--</hi>(Compare <reference osisRef=\"Amos.1.4\">Am 1:4</reference>, <reference osisRef=\"1Cor.1.7\">7</reference>; <reference osisRef=\"Isa.23.1-Isa.23.18\">Is 23:1-18</reference>; Eze 26:1-28:26). Many parts of Tyre were burnt by fiery missiles of the Chaldeans under Nebuchadnezzar. Alexander of Macedon subsequently overthrew it. <div eID=\"gen23026\" type=\"x-p\"/>",
+      "content_plain": "10. fire-- (Compare Am 1:4 , 7 ; Is 23:1-18 ; Eze 26:1-28:26). Many parts of Tyre were burnt by fiery missiles of the Chaldeans under Nebuchadnezzar. Alexander of Macedon subsequently overthrew it.",
+      "source_record_sha256": "c301e67cfe60c7d71a75d4ab81d0fd12452973cede25d47c3fcd55664a98f482",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 20031,
+        "length": 535
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. fire-- (Compare Am 1:4 , 7 ; Is 23:1-18 ; Eze 26:1-28:26). Many parts of Tyre were burnt by fiery missiles of the Chaldeans under Nebuchadnezzar. Alexander of Macedon subsequently overthrew it."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.11-11:30:20566:2140",
+      "passage_start": "AMO.1.11",
+      "passage_end": "AMO.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12517\"/><div sID=\"gen23027\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12517\"/><hi type=\"bold\">11. Edom ... did pursue his brother--</hi>(<reference osisRef=\"Isa.34.5\">Is 34:5</reference>). The chief aggravation to Edom's violence against Israel was that they both came from the same parents, Isaac and Rebekah (compare <reference osisRef=\"Gen.25.24-Gen.25.26\">Ge 25:24-26</reference>; <reference osisRef=\"Deut.23.7\">De 23:7</reference>, <reference osisRef=\"Deut.23.8\">8</reference>; Ob 10, 12; Mal 1:2).<div eID=\"gen23027\" type=\"x-p\"/> <div sID=\"gen23028\" type=\"x-p\"/><hi type=\"bold\">cast off all pity--</hi>literally, \"destroy compassions,\" that is, did suppress all the natural feeling of pity for a brother in distress.<div eID=\"gen23028\" type=\"x-p\"/> <div sID=\"gen23029\" type=\"x-p\"/><hi type=\"bold\">his wrath for ever--</hi>As Esau kept up his grudge against Jacob, for having twice supplanted him, namely, as to the birthright and the blessing (<reference osisRef=\"Gen.27.41\">Ge 27:41</reference>), so Esau's posterity against Israel (<reference osisRef=\"Num.20.14\">Nu 20:14</reference>, <reference osisRef=\"Num.20.21\">21</reference>). Edom first showed his spite in not letting Israel pass through his borders when coming from the wilderness, but threatening to \"come out against him with the sword\"; next, when the Syrians attacked Jerusalem under Ahaz (compare <reference osisRef=\"2Chr.28.17\">2Ch 28:17</reference>, with <reference osisRef=\"2Kgs.16.5\">2Ki 16:5</reference>); next, when Nebuchadnezzar assailed Jerusalem (<reference osisRef=\"Ps.137.7\">Psa 137:7</reference>, <reference osisRef=\"Ps.137.8\">8</reference>). In each case Edom chose the day of Israel's calamity for venting his grudge. This is the point of Edom's guilt dwelt on in Ob 10-13. God punishes the children, not for the sin of their fathers, but for their own filling up the measure of their fathers' guilt, as children generally follow in the steps of, and even exceed, their fathers' guilt (compare <reference osisRef=\"Exod.20.5\">Ex 20:5</reference>). <div eID=\"gen23029\" type=\"x-p\"/>",
+      "content_plain": "11. Edom ... did pursue his brother-- ( Is 34:5 ). The chief aggravation to Edom's violence against Israel was that they both came from the same parents, Isaac and Rebekah (compare Ge 25:24-26 ; De 23:7 , 8 ; Ob 10, 12; Mal 1:2). cast off all pity-- literally, \"destroy compassions,\" that is, did suppress all the natural feeling of pity for a brother in distress. his wrath for ever-- As Esau kept up his grudge against Jacob, for having twice supplanted him, namely, as to the birthright and the blessing ( Ge 27:41 ), so Esau's posterity against Israel ( Nu 20:14 , 21 ). Edom first showed his spite in not letting Israel pass through his borders when coming from the wilderness, but threatening to \"come out against him with the sword\"; next, when the Syrians attacked Jerusalem under Ahaz (compare 2Ch 28:17 , with 2Ki 16:5 ); next, when Nebuchadnezzar assailed Jerusalem ( Psa 137:7 , 8 ). In each case Edom chose the day of Israel's calamity for venting his grudge. This is the point of Edom's guilt dwelt on in Ob 10-13. God punishes the children, not for the sin of their fathers, but for their own filling up the measure of their fathers' guilt, as children generally follow in the steps of, and even exceed, their fathers' guilt (compare Ex 20:5 ).",
+      "source_record_sha256": "6f7d0c0b139771d27c09e53acdff70785536c2074bd93bcbbfba52fc1a0625ff",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 20566,
+        "length": 2140
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. Edom ... did pursue his brother-- ( Is 34:5 ). The chief aggravation to Edom's violence against Israel was that they both came from the same parents, Isaac and Rebekah (compare Ge 25:24-26 ; De 23:7 , 8 ; Ob 10, 12; Mal 1:2). cast off all pity-- literally, \"destroy compassions,\" that is, did suppress all the natural feeling of pity for a brother in distress. his wrath for ever-- As Esau kept up his grudge against Jacob, for having twice supplanted him, namely, as to the birthright and the blessing ( Ge 27:41 ), so Esau's posterity against Israel ( Nu 20:14 , 21 ). Edom first showed his spite in not letting Israel pass through his borders when coming from the wilderness, but threatening to \"come out against him with the sword\"; next, when the Syrians attacked Jerusalem under Ahaz (compare 2Ch 28:17 , with 2Ki 16:5 ); next, when Nebuchadnezzar assailed Jerusalem ( Psa 137:7 , 8 ). In each case Edom chose the day of Israel's calamity for venting his grudge. This is the point of Edom's guilt dwelt on in Ob 10-13. God punishes the children, not for the sin of their fathers, but for their own filling up the measure of their fathers' guilt, as children generally follow in the steps of, and even exceed, their fathers' guilt (compare Ex 20:5 )."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.12-12:30:22706:810",
+      "passage_start": "AMO.1.12",
+      "passage_end": "AMO.1.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12518\"/><div sID=\"gen23030\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12518\"/><hi type=\"bold\">12. Teman--</hi>a city of Edom, called from a grandson of Esau (<reference osisRef=\"Gen.36.11\">Ge 36:11</reference>, <reference osisRef=\"Gen.36.15\">15</reference>; Ob 8, 9); situated five miles from Petra; south of the present Wady Musa. Its people were famed for wisdom (<reference osisRef=\"Jer.49.7\">Jr 49:7</reference>).<div eID=\"gen23030\" type=\"x-p\"/> <div sID=\"gen23031\" type=\"x-p\"/><hi type=\"bold\">Bozrah--</hi>a city of Edom (<reference osisRef=\"Isa.63.1\">Is 63:1</reference>). Selah or Petra is not mentioned, as it had been overthrown by Amaziah (<reference osisRef=\"2Kgs.14.7\">2Ki 14:7</reference>). <div eID=\"gen23031\" type=\"x-p\"/>",
+      "content_plain": "12. Teman-- a city of Edom, called from a grandson of Esau ( Ge 36:11 , 15 ; Ob 8, 9); situated five miles from Petra; south of the present Wady Musa. Its people were famed for wisdom ( Jr 49:7 ). Bozrah-- a city of Edom ( Is 63:1 ). Selah or Petra is not mentioned, as it had been overthrown by Amaziah ( 2Ki 14:7 ).",
+      "source_record_sha256": "37fae9daf6d49ca7a56edbbf338dd231f874e45100dd2010c62a59ab23b1c471",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 22706,
+        "length": 810
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. Teman-- a city of Edom, called from a grandson of Esau ( Ge 36:11 , 15 ; Ob 8, 9); situated five miles from Petra; south of the present Wady Musa. Its people were famed for wisdom ( Jr 49:7 ). Bozrah-- a city of Edom ( Is 63:1 ). Selah or Petra is not mentioned, as it had been overthrown by Amaziah ( 2Ki 14:7 )."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.13-13:30:23516:991",
+      "passage_start": "AMO.1.13",
+      "passage_end": "AMO.1.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12519\"/><div sID=\"gen23032\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12519\"/><hi type=\"bold\">13. Ammon--</hi>The Ammonites under Nahash attacked Jabesh-gilead and refused to accept the offer of the latter to save them, unless the Jabesh-gileadites would put out all their right eyes (<reference osisRef=\"1Sam.11.1\">1Sa 11:1</reference>, &amp;c.). Saul rescued Jabesh-gilead. The Ammonites joined the Chaldeans in their invasion of Judea for the sake of plunder.<div eID=\"gen23032\" type=\"x-p\"/> <div sID=\"gen23033\" type=\"x-p\"/><hi type=\"bold\">ripped up ... women with-child--</hi>as Hazael of Syria also did (<reference osisRef=\"2Kgs.8.12\">2Ki 8:12</reference>; compare <reference osisRef=\"Hos.13.16\">Ho 13:16</reference>). Ammon's object in this cruel act was to leave Israel without \"heir,\" so as to seize on Israel's inheritance (<reference osisRef=\"Jer.49.1\">Jr 49:1</reference>). <div eID=\"gen23033\" type=\"x-p\"/>",
+      "content_plain": "13. Ammon-- The Ammonites under Nahash attacked Jabesh-gilead and refused to accept the offer of the latter to save them, unless the Jabesh-gileadites would put out all their right eyes ( 1Sa 11:1 , &c.). Saul rescued Jabesh-gilead. The Ammonites joined the Chaldeans in their invasion of Judea for the sake of plunder. ripped up ... women with-child-- as Hazael of Syria also did ( 2Ki 8:12 ; compare Ho 13:16 ). Ammon's object in this cruel act was to leave Israel without \"heir,\" so as to seize on Israel's inheritance ( Jr 49:1 ).",
+      "source_record_sha256": "b6b77ac8145679463a5f7eae1dd89abc8173e1d9b9a0c53a72b266bf5dc92cb1",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 23516,
+        "length": 991
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13. Ammon-- The Ammonites under Nahash attacked Jabesh-gilead and refused to accept the offer of the latter to save them, unless the Jabesh-gileadites would put out all their right eyes ( 1Sa 11:1 , &c.). Saul rescued Jabesh-gilead. The Ammonites joined the Chaldeans in their invasion of Judea for the sake of plunder. ripped up ... women with-child-- as Hazael of Syria also did ( 2Ki 8:12 ; compare Ho 13:16 ). Ammon's object in this cruel act was to leave Israel without \"heir,\" so as to seize on Israel's inheritance ( Jr 49:1 )."
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.14-14:30:24507:714",
+      "passage_start": "AMO.1.14",
+      "passage_end": "AMO.1.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12520\"/><div sID=\"gen23034\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12520\"/><hi type=\"bold\">14. Rabbah--</hi>the capital of Ammon: meaning \"the Great.\" Distinct from Rabbah of Moab. Called Philadelphia, afterwards, from Ptolemy Philadelphus.<div eID=\"gen23034\" type=\"x-p\"/> <div sID=\"gen23035\" type=\"x-p\"/><hi type=\"bold\">tempest--</hi>that is, with an onset swift, sudden, and resistless as a hurricane.<div eID=\"gen23035\" type=\"x-p\"/> <div sID=\"gen23036\" type=\"x-p\"/><hi type=\"bold\">day of the whirlwind--</hi>parallel to \"the day of battle\"; therefore meaning \"the day of the foe's tumultuous assault.\" <div eID=\"gen23036\" type=\"x-p\"/>",
+      "content_plain": "14. Rabbah-- the capital of Ammon: meaning \"the Great.\" Distinct from Rabbah of Moab. Called Philadelphia, afterwards, from Ptolemy Philadelphus. tempest-- that is, with an onset swift, sudden, and resistless as a hurricane. day of the whirlwind-- parallel to \"the day of battle\"; therefore meaning \"the day of the foe's tumultuous assault.\"",
+      "source_record_sha256": "2a653e001c755d268ff94c89dffa2cd0dab1ccdefd235a908134346c568782ad",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 24507,
+        "length": 714
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14. Rabbah-- the capital of Ammon: meaning \"the Great.\" Distinct from Rabbah of Moab. Called Philadelphia, afterwards, from Ptolemy Philadelphus. tempest-- that is, with an onset swift, sudden, and resistless as a hurricane. day of the whirlwind-- parallel to \"the day of battle\"; therefore meaning \"the day of the foe's tumultuous assault.\""
+    },
+    {
+      "entry_id": "sword:jfb:AMO.1.15-15:30:25221:702",
+      "passage_start": "AMO.1.15",
+      "passage_end": "AMO.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12521\"/><div sID=\"gen23037\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12521\"/><hi type=\"bold\">15. their king ... princes--</hi>or else, \"their Molech (the idol of Ammon) and his priests\" [Grotius and Septuagint]. <reference osisRef=\"Isa.43.28\">Is 43:28</reference> so uses \"princes\" for \"priests.\" So <reference osisRef=\"Amos.5.26\">Am 5:26</reference>, \"your Molech\"; and <reference osisRef=\"Jer.49.3\">Jr 49:3</reference>, Margin. English Version, however, is perhaps preferable both here and in <reference osisRef=\"Jer.49.3\">Jr 49:3</reference>; see on <reference osisRef=\"Jer.49.3\">Jr 49:3</reference>. <chapter eID=\"Amos.1\"/>",
+      "content_plain": "15. their king ... princes-- or else, \"their Molech (the idol of Ammon) and his priests\" [Grotius and Septuagint]. Is 43:28 so uses \"princes\" for \"priests.\" So Am 5:26 , \"your Molech\"; and Jr 49:3 , Margin. English Version, however, is perhaps preferable both here and in Jr 49:3 ; see on Jr 49:3 .",
+      "source_record_sha256": "0328f0e4eb2cb6e4f568eccc50235e97a253fb8b868784ab464b455cefa016cf",
+      "index_record": {
+        "testament": "OT",
+        "block": 30,
+        "offset": 25221,
+        "length": 702
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "AMO.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "15. their king ... princes-- or else, \"their Molech (the idol of Ammon) and his priests\" [Grotius and Septuagint]. Is 43:28 so uses \"princes\" for \"priests.\" So Am 5:26 , \"your Molech\"; and Jr 49:3 , Margin. English Version, however, is perhaps preferable both here and in Jr 49:3 ; see on Jr 49:3 ."
+    }
+  ],
+  "indexed_verse_count": 15,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_AMO_SOURCE_LOCK_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 15
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:AMO:P:introduction",
+      "navigation_id": "AMO:P:introduction",
+      "kind": "original_OSIS_source_section",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "INTRODUCTION",
+      "content_plain": "INTRODUCTION Amos (meaning in Hebrew \"a burden\") was ( Am 1:1 ) a shepherd of Tekoa, a small town of Judah, six miles southeast from Beth-lehem, and twelve from Jerusalem, on the borders of the great desert ( 2Ch 20:20 ; compare 2Ch 11:6 ). The region being sandy was more fit for pastoral than for agricultural purposes. Amos therefore owned and tended flocks, and collected sycamore figs; not that the former was a menial office, kings themselves, as Mesha of Moab ( 2Ki 3:4 ), exercising it. Amos, however (from Am 7:14 , 15 ), seems to have been of humble rank. Though belonging to Judah, he was commissioned by God to exercise his prophetical function in Israel; as the latter kingdom abounded in impostors, and the prophets of God generally fled to Judah through fear of the kings of Israel, a true prophet from Judah was the more needed in it. His name is not to be confounded with that of Isaiah's father, Amoz. The time of his prophesying was in the reigns of Uzziah king of Judea, and Jeroboam II, son of Joash, king of Israel ( Am 1:1 ), that is, in part of the time in which the two kings were contemporary; probably in Jeroboam's latter years, after that monarch had recovered from Syria \"the coast of Israel from the entering of Hamath to the sea of the plain\" ( 2Ki 14:25-27 ); for Amos foretells that these same coasts, \"from the entering in of Hamath unto the river of the wilderness,\" should be the scene of Israel's being afflicted ( Am 6:14 ); also his references to the state of luxurious security then existing ( Am 6:1 , 4, 13 ), and to the speedy termination of it by the Assyrian foe ( Am 1:5 ; 3:12 , 15 ; 5:27; 8:2 ), point to the latter part of Jeroboam's reign, which terminated in 784 B.C., the twenty-seventh year of Uzziah's reign, which continued down to 759 B.C. He was contemporary with Hosea, only that the latter continued to prophesy in reigns subsequent to Uzziah ( Ho 1:1 ); whereas Amos ceased to prophesy in the reign of that monarch. The scene of his ministry was Beth-el, where the idol calves were set up ( Am 7:10-13 ). There his prophecies roused Amaziah, the idol priest, to accuse him of conspiracy and to try to drive him back to Judah. The first six chapters are without figure; the last three symbolical, but with the explanation subjoined. He first denounces the neighboring peoples, then the Jews, then Israel (from the third chapter to the end), closing with the promise or restoration under Messiah ( Am 9:11-15 ). His style is thought by Jerome to betray his humble origin; but though not sublime, it is regular, perspicuous, and energetic; his images are taken from the scenes in nature with which he was familiar; his rhythms are flowing, his parallelisms exact, and his descriptions minute and graphic. Some peculiar expressions occur: \"cleanness of teeth,\" that is, want of bread ( Am 4:6 ); \"the excellency of Jacob\" ( Am 6:8 ; 8:7 ); \"the high places of Isaac\" ( Am 7:9 ); \"the house of Isaac\" ( Am 7:16 ); \"he that createth the wind\" ( Am 4:13 ). Hengstenberg draws an able argument for the genuineness of the Mosaic records from the evidence in Amos, that the existing institutions in Israel as well as Judah (excepting the calves of Jeroboam), were framed according to the Pentateuch rules. Two quotations from Amos occur in the New Testament (compare Ac 7:42 , 43 , with Am 5:25 , 26 ; and Ac 15:16 , 17 , with Am 9:11 ). Philo, Josephus, Melito's catalogue, Jerome, Justin Martyr (Dialogue with Trypho, 22, quoting the fifth and six chapters of Amos as \"one of the twelve minor prophets\"), and the sixtieth canon of the Laodicean council support the canonicity of the book of Amos.",
+      "content_osis": "<title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen22995\" type=\"x-p\"/> Amos (meaning in Hebrew \"a burden\") was (<reference osisRef=\"Amos.1.1\">Am 1:1</reference>) a shepherd of Tekoa, a small town of Judah, six miles southeast from Beth-lehem, and twelve from Jerusalem, on the borders of the great desert (<reference osisRef=\"2Chr.20.20\">2Ch 20:20</reference>; compare <reference osisRef=\"2Chr.11.6\">2Ch 11:6</reference>). The region being sandy was more fit for pastoral than for agricultural purposes. Amos therefore owned and tended flocks, and collected sycamore figs; not that the former was a menial office, kings themselves, as Mesha of Moab (<reference osisRef=\"2Kgs.3.4\">2Ki 3:4</reference>), exercising it. Amos, however (from <reference osisRef=\"Amos.7.14\">Am 7:14</reference>, <reference osisRef=\"Amos.7.15\">15</reference>), seems to have been of humble rank.<div eID=\"gen22995\" type=\"x-p\"/> <div eID=\"gen22994\" type=\"introduction\"/> <div sID=\"gen22996\" type=\"x-p\"/> Though belonging to Judah, he was commissioned by God to exercise his prophetical function in Israel; as the latter kingdom abounded in impostors, and the prophets of God generally fled to Judah through fear of the kings of Israel, a true prophet from Judah was the more needed in it. His name is not to be confounded with that of Isaiah's father, Amoz.<div eID=\"gen22996\" type=\"x-p\"/> <div sID=\"gen22997\" type=\"x-p\"/> The time of his prophesying was in the reigns of Uzziah king of Judea, and Jeroboam II, son of Joash, king of Israel (<reference osisRef=\"Amos.1.1\">Am 1:1</reference>), that is, in part of the time in which the two kings were contemporary; probably in Jeroboam's latter years, after that monarch had recovered from Syria \"the coast of Israel from the entering of Hamath to the sea of the plain\" (<reference osisRef=\"2Kgs.14.25-2Kgs.14.27\">2Ki 14:25-27</reference>); for Amos foretells that these same coasts, \"from the entering in of Hamath unto the river of the wilderness,\" should be the scene of Israel's being afflicted (<reference osisRef=\"Amos.6.14\">Am 6:14</reference>); also his references to the state of luxurious security then existing (<reference osisRef=\"Amos.6.1\">Am 6:1</reference>, <reference osisRef=\"Amos.4.13\">4, 13</reference>), and to the speedy termination of it by the Assyrian foe (<reference osisRef=\"Amos.1.5\">Am 1:5</reference>; <reference osisRef=\"1Cor.3.12\">3:12</reference>, <reference osisRef=\"1Cor.3.15\">15</reference>; 5:27; <reference osisRef=\"1Cor.8.2\">8:2</reference>), point to the latter part of Jeroboam's reign, which terminated in 784 B.C., the twenty-seventh year of Uzziah's reign, which continued down to 759 B.C.<div eID=\"gen22997\" type=\"x-p\"/> <div sID=\"gen22998\" type=\"x-p\"/> He was contemporary with Hosea, only that the latter continued to prophesy in reigns subsequent to Uzziah (<reference osisRef=\"Hos.1.1\">Ho 1:1</reference>); whereas Amos ceased to prophesy in the reign of that monarch. The scene of his ministry was Beth-el, where the idol calves were set up (<reference osisRef=\"Amos.7.10-Amos.7.13\">Am 7:10-13</reference>). There his prophecies roused Amaziah, the idol priest, to accuse him of conspiracy and to try to drive him back to Judah.<div eID=\"gen22998\" type=\"x-p\"/> <div sID=\"gen22999\" type=\"x-p\"/> The first six chapters are without figure; the last three symbolical, but with the explanation subjoined. He first denounces the neighboring peoples, then the Jews, then Israel (from the third chapter to the end), closing with the promise or restoration under Messiah (<reference osisRef=\"Amos.9.11-Amos.9.15\">Am 9:11-15</reference>). His style is thought by Jerome to betray his humble origin; but though not sublime, it is regular, perspicuous, and energetic; his images are taken from the scenes in nature with which he was familiar; his rhythms are flowing, his parallelisms exact, and his descriptions minute and graphic. Some peculiar expressions occur: \"cleanness of teeth,\" that is, want of bread (<reference osisRef=\"Amos.4.6\">Am 4:6</reference>); \"the excellency of Jacob\" (<reference osisRef=\"Amos.6.8\">Am 6:8</reference>; <reference osisRef=\"Amos.8.7\">8:7</reference>); \"the high places of Isaac\" (<reference osisRef=\"Amos.7.9\">Am 7:9</reference>); \"the house of Isaac\" (<reference osisRef=\"Amos.7.16\">Am 7:16</reference>); \"he that createth the wind\" (<reference osisRef=\"Amos.4.13\">Am 4:13</reference>).<div eID=\"gen22999\" type=\"x-p\"/> <div sID=\"gen23000\" type=\"x-p\"/> Hengstenberg draws an able argument for the genuineness of the Mosaic records from the evidence in Amos, that the existing institutions in Israel as well as Judah (excepting the calves of Jeroboam), were framed according to the Pentateuch rules.<div eID=\"gen23000\" type=\"x-p\"/> <div sID=\"gen23001\" type=\"x-p\"/> Two quotations from Amos occur in the New Testament (compare <reference osisRef=\"Acts.7.42\">Ac 7:42</reference>, <reference osisRef=\"Acts.7.43\">43</reference>, with <reference osisRef=\"Amos.5.25\">Am 5:25</reference>, <reference osisRef=\"Amos.5.26\">26</reference>; and <reference osisRef=\"Acts.15.16\">Ac 15:16</reference>, <reference osisRef=\"Acts.15.17\">17</reference>, with <reference osisRef=\"Amos.9.11\">Am 9:11</reference>).<div eID=\"gen23001\" type=\"x-p\"/> <div sID=\"gen23002\" type=\"x-p\"/> Philo, Josephus, Melito's catalogue, Jerome, Justin Martyr (Dialogue with Trypho, 22, quoting the fifth and six chapters of Amos as \"one of the twelve minor prophets\"), and the sixtieth canon of the Laodicean council support the canonicity of the book of Amos.<div eID=\"gen23002\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:jfb:AMO.1.1-1:30:389:7284",
+      "source_character_span": [
+        60,
+        5608
+      ],
+      "source_fragment_sha256": "3e4517ec9311a69c90be159539628e7aae1a6454861d2e3e28656c20f7c914c8",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_OSIS_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_or_explicit_intro_and_native_binary_index",
+      "source_indexed_passage": [
+        "AMO.1.1",
+        "AMO.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:AMO.1:P:chapter-1",
+      "navigation_id": "AMO.1:P:chapter-1",
+      "kind": "original_OSIS_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1",
+      "content_osis": "<title type=\"x-s\">CHAPTER 1</title> ",
+      "source_entry_id": "sword:jfb:AMO.1.1-1:30:389:7284",
+      "source_character_span": [
+        5608,
+        5644
+      ],
+      "source_fragment_sha256": "c4c7e85f8cc229520a40ca3c451c39bc0fc2826dbdcfd74bf970753c4e9af4ae",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_OSIS_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_or_explicit_intro_and_native_binary_index",
+      "source_indexed_passage": [
+        "AMO.1.1",
+        "AMO.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:AMO.1:P:am-1-1-15-god-s-judgments-on-syria-philistia-tyre-edom-and-ammon",
+      "navigation_id": "AMO.1:P:am-1-1-15-god-s-judgments-on-syria-philistia-tyre-edom-and-ammon",
+      "kind": "original_OSIS_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Am 1:1-15 . God's Judgments on Syria, Philistia, Tyre, Edom, and Ammon.",
+      "content_plain": "Am 1:1-15 . God's Judgments on Syria, Philistia, Tyre, Edom, and Ammon.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Amos.1.1-Amos.1.15\">Am 1:1-15</reference>. God's Judgments on Syria, Philistia, Tyre, Edom, and Ammon.</title> <div sID=\"gen23003\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12507\"/>",
+      "source_entry_id": "sword:jfb:AMO.1.1-1:30:389:7284",
+      "source_character_span": [
+        5644,
+        5886
+      ],
+      "source_fragment_sha256": "cdc274f3f50a208cf522bc0ed83dbee560c2a57181179b748792e25a22a827b7",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_OSIS_heading_and_native_KJV_binary_index",
+      "extraction_basis": "original_OSIS_title_or_explicit_intro_and_native_binary_index",
+      "source_indexed_passage": [
+        "AMO.1.1",
+        "AMO.1.1"
+      ],
+      "source_title_explicit_range": [
+        "AMO.1.1",
+        "AMO.1.15"
+      ]
+    }
+  ],
+  "navigation_section_count": 3,
+  "reader_visible_entry_count": 15
+}

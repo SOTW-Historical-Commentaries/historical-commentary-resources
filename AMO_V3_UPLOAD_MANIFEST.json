@@ -1,0 +1,417 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-amos-2026-11-11",
+  "book": "AMO",
+  "book_name": "Amos",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-amos-2026-11-11",
+  "baseline_main_commit": "f7a8f43626dd2dde933f356e10d44129d6880fe6",
+  "baseline_navigation_manifest_git_blob": "1a48019b8de72f23652e4a54a47d3f1d79aa642f",
+  "baseline_navigation_sha256": "092dceac7fbb4a85dc0feb273ca8da39a1bde342ccf3a4f16054f927936a34ea",
+  "prerequisites": [
+    "JOL"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 67,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/AMO.json",
+      "bytes": 96341,
+      "sha256": "e8f336d8e1ec5459bf2b49d62e743ceb5640cfca469a740fb9ef06dcbfc50d78"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 15622,
+      "sha256": "10481143d72507001323cbe61f1f69b3bf7b7af763c8d0ab20c4ed76662b7999"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/1.json",
+      "bytes": 78555,
+      "sha256": "51aed77253792bc6d62a305e00943920fd557b5fd12e27d50c20bdc1fe999d93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/2.json",
+      "bytes": 36877,
+      "sha256": "ee09ad06935c9ff67693765d9703c4c61b159311ef76032781d9e3cd4ff98280"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/3.json",
+      "bytes": 47066,
+      "sha256": "efa70c9c7b6f2f69ce6e940cdbe04d0a75f46e9f0218b648729129949dadc854"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/4.json",
+      "bytes": 39096,
+      "sha256": "c14d1fe535d06eada091c1651baa0b7d08feabbe77db1345002e55ab5765b436"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/5.json",
+      "bytes": 62580,
+      "sha256": "2ef526d404d5f86a4ab41695d5b72c88abb915f9611e080330c2fff53b3cf9f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/6.json",
+      "bytes": 49190,
+      "sha256": "d0dfd1e02d430fe419172534ca5555bc9d2eaccdf8c03a7e749794aba2cecefe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/7.json",
+      "bytes": 37593,
+      "sha256": "751ab65d096abb35e57db427257e3302f8d460764cd8b1ed9d6cf178cfe503bf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/8.json",
+      "bytes": 37165,
+      "sha256": "cf0800ae71ee9e378de1ada1a7d0c63aaea9f6ff716fdc952049108c695bfcc7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/adam-clarke/AMO/9.json",
+      "bytes": 53607,
+      "sha256": "86b834bc609b5537da264dc77c3b386c24933e9b576d2347c957780fa63b5be0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/1.json",
+      "bytes": 80784,
+      "sha256": "207326b31a60a31f1c6f0f9e09a33db11f9a4158ee439a7be1e4a05f9ed60d31"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/2.json",
+      "bytes": 47472,
+      "sha256": "3102d09e23d3d57251041e4269d87e407fb52b0c1916f640813dbaf052eb994a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/3.json",
+      "bytes": 48487,
+      "sha256": "e9fa8499071b8b64ce4dc728ec36d04969577293114e2585bb89582769bc5cdb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/4.json",
+      "bytes": 37937,
+      "sha256": "3ceec2811d7acaa38ac608d4e1875efa1862beadf1c7afb23fbc489807486ea2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/5.json",
+      "bytes": 84176,
+      "sha256": "7b099946dfe1a457110aaf43fd4825173c08f2e6e0a7f6277a0c98a8b666ef65"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/6.json",
+      "bytes": 51202,
+      "sha256": "a8bfc9beaec10e80e9e628f423de1d24a7daabbbb07c6c4be893f220ec086208"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/7.json",
+      "bytes": 59719,
+      "sha256": "225f3fc4ad7539b08b59421c5590692105933da8c985cbb9ce6f975f1bcbc2b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/8.json",
+      "bytes": 42287,
+      "sha256": "3e51f5e8d9feab7ec1514f50b6831eac2a6f6d9745b057a07db184b9f20dd736"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/jamieson-fausset-brown/AMO/9.json",
+      "bytes": 59653,
+      "sha256": "042718130108bc4745b554b67db8099ed61ed47df7a024ad06ffa5b0fe253b23"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/1.json",
+      "bytes": 195495,
+      "sha256": "677976982b02a984236c2d94cac63eb797c0355353e9695e1202803a96475c6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/2.json",
+      "bytes": 219737,
+      "sha256": "84e21cf6cd5ecd1e4090efbf6025975a8317b895482adf7dffbce54c5a686ad5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/3.json",
+      "bytes": 188660,
+      "sha256": "ba4d6ed7b4f37769f316fbb66b02fa9c2093013e3d05249863fc46d82ed71e70"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/4.json",
+      "bytes": 195918,
+      "sha256": "1f5a3449b1bed7deeed132b7aaa9813a64f383552a2585db314e2f8ff77e1352"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/5.json",
+      "bytes": 423579,
+      "sha256": "f2abbaa8fe4990c88721f5d2693fc265d785b3760f33d30ae2da270465c705a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/6.json",
+      "bytes": 209703,
+      "sha256": "b809e3e43ab047f602657cf9ff4ae4cbcc35d34e8cc1c27586ead5b914ff34ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/7.json",
+      "bytes": 257977,
+      "sha256": "509f47cc13cdc0e850a6c0b7c3c34257494335f4525b42b65843484bd081baeb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/8.json",
+      "bytes": 189433,
+      "sha256": "4f760c7aecf7b0dc2f950c467092e29cf1c0494857d827584b1f34c3e1f050c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-calvin/AMO/9.json",
+      "bytes": 266000,
+      "sha256": "cfab9cc2b747204f4864f5deb1ef87c564e8271db0c10c3f04b08669ec8672d9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/1.json",
+      "bytes": 193976,
+      "sha256": "1ec92b8217bd6e1b4f9109efadf3a2610122f9ceef88adbb2a76230921b794df"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/2.json",
+      "bytes": 111274,
+      "sha256": "70d376d02925569c7e28e65215f8ffb058db360216e036bb511bf7201f41da00"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/3.json",
+      "bytes": 115423,
+      "sha256": "82ee8e1b7d7bd6768415bc31c9c3f158a14a4fc457374623cbafc5c06feb4452"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/4.json",
+      "bytes": 111009,
+      "sha256": "56ec7f6340effdadfbb0172e20aab5008a7c4926f5e87790802e58308ba9d3e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/5.json",
+      "bytes": 190111,
+      "sha256": "cd24997dfe0fae160175dc12381e5dbaa8ab5bf77e53ee832afb474e1027b2d7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/6.json",
+      "bytes": 151884,
+      "sha256": "75aeb9bab4f67bed22159ba34582810fbbc4813f2b6a449db6b6914abc4424e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/7.json",
+      "bytes": 137873,
+      "sha256": "5c6c1f4a193f85978a2ec69ef4b6e1cfee6aeb470f78cb34b62aa3104229303c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/8.json",
+      "bytes": 119116,
+      "sha256": "0f09eeec0086f1db5e2ee6209f5291fbf836c040cb9977cfafc7b2358900b630"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/john-gill/AMO/9.json",
+      "bytes": 157703,
+      "sha256": "09b5e471de58269743cc677fc958f19545f72b9a7b8741321eab2fdf2c619878"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/1.json",
+      "bytes": 163116,
+      "sha256": "88cc1af375e40208f324d70112b279e857d5e3271a654af9ddcfccf8efd9da55"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/2.json",
+      "bytes": 69738,
+      "sha256": "1eabe2c9203878376d5daabefb9ff8cb7b220b4f33db599212d2720c7d8340b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/3.json",
+      "bytes": 73731,
+      "sha256": "ed3b073658f5d272cb90df607a946eb922a51b3752f5083f999849f43b6532e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/4.json",
+      "bytes": 101054,
+      "sha256": "57f24061df7e479c328889bf9ce7ab7f9b0cdf031c9abb03217fb22eea075533"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/5.json",
+      "bytes": 121984,
+      "sha256": "7b5749dd634aa9b65e7f2bd4103a5c039914f4fb051a0694ed9ade53d60653df"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/6.json",
+      "bytes": 75903,
+      "sha256": "9c8fe108d7cf7771fe14bbe99cd61cd74be83378ceac67acc85c3f3e9e8c96de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/7.json",
+      "bytes": 73665,
+      "sha256": "1b204a58d5d529933de6e8c83b1f985afa18f2989dc63c69fe08aaf109f3834f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/8.json",
+      "bytes": 58536,
+      "sha256": "01762dcfbd783877aea721fc061ddfe7d09029844e9ebf8e9c4b0f2cd68c65cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/keil-delitzsch/AMO/9.json",
+      "bytes": 143057,
+      "sha256": "79a2b637dd42308218c7321bd07c7e5ca9c2bd3373d4d481c87ce3c018d3e4c5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/1.json",
+      "bytes": 104083,
+      "sha256": "0283ff6a9fb2664c543154b0cbe5ca47e606a0a90a2494d611b7390960dc7ac3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/2.json",
+      "bytes": 92213,
+      "sha256": "1ca1e21b304ae1688ebabfa753c6ce494ed316fc2ddfa8721386df84aef358dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/3.json",
+      "bytes": 85080,
+      "sha256": "efcdd858df87f44a0d1bd0cb161f5f72d19a86da205340c1b85f07207346fe4f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/4.json",
+      "bytes": 94985,
+      "sha256": "2d2315b52600e4d9f402c51b02fd07f942b941dc77974a99b9002fc6e5d2a7d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/5.json",
+      "bytes": 148029,
+      "sha256": "8aa70641fd3a2d2932f35808c8db5635aee1bf61d2818b120bda8b91d75e9fbe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/6.json",
+      "bytes": 85086,
+      "sha256": "abb2f9182b741c173387dd33b6a58fcbc095eba31008631e840c5ddd5cf1250d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/7.json",
+      "bytes": 112806,
+      "sha256": "913272734b9644060b016805638eab1c568118020fce24ee4c99c08d01d224ed"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/8.json",
+      "bytes": 95283,
+      "sha256": "acbe4d79f41035234b23278006471ed9043eb7e88733d49097a183343dad6780"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/authors/matthew-henry/AMO/9.json",
+      "bytes": 100145,
+      "sha256": "3810c30175ab78352479ef7adb26b95eae2e1ebe956a3a5a7b3b43cb9a486309"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/1.json",
+      "bytes": 9655,
+      "sha256": "1de9c3be81d344284cd4c1f75ab55442098e73e05cbe3893df369c940ad0d575"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/2.json",
+      "bytes": 8713,
+      "sha256": "82a886109ab855541543d4ee796e161dcb9a6c821fa3f8d4498044d1a39b5ae9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/3.json",
+      "bytes": 9472,
+      "sha256": "bc897fa04d5a1ace4f5fe734dd47f8a6898136c5ee857ac3f682889af307e904"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/4.json",
+      "bytes": 8393,
+      "sha256": "772eb8f07e4f5f16abc12d0d646b3dd312813a63ad0900176fb56b42c936a083"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/5.json",
+      "bytes": 13455,
+      "sha256": "bab5abe051c52eab3d35f4d3abbdcea16a3bc89292b47622512c2c6f9fd9b71f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/6.json",
+      "bytes": 8728,
+      "sha256": "a529b46ae8523cc946bf249f65fb0e1c26b029f0c77df0298909d5fe8c58c5d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/7.json",
+      "bytes": 8927,
+      "sha256": "7d55839fa8dbe5e15bf0ca571322b8e8cec73e4f3e0dcba58708e034259318c1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/8.json",
+      "bytes": 9226,
+      "sha256": "864ce0f6179ca3b46420e0420a195cf034d0e3d34a4851d20ed1bb83010c26ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/index/AMO/9.json",
+      "bytes": 8473,
+      "sha256": "7f0b5ccc978f3df9ef414d9e2d48b0b29b5f30d27fefcd40f2bac351b6cff207"
+    },
+    {
+      "path": "api/v3/snapshots/structured-amos-2026-11-11/manifest.json",
+      "bytes": 1871,
+      "sha256": "5604f5c2d8e71652a6d7aae73c9ad325d256f228221183df8efd0136ae6586a6"
+    },
+    {
+      "path": "review-amos-v3.html",
+      "bytes": 14371,
+      "sha256": "4eab832391eeb7f7d9cdea7d642dbeb466aec46a069ddb3cd0f5d1b986c24c6a"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": 7999,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 3004,
+    "predecessor_navigation_sha256": "092dceac7fbb4a85dc0feb273ca8da39a1bde342ccf3a4f16054f927936a34ea",
+    "release_files_total": 68,
+    "batch_counts": [
+      68
+    ],
+    "prior_29_books_repacked": 0,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 9,
+    "verse_coordinates": 146,
+    "author_chapters": 54,
+    "original_entries": 634,
+    "original_P_sections": 66,
+    "routed_P_sections": 67,
+    "inherited_source_links": 1,
+    "assertions_total": 7999,
+    "source_archive_count": 6,
+    "baseline_main_commit": "f7a8f43626dd2dde933f356e10d44129d6880fe6"
+  },
+  "release_scope": {
+    "added_book": "AMO",
+    "previous_29_books_unchanged": true,
+    "new_paths": 67,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "source_original_P_sections": 66,
+    "inherited_P_sections": 1,
+    "total_routed_P_sections": 67,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Six SHA-locked original historical source archives: five original CrossWire/SWORD Public Domain modules with native KJV OT binary indexes, and original HelloAO John Gill verse-anchored items. Rights, module versions, source work, original byte spans and source record SHA-256 are retained in original chapter JSON. Accepted JFB Prophetical Books introduction reused solely by pinned Genesis source locator and hash. No independent Bible translation verse text, generated historical author prose, or inferred neighboring-verse commentary.",
+  "source_scoped_exceptions": [
+    "All 146 original Gill anchored verses are preserved without renumbering.",
+    "Calvin source gaps include Amos 2:15–16 and Amos 7:3, 7:5, 7:15; source records retain native verse positions.",
+    "Clarke native source gaps include Amos 1:7–8 and Amos 2:7–8, 2:10–11; neighboring commentary is never substituted.",
+    "JFB native source gaps include Amos 2:15, Amos 5:20 and Amos 7:5–6.",
+    "Matthew Henry, Clarke and JFB original introductions are separated by original explicit verse-one or preverse-milestone boundaries. All 9 JFB chapter-one records use original preverse end boundaries.",
+    "Keil & Delitzsch original long Amos introduction and Amos 1–2 overview are P; Amos 1:1–2 source-labeled exposition begins verse mode.",
+    "A source-printed KD heading inside Amos 3 reads Hos 3:1–5; its original wording is preserved but only chapter-scope P is assigned, not an invented Amos 3:1–5 verse mapping.",
+    "An accepted JFB group introduction remains referenced by its original Genesis chapter source and source-fragment SHA, never duplicated as newly edited commentary."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Before installation verify GitHub main baseline SHA, predecessor navigation SHA256 and blob; stop if stale and reconcile without overwriting newer content.",
+    "Extract numbered archive and upload its 67 new files before the cumulative navigation manifest last.",
+    "Preserve all 29 predecessor snapshots and readers; no schema, script, GitHub workflow, deployment or CGBC player modification.",
+    "After manual upload verify the 68 release file hashes, 30-book navigation and successful Pages build/deployment, then perform independent live browser visual review."
+  ]
+}

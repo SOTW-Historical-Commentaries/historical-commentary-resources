@@ -1,0 +1,51 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-amos-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "AMO"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 54,
+    "original_entries": 634,
+    "navigation_sections": 66,
+    "reader_visible_entries": 634,
+    "verse_author_routes": 853,
+    "sword_chapters": 45,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 9,
+    "chapters": 9
+  },
+  "chapter_verse_count": {
+    "1": 15,
+    "2": 16,
+    "3": 15,
+    "4": 13,
+    "5": 27,
+    "6": 14,
+    "7": 17,
+    "8": 14,
+    "9": 15
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Six original SHA-locked historical sources: five CrossWire SWORD editions with native OT binary verse/range indexes; HelloAO Gill and entire-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default, original-source scoped P. Amos original prefaces and chapter overviews remain separate P sources; original Amos 1:1-2 exposition stays in verse mode.",
+  "provenance_policy": "Original source records, exact index triplets, OSIS/HelloAO text, source hash and rights metadata preserved.",
+  "notes": [
+    "Amos is canonical book 30 after Joel; 29 preceding books remain immutable.",
+    "All 146 Gill original verse anchors are preserved.",
+    "Original JFB Prophetical Books preface is inherited through its existing Genesis source pointer with byte-verified fragment.",
+    "No Bible translation verse text, fabricated commentary, changed historical prose or GitHub deployment."
+  ]
+}
