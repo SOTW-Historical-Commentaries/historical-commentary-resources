@@ -1,0 +1,1782 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-ezekiel-2026-11-11",
+  "book": "EZK",
+  "book_name": "Ezekiel",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-ezekiel-2026-11-11",
+  "baseline_main_commit": "159701317327f825709cb57ab447212732a872b9",
+  "baseline_navigation_manifest_git_blob": "895fdd93b988939f079c8aec62723807d6b7c9c4",
+  "baseline_navigation_sha256": "2b7d0ce0e422a34f0fdb192c4e112232dd4dac374529cab887d83ed22e7ecb33",
+  "prerequisites": [
+    "JER",
+    "LAM"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 340,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/EZK.json",
+      "bytes": 694660,
+      "sha256": "06a0db5eb8f9aefe9ac826f4bd5d422afa5631d7d9b632bcc090d4ddbc2ad02f"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 13470,
+      "sha256": "dd427a9adcf3da4deb45a5ae6ed8476ec1448b2ede15749a02225bbe24f1ee4e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/1.json",
+      "bytes": 209797,
+      "sha256": "5fdac6fde6c0f8d2cf8f9e508531908bd9947cecbb436d6a68ab97e88f29119e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/10.json",
+      "bytes": 74058,
+      "sha256": "58c21b6928107fd3c40eabad99192179682d967217afa40c548a86d0d319d54c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/11.json",
+      "bytes": 31488,
+      "sha256": "b322f786ffa33cd491e3ecea7be56501f1e0d1025567ab868c41900d8643161c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/12.json",
+      "bytes": 28184,
+      "sha256": "e48cefbd35d7861e80b64d4dd877bd72f7ad1f3434035becf14dd4fdc3dd57bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/13.json",
+      "bytes": 37336,
+      "sha256": "4735ed6dbf2f64c81974d2f3b448786d363fe61c2d2d2e559bd0d7db542abf93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/14.json",
+      "bytes": 31032,
+      "sha256": "30c16e2e5a3064a0b3f1c46c9ad9c6adff294472fdac391f5bafd5d8fdc332ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/15.json",
+      "bytes": 15907,
+      "sha256": "9d7df3eac45922f1d13e266db66e6f1898c00b1d79e2531c31dc719e54c349d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/16.json",
+      "bytes": 79719,
+      "sha256": "933aa0f7219971a68736c89fa50ac52641efbc6eaf276611075d8c0a64324512"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/17.json",
+      "bytes": 43596,
+      "sha256": "f5e5c969efe20dee064085ba0a43ed8f7216cc3663c10433d57bfe3d44e76bb2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/18.json",
+      "bytes": 69219,
+      "sha256": "f97be771ad323012bd58565acdbdf8e7d7ac8f096550e9c91172a05f7fb9b10a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/19.json",
+      "bytes": 37431,
+      "sha256": "43d55705502cc52eac6bf0f1596081aefde331b625a91bcdc0b7611a3b5c2569"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/2.json",
+      "bytes": 34640,
+      "sha256": "12a736f3acc9d568aab08126f25bcbd7169c3a409e56e21052dbb0076a28b7fa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/20.json",
+      "bytes": 75187,
+      "sha256": "e65812359cf41dba8465081adf220190305ea5f5e93855a70aee2f2fccb56760"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/21.json",
+      "bytes": 62714,
+      "sha256": "1c9c571bc6cb2b7fdfaa86f68ae3df322eb14d036b58654283ba5582dcbaf83a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/22.json",
+      "bytes": 37438,
+      "sha256": "6aa0d0f02754fd20f244c913642f21c7ad683ebc9b7962d0f03f1b0f192c1ac3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/23.json",
+      "bytes": 39238,
+      "sha256": "2e37bee8ac569e113c2535ccc22fe4d871047db7bbacbb07791d882e43bfe707"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/24.json",
+      "bytes": 37549,
+      "sha256": "68475f499aca3719cca864947a77c3f33826dd2473ee0c9deba7ea6215a8d9ca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/25.json",
+      "bytes": 26928,
+      "sha256": "3c651b590f7e07a10050f2288e910a6c69a4492f8a9329b08370500a1162150c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/26.json",
+      "bytes": 45455,
+      "sha256": "c83cc899c0e4b46bb59b760cbee73325c9389dace7430cbd5d9d465ce5477f43"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/27.json",
+      "bytes": 72084,
+      "sha256": "dce8e50fe4e44d7ff051d1af2f16cd45b39476ed0d4191f785da75a5639d928d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/28.json",
+      "bytes": 40871,
+      "sha256": "f37a83cbb5d2de7f00d5ad631b9f69f2c44b2df090519c410552d96011d5c0fd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/29.json",
+      "bytes": 44998,
+      "sha256": "a7899011b52a9b216c443cfb638fb29600ec51b9dab8f8ae25b10424d09ffc0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/3.json",
+      "bytes": 51708,
+      "sha256": "bf7338bb629f39e2c9c25c062009b682e6e66e33d3dbffb1fd304a9a6ea7f37c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/30.json",
+      "bytes": 31100,
+      "sha256": "7807113dec99f8bc75edc04a7fae9b13f64787b3afff1f97a9361ff9b8a2725d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/31.json",
+      "bytes": 24871,
+      "sha256": "9b01cc937109e426fe9e9ee6d1cf4d42309fe9594d5d0aa9fce4c08a36f5dfd2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/32.json",
+      "bytes": 53179,
+      "sha256": "5780e7b0a304d34e9a35ec94a70b46b301700500b992db53cc8b4ec3d2296bdc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/33.json",
+      "bytes": 36363,
+      "sha256": "808e5db9661516ebd5fb6cc1b02ed3a561b100a2f4d6d59c15d3782c1116a305"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/34.json",
+      "bytes": 72462,
+      "sha256": "53f9ef312de4728b6d4c9b3732b7518ee4505699dfcec2f18cc23eb980c41401"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/35.json",
+      "bytes": 25255,
+      "sha256": "961b959c8dc16bb8883cb361c40e197e45fa4f4bfdc916477b9cbae1e1ee709f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/36.json",
+      "bytes": 60227,
+      "sha256": "cf5cfa535278615f8bf143fae34588f1de8d5180c6ab095024a44c20dc1f515e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/37.json",
+      "bytes": 49113,
+      "sha256": "02ff51723c290a401c448cc410b4bae1ba7c937399f43fb74e4c9e3f6f9a2d3a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/38.json",
+      "bytes": 36160,
+      "sha256": "88830497e101492538c5fb71c348c82149c9cf67a3697350e7a6374b68d2e740"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/39.json",
+      "bytes": 44688,
+      "sha256": "52c8a676c6b5e777d3f5fc5331851bc6305143dbeca5225d271ddcca2c28ac9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/4.json",
+      "bytes": 48403,
+      "sha256": "4324abdcbacb67094d522e33378616227e209dccd8b918ba64fb6dfaa2795381"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/40.json",
+      "bytes": 56878,
+      "sha256": "7adc7d720cc16b9abde2f986984d73b782658094f7f98b14c7817396d3e18b4b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/41.json",
+      "bytes": 27618,
+      "sha256": "24bf7a71c541ceb319dcbe57257e7d951dcfdc9e3114be74c6a06624164adc01"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/42.json",
+      "bytes": 13623,
+      "sha256": "145c818d802ecfd0a0b043d2caffa39ac1bfd338b8fded71d74663ace9d4ed4c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/43.json",
+      "bytes": 38451,
+      "sha256": "739ee4a16a185da2f35d66b17a0fc45b17478daf533977dba8048005f194c960"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/44.json",
+      "bytes": 30241,
+      "sha256": "330eae2c900746baf080231c52d88c4a6f21521011692ec162c23314d2c4e143"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/45.json",
+      "bytes": 25636,
+      "sha256": "49c144d29d13a9c8569eac700ceab1cc95d77a3dfd78cba2223a34714af0c0a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/46.json",
+      "bytes": 24908,
+      "sha256": "e81dc312a20c4cce2b1ea425ffe3bc8638dbf1665508051068a2c7ea45b6a645"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/47.json",
+      "bytes": 51561,
+      "sha256": "34a8206af03f94cb3f4b0f9af55f6883bfff6219208153053c6e42a119aadb67"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/48.json",
+      "bytes": 43267,
+      "sha256": "63a324557f4d4b13c58f4f2000a97c3f254ff6067adb177e27a0223ba884e82d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/5.json",
+      "bytes": 34818,
+      "sha256": "f88548dd786933a316121e2b5d848a19aae4bc8544a5e6334de1f1e495eceb69"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/6.json",
+      "bytes": 19982,
+      "sha256": "28a97f00c2889b0157640287ba46b7a566d0d05f725f2dceb73ee9897494e158"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/7.json",
+      "bytes": 52541,
+      "sha256": "099acae0a3d5a5ac573d09359558cb7002df4ea7379331caaa3e2e0e168829d4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/8.json",
+      "bytes": 54339,
+      "sha256": "5968c826941990282c5db8a4fa3f1a4d9dda043e03f3bd1fdc0bb9c0b2e94082"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/9.json",
+      "bytes": 33961,
+      "sha256": "7ef154d2531bbcedb8e41103c06c0de70fa0e0c13e503ef912bb687f80d619aa"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/1.json",
+      "bytes": 140211,
+      "sha256": "841c9394d8ac3b4596f581ec5ebbd82fc7798a8e0acb70db484494c6898a545f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/10.json",
+      "bytes": 59137,
+      "sha256": "8a23920c274189150a822ea896ff2b6bdb4b43ca3f42fc628c919a35a62c2619"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/11.json",
+      "bytes": 69755,
+      "sha256": "80115e69afbee4b0729e9f05a2c99d136cd30d85eb7b9ba6df28caeaa7ad0ed5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/12.json",
+      "bytes": 54154,
+      "sha256": "4ced1defdb415465003085e98677ebc7363d6d1c2c3fb0b7c704ac40a8a6568c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/13.json",
+      "bytes": 71557,
+      "sha256": "11be676fcbcc4b647e012418d1aec86fe816fbd6c133fe0d6cdc28e65a61f0e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/14.json",
+      "bytes": 54906,
+      "sha256": "fdbdd89d121ea0e0381173155153bb93441bde5ff42f8591a72f429df81a33b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/15.json",
+      "bytes": 20188,
+      "sha256": "b4ce6644e5b85eb255328c44fa9488fccd7b048aa2b1328f8464d124a6ccaadf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/16.json",
+      "bytes": 161973,
+      "sha256": "669ed588bc63288f7f6b761106d8d405c47a246ef88c93716cccb9bf62e08974"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/17.json",
+      "bytes": 67335,
+      "sha256": "64a12d4f67fd8e37d347da8c8b5f2317e17122f19a7deeb3c706d48ed023d13f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/18.json",
+      "bytes": 66870,
+      "sha256": "7746547669618b012afff50790867c9d0a9077b26c5513ccfbe161132c6ac34e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/19.json",
+      "bytes": 40147,
+      "sha256": "c27960c88c280e35db1a543da99f1e796f2b46a98662b2971d25292a618583d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/2.json",
+      "bytes": 25576,
+      "sha256": "d6f6962b1d30b5978658281557c543a00a63c95a4bc6c574a2d4b3d5bb33b587"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/20.json",
+      "bytes": 105234,
+      "sha256": "0936e15351c4eaba26b3ff6860ccc535d6c6adc8af8e603c9c30e3ff134b9ef0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/21.json",
+      "bytes": 84752,
+      "sha256": "7f36d738e8564d5edd0362132bb23b6e7c0c545e45f505c8e58f50a3542765b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/22.json",
+      "bytes": 50018,
+      "sha256": "7ec1737274726e53abe77a2c1a1eebf782f823f46da0b06d96cd44711af64688"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/23.json",
+      "bytes": 78559,
+      "sha256": "30d20def27fa9e03f3c9975260b9217949a4fb98ebed4f5493dfa332cdeadb9d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/24.json",
+      "bytes": 59645,
+      "sha256": "53f2ce3a8d39a8e740c2e52067ff64726959f73b567f8cc94d59da4dc79e5378"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/25.json",
+      "bytes": 44827,
+      "sha256": "aca6669615c02a6d8a71e1449333f6f1addc0cfab5756bc016751b7b75c854e7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/26.json",
+      "bytes": 47215,
+      "sha256": "73f96ff6c7196eab4495b0c50e901c8ba5e7501f15a52460f74cb1d2e8778f35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/27.json",
+      "bytes": 77944,
+      "sha256": "7af9a8c354bc4a5af0ec079cda777f6bb8195bd118aad6ea60c4f808760408ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/28.json",
+      "bytes": 55316,
+      "sha256": "4989359c164aaf28332e1d0bb21860e1078c51263912085f3236b2712c771f97"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/29.json",
+      "bytes": 56830,
+      "sha256": "f8b40c413a32cc602becef02ed8a3dffca02b5283820dc5fff46130b1f3dcd81"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/3.json",
+      "bytes": 60426,
+      "sha256": "a82f64f5cf0af5951b9970b64036d0687af45242b7c77a899d516f7e1b6165dd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/30.json",
+      "bytes": 42038,
+      "sha256": "182162a5e15a8a68ec49a7e4e06f1cfd9b25331e3aaa205991daf39851c1f867"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/31.json",
+      "bytes": 40028,
+      "sha256": "e965238a9c7621ecc907a6f9e8c6ea7172b70c5e100f0af71ca05bb340cc046a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/32.json",
+      "bytes": 62720,
+      "sha256": "c8218b605ec83524cd27e6498c8246b8ea1f9dcc8b9bc29470755831e4eeb06d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/33.json",
+      "bytes": 59517,
+      "sha256": "567f3dde3f7eaeecbdbd0ac250e1f2e8d30431262e57128971d60ab8c8d20ab2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/34.json",
+      "bytes": 64821,
+      "sha256": "1da8cb29b5ca8074e5115912fa1d3521eb7648dabb79127e2b5491bb7cf314f9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/35.json",
+      "bytes": 32051,
+      "sha256": "419c27aa38d395878078bab89138eba44e89f5829c6fc9b71409d7e2c31d4266"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/36.json",
+      "bytes": 74370,
+      "sha256": "44e910d55a69551a155fdd0efb2c297744b04bc14798f3c0fa293f351bcfdac7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/37.json",
+      "bytes": 59221,
+      "sha256": "2675a141733fe27b7fc1b43d037840ceb168073da02c465f721d080b9fccfc1a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/38.json",
+      "bytes": 56781,
+      "sha256": "5dcd23f5e71a58386da312db52fb8b747468c2fee0bbf295337ee8a991639f8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/39.json",
+      "bytes": 49426,
+      "sha256": "42197432350e1a1b83a79688dd00415f52877dc0ab58b818c4bb615847a0242a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/4.json",
+      "bytes": 48307,
+      "sha256": "96c019f3f85a84ea9762395c51470c1bb46bd1f21ba3a22cc9e2afa530c1705e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/40.json",
+      "bytes": 63885,
+      "sha256": "0cc9bd03d793f7c3c8e675b11386a95ede9dad9f4e7162858bfb6c6b5d4c5e62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/41.json",
+      "bytes": 34447,
+      "sha256": "0c9f2d39041fa92f094d3d0b717b0c769762237daf201a9550a6a298133f3c05"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/42.json",
+      "bytes": 14557,
+      "sha256": "08274af2b56c487eeac89b4c1dedacb85082bf2bd2648ef864a006295fc88728"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/43.json",
+      "bytes": 22552,
+      "sha256": "3c2ccd05b2b8c7fb667262fbfe8343fddbce1a3d7ad3fab709ac9a8cce9f49a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/44.json",
+      "bytes": 32425,
+      "sha256": "a737dc28d9deafa583f7c220c2443f22b45c9645f2e52d2cf7240c24caae2e24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/45.json",
+      "bytes": 23797,
+      "sha256": "a00d048aa4aaa2091399567b46b62cb7737a54b9c7e05b7b514f3052e1353555"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/46.json",
+      "bytes": 21003,
+      "sha256": "6db79c13556824131135952c7db9e10b7a87a9eb5a2a8dd2635b4c9aeee76927"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/47.json",
+      "bytes": 46631,
+      "sha256": "f2c88caa5f8ba5136fc3f34cb8f2680e413622d4be12e48d5de77c1a3e1c7f83"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/48.json",
+      "bytes": 25610,
+      "sha256": "1ee738ceb3cd992943e419f1f93914a4aae5762ad916983b9c211fff905574d5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/5.json",
+      "bytes": 48302,
+      "sha256": "597cf7ca07ffd6c34a9b1e6b6ddfeb4880dc791cfaf33116ed604b519cdb9a49"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/6.json",
+      "bytes": 27404,
+      "sha256": "684622d2696340d3eb437003d15a303f6f775af3c26c90cfa7ee17d053de12ef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/7.json",
+      "bytes": 67098,
+      "sha256": "bbd63446245c729927a35595d49a88aa0c24d68699a41ada2e4f9fc5d5eda902"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/8.json",
+      "bytes": 56042,
+      "sha256": "c0bb9f3a775b86eb9eb7054b3941a21b9055a0551e980a3d4ab81a1e1a736891"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/9.json",
+      "bytes": 43386,
+      "sha256": "76d9bda28c0000191550ed54c9650d22c676ce502164e8a9b08d5aed63f9d660"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/1.json",
+      "bytes": 438209,
+      "sha256": "fb6f21a39a3bd49251ff8a146622d9efc295a4e52ed09fa528561c26dae90ca9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/10.json",
+      "bytes": 229464,
+      "sha256": "a622d53c9b8b1576fc072763cc4ce8291eb555ff98989cb21837d464b557c69c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/11.json",
+      "bytes": 321441,
+      "sha256": "9d9aa217a39dd38b3cfcef92dc92154cadcbfd975c4b31c10ac5033e5c97dc4e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/12.json",
+      "bytes": 292619,
+      "sha256": "0621092fc7d4084cf6760a16224f3dbdc35d91b2fab168aa36028dbb81a52cce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/13.json",
+      "bytes": 321109,
+      "sha256": "f5a218e72c1179dc902158d8110bdce8c187159e2b7320352b4f1b07f5adfce5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/14.json",
+      "bytes": 311423,
+      "sha256": "8c6c3d6230cf0ffb503af20fb406c4b0609adf2cf5a720804a2413a3a5b50e27"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/15.json",
+      "bytes": 70447,
+      "sha256": "a674acb83d31412d611492b0d0037d6067f7cb9f1dd185b68c2b34fb30715caf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/16.json",
+      "bytes": 757637,
+      "sha256": "3e3de2faa07369407744beb1ebc1afe0f9794a4450a6f591c4599b46875b8dc1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/17.json",
+      "bytes": 240926,
+      "sha256": "103be2c5b1007d8b00ca459cd18bb74bb1085cc6166cd3f40578d67cf48e162c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/18.json",
+      "bytes": 424625,
+      "sha256": "9da5bb59b89a5c3efde7cd609062196ce3dfb5a50a32cc9385a2076185007fbf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/19.json",
+      "bytes": 126541,
+      "sha256": "5574758ff14ac9d6d6866ef48cba9f18999b714aee4643f68030def50cc57bdb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/2.json",
+      "bytes": 167268,
+      "sha256": "c2b3036d435ed842a00406766ece9058d8d54f773ff96e46e84331deaaa2c721"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/20.json",
+      "bytes": 565654,
+      "sha256": "0d7de83d8fcea5a68c54080b60971b60dac615f55c531f52ba04e47ce072518d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/21.json",
+      "bytes": 102007,
+      "sha256": "11f66125c1b1c8fda71cc992fa9690c66961e2a1eb57bcf8056230a975307e88"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/22.json",
+      "bytes": 1130,
+      "sha256": "e98398cd0161f5f534bb5e0b120223c084a5a58b41423c4175e8c8dcc0fccb07"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/23.json",
+      "bytes": 1130,
+      "sha256": "71bb02d08a9f5b2c2b24509d1971d800c60a414f414017349b5a081a9e6eebcf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/24.json",
+      "bytes": 1130,
+      "sha256": "12727e3c984b9d3581670832c4ac3e4ecbe7ca3423ab9f9b352b817633a6b837"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/25.json",
+      "bytes": 1130,
+      "sha256": "57a331cf68a1154a928d3df1933dd9822e290488cce9a888d7329333f345b013"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/26.json",
+      "bytes": 1130,
+      "sha256": "f00a2db5aa90e264f96efab2192a5bc4d061d651eef5094c9e67684cd1c18a3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/27.json",
+      "bytes": 1130,
+      "sha256": "635c24220c5528d45574b5518bb5b49b66596463c7779776d84f2669b11d6f2f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/28.json",
+      "bytes": 1130,
+      "sha256": "eaa9ce80ef1ef7292a67baa5b419d15e6b93279fc7eafc7796969fd5df842b7f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/29.json",
+      "bytes": 1130,
+      "sha256": "b7cd7ae7a73cbd584d0ac7622809790fc2f38f34598c6275e242607d7c2bfd77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/3.json",
+      "bytes": 329132,
+      "sha256": "c134bd5e9009b82f8e75c1ca5d9e279c258f953663433c19c91148b94426c010"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/30.json",
+      "bytes": 1130,
+      "sha256": "53e97007efd0d0375bd95438a21f1e33f5d5a1016c0cc67701011148e2b6ab76"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/31.json",
+      "bytes": 1130,
+      "sha256": "e768abc96e5a43d41b3bee43739580fb4ac6e5f729d5eec484a4da55bf4c9c5e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/32.json",
+      "bytes": 1130,
+      "sha256": "e4d7359fc48b3cf2bf73c14d8d47157f4edff4845609ff3c5ed05cb568c28a35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/33.json",
+      "bytes": 1130,
+      "sha256": "c6cc66140d8c40039482f8483d1c0821bec48d5980a6cdee3a3dd53c73e764ab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/34.json",
+      "bytes": 1130,
+      "sha256": "cad4aab1268a22c92bb860ad3ef0959719e888bbd41e3ea525dda39e28ef2306"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/35.json",
+      "bytes": 1130,
+      "sha256": "a9f9106a462652e143e75e0df1126df17a291b3115704b88ab834cc3df01dfb9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/36.json",
+      "bytes": 1130,
+      "sha256": "f9f7d4c9ccf2545b6c443a48ea5103a4f3c6be19f140bbec3b41f6fde82c0414"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/37.json",
+      "bytes": 1130,
+      "sha256": "e591c42f327614581e60d06f38a022aed4cc5b3487eda5ab4276891b6f6bf8ef"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/38.json",
+      "bytes": 1130,
+      "sha256": "0b25a7a39dcc76700565ec9ba6a04e0a1e8e4cf7885d3ad6d8f4663aa6677338"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/39.json",
+      "bytes": 1130,
+      "sha256": "127a09cafbf770902cd11ab2af45b3fc7741098c1c84129d7bea56d51ea4f355"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/4.json",
+      "bytes": 161763,
+      "sha256": "5b3cc73f58392708d9e0404466ccbccc441baf0c296e31e7db6dcc56091100f4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/40.json",
+      "bytes": 1130,
+      "sha256": "7d73fd6348de35d7de70fb0f13c94105f8619c244304f97b9f717e517687db34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/41.json",
+      "bytes": 1130,
+      "sha256": "65954c091765553cfa324a05fabd74ee17cdd761e763f22cbb1f8efa262dfd50"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/42.json",
+      "bytes": 1130,
+      "sha256": "8b2bf05b65f6b3ca4263906046be238bc7d9446bc49970d1d6f410e15f2bd089"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/43.json",
+      "bytes": 1130,
+      "sha256": "7d422c09fb8c2e67fe345aaed974b38130871a7cb520b3170e66efcb833e9e8f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/44.json",
+      "bytes": 1130,
+      "sha256": "abd6ee0b8247abfc799530f70938f083f85e2eac761fa51e5b0525c6547fde44"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/45.json",
+      "bytes": 1130,
+      "sha256": "80350aad21da85860ab7658e5e145306fbc3479b3219c261bfbbc914126c4e55"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/46.json",
+      "bytes": 1130,
+      "sha256": "ff07a13695979daf5ababdae917d44cbdf56129aa934f545adef5c3b4188cc6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/47.json",
+      "bytes": 1130,
+      "sha256": "604bc32d5407e44fc9504e585404643106c8a414f9ce28d05571a07186bac06c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/48.json",
+      "bytes": 1130,
+      "sha256": "cba06d5e00bcf4565905a9dfa31b1aef9e2ca85e212aa6a614cd0f79cfec0afc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/5.json",
+      "bytes": 220511,
+      "sha256": "8c53039cd21ec0ba6d3009702f02a2834f9909577e17f79e97b9b3310472b88b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/6.json",
+      "bytes": 188316,
+      "sha256": "fb29c5b3faf52ac5b288ab577ba10dab44c6605f8fa77bbaf01961f16fcd0e92"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/7.json",
+      "bytes": 287723,
+      "sha256": "f44f6852d62feddaba84631aea8ed9f737bc610b5bb9e56eafeb821cd415aff3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/8.json",
+      "bytes": 193215,
+      "sha256": "3b3f757cbcbb47b0d543a803697ee28a2de387acb0bbb81e1980eaed166c24e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/9.json",
+      "bytes": 156634,
+      "sha256": "24a54e6565ef00f70433c78d0edf66ae50d1bde61b066bc90c43659e195b793b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/1.json",
+      "bytes": 233633,
+      "sha256": "b53dd58e3717e93c7723bff684454ca0dcaa9ff8b3e868e62fe4a3910659d1eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/10.json",
+      "bytes": 101174,
+      "sha256": "0c180fe550b60b4cd9eb5276a4bedee73c975ee33bb9da2071d999ba8359f7a0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/11.json",
+      "bytes": 145463,
+      "sha256": "ddf1f712e633034257476d38a70675bd800b37ede5e35178a4850dc8f3763bd7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/12.json",
+      "bytes": 124548,
+      "sha256": "63b3ccf06e92465e9f531a4e3cbd62a2062d04b80c88d48f42ddbaaaa27b6d80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/13.json",
+      "bytes": 148209,
+      "sha256": "5e177d4be5444a77351150b4616e8f079555ec2e049a1d1ab29e3a6ed87c68a8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/14.json",
+      "bytes": 148601,
+      "sha256": "47f1d3653901610088a75307ce68325bfdd762bfc03d4a28e4cc8678a2fd4b6a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/15.json",
+      "bytes": 35059,
+      "sha256": "63e532ce13106c9884cc98e1c27136e3780d5e0ed49e2fc4185e34b4ff3c09f8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/16.json",
+      "bytes": 445773,
+      "sha256": "7009766461b65f1a090ff9457eb25b6d97e3ba32410cb8fb07f3a1c63fb64f62"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/17.json",
+      "bytes": 162752,
+      "sha256": "da4e4274258e321af04e91676608fdd64c0fcb95cbc38496485f93e93e112dbb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/18.json",
+      "bytes": 172576,
+      "sha256": "94daf9359081f3421490af69fb869838ec9e5bf632d540a8fcf12975c4301bda"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/19.json",
+      "bytes": 91782,
+      "sha256": "12b7987e218b3dd073fae5d872df039c70b4d971802e93bb9425f986e6933a1b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/2.json",
+      "bytes": 65679,
+      "sha256": "b13395ce979decfc65713066f385f0c68f1dff60a7a591beda9acda9a1435fde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/20.json",
+      "bytes": 267675,
+      "sha256": "3fb2b97bd5154aefb398dcfe4da83bfb8f472926a9fecff28a6b02d712b093e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/21.json",
+      "bytes": 214532,
+      "sha256": "11599e995e035c9e52c9a696c85c4f31f70a80dc8ef0c15e906c2d98b273ef47"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/22.json",
+      "bytes": 153105,
+      "sha256": "1e7ac58574b88f34ec3d53c91fb42cccb0efdeaced47868c57b2acb75274fd4f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/23.json",
+      "bytes": 247955,
+      "sha256": "5cf52dc9cc0c1396d38144c3797a8b6d10626786e82eed4413222acec7904e40"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/24.json",
+      "bytes": 155053,
+      "sha256": "6529ca2411575fd77f89238aba6705245ff87dbfbbb0fc04412dfc8be33511b2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/25.json",
+      "bytes": 84863,
+      "sha256": "f1e987cabb5158ca30508e9627717465ef670b65552245e7de91216384ece25f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/26.json",
+      "bytes": 120715,
+      "sha256": "c5799f6f3ab99e7105b57a9821280e1a06778221c3b98b892e973ff3dfd598b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/27.json",
+      "bytes": 220672,
+      "sha256": "7323f7e9c050bf9fa26efef381d1274b6fabcb0df800767f38a93c2a90892189"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/28.json",
+      "bytes": 152846,
+      "sha256": "3c0b77c69d5c5563aa0166313f0aec75fe0623553b70352e1667da7fc4749583"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/29.json",
+      "bytes": 142411,
+      "sha256": "d17928432c765c9d0953b3fc75ee7fd7b40ed145bd4ad9bff202926de894ff6a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/3.json",
+      "bytes": 176650,
+      "sha256": "c77da657ed7a7bba5f899512778c9c46c3a6e0c73b1e3dfb6ebae420314759d7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/30.json",
+      "bytes": 147758,
+      "sha256": "45dabbbc46b939a1674861bcc0387e57128750386db291cc51c67f810916ecd2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/31.json",
+      "bytes": 113606,
+      "sha256": "3baf3a7d583b974511536db19f471b04d1545d9db9b23d30e3564b894d2d70e6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/32.json",
+      "bytes": 163132,
+      "sha256": "8007310c69f577823ae10e02a446c55637be85aec66f09998a1f27fa953a8db7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/33.json",
+      "bytes": 163779,
+      "sha256": "b82ba2eabb545884d9d08afbd4432aa3cd0c20aff770c0d348a14dc8bef56bde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/34.json",
+      "bytes": 225485,
+      "sha256": "813a6ff5319170eb58b87277cb855eb9ee6b2b362cfb9c588098097d7ba46239"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/35.json",
+      "bytes": 73721,
+      "sha256": "a063473a1553be9e2c92e9d2acd120c205b1f97b8942503409e0d799db4f2071"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/36.json",
+      "bytes": 200850,
+      "sha256": "9cea50953efbaae08d709db9bdd00e7d2bb3b0f39ebb09e228b4260b36eca988"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/37.json",
+      "bytes": 157776,
+      "sha256": "d68c98ca9efd13f3a6ce0539c0cc229529e1a2b98101d8275f125f3151a5116e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/38.json",
+      "bytes": 165533,
+      "sha256": "5e24c5339f09ddad2d7d4a4fc07ee857954ec0a8ebd279adb3cf3b969c951b11"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/39.json",
+      "bytes": 163207,
+      "sha256": "3dcb4ce1389b3ec265916fcfaa848a3a6a97c1a966265a9c32ce1494ad8c4e1d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/4.json",
+      "bytes": 112812,
+      "sha256": "815b6f7ef26304196af2fcf0a0cd8136eef57f3ff7677e4d3463b259251b4575"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/40.json",
+      "bytes": 342377,
+      "sha256": "b61cd31cc0d77dcd8bf83fe7340cfcaa3a2f9e223343ebe99dd76fccd72622c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/41.json",
+      "bytes": 181914,
+      "sha256": "cba57d36d3585d1393ae0b97d00d100f14bfbc982981b81ce57573982d7e30d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/42.json",
+      "bytes": 131976,
+      "sha256": "a6ec069424979e5a99c31a464b5639925476a64901d82b045ecfd5d474f7fd93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/43.json",
+      "bytes": 169417,
+      "sha256": "73a7fa62863e1b938808e7dc550f14b47298182b8bd8d4565f59f6a166d28f51"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/44.json",
+      "bytes": 231421,
+      "sha256": "f24ebf3c9edefd1b3a92029bdcb4b0c6bbac972f4019bf9264ae4ea89ef522b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/45.json",
+      "bytes": 174075,
+      "sha256": "e76d0ea375a322f45035b77fc15ba623590b5454aba1fefd592e0c280b50ffc0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/46.json",
+      "bytes": 168784,
+      "sha256": "e8477800f83cc180baffdace3e583b46203fa89836b24e58b0ece8f057b57b35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/47.json",
+      "bytes": 193721,
+      "sha256": "f2fc755a34f124cc488e0fef6be7e1d87d9369cf1eb5836020e538004f98130a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/48.json",
+      "bytes": 163329,
+      "sha256": "308a08801a972cd28daf27747b6c85108f9b3629aa7be489b4a4f65cbd3670fc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/5.json",
+      "bytes": 101372,
+      "sha256": "152baa1929ff8150cf4001084ab5582a0f97769fbff5f922b5355abae1efbbd9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/6.json",
+      "bytes": 71167,
+      "sha256": "bc8c09c9b181a0bbd1f85af66865cbb8fdbb6025f0387133332b22213ebde7f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/7.json",
+      "bytes": 132406,
+      "sha256": "c341c2eb0b6f625ba5397fa9e8c52e63cc0db0a431336004764eca65e7e6fcdd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/8.json",
+      "bytes": 129199,
+      "sha256": "dbba12a67f6c4dc0ace112af34434e5485b0ade441ea00dead877a946bce803e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/9.json",
+      "bytes": 78678,
+      "sha256": "527a8c0f92d49fd941640836b35f3a76d683ab9fcdc42842915a8d02bff724d3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/1.json",
+      "bytes": 362533,
+      "sha256": "28d5080d0db51b8bea0e059a231390ce6149870109379e91e7d6c20aec8d5f64"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/10.json",
+      "bytes": 73288,
+      "sha256": "5db9ad29aef0452ee9b2d4f0d7c472d653c12ea7475aa8ba681be4081bf83e3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/11.json",
+      "bytes": 91960,
+      "sha256": "860cc97abfcd30a53a4be75328244e5a4d7a8ea15d867d396e6a093119fc4aff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/12.json",
+      "bytes": 89743,
+      "sha256": "77b926d4cc0bd7f3ad115bc7abd0e093c6478dbacbaaf437942cc29293a2e5ca"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/13.json",
+      "bytes": 97937,
+      "sha256": "5722fa6d395c3e57e81975fa1c84d8d1c30d9909e39a7634426245246f63db6a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/14.json",
+      "bytes": 126961,
+      "sha256": "2046267ba5c7d5ad4ce61dc76412390cb68006a1c884cd50fa39cc1693130cf4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/15.json",
+      "bytes": 20380,
+      "sha256": "25ac830bb2b823ef4c9ca7437fa98db34ffe4246cb508f377bcb7b3e8dad0e34"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/16.json",
+      "bytes": 293251,
+      "sha256": "0b6b6d535b6e040edb3916c5028bce9d21df2b0f84ead52d9296a9c667da4674"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/17.json",
+      "bytes": 77387,
+      "sha256": "35301872edede24f306f5ead1ee2afa9374f3509f1322142a9748f95c029347e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/18.json",
+      "bytes": 90659,
+      "sha256": "4d0f67fe257b1a9b76f1baa532057bdba7762d3f6a93d853debe6954a1fd7985"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/19.json",
+      "bytes": 44732,
+      "sha256": "8ae1bc0ef24cf8969416ad01a0b5f0998930589bb19e43770be0065c95d87421"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/2.json",
+      "bytes": 41837,
+      "sha256": "2751afc4c75c75f153370f6cc714e8c8de03058453940b2502f3a553e4dc3913"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/20.json",
+      "bytes": 196326,
+      "sha256": "d9a32405b770eadfdb1d45e34034c9cb8a0bcaaedd617d59ca1cbc536b4bff6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/21.json",
+      "bytes": 154410,
+      "sha256": "803a451a311bc095e7f62bed22c1b999b4dbc9d46228361c160e0310557e4421"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/22.json",
+      "bytes": 79537,
+      "sha256": "cee728a5d67d02e1e0c200322064890ccd4012cb5a54e65ec00b4ac6e2cfce19"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/23.json",
+      "bytes": 143579,
+      "sha256": "92252ebec2deb4df423cd77c2a6b0b2540568f018ba010278b9b8796b1550a3d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/24.json",
+      "bytes": 105641,
+      "sha256": "312672feed85e611b4a3e722e087202fdcaee788d380717892ca0f310b582763"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/25.json",
+      "bytes": 124594,
+      "sha256": "a798d28e7f83de0a84d7216e590d425583518daad39b61b1928bfd1ac315ec94"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/26.json",
+      "bytes": 99360,
+      "sha256": "6013254a830d711aaceebf77f61b45aef7725fe7b482c91dde236f59f1e226c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/27.json",
+      "bytes": 164044,
+      "sha256": "a0d368c360379bfd018d52cf2178d9ba1844692fb84fbe8ca0289b87a5927169"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/28.json",
+      "bytes": 166470,
+      "sha256": "9b1644f2ad017b61b2032b81f17042ec8f8353a5edd87966dd751b026ce60c5a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/29.json",
+      "bytes": 105352,
+      "sha256": "4b519db6306087bc5f35b5729771665665b0ff47d089e02872968b01042fe197"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/3.json",
+      "bytes": 111481,
+      "sha256": "17379283541dcf50ae63290b22ba8afa5e497d48c3c37e6b11208f1660312f07"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/30.json",
+      "bytes": 106994,
+      "sha256": "7c8d934829ff33ddd2d48252d44ca956c7c4cc49d4e8541eb3a53db46a49be39"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/31.json",
+      "bytes": 102466,
+      "sha256": "29f38b93c354387db1fd63bd295f4b6767ada6b6e3eb52f0db026b4609429708"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/32.json",
+      "bytes": 162767,
+      "sha256": "815f479ca666d5ef1c0557951546be4814b98b08f516b515919b35f8b3fcd73e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/33.json",
+      "bytes": 124620,
+      "sha256": "bb11752f7aa97f0aefdcb79a93101e2ce491ab8e92b2b7a08924485d68b69b93"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/34.json",
+      "bytes": 112402,
+      "sha256": "7d95c8bab868750d0fa78fd31529b22b9a4f02a82aee3a09fd726e026a1b3bd2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/35.json",
+      "bytes": 48492,
+      "sha256": "175a23d6e0bea72adcf6c64b3288e56e4bba6b2eada35a3e08cbe698b4212b5d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/36.json",
+      "bytes": 104629,
+      "sha256": "ed63c1bc1dcd496d043fad0642b278a63d5bbfcbb8f6eed85940a785421ac0e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/37.json",
+      "bytes": 316399,
+      "sha256": "f18ff82b9041ad4dc9ef0c522f4195fee3db503e93ce45be05cf53171f62f05e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/38.json",
+      "bytes": 100832,
+      "sha256": "2d1b62a507a23f89172ae2642f3c0db1f51c638e68a955f194647b3002419ebd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/39.json",
+      "bytes": 76651,
+      "sha256": "d4b901a1aec6634ef97c6aa01ee26f167f02dc6bcaf0a30a542829e73ccc560a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/4.json",
+      "bytes": 111564,
+      "sha256": "add373836c3174abba6f06c504cbaac589a3094d3aacf620d3cc9257c9392be6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/40.json",
+      "bytes": 825572,
+      "sha256": "7b615dd865a6638163c147c5527c548ade1baaaf452784c2a0124c23866e0c44"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/41.json",
+      "bytes": 195649,
+      "sha256": "46f6cf446906fb6460d2d8ccbc5fc958d0909a07c523d6dbf95c92efcfe53ab0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/42.json",
+      "bytes": 152044,
+      "sha256": "7c382c0712c37b7150fb9aa90f4666843f81b9a4be75b6bddae65fa6ff762c86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/43.json",
+      "bytes": 175407,
+      "sha256": "a8b13a9a5d597fc3496b4b4d34e9cec4954df8a29abc0957a0f6cd2072784929"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/44.json",
+      "bytes": 141508,
+      "sha256": "47af396646ee3a0f4568eb65a3e77c874b6c59912500b621c273d761a0cfc9f2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/45.json",
+      "bytes": 159984,
+      "sha256": "095cc4bf3f93060332e398affe6cd5d19516d96006d6c32e332c6b46acf87e17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/46.json",
+      "bytes": 86491,
+      "sha256": "e09348b830842e562944e862553dff2d8382a0d03268cce76777d6e47e355faf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/47.json",
+      "bytes": 130259,
+      "sha256": "ab168a41f03a3ccf953402fc5381b20c21520e62696f67d3be5026b80533834d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/48.json",
+      "bytes": 106410,
+      "sha256": "49863b82f47bdf08adbca7ca8f2a9e770bba744c1ba81f4348d0d9aac32efab7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/5.json",
+      "bytes": 75951,
+      "sha256": "726a785e39e1e8a096ac5815a192ccc2b148e58fcdc14cb7ae95138e99d648bd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/6.json",
+      "bytes": 52028,
+      "sha256": "42fd5e9383291f5edb11b4acdafdd3b2feb3df4ce30ee6890dbf0850746affbe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/7.json",
+      "bytes": 98326,
+      "sha256": "cefdc94b8192961e639d7e8f73a9e5cd28031dc3ecafe678096668111a7b531d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/8.json",
+      "bytes": 110910,
+      "sha256": "1b3fdd2a408dc845858ba708a8353d1945a12276db5b5b4b9e5945bc23b0a9b3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/9.json",
+      "bytes": 62546,
+      "sha256": "ef1cc3a9f6fc0b94ca6df1c751e54cae4e4ff7d5b7134f5694ded5819330341a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/1.json",
+      "bytes": 257463,
+      "sha256": "596ef5f278aefbd90516407f5c5b5de33c045665efcd17867c9664a2cdeb5ce9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/10.json",
+      "bytes": 80009,
+      "sha256": "03beeeccf607fba7be0ddcae63fbb10d0520ab24b7094aa4f2e6ebbe487957e1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/11.json",
+      "bytes": 128398,
+      "sha256": "8364a825f101f07a6ef3c2c7d68a3513a0f70d3d655eed7b47ee591240880e7e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/12.json",
+      "bytes": 117175,
+      "sha256": "5cc70192444ef101f59031110b878617c06179f414426e32a2fe835987c04e2f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/13.json",
+      "bytes": 122748,
+      "sha256": "39f3bde94451c0cb902da3aaf480cd057e9eff97f2cb1f3bbe96354158d8bd3b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/14.json",
+      "bytes": 113044,
+      "sha256": "876c1a6eed784d3dd0993b14b50c365913cd3021722b341c28216a3d93758fb2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/15.json",
+      "bytes": 40543,
+      "sha256": "e70c4f707f1f1a65d9a73a1aef396decd0db00e222578bc1e8b121613b3689ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/16.json",
+      "bytes": 261549,
+      "sha256": "96107d0e132c155e2bdfec89f2597d1e8304291c42b2f7baaf197ba7887c34ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/17.json",
+      "bytes": 110401,
+      "sha256": "476ee81e118aebe816e3f37ea1fbce39b8563532a3f9a6706628d1058c6b58d5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/18.json",
+      "bytes": 161219,
+      "sha256": "1a967b13706b9a04b6c40b4ce90ddb3c8a2594896aaa680f98369e0860b0f922"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/19.json",
+      "bytes": 62449,
+      "sha256": "4eb886fd374234c976375982ac7437c7afccd5186830320a40613de6903cfb2b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/2.json",
+      "bytes": 82019,
+      "sha256": "77e1642a20f7c762a25960c87060f2bb0e12e166d06cb41024b1b273e47eeaa2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/20.json",
+      "bytes": 198020,
+      "sha256": "074e61a40985df994be2f82277f0282db624c8ba7988f7738369ad6d8bb618ae"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/21.json",
+      "bytes": 148570,
+      "sha256": "716aba97f284990d671dee8e5cfcf308f8ad04058ec50059d1d07cf1b0769fe3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/22.json",
+      "bytes": 127542,
+      "sha256": "8ce5523f062d44c660b52fb92a1e04a4ae68e70d4230e7e070613278cbaed480"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/23.json",
+      "bytes": 172436,
+      "sha256": "ca886fef2cfad37206c13dbd29239386097e54251f50f24a84e4758dd721c20a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/24.json",
+      "bytes": 118309,
+      "sha256": "18038b538b61b1cb711cbe3fea2a0a9763da504cbbac6dae2e72ab856bd30059"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/25.json",
+      "bytes": 77709,
+      "sha256": "c3f4edc4866274cbcb96e8aff94a3258eb6767ef95953fa9bef88c212ff9b1ce"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/26.json",
+      "bytes": 83392,
+      "sha256": "6e7e959c986f58510ad636c13620d380dfa1bb20c5fce67221fa7fd128aa8db1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/27.json",
+      "bytes": 101204,
+      "sha256": "d7d5779af4ec12ad9ccfc2285e90331cf178dd4c9b1f2695f1d9a1ad584c184d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/28.json",
+      "bytes": 115611,
+      "sha256": "ba68886901de12784cd2d1c0ee4cc64c43c4f8647052ca440f0f9ab15cfacc14"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/29.json",
+      "bytes": 89526,
+      "sha256": "e56a1b52decbbabb42e22ccb26088197f5d3212693e70d24ee3461f5cfc21a24"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/3.json",
+      "bytes": 157173,
+      "sha256": "78a30158029843d8801d20bcc5bfe8524cb994ff376982dbe787034e584f64b1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/30.json",
+      "bytes": 68410,
+      "sha256": "f322204592f3ac6bde5e18eb6f7703278087bcd094610bf4946734fefba96aa3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/31.json",
+      "bytes": 86108,
+      "sha256": "b9fcf22c07952990a16520ccfe46fa3c3ffbe78162fa3eefb9955db76ba2ce6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/32.json",
+      "bytes": 107147,
+      "sha256": "687d9f1b96acfb754c30a3eb1c665ac5aee8005ab15aaae512f8bc9cc189e207"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/33.json",
+      "bytes": 176466,
+      "sha256": "8fa8dd95bdef99f804ed209f03314f18fcb0a8b11aafa3a7a992762903a452c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/34.json",
+      "bytes": 120704,
+      "sha256": "b44d6e89588da849f24bd1cd7af7e09c7198d4003cf33b8186448387010f92de"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/35.json",
+      "bytes": 63256,
+      "sha256": "e7a4c82e4e8854d96812c24ab59123120a0ac21c0bf1082abb0aca184aa1c349"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/36.json",
+      "bytes": 148341,
+      "sha256": "c23fb5ed5d3c5fb0c48afe82a6889ef60c7d6b5d3d2cb49e91221e3e7712a97b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/37.json",
+      "bytes": 111246,
+      "sha256": "ed70d2996a8ba5f0586fc39ddbd82e7065f866534c3230c1ffcd066c4630bdb4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/38.json",
+      "bytes": 86406,
+      "sha256": "886d413ee3717ba518ddd2f8e660b284d8bade995bfb115482f6ba0a7c883baf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/39.json",
+      "bytes": 112231,
+      "sha256": "2950c00426ae51917dfcb8de9b875bd97178e97928c6ec3f1e6dca6b7ebfa9ad"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/4.json",
+      "bytes": 88461,
+      "sha256": "36553887c172c7f090ca948434287128f0c2733b6bee3b890f858699c2a30a6b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/40.json",
+      "bytes": 120856,
+      "sha256": "b5dd8d35a8a73fb04c306cc3f3dac54b32535110170d58f16920b6383383ad1f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/41.json",
+      "bytes": 48205,
+      "sha256": "3ba8b32831e7e629c55a4a47975cb124335224a0a4713d466cac2c3e4d4748fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/42.json",
+      "bytes": 40206,
+      "sha256": "7c9eaf475f9b0973bd722c5084c6c5d0db770d54c5f10bf9813a106b50f9a24a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/43.json",
+      "bytes": 85873,
+      "sha256": "8b1bb1b2ca69dd5cfb9fbce16842595365dce10f655b9fbc1586ebb895ca4dd8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/44.json",
+      "bytes": 103341,
+      "sha256": "fa009755f286d79042ae44058a17f61c9e60a9b062a4ae5070ce1b7079cdee2d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/45.json",
+      "bytes": 84031,
+      "sha256": "344620321b03f83f92630c2b4d2e8887087db2b19fe85c69ba3b50d423eb12e0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/46.json",
+      "bytes": 62678,
+      "sha256": "6338a9378c9edfa5b1ffef86a6e2bd3a1eb9b1880ba27ffee00b549568443f18"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/47.json",
+      "bytes": 84350,
+      "sha256": "910d864c7888994bd5072f71b86e5b09ba6406bce4cfbd0976f595f9d90ff9b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/48.json",
+      "bytes": 77828,
+      "sha256": "40063ec53540fddede88dda5ac0016f3d8ef108098891834aa74a86472e94b44"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/5.json",
+      "bytes": 99030,
+      "sha256": "95f83caf91c57b44f17827b6a4984662ebdfb97fd7a2dfe61ffe83d2a3356518"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/6.json",
+      "bytes": 82410,
+      "sha256": "491ec88d74e492197c5219f4eafefe27e7c276cfc54b0bb92a35c2f3a3d761cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/7.json",
+      "bytes": 131456,
+      "sha256": "bb4bfebdd54eb4f7ca85de898bbcf7fd12fb07c96f9870eff953767aa8fc152e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/8.json",
+      "bytes": 105835,
+      "sha256": "177cecd15ba2bb6bbaf5b96eb7b3260a20aaa11cea441257ff0d1a005a747f01"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/9.json",
+      "bytes": 93313,
+      "sha256": "25dee4e4b27e260a715589177e7d3455fd6441eef7d0d2055d543ae2a80d9cbd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/1.json",
+      "bytes": 14247,
+      "sha256": "eb9a0de161b9b14759904aa51707d359905a6a9a3fe69308a938f142a901b8b3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/10.json",
+      "bytes": 10768,
+      "sha256": "756e2711f214baecf5e471671c47624ba04ef722d2600f1bc6816dba2bac750f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/11.json",
+      "bytes": 11581,
+      "sha256": "40f858d4801fb0b3e3b6b35546cff652a320afd0e6dbb7574cae0fd85ab0105e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/12.json",
+      "bytes": 19265,
+      "sha256": "f7e94575bb7efe09a14a4c155cc71ad1853534f93ff4003a88ae0e0c2195ea96"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/13.json",
+      "bytes": 11997,
+      "sha256": "7a51fb5ac953442151fb0f47bdbe95d9013d980900b493d1303cf215a9104120"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/14.json",
+      "bytes": 16219,
+      "sha256": "062105f47a6c757aa75663219a29703c56fa14b65a47a222c1b3bc7f4b114e5a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/15.json",
+      "bytes": 6085,
+      "sha256": "044be63e2e0b6b7b579134e3c1cbb5d7ce4f4a26af4817ebe95b171385c855f0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/16.json",
+      "bytes": 22566,
+      "sha256": "9080d676997a8a7f893635672bed1c7a4dd171bc202155675b3d43d241da7e4a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/17.json",
+      "bytes": 12262,
+      "sha256": "5d6af717f569203739fde50b93f85a8b4459f7554972629d6b6ed28892356771"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/18.json",
+      "bytes": 13543,
+      "sha256": "d8ed640885c9958d6e7ee7c48a4e99e88cf0c54abc12e8428c9b3bfbe09b29fb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/19.json",
+      "bytes": 9259,
+      "sha256": "622523cb45a6ff31efa7b634dc514d232134394ab59cc5c33caf55ac488459d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/2.json",
+      "bytes": 7148,
+      "sha256": "7dcae2bd0ef4bc43c27482bb8441ff6c0e15df44a1cc0281d671eaea078bf3ff"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/20.json",
+      "bytes": 20251,
+      "sha256": "5bccea1aefe9e95f07a987aa244416f38a66cbbb22a978d0fb2562d85ed9d39b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/21.json",
+      "bytes": 13541,
+      "sha256": "8e9ab35fa73f719f963783bc43497595880e3e68b10093096ea22ceafb6ee2a1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/22.json",
+      "bytes": 11963,
+      "sha256": "04704c7dc09312903e9a2b2685ff95313ed08c8bebf4d987a729ab12ab5684ee"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/23.json",
+      "bytes": 17421,
+      "sha256": "55f26ba23e186fe5a7a4a9975d46adee721a836783c2c0f8c9f239771fc10711"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/24.json",
+      "bytes": 11475,
+      "sha256": "a51a826eb98e4adf8263e0d717dae1ce95b61b383b9c945479f55c63fa8caf30"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/25.json",
+      "bytes": 9602,
+      "sha256": "005ef4c3f96dfb489ba8b4b4a27b179a16f25b5fbbafe0d60d0e5ff93ffb751c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/26.json",
+      "bytes": 9779,
+      "sha256": "ddf5750516b58440b75c1ce5718a01daebccca37cc61b6e8388bedd941fa760e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/27.json",
+      "bytes": 13110,
+      "sha256": "7a07f30dcda77e667c01fd28bf98cf74a84b64e25d5b1e8dcca487022c6486f3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/28.json",
+      "bytes": 11706,
+      "sha256": "95c43266a5c8b4a84fd6c6e3e7ffb46003e3ddecb44b68da2e9121a7c045e130"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/29.json",
+      "bytes": 11074,
+      "sha256": "c2c50fc024abb3a6401eb5c338be8a070c8bf7aa5099e918285880180f8001b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/3.json",
+      "bytes": 12732,
+      "sha256": "7163749b62f6835f79bcdabe3341a4ecc7d209444d936d97f13674f19e398449"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/30.json",
+      "bytes": 10858,
+      "sha256": "9ccdc1d8e0b72a59fdfb549e0fe17ebd91e3b82ee636fb27b743af051660c5dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/31.json",
+      "bytes": 9587,
+      "sha256": "42089df43219f0ca1c2b62bd0e8c6f6e0f07a85f47b9bd18c9e20c7300cd561f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/32.json",
+      "bytes": 12740,
+      "sha256": "5d17d6bab94f9c9a20a1ba8261d580b4eaf540e908a4688b508feb55e11795ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/33.json",
+      "bytes": 14708,
+      "sha256": "eaaf5d9db8898c914c801b4c5e41cffe73b6973254e35880d99362fab5bbcb40"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/34.json",
+      "bytes": 12562,
+      "sha256": "0a7a7033c0ca9f5a42bc6686c63849fb68fb3a71245a3d9d974fa8be30d44a72"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/35.json",
+      "bytes": 8166,
+      "sha256": "cf9a91a523fb72997bca77a04844288a2e04e88f16aea6a3f5f444da815b0709"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/36.json",
+      "bytes": 13763,
+      "sha256": "d800ef8de8cc43d961318339ae210a89ea16f3fd7a0ad5da5773a478985ce190"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/37.json",
+      "bytes": 11966,
+      "sha256": "95e9fe452c3e3753caae8a6e6fc1725e33e9f70c7649c8e25cf8d7bb3806877d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/38.json",
+      "bytes": 10452,
+      "sha256": "09a81be785f86f60ab97bf6cc15d027eb571b4d07754c6c5933daa52714ed665"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/39.json",
+      "bytes": 11930,
+      "sha256": "ecd0fc558ee8aba3ce3849e67c4ecbd7b4f85e5a6bbde48b38608efa0294f625"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/4.json",
+      "bytes": 8513,
+      "sha256": "bcd0116dceaf9fe479b82f4473a2e29f50f8560011ba29f974b59f99e039d7d6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/40.json",
+      "bytes": 18115,
+      "sha256": "5a5a9d8a0b9766d703980db118662180f5a4563452afabf6eeeef17757708c95"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/41.json",
+      "bytes": 10392,
+      "sha256": "fbbe779755427d68108a76cb1f20e95dbbdab856d51937c9a57697c177513298"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/42.json",
+      "bytes": 8348,
+      "sha256": "33dca849b7f29ce406f22d716e4a85699df207298c3aa8be1527bafd22168e7d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/43.json",
+      "bytes": 11554,
+      "sha256": "71d0157ae70222c3987f106b1264c27ee2acd8abb19a9f9a7a6478fb0b17612b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/44.json",
+      "bytes": 11303,
+      "sha256": "71117b0255d95c639876360edb240690ac6ad680c80b81b7a5e5cb5ed0d7905e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/45.json",
+      "bytes": 10026,
+      "sha256": "4d2d9a8ea872243a1fc85290a19d277d18faf1ca4fb30ceb9ec4fdde1ef6ade2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/46.json",
+      "bytes": 10540,
+      "sha256": "0f549c8d29589ef9cbd90823a0e869f6053ce372ef383daa5209055925d0ea09"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/47.json",
+      "bytes": 9966,
+      "sha256": "cb5fed8bc18abfb8a8a916258e98ba20661121b2358ece15d8278ff3372295eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/48.json",
+      "bytes": 10425,
+      "sha256": "b242f08dae095feb7f9418ec25d7f85d836102b29f4e665640fe600b9cad6001"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/5.json",
+      "bytes": 9119,
+      "sha256": "7e652797c6ad94167fa90bd9bb526c77cdb6d7ec45dc54c17e7cf3ae77d1203c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/6.json",
+      "bytes": 9190,
+      "sha256": "a7d726ad4958e941677419acfe08be1651a5fe46128e89c5327cc4d6095db006"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/7.json",
+      "bytes": 13216,
+      "sha256": "28febf6abeb614edd6162dd43efe198c19545850c7d6c0d179c4f78faaaf5e1d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/8.json",
+      "bytes": 10691,
+      "sha256": "9db34733018fa0849641c202e6e3db9e343427e04b1ba0b9f82de3792059907f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/index/EZK/9.json",
+      "bytes": 8395,
+      "sha256": "7a0777a846690288c43e6490886ed5a37631b2ca30fcff5325f75cd215ed8ec5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ezekiel-2026-11-11/manifest.json",
+      "bytes": 2355,
+      "sha256": "11e6ed89d91be6f375b0c36617a4844a1a6b48a9ac8a1d80158317b69110042b"
+    },
+    {
+      "path": "review-ezekiel-v3.html",
+      "bytes": 14522,
+      "sha256": "61e442f57012ec1ab21f99d404d978beab0f20823a60ea60a5f7f4657c0baaa5"
+    }
+  ],
+  "qa": {
+    "source_archive_SHA_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": 52358,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 19958,
+    "predecessor_navigation_sha256": "2b7d0ce0e422a34f0fdb192c4e112232dd4dac374529cab887d83ed22e7ecb33",
+    "repository_root_file_count": 341,
+    "planned_batches": [
+      95,
+      95,
+      95,
+      56
+    ],
+    "prior_25_book_files_repacked": 0,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_browser_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 48,
+    "verse_coordinates": 1273,
+    "author_chapters": 288,
+    "original_entries": 3634,
+    "original_P_sections": 480,
+    "routed_P_sections": 481,
+    "inherited_source_links": 1,
+    "assertions_total": 52358,
+    "source_archive_count": 6,
+    "baseline_main_commit": "159701317327f825709cb57ab447212732a872b9"
+  },
+  "release_scope": {
+    "added_book": "EZK",
+    "previous_25_books_unchanged": true,
+    "new_paths": 340,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "original_source_P_sections": 480,
+    "source_linked_inherited_prefaces": 1,
+    "player_and_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Original public-domain CrossWire/SWORD module texts with native binary OT indexes and source edition licenses. Original HelloAO John Gill items and whole-missing-SWORD chapter only. Original author works and editor appendix distinguished. No Scripture translation text, fabricated commentary or invented mapping.",
+  "explicit_unavailable_states": [
+    "John Gill original HelloAO Ezekiel 40:36-37 absent; retain verse coordinates with no Gill route.",
+    "Calvin original indexed SWORD chapter 21 includes translator/editor bibliography only; excluded from Calvin verse exposition, included in P.",
+    "Calvin Ezekiel chapters 22-48 unavailable in both supplied original source editions and represented as empty source records with preserved chapter/verse coordinates.",
+    "Keil & Delitzsch Ezekiel chapter 40 first indexed record is a critical introduction (review of 40-48), not verse-one exposition; shown via P section."
+  ],
+  "safeguards": [
+    "Before upload confirm current GitHub main and predecessor cumulative manifest SHA remain consistent; stop for newer unexpected commits.",
+    "Upload 340 new files with repository-root paths before the one cumulative navigation manifest replacement.",
+    "ZIPs are transport packages; extract before uploading JSON/HTML.",
+    "Preserve all previous accepted original book records, readers, actions, and CGBC player.",
+    "Validate final deployed GitHub Pages run and independently inspect reader on desktop/mobile; local QA does not substitute for a visual review."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING"
+}
