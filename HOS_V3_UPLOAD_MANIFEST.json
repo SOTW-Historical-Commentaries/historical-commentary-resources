@@ -1,0 +1,591 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-hosea-2026-11-11",
+  "book": "HOS",
+  "book_name": "Hosea",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-hosea-2026-11-11",
+  "baseline_main_commit": "560bc8c1b2f693e119135363b5e8fb1810ddfd71",
+  "baseline_navigation_manifest_git_blob": "2fb06f574a6394ad040e62c32b9cc26041dff10e",
+  "baseline_navigation_sha256": "8d2f11dcf3e622d5197edd95dd0e030d63bedd288daf7a6433d2cc25c8747a8c",
+  "prerequisites": [
+    "DAN"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 102,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/HOS.json",
+      "bytes": 146562,
+      "sha256": "639997b66ce88fae7b72ffd3a7c1763ee4fc8db29f52ad0e249d4d44da1b166c"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 14642,
+      "sha256": "430a6bdc5f25fa7344d91c714c9fa84b90b3f74cf6422f19f1300c9e1918c6f1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/1.json",
+      "bytes": 84375,
+      "sha256": "26efdd762ed73d20da982103ed0c168d14e833deff25d57ae4a31e2573241618"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/10.json",
+      "bytes": 53353,
+      "sha256": "afc881a2572c9090bd1194053e75fa6f5a8d305e7eec4e8947e626d4021318d0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/11.json",
+      "bytes": 37834,
+      "sha256": "5f84ed3bf81075bd7ca2790f76d3a85c402978c81a19046f9793308391ff81bc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/12.json",
+      "bytes": 43052,
+      "sha256": "185f03cf18019b399bac2f6c81acb1218e238a18e11a6b44b685827e33c36eb2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/13.json",
+      "bytes": 55497,
+      "sha256": "4d3837ba0c502d074b264d2da3356606771ace0f393747d9d68708c78894c6c7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/14.json",
+      "bytes": 58305,
+      "sha256": "87b7007297415ebacb63c74e9b9be1a2b09c3537abc73c5108099aab3209dfde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/2.json",
+      "bytes": 70607,
+      "sha256": "1599c4a4866bf6bf1ff1a24bf320e28baa21dd9e85b653e5880de347eb1f9193"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/3.json",
+      "bytes": 32351,
+      "sha256": "95c8adc4c83ff3176a9a228718595afe7e9c6f9f40616e7fa62e4e892f4dd56d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/4.json",
+      "bytes": 54996,
+      "sha256": "2ff6a3663591251b9f06578d11c5da96562798c41da39f3e03db2f8311d0742a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/5.json",
+      "bytes": 34691,
+      "sha256": "60ffb89b6b0bf6edc45c31f4ba56f3df9ada671881a4902c9f16d025c5db3c6c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/6.json",
+      "bytes": 36568,
+      "sha256": "53ca0a58826ac9695b66e56886969d74d784cc9831651347bcec6fe8c97418ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/7.json",
+      "bytes": 47647,
+      "sha256": "655ff1cd9239b995b0993acd8aa7d1999281463febe943509b9cf1bf05e4d8c3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/8.json",
+      "bytes": 43140,
+      "sha256": "8e66867167a77fc1877d53476f0d4ca301c73ae90561d53060c5cd40adbbb44f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/adam-clarke/HOS/9.json",
+      "bytes": 45466,
+      "sha256": "2d1cfcb37fb04038617cc66837d2c4acbdd24f2a9367d37dee651f91999a1cde"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/1.json",
+      "bytes": 62811,
+      "sha256": "628ec250d905a3664771f449a65aa59b26e90a4b67a5634c231bd7cc7f363c80"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/10.json",
+      "bytes": 53209,
+      "sha256": "49315872c5e9182c990b8f9c9daed4889326ab9211ba5bdc2d1b8db665ea7b85"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/11.json",
+      "bytes": 44782,
+      "sha256": "3cdd28e0251af633450172e3ca52a459a80d82d9c58738c0e80631cb6dc13579"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/12.json",
+      "bytes": 55484,
+      "sha256": "d108bb90e613503ead317ef24f161969dbd8d0be1cb4b03e7d29969028f2fabf"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/13.json",
+      "bytes": 51545,
+      "sha256": "977c8bed01b133f20daa6548dc1faa43cab94d948c361fc6cb0c945d299f6925"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/14.json",
+      "bytes": 36198,
+      "sha256": "3c9a48b6a347f4e6a0249bdfba2ffcfcd3fda3993ba2c68324dab9526597b25d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/2.json",
+      "bytes": 61138,
+      "sha256": "d5d11a884cf99df26f29d61c778ccf1b8c788e5f77bec6b69b0d5c4ef049e52a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/3.json",
+      "bytes": 27962,
+      "sha256": "42feb0da297cbebf7524d045c6c66bfe4d4d8e5e53b422bdafaaafe6213866a3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/4.json",
+      "bytes": 60011,
+      "sha256": "3292d2a15fc236715dc3664f448d7dee3ccf3e0d93935b4125b106f14526fa2a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/5.json",
+      "bytes": 53984,
+      "sha256": "bd7416f10b15c1dd1c82990348b4a44ffe8593f1f78953ddeaa21fae11d67da4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/6.json",
+      "bytes": 49492,
+      "sha256": "aee318298f7089cdf705ff267926193bbcbd9c4bedc1799f28fdcb0ea41b677a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/7.json",
+      "bytes": 47846,
+      "sha256": "df77743bf9c0e1a09f7f9f3b658bd9a32c5b78ffc1b2359c24f05b33dcfbf887"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/8.json",
+      "bytes": 45102,
+      "sha256": "4e54b7b8b029086d0f5e8c02e154d929c5b11faa591034dc0180990331e31ec9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/jamieson-fausset-brown/HOS/9.json",
+      "bytes": 49743,
+      "sha256": "f6530213b1ad552681cc941916722ab11f6f2c0af79a96b4004bdce5b83a9cf9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/1.json",
+      "bytes": 272873,
+      "sha256": "64d702d6faeaec3fb97023d0e687bb863d5b15eaf6c49d805befa529e03eb9c9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/10.json",
+      "bytes": 288869,
+      "sha256": "b088165c224b3fb06994c264cbf00003d431906a31c1d3368c1b692189864bb0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/11.json",
+      "bytes": 216134,
+      "sha256": "f3483d87a0f802075492d3156b5230bb610ba8c2a0f576dbaba0f7278bf698ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/12.json",
+      "bytes": 272796,
+      "sha256": "0a14c24aa6bce6a1d44b600096b057a0b75424249393561eaa6bea8f5991c617"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/13.json",
+      "bytes": 300529,
+      "sha256": "4bf6169af6a95ea413c8efb489cc93973f6242c6b2278d093449181e819e4b69"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/14.json",
+      "bytes": 275952,
+      "sha256": "c85eb19927e9d2ed54b826318f9df2557a865fb960219f80cdbaf35768c828a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/2.json",
+      "bytes": 387542,
+      "sha256": "c69691d4665b464ae232a55d1185b0e9dbe9143984dd3634e47d2a63e1457b2d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/3.json",
+      "bytes": 111732,
+      "sha256": "13b434d981da1394c8cee59f616b9d6fa6f5422e6152d447602245d810a45f1f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/4.json",
+      "bytes": 346754,
+      "sha256": "93e86a6fe304c480870b91253b778cfdae413d06bace73cc0029c001ba788ad2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/5.json",
+      "bytes": 268749,
+      "sha256": "5c0e0b3bcde0a3fe8dbeb6bda4e67c39e2a97d25bfb48a1aefadf35ddf1a13b0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/6.json",
+      "bytes": 211000,
+      "sha256": "414dc810475dc3acf32a021b7547a877dade783b59633948f29a28ae756d6184"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/7.json",
+      "bytes": 283790,
+      "sha256": "4d229ca2a6d66f539bb77dceae6494d92a52149cb02163aa3c5dc06a20020281"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/8.json",
+      "bytes": 233696,
+      "sha256": "1219a816aaf1ea1a999ca296ca77a503682feb0409b94a9dfb57aeb3377870cc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-calvin/HOS/9.json",
+      "bytes": 331091,
+      "sha256": "cb694a0463f5f8ed8fcf0054761fdbdd71018185fbbeda47767f0877299de6ac"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/1.json",
+      "bytes": 150739,
+      "sha256": "75ef4c8284de7a0f4e5bd762d4a91bc7ff46692e58051c81a39007069a5e2f6f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/10.json",
+      "bytes": 163355,
+      "sha256": "7fc47f858ba2cd42cf6cbf3432758a478f7e677b18ec517b518e44664bdef0a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/11.json",
+      "bytes": 174210,
+      "sha256": "4b2775e797b78b7d73d0b8de9a1ef744812dceaba839a235c567249193df8886"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/12.json",
+      "bytes": 161380,
+      "sha256": "607f9f39c30ed1a920a941b561d15e43acfc62ceb71b96ef197c4c8bf7d6e6ad"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/13.json",
+      "bytes": 170182,
+      "sha256": "8a3940624d7567be43a48f6a3d8fc7aa345bd519baa3b21c55fa862cb88a651b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/14.json",
+      "bytes": 145403,
+      "sha256": "6d04f061bcf996802b07475d1f7c5d97f8bfeacdf75b547aab5b58fb367223fe"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/2.json",
+      "bytes": 250768,
+      "sha256": "cc0610cf00aa8f0653a405c7da752d1656e0c810e687b42060f96f8cf09a70b6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/3.json",
+      "bytes": 79532,
+      "sha256": "0de0109886364df2f557b52c86eac700e855c2682446da0e808df3b7cdba0c77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/4.json",
+      "bytes": 202964,
+      "sha256": "a8ad6a6e3aa64a4eb27a82dfc8a3d5890fe13af983019474107b20c5ec2f351e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/5.json",
+      "bytes": 127424,
+      "sha256": "032f58a4f0d092382acb1d089dc4cab00260372202f8f0c84fb76f6e580e6f7d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/6.json",
+      "bytes": 134332,
+      "sha256": "921794916889c8710b9d6f44a8a4bc0255c31bca683a10a50e5ee81e6b905653"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/7.json",
+      "bytes": 144731,
+      "sha256": "72b1dda2f4f275067c3d20451536311cb0da693b69f72ccf2452f408fe2e3e09"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/8.json",
+      "bytes": 139769,
+      "sha256": "5d6c1c5bc2f58458e69c8767a1f55468a2692840eac3387d6cbf8a70eeb821c4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/john-gill/HOS/9.json",
+      "bytes": 180174,
+      "sha256": "a9303ac48000040dd9c2f9aff8d6bbe0ac529e584d911d9259a0c791ff5022fc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/1.json",
+      "bytes": 428895,
+      "sha256": "9725622c40ba29f6081812ec2ce7602ce049665e8f6c9ce6a32f34a1841a50e3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/10.json",
+      "bytes": 78225,
+      "sha256": "e6c4afddfb29676b3c72af045112e8ce83d2a73280bd0ac688595e8d3dd38936"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/11.json",
+      "bytes": 58717,
+      "sha256": "a3849857262b9344873a4a61d0602cd0863adb2918586d0c386460387e87201a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/12.json",
+      "bytes": 85635,
+      "sha256": "fa01e722863c08ce81eb1745a318a8a3ee0f8c2b4ee227cf9c8dea6e15c12fab"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/13.json",
+      "bytes": 90369,
+      "sha256": "c4e2c194ff2288b27b9f80c117a361cfbfda27512f944c067001fc4b9d6c9ac1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/14.json",
+      "bytes": 39382,
+      "sha256": "1ef18f96a3a617f351f8e6de8ab43f64c27950166f89b50a86f607e408279213"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/2.json",
+      "bytes": 150039,
+      "sha256": "bb4017fbc79a60094f2b5ef44d969f49d3ee84c4c4ddca76d4f73cf6cb1649c8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/3.json",
+      "bytes": 59299,
+      "sha256": "978ce59beb5f160efe1163f8c42dd2f6d90bd5de6993540c2944ca888887e79c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/4.json",
+      "bytes": 109803,
+      "sha256": "e834dfe112689045a0ac54f78abf5a2944837b6f0bab474307af898362c355eb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/5.json",
+      "bytes": 82016,
+      "sha256": "58dc7d6f3efc7309ee8ef97a2b5aff6a646b97de079bd2d08670febf4c50dc3b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/6.json",
+      "bytes": 66531,
+      "sha256": "7f99f98dc5eb52df8a558eddbd55a57fc2377aa1cc56cc4c02cffc3d86cd279d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/7.json",
+      "bytes": 50373,
+      "sha256": "b9e279f18aa1be179081f8b562cc74f2a44d92c6d92a16bbe0b477cbf464596a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/8.json",
+      "bytes": 60891,
+      "sha256": "0a5d95daf6b81c51d2219c3eb236bdd156ba9fa3379112f62340cda9fd2554a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/keil-delitzsch/HOS/9.json",
+      "bytes": 85120,
+      "sha256": "37cf320571073673f9cd49591a737c2484d9cee03673fd6da9489c87912f4863"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/1.json",
+      "bytes": 164773,
+      "sha256": "c9574be2f03786bf78e3641f8f2b0df0c053d6fbce1686c3c806900b5f5d3100"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/10.json",
+      "bytes": 101588,
+      "sha256": "ac916761ff8f1699a97311bee004dcf487e9532b6bc8b5e9ebb24a0f8588ec9f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/11.json",
+      "bytes": 104471,
+      "sha256": "7dfec37e1651bad96c7c8ddef7ea3d5e3660104eb9d9ce2fd3f0922a51ce0a8c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/12.json",
+      "bytes": 112153,
+      "sha256": "77e65ad351d4a041e463d8f82734cdd75ef8c83435f1c5bba8b4ab58fb663abc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/13.json",
+      "bytes": 112467,
+      "sha256": "a9e46f8b6a46e84e831390da77fdaeb04012c966eb3f52039f5601ac34a9958a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/14.json",
+      "bytes": 110348,
+      "sha256": "324b7d448fd2ae231b7d530a04109a29378746176947b01b870599cef1833fe7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/2.json",
+      "bytes": 214401,
+      "sha256": "98bf9acba32507553e7fe1f4a516194ad5264431c4b4288e4f2b9a1dc436c5b4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/3.json",
+      "bytes": 66134,
+      "sha256": "4cbf96533511fd7b0703d7a9df2df2e41bfd646fcaec257f42aa30f173dd9719"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/4.json",
+      "bytes": 138170,
+      "sha256": "9b29a1a3f9f9976af5d18ae22b9c62df1a56d64e718409f30709091a0f683d3f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/5.json",
+      "bytes": 105120,
+      "sha256": "5eb76ff106c1780f32a984e0369619ada54cd2db7dbef1a33a72cd56d4ccf998"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/6.json",
+      "bytes": 106023,
+      "sha256": "87281193f0cae554afcd2ab33d9d3dd1252c19d7010f5a5ef7e34148a851232e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/7.json",
+      "bytes": 126343,
+      "sha256": "6266a746e572d0f2a28f5b39c8b54f958d62a1b385ef4cbed0fe04c4b094eec5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/8.json",
+      "bytes": 117225,
+      "sha256": "d45604fd4405f8df020fbc97176d0f5595d325b80e9e9ee14a20a8ffe0079885"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/authors/matthew-henry/HOS/9.json",
+      "bytes": 127298,
+      "sha256": "a0f1e5eb77a2ee9c7e5a1d326f227c768c59af8d7aedd05610a5d20150932a30"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/1.json",
+      "bytes": 9578,
+      "sha256": "4b2ae145793aae7ad4fe06383f531b8d0ac72df16a01f4b17f19a2af8627d67a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/10.json",
+      "bytes": 8860,
+      "sha256": "4a5cf5fe4cc9b82cf0f3bd916a57d906f67b160f0f5b304465f8910f84c6dfba"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/11.json",
+      "bytes": 7874,
+      "sha256": "66f34fa0cb856ea16671d743defe34baf86b6bba158b07cfd8c540bd2beb4271"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/12.json",
+      "bytes": 9323,
+      "sha256": "8c53ac274e713842ec26cbe3091611d6be70c803068db70d8a10453088dc292e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/13.json",
+      "bytes": 9272,
+      "sha256": "5d5676c429584a61704d73652dc040887ce10095e8323dee9bcdaaacc27ad33c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/14.json",
+      "bytes": 7252,
+      "sha256": "10fc48d012399b524d3bfa459ed17b40666b1ce893d0a48c25bbd2a4fd877fd1"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/2.json",
+      "bytes": 10994,
+      "sha256": "93fff328325ed228c5e2d045e5e1f3115da736083fa6d8072675d6fb637f3d28"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/3.json",
+      "bytes": 5959,
+      "sha256": "58251c13fe17f2a18d3eac60b1dbb08cf337b2d8cc859cbceab5b32469f70df9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/4.json",
+      "bytes": 11498,
+      "sha256": "507e865fe39ce365ace60914ad83f94dac60e6038668b23475380ef90ad859dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/5.json",
+      "bytes": 8708,
+      "sha256": "ec178fe04751c72dd45a9f05cdb5280c52f9abaf8efafb6848fb28d69aa2321a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/6.json",
+      "bytes": 7542,
+      "sha256": "782bcd0a3d440760c27cb00738a2020ba5ce041233fbc30c537f70f1d3c9db86"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/7.json",
+      "bytes": 8927,
+      "sha256": "804ddb0a819f348180b7308f2e27f013fac81ac7c135463cba01081b5c0051d5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/8.json",
+      "bytes": 8908,
+      "sha256": "cd7f576b50b0829a12e82296ef954ddf98a82c49999eb916e06e2e6e0cd87cc0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/index/HOS/9.json",
+      "bytes": 9639,
+      "sha256": "ad326653d5a9afed766d4c77453edb7f301b1556bc376869011e46f8fe8f9343"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hosea-2026-11-11/manifest.json",
+      "bytes": 1921,
+      "sha256": "e152cb5416b86f0f7d71232c739c4477edebc47c83538c11a69526ba16e65f68"
+    },
+    {
+      "path": "review-hosea-v3.html",
+      "bytes": 14398,
+      "sha256": "4c68dfbd993906b79cd34ec4e21ad0ae42b53d4c527f53a68d1e8362c99adb04"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": 11280,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 4255,
+    "predecessor_navigation_sha256": "8d2f11dcf3e622d5197edd95dd0e030d63bedd288daf7a6433d2cc25c8747a8c",
+    "release_files_total": 103,
+    "batch_counts": [
+      95,
+      8
+    ],
+    "prior_27_books_repacked": 0,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 14,
+    "verse_coordinates": 197,
+    "author_chapters": 84,
+    "original_entries": 924,
+    "original_P_sections": 102,
+    "routed_P_sections": 103,
+    "inherited_source_links": 1,
+    "assertions_total": 11280,
+    "source_archive_count": 6,
+    "baseline_main_commit": "560bc8c1b2f693e119135363b5e8fb1810ddfd71"
+  },
+  "release_scope": {
+    "added_book": "HOS",
+    "previous_27_books_unchanged": true,
+    "new_paths": 102,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "source_original_P_sections": 102,
+    "inherited_P_sections": 1,
+    "total_routed_P_sections": 103,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Six SHA-locked original historical archives, five CrossWire SWORD modules using original KJV native binary verse/range indexes, HelloAO John Gill original anchors, plus one inherited, pinned JFB Genesis-hosted group introduction. Edition/source rights metadata retained in original chapter JSON. No Bible translation verse text, fabricated commentary, inferred KJV verse paths, source prose edits or geographical mappings.",
+  "source_scoped_exceptions": [
+    "Gill original Hosea 1-14 has exactly 197 explicit original verse anchors.",
+    "Calvin original native Hosea 12:5 has no separate indexed record; 12:4 and 12:6 remain independently indexed.",
+    "Matthew Henry, Clarke and JFB have original Hosea 1 book-level introductions delimited from original verse-one explanation by explicit source markers.",
+    "Keil & Delitzsch first Hosea native record has an original Twelve Minor Prophets group study and Hosea-specific book preface; the original explicit Hos 1:1 exposition is separated into verse mode without discarding the rest.",
+    "The accepted original JFB Prophetical Books group introduction from Genesis includes the latter prophets through Malachi and is inherited once with its original SHA and locator."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Verify current GitHub 27-book main SHA, predecessor navigation raw SHA-256 and Git blob before installation; reject stale overwrites.",
+    "Extract nested ZIPs before manual upload; upload all new 102 files before replacing the cumulative navigation manifest last.",
+    "Do not overwrite any accepted first 27 book snapshots, existing readers, schema, scripts or CGBC runtime.",
+    "Check 103 files by exact content hashes, final Pages build and deploy, and visually inspect reader after installation.",
+    "No automatic GitHub writes, player integration, workflow edits or deployment."
+  ]
+}
