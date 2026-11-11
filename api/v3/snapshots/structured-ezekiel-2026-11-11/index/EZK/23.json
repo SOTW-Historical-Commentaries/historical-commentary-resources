@@ -1,0 +1,907 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-ezekiel-2026-11-11",
+  "canonical_chapter": "EZK.23",
+  "verse_count": 49,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/23.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 4,
+      "reader_visible_entries": 4,
+      "navigation_section_count": 5,
+      "indexed_verse_count": 49
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/23.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/23.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 19,
+      "reader_visible_entries": 18,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 19
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/23.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 37,
+      "reader_visible_entries": 37,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 45
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/23.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 6,
+      "indexed_verse_count": 49
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/23.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 49,
+      "reader_visible_entries": 49,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 49
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        22
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        23
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        24
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        25
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        26
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        27
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        2
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        28
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        2
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        32
+      ]
+    },
+    "34": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        29
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        33
+      ]
+    },
+    "35": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        30
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        34
+      ]
+    },
+    "36": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        35
+      ]
+    },
+    "37": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        36
+      ]
+    },
+    "38": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        37
+      ]
+    },
+    "39": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        38
+      ]
+    },
+    "40": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        39
+      ]
+    },
+    "41": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        40
+      ]
+    },
+    "42": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        41
+      ]
+    },
+    "43": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        42
+      ]
+    },
+    "44": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        43
+      ]
+    },
+    "45": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        32
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        44
+      ]
+    },
+    "46": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        33
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        45
+      ]
+    },
+    "47": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        34
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        46
+      ]
+    },
+    "48": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        35
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        47
+      ]
+    },
+    "49": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        36
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        48
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:EZK.23:P:the-sins-of-samaria-and-jerusalem-b-c-591",
+        "navigation_id": "EZK.23:P:the-sins-of-samaria-and-jerusalem-b-c-591",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Sins of Samaria and Jerusalem. ( b. c. 591.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.23:P:the-sins-of-samaria-and-jerusalem-b-c-591-2",
+        "navigation_id": "EZK.23:P:the-sins-of-samaria-and-jerusalem-b-c-591-2",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Sins of Samaria and Jerusalem. ( b. c. 591.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.23:P:the-punishment-of-jerusalem-b-c-591",
+        "navigation_id": "EZK.23:P:the-punishment-of-jerusalem-b-c-591",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Punishment of Jerusalem. ( b. c. 591.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.23:P:israel-and-judah-accused-judgments-predicted-b-c-591",
+        "navigation_id": "EZK.23:P:israel-and-judah-accused-judgments-predicted-b-c-591",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Israel and Judah Accused; Judgments Predicted. ( b. c. 591.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.23:P:original-chapter-introduction",
+        "navigation_id": "EZK.23:P:original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Ezekiel 23 · Original chapter introduction"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:EZK.23:P:introduction",
+        "navigation_id": "EZK.23:P:introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK.23:P:chapter-23",
+        "navigation_id": "EZK.23:P:chapter-23",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 23"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK.23:P:eze-23-1-49-israel-s-and-judah-s-sin-and-punishment-are-parabolically-portraye",
+        "navigation_id": "EZK.23:P:eze-23-1-49-israel-s-and-judah-s-sin-and-punishment-are-parabolically-portraye",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Eze 23:1-49 . Israel's and Judah's Sin and Punishment Are Parabolically Portrayed under the Names Aholah and Aholibah."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:EZK.23:P:oholah-and-oholibah-the-harlots-samaria-and-jerusalem",
+        "navigation_id": "EZK.23:P:oholah-and-oholibah-the-harlots-samaria-and-jerusalem",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Oholah and Oholibah, the Harlots Samaria and Jerusalem"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.23:P:the-sisters-oholah-and-oholibah",
+        "navigation_id": "EZK.23:P:the-sisters-oholah-and-oholibah",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Sisters Oholah and Oholibah"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.23:P:samarias-whoredom-and-punishment",
+        "navigation_id": "EZK.23:P:samarias-whoredom-and-punishment",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Samaria’s Whoredom and Punishment"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.23:P:whoredom-of-judah",
+        "navigation_id": "EZK.23:P:whoredom-of-judah",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Whoredom of Judah"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.23:P:punishment-of-the-harlot-jerusalem",
+        "navigation_id": "EZK.23:P:punishment-of-the-harlot-jerusalem",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Punishment of the Harlot Jerusalem"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.23:P:another-summary-of-the-sins-and-punishment-of-the-two-women",
+        "navigation_id": "EZK.23:P:another-summary-of-the-sins-and-punishment-of-the-two-women",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Another Summary of the Sins and Punishment of the Two Women"
+      }
+    ],
+    "john-gill": []
+  },
+  "nav_policy": "P headings are source evidence; authoritative P applicability is api/v3/navigation-coverage/v1/books/EZK.json. Verse routes link only original source-indexed records."
+}

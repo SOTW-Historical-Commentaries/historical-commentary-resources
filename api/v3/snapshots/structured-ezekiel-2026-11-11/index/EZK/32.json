@@ -1,0 +1,643 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-ezekiel-2026-11-11",
+  "canonical_chapter": "EZK.32",
+  "verse_count": 32,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/32.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 32
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/32.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/32.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 22,
+      "reader_visible_entries": 22,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 22
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/32.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 28,
+      "reader_visible_entries": 28,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 28
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/32.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 11,
+      "reader_visible_entries": 11,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 32
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/32.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 32,
+      "reader_visible_entries": 32,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 32
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        0
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "keil-delitzsch": [
+        4
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "keil-delitzsch": [
+        5
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "keil-delitzsch": [
+        6
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "keil-delitzsch": [
+        7
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        22
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        23
+      ],
+      "keil-delitzsch": [
+        8
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        24
+      ],
+      "keil-delitzsch": [
+        9
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        25
+      ],
+      "keil-delitzsch": [
+        9
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        26
+      ],
+      "keil-delitzsch": [
+        10
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "jamieson-fausset-brown": [
+        27
+      ],
+      "keil-delitzsch": [
+        10
+      ],
+      "john-gill": [
+        31
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:EZK.32:P:the-fall-of-egypt-lamentation-for-pharaoh-b-c-587",
+        "navigation_id": "EZK.32:P:the-fall-of-egypt-lamentation-for-pharaoh-b-c-587",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Fall of Egypt; Lamentation for Pharaoh. ( b. c. 587.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.32:P:the-fall-of-egypt-egypt-s-destruction-completed-b-c-587",
+        "navigation_id": "EZK.32:P:the-fall-of-egypt-egypt-s-destruction-completed-b-c-587",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Fall of Egypt; Egypt's Destruction Completed. ( b. c. 587.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.32:P:original-chapter-introduction",
+        "navigation_id": "EZK.32:P:original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Ezekiel 32 · Original chapter introduction"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:EZK.32:P:introduction",
+        "navigation_id": "EZK.32:P:introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK.32:P:chapter-32",
+        "navigation_id": "EZK.32:P:chapter-32",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 32"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK.32:P:eze-32-1-32-two-elegies-over-pharaoh-one-delivered-on-the-first-day-eze-32-1-t",
+        "navigation_id": "EZK.32:P:eze-32-1-32-two-elegies-over-pharaoh-one-delivered-on-the-first-day-eze-32-1-t",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Eze 32:1-32 . Two Elegies over Pharaoh, One Delivered on the First Day ( Eze 32:1 ), THE Other on the Fifteenth Day of the Same Month, the Twelfth of the Twelfth Year."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:EZK.32:P:lamentations-over-the-ruin-of-pharaoh-and-his-people",
+        "navigation_id": "EZK.32:P:lamentations-over-the-ruin-of-pharaoh-and-his-people",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Lamentations over the Ruin of Pharaoh and His People"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.32:P:lamentation-over-the-king-of-egypt",
+        "navigation_id": "EZK.32:P:lamentation-over-the-king-of-egypt",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Lamentation over the King of Egypt"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.32:P:funeral-dirge-for-the-destruction-of-the-might-of-egypt",
+        "navigation_id": "EZK.32:P:funeral-dirge-for-the-destruction-of-the-might-of-egypt",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Funeral-Dirge for the Destruction of the Might of Egypt"
+      }
+    ],
+    "john-gill": []
+  },
+  "nav_policy": "P headings are source evidence; authoritative P applicability is api/v3/navigation-coverage/v1/books/EZK.json. Verse routes link only original source-indexed records."
+}

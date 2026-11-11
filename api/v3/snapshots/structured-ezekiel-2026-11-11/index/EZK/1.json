@@ -1,0 +1,703 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-ezekiel-2026-11-11",
+  "canonical_chapter": "EZK.1",
+  "verse_count": 28,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/matthew-henry/EZK/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 4,
+      "reader_visible_entries": 4,
+      "navigation_section_count": 5,
+      "indexed_verse_count": 28
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-calvin/EZK/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 26,
+      "reader_visible_entries": 26,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 26
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/adam-clarke/EZK/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 23,
+      "reader_visible_entries": 23,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 23
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/jamieson-fausset-brown/EZK/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 27,
+      "reader_visible_entries": 27,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 27
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/keil-delitzsch/EZK/1.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 4,
+      "reader_visible_entries": 4,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 27
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-ezekiel-2026-11-11/authors/john-gill/EZK/1.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 28,
+      "reader_visible_entries": 28,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 28
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "keil-delitzsch": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        7
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        10
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        11
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "keil-delitzsch": [
+        1
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        13
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        16
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        17
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        18
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "keil-delitzsch": [
+        2
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        20
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        21
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        22
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        22
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        23
+      ],
+      "jamieson-fausset-brown": [
+        23
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        24
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        24
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "jamieson-fausset-brown": [
+        25
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        25
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "jamieson-fausset-brown": [
+        26
+      ],
+      "keil-delitzsch": [
+        3
+      ],
+      "john-gill": [
+        27
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:EZK:P:ezekiel",
+        "navigation_id": "EZK:P:ezekiel",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Ezekiel"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.1:P:ezekiel-s-first-vision-by-the-river-chebar-b-c-595",
+        "navigation_id": "EZK.1:P:ezekiel-s-first-vision-by-the-river-chebar-b-c-595",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Ezekiel's First Vision by the River Chebar. ( b. c. 595.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.1:P:vision-of-the-four-living-creatures-b-c-595",
+        "navigation_id": "EZK.1:P:vision-of-the-four-living-creatures-b-c-595",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Vision of the Four Living Creatures. ( b. c. 595.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.1:P:the-vision-of-the-wheels-b-c-595",
+        "navigation_id": "EZK.1:P:the-vision-of-the-wheels-b-c-595",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Vision of the Wheels. ( b. c. 595.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:EZK.1:P:the-vision-of-the-divine-throne-b-c-595",
+        "navigation_id": "EZK.1:P:the-vision-of-the-divine-throne-b-c-595",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Vision of the Divine Throne. ( b. c. 595.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:EZK:P:introduction-to-the-book-of-the-prophet-ezekiel",
+        "navigation_id": "EZK:P:introduction-to-the-book-of-the-prophet-ezekiel",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction to the Book of the Prophet Ezekiel"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK:P:introduction",
+        "navigation_id": "EZK:P:introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "INTRODUCTION"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK.1:P:chapter-1",
+        "navigation_id": "EZK.1:P:chapter-1",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 1"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:EZK.1:P:eze-1-1-28-ezekiel-s-vision-by-the-chebar-four-cherubim-and-wheels",
+        "navigation_id": "EZK.1:P:eze-1-1-28-ezekiel-s-vision-by-the-chebar-four-cherubim-and-wheels",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Eze 1:1-28 . Ezekiel's Vision by the Chebar. Four Cherubim and Wheels."
+      }
+    ],
+    "keil-delitzsch": [
+      {
+        "section_id": "nav:keil-delitzsch:EZK:P:the-prophecies-of-ezekiel-original-book-introduction",
+        "navigation_id": "EZK:P:the-prophecies-of-ezekiel-original-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "The Prophecies of Ezekiel · Original Book Introduction"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.1:P:first-half-the-prophecies-of-judgment-ezekiel-1-32",
+        "navigation_id": "EZK.1:P:first-half-the-prophecies-of-judgment-ezekiel-1-32",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "First Half - The Prophecies of Judgment - Ezekiel 1-32"
+      },
+      {
+        "section_id": "nav:keil-delitzsch:EZK.1:P:the-consecration-and-calling-of-ezekiel-to-the-office-of-prophet-ezekiel-1-3-2",
+        "navigation_id": "EZK.1:P:the-consecration-and-calling-of-ezekiel-to-the-office-of-prophet-ezekiel-1-3-2",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "The Consecration and Calling of Ezekiel to the Office of Prophet - Ezekiel 1-3:21"
+      }
+    ],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:EZK:P:john-gill-book-introduction",
+        "navigation_id": "EZK:P:john-gill-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Introduction · Ezekiel"
+      }
+    ]
+  },
+  "nav_policy": "P headings are source evidence; authoritative P applicability is api/v3/navigation-coverage/v1/books/EZK.json. Verse routes link only original source-indexed records."
+}
