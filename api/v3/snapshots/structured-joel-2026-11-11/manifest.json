@@ -1,0 +1,45 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-joel-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "JOL"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 18,
+    "original_entries": 310,
+    "navigation_sections": 29,
+    "reader_visible_entries": 309,
+    "verse_author_routes": 426,
+    "sword_chapters": 15,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 3,
+    "chapters": 3
+  },
+  "chapter_verse_count": {
+    "1": 20,
+    "2": 32,
+    "3": 21
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Six original SHA-locked historical sources: five CrossWire SWORD editions with native OT binary verse/range indexes; HelloAO Gill and entire-missing-SWORD-chapter fallback only.",
+  "reader_policy": "Verse by default, original-source scoped P. Joel original preface and chapter outlines remain separate P sources; original Joel 1:1-4 exposition stays in verse mode.",
+  "provenance_policy": "Original source records, exact index triplets, OSIS/HelloAO text, source hash and rights metadata preserved.",
+  "notes": [
+    "Joel is canonical book 29 after Hosea; 28 preceding books remain immutable.",
+    "All 73 Gill original verse anchors are preserved.",
+    "Original JFB Prophetical Books preface is inherited through its existing Genesis source pointer with byte-verified fragment.",
+    "No Bible translation verse text, fabricated commentary, changed historical prose or GitHub deployment."
+  ]
+}

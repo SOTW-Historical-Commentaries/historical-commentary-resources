@@ -1,0 +1,206 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-joel-2026-11-11",
+  "book": "JOL",
+  "book_name": "Joel",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-joel-2026-11-11",
+  "baseline_main_commit": "ccb4e6e2e25074ef135b94abf97d576883ca4fa7",
+  "baseline_navigation_manifest_git_blob": "9d1c849bed16bd644511fb9b67a1fbf1bf50c580",
+  "baseline_navigation_sha256": "430a6bdc5f25fa7344d91c714c9fa84b90b3f74cf6422f19f1300c9e1918c6f1",
+  "prerequisites": [
+    "HOS"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 25,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/JOL.json",
+      "bytes": 43435,
+      "sha256": "d59c35164a87dde0679a1df73e9cc448caf036615bc2f70d81bd1f9681de6af4"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 15144,
+      "sha256": "092dceac7fbb4a85dc0feb273ca8da39a1bde342ccf3a4f16054f927936a34ea"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/adam-clarke/JOL/1.json",
+      "bytes": 61303,
+      "sha256": "8587bfd5f55de45401fddcf5a7fd9491315559c3c1295bf0d35324e7791b6271"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/adam-clarke/JOL/2.json",
+      "bytes": 96884,
+      "sha256": "c0dec8afee062b38ff81749db939665789996732209f9d6cb53c74dcc1baf136"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/adam-clarke/JOL/3.json",
+      "bytes": 57709,
+      "sha256": "dbbe04293eb6e0a74195d4e45e1e819784bad8752bc177fe442fe08d99d4a1cb"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/jamieson-fausset-brown/JOL/1.json",
+      "bytes": 77133,
+      "sha256": "95aa25da4f01bdf17c83bea8b0a4f33a36bb88aca6d1a67970a6b3f5b22f9452"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/jamieson-fausset-brown/JOL/2.json",
+      "bytes": 87067,
+      "sha256": "5cd5675cc65081f29b8854b98b9e4d06a06d41ae3a4ed6812decdabf937e478b"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/jamieson-fausset-brown/JOL/3.json",
+      "bytes": 67784,
+      "sha256": "105cc6fd1f93e0fb1d8333f6586f814e973fc29ca0f03b63b980edddf682e7d8"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/john-calvin/JOL/1.json",
+      "bytes": 223673,
+      "sha256": "fbaabfe692b94c2886e62c06b3131293d299faba6b97f4fd986b382e21857647"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/john-calvin/JOL/2.json",
+      "bytes": 528965,
+      "sha256": "42bfe15d0c8e9aa6fe4cdb6263db863f796593beae26488b3f88a0ecdf29a0b3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/john-calvin/JOL/3.json",
+      "bytes": 253610,
+      "sha256": "3cd0871a75aae640a09254fa63da7c133f86c800ebfdffc573fa31c1d68b6008"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/john-gill/JOL/1.json",
+      "bytes": 130972,
+      "sha256": "22a3764f2bff73c4a7556aacc646c18919873e54276d710f865c4fb43fc882db"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/john-gill/JOL/2.json",
+      "bytes": 266526,
+      "sha256": "9209f86d92f6a28668d72e6002eb2d2158825e59cbd8d22c617bf038f52aad77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/john-gill/JOL/3.json",
+      "bytes": 191573,
+      "sha256": "f7871ba70b379b5f220fc5617274e7416a96c989703fd458bad619cc8af853b7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/keil-delitzsch/JOL/1.json",
+      "bytes": 206451,
+      "sha256": "c5b507c29896980086e4b34c040fe282e4dc7e57b8ba9ca72240e135086a0c0a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/keil-delitzsch/JOL/2.json",
+      "bytes": 252061,
+      "sha256": "0f22ac412efd6c36a0d2a9a53b23d97cd62ad8d6851c5c674d403271c91a707f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/keil-delitzsch/JOL/3.json",
+      "bytes": 107630,
+      "sha256": "3f7b542d606d4c9665e823cf59bca3efc8e91d8334424a2c93913fa54517fbfc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/matthew-henry/JOL/1.json",
+      "bytes": 123176,
+      "sha256": "787c6634698028096dd130c90a81e658c7d0da60dce974d72ee7acff13e1e099"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/matthew-henry/JOL/2.json",
+      "bytes": 190157,
+      "sha256": "06dbb27bad512addbace8e9af862888fe3312e51c70756de8227569ae7d7d7a6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/authors/matthew-henry/JOL/3.json",
+      "bytes": 126253,
+      "sha256": "978da1e24696cbd31df6a51017204e2b2bcb2ca04269faeaa2b2e20fc47746dc"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/index/JOL/1.json",
+      "bytes": 12026,
+      "sha256": "deb59eb0c5942abda68e1d09ad2d13cd247cd6f477e0e88353e39da4cd347ec2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/index/JOL/2.json",
+      "bytes": 14225,
+      "sha256": "58c706dd21868e444bf4df604bde67ff1015ca3368a193597d6ba4e4f2950cc0"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/index/JOL/3.json",
+      "bytes": 11024,
+      "sha256": "955ee8a3ee1c8a17c96921ce6cc02e0fd118a7bfe249e8bec6ff76e7d6bc4ac9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-joel-2026-11-11/manifest.json",
+      "bytes": 1791,
+      "sha256": "dac19c2ac0d66b9798bfa2cf5a2ffe4ede4ddec8645216a558e37b0200f2489e"
+    },
+    {
+      "path": "review-joel-v3.html",
+      "bytes": 14354,
+      "sha256": "3955b5ad64e360c104a6f34bd44ad83ee3dc28a2075433f75875d537162442bd"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": 3922,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 1438,
+    "predecessor_navigation_sha256": "430a6bdc5f25fa7344d91c714c9fa84b90b3f74cf6422f19f1300c9e1918c6f1",
+    "release_files_total": 26,
+    "batch_counts": [
+      26
+    ],
+    "prior_28_books_repacked": 0,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "installation_status": "READY_FOR_OWNER_MANUAL_UPLOAD"
+  },
+  "counts": {
+    "chapters": 3,
+    "verse_coordinates": 73,
+    "author_chapters": 18,
+    "original_entries": 310,
+    "original_P_sections": 29,
+    "routed_P_sections": 30,
+    "inherited_source_links": 1,
+    "assertions_total": 3922,
+    "source_archive_count": 6,
+    "baseline_main_commit": "ccb4e6e2e25074ef135b94abf97d576883ca4fa7"
+  },
+  "release_scope": {
+    "added_book": "JOL",
+    "previous_28_books_unchanged": true,
+    "new_paths": 25,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "source_original_P_sections": 29,
+    "inherited_P_sections": 1,
+    "total_routed_P_sections": 30,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Six SHA-locked original historical source archives; five CrossWire/SWORD Public Domain modules decoded with native KJV OT binary indexes, HelloAO John Gill original anchored verse items and separately pinned immutable JFB canonical group introduction. No independent Bible translation text, fabricated commentary, inferred source ranges or altered source prose. Original license/source metadata is retained in author-chapter JSON.",
+  "source_scoped_exceptions": [
+    "John Gill original HelloAO has 73 explicit canonical Joel verse anchors.",
+    "Calvin original SWORD Joel 2:7 has no native entry and is left unindexed.",
+    "Clarke Joel 3:1 source is introduction-only and suppressed in verse mode while preserved in P.",
+    "Henry, Clarke and JFB original Joel chapter one introductions end at original explicit verse-one labels.",
+    "Keil & Delitzsch original Joel study and original cross-chapter Joel 1:2-2:17 overview are accessible in P; actual source-linked Joel 1:1-4 exposition starts the verse display.",
+    "The accepted JFB Prophetical Books source remains at its original Genesis locator and SHA and is referenced once for Joel."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Verify current GitHub 28-book main SHA, predecessor navigation raw SHA-256 and Git blob before installation; reject stale overwrites.",
+    "Extract nested ZIPs before manual upload; upload all new 25 files before replacing the cumulative navigation manifest last.",
+    "Do not overwrite any accepted first 28 book snapshots, existing readers, schema, scripts or CGBC runtime.",
+    "Check 26 files by exact content hashes, final Pages build and deploy, and visually inspect reader after installation.",
+    "No automatic GitHub writes, player integration, workflow edits or deployment."
+  ]
+}
