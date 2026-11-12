@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.27-additive-nahum",
+  "version": "navigation-coverage-v1.28-additive-habakkuk",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -38,7 +38,8 @@
     "OBA",
     "JON",
     "MIC",
-    "NAM"
+    "NAM",
+    "HAB"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -74,7 +75,8 @@
     "OBA": "structured-obadiah-2026-11-11",
     "JON": "structured-jonah-2026-11-11",
     "MIC": "structured-micah-2026-11-11",
-    "NAM": "structured-nahum-2026-11-11"
+    "NAM": "structured-nahum-2026-11-11",
+    "HAB": "structured-habakkuk-2026-11-11"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -88,7 +90,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 5642,
+    "original_P_sections": 5668,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -124,7 +126,8 @@
       "OBA": 9,
       "JON": 29,
       "MIC": 55,
-      "NAM": 23
+      "NAM": 23,
+      "HAB": 26
     },
     "routed_by_book": {
       "GEN": 64,
@@ -160,10 +163,11 @@
       "OBA": 10,
       "JON": 30,
       "MIC": 56,
-      "NAM": 24
+      "NAM": 24,
+      "HAB": 27
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.26-additive-micah",
+  "previous_manifest_version": "navigation-coverage-v1.27-additive-nahum",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -277,6 +281,10 @@
     "Nahum (3 chapters, 47 KJV verse coordinates), six original historical authors, source-linked SWORD/HelloAO.",
     "Nahum source-defined book/chapter introductions and correctly bounded P headings are separate from original indexed verse commentary.",
     "Previously accepted immutable JFB Prophetical Books introduction linked without source-text duplication.",
-    "All 33 earlier original book snapshots and reader files remain unchanged."
+    "All 33 earlier original book snapshots and reader files remain unchanged.",
+    "Habakkuk (3 chapters, 56 KJV verse coordinates), six original historical authors, source-linked SWORD/HelloAO.",
+    "Habakkuk source-defined book/chapter introductions and correctly bounded P headings are separate from original indexed verse commentary.",
+    "Previously accepted immutable JFB Prophetical Books introduction linked without source-text duplication.",
+    "All 34 earlier original book snapshots and reader files remain unchanged."
   ]
 }
