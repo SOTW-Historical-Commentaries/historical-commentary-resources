@@ -1,0 +1,523 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-luke-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "LUK",
+  "chapter": 17,
+  "canonical_chapter": "LUK.17",
+  "versification": "KJV",
+  "verse_count": 37,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Luke\" sID=\"gen27523\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO LUKE\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO LUKE</title> <div sID=\"gen27524\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen27524\" type=\"x-p\"/> ",
+      "source_record_sha256": "f4b27689315037f9a1d39b694a8dee76889b9d3497f4da414726baaf3a011c7c",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 0,
+        "length": 351
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"17\" osisID=\"Luke.17\" sID=\"Luke.17\"/><div eID=\"gen28272\" type=\"x-p\"/> ",
+      "source_record_sha256": "f544ab195f7cbab9a38e224a3b19f6ed69256cfd1d8644b80a9be413de67888b",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 337231,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:LUK.17.1-2:3:337312:451",
+      "passage_start": "LUK.17.1",
+      "passage_end": "LUK.17.2",
+      "start_verse": 1,
+      "end_verse": 2,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14623\"/><title type=\"x-s2\">CHAPTER 17</title> <title type=\"x-s3\"><reference osisRef=\"Luke.17.1-Luke.17.10\">Lu 17:1-10</reference>. Offenses--Faith--Humility.</title> <div sID=\"gen28273\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14623\"/>1-2. (See <reference osisRef=\"Matt.18.6\">Mt 18:6</reference>, <reference osisRef=\"Matt.18.7\">7</reference>). <div eID=\"gen28273\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 17 Lu 17:1-10 . Offenses--Faith--Humility. 1-2. (See Mt 18:6 , 7 ).",
+      "source_record_sha256": "7e32466cdcdadfe1eaff49846cf2c1266f87c4bdc38864ee0ee42d20da9dd632",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 337312,
+        "length": 451
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.1-2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-2. (See Mt 18:6 , 7 ).",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        310,
+        451
+      ],
+      "reader_content_osis": "1-2. (See <reference osisRef=\"Matt.18.6\">Mt 18:6</reference>, <reference osisRef=\"Matt.18.7\">7</reference>). <div eID=\"gen28273\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.3-4:3:337763:368",
+      "passage_start": "LUK.17.3",
+      "passage_end": "LUK.17.4",
+      "start_verse": 3,
+      "end_verse": 4,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14624\"/><div sID=\"gen28274\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14624\"/>3-4. (See on <reference osisRef=\"Matt.18.15-Matt.18.17\">Mt 18:15-17</reference>; <reference osisRef=\"Matt.18.21\">Mt 18:21</reference>, <reference osisRef=\"Matt.18.22\">22</reference>). <div eID=\"gen28274\" type=\"x-p\"/>",
+      "content_plain": "3-4. (See on Mt 18:15-17 ; Mt 18:21 , 22 ).",
+      "source_record_sha256": "539b592f36e5104808c6df7902a48911ef5ababca2760dcd91a5d9031e20c62c",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 337763,
+        "length": 368
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.3-4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3-4. (See on Mt 18:15-17 ; Mt 18:21 , 22 )."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.5-5:3:338632:710",
+      "passage_start": "LUK.17.5",
+      "passage_end": "LUK.17.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14626\"/><div sID=\"gen28276\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14626\"/><hi type=\"bold\">5. Lord--</hi>(See on <reference osisRef=\"Luke.10.1\">Lu 10:1</reference>).<div eID=\"gen28276\" type=\"x-p\"/> <div sID=\"gen28277\" type=\"x-p\"/><hi type=\"bold\">increase our faith--</hi>moved by the difficulty of avoiding and forgiving \"offenses.\" This is the only instance in which a spiritual operation upon their souls was solicited of Christ by the Twelve; but a kindred and higher prayer had been offered before, by one with far fewer opportunities. (See on <reference osisRef=\"Mark.9.24\">Mr 9:24</reference>.) <div eID=\"gen28277\" type=\"x-p\"/>",
+      "content_plain": "5. Lord-- (See on Lu 10:1 ). increase our faith-- moved by the difficulty of avoiding and forgiving \"offenses.\" This is the only instance in which a spiritual operation upon their souls was solicited of Christ by the Twelve; but a kindred and higher prayer had been offered before, by one with far fewer opportunities. (See on Mr 9:24 .)",
+      "source_record_sha256": "05f292397e24849bdc03483b77e73916d9b151155a8fbc26bdd6205681250e07",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 338632,
+        "length": 710
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.17.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. Lord-- (See on Lu 10:1 ). increase our faith-- moved by the difficulty of avoiding and forgiving \"offenses.\" This is the only instance in which a spiritual operation upon their souls was solicited of Christ by the Twelve; but a kindred and higher prayer had been offered before, by one with far fewer opportunities. (See on Mr 9:24 .)"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.6-6:3:339342:305",
+      "passage_start": "LUK.17.6",
+      "passage_end": "LUK.17.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14627\"/><div sID=\"gen28278\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14627\"/><hi type=\"bold\">6. sycamine--</hi>mulberry. (See on <reference osisRef=\"Mark.11.22-Mark.11.24\">Mr 11:22-24</reference>.) <div eID=\"gen28278\" type=\"x-p\"/>",
+      "content_plain": "6. sycamine-- mulberry. (See on Mr 11:22-24 .)",
+      "source_record_sha256": "f1596a6921a25013c2a4a3965bfc524917cce903b6b3fa9fd16f1b5486cf94bf",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 339342,
+        "length": 305
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.17.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. sycamine-- mulberry. (See on Mr 11:22-24 .)"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.7-10:3:339647:568",
+      "passage_start": "LUK.17.7",
+      "passage_end": "LUK.17.10",
+      "start_verse": 7,
+      "end_verse": 10,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14628\"/><div sID=\"gen28279\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14628\"/><hi type=\"bold\">7-10. say unto him by and by--</hi>The \"by and by\" (or rather \"directly\") should be joined not to the saying but the going: \"Go directly.\" The connection here is: \"But when your faith has been so increased as both to avoid and forgive offenses, and do things impossible to all but faith, be not puffed up as though you had laid the Lord under any obligations to you.\" <div eID=\"gen28279\" type=\"x-p\"/>",
+      "content_plain": "7-10. say unto him by and by-- The \"by and by\" (or rather \"directly\") should be joined not to the saying but the going: \"Go directly.\" The connection here is: \"But when your faith has been so increased as both to avoid and forgive offenses, and do things impossible to all but faith, be not puffed up as though you had laid the Lord under any obligations to you.\"",
+      "source_record_sha256": "f4cf875ab336699ad76420a654e17ec9b42d8a2d801c3da9375b91677f7749b4",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 339647,
+        "length": 568
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.7-10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7-10. say unto him by and by-- The \"by and by\" (or rather \"directly\") should be joined not to the saying but the going: \"Go directly.\" The connection here is: \"But when your faith has been so increased as both to avoid and forgive offenses, and do things impossible to all but faith, be not puffed up as though you had laid the Lord under any obligations to you.\""
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.11-13:3:341051:404",
+      "passage_start": "LUK.17.11",
+      "passage_end": "LUK.17.13",
+      "start_verse": 11,
+      "end_verse": 13,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14631\"/><title type=\"x-s3\"><reference osisRef=\"Luke.17.11-Luke.17.19\">Lu 17:11-19</reference>. Ten Lepers Cleansed.</title> <div sID=\"gen28282\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14631\"/><hi type=\"bold\">11-13. through the midst of Samaria and Galilee--</hi>probably on the confines of both. <div eID=\"gen28282\" type=\"x-p\"/>",
+      "content_plain": "Lu 17:11-19 . Ten Lepers Cleansed. 11-13. through the midst of Samaria and Galilee-- probably on the confines of both.",
+      "source_record_sha256": "9f20f5af7588bb6877bfa80fbe667be3a7ebfd1712e154de8a6bf7592f087456",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 341051,
+        "length": 404
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.11-13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Lu 17:11-19 . Ten Lepers Cleansed. 11-13. through the midst of Samaria and Galilee-- probably on the confines of both."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.14-14:3:342481:642",
+      "passage_start": "LUK.17.14",
+      "passage_end": "LUK.17.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14634\"/><div sID=\"gen28286\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14634\"/><hi type=\"bold\">14. show yourselves--</hi>as cleansed persons. (See on <reference osisRef=\"Matt.8.4\">Mt 8:4</reference>.) Thus too would the Samaritan be taught that \"salvation is of the Jews\" (<reference osisRef=\"John.4.22\">Joh 4:22</reference>).<div eID=\"gen28286\" type=\"x-p\"/> <div sID=\"gen28287\" type=\"x-p\"/><hi type=\"bold\">as they went, were cleansed--</hi>In how many different ways were our Lord's cures wrought, and this different from all the rest. <div eID=\"gen28287\" type=\"x-p\"/>",
+      "content_plain": "14. show yourselves-- as cleansed persons. (See on Mt 8:4 .) Thus too would the Samaritan be taught that \"salvation is of the Jews\" ( Joh 4:22 ). as they went, were cleansed-- In how many different ways were our Lord's cures wrought, and this different from all the rest.",
+      "source_record_sha256": "a2b74e089cce5e628ebf7a75ae96f235f2554a635a63dd68e5c3fed24135e05e",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 342481,
+        "length": 642
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.17.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14. show yourselves-- as cleansed persons. (See on Mt 8:4 .) Thus too would the Samaritan be taught that \"salvation is of the Jews\" ( Joh 4:22 ). as they went, were cleansed-- In how many different ways were our Lord's cures wrought, and this different from all the rest."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.17-18:3:343123:383",
+      "passage_start": "LUK.17.17",
+      "passage_end": "LUK.17.18",
+      "start_verse": 17,
+      "end_verse": 18,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14635\"/><div sID=\"gen28288\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14635\"/><hi type=\"bold\">17-18. Were there not ten cleansed--</hi>rather, were not the ten cleansed? <hi type=\"bold\">that is, the whole of them--</hi>an example (by the way) of Christ's omniscience [Bengel]. <div eID=\"gen28288\" type=\"x-p\"/>",
+      "content_plain": "17-18. Were there not ten cleansed-- rather, were not the ten cleansed? that is, the whole of them-- an example (by the way) of Christ's omniscience [Bengel].",
+      "source_record_sha256": "b49d46ad8bf53b498d42a3151e3d64fc305a22654395d6dc5d1001479ad12500",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 343123,
+        "length": 383
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.17-18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "17-18. Were there not ten cleansed-- rather, were not the ten cleansed? that is, the whole of them-- an example (by the way) of Christ's omniscience [Bengel]."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.19-19:3:343936:581",
+      "passage_start": "LUK.17.19",
+      "passage_end": "LUK.17.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14637\"/><div sID=\"gen28290\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14637\"/><hi type=\"bold\">19. Arise--</hi>for he had \"fallen down on his face at His feet\" (<reference osisRef=\"Luke.17.16\">Lu 17:16</reference>) and there lain prostrate.<div eID=\"gen28290\" type=\"x-p\"/> <div sID=\"gen28291\" type=\"x-p\"/><hi type=\"bold\">faith made thee whole--</hi>not as the others, merely in body, but in that higher spiritual sense with which His constant language has so familiarized us. <div eID=\"gen28291\" type=\"x-p\"/>",
+      "content_plain": "19. Arise-- for he had \"fallen down on his face at His feet\" ( Lu 17:16 ) and there lain prostrate. faith made thee whole-- not as the others, merely in body, but in that higher spiritual sense with which His constant language has so familiarized us.",
+      "source_record_sha256": "d65f8a06bb28d35256dd0e8100b8d61bedc3c63c464b78e5153998fc2c60aa2b",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 343936,
+        "length": 581
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.17.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19. Arise-- for he had \"fallen down on his face at His feet\" ( Lu 17:16 ) and there lain prostrate. faith made thee whole-- not as the others, merely in body, but in that higher spiritual sense with which His constant language has so familiarized us."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.20-25:3:344517:764",
+      "passage_start": "LUK.17.20",
+      "passage_end": "LUK.17.25",
+      "start_verse": 20,
+      "end_verse": 25,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14638\"/><title type=\"x-s3\"><reference osisRef=\"Luke.17.20-Luke.17.37\">Lu 17:20-37</reference>. Coming of the Kingdom of God and of the Son of Man.</title> <div sID=\"gen28292\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14638\"/><hi type=\"bold\">20-25. when, &amp;c.--</hi>To meet the erroneous views not only of the Pharisees, but of the disciples themselves, our Lord addresses both, announcing the coming of the kingdom under different aspects.<div eID=\"gen28292\" type=\"x-p\"/> <div sID=\"gen28293\" type=\"x-p\"/><hi type=\"bold\">It cometh not with observation--</hi>with watching or lying in wait, as for something outwardly imposing and at once revealing itself. <div eID=\"gen28293\" type=\"x-p\"/>",
+      "content_plain": "Lu 17:20-37 . Coming of the Kingdom of God and of the Son of Man. 20-25. when, &c.-- To meet the erroneous views not only of the Pharisees, but of the disciples themselves, our Lord addresses both, announcing the coming of the kingdom under different aspects. It cometh not with observation-- with watching or lying in wait, as for something outwardly imposing and at once revealing itself.",
+      "source_record_sha256": "086a00dc360713ca1cb6d95150b9d89f84a9fd66778e4e268b05999b02194e38",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 344517,
+        "length": 764
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.20-25",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Lu 17:20-37 . Coming of the Kingdom of God and of the Son of Man. 20-25. when, &c.-- To meet the erroneous views not only of the Pharisees, but of the disciples themselves, our Lord addresses both, announcing the coming of the kingdom under different aspects. It cometh not with observation-- with watching or lying in wait, as for something outwardly imposing and at once revealing itself."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.26-30:3:348718:662",
+      "passage_start": "LUK.17.26",
+      "passage_end": "LUK.17.30",
+      "start_verse": 26,
+      "end_verse": 30,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14644\"/><div sID=\"gen28302\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14644\"/><hi type=\"bold\">26-30. eat ... married ... planted--</hi>all the ordinary occupations and enjoyments of life. Though the antediluvian world and the cities of the plain were awfully wicked, it is not their wickedness, but their worldliness, their unbelief and indifference to the future, their unpreparedness, that is here held up as a warning. Note.--These recorded events of Old Testament history--denied or explained away nowadays by not a few--are referred to here as facts. <div eID=\"gen28302\" type=\"x-p\"/>",
+      "content_plain": "26-30. eat ... married ... planted-- all the ordinary occupations and enjoyments of life. Though the antediluvian world and the cities of the plain were awfully wicked, it is not their wickedness, but their worldliness, their unbelief and indifference to the future, their unpreparedness, that is here held up as a warning. Note.--These recorded events of Old Testament history--denied or explained away nowadays by not a few--are referred to here as facts.",
+      "source_record_sha256": "0c2055a4b558d647a87e99496b98607f44b11cad6ac0799489c824984baaa047",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 348718,
+        "length": 662
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.26-30",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "26-30. eat ... married ... planted-- all the ordinary occupations and enjoyments of life. Though the antediluvian world and the cities of the plain were awfully wicked, it is not their wickedness, but their worldliness, their unbelief and indifference to the future, their unpreparedness, that is here held up as a warning. Note.--These recorded events of Old Testament history--denied or explained away nowadays by not a few--are referred to here as facts."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.31-33:3:349380:520",
+      "passage_start": "LUK.17.31",
+      "passage_end": "LUK.17.33",
+      "start_verse": 31,
+      "end_verse": 33,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14645\"/><div sID=\"gen28303\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14645\"/><hi type=\"bold\">31-33. to take it away ... Remember, &amp;c.--</hi>a warning against that lingering reluctance to part with present treasures which induces some to remain in a burning house, in hopes of saving this and that precious article till consumed and buried in its ruins. The cases here supposed, though different, are similar. <div eID=\"gen28303\" type=\"x-p\"/>",
+      "content_plain": "31-33. to take it away ... Remember, &c.-- a warning against that lingering reluctance to part with present treasures which induces some to remain in a burning house, in hopes of saving this and that precious article till consumed and buried in its ruins. The cases here supposed, though different, are similar.",
+      "source_record_sha256": "182d3c74ca07b72a04c32ca052a7af67fbc7e06bf7cfae48d793f1b97b46d6cf",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 349380,
+        "length": 520
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.17.31-33",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "31-33. to take it away ... Remember, &c.-- a warning against that lingering reluctance to part with present treasures which induces some to remain in a burning house, in hopes of saving this and that precious article till consumed and buried in its ruins. The cases here supposed, though different, are similar."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.34-34:3:350584:700",
+      "passage_start": "LUK.17.34",
+      "passage_end": "LUK.17.34",
+      "start_verse": 34,
+      "end_verse": 34,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14648\"/><div sID=\"gen28306\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14648\"/><hi type=\"bold\">34. two in one bed--</hi>the prepared and unprepared mingled in closest intercourse together in the ordinary walks and fellowships of life, when the moment of severance arrives. Awful truth! realized before the destruction of Jerusalem, when the Christians found themselves forced by their Lord's directions (<reference osisRef=\"Luke.21.21\">Lu 21:21</reference>) at once and for ever away from their old associates; but most of all when the second coming of Christ shall burst upon a heedless world. <div eID=\"gen28306\" type=\"x-p\"/>",
+      "content_plain": "34. two in one bed-- the prepared and unprepared mingled in closest intercourse together in the ordinary walks and fellowships of life, when the moment of severance arrives. Awful truth! realized before the destruction of Jerusalem, when the Christians found themselves forced by their Lord's directions ( Lu 21:21 ) at once and for ever away from their old associates; but most of all when the second coming of Christ shall burst upon a heedless world.",
+      "source_record_sha256": "d0842624a69987fef55f4c17e21c83c0e659b9a27c6581eeca4549076f346b26",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 350584,
+        "length": 700
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.17.34",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "34. two in one bed-- the prepared and unprepared mingled in closest intercourse together in the ordinary walks and fellowships of life, when the moment of severance arrives. Awful truth! realized before the destruction of Jerusalem, when the Christians found themselves forced by their Lord's directions ( Lu 21:21 ) at once and for ever away from their old associates; but most of all when the second coming of Christ shall burst upon a heedless world."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.17.37-37:3:351284:682",
+      "passage_start": "LUK.17.37",
+      "passage_end": "LUK.17.37",
+      "start_verse": 37,
+      "end_verse": 37,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14649\"/><div sID=\"gen28307\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14649\"/><hi type=\"bold\">37. Where--</hi>shall this occur?<div eID=\"gen28307\" type=\"x-p\"/> <div sID=\"gen28308\" type=\"x-p\"/><hi type=\"bold\">Wheresoever, &amp;c.--</hi>\"As birds of prey scent out the carrion, so wherever is found a mass of incurable moral and spiritual corruption, there will be seen alighting the ministers of divine judgment,\" a proverbial saying terrifically verified at the destruction of Jerusalem, and many times since, though its most tremendous illustration will be at the world's final day. <chapter eID=\"Luke.17\"/>",
+      "content_plain": "37. Where-- shall this occur? Wheresoever, &c.-- \"As birds of prey scent out the carrion, so wherever is found a mass of incurable moral and spiritual corruption, there will be seen alighting the ministers of divine judgment,\" a proverbial saying terrifically verified at the destruction of Jerusalem, and many times since, though its most tremendous illustration will be at the world's final day.",
+      "source_record_sha256": "e1f9290bc065e81b369fb22dcf0830d132ee7f2867cc0764c73b4907a52b5fe9",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 351284,
+        "length": 682
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.17.37",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "37. Where-- shall this occur? Wheresoever, &c.-- \"As birds of prey scent out the carrion, so wherever is found a mass of incurable moral and spiritual corruption, there will be seen alighting the ministers of divine judgment,\" a proverbial saying terrifically verified at the destruction of Jerusalem, and many times since, though its most tremendous illustration will be at the world's final day."
+    }
+  ],
+  "indexed_verse_count": 33,
+  "unindexed_verse_count": 4,
+  "upstream_snapshot_id": "SOTW_LUK_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 14
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.17:P:chapter-17",
+      "navigation_id": "LUK.17:P:chapter-17",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 17",
+      "content_plain": "CHAPTER 17",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 17</title> ",
+      "source_entry_id": "sword:jfb:LUK.17.1-2:3:337312:451",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        98
+      ],
+      "source_fragment_sha256": "9c8e03612e754c8ae551e0a1f352a7bed4e453df6791830a4ef7928028ab46f7",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.17.1",
+        "LUK.17.2"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.17:P:lu-17-1-10-offenses-faith-humility",
+      "navigation_id": "LUK.17:P:lu-17-1-10-offenses-faith-humility",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Lu 17:1-10 . Offenses--Faith--Humility.",
+      "content_plain": "Lu 17:1-10 . Offenses--Faith--Humility.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.17.1-Luke.17.10\">Lu 17:1-10</reference>. Offenses--Faith--Humility.</title> <div sID=\"gen28273\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14623\"/>",
+      "source_entry_id": "sword:jfb:LUK.17.1-2:3:337312:451",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        98,
+        310
+      ],
+      "source_fragment_sha256": "856a80cd675a07317923a1956d7c5f8cf3cf09e8e53f859a54d134447d050947",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.17.1",
+        "LUK.17.2"
+      ],
+      "source_title_explicit_range": [
+        "LUK.17.1",
+        "LUK.17.10"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.17:P:lu-17-11-19-ten-lepers-cleansed",
+      "navigation_id": "LUK.17:P:lu-17-11-19-ten-lepers-cleansed",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 17:11-19 . Ten Lepers Cleansed.",
+      "content_plain": "Lu 17:11-19 . Ten Lepers Cleansed.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.17.11-Luke.17.19\">Lu 17:11-19</reference>. Ten Lepers Cleansed.</title>",
+      "source_entry_id": "sword:jfb:LUK.17.11-13:3:341051:404",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        175
+      ],
+      "source_fragment_sha256": "5c179294bcdc11d1d01210afb234305736d49d0dc46b51d220ce7d03bdca3b83",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.17.11",
+        "LUK.17.13"
+      ],
+      "source_title_explicit_range": [
+        "LUK.17.11",
+        "LUK.17.19"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.17:P:lu-17-20-37-coming-of-the-kingdom-of-god-and-of-the-son-of-man",
+      "navigation_id": "LUK.17:P:lu-17-20-37-coming-of-the-kingdom-of-god-and-of-the-son-of-man",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 17:20-37 . Coming of the Kingdom of God and of the Son of Man.",
+      "content_plain": "Lu 17:20-37 . Coming of the Kingdom of God and of the Son of Man.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.17.20-Luke.17.37\">Lu 17:20-37</reference>. Coming of the Kingdom of God and of the Son of Man.</title>",
+      "source_entry_id": "sword:jfb:LUK.17.20-25:3:344517:764",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        206
+      ],
+      "source_fragment_sha256": "1f200f2ae9dd113f90ee2a738fb58bfb3eca300cedb0e5ac121c8d7a42c6e4ec",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.17.20",
+        "LUK.17.25"
+      ],
+      "source_title_explicit_range": [
+        "LUK.17.20",
+        "LUK.17.37"
+      ]
+    }
+  ],
+  "navigation_section_count": 4,
+  "reader_visible_entry_count": 14,
+  "unavailable_author_work_for_testament": false
+}

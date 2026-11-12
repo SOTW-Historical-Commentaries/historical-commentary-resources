@@ -1,0 +1,1258 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-luke-2026-11-12",
+  "book": "LUK",
+  "book_name": "Luke",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 42,
+  "testament": "NT",
+  "snapshot": "structured-luke-2026-11-12",
+  "baseline_main_commit": null,
+  "baseline_navigation_manifest_git_blob": "88cf9e148126fb1b7c5e60877bea4c9fbb56c2ac",
+  "baseline_navigation_sha256": "c3615df3885739b1d472de4947c0ac0c643930997bf9598c5d1ab53a6213f8ce",
+  "baseline_kind": "projected-after-MRK",
+  "prerequisites": [
+    "Confirm previous navigation Git blob 88cf9e148126fb1b7c5e60877bea4c9fbb56c2ac and SHA-256 c3615df3885739b1d472de4947c0ac0c643930997bf9598c5d1ab53a6213f8ce.",
+    "Confirm all 41 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 172,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/LUK.json",
+      "sha256": "7ff83b56b6f561befb373369638c54fd7103d8ff93844ada0fd7de86b22e3dda",
+      "git_blob_sha": "0b6be6240c6670d7ebf054419a469901bcdc658c",
+      "bytes": 386117,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "9b20b6387f80fad4b32360e711b9ff2bab96bfdf0a2379eda16801152c391a84",
+      "git_blob_sha": "8711aa6b33c67f358e689d16d8ba7f673077cc2d",
+      "bytes": 21234,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/1.json",
+      "sha256": "720b03a1df049765e8061cfbc1e5d536d230f0c8bc99e7396e62a994a5d2ae98",
+      "git_blob_sha": "7c84b1475eb8888b447ce287212455ae5c00a9d7",
+      "bytes": 315738,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/10.json",
+      "sha256": "89cc4be0fce1ca2227affe0b31b33c21cdd258f4d5fffec9cb1c987c38645aaa",
+      "git_blob_sha": "e63ffb00672385748834c2cd1b39815fb0c75ead",
+      "bytes": 127970,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/11.json",
+      "sha256": "fa82efd7117bea70ad08efa111207de6e40bd40c0da23f2ed9b2da1d91629910",
+      "git_blob_sha": "e0ad587a178520b1b8a90a2c3e533bebd7c1d0ae",
+      "bytes": 88506,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/12.json",
+      "sha256": "1bc0b07491662195cff1f741d0aed37196db87206958879054e0efd2bc6cbeee",
+      "git_blob_sha": "2564a0186bc097e4de42153dc869f5bf94bb4f1f",
+      "bytes": 109296,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/13.json",
+      "sha256": "b38d2e0926f0be02ee1a80a5c181fbc38fcbe14dc19412b836e0a6387c012bb4",
+      "git_blob_sha": "48471420dc7102e3b4fefca81a4ff5510b425358",
+      "bytes": 88957,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/14.json",
+      "sha256": "c3cbd95b4dcf26634d1fa626d3417f95d9b3a9ab8a01b8046e3016edbb9f6a6f",
+      "git_blob_sha": "24652108be45b08ee8e3ef1001e2620052754be9",
+      "bytes": 83038,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/15.json",
+      "sha256": "92bc8a40250c50632c246b37bab6ad0a2f6003144640aaf5026a26bba40d4ea9",
+      "git_blob_sha": "954c9db235eae346f2670a65f90627afce75055b",
+      "bytes": 104022,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/16.json",
+      "sha256": "5002650d857dbeddfaf8c9ecc3401c56aeacc27f629541d233f7365b0ab3f0da",
+      "git_blob_sha": "8e581df792894bdc8bfd5811aadf2a1e7a55d896",
+      "bytes": 118881,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/17.json",
+      "sha256": "6db31bb3f49e6aa5031b8492a14bff6fa668261b763c313bcb979cd2e21c2e8f",
+      "git_blob_sha": "7c9079fc9d7e01c9422256bdd9af0b3983b67b10",
+      "bytes": 80752,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/18.json",
+      "sha256": "0c5a1f66c865b3f58a0adc843af142d0ffa1a11f3f6eb131fe7d948dd225f220",
+      "git_blob_sha": "05151c404fd4b47b77fc8131225fdb94ad17db13",
+      "bytes": 91848,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/19.json",
+      "sha256": "e450ef1c6c14c16eaa32a61352c06821a3c7ff48b7b2d98cd89a48e81ecff47b",
+      "git_blob_sha": "467ee99c7f8de19306ab7144b5ff4cd897a90817",
+      "bytes": 87943,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/2.json",
+      "sha256": "1e4414bdbf73743c143e268ff2b4235207318c04a3324959db48c13ab206d4d8",
+      "git_blob_sha": "1ff94eb12496cb976b9ed24afe82b30447fbf549",
+      "bytes": 247867,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/20.json",
+      "sha256": "a35c3842046afdf093a6f649202ba0065207751935d4590506d743614a6e3f12",
+      "git_blob_sha": "c9d2e0d01e491524fa42c0de643ad1ac431311a5",
+      "bytes": 40164,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/21.json",
+      "sha256": "e9df399f8822c6cc3a15e6e523a590ddc66c8045a18738302f17b43dc1078a00",
+      "git_blob_sha": "3950e118e79eb0c7694560b07bd47751e314b9c4",
+      "bytes": 57090,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/22.json",
+      "sha256": "c4ea5405a9560d2438424811041907d4d0c7ece9d1072b47cb2a05691888e3c4",
+      "git_blob_sha": "336d8df6509f8849be0e40ccc6eebb52415eaaac",
+      "bytes": 150621,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/23.json",
+      "sha256": "d634771309dfa50f4283d0635af9cc3effdad3192605af6d241910e7345cd239",
+      "git_blob_sha": "da51bdd33ba4c3fca2e355b4efca4643ee01530a",
+      "bytes": 108526,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/24.json",
+      "sha256": "b9e10735dbaf4d82c401bf399c6a472390204b36d440a578aa575b08b6099f0c",
+      "git_blob_sha": "70ee21619aeade87dc3ff1b81e1bf67976b5993f",
+      "bytes": 143388,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/3.json",
+      "sha256": "d2638588c24f128d4a610c53658a4b1019d0e8796d25dda8923115bb15fd269f",
+      "git_blob_sha": "908748b4ff01f3cab3a621d13fd770b18a38b392",
+      "bytes": 74955,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/4.json",
+      "sha256": "5db31c77809c949f28d9f0149c9e72d6adae1919e6ed4464975ddf3a5f5376a9",
+      "git_blob_sha": "5cf7dda45e714bb8c7cf90aa4f20591575c981d1",
+      "bytes": 93072,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/5.json",
+      "sha256": "9c0a9d940fb4a9a244f30543ebd1b65c437163bcc02638453c6ec0b00fb6d17a",
+      "git_blob_sha": "3d90f0ebe5053909f3194674a4ffa0fbdeb875d5",
+      "bytes": 76903,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/6.json",
+      "sha256": "366ea874544d5c1c3f5aea1cae055ecf0340e9185352f6d8c75a06f001a81c42",
+      "git_blob_sha": "65843eb9cd97bfa3c75b4c894913b5c76f247f68",
+      "bytes": 144269,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/7.json",
+      "sha256": "e3c4a61017020ba635be09ed013d6cde5259aa994c5b182ad753ce58b90ca557",
+      "git_blob_sha": "ede8a669ce81772bb8661a36b8d9cc621676cea2",
+      "bytes": 112736,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/8.json",
+      "sha256": "a74fef1307ad30a9a524fd7c0371397e5a4ae092a9aa12cdf626cc6f1847629f",
+      "git_blob_sha": "9fb2a22de288cfef84e5a6337b921f6df644f89b",
+      "bytes": 82282,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/9.json",
+      "sha256": "253169e9142103082977667b9baa5ef655a0fa80eb4050cf86bd6c2067c03984",
+      "git_blob_sha": "97da16bf2fb2176762539eee6366d1c7fa4d10d3",
+      "bytes": 162142,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/1.json",
+      "sha256": "4954f5b3714b79cf90531cc538febd5903871ef523bac85e60f9cdf38faedbbe",
+      "git_blob_sha": "b33977e3299cc30954b12dfa91ed81727879187d",
+      "bytes": 140492,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/10.json",
+      "sha256": "d89a8899947e369947181b10bdf9933687fec3026b32ebb2e77c6337c57f88af",
+      "git_blob_sha": "cc48a79048609e9e4cd4f4d0e3c083ed4cb2d65d",
+      "bytes": 79087,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/11.json",
+      "sha256": "7341c655018470a1482079762863b8abfa0b8749759aac73d1e567b834a25423",
+      "git_blob_sha": "c28623282db9eab4b10966bd734c8f93e118e1c1",
+      "bytes": 47233,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/12.json",
+      "sha256": "616368febdaaa96bd1e02ed974adefc54ef9bde23f0f50f1ee9be228cba9f586",
+      "git_blob_sha": "618f663475e542b5bc243e05674027e6ff251eef",
+      "bytes": 49760,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/13.json",
+      "sha256": "a00192db751e3986b55268a8fbb00b735c744115c8cd6e9fca6b6ff71541a4fa",
+      "git_blob_sha": "7df3985a1128e14050e83abcb7862cc4f3d283cd",
+      "bytes": 55226,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/14.json",
+      "sha256": "86b554f8cf3eb21ec7d86276dad0ed725739ade893e33259e112bc65263543b4",
+      "git_blob_sha": "10b7ca4b195115271a2c5d412e639d48a972e2d8",
+      "bytes": 28295,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/15.json",
+      "sha256": "2a5b375dee187c80d9fcb74002a1bf3a35c0c2b364f39de8588beae614d0ee92",
+      "git_blob_sha": "72bf75cab625621cc4d43263c81a1e4bbe16a1fe",
+      "bytes": 72434,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/16.json",
+      "sha256": "eadd9a5df7dd7da7206ed69fc1de475d7946c69ddc5b70721bc4404b0a62b372",
+      "git_blob_sha": "db4a9ca6fc677e1213b1fcd418007a2ca4a3ddef",
+      "bytes": 42972,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/17.json",
+      "sha256": "9c71c5a616e3292d3bf26d6a96b2cd6a2298e4a47e82c8205bea1fb35b3bae87",
+      "git_blob_sha": "a86b4d0473682045a5b5bf9d8e0f82b4466245f2",
+      "bytes": 34372,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/18.json",
+      "sha256": "3df2616d03b86b121b0cb54999d5a748655a7a36f640247c3e72ddd2a1f4000a",
+      "git_blob_sha": "28d1a1e06b0b2f3244c05115c1df95826d374c26",
+      "bytes": 73241,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/19.json",
+      "sha256": "3f523422939d63fb23860dff71d8e8b3de95df71c0376e06617db4f21b51f7b6",
+      "git_blob_sha": "fb1b7c3d9846c6c67ef8a14c9b025d42e699b278",
+      "bytes": 39667,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/2.json",
+      "sha256": "45ee58597104e7ac4fe2e51e109ac438526fdf5b0733bd8573fa17835ea7a7f3",
+      "git_blob_sha": "e546e67c8f7553d33fecb01a549c2459e30fe014",
+      "bytes": 131220,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/20.json",
+      "sha256": "c1f64ffc7dcf40219271cdbf1180dcc93873f20a88786e7e7b4bf56f9af6a12a",
+      "git_blob_sha": "85e68d9538350121c5041559fa63a0f6a318526e",
+      "bytes": 39445,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/21.json",
+      "sha256": "1eab1b507684f26ea5f17125e05d894249adea9fe2465c0e30ed9089d7a8382d",
+      "git_blob_sha": "2322cade0eace109c19b5d3988ee6bb4ea55d767",
+      "bytes": 45592,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/22.json",
+      "sha256": "56c11d4c74db5812c53287ec6395beda641a38b7b7009cd71864534f8b1bc03c",
+      "git_blob_sha": "d02a8b3ae8bdb45bf4edd680de3bb19e9ea7f149",
+      "bytes": 55037,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/23.json",
+      "sha256": "ba4e6463e7c111424b9708aaf38127099f8e063e9d3827a8b34b29bb578c1c17",
+      "git_blob_sha": "37fb9cf755b8371e773e329da9d9754df60fdfe5",
+      "bytes": 46334,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/24.json",
+      "sha256": "3b2a9ef0896cf015b5690418c5ef646642019cb9b8b733cf6412fe6dba5d281a",
+      "git_blob_sha": "702dab96b51e900388929666603b85802563271b",
+      "bytes": 39038,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/3.json",
+      "sha256": "307eba378a98cef12d58c368f460737c593260ff4f04565ddec9eb33be16f2d4",
+      "git_blob_sha": "b198d3dd0540dae045e25a0adca71b9c9017a3c5",
+      "bytes": 44268,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/4.json",
+      "sha256": "4abc3bae499ee561968de96b7ce5e1f63b310a14b1fab1def9ff8c88b42eef5e",
+      "git_blob_sha": "262e8837cf6e63bc474205743c9eb7723c51ab7c",
+      "bytes": 49537,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/5.json",
+      "sha256": "6c5db3c2a9e04221d752b7cdb87356632a2c7b40399f662b455c6bbe6f5a4db6",
+      "git_blob_sha": "4b5df056cfedf24cee5421028d01c10f8bc02e7d",
+      "bytes": 36984,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/6.json",
+      "sha256": "39925ecbe7fbfe62ba1f608ee18269985dade3b85e559df7be878b3b6dcb7aab",
+      "git_blob_sha": "d509100ed1df55391e39afe49938b559bea4dfc7",
+      "bytes": 44083,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/7.json",
+      "sha256": "46057f8e5c57de41a6b4cd819517b1028281d716c113ca07c01aa30d51c5ce1c",
+      "git_blob_sha": "63e92ede7b5b14ac6663b154c3628b808cc167c4",
+      "bytes": 43552,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/8.json",
+      "sha256": "0e555e6fa950a45ebe100597dad534cafe9daa4743f6e9cb1dbf95f7124e1361",
+      "git_blob_sha": "40674c8e6b0b4e27857f9abaf7bb70cd9729fbe8",
+      "bytes": 45157,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/9.json",
+      "sha256": "4af95f7fec4d2f037f71cf8647c237ba4c61ee67393ee23686a6c1c259b95fa6",
+      "git_blob_sha": "3c18d1f42b0969d7c504dcae303f931dde9d510d",
+      "bytes": 84565,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/1.json",
+      "sha256": "5c7b563caef01247fa6a8691b71333bc7e5ad97ad2e571cb1e4d6a669bdb76cf",
+      "git_blob_sha": "597a52daf2c23306672586c5059db358415fd9bb",
+      "bytes": 643371,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/10.json",
+      "sha256": "9fda8b8b483d0ecad9b0feedfc4e1189c8b0bdd33405584e58770ccd57e2068f",
+      "git_blob_sha": "c7b1652dd89a7b2f2b71397efed3751c3f2a9d24",
+      "bytes": 165910,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/11.json",
+      "sha256": "11f0f5f9ee5929ea5a1c627d62c2ac82274baf5dbe83c80000688ba727b11a7b",
+      "git_blob_sha": "5c35146f452d6dea7840c3e76e57fb9451289457",
+      "bytes": 77654,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/12.json",
+      "sha256": "ee3d5eeb110fbae61c3e60f7597605b266b202ecbb00101ccca8132d9ed6ad7d",
+      "git_blob_sha": "7b83776c7f438c72a7c6dc6a30aa3d20f1f4904e",
+      "bytes": 133523,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/13.json",
+      "sha256": "cd3eb49157532ad3a12c20c746ce501803029793970967ea3edfc93feb3b9dd5",
+      "git_blob_sha": "dce3466905204ae07d3d9cc39fec4fbcf89aba8d",
+      "bytes": 128567,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/14.json",
+      "sha256": "1438ba166e14371456abef369e225c677f6329b0278a077c70f5ce7a267345c3",
+      "git_blob_sha": "bd2ddda9d46186e6217054c33a3c5c59258741ea",
+      "bytes": 72740,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/15.json",
+      "sha256": "f91a86240714bd248a1bde2cc5ce32c306c1f35677e0bdfcf2b8e7e76cbcbc4e",
+      "git_blob_sha": "f290d426a09eba993ec1dfcf36f8ac61a62692bd",
+      "bytes": 100823,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/16.json",
+      "sha256": "77f7b91783ee9622ec8662302d1dcebbb7f2efcfb714007f286cff9d21e3990c",
+      "git_blob_sha": "9b13bcb56de2bbdea9a70e67809f0e8ed0e09731",
+      "bytes": 157887,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/17.json",
+      "sha256": "e8f473c92495e85896bc50fd8524e35769ab52ebf65935538dc1cba49394e414",
+      "git_blob_sha": "be44670a8e173bac357597adf6cbff5dc0eeed3c",
+      "bytes": 82319,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/18.json",
+      "sha256": "8f40bfebc5cd22b918a7abc59b09c811abce4eab4a1393f4815ac2445a22da22",
+      "git_blob_sha": "2c48bab06ecfaa2c408b6d455f80c3260d2ce7bb",
+      "bytes": 90320,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/19.json",
+      "sha256": "3c66a7686b16094cfee15a5bb9e9b2bfda32698f2f891411418edd36188c439c",
+      "git_blob_sha": "d15e32f0110e813a696e00ea60056712bcdc7237",
+      "bytes": 149438,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/2.json",
+      "sha256": "8dbb69930abdf44ff92256be4fc1e2468fe0d4921ef2ad7f08580ee2425f7e18",
+      "git_blob_sha": "b73519b4f6ad725c6d51a4d42ab5632185d6d920",
+      "bytes": 365437,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/20.json",
+      "sha256": "060497c889e2a97b3d1e6afaad654a894b0bdcaaf4611acbfbd2da6368c0aee5",
+      "git_blob_sha": "ef18541547d8ff5e4a0b7edcf1f3dd11fb8ee59e",
+      "bytes": 34716,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/21.json",
+      "sha256": "44c45ac6171a7a68cb38934c60808f36a09ba259e59678bf045c389f84ba2990",
+      "git_blob_sha": "218a9dcdb3a29f29a27c9557cf31076e2541ea79",
+      "bytes": 22700,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/22.json",
+      "sha256": "b2b82eb1fea468bfec947a4a05d62e8dfc30b2a558f373874dde70a8d37570e9",
+      "git_blob_sha": "6841cfc112efec51ca9dd1e0de1ad2f1c676f540",
+      "bytes": 72895,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/23.json",
+      "sha256": "69cf8eeeb516e1e9bc3015b70c17d6f0fd2051c4e374cd630019e15808860186",
+      "git_blob_sha": "27087e670ee5a9af3eecda8754062ed4cb3feb69",
+      "bytes": 171866,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/24.json",
+      "sha256": "34aa9c2dd34bdfa9506eb7e739d924d500a6b8c9c47993e8e85cfd26681b91d0",
+      "git_blob_sha": "2d0e833080fe08593d7d5f4c165e6b7b67605b13",
+      "bytes": 239354,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/3.json",
+      "sha256": "ee4de637f76c328e8ffe264436b9e808adaf4355b7135b548732a9d26a6cb939",
+      "git_blob_sha": "5c82d0171ba7e17709f617a251464f5448d22bae",
+      "bytes": 111184,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/4.json",
+      "sha256": "4de540be69359981786f5d65599094f284068691a4473f54a8e26fc4cd9f5ec3",
+      "git_blob_sha": "dfd9a4da2b0eda3e12af077e448db686120b4e2e",
+      "bytes": 97064,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/5.json",
+      "sha256": "959b5e88e34d12e04b0ae5d0ad820f765f7a87e4131a72099668cff9625028f4",
+      "git_blob_sha": "09b67b934e17971061a111ff7e816d818a704cb5",
+      "bytes": 64697,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/6.json",
+      "sha256": "baa1fc931af0a5c5aab6053c0577d9f46f019e50fc8d6b38c387a431969b5eb1",
+      "git_blob_sha": "67c57c166e50f6585e40c3594d96b65987865f86",
+      "bytes": 80793,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/7.json",
+      "sha256": "47b496b1e7bf092275f825142734587283799ffb61afd219cb8ec3f1ccc5234f",
+      "git_blob_sha": "1d802526c1c046d2c0faaeb9833a3195881e50f3",
+      "bytes": 139056,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/8.json",
+      "sha256": "f23ee629074aefb9eaa5659b515da987058e37442bebeb1a70ea71747159467a",
+      "git_blob_sha": "95bdf5065b3e68e4418b1c1edb2d49406f6f024d",
+      "bytes": 61895,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/9.json",
+      "sha256": "ee04410eb671b87f0672c5b6b2ddbb559db157dd18c239043c6d7a4b6ce72b42",
+      "git_blob_sha": "56444284e60a3f8b6cf229f82860066b9b651c3c",
+      "bytes": 60855,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/1.json",
+      "sha256": "921970d28e7b3d99346123bee8b1b0e678e49b5c841b659281d873e415a63043",
+      "git_blob_sha": "c9a2d27adbcf5de42c0373391160d441de711ae5",
+      "bytes": 635010,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/10.json",
+      "sha256": "9edd42729b1cc222b0ef2ebf17183a67c64b69a0f39449a1205401359d6cdbcc",
+      "git_blob_sha": "7a2bdc03aac2520a81e0ba0cd9319bcfd1d61531",
+      "bytes": 281407,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/11.json",
+      "sha256": "c040c9f0fd1b45d7a1687bdaa77a06dcc210ea88c91809bfba8bac71938c9a69",
+      "git_blob_sha": "5ced1b5e9568720ede91685640370374e94e5949",
+      "bytes": 287107,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/12.json",
+      "sha256": "b2c981b3884d17260bd943d111507c64876c252d45e8653804aebae5aa8479e6",
+      "git_blob_sha": "1ee486ec8362d9b2968ceb5e3c69d697cf4ef2e6",
+      "bytes": 347215,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/13.json",
+      "sha256": "84dea55c2cad1813274c7190385750eab9a823f3458b101b40942b7209a84887",
+      "git_blob_sha": "aedf2cfb37863e3f94194e0405c058b903011a8d",
+      "bytes": 256087,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/14.json",
+      "sha256": "db1770c17683cae40acabe781975f82c766e90f5baf7d04eb0dc0a42a24c527c",
+      "git_blob_sha": "adb03566a683fc2cd3d4347a5d52333869479071",
+      "bytes": 197919,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/15.json",
+      "sha256": "19e7e989224c89a9278d3e176d61db4f10b5181493c7614c6eb1081d1c7999e3",
+      "git_blob_sha": "cd5a551a26abb7e457f20f43cba2d206231e5249",
+      "bytes": 492219,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/16.json",
+      "sha256": "7ba07998af06078586f8779faedccd79ba2e8d6589b0936744ab0d8ef3f67e0a",
+      "git_blob_sha": "86773bfce02b3e5a991cdf3fbad6cb6352ce8a4a",
+      "bytes": 335067,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/17.json",
+      "sha256": "dbcfca755bd8199795283805a38e8103e2b35823e1052d0dabd135c060b06989",
+      "git_blob_sha": "8eb411a3b7d4ed5f6a1b06f483a63083ddf4819f",
+      "bytes": 281635,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/18.json",
+      "sha256": "2f5899ddca19548a3b7b7778368883189f455852fec72a5f83cfbe536c5d7452",
+      "git_blob_sha": "4fc960b364f1a9ea2973cc2aeb42e1179738fe0f",
+      "bytes": 253719,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/19.json",
+      "sha256": "58242b32fc0ce0f57e3ddea8a6e812acb96f3c6b6ee91b6fbb7e192eb6796246",
+      "git_blob_sha": "ae3cbd8c1b2c8af37c03c4f07929a011f741f7d8",
+      "bytes": 331051,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/2.json",
+      "sha256": "21f1c151b580ac90c048f6c6b914ed68534e6a1c4df77dc5f8569ef6ccb7acf6",
+      "git_blob_sha": "cc81e5b0eab343ed12ecc94d8458040bf91d7818",
+      "bytes": 465384,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/20.json",
+      "sha256": "ab7604c079a963052323b62c1339eb6afc02a3f702081cfd3521ce1a07e247eb",
+      "git_blob_sha": "e45188ded3f26c82ee39bd05cf4b820f98dbf6f8",
+      "bytes": 159571,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/21.json",
+      "sha256": "c57b94f1020ac46da59765b7a6ea6eecc56f9d4e3cc166bbc68fdbf7f4fd26c1",
+      "git_blob_sha": "58406dd5c9f80228fdd16c806aff93240aec0ddc",
+      "bytes": 119815,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/22.json",
+      "sha256": "2028e4b2ab1d6b7075f934dc4a1e87f2badd95bb88484a73898a89664826fa4d",
+      "git_blob_sha": "b31a552a101850a5fa8d1b3df4065d0a7b258cc1",
+      "bytes": 402839,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/23.json",
+      "sha256": "db946b9fecd3e41bbb5d7146ecfcd651ad2558be53c2a448b6449cc5fd83333d",
+      "git_blob_sha": "989a37fdda7989ac76734e989d471d80f4de9f76",
+      "bytes": 294531,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/24.json",
+      "sha256": "72b1d42bf30a4951bcbae9a8637b78e85b458a0bb1506822c4dda4970c837af5",
+      "git_blob_sha": "2b63e4e767a34d6c01343939829edc8ac62884fe",
+      "bytes": 326515,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/3.json",
+      "sha256": "4a5edc7250d81336ee2cffea0183af73664a5db24fcaa8aac89da0458d42f95d",
+      "git_blob_sha": "9f3ab23ea121835cff0c61fd5558b29d20b2352f",
+      "bytes": 211896,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/4.json",
+      "sha256": "58c13c259a3fbfd0a9c0f277bfc1de9f01cc855fddf5586c99cb758d408b8991",
+      "git_blob_sha": "e3d60c516aa591507c338b6767b1eeae6fb50c9b",
+      "bytes": 285096,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/5.json",
+      "sha256": "e2d49a4c825861c12603c1a354a8225ad8412f6619b79d69f70299552b1ecec2",
+      "git_blob_sha": "1edf1783db7151fd0afde02d9190b2daa6a47c71",
+      "bytes": 220152,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/6.json",
+      "sha256": "8de6c4e227bb08d6087ee484f9cdd7cdc2752c3a13ed15c4813ce302b0be0192",
+      "git_blob_sha": "581bbcc78264ab2416f6949f1d503df5173821cd",
+      "bytes": 227219,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/7.json",
+      "sha256": "84f1b6ed547140a6f7ced3aeac0154b80b18010483255b01e570c5f57da51dfe",
+      "git_blob_sha": "2b2e55fea88f6cae3f5febf0e48b3967de0d6c75",
+      "bytes": 287144,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/8.json",
+      "sha256": "55f09968761b3b287ba000cda4e68f5aee2b959a4cd0478c412629a334721f87",
+      "git_blob_sha": "9f48f6b4db3ecacc82fe532fc0785f50a76d126b",
+      "bytes": 239808,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/9.json",
+      "sha256": "cc1ca774a1e5865f6700640343a531133971d83e1034bd163bb940842d65bef7",
+      "git_blob_sha": "d7676af7bf18cd35340d6467522ea0f39f496594",
+      "bytes": 253800,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/1.json",
+      "sha256": "e9f0cbe60043ae57148dfdff89f478debc5f0ae45cd4fe6d923e161e46fb09b5",
+      "git_blob_sha": "9083859f8be9194677cdd369a13a2ae4127b98a1",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/10.json",
+      "sha256": "f02a9d7f779cdc7c1728459db199833422e4f7a6f2e8a8f5539fc49eb3122255",
+      "git_blob_sha": "5885043a25661210b7a682ac0aa9068184a99152",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/11.json",
+      "sha256": "70e8fc3365a7c7fe81ac0ce69405f83ebd1124148a6ba0d60996f2a88e03d725",
+      "git_blob_sha": "461534a018552f99e9675cc09ccd370472dba330",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/12.json",
+      "sha256": "03962e8ffa3cd93768e7cf65a17514dc1ea121c5b1d61523b72cdc48cbb1cc6a",
+      "git_blob_sha": "2a51f8af9e2005f7d419eedfabcacffc188077f2",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/13.json",
+      "sha256": "29260e5c2cbfb3065d4c14ffe8272f4b3c06fe296fb960a969c8e928a8e46b01",
+      "git_blob_sha": "fc6aa29d350bb1b84cc467138c6509cf8e1b88ac",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/14.json",
+      "sha256": "cc7763a00acd94ad4240d3063b6c57658b967ab779da0fb575a5e8295f757c79",
+      "git_blob_sha": "5ac08fbdf77b7c8997e66208aa6bc42bc06da194",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/15.json",
+      "sha256": "d31484c3b894b742b4dc031f84e29b755a844d5e32b2d4d8d50212c1f48d8bca",
+      "git_blob_sha": "c1d8be13ccd2426e4877d406b3d8d4174d4e5d0d",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/16.json",
+      "sha256": "7ad9f3c89adc136559654b79f245ce2f73d22ed8ee549437f7988426cd277b22",
+      "git_blob_sha": "e543423f4339a1fd80b5524c5e8d0acb8ee9cd77",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/17.json",
+      "sha256": "9119d2d3f9b03dd168057be6a02f9cc8ebd9aee1819a1e608f2d433366e50fab",
+      "git_blob_sha": "975af196f7c9494c68e554f970d4104e6ed61f34",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/18.json",
+      "sha256": "2b97a75f72bb8d867c472475d2c3cc3c992248976ce508cd8922d959f22f665d",
+      "git_blob_sha": "3ce3d4e5a970301927b4c8bb45a8a6e0925c51ce",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/19.json",
+      "sha256": "f2e07f39fb490b4bb518893b0532b2130aabf4d78db7d6fb76e5b1f8aa999b8e",
+      "git_blob_sha": "e093bb5e0aa2ad6ba798436b2feccf6ed3dbc1aa",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/2.json",
+      "sha256": "93b6bb082b44383f304f211ba7378ef861f23485f11f8cfa039546cf71be6675",
+      "git_blob_sha": "68db9c01f3edacb161c1048984536802c3f2d6b7",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/20.json",
+      "sha256": "dce20ee1f7701ab1fbd0acab3c5a5ec4e5ce6678972b345c1068f554fbe1ba12",
+      "git_blob_sha": "3c9fd2c313162c4ded8f1a6a0fdbc61fa356bb48",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/21.json",
+      "sha256": "c24c9c96c762fde12e5b55e8fbea259adadf007246738a0a8f1c900867c8659b",
+      "git_blob_sha": "a204a4f4f905f3c5cd249a12725bcf8fca24c69d",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/22.json",
+      "sha256": "e2295293de1c24305bcf73a1b6a39596b212de6b5d58afc6badb4a3f5bbab131",
+      "git_blob_sha": "b9631906907ba7795ed492115c803c0920d30817",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/23.json",
+      "sha256": "ed8cf13b0a1c566d7978bab3b12a45d5adc817d09ce5ba70e5b900f285d6eecf",
+      "git_blob_sha": "54d799de9625dfa2d278ea3c20a8d7b85bcdcdb3",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/24.json",
+      "sha256": "0398445798832230d3de7ad0c75e668754700b5ab987e54b99492b4fe05a8614",
+      "git_blob_sha": "3f7bb2504f43e627993f6aea9f92f87cd2a87546",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/3.json",
+      "sha256": "c0f1cb5c961354ffeb535d8f6eefec133972501913e59b326b87cdf8148fcd15",
+      "git_blob_sha": "8f3667b3b5bfad042bcd0b0e29f30cdbf64cd195",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/4.json",
+      "sha256": "93a0e4ad41ab9c52d586fac5cdbf1406b9b34ab8c304ec9cfe56eb1868689032",
+      "git_blob_sha": "22ad5be187b6ac5db4a326b47603b68ffcf7cb87",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/5.json",
+      "sha256": "d094dbf48cc7986fe86905ade1a9bfcedacfe3b891d2c203726c1196a862ec55",
+      "git_blob_sha": "94959a9742e9e72b2c3b538243b7c9002972b99b",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/6.json",
+      "sha256": "1a85a74c184649075923a5711ab301ee338282feb6fcfb44b7f9932ad21118c8",
+      "git_blob_sha": "060f567588c5f2d03e569d41ea6cac4627e0ea32",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/7.json",
+      "sha256": "0e833d25f0e804ad5a38de7e567cb566fa56a606656ebca7d3f6a048ece5f0b4",
+      "git_blob_sha": "3f4d4d517c1477ea924cc89bd78743d7e3202fed",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/8.json",
+      "sha256": "49d2459bb7f2f673fecfbd803a3e2d3b80e6ea90a38c2342a6d0f21f705d2fa2",
+      "git_blob_sha": "839c331b21c389ca76918a2cefa6da89d611e971",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/9.json",
+      "sha256": "76a40a36e9aa8084df431e0c0ecfc18e25793610ddd909b3ae1c123a0f65e16d",
+      "git_blob_sha": "d544dac9b3441d9a6cda77461c0fa4a355bce0fd",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/1.json",
+      "sha256": "31b3f54925b4d9388e1823fc28315989b71febb2a779f6a455da1daea17a0233",
+      "git_blob_sha": "c11e8b4ec0cafa08ae964b418c39bbecac8cf79a",
+      "bytes": 458892,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/10.json",
+      "sha256": "b0e8d2ea6538d1a54e38c41b3c757a3864686f45c62d9689b71e17749709cf24",
+      "git_blob_sha": "13982402e6f1fed0adc1321f4b62d0eb53f5fc26",
+      "bytes": 275658,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/11.json",
+      "sha256": "014687adc90616cb2a05106a2ef691ecf3422763f907bb5d8c6927131e8fca5e",
+      "git_blob_sha": "821109f0c431188aadc42992f8cb23ed4f8d7184",
+      "bytes": 286342,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/12.json",
+      "sha256": "772216dd535179b82b2dbd47d988ed4818d11e4e412ef07287e19fab90652ae3",
+      "git_blob_sha": "eb133ef5e63623daa7447bb5eee59ba07534add6",
+      "bytes": 307212,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/13.json",
+      "sha256": "b17f2b26b69e20a79673457504e5e26d9f9ff4a76df846e034df4c9fc540ccfa",
+      "git_blob_sha": "27cc8ec24bbf4cabf3b93b526f608371eb24564e",
+      "bytes": 230800,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/14.json",
+      "sha256": "6201e384e59db6bd606c54fa0e47576a232d47a70473876f8e24fff9e59663ee",
+      "git_blob_sha": "62c58f44dcb608fbe8b7416f5ee33ce4630b2e16",
+      "bytes": 187369,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/15.json",
+      "sha256": "e77e70da13886afac36f69c856138f34e2cc96f674bf25026f5a7624f3089c0c",
+      "git_blob_sha": "b247c80222dc1e06b98a762c4d0fd81d4a2e2d27",
+      "bytes": 260295,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/16.json",
+      "sha256": "311d5b269395b44467202a57a85280e47d3e49de758fbe7c504862ea7b39ff1b",
+      "git_blob_sha": "5c79bb8db0b3b824ba30d50065e20c83428b3574",
+      "bytes": 277236,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/17.json",
+      "sha256": "c56197a6db2ccb1b33ad7174380d5e2190e6ffde80630451b6109d3ecb232ddc",
+      "git_blob_sha": "5ddc6240ec58ce1bd77461e5c9b531cee48fb523",
+      "bytes": 174083,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/18.json",
+      "sha256": "4029cc6337c70575b3b4c8066a525664cafa985a874369e6463e4237590bacd6",
+      "git_blob_sha": "0c8b08af5047ec4bc4ff5230d2d12d82d7483eca",
+      "bytes": 214345,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/19.json",
+      "sha256": "0c2a0d2ed310a24ada3831fdc31d10ae0fa680c959459effaadef3ba26587b63",
+      "git_blob_sha": "d591d3c8b98885d09320dc81f9da3c87994b1204",
+      "bytes": 225290,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/2.json",
+      "sha256": "8d6865f1de1b48a6725eacb1b5621878041f6fb48fc9b2ac1702f09e54f89911",
+      "git_blob_sha": "ae2f10ca0089e0cbca2f07412cf5ddeba522bbeb",
+      "bytes": 289267,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/20.json",
+      "sha256": "36770a409afef9267369159efce9079fa8807589130322134a22ecaeadfc3ed1",
+      "git_blob_sha": "a4e54aa3f40d38eaa484191ec26eb7b716e845d3",
+      "bytes": 145535,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/21.json",
+      "sha256": "e39cb8b17cd667002b2ed23b72adc74b8d628d4f0daecf92264e4cbe192bdda1",
+      "git_blob_sha": "d818a95b908f8fd68730be9f1d4522d2fdace19b",
+      "bytes": 156783,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/22.json",
+      "sha256": "d34af6cba71438f947c749ffa69af4da7e3d6ecb3e63612a64e0cc67ed4b29f8",
+      "git_blob_sha": "fbec946d6a7fa5cdb74b872b4a083df7597c7efa",
+      "bytes": 263133,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/23.json",
+      "sha256": "85a2319a773b877ea5fb1f95506876e50b37cbc8a709a5b55a1797835251f617",
+      "git_blob_sha": "1d0b54444a5efb28c02b5509f503a3871ebe8593",
+      "bytes": 249275,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/24.json",
+      "sha256": "59ed81a1aeab545c836ee49d07fbb1ec84d5aca837ad2af0716d9b9406c710e7",
+      "git_blob_sha": "55eeca7f83ed121bf0dab7b3010f77b2b641f21d",
+      "bytes": 298824,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/3.json",
+      "sha256": "1be9b9d51abaa8583cfddd26fd38063894db28485e953868bc1c0d2b857a744e",
+      "git_blob_sha": "abc12dae655db388f37f359816e73c0e2e42ddad",
+      "bytes": 197140,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/4.json",
+      "sha256": "0697488675325307a465444872bb5dc20959c46a13e6880fda1816a7ee7dc9cc",
+      "git_blob_sha": "338221a69b9a69d7842035f2123c5c45256d9b92",
+      "bytes": 246066,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/5.json",
+      "sha256": "fae18243981e0a3f6ee4661e10e3f323d2d90ec0e20237148998d16a16ecd301",
+      "git_blob_sha": "ca82fabcfb3ef40a71a5e6a60e04818c20461196",
+      "bytes": 181506,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/6.json",
+      "sha256": "e40029bb7456a1c8d8cffd1ba3e1f148571e894c972e29f547d3df683d846f0c",
+      "git_blob_sha": "fa25aaa3c51b832e8e02c878ed8c7ad8c6717c6b",
+      "bytes": 192347,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/7.json",
+      "sha256": "2b6e8226730778bee87931e56d5edd8b350a25858275cac3943d02afbca1866a",
+      "git_blob_sha": "af76ec4965e84ebcf75c70f8a3fa412f5a3cb0a8",
+      "bytes": 205472,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/8.json",
+      "sha256": "c882c85b4ae06033dce80f5b27a364bfc3a86925d806377101f10e30add2836d",
+      "git_blob_sha": "782e35719e98d40752cca7f087def5f603221c2d",
+      "bytes": 183818,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/9.json",
+      "sha256": "626113b77556d821446b8e96dc8699fc9898fe0f4bf10bb9ddd2815ffd6f4045",
+      "git_blob_sha": "6b9c36911ace9419ec288a674db0331510312c01",
+      "bytes": 282584,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/1.json",
+      "sha256": "6886b0be3944621de7f04cce845aacdd0f0966f644894e72a1fc1e14a93bc2fa",
+      "git_blob_sha": "f0fec3ac1cece28a992524f071fa055bc1207250",
+      "bytes": 24849,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/10.json",
+      "sha256": "d7150a0354097b5417e2677cec157e356a0fc1dfbbe851e134e9bfb622015631",
+      "git_blob_sha": "89c0d24281d43a1dfaf86b6d490fc50e249eae86",
+      "bytes": 14370,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/11.json",
+      "sha256": "8a6bff0731f5288ad5e053a329584bb50a4140b448533ae5cfb88d0cefa21f3a",
+      "git_blob_sha": "b71044b65fb3642315583c591d9fbe3f1e8bfc76",
+      "bytes": 15542,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/12.json",
+      "sha256": "3cc5410bdbf33fb8055d2bf34f3d0105122e6d4f24eb1ddeab25a32aa8095f33",
+      "git_blob_sha": "cff24001600001f110b01b4fa616db105bd59b47",
+      "bytes": 17668,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/13.json",
+      "sha256": "539d7ce6e4b45529eba7433a35dbe81a976d6df408ae4abbfec9f245a6a13828",
+      "git_blob_sha": "795be1dd0187c6890f340f91c47b29fa63d681a1",
+      "bytes": 13590,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/14.json",
+      "sha256": "3ebe4397e2f31e7fa2690441fa0e6001bcbea897a15dc0c91e6477bfce79446a",
+      "git_blob_sha": "b8a1ff3d1c0c5d76161803a09be3cadd19d03132",
+      "bytes": 12098,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/15.json",
+      "sha256": "fd7c5dc0a68fc08be19b366e8a53db408f238a8b48d0b998803dbefdaa36ab4a",
+      "git_blob_sha": "281a212dd4dc122bee3cdceb569550ec887048e0",
+      "bytes": 11458,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/16.json",
+      "sha256": "49c3da632b85a5424117cf499d3ba7e6a31366ca2dc6054b89839bb0a45895a4",
+      "git_blob_sha": "4f12268d1e98d1407a878b1eba0c3ca72af87159",
+      "bytes": 11042,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/17.json",
+      "sha256": "2671edadfe8a1ad4a39de11530606f6e2ad33fb189deebf9d5828ca52b9fede2",
+      "git_blob_sha": "78d8a40aa6a7fb84fefac3db7901d4e02aca6a47",
+      "bytes": 12613,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/18.json",
+      "sha256": "0ec83576a3708a9a2624e5285a4e25d3e40d255cbb1ae30ad27034885850bfb8",
+      "git_blob_sha": "d80365dd7839c05cb6fdca63e584bc71f67ca17c",
+      "bytes": 14642,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/19.json",
+      "sha256": "a33d93b2e0e44c9ea4d55243c1537fb2250eaf54c9613ebfd638b7e458db083a",
+      "git_blob_sha": "d3ffd3d10db66d416be85df9f231ae40c9188bd7",
+      "bytes": 15574,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/2.json",
+      "sha256": "125b651c46ab65b4b6666b40fa3a581a49ebe622fbaa7e02c4fa64f7450f0607",
+      "git_blob_sha": "bfc80c26b5ac2bd206d02a49f0782ad0d4154351",
+      "bytes": 18206,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/20.json",
+      "sha256": "6ba1eecaaa1ab78af8b18ffe29d55bb120bcc5446d610c3695031af5f4ef9689",
+      "git_blob_sha": "4b59117e90fdb397fad299f9a9e5044225e2f27f",
+      "bytes": 13904,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/21.json",
+      "sha256": "2dcccb6faa18a0cad9c5407d1071382d7b1f9e39a5edcfa0b1ded76e42d3abf8",
+      "git_blob_sha": "29371b5ed88af6ae872be7f6308c1d72a45c8074",
+      "bytes": 11955,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/22.json",
+      "sha256": "7f7e066b77f260c5b0c92093bf5a0391576ff1d942f598d07aec1a384ea9c708",
+      "git_blob_sha": "fa6110bfc7595e5fd2929c39ced523cee5917f1b",
+      "bytes": 19399,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/23.json",
+      "sha256": "1ff7a4f4fad01bbde6d7652c036a6dab95ad6f5ce9a2e327b31861c874092a69",
+      "git_blob_sha": "3bd5e8d85c8301b5936c70a6d3c0ad27c91bc6ac",
+      "bytes": 15625,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/24.json",
+      "sha256": "6fd5caf835f6329643e8a0c5b8b0f5caecae2ddfd22f0e1a7e61f1b2e61c6162",
+      "git_blob_sha": "c5f6cc4a1a90ddf441512ddbeb8ea3821019fecd",
+      "bytes": 16586,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/3.json",
+      "sha256": "ce61d56e711ededf74ef4a8f013332321ff862159c3ab608fb5807d6505c4da7",
+      "git_blob_sha": "406310c44434ad1e572a99f7acb96c568b706073",
+      "bytes": 11106,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/4.json",
+      "sha256": "8e3599bbc31d65a10acfca22de66b87a94d09ab02d715022e827bfc5595a87b0",
+      "git_blob_sha": "fb8013287626c87105d16440e8585fc44d15cea4",
+      "bytes": 13831,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/5.json",
+      "sha256": "b9a9170fbe553b1001c8c63f31663fd59f65f95a7693b613246bb238d82207db",
+      "git_blob_sha": "4bca9d43408cf45b9342f69fc9891f5792f729f3",
+      "bytes": 12072,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/6.json",
+      "sha256": "64ab126afd50a8c4aa74d128dee7d8fe56af86ac06dbea5f8d8dfa67d79d6a49",
+      "git_blob_sha": "aade76b4993b636963f81f3bb5bf735fcf4f2e1e",
+      "bytes": 15255,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/7.json",
+      "sha256": "57df6e49ce86797e89ecc20e2f7f53f26472b985b6f85f606b2c12655a32717b",
+      "git_blob_sha": "ccf55e3fb41130e133f327d84a05a6204c22a0da",
+      "bytes": 14954,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/8.json",
+      "sha256": "00d04cdcd367a67ef9c2c3996a77f05190183788981ef1af11ab09ade7d4527b",
+      "git_blob_sha": "90aa7eb7ba948047da4cd8d59c86e55bbc1dddaf",
+      "bytes": 14792,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/index/LUK/9.json",
+      "sha256": "1c70ef37e252cfbd65a83a03386fb707bbba9850c6871ea7e4dbf5552d094ad8",
+      "git_blob_sha": "c373d39c7b78edf07f3b33e8b8cfa66638ce82e6",
+      "bytes": 19257,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-luke-2026-11-12/manifest.json",
+      "sha256": "b5db7651c54417a81a1b93e9e99f19c1e64d5f9b7d0e7b690b8ee98ee45a1c4e",
+      "git_blob_sha": "3323c82c4f0f0bcdc6e525940d36c5c906fee79a",
+      "bytes": 1850,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-luke-v3.html",
+      "sha256": "a7a7b05d4d21c87235a688822a7c416f7660cf7779df32d5d00bd365f19ed371",
+      "git_blob_sha": "f5b64185c755edc61a431b5611ef5a42c7b4bcb2",
+      "bytes": 14724,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 39731,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 644663,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 24,
+    "verse_coordinates": 1151,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 5,
+    "original_entries": 2817,
+    "verse_author_routes": 4232,
+    "original_P_sections": 276,
+    "routed_P_sections": 276
+  },
+  "source_scoped_exceptions": "Luke uses four original New Testament SWORD source modules plus original HelloAO Gill. Original Keil & Delitzsch has no NT commentary. All missing verse indexes, source-wide pooled records, introductions and original chapter headings remain bounded and independently source-audited.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}

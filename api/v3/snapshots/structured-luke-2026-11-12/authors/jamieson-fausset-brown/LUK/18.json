@@ -1,0 +1,725 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-luke-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "LUK",
+  "chapter": 18,
+  "canonical_chapter": "LUK.18",
+  "versification": "KJV",
+  "verse_count": 43,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Luke\" sID=\"gen27523\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO LUKE\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO LUKE</title> <div sID=\"gen27524\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen27524\" type=\"x-p\"/> ",
+      "source_record_sha256": "f4b27689315037f9a1d39b694a8dee76889b9d3497f4da414726baaf3a011c7c",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 0,
+        "length": 351
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"18\" osisID=\"Luke.18\" sID=\"Luke.18\"/><div eID=\"gen28308\" type=\"x-p\"/> ",
+      "source_record_sha256": "de6038ccd55af0244fbce1b9790212fe565a2ee1c5312736858f514b67f8f01e",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 351966,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:LUK.18.1-5:3:352047:574",
+      "passage_start": "LUK.18.1",
+      "passage_end": "LUK.18.5",
+      "start_verse": 1,
+      "end_verse": 5,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14650\"/><title type=\"x-s2\">CHAPTER 18</title> <title type=\"x-s3\"><reference osisRef=\"Luke.18.1-Luke.18.8\">Lu 18:1-8</reference>. Parable of the Importunate Widow.</title> <div sID=\"gen28309\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14650\"/><hi type=\"bold\">1-5. always--</hi>Compare <reference osisRef=\"Luke.18.7\">Lu 18:7</reference>, \"night and day.\"<div eID=\"gen28309\" type=\"x-p\"/> <div sID=\"gen28310\" type=\"x-p\"/><hi type=\"bold\">faint--</hi>lose heart, or slacken. <div eID=\"gen28310\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 18 Lu 18:1-8 . Parable of the Importunate Widow. 1-5. always-- Compare Lu 18:7 , \"night and day.\" faint-- lose heart, or slacken.",
+      "source_record_sha256": "073c95da8993bf42f6fa4f258d88bdc4ccf9cdc23a548d3bcbd11ad1eb97f5d4",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 352047,
+        "length": 574
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.1-5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-5. always-- Compare Lu 18:7 , \"night and day.\" faint-- lose heart, or slacken.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        315,
+        574
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-5. always--</hi>Compare <reference osisRef=\"Luke.18.7\">Lu 18:7</reference>, \"night and day.\"<div eID=\"gen28309\" type=\"x-p\"/> <div sID=\"gen28310\" type=\"x-p\"/><hi type=\"bold\">faint--</hi>lose heart, or slacken. <div eID=\"gen28310\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.6-8:3:353808:305",
+      "passage_start": "LUK.18.6",
+      "passage_end": "LUK.18.8",
+      "start_verse": 6,
+      "end_verse": 8,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14654\"/><div sID=\"gen28316\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14654\"/><hi type=\"bold\">6-8. the Lord--</hi>a name expressive of the authoritative style in which He interprets His own parable. <div eID=\"gen28316\" type=\"x-p\"/>",
+      "content_plain": "6-8. the Lord-- a name expressive of the authoritative style in which He interprets His own parable.",
+      "source_record_sha256": "1e81d5ec503d0704a5b0734a2127654856b65d94c7b9bfbd4118b0a89574923a",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 353808,
+        "length": 305
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.6-8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6-8. the Lord-- a name expressive of the authoritative style in which He interprets His own parable."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.11-12:3:356774:1583",
+      "passage_start": "LUK.18.11",
+      "passage_end": "LUK.18.12",
+      "start_verse": 11,
+      "end_verse": 12,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14657\"/><title type=\"x-s3\"><reference osisRef=\"Luke.18.9-Luke.18.14\">Lu 18:9-14</reference>. Parable of the Pharisee and the Publican.</title> <div sID=\"gen28324\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14657\"/><hi type=\"bold\">11-12. stood--</hi>as the Jews in prayer (<reference osisRef=\"Mark.11.25\">Mr 11:25</reference>).<div eID=\"gen28324\" type=\"x-p\"/> <div sID=\"gen28325\" type=\"x-p\"/><hi type=\"bold\">God, &amp;c.--</hi>To have been kept from gross iniquities was undoubtedly a just cause of thankfulness to God; but instead of the devoutly humble, admiring frame which this should inspire, the Pharisee arrogantly severs himself from the rest of mankind, as quite above them, and, with a contemptuous look at the poor publican, thanks God that he has not to stand afar off like him, to hang down his head like a bulrush and beat his breast like him. But these are only his moral excellencies. His religious merits complete his grounds for congratulation. Not confining himself to the one divinely prescribed annual fast (<reference osisRef=\"Lev.16.29\">Le 16:29</reference>), he was not behind the most rigid, who fasted on the second and fifth days of every week [Lightfoot], and gave the tenth not only of what the law laid under tithing, but of \"all his gains.\" Thus, besides doing all his duty, he did works of supererogation; while sins to confess and spiritual wants to be supplied he seems to have felt none. What a picture of the Pharisaic character and religion! <div eID=\"gen28325\" type=\"x-p\"/>",
+      "content_plain": "Lu 18:9-14 . Parable of the Pharisee and the Publican. 11-12. stood-- as the Jews in prayer ( Mr 11:25 ). God, &c.-- To have been kept from gross iniquities was undoubtedly a just cause of thankfulness to God; but instead of the devoutly humble, admiring frame which this should inspire, the Pharisee arrogantly severs himself from the rest of mankind, as quite above them, and, with a contemptuous look at the poor publican, thanks God that he has not to stand afar off like him, to hang down his head like a bulrush and beat his breast like him. But these are only his moral excellencies. His religious merits complete his grounds for congratulation. Not confining himself to the one divinely prescribed annual fast ( Le 16:29 ), he was not behind the most rigid, who fasted on the second and fifth days of every week [Lightfoot], and gave the tenth not only of what the law laid under tithing, but of \"all his gains.\" Thus, besides doing all his duty, he did works of supererogation; while sins to confess and spiritual wants to be supplied he seems to have felt none. What a picture of the Pharisaic character and religion!",
+      "source_record_sha256": "608bf6d74b5af66a4302ade20ac972c55d10e39dec5a7bbad217a4cbe26dcd60",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 356774,
+        "length": 1583
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.11-12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Lu 18:9-14 . Parable of the Pharisee and the Publican. 11-12. stood-- as the Jews in prayer ( Mr 11:25 ). God, &c.-- To have been kept from gross iniquities was undoubtedly a just cause of thankfulness to God; but instead of the devoutly humble, admiring frame which this should inspire, the Pharisee arrogantly severs himself from the rest of mankind, as quite above them, and, with a contemptuous look at the poor publican, thanks God that he has not to stand afar off like him, to hang down his head like a bulrush and beat his breast like him. But these are only his moral excellencies. His religious merits complete his grounds for congratulation. Not confining himself to the one divinely prescribed annual fast ( Le 16:29 ), he was not behind the most rigid, who fasted on the second and fifth days of every week [Lightfoot], and gave the tenth not only of what the law laid under tithing, but of \"all his gains.\" Thus, besides doing all his duty, he did works of supererogation; while sins to confess and spiritual wants to be supplied he seems to have felt none. What a picture of the Pharisaic character and religion!"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.13-13:3:358357:1373",
+      "passage_start": "LUK.18.13",
+      "passage_end": "LUK.18.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14658\"/><div sID=\"gen28326\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14658\"/><hi type=\"bold\">13. standing afar off--</hi>as unworthy to draw near; but that was the way to get near (<reference osisRef=\"Ps.34.18\">Psa 34:18</reference>; <reference osisRef=\"Isa.57.15\">Is 57:15</reference>).<div eID=\"gen28326\" type=\"x-p\"/> <div sID=\"gen28327\" type=\"x-p\"/><hi type=\"bold\">would not lift up--</hi>blushing and ashamed to do so (<reference osisRef=\"Ezra.9.6\">Ezr 9:6</reference>).<div eID=\"gen28327\" type=\"x-p\"/> <div sID=\"gen28328\" type=\"x-p\"/><hi type=\"bold\">smote, &amp;c.--</hi>kept smiting; for anguish (<reference osisRef=\"Luke.23.48\">Lu 23:48</reference>), and self-reproach (<reference osisRef=\"Jer.31.19\">Jr 31:19</reference>).<div eID=\"gen28328\" type=\"x-p\"/> <div sID=\"gen28329\" type=\"x-p\"/><hi type=\"bold\">be merciful--</hi>\"be propitiated,\" a very unusual word in such a sense, only once else used in the New Testament, in the sense of \"making reconciliation\" by sacrifice (<reference osisRef=\"Heb.2.17\">He 2:17</reference>). There may therefore, be some allusion to this here, though not likely.<div eID=\"gen28329\" type=\"x-p\"/> <div sID=\"gen28330\" type=\"x-p\"/><hi type=\"bold\">a sinner--</hi>literally, \"the sinner\"; that is, \"If ever there was one, I am he.\" <div eID=\"gen28330\" type=\"x-p\"/>",
+      "content_plain": "13. standing afar off-- as unworthy to draw near; but that was the way to get near ( Psa 34:18 ; Is 57:15 ). would not lift up-- blushing and ashamed to do so ( Ezr 9:6 ). smote, &c.-- kept smiting; for anguish ( Lu 23:48 ), and self-reproach ( Jr 31:19 ). be merciful-- \"be propitiated,\" a very unusual word in such a sense, only once else used in the New Testament, in the sense of \"making reconciliation\" by sacrifice ( He 2:17 ). There may therefore, be some allusion to this here, though not likely. a sinner-- literally, \"the sinner\"; that is, \"If ever there was one, I am he.\"",
+      "source_record_sha256": "3a59e146dd9a4903b6d70875a8c229a88d459e1dfbc6c7a5beb0c2717cf2d08c",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 358357,
+        "length": 1373
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13. standing afar off-- as unworthy to draw near; but that was the way to get near ( Psa 34:18 ; Is 57:15 ). would not lift up-- blushing and ashamed to do so ( Ezr 9:6 ). smote, &c.-- kept smiting; for anguish ( Lu 23:48 ), and self-reproach ( Jr 31:19 ). be merciful-- \"be propitiated,\" a very unusual word in such a sense, only once else used in the New Testament, in the sense of \"making reconciliation\" by sacrifice ( He 2:17 ). There may therefore, be some allusion to this here, though not likely. a sinner-- literally, \"the sinner\"; that is, \"If ever there was one, I am he.\""
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.14-14:3:359730:1299",
+      "passage_start": "LUK.18.14",
+      "passage_end": "LUK.18.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14659\"/><div sID=\"gen28331\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14659\"/><hi type=\"bold\">14. rather than the other--</hi>The meaning is, \"and not the other\"; for the Pharisee was not seeking justification, and felt no need of it. This great law of the Kingdom of God is, in the teaching of Christ, inscribed, as in letters of gold, over its entrance gate. And in how many different forms is it repeated (<reference osisRef=\"Ps.138.6\">Psa 138:6</reference>; <reference osisRef=\"Ps.147.6\">147:6</reference>; <reference osisRef=\"Luke.1.53\">Lu 1:53</reference>). To be self-emptied, or, \"poor in spirit,\" is the fundamental and indispensable preparation for the reception of the \"grace which bringeth salvation\": wherever this exists, the \"mourning\" for it which precedes \"comfort\" and the earnest \"hungerings and thirstings after righteousness\" which are rewarded by the \"fulness\" of it, will, as we see here, be surely found. Such, therefore, and such only, are the justified ones (<reference osisRef=\"Job.33.27\">Job 33:27</reference>, <reference osisRef=\"Job.33.28\">28</reference>; <reference osisRef=\"Ps.34.18\">Psa 34:18</reference>; <reference osisRef=\"Isa.57.15\">Is 57:15</reference>). <div eID=\"gen28331\" type=\"x-p\"/>",
+      "content_plain": "14. rather than the other-- The meaning is, \"and not the other\"; for the Pharisee was not seeking justification, and felt no need of it. This great law of the Kingdom of God is, in the teaching of Christ, inscribed, as in letters of gold, over its entrance gate. And in how many different forms is it repeated ( Psa 138:6 ; 147:6 ; Lu 1:53 ). To be self-emptied, or, \"poor in spirit,\" is the fundamental and indispensable preparation for the reception of the \"grace which bringeth salvation\": wherever this exists, the \"mourning\" for it which precedes \"comfort\" and the earnest \"hungerings and thirstings after righteousness\" which are rewarded by the \"fulness\" of it, will, as we see here, be surely found. Such, therefore, and such only, are the justified ones ( Job 33:27 , 28 ; Psa 34:18 ; Is 57:15 ).",
+      "source_record_sha256": "405472bca712921c02424e80b9a0a27b30207ecc4c4469b7835f4c25e8a509dc",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 359730,
+        "length": 1299
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14. rather than the other-- The meaning is, \"and not the other\"; for the Pharisee was not seeking justification, and felt no need of it. This great law of the Kingdom of God is, in the teaching of Christ, inscribed, as in letters of gold, over its entrance gate. And in how many different forms is it repeated ( Psa 138:6 ; 147:6 ; Lu 1:53 ). To be self-emptied, or, \"poor in spirit,\" is the fundamental and indispensable preparation for the reception of the \"grace which bringeth salvation\": wherever this exists, the \"mourning\" for it which precedes \"comfort\" and the earnest \"hungerings and thirstings after righteousness\" which are rewarded by the \"fulness\" of it, will, as we see here, be surely found. Such, therefore, and such only, are the justified ones ( Job 33:27 , 28 ; Psa 34:18 ; Is 57:15 )."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.15-15:3:361029:1619",
+      "passage_start": "LUK.18.15",
+      "passage_end": "LUK.18.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14660\"/><title type=\"x-s3\"><reference osisRef=\"Luke.18.15-Luke.18.17\">Lu 18:15-17</reference>. Little Children Brought to Christ.</title> <div sID=\"gen28332\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14660\"/><hi type=\"bold\">15. infants--</hi>showing that some, at least, of those called in Matthew (<reference osisRef=\"Matt.19.13\">Mt 19:13</reference>) and Mark (<reference osisRef=\"Mark.10.13\">Mr 10:13</reference>) simply \"little\" or \"young children,\" were literally \"babes.\"<div eID=\"gen28332\" type=\"x-p\"/> <div sID=\"gen28333\" type=\"x-p\"/><hi type=\"bold\">touch them--</hi>or, as more fully in Matthew (<reference osisRef=\"Matt.19.13\">Mt 19:13</reference>), \"put His hands on them and pray,\" or invoke a \"blessing\" on them (<reference osisRef=\"Mark.10.16\">Mr 10:16</reference>), according to venerable custom (<reference osisRef=\"Gen.48.14\">Ge 48:14</reference>, <reference osisRef=\"Gen.48.15\">15</reference>).<div eID=\"gen28333\" type=\"x-p\"/> <div sID=\"gen28334\" type=\"x-p\"/><hi type=\"bold\">rebuked them--</hi>Repeatedly the disciples thus interposed to save annoyance and interruption to their Master; but, as the result showed, always against the mind of Christ (<reference osisRef=\"Matt.15.23\">Mt 15:23</reference>; <reference osisRef=\"Luke.18.39\">Lu 18:39</reference>, <reference osisRef=\"Luke.18.40\">40</reference>). Here, it is plain from our Lord's reply, that they thought the intrusion a useless one, as infants were not capable of receiving anything from Him. His ministrations were for grown people. <div eID=\"gen28334\" type=\"x-p\"/>",
+      "content_plain": "Lu 18:15-17 . Little Children Brought to Christ. 15. infants-- showing that some, at least, of those called in Matthew ( Mt 19:13 ) and Mark ( Mr 10:13 ) simply \"little\" or \"young children,\" were literally \"babes.\" touch them-- or, as more fully in Matthew ( Mt 19:13 ), \"put His hands on them and pray,\" or invoke a \"blessing\" on them ( Mr 10:16 ), according to venerable custom ( Ge 48:14 , 15 ). rebuked them-- Repeatedly the disciples thus interposed to save annoyance and interruption to their Master; but, as the result showed, always against the mind of Christ ( Mt 15:23 ; Lu 18:39 , 40 ). Here, it is plain from our Lord's reply, that they thought the intrusion a useless one, as infants were not capable of receiving anything from Him. His ministrations were for grown people.",
+      "source_record_sha256": "e3e39199195c249e34a830f621cbb74cc5b7f787665fc88ca79821331dbcf013",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 361029,
+        "length": 1619
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Lu 18:15-17 . Little Children Brought to Christ. 15. infants-- showing that some, at least, of those called in Matthew ( Mt 19:13 ) and Mark ( Mr 10:13 ) simply \"little\" or \"young children,\" were literally \"babes.\" touch them-- or, as more fully in Matthew ( Mt 19:13 ), \"put His hands on them and pray,\" or invoke a \"blessing\" on them ( Mr 10:16 ), according to venerable custom ( Ge 48:14 , 15 ). rebuked them-- Repeatedly the disciples thus interposed to save annoyance and interruption to their Master; but, as the result showed, always against the mind of Christ ( Mt 15:23 ; Lu 18:39 , 40 ). Here, it is plain from our Lord's reply, that they thought the intrusion a useless one, as infants were not capable of receiving anything from Him. His ministrations were for grown people."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.16-16:3:362648:3840",
+      "passage_start": "LUK.18.16",
+      "passage_end": "LUK.18.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14661\"/><div sID=\"gen28335\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14661\"/><hi type=\"bold\">16. But Jesus--</hi>\"much displeased,\" says Mark (<reference osisRef=\"Mark.10.14\">Mr 10:14</reference>); and invaluable addition.<div eID=\"gen28335\" type=\"x-p\"/> <div sID=\"gen28336\" type=\"x-p\"/><hi type=\"bold\">said--</hi>\"Suffer the little children to come unto Me\"--\"AND FORBID THEM NOT,\" is the important addition of Matthew (<reference osisRef=\"Matt.19.14\">Mt 19:14</reference>) and Mark (<reference osisRef=\"Mark.10.14\">Mr 10:14</reference>). What words are these from the lips of Christ! The price of them is above rubies. But the reason assigned, \"For of such is the Kingdom of God,\" or \"of heaven,\" as in <reference osisRef=\"Matt.19.14\">Mt 19:14</reference>, completes the previous information here conveyed; especially as interpreted by what immediately follows: \"And He took them up in His arms, put His hands upon them, and blessed them\" (<reference osisRef=\"Mark.10.16\">Mr 10:16</reference>). It is surely not to be conceived that all our Lord meant was to inform us, that seeing grown people must become childlike in order to be capable of the Kingdom of God, therefore they should not hinder infants from coming to Him, and therefore He took up and blessed the infants themselves. Was it not just the grave mistake of the disciples that infants should not be brought to Christ, because only grown people could profit by Him, which \"much displeased\" our Lord? And though He took the irresistible opportunity of lowering their pride of reason, by informing them that, in order to enter the Kingdom, \"instead of the children first becoming like them, they must themselves become like the children\" [Richter in Stier], this was but by the way; and, returning to the children themselves, He took them up in His gracious arms, put His hands upon them and blessed them, for no conceivable reason but to show that they were thereby made capable, AS INFANTS, of the Kingdom of God. And if so, then \"Can any man forbid water that these should not be baptized which have received the Holy Ghost as well as we?\" (<reference osisRef=\"Acts.10.47\">Ac 10:47</reference>). But such application of the baptismal water can have no warrant here, save where the infants have been previously brought to Christ Himself for His benediction, and only as the sign and seal of that benediction.<div eID=\"gen28336\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Luke.18.18-Luke.18.30\">Lu 18:18-30</reference>. The Rich Young Ruler and Discourse Thereon.</title> <div sID=\"gen28337\" type=\"x-p\"/><hi type=\"bold\">This case presents some remarkable points. (1) The man was of irreproachable moral character; and this amidst all the temptations of youth, for he was a \"young man\" (<reference osisRef=\"Matt.19.22\">Mt 19:22</reference>), and wealth, for \"he was very rich\" (<reference osisRef=\"Luke.18.23\">Lu 18:23</reference>; <reference osisRef=\"Mark.10.22\">Mr 10:22</reference>). (<reference osisRef=\"2Cor.10.2\">2</reference>) But restless notwithstanding, his heart craves eternal life. (3) Unlike the \"rulers,\" to whose class he belonged (<reference osisRef=\"Luke.18.18\">Lu 18:18</reference>), he so far believed in Jesus as to be persuaded He could authoritatively direct him on this vital point. (4) So earnest is he that he comes \"running\" and even \"kneeling before Him,\" and that when He was gone forth into the war (<reference osisRef=\"Mark.10.17\">Mr 10:17</reference>)--</hi>the high-road, by this time crowded with travellers to the passover; undeterred by the virulent opposition of the class he belonged to as a \"ruler\" and by the shame he might be expected to feel at broaching such a question in the hearing of a crowd and on the open road. <div eID=\"gen28337\" type=\"x-p\"/>",
+      "content_plain": "16. But Jesus-- \"much displeased,\" says Mark ( Mr 10:14 ); and invaluable addition. said-- \"Suffer the little children to come unto Me\"--\"AND FORBID THEM NOT,\" is the important addition of Matthew ( Mt 19:14 ) and Mark ( Mr 10:14 ). What words are these from the lips of Christ! The price of them is above rubies. But the reason assigned, \"For of such is the Kingdom of God,\" or \"of heaven,\" as in Mt 19:14 , completes the previous information here conveyed; especially as interpreted by what immediately follows: \"And He took them up in His arms, put His hands upon them, and blessed them\" ( Mr 10:16 ). It is surely not to be conceived that all our Lord meant was to inform us, that seeing grown people must become childlike in order to be capable of the Kingdom of God, therefore they should not hinder infants from coming to Him, and therefore He took up and blessed the infants themselves. Was it not just the grave mistake of the disciples that infants should not be brought to Christ, because only grown people could profit by Him, which \"much displeased\" our Lord? And though He took the irresistible opportunity of lowering their pride of reason, by informing them that, in order to enter the Kingdom, \"instead of the children first becoming like them, they must themselves become like the children\" [Richter in Stier], this was but by the way; and, returning to the children themselves, He took them up in His gracious arms, put His hands upon them and blessed them, for no conceivable reason but to show that they were thereby made capable, AS INFANTS, of the Kingdom of God. And if so, then \"Can any man forbid water that these should not be baptized which have received the Holy Ghost as well as we?\" ( Ac 10:47 ). But such application of the baptismal water can have no warrant here, save where the infants have been previously brought to Christ Himself for His benediction, and only as the sign and seal of that benediction. Lu 18:18-30 . The Rich Young Ruler and Discourse Thereon. This case presents some remarkable points. (1) The man was of irreproachable moral character; and this amidst all the temptations of youth, for he was a \"young man\" ( Mt 19:22 ), and wealth, for \"he was very rich\" ( Lu 18:23 ; Mr 10:22 ). ( 2 ) But restless notwithstanding, his heart craves eternal life. (3) Unlike the \"rulers,\" to whose class he belonged ( Lu 18:18 ), he so far believed in Jesus as to be persuaded He could authoritatively direct him on this vital point. (4) So earnest is he that he comes \"running\" and even \"kneeling before Him,\" and that when He was gone forth into the war ( Mr 10:17 )-- the high-road, by this time crowded with travellers to the passover; undeterred by the virulent opposition of the class he belonged to as a \"ruler\" and by the shame he might be expected to feel at broaching such a question in the hearing of a crowd and on the open road.",
+      "source_record_sha256": "20352df8bc3c61f658ff74893a47c53631bdc332e2b4c6827f066a764c79a874",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 362648,
+        "length": 3840
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16. But Jesus-- \"much displeased,\" says Mark ( Mr 10:14 ); and invaluable addition. said-- \"Suffer the little children to come unto Me\"--\"AND FORBID THEM NOT,\" is the important addition of Matthew ( Mt 19:14 ) and Mark ( Mr 10:14 ). What words are these from the lips of Christ! The price of them is above rubies. But the reason assigned, \"For of such is the Kingdom of God,\" or \"of heaven,\" as in Mt 19:14 , completes the previous information here conveyed; especially as interpreted by what immediately follows: \"And He took them up in His arms, put His hands upon them, and blessed them\" ( Mr 10:16 ). It is surely not to be conceived that all our Lord meant was to inform us, that seeing grown people must become childlike in order to be capable of the Kingdom of God, therefore they should not hinder infants from coming to Him, and therefore He took up and blessed the infants themselves. Was it not just the grave mistake of the disciples that infants should not be brought to Christ, because only grown people could profit by Him, which \"much displeased\" our Lord? And though He took the irresistible opportunity of lowering their pride of reason, by informing them that, in order to enter the Kingdom, \"instead of the children first becoming like them, they must themselves become like the children\" [Richter in Stier], this was but by the way; and, returning to the children themselves, He took them up in His gracious arms, put His hands upon them and blessed them, for no conceivable reason but to show that they were thereby made capable, AS INFANTS, of the Kingdom of God. And if so, then \"Can any man forbid water that these should not be baptized which have received the Holy Ghost as well as we?\" ( Ac 10:47 ). But such application of the baptismal water can have no warrant here, save where the infants have been previously brought to Christ Himself for His benediction, and only as the sign and seal of that benediction. Lu 18:18-30 . The Rich Young Ruler and Discourse Thereon. This case presents some remarkable points. (1) The man was of irreproachable moral character; and this amidst all the temptations of youth, for he was a \"young man\" ( Mt 19:22 ), and wealth, for \"he was very rich\" ( Lu 18:23 ; Mr 10:22 ). ( 2 ) But restless notwithstanding, his heart craves eternal life. (3) Unlike the \"rulers,\" to whose class he belonged ( Lu 18:18 ), he so far believed in Jesus as to be persuaded He could authoritatively direct him on this vital point. (4) So earnest is he that he comes \"running\" and even \"kneeling before Him,\" and that when He was gone forth into the war ( Mr 10:17 )-- the high-road, by this time crowded with travellers to the passover; undeterred by the virulent opposition of the class he belonged to as a \"ruler\" and by the shame he might be expected to feel at broaching such a question in the hearing of a crowd and on the open road."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.19-19:3:366488:1052",
+      "passage_start": "LUK.18.19",
+      "passage_end": "LUK.18.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14662\"/><div sID=\"gen28338\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14662\"/><hi type=\"bold\">19. Why, &amp;c.--</hi>Did our Lord mean then to teach that God only ought to be called \"good?\" Impossible, for that had been to contradict all Scripture teaching, and His own, too (<reference osisRef=\"Ps.112.5\">Psa 112:5</reference>; <reference osisRef=\"Matt.25.21\">Mt 25:21</reference>; <reference osisRef=\"Titus.1.8\">Tit 1:8</reference>). Unless therefore we are to ascribe captiousness to our Lord, He could have had but one object--to raise the youth's ideas of Himself, as not to be classed merely with other \"good masters,\" and declining to receive this title apart from the \"One\" who is essentially and only \"good.\" This indeed is but distantly hinted; but unless this is seen in the background of our Lord's words, nothing worthy of Him can be made out of them. (Hence, Socinianism, instead of having any support here, is only baffled by it). <div eID=\"gen28338\" type=\"x-p\"/>",
+      "content_plain": "19. Why, &c.-- Did our Lord mean then to teach that God only ought to be called \"good?\" Impossible, for that had been to contradict all Scripture teaching, and His own, too ( Psa 112:5 ; Mt 25:21 ; Tit 1:8 ). Unless therefore we are to ascribe captiousness to our Lord, He could have had but one object--to raise the youth's ideas of Himself, as not to be classed merely with other \"good masters,\" and declining to receive this title apart from the \"One\" who is essentially and only \"good.\" This indeed is but distantly hinted; but unless this is seen in the background of our Lord's words, nothing worthy of Him can be made out of them. (Hence, Socinianism, instead of having any support here, is only baffled by it).",
+      "source_record_sha256": "90cb15dbf5ca7d22577b4f3b72b17d3b09c4d3b00f00122cc79bee75a86522ef",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 366488,
+        "length": 1052
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19. Why, &c.-- Did our Lord mean then to teach that God only ought to be called \"good?\" Impossible, for that had been to contradict all Scripture teaching, and His own, too ( Psa 112:5 ; Mt 25:21 ; Tit 1:8 ). Unless therefore we are to ascribe captiousness to our Lord, He could have had but one object--to raise the youth's ideas of Himself, as not to be classed merely with other \"good masters,\" and declining to receive this title apart from the \"One\" who is essentially and only \"good.\" This indeed is but distantly hinted; but unless this is seen in the background of our Lord's words, nothing worthy of Him can be made out of them. (Hence, Socinianism, instead of having any support here, is only baffled by it)."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.20-20:3:367540:1082",
+      "passage_start": "LUK.18.20",
+      "passage_end": "LUK.18.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14663\"/><div sID=\"gen28339\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14663\"/><hi type=\"bold\">20. Thou knowest, &amp;c.--</hi>Matthew (<reference osisRef=\"Matt.19.17\">Mt 19:17</reference>) is more complete here: \"but if thou wilt enter into life, keep the commandments. He saith unto him, Which--as if he had said, Point me out one of them which I have not kept?--\"Jesus said, Thou shalt,\" &amp;c. (<reference osisRef=\"Matt.19.17\">Mt 19:17</reference>, <reference osisRef=\"Matt.19.18\">18</reference>). Our Lord purposely confines Himself to the second table, which He would consider easy to keep, enumerating them all--for in Mark (<reference osisRef=\"Mark.10.19\">Mr 10:19</reference>), \"Defraud not\" stands for the tenth (else the eighth is twice repeated). In Matthew (<reference osisRef=\"Matt.19.19\">Mt 19:19</reference>) the sum of this second table of the law is added, \"Thou shalt love thy neighbor as thyself,\" as if to see if he would venture to say he had kept that. <div eID=\"gen28339\" type=\"x-p\"/>",
+      "content_plain": "20. Thou knowest, &c.-- Matthew ( Mt 19:17 ) is more complete here: \"but if thou wilt enter into life, keep the commandments. He saith unto him, Which--as if he had said, Point me out one of them which I have not kept?--\"Jesus said, Thou shalt,\" &c. ( Mt 19:17 , 18 ). Our Lord purposely confines Himself to the second table, which He would consider easy to keep, enumerating them all--for in Mark ( Mr 10:19 ), \"Defraud not\" stands for the tenth (else the eighth is twice repeated). In Matthew ( Mt 19:19 ) the sum of this second table of the law is added, \"Thou shalt love thy neighbor as thyself,\" as if to see if he would venture to say he had kept that.",
+      "source_record_sha256": "d66f79d48376e7fa1802635a54ad095ee18ee4bd5557c18172e59373da3f7f94",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 367540,
+        "length": 1082
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20. Thou knowest, &c.-- Matthew ( Mt 19:17 ) is more complete here: \"but if thou wilt enter into life, keep the commandments. He saith unto him, Which--as if he had said, Point me out one of them which I have not kept?--\"Jesus said, Thou shalt,\" &c. ( Mt 19:17 , 18 ). Our Lord purposely confines Himself to the second table, which He would consider easy to keep, enumerating them all--for in Mark ( Mr 10:19 ), \"Defraud not\" stands for the tenth (else the eighth is twice repeated). In Matthew ( Mt 19:19 ) the sum of this second table of the law is added, \"Thou shalt love thy neighbor as thyself,\" as if to see if he would venture to say he had kept that."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.21-21:3:368622:1073",
+      "passage_start": "LUK.18.21",
+      "passage_end": "LUK.18.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14664\"/><div sID=\"gen28340\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14664\"/><hi type=\"bold\">21. All these, &amp;c.--</hi>\"what lack I yet?\" adds Matthew (<reference osisRef=\"Matt.19.20\">Mt 19:20</reference>). Ah! <hi type=\"bold\">this gives us a glimpse of his heart. Doubtless he was perfectly sincere; but something within whispered to him that his keeping of the commandments was too easy a way of getting to heaven. He felt something beyond this to be necessary; after keeping all the commandments he was at a loss to know what that could be; and he came to Jesus just upon that point. \"Then,\" says Mark (<reference osisRef=\"Mark.10.21\">Mr 10:21</reference>), \"Jesus beholding him loved him,\" or \"looked lovingly upon him.\" His sincerity, frankness, and nearness to the kingdom of God, in themselves most winning qualities, won our Lord's regard even though he turned his back upon Him--</hi>a lesson to those who can see nothing lovable save in the regenerate. <div eID=\"gen28340\" type=\"x-p\"/>",
+      "content_plain": "21. All these, &c.-- \"what lack I yet?\" adds Matthew ( Mt 19:20 ). Ah! this gives us a glimpse of his heart. Doubtless he was perfectly sincere; but something within whispered to him that his keeping of the commandments was too easy a way of getting to heaven. He felt something beyond this to be necessary; after keeping all the commandments he was at a loss to know what that could be; and he came to Jesus just upon that point. \"Then,\" says Mark ( Mr 10:21 ), \"Jesus beholding him loved him,\" or \"looked lovingly upon him.\" His sincerity, frankness, and nearness to the kingdom of God, in themselves most winning qualities, won our Lord's regard even though he turned his back upon Him-- a lesson to those who can see nothing lovable save in the regenerate.",
+      "source_record_sha256": "3bc0df455ef7fca726571b9aa8ce8f35b0914188c38c3dd393957471c5d49a12",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 368622,
+        "length": 1073
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "21. All these, &c.-- \"what lack I yet?\" adds Matthew ( Mt 19:20 ). Ah! this gives us a glimpse of his heart. Doubtless he was perfectly sincere; but something within whispered to him that his keeping of the commandments was too easy a way of getting to heaven. He felt something beyond this to be necessary; after keeping all the commandments he was at a loss to know what that could be; and he came to Jesus just upon that point. \"Then,\" says Mark ( Mr 10:21 ), \"Jesus beholding him loved him,\" or \"looked lovingly upon him.\" His sincerity, frankness, and nearness to the kingdom of God, in themselves most winning qualities, won our Lord's regard even though he turned his back upon Him-- a lesson to those who can see nothing lovable save in the regenerate."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.22-22:3:369695:790",
+      "passage_start": "LUK.18.22",
+      "passage_end": "LUK.18.22",
+      "start_verse": 22,
+      "end_verse": 22,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14665\"/><div sID=\"gen28341\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14665\"/><hi type=\"bold\">22. lackest ... one thing--</hi>Ah! but that a fundamental, fatal lack.<div eID=\"gen28341\" type=\"x-p\"/> <div sID=\"gen28342\" type=\"x-p\"/><hi type=\"bold\">sell, &amp;c.--</hi>As riches were his idol, our Lord, who knew if from the first, lays His great authoritative grasp at once upon it, saying, \"Now give Me up that, and all is right.\" No general direction about the disposal of riches, then, is here given, save that we are to sit loose to them and lay them at the feet of Him who gave them. He who does this with all he has, whether rich or poor, is a true heir of the kingdom of heaven. <div eID=\"gen28342\" type=\"x-p\"/>",
+      "content_plain": "22. lackest ... one thing-- Ah! but that a fundamental, fatal lack. sell, &c.-- As riches were his idol, our Lord, who knew if from the first, lays His great authoritative grasp at once upon it, saying, \"Now give Me up that, and all is right.\" No general direction about the disposal of riches, then, is here given, save that we are to sit loose to them and lay them at the feet of Him who gave them. He who does this with all he has, whether rich or poor, is a true heir of the kingdom of heaven.",
+      "source_record_sha256": "03dda1f53a27e9bb448996014d2dba0c72d8ce24dc666f344f4692e31abaa91b",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 369695,
+        "length": 790
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "22. lackest ... one thing-- Ah! but that a fundamental, fatal lack. sell, &c.-- As riches were his idol, our Lord, who knew if from the first, lays His great authoritative grasp at once upon it, saying, \"Now give Me up that, and all is right.\" No general direction about the disposal of riches, then, is here given, save that we are to sit loose to them and lay them at the feet of Him who gave them. He who does this with all he has, whether rich or poor, is a true heir of the kingdom of heaven."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.23-25:3:370485:806",
+      "passage_start": "LUK.18.23",
+      "passage_end": "LUK.18.25",
+      "start_verse": 23,
+      "end_verse": 25,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14666\"/><div sID=\"gen28343\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14666\"/><hi type=\"bold\">23-25. was very sorrowful--</hi>Matthew (<reference osisRef=\"Matt.19.22\">Mt 19:22</reference>) more fully, \"went away sorrowful\"; Mark still more, \"was sad\" or \"sullen\" at that saying, and \"went away grieved.\" Sorry he was, very sorry, to part with Christ; but to part with his riches would have cost him a pang more. When Riches or Heaven, on Christ's terms, were the alternative, the result showed to which side the balance inclined. Thus was he shown to lack the one all-comprehensive requirement of the law--the absolute subjection of the heart to God, and this want vitiated all his other obediences. <div eID=\"gen28343\" type=\"x-p\"/>",
+      "content_plain": "23-25. was very sorrowful-- Matthew ( Mt 19:22 ) more fully, \"went away sorrowful\"; Mark still more, \"was sad\" or \"sullen\" at that saying, and \"went away grieved.\" Sorry he was, very sorry, to part with Christ; but to part with his riches would have cost him a pang more. When Riches or Heaven, on Christ's terms, were the alternative, the result showed to which side the balance inclined. Thus was he shown to lack the one all-comprehensive requirement of the law--the absolute subjection of the heart to God, and this want vitiated all his other obediences.",
+      "source_record_sha256": "c9fb5c87a6c185b451eb299fdca74e9453e2bf1c39558f726a4d7029d8efab18",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 370485,
+        "length": 806
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.23-25",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "23-25. was very sorrowful-- Matthew ( Mt 19:22 ) more fully, \"went away sorrowful\"; Mark still more, \"was sad\" or \"sullen\" at that saying, and \"went away grieved.\" Sorry he was, very sorry, to part with Christ; but to part with his riches would have cost him a pang more. When Riches or Heaven, on Christ's terms, were the alternative, the result showed to which side the balance inclined. Thus was he shown to lack the one all-comprehensive requirement of the law--the absolute subjection of the heart to God, and this want vitiated all his other obediences."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.26-27:3:372541:310",
+      "passage_start": "LUK.18.26",
+      "passage_end": "LUK.18.27",
+      "start_verse": 26,
+      "end_verse": 27,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14669\"/><div sID=\"gen28347\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14669\"/><hi type=\"bold\">26-27. For, &amp;c.--</hi>\"At that rate none can be saved\": \"Well, it does pass human power, but not divine.\" <div eID=\"gen28347\" type=\"x-p\"/>",
+      "content_plain": "26-27. For, &c.-- \"At that rate none can be saved\": \"Well, it does pass human power, but not divine.\"",
+      "source_record_sha256": "f55125321e888abb2a8a328a91924cf2531482b9e2f1fd0ae413a7746a3d3349",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 372541,
+        "length": 310
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.26-27",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "26-27. For, &c.-- \"At that rate none can be saved\": \"Well, it does pass human power, but not divine.\""
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.28-30:3:372851:762",
+      "passage_start": "LUK.18.28",
+      "passage_end": "LUK.18.30",
+      "start_verse": 28,
+      "end_verse": 30,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14670\"/><div sID=\"gen28348\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14670\"/><hi type=\"bold\">28-30. Lo, &amp;c.--</hi>in the simplicity of his heart (as is evident from the reply), conscious that the required surrender had been made, and generously taking in his brethren with him--\"we\"; not in the spirit of the young ruler. \"All these have I kept,\"<div eID=\"gen28348\" type=\"x-p\"/> <div sID=\"gen28349\" type=\"x-p\"/><hi type=\"bold\">left all--</hi>\"The workmen's little is as much his \"all\" as the prince's much\" [Bengel]. In Matthew (<reference osisRef=\"Matt.19.27\">Mt 19:27</reference>) he adds, \"What shall we have therefore?\" How shall it fare with us? <div eID=\"gen28349\" type=\"x-p\"/>",
+      "content_plain": "28-30. Lo, &c.-- in the simplicity of his heart (as is evident from the reply), conscious that the required surrender had been made, and generously taking in his brethren with him--\"we\"; not in the spirit of the young ruler. \"All these have I kept,\" left all-- \"The workmen's little is as much his \"all\" as the prince's much\" [Bengel]. In Matthew ( Mt 19:27 ) he adds, \"What shall we have therefore?\" How shall it fare with us?",
+      "source_record_sha256": "72464e59a93c346f59cd0e1b513c934a045e218e3c14442539b11b6d53134bb1",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 372851,
+        "length": 762
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.28-30",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "28-30. Lo, &c.-- in the simplicity of his heart (as is evident from the reply), conscious that the required surrender had been made, and generously taking in his brethren with him--\"we\"; not in the spirit of the young ruler. \"All these have I kept,\" left all-- \"The workmen's little is as much his \"all\" as the prince's much\" [Bengel]. In Matthew ( Mt 19:27 ) he adds, \"What shall we have therefore?\" How shall it fare with us?"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.31-31:3:377575:488",
+      "passage_start": "LUK.18.31",
+      "passage_end": "LUK.18.31",
+      "start_verse": 31,
+      "end_verse": 31,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14673\"/><div sID=\"gen28359\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14673\"/><hi type=\"bold\">31. all written by the prophets concerning the Son of man ... be accomplished--</hi>showing how Christ Himself read, and would have us to read, the Old Testament, in which some otherwise evangelical interpreters find no prophecies, or virtually none, of the sufferings of the Son of man. <div eID=\"gen28359\" type=\"x-p\"/>",
+      "content_plain": "31. all written by the prophets concerning the Son of man ... be accomplished-- showing how Christ Himself read, and would have us to read, the Old Testament, in which some otherwise evangelical interpreters find no prophecies, or virtually none, of the sufferings of the Son of man.",
+      "source_record_sha256": "65b3edb36e9d0fceb18ceff71318d0d4da2c69348f6e86550711bc036d4db38e",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 377575,
+        "length": 488
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.31",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "31. all written by the prophets concerning the Son of man ... be accomplished-- showing how Christ Himself read, and would have us to read, the Old Testament, in which some otherwise evangelical interpreters find no prophecies, or virtually none, of the sufferings of the Son of man."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.34-34:3:378063:1421",
+      "passage_start": "LUK.18.34",
+      "passage_end": "LUK.18.34",
+      "start_verse": 34,
+      "end_verse": 34,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14674\"/><div sID=\"gen28360\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14674\"/><hi type=\"bold\">34. understood none, &amp;c.--</hi>The Evangelist seems unable to say strongly enough how entirely hidden from them at that time was the sense of these exceeding plain statements: no doubt to add weight to their subsequent testimony, which from this very circumstance was prodigious, and with all the simple-hearted irresistible.<div eID=\"gen28360\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Luke.18.35-Luke.18.43\">Lu 18:35-43</reference>. Blind Man Healed.</title> <div sID=\"gen28361\" type=\"x-p\"/> In <reference osisRef=\"Matt.20.29-Matt.20.34\">Mt 20:29-34</reference>, they are two, as in the case of the Demoniac of Gadara. In Matthew and Mark (<reference osisRef=\"Mark.10.46-Mark.10.52\">Mr 10:46-52</reference>) the occurrence is connected with Christ's departure from Jericho; in Luke with His approach to it. Many ways of accounting for these slight divergences of detail have been proposed. Perhaps, if we knew all the facts, we should see no difficulty; but that we have been left so far in the dark shows that the thing is of no moment any way. One thing is plain, there could have been no collusion among the authors of these Gospels, else they would have taken care to remove these \"spots on the sun.\" <div eID=\"gen28361\" type=\"x-p\"/>",
+      "content_plain": "34. understood none, &c.-- The Evangelist seems unable to say strongly enough how entirely hidden from them at that time was the sense of these exceeding plain statements: no doubt to add weight to their subsequent testimony, which from this very circumstance was prodigious, and with all the simple-hearted irresistible. Lu 18:35-43 . Blind Man Healed. In Mt 20:29-34 , they are two, as in the case of the Demoniac of Gadara. In Matthew and Mark ( Mr 10:46-52 ) the occurrence is connected with Christ's departure from Jericho; in Luke with His approach to it. Many ways of accounting for these slight divergences of detail have been proposed. Perhaps, if we knew all the facts, we should see no difficulty; but that we have been left so far in the dark shows that the thing is of no moment any way. One thing is plain, there could have been no collusion among the authors of these Gospels, else they would have taken care to remove these \"spots on the sun.\"",
+      "source_record_sha256": "221706d55249d444c7804eec8c148d593b2a2fe3a4725f29e0d023caca5b96e2",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 378063,
+        "length": 1421
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.34",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "34. understood none, &c.-- The Evangelist seems unable to say strongly enough how entirely hidden from them at that time was the sense of these exceeding plain statements: no doubt to add weight to their subsequent testimony, which from this very circumstance was prodigious, and with all the simple-hearted irresistible. Lu 18:35-43 . Blind Man Healed. In Mt 20:29-34 , they are two, as in the case of the Demoniac of Gadara. In Matthew and Mark ( Mr 10:46-52 ) the occurrence is connected with Christ's departure from Jericho; in Luke with His approach to it. Many ways of accounting for these slight divergences of detail have been proposed. Perhaps, if we knew all the facts, we should see no difficulty; but that we have been left so far in the dark shows that the thing is of no moment any way. One thing is plain, there could have been no collusion among the authors of these Gospels, else they would have taken care to remove these \"spots on the sun.\""
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.38-38:3:379484:295",
+      "passage_start": "LUK.18.38",
+      "passage_end": "LUK.18.38",
+      "start_verse": 38,
+      "end_verse": 38,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14675\"/><div sID=\"gen28362\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14675\"/><hi type=\"bold\">38. son of David, &amp;c.--</hi>(See on <reference osisRef=\"Matt.12.23\">Mt 12:23</reference>). <div eID=\"gen28362\" type=\"x-p\"/>",
+      "content_plain": "38. son of David, &c.-- (See on Mt 12:23 ).",
+      "source_record_sha256": "70f40a836e81a29d5ab6705e2ee13ec814ec2355b29995fef207a4bd708636f6",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 379484,
+        "length": 295
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.38",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "38. son of David, &c.-- (See on Mt 12:23 )."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.39-39:3:379779:495",
+      "passage_start": "LUK.18.39",
+      "passage_end": "LUK.18.39",
+      "start_verse": 39,
+      "end_verse": 39,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14676\"/><div sID=\"gen28363\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14676\"/><hi type=\"bold\">39. rebuked, &amp;c.--</hi>(See on <reference osisRef=\"Luke.18.15\">Lu 18:15</reference>).<div eID=\"gen28363\" type=\"x-p\"/> <div sID=\"gen28364\" type=\"x-p\"/><hi type=\"bold\">so much the more--</hi>that importunity so commended in the Syrophenician woman, and so often enjoined (Lu 11:5-13; 18:1-8). <div eID=\"gen28364\" type=\"x-p\"/>",
+      "content_plain": "39. rebuked, &c.-- (See on Lu 18:15 ). so much the more-- that importunity so commended in the Syrophenician woman, and so often enjoined (Lu 11:5-13; 18:1-8).",
+      "source_record_sha256": "85cff6c5281c19f4caebfa9af8b15095bcbb5e6f09a7ecf69e8529f91ae4357a",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 379779,
+        "length": 495
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.39",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "39. rebuked, &c.-- (See on Lu 18:15 ). so much the more-- that importunity so commended in the Syrophenician woman, and so often enjoined (Lu 11:5-13; 18:1-8)."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.40-40:3:380274:1056",
+      "passage_start": "LUK.18.40",
+      "passage_end": "LUK.18.40",
+      "start_verse": 40,
+      "end_verse": 40,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14677\"/><div sID=\"gen28365\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14677\"/><hi type=\"bold\">40. commanded, &amp;c.--</hi>Mark (<reference osisRef=\"Mark.10.49\">Mr 10:49</reference>) has this interesting addition: \"And they call the blind man, saying unto him, Be of good comfort, rise, He calleth thee\"--just as one earnestly desiring an interview with some exalted person, but told by one official after another that it is vain to wait, as he will not succeed (they know it), yet persists in waiting for some answer to his suit, and at length the door opens, and a servant appears, saying, \"You will be admitted--he has called you.\" And are there no other suitors to Jesus who sometimes fare thus? \"And he, casting away his garment\"--how lively is this touch, evidently of an eye-witness, expressive of his earnestness and joy--\"came to Jesus\" (<reference osisRef=\"Mark.10.49\">Mr 10:49</reference>, <reference osisRef=\"Mark.10.50\">50</reference>). <div eID=\"gen28365\" type=\"x-p\"/>",
+      "content_plain": "40. commanded, &c.-- Mark ( Mr 10:49 ) has this interesting addition: \"And they call the blind man, saying unto him, Be of good comfort, rise, He calleth thee\"--just as one earnestly desiring an interview with some exalted person, but told by one official after another that it is vain to wait, as he will not succeed (they know it), yet persists in waiting for some answer to his suit, and at length the door opens, and a servant appears, saying, \"You will be admitted--he has called you.\" And are there no other suitors to Jesus who sometimes fare thus? \"And he, casting away his garment\"--how lively is this touch, evidently of an eye-witness, expressive of his earnestness and joy--\"came to Jesus\" ( Mr 10:49 , 50 ).",
+      "source_record_sha256": "8703c12c5417f283ad8ceacedc355d43c8b4bcccf98e5a14181c3a81d05e3321",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 380274,
+        "length": 1056
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.18.40",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "40. commanded, &c.-- Mark ( Mr 10:49 ) has this interesting addition: \"And they call the blind man, saying unto him, Be of good comfort, rise, He calleth thee\"--just as one earnestly desiring an interview with some exalted person, but told by one official after another that it is vain to wait, as he will not succeed (they know it), yet persists in waiting for some answer to his suit, and at length the door opens, and a servant appears, saying, \"You will be admitted--he has called you.\" And are there no other suitors to Jesus who sometimes fare thus? \"And he, casting away his garment\"--how lively is this touch, evidently of an eye-witness, expressive of his earnestness and joy--\"came to Jesus\" ( Mr 10:49 , 50 )."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.18.41-43:3:381330:499",
+      "passage_start": "LUK.18.41",
+      "passage_end": "LUK.18.43",
+      "start_verse": 41,
+      "end_verse": 43,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14678\"/><div sID=\"gen28366\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14678\"/><hi type=\"bold\">41-43. What wilt thou, &amp;c.--</hi>to try them; to deepen their present consciousness of need; and to draw out their faith in Him. Lord \"Rabboni\" (<reference osisRef=\"Mark.10.51\">Mr 10:51</reference>); an emphatic and confiding exclamation. (See on <reference osisRef=\"John.20.16\">Joh 20:16</reference>.) <chapter eID=\"Luke.18\"/>",
+      "content_plain": "41-43. What wilt thou, &c.-- to try them; to deepen their present consciousness of need; and to draw out their faith in Him. Lord \"Rabboni\" ( Mr 10:51 ); an emphatic and confiding exclamation. (See on Joh 20:16 .)",
+      "source_record_sha256": "f31537091b73012f457832f88f6844b3f0f282b8ab5d92b5f2dcacf411e8f05b",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 381330,
+        "length": 499
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.18.41-43",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "41-43. What wilt thou, &c.-- to try them; to deepen their present consciousness of need; and to draw out their faith in Him. Lord \"Rabboni\" ( Mr 10:51 ); an emphatic and confiding exclamation. (See on Joh 20:16 .)"
+    }
+  ],
+  "indexed_verse_count": 34,
+  "unindexed_verse_count": 9,
+  "upstream_snapshot_id": "SOTW_LUK_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 20
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.18:P:chapter-18",
+      "navigation_id": "LUK.18:P:chapter-18",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 18",
+      "content_plain": "CHAPTER 18",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 18</title> ",
+      "source_entry_id": "sword:jfb:LUK.18.1-5:3:352047:574",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        98
+      ],
+      "source_fragment_sha256": "49855963588c42fc36beceb708ad7f86cc3b17f802cfeb85b5f96cee4c3d3450",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.18.1",
+        "LUK.18.5"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-1-8-parable-of-the-importunate-widow",
+      "navigation_id": "LUK.18:P:lu-18-1-8-parable-of-the-importunate-widow",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Lu 18:1-8 . Parable of the Importunate Widow.",
+      "content_plain": "Lu 18:1-8 . Parable of the Importunate Widow.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.18.1-Luke.18.8\">Lu 18:1-8</reference>. Parable of the Importunate Widow.</title> <div sID=\"gen28309\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14650\"/>",
+      "source_entry_id": "sword:jfb:LUK.18.1-5:3:352047:574",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        98,
+        315
+      ],
+      "source_fragment_sha256": "d31bc080da2b23804f69baa9b061e1aa2edc56daf7296e111c4302b68e39d014",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.18.1",
+        "LUK.18.5"
+      ],
+      "source_title_explicit_range": [
+        "LUK.18.1",
+        "LUK.18.8"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-9-14-parable-of-the-pharisee-and-the-publican",
+      "navigation_id": "LUK.18:P:lu-18-9-14-parable-of-the-pharisee-and-the-publican",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 18:9-14 . Parable of the Pharisee and the Publican.",
+      "content_plain": "Lu 18:9-14 . Parable of the Pharisee and the Publican.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.18.9-Luke.18.14\">Lu 18:9-14</reference>. Parable of the Pharisee and the Publican.</title>",
+      "source_entry_id": "sword:jfb:LUK.18.11-12:3:356774:1583",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        194
+      ],
+      "source_fragment_sha256": "9963953152f9b59810ca17d265238a3642f961af922f036a6d6ae3a5dcc8667b",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.18.11",
+        "LUK.18.12"
+      ],
+      "source_title_explicit_range": [
+        "LUK.18.9",
+        "LUK.18.14"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-15-17-little-children-brought-to-christ",
+      "navigation_id": "LUK.18:P:lu-18-15-17-little-children-brought-to-christ",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 18:15-17 . Little Children Brought to Christ.",
+      "content_plain": "Lu 18:15-17 . Little Children Brought to Christ.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.18.15-Luke.18.17\">Lu 18:15-17</reference>. Little Children Brought to Christ.</title>",
+      "source_entry_id": "sword:jfb:LUK.18.15-15:3:361029:1619",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        189
+      ],
+      "source_fragment_sha256": "8cf883087509f5b6781014c7cfe6e9fb6fc4b834c185fa516945101dc6a29c14",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.18.15",
+        "LUK.18.15"
+      ],
+      "source_title_explicit_range": [
+        "LUK.18.15",
+        "LUK.18.17"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-18-30-the-rich-young-ruler-and-discourse-thereon",
+      "navigation_id": "LUK.18:P:lu-18-18-30-the-rich-young-ruler-and-discourse-thereon",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 18:18-30 . The Rich Young Ruler and Discourse Thereon.",
+      "content_plain": "Lu 18:18-30 . The Rich Young Ruler and Discourse Thereon.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.18.18-Luke.18.30\">Lu 18:18-30</reference>. The Rich Young Ruler and Discourse Thereon.</title>",
+      "source_entry_id": "sword:jfb:LUK.18.16-16:3:362648:3840",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        2481,
+        2619
+      ],
+      "source_fragment_sha256": "25504f8a1f29c643eb1f4ad04bafecc0cf0e0883b6950858692d23f0f4b5a297",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.18.16",
+        "LUK.18.16"
+      ],
+      "source_title_explicit_range": [
+        "LUK.18.18",
+        "LUK.18.30"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-35-43-blind-man-healed",
+      "navigation_id": "LUK.18:P:lu-18-35-43-blind-man-healed",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 18:35-43 . Blind Man Healed.",
+      "content_plain": "Lu 18:35-43 . Blind Man Healed.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.18.35-Luke.18.43\">Lu 18:35-43</reference>. Blind Man Healed.</title>",
+      "source_entry_id": "sword:jfb:LUK.18.34-34:3:378063:1421",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        530,
+        642
+      ],
+      "source_fragment_sha256": "18c3632cdb7356c3230bdb7883c6f0e66375b6db2da582092b73d70e41bb36b4",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.18.34",
+        "LUK.18.34"
+      ],
+      "source_title_explicit_range": [
+        "LUK.18.35",
+        "LUK.18.43"
+      ]
+    }
+  ],
+  "navigation_section_count": 6,
+  "reader_visible_entry_count": 20,
+  "unavailable_author_work_for_testament": false
+}

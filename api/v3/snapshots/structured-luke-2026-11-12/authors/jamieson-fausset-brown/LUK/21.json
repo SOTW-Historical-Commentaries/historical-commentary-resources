@@ -1,0 +1,542 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-luke-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "LUK",
+  "chapter": 21,
+  "canonical_chapter": "LUK.21",
+  "versification": "KJV",
+  "verse_count": 38,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Luke\" sID=\"gen27523\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO LUKE\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO LUKE</title> <div sID=\"gen27524\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen27524\" type=\"x-p\"/> ",
+      "source_record_sha256": "f4b27689315037f9a1d39b694a8dee76889b9d3497f4da414726baaf3a011c7c",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 0,
+        "length": 351
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"21\" osisID=\"Luke.21\" sID=\"Luke.21\"/><div eID=\"gen28454\" type=\"x-p\"/> ",
+      "source_record_sha256": "a0442e481672d4d254a4b78c58a8446a5722f01bb2504b462af1da38dac4f6be",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 414494,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:LUK.21.1-1:3:414575:1153",
+      "passage_start": "LUK.21.1",
+      "passage_end": "LUK.21.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14731\"/><title type=\"x-s2\">CHAPTER 21</title> <title type=\"x-s3\"><reference osisRef=\"Luke.21.1-Luke.21.4\">Lu 21:1-4</reference>. The Widow's Two Mites.</title> <div sID=\"gen28455\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14731\"/><hi type=\"bold\">1. looked up--</hi>He had \"sat down over against the treasury\" (<reference osisRef=\"Mark.12.41\">Mr 12:41</reference>), probably to rest, for He had continued long standing as he taught in the temple court (<reference osisRef=\"Mark.11.27\">Mr 11:27</reference>), and \"looking up He saw\"--as in Zaccheus' case, not quite casually.<div eID=\"gen28455\" type=\"x-p\"/> <div sID=\"gen28456\" type=\"x-p\"/><hi type=\"bold\">the rich, &amp;c.--</hi>\"the people,\" says <reference osisRef=\"Mark.12.41\">Mr 12:41</reference> \"cast money into the treasury, and many rich east in much\"; that is, into chests deposited in one of the courts of the temple to receive the offerings of the people towards its maintenance (<reference osisRef=\"2Kgs.12.9\">2Ki 12:9</reference>; <reference osisRef=\"John.8.20\">Joh 8:20</reference>). <div eID=\"gen28456\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 21 Lu 21:1-4 . The Widow's Two Mites. 1. looked up-- He had \"sat down over against the treasury\" ( Mr 12:41 ), probably to rest, for He had continued long standing as he taught in the temple court ( Mr 11:27 ), and \"looking up He saw\"--as in Zaccheus' case, not quite casually. the rich, &c.-- \"the people,\" says Mr 12:41 \"cast money into the treasury, and many rich east in much\"; that is, into chests deposited in one of the courts of the temple to receive the offerings of the people towards its maintenance ( 2Ki 12:9 ; Joh 8:20 ).",
+      "source_record_sha256": "b66dd4bc47b97c1fa355b3ac7399374c60e6074a440c0790108612f7d53d10b8",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 414575,
+        "length": 1153
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. looked up-- He had \"sat down over against the treasury\" ( Mr 12:41 ), probably to rest, for He had continued long standing as he taught in the temple court ( Mr 11:27 ), and \"looking up He saw\"--as in Zaccheus' case, not quite casually. the rich, &c.-- \"the people,\" says Mr 12:41 \"cast money into the treasury, and many rich east in much\"; that is, into chests deposited in one of the courts of the temple to receive the offerings of the people towards its maintenance ( 2Ki 12:9 ; Joh 8:20 ).",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        304,
+        1153
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. looked up--</hi>He had \"sat down over against the treasury\" (<reference osisRef=\"Mark.12.41\">Mr 12:41</reference>), probably to rest, for He had continued long standing as he taught in the temple court (<reference osisRef=\"Mark.11.27\">Mr 11:27</reference>), and \"looking up He saw\"--as in Zaccheus' case, not quite casually.<div eID=\"gen28455\" type=\"x-p\"/> <div sID=\"gen28456\" type=\"x-p\"/><hi type=\"bold\">the rich, &amp;c.--</hi>\"the people,\" says <reference osisRef=\"Mark.12.41\">Mr 12:41</reference> \"cast money into the treasury, and many rich east in much\"; that is, into chests deposited in one of the courts of the temple to receive the offerings of the people towards its maintenance (<reference osisRef=\"2Kgs.12.9\">2Ki 12:9</reference>; <reference osisRef=\"John.8.20\">Joh 8:20</reference>). <div eID=\"gen28456\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.2-2:3:415728:361",
+      "passage_start": "LUK.21.2",
+      "passage_end": "LUK.21.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14732\"/><div sID=\"gen28457\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14732\"/><hi type=\"bold\">2. two mites--</hi>\"which make a farthing\" (<reference osisRef=\"Mark.12.42\">Mr 12:42</reference>), the smallest Jewish coin. \"She might have kept one\" [Bengel]. <div eID=\"gen28457\" type=\"x-p\"/>",
+      "content_plain": "2. two mites-- \"which make a farthing\" ( Mr 12:42 ), the smallest Jewish coin. \"She might have kept one\" [Bengel].",
+      "source_record_sha256": "a8e6fa66863377264367e3ea1799617d36198a25574634a5d30a84fc7021a6bb",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 415728,
+        "length": 361
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. two mites-- \"which make a farthing\" ( Mr 12:42 ), the smallest Jewish coin. \"She might have kept one\" [Bengel]."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.3-3:3:416089:572",
+      "passage_start": "LUK.21.3",
+      "passage_end": "LUK.21.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14733\"/><div sID=\"gen28458\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14733\"/><hi type=\"bold\">3. And he said--</hi>\"to His disciples,\" whom He \"called to Him\" (<reference osisRef=\"Mark.12.43\">Mr 12:43</reference>), to teach from it a great future lesson.<div eID=\"gen28458\" type=\"x-p\"/> <div sID=\"gen28459\" type=\"x-p\"/><hi type=\"bold\">more than ... all--</hi>in proportion to her means, which is God's standard (<reference osisRef=\"2Cor.8.12\">2Co 8:12</reference>). <div eID=\"gen28459\" type=\"x-p\"/>",
+      "content_plain": "3. And he said-- \"to His disciples,\" whom He \"called to Him\" ( Mr 12:43 ), to teach from it a great future lesson. more than ... all-- in proportion to her means, which is God's standard ( 2Co 8:12 ).",
+      "source_record_sha256": "cd335dc901bcdd0e6c7dd83e474fbf65e8833160b049c288a34ef8ecab5cf27d",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 416089,
+        "length": 572
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. And he said-- \"to His disciples,\" whom He \"called to Him\" ( Mr 12:43 ), to teach from it a great future lesson. more than ... all-- in proportion to her means, which is God's standard ( 2Co 8:12 )."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.4-4:3:416661:1144",
+      "passage_start": "LUK.21.4",
+      "passage_end": "LUK.21.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14734\"/><div sID=\"gen28460\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14734\"/><hi type=\"bold\">4. of their abundance--</hi>their superfluity; what they had to spare,\" or beyond what they needed.<div eID=\"gen28460\" type=\"x-p\"/> <div sID=\"gen28461\" type=\"x-p\"/><hi type=\"bold\">of her penury--</hi>or \"want\" (<reference osisRef=\"Mark.12.44\">Mr 12:44</reference>)--her deficiency, of what was less than her own wants required, \"all the living she had.\" Mark (<reference osisRef=\"Mark.12.44\">Mr 12:44</reference>) still more emphatically, \"all that she had--her whole subsistence.\" Note: (1) As temple offerings are needed still for the service of Christ at home and abroad, so \"looking down\" now, as then \"up,\" Me \"sees\" who \"cast in,\" and how much. (2) Christ's standard of commendable offering is not our superfluity, but our deficiency--not what will never be missed, but what costs us some real sacrifice, and just in proportion to the relative amount of that sacrifice. (See <reference osisRef=\"2Cor.8.1-2Cor.8.3\">2Co 8:1-3</reference>.) <div eID=\"gen28461\" type=\"x-p\"/>",
+      "content_plain": "4. of their abundance-- their superfluity; what they had to spare,\" or beyond what they needed. of her penury-- or \"want\" ( Mr 12:44 )--her deficiency, of what was less than her own wants required, \"all the living she had.\" Mark ( Mr 12:44 ) still more emphatically, \"all that she had--her whole subsistence.\" Note: (1) As temple offerings are needed still for the service of Christ at home and abroad, so \"looking down\" now, as then \"up,\" Me \"sees\" who \"cast in,\" and how much. (2) Christ's standard of commendable offering is not our superfluity, but our deficiency--not what will never be missed, but what costs us some real sacrifice, and just in proportion to the relative amount of that sacrifice. (See 2Co 8:1-3 .)",
+      "source_record_sha256": "1d8bfd5ce5fffb06f41405be83013dadd4c34fecccce703eb574f54096814c01",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 416661,
+        "length": 1144
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. of their abundance-- their superfluity; what they had to spare,\" or beyond what they needed. of her penury-- or \"want\" ( Mr 12:44 )--her deficiency, of what was less than her own wants required, \"all the living she had.\" Mark ( Mr 12:44 ) still more emphatically, \"all that she had--her whole subsistence.\" Note: (1) As temple offerings are needed still for the service of Christ at home and abroad, so \"looking down\" now, as then \"up,\" Me \"sees\" who \"cast in,\" and how much. (2) Christ's standard of commendable offering is not our superfluity, but our deficiency--not what will never be missed, but what costs us some real sacrifice, and just in proportion to the relative amount of that sacrifice. (See 2Co 8:1-3 .)"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.5-7:3:417805:511",
+      "passage_start": "LUK.21.5",
+      "passage_end": "LUK.21.7",
+      "start_verse": 5,
+      "end_verse": 7,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14735\"/><title type=\"x-s3\"><reference osisRef=\"Luke.21.5-Luke.21.38\">Lu 21:5-38</reference>. Christ's Prophecy of the Destruction of Jerusalem and Warnings to Prepare for His Second Coming, Suggested by It--His Days and Nights during His Last Week.</title> <div sID=\"gen28462\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14735\"/>5-7. (See on <reference osisRef=\"Matt.24.1-Matt.24.3\">Mt 24:1-3</reference>.) <div eID=\"gen28462\" type=\"x-p\"/>",
+      "content_plain": "Lu 21:5-38 . Christ's Prophecy of the Destruction of Jerusalem and Warnings to Prepare for His Second Coming, Suggested by It--His Days and Nights during His Last Week. 5-7. (See on Mt 24:1-3 .)",
+      "source_record_sha256": "eab0b4db575b56b6cbae2472ffbdc430140a5e93ee1a51754c3cfb11a4d405a5",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 417805,
+        "length": 511
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.21.5-7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Lu 21:5-38 . Christ's Prophecy of the Destruction of Jerusalem and Warnings to Prepare for His Second Coming, Suggested by It--His Days and Nights during His Last Week. 5-7. (See on Mt 24:1-3 .)"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.8-8:3:418316:499",
+      "passage_start": "LUK.21.8",
+      "passage_end": "LUK.21.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14736\"/><div sID=\"gen28463\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14736\"/><hi type=\"bold\">8. the time--</hi>of the Kingdom, in its full glory.<div eID=\"gen28463\" type=\"x-p\"/> <div sID=\"gen28464\" type=\"x-p\"/><hi type=\"bold\">go ... not ... after them--</hi>\"I come not so very soon\" (<reference osisRef=\"2Thess.2.1\">2Th 2:1</reference>, <reference osisRef=\"2Cor.2.2\">2</reference>) [Stier]. <div eID=\"gen28464\" type=\"x-p\"/>",
+      "content_plain": "8. the time-- of the Kingdom, in its full glory. go ... not ... after them-- \"I come not so very soon\" ( 2Th 2:1 , 2 ) [Stier].",
+      "source_record_sha256": "7311a92161438d499bac5d31af91ba45dfdd2c0fe827f77e7424ea7f8fc03154",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 418316,
+        "length": 499
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. the time-- of the Kingdom, in its full glory. go ... not ... after them-- \"I come not so very soon\" ( 2Th 2:1 , 2 ) [Stier]."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.9-11:3:418815:630",
+      "passage_start": "LUK.21.9",
+      "passage_end": "LUK.21.11",
+      "start_verse": 9,
+      "end_verse": 11,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14737\"/><div sID=\"gen28465\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14737\"/><hi type=\"bold\">9-11. not terrified--</hi>(See <reference osisRef=\"Luke.21.19\">Lu 21:19</reference>; <reference osisRef=\"Isa.8.11-Isa.8.14\">Is 8:11-14</reference>).<div eID=\"gen28465\" type=\"x-p\"/> <div sID=\"gen28466\" type=\"x-p\"/><hi type=\"bold\">end not by and by--</hi>or immediately, not yet (<reference osisRef=\"Matt.24.6\">Mt 24:6</reference>; <reference osisRef=\"Mark.13.7\">Mr 13:7</reference>): that is, \"Worse must come before all is over.\" <div eID=\"gen28466\" type=\"x-p\"/>",
+      "content_plain": "9-11. not terrified-- (See Lu 21:19 ; Is 8:11-14 ). end not by and by-- or immediately, not yet ( Mt 24:6 ; Mr 13:7 ): that is, \"Worse must come before all is over.\"",
+      "source_record_sha256": "0803693870e30df7b62291deaee848255e03d9410cde41216c1032e0946bc9e6",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 418815,
+        "length": 630
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.21.9-11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9-11. not terrified-- (See Lu 21:19 ; Is 8:11-14 ). end not by and by-- or immediately, not yet ( Mt 24:6 ; Mr 13:7 ): that is, \"Worse must come before all is over.\""
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.12-12:3:419959:270",
+      "passage_start": "LUK.21.12",
+      "passage_end": "LUK.21.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14739\"/><div sID=\"gen28468\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14739\"/><hi type=\"bold\">12. brought before, &amp;c.--</hi>The book of Acts verifies all this. <div eID=\"gen28468\" type=\"x-p\"/>",
+      "content_plain": "12. brought before, &c.-- The book of Acts verifies all this.",
+      "source_record_sha256": "7defabe099cdfc95aa7c3ca5d9cf5665fa6ff6a825047decd711f5283848e0e6",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 419959,
+        "length": 270
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. brought before, &c.-- The book of Acts verifies all this."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.13-13:3:420229:263",
+      "passage_start": "LUK.21.13",
+      "passage_end": "LUK.21.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14740\"/><div sID=\"gen28469\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14740\"/><hi type=\"bold\">13. for a testimony--</hi>an opportunity of bearing testimony. <div eID=\"gen28469\" type=\"x-p\"/>",
+      "content_plain": "13. for a testimony-- an opportunity of bearing testimony.",
+      "source_record_sha256": "54823f972d7a4442df4ea24653566bafa614561f04a770d93b0d914379189a23",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 420229,
+        "length": 263
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13. for a testimony-- an opportunity of bearing testimony."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.18-18:3:420492:1576",
+      "passage_start": "LUK.21.18",
+      "passage_end": "LUK.21.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14741\"/><div sID=\"gen28470\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14741\"/><hi type=\"bold\">18. not a hair ... perish--</hi>He had just said (<reference osisRef=\"Luke.21.16\">Lu 21:16</reference>) they should be put to death; showing that this precious promise is far above immunity from mere bodily harm, and furnishing a key to the right interpretation of the ninety-first Psalm, and such like. Matthew adds the following (<reference osisRef=\"Matt.24.12\">Mt 24:12</reference>): \"And because iniquity shall abound, the love of many,\" the many or, the most--the generality of professed disciples--\"shall wax cold.\" But he that endureth to the end shall be saved. Sad illustrations of the effect of abounding iniquity in cooling the love of faithful disciples we have in the Epistle of James, written about this period referred to, and too frequently ever since (<reference osisRef=\"Heb.10.38\">He 10:38</reference>, <reference osisRef=\"Heb.10.39\">39</reference>; <reference osisRef=\"Rev.2.10\">Re 2:10</reference>). \"And this gospel of the kingdom shall be preached in all the world for a witness, and then shall the end come\" (<reference osisRef=\"Matt.24.14\">Mt 24:14</reference>). God never sends judgment without previous warning; and there can be no doubt that the Jews, already dispersed over most known countries, had nearly all heard the Gospel \"as a witness,\" before the end of the Jewish state. The same principle was repeated and will repeat itself to the end. <div eID=\"gen28470\" type=\"x-p\"/>",
+      "content_plain": "18. not a hair ... perish-- He had just said ( Lu 21:16 ) they should be put to death; showing that this precious promise is far above immunity from mere bodily harm, and furnishing a key to the right interpretation of the ninety-first Psalm, and such like. Matthew adds the following ( Mt 24:12 ): \"And because iniquity shall abound, the love of many,\" the many or, the most--the generality of professed disciples--\"shall wax cold.\" But he that endureth to the end shall be saved. Sad illustrations of the effect of abounding iniquity in cooling the love of faithful disciples we have in the Epistle of James, written about this period referred to, and too frequently ever since ( He 10:38 , 39 ; Re 2:10 ). \"And this gospel of the kingdom shall be preached in all the world for a witness, and then shall the end come\" ( Mt 24:14 ). God never sends judgment without previous warning; and there can be no doubt that the Jews, already dispersed over most known countries, had nearly all heard the Gospel \"as a witness,\" before the end of the Jewish state. The same principle was repeated and will repeat itself to the end.",
+      "source_record_sha256": "8e7196e88ae5f31bed34a09306b2b748184f77bb4ce004dcb480913eb2159b74",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 420492,
+        "length": 1576
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "18. not a hair ... perish-- He had just said ( Lu 21:16 ) they should be put to death; showing that this precious promise is far above immunity from mere bodily harm, and furnishing a key to the right interpretation of the ninety-first Psalm, and such like. Matthew adds the following ( Mt 24:12 ): \"And because iniquity shall abound, the love of many,\" the many or, the most--the generality of professed disciples--\"shall wax cold.\" But he that endureth to the end shall be saved. Sad illustrations of the effect of abounding iniquity in cooling the love of faithful disciples we have in the Epistle of James, written about this period referred to, and too frequently ever since ( He 10:38 , 39 ; Re 2:10 ). \"And this gospel of the kingdom shall be preached in all the world for a witness, and then shall the end come\" ( Mt 24:14 ). God never sends judgment without previous warning; and there can be no doubt that the Jews, already dispersed over most known countries, had nearly all heard the Gospel \"as a witness,\" before the end of the Jewish state. The same principle was repeated and will repeat itself to the end."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.20-21:3:422068:973",
+      "passage_start": "LUK.21.20",
+      "passage_end": "LUK.21.21",
+      "start_verse": 20,
+      "end_verse": 21,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14742\"/><div sID=\"gen28471\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14742\"/><hi type=\"bold\">20-21. by armies--</hi>encamped armies, that is, besieged: \"the abomination of desolation\" (meaning the Roman ensigns, as the symbols of an idolatrous, pagan, unclean power) \"spoken of by Daniel the prophet\" (<reference osisRef=\"Dan.9.27\">Da 9:27</reference>) \"standing where it ought not\" (<reference osisRef=\"Mark.13.14\">Mr 13:14</reference>). \"Whoso readeth [that prophecy] let him understand\" (<reference osisRef=\"Matt.24.15\">Mt 24:15</reference>).<div eID=\"gen28471\" type=\"x-p\"/> <div sID=\"gen28472\" type=\"x-p\"/><hi type=\"bold\">Then ... flee, &amp;c.--</hi>Eusebius says the Christians fled to Pella, at the north extremity of Perea, being \"prophetically directed\"; perhaps by some prophetic intimation still more explicit than this, which still would be their chart. <div eID=\"gen28472\" type=\"x-p\"/>",
+      "content_plain": "20-21. by armies-- encamped armies, that is, besieged: \"the abomination of desolation\" (meaning the Roman ensigns, as the symbols of an idolatrous, pagan, unclean power) \"spoken of by Daniel the prophet\" ( Da 9:27 ) \"standing where it ought not\" ( Mr 13:14 ). \"Whoso readeth [that prophecy] let him understand\" ( Mt 24:15 ). Then ... flee, &c.-- Eusebius says the Christians fled to Pella, at the north extremity of Perea, being \"prophetically directed\"; perhaps by some prophetic intimation still more explicit than this, which still would be their chart.",
+      "source_record_sha256": "a9839de56820eabadf00319aab05c38bf3eb1b29ca5b368998e7f034b3e307da",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 422068,
+        "length": 973
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.21.20-21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20-21. by armies-- encamped armies, that is, besieged: \"the abomination of desolation\" (meaning the Roman ensigns, as the symbols of an idolatrous, pagan, unclean power) \"spoken of by Daniel the prophet\" ( Da 9:27 ) \"standing where it ought not\" ( Mr 13:14 ). \"Whoso readeth [that prophecy] let him understand\" ( Mt 24:15 ). Then ... flee, &c.-- Eusebius says the Christians fled to Pella, at the north extremity of Perea, being \"prophetically directed\"; perhaps by some prophetic intimation still more explicit than this, which still would be their chart."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.23-23:3:423041:1611",
+      "passage_start": "LUK.21.23",
+      "passage_end": "LUK.21.23",
+      "start_verse": 23,
+      "end_verse": 23,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14743\"/><div sID=\"gen28473\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14743\"/><hi type=\"bold\">23. woe unto--</hi>\"alas for.\"<div eID=\"gen28473\" type=\"x-p\"/> <div sID=\"gen28474\" type=\"x-p\"/><hi type=\"bold\">with child, &amp;c.--</hi>from the greater suffering it would involve; as also \"flight in winter, and on the sabbath,\" which they were to \"pray\" against (<reference osisRef=\"Matt.24.20\">Mt 24:20</reference>), the one as more trying to the body, the other to the soul. \"For then shall be tribulation such as was not since the beginning of the world, nor ever shall be\"--language not unusual in the Old Testament for tremendous calamities, though of this it may perhaps be literally said, \"And except those days should be shortened, there should no flesh be saved, but for the elect's sake those days shall be shortened\" (<reference osisRef=\"Matt.24.21\">Mt 24:21</reference>, <reference osisRef=\"Matt.24.22\">22</reference>). But for this merciful \"shortening,\" brought about by a remarkable concurrence of causes, the whole nation would have perished, in which there yet remained a remnant to be afterwards gathered out. Here in Matthew and Mark (<reference osisRef=\"Matt.24.24\">Mt 24:24</reference>; <reference osisRef=\"Mark.13.22\">Mr 13:22</reference>) are some particulars about \"false Christs,\" who should, \"if possible\"--a precious clause--\"deceive the very elect.\" (Compare <reference osisRef=\"2Thess.2.9-2Thess.2.11\">2Th 2:9-11</reference>; <reference osisRef=\"Rev.13.13\">Re 13:13</reference>.) <div eID=\"gen28474\" type=\"x-p\"/>",
+      "content_plain": "23. woe unto-- \"alas for.\" with child, &c.-- from the greater suffering it would involve; as also \"flight in winter, and on the sabbath,\" which they were to \"pray\" against ( Mt 24:20 ), the one as more trying to the body, the other to the soul. \"For then shall be tribulation such as was not since the beginning of the world, nor ever shall be\"--language not unusual in the Old Testament for tremendous calamities, though of this it may perhaps be literally said, \"And except those days should be shortened, there should no flesh be saved, but for the elect's sake those days shall be shortened\" ( Mt 24:21 , 22 ). But for this merciful \"shortening,\" brought about by a remarkable concurrence of causes, the whole nation would have perished, in which there yet remained a remnant to be afterwards gathered out. Here in Matthew and Mark ( Mt 24:24 ; Mr 13:22 ) are some particulars about \"false Christs,\" who should, \"if possible\"--a precious clause--\"deceive the very elect.\" (Compare 2Th 2:9-11 ; Re 13:13 .)",
+      "source_record_sha256": "5c1efa04605ad22eb14e9a3c082744fc71e78a1683cedbc38d80e330a7cf2387",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 423041,
+        "length": 1611
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.23",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "23. woe unto-- \"alas for.\" with child, &c.-- from the greater suffering it would involve; as also \"flight in winter, and on the sabbath,\" which they were to \"pray\" against ( Mt 24:20 ), the one as more trying to the body, the other to the soul. \"For then shall be tribulation such as was not since the beginning of the world, nor ever shall be\"--language not unusual in the Old Testament for tremendous calamities, though of this it may perhaps be literally said, \"And except those days should be shortened, there should no flesh be saved, but for the elect's sake those days shall be shortened\" ( Mt 24:21 , 22 ). But for this merciful \"shortening,\" brought about by a remarkable concurrence of causes, the whole nation would have perished, in which there yet remained a remnant to be afterwards gathered out. Here in Matthew and Mark ( Mt 24:24 ; Mr 13:22 ) are some particulars about \"false Christs,\" who should, \"if possible\"--a precious clause--\"deceive the very elect.\" (Compare 2Th 2:9-11 ; Re 13:13 .)"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.24-24:3:424652:963",
+      "passage_start": "LUK.21.24",
+      "passage_end": "LUK.21.24",
+      "start_verse": 24,
+      "end_verse": 24,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14744\"/><div sID=\"gen28475\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14744\"/><hi type=\"bold\">24. Jerusalem ... trodden down ... until, &amp;c.--</hi>Implying (1) that one day Jerusalem shall cease to be \"trodden down by the Gentiles\" (<reference osisRef=\"Rev.11.2\">Re 11:2</reference>), as then by pagan so now by Mohammedan unbelievers; (2) that this shall be at the \"completion\" of \"the times of the Gentiles,\" which from <reference osisRef=\"Rom.11.25\">Ro 11:25</reference> (taken from this) we conclude to mean till the Gentiles have had their full time of that place in the Church which the Jews in their time had before them--after which, the Jews being again \"grafted into their own olive tree,\" one Church of Jew and Gentile together shall fill the earth (<reference osisRef=\"Rom.11.1-Rom.11.36\">Ro 11:1-36</reference>). What a vista this opens up! <div eID=\"gen28475\" type=\"x-p\"/>",
+      "content_plain": "24. Jerusalem ... trodden down ... until, &c.-- Implying (1) that one day Jerusalem shall cease to be \"trodden down by the Gentiles\" ( Re 11:2 ), as then by pagan so now by Mohammedan unbelievers; (2) that this shall be at the \"completion\" of \"the times of the Gentiles,\" which from Ro 11:25 (taken from this) we conclude to mean till the Gentiles have had their full time of that place in the Church which the Jews in their time had before them--after which, the Jews being again \"grafted into their own olive tree,\" one Church of Jew and Gentile together shall fill the earth ( Ro 11:1-36 ). What a vista this opens up!",
+      "source_record_sha256": "1ca2be1fddfbf2d7e8a8e417b070c03ccf766aa5a1db9ef198977e6d0b4a03a3",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 424652,
+        "length": 963
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.24",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "24. Jerusalem ... trodden down ... until, &c.-- Implying (1) that one day Jerusalem shall cease to be \"trodden down by the Gentiles\" ( Re 11:2 ), as then by pagan so now by Mohammedan unbelievers; (2) that this shall be at the \"completion\" of \"the times of the Gentiles,\" which from Ro 11:25 (taken from this) we conclude to mean till the Gentiles have had their full time of that place in the Church which the Jews in their time had before them--after which, the Jews being again \"grafted into their own olive tree,\" one Church of Jew and Gentile together shall fill the earth ( Ro 11:1-36 ). What a vista this opens up!"
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.25-28:3:425615:736",
+      "passage_start": "LUK.21.25",
+      "passage_end": "LUK.21.28",
+      "start_verse": 25,
+      "end_verse": 28,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14745\"/><div sID=\"gen28476\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14745\"/><hi type=\"bold\">25-28. signs, &amp;c.--</hi>Though the grandeur of this language carries the mind over the head of all periods but that of Christ's second coming, nearly every expression will be found used of the Lord's coming in terrible national judgments, as of Babylon, &amp;c.; and from <reference osisRef=\"Luke.21.28\">Lu 21:28</reference>, <reference osisRef=\"Luke.21.32\">32</reference>, it seems undeniable that its immediate reference was to the destruction of Jerusalem, though its ultimate reference beyond doubt is to Christ's final coming. <div eID=\"gen28476\" type=\"x-p\"/>",
+      "content_plain": "25-28. signs, &c.-- Though the grandeur of this language carries the mind over the head of all periods but that of Christ's second coming, nearly every expression will be found used of the Lord's coming in terrible national judgments, as of Babylon, &c.; and from Lu 21:28 , 32 , it seems undeniable that its immediate reference was to the destruction of Jerusalem, though its ultimate reference beyond doubt is to Christ's final coming.",
+      "source_record_sha256": "1cf3562b06c1b76bca871303031a8b601c5bf2cdcc239ce9cc014f4e1b7deaf9",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 425615,
+        "length": 736
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.21.25-28",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "25-28. signs, &c.-- Though the grandeur of this language carries the mind over the head of all periods but that of Christ's second coming, nearly every expression will be found used of the Lord's coming in terrible national judgments, as of Babylon, &c.; and from Lu 21:28 , 32 , it seems undeniable that its immediate reference was to the destruction of Jerusalem, though its ultimate reference beyond doubt is to Christ's final coming."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.32-32:3:427345:401",
+      "passage_start": "LUK.21.32",
+      "passage_end": "LUK.21.32",
+      "start_verse": 32,
+      "end_verse": 32,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14747\"/><div sID=\"gen28478\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14747\"/><hi type=\"bold\">32. This generation--</hi>not \"this nation,\" as some interpret it, which, though admissible in itself, seems very unnatural here. It is rather as in <reference osisRef=\"Luke.9.27\">Lu 9:27</reference>. <div eID=\"gen28478\" type=\"x-p\"/>",
+      "content_plain": "32. This generation-- not \"this nation,\" as some interpret it, which, though admissible in itself, seems very unnatural here. It is rather as in Lu 9:27 .",
+      "source_record_sha256": "cd11537d3f573f36b415cfecca85e332c74d0005a7c3dfd43e673ae222a03be7",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 427345,
+        "length": 401
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "LUK.21.32",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "32. This generation-- not \"this nation,\" as some interpret it, which, though admissible in itself, seems very unnatural here. It is rather as in Lu 9:27 ."
+    },
+    {
+      "entry_id": "sword:jfb:LUK.21.34-38:3:427746:502",
+      "passage_start": "LUK.21.34",
+      "passage_end": "LUK.21.38",
+      "start_verse": 34,
+      "end_verse": 38,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv14748\"/><div sID=\"gen28479\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14748\"/><hi type=\"bold\">34-37. surfeiting, and drunkenness--</hi>All animal excesses, quenching spirituality.<div eID=\"gen28479\" type=\"x-p\"/> <div sID=\"gen28480\" type=\"x-p\"/><hi type=\"bold\">cares of this life--</hi>(See on <reference osisRef=\"Mark.4.7\">Mr 4:7</reference>; <reference osisRef=\"Mark.4.19\">Mr 4:19</reference>). <div eID=\"gen28480\" type=\"x-p\"/>",
+      "content_plain": "34-37. surfeiting, and drunkenness-- All animal excesses, quenching spirituality. cares of this life-- (See on Mr 4:7 ; Mr 4:19 ).",
+      "source_record_sha256": "669315ed5f2e2e2cb8ee9040198e3363bb87ab21acf75a6fdf83de6181c26b09",
+      "index_record": {
+        "testament": "NT",
+        "block": 3,
+        "offset": 427746,
+        "length": 502
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "LUK.21.34-38",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "34-37. surfeiting, and drunkenness-- All animal excesses, quenching spirituality. cares of this life-- (See on Mr 4:7 ; Mr 4:19 )."
+    }
+  ],
+  "indexed_verse_count": 28,
+  "unindexed_verse_count": 10,
+  "upstream_snapshot_id": "SOTW_LUK_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 16
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.21:P:chapter-21",
+      "navigation_id": "LUK.21:P:chapter-21",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 21",
+      "content_plain": "CHAPTER 21",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 21</title> ",
+      "source_entry_id": "sword:jfb:LUK.21.1-1:3:414575:1153",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        98
+      ],
+      "source_fragment_sha256": "ba2f5a073794bdd1df778123ea1843e857ab5cf5e753d4a067fb699e3155ed14",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.21.1",
+        "LUK.21.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.21:P:lu-21-1-4-the-widow-s-two-mites",
+      "navigation_id": "LUK.21:P:lu-21-1-4-the-widow-s-two-mites",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Lu 21:1-4 . The Widow's Two Mites.",
+      "content_plain": "Lu 21:1-4 . The Widow's Two Mites.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.21.1-Luke.21.4\">Lu 21:1-4</reference>. The Widow's Two Mites.</title> <div sID=\"gen28455\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv14731\"/>",
+      "source_entry_id": "sword:jfb:LUK.21.1-1:3:414575:1153",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        98,
+        304
+      ],
+      "source_fragment_sha256": "9bd603c4b651ebfa6490c1ac6c03d80fcdea3afccdae8b46591a6ead829f383a",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.21.1",
+        "LUK.21.1"
+      ],
+      "source_title_explicit_range": [
+        "LUK.21.1",
+        "LUK.21.4"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:LUK.21:P:lu-21-5-38-christ-s-prophecy-of-the-destruction-of-jerusalem-and-warnings-to-p",
+      "navigation_id": "LUK.21:P:lu-21-5-38-christ-s-prophecy-of-the-destruction-of-jerusalem-and-warnings-to-p",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Lu 21:5-38 . Christ's Prophecy of the Destruction of Jerusalem and Warnings to Prepare for His Second Coming, Suggested by It--His Days and Nights during His Last Week.",
+      "content_plain": "Lu 21:5-38 . Christ's Prophecy of the Destruction of Jerusalem and Warnings to Prepare for His Second Coming, Suggested by It--His Days and Nights during His Last Week.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Luke.21.5-Luke.21.38\">Lu 21:5-38</reference>. Christ's Prophecy of the Destruction of Jerusalem and Warnings to Prepare for His Second Coming, Suggested by It--His Days and Nights during His Last Week.</title>",
+      "source_entry_id": "sword:jfb:LUK.21.5-7:3:417805:511",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        308
+      ],
+      "source_fragment_sha256": "cbfd6ccd73f25ead8ae6e9da0928b8374c539a79c2d0b8c000fd134386e81db6",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "LUK.21.5",
+        "LUK.21.7"
+      ],
+      "source_title_explicit_range": [
+        "LUK.21.5",
+        "LUK.21.38"
+      ]
+    }
+  ],
+  "navigation_section_count": 3,
+  "reader_visible_entry_count": 16,
+  "unavailable_author_work_for_testament": false
+}
