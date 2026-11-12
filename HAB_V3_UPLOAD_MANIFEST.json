@@ -1,0 +1,241 @@
+{
+  "kind": "sotw_structured_commentary_root_upload_manifest",
+  "version": "v3-habakkuk-2026-11-11",
+  "book": "HAB",
+  "book_name": "Habakkuk",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-habakkuk-2026-11-11",
+  "baseline_main_commit": "7d3348fa2d1e3b2530756ec4720436cc12a93a07",
+  "baseline_navigation_manifest_git_blob": "b1cbaad28779fbb514fb430e72b566e7fec5aea6",
+  "baseline_navigation_sha256": "a4a4450b3da84607fc6b5e5dc3d4c5671eab32fdace7868042d77638cc51d461",
+  "prerequisites": [
+    "Current main and navigation manifest match pinned baseline; no preexisting HAB book snapshot",
+    "Owner extracts numbered ZIPs and uploads their contained files into repository root, preserving exact paths",
+    "Batch 1 new files first; cumulative navigation manifest Batch 2 last; no direct assistant writes"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 25,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/HAB.json",
+      "size_bytes": 40974,
+      "sha256": "d1739211353ac9e0ec4842f07172994e48d67dd77bf7b6b7788585fd0c451b86",
+      "git_blob_sha": "7435aebc3680fc15b7027bb170cd028d52a934a2",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "size_bytes": 18210,
+      "sha256": "53594e5611da415f36ddf01ed5b7f55fc615053fb69e49805fca251eab26cc05",
+      "git_blob_sha": "fdf751f4f3368faf4b01d6e361dfdf8c6a83c7f0",
+      "change": "REPLACE_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/adam-clarke/HAB/1.json",
+      "size_bytes": 56381,
+      "sha256": "9dc1c936baf84485080af98729cb1b3fa21d996152e511da7c8da391ef238ed9",
+      "git_blob_sha": "e2d1bfda3f90aa0d70f5e8ff561b287702ded460",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/adam-clarke/HAB/2.json",
+      "size_bytes": 67853,
+      "sha256": "45b20a67405183ba233ef05c11add1445315116508e23d11b42869218ab68eca",
+      "git_blob_sha": "ee93348c710987561e8ad35dc5f1beb7786f6585",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/adam-clarke/HAB/3.json",
+      "size_bytes": 91293,
+      "sha256": "ef96eef7407356b8bc419496ef5211566ac004f6239adeb78c5049249efa1b17",
+      "git_blob_sha": "fe48db1f9c62b97e6eee090a723e136fe179480f",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/jamieson-fausset-brown/HAB/1.json",
+      "size_bytes": 68637,
+      "sha256": "bdd0159d77d4d9602f5491c434023ce557a0be7123c210f9019295f496ef280d",
+      "git_blob_sha": "0e2cda9266fd67813d76fb57997642a767240939",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/jamieson-fausset-brown/HAB/2.json",
+      "size_bytes": 82768,
+      "sha256": "ef2bf76975b866b3488851a0b3bc13d08c98d278fd3fca17e14f06a647dfe23c",
+      "git_blob_sha": "2d1bff4648a37d8653c8a0f614aed06d93e58d35",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/jamieson-fausset-brown/HAB/3.json",
+      "size_bytes": 93223,
+      "sha256": "768ee43bf15a4e5c01f67869a8890d8e31041ecb5f31d77f039ad00deb9f6944",
+      "git_blob_sha": "a12d7305f48d12eb55bdb11d9db467faba6e8809",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/john-calvin/HAB/1.json",
+      "size_bytes": 324122,
+      "sha256": "45d329ffaebb55a1caebe4db6c12e65a086826492fcf5a7e263c4a6e17cb215e",
+      "git_blob_sha": "6981be1a852d3e10c8aca4c7711c062c57f8222a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/john-calvin/HAB/2.json",
+      "size_bytes": 603045,
+      "sha256": "9277c02c372cae6207b5993bc9cc58b21366b833ec73d09d9c3749f2ad9407ab",
+      "git_blob_sha": "742c06763eb05537ef8e74eaab5c96a386d784c0",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/john-calvin/HAB/3.json",
+      "size_bytes": 381069,
+      "sha256": "28cf874569277e9243320c45f9f9da8a07ceefc17ce3cd27890de3819d43e9ca",
+      "git_blob_sha": "766f0101e2f85c8ef68710a2a768f913673900d0",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/john-gill/HAB/1.json",
+      "size_bytes": 177995,
+      "sha256": "12ee6b63ee9f48895e56e2f9d1572c595daef53243651e1ec64d893c588af3a8",
+      "git_blob_sha": "f8d7eb311c6c0a8c93f637297828fb6520e664d9",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/john-gill/HAB/2.json",
+      "size_bytes": 299738,
+      "sha256": "be87e3a72861b68b44bc1a04f8c4fcff2e5b5846f2be7498b7550100aec5a29e",
+      "git_blob_sha": "4034f353ef6b1f48ba0c39a7d0c4efad960c1a81",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/john-gill/HAB/3.json",
+      "size_bytes": 331871,
+      "sha256": "c52f8b6aac0fb7c925f2d741b8c34584b52059d485c552bdcfb1efa8fedbc5c5",
+      "git_blob_sha": "32e643cc30fe3cd8a06f32f63af0e6c66dc625bf",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/keil-delitzsch/HAB/1.json",
+      "size_bytes": 178171,
+      "sha256": "f3930c59f37937cdd362b3bfab9185adb48c40ab45a1e0c99b688ff81bf6c176",
+      "git_blob_sha": "cc96e16f620d5f699d1d1cd2edb03a8ec2fcdf4c",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/keil-delitzsch/HAB/2.json",
+      "size_bytes": 122854,
+      "sha256": "0731369a16b4a5826cbbb635eb788e64e066e55e22ea4d09b19e7a3230af4804",
+      "git_blob_sha": "2a4dbded4f69958ea66c7ea24f5eded02d1e4cc0",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/keil-delitzsch/HAB/3.json",
+      "size_bytes": 92930,
+      "sha256": "a41dbc729dc1939c2787ac973b7a5c07d059c23e8adb504a7e241acb8ab08b2f",
+      "git_blob_sha": "0973a27fc428da45770ed0e8c8e016c04063afc8",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/matthew-henry/HAB/1.json",
+      "size_bytes": 138410,
+      "sha256": "4497d39d72e6cdc47f9dd659717bf5e6b50a5169c01267d3f35dabc2d180b90b",
+      "git_blob_sha": "f99385eb719c2f705702492e23fbded62435ac20",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/matthew-henry/HAB/2.json",
+      "size_bytes": 142660,
+      "sha256": "3d9bd7e642eec2c9d4ae951ab4ea44d1cde38694ef2741200385eb14cd8a61f9",
+      "git_blob_sha": "7273fdc4f56ec242ff8e426d0f928dff5883fd9d",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/authors/matthew-henry/HAB/3.json",
+      "size_bytes": 117359,
+      "sha256": "ba2be859ec795315759301b4695dc6d49ca84ca1c5ebaa1fcf1bfd06e8fb5b72",
+      "git_blob_sha": "aa41b364e0ac688917817d3f421ff698e3095582",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/index/HAB/1.json",
+      "size_bytes": 11235,
+      "sha256": "aeb108a3e54598ecbe40207a6f2be31b592464ac48ef72b266c5b7e0854ff12b",
+      "git_blob_sha": "b343a09474bc0ddc657c2c8eef6a723b8a689892",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/index/HAB/2.json",
+      "size_bytes": 10799,
+      "sha256": "0796dd35f52d2af476e4a568a90914384f18b7fb3c51eef357155c47412a92da",
+      "git_blob_sha": "3f5dc25a6979de948614f79a71b71836fd225ec6",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/index/HAB/3.json",
+      "size_bytes": 10357,
+      "sha256": "6cd96cbb057e911f9c89359cb042e70a4b14a6de3b848763753bc48e5dc4e23a",
+      "git_blob_sha": "7a5e3ad0bd887b2cb5b7360f6876571b77ce2d0e",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-habakkuk-2026-11-11/manifest.json",
+      "size_bytes": 1751,
+      "sha256": "bf9fb3e3016eac20aea64ffef55cc9f94cdec731933aa57fbe64a9d23c54a8be",
+      "git_blob_sha": "83d2ac0837d038afcad38cc7c3f5a10896cd53ba",
+      "change": "ADD"
+    },
+    {
+      "path": "review-habakkuk-v3.html",
+      "size_bytes": 14393,
+      "sha256": "b6de63787bddacf2fcd8f1aa8947a2bcd6b586afe10e1a3dc75fc46bde575200",
+      "git_blob_sha": "dc1eb9f70fbbefb947d4967228b9ea1b1c95ff5a",
+      "change": "ADD"
+    }
+  ],
+  "qa": {
+    "independent_source_provenance_checks": 4684,
+    "reader_navigation_checks": 3767,
+    "errors": 0,
+    "source_archives_sha_locked": 6,
+    "source_license_records_preserved": true,
+    "original_p_sections": 26,
+    "routed_p_sections": 27,
+    "previous_books_preserved": 34,
+    "github_writes": 0,
+    "browser_rendering": "NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "counts": {
+    "chapters": 3,
+    "scripture_verse_coordinates": 56,
+    "authors": 6,
+    "original_source_entries": 241,
+    "source_backed_verse_author_links": 331
+  },
+  "source_scoped_exceptions": {
+    "john-calvin:1": [
+      15
+    ],
+    "adam-clarke:1": [
+      15
+    ],
+    "john-calvin:2": [
+      3
+    ],
+    "john-calvin:3": [
+      18
+    ],
+    "adam-clarke:3": [
+      18
+    ]
+  },
+  "rights_and_provenance": "Five selected original CrossWire/SWORD modules with original OSIS and native binary index; original HelloAO Gill source. Preserve modules licensing and digital-edition/provenance metadata; no translation text. Actual public redistribution remains edition-specific.",
+  "release_scope": "Additive independent staging book; no rewrites to earlier accepted books, config, shared scripts, workflows, or CGBC player",
+  "publication_gate": "Owner manual upload plus exact path/hash/Pages deployment and browser visual verification"
+}
