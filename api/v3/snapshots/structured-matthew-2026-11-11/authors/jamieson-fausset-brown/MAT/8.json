@@ -1,0 +1,418 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-matthew-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "MAT",
+  "chapter": 8,
+  "canonical_chapter": "MAT.8",
+  "versification": "KJV",
+  "verse_count": 34,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Matt\" sID=\"gen25110\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO MATTHEW\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO MATTHEW</title> <div sID=\"gen25111\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen25111\" type=\"x-p\"/> ",
+      "source_record_sha256": "d71846ccb76e250a594724ebdc33cb495662dd9c8b334be8f6f2fa245df4043d",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 0,
+        "length": 357
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"8\" osisID=\"Matt.8\" sID=\"Matt.8\"/><div eID=\"gen25698\" type=\"x-p\"/> ",
+      "source_record_sha256": "54e00a08429d65700cc5e924aebd8d72443f76eca916ee4b158f55ee598e4bb4",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 345425,
+        "length": 78
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:MAT.8.1-1:1:345503:778",
+      "passage_start": "MAT.8.1",
+      "passage_end": "MAT.8.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13462\"/><title type=\"x-s2\">CHAPTER 8</title> <title type=\"x-s3\"><reference osisRef=\"Matt.8.1-Matt.8.4\">Mt 8:1-4</reference>. Healing of a Leper. ( = <reference osisRef=\"Mark.1.40-Mark.1.45\">Mr 1:40-45</reference>; <reference osisRef=\"Luke.5.12-Luke.5.16\">Lu 5:12-16</reference>).</title> <div sID=\"gen25699\" type=\"x-p\"/> The time of this miracle seems too definitely fixed here to admit of our placing it where it stands in Mark and Luke, in whose Gospels no such precise note of time is given.<div eID=\"gen25699\" type=\"x-p\"/> <div sID=\"gen25700\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13462\"/>1. When he was come down from the mountain, great multitudes followed him. <div eID=\"gen25700\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 8 Mt 8:1-4 . Healing of a Leper. ( = Mr 1:40-45 ; Lu 5:12-16 ). The time of this miracle seems too definitely fixed here to admit of our placing it where it stands in Mark and Luke, in whose Gospels no such precise note of time is given. 1. When he was come down from the mountain, great multitudes followed him.",
+      "source_record_sha256": "37efa52ebe6a7715d8aac7e66bd7e68a610457c93f1f66ae478ace85f7a1f321",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 345503,
+        "length": 778
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MAT.8.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. When he was come down from the mountain, great multitudes followed him.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        671,
+        778
+      ],
+      "reader_content_osis": "1. When he was come down from the mountain, great multitudes followed him. <div eID=\"gen25700\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:MAT.8.2-2:1:346281:3443",
+      "passage_start": "MAT.8.2",
+      "passage_end": "MAT.8.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13463\"/><div sID=\"gen25701\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13463\"/><hi type=\"bold\">2. And, behold, there came a leper--</hi>\"a man full of leprosy,\" says <reference osisRef=\"Luke.5.12\">Lu 5:12</reference>. Much has been written on this disease of leprosy, but certain points remain still doubtful. All that needs be said here is that it was a cutaneous disease, of a loathsome, diffusive, and, there is reason to believe, when thoroughly pronounced, incurable character; that though in its distinctive features it is still found in several countries--as Arabia, Egypt, and South Africa--it prevailed, in the form of what is called white leprosy, to an unusual extent, and from a very early period, among the Hebrews; and that it thus furnished to the whole nation a familiar and affecting symbol of SIN, considered as (1) loathsome, (2) spreading, (3) incurable. And while the ceremonial ordinances for detection and cleansing prescribed in this case by the law of Moses (<reference osisRef=\"Lev.13.1-Lev.14.57\">Le 13:1-14:57</reference>) held forth a coming remedy \"for sin and for uncleanness\" (<reference osisRef=\"Ps.51.7\">Psa 51:7</reference>; <reference osisRef=\"2Kgs.5.1\">2Ki 5:1</reference>, <reference osisRef=\"2Kgs.7.10\">7, 10</reference>, <reference osisRef=\"2Kgs.13.14\">13, 14</reference>), the numerous cases of leprosy with which our Lord came in contact, and the glorious cures of them which He wrought, were a fitting manifestation of the work which He came to accomplish. In this view, it deserves to be noticed that the first of our Lord's miracles of healing recorded by Matthew is this cure of a leper.<div eID=\"gen25701\" type=\"x-p\"/> <div sID=\"gen25702\" type=\"x-p\"/><hi type=\"bold\">and worshipped him--</hi>in what sense we shall presently see. Mark says (<reference osisRef=\"Mark.1.40\">Mr 1:40</reference>), he came, \"beseeching and kneeling to Him,\" and Luke says (<reference osisRef=\"Luke.5.12\">Lu 5:12</reference>), \"he fell on his face.\"<div eID=\"gen25702\" type=\"x-p\"/> <div sID=\"gen25703\" type=\"x-p\"/><hi type=\"bold\">saying, Lord, if thou wilt, thou canst make me clean--</hi>As this is the only cure of leprosy recorded by all the three first Evangelists, it was probably the first case of the kind; and if so, this leper's faith in the power of Christ must have been formed in him by what he had heard of His other cures. And how striking a faith is it! He does not say he believed Him able, but with a brevity expressive of a confidence that knew no doubt, he says simply, \"Thou canst.\" But of Christ's willingness to heal him he was not so sure. It needed more knowledge of Jesus than he could be supposed to have to assure him of that. But one thing he was sure of, that He had but to \"will\" it. This shows with what \"worship\" of Christ this leper fell on his face before Him. Clear theological knowledge of the Person of Christ was not then possessed even by those who were most with Him and nearest to Him. Much less could full insight into all that we know of the Only-begotten of the Father be expected of this leper. But he who at that moment felt and owned that to heal an incurable disease needed but the fiat of the Person who stood before him, had assuredly that very faith in the germ which now casts its crown before Him that loved us, and would at any time die for His blessed name. <div eID=\"gen25703\" type=\"x-p\"/>",
+      "content_plain": "2. And, behold, there came a leper-- \"a man full of leprosy,\" says Lu 5:12 . Much has been written on this disease of leprosy, but certain points remain still doubtful. All that needs be said here is that it was a cutaneous disease, of a loathsome, diffusive, and, there is reason to believe, when thoroughly pronounced, incurable character; that though in its distinctive features it is still found in several countries--as Arabia, Egypt, and South Africa--it prevailed, in the form of what is called white leprosy, to an unusual extent, and from a very early period, among the Hebrews; and that it thus furnished to the whole nation a familiar and affecting symbol of SIN, considered as (1) loathsome, (2) spreading, (3) incurable. And while the ceremonial ordinances for detection and cleansing prescribed in this case by the law of Moses ( Le 13:1-14:57 ) held forth a coming remedy \"for sin and for uncleanness\" ( Psa 51:7 ; 2Ki 5:1 , 7, 10 , 13, 14 ), the numerous cases of leprosy with which our Lord came in contact, and the glorious cures of them which He wrought, were a fitting manifestation of the work which He came to accomplish. In this view, it deserves to be noticed that the first of our Lord's miracles of healing recorded by Matthew is this cure of a leper. and worshipped him-- in what sense we shall presently see. Mark says ( Mr 1:40 ), he came, \"beseeching and kneeling to Him,\" and Luke says ( Lu 5:12 ), \"he fell on his face.\" saying, Lord, if thou wilt, thou canst make me clean-- As this is the only cure of leprosy recorded by all the three first Evangelists, it was probably the first case of the kind; and if so, this leper's faith in the power of Christ must have been formed in him by what he had heard of His other cures. And how striking a faith is it! He does not say he believed Him able, but with a brevity expressive of a confidence that knew no doubt, he says simply, \"Thou canst.\" But of Christ's willingness to heal him he was not so sure. It needed more knowledge of Jesus than he could be supposed to have to assure him of that. But one thing he was sure of, that He had but to \"will\" it. This shows with what \"worship\" of Christ this leper fell on his face before Him. Clear theological knowledge of the Person of Christ was not then possessed even by those who were most with Him and nearest to Him. Much less could full insight into all that we know of the Only-begotten of the Father be expected of this leper. But he who at that moment felt and owned that to heal an incurable disease needed but the fiat of the Person who stood before him, had assuredly that very faith in the germ which now casts its crown before Him that loved us, and would at any time die for His blessed name.",
+      "source_record_sha256": "d25a18fe3d99fb9a9ac7d5f6058a2502f6d1575bfca096fcde11c68f05d07e1a",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 346281,
+        "length": 3443
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MAT.8.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. And, behold, there came a leper-- \"a man full of leprosy,\" says Lu 5:12 . Much has been written on this disease of leprosy, but certain points remain still doubtful. All that needs be said here is that it was a cutaneous disease, of a loathsome, diffusive, and, there is reason to believe, when thoroughly pronounced, incurable character; that though in its distinctive features it is still found in several countries--as Arabia, Egypt, and South Africa--it prevailed, in the form of what is called white leprosy, to an unusual extent, and from a very early period, among the Hebrews; and that it thus furnished to the whole nation a familiar and affecting symbol of SIN, considered as (1) loathsome, (2) spreading, (3) incurable. And while the ceremonial ordinances for detection and cleansing prescribed in this case by the law of Moses ( Le 13:1-14:57 ) held forth a coming remedy \"for sin and for uncleanness\" ( Psa 51:7 ; 2Ki 5:1 , 7, 10 , 13, 14 ), the numerous cases of leprosy with which our Lord came in contact, and the glorious cures of them which He wrought, were a fitting manifestation of the work which He came to accomplish. In this view, it deserves to be noticed that the first of our Lord's miracles of healing recorded by Matthew is this cure of a leper. and worshipped him-- in what sense we shall presently see. Mark says ( Mr 1:40 ), he came, \"beseeching and kneeling to Him,\" and Luke says ( Lu 5:12 ), \"he fell on his face.\" saying, Lord, if thou wilt, thou canst make me clean-- As this is the only cure of leprosy recorded by all the three first Evangelists, it was probably the first case of the kind; and if so, this leper's faith in the power of Christ must have been formed in him by what he had heard of His other cures. And how striking a faith is it! He does not say he believed Him able, but with a brevity expressive of a confidence that knew no doubt, he says simply, \"Thou canst.\" But of Christ's willingness to heal him he was not so sure. It needed more knowledge of Jesus than he could be supposed to have to assure him of that. But one thing he was sure of, that He had but to \"will\" it. This shows with what \"worship\" of Christ this leper fell on his face before Him. Clear theological knowledge of the Person of Christ was not then possessed even by those who were most with Him and nearest to Him. Much less could full insight into all that we know of the Only-begotten of the Father be expected of this leper. But he who at that moment felt and owned that to heal an incurable disease needed but the fiat of the Person who stood before him, had assuredly that very faith in the germ which now casts its crown before Him that loved us, and would at any time die for His blessed name."
+    },
+    {
+      "entry_id": "sword:jfb:MAT.8.3-3:1:349724:1769",
+      "passage_start": "MAT.8.3",
+      "passage_end": "MAT.8.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13464\"/><div sID=\"gen25704\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13464\"/><hi type=\"bold\">3. And Jesus--</hi>or \"He,\" according to another reading,--\"moved with compassion,\" says Mark (<reference osisRef=\"Mark.1.41\">Mr 1:41</reference>); a precious addition.<div eID=\"gen25704\" type=\"x-p\"/> <div sID=\"gen25705\" type=\"x-p\"/><hi type=\"bold\">put forth his hand, and touched him--</hi>Such a touch occasioned ceremonial defilement (<reference osisRef=\"Lev.5.3\">Le 5:3</reference>); even as the leper's coming near enough for contact was against the Levitical regulations (<reference osisRef=\"Lev.13.46\">Le 13:46</reference>). But as the man's faith told him there would be no case for such regulations if the cure he hoped to experience should be accomplished, so He who had healing in His wings transcended all such statutes.<div eID=\"gen25705\" type=\"x-p\"/> <div sID=\"gen25706\" type=\"x-p\"/><hi type=\"bold\">saying, I will; be thou clean--</hi>How majestic those two words! By not assuring the man of His power to heal him, He delightfully sets His seal to the man's previous confession of that power; and by assuring him of the one thing of which he had any doubt, and for which he waited--His will to do it--He makes a claim as divine as the cure which immediately followed it.<div eID=\"gen25706\" type=\"x-p\"/> <div sID=\"gen25707\" type=\"x-p\"/><hi type=\"bold\">And immediately his leprosy was cleansed--</hi>Mark, more emphatic, says (<reference osisRef=\"Mark.1.42\">Mr 1:42</reference>), \"And as soon as He had spoken, immediately the leprosy departed from him, and he was cleansed\"--as perfectly as instantaneously. What a contrast this to modern pretended cures! <div eID=\"gen25707\" type=\"x-p\"/>",
+      "content_plain": "3. And Jesus-- or \"He,\" according to another reading,--\"moved with compassion,\" says Mark ( Mr 1:41 ); a precious addition. put forth his hand, and touched him-- Such a touch occasioned ceremonial defilement ( Le 5:3 ); even as the leper's coming near enough for contact was against the Levitical regulations ( Le 13:46 ). But as the man's faith told him there would be no case for such regulations if the cure he hoped to experience should be accomplished, so He who had healing in His wings transcended all such statutes. saying, I will; be thou clean-- How majestic those two words! By not assuring the man of His power to heal him, He delightfully sets His seal to the man's previous confession of that power; and by assuring him of the one thing of which he had any doubt, and for which he waited--His will to do it--He makes a claim as divine as the cure which immediately followed it. And immediately his leprosy was cleansed-- Mark, more emphatic, says ( Mr 1:42 ), \"And as soon as He had spoken, immediately the leprosy departed from him, and he was cleansed\"--as perfectly as instantaneously. What a contrast this to modern pretended cures!",
+      "source_record_sha256": "9d72357a42ad1131e8168774196c9ca76c50cc92d7ffd456e465517958722bd9",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 349724,
+        "length": 1769
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MAT.8.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. And Jesus-- or \"He,\" according to another reading,--\"moved with compassion,\" says Mark ( Mr 1:41 ); a precious addition. put forth his hand, and touched him-- Such a touch occasioned ceremonial defilement ( Le 5:3 ); even as the leper's coming near enough for contact was against the Levitical regulations ( Le 13:46 ). But as the man's faith told him there would be no case for such regulations if the cure he hoped to experience should be accomplished, so He who had healing in His wings transcended all such statutes. saying, I will; be thou clean-- How majestic those two words! By not assuring the man of His power to heal him, He delightfully sets His seal to the man's previous confession of that power; and by assuring him of the one thing of which he had any doubt, and for which he waited--His will to do it--He makes a claim as divine as the cure which immediately followed it. And immediately his leprosy was cleansed-- Mark, more emphatic, says ( Mr 1:42 ), \"And as soon as He had spoken, immediately the leprosy departed from him, and he was cleansed\"--as perfectly as instantaneously. What a contrast this to modern pretended cures!"
+    },
+    {
+      "entry_id": "sword:jfb:MAT.8.4-4:1:351493:4793",
+      "passage_start": "MAT.8.4",
+      "passage_end": "MAT.8.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13465\"/><div sID=\"gen25708\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13465\"/><hi type=\"bold\">4. And Jesus--</hi>\"straitly charged him, and forthwith sent him away\" (<reference osisRef=\"Mark.1.43\">Mr 1:43</reference>), and<div eID=\"gen25708\" type=\"x-p\"/> <div sID=\"gen25709\" type=\"x-p\"/><hi type=\"bold\">saith unto him, See thou tell no man--</hi>A hard condition this would seem to a grateful heart, whose natural language, in such a case, is \"Come, hear, all ye that fear God, and I will declare what He hath done for my soul\" (<reference osisRef=\"Ps.66.16\">Psa 66:16</reference>). We shall presently see the reason for it.<div eID=\"gen25709\" type=\"x-p\"/> <div sID=\"gen25710\" type=\"x-p\"/><hi type=\"bold\">but go thy way, show thyself to the priest, and offer the gift that Moses commanded--</hi>(<reference osisRef=\"Lev.14.1-Lev.14.57\">Le 14:1-57</reference>).<div eID=\"gen25710\" type=\"x-p\"/> <div sID=\"gen25711\" type=\"x-p\"/><hi type=\"bold\">for a testimony unto them--</hi>a palpable witness that the Great Healer had indeed come, and that \"God had visited His people.\" What the sequel was, our Evangelist Matthew does not say; but Mark thus gives it (<reference osisRef=\"Mark.1.45\">Mr 1:45</reference>): \"But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to Him from every quarter.\" Thus--by an over-zealous, though most natural and not very culpable, infringement of the injunction to keep the matter quiet--was our Lord, to some extent, thwarted in His movements. As His whole course was sublimely noiseless (<reference osisRef=\"Matt.12.19\">Mt 12:19</reference>), so we find Him repeatedly taking steps to prevent matters prematurely coming to a crisis with Him. (But see on <reference osisRef=\"Mark.5.19\">Mr 5:19</reference>, <reference osisRef=\"Mark.5.20\">20</reference>). \"And He withdrew Himself,\" adds Luke (<reference osisRef=\"Luke.5.16\">Lu 5:16</reference>), \"into the wilderness, and prayed\"; retreating from the popular excitement into the secret place of the Most High, and thus coming forth as dew upon the mown grass, and as showers that water the earth (<reference osisRef=\"Ps.72.6\">Psa 72:6</reference>). And this is the secret both of strength and of sweetness in the servants and followers of Christ in every age.<div eID=\"gen25711\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.8.5-Matt.8.13\">Mt 8:5-13</reference>. Healing of the Centurion's Servant. ( = <reference osisRef=\"Luke.7.1-Luke.7.10\">Lu 7:1-10</reference>).</title> <div sID=\"gen25712\" type=\"x-p\"/> This incident belongs to a later stage. For the exposition, see on <reference osisRef=\"Luke.7.1-Luke.7.10\">Lu 7:1-10</reference>.<div eID=\"gen25712\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.8.14-Matt.8.17\">Mt 8:14-17</reference>. Healing of Peter's Mother-in-law and Many Others. ( = <reference osisRef=\"Mark.1.29-Mark.1.34\">Mr 1:29-34</reference>; <reference osisRef=\"Luke.4.38-Luke.4.41\">Lu 4:38-41</reference>).</title> <div sID=\"gen25713\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.1.29-Mark.1.34\">Mr 1:29-34</reference>.<div eID=\"gen25713\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.8.18-Matt.8.22\">Mt 8:18-22</reference>. Incidents Illustrative of Discipleship. ( = <reference osisRef=\"Luke.9.57-Luke.9.62\">Lu 9:57-62</reference>).</title> <div sID=\"gen25714\" type=\"x-p\"/> The incidents here are two: in the corresponding passage of Luke they are three. Here they are introduced before the mission of the Twelve: <hi type=\"bold\">in Luke, when our Lord was making preparation for His final journey to Jerusalem. But to conclude from this, as some good critics do (as Bengel, Ellicott, &amp;c.) that one of these incidents at least occurred twice--</hi>which led to the mention of the others at the two different times--is too artificial. Taking them, then, as one set of occurrences, the question arises. Are they recorded by Matthew or by Luke in their proper place? Neander, Schleiermacher, and Olshausen adhere to Luke's order; while Meyer, De Wette, and Lange prefer that of Matthew. Probably the first incident is here in its right place. But as the command, in the second incident, to preach the kingdom of God, would scarcely have been given at so early a period, it is likely that it and the third incident have their true place in Luke. Taking these three incidents up here then we have,<div eID=\"gen25714\" type=\"x-p\"/> <div sID=\"gen25715\" type=\"x-p\"/> I. The Rash or Precipitate Disciple (<reference osisRef=\"Matt.8.19\">Mt 8:19</reference>, <reference osisRef=\"Matt.8.20\">20</reference>). <div eID=\"gen25715\" type=\"x-p\"/>",
+      "content_plain": "4. And Jesus-- \"straitly charged him, and forthwith sent him away\" ( Mr 1:43 ), and saith unto him, See thou tell no man-- A hard condition this would seem to a grateful heart, whose natural language, in such a case, is \"Come, hear, all ye that fear God, and I will declare what He hath done for my soul\" ( Psa 66:16 ). We shall presently see the reason for it. but go thy way, show thyself to the priest, and offer the gift that Moses commanded-- ( Le 14:1-57 ). for a testimony unto them-- a palpable witness that the Great Healer had indeed come, and that \"God had visited His people.\" What the sequel was, our Evangelist Matthew does not say; but Mark thus gives it ( Mr 1:45 ): \"But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to Him from every quarter.\" Thus--by an over-zealous, though most natural and not very culpable, infringement of the injunction to keep the matter quiet--was our Lord, to some extent, thwarted in His movements. As His whole course was sublimely noiseless ( Mt 12:19 ), so we find Him repeatedly taking steps to prevent matters prematurely coming to a crisis with Him. (But see on Mr 5:19 , 20 ). \"And He withdrew Himself,\" adds Luke ( Lu 5:16 ), \"into the wilderness, and prayed\"; retreating from the popular excitement into the secret place of the Most High, and thus coming forth as dew upon the mown grass, and as showers that water the earth ( Psa 72:6 ). And this is the secret both of strength and of sweetness in the servants and followers of Christ in every age. Mt 8:5-13 . Healing of the Centurion's Servant. ( = Lu 7:1-10 ). This incident belongs to a later stage. For the exposition, see on Lu 7:1-10 . Mt 8:14-17 . Healing of Peter's Mother-in-law and Many Others. ( = Mr 1:29-34 ; Lu 4:38-41 ). For the exposition, see on Mr 1:29-34 . Mt 8:18-22 . Incidents Illustrative of Discipleship. ( = Lu 9:57-62 ). The incidents here are two: in the corresponding passage of Luke they are three. Here they are introduced before the mission of the Twelve: in Luke, when our Lord was making preparation for His final journey to Jerusalem. But to conclude from this, as some good critics do (as Bengel, Ellicott, &c.) that one of these incidents at least occurred twice-- which led to the mention of the others at the two different times--is too artificial. Taking them, then, as one set of occurrences, the question arises. Are they recorded by Matthew or by Luke in their proper place? Neander, Schleiermacher, and Olshausen adhere to Luke's order; while Meyer, De Wette, and Lange prefer that of Matthew. Probably the first incident is here in its right place. But as the command, in the second incident, to preach the kingdom of God, would scarcely have been given at so early a period, it is likely that it and the third incident have their true place in Luke. Taking these three incidents up here then we have, I. The Rash or Precipitate Disciple ( Mt 8:19 , 20 ).",
+      "source_record_sha256": "4c3e243266982f6c7ae6ac5a1647b742ea3a2ba38f6d840b510e4ba06cb01437",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 351493,
+        "length": 4793
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MAT.8.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. And Jesus-- \"straitly charged him, and forthwith sent him away\" ( Mr 1:43 ), and saith unto him, See thou tell no man-- A hard condition this would seem to a grateful heart, whose natural language, in such a case, is \"Come, hear, all ye that fear God, and I will declare what He hath done for my soul\" ( Psa 66:16 ). We shall presently see the reason for it. but go thy way, show thyself to the priest, and offer the gift that Moses commanded-- ( Le 14:1-57 ). for a testimony unto them-- a palpable witness that the Great Healer had indeed come, and that \"God had visited His people.\" What the sequel was, our Evangelist Matthew does not say; but Mark thus gives it ( Mr 1:45 ): \"But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to Him from every quarter.\" Thus--by an over-zealous, though most natural and not very culpable, infringement of the injunction to keep the matter quiet--was our Lord, to some extent, thwarted in His movements. As His whole course was sublimely noiseless ( Mt 12:19 ), so we find Him repeatedly taking steps to prevent matters prematurely coming to a crisis with Him. (But see on Mr 5:19 , 20 ). \"And He withdrew Himself,\" adds Luke ( Lu 5:16 ), \"into the wilderness, and prayed\"; retreating from the popular excitement into the secret place of the Most High, and thus coming forth as dew upon the mown grass, and as showers that water the earth ( Psa 72:6 ). And this is the secret both of strength and of sweetness in the servants and followers of Christ in every age. Mt 8:5-13 . Healing of the Centurion's Servant. ( = Lu 7:1-10 ). This incident belongs to a later stage. For the exposition, see on Lu 7:1-10 . Mt 8:14-17 . Healing of Peter's Mother-in-law and Many Others. ( = Mr 1:29-34 ; Lu 4:38-41 ). For the exposition, see on Mr 1:29-34 . Mt 8:18-22 . Incidents Illustrative of Discipleship. ( = Lu 9:57-62 ). The incidents here are two: in the corresponding passage of Luke they are three. Here they are introduced before the mission of the Twelve: in Luke, when our Lord was making preparation for His final journey to Jerusalem. But to conclude from this, as some good critics do (as Bengel, Ellicott, &c.) that one of these incidents at least occurred twice-- which led to the mention of the others at the two different times--is too artificial. Taking them, then, as one set of occurrences, the question arises. Are they recorded by Matthew or by Luke in their proper place? Neander, Schleiermacher, and Olshausen adhere to Luke's order; while Meyer, De Wette, and Lange prefer that of Matthew. Probably the first incident is here in its right place. But as the command, in the second incident, to preach the kingdom of God, would scarcely have been given at so early a period, it is likely that it and the third incident have their true place in Luke. Taking these three incidents up here then we have, I. The Rash or Precipitate Disciple ( Mt 8:19 , 20 )."
+    },
+    {
+      "entry_id": "sword:jfb:MAT.8.19-19:1:356286:287",
+      "passage_start": "MAT.8.19",
+      "passage_end": "MAT.8.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13466\"/><div sID=\"gen25716\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13466\"/>19. And a certain scribe came, and said unto him, Master, I will follow thee whithersoever thou goest. <div eID=\"gen25716\" type=\"x-p\"/>",
+      "content_plain": "19. And a certain scribe came, and said unto him, Master, I will follow thee whithersoever thou goest.",
+      "source_record_sha256": "0682c9e3ed069632b786056ad411e06554ea6f9f70fc729eda63376fab2f0de0",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 356286,
+        "length": 287
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MAT.8.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19. And a certain scribe came, and said unto him, Master, I will follow thee whithersoever thou goest."
+    },
+    {
+      "entry_id": "sword:jfb:MAT.8.20-20:1:356573:10952",
+      "passage_start": "MAT.8.20",
+      "passage_end": "MAT.8.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13467\"/><div sID=\"gen25717\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13467\"/><hi type=\"bold\">20. And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head--</hi>Few as there were of the scribes who attached themselves to Jesus, it would appear, from his calling Him Teacher, that this one was a \"disciple\" in that looser sense of the word in which it is applied to the crowds who flocked after Him, with more or less conviction that His claims were well founded. But from the answer which he received we are led to infer that there was more of transient emotion--of temporary impulse--than of intelligent principle in the speech. The preaching of Christ had riveted and charmed him; his heart had swelled; his enthusiasm had been kindled; and in this state of mind he will go anywhere with Him, and feels impelled to tell Him so. \"Wilt thou?\" replies the Lord Jesus. \"Knowest thou whom thou art pledging thyself to follow, and whither haply He may lead thee? No warm home, no downy pillow has He for thee: He has them not for Himself. The foxes are not without their holes, nor do the birds of the air lack their nests; but the Son of man has to depend on the hospitality of others, and borrow the pillow whereon He lays His head.\" How affecting is this reply! And yet He rejects not this man's offer, nor refuses him the liberty to follow Him. Only He will have him know what he is doing, and \"count the cost.\" He will have him weigh well the real nature and the strength of his attachment, whether it be such as will abide in the day of trial. If so, he will be right welcome, for Christ puts none away. But it seems too plain that in this case that had not been done. And so we have called this the Rash or Precipitate Disciple.<div eID=\"gen25717\" type=\"x-p\"/> <div sID=\"gen25718\" type=\"x-p\"/> II. The Procrastinating or Entangled Disciple (<reference osisRef=\"Matt.8.21\">Mt 8:21</reference>, <reference osisRef=\"Matt.8.22\">22</reference>).<div eID=\"gen25718\" type=\"x-p\"/> <div sID=\"gen25719\" type=\"x-p\"/> As this is more fully given in Luke (<reference osisRef=\"Luke.9.59\">Lu 9:59</reference>), we must take both together. \"And He said unto another of His disciples, Follow Me. But he said,\"<div eID=\"gen25719\" type=\"x-p\"/> <div sID=\"gen25720\" type=\"x-p\"/><hi type=\"bold\">Lord, suffer me first to go and bury my father. But Jesus said unto him, Follow me; and let the dead bury their dead--</hi>or, as more definitely in Luke, \"Let the dead bury their dead: but go thou and preach the kingdom of God\" (<reference osisRef=\"Luke.9.60\">Lu 9:60</reference>). This disciple did not, like the former, volunteer his services, but is called by the Lord Jesus, not only to follow, but to preach Him. And he is quite willing; only he is not ready just yet. \"Lord, I will; but\"--\"There is a difficulty in the way just now; but that once removed, I am Thine.\" What now is this difficulty? Was his father actually dead--lying a corpse--having only to be buried? Impossible. As it was the practice, as noticed on <reference osisRef=\"Luke.7.12\">Lu 7:12</reference>, to bury on the day of death, it is not very likely that this disciple would have been here at all if his father had just breathed his last; nor would the Lord, if He was there, have hindered him discharging the last duties of a son to a father. No doubt it was the common case of a son having a frail or aged father, not likely to live long, whose head he thinks it his duty to see under the ground ere he goes abroad. \"This aged father of mine will soon be removed; and if I might but delay till I see him decently interred, I should then be free to preach the kingdom of God wherever duty might call me.\" This view of the case will explain the curt reply, \"Let the dead bury their dead: <hi type=\"bold\">but go thou and preach the kingdom of God.\" Like all the other paradoxical sayings of our Lord, the key to it is the different senses--</hi>a higher and a lower--in which the same word \"dead\" is used: <hi type=\"bold\">There are two kingdoms of God in existence upon earth; the kingdom of nature, and the kingdom of grace: To the one kingdom all the children of this world, even the most ungodly, are fully alive; to the other, only the children of light: The reigning irreligion consists not in indifference to the common humanities of social life, but to things spiritual and eternal: Fear not, therefore, that your father will in your absence be neglected, and that when he breathes his last there will not be relatives and friends ready enough to do to him the last offices of kindness. Your wish to discharge these yourself is natural, and to be allowed to do it a privilege not lightly to be foregone. But the kingdom of God lies now all neglected and needy: Its more exalted character few discern; to its paramount claims few are alive: and to \"preach\" it fewer still are qualified and called: But thou art: The Lord therefore hath need of thee: Leave, then, those claims of nature, high though they be, to those who are dead to the still higher claims of the kingdom of grace, which God is now erecting upon earth--</hi>Let the dead bury their dead; but go thou and preach the kingdom of God. And so have we here the genuine, but Procrastinating or Entangled Disciple.<div eID=\"gen25720\" type=\"x-p\"/> <div sID=\"gen25721\" type=\"x-p\"/> The next case is recorded only by Luke:<div eID=\"gen25721\" type=\"x-p\"/> <div sID=\"gen25722\" type=\"x-p\"/> III. The Irresolute or Wavering Disciple (<reference osisRef=\"Luke.9.61\">Lu 9:61</reference>, <reference osisRef=\"Luke.9.62\">62</reference>).<div eID=\"gen25722\" type=\"x-p\"/> <div sID=\"gen25723\" type=\"x-p\"/> <reference osisRef=\"Luke.9.61\">Lu 9:61</reference>:<div eID=\"gen25723\" type=\"x-p\"/> <div sID=\"gen25724\" type=\"x-p\"/> And another also said, Lord, I will follow thee; but let me first go bid them farewell which are at home at my house.<div eID=\"gen25724\" type=\"x-p\"/> <div sID=\"gen25725\" type=\"x-p\"/> <reference osisRef=\"Luke.9.62\">Lu 9:62</reference>:<div eID=\"gen25725\" type=\"x-p\"/> <div sID=\"gen25726\" type=\"x-p\"/><hi type=\"bold\">And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God. But for the very different replies given, we should hardly have discerned the difference between this and the second case: the one man called, indeed, and the other volunteering, as did the first; but both seemingly alike willing, and only having a difficulty in their way just at that moment. But, by help of what is said respectively to each, we perceive the great difference between the two cases. From the warning given against \"looking back,\" it is evident that this man's discipleship was not yet thorough, his separation from the world not entire. It is not a case of going back, but of looking back; and as there is here a manifest reference to the case of \"Lot's wife\" (<reference osisRef=\"Gen.19.26\">Ge 19:26</reference>; and see on <reference osisRef=\"Luke.17.32\">Lu 17:32</reference>), we see that it is not actual return to the world that we have here to deal with, but a reluctance to break with it. The figure of putting one's hand to the plough and looking back is an exceedingly vivid one, and to an agricultural people most impressive. As ploughing requires an eye intent on the furrow to be made, and is marred the instant one turns about, so will they come short of salvation who prosecute the work of God with a distracted attention, a divided heart. The reference may be chiefly to ministers; but the application at least is general. As the image seems plainly to have been suggested by the case of Elijah and Elisha, a difficulty may be raised, requiring a moment's attention. When Elijah cast his mantle about Elisha, which the youth quite understood to mean appointing him his successor, he was ploughing with twelve yoke of oxen, the last pair held by himself. Leaving his oxen, he ran after the prophet, and said, \"Let me, I pray thee, kiss my father and my mother, and [then] I will follow thee.\" Was this said in the same spirit with the same speech uttered by our disciple? Let us see. \"And Elijah said unto him, Go back again: for what have I done to thee.\" Commentators take this to mean that Elijah had really done nothing to hinder him from going on with all his ordinary duties. But to us it seems clear that Elijah's intention was to try what manner of spirit the youth was of:--</hi>\"Kiss thy father and mother? And why not? By all means, go home and stay with them; for what have I done to thee? I did but throw a mantle about thee; but what of that?\" If this was his meaning, Elisha thoroughly apprehended and nobly met it. \"He returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen (the wood of his ploughing implements), and gave unto the people, and they did eat: then he arose, and went after Elijah, and ministered unto him\" (<reference osisRef=\"1Kgs.19.19-1Kgs.19.21\">1Ki 19:19-21</reference>). We know not if even his father and mother had time to be called to this hasty feast. But this much is plain, that, though in affluent circumstances, he gave up his lower calling, with all its prospects, for the higher and at that time perilous, office to which he was called. What now is the bearing of these two cases? Did Elisha do wrong in bidding them farewell with whom he was associated in his early calling? Or, if not, would this disciple have done wrong if he had done the same thing, and in the same spirit, with Elisha? Clearly not. Elisha's doing it proved that he could with safety do it; and our Lord's warning is not against bidding them farewell which were at home at his house, but against the probable fatal consequences of that step; lest the embraces of earthly relationship should prove too strong for him, and he should never return to follow Christ. Accordingly, we have called this the Irresolute or Wavering Disciple.<div eID=\"gen25726\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.8.23-Matt.8.27\">Mt 8:23-27</reference>. Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = <reference osisRef=\"Mark.4.35-Mark.4.41\">Mr 4:35-41</reference>; <reference osisRef=\"Luke.8.22-Luke.8.25\">Lu 8:22-25</reference>).</title> <div sID=\"gen25727\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.4.35-Mark.4.41\">Mr 4:35-41</reference>.<div eID=\"gen25727\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.8.28-Matt.8.34\">Mt 8:28-34</reference>. Jesus Heals the Gergesene Demoniacs. ( = <reference osisRef=\"Mark.5.1-Mark.5.20\">Mr 5:1-20</reference>; <reference osisRef=\"Luke.8.26-Luke.8.39\">Lu 8:26-39</reference>).</title> <div sID=\"gen25728\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.5.1-Mark.5.20\">Mr 5:1-20</reference>.  <chapter eID=\"Matt.8\"/>",
+      "content_plain": "20. And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head-- Few as there were of the scribes who attached themselves to Jesus, it would appear, from his calling Him Teacher, that this one was a \"disciple\" in that looser sense of the word in which it is applied to the crowds who flocked after Him, with more or less conviction that His claims were well founded. But from the answer which he received we are led to infer that there was more of transient emotion--of temporary impulse--than of intelligent principle in the speech. The preaching of Christ had riveted and charmed him; his heart had swelled; his enthusiasm had been kindled; and in this state of mind he will go anywhere with Him, and feels impelled to tell Him so. \"Wilt thou?\" replies the Lord Jesus. \"Knowest thou whom thou art pledging thyself to follow, and whither haply He may lead thee? No warm home, no downy pillow has He for thee: He has them not for Himself. The foxes are not without their holes, nor do the birds of the air lack their nests; but the Son of man has to depend on the hospitality of others, and borrow the pillow whereon He lays His head.\" How affecting is this reply! And yet He rejects not this man's offer, nor refuses him the liberty to follow Him. Only He will have him know what he is doing, and \"count the cost.\" He will have him weigh well the real nature and the strength of his attachment, whether it be such as will abide in the day of trial. If so, he will be right welcome, for Christ puts none away. But it seems too plain that in this case that had not been done. And so we have called this the Rash or Precipitate Disciple. II. The Procrastinating or Entangled Disciple ( Mt 8:21 , 22 ). As this is more fully given in Luke ( Lu 9:59 ), we must take both together. \"And He said unto another of His disciples, Follow Me. But he said,\" Lord, suffer me first to go and bury my father. But Jesus said unto him, Follow me; and let the dead bury their dead-- or, as more definitely in Luke, \"Let the dead bury their dead: but go thou and preach the kingdom of God\" ( Lu 9:60 ). This disciple did not, like the former, volunteer his services, but is called by the Lord Jesus, not only to follow, but to preach Him. And he is quite willing; only he is not ready just yet. \"Lord, I will; but\"--\"There is a difficulty in the way just now; but that once removed, I am Thine.\" What now is this difficulty? Was his father actually dead--lying a corpse--having only to be buried? Impossible. As it was the practice, as noticed on Lu 7:12 , to bury on the day of death, it is not very likely that this disciple would have been here at all if his father had just breathed his last; nor would the Lord, if He was there, have hindered him discharging the last duties of a son to a father. No doubt it was the common case of a son having a frail or aged father, not likely to live long, whose head he thinks it his duty to see under the ground ere he goes abroad. \"This aged father of mine will soon be removed; and if I might but delay till I see him decently interred, I should then be free to preach the kingdom of God wherever duty might call me.\" This view of the case will explain the curt reply, \"Let the dead bury their dead: but go thou and preach the kingdom of God.\" Like all the other paradoxical sayings of our Lord, the key to it is the different senses-- a higher and a lower--in which the same word \"dead\" is used: There are two kingdoms of God in existence upon earth; the kingdom of nature, and the kingdom of grace: To the one kingdom all the children of this world, even the most ungodly, are fully alive; to the other, only the children of light: The reigning irreligion consists not in indifference to the common humanities of social life, but to things spiritual and eternal: Fear not, therefore, that your father will in your absence be neglected, and that when he breathes his last there will not be relatives and friends ready enough to do to him the last offices of kindness. Your wish to discharge these yourself is natural, and to be allowed to do it a privilege not lightly to be foregone. But the kingdom of God lies now all neglected and needy: Its more exalted character few discern; to its paramount claims few are alive: and to \"preach\" it fewer still are qualified and called: But thou art: The Lord therefore hath need of thee: Leave, then, those claims of nature, high though they be, to those who are dead to the still higher claims of the kingdom of grace, which God is now erecting upon earth-- Let the dead bury their dead; but go thou and preach the kingdom of God. And so have we here the genuine, but Procrastinating or Entangled Disciple. The next case is recorded only by Luke: III. The Irresolute or Wavering Disciple ( Lu 9:61 , 62 ). Lu 9:61 : And another also said, Lord, I will follow thee; but let me first go bid them farewell which are at home at my house. Lu 9:62 : And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God. But for the very different replies given, we should hardly have discerned the difference between this and the second case: the one man called, indeed, and the other volunteering, as did the first; but both seemingly alike willing, and only having a difficulty in their way just at that moment. But, by help of what is said respectively to each, we perceive the great difference between the two cases. From the warning given against \"looking back,\" it is evident that this man's discipleship was not yet thorough, his separation from the world not entire. It is not a case of going back, but of looking back; and as there is here a manifest reference to the case of \"Lot's wife\" ( Ge 19:26 ; and see on Lu 17:32 ), we see that it is not actual return to the world that we have here to deal with, but a reluctance to break with it. The figure of putting one's hand to the plough and looking back is an exceedingly vivid one, and to an agricultural people most impressive. As ploughing requires an eye intent on the furrow to be made, and is marred the instant one turns about, so will they come short of salvation who prosecute the work of God with a distracted attention, a divided heart. The reference may be chiefly to ministers; but the application at least is general. As the image seems plainly to have been suggested by the case of Elijah and Elisha, a difficulty may be raised, requiring a moment's attention. When Elijah cast his mantle about Elisha, which the youth quite understood to mean appointing him his successor, he was ploughing with twelve yoke of oxen, the last pair held by himself. Leaving his oxen, he ran after the prophet, and said, \"Let me, I pray thee, kiss my father and my mother, and [then] I will follow thee.\" Was this said in the same spirit with the same speech uttered by our disciple? Let us see. \"And Elijah said unto him, Go back again: for what have I done to thee.\" Commentators take this to mean that Elijah had really done nothing to hinder him from going on with all his ordinary duties. But to us it seems clear that Elijah's intention was to try what manner of spirit the youth was of:-- \"Kiss thy father and mother? And why not? By all means, go home and stay with them; for what have I done to thee? I did but throw a mantle about thee; but what of that?\" If this was his meaning, Elisha thoroughly apprehended and nobly met it. \"He returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen (the wood of his ploughing implements), and gave unto the people, and they did eat: then he arose, and went after Elijah, and ministered unto him\" ( 1Ki 19:19-21 ). We know not if even his father and mother had time to be called to this hasty feast. But this much is plain, that, though in affluent circumstances, he gave up his lower calling, with all its prospects, for the higher and at that time perilous, office to which he was called. What now is the bearing of these two cases? Did Elisha do wrong in bidding them farewell with whom he was associated in his early calling? Or, if not, would this disciple have done wrong if he had done the same thing, and in the same spirit, with Elisha? Clearly not. Elisha's doing it proved that he could with safety do it; and our Lord's warning is not against bidding them farewell which were at home at his house, but against the probable fatal consequences of that step; lest the embraces of earthly relationship should prove too strong for him, and he should never return to follow Christ. Accordingly, we have called this the Irresolute or Wavering Disciple. Mt 8:23-27 . Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = Mr 4:35-41 ; Lu 8:22-25 ). For the exposition, see on Mr 4:35-41 . Mt 8:28-34 . Jesus Heals the Gergesene Demoniacs. ( = Mr 5:1-20 ; Lu 8:26-39 ). For the exposition, see on Mr 5:1-20 .",
+      "source_record_sha256": "4a5295df897ab255e9112eb5cdf81037d69c18e73f879913f47613912c7a465a",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 356573,
+        "length": 10952
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MAT.8.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20. And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head-- Few as there were of the scribes who attached themselves to Jesus, it would appear, from his calling Him Teacher, that this one was a \"disciple\" in that looser sense of the word in which it is applied to the crowds who flocked after Him, with more or less conviction that His claims were well founded. But from the answer which he received we are led to infer that there was more of transient emotion--of temporary impulse--than of intelligent principle in the speech. The preaching of Christ had riveted and charmed him; his heart had swelled; his enthusiasm had been kindled; and in this state of mind he will go anywhere with Him, and feels impelled to tell Him so. \"Wilt thou?\" replies the Lord Jesus. \"Knowest thou whom thou art pledging thyself to follow, and whither haply He may lead thee? No warm home, no downy pillow has He for thee: He has them not for Himself. The foxes are not without their holes, nor do the birds of the air lack their nests; but the Son of man has to depend on the hospitality of others, and borrow the pillow whereon He lays His head.\" How affecting is this reply! And yet He rejects not this man's offer, nor refuses him the liberty to follow Him. Only He will have him know what he is doing, and \"count the cost.\" He will have him weigh well the real nature and the strength of his attachment, whether it be such as will abide in the day of trial. If so, he will be right welcome, for Christ puts none away. But it seems too plain that in this case that had not been done. And so we have called this the Rash or Precipitate Disciple. II. The Procrastinating or Entangled Disciple ( Mt 8:21 , 22 ). As this is more fully given in Luke ( Lu 9:59 ), we must take both together. \"And He said unto another of His disciples, Follow Me. But he said,\" Lord, suffer me first to go and bury my father. But Jesus said unto him, Follow me; and let the dead bury their dead-- or, as more definitely in Luke, \"Let the dead bury their dead: but go thou and preach the kingdom of God\" ( Lu 9:60 ). This disciple did not, like the former, volunteer his services, but is called by the Lord Jesus, not only to follow, but to preach Him. And he is quite willing; only he is not ready just yet. \"Lord, I will; but\"--\"There is a difficulty in the way just now; but that once removed, I am Thine.\" What now is this difficulty? Was his father actually dead--lying a corpse--having only to be buried? Impossible. As it was the practice, as noticed on Lu 7:12 , to bury on the day of death, it is not very likely that this disciple would have been here at all if his father had just breathed his last; nor would the Lord, if He was there, have hindered him discharging the last duties of a son to a father. No doubt it was the common case of a son having a frail or aged father, not likely to live long, whose head he thinks it his duty to see under the ground ere he goes abroad. \"This aged father of mine will soon be removed; and if I might but delay till I see him decently interred, I should then be free to preach the kingdom of God wherever duty might call me.\" This view of the case will explain the curt reply, \"Let the dead bury their dead: but go thou and preach the kingdom of God.\" Like all the other paradoxical sayings of our Lord, the key to it is the different senses-- a higher and a lower--in which the same word \"dead\" is used: There are two kingdoms of God in existence upon earth; the kingdom of nature, and the kingdom of grace: To the one kingdom all the children of this world, even the most ungodly, are fully alive; to the other, only the children of light: The reigning irreligion consists not in indifference to the common humanities of social life, but to things spiritual and eternal: Fear not, therefore, that your father will in your absence be neglected, and that when he breathes his last there will not be relatives and friends ready enough to do to him the last offices of kindness. Your wish to discharge these yourself is natural, and to be allowed to do it a privilege not lightly to be foregone. But the kingdom of God lies now all neglected and needy: Its more exalted character few discern; to its paramount claims few are alive: and to \"preach\" it fewer still are qualified and called: But thou art: The Lord therefore hath need of thee: Leave, then, those claims of nature, high though they be, to those who are dead to the still higher claims of the kingdom of grace, which God is now erecting upon earth-- Let the dead bury their dead; but go thou and preach the kingdom of God. And so have we here the genuine, but Procrastinating or Entangled Disciple. The next case is recorded only by Luke: III. The Irresolute or Wavering Disciple ( Lu 9:61 , 62 ). Lu 9:61 : And another also said, Lord, I will follow thee; but let me first go bid them farewell which are at home at my house. Lu 9:62 : And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God. But for the very different replies given, we should hardly have discerned the difference between this and the second case: the one man called, indeed, and the other volunteering, as did the first; but both seemingly alike willing, and only having a difficulty in their way just at that moment. But, by help of what is said respectively to each, we perceive the great difference between the two cases. From the warning given against \"looking back,\" it is evident that this man's discipleship was not yet thorough, his separation from the world not entire. It is not a case of going back, but of looking back; and as there is here a manifest reference to the case of \"Lot's wife\" ( Ge 19:26 ; and see on Lu 17:32 ), we see that it is not actual return to the world that we have here to deal with, but a reluctance to break with it. The figure of putting one's hand to the plough and looking back is an exceedingly vivid one, and to an agricultural people most impressive. As ploughing requires an eye intent on the furrow to be made, and is marred the instant one turns about, so will they come short of salvation who prosecute the work of God with a distracted attention, a divided heart. The reference may be chiefly to ministers; but the application at least is general. As the image seems plainly to have been suggested by the case of Elijah and Elisha, a difficulty may be raised, requiring a moment's attention. When Elijah cast his mantle about Elisha, which the youth quite understood to mean appointing him his successor, he was ploughing with twelve yoke of oxen, the last pair held by himself. Leaving his oxen, he ran after the prophet, and said, \"Let me, I pray thee, kiss my father and my mother, and [then] I will follow thee.\" Was this said in the same spirit with the same speech uttered by our disciple? Let us see. \"And Elijah said unto him, Go back again: for what have I done to thee.\" Commentators take this to mean that Elijah had really done nothing to hinder him from going on with all his ordinary duties. But to us it seems clear that Elijah's intention was to try what manner of spirit the youth was of:-- \"Kiss thy father and mother? And why not? By all means, go home and stay with them; for what have I done to thee? I did but throw a mantle about thee; but what of that?\" If this was his meaning, Elisha thoroughly apprehended and nobly met it. \"He returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen (the wood of his ploughing implements), and gave unto the people, and they did eat: then he arose, and went after Elijah, and ministered unto him\" ( 1Ki 19:19-21 ). We know not if even his father and mother had time to be called to this hasty feast. But this much is plain, that, though in affluent circumstances, he gave up his lower calling, with all its prospects, for the higher and at that time perilous, office to which he was called. What now is the bearing of these two cases? Did Elisha do wrong in bidding them farewell with whom he was associated in his early calling? Or, if not, would this disciple have done wrong if he had done the same thing, and in the same spirit, with Elisha? Clearly not. Elisha's doing it proved that he could with safety do it; and our Lord's warning is not against bidding them farewell which were at home at his house, but against the probable fatal consequences of that step; lest the embraces of earthly relationship should prove too strong for him, and he should never return to follow Christ. Accordingly, we have called this the Irresolute or Wavering Disciple. Mt 8:23-27 . Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = Mr 4:35-41 ; Lu 8:22-25 ). For the exposition, see on Mr 4:35-41 . Mt 8:28-34 . Jesus Heals the Gergesene Demoniacs. ( = Mr 5:1-20 ; Lu 8:26-39 ). For the exposition, see on Mr 5:1-20 ."
+    }
+  ],
+  "indexed_verse_count": 6,
+  "unindexed_verse_count": 28,
+  "upstream_snapshot_id": "SOTW_MAT_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 6
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:chapter-8",
+      "navigation_id": "MAT.8:P:chapter-8",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 8",
+      "content_plain": "CHAPTER 8",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 8</title> ",
+      "source_entry_id": "sword:jfb:MAT.8.1-1:1:345503:778",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        97
+      ],
+      "source_fragment_sha256": "c8822bc0f47987d3f3b18f7d8676383062575dcacfe0e35f2360dfc7027069e0",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.1",
+        "MAT.8.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-1-4-healing-of-a-leper-mr-1-40-45-lu-5-12-16",
+      "navigation_id": "MAT.8:P:mt-8-1-4-healing-of-a-leper-mr-1-40-45-lu-5-12-16",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Mt 8:1-4 . Healing of a Leper. ( = Mr 1:40-45 ; Lu 5:12-16 ).",
+      "content_plain": "Mt 8:1-4 . Healing of a Leper. ( = Mr 1:40-45 ; Lu 5:12-16 ). The time of this miracle seems too definitely fixed here to admit of our placing it where it stands in Mark and Luke, in whose Gospels no such precise note of time is given.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Matt.8.1-Matt.8.4\">Mt 8:1-4</reference>. Healing of a Leper. ( = <reference osisRef=\"Mark.1.40-Mark.1.45\">Mr 1:40-45</reference>; <reference osisRef=\"Luke.5.12-Luke.5.16\">Lu 5:12-16</reference>).</title> <div sID=\"gen25699\" type=\"x-p\"/> The time of this miracle seems too definitely fixed here to admit of our placing it where it stands in Mark and Luke, in whose Gospels no such precise note of time is given.<div eID=\"gen25699\" type=\"x-p\"/> <div sID=\"gen25700\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13462\"/>",
+      "source_entry_id": "sword:jfb:MAT.8.1-1:1:345503:778",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        97,
+        671
+      ],
+      "source_fragment_sha256": "a7ef02389f626bd7bfcbba437525306d357cb23b0177b7fd73fe410b212a9e17",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.1",
+        "MAT.8.1"
+      ],
+      "source_title_explicit_range": [
+        "MAT.8.1",
+        "MAT.8.4"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-5-13-healing-of-the-centurion-s-servant-lu-7-1-10",
+      "navigation_id": "MAT.8:P:mt-8-5-13-healing-of-the-centurion-s-servant-lu-7-1-10",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Mt 8:5-13 . Healing of the Centurion's Servant. ( = Lu 7:1-10 ).",
+      "content_plain": "Mt 8:5-13 . Healing of the Centurion's Servant. ( = Lu 7:1-10 ).",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Matt.8.5-Matt.8.13\">Mt 8:5-13</reference>. Healing of the Centurion's Servant. ( = <reference osisRef=\"Luke.7.1-Luke.7.10\">Lu 7:1-10</reference>).</title>",
+      "source_entry_id": "sword:jfb:MAT.8.4-4:1:351493:4793",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        2478,
+        2671
+      ],
+      "source_fragment_sha256": "58b0d047d1844014361d940fa72d81372e0991349459dac8343a83b9123095ad",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.4",
+        "MAT.8.4"
+      ],
+      "source_title_explicit_range": [
+        "MAT.8.5",
+        "MAT.8.13"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-14-17-healing-of-peter-s-mother-in-law-and-many-others-mr-1-29-34-lu-4-38",
+      "navigation_id": "MAT.8:P:mt-8-14-17-healing-of-peter-s-mother-in-law-and-many-others-mr-1-29-34-lu-4-38",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Mt 8:14-17 . Healing of Peter's Mother-in-law and Many Others. ( = Mr 1:29-34 ; Lu 4:38-41 ).",
+      "content_plain": "Mt 8:14-17 . Healing of Peter's Mother-in-law and Many Others. ( = Mr 1:29-34 ; Lu 4:38-41 ).",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Matt.8.14-Matt.8.17\">Mt 8:14-17</reference>. Healing of Peter's Mother-in-law and Many Others. ( = <reference osisRef=\"Mark.1.29-Mark.1.34\">Mr 1:29-34</reference>; <reference osisRef=\"Luke.4.38-Luke.4.41\">Lu 4:38-41</reference>).</title>",
+      "source_entry_id": "sword:jfb:MAT.8.4-4:1:351493:4793",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        2867,
+        3143
+      ],
+      "source_fragment_sha256": "ea0b5fd031f9ebac55d755660eb999173790ee61613783d43b50d408932d22b6",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.4",
+        "MAT.8.4"
+      ],
+      "source_title_explicit_range": [
+        "MAT.8.14",
+        "MAT.8.17"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-18-22-incidents-illustrative-of-discipleship-lu-9-57-62",
+      "navigation_id": "MAT.8:P:mt-8-18-22-incidents-illustrative-of-discipleship-lu-9-57-62",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Mt 8:18-22 . Incidents Illustrative of Discipleship. ( = Lu 9:57-62 ).",
+      "content_plain": "Mt 8:18-22 . Incidents Illustrative of Discipleship. ( = Lu 9:57-62 ).",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Matt.8.18-Matt.8.22\">Mt 8:18-22</reference>. Incidents Illustrative of Discipleship. ( = <reference osisRef=\"Luke.9.57-Luke.9.62\">Lu 9:57-62</reference>).</title>",
+      "source_entry_id": "sword:jfb:MAT.8.4-4:1:351493:4793",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        3301,
+        3502
+      ],
+      "source_fragment_sha256": "866fe4964bed1ccb0bc763572a9c9b733c0ab627e3a86b5ba0c8b33c80004923",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.4",
+        "MAT.8.4"
+      ],
+      "source_title_explicit_range": [
+        "MAT.8.18",
+        "MAT.8.22"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-23-27-jesus-crossing-the-sea-of-galilee-miraculously-stills-a-tempest-mr-",
+      "navigation_id": "MAT.8:P:mt-8-23-27-jesus-crossing-the-sea-of-galilee-miraculously-stills-a-tempest-mr-",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Mt 8:23-27 . Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = Mr 4:35-41 ; Lu 8:22-25 ).",
+      "content_plain": "Mt 8:23-27 . Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = Mr 4:35-41 ; Lu 8:22-25 ).",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Matt.8.23-Matt.8.27\">Mt 8:23-27</reference>. Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = <reference osisRef=\"Mark.4.35-Mark.4.41\">Mr 4:35-41</reference>; <reference osisRef=\"Luke.8.22-Luke.8.25\">Lu 8:22-25</reference>).</title>",
+      "source_entry_id": "sword:jfb:MAT.8.20-20:1:356573:10952",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        10093,
+        10385
+      ],
+      "source_fragment_sha256": "9aeda7b7fa4ba3c5049e03f04e7ac5a4aa16d98d1bc771a1ae5ba71b4858af90",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.20",
+        "MAT.8.20"
+      ],
+      "source_title_explicit_range": [
+        "MAT.8.23",
+        "MAT.8.27"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-28-34-jesus-heals-the-gergesene-demoniacs-mr-5-1-20-lu-8-26-39",
+      "navigation_id": "MAT.8:P:mt-8-28-34-jesus-heals-the-gergesene-demoniacs-mr-5-1-20-lu-8-26-39",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Mt 8:28-34 . Jesus Heals the Gergesene Demoniacs. ( = Mr 5:1-20 ; Lu 8:26-39 ).",
+      "content_plain": "Mt 8:28-34 . Jesus Heals the Gergesene Demoniacs. ( = Mr 5:1-20 ; Lu 8:26-39 ).",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Matt.8.28-Matt.8.34\">Mt 8:28-34</reference>. Jesus Heals the Gergesene Demoniacs. ( = <reference osisRef=\"Mark.5.1-Mark.5.20\">Mr 5:1-20</reference>; <reference osisRef=\"Luke.8.26-Luke.8.39\">Lu 8:26-39</reference>).</title>",
+      "source_entry_id": "sword:jfb:MAT.8.20-20:1:356573:10952",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        10543,
+        10804
+      ],
+      "source_fragment_sha256": "d7c1009d73934dab2a953df9d8d275304e3b378516b592361296b9834fd04b17",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MAT.8.20",
+        "MAT.8.20"
+      ],
+      "source_title_explicit_range": [
+        "MAT.8.28",
+        "MAT.8.34"
+      ]
+    }
+  ],
+  "navigation_section_count": 7,
+  "reader_visible_entry_count": 6,
+  "unavailable_author_work_for_testament": false
+}

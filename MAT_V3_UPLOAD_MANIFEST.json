@@ -1,0 +1,1454 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-matthew-2026-11-11",
+  "book": "MAT",
+  "book_name": "Matthew",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 40,
+  "testament": "NT",
+  "snapshot": "structured-matthew-2026-11-11",
+  "baseline_main_commit": null,
+  "baseline_navigation_manifest_git_blob": "325f69ba6a2aa97c840916551a61349b1d3b5e19",
+  "baseline_navigation_sha256": "c11b5fc558107bdc1c2a7067ca2d987d7b34cfbd7653a2c4e82e9da90b4085b0",
+  "baseline_kind": "projected-after-MAL",
+  "prerequisites": [
+    "Confirm previous navigation Git blob 325f69ba6a2aa97c840916551a61349b1d3b5e19 and SHA-256 c11b5fc558107bdc1c2a7067ca2d987d7b34cfbd7653a2c4e82e9da90b4085b0.",
+    "Confirm all 39 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 200,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/MAT.json",
+      "sha256": "48ecfd797487c0f59e315b4149d852def8c1bce617076bcb549964544d697ca1",
+      "git_blob_sha": "e1c1bbe5c2d23f3a7fed5fa40513543d61f874ed",
+      "bytes": 410034,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "2087eb7c51785056f93dfde57ab2c8fb75918c20dea9def038f6c9a71d307169",
+      "git_blob_sha": "fa36c61a40d918fcfbf4ff54835596b9ae484688",
+      "bytes": 20509,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/1.json",
+      "sha256": "a920b59e8e17c857fd9e2500a7e0fd2cc17a565be23518a66d61e18487d25cea",
+      "git_blob_sha": "e664e62869f570aa306d5b3a7b7af042ae7aeb72",
+      "bytes": 217703,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/10.json",
+      "sha256": "bfeaf2d1014f4d71b8217df6d7977f0bc6e5f8160a728133fc0a543d28647707",
+      "git_blob_sha": "f96e4f99b7e335b0eb0705dbf3c51a7a3b7a88c9",
+      "bytes": 217356,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/11.json",
+      "sha256": "958c1aaf2c06396f6fba6ed4522e442ae5994a8e53114109eb0d9fe906504bcf",
+      "git_blob_sha": "5539fafdd29c128356172ee024514811a129b5a5",
+      "bytes": 133399,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/12.json",
+      "sha256": "d4cb30abb622717678f07420f92217b9eee030105a5583e3e26a78f324992731",
+      "git_blob_sha": "2076ce39430bb932e6da89323f80ecee3c72e3ed",
+      "bytes": 190949,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/13.json",
+      "sha256": "4afd163bb7cf800d795c0014dc13cf46438bd14c0c127bffd9de159af33d44ad",
+      "git_blob_sha": "ee111c43041d5915f227ad261bf16020038ce5d6",
+      "bytes": 204293,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/14.json",
+      "sha256": "cb15c93c85e3e7ff645537c08cc4697d25e566f89516e24521127d1a053a8178",
+      "git_blob_sha": "02034d4b6544b8e32e22d4b90e3478e9a0b5cf36",
+      "bytes": 111644,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/15.json",
+      "sha256": "707cdfb7bf16135dc4077682a22be650f4b63259b86ff7d95d2eabaaba150f4a",
+      "git_blob_sha": "3cd0cb924edd7fd0f40092d5ce42179789ae39ff",
+      "bytes": 133605,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/16.json",
+      "sha256": "b5f58526c0934a32dbf081c782dd78f135afabecf3280635b2e1735abb1fae10",
+      "git_blob_sha": "a2729177a422a73a5d0d7f4296e675774cb96326",
+      "bytes": 167008,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/17.json",
+      "sha256": "5b517094c3e8f0878ec6e0ce9738cf8ba85c802e4150957603fc92e80e72b6fc",
+      "git_blob_sha": "a89429cdf96dfeb729fc2a179cf7e51f79f91616",
+      "bytes": 122574,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/18.json",
+      "sha256": "50fad6f8f5b30fc7b6e6b86943b65052b93b14f3506cbe51c10ed6d7e3a1e245",
+      "git_blob_sha": "984fd3b2a5b51f61550b51ad4738cb2bd7fbe424",
+      "bytes": 139862,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/19.json",
+      "sha256": "c105c1d0ab45ad8336b8c42d088c9794099975c042cdd314a0b8a4b2560ff7ca",
+      "git_blob_sha": "2db829a1f5a96f28c4c061e36b9cc3cdde34fcbe",
+      "bytes": 142576,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/2.json",
+      "sha256": "3400198a8b20a7a552d0e2512332bb03b5b5740e563ed90ddbc6734212e33646",
+      "git_blob_sha": "3935f96fdc3cc85a3bc109a58c45b682629bbf45",
+      "bytes": 166887,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/20.json",
+      "sha256": "d5fd5d1444bd7543362a58c95f44c19d3a0ae27fdd1d1d97dc89041f9e6f977e",
+      "git_blob_sha": "d6c61adc28bffdcc066bb25280135a1021f49f99",
+      "bytes": 117080,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/21.json",
+      "sha256": "450c0c637d081dd065fe5b70206451604490a2dbdb0691de2586b9c1ad4cfa29",
+      "git_blob_sha": "db016000b98a5d8f5898c2c5528d817d588720b4",
+      "bytes": 164109,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/22.json",
+      "sha256": "82b4e1d97d4c795d32a1e478e7c8e7f07472c71169ec4274d0af691c3631da1b",
+      "git_blob_sha": "87b2cef7fea697bdfb66752572a52114745cf15e",
+      "bytes": 179647,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/23.json",
+      "sha256": "64d64a6ab2c42ba9df020fe0e16a804c1cb09146247514a70fbdb4a13447b07e",
+      "git_blob_sha": "32320f1b17e7aa77effd99285b0fc97789aeee1a",
+      "bytes": 165859,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/24.json",
+      "sha256": "35a66a136f1b21edcfd89fe1419f5a66fd1faa1629fecbe5ecffb30cc63190f8",
+      "git_blob_sha": "916922dcf208b12fd3dee5848d9030f20b5ac0b9",
+      "bytes": 233756,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/25.json",
+      "sha256": "fe55a4c5c1a0d148454bf3d16e5f65a295e28804f7a2b5cc7274675bba5c5ead",
+      "git_blob_sha": "f99790bcf1a7556af16b0b35b3641169abf245e4",
+      "bytes": 167917,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/26.json",
+      "sha256": "0d99b439e55592277f4defb84c8159ec46e5a827df0233226a6b10b58843a719",
+      "git_blob_sha": "37877cddb9a9048a062262399c5c009608231ddd",
+      "bytes": 376086,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/27.json",
+      "sha256": "bd00534bb491b4f8c98dbf6ca6c65176b28dff3f875393af85b02bb4530d2c1b",
+      "git_blob_sha": "ecfe2f084b18368b2f7d12ce9455db46bba3bfe4",
+      "bytes": 288503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/28.json",
+      "sha256": "22d249f61d38621f14bcf68ccd0ebf7e903d7d1c6c1b06a76a5e6a41d4754b5f",
+      "git_blob_sha": "6b99534204789eda331825d6f91cff0b4cc97e48",
+      "bytes": 107260,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/3.json",
+      "sha256": "7fe8968c3d775b6bdf5afb68d8a4cff1b95325cc725ebfd4f9d09157a8cc4485",
+      "git_blob_sha": "915f008487fa4b7cebd66c92e6666f2f005e289f",
+      "bytes": 148780,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/4.json",
+      "sha256": "93b774602c9998924c721bdb80bc6e2340b3a711eff72fbdaa216cd6afcc2ea2",
+      "git_blob_sha": "f82e1caf949f6841bf25ed08626719983a860e4e",
+      "bytes": 151633,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/5.json",
+      "sha256": "d19026941ee87713059e7b6f94587e5e3636876ffcbf7d1d6e0fd3f89d2b70f9",
+      "git_blob_sha": "a1349671d845e76f66a0fae9c51997357430608a",
+      "bytes": 330640,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/6.json",
+      "sha256": "7788639b06aff1fe73686e4d21e16bb1af8f9dd27dad7feecfaeae8022d58e68",
+      "git_blob_sha": "91189ab6a5ab4b951675abcc2de981026e10d06c",
+      "bytes": 260502,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/7.json",
+      "sha256": "3e160fb42b13bdfa6e93df9fb4cd2bf2088011ec6ee1daa784b889324b58d6dc",
+      "git_blob_sha": "87271a13b744deae6015a5a51b96165b5f158050",
+      "bytes": 116521,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/8.json",
+      "sha256": "35e5163ce18aaaab70900138f848e4d7fa3d8f9d1d86c7110e87aea3e3f12562",
+      "git_blob_sha": "4d6949b1755e6290a36ad9065e015acfd0abbb8c",
+      "bytes": 166580,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/9.json",
+      "sha256": "09fb06054dc47e3c23fc24c5885bcf679a9ddf996e15c77376d38a72ccee0b67",
+      "git_blob_sha": "301e1e6e37b249db553aa423087cc68db513feac",
+      "bytes": 173877,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/1.json",
+      "sha256": "28ec44df29feef8bc701ca56e9e3f665663f6f5733cb9745ca9dab4d4ba0295c",
+      "git_blob_sha": "394f40bf89af65f3cbf1b5880d1475f27bb66add",
+      "bytes": 133754,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/10.json",
+      "sha256": "9fcc7f14776b6c5df73fe283dbe53f6c9ce0fe753bb052976120c68b2bc1d1d0",
+      "git_blob_sha": "03072a149b9fd49d2cf0fad15c8c924e62aa9fb7",
+      "bytes": 135239,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/11.json",
+      "sha256": "ad35aa59edc9be1dae1aee7e486487b49c525d7434e7ffc10e053988149e13db",
+      "git_blob_sha": "abe46c843ed0bbddc8634691ac1b96a7820a54bc",
+      "bytes": 59032,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/12.json",
+      "sha256": "21a85930381cfbd4ea5075d6fd6442b916134e0ccdd9a1f3ad7dd26faa7672bb",
+      "git_blob_sha": "f025dd6a08ef854bb30f61e8f127289a61ce5fe5",
+      "bytes": 156571,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/13.json",
+      "sha256": "bc843312879f40b4ec6afb6a10a8e2c8ee29a11f7b03725208c762c136b4ca33",
+      "git_blob_sha": "6977d8834ceb28aad54e577ea4ea072c746b73d1",
+      "bytes": 111331,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/14.json",
+      "sha256": "ea502f82b2471cc976f57ec9f36748364862c7fb731848d8790ae6264c925325",
+      "git_blob_sha": "d968d397b3f25913a0ceb6567c9e1dcc3d223011",
+      "bytes": 25332,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/15.json",
+      "sha256": "13df3b5255b3f749273a07712924e48c397f1002b5783695d514e50b67a1c1da",
+      "git_blob_sha": "42f11b0400c934b7487ed6fe3179856df73db43a",
+      "bytes": 60675,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/16.json",
+      "sha256": "455c9fa4c941996a4e67fd629d44241ca68aee087be1c6e93f27a19906da3cc5",
+      "git_blob_sha": "8d5c0886e71b8479d3660456b3316f76b75e0c60",
+      "bytes": 75782,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/17.json",
+      "sha256": "d6b1a1cc4bcffe595ccb6500e752e6ce798ebea787c8b1f514ce1ef4ac184044",
+      "git_blob_sha": "f89998cd3f703101ef8d729ecf3610554d832689",
+      "bytes": 39417,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/18.json",
+      "sha256": "729787bc7a361dbbfe91c6c5f365d9b121e679794c6c994df9088da56c9e4cdf",
+      "git_blob_sha": "9c125433e1af58813baef8eac2ceb69ea6c65afa",
+      "bytes": 63842,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/19.json",
+      "sha256": "8cd93f72257ea7c9d5fc0e17e4db65f76e158f252d1a943da042948d4564db32",
+      "git_blob_sha": "16bfad8897472cfff339a53b27d49414f4451bc9",
+      "bytes": 37348,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/2.json",
+      "sha256": "f8ec55c50e0b91bf6745e0f2258b1f9ab05f55fbd53fd0d03fcad904b174097d",
+      "git_blob_sha": "ea3cdc57cc96fb7cd13e8b0efe18577c513ce493",
+      "bytes": 116337,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/20.json",
+      "sha256": "3ad053e7fbf0823f4b4b59e90cba19b0a67751c46c237d51b3ad397a90314887",
+      "git_blob_sha": "7ffa6e3f9a5ac06d5909378d3d924f5fedca7fd0",
+      "bytes": 45575,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/21.json",
+      "sha256": "20fa17100114dc6a5796492943be63f9e248c493ce1d28f1bb0d25823f0917fd",
+      "git_blob_sha": "6a0a5b04217cd267d98dde9c68d3b4585bbd1cbe",
+      "bytes": 75017,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/22.json",
+      "sha256": "c6bf774e1768a53f10426af4233b061c3a3fd5a37ca9b69392834e624770335a",
+      "git_blob_sha": "0d36380f42517a50add1f2903c7cce81c12fdc70",
+      "bytes": 49867,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/23.json",
+      "sha256": "5ddb89dd2f75f8653602d82b26dfc1f6792e52f2b29d278dc01b238966f5a2e1",
+      "git_blob_sha": "7fafb97ee5b014716d801dafb5549e6143bb7923",
+      "bytes": 101338,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/24.json",
+      "sha256": "b543caf7b87e55920eb02c805dc763d42a6ddecf8992c5416635dca4c80aea27",
+      "git_blob_sha": "302457d2e12d7c4f214c3b44ef258bf6577a147a",
+      "bytes": 5095,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/25.json",
+      "sha256": "782df1224ed3814710ea08c2bccae8ca668511a22c71951ef6f3460cdb3c981c",
+      "git_blob_sha": "e268594c6e4edef772a750afe8cd03b8a6dc031c",
+      "bytes": 140159,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/26.json",
+      "sha256": "9a8d6f937d7c85b7f6dec7792a7787d54b9f742a8ab6a9bb768737071d773569",
+      "git_blob_sha": "35831a820405753c981e9d4eb10ecce5ed690615",
+      "bytes": 12034,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/27.json",
+      "sha256": "8f3b4e12312177ecb2709c78a34748a5b468c2154a9b44b99920e144956e328a",
+      "git_blob_sha": "60115064a9d5acd4ced5200d3821bdb0c2dff467",
+      "bytes": 81818,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/28.json",
+      "sha256": "4787e7b6e1317cb36b77b8b1548ec4c1df6a96ed427e4757d398d9321a2edb61",
+      "git_blob_sha": "587c2b8896574b6e6a4c9d2941e433cf252e94ca",
+      "bytes": 70968,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/3.json",
+      "sha256": "a8adafbe17a634c72fc7ff070d8cf0f622223b10c360e2daabd0357d94bc9d3b",
+      "git_blob_sha": "a0adeb36f2ac8c11dddf15dd47b0f929d4bb66f8",
+      "bytes": 122332,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/4.json",
+      "sha256": "e41754701f2ae73995c465a34b330e0f8c15ca7a8d3a73b583b28af42d60dda9",
+      "git_blob_sha": "fcc0fa9aaf5f88e17b9bf8c1dc23efdca6b5ce0f",
+      "bytes": 156215,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/5.json",
+      "sha256": "a4fb8650402d02c82601a7392a446fb7a3abf6d79adf00d8b926ea33ecca76d9",
+      "git_blob_sha": "b7c8aa799a0bf47f707691c0b17fa4098e743637",
+      "bytes": 257713,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/6.json",
+      "sha256": "af7ff4e09f6a158fe20bc0ff4c8acad905c811170b24046b42aa1a2999849eaa",
+      "git_blob_sha": "98cc05a163107e0025ce0f7a50885c1debc0edc5",
+      "bytes": 174721,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/7.json",
+      "sha256": "5230b5d52912ea880efe752aaf832d00f570422efa11905f2878d400987f40e9",
+      "git_blob_sha": "ad0da2bc30b52774aeb28f4c00a6e2fd76a8aaa9",
+      "bytes": 103300,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/8.json",
+      "sha256": "867b91a13d828c0d09ce491677ee9eebfa0a1bcbfb017a5d1d4efb14b5399488",
+      "git_blob_sha": "89497443e74e1209aa1a1118106cc85bb8798d93",
+      "bytes": 73246,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/9.json",
+      "sha256": "aa2612af796b3d890159a60e2b4f2c899237836c1c6dd9750edab0c83b48650b",
+      "git_blob_sha": "da54322747fde3115142210e59cbf5a8753ca7d8",
+      "bytes": 73666,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/1.json",
+      "sha256": "e18868b469dffb7c7e87e12cf863dc938247a06c9eb77bf41ad614019a101971",
+      "git_blob_sha": "992ae3889daa713df5f56293272e9368ec7dc002",
+      "bytes": 224056,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/10.json",
+      "sha256": "1b260dff9596158381259c61c712f915f0aba62b4b55d8e8fe161699ac96c0b9",
+      "git_blob_sha": "94b05e5d307ac0afb15edbfeaf96f49a078f34ce",
+      "bytes": 310395,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/11.json",
+      "sha256": "8499a4e2369c4f92e3716259ff9929876a876ae109ae723e200d6e9c0b681283",
+      "git_blob_sha": "6dc32bb009a62d68e5359e2702e463bca172a854",
+      "bytes": 211108,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/12.json",
+      "sha256": "a12de1ff4b1fa364990a9e0752dea4609a75d4455c730161c04e9e244cecc91b",
+      "git_blob_sha": "8a68eb336824c7029ea8b0b89c38519553535173",
+      "bytes": 378621,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/13.json",
+      "sha256": "6ce0c1f3cb3df99e4b38fb30a7770515884ef6a57fd60b507f4e2a82d89b72e1",
+      "git_blob_sha": "3cb0677634171ad086256ad8e340dda58d9696c9",
+      "bytes": 308230,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/14.json",
+      "sha256": "bcfa5a3c252d4c28955510a1cfc194cc6e1fa3878460b793ac6013df38dcb881",
+      "git_blob_sha": "b114faddd2e7c3d7775802ef10b0a4cc478c8a15",
+      "bytes": 207160,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/15.json",
+      "sha256": "ab7cc9258a3531f21aebb047b812fd4ed44c4c1f15423cba669e70356d380031",
+      "git_blob_sha": "fb619e8f1d5dd87026ae8deacac5920587bba258",
+      "bytes": 230672,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/16.json",
+      "sha256": "763ff442fa6f34497848a7c8ed6d6fa2e798f8820ad493c28c7c834cc1e7d215",
+      "git_blob_sha": "bf17a162b03b8f186f3909a1ae17ac77e1e0b9f7",
+      "bytes": 262548,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/17.json",
+      "sha256": "0d0f895be535b59b6c4b3d7eaa15ded25706b7cff57cc965f82479164f110030",
+      "git_blob_sha": "d3574858a241654384e95bf5e054bcdb0b3d5d3b",
+      "bytes": 182839,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/18.json",
+      "sha256": "e6292c9a394dbdec47dc8448837131fab8727203bf7f234bbf607c69e147de32",
+      "git_blob_sha": "6e6747d5fa27465531ce8559dfb6969ad05c5119",
+      "bytes": 230772,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/19.json",
+      "sha256": "f7713dc7fe4999f297e878bc94dd0c13a1c2c184ee748cafde0ded1626eccd90",
+      "git_blob_sha": "b3df898fe68c51c45dc7da092541b9344a52ec6c",
+      "bytes": 251717,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/2.json",
+      "sha256": "ec01fc5fd27f3c9f2490e64c414205a560c4a04676ce00e0eb9568786cf33ea0",
+      "git_blob_sha": "42148bac64ba37728c2057f78474a38f626a3c07",
+      "bytes": 192949,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/20.json",
+      "sha256": "7238fbfa061346e283116d6d49e4777673d8d8383961e96de4d5f6e893e521e9",
+      "git_blob_sha": "1490ae425682940e1e3f5f6f45296837ddf4894f",
+      "bytes": 199517,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/21.json",
+      "sha256": "84d6958b6da6caf7cba1d68569b3655040a5dba65bfa1431d262592af28d518c",
+      "git_blob_sha": "f585f4c674cc493d6d76b0561b409b88a065c625",
+      "bytes": 303445,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/22.json",
+      "sha256": "1826dd789b1e149d8e4fd9d55ddee6cc731faf0122c78dd232c12d0eb732fbe7",
+      "git_blob_sha": "ff0c899ffe27c25b8523e6e43d2f035e1feac0b3",
+      "bytes": 245078,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/23.json",
+      "sha256": "9caff6d310561a422eac41c09c1d5ce279461d730b43d9767c9111551023a6da",
+      "git_blob_sha": "0c120427e308bd7b680c9dbbf03ee66e6b60eb78",
+      "bytes": 337702,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/24.json",
+      "sha256": "54db928f4742404d00708f790b6f7a3b61c6be9edcd404797d6098caefd6effa",
+      "git_blob_sha": "4ff73c8ba14340255c4d3b9640ff41bf53d0995c",
+      "bytes": 405608,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/25.json",
+      "sha256": "218ba0aaab75f97e4ff52839f41992d37c9eec8f8bfca53903eb0b60ed5dff24",
+      "git_blob_sha": "68894f995d80ff0363dac0d168d882136303dfc4",
+      "bytes": 155938,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/26.json",
+      "sha256": "843dd89bc58d81e399025059ccf0acc42aebaafc5f81c6028431c1cf82e85dac",
+      "git_blob_sha": "e9705a41d425f1793955d5ef7a514c9460f9b841",
+      "bytes": 598515,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/27.json",
+      "sha256": "29f6091cd7ad02ce7ac69ff1941d73ffbca1d7c2371b62c8a33ac806df82ec43",
+      "git_blob_sha": "fda08b37c2f89f14f9973f78cfeb5889dc264613",
+      "bytes": 424096,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/28.json",
+      "sha256": "f18ac1b9b56a3ca4bb82cba4d276ba2c4aa2f02b7014403008bf1cc8a3d074c4",
+      "git_blob_sha": "edceb17c4206ed730783ee2441fcb3c8fbcead1c",
+      "bytes": 168713,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/3.json",
+      "sha256": "d2c3a9f27de2d03d20433f5f4ac20c8b7c7484c9e57bfbedcfb28ce8adf8bad8",
+      "git_blob_sha": "d665ef0957a1724cdafca493507d901de2b60307",
+      "bytes": 173480,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/4.json",
+      "sha256": "af6ca043a8060b7372937fe64a61b2a498c299681d71cea36bba75a020afcc0b",
+      "git_blob_sha": "1a869fce7fdc74d06a1f1cff7cf728a29edd7b7f",
+      "bytes": 194318,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/5.json",
+      "sha256": "7d8b339a3a2fe163cbe59443d3415852e9acbb17e8460d14769108f20c720d2b",
+      "git_blob_sha": "779f05404bcd3ea5927abeae99c3440bbe6b0297",
+      "bytes": 382124,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/6.json",
+      "sha256": "66636981da595f9be3d9460be371919c513f94583004a356a66ab2582e6e650a",
+      "git_blob_sha": "69bc33070de56eaf53c66cddb4576136115d8319",
+      "bytes": 301745,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/7.json",
+      "sha256": "e0852785d709e0eab194ab9bdb996fe2118481f2205068122f16ad19261407d0",
+      "git_blob_sha": "4bc0df358aa213f05d5f386543c200f30096058d",
+      "bytes": 168538,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/8.json",
+      "sha256": "60eae93a4949863cccad1cf3ee420e4284ace478ccd870e09bd03c5c9d3b3cf1",
+      "git_blob_sha": "28f9c3c8af6f0270a95113d431c31a40d82c55b9",
+      "bytes": 200159,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/9.json",
+      "sha256": "1cf2fc4a0b6f5e2e40ac6481b39d18dcc8df0f7d0ec41b26f7f0c2201d809059",
+      "git_blob_sha": "4c6ddbcf37d62446924f090770a00143fbacd5d3",
+      "bytes": 208038,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/1.json",
+      "sha256": "e640f91ccbe184a34793ac1fdce47262841b3dc3b17c9e24af7ef02d2fa445c1",
+      "git_blob_sha": "9fd9d92a3b9c0543f5cb601749e0c5049e3473ba",
+      "bytes": 228184,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/10.json",
+      "sha256": "9cd35b83dd524615c21ab904082cd5d8df7ae570d494b9c2567ee623c99a353b",
+      "git_blob_sha": "44d8c1f7c5fff60ef161db1242148da4942f81ee",
+      "bytes": 447062,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/11.json",
+      "sha256": "75f2a190613578075a19d97936a3480a06bc39451b38f5042fb1838ca6900044",
+      "git_blob_sha": "96e794d9c4665ec5e9683cea1eb0e55b15741790",
+      "bytes": 275062,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/12.json",
+      "sha256": "6601202757b2ce12d434a09d6229efcdb9b84764bf69f76f430d66cec82a4cbc",
+      "git_blob_sha": "dce0c840e377b48212d565789fee69bc8edf50dd",
+      "bytes": 433578,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/13.json",
+      "sha256": "89394f3c2ccfa979794fc51cbc918d5c973d2a8bb4e68411adc26445265bceda",
+      "git_blob_sha": "64afb4bb4d9237931a77b96d097467d77da201a4",
+      "bytes": 546262,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/14.json",
+      "sha256": "095dbf7e84a5f9d3a7040d612410a77cc80caf6e75c1de455f2980ee312818b2",
+      "git_blob_sha": "bb21504184f0d792d8eb0b8015ac554374445e1e",
+      "bytes": 260342,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/15.json",
+      "sha256": "b034e34e9269cf9dd1761502e6ae21af9bd36dba43d637b74971c580a0f62766",
+      "git_blob_sha": "d00edb3f52d57360bbace7274074abbba6b449aa",
+      "bytes": 304113,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/16.json",
+      "sha256": "1857d9b05c569e0e6e8b7554b793a7e0f4723d66d50cbb324ecb4b99f2625081",
+      "git_blob_sha": "1770b5fb1291792accb9493198a094111104db21",
+      "bytes": 299386,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/17.json",
+      "sha256": "9f9b9d2846328a847d57453ddb229497a4b75ae9a7c414157f0759e5eb74284e",
+      "git_blob_sha": "c2b2d81fa7be44f1b24e2a2c29fe2bdcf5575094",
+      "bytes": 275402,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/18.json",
+      "sha256": "553664f39096518e64087b364d58ed9366a0b0bb65e918ce6edab549cd58e572",
+      "git_blob_sha": "d666a393796a13204ec328c3a165d96b6d069630",
+      "bytes": 322681,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/19.json",
+      "sha256": "306e836cb2b49e739892c4363e8df2ae482fe34d54936de14cfbbeb194f090ff",
+      "git_blob_sha": "ccf15a9db09e3731c2337966199b7d4b08730d03",
+      "bytes": 263746,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/2.json",
+      "sha256": "044d40c4c2aeb958fef67bdd8c6ea03bc312797132c9d9df420254bb74161e16",
+      "git_blob_sha": "a2d3b50a1d8cb7582252a565f41467f5510265fa",
+      "bytes": 246363,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/20.json",
+      "sha256": "938f88c7a10e0e8505c22c337c6bbc63a6d3830b654dd3b23f78ec8482c860b9",
+      "git_blob_sha": "f4fae657d13960921671214a911050ccc6958de1",
+      "bytes": 311118,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/21.json",
+      "sha256": "6053bd90d56103de83a4c3dda61e41640c33d0f70f84d0e577a072c566e057f1",
+      "git_blob_sha": "97e228899389059362f3f29b01a978f2e92b19b8",
+      "bytes": 526766,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/22.json",
+      "sha256": "31b017f26bf5c10bc33f4c50fda4f160ed73ed15b9728ba4b488b89297971c61",
+      "git_blob_sha": "200435493749b7616ce5fe21e9e28b5220b11354",
+      "bytes": 446670,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/23.json",
+      "sha256": "fa6957b7fcfc2469839d7bc2b935d5763b02f2d72e56a7ddde1907bf5906dd35",
+      "git_blob_sha": "933b5b237636402aa07ecc93166f3e899f1e67e5",
+      "bytes": 495022,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/24.json",
+      "sha256": "1433c9486a2bcc7b157e14ea9bcd9d9ed5664299807a57841e223d4d2de02e2d",
+      "git_blob_sha": "7f630d8d476a7086c8609c8deb4e5923317af963",
+      "bytes": 482130,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/25.json",
+      "sha256": "0fea4d125975eb5f540643195928f4c9dbdc007da929ce138ee1aa25fdcf4de9",
+      "git_blob_sha": "7758323904862ef08944e7eee5b44b1ed30d9579",
+      "bytes": 494986,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/26.json",
+      "sha256": "192c4896c3606f8972186d3a1e1952500f3d9e8718f55892333545839672feac",
+      "git_blob_sha": "b42c6848b737a0db5dd2d35b6a61d889c5bc58ba",
+      "bytes": 852114,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/27.json",
+      "sha256": "caa5974b83e8ba6dd63b29ae2a381fb8a65164732fa64c41da29925e6cc1037e",
+      "git_blob_sha": "29c84a5965aef445c163305fa2fb1afb7e9724ba",
+      "bytes": 606614,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/28.json",
+      "sha256": "2dad22e8c44ebbf17c7a739f23e195d6e0c2b6dc958381c8fab979c9a2773210",
+      "git_blob_sha": "5b0769cfc412720eda13e4256dedb1d7aa7226f1",
+      "bytes": 199858,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/3.json",
+      "sha256": "3e96e89b6ef346231c1767c8524a201c58a6bab89dc1c11784e72f60673764aa",
+      "git_blob_sha": "03b45be88f82cea823a71ea7df73328cbd596cf9",
+      "bytes": 272723,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/4.json",
+      "sha256": "b1f79c9835f3c8751a6ca35bffde637b765132aeb58e4f85129defa4a8fe1b07",
+      "git_blob_sha": "2280db5b7c381d59f7ed00478e37462302e7fc59",
+      "bytes": 215999,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/5.json",
+      "sha256": "9c33653be8a8e3910980185ede86330171e77c580f9fe10fe6919c436a7c1f57",
+      "git_blob_sha": "c9bd75b559315f1f977bff8ff76cbc9c745beba6",
+      "bytes": 512755,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/6.json",
+      "sha256": "3b39aff72f6ce7d58c3e3d37d4893dad64cdc86812a6cbe2d86c56f39967a94b",
+      "git_blob_sha": "04bf97da37f8432d1b3b11193fed0513d2ec69be",
+      "bytes": 354935,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/7.json",
+      "sha256": "f144422f1cf6fbc9968312a2cb8fc06f6eb389184e8b1d898778234537fcb5f7",
+      "git_blob_sha": "93dd28b4d27351fc92f18f8877118a3efaae75b1",
+      "bytes": 256039,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/8.json",
+      "sha256": "c9ef0265153cd1e0280610beb30d44e8add5fafaa0ccf4f9d609ebf0846a535b",
+      "git_blob_sha": "4a1c388ae1ef537db585cae73a817534de1b37e0",
+      "bytes": 334611,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/9.json",
+      "sha256": "90e5e177a69aedad6e30204fb613895b6bd84a90f332c6e5fbc109b9cc74fa56",
+      "git_blob_sha": "f41c78ceb57574cf3f51965b029e34f2824c0860",
+      "bytes": 357263,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/1.json",
+      "sha256": "d50b3182a104ea37c9507ee24f5cb562dfbe798f807a2adc4a74160736de9b3a",
+      "git_blob_sha": "77790a76dbef5adbf35dbeb714315029ce2b03b9",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/10.json",
+      "sha256": "f8c0addac0c22065f2b81f3c6c8d99466dd22a04a51d8a88b70685a361cba454",
+      "git_blob_sha": "3fa887d84eeac01abf9b28d2906d73ebd149da44",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/11.json",
+      "sha256": "bbb2a13d0d875731651f65f3562df6f0a4068f5199600042691fd3ec0bcc7b45",
+      "git_blob_sha": "9fc44af452616af33dbc0e7d7a6711a5d5acacc1",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/12.json",
+      "sha256": "c3653d1322c1edfba05f52381bd031bee53dc4ec9ac5d8f95b3534327d820c69",
+      "git_blob_sha": "126e74c88e22cb103f293ee929e9632c6036dfe3",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/13.json",
+      "sha256": "c5456927705e9342d9a2dc4103fcd37aba896170be9c00a9d0f5a76608d50b98",
+      "git_blob_sha": "1edc906aa4988b73ec894a0d194f2bbcf3da86b0",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/14.json",
+      "sha256": "5bb2fe3c829931d32651eeff5b7cdb9162f265cb73809d1d1673d708c86b706a",
+      "git_blob_sha": "fdfc17afc35fd91b05bbf6d88a090dd41cf385fa",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/15.json",
+      "sha256": "dd35a2eb68bff1bbc75d03f290c7747e999d19a8939765c231817ced855ce437",
+      "git_blob_sha": "bd8306b0415a9161587befaea98fd5ac744877fd",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/16.json",
+      "sha256": "ff79dc08e8d8af5ac129cf81f2d979a0472819e127bf79376cea3ae263b6ee3f",
+      "git_blob_sha": "acee0fd7900d151c2540bc76ea978ba9dc741e57",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/17.json",
+      "sha256": "50b38ef147fd980483601cde2837f2fbcda8155cf12cb1f732c9390a3b195821",
+      "git_blob_sha": "3e3b9e43aa4445af1abd3fb540ee7372b3471000",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/18.json",
+      "sha256": "93289e728dedac5e2c8cbf22fff2ab55819859b367d4d3db617d0cd036a99642",
+      "git_blob_sha": "f9b77880cc8abe54cb503c5c252c2254da2e8bf2",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/19.json",
+      "sha256": "ce29b12558d83b2f26d8062aa694a54f552498884e6d1cf15d0c298e06531c0a",
+      "git_blob_sha": "4454b8d1db78fb538b42d8c2cbcb91b250d23ebc",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/2.json",
+      "sha256": "ee36d9ac0163cd0a64249d8d7d39134869165d012b07b875b57197cc3f57f833",
+      "git_blob_sha": "adc7611935a05f769ad681c203283540f9557292",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/20.json",
+      "sha256": "8f2bd1b53da35764dccdb788d9e511c19f8b2bf669de455670faf87a9b24c408",
+      "git_blob_sha": "a15bb28c088bdb7aa04ba32f1acfaa04642cf8ad",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/21.json",
+      "sha256": "7d031470b1993c0b55bdb6b4da01874d2112c70c44bd2cf0647902c63a90d181",
+      "git_blob_sha": "aecdbd616e1dee0883987d942a481cfc8f30d299",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/22.json",
+      "sha256": "cfda258b8b2344ed7b9b063f359e5ccc069d46e7a65c1a7aae1e57d390bb403e",
+      "git_blob_sha": "485e7a58a3faa894574f608675bb210838184516",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/23.json",
+      "sha256": "ced3d50a1439102392909f649a7ae71808fd1e3c8cf0f5abfe14ea345e4b047e",
+      "git_blob_sha": "ea61872a69f87ce22c9272e287c04161030c5b9b",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/24.json",
+      "sha256": "95422a10ced778b9786356f2300b9ce57d578ce76a4a4c5cc4736b7c755b453d",
+      "git_blob_sha": "d17bdb768665f409569949f0a3cc7443a133427d",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/25.json",
+      "sha256": "75711bffe07cd8b86ed5ac5b8e6e612a89a002a9df97a6be8599776b21271d0e",
+      "git_blob_sha": "63a6d9c9e86dd581055fcd3a9a9bd4643b617c63",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/26.json",
+      "sha256": "c05e0cb63fd25401f8b60c2c6295372dff92ccd6b85f8c57cf16f7b47e86cbe2",
+      "git_blob_sha": "252370096c0c2031e0b9bd11232e5c3cafab97cb",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/27.json",
+      "sha256": "06eaf1f1faa0d041506daef37c5510c9d2d4461e5fa77eaf91af8311e3a464e9",
+      "git_blob_sha": "592409683d345e1ad0bb338e97ef877d20c986dc",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/28.json",
+      "sha256": "3ee8329771f4aafd9dc3bfaffa0ae9c4539ad9088f64184aa375b9ef707f69c2",
+      "git_blob_sha": "ac03c7bb5539a515e85912c936353ec4dded6b0a",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/3.json",
+      "sha256": "09f272a222fe56c7d9ee24e9d88955441d17d8382952562761bca12acbe51211",
+      "git_blob_sha": "01bd2c4605f8000050ebec1ecbf22abc4e19bab9",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/4.json",
+      "sha256": "a1de91404bc35666a379e972f6bef6045f1ce9dda6dd6742596cbe3ddb1d877d",
+      "git_blob_sha": "ecb6b281ad8e2c4fbf55711362d2d6a3c55b807a",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/5.json",
+      "sha256": "5dc2ed73ae1f726bfcf4d69a11c0ba6f3d39187673ca11ee695cad227e3ac5b4",
+      "git_blob_sha": "72754e59a22f7757d11e4a68f60c745892178ed6",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/6.json",
+      "sha256": "e559a7d95955cf79cfda9b7309e54d9402f06d6fd9cba6c55eceb3943d3f32a5",
+      "git_blob_sha": "ac3f193de601b60c9aea458af25cef0dc315a740",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/7.json",
+      "sha256": "401be88e0a6d7e8114e58ed6114abc4dfecfa57f4fcccd0d34446e56f6737305",
+      "git_blob_sha": "d0705f50298e2c157fb6ff0beb24b2c076772538",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/8.json",
+      "sha256": "bca03ffff7c6fe2908fcca1369504c26782d23e2828a0a0947523ddc3f250fd0",
+      "git_blob_sha": "1049990600aa766b340e38bfe24883aaacbd36d4",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/9.json",
+      "sha256": "27a3bca3f9aca71b8241a1967044b6b25c50c89dc9334a84ee2ff57bc9212a03",
+      "git_blob_sha": "c67d7c49c288b66e4939ea8bdc3fa0dcda87df10",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/1.json",
+      "sha256": "7b0512815aaef2df56f5df8f013a6777688745b28fed5dd901ee17d237dc0f33",
+      "git_blob_sha": "127ab25ea23c9c9a28ccb4f411d1ea16f35aca1c",
+      "bytes": 340815,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/10.json",
+      "sha256": "e1bde3dc88d5860d6088b5688c01c6e2e5ac369d7952e58a326a9a2307f21d5c",
+      "git_blob_sha": "3add093aec101aa3a5aceac2169e12a3d7108440",
+      "bytes": 334063,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/11.json",
+      "sha256": "bfea5f6b84f88d84679e576afdcd6772396fd69d16a6a01c4730268f4aa5412d",
+      "git_blob_sha": "5aa30fd923a8d546a33f7984afbcf6bf785bbc6b",
+      "bytes": 329246,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/12.json",
+      "sha256": "3ea370a7e751cd53a1a7be81314ee383a9262923437d9c832073e112cc33332f",
+      "git_blob_sha": "628307ae4fe386492a4274e605afc0fb1347eec2",
+      "bytes": 343060,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/13.json",
+      "sha256": "d0e595ecd04c1b147a270f6ec1e8fb29b016daca40090e8be2c4806e878e0363",
+      "git_blob_sha": "f800fe10d0004c92534ad6ddf2e5c747e0da9061",
+      "bytes": 368733,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/14.json",
+      "sha256": "6dad276fc6739f6311a801ea7a6dab28041243c5c28271d4c3864b8a2a038c07",
+      "git_blob_sha": "7a333746aeb1cf6c45226105a47c38128ad1b242",
+      "bytes": 301697,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/15.json",
+      "sha256": "686f27bd9648f81a5298a9ff12696a9dae138726a6f3f5515dbba7423a8ae9b9",
+      "git_blob_sha": "103c533077cc2b1d4decbee2a3fa11f9326b08e5",
+      "bytes": 319853,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/16.json",
+      "sha256": "a7340bfafa67cb3bb988659494b5d7e9dbd439a6367e07c1cd313f9586c7764b",
+      "git_blob_sha": "8db9eac0a662da299b7beae32a337e93d6779a1e",
+      "bytes": 309800,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/17.json",
+      "sha256": "b7f81d883b6fc96d8102c8dfa752db76c5d9c12c4750bc0e806af788d9273b94",
+      "git_blob_sha": "547017b1921bdbd649ff6325a1fa3d0d79f146d4",
+      "bytes": 254116,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/18.json",
+      "sha256": "e2f7706c7f54633591bd04fe24eb5770bbeac1faeaaf7758b5c2b45f33bec707",
+      "git_blob_sha": "484a8d3311f82c702173151d709cd8b254bcce10",
+      "bytes": 308016,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/19.json",
+      "sha256": "09ea980f1d68bbc9ac96fd7a49133d92417cc6a10a13ba2bed1633337cb6e304",
+      "git_blob_sha": "5232ace786eb55a36c5bdbe5b57541c8e49f604d",
+      "bytes": 280195,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/2.json",
+      "sha256": "d11f5e07733c66d5ab369c99e740a9bfdef9c83b123e398c709303d6b7aa4d7e",
+      "git_blob_sha": "9ff4ac754075274b0c5d07ece665281baaf883d4",
+      "bytes": 228913,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/20.json",
+      "sha256": "9ff7a1052b80aa6cc463376196d92f3eb7d9eef86265fa6f94784d6602f1d654",
+      "git_blob_sha": "75ed23312b192e620df8b1cf6a1474f226af763a",
+      "bytes": 288956,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/21.json",
+      "sha256": "eb4ef03b0a1f321bc3c992baa576a86b626e541013d9d2037370a8b1844903be",
+      "git_blob_sha": "4b918f29f1aa0fe98c2981b09caa6edc304d68b1",
+      "bytes": 364170,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/22.json",
+      "sha256": "411e6c68a3cfbf3029cc697a34c66125fd022bd4c750eb3c19b17d49b9b3ce06",
+      "git_blob_sha": "ae526e8b0d0ef06d4156c0f75e05f2dbe151a1d0",
+      "bytes": 361754,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/23.json",
+      "sha256": "e97f69e3023d8d8f3eabf2a9f021d482dcd584bc150e5a4f63f6dfcbed1265fb",
+      "git_blob_sha": "e80c2edd5440fe010bfe38ed1bbddd622c67bfd6",
+      "bytes": 348380,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/24.json",
+      "sha256": "3ba22be27467eac178e5bf15b209c7561201a573ee666e7b7716d47ae464a7c8",
+      "git_blob_sha": "d9637d660e107edacf73ae0bf3463448647df05a",
+      "bytes": 449646,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/25.json",
+      "sha256": "719dae1c93250f5366a2bc19a57178407cae6bca4da36ab380f095b9a67b0dec",
+      "git_blob_sha": "49ed509309e7c1467e371a5ef769be8a924b4f9f",
+      "bytes": 356989,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/26.json",
+      "sha256": "102d4f7cdd8da05ca87946452ad8b262ffd60875b3136a07358319204891f9be",
+      "git_blob_sha": "0d781bcf0a00ab318513cc861c4e4d86d632d76f",
+      "bytes": 524532,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/27.json",
+      "sha256": "622a552a38b314619baf5bf700ec867b0d1b6192c791606408891ae7c9129da6",
+      "git_blob_sha": "b9eb45ad8493c6f89ffac6e79ce1c65793a977ab",
+      "bytes": 547945,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/28.json",
+      "sha256": "0a7f31ec4b30e4624c5f4df50957dc3eb27479e269d0b8fa835a2e480551d490",
+      "git_blob_sha": "445bda7981d133759bd78cb6878d32824ce63782",
+      "bytes": 285719,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/3.json",
+      "sha256": "e431c587ca8caaf60c76d552d0ac83412189796d4d494b9378ebfda439337a9a",
+      "git_blob_sha": "8852e46d72c2b75a916a626a3426b1f60a1eb0db",
+      "bytes": 240009,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/4.json",
+      "sha256": "cec538a8656028a5bf3a30b1e16bf29c7a48b72a655ef0c74a19d96fec569732",
+      "git_blob_sha": "f14fe9b3e5175806171a548756de999d9b79c3d3",
+      "bytes": 357667,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/5.json",
+      "sha256": "72361015047d7def77f6c7fb3a29afa96c701ce375f509c6deadc900b44633d4",
+      "git_blob_sha": "070492ce43526099dab5f79514c5a43dd460e8f8",
+      "bytes": 444811,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/6.json",
+      "sha256": "4a1b565cccafba8d401ff2244afac91d4bcb6b4fd4c8d5ead92e3b3ba788f1ab",
+      "git_blob_sha": "76ac00aabee3acfd19a453553ad502386bc62d86",
+      "bytes": 390401,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/7.json",
+      "sha256": "0cd45815a9ef48295ba88ecf62a6a2912be06c7e3adb86ea800f3cd6d1c3da64",
+      "git_blob_sha": "06d56aa1ca4f470d53585ff20257d27129be36d1",
+      "bytes": 271700,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/8.json",
+      "sha256": "a769ccba4846acbc7a9e17e4f6f0ead8fe7148705aa3b64226334632af45b569",
+      "git_blob_sha": "65a0ca226406f556935acc793aad7f8035d0733b",
+      "bytes": 306246,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/9.json",
+      "sha256": "6192a450403ccc71462b7905045ebb94af363f74b865ef4debdab3cfd08f15fc",
+      "git_blob_sha": "906c235e9fb7adcd5dfaad086fd641add677881c",
+      "bytes": 316851,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/1.json",
+      "sha256": "9239b3d5f01fae23de48a54fba3646a4c3b7462e587e500814f9de696e167572",
+      "git_blob_sha": "e4f95b5517a8f4165ac853dd5601a9dca1fdf2b7",
+      "bytes": 10281,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/10.json",
+      "sha256": "feab5cd6527379f3adfb5e891f95d20c4d170026e25305b2c1d2ed2015ef16da",
+      "git_blob_sha": "f3466535fd9d67a20c3f9555c03c9fac96d54c03",
+      "bytes": 15400,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/11.json",
+      "sha256": "5a8e229d2cfb6632332ed9e6eaa7a6063a9f5ce1573704b2730b4f004b2a7cd8",
+      "git_blob_sha": "fe64821bca0ac68170a9096f273fd1a0a6361645",
+      "bytes": 11695,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/12.json",
+      "sha256": "dd883ef66bf1da156e9cfb176bbd0441b93bcfd97b57579b0c22d51c66fdf51a",
+      "git_blob_sha": "76940e3ac68b483c9b4760d076e1f46ea38a8e33",
+      "bytes": 18144,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/13.json",
+      "sha256": "d05d8aa1c71e7cfb5cd611892ec87956d97a2acd0f4181aa99d963ccb8943410",
+      "git_blob_sha": "1f570295dea7c2e79a719ce8e77dc7a8499d2bb0",
+      "bytes": 17106,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/14.json",
+      "sha256": "f61a7cf281533fa21dd48a445626f0c2b274c99224b40b98bccc82f8c263035b",
+      "git_blob_sha": "71236d06a6dca874d922bd5b198882fe0bf167ab",
+      "bytes": 12558,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/15.json",
+      "sha256": "6359c59d28aeaa3ac98e6fa3dcd6072fc7c264742f5c1e93167d2bd20b52ba44",
+      "git_blob_sha": "06677155e4f2a8a7b7f408f35ad9dca1930f5bd3",
+      "bytes": 13408,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/16.json",
+      "sha256": "5de7e186aade80b40ffeee40040de4a1b531bbe1387b585c31434b323ce46556",
+      "git_blob_sha": "cabb50031d305643f22350c7494ff6cd9bea3f97",
+      "bytes": 11770,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/17.json",
+      "sha256": "f8dc705ea24ced8a6f7d706d82aa742cd630d5587da3076ddc114b1bd143c0bd",
+      "git_blob_sha": "4e0c7684a14ac6669e1c7ab2799d2a58b598c430",
+      "bytes": 10869,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/18.json",
+      "sha256": "845128cff935b899b5a83bcf18040e6d728a4969124c6f92c439d5567311d196",
+      "git_blob_sha": "2cbcf727865ebf237ebeaebdf8300b70e7ef4687",
+      "bytes": 12800,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/19.json",
+      "sha256": "408905458cf6526e1416e0373cc9c82fbe22441d278897bcfcc43e1111589404",
+      "git_blob_sha": "80932678a89064c38f0a86f7a6971defbe4dfa18",
+      "bytes": 12208,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/2.json",
+      "sha256": "914d9c5965cd9b500e260659d76f67e8ec6f503098081e85fee975aa4344b98e",
+      "git_blob_sha": "4f8586560ae586655339fe7998b1f9c525064e4b",
+      "bytes": 10662,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/20.json",
+      "sha256": "e8a018129a8f40e1cc1b4fcf09e414758dcf7cf11e50f207b8ebbf677021d468",
+      "git_blob_sha": "1a7a2f99e0ea3c02a7aa8c61280837ff6f9085ff",
+      "bytes": 12175,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/21.json",
+      "sha256": "74e4d2484e5ba4c5c7721ff9c0f8960c9179626af599445a8c94851da2bd1a4d",
+      "git_blob_sha": "ceb85f9488d679836679f7d3c1da38e06d6e0b63",
+      "bytes": 15933,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/22.json",
+      "sha256": "03bd7d15572f222da3c6b4d1f0705d1ff48dda2c533af3b1f0e1bfe8b569d7c6",
+      "git_blob_sha": "e84bae07ba7e6a805da1d4e70009ba308f8d427d",
+      "bytes": 14385,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/23.json",
+      "sha256": "c6f7debfdae190e9d4e0d7f8ab359effb4778cde2e05fd2f2bd564eadc2c6044",
+      "git_blob_sha": "9abbf5bfd9b9f5de8040be6c52ecccd14eb308af",
+      "bytes": 13262,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/24.json",
+      "sha256": "6011865fab957506a4d82aedf62f1e572e11a0e333afaf2a9c8674cc763d743c",
+      "git_blob_sha": "cb1f6630e8a18268fb37efcc0bce06a3a4d9002b",
+      "bytes": 13323,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/25.json",
+      "sha256": "6d6b1a392f04f5345b94af076ac126345a1ca9690d47912588330431d5d5df13",
+      "git_blob_sha": "2b1b046cba7d8e53015710f3b2e3fb508800357b",
+      "bytes": 14271,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/26.json",
+      "sha256": "f8d304a6599430f5264585f2d53d81c82f28e358863b0160bd5e207c2fbd7774",
+      "git_blob_sha": "b36c73283780b7f10e220546ee626793c3118957",
+      "bytes": 20034,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/27.json",
+      "sha256": "8ee454cf36f78b890cbad694c00307dbcd17a125d979ca50c0e2b02222188b17",
+      "git_blob_sha": "53dc47d6f29c897c6a7112c3d8c78f76cf01f807",
+      "bytes": 20140,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/28.json",
+      "sha256": "02ee3c4c90b627582c5dbe8ff907483ea8731e62b071815d4ee29b0d3b3876e8",
+      "git_blob_sha": "51201e76a6797a737bf090faaa35c34339e81efb",
+      "bytes": 9870,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/3.json",
+      "sha256": "3f8ecd9bb04c726a5710feca8a2467320a3301a677b8ba060326e1145e8edda6",
+      "git_blob_sha": "20c237a1838de7f9b817bab0785418154d6ef25f",
+      "bytes": 9185,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/4.json",
+      "sha256": "887e03c6e5d64b5fb19d05edffa2d0108f2d828508124f3e609f1901a40424af",
+      "git_blob_sha": "9b405fccc289ec1ba8b659b10ee7b867b3edf550",
+      "bytes": 11080,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/5.json",
+      "sha256": "3778943db80c9d118188788f4e2c929a1c6120417aa15f353f4134f846ab94a3",
+      "git_blob_sha": "8d751f46cd5ddd42d40832be043c597c9caa72a8",
+      "bytes": 17486,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/6.json",
+      "sha256": "b698f26c241ece160e8a6732d3b66d443d5d040c88ecafc78e08cd27a99186c3",
+      "git_blob_sha": "c89f10e6ead056235c61be9c548b3723d2ba2685",
+      "bytes": 13988,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/7.json",
+      "sha256": "c4dbe93d7211a382b843e352bcf86f9d2eea1236d78b417dbec7aa5b14270d59",
+      "git_blob_sha": "2705a82f9d6953744a0203848c6a73334ac6c32c",
+      "bytes": 12044,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/8.json",
+      "sha256": "139ca7961f2a4838ccaa513f8c455160331232924f9c7407fdf528433f61cc0c",
+      "git_blob_sha": "763b1789687e5527dcf3c468d83cc3bc8faafda0",
+      "bytes": 13915,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/index/MAT/9.json",
+      "sha256": "102db46ab9d9340fabd1c3535ead3ba1033b49b749d51e26bc7c5a9917b172a0",
+      "git_blob_sha": "f3ab94d7bbca34e62718730a16f37a7f4b42cea2",
+      "bytes": 14702,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-matthew-2026-11-11/manifest.json",
+      "sha256": "7fb74722c5b4ea591fcbd7087fbdf385d3e75f3f3243c885ebb3ed010b3b9870",
+      "git_blob_sha": "ebd088029ce261a84b3f6d18453637532abe1a09",
+      "bytes": 1912,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-matthew-v3.html",
+      "sha256": "a0ee6000507bf38dee015a024fd5404fa5242d4a85626861e112fe7c87fbf6fb",
+      "git_blob_sha": "a36d798255d63881e2f7574dede75e980ac9362f",
+      "bytes": 14753,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 44664,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 629541,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 28,
+    "verse_coordinates": 1071,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 5,
+    "original_entries": 3428,
+    "verse_author_routes": 4396,
+    "original_P_sections": 289,
+    "routed_P_sections": 289
+  },
+  "source_scoped_exceptions": "Matthew uses four original SWORD New Testament modules plus original HelloAO Gill. Original Keil & Delitzsch has no NT content; all 28 author chapters explicitly unavailable. Original JFB is missing all verse indexes for chapters 24 and 26 and HelloAO does not supply verse entries; original source chapter markers are separately navigable as P. Gill HelloAO omits individual verse anchors at documented coordinates; no interpolation.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}

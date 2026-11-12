@@ -1,0 +1,90 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-matthew-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "MAT",
+  "chapter": 26,
+  "canonical_chapter": "MAT.26",
+  "versification": "KJV",
+  "verse_count": 75,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "entire_native_chapter_unindexed_HelloAO_also_absent",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Matt\" sID=\"gen25110\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO MATTHEW\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO MATTHEW</title> <div sID=\"gen25111\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen25111\" type=\"x-p\"/> ",
+      "source_record_sha256": "d71846ccb76e250a594724ebdc33cb495662dd9c8b334be8f6f2fa245df4043d",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 0,
+        "length": 357
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"26\" osisID=\"Matt.26\" sID=\"Matt.26\"/><div eID=\"gen26516\" type=\"x-p\"/> <div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13820\"/><title type=\"x-s2\">CHAPTER 26</title> <title type=\"x-s3\"><reference osisRef=\"Matt.26.1-Matt.26.16\">Mt 26:1-16</reference>. Christ's Final Announcement of his Death, as Now within Two Days, and the Simultaneous Conspiracy of the Jewish Authorities to Compass It--The Anointing at Bethany--Judas Agrees with the Chief Priests to Betray His Lord. ( = <reference osisRef=\"Mark.14.1-Mark.14.11\">Mr 14:1-11</reference>; <reference osisRef=\"Luke.22.1-Luke.22.6\">Lu 22:1-6</reference>; <reference osisRef=\"John.12.1-John.12.11\">Joh 12:1-11</reference>).</title> <div sID=\"gen26517\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.14.1-Mark.14.11\">Mr 14:1-11</reference>.<div eID=\"gen26517\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.17-Matt.26.30\">Mt 26:17-30</reference>. Preparation for and Last Celebration of the Passover Announcement of the Traitor, and Institution of the Supper. ( = <reference osisRef=\"Mark.14.12-Mark.14.26\">Mr 14:12-26</reference>; <reference osisRef=\"Luke.22.7-Luke.22.23\">Lu 22:7-23</reference>; <reference osisRef=\"John.13.1-John.3.10\">Joh 13:1-3, 10</reference>, 11, 18-30).</title> <div sID=\"gen26518\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Luke.22.7-Luke.22.23\">Lu 22:7-23</reference>.<div eID=\"gen26518\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.31-Matt.26.35\">Mt 26:31-35</reference>. The Desertion of Jesus by His Disciples, and the Denial of Peter Foretold. ( = <reference osisRef=\"Mark.14.27-Mark.14.31\">Mr 14:27-31</reference>; <reference osisRef=\"Luke.22.31-Luke.22.38\">Lu 22:31-38</reference>; <reference osisRef=\"John.13.36-John.13.38\">Joh 13:36-38</reference>).</title> <div sID=\"gen26519\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Luke.22.31-Luke.22.38\">Lu 22:31-38</reference>.<div eID=\"gen26519\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.36-Matt.26.46\">Mt 26:36-46</reference>. The Agony in the Garden. ( = <reference osisRef=\"Mark.14.32-Mark.14.42\">Mr 14:32-42</reference>; <reference osisRef=\"Luke.22.39-Luke.22.46\">Lu 22:39-46</reference>).</title> <div sID=\"gen26520\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Luke.22.39-Luke.22.46\">Lu 22:39-46</reference>.<div eID=\"gen26520\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.47-Matt.26.56\">Mt 26:47-56</reference>. Betrayal and Apprehension of Jesus--Flight of His Disciples. ( = <reference osisRef=\"Mark.14.43-Mark.14.52\">Mr 14:43-52</reference>; <reference osisRef=\"Luke.22.47-Luke.22.54\">Lu 22:47-54</reference>; <reference osisRef=\"John.18.1-John.18.12\">Joh 18:1-12</reference>).</title> <div sID=\"gen26521\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"John.18.1-John.18.12\">Joh 18:1-12</reference>.<div eID=\"gen26521\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.57-Matt.26.75\">Mt 26:57-75</reference>. Jesus Arraigned before the Sanhedrim Condemned to Die, and Shamefully Entreated--The Denial of Peter. ( = <reference osisRef=\"Mark.14.53-Mark.14.72\">Mr 14:53-72</reference>; <reference osisRef=\"Luke.22.54-Luke.22.71\">Lu 22:54-71</reference>; <reference osisRef=\"John.18.13-John.18.24\">Joh 18:13-18, 24</reference>-<reference osisRef=\"John.18.27\">27</reference>).</title> <div sID=\"gen26522\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.14.53-Mark.14.72\">Mr 14:53-72</reference>. <chapter eID=\"Matt.26\"/>",
+      "source_record_sha256": "c091b3c44586b2753def494170442a50ec54e331f67f1972cb5e9e65cebec8f4",
+      "index_record": {
+        "testament": "NT",
+        "block": 1,
+        "offset": 745015,
+        "length": 3532
+      }
+    }
+  ],
+  "entries": [],
+  "indexed_verse_count": 0,
+  "unindexed_verse_count": 75,
+  "upstream_snapshot_id": "SOTW_MAT_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 0
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:MAT.26:P:matthew-26-original-chapter-marker-overview",
+      "navigation_id": "MAT.26:P:matthew-26-original-chapter-marker-overview",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_source_marker",
+      "title": "Matthew 26 · Original Chapter Marker Overview",
+      "content_plain": "CHAPTER 26 Mt 26:1-16 . Christ's Final Announcement of his Death, as Now within Two Days, and the Simultaneous Conspiracy of the Jewish Authorities to Compass It--The Anointing at Bethany--Judas Agrees with the Chief Priests to Betray His Lord. ( = Mr 14:1-11 ; Lu 22:1-6 ; Joh 12:1-11 ). For the exposition, see on Mr 14:1-11 . Mt 26:17-30 . Preparation for and Last Celebration of the Passover Announcement of the Traitor, and Institution of the Supper. ( = Mr 14:12-26 ; Lu 22:7-23 ; Joh 13:1-3, 10 , 11, 18-30). For the exposition, see on Lu 22:7-23 . Mt 26:31-35 . The Desertion of Jesus by His Disciples, and the Denial of Peter Foretold. ( = Mr 14:27-31 ; Lu 22:31-38 ; Joh 13:36-38 ). For the exposition, see on Lu 22:31-38 . Mt 26:36-46 . The Agony in the Garden. ( = Mr 14:32-42 ; Lu 22:39-46 ). For the exposition, see on Lu 22:39-46 . Mt 26:47-56 . Betrayal and Apprehension of Jesus--Flight of His Disciples. ( = Mr 14:43-52 ; Lu 22:47-54 ; Joh 18:1-12 ). For the exposition, see on Joh 18:1-12 . Mt 26:57-75 . Jesus Arraigned before the Sanhedrim Condemned to Die, and Shamefully Entreated--The Denial of Peter. ( = Mr 14:53-72 ; Lu 22:54-71 ; Joh 18:13-18, 24 - 27 ). For the exposition, see on Mr 14:53-72 .",
+      "content_osis": "<chapter n=\"26\" osisID=\"Matt.26\" sID=\"Matt.26\"/><div eID=\"gen26516\" type=\"x-p\"/> <div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13820\"/><title type=\"x-s2\">CHAPTER 26</title> <title type=\"x-s3\"><reference osisRef=\"Matt.26.1-Matt.26.16\">Mt 26:1-16</reference>. Christ's Final Announcement of his Death, as Now within Two Days, and the Simultaneous Conspiracy of the Jewish Authorities to Compass It--The Anointing at Bethany--Judas Agrees with the Chief Priests to Betray His Lord. ( = <reference osisRef=\"Mark.14.1-Mark.14.11\">Mr 14:1-11</reference>; <reference osisRef=\"Luke.22.1-Luke.22.6\">Lu 22:1-6</reference>; <reference osisRef=\"John.12.1-John.12.11\">Joh 12:1-11</reference>).</title> <div sID=\"gen26517\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.14.1-Mark.14.11\">Mr 14:1-11</reference>.<div eID=\"gen26517\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.17-Matt.26.30\">Mt 26:17-30</reference>. Preparation for and Last Celebration of the Passover Announcement of the Traitor, and Institution of the Supper. ( = <reference osisRef=\"Mark.14.12-Mark.14.26\">Mr 14:12-26</reference>; <reference osisRef=\"Luke.22.7-Luke.22.23\">Lu 22:7-23</reference>; <reference osisRef=\"John.13.1-John.3.10\">Joh 13:1-3, 10</reference>, 11, 18-30).</title> <div sID=\"gen26518\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Luke.22.7-Luke.22.23\">Lu 22:7-23</reference>.<div eID=\"gen26518\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.31-Matt.26.35\">Mt 26:31-35</reference>. The Desertion of Jesus by His Disciples, and the Denial of Peter Foretold. ( = <reference osisRef=\"Mark.14.27-Mark.14.31\">Mr 14:27-31</reference>; <reference osisRef=\"Luke.22.31-Luke.22.38\">Lu 22:31-38</reference>; <reference osisRef=\"John.13.36-John.13.38\">Joh 13:36-38</reference>).</title> <div sID=\"gen26519\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Luke.22.31-Luke.22.38\">Lu 22:31-38</reference>.<div eID=\"gen26519\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.36-Matt.26.46\">Mt 26:36-46</reference>. The Agony in the Garden. ( = <reference osisRef=\"Mark.14.32-Mark.14.42\">Mr 14:32-42</reference>; <reference osisRef=\"Luke.22.39-Luke.22.46\">Lu 22:39-46</reference>).</title> <div sID=\"gen26520\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Luke.22.39-Luke.22.46\">Lu 22:39-46</reference>.<div eID=\"gen26520\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.47-Matt.26.56\">Mt 26:47-56</reference>. Betrayal and Apprehension of Jesus--Flight of His Disciples. ( = <reference osisRef=\"Mark.14.43-Mark.14.52\">Mr 14:43-52</reference>; <reference osisRef=\"Luke.22.47-Luke.22.54\">Lu 22:47-54</reference>; <reference osisRef=\"John.18.1-John.18.12\">Joh 18:1-12</reference>).</title> <div sID=\"gen26521\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"John.18.1-John.18.12\">Joh 18:1-12</reference>.<div eID=\"gen26521\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"Matt.26.57-Matt.26.75\">Mt 26:57-75</reference>. Jesus Arraigned before the Sanhedrim Condemned to Die, and Shamefully Entreated--The Denial of Peter. ( = <reference osisRef=\"Mark.14.53-Mark.14.72\">Mr 14:53-72</reference>; <reference osisRef=\"Luke.22.54-Luke.22.71\">Lu 22:54-71</reference>; <reference osisRef=\"John.18.13-John.18.24\">Joh 18:13-18, 24</reference>-<reference osisRef=\"John.18.27\">27</reference>).</title> <div sID=\"gen26522\" type=\"x-p\"/> For the exposition, see on <reference osisRef=\"Mark.14.53-Mark.14.72\">Mr 14:53-72</reference>. <chapter eID=\"Matt.26\"/>",
+      "source_entry_id": null,
+      "source_record_kind": "chapter_marker",
+      "source_marker_index": 938,
+      "source_character_span": [
+        0,
+        3532
+      ],
+      "source_fragment_sha256": "c091b3c44586b2753def494170442a50ec54e331f67f1972cb5e9e65cebec8f4",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": null,
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 0,
+  "unavailable_author_work_for_testament": false
+}
