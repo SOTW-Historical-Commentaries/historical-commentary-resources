@@ -1,0 +1,71 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-acts-2026-11-12",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "ACT"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 168,
+    "original_entries": 3113,
+    "navigation_sections": 254,
+    "reader_visible_entries": 3113,
+    "verse_author_routes": 4599,
+    "sword_chapters": 140,
+    "helloao_chapters": 28,
+    "chapters": 28,
+    "P_source_sections": 254,
+    "inherited_P_references": 0,
+    "P_routed_sections": 254
+  },
+  "chapter_verse_count": {
+    "1": 26,
+    "2": 47,
+    "3": 26,
+    "4": 37,
+    "5": 42,
+    "6": 15,
+    "7": 60,
+    "8": 40,
+    "9": 43,
+    "10": 48,
+    "11": 30,
+    "12": 25,
+    "13": 52,
+    "14": 28,
+    "15": 41,
+    "16": 40,
+    "17": 34,
+    "18": 28,
+    "19": 41,
+    "20": 38,
+    "21": 40,
+    "22": 30,
+    "23": 35,
+    "24": 27,
+    "25": 27,
+    "26": 32,
+    "27": 44,
+    "28": 31
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Acts is canonical book 44, previous 43 snapshots immutable.",
+    "Keil & Delitzsch has no NT commentary in original archive.",
+    "Reader is review staging; owner manually installs release ZIP; no CGBC player changes."
+  ]
+}
