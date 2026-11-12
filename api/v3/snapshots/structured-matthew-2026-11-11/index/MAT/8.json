@@ -1,0 +1,649 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-matthew-2026-11-11",
+  "canonical_chapter": "MAT.8",
+  "verse_count": 34,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-matthew-2026-11-11/authors/matthew-henry/MAT/8.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 7,
+      "indexed_verse_count": 34,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-matthew-2026-11-11/authors/john-calvin/MAT/8.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 24,
+      "reader_visible_entries": 24,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 24,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-matthew-2026-11-11/authors/adam-clarke/MAT/8.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 33,
+      "reader_visible_entries": 33,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 33,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-matthew-2026-11-11/authors/jamieson-fausset-brown/MAT/8.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 7,
+      "indexed_verse_count": 6,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-matthew-2026-11-11/authors/keil-delitzsch/MAT/8.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-matthew-2026-11-11/authors/john-gill/MAT/8.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 34,
+      "reader_visible_entries": 34,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 34,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        7
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        9
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        10
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        11
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        13
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        14
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        15
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        16
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        4
+      ],
+      "john-calvin": [
+        17
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        4
+      ],
+      "john-calvin": [
+        18
+      ],
+      "adam-clarke": [
+        23
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        4
+      ],
+      "john-calvin": [
+        19
+      ],
+      "adam-clarke": [
+        24
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        4
+      ],
+      "john-calvin": [
+        20
+      ],
+      "adam-clarke": [
+        25
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        5
+      ],
+      "john-calvin": [
+        21
+      ],
+      "adam-clarke": [
+        26
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        5
+      ],
+      "john-calvin": [
+        22
+      ],
+      "adam-clarke": [
+        27
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        28
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        5
+      ],
+      "john-calvin": [
+        23
+      ],
+      "adam-clarke": [
+        29
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        30
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        31
+      ],
+      "john-gill": [
+        32
+      ]
+    },
+    "34": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        32
+      ],
+      "john-gill": [
+        33
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:matthew-8-original-chapter-introduction",
+        "navigation_id": "MAT.8:P:matthew-8-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Matthew 8 · Original Chapter Introduction"
+      },
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:the-leper-healed",
+        "navigation_id": "MAT.8:P:the-leper-healed",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Leper Healed."
+      },
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:christ-heals-the-centurion-s-servant",
+        "navigation_id": "MAT.8:P:christ-heals-the-centurion-s-servant",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ Heals the Centurion's Servant."
+      },
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:peter-s-wife-s-mother-healed",
+        "navigation_id": "MAT.8:P:peter-s-wife-s-mother-healed",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Peter's Wife's Mother Healed."
+      },
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:christ-s-answer-to-a-scribe-and-another",
+        "navigation_id": "MAT.8:P:christ-s-answer-to-a-scribe-and-another",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ's Answer to a Scribe and Another."
+      },
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:jesus-allays-a-storm",
+        "navigation_id": "MAT.8:P:jesus-allays-a-storm",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Jesus Allays a Storm."
+      },
+      {
+        "section_id": "nav:matthew-henry:MAT.8:P:the-devils-cast-out-of-two-men",
+        "navigation_id": "MAT.8:P:the-devils-cast-out-of-two-men",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Devils Cast Out of Two Men."
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:MAT.8:P:matthew-8-original-chapter-introduction",
+        "navigation_id": "MAT.8:P:matthew-8-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Matthew 8 · Original Chapter Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:chapter-8",
+        "navigation_id": "MAT.8:P:chapter-8",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 8"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-1-4-healing-of-a-leper-mr-1-40-45-lu-5-12-16",
+        "navigation_id": "MAT.8:P:mt-8-1-4-healing-of-a-leper-mr-1-40-45-lu-5-12-16",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Mt 8:1-4 . Healing of a Leper. ( = Mr 1:40-45 ; Lu 5:12-16 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-5-13-healing-of-the-centurion-s-servant-lu-7-1-10",
+        "navigation_id": "MAT.8:P:mt-8-5-13-healing-of-the-centurion-s-servant-lu-7-1-10",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mt 8:5-13 . Healing of the Centurion's Servant. ( = Lu 7:1-10 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-14-17-healing-of-peter-s-mother-in-law-and-many-others-mr-1-29-34-lu-4-38",
+        "navigation_id": "MAT.8:P:mt-8-14-17-healing-of-peter-s-mother-in-law-and-many-others-mr-1-29-34-lu-4-38",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mt 8:14-17 . Healing of Peter's Mother-in-law and Many Others. ( = Mr 1:29-34 ; Lu 4:38-41 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-18-22-incidents-illustrative-of-discipleship-lu-9-57-62",
+        "navigation_id": "MAT.8:P:mt-8-18-22-incidents-illustrative-of-discipleship-lu-9-57-62",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mt 8:18-22 . Incidents Illustrative of Discipleship. ( = Lu 9:57-62 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-23-27-jesus-crossing-the-sea-of-galilee-miraculously-stills-a-tempest-mr-",
+        "navigation_id": "MAT.8:P:mt-8-23-27-jesus-crossing-the-sea-of-galilee-miraculously-stills-a-tempest-mr-",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mt 8:23-27 . Jesus Crossing the Sea of Galilee, Miraculously Stills a Tempest. ( = Mr 4:35-41 ; Lu 8:22-25 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MAT.8:P:mt-8-28-34-jesus-heals-the-gergesene-demoniacs-mr-5-1-20-lu-8-26-39",
+        "navigation_id": "MAT.8:P:mt-8-28-34-jesus-heals-the-gergesene-demoniacs-mr-5-1-20-lu-8-26-39",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mt 8:28-34 . Jesus Heals the Gergesene Demoniacs. ( = Mr 5:1-20 ; Lu 8:26-39 )."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/MAT.json; unindexed means unavailable."
+}
