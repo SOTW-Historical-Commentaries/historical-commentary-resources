@@ -1,0 +1,415 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-micah-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "MIC",
+  "chapter": 3,
+  "canonical_chapter": "MIC.3",
+  "versification": "KJV",
+  "verse_count": 12,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Mic\" sID=\"gen23519\" type=\"book\"/> <milestone n=\"THE BOOK OF MICAH\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE BOOK OF MICAH</title> <div sID=\"gen23520\" type=\"x-p\"/><div eID=\"gen23520\" type=\"x-p\"/> ",
+      "source_record_sha256": "ab98c43892d63ef9603fa58ec5062ecfc745661e3a2bf9564d5c22cedb0462d3",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 0,
+        "length": 302
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"3\" osisID=\"Mic.3\" sID=\"Mic.3\"/><div eID=\"gen23615\" type=\"x-p\"/> ",
+      "source_record_sha256": "630fdf3ad2cbf009cd5ca085e17da470c5ae16a5c1195660504bdfb588a54af6",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 43582,
+        "length": 76
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:MIC.3.1-1:33:43658:945",
+      "passage_start": "MIC.3.1",
+      "passage_end": "MIC.3.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12744\"/><title type=\"x-s2\">CHAPTER 3</title> <title type=\"x-s3\"><reference osisRef=\"Mic.3.1-Mic.3.12\">Mi 3:1-12</reference>. The Sins of the Princes, Prophets, and Priests: The Consequent Desolation of Zion.</title> <div sID=\"gen23616\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12744\"/><hi type=\"bold\">1. princes--</hi>magistrates or judges.<div eID=\"gen23616\" type=\"x-p\"/> <div sID=\"gen23617\" type=\"x-p\"/><hi type=\"bold\">Is it not for you?--</hi>Is it not your special function (<reference osisRef=\"Jer.5.4\">Jr 5:4</reference>, <reference osisRef=\"Jer.5.5\">5</reference>)?<div eID=\"gen23617\" type=\"x-p\"/> <div sID=\"gen23618\" type=\"x-p\"/><hi type=\"bold\">judgment--</hi>justice. Ye sit in judgment on others; surely then ye ought to know the judgment for injustice which awaits yourselves (<reference osisRef=\"Rom.2.1\">Ro 2:1</reference>). <div eID=\"gen23618\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 3 Mi 3:1-12 . The Sins of the Princes, Prophets, and Priests: The Consequent Desolation of Zion. 1. princes-- magistrates or judges. Is it not for you?-- Is it not your special function ( Jr 5:4 , 5 )? judgment-- justice. Ye sit in judgment on others; surely then ye ought to know the judgment for injustice which awaits yourselves ( Ro 2:1 ).",
+      "source_record_sha256": "65374d49de496885191f8500b220b13347a8eb81687f932e459500665ef7d7a1",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 43658,
+        "length": 945
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. princes-- magistrates or judges. Is it not for you?-- Is it not your special function ( Jr 5:4 , 5 )? judgment-- justice. Ye sit in judgment on others; surely then ye ought to know the judgment for injustice which awaits yourselves ( Ro 2:1 ).",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "JFB original preverse milestone ending real chapter heading before verse exposition",
+      "reader_source_character_span": [
+        360,
+        945
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. princes--</hi>magistrates or judges.<div eID=\"gen23616\" type=\"x-p\"/> <div sID=\"gen23617\" type=\"x-p\"/><hi type=\"bold\">Is it not for you?--</hi>Is it not your special function (<reference osisRef=\"Jer.5.4\">Jr 5:4</reference>, <reference osisRef=\"Jer.5.5\">5</reference>)?<div eID=\"gen23617\" type=\"x-p\"/> <div sID=\"gen23618\" type=\"x-p\"/><hi type=\"bold\">judgment--</hi>justice. Ye sit in judgment on others; surely then ye ought to know the judgment for injustice which awaits yourselves (<reference osisRef=\"Rom.2.1\">Ro 2:1</reference>). <div eID=\"gen23618\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.2-2:33:44603:398",
+      "passage_start": "MIC.3.2",
+      "passage_end": "MIC.3.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12745\"/><div sID=\"gen23619\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12745\"/><hi type=\"bold\">2. pluck off their skin ... flesh--</hi>rob their fellow countrymen of all their substance (<reference osisRef=\"Ps.14.4\">Psa 14:4</reference>; <reference osisRef=\"Prov.30.14\">Pr 30:14</reference>). <div eID=\"gen23619\" type=\"x-p\"/>",
+      "content_plain": "2. pluck off their skin ... flesh-- rob their fellow countrymen of all their substance ( Psa 14:4 ; Pr 30:14 ).",
+      "source_record_sha256": "9ea47d7bf377724aa9c0c198e8faa177ee7a908afbbf4143eb2c88563d3e508b",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 44603,
+        "length": 398
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. pluck off their skin ... flesh-- rob their fellow countrymen of all their substance ( Psa 14:4 ; Pr 30:14 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.3-3:33:45001:493",
+      "passage_start": "MIC.3.3",
+      "passage_end": "MIC.3.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12746\"/><div sID=\"gen23620\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12746\"/><hi type=\"bold\">3. pot ... flesh within ... caldron--</hi>manifold species of cruel oppressions. Compare <reference osisRef=\"Ezek.24.3\">Eze 24:3</reference>, &amp;c., containing, as to the coming punishment, the same figure as is here used of the sin: implying that the sin and punishment exactly correspond. <div eID=\"gen23620\" type=\"x-p\"/>",
+      "content_plain": "3. pot ... flesh within ... caldron-- manifold species of cruel oppressions. Compare Eze 24:3 , &c., containing, as to the coming punishment, the same figure as is here used of the sin: implying that the sin and punishment exactly correspond.",
+      "source_record_sha256": "5d8074d1f0cb2783f72e0dcca2fc87975325f26bb59db3b1d11e5537efafff67",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 45001,
+        "length": 493
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. pot ... flesh within ... caldron-- manifold species of cruel oppressions. Compare Eze 24:3 , &c., containing, as to the coming punishment, the same figure as is here used of the sin: implying that the sin and punishment exactly correspond."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.4-4:33:45494:837",
+      "passage_start": "MIC.3.4",
+      "passage_end": "MIC.3.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12747\"/><div sID=\"gen23621\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12747\"/><hi type=\"bold\">4. Then--</hi>at the time of judgment, which Micah takes for granted, so certain is it (compare <reference osisRef=\"Mic.2.3\">Mi 2:3</reference>).<div eID=\"gen23621\" type=\"x-p\"/> <div sID=\"gen23622\" type=\"x-p\"/><hi type=\"bold\">they cry ... but he will not hear--</hi>just as those oppressed by them had formerly cried, and they would not hear. Their prayer shall be rejected, because it is the mere cry of nature for deliverance from pain, not that of repentance for deliverance from sin.<div eID=\"gen23622\" type=\"x-p\"/> <div sID=\"gen23623\" type=\"x-p\"/><hi type=\"bold\">ill in their doings--</hi>Men cannot expect to do ill and fare well. <div eID=\"gen23623\" type=\"x-p\"/>",
+      "content_plain": "4. Then-- at the time of judgment, which Micah takes for granted, so certain is it (compare Mi 2:3 ). they cry ... but he will not hear-- just as those oppressed by them had formerly cried, and they would not hear. Their prayer shall be rejected, because it is the mere cry of nature for deliverance from pain, not that of repentance for deliverance from sin. ill in their doings-- Men cannot expect to do ill and fare well.",
+      "source_record_sha256": "0b1566b9f96bdd3b6bf74185b3373f5e3ad13cc3a4243c8e4f5e3647a48262c7",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 45494,
+        "length": 837
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. Then-- at the time of judgment, which Micah takes for granted, so certain is it (compare Mi 2:3 ). they cry ... but he will not hear-- just as those oppressed by them had formerly cried, and they would not hear. Their prayer shall be rejected, because it is the mere cry of nature for deliverance from pain, not that of repentance for deliverance from sin. ill in their doings-- Men cannot expect to do ill and fare well."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.5-5:33:46331:1274",
+      "passage_start": "MIC.3.5",
+      "passage_end": "MIC.3.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12748\"/><div sID=\"gen23624\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12748\"/>5. Here he attacks the false prophets, as before he had attacked the \"princes.\"<div eID=\"gen23624\" type=\"x-p\"/> <div sID=\"gen23625\" type=\"x-p\"/><hi type=\"bold\">make my people err--</hi>knowingly mislead My people by not denouncing their sins as incurring judgment.<div eID=\"gen23625\" type=\"x-p\"/> <div sID=\"gen23626\" type=\"x-p\"/><hi type=\"bold\">bite with ... teeth, and cry, Peace--</hi>that is, who, so long as they are supplied with food, promise peace and prosperity in their prophecies.<div eID=\"gen23626\" type=\"x-p\"/> <div sID=\"gen23627\" type=\"x-p\"/><hi type=\"bold\">he that putteth not into their mouths, they ... prepare war against him--</hi>Whenever they are not supplied with food, they foretell war and calamity.<div eID=\"gen23627\" type=\"x-p\"/> <div sID=\"gen23628\" type=\"x-p\"/><hi type=\"bold\">prepare war--</hi>literally, \"sanctify war,\" that is, proclaim it as a holy judgment of God because they are not fed (see on <reference osisRef=\"Jer.6.4\">Jr 6:4</reference>; compare <reference osisRef=\"Isa.13.3\">Is 13:3</reference>; <reference osisRef=\"Joel.1.14\">Joe 1:14</reference>). <div eID=\"gen23628\" type=\"x-p\"/>",
+      "content_plain": "5. Here he attacks the false prophets, as before he had attacked the \"princes.\" make my people err-- knowingly mislead My people by not denouncing their sins as incurring judgment. bite with ... teeth, and cry, Peace-- that is, who, so long as they are supplied with food, promise peace and prosperity in their prophecies. he that putteth not into their mouths, they ... prepare war against him-- Whenever they are not supplied with food, they foretell war and calamity. prepare war-- literally, \"sanctify war,\" that is, proclaim it as a holy judgment of God because they are not fed (see on Jr 6:4 ; compare Is 13:3 ; Joe 1:14 ).",
+      "source_record_sha256": "5a81e1a7af21b517ff8627c950a2848c8eac0d38ce2de6938a94d89b123f5871",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 46331,
+        "length": 1274
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. Here he attacks the false prophets, as before he had attacked the \"princes.\" make my people err-- knowingly mislead My people by not denouncing their sins as incurring judgment. bite with ... teeth, and cry, Peace-- that is, who, so long as they are supplied with food, promise peace and prosperity in their prophecies. he that putteth not into their mouths, they ... prepare war against him-- Whenever they are not supplied with food, they foretell war and calamity. prepare war-- literally, \"sanctify war,\" that is, proclaim it as a holy judgment of God because they are not fed (see on Jr 6:4 ; compare Is 13:3 ; Joe 1:14 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.6-6:33:47605:564",
+      "passage_start": "MIC.3.6",
+      "passage_end": "MIC.3.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12749\"/><div sID=\"gen23629\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12749\"/><hi type=\"bold\">6. night ... dark--</hi>Calamities shall press on you so overwhelming as to compel you to cease pretending to divine (<reference osisRef=\"Zech.13.4\">Zec 13:4</reference>). Darkness is often the image of calamity (<reference osisRef=\"Isa.8.22\">Is 8:22</reference>; <reference osisRef=\"Amos.5.18\">Am 5:18</reference>; <reference osisRef=\"Amos.8.9\">8:9</reference>). <div eID=\"gen23629\" type=\"x-p\"/>",
+      "content_plain": "6. night ... dark-- Calamities shall press on you so overwhelming as to compel you to cease pretending to divine ( Zec 13:4 ). Darkness is often the image of calamity ( Is 8:22 ; Am 5:18 ; 8:9 ).",
+      "source_record_sha256": "9fbef435b23bb12ae682f7b5ff2007762d28b289e3d02f98c4fa4319c55c2809",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 47605,
+        "length": 564
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. night ... dark-- Calamities shall press on you so overwhelming as to compel you to cease pretending to divine ( Zec 13:4 ). Darkness is often the image of calamity ( Is 8:22 ; Am 5:18 ; 8:9 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.7-7:33:48169:893",
+      "passage_start": "MIC.3.7",
+      "passage_end": "MIC.3.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12750\"/><div sID=\"gen23630\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12750\"/><hi type=\"bold\">7. cover their lips--</hi>The Orientals prided themselves on the moustache and beard (\"upper lip,\" Margin). To cover it, therefore, was a token of shame and sorrow (<reference osisRef=\"Lev.13.45\">Le 13:45</reference>; <reference osisRef=\"Ezek.24.17\">Eze 24:17</reference>, <reference osisRef=\"Ezek.24.22\">22</reference>). \"They shall be so ashamed of themselves as not to dare to open their mouths or boast of the name of prophet\" [Calvin].<div eID=\"gen23630\" type=\"x-p\"/> <div sID=\"gen23631\" type=\"x-p\"/><hi type=\"bold\">there is no answer of God--</hi>They shall no more profess to have responses from God, being struck dumb with calamities (<reference osisRef=\"Mic.3.6\">Mi 3:6</reference>). <div eID=\"gen23631\" type=\"x-p\"/>",
+      "content_plain": "7. cover their lips-- The Orientals prided themselves on the moustache and beard (\"upper lip,\" Margin). To cover it, therefore, was a token of shame and sorrow ( Le 13:45 ; Eze 24:17 , 22 ). \"They shall be so ashamed of themselves as not to dare to open their mouths or boast of the name of prophet\" [Calvin]. there is no answer of God-- They shall no more profess to have responses from God, being struck dumb with calamities ( Mi 3:6 ).",
+      "source_record_sha256": "b69e802a5f2958cf923f48a5f3885896810c7a6b2757679a498d4b0e00c0a515",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 48169,
+        "length": 893
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. cover their lips-- The Orientals prided themselves on the moustache and beard (\"upper lip,\" Margin). To cover it, therefore, was a token of shame and sorrow ( Le 13:45 ; Eze 24:17 , 22 ). \"They shall be so ashamed of themselves as not to dare to open their mouths or boast of the name of prophet\" [Calvin]. there is no answer of God-- They shall no more profess to have responses from God, being struck dumb with calamities ( Mi 3:6 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.8-8:33:49062:1410",
+      "passage_start": "MIC.3.8",
+      "passage_end": "MIC.3.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12751\"/><div sID=\"gen23632\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12751\"/><hi type=\"bold\">8. I--</hi>in contrast to the false prophets (<reference osisRef=\"Mic.3.5\">Mi 3:5</reference>, <reference osisRef=\"Mic.3.7\">7</reference>).<div eID=\"gen23632\" type=\"x-p\"/> <div sID=\"gen23633\" type=\"x-p\"/><hi type=\"bold\">full of power--</hi>that which \"the Spirit of Jehovah\" imparts for the discharge of the prophetical function (<reference osisRef=\"Luke.1.17\">Lu 1:17</reference>; 24:49; <reference osisRef=\"Acts.1.8\">Ac 1:8</reference>).<div eID=\"gen23633\" type=\"x-p\"/> <div sID=\"gen23634\" type=\"x-p\"/><hi type=\"bold\">judgment--</hi>a sense of justice [Maurer]; as opposed to the false prophets' speaking to please men, not from a regard to truth. Or, \"judgment\" to discern between graver and lighter offenses, and to denounce punishments accordingly [Grotius].<div eID=\"gen23634\" type=\"x-p\"/> <div sID=\"gen23635\" type=\"x-p\"/><hi type=\"bold\">might--</hi>moral intrepidity in speaking the truth at all costs (<reference osisRef=\"2Tim.1.7\">2Ti 1:7</reference>).<div eID=\"gen23635\" type=\"x-p\"/> <div sID=\"gen23636\" type=\"x-p\"/><hi type=\"bold\">to declare unto Jacob his ... sin--</hi>(<reference osisRef=\"Isa.58.1\">Is 58:1</reference>). Not to flatter the sinner as the false prophets do with promises of peace. <div eID=\"gen23636\" type=\"x-p\"/>",
+      "content_plain": "8. I-- in contrast to the false prophets ( Mi 3:5 , 7 ). full of power-- that which \"the Spirit of Jehovah\" imparts for the discharge of the prophetical function ( Lu 1:17 ; 24:49; Ac 1:8 ). judgment-- a sense of justice [Maurer]; as opposed to the false prophets' speaking to please men, not from a regard to truth. Or, \"judgment\" to discern between graver and lighter offenses, and to denounce punishments accordingly [Grotius]. might-- moral intrepidity in speaking the truth at all costs ( 2Ti 1:7 ). to declare unto Jacob his ... sin-- ( Is 58:1 ). Not to flatter the sinner as the false prophets do with promises of peace.",
+      "source_record_sha256": "bfe672e0a2e91a037bcdfd047a4604b24386f5ad9e9942066b63fdc66cbb6461",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 49062,
+        "length": 1410
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. I-- in contrast to the false prophets ( Mi 3:5 , 7 ). full of power-- that which \"the Spirit of Jehovah\" imparts for the discharge of the prophetical function ( Lu 1:17 ; 24:49; Ac 1:8 ). judgment-- a sense of justice [Maurer]; as opposed to the false prophets' speaking to please men, not from a regard to truth. Or, \"judgment\" to discern between graver and lighter offenses, and to denounce punishments accordingly [Grotius]. might-- moral intrepidity in speaking the truth at all costs ( 2Ti 1:7 ). to declare unto Jacob his ... sin-- ( Is 58:1 ). Not to flatter the sinner as the false prophets do with promises of peace."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.9-9:33:50472:461",
+      "passage_start": "MIC.3.9",
+      "passage_end": "MIC.3.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12752\"/><div sID=\"gen23637\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12752\"/><hi type=\"bold\">9. Hear--</hi>resumed from <reference osisRef=\"Mic.3.1\">Mi 3:1</reference>. Here begins the leading subject of the prophecy: a demonstration of his assertion that he is \"full of power by the Spirit of Jehovah\" (<reference osisRef=\"Mic.3.8\">Mi 3:8</reference>). <div eID=\"gen23637\" type=\"x-p\"/>",
+      "content_plain": "9. Hear-- resumed from Mi 3:1 . Here begins the leading subject of the prophecy: a demonstration of his assertion that he is \"full of power by the Spirit of Jehovah\" ( Mi 3:8 ).",
+      "source_record_sha256": "4d2f9e83444a3fde8f59af6a99e0c2b9ec54a474fff9dcc330805a21a69d3a51",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 50472,
+        "length": 461
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. Hear-- resumed from Mi 3:1 . Here begins the leading subject of the prophecy: a demonstration of his assertion that he is \"full of power by the Spirit of Jehovah\" ( Mi 3:8 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.10-10:33:50933:782",
+      "passage_start": "MIC.3.10",
+      "passage_end": "MIC.3.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12753\"/><div sID=\"gen23638\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12753\"/><hi type=\"bold\">10. They--</hi>change of person from \"ye\" (<reference osisRef=\"Mic.3.9\">Mi 3:9</reference>); the third person puts them to a greater distance as estranged from Him. It is, literally, \"Whosoever builds,\" singular.<div eID=\"gen23638\" type=\"x-p\"/> <div sID=\"gen23639\" type=\"x-p\"/><hi type=\"bold\">build up Zion with blood--</hi>build on it stately mansions with wealth obtained by the condemnation and murder of the innocent (<reference osisRef=\"Jer.22.13\">Jr 22:13</reference>; <reference osisRef=\"Ezek.22.27\">Eze 22:27</reference>; <reference osisRef=\"Hab.2.12\">Ha 2:12</reference>). <div eID=\"gen23639\" type=\"x-p\"/>",
+      "content_plain": "10. They-- change of person from \"ye\" ( Mi 3:9 ); the third person puts them to a greater distance as estranged from Him. It is, literally, \"Whosoever builds,\" singular. build up Zion with blood-- build on it stately mansions with wealth obtained by the condemnation and murder of the innocent ( Jr 22:13 ; Eze 22:27 ; Ha 2:12 ).",
+      "source_record_sha256": "5f6e0de48fc6eb4e3ae353454bd34c1fc78c51cf633447b5de17222c536922e0",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 50933,
+        "length": 782
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. They-- change of person from \"ye\" ( Mi 3:9 ); the third person puts them to a greater distance as estranged from Him. It is, literally, \"Whosoever builds,\" singular. build up Zion with blood-- build on it stately mansions with wealth obtained by the condemnation and murder of the innocent ( Jr 22:13 ; Eze 22:27 ; Ha 2:12 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.11-11:33:51715:1219",
+      "passage_start": "MIC.3.11",
+      "passage_end": "MIC.3.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12754\"/><div sID=\"gen23640\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12754\"/><hi type=\"bold\">11. heads thereof--</hi>the princes of Jerusalem.<div eID=\"gen23640\" type=\"x-p\"/> <div sID=\"gen23641\" type=\"x-p\"/><hi type=\"bold\">judge for reward--</hi>take bribes as judges (<reference osisRef=\"Mic.7.3\">Mi 7:3</reference>).<div eID=\"gen23641\" type=\"x-p\"/> <div sID=\"gen23642\" type=\"x-p\"/><hi type=\"bold\">priests teach for hire--</hi>It was their duty to teach the law and to decide controversies gratuitously (<reference osisRef=\"Lev.10.11\">Le 10:11</reference>; <reference osisRef=\"Deut.17.11\">De 17:11</reference>; Mal 2:7; compare <reference osisRef=\"Jer.6.13\">Jr 6:13</reference>; Jude 11).<div eID=\"gen23642\" type=\"x-p\"/> <div sID=\"gen23643\" type=\"x-p\"/><hi type=\"bold\">prophets ... divine--</hi>that is, false prophets.<div eID=\"gen23643\" type=\"x-p\"/> <div sID=\"gen23644\" type=\"x-p\"/><hi type=\"bold\">Is not the Lord among us?--</hi>namely in the temple (<reference osisRef=\"Isa.48.2\">Is 48:2</reference>; <reference osisRef=\"Jer.7.4\">Jr 7:4</reference>, <reference osisRef=\"Jer.7.8-Jer.7.11\">8-11</reference>). <div eID=\"gen23644\" type=\"x-p\"/>",
+      "content_plain": "11. heads thereof-- the princes of Jerusalem. judge for reward-- take bribes as judges ( Mi 7:3 ). priests teach for hire-- It was their duty to teach the law and to decide controversies gratuitously ( Le 10:11 ; De 17:11 ; Mal 2:7; compare Jr 6:13 ; Jude 11). prophets ... divine-- that is, false prophets. Is not the Lord among us?-- namely in the temple ( Is 48:2 ; Jr 7:4 , 8-11 ).",
+      "source_record_sha256": "27e00c503e46cda53a9e2ce3ed3bf715028b8c8a9dd83276a8c5c4913cd5297a",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 51715,
+        "length": 1219
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. heads thereof-- the princes of Jerusalem. judge for reward-- take bribes as judges ( Mi 7:3 ). priests teach for hire-- It was their duty to teach the law and to decide controversies gratuitously ( Le 10:11 ; De 17:11 ; Mal 2:7; compare Jr 6:13 ; Jude 11). prophets ... divine-- that is, false prophets. Is not the Lord among us?-- namely in the temple ( Is 48:2 ; Jr 7:4 , 8-11 )."
+    },
+    {
+      "entry_id": "sword:jfb:MIC.3.12-12:33:52934:800",
+      "passage_start": "MIC.3.12",
+      "passage_end": "MIC.3.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12755\"/><div sID=\"gen23645\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12755\"/>12. <reference osisRef=\"Jer.26.18\">Jr 26:18</reference> quotes this verse. The Talmud and Maimonides record that at the destruction of Jerusalem by the Romans under Titus, Terentius Rufus, who was left in command of the army, with a ploughshare tore up the foundations of the temple.<div eID=\"gen23645\" type=\"x-p\"/> <div sID=\"gen23646\" type=\"x-p\"/><hi type=\"bold\">mountain of the house--</hi>the height on which the temple stands.<div eID=\"gen23646\" type=\"x-p\"/> <div sID=\"gen23647\" type=\"x-p\"/><hi type=\"bold\">as the high places of the forest--</hi>shall become as heights in a forest overrun with wild shrubs and brushwood. <chapter eID=\"Mic.3\"/>",
+      "content_plain": "12. Jr 26:18 quotes this verse. The Talmud and Maimonides record that at the destruction of Jerusalem by the Romans under Titus, Terentius Rufus, who was left in command of the army, with a ploughshare tore up the foundations of the temple. mountain of the house-- the height on which the temple stands. as the high places of the forest-- shall become as heights in a forest overrun with wild shrubs and brushwood.",
+      "source_record_sha256": "a40ea53d4db8a79758ce33d7be5ae6f40171a03755b586bce49613276f465179",
+      "index_record": {
+        "testament": "OT",
+        "block": 33,
+        "offset": 52934,
+        "length": 800
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MIC.3.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. Jr 26:18 quotes this verse. The Talmud and Maimonides record that at the destruction of Jerusalem by the Romans under Titus, Terentius Rufus, who was left in command of the army, with a ploughshare tore up the foundations of the temple. mountain of the house-- the height on which the temple stands. as the high places of the forest-- shall become as heights in a forest overrun with wild shrubs and brushwood."
+    }
+  ],
+  "indexed_verse_count": 12,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_MIC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 12
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:MIC.3:P:chapter-3",
+      "navigation_id": "MIC.3:P:chapter-3",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 3",
+      "content_plain": "CHAPTER 3",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 3</title> ",
+      "source_entry_id": "sword:jfb:MIC.3.1-1:33:43658:945",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        97
+      ],
+      "source_fragment_sha256": "11c2a8bbcd5fbe57ee52779ab16c7bb95d345b94df70b1537e6c774524219511",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "MIC.3.1",
+        "MIC.3.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:MIC.3:P:mi-3-1-12-the-sins-of-the-princes-prophets-and-priests-the-consequent-desolati",
+      "navigation_id": "MIC.3:P:mi-3-1-12-the-sins-of-the-princes-prophets-and-priests-the-consequent-desolati",
+      "kind": "original_SWORD_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Mi 3:1-12 . The Sins of the Princes, Prophets, and Priests: The Consequent Desolation of Zion.",
+      "content_plain": "Mi 3:1-12 . The Sins of the Princes, Prophets, and Priests: The Consequent Desolation of Zion.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Mic.3.1-Mic.3.12\">Mi 3:1-12</reference>. The Sins of the Princes, Prophets, and Priests: The Consequent Desolation of Zion.</title> <div sID=\"gen23616\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12744\"/>",
+      "source_entry_id": "sword:jfb:MIC.3.1-1:33:43658:945",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        97,
+        360
+      ],
+      "source_fragment_sha256": "8585b15be102f30cace399acf5b1092b6edd91a636ce3e12a71043109f591b51",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "MIC.3.1",
+        "MIC.3.1"
+      ],
+      "source_title_explicit_range": [
+        "MIC.3.1",
+        "MIC.3.12"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 12
+}

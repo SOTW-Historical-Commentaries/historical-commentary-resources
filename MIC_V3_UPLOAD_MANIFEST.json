@@ -1,0 +1,405 @@
+{
+  "kind": "sotw_additive_v3_immutable_book_release",
+  "version": "v3-micah-2026-11-11",
+  "book": "MIC",
+  "book_name": "Micah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-micah-2026-11-11",
+  "baseline_main_commit": "a54e5bffbd506043c85f9c852daf617489c71e47",
+  "baseline_navigation_manifest_git_blob": "6547d3182706230d078776c72a80fd7bd4ab114d",
+  "baseline_navigation_sha256": "c2efccce26d0f27c2241744b6903a8551fcadd060fdc8d011b107d8f75171919",
+  "prerequisites": [
+    "JON"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 53,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/MIC.json",
+      "bytes": 82788,
+      "sha256": "de55940516c425d0eb5d900ff3b8ea8d1fad2e458b05fbb8ce07d943e7e1b340",
+      "git_blob_sha": "61e06f9023687768184441527a01c28094046c21"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "bytes": 17126,
+      "sha256": "d5e1ecacbb52661c5d3e4a264d29dd6d6a868402d18b72f4e85b0912aa96b46a",
+      "git_blob_sha": "dd337ea7c91d71ea82d07b8891157a0913d4abc5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/1.json",
+      "bytes": 89204,
+      "sha256": "52bcb02429f49be78cb24a6e76010dab36dc940611f53b04663e0fc1f531cfae",
+      "git_blob_sha": "d09e4425a6a66b108cdd922c3c15eafe7905197f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/2.json",
+      "bytes": 39244,
+      "sha256": "905cb284a8a6aa3486d9a80bf7859565a5f2378f0ce63ca9c6d0c879b6331f51",
+      "git_blob_sha": "0d77fb6c6aef0216e948f4c88ad1ab76724cf903"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/3.json",
+      "bytes": 36472,
+      "sha256": "bd06d69e792b728ccdb5220e1b0f396485331e711048727308a0ef955346db2d",
+      "git_blob_sha": "d96d7cf4cf247ecdd3a0cf7bda8de25ef5fe1035"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/4.json",
+      "bytes": 39591,
+      "sha256": "65ca8b79a23832fe85e29d22b9e09f09b7f6a43ab20eda15ad26a114db7e5b6b",
+      "git_blob_sha": "ca0d88d9ba52c26059e4b29b7de8ccf3f7d7f25c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/5.json",
+      "bytes": 52978,
+      "sha256": "891eed99bdc2272df20c45416c5d1a07bd0f169f9dff49b5b790db77a1f5d045",
+      "git_blob_sha": "b2c6782ba554748f580b5d2eba8859baadd3e48a"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/6.json",
+      "bytes": 66885,
+      "sha256": "a2df020fc6617215fa5febb10fd148be835d0aa6f16804a81eb2fc33117316a4",
+      "git_blob_sha": "5431e6e366312bcf892f7755b04d4cd8b0199e61"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/adam-clarke/MIC/7.json",
+      "bytes": 71097,
+      "sha256": "b058c97f9854e29f116cabe7eeb7e57684423219ac0d3a6c93b113c972424967",
+      "git_blob_sha": "97c612d456cf2e8f26c5b072075e2c5f10957f77"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/1.json",
+      "bytes": 75130,
+      "sha256": "990f956b5b12f5adbfffb0b3270a4ea4dca2d4db6017546590cce30bb7b54341",
+      "git_blob_sha": "e645946311da2bd0ac14ec2758cbc65ed385c89f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/2.json",
+      "bytes": 58694,
+      "sha256": "f8cb269772a456fef63ebb7d3d7e21ca495b7398c370cf1c592361a282990e84",
+      "git_blob_sha": "b6d98c2c9d1269db8ea4fc5c99f8bd47eae008f6"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/3.json",
+      "bytes": 34384,
+      "sha256": "6cd9cdce3e58d596f86e212ad4b3e05c80bc9a7482e2c08099b540b4ec52d0a8",
+      "git_blob_sha": "27f9fb3dcb9ab419e5ab9c75a26abaa6eb529d8d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/4.json",
+      "bytes": 43190,
+      "sha256": "d042cf560a75bece95886fdecad27e19b53a1d822a4759fb377ff781eb9de3f5",
+      "git_blob_sha": "23f4934120c553749aca33eee911f53a9dfd3a55"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/5.json",
+      "bytes": 67537,
+      "sha256": "7f3b33241a266d02028b873daca9ea008d382e9b6ec625e119e0b8b5d91e3fd8",
+      "git_blob_sha": "999180b164dd8c02b9b0c5b6828310a2673c3c53"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/6.json",
+      "bytes": 58283,
+      "sha256": "dc55e9e3ab91d66fb25487e3b11c6f77b1bd66150bcb89fc5a3970549ac23ed1",
+      "git_blob_sha": "c8e199d1d22eeb15ac83af98f7aed922c4f17df7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/jamieson-fausset-brown/MIC/7.json",
+      "bytes": 72370,
+      "sha256": "674bc337e9b2e475c7c9828089f9d6b4d1c208557677833480223b8c3109a1af",
+      "git_blob_sha": "5443df7845265f19e211b92aa37d927dca4acb3e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/1.json",
+      "bytes": 279504,
+      "sha256": "02849b15d517638d165e55c486a4a96bf1cc19e1b188c3ed5b1d8b358b72585b",
+      "git_blob_sha": "24246ac8512d3e78539da4f1687e2ef1d78a70a9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/2.json",
+      "bytes": 263263,
+      "sha256": "bbe24f143e46a9a6f066411efc4fb4006db4306b3e667aced60f849ef552355e",
+      "git_blob_sha": "c438725a2f145fbca2f065698647a0941b002a60"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/3.json",
+      "bytes": 273903,
+      "sha256": "942ffa261d1df44ff0a14679dc202ab84ce5db92fb603395ff32c7d7b1a81643",
+      "git_blob_sha": "ba7b579caa2950b8356f7d5b8e383bf69cdea57c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/4.json",
+      "bytes": 347294,
+      "sha256": "e7192d507b329d17ff66bbdab48afb0fd190f691cc200688cf98ad01d9053cb3",
+      "git_blob_sha": "475c03b859f4617cb599c17155040316dee5af7e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/5.json",
+      "bytes": 286565,
+      "sha256": "4a589c6d8fc370168aa30d96758dbb6e598d1bea94874aea9ea3e4f7f5a30c37",
+      "git_blob_sha": "4193f19c1fa5355524073802173f01f9604ef5a5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/6.json",
+      "bytes": 267676,
+      "sha256": "78739eed32f6fcc7145f1219362806263dce715c4985c74a03e3b8f146680127",
+      "git_blob_sha": "e45e1c4071876f2194517bef9abdc011a4a6d954"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-calvin/MIC/7.json",
+      "bytes": 418096,
+      "sha256": "a7a8bc9ebb4b2499351efdddcd022269ee48d36f5be14f145e2e4d176e9735bd",
+      "git_blob_sha": "bbf14670fdf1b509b6105cb22b37f94c3a11586f"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/1.json",
+      "bytes": 226525,
+      "sha256": "edc10085dac4d3ef8e0689bac8b4fca0a26c34aace0360f20e57778731e945dc",
+      "git_blob_sha": "2aeab74540230df9385d866a6dd4d44d5ea3fd95"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/2.json",
+      "bytes": 134114,
+      "sha256": "f9499097933fa6ffbac3e80e8f4ca93d99724cb4e3275f17fecdf3aaa0767f5f",
+      "git_blob_sha": "5d9ea4412ed0ec7be46d018badb03235fe4f53cd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/3.json",
+      "bytes": 98375,
+      "sha256": "aeb2f715174607083bf82e945aca6966d9fcf90877e8b0ceab8275936869639d",
+      "git_blob_sha": "f484002630630702445b7d7d7e154e8d736b1ec3"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/4.json",
+      "bytes": 142054,
+      "sha256": "ebdb281f261df889fc1a2ae09e6861fa6ee157150951c444cf36763299ea80a1",
+      "git_blob_sha": "c44140cbc310c36d4c4277a109bd5cb55e632ca4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/5.json",
+      "bytes": 204376,
+      "sha256": "b4cd393d91d17b8e62a26c0db1910fb65e106de2329504b89dfc0f70c5b56d0f",
+      "git_blob_sha": "82bf67243dc19118207b7e4c7bbb7196b8ab020c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/6.json",
+      "bytes": 160767,
+      "sha256": "2324d4b0c65bb2526ba3684b27df336c9da72d093a1daedc4ce9abdc517b73dc",
+      "git_blob_sha": "8f9a3660c482b25079237d3f82fbe972c824af2d"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/john-gill/MIC/7.json",
+      "bytes": 254731,
+      "sha256": "bc49898ee6c59250c9d2c191645a5e85690600294ba6622084d66036cf6dc272",
+      "git_blob_sha": "3d1d1518197ef7d0ef76ea215f43ddf0aa627599"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/1.json",
+      "bytes": 188107,
+      "sha256": "be064a8491fbc668f8fd28bea5b8c319ed7adcda8d5409e003f24521a4427130",
+      "git_blob_sha": "091292ed3ef7bed00eb8765690197ca1ccd4feda"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/2.json",
+      "bytes": 87627,
+      "sha256": "57fd428d54cd867f1be6a2bf653d3996d22b14211d6e4cf146c083cd591e4376",
+      "git_blob_sha": "327010480bd3ca03e9265c1fa233ad9e1dee2552"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/3.json",
+      "bytes": 62417,
+      "sha256": "3bf1795842d30d8cc0e7b7e689fad189661c19eeca875456e98dde2e12d494db",
+      "git_blob_sha": "c3b2c86db56a1c8586b5f3682e4dbb3cf003e9af"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/4.json",
+      "bytes": 161172,
+      "sha256": "ffff66413d34b8e1461d03542c13b36c1669169e6159791f4bf500458e1fe329",
+      "git_blob_sha": "6abec886e30107d942440366f6d7f2d214c668b9"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/5.json",
+      "bytes": 140769,
+      "sha256": "888fefc33c9191cb891ee0be53c69e4bb3286c7b421936e48cc595dd576bd39c",
+      "git_blob_sha": "a467a85b122e6571abafd1a79ec72d34980908e2"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/6.json",
+      "bytes": 98700,
+      "sha256": "2c1096828a65f81186c463c6f379136c40a55155ccc2ff60cc23b2a56f0e6ce6",
+      "git_blob_sha": "1181f2d061a9bd036c3a4b13b3ed6d68eb1cede5"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/keil-delitzsch/MIC/7.json",
+      "bytes": 116981,
+      "sha256": "59eaa3abe40f8428606ded6efe2080306717c8d8580df4692ca46f4e40b90876",
+      "git_blob_sha": "d5cff3b6c8a05fbb86879a3b289c743a064a95dd"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/1.json",
+      "bytes": 117272,
+      "sha256": "96d8f5b70ac0297f5b313154fb5ea8ad49e0cda6459fc2d299b634847cbf9b33",
+      "git_blob_sha": "07322838f8d191f0d761f7b864e5e0cffe3db387"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/2.json",
+      "bytes": 105768,
+      "sha256": "dbcb4edb2e1f0d64e757d366b31d532d8cbaf29b4dffe392ed6902a257c0236c",
+      "git_blob_sha": "a6af85276710dd6105034defae87ce4c564cbf4e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/3.json",
+      "bytes": 84314,
+      "sha256": "bf1cfd139c7d42d7e0ba38220fc57f906a873b627234a23f310aa7be113d663b",
+      "git_blob_sha": "1826f5028c004f358c92626c2c4897f2dbd114a4"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/4.json",
+      "bytes": 105359,
+      "sha256": "17d53039f1af3eb23868288ed42f9344772e57649d7d72dbd21ecb8338b97162",
+      "git_blob_sha": "e3232bcbe415c7bdb63b90f8bfe80f2e76039c96"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/5.json",
+      "bytes": 92248,
+      "sha256": "71de26a1d019f3d1b8e3902721f90667464b5666783ef76d22a7467012f6a7de",
+      "git_blob_sha": "90de24e09f883515f7c5a0e8e5baeffed9ea6a35"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/6.json",
+      "bytes": 122941,
+      "sha256": "03e78f6f07d2b0bab7e37b94835cf675d1793bf3dccd1a3d1f4aaa526c6ce1e3",
+      "git_blob_sha": "bc7ac7d3933c97dc5771bc7cf2f70b33622acb2c"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/authors/matthew-henry/MIC/7.json",
+      "bytes": 124382,
+      "sha256": "3f08245cb42ab90fbd109b1433d15c110a797c6d87ea1e4ad0dfab6b25c61528",
+      "git_blob_sha": "b62d9009fd2447d3007040a5a25ce7b87c373e05"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/1.json",
+      "bytes": 10524,
+      "sha256": "7ba4c68eb928459d89c91f54a7a59aa1292e733ecf851e17a962ffbec849edf2",
+      "git_blob_sha": "b40408063aa024d0c7209c1a63897689d035c89e"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/2.json",
+      "bytes": 8661,
+      "sha256": "493a294fbf94bf786363ae3a35bd606b07d583f55500be569bca505c6b764a0f",
+      "git_blob_sha": "71f1e74129fce63a5a2ef48fac5c479daa5f28ed"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/3.json",
+      "bytes": 8673,
+      "sha256": "3c1c4c4c20b39b38d45a4c870495e469ceba539bb823aa955e7699ad26813da7",
+      "git_blob_sha": "20fa802c23b0916f37416c8aeb60ed611baedf66"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/4.json",
+      "bytes": 8042,
+      "sha256": "94eeb6e575ea110b6ce96ab22da99079d65aecdec800f7dc5de1f795fdb140c1",
+      "git_blob_sha": "ee6bde3a7b901ee2e1e1dcbd99053bbdb70f3240"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/5.json",
+      "bytes": 8941,
+      "sha256": "82b55d3ddca98304631f2a434531eccf2f9ae494a1e633af2b9053fbf6a3ee5f",
+      "git_blob_sha": "da2915541bf8b4fa571dd7ba0b95a25664e4f7a7"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/6.json",
+      "bytes": 10169,
+      "sha256": "cd7c9d0b79b085a053222cb74713df6765f39fa93da348fba8ebb8d9c6dec38a",
+      "git_blob_sha": "c4e894700df3adcbbe4869d2c2e2b2138ca6b9ad"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/index/MIC/7.json",
+      "bytes": 11021,
+      "sha256": "14326da6693554370ff308a184a913ddcdbbe68cb9a98f53e0072b6d80674e41",
+      "git_blob_sha": "909e387a74bf4437c919d5c2d594c477222bee17"
+    },
+    {
+      "path": "api/v3/snapshots/structured-micah-2026-11-11/manifest.json",
+      "bytes": 1799,
+      "sha256": "7586e9b82af6997c737914c6a5b65ca1c23f9ff971939bf07bc1c3047cc17430",
+      "git_blob_sha": "1437240e1681e6dff465ec4404042a20ca474fb3"
+    },
+    {
+      "path": "review-micah-v3.html",
+      "bytes": 14375,
+      "sha256": "f22afcf36e60b60f04bc87354bdc1fac8e8446077ca9520a293c456b98f6f365",
+      "git_blob_sha": "e4da35c16973cd7256521004a9aebff192dc1e7a"
+    }
+  ],
+  "qa": {
+    "original_source_SHA256_and_full_CRC": "PASS",
+    "five_original_SWORD_OT_binary_indexes": "PASS",
+    "independent_source_assertions": "PASS",
+    "source_assertions_total": 8882,
+    "reader_js_navigation": "PASS",
+    "reader_checks": 13175,
+    "predecessor_navigation_sha256": "PASS",
+    "release_files_total": 54,
+    "batch_counts": [
+      53,
+      1
+    ],
+    "previous_32_books_repacked": false,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0
+  },
+  "counts": {
+    "chapters": 7,
+    "verse_coordinates": 105,
+    "author_chapters": 42,
+    "original_entries": 469,
+    "original_P_sections": 55,
+    "routed_P_sections": 56,
+    "inherited_source_links": 1,
+    "source_backed_verse_author_links": 619,
+    "reader_visible_original_records": 468,
+    "source_archive_count": 6,
+    "baseline_main_commit": "a54e5bffbd506043c85f9c852daf617489c71e47"
+  },
+  "release_scope": {
+    "added_book": "MIC",
+    "previous_32_books_unchanged": true,
+    "new_paths": 53,
+    "only_existing_path_to_replace": "api/v3/navigation-coverage/v1/manifest.json",
+    "original_P_sections": 55,
+    "inherited_P_sections": 1,
+    "total_routed_P_sections": 56,
+    "player_or_prior_reader_changes": 0
+  },
+  "rights_and_provenance": "Six SHA-locked original historical commentary archives: five CrossWire/SWORD module Public Domain declarations and HelloAO John Gill original source rights claims. Original author/work/edition, source OSIS/HelloAO text, native binary passage indexes, digital edition licenses, source hashes and attribution retained. No Bible translation bundled. Source rights declarations are not a universal legal warranty.",
+  "source_scoped_exceptions": [
+    "Calvin native SWORD verse-index gaps: Micah 6:7 and 7:6. No neighboring content or other digital edition substituted.",
+    "Adam Clarke native SWORD verse-index gaps: Micah 1:4, 3:2-3, 4:2-3, 5:14, 6:11, 7:17 and 7:19. Explicit absence preserved.",
+    "Jamieson-Fausset-Brown original Micah 1:1 SWORD record contains the book/chapter/passage introduction only, no distinguishable verse-one exposition. Its source binary link is preserved but the verse reader excludes the P-only record.",
+    "Jamieson-Fausset-Brown original book introduction and all seven chapter/passage headings are source-bounded P, not duplicate verse commentary.",
+    "Matthew Henry original Micah book introduction and chapter-marker introductions for chapters 2-7, plus actual paragraph headings, remain source-bound P sections.",
+    "Adam Clarke original book and six chapter introductions are separate P sections, with authentic source-marked Verse 1 following each introduction.",
+    "Keil & Delitzsch original book preface and chapter opening matter are separate P; its titled Micah 1-2, 3-5 and 6-7 group sections are explicitly bounded by source, not chapter-wide guessed scopes.",
+    "John Gill original HelloAO explicit verse anchors cover all 105 coordinates; the source book introduction is referenced once.",
+    "Previously accepted Genesis-hosted JFB Prophetical Books introduction reused by immutable source file identity and fragment SHA, with no copying of historical text to Micah source records.",
+    "Native SWORD shared entries (including Micah 4:1-3 JFB and passage-bound Henry/K&D records) must not be presented as independently written commentary for each linked verse.",
+    "No Scripture translation text, CGBC, schemas, shared author catalogs or existing six-author historical snapshots modified."
+  ],
+  "publication_gate": "READY_FOR_OWNER_MANUAL_UPLOAD__LIVE_VISUAL_PENDING",
+  "safeguards": [
+    "Before upload, compare current GitHub main commit and cumulative navigation manifest blob/sha with pinned baseline; stop and reconcile drift.",
+    "Upload 53 new repo-root files in Batch 01; upload Batch 02 replacing ONLY cumulative navigation manifest last.",
+    "Verify all 54 files against the SHA-256 manifest, GitHub Pages deployment for final commit, and visual reader across seven chapters.",
+    "Preserve previous 32 book snapshots/readers and all shared runtime/CGBC files. No automatic repository writes."
+  ]
+}
