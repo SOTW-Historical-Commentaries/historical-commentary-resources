@@ -1,0 +1,45 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-nahum-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "NAM"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 18,
+    "original_entries": 206,
+    "navigation_sections": 23,
+    "reader_visible_entries": 206,
+    "verse_author_routes": 276,
+    "sword_chapters": 15,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 3,
+    "chapters": 3
+  },
+  "chapter_verse_count": {
+    "1": 15,
+    "2": 13,
+    "3": 19
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked CrossWire/SWORD digital editions with native KJV OT index keys, one original HelloAO John Gill source; fallback only if entire SWORD chapter missing.",
+  "reader_policy": "Verse by default; original source-bounded P introductions and chapter/passage headings available separately; out-of-range P reverts to verse.",
+  "provenance_policy": "Original OSIS and HelloAO item data preserved, source index/hash/edition/license retained; no synthetic commentary.",
+  "notes": [
+    "Nahum is canonical book 34 after Micah; earlier 33 snapshots immutable.",
+    "JFB original Genesis-hosted Prophetical Books introduction reused by exact source hash.",
+    "Original source-bounded verse/chapter/passage headings remain separate from indexed verse exposition.",
+    "No Bible translation text, production deployment, or CGBC player changes."
+  ]
+}

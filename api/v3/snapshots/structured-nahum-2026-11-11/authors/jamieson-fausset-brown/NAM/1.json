@@ -1,0 +1,465 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-nahum-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "NAM",
+  "chapter": 1,
+  "canonical_chapter": "NAM.1",
+  "versification": "KJV",
+  "verse_count": 15,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Nah\" sID=\"gen23827\" type=\"book\"/> <milestone n=\"THE BOOK OF NAHUM\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE BOOK OF NAHUM</title> <div sID=\"gen23828\" type=\"x-p\"/><div eID=\"gen23828\" type=\"x-p\"/> ",
+      "source_record_sha256": "b070f41a14354e20e18f067f325b44f6512de49484642336be8dad916090c6fd",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 0,
+        "length": 302
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Nah.1\" sID=\"Nah.1\"/> <div sID=\"gen23829\" type=\"introduction\"/> ",
+      "source_record_sha256": "3b4ac0cdf57aead0c3010d5e630289b7946827d3148f8ec7c0c248ed01952d52",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 302,
+        "length": 86
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:NAM.1.1-1:34:388:7920",
+      "passage_start": "NAM.1.1",
+      "passage_end": "NAM.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12819\"/><title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen23830\" type=\"x-p\"/> Nahum means \"consolation\" and \"vengeance\"; symbolizing the \"consolation\" in the book for God's people, and the \"vengeance\" coming on their enemies. In the first chapter the two themes alternate; but as the prophet advances, vengeance on the capital of the Assyrian foe is the predominant topic. He is called \"the Elkoshite\" (<reference osisRef=\"Nah.1.1\">Na 1:1</reference>), from Elkosh, or Elkesi, a village of Galilee, pointed out to Jerome [Preface in Nahum] as a place of note among the Jews, having traces of ancient buildings. The name Capernaum, that is, \"village of Nahum,\" seems to take its name from Nahum having resided in it, though born in Elkosh in the neighborhood. There is another Elkosh east of the Tigris, and north of Mosul, believed by Jewish pilgrims to be the birthplace and burial place of the prophet. But the book of Nahum in its allusions shows a particularity of acquaintance with Palestine (<reference osisRef=\"Nah.1.4\">Na 1:4</reference>), and only a more general knowledge as to Nineveh (Na 2:4-6; 3:2, 3).<div eID=\"gen23830\" type=\"x-p\"/> <div eID=\"gen23829\" type=\"introduction\"/> <div sID=\"gen23831\" type=\"x-p\"/> His graphic description of Sennacherib and his army (<reference osisRef=\"Nah.1.9-Nah.1.12\">Na 1:9-12</reference>) makes it not unlikely that he was in or near Jerusalem at the time: hence the number of phrases corresponding to those of Isaiah (compare <reference osisRef=\"Nah.1.8\">Na 1:8</reference>, <reference osisRef=\"1Cor.1.9\">9</reference>, with <reference osisRef=\"Isa.8.8\">Is 8:8</reference>; <reference osisRef=\"Isa.10.23\">10:23</reference>; <reference osisRef=\"Nah.2.10\">Na 2:10</reference>, with <reference osisRef=\"Isa.24.1\">Is 24:1</reference>; <reference osisRef=\"Isa.21.3\">21:3</reference>; <reference osisRef=\"Nah.1.15\">Na 1:15</reference>, with <reference osisRef=\"Isa.52.7\">Is 52:7</reference>). The prophecy in <reference osisRef=\"Nah.1.14\">Na 1:14</reference> probably refers to the murder of Sennacherib twenty years after his return from Palestine (<reference osisRef=\"Isa.37.38\">Is 37:38</reference>). The date of his prophecies, thus, seems to be about the former years of Hezekiah. So Jerome thinks. He plainly writes while the Assyrian power was yet unbroken (<reference osisRef=\"Nah.1.12\">Na 1:12</reference>; 2:11-13 <reference osisRef=\"Nah.3.15-Nah.3.17\">Na 3:15-17</reference>). The correspondence between the sentiments of Nahum and those of Isaiah and Hezekiah, as recorded in Second Kings and Isaiah, proves the likelihood of Nahum's prophecies belonging to the time when Sennacherib was demanding the surrender of Jerusalem, and had not yet raised the siege (compare <reference osisRef=\"Nah.1.2\">Na 1:2</reference>, &amp;c., with <reference osisRef=\"2Kgs.19.14\">2Ki 19:14</reference>, <reference osisRef=\"2Kgs.19.15\">15</reference>; <reference osisRef=\"Nah.1.7\">Na 1:7</reference>, with <reference osisRef=\"2Kgs.18.22\">2Ki 18:22</reference>; <reference osisRef=\"2Kgs.19.19\">19:19</reference>, <reference osisRef=\"2Kgs.19.31\">31</reference>; <reference osisRef=\"2Chr.32.7\">2Ch 32:7</reference>, <reference osisRef=\"2Chr.32.8\">8</reference>; <reference osisRef=\"Nah.1.9\">Na 1:9</reference>, <reference osisRef=\"1Cor.1.11\">11</reference>, with <reference osisRef=\"2Kgs.19.22\">2Ki 19:22</reference>, 27, 28; <reference osisRef=\"Nah.1.14\">Na 1:14</reference>, with <reference osisRef=\"2Kgs.19.6\">2Ki 19:6</reference>, <reference osisRef=\"2Kgs.19.7\">7</reference>; <reference osisRef=\"Nah.1.15\">Na 1:15</reference>; <reference osisRef=\"2Cor.1.2\">2:1, 2</reference>, with <reference osisRef=\"2Kgs.19.32\">2Ki 19:32</reference>, <reference osisRef=\"2Kgs.19.33\">33</reference>; <reference osisRef=\"Nah.2.13\">Na 2:13</reference>, with <reference osisRef=\"2Kgs.19.22\">2Ki 19:22</reference>, <reference osisRef=\"2Kgs.19.23\">23</reference>). The historical data in the book itself are the humiliation of Israel and Judah by Assyria (<reference osisRef=\"Nah.2.2\">Na 2:2</reference>); the invasion of Judah (<reference osisRef=\"Nah.1.9\">Na 1:9</reference>, <reference osisRef=\"1Cor.1.11\">11</reference>); and the conquest of No-ammon, or Thebes, in Upper Egypt (<reference osisRef=\"Nah.3.8-Nah.3.10\">Na 3:8-10</reference>). Tiglath-pileser and Shalmaneser had carried away Israel. The Jews were harassed by the Syrians, and impoverished by Ahaz' payments to Tiglath-pileser (<reference osisRef=\"2Chr.28.1-2Chr.28.27\">2Ch 28:1-27</reference>; <reference osisRef=\"Isa.7.9\">Is 7:9</reference>). Sargon, Shalmaneser's successor, after the reduction of Phoenicia by the latter, fearing lest Egypt should join Palestine against him, undertook an expedition to Africa (<reference osisRef=\"Isa.20.1-Isa.20.6\">Is 20:1-6</reference>), and took Thebes; the latter fact we know only from Nahum, but the success of the expedition in general is corroborated in <reference osisRef=\"Isa.20.1-Isa.20.6\">Is 20:1-6</reference>. Sennacherib, Sargon's successor, made the last Assyrian attempt against Judea, ending in the destruction of his army in the fourteenth year of Hezekiah (713-710 B.C.). As Nahum refers to this in part prophetically, in part as matter of history (Na 1:9-13; 2:13), he must have lived about 720-714 B.C., that is, almost a hundred years before the event foretold, namely, the overthrow of Nineveh by the joint forces of Cyaxares and Nabopolassar in the reign of Chyniladanus, 625 or 603 B.C.<div eID=\"gen23831\" type=\"x-p\"/> <div sID=\"gen23832\" type=\"x-p\"/> The prophecy is remarkable for its unity of aim. Nahum's object was to inspire his countrymen, the Jews, with the assurance that, however alarming their position might seem, exposed to the attacks of the mighty Assyrian, who had already carried away the ten tribes, yet that not only should the Assyrian (Sennacherib) fail in his attack on Jerusalem, but Nineveh, his own capital, be taken and his empire overthrown; and this, not by an arbitrary exercise of Jehovah's power, but for the iniquities of the city and its people.<div eID=\"gen23832\" type=\"x-p\"/> <div sID=\"gen23833\" type=\"x-p\"/> His position in the canon is seventh of the minor prophets in both the Hebrew and Greek arrangement. He is seventh in point of date.<div eID=\"gen23833\" type=\"x-p\"/> <div sID=\"gen23834\" type=\"x-p\"/> His style is clear, elegant, and forcible. Its most striking characteristic is the power of representing several phases of an idea in the briefest sentences, as in the majestic description of God in the commencement, the conquest of Nineveh, and the destruction of No-ammon [Eichorn]. De Wette calls attention to his variety of manner in presenting ideas, as marking great poetic talent. \"Here there is something sonorous in his language there something murmuring; with both these alternates something that is soft, delicate, and melting, as the subject demands.\" Excepting two alleged Assyrian words (<reference osisRef=\"Nah.3.17\">Na 3:17</reference>), English Version, \"crowned,\" or princes, and English Version, \"captains,\" or satraps (used by <reference osisRef=\"Jer.51.27\">Jr 51:27</reference>), the language is pure. These two, doubtless, came to be known in Judea from the intercourse with Assyria in the eighth and seventh centuries B.C.<div eID=\"gen23834\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <title type=\"x-s3\"><reference osisRef=\"Nah.1.1-Nah.1.15\">Na 1:1-15</reference>. Jehovah's Attributes as a Jealous Judge of Sin, Yet Merciful to His Trusting People, Should Inspire Them with Confidence. He Will Not Allow the Assyrians Again to Assail Them, but Will Destroy the Foe.</title> <div sID=\"gen23835\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12819\"/><hi type=\"bold\">1. burden of Nineveh--</hi>the prophetic doom of Nineveh. Nahum prophesied against that city a hundred fifty years after Jonah. <div eID=\"gen23835\" type=\"x-p\"/>",
+      "content_plain": "INTRODUCTION Nahum means \"consolation\" and \"vengeance\"; symbolizing the \"consolation\" in the book for God's people, and the \"vengeance\" coming on their enemies. In the first chapter the two themes alternate; but as the prophet advances, vengeance on the capital of the Assyrian foe is the predominant topic. He is called \"the Elkoshite\" ( Na 1:1 ), from Elkosh, or Elkesi, a village of Galilee, pointed out to Jerome [Preface in Nahum] as a place of note among the Jews, having traces of ancient buildings. The name Capernaum, that is, \"village of Nahum,\" seems to take its name from Nahum having resided in it, though born in Elkosh in the neighborhood. There is another Elkosh east of the Tigris, and north of Mosul, believed by Jewish pilgrims to be the birthplace and burial place of the prophet. But the book of Nahum in its allusions shows a particularity of acquaintance with Palestine ( Na 1:4 ), and only a more general knowledge as to Nineveh (Na 2:4-6; 3:2, 3). His graphic description of Sennacherib and his army ( Na 1:9-12 ) makes it not unlikely that he was in or near Jerusalem at the time: hence the number of phrases corresponding to those of Isaiah (compare Na 1:8 , 9 , with Is 8:8 ; 10:23 ; Na 2:10 , with Is 24:1 ; 21:3 ; Na 1:15 , with Is 52:7 ). The prophecy in Na 1:14 probably refers to the murder of Sennacherib twenty years after his return from Palestine ( Is 37:38 ). The date of his prophecies, thus, seems to be about the former years of Hezekiah. So Jerome thinks. He plainly writes while the Assyrian power was yet unbroken ( Na 1:12 ; 2:11-13 Na 3:15-17 ). The correspondence between the sentiments of Nahum and those of Isaiah and Hezekiah, as recorded in Second Kings and Isaiah, proves the likelihood of Nahum's prophecies belonging to the time when Sennacherib was demanding the surrender of Jerusalem, and had not yet raised the siege (compare Na 1:2 , &c., with 2Ki 19:14 , 15 ; Na 1:7 , with 2Ki 18:22 ; 19:19 , 31 ; 2Ch 32:7 , 8 ; Na 1:9 , 11 , with 2Ki 19:22 , 27, 28; Na 1:14 , with 2Ki 19:6 , 7 ; Na 1:15 ; 2:1, 2 , with 2Ki 19:32 , 33 ; Na 2:13 , with 2Ki 19:22 , 23 ). The historical data in the book itself are the humiliation of Israel and Judah by Assyria ( Na 2:2 ); the invasion of Judah ( Na 1:9 , 11 ); and the conquest of No-ammon, or Thebes, in Upper Egypt ( Na 3:8-10 ). Tiglath-pileser and Shalmaneser had carried away Israel. The Jews were harassed by the Syrians, and impoverished by Ahaz' payments to Tiglath-pileser ( 2Ch 28:1-27 ; Is 7:9 ). Sargon, Shalmaneser's successor, after the reduction of Phoenicia by the latter, fearing lest Egypt should join Palestine against him, undertook an expedition to Africa ( Is 20:1-6 ), and took Thebes; the latter fact we know only from Nahum, but the success of the expedition in general is corroborated in Is 20:1-6 . Sennacherib, Sargon's successor, made the last Assyrian attempt against Judea, ending in the destruction of his army in the fourteenth year of Hezekiah (713-710 B.C.). As Nahum refers to this in part prophetically, in part as matter of history (Na 1:9-13; 2:13), he must have lived about 720-714 B.C., that is, almost a hundred years before the event foretold, namely, the overthrow of Nineveh by the joint forces of Cyaxares and Nabopolassar in the reign of Chyniladanus, 625 or 603 B.C. The prophecy is remarkable for its unity of aim. Nahum's object was to inspire his countrymen, the Jews, with the assurance that, however alarming their position might seem, exposed to the attacks of the mighty Assyrian, who had already carried away the ten tribes, yet that not only should the Assyrian (Sennacherib) fail in his attack on Jerusalem, but Nineveh, his own capital, be taken and his empire overthrown; and this, not by an arbitrary exercise of Jehovah's power, but for the iniquities of the city and its people. His position in the canon is seventh of the minor prophets in both the Hebrew and Greek arrangement. He is seventh in point of date. His style is clear, elegant, and forcible. Its most striking characteristic is the power of representing several phases of an idea in the briefest sentences, as in the majestic description of God in the commencement, the conquest of Nineveh, and the destruction of No-ammon [Eichorn]. De Wette calls attention to his variety of manner in presenting ideas, as marking great poetic talent. \"Here there is something sonorous in his language there something murmuring; with both these alternates something that is soft, delicate, and melting, as the subject demands.\" Excepting two alleged Assyrian words ( Na 3:17 ), English Version, \"crowned,\" or princes, and English Version, \"captains,\" or satraps (used by Jr 51:27 ), the language is pure. These two, doubtless, came to be known in Judea from the intercourse with Assyria in the eighth and seventh centuries B.C. CHAPTER 1 Na 1:1-15 . Jehovah's Attributes as a Jealous Judge of Sin, Yet Merciful to His Trusting People, Should Inspire Them with Confidence. He Will Not Allow the Assyrians Again to Assail Them, but Will Destroy the Foe. 1. burden of Nineveh-- the prophetic doom of Nineveh. Nahum prophesied against that city a hundred fifty years after Jonah.",
+      "source_record_sha256": "cf25e181eabff99f0b6dd1b70f5db4b84bbd93e45ad0f9049decab16604080fd",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 388,
+        "length": 7920
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. burden of Nineveh-- the prophetic doom of Nineveh. Nahum prophesied against that city a hundred fifty years after Jonah.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "JFB original preverse milestone ends introduction and headings before actual verse-one exposition",
+      "reader_source_character_span": [
+        7744,
+        7920
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. burden of Nineveh--</hi>the prophetic doom of Nineveh. Nahum prophesied against that city a hundred fifty years after Jonah. <div eID=\"gen23835\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.2-2:34:8308:2491",
+      "passage_start": "NAM.1.2",
+      "passage_end": "NAM.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12820\"/><div sID=\"gen23836\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12820\"/><hi type=\"bold\">2. jealous--</hi>In this there is sternness, yet tender affection. We are jealous only of those we love: a husband, of a wife; a king, of his subjects' loyalty. God is jealous of men because He loves them. God will not bear a rival in His claims on them. His burning jealousy for His own wounded honor and their love, as much as His justice, accounts for all His fearful judgments: the flood, the destruction of Jerusalem, that of Nineveh. His jealousy will not admit of His friends being oppressed, and their enemies flourishing (compare <reference osisRef=\"Exod.20.5\">Ex 20:5</reference>; <reference osisRef=\"1Cor.16.22\">1Co 16:22</reference>; <reference osisRef=\"2Cor.11.2\">2Co 11:2</reference>). Burning zeal enters into the idea in \"jealous\" here (compare <reference osisRef=\"Num.25.11\">Nu 25:11</reference>, <reference osisRef=\"Num.25.13\">13</reference>; <reference osisRef=\"1Kgs.19.10\">1Ki 19:10</reference>).<div eID=\"gen23836\" type=\"x-p\"/> <div sID=\"gen23837\" type=\"x-p\"/><hi type=\"bold\">the Lord revengeth ... Lord revengeth--</hi>The repetition of the incommunicable name Jehovah, and of His revenging, gives an awful solemnity to the introduction.<div eID=\"gen23837\" type=\"x-p\"/> <div sID=\"gen23838\" type=\"x-p\"/><hi type=\"bold\">furious--</hi>literally, \"a master of fury.\" So a master of the tongue, that is, \"eloquent.\" \"One who, if He pleases, can most readily give effect to His fury\" [Grotius]. Nahum has in view the provocation to fury given to God by the Assyrians, after having carried away the ten tribes, now proceeding to invade Judea under Hezekiah.<div eID=\"gen23838\" type=\"x-p\"/> <div sID=\"gen23839\" type=\"x-p\"/><hi type=\"bold\">reserveth wrath for his enemies--</hi>reserves it against His own appointed time (<reference osisRef=\"2Pet.2.9\">2Pe 2:9</reference>). After long waiting for their repentance in vain, at length punishing them. A wrong estimate of Jehovah is formed from His suspending punishment: it is not that He is insensible or dilatory, but He reserves wrath for His own fit time. In the case of the penitent, He does not reserve or retain His anger (<reference osisRef=\"Ps.103.9\">Psa 103:9</reference>; <reference osisRef=\"Jer.3.5\">Jr 3:5</reference>, <reference osisRef=\"Jer.3.12\">12</reference>; <reference osisRef=\"Mic.7.18\">Mi 7:18</reference>). <div eID=\"gen23839\" type=\"x-p\"/>",
+      "content_plain": "2. jealous-- In this there is sternness, yet tender affection. We are jealous only of those we love: a husband, of a wife; a king, of his subjects' loyalty. God is jealous of men because He loves them. God will not bear a rival in His claims on them. His burning jealousy for His own wounded honor and their love, as much as His justice, accounts for all His fearful judgments: the flood, the destruction of Jerusalem, that of Nineveh. His jealousy will not admit of His friends being oppressed, and their enemies flourishing (compare Ex 20:5 ; 1Co 16:22 ; 2Co 11:2 ). Burning zeal enters into the idea in \"jealous\" here (compare Nu 25:11 , 13 ; 1Ki 19:10 ). the Lord revengeth ... Lord revengeth-- The repetition of the incommunicable name Jehovah, and of His revenging, gives an awful solemnity to the introduction. furious-- literally, \"a master of fury.\" So a master of the tongue, that is, \"eloquent.\" \"One who, if He pleases, can most readily give effect to His fury\" [Grotius]. Nahum has in view the provocation to fury given to God by the Assyrians, after having carried away the ten tribes, now proceeding to invade Judea under Hezekiah. reserveth wrath for his enemies-- reserves it against His own appointed time ( 2Pe 2:9 ). After long waiting for their repentance in vain, at length punishing them. A wrong estimate of Jehovah is formed from His suspending punishment: it is not that He is insensible or dilatory, but He reserves wrath for His own fit time. In the case of the penitent, He does not reserve or retain His anger ( Psa 103:9 ; Jr 3:5 , 12 ; Mi 7:18 ).",
+      "source_record_sha256": "06d00f70124e41a71dae4c9e94a315ee0ae950b357c1327c02b741d740ad52b9",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 8308,
+        "length": 2491
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. jealous-- In this there is sternness, yet tender affection. We are jealous only of those we love: a husband, of a wife; a king, of his subjects' loyalty. God is jealous of men because He loves them. God will not bear a rival in His claims on them. His burning jealousy for His own wounded honor and their love, as much as His justice, accounts for all His fearful judgments: the flood, the destruction of Jerusalem, that of Nineveh. His jealousy will not admit of His friends being oppressed, and their enemies flourishing (compare Ex 20:5 ; 1Co 16:22 ; 2Co 11:2 ). Burning zeal enters into the idea in \"jealous\" here (compare Nu 25:11 , 13 ; 1Ki 19:10 ). the Lord revengeth ... Lord revengeth-- The repetition of the incommunicable name Jehovah, and of His revenging, gives an awful solemnity to the introduction. furious-- literally, \"a master of fury.\" So a master of the tongue, that is, \"eloquent.\" \"One who, if He pleases, can most readily give effect to His fury\" [Grotius]. Nahum has in view the provocation to fury given to God by the Assyrians, after having carried away the ten tribes, now proceeding to invade Judea under Hezekiah. reserveth wrath for his enemies-- reserves it against His own appointed time ( 2Pe 2:9 ). After long waiting for their repentance in vain, at length punishing them. A wrong estimate of Jehovah is formed from His suspending punishment: it is not that He is insensible or dilatory, but He reserves wrath for His own fit time. In the case of the penitent, He does not reserve or retain His anger ( Psa 103:9 ; Jr 3:5 , 12 ; Mi 7:18 )."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.3-3:34:10799:1319",
+      "passage_start": "NAM.1.3",
+      "passage_end": "NAM.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12821\"/><div sID=\"gen23840\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12821\"/><hi type=\"bold\">3. slow to anger, and great in power--</hi>that is, but great in power, so as to be able in a moment, if He pleases, to destroy the wicked. His long-suffering is not from want of power to punish (<reference osisRef=\"Exod.34.6\">Ex 34:6</reference>, <reference osisRef=\"Exod.34.7\">7</reference>).<div eID=\"gen23840\" type=\"x-p\"/> <div sID=\"gen23841\" type=\"x-p\"/><hi type=\"bold\">not at all acquit--</hi>literally, \"will not acquitting acquit,\" or treat as innocent.<div eID=\"gen23841\" type=\"x-p\"/> <div sID=\"gen23842\" type=\"x-p\"/><hi type=\"bold\">Lord hath his way in the whirlwind--</hi>From this to <reference osisRef=\"Nah.1.5\">Na 1:5</reference>, inclusive, is a description of His power exhibited in the phenomena of nature, especially when He is wroth. His vengeance shall sweep away the Assyrian foe like a whirlwind (<reference osisRef=\"Prov.10.25\">Pr 10:25</reference>).<div eID=\"gen23842\" type=\"x-p\"/> <div sID=\"gen23843\" type=\"x-p\"/><hi type=\"bold\">clouds are the dust of his feet--</hi>Large as they are, He treads on them, as a man would on the small dust; He is Lord of the clouds, and uses them as He pleases. <div eID=\"gen23843\" type=\"x-p\"/>",
+      "content_plain": "3. slow to anger, and great in power-- that is, but great in power, so as to be able in a moment, if He pleases, to destroy the wicked. His long-suffering is not from want of power to punish ( Ex 34:6 , 7 ). not at all acquit-- literally, \"will not acquitting acquit,\" or treat as innocent. Lord hath his way in the whirlwind-- From this to Na 1:5 , inclusive, is a description of His power exhibited in the phenomena of nature, especially when He is wroth. His vengeance shall sweep away the Assyrian foe like a whirlwind ( Pr 10:25 ). clouds are the dust of his feet-- Large as they are, He treads on them, as a man would on the small dust; He is Lord of the clouds, and uses them as He pleases.",
+      "source_record_sha256": "ee2bd9e82f388b5d3623dfdf6018587cff10773a3580a8a0fd248e0eb79b2bd7",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 10799,
+        "length": 1319
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. slow to anger, and great in power-- that is, but great in power, so as to be able in a moment, if He pleases, to destroy the wicked. His long-suffering is not from want of power to punish ( Ex 34:6 , 7 ). not at all acquit-- literally, \"will not acquitting acquit,\" or treat as innocent. Lord hath his way in the whirlwind-- From this to Na 1:5 , inclusive, is a description of His power exhibited in the phenomena of nature, especially when He is wroth. His vengeance shall sweep away the Assyrian foe like a whirlwind ( Pr 10:25 ). clouds are the dust of his feet-- Large as they are, He treads on them, as a man would on the small dust; He is Lord of the clouds, and uses them as He pleases."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.4-4:34:12118:1071",
+      "passage_start": "NAM.1.4",
+      "passage_end": "NAM.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12822\"/><div sID=\"gen23844\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12822\"/><hi type=\"bold\">4. rebuketh the sea--</hi>as Jesus did (<reference osisRef=\"Matt.8.26\">Mt 8:26</reference>), proving Himself God (compare <reference osisRef=\"Isa.50.2\">Is 50:2</reference>).<div eID=\"gen23844\" type=\"x-p\"/> <div sID=\"gen23845\" type=\"x-p\"/><hi type=\"bold\">Bashan languisheth--</hi>through drought; ordinarily it was a region famed for its rich pasturage (compare <reference osisRef=\"Joel.1.10\">Joe 1:10</reference>).<div eID=\"gen23845\" type=\"x-p\"/> <div sID=\"gen23846\" type=\"x-p\"/><hi type=\"bold\">flower of Lebanon--</hi>its bloom; all that blooms so luxuriantly on Lebanon (<reference osisRef=\"Hos.14.7\">Ho 14:7</reference>). As Bashan was famed for its pastures, Carmel for its corn fields and vineyards, so Lebanon for its forests (<reference osisRef=\"Isa.33.9\">Is 33:9</reference>). There is nothing in the world so blooming that God cannot change it when He is wroth. <div eID=\"gen23846\" type=\"x-p\"/>",
+      "content_plain": "4. rebuketh the sea-- as Jesus did ( Mt 8:26 ), proving Himself God (compare Is 50:2 ). Bashan languisheth-- through drought; ordinarily it was a region famed for its rich pasturage (compare Joe 1:10 ). flower of Lebanon-- its bloom; all that blooms so luxuriantly on Lebanon ( Ho 14:7 ). As Bashan was famed for its pastures, Carmel for its corn fields and vineyards, so Lebanon for its forests ( Is 33:9 ). There is nothing in the world so blooming that God cannot change it when He is wroth.",
+      "source_record_sha256": "aa99c4daf0e06f472e56570d27a69d05e8b3d385f73d80c6cb7cccd832e20563",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 12118,
+        "length": 1071
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. rebuketh the sea-- as Jesus did ( Mt 8:26 ), proving Himself God (compare Is 50:2 ). Bashan languisheth-- through drought; ordinarily it was a region famed for its rich pasturage (compare Joe 1:10 ). flower of Lebanon-- its bloom; all that blooms so luxuriantly on Lebanon ( Ho 14:7 ). As Bashan was famed for its pastures, Carmel for its corn fields and vineyards, so Lebanon for its forests ( Is 33:9 ). There is nothing in the world so blooming that God cannot change it when He is wroth."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.5-5:34:13189:492",
+      "passage_start": "NAM.1.5",
+      "passage_end": "NAM.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12823\"/><div sID=\"gen23847\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12823\"/><hi type=\"bold\">5. earth is burned--</hi>so Grotius. Rather, \"lifts itself,\" that is, \"heaveth\" [Maurer]: as the Hebrew is translated in <reference osisRef=\"Ps.89.9\">Psa 89:9</reference>; <reference osisRef=\"Hos.13.1\">Ho 13:1</reference>; compare <reference osisRef=\"2Sam.5.21\">2Sa 5:21</reference>, Margin. <div eID=\"gen23847\" type=\"x-p\"/>",
+      "content_plain": "5. earth is burned-- so Grotius. Rather, \"lifts itself,\" that is, \"heaveth\" [Maurer]: as the Hebrew is translated in Psa 89:9 ; Ho 13:1 ; compare 2Sa 5:21 , Margin.",
+      "source_record_sha256": "324f9c1cf953a32b551288e01cdd90224ab465417c404114b264af668db0102f",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 13189,
+        "length": 492
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. earth is burned-- so Grotius. Rather, \"lifts itself,\" that is, \"heaveth\" [Maurer]: as the Hebrew is translated in Psa 89:9 ; Ho 13:1 ; compare 2Sa 5:21 , Margin."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.6-6:34:13681:720",
+      "passage_start": "NAM.1.6",
+      "passage_end": "NAM.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12824\"/><div sID=\"gen23848\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12824\"/><hi type=\"bold\">6. fury is poured out like fire--</hi>like the liquid fire poured out of volcanoes in all directions (see <reference osisRef=\"Jer.7.20\">Jr 7:20</reference>).<div eID=\"gen23848\" type=\"x-p\"/> <div sID=\"gen23849\" type=\"x-p\"/><hi type=\"bold\">rocks are thrown down--</hi>or, \"are burnt asunder\"; the usual effect of volcanic fire (<reference osisRef=\"Jer.51.25\">Jr 51:25</reference>, <reference osisRef=\"Jer.51.56\">56</reference>). As Hannibal burst asunder the Alpine rocks by fire to make a passage for his army [Grotius]. <div eID=\"gen23849\" type=\"x-p\"/>",
+      "content_plain": "6. fury is poured out like fire-- like the liquid fire poured out of volcanoes in all directions (see Jr 7:20 ). rocks are thrown down-- or, \"are burnt asunder\"; the usual effect of volcanic fire ( Jr 51:25 , 56 ). As Hannibal burst asunder the Alpine rocks by fire to make a passage for his army [Grotius].",
+      "source_record_sha256": "f4872c13db8a804e6ee3fc5f61f396c74bbf39c6e95451d485237aa383921c70",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 13681,
+        "length": 720
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. fury is poured out like fire-- like the liquid fire poured out of volcanoes in all directions (see Jr 7:20 ). rocks are thrown down-- or, \"are burnt asunder\"; the usual effect of volcanic fire ( Jr 51:25 , 56 ). As Hannibal burst asunder the Alpine rocks by fire to make a passage for his army [Grotius]."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.7-7:34:14401:1030",
+      "passage_start": "NAM.1.7",
+      "passage_end": "NAM.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12825\"/><div sID=\"gen23850\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12825\"/>7. Here Nahum enters on his special subject, for which the previous verses have prepared the way, namely, to assure his people of safety in Jehovah under the impending attack of Sennacherib (<reference osisRef=\"Nah.1.7\">Na 1:7</reference>), and to announce the doom of Nineveh, the capital of the Assyrian foe (<reference osisRef=\"Nah.1.8\">Na 1:8</reference>). The contrast of <reference osisRef=\"Nah.1.7\">Na 1:7</reference>, <reference osisRef=\"1Cor.1.8\">8</reference> heightens the force.<div eID=\"gen23850\" type=\"x-p\"/> <div sID=\"gen23851\" type=\"x-p\"/><hi type=\"bold\">he knoweth--</hi>recognizes as His own (<reference osisRef=\"Hos.13.5\">Ho 13:5</reference>; <reference osisRef=\"Amos.3.2\">Am 3:2</reference>); and so, cares for and guards (<reference osisRef=\"Ps.1.6\">Psa 1:6</reference>; <reference osisRef=\"2Tim.2.19\">2Ti 2:19</reference>). <div eID=\"gen23851\" type=\"x-p\"/>",
+      "content_plain": "7. Here Nahum enters on his special subject, for which the previous verses have prepared the way, namely, to assure his people of safety in Jehovah under the impending attack of Sennacherib ( Na 1:7 ), and to announce the doom of Nineveh, the capital of the Assyrian foe ( Na 1:8 ). The contrast of Na 1:7 , 8 heightens the force. he knoweth-- recognizes as His own ( Ho 13:5 ; Am 3:2 ); and so, cares for and guards ( Psa 1:6 ; 2Ti 2:19 ).",
+      "source_record_sha256": "aa01537a33fd927edc953aa91096a42093edf8ff3dba2dc8d4188aa7895e034d",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 14401,
+        "length": 1030
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. Here Nahum enters on his special subject, for which the previous verses have prepared the way, namely, to assure his people of safety in Jehovah under the impending attack of Sennacherib ( Na 1:7 ), and to announce the doom of Nineveh, the capital of the Assyrian foe ( Na 1:8 ). The contrast of Na 1:7 , 8 heightens the force. he knoweth-- recognizes as His own ( Ho 13:5 ; Am 3:2 ); and so, cares for and guards ( Psa 1:6 ; 2Ti 2:19 )."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.8-8:34:15431:1710",
+      "passage_start": "NAM.1.8",
+      "passage_end": "NAM.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12826\"/><div sID=\"gen23852\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12826\"/><hi type=\"bold\">8. with an overrunning flood--</hi>that is, with irresistible might which overruns every barrier like a flood. This image is often applied to overwhelming armies of invaders. Also of calamity in general (<reference osisRef=\"Ps.32.6\">Psa 32:6</reference>; <reference osisRef=\"Ps.42.7\">42:7</reference>; <reference osisRef=\"Ps.90.5\">90:5</reference>). There is, perhaps, a special allusion to the mode of Nineveh's capture by the Medo-Babylonian army; namely, through a flood in the river which broke down the wall twenty furlongs (see on <reference osisRef=\"Nah.2.6\">Na 2:6</reference>; <reference osisRef=\"Isa.8.8\">Is 8:8</reference>; <reference osisRef=\"Dan.9.26\">Da 9:26</reference>; <reference osisRef=\"Dan.11.10\">11:10</reference>, 22, 40).<div eID=\"gen23852\" type=\"x-p\"/> <div sID=\"gen23853\" type=\"x-p\"/><hi type=\"bold\">end of the place thereof--</hi>Nineveh is personified as a queen; and \"her place\" of residence (the Hebrew for \"thereof\" is feminine) is the city itself (<reference osisRef=\"Nah.2.8\">Na 2:8</reference>), [Maurer]. Or, He shall so utterly destroy Nineveh that its place cannot be found; <reference osisRef=\"Nah.3.17\">Na 3:17</reference> confirms this (compare <reference osisRef=\"Ps.37.36\">Psa 37:36</reference>; <reference osisRef=\"Dan.2.35\">Da 2:35</reference>; <reference osisRef=\"Rev.12.8\">Re 12:8</reference>; <reference osisRef=\"Rev.20.11\">20:11</reference>).<div eID=\"gen23853\" type=\"x-p\"/> <div sID=\"gen23854\" type=\"x-p\"/><hi type=\"bold\">darkness--</hi>the severest calamities. <div eID=\"gen23854\" type=\"x-p\"/>",
+      "content_plain": "8. with an overrunning flood-- that is, with irresistible might which overruns every barrier like a flood. This image is often applied to overwhelming armies of invaders. Also of calamity in general ( Psa 32:6 ; 42:7 ; 90:5 ). There is, perhaps, a special allusion to the mode of Nineveh's capture by the Medo-Babylonian army; namely, through a flood in the river which broke down the wall twenty furlongs (see on Na 2:6 ; Is 8:8 ; Da 9:26 ; 11:10 , 22, 40). end of the place thereof-- Nineveh is personified as a queen; and \"her place\" of residence (the Hebrew for \"thereof\" is feminine) is the city itself ( Na 2:8 ), [Maurer]. Or, He shall so utterly destroy Nineveh that its place cannot be found; Na 3:17 confirms this (compare Psa 37:36 ; Da 2:35 ; Re 12:8 ; 20:11 ). darkness-- the severest calamities.",
+      "source_record_sha256": "840efacb381ff064089c1557a3e7d21044a1c761f195266d9992eb01e7dc5766",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 15431,
+        "length": 1710
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. with an overrunning flood-- that is, with irresistible might which overruns every barrier like a flood. This image is often applied to overwhelming armies of invaders. Also of calamity in general ( Psa 32:6 ; 42:7 ; 90:5 ). There is, perhaps, a special allusion to the mode of Nineveh's capture by the Medo-Babylonian army; namely, through a flood in the river which broke down the wall twenty furlongs (see on Na 2:6 ; Is 8:8 ; Da 9:26 ; 11:10 , 22, 40). end of the place thereof-- Nineveh is personified as a queen; and \"her place\" of residence (the Hebrew for \"thereof\" is feminine) is the city itself ( Na 2:8 ), [Maurer]. Or, He shall so utterly destroy Nineveh that its place cannot be found; Na 3:17 confirms this (compare Psa 37:36 ; Da 2:35 ; Re 12:8 ; 20:11 ). darkness-- the severest calamities."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.9-9:34:17141:2141",
+      "passage_start": "NAM.1.9",
+      "passage_end": "NAM.1.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12827\"/><div sID=\"gen23855\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12827\"/><hi type=\"bold\">9. What do ye imagine against the Lord?--</hi>abrupt address to the Assyrians. How mad is your attempt, O Assyrians, to resist so powerful a God! What can ye do against such an adversary, successful though ye have been against all other adversaries? Ye imagine ye have to do merely with mortals and with a weak people, and that so you will gain an easy victory; but you have to encounter God, the protector of His people. Parallel to <reference osisRef=\"Isa.37.23-Isa.37.29\">Is 37:23-29</reference>; compare <reference osisRef=\"Ps.1.1\">Psa 1:1</reference>.<div eID=\"gen23855\" type=\"x-p\"/> <div sID=\"gen23856\" type=\"x-p\"/><hi type=\"bold\">he will make an utter end--</hi>The utter overthrow of Sennacherib's host, soon about to take place, is an earnest of the \"utter end\" of Nineveh itself.<div eID=\"gen23856\" type=\"x-p\"/> <div sID=\"gen23857\" type=\"x-p\"/><hi type=\"bold\">affliction shall not rise up the second time--</hi>Judah's \"affliction\" caused by the invasion shall never rise again. So <reference osisRef=\"Nah.1.12\">Na 1:12</reference>. But Calvin takes the \"affliction\" to be that of Assyria: \"There will be no need of His inflicting on you a second blow: He will make an utter end of you once for all\" (<reference osisRef=\"1Sam.3.12\">1Sa 3:12</reference>; <reference osisRef=\"1Sam.26.8\">26:8</reference>; <reference osisRef=\"2Sam.20.10\">2Sa 20:10</reference>). If so, this verse, in contrast to <reference osisRef=\"Nah.1.12\">Na 1:12</reference>, will express, Affliction shall visit the Assyrian no more, in a sense very different from that in which God will afflict Judah no more. In the Assyrian's case, because the blow will be fatally final; the latter, because God will make lasting blessedness in Judah's case succeed temporary chastisement. But it seems simpler to refer \"affliction\" here, as in <reference osisRef=\"Nah.1.12\">Na 1:12</reference>, to Judah; indeed destruction, rather than affliction, applies to the Assyrian. <div eID=\"gen23857\" type=\"x-p\"/>",
+      "content_plain": "9. What do ye imagine against the Lord?-- abrupt address to the Assyrians. How mad is your attempt, O Assyrians, to resist so powerful a God! What can ye do against such an adversary, successful though ye have been against all other adversaries? Ye imagine ye have to do merely with mortals and with a weak people, and that so you will gain an easy victory; but you have to encounter God, the protector of His people. Parallel to Is 37:23-29 ; compare Psa 1:1 . he will make an utter end-- The utter overthrow of Sennacherib's host, soon about to take place, is an earnest of the \"utter end\" of Nineveh itself. affliction shall not rise up the second time-- Judah's \"affliction\" caused by the invasion shall never rise again. So Na 1:12 . But Calvin takes the \"affliction\" to be that of Assyria: \"There will be no need of His inflicting on you a second blow: He will make an utter end of you once for all\" ( 1Sa 3:12 ; 26:8 ; 2Sa 20:10 ). If so, this verse, in contrast to Na 1:12 , will express, Affliction shall visit the Assyrian no more, in a sense very different from that in which God will afflict Judah no more. In the Assyrian's case, because the blow will be fatally final; the latter, because God will make lasting blessedness in Judah's case succeed temporary chastisement. But it seems simpler to refer \"affliction\" here, as in Na 1:12 , to Judah; indeed destruction, rather than affliction, applies to the Assyrian.",
+      "source_record_sha256": "b173dd2b7437f5e65e29ed4797bab9724c61a01aa799113b96e10c80b27b121b",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 17141,
+        "length": 2141
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. What do ye imagine against the Lord?-- abrupt address to the Assyrians. How mad is your attempt, O Assyrians, to resist so powerful a God! What can ye do against such an adversary, successful though ye have been against all other adversaries? Ye imagine ye have to do merely with mortals and with a weak people, and that so you will gain an easy victory; but you have to encounter God, the protector of His people. Parallel to Is 37:23-29 ; compare Psa 1:1 . he will make an utter end-- The utter overthrow of Sennacherib's host, soon about to take place, is an earnest of the \"utter end\" of Nineveh itself. affliction shall not rise up the second time-- Judah's \"affliction\" caused by the invasion shall never rise again. So Na 1:12 . But Calvin takes the \"affliction\" to be that of Assyria: \"There will be no need of His inflicting on you a second blow: He will make an utter end of you once for all\" ( 1Sa 3:12 ; 26:8 ; 2Sa 20:10 ). If so, this verse, in contrast to Na 1:12 , will express, Affliction shall visit the Assyrian no more, in a sense very different from that in which God will afflict Judah no more. In the Assyrian's case, because the blow will be fatally final; the latter, because God will make lasting blessedness in Judah's case succeed temporary chastisement. But it seems simpler to refer \"affliction\" here, as in Na 1:12 , to Judah; indeed destruction, rather than affliction, applies to the Assyrian."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.10-10:34:19282:1783",
+      "passage_start": "NAM.1.10",
+      "passage_end": "NAM.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12828\"/><div sID=\"gen23858\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12828\"/><hi type=\"bold\">10. while they are folden together as thorns--</hi>literally, \"to the same degree as thorns\" (compare <reference osisRef=\"1Chr.4.27\">1Ch 4:27</reference>, Margin). As thorns, so folded together and entangled that they cannot be loosed asunder without trouble, are thrown by the husbandmen all in a mass into the fire, so the Assyrians shall all be given together to destruction. Compare <reference osisRef=\"2Sam.23.6\">2Sa 23:6</reference>, <reference osisRef=\"2Sam.23.7\">7</reference>, where also \"thorns\" are the image of the wicked. As this image represents the speediness of their destruction in a mass, so that of \"drunkards,\" their rushing as it were of their own accord into it; for drunkards fall down without any one pushing them [Kimchi]. Calvin explains, Although ye be dangerous to touch as thorns (that is, full of rage and violence), yet the Lord can easily consume you. But \"although\" will hardly apply to the next clause. English Version and Kimchi, therefore, are to be preferred. The comparison to drunkards is appropriate. For drunkards, though exulting and bold, are weak and easily thrown down by even a finger touching them. So the insolent self-confidence of the Assyrians shall precipitate their overthrow by God. The Hebrew is \"soaked,\" or \"drunken as with their own wine.\" Their drunken revelries are perhaps alluded to, during which the foe (according to Diodorus Siculus [2]) broke into their city, and Sardanapalus burned his palace; though the main and ultimate destruction of Nineveh referred to by Nahum was long subsequent to that under Sardanapalus. <div eID=\"gen23858\" type=\"x-p\"/>",
+      "content_plain": "10. while they are folden together as thorns-- literally, \"to the same degree as thorns\" (compare 1Ch 4:27 , Margin). As thorns, so folded together and entangled that they cannot be loosed asunder without trouble, are thrown by the husbandmen all in a mass into the fire, so the Assyrians shall all be given together to destruction. Compare 2Sa 23:6 , 7 , where also \"thorns\" are the image of the wicked. As this image represents the speediness of their destruction in a mass, so that of \"drunkards,\" their rushing as it were of their own accord into it; for drunkards fall down without any one pushing them [Kimchi]. Calvin explains, Although ye be dangerous to touch as thorns (that is, full of rage and violence), yet the Lord can easily consume you. But \"although\" will hardly apply to the next clause. English Version and Kimchi, therefore, are to be preferred. The comparison to drunkards is appropriate. For drunkards, though exulting and bold, are weak and easily thrown down by even a finger touching them. So the insolent self-confidence of the Assyrians shall precipitate their overthrow by God. The Hebrew is \"soaked,\" or \"drunken as with their own wine.\" Their drunken revelries are perhaps alluded to, during which the foe (according to Diodorus Siculus [2]) broke into their city, and Sardanapalus burned his palace; though the main and ultimate destruction of Nineveh referred to by Nahum was long subsequent to that under Sardanapalus.",
+      "source_record_sha256": "8a8c7e4176442d390b5d5835fd5d8ce162d935950f056fc3016943aa214d4daf",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 19282,
+        "length": 1783
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. while they are folden together as thorns-- literally, \"to the same degree as thorns\" (compare 1Ch 4:27 , Margin). As thorns, so folded together and entangled that they cannot be loosed asunder without trouble, are thrown by the husbandmen all in a mass into the fire, so the Assyrians shall all be given together to destruction. Compare 2Sa 23:6 , 7 , where also \"thorns\" are the image of the wicked. As this image represents the speediness of their destruction in a mass, so that of \"drunkards,\" their rushing as it were of their own accord into it; for drunkards fall down without any one pushing them [Kimchi]. Calvin explains, Although ye be dangerous to touch as thorns (that is, full of rage and violence), yet the Lord can easily consume you. But \"although\" will hardly apply to the next clause. English Version and Kimchi, therefore, are to be preferred. The comparison to drunkards is appropriate. For drunkards, though exulting and bold, are weak and easily thrown down by even a finger touching them. So the insolent self-confidence of the Assyrians shall precipitate their overthrow by God. The Hebrew is \"soaked,\" or \"drunken as with their own wine.\" Their drunken revelries are perhaps alluded to, during which the foe (according to Diodorus Siculus [2]) broke into their city, and Sardanapalus burned his palace; though the main and ultimate destruction of Nineveh referred to by Nahum was long subsequent to that under Sardanapalus."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.11-11:34:21065:1123",
+      "passage_start": "NAM.1.11",
+      "passage_end": "NAM.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12829\"/><div sID=\"gen23859\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12829\"/>11. The cause of Nineveh's overthrow: Sennacherib's plots against Judah.<div eID=\"gen23859\" type=\"x-p\"/> <div sID=\"gen23860\" type=\"x-p\"/><hi type=\"bold\">come out of thee--</hi>O Nineveh. From thyself shall arise the source of thy own ruin. Thou shalt have only thyself to blame for it.<div eID=\"gen23860\" type=\"x-p\"/> <div sID=\"gen23861\" type=\"x-p\"/><hi type=\"bold\">imagineth evil--</hi>Sennacherib carried out the imaginations of his countrymen (<reference osisRef=\"Nah.1.9\">Na 1:9</reference>) against the Lord and His people (<reference osisRef=\"2Kgs.19.22\">2Ki 19:22</reference>, <reference osisRef=\"2Kgs.19.23\">23</reference>).<div eID=\"gen23861\" type=\"x-p\"/> <div sID=\"gen23862\" type=\"x-p\"/><hi type=\"bold\">a wicked counsellor--</hi>literally, \"a counsellor of Belial.\" Belial means \"without profit,\" worthless, and so bad (<reference osisRef=\"1Sam.25.25\">1Sa 25:25</reference>; <reference osisRef=\"2Cor.6.15\">2Co 6:15</reference>). <div eID=\"gen23862\" type=\"x-p\"/>",
+      "content_plain": "11. The cause of Nineveh's overthrow: Sennacherib's plots against Judah. come out of thee-- O Nineveh. From thyself shall arise the source of thy own ruin. Thou shalt have only thyself to blame for it. imagineth evil-- Sennacherib carried out the imaginations of his countrymen ( Na 1:9 ) against the Lord and His people ( 2Ki 19:22 , 23 ). a wicked counsellor-- literally, \"a counsellor of Belial.\" Belial means \"without profit,\" worthless, and so bad ( 1Sa 25:25 ; 2Co 6:15 ).",
+      "source_record_sha256": "a463f76022b3f5a2ef83971d9c793da626ed0644b6acd242fd2e74075a4c59d5",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 21065,
+        "length": 1123
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. The cause of Nineveh's overthrow: Sennacherib's plots against Judah. come out of thee-- O Nineveh. From thyself shall arise the source of thy own ruin. Thou shalt have only thyself to blame for it. imagineth evil-- Sennacherib carried out the imaginations of his countrymen ( Na 1:9 ) against the Lord and His people ( 2Ki 19:22 , 23 ). a wicked counsellor-- literally, \"a counsellor of Belial.\" Belial means \"without profit,\" worthless, and so bad ( 1Sa 25:25 ; 2Co 6:15 )."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.12-14:34:22188:2397",
+      "passage_start": "NAM.1.12",
+      "passage_end": "NAM.1.14",
+      "start_verse": 12,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12830\"/><div sID=\"gen23863\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12830\"/>12-14. The same truths repeated as in <reference osisRef=\"Nah.1.9-Nah.1.11\">Na 1:9-11</reference>, Jehovah here being the speaker. He addresses Judah, prophesying good to it, and evil to the Assyrian.<div eID=\"gen23863\" type=\"x-p\"/> <div sID=\"gen23864\" type=\"x-p\"/><hi type=\"bold\">Though they be quiet--</hi>that is, without fear, and tranquilly secure. So Chaldee and Calvin. Or, \"entire,\" \"complete\"; \"Though their power be unbroken [Maurer], and though they be so many, yet even so they shall be cut down\" (literally, \"shorn\"; as hair shaved off closely by a razor, <reference osisRef=\"Isa.7.20\">Is 7:20</reference>). As the Assyrian was a razor shaving others, so shall he be shaven himself. Retribution in kind. In the height of their pride and power, they shall be clean cut off. The same Hebrew stands for \"likewise\" and \"yet thus.\" So many as they are, so many shall they perish.<div eID=\"gen23864\" type=\"x-p\"/> <div sID=\"gen23865\" type=\"x-p\"/><hi type=\"bold\">when he shall pass through--</hi>or, \"and he shall pass away,\" namely, \"the wicked counsellor\" (<reference osisRef=\"Nah.1.11\">Na 1:11</reference>), Sennacherib. The change of number to the singular distinguishes him from his host. They shall be cut down, he shall pass away home (<reference osisRef=\"2Kgs.19.35\">2Ki 19:35</reference>, <reference osisRef=\"2Kgs.19.36\">36</reference>) [Henderson]. English Version is better, \"they shall be cut down, \"when\" He (Jehovah) shall pass through,\" destroying by one stroke the Assyrian host. This gives the reason why they with all their numbers and power are to be so utterly cut off. Compare \"pass through,\" that is, in destroying power (<reference osisRef=\"Ezek.12.12\">Eze 12:12</reference>, <reference osisRef=\"Ezek.12.23\">23</reference>; <reference osisRef=\"Isa.8.8\">Is 8:8</reference>; <reference osisRef=\"Dan.11.10\">Da 11:10</reference>).<div eID=\"gen23865\" type=\"x-p\"/> <div sID=\"gen23866\" type=\"x-p\"/><hi type=\"bold\">Though I have afflicted thee--</hi>Judah, \"I will afflict thee no more\" (<reference osisRef=\"Isa.40.1\">Is 40:1</reference>, 2; 52:1, 2). The contrast is between \"they,\" the Assyrians, and \"thee,\" Judah. Their punishment is fatal and final. Judah's was temporary and corrective. <div eID=\"gen23866\" type=\"x-p\"/>",
+      "content_plain": "12-14. The same truths repeated as in Na 1:9-11 , Jehovah here being the speaker. He addresses Judah, prophesying good to it, and evil to the Assyrian. Though they be quiet-- that is, without fear, and tranquilly secure. So Chaldee and Calvin. Or, \"entire,\" \"complete\"; \"Though their power be unbroken [Maurer], and though they be so many, yet even so they shall be cut down\" (literally, \"shorn\"; as hair shaved off closely by a razor, Is 7:20 ). As the Assyrian was a razor shaving others, so shall he be shaven himself. Retribution in kind. In the height of their pride and power, they shall be clean cut off. The same Hebrew stands for \"likewise\" and \"yet thus.\" So many as they are, so many shall they perish. when he shall pass through-- or, \"and he shall pass away,\" namely, \"the wicked counsellor\" ( Na 1:11 ), Sennacherib. The change of number to the singular distinguishes him from his host. They shall be cut down, he shall pass away home ( 2Ki 19:35 , 36 ) [Henderson]. English Version is better, \"they shall be cut down, \"when\" He (Jehovah) shall pass through,\" destroying by one stroke the Assyrian host. This gives the reason why they with all their numbers and power are to be so utterly cut off. Compare \"pass through,\" that is, in destroying power ( Eze 12:12 , 23 ; Is 8:8 ; Da 11:10 ). Though I have afflicted thee-- Judah, \"I will afflict thee no more\" ( Is 40:1 , 2; 52:1, 2). The contrast is between \"they,\" the Assyrians, and \"thee,\" Judah. Their punishment is fatal and final. Judah's was temporary and corrective.",
+      "source_record_sha256": "1d985fd6dbb3a576bdfccfba7e963093773fc8465bbc3e7b610abb5bf324646a",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 22188,
+        "length": 2397
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "NAM.1.12-14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12-14. The same truths repeated as in Na 1:9-11 , Jehovah here being the speaker. He addresses Judah, prophesying good to it, and evil to the Assyrian. Though they be quiet-- that is, without fear, and tranquilly secure. So Chaldee and Calvin. Or, \"entire,\" \"complete\"; \"Though their power be unbroken [Maurer], and though they be so many, yet even so they shall be cut down\" (literally, \"shorn\"; as hair shaved off closely by a razor, Is 7:20 ). As the Assyrian was a razor shaving others, so shall he be shaven himself. Retribution in kind. In the height of their pride and power, they shall be clean cut off. The same Hebrew stands for \"likewise\" and \"yet thus.\" So many as they are, so many shall they perish. when he shall pass through-- or, \"and he shall pass away,\" namely, \"the wicked counsellor\" ( Na 1:11 ), Sennacherib. The change of number to the singular distinguishes him from his host. They shall be cut down, he shall pass away home ( 2Ki 19:35 , 36 ) [Henderson]. English Version is better, \"they shall be cut down, \"when\" He (Jehovah) shall pass through,\" destroying by one stroke the Assyrian host. This gives the reason why they with all their numbers and power are to be so utterly cut off. Compare \"pass through,\" that is, in destroying power ( Eze 12:12 , 23 ; Is 8:8 ; Da 11:10 ). Though I have afflicted thee-- Judah, \"I will afflict thee no more\" ( Is 40:1 , 2; 52:1, 2). The contrast is between \"they,\" the Assyrians, and \"thee,\" Judah. Their punishment is fatal and final. Judah's was temporary and corrective."
+    },
+    {
+      "entry_id": "sword:jfb:NAM.1.15-15:34:26889:1435",
+      "passage_start": "NAM.1.15",
+      "passage_end": "NAM.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv12833\"/><div sID=\"gen23873\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12833\"/>15. This verse is joined in the Hebrew text to the second chapter. It is nearly the same as <reference osisRef=\"Isa.52.7\">Is 52:7</reference>, referring to the similar deliverance from Babylon.<div eID=\"gen23873\" type=\"x-p\"/> <div sID=\"gen23874\" type=\"x-p\"/><hi type=\"bold\">him that bringeth good tidings--</hi>announcing the overthrow of Sennacherib and deliverance of Jerusalem. The \"mountains\" are those round Jerusalem, on which Sennacherib's host had so lately encamped, preventing Judah from keeping her \"feasts,\" but on which messengers now speed to Jerusalem, publishing his overthrow with a loud voice where lately they durst not have opened their mouths. A type of the far more glorious spiritual deliverance of God's people from Satan by Messiah, heralded by ministers of the Gospel (<reference osisRef=\"Rom.10.15\">Ro 10:15</reference>).<div eID=\"gen23874\" type=\"x-p\"/> <div sID=\"gen23875\" type=\"x-p\"/><hi type=\"bold\">perform thy vows--</hi>which thou didst promise if God would deliver thee from the Assyrian.<div eID=\"gen23875\" type=\"x-p\"/> <div sID=\"gen23876\" type=\"x-p\"/><hi type=\"bold\">the wicked--</hi>literally, \"Belial\"; the same as the \"counsellor of Belial\" (<reference osisRef=\"Nah.1.11\">Na 1:11</reference>, Margin); namely, Sennacherib. <chapter eID=\"Nah.1\"/>",
+      "content_plain": "15. This verse is joined in the Hebrew text to the second chapter. It is nearly the same as Is 52:7 , referring to the similar deliverance from Babylon. him that bringeth good tidings-- announcing the overthrow of Sennacherib and deliverance of Jerusalem. The \"mountains\" are those round Jerusalem, on which Sennacherib's host had so lately encamped, preventing Judah from keeping her \"feasts,\" but on which messengers now speed to Jerusalem, publishing his overthrow with a loud voice where lately they durst not have opened their mouths. A type of the far more glorious spiritual deliverance of God's people from Satan by Messiah, heralded by ministers of the Gospel ( Ro 10:15 ). perform thy vows-- which thou didst promise if God would deliver thee from the Assyrian. the wicked-- literally, \"Belial\"; the same as the \"counsellor of Belial\" ( Na 1:11 , Margin); namely, Sennacherib.",
+      "source_record_sha256": "c240187310d1a4f7bbf3fbc5c81694a3ffb88eed908493d6c5a839d9e1c11a27",
+      "index_record": {
+        "testament": "OT",
+        "block": 34,
+        "offset": 26889,
+        "length": 1435
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "NAM.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "15. This verse is joined in the Hebrew text to the second chapter. It is nearly the same as Is 52:7 , referring to the similar deliverance from Babylon. him that bringeth good tidings-- announcing the overthrow of Sennacherib and deliverance of Jerusalem. The \"mountains\" are those round Jerusalem, on which Sennacherib's host had so lately encamped, preventing Judah from keeping her \"feasts,\" but on which messengers now speed to Jerusalem, publishing his overthrow with a loud voice where lately they durst not have opened their mouths. A type of the far more glorious spiritual deliverance of God's people from Satan by Messiah, heralded by ministers of the Gospel ( Ro 10:15 ). perform thy vows-- which thou didst promise if God would deliver thee from the Assyrian. the wicked-- literally, \"Belial\"; the same as the \"counsellor of Belial\" ( Na 1:11 , Margin); namely, Sennacherib."
+    }
+  ],
+  "indexed_verse_count": 15,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_NAM_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 13
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:NAM:P:nahum-original-book-introduction",
+      "navigation_id": "NAM:P:nahum-original-book-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "Nahum · Original Book Introduction",
+      "content_plain": "INTRODUCTION Nahum means \"consolation\" and \"vengeance\"; symbolizing the \"consolation\" in the book for God's people, and the \"vengeance\" coming on their enemies. In the first chapter the two themes alternate; but as the prophet advances, vengeance on the capital of the Assyrian foe is the predominant topic. He is called \"the Elkoshite\" ( Na 1:1 ), from Elkosh, or Elkesi, a village of Galilee, pointed out to Jerome [Preface in Nahum] as a place of note among the Jews, having traces of ancient buildings. The name Capernaum, that is, \"village of Nahum,\" seems to take its name from Nahum having resided in it, though born in Elkosh in the neighborhood. There is another Elkosh east of the Tigris, and north of Mosul, believed by Jewish pilgrims to be the birthplace and burial place of the prophet. But the book of Nahum in its allusions shows a particularity of acquaintance with Palestine ( Na 1:4 ), and only a more general knowledge as to Nineveh (Na 2:4-6; 3:2, 3). His graphic description of Sennacherib and his army ( Na 1:9-12 ) makes it not unlikely that he was in or near Jerusalem at the time: hence the number of phrases corresponding to those of Isaiah (compare Na 1:8 , 9 , with Is 8:8 ; 10:23 ; Na 2:10 , with Is 24:1 ; 21:3 ; Na 1:15 , with Is 52:7 ). The prophecy in Na 1:14 probably refers to the murder of Sennacherib twenty years after his return from Palestine ( Is 37:38 ). The date of his prophecies, thus, seems to be about the former years of Hezekiah. So Jerome thinks. He plainly writes while the Assyrian power was yet unbroken ( Na 1:12 ; 2:11-13 Na 3:15-17 ). The correspondence between the sentiments of Nahum and those of Isaiah and Hezekiah, as recorded in Second Kings and Isaiah, proves the likelihood of Nahum's prophecies belonging to the time when Sennacherib was demanding the surrender of Jerusalem, and had not yet raised the siege (compare Na 1:2 , &c., with 2Ki 19:14 , 15 ; Na 1:7 , with 2Ki 18:22 ; 19:19 , 31 ; 2Ch 32:7 , 8 ; Na 1:9 , 11 , with 2Ki 19:22 , 27, 28; Na 1:14 , with 2Ki 19:6 , 7 ; Na 1:15 ; 2:1, 2 , with 2Ki 19:32 , 33 ; Na 2:13 , with 2Ki 19:22 , 23 ). The historical data in the book itself are the humiliation of Israel and Judah by Assyria ( Na 2:2 ); the invasion of Judah ( Na 1:9 , 11 ); and the conquest of No-ammon, or Thebes, in Upper Egypt ( Na 3:8-10 ). Tiglath-pileser and Shalmaneser had carried away Israel. The Jews were harassed by the Syrians, and impoverished by Ahaz' payments to Tiglath-pileser ( 2Ch 28:1-27 ; Is 7:9 ). Sargon, Shalmaneser's successor, after the reduction of Phoenicia by the latter, fearing lest Egypt should join Palestine against him, undertook an expedition to Africa ( Is 20:1-6 ), and took Thebes; the latter fact we know only from Nahum, but the success of the expedition in general is corroborated in Is 20:1-6 . Sennacherib, Sargon's successor, made the last Assyrian attempt against Judea, ending in the destruction of his army in the fourteenth year of Hezekiah (713-710 B.C.). As Nahum refers to this in part prophetically, in part as matter of history (Na 1:9-13; 2:13), he must have lived about 720-714 B.C., that is, almost a hundred years before the event foretold, namely, the overthrow of Nineveh by the joint forces of Cyaxares and Nabopolassar in the reign of Chyniladanus, 625 or 603 B.C. The prophecy is remarkable for its unity of aim. Nahum's object was to inspire his countrymen, the Jews, with the assurance that, however alarming their position might seem, exposed to the attacks of the mighty Assyrian, who had already carried away the ten tribes, yet that not only should the Assyrian (Sennacherib) fail in his attack on Jerusalem, but Nineveh, his own capital, be taken and his empire overthrown; and this, not by an arbitrary exercise of Jehovah's power, but for the iniquities of the city and its people. His position in the canon is seventh of the minor prophets in both the Hebrew and Greek arrangement. He is seventh in point of date. His style is clear, elegant, and forcible. Its most striking characteristic is the power of representing several phases of an idea in the briefest sentences, as in the majestic description of God in the commencement, the conquest of Nineveh, and the destruction of No-ammon [Eichorn]. De Wette calls attention to his variety of manner in presenting ideas, as marking great poetic talent. \"Here there is something sonorous in his language there something murmuring; with both these alternates something that is soft, delicate, and melting, as the subject demands.\" Excepting two alleged Assyrian words ( Na 3:17 ), English Version, \"crowned,\" or princes, and English Version, \"captains,\" or satraps (used by Jr 51:27 ), the language is pure. These two, doubtless, came to be known in Judea from the intercourse with Assyria in the eighth and seventh centuries B.C.",
+      "content_osis": "<title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen23830\" type=\"x-p\"/> Nahum means \"consolation\" and \"vengeance\"; symbolizing the \"consolation\" in the book for God's people, and the \"vengeance\" coming on their enemies. In the first chapter the two themes alternate; but as the prophet advances, vengeance on the capital of the Assyrian foe is the predominant topic. He is called \"the Elkoshite\" (<reference osisRef=\"Nah.1.1\">Na 1:1</reference>), from Elkosh, or Elkesi, a village of Galilee, pointed out to Jerome [Preface in Nahum] as a place of note among the Jews, having traces of ancient buildings. The name Capernaum, that is, \"village of Nahum,\" seems to take its name from Nahum having resided in it, though born in Elkosh in the neighborhood. There is another Elkosh east of the Tigris, and north of Mosul, believed by Jewish pilgrims to be the birthplace and burial place of the prophet. But the book of Nahum in its allusions shows a particularity of acquaintance with Palestine (<reference osisRef=\"Nah.1.4\">Na 1:4</reference>), and only a more general knowledge as to Nineveh (Na 2:4-6; 3:2, 3).<div eID=\"gen23830\" type=\"x-p\"/> <div eID=\"gen23829\" type=\"introduction\"/> <div sID=\"gen23831\" type=\"x-p\"/> His graphic description of Sennacherib and his army (<reference osisRef=\"Nah.1.9-Nah.1.12\">Na 1:9-12</reference>) makes it not unlikely that he was in or near Jerusalem at the time: hence the number of phrases corresponding to those of Isaiah (compare <reference osisRef=\"Nah.1.8\">Na 1:8</reference>, <reference osisRef=\"1Cor.1.9\">9</reference>, with <reference osisRef=\"Isa.8.8\">Is 8:8</reference>; <reference osisRef=\"Isa.10.23\">10:23</reference>; <reference osisRef=\"Nah.2.10\">Na 2:10</reference>, with <reference osisRef=\"Isa.24.1\">Is 24:1</reference>; <reference osisRef=\"Isa.21.3\">21:3</reference>; <reference osisRef=\"Nah.1.15\">Na 1:15</reference>, with <reference osisRef=\"Isa.52.7\">Is 52:7</reference>). The prophecy in <reference osisRef=\"Nah.1.14\">Na 1:14</reference> probably refers to the murder of Sennacherib twenty years after his return from Palestine (<reference osisRef=\"Isa.37.38\">Is 37:38</reference>). The date of his prophecies, thus, seems to be about the former years of Hezekiah. So Jerome thinks. He plainly writes while the Assyrian power was yet unbroken (<reference osisRef=\"Nah.1.12\">Na 1:12</reference>; 2:11-13 <reference osisRef=\"Nah.3.15-Nah.3.17\">Na 3:15-17</reference>). The correspondence between the sentiments of Nahum and those of Isaiah and Hezekiah, as recorded in Second Kings and Isaiah, proves the likelihood of Nahum's prophecies belonging to the time when Sennacherib was demanding the surrender of Jerusalem, and had not yet raised the siege (compare <reference osisRef=\"Nah.1.2\">Na 1:2</reference>, &amp;c., with <reference osisRef=\"2Kgs.19.14\">2Ki 19:14</reference>, <reference osisRef=\"2Kgs.19.15\">15</reference>; <reference osisRef=\"Nah.1.7\">Na 1:7</reference>, with <reference osisRef=\"2Kgs.18.22\">2Ki 18:22</reference>; <reference osisRef=\"2Kgs.19.19\">19:19</reference>, <reference osisRef=\"2Kgs.19.31\">31</reference>; <reference osisRef=\"2Chr.32.7\">2Ch 32:7</reference>, <reference osisRef=\"2Chr.32.8\">8</reference>; <reference osisRef=\"Nah.1.9\">Na 1:9</reference>, <reference osisRef=\"1Cor.1.11\">11</reference>, with <reference osisRef=\"2Kgs.19.22\">2Ki 19:22</reference>, 27, 28; <reference osisRef=\"Nah.1.14\">Na 1:14</reference>, with <reference osisRef=\"2Kgs.19.6\">2Ki 19:6</reference>, <reference osisRef=\"2Kgs.19.7\">7</reference>; <reference osisRef=\"Nah.1.15\">Na 1:15</reference>; <reference osisRef=\"2Cor.1.2\">2:1, 2</reference>, with <reference osisRef=\"2Kgs.19.32\">2Ki 19:32</reference>, <reference osisRef=\"2Kgs.19.33\">33</reference>; <reference osisRef=\"Nah.2.13\">Na 2:13</reference>, with <reference osisRef=\"2Kgs.19.22\">2Ki 19:22</reference>, <reference osisRef=\"2Kgs.19.23\">23</reference>). The historical data in the book itself are the humiliation of Israel and Judah by Assyria (<reference osisRef=\"Nah.2.2\">Na 2:2</reference>); the invasion of Judah (<reference osisRef=\"Nah.1.9\">Na 1:9</reference>, <reference osisRef=\"1Cor.1.11\">11</reference>); and the conquest of No-ammon, or Thebes, in Upper Egypt (<reference osisRef=\"Nah.3.8-Nah.3.10\">Na 3:8-10</reference>). Tiglath-pileser and Shalmaneser had carried away Israel. The Jews were harassed by the Syrians, and impoverished by Ahaz' payments to Tiglath-pileser (<reference osisRef=\"2Chr.28.1-2Chr.28.27\">2Ch 28:1-27</reference>; <reference osisRef=\"Isa.7.9\">Is 7:9</reference>). Sargon, Shalmaneser's successor, after the reduction of Phoenicia by the latter, fearing lest Egypt should join Palestine against him, undertook an expedition to Africa (<reference osisRef=\"Isa.20.1-Isa.20.6\">Is 20:1-6</reference>), and took Thebes; the latter fact we know only from Nahum, but the success of the expedition in general is corroborated in <reference osisRef=\"Isa.20.1-Isa.20.6\">Is 20:1-6</reference>. Sennacherib, Sargon's successor, made the last Assyrian attempt against Judea, ending in the destruction of his army in the fourteenth year of Hezekiah (713-710 B.C.). As Nahum refers to this in part prophetically, in part as matter of history (Na 1:9-13; 2:13), he must have lived about 720-714 B.C., that is, almost a hundred years before the event foretold, namely, the overthrow of Nineveh by the joint forces of Cyaxares and Nabopolassar in the reign of Chyniladanus, 625 or 603 B.C.<div eID=\"gen23831\" type=\"x-p\"/> <div sID=\"gen23832\" type=\"x-p\"/> The prophecy is remarkable for its unity of aim. Nahum's object was to inspire his countrymen, the Jews, with the assurance that, however alarming their position might seem, exposed to the attacks of the mighty Assyrian, who had already carried away the ten tribes, yet that not only should the Assyrian (Sennacherib) fail in his attack on Jerusalem, but Nineveh, his own capital, be taken and his empire overthrown; and this, not by an arbitrary exercise of Jehovah's power, but for the iniquities of the city and its people.<div eID=\"gen23832\" type=\"x-p\"/> <div sID=\"gen23833\" type=\"x-p\"/> His position in the canon is seventh of the minor prophets in both the Hebrew and Greek arrangement. He is seventh in point of date.<div eID=\"gen23833\" type=\"x-p\"/> <div sID=\"gen23834\" type=\"x-p\"/> His style is clear, elegant, and forcible. Its most striking characteristic is the power of representing several phases of an idea in the briefest sentences, as in the majestic description of God in the commencement, the conquest of Nineveh, and the destruction of No-ammon [Eichorn]. De Wette calls attention to his variety of manner in presenting ideas, as marking great poetic talent. \"Here there is something sonorous in his language there something murmuring; with both these alternates something that is soft, delicate, and melting, as the subject demands.\" Excepting two alleged Assyrian words (<reference osisRef=\"Nah.3.17\">Na 3:17</reference>), English Version, \"crowned,\" or princes, and English Version, \"captains,\" or satraps (used by <reference osisRef=\"Jer.51.27\">Jr 51:27</reference>), the language is pure. These two, doubtless, came to be known in Judea from the intercourse with Assyria in the eighth and seventh centuries B.C.<div eID=\"gen23834\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:jfb:NAM.1.1-1:34:388:7920",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        7326
+      ],
+      "source_fragment_sha256": "e2252eda6ee017d7ec01d8bce80c4cc28d75641b04f8674571e89434e6062cf4",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "NAM.1.1",
+        "NAM.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:NAM.1:P:chapter-1",
+      "navigation_id": "NAM.1:P:chapter-1",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1",
+      "content_osis": "<title type=\"x-s\">CHAPTER 1</title> ",
+      "source_entry_id": "sword:jfb:NAM.1.1-1:34:388:7920",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        7326,
+        7362
+      ],
+      "source_fragment_sha256": "c4c7e85f8cc229520a40ca3c451c39bc0fc2826dbdcfd74bf970753c4e9af4ae",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "NAM.1.1",
+        "NAM.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:NAM.1:P:na-1-1-15-jehovah-s-attributes-as-a-jealous-judge-of-sin-yet-merciful-to-his-t",
+      "navigation_id": "NAM.1:P:na-1-1-15-jehovah-s-attributes-as-a-jealous-judge-of-sin-yet-merciful-to-his-t",
+      "kind": "original_SWORD_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Na 1:1-15 . Jehovah's Attributes as a Jealous Judge of Sin, Yet Merciful to His Trusting People, Should Inspire Them with Confidence. He Will Not Allow the Assyrians Again to Assail Them, but Will Destroy the Foe.",
+      "content_plain": "Na 1:1-15 . Jehovah's Attributes as a Jealous Judge of Sin, Yet Merciful to His Trusting People, Should Inspire Them with Confidence. He Will Not Allow the Assyrians Again to Assail Them, but Will Destroy the Foe.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Nah.1.1-Nah.1.15\">Na 1:1-15</reference>. Jehovah's Attributes as a Jealous Judge of Sin, Yet Merciful to His Trusting People, Should Inspire Them with Confidence. He Will Not Allow the Assyrians Again to Assail Them, but Will Destroy the Foe.</title> <div sID=\"gen23835\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv12819\"/>",
+      "source_entry_id": "sword:jfb:NAM.1.1-1:34:388:7920",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        7362,
+        7744
+      ],
+      "source_fragment_sha256": "7653a553aefe5a0b0c4b4db99ad69096e039c864e0ace22b08ce1c8bd5248874",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "NAM.1.1",
+        "NAM.1.1"
+      ],
+      "source_title_explicit_range": [
+        "NAM.1.1",
+        "NAM.1.15"
+      ]
+    }
+  ],
+  "navigation_section_count": 3,
+  "reader_visible_entry_count": 13
+}
