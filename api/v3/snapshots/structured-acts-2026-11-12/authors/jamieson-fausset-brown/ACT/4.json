@@ -1,0 +1,278 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-acts-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "ACT",
+  "chapter": 4,
+  "canonical_chapter": "ACT.4",
+  "versification": "KJV",
+  "verse_count": 37,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Acts\" sID=\"gen29928\" type=\"book\"/> <milestone n=\"THE ACTS OF THE APOSTLES\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE ACTS OF THE APOSTLES</title> <div sID=\"gen29929\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen29929\" type=\"x-p\"/> ",
+      "source_record_sha256": "5ec4d8b493f582aedb3799e78af7716fff0c0bded11b79e369b09decbc62f805",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 0,
+        "length": 343
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"4\" osisID=\"Acts.4\" sID=\"Acts.4\"/><div eID=\"gen30075\" type=\"x-p\"/> ",
+      "source_record_sha256": "1a02fb4654984c58596c12c2a9a73f056ca85c9dd668bd17d372205978127cc0",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 61460,
+        "length": 78
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:ACT.4.1-12:5:61538:944",
+      "passage_start": "ACT.4.1",
+      "passage_end": "ACT.4.12",
+      "start_verse": 1,
+      "end_verse": 12,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15602\"/><title type=\"x-s2\">CHAPTER 4</title> <title type=\"x-s3\"><reference osisRef=\"Acts.4.1-Acts.4.13\">Ac 4:1-13</reference>. Peter and John before the Sanhedrin.</title> <div sID=\"gen30076\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15602\"/><hi type=\"bold\">1-12. the captain--</hi>of the Levitical guard.<div eID=\"gen30076\" type=\"x-p\"/> <div sID=\"gen30077\" type=\"x-p\"/><hi type=\"bold\">of the temple--</hi>annoyed at the disturbance created around it.<div eID=\"gen30077\" type=\"x-p\"/> <div sID=\"gen30078\" type=\"x-p\"/><hi type=\"bold\">and the Sadducees--</hi>who \"say that there is no resurrection\" (<reference osisRef=\"Acts.23.8\">Ac 23:8</reference>), irritated at the apostles \"preaching through (rather, 'in') Jesus the resurrection from the dead\"; for the resurrection of Christ, if a fact, effectually overthrew the Sadducean doctrine. <div eID=\"gen30078\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 4 Ac 4:1-13 . Peter and John before the Sanhedrin. 1-12. the captain-- of the Levitical guard. of the temple-- annoyed at the disturbance created around it. and the Sadducees-- who \"say that there is no resurrection\" ( Ac 23:8 ), irritated at the apostles \"preaching through (rather, 'in') Jesus the resurrection from the dead\"; for the resurrection of Christ, if a fact, effectually overthrew the Sadducean doctrine.",
+      "source_record_sha256": "f4f1646d4e36ebc36e9664f3c8d11dd95f961242b6e260e47523f7613d4f07ac",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 61538,
+        "length": 944
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.4.1-12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-12. the captain-- of the Levitical guard. of the temple-- annoyed at the disturbance created around it. and the Sadducees-- who \"say that there is no resurrection\" ( Ac 23:8 ), irritated at the apostles \"preaching through (rather, 'in') Jesus the resurrection from the dead\"; for the resurrection of Christ, if a fact, effectually overthrew the Sadducean doctrine.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        316,
+        944
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-12. the captain--</hi>of the Levitical guard.<div eID=\"gen30076\" type=\"x-p\"/> <div sID=\"gen30077\" type=\"x-p\"/><hi type=\"bold\">of the temple--</hi>annoyed at the disturbance created around it.<div eID=\"gen30077\" type=\"x-p\"/> <div sID=\"gen30078\" type=\"x-p\"/><hi type=\"bold\">and the Sadducees--</hi>who \"say that there is no resurrection\" (<reference osisRef=\"Acts.23.8\">Ac 23:8</reference>), irritated at the apostles \"preaching through (rather, 'in') Jesus the resurrection from the dead\"; for the resurrection of Christ, if a fact, effectually overthrew the Sadducean doctrine. <div eID=\"gen30078\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ACT.4.13-17:5:66657:1029",
+      "passage_start": "ACT.4.13",
+      "passage_end": "ACT.4.17",
+      "start_verse": 13,
+      "end_verse": 17,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15611\"/><div sID=\"gen30091\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15611\"/><hi type=\"bold\">13-17. perceived that they were unlearned and ignorant men--</hi>that is, uninstructed in the learning of the Jewish schools, and of the common sort; men in private life, untrained to teaching.<div eID=\"gen30091\" type=\"x-p\"/> <div sID=\"gen30092\" type=\"x-p\"/><hi type=\"bold\">took knowledge of them that they had been with Jesus--</hi>recognized them as having been in His company; remembering possibly, that they had seen them with Him [Meyer, Bloomfield, Alford]; but, more probably, perceiving in their whole bearing what identified them with Jesus: that is, \"We thought we had got rid of Him; but lo! He reappears in these men, and all that troubled us in the Nazarene Himself has yet to be put down in these His disciples.\" What a testimony to these primitive witnesses! Would that the same could be said of their successors! <div eID=\"gen30092\" type=\"x-p\"/>",
+      "content_plain": "13-17. perceived that they were unlearned and ignorant men-- that is, uninstructed in the learning of the Jewish schools, and of the common sort; men in private life, untrained to teaching. took knowledge of them that they had been with Jesus-- recognized them as having been in His company; remembering possibly, that they had seen them with Him [Meyer, Bloomfield, Alford]; but, more probably, perceiving in their whole bearing what identified them with Jesus: that is, \"We thought we had got rid of Him; but lo! He reappears in these men, and all that troubled us in the Nazarene Himself has yet to be put down in these His disciples.\" What a testimony to these primitive witnesses! Would that the same could be said of their successors!",
+      "source_record_sha256": "19accc5573ceb422531a1f1253e3f0fa41c6414464acb8edf2bf3dc2d3f5f329",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 66657,
+        "length": 1029
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.4.13-17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13-17. perceived that they were unlearned and ignorant men-- that is, uninstructed in the learning of the Jewish schools, and of the common sort; men in private life, untrained to teaching. took knowledge of them that they had been with Jesus-- recognized them as having been in His company; remembering possibly, that they had seen them with Him [Meyer, Bloomfield, Alford]; but, more probably, perceiving in their whole bearing what identified them with Jesus: that is, \"We thought we had got rid of Him; but lo! He reappears in these men, and all that troubled us in the Nazarene Himself has yet to be put down in these His disciples.\" What a testimony to these primitive witnesses! Would that the same could be said of their successors!"
+    },
+    {
+      "entry_id": "sword:jfb:ACT.4.18-22:5:68652:262",
+      "passage_start": "ACT.4.18",
+      "passage_end": "ACT.4.22",
+      "start_verse": 18,
+      "end_verse": 22,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15614\"/><div sID=\"gen30096\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15614\"/>18-22. Whether it be right ... to hearken to you more than ... God, judge ye. <div eID=\"gen30096\" type=\"x-p\"/>",
+      "content_plain": "18-22. Whether it be right ... to hearken to you more than ... God, judge ye.",
+      "source_record_sha256": "5daaed27b38553216822c083098ea4e966d8427b542b5f69914100e11fca9d5e",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 68652,
+        "length": 262
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.4.18-22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "18-22. Whether it be right ... to hearken to you more than ... God, judge ye."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.4.23-30:5:69830:617",
+      "passage_start": "ACT.4.23",
+      "passage_end": "ACT.4.30",
+      "start_verse": 23,
+      "end_verse": 30,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15617\"/><title type=\"x-s3\"><reference osisRef=\"Acts.4.23-Acts.4.37\">Ac 4:23-37</reference>. Peter and John Dismissed from the Sanhedrin, Report the Proceedings to the Assembled Disciples--They Engage in Prayer--The Astonishing Answer and Results.</title> <div sID=\"gen30099\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15617\"/><hi type=\"bold\">23-30. being let go, they went to their own company--</hi>Observe the two opposite classes, representing the two interests which were about to come into deadly conflict. <div eID=\"gen30099\" type=\"x-p\"/>",
+      "content_plain": "Ac 4:23-37 . Peter and John Dismissed from the Sanhedrin, Report the Proceedings to the Assembled Disciples--They Engage in Prayer--The Astonishing Answer and Results. 23-30. being let go, they went to their own company-- Observe the two opposite classes, representing the two interests which were about to come into deadly conflict.",
+      "source_record_sha256": "048eecdd989ae02c5b36e26d79d853d1da721920502abdb9478c4035b959af78",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 69830,
+        "length": 617
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.4.23-30",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Ac 4:23-37 . Peter and John Dismissed from the Sanhedrin, Report the Proceedings to the Assembled Disciples--They Engage in Prayer--The Astonishing Answer and Results. 23-30. being let go, they went to their own company-- Observe the two opposite classes, representing the two interests which were about to come into deadly conflict."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.4.31-37:5:73474:1094",
+      "passage_start": "ACT.4.31",
+      "passage_end": "ACT.4.37",
+      "start_verse": 31,
+      "end_verse": 37,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15622\"/><div sID=\"gen30108\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15622\"/><hi type=\"bold\">31-37. place was shaken--</hi>glorious token of the commotion which the Gospel was to make (<reference osisRef=\"Acts.17.6\">Ac 17:6</reference>; compare <reference osisRef=\"Acts.16.26\">Ac 16:26</reference>), and the overthrow of all opposing powers in which this was to issue.<div eID=\"gen30108\" type=\"x-p\"/> <div sID=\"gen30109\" type=\"x-p\"/><hi type=\"bold\">they were all filled with the Holy Ghost, and spake, &amp;c.--</hi>The Spirit rested upon the entire community, first, in the very way they had asked, so that they \"spake the word with boldness\" (<reference osisRef=\"Acts.4.29\">Ac 4:29</reference>, <reference osisRef=\"Acts.4.31\">31</reference>); next, in melting down all selfishness, and absorbing even the feeling of individuality in an intense and glowing realization of Christian unity. The community of goods was but an outward expression of this, and natural in such circumstances. <div eID=\"gen30109\" type=\"x-p\"/>",
+      "content_plain": "31-37. place was shaken-- glorious token of the commotion which the Gospel was to make ( Ac 17:6 ; compare Ac 16:26 ), and the overthrow of all opposing powers in which this was to issue. they were all filled with the Holy Ghost, and spake, &c.-- The Spirit rested upon the entire community, first, in the very way they had asked, so that they \"spake the word with boldness\" ( Ac 4:29 , 31 ); next, in melting down all selfishness, and absorbing even the feeling of individuality in an intense and glowing realization of Christian unity. The community of goods was but an outward expression of this, and natural in such circumstances.",
+      "source_record_sha256": "f560b06385dcc4c759710cefd1d31d993931ad2db1cf48bd7bb13eba6d2194fb",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 73474,
+        "length": 1094
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.4.31-37",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "31-37. place was shaken-- glorious token of the commotion which the Gospel was to make ( Ac 17:6 ; compare Ac 16:26 ), and the overthrow of all opposing powers in which this was to issue. they were all filled with the Holy Ghost, and spake, &c.-- The Spirit rested upon the entire community, first, in the very way they had asked, so that they \"spake the word with boldness\" ( Ac 4:29 , 31 ); next, in melting down all selfishness, and absorbing even the feeling of individuality in an intense and glowing realization of Christian unity. The community of goods was but an outward expression of this, and natural in such circumstances."
+    }
+  ],
+  "indexed_verse_count": 37,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_ACT_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 5
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.4:P:chapter-4",
+      "navigation_id": "ACT.4:P:chapter-4",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 4",
+      "content_plain": "CHAPTER 4",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 4</title> ",
+      "source_entry_id": "sword:jfb:ACT.4.1-12:5:61538:944",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        97
+      ],
+      "source_fragment_sha256": "7686630479bceb56329c1949b5132c655de72487e42154de43636bbbd3d5181f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.4.1",
+        "ACT.4.12"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.4:P:ac-4-1-13-peter-and-john-before-the-sanhedrin",
+      "navigation_id": "ACT.4:P:ac-4-1-13-peter-and-john-before-the-sanhedrin",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Ac 4:1-13 . Peter and John before the Sanhedrin.",
+      "content_plain": "Ac 4:1-13 . Peter and John before the Sanhedrin.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Acts.4.1-Acts.4.13\">Ac 4:1-13</reference>. Peter and John before the Sanhedrin.</title> <div sID=\"gen30076\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15602\"/>",
+      "source_entry_id": "sword:jfb:ACT.4.1-12:5:61538:944",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        97,
+        316
+      ],
+      "source_fragment_sha256": "c45f7ab0487c52687dc74f9480e191f2b679fa4017605b2198e3f957254ccb17",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.4.1",
+        "ACT.4.12"
+      ],
+      "source_title_explicit_range": [
+        "ACT.4.1",
+        "ACT.4.13"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.4:P:ac-4-23-37-peter-and-john-dismissed-from-the-sanhedrin-report-the-proceedings-",
+      "navigation_id": "ACT.4:P:ac-4-23-37-peter-and-john-dismissed-from-the-sanhedrin-report-the-proceedings-",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Ac 4:23-37 . Peter and John Dismissed from the Sanhedrin, Report the Proceedings to the Assembled Disciples--They Engage in Prayer--The Astonishing Answer and Results.",
+      "content_plain": "Ac 4:23-37 . Peter and John Dismissed from the Sanhedrin, Report the Proceedings to the Assembled Disciples--They Engage in Prayer--The Astonishing Answer and Results.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Acts.4.23-Acts.4.37\">Ac 4:23-37</reference>. Peter and John Dismissed from the Sanhedrin, Report the Proceedings to the Assembled Disciples--They Engage in Prayer--The Astonishing Answer and Results.</title>",
+      "source_entry_id": "sword:jfb:ACT.4.23-30:5:69830:617",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        306
+      ],
+      "source_fragment_sha256": "a04cc9f17a18e31a18669239cc1e32444501af0bc8ce61a5e22244f780d6dea5",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.4.23",
+        "ACT.4.30"
+      ],
+      "source_title_explicit_range": [
+        "ACT.4.23",
+        "ACT.4.37"
+      ]
+    }
+  ],
+  "navigation_section_count": 3,
+  "reader_visible_entry_count": 5,
+  "unavailable_author_work_for_testament": false
+}

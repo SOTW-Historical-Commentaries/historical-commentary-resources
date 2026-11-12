@@ -1,0 +1,225 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-acts-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "ACT",
+  "chapter": 3,
+  "canonical_chapter": "ACT.3",
+  "versification": "KJV",
+  "verse_count": 26,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Acts\" sID=\"gen29928\" type=\"book\"/> <milestone n=\"THE ACTS OF THE APOSTLES\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE ACTS OF THE APOSTLES</title> <div sID=\"gen29929\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen29929\" type=\"x-p\"/> ",
+      "source_record_sha256": "5ec4d8b493f582aedb3799e78af7716fff0c0bded11b79e369b09decbc62f805",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 0,
+        "length": 343
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"3\" osisID=\"Acts.3\" sID=\"Acts.3\"/><div eID=\"gen30035\" type=\"x-p\"/> ",
+      "source_record_sha256": "95cc1c1da48ec31583080c427b0ac2c6a549bdb8415eb67f91394eeb3ff125f5",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 47455,
+        "length": 78
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:ACT.3.1-11:5:47533:991",
+      "passage_start": "ACT.3.1",
+      "passage_end": "ACT.3.11",
+      "start_verse": 1,
+      "end_verse": 11,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15580\"/><title type=\"x-s2\">CHAPTER 3</title> <title type=\"x-s3\"><reference osisRef=\"Acts.3.1-Acts.3.26\">Ac 3:1-26</reference>. Peter Heals a Lame Man at the Temple Gate--Hs Address to the Wondering Multitude.</title> <div sID=\"gen30036\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15580\"/><hi type=\"bold\">1-11. Peter and John--</hi>already associated by their Master, first with James (<reference osisRef=\"Mark.1.29\">Mr 1:29</reference>; 5:37; <reference osisRef=\"1Cor.9.2\">9:2</reference>), then by themselves (<reference osisRef=\"Luke.22.8\">Lu 22:8</reference>; and see <reference osisRef=\"John.13.23\">Joh 13:23</reference>, <reference osisRef=\"John.13.24\">24</reference>). Now we find them constantly together, but John (yet young) only as a silent actor.<div eID=\"gen30036\" type=\"x-p\"/> <div sID=\"gen30037\" type=\"x-p\"/><hi type=\"bold\">went up--</hi>were going up, were on their way. <div eID=\"gen30037\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 3 Ac 3:1-26 . Peter Heals a Lame Man at the Temple Gate--Hs Address to the Wondering Multitude. 1-11. Peter and John-- already associated by their Master, first with James ( Mr 1:29 ; 5:37; 9:2 ), then by themselves ( Lu 22:8 ; and see Joh 13:23 , 24 ). Now we find them constantly together, but John (yet young) only as a silent actor. went up-- were going up, were on their way.",
+      "source_record_sha256": "be02d393d8fb98a24d5f62465d00975083c41e959f42cd655eabe888e6924804",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 47533,
+        "length": 991
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.3.1-11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-11. Peter and John-- already associated by their Master, first with James ( Mr 1:29 ; 5:37; 9:2 ), then by themselves ( Lu 22:8 ; and see Joh 13:23 , 24 ). Now we find them constantly together, but John (yet young) only as a silent actor. went up-- were going up, were on their way.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        361,
+        991
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-11. Peter and John--</hi>already associated by their Master, first with James (<reference osisRef=\"Mark.1.29\">Mr 1:29</reference>; 5:37; <reference osisRef=\"1Cor.9.2\">9:2</reference>), then by themselves (<reference osisRef=\"Luke.22.8\">Lu 22:8</reference>; and see <reference osisRef=\"John.13.23\">Joh 13:23</reference>, <reference osisRef=\"John.13.24\">24</reference>). Now we find them constantly together, but John (yet young) only as a silent actor.<div eID=\"gen30036\" type=\"x-p\"/> <div sID=\"gen30037\" type=\"x-p\"/><hi type=\"bold\">went up--</hi>were going up, were on their way. <div eID=\"gen30037\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ACT.3.12-16:5:52378:553",
+      "passage_start": "ACT.3.12",
+      "passage_end": "ACT.3.16",
+      "start_verse": 12,
+      "end_verse": 16,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15589\"/><div sID=\"gen30051\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15589\"/><hi type=\"bold\">12-16. why marvel at this?--</hi>For miracles are marvels only in relation to the limited powers of man.<div eID=\"gen30051\" type=\"x-p\"/> <div sID=\"gen30052\" type=\"x-p\"/><hi type=\"bold\">as though by our own power or holiness we had made this man to walk--</hi>Neither the might nor the merit of the cure are due to us, mere agents of Him whom we preach. <div eID=\"gen30052\" type=\"x-p\"/>",
+      "content_plain": "12-16. why marvel at this?-- For miracles are marvels only in relation to the limited powers of man. as though by our own power or holiness we had made this man to walk-- Neither the might nor the merit of the cure are due to us, mere agents of Him whom we preach.",
+      "source_record_sha256": "9f75142c3f412f52b8b7025d1f369f568bc7a69fc0170dd0ab2d175b5b163d56",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 52378,
+        "length": 553
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.3.12-16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12-16. why marvel at this?-- For miracles are marvels only in relation to the limited powers of man. as though by our own power or holiness we had made this man to walk-- Neither the might nor the merit of the cure are due to us, mere agents of Him whom we preach."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.3.17-21:5:54867:807",
+      "passage_start": "ACT.3.17",
+      "passage_end": "ACT.3.21",
+      "start_verse": 17,
+      "end_verse": 21,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15593\"/><div sID=\"gen30058\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15593\"/><hi type=\"bold\">17-21. And now, brethren--</hi>Our preacher, like his Master, \"will not break the bruised reed.\" His heaviest charges are prompted by love, which now hastens to assuage the wounds it was necessary to inflict.<div eID=\"gen30058\" type=\"x-p\"/> <div sID=\"gen30059\" type=\"x-p\"/><hi type=\"bold\">I wot--</hi>\"know.\"<div eID=\"gen30059\" type=\"x-p\"/> <div sID=\"gen30060\" type=\"x-p\"/><hi type=\"bold\">through ignorance ye did it--</hi>(See marginal references, <reference osisRef=\"Luke.23.34\">Lu 23:34</reference>; <reference osisRef=\"Acts.13.27\">Ac 13:27</reference>; <reference osisRef=\"Acts.26.9\">26:9</reference>). <div eID=\"gen30060\" type=\"x-p\"/>",
+      "content_plain": "17-21. And now, brethren-- Our preacher, like his Master, \"will not break the bruised reed.\" His heaviest charges are prompted by love, which now hastens to assuage the wounds it was necessary to inflict. I wot-- \"know.\" through ignorance ye did it-- (See marginal references, Lu 23:34 ; Ac 13:27 ; 26:9 ).",
+      "source_record_sha256": "934f7fa9a3fbc5cbaae3563847070fcf21129e8ebad628689e4d4da56780f746",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 54867,
+        "length": 807
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.3.17-21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "17-21. And now, brethren-- Our preacher, like his Master, \"will not break the bruised reed.\" His heaviest charges are prompted by love, which now hastens to assuage the wounds it was necessary to inflict. I wot-- \"know.\" through ignorance ye did it-- (See marginal references, Lu 23:34 ; Ac 13:27 ; 26:9 )."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.3.22-26:5:57973:976",
+      "passage_start": "ACT.3.22",
+      "passage_end": "ACT.3.26",
+      "start_verse": 22,
+      "end_verse": 26,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15598\"/><div sID=\"gen30067\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15598\"/><hi type=\"bold\">22-26. a prophet ... like unto me--</hi>particularly in intimacy of communication with God (<reference osisRef=\"Num.12.6-Num.12.8\">Nu 12:6-8</reference>), and as the mediatorial Head of a new order of things (<reference osisRef=\"Heb.3.2-Heb.3.6\">He 3:2-6</reference>). Peter takes it for granted that, in the light of all he had just said, it would be seen at once that One only had any claim to be that Prophet.<div eID=\"gen30067\" type=\"x-p\"/> <div sID=\"gen30068\" type=\"x-p\"/><hi type=\"bold\">him shall ye hear in all things, &amp;c.--</hi>This part of the prediction is emphatically added, in order to shut up the audience to the obedience of faith, on pain of being finally \"cut off\" from the congregation of the righteous (<reference osisRef=\"Ps.1.1\">Psa 1:1</reference>). <div eID=\"gen30068\" type=\"x-p\"/>",
+      "content_plain": "22-26. a prophet ... like unto me-- particularly in intimacy of communication with God ( Nu 12:6-8 ), and as the mediatorial Head of a new order of things ( He 3:2-6 ). Peter takes it for granted that, in the light of all he had just said, it would be seen at once that One only had any claim to be that Prophet. him shall ye hear in all things, &c.-- This part of the prediction is emphatically added, in order to shut up the audience to the obedience of faith, on pain of being finally \"cut off\" from the congregation of the righteous ( Psa 1:1 ).",
+      "source_record_sha256": "0087d4971ace38b5f9d05ca9f91c0d756b99550c82474b20032fc986a7def2b5",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 57973,
+        "length": 976
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.3.22-26",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "22-26. a prophet ... like unto me-- particularly in intimacy of communication with God ( Nu 12:6-8 ), and as the mediatorial Head of a new order of things ( He 3:2-6 ). Peter takes it for granted that, in the light of all he had just said, it would be seen at once that One only had any claim to be that Prophet. him shall ye hear in all things, &c.-- This part of the prediction is emphatically added, in order to shut up the audience to the obedience of faith, on pain of being finally \"cut off\" from the congregation of the righteous ( Psa 1:1 )."
+    }
+  ],
+  "indexed_verse_count": 26,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_ACT_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 4
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.3:P:chapter-3",
+      "navigation_id": "ACT.3:P:chapter-3",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 3",
+      "content_plain": "CHAPTER 3",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 3</title> ",
+      "source_entry_id": "sword:jfb:ACT.3.1-11:5:47533:991",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        97
+      ],
+      "source_fragment_sha256": "11c2a8bbcd5fbe57ee52779ab16c7bb95d345b94df70b1537e6c774524219511",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.3.1",
+        "ACT.3.11"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.3:P:ac-3-1-26-peter-heals-a-lame-man-at-the-temple-gate-hs-address-to-the-wonderin",
+      "navigation_id": "ACT.3:P:ac-3-1-26-peter-heals-a-lame-man-at-the-temple-gate-hs-address-to-the-wonderin",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Ac 3:1-26 . Peter Heals a Lame Man at the Temple Gate--Hs Address to the Wondering Multitude.",
+      "content_plain": "Ac 3:1-26 . Peter Heals a Lame Man at the Temple Gate--Hs Address to the Wondering Multitude.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Acts.3.1-Acts.3.26\">Ac 3:1-26</reference>. Peter Heals a Lame Man at the Temple Gate--Hs Address to the Wondering Multitude.</title> <div sID=\"gen30036\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15580\"/>",
+      "source_entry_id": "sword:jfb:ACT.3.1-11:5:47533:991",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        97,
+        361
+      ],
+      "source_fragment_sha256": "3d74bd4094daca7acd7dbb7a70e57fd11f42a64fb5919036dbc5b530de47fcdf",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.3.1",
+        "ACT.3.11"
+      ],
+      "source_title_explicit_range": [
+        "ACT.3.1",
+        "ACT.3.26"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 4,
+  "unavailable_author_work_for_testament": false
+}

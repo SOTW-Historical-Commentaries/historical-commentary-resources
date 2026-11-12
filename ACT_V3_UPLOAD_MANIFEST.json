@@ -1,0 +1,1454 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-acts-2026-11-12",
+  "book": "ACT",
+  "book_name": "Acts",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 44,
+  "testament": "NT",
+  "snapshot": "structured-acts-2026-11-12",
+  "baseline_main_commit": null,
+  "baseline_navigation_manifest_git_blob": "9e6bc60e8c7a159c8640e5d2d1a50bec4e283c71",
+  "baseline_navigation_sha256": "02b14a944578f13e798e88e1f1f716dbef01217cb2a6e13bdc3b07c778c66cba",
+  "baseline_kind": "projected-after-JHN",
+  "prerequisites": [
+    "Confirm previous navigation Git blob 9e6bc60e8c7a159c8640e5d2d1a50bec4e283c71 and SHA-256 02b14a944578f13e798e88e1f1f716dbef01217cb2a6e13bdc3b07c778c66cba.",
+    "Confirm all 43 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 200,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/ACT.json",
+      "sha256": "b41d7063f02667606b347a5fccb9d1b1d2d151f3559c2712520d52b7d8baaafb",
+      "git_blob_sha": "47635379d66add7fdf44efe92df91a63a56b9db8",
+      "bytes": 361967,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "68f8c230323e1e7cba8c6c0d72bbeaedc7771986e52a62d76fa521ca680f31cf",
+      "git_blob_sha": "d7958d7c09b1327107a0e55421675656d3934b16",
+      "bytes": 21965,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/1.json",
+      "sha256": "00ecb825b77647c65dfb562ca31d19ab818ce27852bb4bc40540738df59c5bd0",
+      "git_blob_sha": "c181d47dddb5eddd89fa4cd624c6e3dda014e083",
+      "bytes": 237803,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/10.json",
+      "sha256": "0184f61635c3b2f1f8307163cf5bd1b4e8ce77eed8979163f76cb2197d334762",
+      "git_blob_sha": "c3f20e268f5422a7323e3cd517137cae75a871ec",
+      "bytes": 185902,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/11.json",
+      "sha256": "6a5c3686eb395263674afe7d7894640db1a41b32f5be9fb91f7d32c05645ef6a",
+      "git_blob_sha": "b435efcf697b596e5a207794504fc8b60a027bc2",
+      "bytes": 116660,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/12.json",
+      "sha256": "c0f3bb66ec35123735bd930328d9cbedb1ce042eff7eb90f32be9e7cad5204ed",
+      "git_blob_sha": "f393e1cf52cf5ee8578c6e684d4f6ab377174548",
+      "bytes": 95398,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/13.json",
+      "sha256": "5a8a21a5f3bf5172d72ddef9ef61c5035639c93d8de5d412a80390ec43aa3848",
+      "git_blob_sha": "1c685bf29991e45e7f8a98ffb803835838d2e699",
+      "bytes": 259286,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/14.json",
+      "sha256": "15202f304da2465516af7fd311e75b81e0439cd292c712052faf3b29b8c16ea1",
+      "git_blob_sha": "eafb3a05c55e6107befca4b393b3702c8600254e",
+      "bytes": 146411,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/15.json",
+      "sha256": "822817179a7836bbe9c87c9b2837e21780412fe4d6ef5f0df1328913516911a8",
+      "git_blob_sha": "19e5b9162493d89d0b4815fa37587d90b602510f",
+      "bytes": 153501,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/16.json",
+      "sha256": "765495f03f2a2f759fdb4d12adf701883543a96a4d156537328dd89512c1ba39",
+      "git_blob_sha": "bf9ce87c84a882c5595763d6002404142547aa7e",
+      "bytes": 163374,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/17.json",
+      "sha256": "d91a9576df0512b89c6f311ca5fc74ad1b5f0a28ad8896d1b25b220ac2073121",
+      "git_blob_sha": "49acde1a7cec8bb8bf23136134fdad9c1a7c414c",
+      "bytes": 240538,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/18.json",
+      "sha256": "f813a115fda689b645f86507333a790a74a77109ce9dbcbfd745e1252ecea47e",
+      "git_blob_sha": "763d701c7ca75cce78e120a023b920b5b6acc7b1",
+      "bytes": 172987,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/19.json",
+      "sha256": "19b7360a8f2c5943ca7970102d1dcab612c4f46cc917c42b937a6152f9ae04ba",
+      "git_blob_sha": "ba31ff42160ef8fa0c3724b404f9a3dec9bc26e4",
+      "bytes": 172853,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/2.json",
+      "sha256": "eb98054219c1d24308615a908ba6347dafe3b9fbc4227f227265b9d99d6f918c",
+      "git_blob_sha": "c4c7d4f511ede2b1500ba8e4b93d804c9099f2ab",
+      "bytes": 269519,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/20.json",
+      "sha256": "616652bfd19ba23a6fdbb051f5ba4ac623512c8a62943d3a498b734801ce115c",
+      "git_blob_sha": "388af3920202a41f55fcb9ceed73921cf4ce12b1",
+      "bytes": 152998,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/21.json",
+      "sha256": "59849611b3d043245fb1d72f69dbf217b38026ccc6d6772800b33db7564ea9d9",
+      "git_blob_sha": "b26faec282dee8786df79b33fe43bef37f83c01b",
+      "bytes": 133520,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/22.json",
+      "sha256": "a08e13f5ca496007b146140c3eb458b6cb01a297075d5bc32fe8d8d7853b8d5d",
+      "git_blob_sha": "20c14fe670c7e97e9f53147df70cca6974983ee7",
+      "bytes": 83727,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/23.json",
+      "sha256": "27af6a99adda540ab50bf9054f72617851fed574f92d61ad6230b7d32fe46749",
+      "git_blob_sha": "a7c5d8e43029bc2a6dc4fb6e76994b379c64814a",
+      "bytes": 89809,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/24.json",
+      "sha256": "68e821631ea6eed009c8f349284a52e72a7db65c2d683f2aa69c07fc1c92164f",
+      "git_blob_sha": "a738151b2c0c10068e7dbb932273729dc93630d8",
+      "bytes": 118069,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/25.json",
+      "sha256": "21639562eefefccc2c3ad55df3fddac415e123de9ffc9e77055502753d07e6af",
+      "git_blob_sha": "d06c0064401876aa495188463b0e2d0244d9e77e",
+      "bytes": 102370,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/26.json",
+      "sha256": "b46a7a6a07a6c27cc3b9eaec34df7c310e236c73b2a8bedfa8aed64739156136",
+      "git_blob_sha": "01696cd95d0613cd38a6ec3c29da20d7c964533f",
+      "bytes": 109856,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/27.json",
+      "sha256": "ef46c5642b9351ab5c2a777395270fdff3e5dce5e79810589f0d5094b17145f4",
+      "git_blob_sha": "727c08da880bd1afbde0b1368d77333df633cc53",
+      "bytes": 145061,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/28.json",
+      "sha256": "0372ecf9e9d1a9d09f28e8bca6d9f8cfba1382790808dff98d64d09ef1c5a5f3",
+      "git_blob_sha": "a16204ba7150f62b261430d23c503fa757591364",
+      "bytes": 215719,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/3.json",
+      "sha256": "f011978f4e445e85e568f5d7b024281d3db9fb45a200ed1bdc807859f826dd07",
+      "git_blob_sha": "fa43de2918bc3eade194e4f79a5d1d72b82a7757",
+      "bytes": 101923,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/4.json",
+      "sha256": "c4728b57a2b57d0743f3d7c28a020c855971ef20e9b7968a7332743fc6157561",
+      "git_blob_sha": "8dec393b22b795fe03c6d77d67d1db7e02fae66e",
+      "bytes": 119931,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/5.json",
+      "sha256": "01b8f7ade39c067e84a83159717c654ed6377dcf3c92e1457c01d627e2d33e12",
+      "git_blob_sha": "3a35306e2dd2f4d41464f151d3a09763193e2541",
+      "bytes": 159612,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/6.json",
+      "sha256": "8a1b13314bf0964304cc60aafe82efc5a46bb045d742f0bdaca36950474ab42d",
+      "git_blob_sha": "8d33dc02a875712101abf0a89dab7745df4d6040",
+      "bytes": 104832,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/7.json",
+      "sha256": "aec750790138c74b863692e992c8c477c6d243ca00bd77dccac8b4c884db448b",
+      "git_blob_sha": "2fa39894303f8b2da2c314a4cc1601a84df11643",
+      "bytes": 193310,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/8.json",
+      "sha256": "30e86be60eb008c4c9d2591f181802c3285cdbf6bb5340b0caf2810ed75dcf4c",
+      "git_blob_sha": "ce61f36dba319132af6e4fcb140a71b456a19eef",
+      "bytes": 184875,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/adam-clarke/ACT/9.json",
+      "sha256": "62f373f4bac981a6c163f70c687df5e6a78b1aa689b9f2dd492e6c968caef41b",
+      "git_blob_sha": "c0907f069b2fe474eea546fdbb64c343eff4b75c",
+      "bytes": 257466,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/1.json",
+      "sha256": "406ef3a7f18a3ac0b1d5837dff6e71aacbd1dd9ed392653c1300c9a4fe06da3a",
+      "git_blob_sha": "c284cc755101531d8bd52bdef66a495a7f262720",
+      "bytes": 58430,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/10.json",
+      "sha256": "7214f8ef4a4519dd05e5851f4632b1d3520fbc24d440a61fa854b7b98f56c275",
+      "git_blob_sha": "1df1e1cb0a91836a6c1e5f5ead9497ed85e3476f",
+      "bytes": 38264,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/11.json",
+      "sha256": "33b454084a1b3fe1660a07061a424d951d66e410ee89a7dee829545f084d367f",
+      "git_blob_sha": "ecd583eeac5f2a63005b6563b427c19cddc96fd6",
+      "bytes": 45871,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/12.json",
+      "sha256": "73d4f56caac5bcb465b67fe987f731c025b3e223878f2451be4cdfb46b7323cf",
+      "git_blob_sha": "b3164b3f862779ec9892a19b7d1d815b71e20c93",
+      "bytes": 33407,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/13.json",
+      "sha256": "35de9c464773f1d3c2ca8f3a7e69ae8261ff2e1947f0a4f18e4e8d75284b9be0",
+      "git_blob_sha": "b41f408f5d54879f01d39578f869c4c71f0a9a65",
+      "bytes": 77822,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/14.json",
+      "sha256": "5d3264132d9b453f0ee2a9a14c05f199f50ffcc716e50fca207ef1659a703d10",
+      "git_blob_sha": "793aa3786c3dca8420cdfca5cf1a81fc45f54747",
+      "bytes": 56021,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/15.json",
+      "sha256": "872f69984c3ac156b4458f0dec5373c6696ed974baec1bede957d18240941cb8",
+      "git_blob_sha": "408d31861650d57791247cb145da791e9c2d1a5e",
+      "bytes": 86891,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/16.json",
+      "sha256": "1dadcbf7e1f19dc4f354c0e8ab425c524b42143aadb6939cbbed8137a6ae0e8f",
+      "git_blob_sha": "f2bfa6ee4a51317f85befee294955f988b82449e",
+      "bytes": 83989,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/17.json",
+      "sha256": "5e7262a662f4e665cea71e9888e2ad34effc5b02cae0b239c73ba19de6433458",
+      "git_blob_sha": "9735843019770dfabe3bb425034ecee12a6a1f5a",
+      "bytes": 79422,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/18.json",
+      "sha256": "1383ac8e67c0d299f13449009b43c1e0209939434b75a44dc1449a8df5078ea7",
+      "git_blob_sha": "f70da7a5d2f8fc399c9c298c1e59573e5fc2ef94",
+      "bytes": 61641,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/19.json",
+      "sha256": "888aca13f844ec82eb643523f97e12f7d3d2e9ce2df8139643b90ebc35638d20",
+      "git_blob_sha": "5d5c932df9025747f803de106db1365e1d70f6bb",
+      "bytes": 46872,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/2.json",
+      "sha256": "6671926905ddbf3e9ad34c5adea02447d6fb3103d3e88c629f321c3cc0b3f763",
+      "git_blob_sha": "0b02d409e52d5bec494655d8afef72af0329b4da",
+      "bytes": 27471,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/20.json",
+      "sha256": "5d7affc8f3813e51902426c791fa6fe7cc45bb4966cf360729ce39283c6d06fa",
+      "git_blob_sha": "b1783ea5c72f8fc95873f7dad09ca260ab7e66cb",
+      "bytes": 98536,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/21.json",
+      "sha256": "7165701361d0a88eb48ac76eb28b37cd1a69b8c88b41f1de4db59f244c2416ef",
+      "git_blob_sha": "19e5312bccd0e34f9aebf9d6c443b2d518cea73b",
+      "bytes": 43227,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/22.json",
+      "sha256": "26c05d6f3dce8497e1ff9d16cbf5a720576e489ea44ef7d869b56b8a04641bb7",
+      "git_blob_sha": "d95d2d7364676b45b6cd77f2e76f03fafa2589b5",
+      "bytes": 31740,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/23.json",
+      "sha256": "27d5bcd2cd6ff8715bb2935534a03ed98dfe31be5cfee094013e6c136e9bf02d",
+      "git_blob_sha": "95620b082cec0edc6cd139cfa60445eeef8ab563",
+      "bytes": 41867,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/24.json",
+      "sha256": "9f48de5e7de9f1c737d86e1aa04faff66f9e9f307f7bbf1213d62488e59acd0a",
+      "git_blob_sha": "ff986be4f88170ec398f460f585637ee48a72eeb",
+      "bytes": 50923,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/25.json",
+      "sha256": "aece58b7feae12ea65f46e8eddaeaf4420da06652bb3805878ec6bcfcc4bb827",
+      "git_blob_sha": "fad06cac79c5937dbad3fe50cf956d1d7dc182ea",
+      "bytes": 31519,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/26.json",
+      "sha256": "1864b4bde9db189bf18f58bd1e8439f566b12f8e651bf5317f28ff5c76c42828",
+      "git_blob_sha": "8b406150d8fd7a0fb2f1a39f890c9ed79c7e6e40",
+      "bytes": 32524,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/27.json",
+      "sha256": "2e3f114562d17f153e3655550bd7cd70080352ded002fe38e2cf9703cb76972f",
+      "git_blob_sha": "e80a43bb4ce333819e2006a7e913f4433434182d",
+      "bytes": 73180,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/28.json",
+      "sha256": "888751d6a1da581c26ea8a8e3c0ba826571eb0554286b456e2e0a64b0c2bd4ec",
+      "git_blob_sha": "681ccd587738db51a4cc2062b500727712b900a2",
+      "bytes": 76526,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/3.json",
+      "sha256": "3917ebbd742306cd169cd828baa184205eaa89081e8867dd0f1e099c83e9d442",
+      "git_blob_sha": "bcddabc5cc35a29160c039a5a95df9ddc1b2b1d9",
+      "bytes": 15477,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/4.json",
+      "sha256": "24a65ba76d94fd267ac9da396a25795a77dab3800cc52597ffb609816ebe445f",
+      "git_blob_sha": "49cc8fd3b98ae625514d4cff6c0b76917171c1b6",
+      "bytes": 19872,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/5.json",
+      "sha256": "21f8f4828ee71edf422594c1266acfa9963939e4231312f10895ecd36c48eaf1",
+      "git_blob_sha": "616ff39ad2581e7f47b6f215c678c494f561bb82",
+      "bytes": 34326,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/6.json",
+      "sha256": "def11eeb716bbfc358b8d37cba7a5e061082184fe56b153f709c473fcd81730b",
+      "git_blob_sha": "013913af96fb9e37410b3f9ccdf2e524f516ced0",
+      "bytes": 30872,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/7.json",
+      "sha256": "1d16abc18a27797ae8eece112c747a7d4bc10d2c69d4ce44b72b536ccfcdc3a7",
+      "git_blob_sha": "98e1d668e346005d9fc643e894f933b854cc6396",
+      "bytes": 37168,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/8.json",
+      "sha256": "18d299b84a2f6ffa7e14ca2733e8f5e86079be3bc0c58985340e1c416c72d14d",
+      "git_blob_sha": "e579b427c91cc64904f13d5706b2fac6c66c5a25",
+      "bytes": 45404,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/jamieson-fausset-brown/ACT/9.json",
+      "sha256": "9cd65a440d77448a9c7eee455fc20a78d5a6df27752a1b3e7c8aa54becabb66c",
+      "git_blob_sha": "83cd4f61c2506a758b123064ad6ac0b6baed030e",
+      "bytes": 82836,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/1.json",
+      "sha256": "652afc27d924a2df2b826d5b55c1744228747d38e73bce5d0e88b22054570080",
+      "git_blob_sha": "786d9fc2e845763534d2c149598d366e370c28b5",
+      "bytes": 306781,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/10.json",
+      "sha256": "4d72839cba7264c4d09e9a39bf1690bb26bc00e82078e71708832a1c90b478b3",
+      "git_blob_sha": "38c30ecdb9368f735b20f816265320d305549c99",
+      "bytes": 386926,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/11.json",
+      "sha256": "1008cd8dc8cb598cd62777b9c74b830807d223b033e3f6d42c7abb27d497d781",
+      "git_blob_sha": "1cb26a79c6980e13ffeab41985993b0eb3997d2d",
+      "bytes": 158166,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/12.json",
+      "sha256": "b2ca0216c4a0c5ec75d5598c88591aaf4aa046927ea1ac431f5d64726dc0e4e4",
+      "git_blob_sha": "41f01bebc3bb425fc9f701ccb61c75574b09a557",
+      "bytes": 144706,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/13.json",
+      "sha256": "a488aceb2a3c40b58c75fd84e06258902e32cdf6f3cc7b0b02285b43ece20d75",
+      "git_blob_sha": "5fd8a88f4f7c807e35904e073cd1af8c2a751e5d",
+      "bytes": 532710,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/14.json",
+      "sha256": "473d23016ccd7e0f91c29d188390e31ee6da6f13e8ab8a90e1d9a401edc8924b",
+      "git_blob_sha": "ae8742bb124853fb97e123ea96d4c5edbc354e26",
+      "bytes": 231361,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/15.json",
+      "sha256": "084b7c59d15f3ee5954d274d608c088ea4115d73ab50cef63af72aa5e06ecfa6",
+      "git_blob_sha": "b1d218d19fe8574f1092f247965c887ec5efb894",
+      "bytes": 422644,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/16.json",
+      "sha256": "9c957c9e235bcfa9a52ba591c149c4018f7c2428c5587221dbe9ad7291e06ee1",
+      "git_blob_sha": "eb09180ea3100ef999b6982e53fdf64f78096efc",
+      "bytes": 286355,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/17.json",
+      "sha256": "d1d3ce1bf172ffce50986222acef4c8fb0cb3164d75548389008e206c2efc5b6",
+      "git_blob_sha": "c00912d33e8ba995bb3ea48c2814e29045e0abf7",
+      "bytes": 372940,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/18.json",
+      "sha256": "f9e7a20bca1213cbd022ff88eb55f78dd479e58bf2878943751a8aa2a51de803",
+      "git_blob_sha": "6d33d2d6a6d572abddaf7be056d0712b30722f8c",
+      "bytes": 200007,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/19.json",
+      "sha256": "c68b5d9fe0755f64167bfa6d03abf5f19d30d608a948e0d21dfe0358ce2e6d94",
+      "git_blob_sha": "6750984a751c11da3130fb2a13287195fd0bf1cb",
+      "bytes": 204870,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/2.json",
+      "sha256": "09a7a677e2cd5e5dbc94a9898cf9a3417f74062b28adf169a0baee24f55877fc",
+      "git_blob_sha": "06716377b6e3fcd2eca622158a3448e0658cd904",
+      "bytes": 462639,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/20.json",
+      "sha256": "1920e182a57cdd5144021bddac7418538e074a1876b4d270b0acfb28bbf4ad09",
+      "git_blob_sha": "9987ef7cc0fd6c8fecd3f30157e0a1ae439157c9",
+      "bytes": 254452,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/21.json",
+      "sha256": "d8a0baef27c7c9de8ed1cf334a96e6caac872578fdb38aec9b8caa573b566654",
+      "git_blob_sha": "4be8747e17a12aa5d275eb5baeed561e754086c7",
+      "bytes": 191827,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/22.json",
+      "sha256": "f0d81409c766a417aaa971dfe639a374b2e9a8de65e477602a6a793c8b98f24f",
+      "git_blob_sha": "b0be3cb642deaca37a44a03b8ce9b381e168f8cf",
+      "bytes": 151025,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/23.json",
+      "sha256": "5836c7b07beab93288c1a1b492e08eba0ad50605a68a5cc7b7bb6f8406402f0f",
+      "git_blob_sha": "1a7405f8cd0ccb3f46085deb478a92c75abdac2e",
+      "bytes": 195102,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/24.json",
+      "sha256": "ff0c8ba469ca8958e4166b26b9e705407b9adc3568e0a11275b97cac2d4f6034",
+      "git_blob_sha": "79efde6fcc918f10404592c81a65006073068a09",
+      "bytes": 153510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/25.json",
+      "sha256": "08c766f564c9a29c211d20390a24bd9110924d0bd5b56ddb25522849b53c8d91",
+      "git_blob_sha": "ec615d42ec221970caa7d46896b7a300218f536c",
+      "bytes": 100069,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/26.json",
+      "sha256": "75a4f832ded1722b7bdade5d9d5a643bc8cb9bb582b33562ec092527b2613f0d",
+      "git_blob_sha": "29671effd900517b886324a518b7b2c883bdf84f",
+      "bytes": 162610,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/27.json",
+      "sha256": "8c9a0a1304d55f9d75ff7d2f7dfc0c39c5a003aef29d3b77943a3beb7e57826c",
+      "git_blob_sha": "ab70f4a9249a416fa8c39445618c270ad4baf8db",
+      "bytes": 126811,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/28.json",
+      "sha256": "241d436aa59fa49b71d677f4c85c5d59adf37276ba74276ed9bda9540b09f588",
+      "git_blob_sha": "adf9979a2c960eebc833e54106223fd868dcfa02",
+      "bytes": 205531,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/3.json",
+      "sha256": "8d7c3b9f453d24e68e31eb3c73d6ad52193dabc5fab5f61a1fd9ad3ea2fefd0f",
+      "git_blob_sha": "333b01c31e6b71be3d4551084ba02922175bae94",
+      "bytes": 220083,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/4.json",
+      "sha256": "3be2a7571dbffc4cd952d9b8d1e3cf9cf9ac173ad4f0ceb9865d3c1a8f21f7a5",
+      "git_blob_sha": "76b66addaef9843518a9e3dfa6b1949db44bfe8e",
+      "bytes": 222236,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/5.json",
+      "sha256": "8287524c074bd2bd32a223fa10e4c66ea041d12715017ef86130f81df46c7e04",
+      "git_blob_sha": "7be09d67e4455889662efb54d8735883d8a6a13b",
+      "bytes": 261492,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/6.json",
+      "sha256": "86e17d1fb8a4141134944b41ebd56994bdc92f13aee7e11d21bc543a39f068b3",
+      "git_blob_sha": "19ade7ebbc55e1f443f12d56fa3e17801221baf4",
+      "bytes": 150842,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/7.json",
+      "sha256": "61cdb25fe401043a07d3270cd44f5cb398ad1edf025a40a1ae556821ba548b68",
+      "git_blob_sha": "152e836a4933920b2acb01b307da6a6e3a0566d5",
+      "bytes": 547807,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/8.json",
+      "sha256": "df7412bd43ad28e1365f7094daecfa01f7ccca559041e8a8de51120f0bcf92f3",
+      "git_blob_sha": "16ee45255f0e88449ef84d7675e3b6d24915a7aa",
+      "bytes": 335254,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-calvin/ACT/9.json",
+      "sha256": "0896f25d52a39d74a12bfbf290901b1cddd4c98b0500672d865fb55618031ad1",
+      "git_blob_sha": "248fcebaf3726cf8c697480971edf8099c2df66a",
+      "bytes": 298076,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/1.json",
+      "sha256": "8c76de2c9e104b5e743e52651b8a20b8ee23f7125cdada8875e5c0de3f494457",
+      "git_blob_sha": "fc4ccc8315a8c3f53767a346648d2401ce0d5701",
+      "bytes": 334918,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/10.json",
+      "sha256": "94cf1b8e847f9f795b66fa96c7e34045b5e51a6de6e91977139101212184597a",
+      "git_blob_sha": "4478fd6f8de6ffc9503bbd693a7b9baa2e2e136c",
+      "bytes": 302251,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/11.json",
+      "sha256": "4b3eb9206640a6a4085621e2a4d13a51943d643df5e20f0f2b47349440687ffd",
+      "git_blob_sha": "5b4b0b7fe2eab7e5664c17bc71491f7f3d426368",
+      "bytes": 193767,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/12.json",
+      "sha256": "13d3e276027b15dea47df370576a0b15ba0eea57d77d6aae5c6a2009a3c235c5",
+      "git_blob_sha": "973e7e1aa61ab85151c31e5ba6f64c23bca564f4",
+      "bytes": 138971,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/13.json",
+      "sha256": "bed2fe29a82fc9c778a91f604ebeb660c7ce93f95f14eb1ba6c8d97ee05702c8",
+      "git_blob_sha": "2d41359a9c550d9534e5de437543606d78fe14a2",
+      "bytes": 567671,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/14.json",
+      "sha256": "6f202b73bd768a342611f74e1c408902d5ceae820fd2595977bda13696e7890f",
+      "git_blob_sha": "04246ebaa9ad0d5c80e75dc11f01040cc2114375",
+      "bytes": 175463,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/15.json",
+      "sha256": "165dc13139006ee7f87c221479e0571d8ed81faf8bcbbf5808d59b61aac812ba",
+      "git_blob_sha": "44b8771ae4dbb0a87d4f1d7bcdd906cd23c02dcf",
+      "bytes": 314167,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/16.json",
+      "sha256": "81b80a05463b89ff43a1824135eaa17aa30095bdb06c689128a5320ecc27346c",
+      "git_blob_sha": "82033daac91ec60e8e16127dce95c318baccc902",
+      "bytes": 358651,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/17.json",
+      "sha256": "63268bd4f385f0eddcb0f9335d58a3be24b1c2466c821fb4881015bf826d9f51",
+      "git_blob_sha": "482d46e0aba42813161cca6baa2c652ddb9bb3e6",
+      "bytes": 317035,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/18.json",
+      "sha256": "27fca5483df03c543c9713d421c159820e4f94d4ed9feddbc55da19f813d6f42",
+      "git_blob_sha": "d17b67ef6018f1e5a032eaa5cdba27baf2e0ed89",
+      "bytes": 260823,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/19.json",
+      "sha256": "cbd7ee35010718c37017fc451bff177ef5badc70e637a166498cf88e54379e63",
+      "git_blob_sha": "54777d42e31241b3ac363a47699dab9f0e10ede2",
+      "bytes": 261163,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/2.json",
+      "sha256": "715503d89cb860ed302fd7a442473a069049e2b4dd116db740b3821100dd1e76",
+      "git_blob_sha": "ec0985d51dcdba5f56a5f84d2d04d1cca8449ceb",
+      "bytes": 441656,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/20.json",
+      "sha256": "0a82a93157633c67abe2b85893fe35ec2b4e29c450ee4dd6972fd51ea46fe5d5",
+      "git_blob_sha": "e90345dd4ac165060319896502b923b9c5c07a0a",
+      "bytes": 355735,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/21.json",
+      "sha256": "6054d59082a80f4702ee90c9e53f672408f92010b3ada2b75350ba7b6ec2df14",
+      "git_blob_sha": "3b57faea1503f13ae27277f40eb53893b30557ac",
+      "bytes": 326587,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/22.json",
+      "sha256": "7522184acff0a888f7a200b45ef7a85e13086361175b11c71ace548cc011afd3",
+      "git_blob_sha": "799a1d3060582fdad48258019ef36f522e575e06",
+      "bytes": 149311,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/23.json",
+      "sha256": "751b3fc9916206533e38d798cd343500266244d23d715642877edd3d23f27cd9",
+      "git_blob_sha": "0166363a13c7dc66ed3cc9cc33c10084c2e48692",
+      "bytes": 225547,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/24.json",
+      "sha256": "30d8ae25afd2987d2ab972a250e659e857aaf62c0de1325bff1c618bd6bbadf9",
+      "git_blob_sha": "2f68399dc4c9cb5c03e193b3fbaaa44190821541",
+      "bytes": 189731,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/25.json",
+      "sha256": "40f9a18d4f5d0b3d1e9a989acd28337565aab40bf89bc9f25f175c78991a9e92",
+      "git_blob_sha": "50d49e43a78a0da95353d76ee503586b628fbdbd",
+      "bytes": 133191,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/26.json",
+      "sha256": "cdf6e37610072c61a6bc4fd044f2303b2017eed32eb714dacc898926e2c3d17f",
+      "git_blob_sha": "d3e2fb1c976ee9957241a8259b9e7dc9db576681",
+      "bytes": 267243,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/27.json",
+      "sha256": "92ca0ef3a8e083ca3971e37709d48996226c813c7597e5e7d1749e3c9a65a640",
+      "git_blob_sha": "683196cdd67668cadb14ad3d44f52ce9cbe6a853",
+      "bytes": 370651,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/28.json",
+      "sha256": "d229a7452b9c32497e7ebb1343853eebaaa9de0e0e15ffc952de061a8f38c02e",
+      "git_blob_sha": "c394507ac402decfe5c3e58d41f0af2525dc7d75",
+      "bytes": 358771,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/3.json",
+      "sha256": "590aeeb2f41f36cc42c5b14bd4d3019cc4dc27322b47934ba794ec8719e44d0a",
+      "git_blob_sha": "36f5665fc9e1f5bf173c38cac4f85d0470cf8f25",
+      "bytes": 183124,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/4.json",
+      "sha256": "8a4ce081f73ca64ababc3d1c32b24ce8df7dd52b860b49f5d3dfbb5402bd26e3",
+      "git_blob_sha": "750dce73861dd49e3ae6e881c4f2e4bad8955dde",
+      "bytes": 262156,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/5.json",
+      "sha256": "0c756bfa0154b868cc2dfc6a65114a5c220badff7c90b51611576dca4846d494",
+      "git_blob_sha": "3919d5e2e0503ac00da4becbc54fffe48957a333",
+      "bytes": 291760,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/6.json",
+      "sha256": "af3408099213a6545f36a02e9a72c1e28e7617844cb71c838138630eb33cb58d",
+      "git_blob_sha": "c5fa92340e5dab8e0cbe6b9441a056808048914b",
+      "bytes": 128112,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/7.json",
+      "sha256": "8f21a17b11a11277f51f89b91d4e5bd0eecd80d51b7d6e24bc497e69db4e9e1b",
+      "git_blob_sha": "4ac018a2104e06f28379932e649cb428226a7746",
+      "bytes": 499448,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/8.json",
+      "sha256": "4f54a9db34bfcb05507f1917ea831448c64b55087af598130b1e9c7516860a50",
+      "git_blob_sha": "8256bcaa67a145ae85de17eb6400b068300d1ae5",
+      "bytes": 348108,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/john-gill/ACT/9.json",
+      "sha256": "cb4640d0f8266bb4c827d753312ee0913bed32beb153e63c943ffba726860f29",
+      "git_blob_sha": "4121d5faae7ee14b2ff88346f51bf933b694bcae",
+      "bytes": 334528,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/1.json",
+      "sha256": "666e06536d5ab93f08530c4f29f560c3707d2cc8f3033cab9294ea4d042e4d16",
+      "git_blob_sha": "45829b9b79ade6e1ca058983a050cf3dee9197d1",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/10.json",
+      "sha256": "02bc4b70e23471987108b5ceeb446d7583a317371d59b3cf8fbe7c3f0095b912",
+      "git_blob_sha": "75472ba38da3e07bc0895a1557121fbefcf170db",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/11.json",
+      "sha256": "a35b944ebd577e2e66b0752d486be53a9b9b0c0fbe6dde524ba122f2532965fc",
+      "git_blob_sha": "0087b533d14d7a35cbfe9706a4f4fafa56426c7f",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/12.json",
+      "sha256": "4ae0564a4267b4ea4158f5b849813e7b86bd1eb1716635e2371760d0801c5888",
+      "git_blob_sha": "1fae3efcbd5e280d7dcc3c01ef05d1d793238a4a",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/13.json",
+      "sha256": "c9b48727866ed5e9b534276307a2461b95f92c78a388f72d55602e53c05c41a6",
+      "git_blob_sha": "6721b5361c45adf9d8517d98087938957f31fb94",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/14.json",
+      "sha256": "113b289d275fd18219f074f2713397cc6de9f0eaed17a2231adc4899efa41997",
+      "git_blob_sha": "7bb8df23414b2dab99cc188f3fee9e068746ca6b",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/15.json",
+      "sha256": "a80d68f2ccdeee375b478a505b2f8c64caacc7e857c8786dcc7a660d65ce0761",
+      "git_blob_sha": "a16843450c31e3434bda41643fb6b39540730cb9",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/16.json",
+      "sha256": "2670082a7fb9a0689bf845211f3038075ca1c2c408895f491e54d3cd1ca24d71",
+      "git_blob_sha": "b3acdec2222fad4b45fca615a485f869259063b1",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/17.json",
+      "sha256": "0eda2b5213e1066f83a0efcb1b58572311e4df4bb76dd5a2083773e453452c33",
+      "git_blob_sha": "4771992d98e027093f7694e3e790a2999730c7e8",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/18.json",
+      "sha256": "b1a783a56147fdece679132b2abfb1d85258b3311d4c8755ca959584b7d8ce64",
+      "git_blob_sha": "07f9cc83df0c5f0dcd8d50d710be7e255643d37e",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/19.json",
+      "sha256": "a63a4a3c70a629b205cf4bd60659abf1d2dbc951465db37031871edd4e3890ea",
+      "git_blob_sha": "90b674a48867ac82666230b1c6ed281c11fd0f38",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/2.json",
+      "sha256": "429118042a99e874c644f012a6fe089fd773694b8d1ffdad1c361699d239cc45",
+      "git_blob_sha": "b35ef4a38ab16e075dafaa0161233803b661958e",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/20.json",
+      "sha256": "9a4545c62097f8b6e70cde534ca47e37b56614fa40d9aa16203bd1fe41a71749",
+      "git_blob_sha": "da7dad1f084f9813606c2258bbb968dfac1ca338",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/21.json",
+      "sha256": "0ab08ccea2a5f07528938def6330772f7736caad19f1cd505311febd403bdbf1",
+      "git_blob_sha": "e4b1cf01a9ccd1d638e86ab4a1271d1d10e3889c",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/22.json",
+      "sha256": "6f800608c030d812f0548f6f30b0446d72e4fce0a416217f342786860e44f1e7",
+      "git_blob_sha": "2668fb3c2c529bef33bef32d552ff8a2e4fa35a5",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/23.json",
+      "sha256": "c06e6a3ba02f3f22f7b99c8d11b6aca22211c319b8305c206513a227bca330d5",
+      "git_blob_sha": "7a18390ea4b3a7ccffec9234738cb94d27a4bb3b",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/24.json",
+      "sha256": "07777aad981b22704ad91f0d125a5a97878e51f749baeb8a5c0f6bd7efd57dfb",
+      "git_blob_sha": "7068590c9c2814afd2150bc0f56896752c901d77",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/25.json",
+      "sha256": "5408c23f124ec4bf63a8eada8030901b848ca108767de1fa95bb667641328100",
+      "git_blob_sha": "636f781165da47b1050bdf66aa565abfa9fd1a13",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/26.json",
+      "sha256": "f4a58a7ecdc47a7efc29d1833cbeb9afe4e1c7b43852efca1701336ffc6a63b7",
+      "git_blob_sha": "11ae3192323d50534668b547e843bd502f841af0",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/27.json",
+      "sha256": "c30d0cb209eb97777d564d3083753b353ca9f2269b74c1598549a4e069c95163",
+      "git_blob_sha": "f327c50cf0efe0328142df067cba0182e2fe0867",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/28.json",
+      "sha256": "88f2fba2bd7cb6a33028620a08258dbbcb1346c71c75304fce2e85c5e24f2c4b",
+      "git_blob_sha": "b03ad38f0e17096c3e0f3eed6a0e3905e4426a2d",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/3.json",
+      "sha256": "9f195c82d7f8052a6574f9ca7f478bbd2ca5a2422ad68ba877bdb56ef94eb9fe",
+      "git_blob_sha": "62b9b3c0d32ffd18e62b95aafb0d5be88947ca45",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/4.json",
+      "sha256": "3460f901d6863eea482f43d7ecd1ab27e3864128b08b1b9e35b47d42c77edd02",
+      "git_blob_sha": "80ed509d19347746eb1913026ebcba9809af62f5",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/5.json",
+      "sha256": "b13d129b533efc61f7ae5ca7154eca13879db69bb90e3043c81c90501276baaa",
+      "git_blob_sha": "c3636abcea3fd885bdf6bd501b66e4e2c1d43239",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/6.json",
+      "sha256": "9e81231b287502f10f5dd485e5522916e80cfde78c82fba347258ef16d43f3d1",
+      "git_blob_sha": "f506aad98d9db006a7e7807d8b1b6267329132a8",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/7.json",
+      "sha256": "da67676927cd9e1e1aadfa2740192710b62ee113a8bc170d4ecf0c8d0c96452f",
+      "git_blob_sha": "9463f9a4c6745a77fb928ab8f9cf0355055f769b",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/8.json",
+      "sha256": "4070109455f3024a3f5d39ce0f1bd4de1132b28278e6b14c516234e4e04e8e5c",
+      "git_blob_sha": "18224c47fd9606cec0e518a0261fd60c5d9a6f2e",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/keil-delitzsch/ACT/9.json",
+      "sha256": "3cd9595040151cab7afeea9644fb2a723da2b4a64258cdfc5d5e23d358eadfd2",
+      "git_blob_sha": "ba6c703864e5df1f4fc579532cef99f2ff2130ca",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/1.json",
+      "sha256": "0ca5be7491f09baea17c6f01185de3eb43395b0e9d2b645f4c17fc42d802b0e7",
+      "git_blob_sha": "17b862910d6a0ecddb5e86aea80425d7165fc788",
+      "bytes": 369779,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/10.json",
+      "sha256": "1953d682fe161c34d3cedc4765f8935b4d534255fbac83e426ae1f542fcc70b6",
+      "git_blob_sha": "2fa3683d875fa6914678210c5c09617454d9f3a0",
+      "bytes": 290731,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/11.json",
+      "sha256": "611ddb506266c15d92a654e7b2c2bf0ad5cf4befb7768f3131355f939d88088d",
+      "git_blob_sha": "828d062474c7c2826de3ac97b280e6087457cb32",
+      "bytes": 199187,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/12.json",
+      "sha256": "2de39f906a916134c9f752d03b70f3c22f63a5b802f02d258d604ed7646bc122",
+      "git_blob_sha": "33a9e4df53253293ae537a8d80b4b439dbf5f4eb",
+      "bytes": 214008,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/13.json",
+      "sha256": "005e4b80f2b83770651cf88bafc6fb6f8b9610b9834fe93da8228c9c474c9724",
+      "git_blob_sha": "6af16dd53d0c99381715ff44ec4364cdea93d47e",
+      "bytes": 366726,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/14.json",
+      "sha256": "e9aa2deaf81f5aeb1469921ac8122e146d77e658bf712055ab89f349e81b80b1",
+      "git_blob_sha": "ef1dc0ed3014f7658da66d8395696ff5eab9523c",
+      "bytes": 211636,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/15.json",
+      "sha256": "ac4ac91a6900065a05ddf02af6c320356dea933ba9980b38f301f831f30fae79",
+      "git_blob_sha": "5ec59041cd8e1f6fad4a95f36dd7dc54585febb1",
+      "bytes": 293813,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/16.json",
+      "sha256": "2186e5fdd10eeca5e04611676e516259819017d212d6c9536390fcf1bd6697df",
+      "git_blob_sha": "1287eb190386cc88530f1ed5211d02118cb95b46",
+      "bytes": 311838,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/17.json",
+      "sha256": "c5c9b62a9216a5fbcdccc185748e860a489937a7c50c59aeb644200791e13b6a",
+      "git_blob_sha": "372ee79ef54c6369d68ad2df47a02a54c677a163",
+      "bytes": 310117,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/18.json",
+      "sha256": "e2a7d3b8c796bee85b48253d0382b198a91631097f5cda175a63fd6057a2dddd",
+      "git_blob_sha": "a6df900f934cc4818a7eeb9ee048af7a3b7a8286",
+      "bytes": 222389,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/19.json",
+      "sha256": "d84cdafaaa87be9567929cc3149ba812d8629bbb9f153b48107b51acf08a8289",
+      "git_blob_sha": "9d6285c03daa85fa8dd97d2e519c10e2b3d39f72",
+      "bytes": 256859,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/2.json",
+      "sha256": "41b63a0e5406a986049f83d26f6082bd78d426413ab622d8ada71c3d21c5630e",
+      "git_blob_sha": "57bc7fe6ef5c464fddf5eacd1304d122d5178a29",
+      "bytes": 340606,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/20.json",
+      "sha256": "bf01111317cc91759bd664969f74090f9e744e9ba6dd90cd5c903346302e9ad9",
+      "git_blob_sha": "8915076e1f8ce9f979d5c945203f606782fde67e",
+      "bytes": 293975,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/21.json",
+      "sha256": "85b30bcadf1bbd0f969b99a9741ccc5580fd60c50825036038d48d8f620377d1",
+      "git_blob_sha": "de85e87f44250b7c50d7f08f3c40163d92696384",
+      "bytes": 261115,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/22.json",
+      "sha256": "1d2646543ca4d397e6466067596ebc803df039f65885b604a74d619cdf751617",
+      "git_blob_sha": "5a1abb5a3f76b7dbf68e34a1f0fa15c552e0c466",
+      "bytes": 181785,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/23.json",
+      "sha256": "532868d3b410ca61b6dcd14300f62cbd8cbcf4d4839e9db83d24b9e01a09449c",
+      "git_blob_sha": "3a57bee28a9b853cc09d78bb91ce4ef4384613a1",
+      "bytes": 226178,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/24.json",
+      "sha256": "8d7acb33522b99ba57c25d43394d161f377986945e55fb93b4f5b69098687571",
+      "git_blob_sha": "f1b651b87c4e25b956a4ed7ee3101b04fd5fddff",
+      "bytes": 242243,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/25.json",
+      "sha256": "a2e356546006c36ae0f78ea4e06fe201c01b4b07f3a16eae94e2d5a425a5d925",
+      "git_blob_sha": "667d26b680834bca95db5b91ece0e4b357fc4fbc",
+      "bytes": 167923,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/26.json",
+      "sha256": "dcc3a12a76fb2cbaf3a52a9ea967f153ca0fbb137c8e187d43ce90b22e71c5d7",
+      "git_blob_sha": "7320ed148b2200f81430ac767f52180f7c95d046",
+      "bytes": 273366,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/27.json",
+      "sha256": "993d439b6d87fba90da1c35510348944621187c6f20d32f7f41eef139a96cf2f",
+      "git_blob_sha": "835711707f27056e77468a598728fc0d3b4c6b50",
+      "bytes": 231798,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/28.json",
+      "sha256": "ed7b1512a7ee128a396432d1470350a54ed3f41ee5b89a815531ee0311ddf25e",
+      "git_blob_sha": "b081ce2a3ca72d0d994c1ad47b17b49e2911c961",
+      "bytes": 283301,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/3.json",
+      "sha256": "dcfdd2a3dbf8da54f03e2b22bdf459ba519c574d0e54d6d62e2ad92f8e39eb77",
+      "git_blob_sha": "f9169d5f0671b837f188fc226f9cd41f8d0ad2f8",
+      "bytes": 212635,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/4.json",
+      "sha256": "01936b3670c4afe7f411d9cfc2ce0ea4b8d5e92e5fc18e6a92080540a854b7a8",
+      "git_blob_sha": "20be3dc6c9553541bdcdd5f4d454c472b8504451",
+      "bytes": 261989,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/5.json",
+      "sha256": "c2df3678b91b14d943f85ababf23ef750f319472fe8760e11d57230030dbd581",
+      "git_blob_sha": "a917bad7aab65f50f26ea22beee34bcfece1afe8",
+      "bytes": 320950,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/6.json",
+      "sha256": "57c55e985e4d680c655f545228f92dae1a934133ccc97f12888288d88bc8a305",
+      "git_blob_sha": "b032f8535bc490fa3a7fe0802705b67bec2f8dc2",
+      "bytes": 181474,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/7.json",
+      "sha256": "34aa46602fd33e7a88dc18dcd00f682e5679224137439cec58f46f89c36fc1b3",
+      "git_blob_sha": "2c27f77640f6005b9de5f7e03c70cd52f940d0a0",
+      "bytes": 357530,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/8.json",
+      "sha256": "71e1fcf5270a85381cee205deacf9c5f1bebbfdfe94f958248139c9661748f1b",
+      "git_blob_sha": "9041683ebb990d12428dc568c01c8daf65ad1b6a",
+      "bytes": 262748,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/9.json",
+      "sha256": "6b9d95cd7a17abb9f6d00e27f630d90663582d92f7f82d7684fbe0d5e71d1c5d",
+      "git_blob_sha": "24e18602524fbce56cb35e4ddbec69fa5d108a17",
+      "bytes": 336601,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/1.json",
+      "sha256": "d46cead22108ba16f74194558294a01c3746ec86d66a306c2913705639f1f568",
+      "git_blob_sha": "2662951da160aa7de2ac2ca0e4f2a7965d9f4408",
+      "bytes": 12540,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/10.json",
+      "sha256": "b13585930c58f1b5585d8dbc5483bfcf4d3aabd400409f210d288d3a09dd77a5",
+      "git_blob_sha": "4f8ac6157475e264a78252674fa47ebd84adda95",
+      "bytes": 16593,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/11.json",
+      "sha256": "5204ddd1de5e2dbb19a29947b8d72d5148fc5af5583b39c4443add2bfaa2cea8",
+      "git_blob_sha": "838fd935b265177a5797b4f3c57d660077884b42",
+      "bytes": 12257,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/12.json",
+      "sha256": "27b792afec0835f36296a3d0dd5861859211a43e5eab59a55f672d55c247f8cf",
+      "git_blob_sha": "37054547bc813b4c5cc4bb8bf144a30367571940",
+      "bytes": 10930,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/13.json",
+      "sha256": "58001a27956b0c5643c2aa8cec0a1b2eaca02ffdea2989ec3b59110b16ba411d",
+      "git_blob_sha": "5c14336e4c072c3e0b46cd55ac1cc623a7cbead5",
+      "bytes": 19323,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/14.json",
+      "sha256": "7eb09d494428ed8fc236daf195de01f007693ec682d4a59de4a8e5e5143d5251",
+      "git_blob_sha": "d91ace87c6f4d37faa690a5c786841bdbfc0ea49",
+      "bytes": 12472,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/15.json",
+      "sha256": "c84c10a1b989abf03a761557ebc7b9500f679fea88893292a5e82ab646c91994",
+      "git_blob_sha": "4b328a345c1e910d3605f675b3f17a39df673282",
+      "bytes": 15056,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/16.json",
+      "sha256": "b9cfb22561e4f5eb2c817190258352e2b9ac4219337e4285f6214c865b02fd21",
+      "git_blob_sha": "d4e92fccfc9321fc02b0c23d9bcb34de9ec0b76c",
+      "bytes": 14911,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/17.json",
+      "sha256": "c7a41f28d5503be59cfc79f4d4273d1c638e98e90966deaad66ecd8c4401ef35",
+      "git_blob_sha": "c5e88a70f36ed558f4850874d413fb1bfb5d0b09",
+      "bytes": 13754,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/18.json",
+      "sha256": "fb980a0b45340f7a8529c006ae66f4f45d61d56bd17f77fb88bb2fa6ca79317b",
+      "git_blob_sha": "866c7971c0c63101b6aba21567e9afa9ed6aa0c4",
+      "bytes": 12278,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/19.json",
+      "sha256": "d0809497a1795d8327de0838847f41602d0c1ffbb56beea876ce1889c09e2636",
+      "git_blob_sha": "0119add5afc1441c0b0beac34d1f50cde9430f2d",
+      "bytes": 13809,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/2.json",
+      "sha256": "c30b73c4301d618484657b08b002fff6111b652841ce9560f75370ddb9036f5a",
+      "git_blob_sha": "198e197e9b14a2dd1c14426ef519332adb4b4630",
+      "bytes": 16681,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/20.json",
+      "sha256": "f90ba3d346d1cc17207577df9ba8c0c3c82f88688da36fb09630b11d434bb4ca",
+      "git_blob_sha": "d770d415456cccd9771b53c730ceba1ecd38b663",
+      "bytes": 14714,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/21.json",
+      "sha256": "083f5e6ede9c46ed0eb4b031ae0b465dc7b1103d7ee318484f7970d8d016bdbd",
+      "git_blob_sha": "4c2e48d1a425ddc92cfbeb9a86d2c9bf7b921f2d",
+      "bytes": 14407,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/22.json",
+      "sha256": "68c2301250a37d44a5e31a8964ac21aad28c94ca407bacbdc2a8fcd88c6113fb",
+      "git_blob_sha": "b816f7393107f2b3c47df3d09f8eea6451fe59a3",
+      "bytes": 11107,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/23.json",
+      "sha256": "6967a6a289451678b78170d8b46029e6716210db2568ce9c6201d6adb316c007",
+      "git_blob_sha": "756b7183197caef5277d9bc52b4260f65ed13f10",
+      "bytes": 12708,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/24.json",
+      "sha256": "e7ab64cf6942dbb2dbf85aebecd85be1905830e081c68eeebd94c76b6c277e66",
+      "git_blob_sha": "7f650a38d452cb1f67fd3ad96da929366fcf1535",
+      "bytes": 11049,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/25.json",
+      "sha256": "874c26eecb397b985bb889f3f64476fa752b8bef6b414639ec186a763e3febc7",
+      "git_blob_sha": "485731b6ab5ac94019397c11b5fd31c169249de8",
+      "bytes": 11204,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/26.json",
+      "sha256": "62f7fb4edd65e909ab1b3e125841e3cb28b984ef8017b5d91d218b68e1e7c64b",
+      "git_blob_sha": "9b41f0725408ae41ad2a8af52ba88a637ca2dda6",
+      "bytes": 11630,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/27.json",
+      "sha256": "80b7c0e276210780a92e64b319aea6c7028c99a510ee94562ae64400723213bb",
+      "git_blob_sha": "6946a3dd789943d388a4a9b6811a8075b6741c2a",
+      "bytes": 14126,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/28.json",
+      "sha256": "5c2cc3dacd2eccece46219ea26809fa5af114fbe28732c659e267198acdcc269",
+      "git_blob_sha": "554ede211c68cecf38793eb54677cd917c506d45",
+      "bytes": 13058,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/3.json",
+      "sha256": "7904394dd98368a049d38cc6b7c651a47081c7cf33e2c20199eb4d21db2b8b6d",
+      "git_blob_sha": "e3a57d991dfa15ebd767ad1e6358b54f5614f2c9",
+      "bytes": 10416,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/4.json",
+      "sha256": "85c1f55e80d2df5964f13dc7d3e5843c73450f0856a46ac0016aa0fd5793649e",
+      "git_blob_sha": "14e52613172b6d2ea9659a2e51156d2de8fd7487",
+      "bytes": 14296,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/5.json",
+      "sha256": "499c73626b15576e7e281f3639f853f0058ec65ac226cc89c20ac3c51a4c29c8",
+      "git_blob_sha": "5028ae36a47a0b203d2cd3399ec1fb04bab98d8f",
+      "bytes": 15582,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/6.json",
+      "sha256": "ec243814c1b08ad64f5e7876c4c211438a6b5c15e80b9c7a61d75bafe758a8c6",
+      "git_blob_sha": "b58a60f80282e651db69bb931834dd487a402147",
+      "bytes": 8146,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/7.json",
+      "sha256": "4a074ba30b2e66bb2386274138c93dfabaf51f246fb101829061bd475828fbeb",
+      "git_blob_sha": "51abba43a2f66586fd8236f3fa2eb1dbddb52a12",
+      "bytes": 18399,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/8.json",
+      "sha256": "67016a04e9be7f2dcbfe9c58eea2d66677440745e112e00d5ef2f636fadc18c3",
+      "git_blob_sha": "1e224106deb6cb27138d71088c0474d2b881cc85",
+      "bytes": 15197,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/index/ACT/9.json",
+      "sha256": "ea3df9bc085461c0bed56252b9c47cd71c5901854df46ee069a673945806a8ca",
+      "git_blob_sha": "cabece6cd59eee23cab0a8f8b5ebd7542d28128a",
+      "bytes": 17047,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-acts-2026-11-12/manifest.json",
+      "sha256": "19bfa4e05af8748b11e196ab2d13b04d1f65f105d8ea13281758381e8f019dcf",
+      "git_blob_sha": "7ded320362ef1e78ff5f1576acbef1d057f50c15",
+      "bytes": 1906,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-acts-v3.html",
+      "sha256": "93b8fe9507e10f8aa7843422e02b470dfbdec0cda3b7178d335556ab756f37cf",
+      "git_blob_sha": "f11976b370c905c794775fd9f9c273937c941301",
+      "bytes": 14739,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 41519,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 521192,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 28,
+    "verse_coordinates": 1007,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 5,
+    "original_entries": 3113,
+    "verse_author_routes": 4599,
+    "original_P_sections": 254,
+    "routed_P_sections": 254
+  },
+  "source_scoped_exceptions": "Acts uses four original New Testament SWORD source modules plus original HelloAO Gill. Original Keil & Delitzsch has no NT commentary. All missing verse indexes, source-wide pooled records, introductions and original chapter headings remain bounded and independently source-audited.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}

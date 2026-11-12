@@ -1,0 +1,499 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-acts-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "ACT",
+  "chapter": 11,
+  "canonical_chapter": "ACT.11",
+  "versification": "KJV",
+  "verse_count": 30,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Acts\" sID=\"gen29928\" type=\"book\"/> <milestone n=\"THE ACTS OF THE APOSTLES\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE ACTS OF THE APOSTLES</title> <div sID=\"gen29929\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen29929\" type=\"x-p\"/> ",
+      "source_record_sha256": "5ec4d8b493f582aedb3799e78af7716fff0c0bded11b79e369b09decbc62f805",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 0,
+        "length": 343
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"11\" osisID=\"Acts.11\" sID=\"Acts.11\"/><div eID=\"gen30462\" type=\"x-p\"/> ",
+      "source_record_sha256": "5816fbd6dba7f244f931e911fff6add685f7e15dc4065802167a2e9dd01f83a2",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 218156,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:ACT.11.1-11:5:218237:506",
+      "passage_start": "ACT.11.1",
+      "passage_end": "ACT.11.11",
+      "start_verse": 1,
+      "end_verse": 11,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15814\"/><title type=\"x-s2\">CHAPTER 11</title> <title type=\"x-s3\"><reference osisRef=\"Acts.11.1-Acts.11.18\">Ac 11:1-18</reference>. Peter Vindicates Himself before the Church in Jerusalem for His Procedure towards the Gentiles.</title> <div sID=\"gen30463\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15814\"/><hi type=\"bold\">1-11. the apostles and brethren ... in Judea--</hi>rather, \"throughout Judea.\" <div eID=\"gen30463\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 11 Ac 11:1-18 . Peter Vindicates Himself before the Church in Jerusalem for His Procedure towards the Gentiles. 1-11. the apostles and brethren ... in Judea-- rather, \"throughout Judea.\"",
+      "source_record_sha256": "1cfe20469f3d875fd4102c449f452ceb0aa856c78aeac8698a5b214bfac85efe",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 218237,
+        "length": 506
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.11.1-11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-11. the apostles and brethren ... in Judea-- rather, \"throughout Judea.\"",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        379,
+        506
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-11. the apostles and brethren ... in Judea--</hi>rather, \"throughout Judea.\" <div eID=\"gen30463\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.12-18:5:219847:471",
+      "passage_start": "ACT.11.12",
+      "passage_end": "ACT.11.18",
+      "start_verse": 12,
+      "end_verse": 18,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15817\"/><div sID=\"gen30466\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15817\"/><hi type=\"bold\">12-18. we entered the man's house--</hi>No mention of Cornelius' name, much less of his high position, as if that affected the question. To the charge, \"Thou wentest in to men uncircumcised,\" he simply speaks of the uncircumcised \"man\" to whom he had been divinely sent. <div eID=\"gen30466\" type=\"x-p\"/>",
+      "content_plain": "12-18. we entered the man's house-- No mention of Cornelius' name, much less of his high position, as if that affected the question. To the charge, \"Thou wentest in to men uncircumcised,\" he simply speaks of the uncircumcised \"man\" to whom he had been divinely sent.",
+      "source_record_sha256": "9b0866e4493a8134b1fba347d8a0667608ce3078425a75bedfd3fdc83f20a211",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 219847,
+        "length": 471
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ACT.11.12-18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12-18. we entered the man's house-- No mention of Cornelius' name, much less of his high position, as if that affected the question. To the charge, \"Thou wentest in to men uncircumcised,\" he simply speaks of the uncircumcised \"man\" to whom he had been divinely sent."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.19-19:5:223662:1656",
+      "passage_start": "ACT.11.19",
+      "passage_end": "ACT.11.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15822\"/><title type=\"x-s3\"><reference osisRef=\"Acts.11.19-Acts.11.24\">Ac 11:19-24</reference>. The Gospel Being Preached to Gentiles at Antioch Also Barnabas Is Sent Thither from Jerusalem, Who Hails Their Accession and Labors among Them.</title> <div sID=\"gen30472\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15822\"/><hi type=\"bold\">19. they which were scattered abroad upon the persecution that arose about Stephen--</hi>and who \"went everywhere preaching the word\" (<reference osisRef=\"Acts.8.4\">Ac 8:4</reference>).<div eID=\"gen30472\" type=\"x-p\"/> <div sID=\"gen30473\" type=\"x-p\"/><hi type=\"bold\">travelled as far as Phenice--</hi>that part of the Mediterranean coast which, commencing a little north of Cæsarea, stretches northwards for upwards of one hundred miles, halfway to Antioch.<div eID=\"gen30473\" type=\"x-p\"/> <div sID=\"gen30474\" type=\"x-p\"/><hi type=\"bold\">and Cyprus--</hi>(See on <reference osisRef=\"Acts.4.36\">Ac 4:36</reference>). An active commercial intercourse subsisted between Phenice and Cyprus.<div eID=\"gen30474\" type=\"x-p\"/> <div sID=\"gen30475\" type=\"x-p\"/><hi type=\"bold\">and Antioch--</hi>near the head of the northeast coast of the Mediterranean, on the river Orontes, and containing a large colony of Jews, to whose religion there were there numerous proselytes. \"It was almost an Oriental Rome, in which all the forms of the civilized life of the empire found some representative; and through the two first centuries of the Christian era it was what Constantinople became afterwards, 'the Gate of the East'\" [Howson]. <div eID=\"gen30475\" type=\"x-p\"/>",
+      "content_plain": "Ac 11:19-24 . The Gospel Being Preached to Gentiles at Antioch Also Barnabas Is Sent Thither from Jerusalem, Who Hails Their Accession and Labors among Them. 19. they which were scattered abroad upon the persecution that arose about Stephen-- and who \"went everywhere preaching the word\" ( Ac 8:4 ). travelled as far as Phenice-- that part of the Mediterranean coast which, commencing a little north of Cæsarea, stretches northwards for upwards of one hundred miles, halfway to Antioch. and Cyprus-- (See on Ac 4:36 ). An active commercial intercourse subsisted between Phenice and Cyprus. and Antioch-- near the head of the northeast coast of the Mediterranean, on the river Orontes, and containing a large colony of Jews, to whose religion there were there numerous proselytes. \"It was almost an Oriental Rome, in which all the forms of the civilized life of the empire found some representative; and through the two first centuries of the Christian era it was what Constantinople became afterwards, 'the Gate of the East'\" [Howson].",
+      "source_record_sha256": "20501ac04192f2ee03e78a96567b1a1d483493766d4679b5eb3edc599c943982",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 223662,
+        "length": 1656
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Ac 11:19-24 . The Gospel Being Preached to Gentiles at Antioch Also Barnabas Is Sent Thither from Jerusalem, Who Hails Their Accession and Labors among Them. 19. they which were scattered abroad upon the persecution that arose about Stephen-- and who \"went everywhere preaching the word\" ( Ac 8:4 ). travelled as far as Phenice-- that part of the Mediterranean coast which, commencing a little north of Cæsarea, stretches northwards for upwards of one hundred miles, halfway to Antioch. and Cyprus-- (See on Ac 4:36 ). An active commercial intercourse subsisted between Phenice and Cyprus. and Antioch-- near the head of the northeast coast of the Mediterranean, on the river Orontes, and containing a large colony of Jews, to whose religion there were there numerous proselytes. \"It was almost an Oriental Rome, in which all the forms of the civilized life of the empire found some representative; and through the two first centuries of the Christian era it was what Constantinople became afterwards, 'the Gate of the East'\" [Howson]."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.20-20:5:225318:947",
+      "passage_start": "ACT.11.20",
+      "passage_end": "ACT.11.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15823\"/><div sID=\"gen30476\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15823\"/><hi type=\"bold\">20. some of them were men of Cyprus and Cyrene--</hi>(see on <reference osisRef=\"Luke.23.26\">Lu 23:26</reference>); as Lucius, mentioned in <reference osisRef=\"Acts.13.1\">Ac 13:1</reference>.<div eID=\"gen30476\" type=\"x-p\"/> <div sID=\"gen30477\" type=\"x-p\"/><hi type=\"bold\">spake unto the Grecians--</hi>rather, \"the Greeks,\" that is, uncircumcised Gentiles (as the true reading beyond doubt is). The Gospel had, from the first, been preached to \"the Grecians\" or Greek-speaking Jews, and these \"men of Cyprus and Cyrene\" were themselves \"Grecians.\" How, then, can we suppose that the historian would note, as something new and singular (<reference osisRef=\"Acts.11.22\">Ac 11:22</reference>), that some of the dispersed Christians preached to them? <div eID=\"gen30477\" type=\"x-p\"/>",
+      "content_plain": "20. some of them were men of Cyprus and Cyrene-- (see on Lu 23:26 ); as Lucius, mentioned in Ac 13:1 . spake unto the Grecians-- rather, \"the Greeks,\" that is, uncircumcised Gentiles (as the true reading beyond doubt is). The Gospel had, from the first, been preached to \"the Grecians\" or Greek-speaking Jews, and these \"men of Cyprus and Cyrene\" were themselves \"Grecians.\" How, then, can we suppose that the historian would note, as something new and singular ( Ac 11:22 ), that some of the dispersed Christians preached to them?",
+      "source_record_sha256": "299cba184f8974ca86eaf3e82872f601a37c557281cd39fdf894eb4891564d71",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 225318,
+        "length": 947
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20. some of them were men of Cyprus and Cyrene-- (see on Lu 23:26 ); as Lucius, mentioned in Ac 13:1 . spake unto the Grecians-- rather, \"the Greeks,\" that is, uncircumcised Gentiles (as the true reading beyond doubt is). The Gospel had, from the first, been preached to \"the Grecians\" or Greek-speaking Jews, and these \"men of Cyprus and Cyrene\" were themselves \"Grecians.\" How, then, can we suppose that the historian would note, as something new and singular ( Ac 11:22 ), that some of the dispersed Christians preached to them?"
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.21-21:5:226265:895",
+      "passage_start": "ACT.11.21",
+      "passage_end": "ACT.11.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15824\"/><div sID=\"gen30478\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15824\"/><hi type=\"bold\">21. a great number believed--</hi>Thus the accession of Cornelius and his party was not the first admission of uncircumcised Gentiles into the Church. (See on <reference osisRef=\"Acts.10.1\">Ac 10:1</reference>.) Nay, we read of no influence which the accession of Cornelius and his house had on the further progress of the Gospel among the Gentiles; whereas there here open upon us operations upon the Gentiles from quite a different quarter, and attended with ever growing success. The only great object served by the case of Cornelius was the formal recognition of the principles which that case afterwards secured. (See on <reference osisRef=\"Acts.15.19-Acts.15.29\">Ac 15:19-29</reference>.) <div eID=\"gen30478\" type=\"x-p\"/>",
+      "content_plain": "21. a great number believed-- Thus the accession of Cornelius and his party was not the first admission of uncircumcised Gentiles into the Church. (See on Ac 10:1 .) Nay, we read of no influence which the accession of Cornelius and his house had on the further progress of the Gospel among the Gentiles; whereas there here open upon us operations upon the Gentiles from quite a different quarter, and attended with ever growing success. The only great object served by the case of Cornelius was the formal recognition of the principles which that case afterwards secured. (See on Ac 15:19-29 .)",
+      "source_record_sha256": "a1f50e1245206aea442dc67fd561e6505df67f48b74608454c01ecbe797955cc",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 226265,
+        "length": 895
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "21. a great number believed-- Thus the accession of Cornelius and his party was not the first admission of uncircumcised Gentiles into the Church. (See on Ac 10:1 .) Nay, we read of no influence which the accession of Cornelius and his house had on the further progress of the Gospel among the Gentiles; whereas there here open upon us operations upon the Gentiles from quite a different quarter, and attended with ever growing success. The only great object served by the case of Cornelius was the formal recognition of the principles which that case afterwards secured. (See on Ac 15:19-29 .)"
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.22-22:5:227160:620",
+      "passage_start": "ACT.11.22",
+      "passage_end": "ACT.11.22",
+      "start_verse": 22,
+      "end_verse": 22,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15825\"/><div sID=\"gen30479\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15825\"/><hi type=\"bold\">22. sent ... Barnabas ... as far as Antioch--</hi>implying that even on the way to Antioch he found churches to visit [Olshausen]. It was in the first instance, no doubt, a mission of inquiry; and no one could be more suitable to inquire into the proceedings of those Cyprians and Cyrenians than one who was himself a \"Grecian\" of Cyprus (<reference osisRef=\"Acts.4.36\">Ac 4:36</reference>), and \"a son of consolation.\" <div eID=\"gen30479\" type=\"x-p\"/>",
+      "content_plain": "22. sent ... Barnabas ... as far as Antioch-- implying that even on the way to Antioch he found churches to visit [Olshausen]. It was in the first instance, no doubt, a mission of inquiry; and no one could be more suitable to inquire into the proceedings of those Cyprians and Cyrenians than one who was himself a \"Grecian\" of Cyprus ( Ac 4:36 ), and \"a son of consolation.\"",
+      "source_record_sha256": "53831c2f46618bd97f5bb211332587de5c3c6673105c2889cd1145ebccf32dfc",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 227160,
+        "length": 620
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "22. sent ... Barnabas ... as far as Antioch-- implying that even on the way to Antioch he found churches to visit [Olshausen]. It was in the first instance, no doubt, a mission of inquiry; and no one could be more suitable to inquire into the proceedings of those Cyprians and Cyrenians than one who was himself a \"Grecian\" of Cyprus ( Ac 4:36 ), and \"a son of consolation.\""
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.23-23:5:227780:752",
+      "passage_start": "ACT.11.23",
+      "passage_end": "ACT.11.23",
+      "start_verse": 23,
+      "end_verse": 23,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15826\"/><div sID=\"gen30480\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15826\"/><hi type=\"bold\">23. when he ... had seen the grace of God--</hi>in the new converts.<div eID=\"gen30480\" type=\"x-p\"/> <div sID=\"gen30481\" type=\"x-p\"/><hi type=\"bold\">was glad--</hi>owned and rejoiced in it at once as divine, though they were uncircumcised.<div eID=\"gen30481\" type=\"x-p\"/> <div sID=\"gen30482\" type=\"x-p\"/><hi type=\"bold\">exhorted them all that with purpose of heart--</hi>as opposed to a hasty and fickle discipleship.<div eID=\"gen30482\" type=\"x-p\"/> <div sID=\"gen30483\" type=\"x-p\"/><hi type=\"bold\">they would cleave unto the Lord--</hi>the Lord Jesus. <div eID=\"gen30483\" type=\"x-p\"/>",
+      "content_plain": "23. when he ... had seen the grace of God-- in the new converts. was glad-- owned and rejoiced in it at once as divine, though they were uncircumcised. exhorted them all that with purpose of heart-- as opposed to a hasty and fickle discipleship. they would cleave unto the Lord-- the Lord Jesus.",
+      "source_record_sha256": "768fedd4ec2bbd7202f0680240264869e318af38093ab0295ce5ddc892b3b18a",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 227780,
+        "length": 752
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.23",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "23. when he ... had seen the grace of God-- in the new converts. was glad-- owned and rejoiced in it at once as divine, though they were uncircumcised. exhorted them all that with purpose of heart-- as opposed to a hasty and fickle discipleship. they would cleave unto the Lord-- the Lord Jesus."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.24-24:5:228532:1103",
+      "passage_start": "ACT.11.24",
+      "passage_end": "ACT.11.24",
+      "start_verse": 24,
+      "end_verse": 24,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15827\"/><div sID=\"gen30484\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15827\"/><hi type=\"bold\">24. For he was a good man--</hi>The sense of \"good\" here is plainly \"large-hearted,\" \"liberal-minded,\" rising above narrow Jewish sectarianism, and that because, as the historian adds, he was \"full of the Holy Ghost and of faith.\"<div eID=\"gen30484\" type=\"x-p\"/> <div sID=\"gen30485\" type=\"x-p\"/><hi type=\"bold\">and much people were added unto the Lord--</hi>This proceeding of Barnabas, so full of wisdom, love, and zeal, was blessed to the great increase of the Christian community in that important city.<div eID=\"gen30485\" type=\"x-p\"/> <div sID=\"gen30486\" type=\"x-p\"/><hi type=\"bold\"><reference osisRef=\"Acts.11.25\">Ac 11:25</reference>, <reference osisRef=\"Acts.11.26\">26</reference>. Barnabas, Finding the Work in Antioch Too Much for Him, Goes to Tarsus for Saul--</hi>They Labor There Together for a Whole Year with Much Success, and Antioch Becomes the Honored Birthplace of the Term Christian. <div eID=\"gen30486\" type=\"x-p\"/>",
+      "content_plain": "24. For he was a good man-- The sense of \"good\" here is plainly \"large-hearted,\" \"liberal-minded,\" rising above narrow Jewish sectarianism, and that because, as the historian adds, he was \"full of the Holy Ghost and of faith.\" and much people were added unto the Lord-- This proceeding of Barnabas, so full of wisdom, love, and zeal, was blessed to the great increase of the Christian community in that important city. Ac 11:25 , 26 . Barnabas, Finding the Work in Antioch Too Much for Him, Goes to Tarsus for Saul-- They Labor There Together for a Whole Year with Much Success, and Antioch Becomes the Honored Birthplace of the Term Christian.",
+      "source_record_sha256": "92400ab96558c469b3140bd8e1a58aa14c972334ffd6b7707165243dcf0b8140",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 228532,
+        "length": 1103
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.24",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "24. For he was a good man-- The sense of \"good\" here is plainly \"large-hearted,\" \"liberal-minded,\" rising above narrow Jewish sectarianism, and that because, as the historian adds, he was \"full of the Holy Ghost and of faith.\" and much people were added unto the Lord-- This proceeding of Barnabas, so full of wisdom, love, and zeal, was blessed to the great increase of the Christian community in that important city. Ac 11:25 , 26 . Barnabas, Finding the Work in Antioch Too Much for Him, Goes to Tarsus for Saul-- They Labor There Together for a Whole Year with Much Success, and Antioch Becomes the Honored Birthplace of the Term Christian."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.25-25:5:229635:2435",
+      "passage_start": "ACT.11.25",
+      "passage_end": "ACT.11.25",
+      "start_verse": 25,
+      "end_verse": 25,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15828\"/><div sID=\"gen30487\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15828\"/><hi type=\"bold\">25. Then departed Barnabas to Tarsus for to seek Saul--</hi>Of course, this was after the hasty despatch of Saul to Tarsus, no doubt by Barnabas himself among others, to escape the fury of the Jews at Jerusalem. And as Barnabas was the first to take the converted persecutor by the hand and procure his recognition as a disciple by the brethren at Jerusalem (<reference osisRef=\"Acts.9.27\">Ac 9:27</reference>), so he alone seems at that early period to have discerned in him those peculiar endowments by virtue of which he was afterwards to eclipse all others. Accordingly, instead of returning to Jerusalem, to which, no doubt, he sent accounts of his proceedings from time to time, finding that the mine in Antioch was rich in promise and required an additional and powerful hand to work, he leaves it for a time, takes a journey to Tarsus, \"finds Saul\" (seemingly implying--not that he lay hid [Bengel], but that he was engaged at the time in some preaching circuit--see on <reference osisRef=\"Acts.15.23\">Ac 15:23</reference>), and returns with him to Antioch. Nor were his hopes disappointed. As co-pastors, for the time being, of the Church there, they so labored that the Gospel, even in that great and many-sided community, achieved for itself a name which will live and be gloried in as long as this world lasts, as the symbol of all that is most precious to the fallen family of man:--\"The disciples were called Christians first in Antioch.\" This name originated not within, but without, the Church; not with their Jewish enemies, by whom they were styled \"Nazarenes\" (<reference osisRef=\"Acts.24.5\">Ac 24:5</reference>), but with the heathen in Antioch, and (as the form of the word shows) with the Romans, not the Greeks there [Olshausen]. It was not at first used in a good sense (as <reference osisRef=\"Acts.26.28\">Ac 26:28</reference>; <reference osisRef=\"1Pet.4.16\">1Pe 4:16</reference> show), though hardly framed out of contempt (as De Wette, Baumgarten, &amp;c.); but as it was a noble testimony to the light in which the Church regarded Christ--honoring Him as their only Lord and Saviour, dwelling continually on His name, and glorying in it--so it was felt to be too apposite and beautiful to be allowed to die. <div eID=\"gen30487\" type=\"x-p\"/>",
+      "content_plain": "25. Then departed Barnabas to Tarsus for to seek Saul-- Of course, this was after the hasty despatch of Saul to Tarsus, no doubt by Barnabas himself among others, to escape the fury of the Jews at Jerusalem. And as Barnabas was the first to take the converted persecutor by the hand and procure his recognition as a disciple by the brethren at Jerusalem ( Ac 9:27 ), so he alone seems at that early period to have discerned in him those peculiar endowments by virtue of which he was afterwards to eclipse all others. Accordingly, instead of returning to Jerusalem, to which, no doubt, he sent accounts of his proceedings from time to time, finding that the mine in Antioch was rich in promise and required an additional and powerful hand to work, he leaves it for a time, takes a journey to Tarsus, \"finds Saul\" (seemingly implying--not that he lay hid [Bengel], but that he was engaged at the time in some preaching circuit--see on Ac 15:23 ), and returns with him to Antioch. Nor were his hopes disappointed. As co-pastors, for the time being, of the Church there, they so labored that the Gospel, even in that great and many-sided community, achieved for itself a name which will live and be gloried in as long as this world lasts, as the symbol of all that is most precious to the fallen family of man:--\"The disciples were called Christians first in Antioch.\" This name originated not within, but without, the Church; not with their Jewish enemies, by whom they were styled \"Nazarenes\" ( Ac 24:5 ), but with the heathen in Antioch, and (as the form of the word shows) with the Romans, not the Greeks there [Olshausen]. It was not at first used in a good sense (as Ac 26:28 ; 1Pe 4:16 show), though hardly framed out of contempt (as De Wette, Baumgarten, &c.); but as it was a noble testimony to the light in which the Church regarded Christ--honoring Him as their only Lord and Saviour, dwelling continually on His name, and glorying in it--so it was felt to be too apposite and beautiful to be allowed to die.",
+      "source_record_sha256": "e33b667b6b9c3243f66af8bdeb76dc8da3fa5f3e53c9b778062a07c3ffc645f1",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 229635,
+        "length": 2435
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.25",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "25. Then departed Barnabas to Tarsus for to seek Saul-- Of course, this was after the hasty despatch of Saul to Tarsus, no doubt by Barnabas himself among others, to escape the fury of the Jews at Jerusalem. And as Barnabas was the first to take the converted persecutor by the hand and procure his recognition as a disciple by the brethren at Jerusalem ( Ac 9:27 ), so he alone seems at that early period to have discerned in him those peculiar endowments by virtue of which he was afterwards to eclipse all others. Accordingly, instead of returning to Jerusalem, to which, no doubt, he sent accounts of his proceedings from time to time, finding that the mine in Antioch was rich in promise and required an additional and powerful hand to work, he leaves it for a time, takes a journey to Tarsus, \"finds Saul\" (seemingly implying--not that he lay hid [Bengel], but that he was engaged at the time in some preaching circuit--see on Ac 15:23 ), and returns with him to Antioch. Nor were his hopes disappointed. As co-pastors, for the time being, of the Church there, they so labored that the Gospel, even in that great and many-sided community, achieved for itself a name which will live and be gloried in as long as this world lasts, as the symbol of all that is most precious to the fallen family of man:--\"The disciples were called Christians first in Antioch.\" This name originated not within, but without, the Church; not with their Jewish enemies, by whom they were styled \"Nazarenes\" ( Ac 24:5 ), but with the heathen in Antioch, and (as the form of the word shows) with the Romans, not the Greeks there [Olshausen]. It was not at first used in a good sense (as Ac 26:28 ; 1Pe 4:16 show), though hardly framed out of contempt (as De Wette, Baumgarten, &c.); but as it was a noble testimony to the light in which the Church regarded Christ--honoring Him as their only Lord and Saviour, dwelling continually on His name, and glorying in it--so it was felt to be too apposite and beautiful to be allowed to die."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.27-27:5:232070:779",
+      "passage_start": "ACT.11.27",
+      "passage_end": "ACT.11.27",
+      "start_verse": 27,
+      "end_verse": 27,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15829\"/><title type=\"x-s3\"><reference osisRef=\"Acts.11.27-Acts.11.30\">Ac 11:27-30</reference>. By Occasion of a Famine Barnabas and Saul Return to Jerusalem with a Contribution for the Relief of Their Suffering Brethren.</title> <div sID=\"gen30488\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15829\"/><hi type=\"bold\">27. came prophets from Jerusalem--</hi>inspired teachers, a class we shall afterwards frequently meet with, who sometimes, but not necessarily, foretold future events. They are classed next to apostles (<reference osisRef=\"1Cor.12.28\">1Co 12:28</reference>, <reference osisRef=\"1Cor.12.29\">29</reference>; <reference osisRef=\"Eph.4.11\">Ep 4:11</reference>). <div eID=\"gen30488\" type=\"x-p\"/>",
+      "content_plain": "Ac 11:27-30 . By Occasion of a Famine Barnabas and Saul Return to Jerusalem with a Contribution for the Relief of Their Suffering Brethren. 27. came prophets from Jerusalem-- inspired teachers, a class we shall afterwards frequently meet with, who sometimes, but not necessarily, foretold future events. They are classed next to apostles ( 1Co 12:28 , 29 ; Ep 4:11 ).",
+      "source_record_sha256": "d5e26e4fb252025690f10a63fb1139d04fa7baf00ac14008fe04d753df0e6ae3",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 232070,
+        "length": 779
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.27",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Ac 11:27-30 . By Occasion of a Famine Barnabas and Saul Return to Jerusalem with a Contribution for the Relief of Their Suffering Brethren. 27. came prophets from Jerusalem-- inspired teachers, a class we shall afterwards frequently meet with, who sometimes, but not necessarily, foretold future events. They are classed next to apostles ( 1Co 12:28 , 29 ; Ep 4:11 )."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.28-28:5:232849:711",
+      "passage_start": "ACT.11.28",
+      "passage_end": "ACT.11.28",
+      "start_verse": 28,
+      "end_verse": 28,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15830\"/><div sID=\"gen30489\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15830\"/><hi type=\"bold\">28. that there should be great dearth throughout all the world--</hi>the whole Roman empire.<div eID=\"gen30489\" type=\"x-p\"/> <div sID=\"gen30490\" type=\"x-p\"/><hi type=\"bold\">which came to pass in the days of Claudius Cæsar--</hi>Four famines occurred during his reign. This one in Judea and the adjacent countries took place, A.D. 41 [Josephus, Antiquities, 20.2,5]. An important date for tracing out the chronology of the Acts. (But this subject is too difficult and extensive to admit of being handled here). <div eID=\"gen30490\" type=\"x-p\"/>",
+      "content_plain": "28. that there should be great dearth throughout all the world-- the whole Roman empire. which came to pass in the days of Claudius Cæsar-- Four famines occurred during his reign. This one in Judea and the adjacent countries took place, A.D. 41 [Josephus, Antiquities, 20.2,5]. An important date for tracing out the chronology of the Acts. (But this subject is too difficult and extensive to admit of being handled here).",
+      "source_record_sha256": "8fa98c5dbf961dbf7b0798b4d3accf5cae9bde86305936c5fab60acb05800114",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 232849,
+        "length": 711
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.28",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "28. that there should be great dearth throughout all the world-- the whole Roman empire. which came to pass in the days of Claudius Cæsar-- Four famines occurred during his reign. This one in Judea and the adjacent countries took place, A.D. 41 [Josephus, Antiquities, 20.2,5]. An important date for tracing out the chronology of the Acts. (But this subject is too difficult and extensive to admit of being handled here)."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.29-29:5:233560:408",
+      "passage_start": "ACT.11.29",
+      "passage_end": "ACT.11.29",
+      "start_verse": 29,
+      "end_verse": 29,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15831\"/><div sID=\"gen30491\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15831\"/><hi type=\"bold\">29. Then the disciples, every man according to his ability, determined to send relief, &amp;c.--</hi>This was the pure prompting of Christian love, which shone so bright in those earliest days of the Gospel. <div eID=\"gen30491\" type=\"x-p\"/>",
+      "content_plain": "29. Then the disciples, every man according to his ability, determined to send relief, &c.-- This was the pure prompting of Christian love, which shone so bright in those earliest days of the Gospel.",
+      "source_record_sha256": "4cefeb987aa9ad910fab23349b00f0868bdd7d094b3f58a595484c955f31fcf2",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 233560,
+        "length": 408
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.29",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "29. Then the disciples, every man according to his ability, determined to send relief, &c.-- This was the pure prompting of Christian love, which shone so bright in those earliest days of the Gospel."
+    },
+    {
+      "entry_id": "sword:jfb:ACT.11.30-30:5:233968:577",
+      "passage_start": "ACT.11.30",
+      "passage_end": "ACT.11.30",
+      "start_verse": 30,
+      "end_verse": 30,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15832\"/><div sID=\"gen30492\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15832\"/><hi type=\"bold\">30. sent it to the elders--</hi>an office well known to be borrowed from the synagogue; after the model of which, and not at all of the temple, the Christian Churches were constituted by the apostles.<div eID=\"gen30492\" type=\"x-p\"/> <div sID=\"gen30493\" type=\"x-p\"/><hi type=\"bold\">by the hands of Barnabas and Saul--</hi>This was Saul's Second Visit to Jerusalem after his conversion. <chapter eID=\"Acts.11\"/>",
+      "content_plain": "30. sent it to the elders-- an office well known to be borrowed from the synagogue; after the model of which, and not at all of the temple, the Christian Churches were constituted by the apostles. by the hands of Barnabas and Saul-- This was Saul's Second Visit to Jerusalem after his conversion.",
+      "source_record_sha256": "01500121903581dad5d29350cc1f77ebb29415e2d8d2edc90a805b7cdbee7ebe",
+      "index_record": {
+        "testament": "NT",
+        "block": 5,
+        "offset": 233968,
+        "length": 577
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ACT.11.30",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "30. sent it to the elders-- an office well known to be borrowed from the synagogue; after the model of which, and not at all of the temple, the Christian Churches were constituted by the apostles. by the hands of Barnabas and Saul-- This was Saul's Second Visit to Jerusalem after his conversion."
+    }
+  ],
+  "indexed_verse_count": 29,
+  "unindexed_verse_count": 1,
+  "upstream_snapshot_id": "SOTW_ACT_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 13
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.11:P:chapter-11",
+      "navigation_id": "ACT.11:P:chapter-11",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 11",
+      "content_plain": "CHAPTER 11",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 11</title> ",
+      "source_entry_id": "sword:jfb:ACT.11.1-11:5:218237:506",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        98
+      ],
+      "source_fragment_sha256": "bf38c3ba57671ae58cfd88516edf9d539ee026f4a2a73a9a21b56157f6b4ba58",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.11.1",
+        "ACT.11.11"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.11:P:ac-11-1-18-peter-vindicates-himself-before-the-church-in-jerusalem-for-his-pro",
+      "navigation_id": "ACT.11:P:ac-11-1-18-peter-vindicates-himself-before-the-church-in-jerusalem-for-his-pro",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Ac 11:1-18 . Peter Vindicates Himself before the Church in Jerusalem for His Procedure towards the Gentiles.",
+      "content_plain": "Ac 11:1-18 . Peter Vindicates Himself before the Church in Jerusalem for His Procedure towards the Gentiles.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Acts.11.1-Acts.11.18\">Ac 11:1-18</reference>. Peter Vindicates Himself before the Church in Jerusalem for His Procedure towards the Gentiles.</title> <div sID=\"gen30463\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15814\"/>",
+      "source_entry_id": "sword:jfb:ACT.11.1-11:5:218237:506",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        98,
+        379
+      ],
+      "source_fragment_sha256": "104556498594a70deb487ed36bda8ebba0d4ed6b9424bfcf959ee9ea7e803792",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.11.1",
+        "ACT.11.11"
+      ],
+      "source_title_explicit_range": [
+        "ACT.11.1",
+        "ACT.11.18"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.11:P:ac-11-19-24-the-gospel-being-preached-to-gentiles-at-antioch-also-barnabas-is-",
+      "navigation_id": "ACT.11:P:ac-11-19-24-the-gospel-being-preached-to-gentiles-at-antioch-also-barnabas-is-",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Ac 11:19-24 . The Gospel Being Preached to Gentiles at Antioch Also Barnabas Is Sent Thither from Jerusalem, Who Hails Their Accession and Labors among Them.",
+      "content_plain": "Ac 11:19-24 . The Gospel Being Preached to Gentiles at Antioch Also Barnabas Is Sent Thither from Jerusalem, Who Hails Their Accession and Labors among Them.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Acts.11.19-Acts.11.24\">Ac 11:19-24</reference>. The Gospel Being Preached to Gentiles at Antioch Also Barnabas Is Sent Thither from Jerusalem, Who Hails Their Accession and Labors among Them.</title>",
+      "source_entry_id": "sword:jfb:ACT.11.19-19:5:223662:1656",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        298
+      ],
+      "source_fragment_sha256": "a83d4c557d300fbfdc743e5a3fe2a56a3e44b48a9b481a7602ad2788c91215dd",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.11.19",
+        "ACT.11.19"
+      ],
+      "source_title_explicit_range": [
+        "ACT.11.19",
+        "ACT.11.24"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ACT.11:P:ac-11-27-30-by-occasion-of-a-famine-barnabas-and-saul-return-to-jerusalem-with",
+      "navigation_id": "ACT.11:P:ac-11-27-30-by-occasion-of-a-famine-barnabas-and-saul-return-to-jerusalem-with",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Ac 11:27-30 . By Occasion of a Famine Barnabas and Saul Return to Jerusalem with a Contribution for the Relief of Their Suffering Brethren.",
+      "content_plain": "Ac 11:27-30 . By Occasion of a Famine Barnabas and Saul Return to Jerusalem with a Contribution for the Relief of Their Suffering Brethren.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Acts.11.27-Acts.11.30\">Ac 11:27-30</reference>. By Occasion of a Famine Barnabas and Saul Return to Jerusalem with a Contribution for the Relief of Their Suffering Brethren.</title>",
+      "source_entry_id": "sword:jfb:ACT.11.27-27:5:232070:779",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        280
+      ],
+      "source_fragment_sha256": "c9209c7cd74936bfeb5df513a04b484c089569273e2e34c97bf7a757123ae6f5",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ACT.11.27",
+        "ACT.11.27"
+      ],
+      "source_title_explicit_range": [
+        "ACT.11.27",
+        "ACT.11.30"
+      ]
+    }
+  ],
+  "navigation_section_count": 4,
+  "reader_visible_entry_count": 13,
+  "unavailable_author_work_for_testament": false
+}
