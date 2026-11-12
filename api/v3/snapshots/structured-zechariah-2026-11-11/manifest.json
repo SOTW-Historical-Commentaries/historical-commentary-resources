@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "ZEC"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 84,
+    "original_entries": 703,
+    "navigation_sections": 99,
+    "reader_visible_entries": 701,
+    "verse_author_routes": 1227,
+    "sword_chapters": 70,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 14,
+    "chapters": 14
+  },
+  "chapter_verse_count": {
+    "1": 21,
+    "2": 13,
+    "3": 10,
+    "4": 14,
+    "5": 11,
+    "6": 15,
+    "7": 14,
+    "8": 23,
+    "9": 17,
+    "10": 12,
+    "11": 17,
+    "12": 14,
+    "13": 9,
+    "14": 21
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked CrossWire/SWORD digital editions with native KJV OT index keys, one original HelloAO John Gill source; fallback only if entire SWORD chapter missing.",
+  "reader_policy": "Verse by default; original source-bounded P introductions and chapter/passage headings available separately; out-of-range P reverts to verse.",
+  "provenance_policy": "Original OSIS and HelloAO item data preserved, source index/hash/edition/license retained; no synthetic commentary.",
+  "notes": [
+    "Zechariah is canonical book 38 after Haggai; earlier 37 snapshots immutable.",
+    "Original source-defined P introductions and headings are separate from original indexed records.",
+    "No Bible translation text, production deployment, or CGBC player changes."
+  ]
+}
