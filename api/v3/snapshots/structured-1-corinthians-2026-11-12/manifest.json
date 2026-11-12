@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-1-corinthians-2026-11-12",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "1CO"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 96,
+    "original_entries": 1718,
+    "navigation_sections": 119,
+    "reader_visible_entries": 1717,
+    "verse_author_routes": 2102,
+    "sword_chapters": 80,
+    "helloao_chapters": 16,
+    "chapters": 16,
+    "P_source_sections": 119,
+    "inherited_P_references": 0,
+    "P_routed_sections": 119
+  },
+  "chapter_verse_count": {
+    "1": 31,
+    "2": 16,
+    "3": 23,
+    "4": 21,
+    "5": 13,
+    "6": 20,
+    "7": 40,
+    "8": 13,
+    "9": 27,
+    "10": 33,
+    "11": 34,
+    "12": 31,
+    "13": 13,
+    "14": 40,
+    "15": 58,
+    "16": 24
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "1 Corinthians is canonical book 46, previous 45 snapshots immutable.",
+    "Keil & Delitzsch has no NT commentary in original archive.",
+    "Reader is review staging; owner manually installs release ZIP; no CGBC player changes."
+  ]
+}
