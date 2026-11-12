@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-malachi-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "MAL"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 24,
+    "original_entries": 175,
+    "navigation_sections": 30,
+    "reader_visible_entries": 174,
+    "verse_author_routes": 328,
+    "sword_chapters": 20,
+    "helloao_chapters": 4,
+    "chapters": 4,
+    "P_source_sections": 30,
+    "inherited_P_references": 1,
+    "P_routed_sections": 31
+  },
+  "chapter_verse_count": {
+    "1": 14,
+    "2": 17,
+    "3": 18,
+    "4": 6
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD OT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Malachi is canonical book 39, previous 38 snapshots immutable.",
+    "JFB original Prophetical Books introduction reused by exact source pointer.",
+    "Reader is review staging; owner manually installs release ZIP; no CGBC player changes."
+  ]
+}

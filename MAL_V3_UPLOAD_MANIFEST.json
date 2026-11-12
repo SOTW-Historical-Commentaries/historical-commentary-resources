@@ -1,0 +1,278 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-malachi-2026-11-11",
+  "book": "MAL",
+  "book_name": "Malachi",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 39,
+  "testament": "OT",
+  "snapshot": "structured-malachi-2026-11-11",
+  "baseline_main_commit": "a7c5c1154833a002511caa6c1653b86e4c65da0f",
+  "baseline_navigation_manifest_git_blob": "4fdc4bdcc9cab4a71ecb2dd26791bc7cb5cc25e0",
+  "baseline_navigation_sha256": "e164e96cf029d5c50908b3e845613e44802cc1c43c498da7741ab7416e1f3cd0",
+  "baseline_kind": "confirmed-GitHub-main",
+  "prerequisites": [
+    "Confirm previous navigation Git blob 4fdc4bdcc9cab4a71ecb2dd26791bc7cb5cc25e0 and SHA-256 e164e96cf029d5c50908b3e845613e44802cc1c43c498da7741ab7416e1f3cd0.",
+    "Confirm all 38 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 32,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/MAL.json",
+      "sha256": "0d91cb34101628fe7b88b60a848a080c7ffe8a1d57127f4ed9c47cb5f16a10c9",
+      "git_blob_sha": "c95f6e8370be46855080cbe513fde2bff6ed0ebd",
+      "bytes": 45896,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "c11b5fc558107bdc1c2a7067ca2d987d7b34cfbd7653a2c4e82e9da90b4085b0",
+      "git_blob_sha": "325f69ba6a2aa97c840916551a61349b1d3b5e19",
+      "bytes": 20139,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/adam-clarke/MAL/1.json",
+      "sha256": "2587110e2cc65c07cb8d552391b3b987800c0ece804809cafd7d1c1d2b0c944b",
+      "git_blob_sha": "553d5f6a639a678272b1435aac50fb45c9cac13e",
+      "bytes": 36664,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/adam-clarke/MAL/2.json",
+      "sha256": "5532355d557bd09ada44b2314505c5248501b6d8b76c71210544c1f78ad66ca8",
+      "git_blob_sha": "31f90f16af2ffb1836f1e68688104b0377310264",
+      "bytes": 45831,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/adam-clarke/MAL/3.json",
+      "sha256": "f9b92f9d661dfab0b481c977db8ea5d84848c4c6f18d847fe5ecda13bb674f37",
+      "git_blob_sha": "03ff15b09116fea743e25e133b373c6b7e2d22ac",
+      "bytes": 51248,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/adam-clarke/MAL/4.json",
+      "sha256": "b61c62f88a397b134ff2968abb299e06d0969a41f9c5c8be8be4a8b933525af8",
+      "git_blob_sha": "bca75129c9d91baaa25a1e1bd3b52a9c34fa9758",
+      "bytes": 32985,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/jamieson-fausset-brown/MAL/1.json",
+      "sha256": "33e3d7ade19a10483751cc3b06f5ba2b648fe1fb81db4de77f6ca5e6c8238015",
+      "git_blob_sha": "71dc69800cc8f576ef8e8f32e295eab313cd594f",
+      "bytes": 76307,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/jamieson-fausset-brown/MAL/2.json",
+      "sha256": "8b5c1bac9a5ed4ce16e3a7a68b7c754b25e2857360c60ce021a17410411c8d38",
+      "git_blob_sha": "086e9e57ae9f0b4ffe9651bc0f8d3a44efa9120e",
+      "bytes": 31993,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/jamieson-fausset-brown/MAL/3.json",
+      "sha256": "d66291292f8250ac92282a8de8888d9b7093bf018aab833bcc487a2e56a8819d",
+      "git_blob_sha": "cefe76c64e791127fae8420b697decbc24902d96",
+      "bytes": 58817,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/jamieson-fausset-brown/MAL/4.json",
+      "sha256": "3d8b90a229c8f8d62efda1f003628b853b7bfadfdaea4caed29749ce48295999",
+      "git_blob_sha": "4a5d3a2b3642a4915e03ea606253d61c616644c6",
+      "bytes": 47546,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-calvin/MAL/1.json",
+      "sha256": "9969b59c85f111508322d48ddaddb55a408c1046f4cbe5ddf614264d5f4b21c1",
+      "git_blob_sha": "8c7bde3088bc7be957f689c11c476a47cce63389",
+      "bytes": 18252,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-calvin/MAL/2.json",
+      "sha256": "7de86147a76acb19459c027bc854d00a0147fd288e4b5277d6efac0e3b20e218",
+      "git_blob_sha": "988a05e6386c71e7cc83ff846d639f4cbfcc5b6e",
+      "bytes": 11362,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-calvin/MAL/3.json",
+      "sha256": "623e98a06a4f1a3eeb3792e6d9bc3917743fd603a0d5ff08747717c653978723",
+      "git_blob_sha": "a75a3b772d57409a889b3bcfd6da7299a8b379ac",
+      "bytes": 36560,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-calvin/MAL/4.json",
+      "sha256": "fac0cb5cb98aab7e8e05f0b06e24d669fc0ba31d180f1645363c5bcc9b73b378",
+      "git_blob_sha": "177c93827c4b16e007a3b859b9e739eada3735d4",
+      "bytes": 27672,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-gill/MAL/1.json",
+      "sha256": "ba5da2c20618b2018d81a7b570f20613f465359837fb83f7ade1d53e27cbda88",
+      "git_blob_sha": "3607e82f6d8fcc588b25c9e329e2c98cbbc48a0e",
+      "bytes": 181980,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-gill/MAL/2.json",
+      "sha256": "082a32ff7fddee695bc30c233a9340b50a94e06210e622511badaaf87ccec15b",
+      "git_blob_sha": "d1592abd2e313dbe718532e7e8b171bc6afe22c4",
+      "bytes": 173463,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-gill/MAL/3.json",
+      "sha256": "247e1f612bf6e5d0c2b5f7e0c601f337d0fb873a4463ba783f496996b852e0ba",
+      "git_blob_sha": "33b836eafc56a3eb9c06181a248bfb94a3da15e9",
+      "bytes": 197547,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/john-gill/MAL/4.json",
+      "sha256": "0318d7b00c51cd3f17785b0fc62092556a1c60012b265d42eed8c1688202bc9e",
+      "git_blob_sha": "3dd96e598f522e34ce17f7fe210dba5eb94f00ba",
+      "bytes": 93616,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/keil-delitzsch/MAL/1.json",
+      "sha256": "b121da21c977640c8d87d74c659a2a04074cde0752dd78eb2cbbe618be513c86",
+      "git_blob_sha": "84770f0dc91a23cd4ddc3efe13a0a0a66edcae18",
+      "bytes": 174166,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/keil-delitzsch/MAL/2.json",
+      "sha256": "e63b67334c6f2b376d4b7dd6ba900c37e0e7b72d67676e333ba77024a07db9f3",
+      "git_blob_sha": "379e4b2c7bf59a954b73bfa5079ade2b7220cc63",
+      "bytes": 110575,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/keil-delitzsch/MAL/3.json",
+      "sha256": "3cd33d12aac5795f958001e315ceff3a8602f50de4034c0a4dd0b4b0d3f91370",
+      "git_blob_sha": "99a8b865a6c9e8c0422e3cb5f5a07586af178f83",
+      "bytes": 94735,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/keil-delitzsch/MAL/4.json",
+      "sha256": "f03ce0b4faee99e9f77f0cb03341a82147fded11b65baa42787a0ccbc0b6ff43",
+      "git_blob_sha": "cf639683e9a182d37ca1e71071c94a4ebaf63630",
+      "bytes": 60443,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/matthew-henry/MAL/1.json",
+      "sha256": "5ba2de283b00c32dbd7cb3c2c93562c3d543e82d19465cfd8df5f9021012b8ce",
+      "git_blob_sha": "d98828ae73af844a990d3a83963ce391caa2aeda",
+      "bytes": 160244,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/matthew-henry/MAL/2.json",
+      "sha256": "5f0336369fbb335e48babc1bb2534e4cf72bb4c8c154fc31ae758a83bd6a9e2b",
+      "git_blob_sha": "596e7d007df55a7ef39b9453314f3306fc9ed16b",
+      "bytes": 193439,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/matthew-henry/MAL/3.json",
+      "sha256": "2c2d6bc7f7834405f3a3f24d5b3dfd570363f404ece2e400c4ca22d7464f1cfa",
+      "git_blob_sha": "307e2dea291a8aeaa6865c49692883e285eba333",
+      "bytes": 229333,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/authors/matthew-henry/MAL/4.json",
+      "sha256": "9178ecc94cef0664becc7083769bde6ca0022cc5eddde4a1dd6842f99ec32b5b",
+      "git_blob_sha": "73fb5ae5799fd8215c7c62baab5efe4cf5fbc2b7",
+      "bytes": 122262,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/index/MAL/1.json",
+      "sha256": "263596388b04501b9d52735bd8ff164b1f39b9526e2994fccdac6d4d73ab6f85",
+      "git_blob_sha": "040436b69278c30d4a6936d4a99228e52078e592",
+      "bytes": 10008,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/index/MAL/2.json",
+      "sha256": "923d04bde9e8b1a15cf07bba3e72a95c7bd9bbef6ac0f20363e3c403ecc34692",
+      "git_blob_sha": "fc7e02da1fff9f43140c9a17d7a7f7df27a1344a",
+      "bytes": 9770,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/index/MAL/3.json",
+      "sha256": "9a3560ede47164deb1fde38345e603794f0ed356c89444ba45b9755d479de5a1",
+      "git_blob_sha": "e88b66fdffa47bd1498224f670c2e6ec48f60f0f",
+      "bytes": 10387,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/index/MAL/4.json",
+      "sha256": "d7983a76adce0646ab4ba74df217ee8f0f8f97c14730f69f7a5c2049ea9e82d1",
+      "git_blob_sha": "a6aba1c7b5cf835fa75bd197f7ec2fed0f88aa00",
+      "bytes": 6603,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-malachi-2026-11-11/manifest.json",
+      "sha256": "c4f8671b46629baa6f975b7f7b33ad9ef605349df2ff93f67613a2aef392a6e5",
+      "git_blob_sha": "e9ea42bd2a64d46f747f83a99ee67a9af3d736e6",
+      "bytes": 1587,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-malachi-v3.html",
+      "sha256": "cd8eeae0811b34ecea3435983bc08bfbfd13c6fe1c33d47389ca077767eee9c9",
+      "git_blob_sha": "30faf41851a7a796381d6bfa532ef5d42d96e814",
+      "bytes": 14486,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 2859,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 4007,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 4,
+    "verse_coordinates": 55,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 6,
+    "original_entries": 175,
+    "verse_author_routes": 328,
+    "original_P_sections": 30,
+    "routed_P_sections": 31
+  },
+  "source_scoped_exceptions": "Malachi is last OT canonical book; native OT KJV index ends exactly after Malachi 4:6, with no synthetic next-book marker. Source gaps, pooled ranges and original passage introductions retained; accepted JFB Prophetical Books pointer reused unchanged.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}
