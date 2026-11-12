@@ -1,0 +1,254 @@
+{
+  "kind": "sotw_structured_commentary_root_upload_manifest",
+  "version": "v3-zephaniah-2026-11-11",
+  "book": "ZEP",
+  "book_name": "Zephaniah",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-zephaniah-2026-11-11",
+  "baseline_main_commit": "83467a503cfd4a0c993548cc8363d8574eb9accd",
+  "baseline_navigation_manifest_git_blob": "fdf751f4f3368faf4b01d6e361dfdf8c6a83c7f0",
+  "baseline_navigation_sha256": "53594e5611da415f36ddf01ed5b7f55fc615053fb69e49805fca251eab26cc05",
+  "prerequisites": [
+    "Current main and navigation manifest match pinned baseline; no preexisting ZEP book snapshot",
+    "Owner extracts numbered ZIPs and uploads their contained files into repository root, preserving exact paths",
+    "Batch 1 new files first; cumulative navigation manifest Batch 2 last; no direct assistant writes"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 25,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/ZEP.json",
+      "size_bytes": 40465,
+      "sha256": "147c856a5d492ba19ab7f3ca3f5826ac580a06ac5574a9965460d420ab5f53cf",
+      "git_blob_sha": "56e78b5f75ae7a2cff8b2c74db8adacfdfe74c90",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "size_bytes": 18762,
+      "sha256": "f31110165426d09b446787db22384109bc4f9a2b7c17d6ace11017dd605553c4",
+      "git_blob_sha": "4d2e18eb2456901e842a0decd19b71af56083f40",
+      "change": "REPLACE_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/adam-clarke/ZEP/1.json",
+      "size_bytes": 45881,
+      "sha256": "89322cc77fd72df8ba20a67a7fcdd1fc381954027e45d3c307a6dc3e9723fcb0",
+      "git_blob_sha": "7ff63307e70c981322e7ec75881aef4b09c47009",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/adam-clarke/ZEP/2.json",
+      "size_bytes": 33454,
+      "sha256": "726d93532bf943cdcb34466d4ca8b8e5462af7a6ab7e78b774152f1369614284",
+      "git_blob_sha": "222d0321b8e8374cd6db6f42f133b62fcbeb0e96",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/adam-clarke/ZEP/3.json",
+      "size_bytes": 58823,
+      "sha256": "cda77434437d789c5de6b453fbd6d3839ef84af4a2f854b2d85b565ec3e4d378",
+      "git_blob_sha": "fb6953c4ed4218f24e09f12a6388f6d7b80ee65b",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/jamieson-fausset-brown/ZEP/1.json",
+      "size_bytes": 79253,
+      "sha256": "2baca71eeae9650d5aed42d03849920dfca8e2f28d72e5bbbcf791ac5309aaca",
+      "git_blob_sha": "7abb2754143bcb55f5a9a68971834c118cffd2d1",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/jamieson-fausset-brown/ZEP/2.json",
+      "size_bytes": 57312,
+      "sha256": "509bb84edde9291f576387ff104ce5b647e69ec53a23419c286fd61e07017973",
+      "git_blob_sha": "1bb71dbd6ed884f091896bf27144a26f650e6714",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/jamieson-fausset-brown/ZEP/3.json",
+      "size_bytes": 67637,
+      "sha256": "e0d59d92e85eac798a5ca5b24856e5f31d9ecf4852b8ef701103d80370387cd8",
+      "git_blob_sha": "fbe5bbebca78e2eb777d2e4ea36381b7d0e6a165",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/john-calvin/ZEP/1.json",
+      "size_bytes": 358420,
+      "sha256": "d8100fd19fbcd459c46afa4699cf431fc9309f8c561004e095aa178288dac006",
+      "git_blob_sha": "aacb6425e8897a2536a1de07419fa846fca3ea02",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/john-calvin/ZEP/2.json",
+      "size_bytes": 258056,
+      "sha256": "846fcfad0b2df0fe293cb637eb35d6e20182a6f71c38b191603dfd3847cc8e44",
+      "git_blob_sha": "6a4e6213fa2bea56545f8e110768b55c90d0ff27",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/john-calvin/ZEP/3.json",
+      "size_bytes": 425047,
+      "sha256": "c1fde3b48ed5bf8cfb09ae6ebdaf5adee9a040286a4ed6b7f81cfbc88ae99860",
+      "git_blob_sha": "4bc236b7c6534a64c1ccba383f130fc238383f70",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/john-gill/ZEP/1.json",
+      "size_bytes": 166446,
+      "sha256": "4c9c62a9e3011d8d5bc4e3ecac94f7f7d267a6cf07f52c181db9cc6ec1cd698c",
+      "git_blob_sha": "c1bd3c94b295da3c0f35640f8ad4081c451e5c85",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/john-gill/ZEP/2.json",
+      "size_bytes": 221448,
+      "sha256": "0ddc382005c0cfe8d5dee1a516d3952a18274c0171544324bd5c1ddc02fdc8ee",
+      "git_blob_sha": "a24900e9e3dab5cc372b8dd9e56435ee998f6b94",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/john-gill/ZEP/3.json",
+      "size_bytes": 227851,
+      "sha256": "5f380bc84382b51c6110cb88f8ecfe73ee9f83a55d56da591811391e75161e9b",
+      "git_blob_sha": "6169fdd2f8ff91727af7e84deba9f760e3fac08d",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/keil-delitzsch/ZEP/1.json",
+      "size_bytes": 194422,
+      "sha256": "c375ceadf8aebf0ad1ca81afa2f18b23c9e33a2c7a8135f73db500d3782ae3e8",
+      "git_blob_sha": "8a52bd48b79c76f89f17fc5b8be80cbd28b18dda",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/keil-delitzsch/ZEP/2.json",
+      "size_bytes": 95921,
+      "sha256": "7c7d929085f89f0dcebacac25503b1131762870c4f676bdab42a5c7f1b30656c",
+      "git_blob_sha": "9ea6e32159e10f3c07eff2d45f6b4140b9d60352",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/keil-delitzsch/ZEP/3.json",
+      "size_bytes": 132166,
+      "sha256": "7221558ad73f0507dfd64687c6df5b57b9967312fbeb5cfe7bc432f559299a28",
+      "git_blob_sha": "0dd902ebf0bcf9dde6a9dfebd038a1c06fb0c189",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/matthew-henry/ZEP/1.json",
+      "size_bytes": 120575,
+      "sha256": "4d32247ab467db554cf072b7089eb3032e64d7dfd35bb9d3d71b57991b617b54",
+      "git_blob_sha": "04637c3fc314e85bf65f03784c63a4316ebe9e2b",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/matthew-henry/ZEP/2.json",
+      "size_bytes": 100388,
+      "sha256": "9e145d343339e331b7f879c772b56da95ac96a823aa0a857598896ee89e2a961",
+      "git_blob_sha": "d13c03508a4a3ff04a05d2cb2d38ef6b503ad759",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/authors/matthew-henry/ZEP/3.json",
+      "size_bytes": 131566,
+      "sha256": "0459c72f28c2bfd8d937dc2555355a96cdad352b0455c41d400d3855fd048f5d",
+      "git_blob_sha": "abe71b78286541006df1c0db6de5ac8f899a09f3",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/index/ZEP/1.json",
+      "size_bytes": 10974,
+      "sha256": "516050970425b3a1bce25a968d11c0033f4f9f47f93b9a9b9b0f2c254b0ef345",
+      "git_blob_sha": "6627ca1cf8db952509a0689c45dae7ec079f4b8b",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/index/ZEP/2.json",
+      "size_bytes": 9298,
+      "sha256": "e18b3beb6af7b93b7cde666d47da4c622530edb20b2c389db59a2f43b28a8b72",
+      "git_blob_sha": "7b7a984a4f60f41303b7c4545824232350cfde3a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/index/ZEP/3.json",
+      "size_bytes": 10527,
+      "sha256": "d9cd949496f1e020c3ddb08624aa9e192125b2540fae56b539bf8ba575c9644c",
+      "git_blob_sha": "eeedab18bda0d5f28c5df16cbf11bb6f73f699eb",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-zephaniah-2026-11-11/manifest.json",
+      "size_bytes": 1756,
+      "sha256": "580331e26642ade8410ef495cb6941a4dba551317208613aadb19e5564afaf18",
+      "git_blob_sha": "d8caa5fee435af06c80cf4ae84b1d4f0c3213f02",
+      "change": "ADD"
+    },
+    {
+      "path": "review-zephaniah-v3.html",
+      "size_bytes": 14403,
+      "sha256": "fbabfafa072ba3b6e31402fa1514947833cf49bd7820157f241ebdde095a454d",
+      "git_blob_sha": "8f64cb6e53c69c8d71468ecd17239a869bb6c8fd",
+      "change": "ADD"
+    }
+  ],
+  "qa": {
+    "independent_source_provenance_checks": 4422,
+    "reader_navigation_checks": 3616,
+    "errors": 0,
+    "source_archives_sha_locked": 6,
+    "source_license_records_preserved": true,
+    "original_p_sections": 26,
+    "routed_p_sections": 27,
+    "previous_books_preserved": 35,
+    "github_writes": 0,
+    "browser_rendering": "NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "counts": {
+    "chapters": 3,
+    "scripture_verse_coordinates": 53,
+    "authors": 6,
+    "original_source_entries": 226,
+    "source_backed_verse_author_links": 302
+  },
+  "source_scoped_exceptions": {
+    "john-calvin:1": [
+      3,
+      8,
+      9,
+      16
+    ],
+    "adam-clarke:1": [
+      16
+    ],
+    "john-calvin:2": [
+      2,
+      5,
+      7,
+      10
+    ],
+    "adam-clarke:2": [
+      2
+    ],
+    "john-calvin:3": [
+      2,
+      7,
+      13,
+      15,
+      17
+    ],
+    "keil-delitzsch:3": [
+      7
+    ]
+  },
+  "rights_and_provenance": "Five selected original CrossWire/SWORD modules with original OSIS and native binary index; original HelloAO Gill source. Preserve modules licensing and digital-edition/provenance metadata; no translation text. Actual public redistribution remains edition-specific.",
+  "release_scope": "Additive independent staging book; no rewrites to earlier accepted books, config, shared scripts, workflows, or CGBC player",
+  "publication_gate": "Owner manual upload plus exact path/hash/Pages deployment and browser visual verification"
+}

@@ -1,0 +1,434 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zephaniah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "ZEP",
+  "chapter": 2,
+  "canonical_chapter": "ZEP.2",
+  "versification": "KJV",
+  "verse_count": 15,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zeph\" sID=\"gen35232\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen35233\" type=\"x-p\"/> ",
+      "source_record_sha256": "39d0b065dd321eae1c6f192ab8068cbf456f77bc29b87eafba918775d1c74f20",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen35267\" type=\"x-p\"/> <chapter n=\"2\" osisID=\"Zeph.2\" sID=\"Zeph.2\"/> ",
+      "source_record_sha256": "b8edd8bb627bef53f3da3d21b7d371edb9c2b1e969986c70c1936fc02512d6ed",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 11548,
+        "length": 79
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:ZEP.2.1-1:36:11627:1372",
+      "passage_start": "ZEP.2.1",
+      "passage_end": "ZEP.2.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen35267\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen35268\" type=\"introduction\"/> <div sID=\"gen35269\" type=\"x-p\"/> <div eID=\"gen35269\" type=\"x-p\"/> <div eID=\"gen35268\" type=\"introduction\"/> <div sID=\"gen35270\" type=\"x-p\"/> The prophet, having declared the judgments which were ready to fall on his people, earnestly exhorts them to repentance, that these judgments may be averted, <reference osisRef=\"Zep.2.1-Zep.2.3\">Zep 2:1-3</reference>. He then foretells the fate of other neighboring and hostile nations: the Philistines, <reference osisRef=\"Zep.2.4-Zep.2.7\">Zep 2:4-7</reference>; Moabites and Ammonites, <reference osisRef=\"Zep.2.8-Zep.2.11\">Zep 2:8-11</reference>; Ethiopians, <reference osisRef=\"Zep.2.12\">Zep 2:12</reference>; and Assyrians, <reference osisRef=\"Zep.2.13\">Zep 2:13</reference>. In the close of the chapter we have a prophecy against Nineveh. These predictions were accomplished chiefly by the conquests of Nebuchadnezzar. <div eID=\"gen35270\" type=\"x-p\"/> <div sID=\"gen35271\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen35271\" type=\"x-p\"/> <div sID=\"gen35272\" type=\"x-p\"/> Gather yourselves - Others, sift yourselves. Separate the chaff from the wheat, before the judgments of God fall upon you. O nation not desired - unlovely, not delighted in; hated because of your sin. The Israelites are addressed. ",
+      "content_plain": "Introduction The prophet, having declared the judgments which were ready to fall on his people, earnestly exhorts them to repentance, that these judgments may be averted, Zep 2:1-3 . He then foretells the fate of other neighboring and hostile nations: the Philistines, Zep 2:4-7 ; Moabites and Ammonites, Zep 2:8-11 ; Ethiopians, Zep 2:12 ; and Assyrians, Zep 2:13 . In the close of the chapter we have a prophecy against Nineveh. These predictions were accomplished chiefly by the conquests of Nebuchadnezzar. Verse 1 Gather yourselves - Others, sift yourselves. Separate the chaff from the wheat, before the judgments of God fall upon you. O nation not desired - unlovely, not delighted in; hated because of your sin. The Israelites are addressed.",
+      "source_record_sha256": "e5bbdaa3ca61e527d21267a5769f46687c15ab239ecf11e0ca875e68c5d26e5f",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 11627,
+        "length": 1372
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 Gather yourselves - Others, sift yourselves. Separate the chaff from the wheat, before the judgments of God fall upon you. O nation not desired - unlovely, not delighted in; hated because of your sin. The Israelites are addressed.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original chapter introduction separately ends before explicit printed Verse 1",
+      "reader_source_character_span": [
+        1046,
+        1372
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen35271\" type=\"x-p\"/> <div sID=\"gen35272\" type=\"x-p\"/> Gather yourselves - Others, sift yourselves. Separate the chaff from the wheat, before the judgments of God fall upon you. O nation not desired - unlovely, not delighted in; hated because of your sin. The Israelites are addressed. "
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.3-3:36:12999:388",
+      "passage_start": "ZEP.2.3",
+      "passage_end": "ZEP.2.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen35272\" type=\"x-p\"/> <div sID=\"gen35273\" type=\"x-p\"/> Ye meek of the earth - ענוי anavey, ye oppressed and humbled of the land. <div eID=\"gen35273\" type=\"x-p\"/> <div sID=\"gen35274\" type=\"x-p\"/> It may be ye shall be hid - The sword has not a commission against you. Ask God, and he will be a refuge to you from the storm and from the tempest. ",
+      "content_plain": "Verse 3 Ye meek of the earth - ענוי anavey, ye oppressed and humbled of the land. It may be ye shall be hid - The sword has not a commission against you. Ask God, and he will be a refuge to you from the storm and from the tempest.",
+      "source_record_sha256": "a0f5667a6ce0afac41381fdf5ae9296d5f0e552b882a18ea9dd16518ec0894fe",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 12999,
+        "length": 388
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 Ye meek of the earth - ענוי anavey, ye oppressed and humbled of the land. It may be ye shall be hid - The sword has not a commission against you. Ask God, and he will be a refuge to you from the storm and from the tempest."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.4-4:36:13387:498",
+      "passage_start": "ZEP.2.4",
+      "passage_end": "ZEP.2.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen35274\" type=\"x-p\"/> <div sID=\"gen35275\" type=\"x-p\"/> Gaza shall be forsaken - This prophecy is against the Philistines. They had been greatly harassed by the kings of Egypt; but were completely ruined by Nebuchadnezzar, who took all Phoenicia from the Egyptians; and about the time of his taking Tyre, devastated all the seignories of the Philistines. This ruin we have seen foretold by the other prophets, and have already remarked its exact fulfillment. ",
+      "content_plain": "Verse 4 Gaza shall be forsaken - This prophecy is against the Philistines. They had been greatly harassed by the kings of Egypt; but were completely ruined by Nebuchadnezzar, who took all Phoenicia from the Egyptians; and about the time of his taking Tyre, devastated all the seignories of the Philistines. This ruin we have seen foretold by the other prophets, and have already remarked its exact fulfillment.",
+      "source_record_sha256": "7682af3663ce3cbc4424b0f0d588a4ef050a538309b41fedc14dbab344cefe16",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 13387,
+        "length": 498
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 Gaza shall be forsaken - This prophecy is against the Philistines. They had been greatly harassed by the kings of Egypt; but were completely ruined by Nebuchadnezzar, who took all Phoenicia from the Egyptians; and about the time of his taking Tyre, devastated all the seignories of the Philistines. This ruin we have seen foretold by the other prophets, and have already remarked its exact fulfillment."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.5-5:36:13885:450",
+      "passage_start": "ZEP.2.5",
+      "passage_end": "ZEP.2.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen35275\" type=\"x-p\"/> <div sID=\"gen35276\" type=\"x-p\"/> The sea-coasts, the nation of the Cherethites - The sea-coasts mean all the country lying on the Mediterranean coast from Egypt to Joppa and Gaza. The Cherethites - the Cretans who were probably a colony of the Phoenicians. See on <reference osisRef=\"1Sam.30.14\">1Sam 30:14</reference> (note), and <reference osisRef=\"Amo.9.7\">Amo 9:7</reference> (note). ",
+      "content_plain": "Verse 5 The sea-coasts, the nation of the Cherethites - The sea-coasts mean all the country lying on the Mediterranean coast from Egypt to Joppa and Gaza. The Cherethites - the Cretans who were probably a colony of the Phoenicians. See on 1Sam 30:14 (note), and Amo 9:7 (note).",
+      "source_record_sha256": "a4f6c5fdab0c5573fd5c0c16b2a53aac4f69d344ed88782b63ac7000856d5364",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 13885,
+        "length": 450
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 The sea-coasts, the nation of the Cherethites - The sea-coasts mean all the country lying on the Mediterranean coast from Egypt to Joppa and Gaza. The Cherethites - the Cretans who were probably a colony of the Phoenicians. See on 1Sam 30:14 (note), and Amo 9:7 (note)."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.6-6:36:14335:458",
+      "passage_start": "ZEP.2.6",
+      "passage_end": "ZEP.2.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen35276\" type=\"x-p\"/> <div sID=\"gen35277\" type=\"x-p\"/> And the sea-coasts shall be dwellings - Newcome considers כרת keroth as a proper name, not cottages or folds. The Septuagint have Κρητη, Crete, and so has the Syriac. Abp. Secker notes, Alibi non extat כרת, et forte notat patriam των כרתים. \"The word כרת is not found elsewhere, and probably it is the name of the country of the Cherethim.\" ",
+      "content_plain": "Verse 6 And the sea-coasts shall be dwellings - Newcome considers כרת keroth as a proper name, not cottages or folds. The Septuagint have Κρητη, Crete, and so has the Syriac. Abp. Secker notes, Alibi non extat כרת, et forte notat patriam των כרתים. \"The word כרת is not found elsewhere, and probably it is the name of the country of the Cherethim.\"",
+      "source_record_sha256": "7338c2d67f5a899e943e93f9460777b47c0481028278a730d249010f3892a777",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 14335,
+        "length": 458
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 And the sea-coasts shall be dwellings - Newcome considers כרת keroth as a proper name, not cottages or folds. The Septuagint have Κρητη, Crete, and so has the Syriac. Abp. Secker notes, Alibi non extat כרת, et forte notat patriam των כרתים. \"The word כרת is not found elsewhere, and probably it is the name of the country of the Cherethim.\""
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.7-7:36:14793:421",
+      "passage_start": "ZEP.2.7",
+      "passage_end": "ZEP.2.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen35277\" type=\"x-p\"/> <div sID=\"gen35278\" type=\"x-p\"/> The coast shall be for the remnant - Several devastations fell on the Philistines. Gaza was ruined by the army of Alexander the Great, and the Maccabees finally accomplished all that was predicted by the prophets against this invariably wicked people. They lost their polity, and were at last obliged to receive circumcision. ",
+      "content_plain": "Verse 7 The coast shall be for the remnant - Several devastations fell on the Philistines. Gaza was ruined by the army of Alexander the Great, and the Maccabees finally accomplished all that was predicted by the prophets against this invariably wicked people. They lost their polity, and were at last obliged to receive circumcision.",
+      "source_record_sha256": "1595cb672259f7a9b945e5ff368c695e6a1a6494dd5616d7121a0ba82977b693",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 14793,
+        "length": 421
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 The coast shall be for the remnant - Several devastations fell on the Philistines. Gaza was ruined by the army of Alexander the Great, and the Maccabees finally accomplished all that was predicted by the prophets against this invariably wicked people. They lost their polity, and were at last obliged to receive circumcision."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.8-8:36:15214:758",
+      "passage_start": "ZEP.2.8",
+      "passage_end": "ZEP.2.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen35278\" type=\"x-p\"/> <div sID=\"gen35279\" type=\"x-p\"/> I have heard the reproach of Moab - God punished them for the cruel part they had taken in the persecutions of the Jews; for when they lay under the displeasure of God, these nations insulted them in the most provoking manner. See on <reference osisRef=\"Amo.1.13\">Amo 1:13</reference> (note), and <reference osisRef=\"Gen.19.25\">Gen 19:25</reference> (note); <reference osisRef=\"Deu.29.23\">Deu 29:23</reference> (note); <reference osisRef=\"Isa.13.19\">Isa 13:19</reference> (note); <reference osisRef=\"Isa.34.13\">Isa 34:13</reference> (note); <reference osisRef=\"Jer.49.18\">Jer 49:18</reference> (note); <reference osisRef=\"Jer.50.40\">Jer 50:40</reference> (note). ",
+      "content_plain": "Verse 8 I have heard the reproach of Moab - God punished them for the cruel part they had taken in the persecutions of the Jews; for when they lay under the displeasure of God, these nations insulted them in the most provoking manner. See on Amo 1:13 (note), and Gen 19:25 (note); Deu 29:23 (note); Isa 13:19 (note); Isa 34:13 (note); Jer 49:18 (note); Jer 50:40 (note).",
+      "source_record_sha256": "d7467a468dfdb4e514b57cf5db56901ed2fe524d737b899ff048f1b5584fec29",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 15214,
+        "length": 758
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 8 I have heard the reproach of Moab - God punished them for the cruel part they had taken in the persecutions of the Jews; for when they lay under the displeasure of God, these nations insulted them in the most provoking manner. See on Amo 1:13 (note), and Gen 19:25 (note); Deu 29:23 (note); Isa 13:19 (note); Isa 34:13 (note); Jer 49:18 (note); Jer 50:40 (note)."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.9-9:36:15972:247",
+      "passage_start": "ZEP.2.9",
+      "passage_end": "ZEP.2.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen35279\" type=\"x-p\"/> <div sID=\"gen35280\" type=\"x-p\"/> The breeding of nettles - That is, their land shall become desolate, and be a place for nettles, thorns, etc., to flourish in, for want of cultivation. ",
+      "content_plain": "Verse 9 The breeding of nettles - That is, their land shall become desolate, and be a place for nettles, thorns, etc., to flourish in, for want of cultivation.",
+      "source_record_sha256": "379f7d33d047faa6ea2a6929a8e2ba4e73ac518382e6e581f045c84a1ade5828",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 15972,
+        "length": 247
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 The breeding of nettles - That is, their land shall become desolate, and be a place for nettles, thorns, etc., to flourish in, for want of cultivation."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.10-10:36:16219:191",
+      "passage_start": "ZEP.2.10",
+      "passage_end": "ZEP.2.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen35280\" type=\"x-p\"/> <div sID=\"gen35281\" type=\"x-p\"/> Because they have reproached - See on <reference osisRef=\"Zep.2.8\">Zep 2:8</reference> (note). ",
+      "content_plain": "Verse 10 Because they have reproached - See on Zep 2:8 (note).",
+      "source_record_sha256": "767817109dcfc3b5be4252f72b87b57eb68a48e4cbcfdda412afaf352d2e2828",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 16219,
+        "length": 191
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 Because they have reproached - See on Zep 2:8 (note)."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.11-11:36:16410:474",
+      "passage_start": "ZEP.2.11",
+      "passage_end": "ZEP.2.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen35281\" type=\"x-p\"/> <div sID=\"gen35282\" type=\"x-p\"/> He will famish all the gods of the earth - They shall have no more sacrifices; their worship shall be entirely destroyed. Idolaters supposed that their gods actually fed on the fumes and spirituous exhalations that arose from the burnt-offerings which they made unto their idols. It is in reference to this opinion that the Lord says, \"He will famish all the gods of the land.\" ",
+      "content_plain": "Verse 11 He will famish all the gods of the earth - They shall have no more sacrifices; their worship shall be entirely destroyed. Idolaters supposed that their gods actually fed on the fumes and spirituous exhalations that arose from the burnt-offerings which they made unto their idols. It is in reference to this opinion that the Lord says, \"He will famish all the gods of the land.\"",
+      "source_record_sha256": "39e72167f5c6ac0901e571e6d4813e98abe8c8b9741348345043b9b7a0bec6fa",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 16410,
+        "length": 474
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 11 He will famish all the gods of the earth - They shall have no more sacrifices; their worship shall be entirely destroyed. Idolaters supposed that their gods actually fed on the fumes and spirituous exhalations that arose from the burnt-offerings which they made unto their idols. It is in reference to this opinion that the Lord says, \"He will famish all the gods of the land.\""
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.12-12:36:16884:430",
+      "passage_start": "ZEP.2.12",
+      "passage_end": "ZEP.2.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen35282\" type=\"x-p\"/> <div sID=\"gen35283\" type=\"x-p\"/> Ye Ethiopians also - Nebuchadnezzar subdued these. See <reference osisRef=\"Jer.46.2\">Jer 46:2</reference>, <reference osisRef=\"Jer.46.9\">Jer 46:9</reference>; <reference osisRef=\"Eze.30.4\">Eze 30:4</reference>, <reference osisRef=\"Eze.30.10\">Eze 30:10</reference>. See also on <reference osisRef=\"Amo.9.7\">Amo 9:7</reference> (note). ",
+      "content_plain": "Verse 12 Ye Ethiopians also - Nebuchadnezzar subdued these. See Jer 46:2 , Jer 46:9 ; Eze 30:4 , Eze 30:10 . See also on Amo 9:7 (note).",
+      "source_record_sha256": "cc67f8ec3419cff3971f65c9194ab7a89d6043ab2c1d65f53b39bda8b94406f6",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 16884,
+        "length": 430
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 12 Ye Ethiopians also - Nebuchadnezzar subdued these. See Jer 46:2 , Jer 46:9 ; Eze 30:4 , Eze 30:10 . See also on Amo 9:7 (note)."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.13-13:36:17314:216",
+      "passage_start": "ZEP.2.13",
+      "passage_end": "ZEP.2.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 13</hi> <div eID=\"gen35283\" type=\"x-p\"/> <div sID=\"gen35284\" type=\"x-p\"/> He will - destroy Assyria - He will overthrow the empire, and Nineveh, their metropolitan city. See on Jonah and Nahum. ",
+      "content_plain": "Verse 13 He will - destroy Assyria - He will overthrow the empire, and Nineveh, their metropolitan city. See on Jonah and Nahum.",
+      "source_record_sha256": "3a2d3cc2cffc82fd1c0c114b5d9d14e539084bd6e813af4cf84c3b8cd29c7fd2",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 17314,
+        "length": 216
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 13 He will - destroy Assyria - He will overthrow the empire, and Nineveh, their metropolitan city. See on Jonah and Nahum."
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.14-14:36:17530:1363",
+      "passage_start": "ZEP.2.14",
+      "passage_end": "ZEP.2.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen35284\" type=\"x-p\"/> <div sID=\"gen35285\" type=\"x-p\"/> And flocks shall lie down in the midst of her - Nineveh was so completely destroyed, that its situation is not at present even known. The present city of Mossoul is supposed to be in the vicinity of the place where this ancient city stood. <div eID=\"gen35285\" type=\"x-p\"/> <div sID=\"gen35286\" type=\"x-p\"/> The cormorant קאת kaath; and the bittern, קפד kippod. These Newcome translates, \"The pelican and the porcupine.\" <div eID=\"gen35286\" type=\"x-p\"/> <div sID=\"gen35287\" type=\"x-p\"/> Their voice shall sing in the windows - The windows shall be all demolished; wild fowl shall build their nests in them, and shall be seen coming from their sills, and the fine cedar ceilings shall be exposed to the weather, and by and by crumble to dust. See the note on <reference osisRef=\"Isa.34.11-Isa.34.14\">Isa 34:11-14</reference> (note), where nearly the same terms are used. <div eID=\"gen35287\" type=\"x-p\"/> <div sID=\"gen35288\" type=\"x-p\"/> I have in another place introduced a remarkable couplet quoted by Sir W. Jones from a Persian poet, which speaks of desolation in nearly the same terms. \"The spider holds the veil in the palace of Caesar: <div eID=\"gen35288\" type=\"x-p\"/> <div sID=\"gen35289\" type=\"x-p\"/> The owl stands sentinel in the watchtower of Afrasiab.\" ",
+      "content_plain": "Verse 14 And flocks shall lie down in the midst of her - Nineveh was so completely destroyed, that its situation is not at present even known. The present city of Mossoul is supposed to be in the vicinity of the place where this ancient city stood. The cormorant קאת kaath; and the bittern, קפד kippod. These Newcome translates, \"The pelican and the porcupine.\" Their voice shall sing in the windows - The windows shall be all demolished; wild fowl shall build their nests in them, and shall be seen coming from their sills, and the fine cedar ceilings shall be exposed to the weather, and by and by crumble to dust. See the note on Isa 34:11-14 (note), where nearly the same terms are used. I have in another place introduced a remarkable couplet quoted by Sir W. Jones from a Persian poet, which speaks of desolation in nearly the same terms. \"The spider holds the veil in the palace of Caesar: The owl stands sentinel in the watchtower of Afrasiab.\"",
+      "source_record_sha256": "01a08ce2c2209155b67862379dad32bbb04f4c4ee09610bef1afac239656ced6",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 17530,
+        "length": 1363
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 14 And flocks shall lie down in the midst of her - Nineveh was so completely destroyed, that its situation is not at present even known. The present city of Mossoul is supposed to be in the vicinity of the place where this ancient city stood. The cormorant קאת kaath; and the bittern, קפד kippod. These Newcome translates, \"The pelican and the porcupine.\" Their voice shall sing in the windows - The windows shall be all demolished; wild fowl shall build their nests in them, and shall be seen coming from their sills, and the fine cedar ceilings shall be exposed to the weather, and by and by crumble to dust. See the note on Isa 34:11-14 (note), where nearly the same terms are used. I have in another place introduced a remarkable couplet quoted by Sir W. Jones from a Persian poet, which speaks of desolation in nearly the same terms. \"The spider holds the veil in the palace of Caesar: The owl stands sentinel in the watchtower of Afrasiab.\""
+    },
+    {
+      "entry_id": "sword:clarke:ZEP.2.15-15:36:18893:413",
+      "passage_start": "ZEP.2.15",
+      "passage_end": "ZEP.2.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 15</hi> <div eID=\"gen35289\" type=\"x-p\"/> <div sID=\"gen35290\" type=\"x-p\"/> This is the rejoicing city - The city in which mirth, jocularity, and pleasure, reigned without interruption. <div eID=\"gen35290\" type=\"x-p\"/> <div sID=\"gen35291\" type=\"x-p\"/> And wag his hand - Will point her out as a mark and monument of Divine displeasure.  <chapter eID=\"Zeph.2\"/> <div eID=\"gen35291\" type=\"x-p\"/>",
+      "content_plain": "Verse 15 This is the rejoicing city - The city in which mirth, jocularity, and pleasure, reigned without interruption. And wag his hand - Will point her out as a mark and monument of Divine displeasure.",
+      "source_record_sha256": "08c89651fa3630927e1d4389e87568d06a39f5ec822b7e294889caaf40780ff4",
+      "index_record": {
+        "testament": "OT",
+        "block": 36,
+        "offset": 18893,
+        "length": 413
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEP.2.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 15 This is the rejoicing city - The city in which mirth, jocularity, and pleasure, reigned without interruption. And wag his hand - Will point her out as a mark and monument of Divine displeasure."
+    }
+  ],
+  "indexed_verse_count": 14,
+  "unindexed_verse_count": 1,
+  "upstream_snapshot_id": "SOTW_ZEP_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 14
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:ZEP.2:P:zephaniah-2-original-chapter-introduction",
+      "navigation_id": "ZEP.2:P:zephaniah-2-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Zephaniah 2 · Original Chapter Introduction",
+      "content_plain": "Introduction The prophet, having declared the judgments which were ready to fall on his people, earnestly exhorts them to repentance, that these judgments may be averted, Zep 2:1-3 . He then foretells the fate of other neighboring and hostile nations: the Philistines, Zep 2:4-7 ; Moabites and Ammonites, Zep 2:8-11 ; Ethiopians, Zep 2:12 ; and Assyrians, Zep 2:13 . In the close of the chapter we have a prophecy against Nineveh. These predictions were accomplished chiefly by the conquests of Nebuchadnezzar.",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen35268\" type=\"introduction\"/> <div sID=\"gen35269\" type=\"x-p\"/> <div eID=\"gen35269\" type=\"x-p\"/> <div eID=\"gen35268\" type=\"introduction\"/> <div sID=\"gen35270\" type=\"x-p\"/> The prophet, having declared the judgments which were ready to fall on his people, earnestly exhorts them to repentance, that these judgments may be averted, <reference osisRef=\"Zep.2.1-Zep.2.3\">Zep 2:1-3</reference>. He then foretells the fate of other neighboring and hostile nations: the Philistines, <reference osisRef=\"Zep.2.4-Zep.2.7\">Zep 2:4-7</reference>; Moabites and Ammonites, <reference osisRef=\"Zep.2.8-Zep.2.11\">Zep 2:8-11</reference>; Ethiopians, <reference osisRef=\"Zep.2.12\">Zep 2:12</reference>; and Assyrians, <reference osisRef=\"Zep.2.13\">Zep 2:13</reference>. In the close of the chapter we have a prophecy against Nineveh. These predictions were accomplished chiefly by the conquests of Nebuchadnezzar. <div eID=\"gen35270\" type=\"x-p\"/> <div sID=\"gen35271\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:ZEP.2.1-1:36:11627:1372",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        1046
+      ],
+      "source_fragment_sha256": "bf20e9bfd88c21823e971bd08db91deed51b743568c8ef5c59b2e20f213bc910",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEP.2.1",
+        "ZEP.2.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 14
+}
