@@ -1,0 +1,713 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-romans-2026-11-12",
+  "canonical_chapter": "ROM.11",
+  "verse_count": 36,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 3,
+      "indexed_verse_count": 36,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 28,
+      "reader_visible_entries": 28,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 28,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 36,
+      "reader_visible_entries": 36,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 36,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 22,
+      "reader_visible_entries": 22,
+      "navigation_section_count": 2,
+      "indexed_verse_count": 36,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/11.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 36,
+      "reader_visible_entries": 36,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 36,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        7
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        9
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        10
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        11
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        13
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        14
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        15
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        16
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        17
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        23
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        18
+      ],
+      "adam-clarke": [
+        24
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        19
+      ],
+      "adam-clarke": [
+        25
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        20
+      ],
+      "adam-clarke": [
+        26
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        21
+      ],
+      "adam-clarke": [
+        27
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        22
+      ],
+      "adam-clarke": [
+        28
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        29
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        30
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        23
+      ],
+      "adam-clarke": [
+        31
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        24
+      ],
+      "adam-clarke": [
+        32
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "john-gill": [
+        32
+      ]
+    },
+    "34": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        25
+      ],
+      "adam-clarke": [
+        33
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "john-gill": [
+        33
+      ]
+    },
+    "35": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        26
+      ],
+      "adam-clarke": [
+        34
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "john-gill": [
+        34
+      ]
+    },
+    "36": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        27
+      ],
+      "adam-clarke": [
+        35
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "john-gill": [
+        35
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:ROM.11:P:romans-11-original-chapter-introduction",
+        "navigation_id": "ROM.11:P:romans-11-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Romans 11 · Original Chapter Introduction"
+      },
+      {
+        "section_id": "nav:matthew-henry:ROM.11:P:the-state-of-the-jews-the-state-of-the-gentiles-the-gentiles-warned-the-future",
+        "navigation_id": "ROM.11:P:the-state-of-the-jews-the-state-of-the-gentiles-the-gentiles-warned-the-future",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The State of the Jews; The State of the Gentiles; The Gentiles Warned; The Future Conversion of the Jews. ( a. d. 58.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:ROM.11:P:the-divine-sovereignty-a-d-58",
+        "navigation_id": "ROM.11:P:the-divine-sovereignty-a-d-58",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Divine Sovereignty. ( a. d. 58.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:ROM.11:P:romans-11-original-chapter-introduction",
+        "navigation_id": "ROM.11:P:romans-11-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Romans 11 · Original Chapter Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:ROM.11:P:chapter-11",
+        "navigation_id": "ROM.11:P:chapter-11",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 11"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:ROM.11:P:ro-11-1-36-same-subject-continued-and-concluded-the-ultimate-inbringing-of-all",
+        "navigation_id": "ROM.11:P:ro-11-1-36-same-subject-continued-and-concluded-the-ultimate-inbringing-of-all",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Ro 11:1-36 . Same Subject Continued and Concluded--The Ultimate Inbringing of All Israel, to Be, with the Gentiles, One Kingdom of God on the Earth."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/ROM.json; unindexed means unavailable."
+}
