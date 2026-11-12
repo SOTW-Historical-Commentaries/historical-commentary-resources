@@ -1,0 +1,735 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-luke-2026-11-12",
+  "canonical_chapter": "LUK.18",
+  "verse_count": 43,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/18.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 6,
+      "reader_visible_entries": 6,
+      "navigation_section_count": 7,
+      "indexed_verse_count": 43,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/18.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 10,
+      "reader_visible_entries": 10,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 10,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/18.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 26,
+      "reader_visible_entries": 26,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 26,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/18.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 20,
+      "reader_visible_entries": 20,
+      "navigation_section_count": 6,
+      "indexed_verse_count": 34,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/18.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/18.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 43,
+      "reader_visible_entries": 43,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 43,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        7
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        2
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        4
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "john-gill": [
+        32
+      ]
+    },
+    "34": {
+      "matthew-henry": [
+        4
+      ],
+      "john-calvin": [
+        9
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "john-gill": [
+        33
+      ]
+    },
+    "35": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        23
+      ],
+      "john-gill": [
+        34
+      ]
+    },
+    "36": {
+      "matthew-henry": [
+        5
+      ],
+      "john-gill": [
+        35
+      ]
+    },
+    "37": {
+      "matthew-henry": [
+        5
+      ],
+      "john-gill": [
+        36
+      ]
+    },
+    "38": {
+      "matthew-henry": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "john-gill": [
+        37
+      ]
+    },
+    "39": {
+      "matthew-henry": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "john-gill": [
+        38
+      ]
+    },
+    "40": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        24
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "john-gill": [
+        39
+      ]
+    },
+    "41": {
+      "matthew-henry": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "john-gill": [
+        40
+      ]
+    },
+    "42": {
+      "matthew-henry": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "john-gill": [
+        41
+      ]
+    },
+    "43": {
+      "matthew-henry": [
+        5
+      ],
+      "adam-clarke": [
+        25
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "john-gill": [
+        42
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:luke-18-original-chapter-introduction",
+        "navigation_id": "LUK.18:P:luke-18-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Luke 18 · Original Chapter Introduction"
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:the-unjust-judge",
+        "navigation_id": "LUK.18:P:the-unjust-judge",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Unjust Judge."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:the-pharisee-and-the-publican",
+        "navigation_id": "LUK.18:P:the-pharisee-and-the-publican",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Pharisee and the Publican."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:christ-s-attention-to-children",
+        "navigation_id": "LUK.18:P:christ-s-attention-to-children",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ's Attention to Children."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:riches-a-spiritual-hindrance",
+        "navigation_id": "LUK.18:P:riches-a-spiritual-hindrance",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Riches a Spiritual Hindrance."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:christ-s-suffering-foretold",
+        "navigation_id": "LUK.18:P:christ-s-suffering-foretold",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ's Suffering Foretold."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.18:P:sight-restored-to-the-blind",
+        "navigation_id": "LUK.18:P:sight-restored-to-the-blind",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Sight Restored to the Blind."
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:LUK.18:P:luke-18-original-chapter-introduction",
+        "navigation_id": "LUK.18:P:luke-18-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Luke 18 · Original Chapter Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.18:P:chapter-18",
+        "navigation_id": "LUK.18:P:chapter-18",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 18"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-1-8-parable-of-the-importunate-widow",
+        "navigation_id": "LUK.18:P:lu-18-1-8-parable-of-the-importunate-widow",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Lu 18:1-8 . Parable of the Importunate Widow."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-9-14-parable-of-the-pharisee-and-the-publican",
+        "navigation_id": "LUK.18:P:lu-18-9-14-parable-of-the-pharisee-and-the-publican",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 18:9-14 . Parable of the Pharisee and the Publican."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-15-17-little-children-brought-to-christ",
+        "navigation_id": "LUK.18:P:lu-18-15-17-little-children-brought-to-christ",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 18:15-17 . Little Children Brought to Christ."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-18-30-the-rich-young-ruler-and-discourse-thereon",
+        "navigation_id": "LUK.18:P:lu-18-18-30-the-rich-young-ruler-and-discourse-thereon",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 18:18-30 . The Rich Young Ruler and Discourse Thereon."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.18:P:lu-18-35-43-blind-man-healed",
+        "navigation_id": "LUK.18:P:lu-18-35-43-blind-man-healed",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 18:35-43 . Blind Man Healed."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/LUK.json; unindexed means unavailable."
+}
