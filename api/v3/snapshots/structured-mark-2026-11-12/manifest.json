@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-mark-2026-11-12",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "MRK"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 96,
+    "original_entries": 1512,
+    "navigation_sections": 164,
+    "reader_visible_entries": 1511,
+    "verse_author_routes": 2128,
+    "sword_chapters": 80,
+    "helloao_chapters": 16,
+    "chapters": 16,
+    "P_source_sections": 164,
+    "inherited_P_references": 0,
+    "P_routed_sections": 164
+  },
+  "chapter_verse_count": {
+    "1": 45,
+    "2": 28,
+    "3": 35,
+    "4": 41,
+    "5": 43,
+    "6": 56,
+    "7": 37,
+    "8": 38,
+    "9": 50,
+    "10": 52,
+    "11": 33,
+    "12": 44,
+    "13": 37,
+    "14": 72,
+    "15": 47,
+    "16": 20
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Mark is canonical book 41, previous 40 snapshots immutable.",
+    "Keil & Delitzsch has no NT commentary in original archive.",
+    "Reader is review staging; owner manually installs release ZIP; no CGBC player changes."
+  ]
+}

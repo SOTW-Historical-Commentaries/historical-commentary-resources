@@ -1,0 +1,846 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-mark-2026-11-12",
+  "canonical_chapter": "MRK.6",
+  "verse_count": 56,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/6.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 6,
+      "indexed_verse_count": 56,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/6.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 5,
+      "reader_visible_entries": 5,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 5,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/6.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 30,
+      "reader_visible_entries": 30,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 30,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/6.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 42,
+      "reader_visible_entries": 42,
+      "navigation_section_count": 5,
+      "indexed_verse_count": 42,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/6.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/6.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 56,
+      "reader_visible_entries": 56,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 56,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        0
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "john-gill": [
+        32
+      ]
+    },
+    "34": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "john-gill": [
+        33
+      ]
+    },
+    "35": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "john-gill": [
+        34
+      ]
+    },
+    "36": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "john-gill": [
+        35
+      ]
+    },
+    "37": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        22
+      ],
+      "john-gill": [
+        36
+      ]
+    },
+    "38": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        23
+      ],
+      "john-gill": [
+        37
+      ]
+    },
+    "39": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        24
+      ],
+      "john-gill": [
+        38
+      ]
+    },
+    "40": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        25
+      ],
+      "john-gill": [
+        39
+      ]
+    },
+    "41": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        26
+      ],
+      "john-gill": [
+        40
+      ]
+    },
+    "42": {
+      "matthew-henry": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        27
+      ],
+      "john-gill": [
+        41
+      ]
+    },
+    "43": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "jamieson-fausset-brown": [
+        28
+      ],
+      "john-gill": [
+        42
+      ]
+    },
+    "44": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "jamieson-fausset-brown": [
+        29
+      ],
+      "john-gill": [
+        43
+      ]
+    },
+    "45": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        23
+      ],
+      "jamieson-fausset-brown": [
+        30
+      ],
+      "john-gill": [
+        44
+      ]
+    },
+    "46": {
+      "matthew-henry": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "john-gill": [
+        45
+      ]
+    },
+    "47": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        24
+      ],
+      "jamieson-fausset-brown": [
+        32
+      ],
+      "john-gill": [
+        46
+      ]
+    },
+    "48": {
+      "matthew-henry": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        33
+      ],
+      "john-gill": [
+        47
+      ]
+    },
+    "49": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        25
+      ],
+      "jamieson-fausset-brown": [
+        34
+      ],
+      "john-gill": [
+        48
+      ]
+    },
+    "50": {
+      "matthew-henry": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        35
+      ],
+      "john-gill": [
+        49
+      ]
+    },
+    "51": {
+      "matthew-henry": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        36
+      ],
+      "john-gill": [
+        50
+      ]
+    },
+    "52": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        26
+      ],
+      "jamieson-fausset-brown": [
+        37
+      ],
+      "john-gill": [
+        51
+      ]
+    },
+    "53": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        27
+      ],
+      "jamieson-fausset-brown": [
+        38
+      ],
+      "john-gill": [
+        52
+      ]
+    },
+    "54": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        28
+      ],
+      "jamieson-fausset-brown": [
+        39
+      ],
+      "john-gill": [
+        53
+      ]
+    },
+    "55": {
+      "matthew-henry": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        40
+      ],
+      "john-gill": [
+        54
+      ]
+    },
+    "56": {
+      "matthew-henry": [
+        4
+      ],
+      "adam-clarke": [
+        29
+      ],
+      "jamieson-fausset-brown": [
+        41
+      ],
+      "john-gill": [
+        55
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:MRK.6:P:mark-6-original-chapter-introduction",
+        "navigation_id": "MRK.6:P:mark-6-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Mark 6 · Original Chapter Introduction"
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.6:P:the-contempt-poured-on-christ",
+        "navigation_id": "MRK.6:P:the-contempt-poured-on-christ",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Contempt Poured on Christ."
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.6:P:the-apostolic-commission",
+        "navigation_id": "MRK.6:P:the-apostolic-commission",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Apostolic Commission."
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.6:P:the-death-of-john-the-baptist",
+        "navigation_id": "MRK.6:P:the-death-of-john-the-baptist",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Death of John the Baptist."
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.6:P:the-miracle-of-the-loaves-and-fishes",
+        "navigation_id": "MRK.6:P:the-miracle-of-the-loaves-and-fishes",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Miracle of the Loaves and Fishes."
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.6:P:christ-walking-on-the-sea",
+        "navigation_id": "MRK.6:P:christ-walking-on-the-sea",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ Walking on the Sea."
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:MRK.6:P:mark-6-original-chapter-introduction",
+        "navigation_id": "MRK.6:P:mark-6-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Mark 6 · Original Chapter Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.6:P:chapter-6",
+        "navigation_id": "MRK.6:P:chapter-6",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "CHAPTER 6"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.6:P:mr-6-1-6-christ-rejected-at-nazareth-mt-13-54-58-lu-4-16-30",
+        "navigation_id": "MRK.6:P:mr-6-1-6-christ-rejected-at-nazareth-mt-13-54-58-lu-4-16-30",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 6:1-6 . Christ Rejected at Nazareth. ( = Mt 13:54-58 ; Lu 4:16-30 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.6:P:mr-6-7-13-mission-of-the-twelve-apostles-mt-10-1-5-15-lu-9-1-6",
+        "navigation_id": "MRK.6:P:mr-6-7-13-mission-of-the-twelve-apostles-mt-10-1-5-15-lu-9-1-6",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 6:7-13 . Mission of the Twelve Apostles. ( = Mt 10:1 , 5-15 ; Lu 9:1-6 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.6:P:mr-6-14-29-herod-thinks-jesus-a-resurrection-of-the-murdered-baptist-account-o",
+        "navigation_id": "MRK.6:P:mr-6-14-29-herod-thinks-jesus-a-resurrection-of-the-murdered-baptist-account-o",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 6:14-29 . Herod Thinks Jesus a Resurrection of the Murdered Baptist--Account of His Death. ( = Mt 14:1-12 ; Lu 9:7-9 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.6:P:mr-6-30-56-the-twelve-on-their-return-having-reported-the-success-of-their-mis",
+        "navigation_id": "MRK.6:P:mr-6-30-56-the-twelve-on-their-return-having-reported-the-success-of-their-mis",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 6:30-56 . The Twelve on Their Return, Having Reported the Success of Their Mission, Jesus Crosses the Sea of Galilee with Them, Teaches the People, and Miraculously Feeds Them to the Number of Five Thousand--He Sends His Disciples by Ship Again to the Western Side, While He Himself Returns Afterwards Walking on the Sea--Incidents on Landing. ( = Mt 14:13-36 ; Lu 9:10-17 ; Joh 6:1-24 )."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/MRK.json; unindexed means unavailable."
+}

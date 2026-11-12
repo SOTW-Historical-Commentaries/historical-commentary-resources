@@ -1,0 +1,477 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-mark-2026-11-12",
+  "canonical_chapter": "MRK.2",
+  "verse_count": 28,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/2.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 3,
+      "reader_visible_entries": 3,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 28,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/2.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 2,
+      "reader_visible_entries": 2,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 2,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/2.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 17,
+      "reader_visible_entries": 17,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 17,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/2.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 12,
+      "reader_visible_entries": 12,
+      "navigation_section_count": 6,
+      "indexed_verse_count": 12,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/2.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/2.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 28,
+      "reader_visible_entries": 28,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 28,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        2
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        0
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        2
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "john-gill": [
+        27
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:MRK.2:P:mark-2-original-chapter-introduction",
+        "navigation_id": "MRK.2:P:mark-2-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Mark 2 · Original Chapter Introduction"
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.2:P:the-healing-of-a-paralytic",
+        "navigation_id": "MRK.2:P:the-healing-of-a-paralytic",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Healing of a Paralytic."
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.2:P:christ-among-publicans-and-sinners",
+        "navigation_id": "MRK.2:P:christ-among-publicans-and-sinners",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ among Publicans and Sinners."
+      },
+      {
+        "section_id": "nav:matthew-henry:MRK.2:P:the-hypocritical-rigour-of-the-pharisees",
+        "navigation_id": "MRK.2:P:the-hypocritical-rigour-of-the-pharisees",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Hypocritical Rigour of the Pharisees."
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:MRK.2:P:mark-2-original-chapter-introduction",
+        "navigation_id": "MRK.2:P:mark-2-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Mark 2 · Original Chapter Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.2:P:chapter-2",
+        "navigation_id": "MRK.2:P:chapter-2",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 2"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.2:P:mr-2-1-12-healing-of-a-paralytic-mt-9-1-8-lu-5-17-26",
+        "navigation_id": "MRK.2:P:mr-2-1-12-healing-of-a-paralytic-mt-9-1-8-lu-5-17-26",
+        "scope": "passage",
+        "role": "passage_overview",
+        "title": "Mr 2:1-12 . Healing of a Paralytic. ( = Mt 9:1-8 ; Lu 5:17-26 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.2:P:mr-2-13-17-levi-s-or-matthew-s-call-and-feast-mt-9-9-13-lu-5-27-32",
+        "navigation_id": "MRK.2:P:mr-2-13-17-levi-s-or-matthew-s-call-and-feast-mt-9-9-13-lu-5-27-32",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 2:13-17 . Levi's (OR Matthew's) Call and Feast. ( = Mt 9:9-13 ; Lu 5:27-32 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.2:P:mr-2-18-22-discourse-on-fasting-mt-9-14-17-lu-5-33-39",
+        "navigation_id": "MRK.2:P:mr-2-18-22-discourse-on-fasting-mt-9-14-17-lu-5-33-39",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 2:18-22 . Discourse on Fasting. ( = Mt 9:14-17 ; Lu 5:33-39 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.2:P:mr-2-23-28-plucking-corn-ears-on-the-sabbath-day-mt-12-1-8-lu-6-1-5",
+        "navigation_id": "MRK.2:P:mr-2-23-28-plucking-corn-ears-on-the-sabbath-day-mt-12-1-8-lu-6-1-5",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Mr 2:23-28 . Plucking Corn-ears on the Sabbath Day. ( = Mt 12:1-8 ; Lu 6:1-5 )."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:MRK.2:P:see-on-mt-12-1-8",
+        "navigation_id": "MRK.2:P:see-on-mt-12-1-8",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "See on Mt 12:1-8 ."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/MRK.json; unindexed means unavailable."
+}
