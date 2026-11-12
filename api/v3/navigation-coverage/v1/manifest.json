@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.31-additive-zechariah",
+  "version": "navigation-coverage-v1.32-additive-malachi",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -42,7 +42,8 @@
     "HAB",
     "ZEP",
     "HAG",
-    "ZEC"
+    "ZEC",
+    "MAL"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -82,7 +83,8 @@
     "HAB": "structured-habakkuk-2026-11-11",
     "ZEP": "structured-zephaniah-2026-11-11",
     "HAG": "structured-haggai-2026-11-11",
-    "ZEC": "structured-zechariah-2026-11-11"
+    "ZEC": "structured-zechariah-2026-11-11",
+    "MAL": "structured-malachi-2026-11-11"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -96,7 +98,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 5813,
+    "original_P_sections": 5843,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -136,7 +138,8 @@
       "HAB": 26,
       "ZEP": 26,
       "HAG": 20,
-      "ZEC": 99
+      "ZEC": 99,
+      "MAL": 30
     },
     "routed_by_book": {
       "GEN": 64,
@@ -176,10 +179,11 @@
       "HAB": 27,
       "ZEP": 27,
       "HAG": 21,
-      "ZEC": 100
+      "ZEC": 100,
+      "MAL": 31
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.30-additive-haggai",
+  "previous_manifest_version": "navigation-coverage-v1.31-additive-zechariah",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -309,6 +313,9 @@
     "Zechariah (14 chapters, 211 KJV verse coordinates), six original historical authors from source-indexed SWORD/HelloAO.",
     "Source-defined book/chapter introductions and bounded original P headings are separately navigable.",
     "Original JFB Prophetical Books introduction reused by immutable source pointer; no earlier snapshot changes.",
-    "All 37 preceding book snapshots and readers remain unchanged."
+    "All 37 preceding book snapshots and readers remain unchanged.",
+    "Malachi (4 chapters; 55 KJV verse coordinates), native original historical commentary sources.",
+    "Original source-backed introductions and headings in P; native binary index gaps remain authoritative.",
+    "All prior 38 book snapshots preserved; manual upload only."
   ]
 }
