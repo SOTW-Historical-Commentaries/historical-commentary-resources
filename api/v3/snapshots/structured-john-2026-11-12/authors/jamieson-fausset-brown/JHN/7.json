@@ -1,0 +1,537 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-john-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "JHN",
+  "chapter": 7,
+  "canonical_chapter": "JHN.7",
+  "versification": "KJV",
+  "verse_count": 53,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"John\" sID=\"gen28609\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO JOHN\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO JOHN</title> <div sID=\"gen28610\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen28610\" type=\"x-p\"/> ",
+      "source_record_sha256": "63ae52e5b2992fbfed83dee61163dc5460774a7324823ebc3ddbb37503294063",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 0,
+        "length": 351
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"7\" osisID=\"John.7\" sID=\"John.7\"/><div eID=\"gen29023\" type=\"x-p\"/> ",
+      "source_record_sha256": "67cfd5df7d1c349a201fe73f88d47ce788239191337371e5a9f37dd566ad725c",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 204731,
+        "length": 78
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:JHN.7.1-2:4:204809:1105",
+      "passage_start": "JHN.7.1",
+      "passage_end": "JHN.7.2",
+      "start_verse": 1,
+      "end_verse": 2,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15056\"/><title type=\"x-s2\">CHAPTER 7</title> <title type=\"x-s3\"><reference osisRef=\"John.7.1-John.7.53\">Joh 7:1-53</reference>. Christ at the Feast of Tabernacles.</title> <div sID=\"gen29024\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15056\"/><hi type=\"bold\">1-2. After these things--</hi>that is, all that is recorded after <reference osisRef=\"John.5.18\">Joh 5:18</reference>.<div eID=\"gen29024\" type=\"x-p\"/> <div sID=\"gen29025\" type=\"x-p\"/><hi type=\"bold\">walked in Galilee--</hi>continuing His labors there, instead of going to Judea, as might have been expected.<div eID=\"gen29025\" type=\"x-p\"/> <div sID=\"gen29026\" type=\"x-p\"/><hi type=\"bold\">sought to kill him--</hi>referring back to <reference osisRef=\"John.5.18\">Joh 5:18</reference>. Hence it appears that our Lord did not attend the Passover mentioned in <reference osisRef=\"John.6.4\">Joh 6:4</reference>--being the third since His ministry began, if the feast mentioned in <reference osisRef=\"John.5.1\">Joh 5:1</reference> was a Passover. <div eID=\"gen29026\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 7 Joh 7:1-53 . Christ at the Feast of Tabernacles. 1-2. After these things-- that is, all that is recorded after Joh 5:18 . walked in Galilee-- continuing His labors there, instead of going to Judea, as might have been expected. sought to kill him-- referring back to Joh 5:18 . Hence it appears that our Lord did not attend the Passover mentioned in Joh 6:4 --being the third since His ministry began, if the feast mentioned in Joh 5:1 was a Passover.",
+      "source_record_sha256": "816204c53b4169c6b7678aae86f20946d5667856ed3c83f449ae36508878babf",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 204809,
+        "length": 1105
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.1-2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-2. After these things-- that is, all that is recorded after Joh 5:18 . walked in Galilee-- continuing His labors there, instead of going to Judea, as might have been expected. sought to kill him-- referring back to Joh 5:18 . Hence it appears that our Lord did not attend the Passover mentioned in Joh 6:4 --being the third since His ministry began, if the feast mentioned in Joh 5:1 was a Passover.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        316,
+        1105
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-2. After these things--</hi>that is, all that is recorded after <reference osisRef=\"John.5.18\">Joh 5:18</reference>.<div eID=\"gen29024\" type=\"x-p\"/> <div sID=\"gen29025\" type=\"x-p\"/><hi type=\"bold\">walked in Galilee--</hi>continuing His labors there, instead of going to Judea, as might have been expected.<div eID=\"gen29025\" type=\"x-p\"/> <div sID=\"gen29026\" type=\"x-p\"/><hi type=\"bold\">sought to kill him--</hi>referring back to <reference osisRef=\"John.5.18\">Joh 5:18</reference>. Hence it appears that our Lord did not attend the Passover mentioned in <reference osisRef=\"John.6.4\">Joh 6:4</reference>--being the third since His ministry began, if the feast mentioned in <reference osisRef=\"John.5.1\">Joh 5:1</reference> was a Passover. <div eID=\"gen29026\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.3-5:4:206461:1604",
+      "passage_start": "JHN.7.3",
+      "passage_end": "JHN.7.5",
+      "start_verse": 3,
+      "end_verse": 5,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15058\"/><div sID=\"gen29028\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15058\"/><hi type=\"bold\">3-5. His brethren said--</hi>(See on <reference osisRef=\"Matt.13.54-Matt.13.56\">Mt 13:54-56</reference>).<div eID=\"gen29028\" type=\"x-p\"/> <div sID=\"gen29029\" type=\"x-p\"/><hi type=\"bold\">Depart ... into Judea, &amp;c.--</hi>In <reference osisRef=\"John.7.5\">Joh 7:5</reference> this speech is ascribed to their unbelief. But as they were in the \"upper room\" among the one hundred and twenty disciples who waited for the descent of the Spirit after the Lord's ascension (<reference osisRef=\"Acts.1.14\">Ac 1:14</reference>), they seem to have had their prejudices removed, perhaps after His resurrection. Indeed here their language is more that of strong prejudice and suspicion (such as near relatives, even the best, too frequently show in such cases), than from unbelief. There was also, probably, a tincture of vanity in it. \"Thou hast many disciples in Judea; here in Galilee they are fast dropping off; it is not like one who advances the claims Thou dost to linger so long here, away from the city of our solemnities, where surely 'the kingdom of our father David' is to be set up: 'seeking,' as Thou dost, 'to be known openly,' those miracles of Thine ought not to be confined to this distant corner, but submitted at headquarters to the inspection of 'the world.'\" (See <reference osisRef=\"Ps.69.8\">Psa 69:8</reference>, \"I am become a stranger to my brethren, an alien unto my mother's children!\") <div eID=\"gen29029\" type=\"x-p\"/>",
+      "content_plain": "3-5. His brethren said-- (See on Mt 13:54-56 ). Depart ... into Judea, &c.-- In Joh 7:5 this speech is ascribed to their unbelief. But as they were in the \"upper room\" among the one hundred and twenty disciples who waited for the descent of the Spirit after the Lord's ascension ( Ac 1:14 ), they seem to have had their prejudices removed, perhaps after His resurrection. Indeed here their language is more that of strong prejudice and suspicion (such as near relatives, even the best, too frequently show in such cases), than from unbelief. There was also, probably, a tincture of vanity in it. \"Thou hast many disciples in Judea; here in Galilee they are fast dropping off; it is not like one who advances the claims Thou dost to linger so long here, away from the city of our solemnities, where surely 'the kingdom of our father David' is to be set up: 'seeking,' as Thou dost, 'to be known openly,' those miracles of Thine ought not to be confined to this distant corner, but submitted at headquarters to the inspection of 'the world.'\" (See Psa 69:8 , \"I am become a stranger to my brethren, an alien unto my mother's children!\")",
+      "source_record_sha256": "4c4e298c3f5c2eddb5d035fb7b6aa3d1e9888b9ce227d40c4beea90bcfcddc84",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 206461,
+        "length": 1604
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.3-5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3-5. His brethren said-- (See on Mt 13:54-56 ). Depart ... into Judea, &c.-- In Joh 7:5 this speech is ascribed to their unbelief. But as they were in the \"upper room\" among the one hundred and twenty disciples who waited for the descent of the Spirit after the Lord's ascension ( Ac 1:14 ), they seem to have had their prejudices removed, perhaps after His resurrection. Indeed here their language is more that of strong prejudice and suspicion (such as near relatives, even the best, too frequently show in such cases), than from unbelief. There was also, probably, a tincture of vanity in it. \"Thou hast many disciples in Judea; here in Galilee they are fast dropping off; it is not like one who advances the claims Thou dost to linger so long here, away from the city of our solemnities, where surely 'the kingdom of our father David' is to be set up: 'seeking,' as Thou dost, 'to be known openly,' those miracles of Thine ought not to be confined to this distant corner, but submitted at headquarters to the inspection of 'the world.'\" (See Psa 69:8 , \"I am become a stranger to my brethren, an alien unto my mother's children!\")"
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.6-10:4:208065:1040",
+      "passage_start": "JHN.7.6",
+      "passage_end": "JHN.7.10",
+      "start_verse": 6,
+      "end_verse": 10,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15059\"/><div sID=\"gen29030\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15059\"/><hi type=\"bold\">6-10. My time is not yet come--</hi>that is, for showing Himself to the world.<div eID=\"gen29030\" type=\"x-p\"/> <div sID=\"gen29031\" type=\"x-p\"/><hi type=\"bold\">your time is always ready--</hi>that is \"It matters little when we go up, for ye have no great plans in life, and nothing hangs upon your movements. With Me it is otherwise; on every movement of Mine there hangs what ye know not. The world has no quarrel with you, for ye bear no testimony against it, and so draw down upon yourselves none of its wrath; but I am here to lift up My voice against its hypocrisy, and denounce its abominations; therefore it cannot endure Me, and one false step might precipitate its fury on its Victim's head before the time. Away, therefore, to the feast as soon as it suits you; I follow at the fitting moment, but 'My time is not yet full come.'\" <div eID=\"gen29031\" type=\"x-p\"/>",
+      "content_plain": "6-10. My time is not yet come-- that is, for showing Himself to the world. your time is always ready-- that is \"It matters little when we go up, for ye have no great plans in life, and nothing hangs upon your movements. With Me it is otherwise; on every movement of Mine there hangs what ye know not. The world has no quarrel with you, for ye bear no testimony against it, and so draw down upon yourselves none of its wrath; but I am here to lift up My voice against its hypocrisy, and denounce its abominations; therefore it cannot endure Me, and one false step might precipitate its fury on its Victim's head before the time. Away, therefore, to the feast as soon as it suits you; I follow at the fitting moment, but 'My time is not yet full come.'\"",
+      "source_record_sha256": "f3399e0362b502dba08718c9c1a14f6bbb988f3144594dc8f6c7130860142ada",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 208065,
+        "length": 1040
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.6-10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6-10. My time is not yet come-- that is, for showing Himself to the world. your time is always ready-- that is \"It matters little when we go up, for ye have no great plans in life, and nothing hangs upon your movements. With Me it is otherwise; on every movement of Mine there hangs what ye know not. The world has no quarrel with you, for ye bear no testimony against it, and so draw down upon yourselves none of its wrath; but I am here to lift up My voice against its hypocrisy, and denounce its abominations; therefore it cannot endure Me, and one false step might precipitate its fury on its Victim's head before the time. Away, therefore, to the feast as soon as it suits you; I follow at the fitting moment, but 'My time is not yet full come.'\""
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.11-13:4:209646:504",
+      "passage_start": "JHN.7.11",
+      "passage_end": "JHN.7.13",
+      "start_verse": 11,
+      "end_verse": 13,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15061\"/><div sID=\"gen29034\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15061\"/><hi type=\"bold\">11-13. Jews--</hi>the rulers.<div eID=\"gen29034\" type=\"x-p\"/> <div sID=\"gen29035\" type=\"x-p\"/><hi type=\"bold\">sought him--</hi>for no good end.<div eID=\"gen29035\" type=\"x-p\"/> <div sID=\"gen29036\" type=\"x-p\"/><hi type=\"bold\">Where is He?--</hi>He had not been at Jerusalem for probably a year and a half. <div eID=\"gen29036\" type=\"x-p\"/>",
+      "content_plain": "11-13. Jews-- the rulers. sought him-- for no good end. Where is He?-- He had not been at Jerusalem for probably a year and a half.",
+      "source_record_sha256": "8d771057c4f8d1b18941feb961753af86ddba7aa90b3e24792d2e6db7a68888c",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 209646,
+        "length": 504
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.11-13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11-13. Jews-- the rulers. sought him-- for no good end. Where is He?-- He had not been at Jerusalem for probably a year and a half."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.14-15:4:211160:832",
+      "passage_start": "JHN.7.14",
+      "passage_end": "JHN.7.15",
+      "start_verse": 14,
+      "end_verse": 15,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15064\"/><div sID=\"gen29041\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15064\"/><hi type=\"bold\">14-15. about the midst of the feast--</hi>the fourth or fifth day of the eight, during which it lasted.<div eID=\"gen29041\" type=\"x-p\"/> <div sID=\"gen29042\" type=\"x-p\"/><hi type=\"bold\">went up into the temple and taught--</hi>The word denotes formal and continuous teaching, as distinguished from mere casual sayings. This was probably the first time that He did so thus openly in Jerusalem. He had kept back till the feast was half through, to let the stir about Him subside, and entering the city unexpectedly, had begun His \"teaching\" at the temple, and created a certain awe, before the wrath of the rulers had time to break it. <div eID=\"gen29042\" type=\"x-p\"/>",
+      "content_plain": "14-15. about the midst of the feast-- the fourth or fifth day of the eight, during which it lasted. went up into the temple and taught-- The word denotes formal and continuous teaching, as distinguished from mere casual sayings. This was probably the first time that He did so thus openly in Jerusalem. He had kept back till the feast was half through, to let the stir about Him subside, and entering the city unexpectedly, had begun His \"teaching\" at the temple, and created a certain awe, before the wrath of the rulers had time to break it.",
+      "source_record_sha256": "2279fefcc8b8e016340d1b686383c57a4252f0a455053ca5da384fcc71040880",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 211160,
+        "length": 832
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.14-15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14-15. about the midst of the feast-- the fourth or fifth day of the eight, during which it lasted. went up into the temple and taught-- The word denotes formal and continuous teaching, as distinguished from mere casual sayings. This was probably the first time that He did so thus openly in Jerusalem. He had kept back till the feast was half through, to let the stir about Him subside, and entering the city unexpectedly, had begun His \"teaching\" at the temple, and created a certain awe, before the wrath of the rulers had time to break it."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.16-18:4:212810:304",
+      "passage_start": "JHN.7.16",
+      "passage_end": "JHN.7.18",
+      "start_verse": 16,
+      "end_verse": 18,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15066\"/><div sID=\"gen29045\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15066\"/><hi type=\"bold\">16-18. doctrine ... not mine, &amp;c.--</hi>that is, from Myself unauthorized; I am here by commission. <div eID=\"gen29045\" type=\"x-p\"/>",
+      "content_plain": "16-18. doctrine ... not mine, &c.-- that is, from Myself unauthorized; I am here by commission.",
+      "source_record_sha256": "a2abce01244c81353d3c5d8ad0ef8b5337aff894b5b955fe055c7bd362661ca8",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 212810,
+        "length": 304
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.16-18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16-18. doctrine ... not mine, &c.-- that is, from Myself unauthorized; I am here by commission."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.19-20:4:214214:424",
+      "passage_start": "JHN.7.19",
+      "passage_end": "JHN.7.20",
+      "start_verse": 19,
+      "end_verse": 20,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15069\"/><div sID=\"gen29049\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15069\"/><hi type=\"bold\">19-20. Did not Moses, &amp;c.--</hi>that is, In opposing Me ye pretend zeal for Moses, but to the spirit and end of that law which he gave ye are total strangers, and in \"going about to kill Me\" ye are its greatest enemies. <div eID=\"gen29049\" type=\"x-p\"/>",
+      "content_plain": "19-20. Did not Moses, &c.-- that is, In opposing Me ye pretend zeal for Moses, but to the spirit and end of that law which he gave ye are total strangers, and in \"going about to kill Me\" ye are its greatest enemies.",
+      "source_record_sha256": "9f251862b00c9134438545649a9b395c4d5e69dfdb67a3a98bb20aba06aefb9d",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 214214,
+        "length": 424
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.19-20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19-20. Did not Moses, &c.-- that is, In opposing Me ye pretend zeal for Moses, but to the spirit and end of that law which he gave ye are total strangers, and in \"going about to kill Me\" ye are its greatest enemies."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.21-24:4:215070:913",
+      "passage_start": "JHN.7.21",
+      "passage_end": "JHN.7.24",
+      "start_verse": 21,
+      "end_verse": 24,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15071\"/><div sID=\"gen29051\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15071\"/><hi type=\"bold\">21-24. I have done one work, &amp;c.--</hi>Taking no notice of the popular appeal, as there were those there who knew well enough what He meant, He recalls His cure of the impotent man, and the murderous rage it had kindled (<reference osisRef=\"John.5.9\">Joh 5:9</reference>, <reference osisRef=\"John.16.18\">16, 18</reference>). It may seem strange that He should refer to an event a year and a half old, as if but newly done. But their present attempt \"to kill Him\" brought up the past scene vividly, not only to Him, but without doubt to them, too, if indeed they had ever forgotten it; and by this fearless reference to it, exposing their hypocrisy and dark designs, He gave His position great moral strength. <div eID=\"gen29051\" type=\"x-p\"/>",
+      "content_plain": "21-24. I have done one work, &c.-- Taking no notice of the popular appeal, as there were those there who knew well enough what He meant, He recalls His cure of the impotent man, and the murderous rage it had kindled ( Joh 5:9 , 16, 18 ). It may seem strange that He should refer to an event a year and a half old, as if but newly done. But their present attempt \"to kill Him\" brought up the past scene vividly, not only to Him, but without doubt to them, too, if indeed they had ever forgotten it; and by this fearless reference to it, exposing their hypocrisy and dark designs, He gave His position great moral strength.",
+      "source_record_sha256": "3dc76d9a61f568891bad478dad283ecd2de4fa22aebd45571806dddc4b3d2052",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 215070,
+        "length": 913
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.21-24",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "21-24. I have done one work, &c.-- Taking no notice of the popular appeal, as there were those there who knew well enough what He meant, He recalls His cure of the impotent man, and the murderous rage it had kindled ( Joh 5:9 , 16, 18 ). It may seem strange that He should refer to an event a year and a half old, as if but newly done. But their present attempt \"to kill Him\" brought up the past scene vividly, not only to Him, but without doubt to them, too, if indeed they had ever forgotten it; and by this fearless reference to it, exposing their hypocrisy and dark designs, He gave His position great moral strength."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.25-27:4:216923:381",
+      "passage_start": "JHN.7.25",
+      "passage_end": "JHN.7.27",
+      "start_verse": 25,
+      "end_verse": 27,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15074\"/><div sID=\"gen29054\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15074\"/><hi type=\"bold\">25-27. some of them of Jerusalem--</hi>the citizens, who, knowing the long-formed purpose of the rulers to put Jesus to death, wondered that they were now letting Him teach openly. <div eID=\"gen29054\" type=\"x-p\"/>",
+      "content_plain": "25-27. some of them of Jerusalem-- the citizens, who, knowing the long-formed purpose of the rulers to put Jesus to death, wondered that they were now letting Him teach openly.",
+      "source_record_sha256": "470ae6788ff96183ffc01fa3ffa679ecb3cd5cea16c594e9c203d66080b1eeac",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 216923,
+        "length": 381
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.25-27",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "25-27. some of them of Jerusalem-- the citizens, who, knowing the long-formed purpose of the rulers to put Jesus to death, wondered that they were now letting Him teach openly."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.28-29:4:218053:689",
+      "passage_start": "JHN.7.28",
+      "passage_end": "JHN.7.29",
+      "start_verse": 28,
+      "end_verse": 29,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15077\"/><div sID=\"gen29057\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15077\"/><hi type=\"bold\">28-29. cried Jesus--</hi>in a louder tone, and more solemn, witnessing style than usual.<div eID=\"gen29057\" type=\"x-p\"/> <div sID=\"gen29058\" type=\"x-p\"/><hi type=\"bold\">Ye both, &amp;c.--</hi>that is, \"Yes, ye know both Myself and My local parentage, and (yet) I am not come of Myself.\"<div eID=\"gen29058\" type=\"x-p\"/> <div sID=\"gen29059\" type=\"x-p\"/><hi type=\"bold\">but he that sent me is true, &amp;c.--</hi>Probably the meaning is, \"He that sent Me is the only real Sender of any one.\" <div eID=\"gen29059\" type=\"x-p\"/>",
+      "content_plain": "28-29. cried Jesus-- in a louder tone, and more solemn, witnessing style than usual. Ye both, &c.-- that is, \"Yes, ye know both Myself and My local parentage, and (yet) I am not come of Myself.\" but he that sent me is true, &c.-- Probably the meaning is, \"He that sent Me is the only real Sender of any one.\"",
+      "source_record_sha256": "fbba2f456b81d23f9fc62b7e2db88e93c7a104068fbb75ada26adcbf349199a2",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 218053,
+        "length": 689
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.28-29",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "28-29. cried Jesus-- in a louder tone, and more solemn, witnessing style than usual. Ye both, &c.-- that is, \"Yes, ye know both Myself and My local parentage, and (yet) I am not come of Myself.\" but he that sent me is true, &c.-- Probably the meaning is, \"He that sent Me is the only real Sender of any one.\""
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.30-32:4:218742:296",
+      "passage_start": "JHN.7.30",
+      "passage_end": "JHN.7.32",
+      "start_verse": 30,
+      "end_verse": 32,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15078\"/><div sID=\"gen29060\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15078\"/><hi type=\"bold\">30-32. sought to take ... none laid hands--</hi>their impotence being equal to their malignity. <div eID=\"gen29060\" type=\"x-p\"/>",
+      "content_plain": "30-32. sought to take ... none laid hands-- their impotence being equal to their malignity.",
+      "source_record_sha256": "34764c29e40323f1cf9bf080517914f622b475179e781d3e968e8cc8421a89e4",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 218742,
+        "length": 296
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.30-32",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "30-32. sought to take ... none laid hands-- their impotence being equal to their malignity."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.33-34:4:219927:583",
+      "passage_start": "JHN.7.33",
+      "passage_end": "JHN.7.34",
+      "start_verse": 33,
+      "end_verse": 34,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15081\"/><div sID=\"gen29063\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15081\"/><hi type=\"bold\">33-34. Yet a little while, &amp;c.--</hi>that is, \"Your desire to be rid of Me will be for you all too soon fulfilled. Yet a little while and we part company--for ever; for I go whither ye cannot come: nor, even when ye at length seek Him whom ye now despise, shall ye be able to find Him\"--referring not to any penitential, but to purely selfish cries in their time of desperation. <div eID=\"gen29063\" type=\"x-p\"/>",
+      "content_plain": "33-34. Yet a little while, &c.-- that is, \"Your desire to be rid of Me will be for you all too soon fulfilled. Yet a little while and we part company--for ever; for I go whither ye cannot come: nor, even when ye at length seek Him whom ye now despise, shall ye be able to find Him\"--referring not to any penitential, but to purely selfish cries in their time of desperation.",
+      "source_record_sha256": "9400f72543fe1d42b1b68275a3db81f00b304a6b145d1e1696ce1f85c011ffcb",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 219927,
+        "length": 583
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.33-34",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "33-34. Yet a little while, &c.-- that is, \"Your desire to be rid of Me will be for you all too soon fulfilled. Yet a little while and we part company--for ever; for I go whither ye cannot come: nor, even when ye at length seek Him whom ye now despise, shall ye be able to find Him\"--referring not to any penitential, but to purely selfish cries in their time of desperation."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.35-36:4:220510:371",
+      "passage_start": "JHN.7.35",
+      "passage_end": "JHN.7.36",
+      "start_verse": 35,
+      "end_verse": 36,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15082\"/><div sID=\"gen29064\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15082\"/><hi type=\"bold\">35-36. Whither will he go, &amp;c.--</hi>They cannot comprehend Him, but seem awed by the solemn grandeur of His warning. He takes no notice, however, of their questions. <div eID=\"gen29064\" type=\"x-p\"/>",
+      "content_plain": "35-36. Whither will he go, &c.-- They cannot comprehend Him, but seem awed by the solemn grandeur of His warning. He takes no notice, however, of their questions.",
+      "source_record_sha256": "ee4285b6396d9eeed1ddccdbc470aa8ecfb08d9ff4d979c9368116f660d1a81d",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 220510,
+        "length": 371
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.35-36",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "35-36. Whither will he go, &c.-- They cannot comprehend Him, but seem awed by the solemn grandeur of His warning. He takes no notice, however, of their questions."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.37-39:4:220881:3781",
+      "passage_start": "JHN.7.37",
+      "passage_end": "JHN.7.39",
+      "start_verse": 37,
+      "end_verse": 39,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15083\"/><div sID=\"gen29065\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15083\"/><hi type=\"bold\">37-39. the last day, that great day of the feast--</hi>the eighth (<reference osisRef=\"Lev.23.39\">Le 23:39</reference>). It was a sabbath, the last feast day of the year, and distinguished by very remarkable ceremonies. \"The generally joyous character of this feast broke out on this day into loud jubilation, particularly at the solemn moment when the priest, as was done on every day of this festival, brought forth, in golden vessels, water from the stream of Siloah, which flowed under the temple-mountain, and solemnly poured it upon the altar. Then the words of <reference osisRef=\"Isa.12.3\">Is 12:3</reference> were sung, With joy shall ye draw water out of the wells of Salvation, and thus the symbolical reference of this act, intimated in <reference osisRef=\"John.7.39\">Joh 7:39</reference>, was expressed\" [Olshausen]. So ecstatic was the joy with which this ceremony was performed--accompanied with sound of trumpets--that it used to be said, \"Whoever had not witnessed it had never seen rejoicing at all\" [Lightfoot].<div eID=\"gen29065\" type=\"x-p\"/> <div sID=\"gen29066\" type=\"x-p\"/><hi type=\"bold\">Jesus stood--</hi>On this high occasion, then, He who had already drawn all eyes upon Him by His supernatural power and unrivalled teaching--\"Jesus stood,\" probably in some elevated position.<div eID=\"gen29066\" type=\"x-p\"/> <div sID=\"gen29067\" type=\"x-p\"/><hi type=\"bold\">and cried--</hi>as if making proclamation in the audience of all the people.<div eID=\"gen29067\" type=\"x-p\"/> <div sID=\"gen29068\" type=\"x-p\"/><hi type=\"bold\">If any man thirst, let him come unto me, and drink!--</hi>What an offer! The deepest cravings of the human spirit are here, as in the Old Testament, expressed by the figure of \"thirst,\" and the eternal satisfaction of them by \"drinking.\" To the woman of Samaria He had said almost the same thing, and in the same terms (<reference osisRef=\"John.4.13\">Joh 4:13</reference>, <reference osisRef=\"John.4.14\">14</reference>). But what to her was simply affirmed to her as a fact, is here turned into a world-wide proclamation; and whereas there, the gift by Him of the living water is the most prominent idea--in contrast with her hesitation to give Him the perishable water of Jacob's well--here, the prominence is given to Himself as the Well spring of all satisfaction. He had in Galilee invited all the WEARY AND HEAVY-LADEN of the human family to come under His wing and they should find REST (<reference osisRef=\"Matt.11.28\">Mt 11:28</reference>), which is just the same deep want, and the same profound relief of it, under another and equally grateful figure. He had in the synagogue of Capernaum (<reference osisRef=\"John.6.36\">Joh 6:36</reference>) announced Himself, in every variety of form, as \"the Bread of Life,\" and as both able and authorized to appease the \"HUNGER,\" and quench the \"THIRST,\" of all that apply to Him. There is, and there can be, nothing beyond that here. But what was on all those occasions uttered in private, or addressed to a provincial audience, is here sounded forth in the streets of the great religious metropolis, and in language of surpassing majesty, simplicity, and grace. It is just Jehovah's ancient proclamation now sounding forth through human flesh, \"Ho, every one that thirsteth, come ye to the waters, and he that hath no Money!\" &amp;c. (<reference osisRef=\"Isa.55.1\">Is 55:1</reference>). In this light we have but two alternatives; either to say with Caiaphas of Him that uttered such words, \"He is guilty of death,\" or falling down before Him to exclaim with Thomas, \" My Lord AND MY God!\" <div eID=\"gen29068\" type=\"x-p\"/>",
+      "content_plain": "37-39. the last day, that great day of the feast-- the eighth ( Le 23:39 ). It was a sabbath, the last feast day of the year, and distinguished by very remarkable ceremonies. \"The generally joyous character of this feast broke out on this day into loud jubilation, particularly at the solemn moment when the priest, as was done on every day of this festival, brought forth, in golden vessels, water from the stream of Siloah, which flowed under the temple-mountain, and solemnly poured it upon the altar. Then the words of Is 12:3 were sung, With joy shall ye draw water out of the wells of Salvation, and thus the symbolical reference of this act, intimated in Joh 7:39 , was expressed\" [Olshausen]. So ecstatic was the joy with which this ceremony was performed--accompanied with sound of trumpets--that it used to be said, \"Whoever had not witnessed it had never seen rejoicing at all\" [Lightfoot]. Jesus stood-- On this high occasion, then, He who had already drawn all eyes upon Him by His supernatural power and unrivalled teaching--\"Jesus stood,\" probably in some elevated position. and cried-- as if making proclamation in the audience of all the people. If any man thirst, let him come unto me, and drink!-- What an offer! The deepest cravings of the human spirit are here, as in the Old Testament, expressed by the figure of \"thirst,\" and the eternal satisfaction of them by \"drinking.\" To the woman of Samaria He had said almost the same thing, and in the same terms ( Joh 4:13 , 14 ). But what to her was simply affirmed to her as a fact, is here turned into a world-wide proclamation; and whereas there, the gift by Him of the living water is the most prominent idea--in contrast with her hesitation to give Him the perishable water of Jacob's well--here, the prominence is given to Himself as the Well spring of all satisfaction. He had in Galilee invited all the WEARY AND HEAVY-LADEN of the human family to come under His wing and they should find REST ( Mt 11:28 ), which is just the same deep want, and the same profound relief of it, under another and equally grateful figure. He had in the synagogue of Capernaum ( Joh 6:36 ) announced Himself, in every variety of form, as \"the Bread of Life,\" and as both able and authorized to appease the \"HUNGER,\" and quench the \"THIRST,\" of all that apply to Him. There is, and there can be, nothing beyond that here. But what was on all those occasions uttered in private, or addressed to a provincial audience, is here sounded forth in the streets of the great religious metropolis, and in language of surpassing majesty, simplicity, and grace. It is just Jehovah's ancient proclamation now sounding forth through human flesh, \"Ho, every one that thirsteth, come ye to the waters, and he that hath no Money!\" &c. ( Is 55:1 ). In this light we have but two alternatives; either to say with Caiaphas of Him that uttered such words, \"He is guilty of death,\" or falling down before Him to exclaim with Thomas, \" My Lord AND MY God!\"",
+      "source_record_sha256": "7a658cec53355fd8b01e487adaf15c76ede334153e3f2a385bb64239bccb9dd4",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 220881,
+        "length": 3781
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.37-39",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "37-39. the last day, that great day of the feast-- the eighth ( Le 23:39 ). It was a sabbath, the last feast day of the year, and distinguished by very remarkable ceremonies. \"The generally joyous character of this feast broke out on this day into loud jubilation, particularly at the solemn moment when the priest, as was done on every day of this festival, brought forth, in golden vessels, water from the stream of Siloah, which flowed under the temple-mountain, and solemnly poured it upon the altar. Then the words of Is 12:3 were sung, With joy shall ye draw water out of the wells of Salvation, and thus the symbolical reference of this act, intimated in Joh 7:39 , was expressed\" [Olshausen]. So ecstatic was the joy with which this ceremony was performed--accompanied with sound of trumpets--that it used to be said, \"Whoever had not witnessed it had never seen rejoicing at all\" [Lightfoot]. Jesus stood-- On this high occasion, then, He who had already drawn all eyes upon Him by His supernatural power and unrivalled teaching--\"Jesus stood,\" probably in some elevated position. and cried-- as if making proclamation in the audience of all the people. If any man thirst, let him come unto me, and drink!-- What an offer! The deepest cravings of the human spirit are here, as in the Old Testament, expressed by the figure of \"thirst,\" and the eternal satisfaction of them by \"drinking.\" To the woman of Samaria He had said almost the same thing, and in the same terms ( Joh 4:13 , 14 ). But what to her was simply affirmed to her as a fact, is here turned into a world-wide proclamation; and whereas there, the gift by Him of the living water is the most prominent idea--in contrast with her hesitation to give Him the perishable water of Jacob's well--here, the prominence is given to Himself as the Well spring of all satisfaction. He had in Galilee invited all the WEARY AND HEAVY-LADEN of the human family to come under His wing and they should find REST ( Mt 11:28 ), which is just the same deep want, and the same profound relief of it, under another and equally grateful figure. He had in the synagogue of Capernaum ( Joh 6:36 ) announced Himself, in every variety of form, as \"the Bread of Life,\" and as both able and authorized to appease the \"HUNGER,\" and quench the \"THIRST,\" of all that apply to Him. There is, and there can be, nothing beyond that here. But what was on all those occasions uttered in private, or addressed to a provincial audience, is here sounded forth in the streets of the great religious metropolis, and in language of surpassing majesty, simplicity, and grace. It is just Jehovah's ancient proclamation now sounding forth through human flesh, \"Ho, every one that thirsteth, come ye to the waters, and he that hath no Money!\" &c. ( Is 55:1 ). In this light we have but two alternatives; either to say with Caiaphas of Him that uttered such words, \"He is guilty of death,\" or falling down before Him to exclaim with Thomas, \" My Lord AND MY God!\""
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.40-43:4:227863:349",
+      "passage_start": "JHN.7.40",
+      "passage_end": "JHN.7.43",
+      "start_verse": 40,
+      "end_verse": 43,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15086\"/><div sID=\"gen29076\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15086\"/><hi type=\"bold\">40-43. Many ... when they heard this ... said, Of a truth, &amp;c.--</hi>The only wonder is they did not all say it. \"But their minds were blinded.\" <div eID=\"gen29076\" type=\"x-p\"/>",
+      "content_plain": "40-43. Many ... when they heard this ... said, Of a truth, &c.-- The only wonder is they did not all say it. \"But their minds were blinded.\"",
+      "source_record_sha256": "141954d71b9fb2e34bdbaa80cecd0113153768d69e65f43a964e0884183e4548",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 227863,
+        "length": 349
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.40-43",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "40-43. Many ... when they heard this ... said, Of a truth, &c.-- The only wonder is they did not all say it. \"But their minds were blinded.\""
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.44-49:4:229356:310",
+      "passage_start": "JHN.7.44",
+      "passage_end": "JHN.7.49",
+      "start_verse": 44,
+      "end_verse": 49,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15089\"/><div sID=\"gen29080\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15089\"/><hi type=\"bold\">44-49. would have taken him; but, &amp;c.--</hi>(See on <reference osisRef=\"John.7.30\">Joh 7:30</reference>). <div eID=\"gen29080\" type=\"x-p\"/>",
+      "content_plain": "44-49. would have taken him; but, &c.-- (See on Joh 7:30 ).",
+      "source_record_sha256": "4507237e047446fe024c880a51b3362c8342f3df52fffd7758eac144cbd934a7",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 229356,
+        "length": 310
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.44-49",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "44-49. would have taken him; but, &c.-- (See on Joh 7:30 )."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.7.50-53:4:232447:344",
+      "passage_start": "JHN.7.50",
+      "passage_end": "JHN.7.53",
+      "start_verse": 50,
+      "end_verse": 53,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15095\"/><div sID=\"gen29089\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15095\"/><hi type=\"bold\">50-53. Nicodemus--</hi>reappearing to us after nearly three years' absence from the history, as a member of the council, probably then sitting. <div eID=\"gen29089\" type=\"x-p\"/>",
+      "content_plain": "50-53. Nicodemus-- reappearing to us after nearly three years' absence from the history, as a member of the council, probably then sitting.",
+      "source_record_sha256": "ca5992f4def8bd027a0ff4cf0c992a7601827c415b63b31200bda0be5bddaf91",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 232447,
+        "length": 344
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.7.50-53",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "50-53. Nicodemus-- reappearing to us after nearly three years' absence from the history, as a member of the council, probably then sitting."
+    }
+  ],
+  "indexed_verse_count": 53,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_JHN_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 17
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.7:P:chapter-7",
+      "navigation_id": "JHN.7:P:chapter-7",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 7",
+      "content_plain": "CHAPTER 7",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 7</title> ",
+      "source_entry_id": "sword:jfb:JHN.7.1-2:4:204809:1105",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        97
+      ],
+      "source_fragment_sha256": "3f1b6bd29d37bb51c97c357f21c405cc18e4ea95e2663f4f7a2a238a24f3abbf",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.7.1",
+        "JHN.7.2"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.7:P:joh-7-1-53-christ-at-the-feast-of-tabernacles",
+      "navigation_id": "JHN.7:P:joh-7-1-53-christ-at-the-feast-of-tabernacles",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Joh 7:1-53 . Christ at the Feast of Tabernacles.",
+      "content_plain": "Joh 7:1-53 . Christ at the Feast of Tabernacles.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"John.7.1-John.7.53\">Joh 7:1-53</reference>. Christ at the Feast of Tabernacles.</title> <div sID=\"gen29024\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15056\"/>",
+      "source_entry_id": "sword:jfb:JHN.7.1-2:4:204809:1105",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        97,
+        316
+      ],
+      "source_fragment_sha256": "7f98d33d1f81065cdf6298276ea098e593051c1aa0106ab78d450d0cadd37d54",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.7.1",
+        "JHN.7.2"
+      ],
+      "source_title_explicit_range": [
+        "JHN.7.1",
+        "JHN.7.53"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 17,
+  "unavailable_author_work_for_testament": false
+}

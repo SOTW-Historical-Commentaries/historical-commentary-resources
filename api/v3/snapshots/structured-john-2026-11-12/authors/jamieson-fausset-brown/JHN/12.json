@@ -1,0 +1,499 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-john-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "JHN",
+  "chapter": 12,
+  "canonical_chapter": "JHN.12",
+  "versification": "KJV",
+  "verse_count": 50,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"John\" sID=\"gen28609\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO JOHN\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO JOHN</title> <div sID=\"gen28610\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen28610\" type=\"x-p\"/> ",
+      "source_record_sha256": "63ae52e5b2992fbfed83dee61163dc5460774a7324823ebc3ddbb37503294063",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 0,
+        "length": 351
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"12\" osisID=\"John.12\" sID=\"John.12\"/><div eID=\"gen29324\" type=\"x-p\"/> ",
+      "source_record_sha256": "7f8f0e9cf927f42931da796b069d8092230572334fd7d16839f635c28e130782",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 354070,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:JHN.12.1-8:4:354151:682",
+      "passage_start": "JHN.12.1",
+      "passage_end": "JHN.12.8",
+      "start_verse": 1,
+      "end_verse": 8,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15250\"/><title type=\"x-s2\">CHAPTER 12</title> <title type=\"x-s3\"><reference osisRef=\"John.12.1-John.12.11\">Joh 12:1-11</reference>. The Anointing at Bethany.</title> <div sID=\"gen29325\" type=\"x-p\"/> (See on <reference osisRef=\"Matt.26.6-Matt.26.13\">Mt 26:6-13</reference>).<div eID=\"gen29325\" type=\"x-p\"/> <div sID=\"gen29326\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15250\"/><hi type=\"bold\">1-8. six days before the passover--</hi>that is, on the sixth day before it; probably after sunset on Friday evening, or the commencement of the Jewish sabbath preceding the passover. <div eID=\"gen29326\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 12 Joh 12:1-11 . The Anointing at Bethany. (See on Mt 26:6-13 ). 1-8. six days before the passover-- that is, on the sixth day before it; probably after sunset on Friday evening, or the commencement of the Jewish sabbath preceding the passover.",
+      "source_record_sha256": "a8856e5b0011b0f39b2b9458f9f202ac90c83752efbc0b744b288939f850bad5",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 354151,
+        "length": 682
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.1-8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-8. six days before the passover-- that is, on the sixth day before it; probably after sunset on Friday evening, or the commencement of the Jewish sabbath preceding the passover.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        450,
+        682
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-8. six days before the passover--</hi>that is, on the sixth day before it; probably after sunset on Friday evening, or the commencement of the Jewish sabbath preceding the passover. <div eID=\"gen29326\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.9-11:4:363239:1044",
+      "passage_start": "JHN.12.9",
+      "passage_end": "JHN.12.11",
+      "start_verse": 9,
+      "end_verse": 11,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15258\"/><div sID=\"gen29350\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15258\"/><hi type=\"bold\">9-11. Crowds of the Jerusalem Jews hastened to Bethany, not so much to see Jesus, whom they knew to be there, as to see dead Lazarus alive; and this, issuing in their accession to Christ, led to a plot against the life of Lazarus also, as the only means of arresting the triumphs of Jesus (see <reference osisRef=\"John.12.19\">Joh 12:19</reference>)--</hi>to such a pitch had these chief priests come of diabolical determination to shut out the light from themselves, and quench it from the earth!<div eID=\"gen29350\" type=\"x-p\"/> <title type=\"x-s3\"><reference osisRef=\"John.12.12-John.12.19\">Joh 12:12-19</reference>. Christ's Triumphal Entry into Jerusalem.</title> <div sID=\"gen29351\" type=\"x-p\"/> (See on <reference osisRef=\"Matt.21.1-Matt.21.9\">Mt 21:1-9</reference>; and <reference osisRef=\"Luke.19.29-Luke.19.36\">Lu 19:29-36</reference>). <div eID=\"gen29351\" type=\"x-p\"/>",
+      "content_plain": "9-11. Crowds of the Jerusalem Jews hastened to Bethany, not so much to see Jesus, whom they knew to be there, as to see dead Lazarus alive; and this, issuing in their accession to Christ, led to a plot against the life of Lazarus also, as the only means of arresting the triumphs of Jesus (see Joh 12:19 )-- to such a pitch had these chief priests come of diabolical determination to shut out the light from themselves, and quench it from the earth! Joh 12:12-19 . Christ's Triumphal Entry into Jerusalem. (See on Mt 21:1-9 ; and Lu 19:29-36 ).",
+      "source_record_sha256": "f970c5ec25014d2dc26fc42ecd86633be399be7e26c85bd2cad81480ddb7ddbd",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 363239,
+        "length": 1044
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.9-11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9-11. Crowds of the Jerusalem Jews hastened to Bethany, not so much to see Jesus, whom they knew to be there, as to see dead Lazarus alive; and this, issuing in their accession to Christ, led to a plot against the life of Lazarus also, as the only means of arresting the triumphs of Jesus (see Joh 12:19 )-- to such a pitch had these chief priests come of diabolical determination to shut out the light from themselves, and quench it from the earth! Joh 12:12-19 . Christ's Triumphal Entry into Jerusalem. (See on Mt 21:1-9 ; and Lu 19:29-36 )."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.12-12:4:364283:824",
+      "passage_start": "JHN.12.12",
+      "passage_end": "JHN.12.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15259\"/><div sID=\"gen29352\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15259\"/><hi type=\"bold\">12. On the next day--</hi>the Lord's day, or Sunday (see on <reference osisRef=\"John.12.1\">Joh 12:1</reference>); the tenth day of the Jewish month Nisan, on which the paschal lamb was set apart to be \"kept up until the fourteenth day of the same month, when the whole assembly of the congregation of Israel were to kill it in the evening\" (<reference osisRef=\"Exod.12.3\">Ex 12:3</reference>, <reference osisRef=\"Exod.12.6\">6</reference>). Even so, from the day of this solemn entry into Jerusalem, \"Christ our Passover\" was virtually set apart to be \"sacrificed for us\" (<reference osisRef=\"1Cor.5.7\">1Co 5:7</reference>). <div eID=\"gen29352\" type=\"x-p\"/>",
+      "content_plain": "12. On the next day-- the Lord's day, or Sunday (see on Joh 12:1 ); the tenth day of the Jewish month Nisan, on which the paschal lamb was set apart to be \"kept up until the fourteenth day of the same month, when the whole assembly of the congregation of Israel were to kill it in the evening\" ( Ex 12:3 , 6 ). Even so, from the day of this solemn entry into Jerusalem, \"Christ our Passover\" was virtually set apart to be \"sacrificed for us\" ( 1Co 5:7 ).",
+      "source_record_sha256": "ebf39c4bfdc342856b35e9a77beb37376912630fcdfa42c7877006ed825f593f",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 364283,
+        "length": 824
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.12.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. On the next day-- the Lord's day, or Sunday (see on Joh 12:1 ); the tenth day of the Jewish month Nisan, on which the paschal lamb was set apart to be \"kept up until the fourteenth day of the same month, when the whole assembly of the congregation of Israel were to kill it in the evening\" ( Ex 12:3 , 6 ). Even so, from the day of this solemn entry into Jerusalem, \"Christ our Passover\" was virtually set apart to be \"sacrificed for us\" ( 1Co 5:7 )."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.16-16:4:365107:669",
+      "passage_start": "JHN.12.16",
+      "passage_end": "JHN.12.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15260\"/><div sID=\"gen29353\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15260\"/><hi type=\"bold\">16. when Jesus was glorified, then remembered they that these things were written of him, &amp;c.--</hi>The Spirit, descending on them from the glorified Saviour at Pentecost, opened their eyes suddenly to the true sense of the Old Testament, brought vividly to their recollection this and other Messianic predictions, and to their unspeakable astonishment showed them that they, and all the actors in these scenes, had been unconsciously fulfilling those predictions. <div eID=\"gen29353\" type=\"x-p\"/>",
+      "content_plain": "16. when Jesus was glorified, then remembered they that these things were written of him, &c.-- The Spirit, descending on them from the glorified Saviour at Pentecost, opened their eyes suddenly to the true sense of the Old Testament, brought vividly to their recollection this and other Messianic predictions, and to their unspeakable astonishment showed them that they, and all the actors in these scenes, had been unconsciously fulfilling those predictions.",
+      "source_record_sha256": "7f90d2563c43009d6b47c7ff69b95ae1d128dcf8e2b3072d463e0eef3d97e3df",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 365107,
+        "length": 669
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.12.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16. when Jesus was glorified, then remembered they that these things were written of him, &c.-- The Spirit, descending on them from the glorified Saviour at Pentecost, opened their eyes suddenly to the true sense of the Old Testament, brought vividly to their recollection this and other Messianic predictions, and to their unspeakable astonishment showed them that they, and all the actors in these scenes, had been unconsciously fulfilling those predictions."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.20-22:4:365776:1233",
+      "passage_start": "JHN.12.20",
+      "passage_end": "JHN.12.22",
+      "start_verse": 20,
+      "end_verse": 22,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15261\"/><title type=\"x-s3\"><reference osisRef=\"John.12.20-John.12.36\">Joh 12:20-36</reference>. Some Greeks Desire to See Jesus--The Discourse and Scene Thereupon.</title> <div sID=\"gen29354\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15261\"/><hi type=\"bold\">20-22. Greeks--</hi>Not Grecian Jews, but Greek proselytes to the Jewish faith, who were wont to attend the annual festivals, particularly this primary one, the Passover.<div eID=\"gen29354\" type=\"x-p\"/> <div sID=\"gen29355\" type=\"x-p\"/><hi type=\"bold\">The same came therefore to Philip ... of Bethsaida--</hi>possibly as being from the same quarter.<div eID=\"gen29355\" type=\"x-p\"/> <div sID=\"gen29356\" type=\"x-p\"/><hi type=\"bold\">saying, Sir, we would see Jesus--</hi>certainly in a far better sense than Zaccheus (<reference osisRef=\"Luke.19.3\">Lu 19:3</reference>). Perhaps He was then in that part of the temple court to which Gentile proselytes had no access. \"These men from the west represent, at the end of Christ's life, what the wise men from the east represented at its beginning; but those come to the cross of the King, even as these to His manger\" [Stier]. <div eID=\"gen29356\" type=\"x-p\"/>",
+      "content_plain": "Joh 12:20-36 . Some Greeks Desire to See Jesus--The Discourse and Scene Thereupon. 20-22. Greeks-- Not Grecian Jews, but Greek proselytes to the Jewish faith, who were wont to attend the annual festivals, particularly this primary one, the Passover. The same came therefore to Philip ... of Bethsaida-- possibly as being from the same quarter. saying, Sir, we would see Jesus-- certainly in a far better sense than Zaccheus ( Lu 19:3 ). Perhaps He was then in that part of the temple court to which Gentile proselytes had no access. \"These men from the west represent, at the end of Christ's life, what the wise men from the east represented at its beginning; but those come to the cross of the King, even as these to His manger\" [Stier].",
+      "source_record_sha256": "81a559e38058eb0f5c59d746975b522eb42abac91f8cbca25925cb46f1f502a5",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 365776,
+        "length": 1233
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.20-22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Joh 12:20-36 . Some Greeks Desire to See Jesus--The Discourse and Scene Thereupon. 20-22. Greeks-- Not Grecian Jews, but Greek proselytes to the Jewish faith, who were wont to attend the annual festivals, particularly this primary one, the Passover. The same came therefore to Philip ... of Bethsaida-- possibly as being from the same quarter. saying, Sir, we would see Jesus-- certainly in a far better sense than Zaccheus ( Lu 19:3 ). Perhaps He was then in that part of the temple court to which Gentile proselytes had no access. \"These men from the west represent, at the end of Christ's life, what the wise men from the east represented at its beginning; but those come to the cross of the King, even as these to His manger\" [Stier]."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.23-26:4:367657:1025",
+      "passage_start": "JHN.12.23",
+      "passage_end": "JHN.12.26",
+      "start_verse": 23,
+      "end_verse": 26,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15263\"/><div sID=\"gen29359\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15263\"/><hi type=\"bold\">23-26. Jesus answered them, The hour is come that the Son of man should be glorified--</hi>that is, They would see Jesus, would they? Yet a little moment, and they shall see Him so as now they dream not of. The middle wall of partition that keeps them out from the commonwealth of Israel is on the eve of breaking down, \"and I, if I be lifted up from the earth, shall draw all men unto Me\"; I see them \"flying as a cloud, and as doves to their cotes\"--a glorious event that will be for the Son of man, by which this is to be brought about. It is His death He thus sublimely and delicately alluded to. Lost in the scenes of triumph which this desire of the Greeks to see Him called up before His view, He gives no direct answer to their petition for an interview, but sees the cross which was to bring them gilded with glory. <div eID=\"gen29359\" type=\"x-p\"/>",
+      "content_plain": "23-26. Jesus answered them, The hour is come that the Son of man should be glorified-- that is, They would see Jesus, would they? Yet a little moment, and they shall see Him so as now they dream not of. The middle wall of partition that keeps them out from the commonwealth of Israel is on the eve of breaking down, \"and I, if I be lifted up from the earth, shall draw all men unto Me\"; I see them \"flying as a cloud, and as doves to their cotes\"--a glorious event that will be for the Son of man, by which this is to be brought about. It is His death He thus sublimely and delicately alluded to. Lost in the scenes of triumph which this desire of the Greeks to see Him called up before His view, He gives no direct answer to their petition for an interview, but sees the cross which was to bring them gilded with glory.",
+      "source_record_sha256": "b77f1d463ec71898c8ca3f1f3e7cb67db9e84de971ab3f8e009fca35de1c0783",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 367657,
+        "length": 1025
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.23-26",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "23-26. Jesus answered them, The hour is come that the Son of man should be glorified-- that is, They would see Jesus, would they? Yet a little moment, and they shall see Him so as now they dream not of. The middle wall of partition that keeps them out from the commonwealth of Israel is on the eve of breaking down, \"and I, if I be lifted up from the earth, shall draw all men unto Me\"; I see them \"flying as a cloud, and as doves to their cotes\"--a glorious event that will be for the Son of man, by which this is to be brought about. It is His death He thus sublimely and delicately alluded to. Lost in the scenes of triumph which this desire of the Greeks to see Him called up before His view, He gives no direct answer to their petition for an interview, but sees the cross which was to bring them gilded with glory."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.27-28:4:370773:2711",
+      "passage_start": "JHN.12.27",
+      "passage_end": "JHN.12.28",
+      "start_verse": 27,
+      "end_verse": 28,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15267\"/><div sID=\"gen29363\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15267\"/><hi type=\"bold\">27-28. Now is my soul troubled--</hi>He means at the prospect of His death, just alluded to. Strange view of the Cross this, immediately after representing it as the hour of His glory! (<reference osisRef=\"John.12.23\">Joh 12:23</reference>). But the two views naturally meet, and blend into one. It was the Greeks, one might say, that troubled Him. Ah! they shall see Jesus, but to Him it shall be a costly sight.<div eID=\"gen29363\" type=\"x-p\"/> <div sID=\"gen29364\" type=\"x-p\"/><hi type=\"bold\">and what shall I say?--</hi>He is in a strait betwixt two. The death of the cross was, and could not but be, appalling to His spirit. But to shrink from absolute subjection to the Father, was worse still. In asking Himself, \"What shall I say?\" He seems as if thinking aloud, feeling His way between two dread alternatives, looking both of them sternly in the face, measuring, weighing them, in order that the choice actually made might be seen, and even by himself the more vividly felt, to be a profound, deliberate, spontaneous election.<div eID=\"gen29364\" type=\"x-p\"/> <div sID=\"gen29365\" type=\"x-p\"/><hi type=\"bold\">Father, save me from this hour--</hi>To take this as a question--\"Shall I <hi type=\"bold\">say, Father, save me,\" &amp;c.--</hi>as some eminent editors and interpreters do, is unnatural and jejune. It is a real petition, like that in Gethsemane, \"Let this cup pass from Me\"; only whereas there He prefaces the prayer with an \"If it be possible,\" here He follows it up with what is tantamount to that--\"Nevertheless for this cause came I unto this hour.\" The sentiment conveyed, then, by the prayer, in both cases, is twofold: (1) that only one thing could reconcile Him to the death of the cross--its being His Father's will He should endure it--and (2) that in this view of it He yielded Himself freely to it. What He recoils from is not subjection to His Father's will: but to show how tremendous a self-sacrifice that obedience involved, He first asks the Father to save Him from it, and then signifies how perfectly He knows that He is there for the very purpose of enduring it. Only by letting these mysterious words speak their full meaning do they become intelligible and consistent. As for those who see no bitter elements in the death of Christ--nothing beyond mere dying--what can they make of such a scene? and when they place it over against the feelings with which thousands of His adoring followers have welcomed death for His sake, how can they hold Him up to the admiration of men? <div eID=\"gen29365\" type=\"x-p\"/>",
+      "content_plain": "27-28. Now is my soul troubled-- He means at the prospect of His death, just alluded to. Strange view of the Cross this, immediately after representing it as the hour of His glory! ( Joh 12:23 ). But the two views naturally meet, and blend into one. It was the Greeks, one might say, that troubled Him. Ah! they shall see Jesus, but to Him it shall be a costly sight. and what shall I say?-- He is in a strait betwixt two. The death of the cross was, and could not but be, appalling to His spirit. But to shrink from absolute subjection to the Father, was worse still. In asking Himself, \"What shall I say?\" He seems as if thinking aloud, feeling His way between two dread alternatives, looking both of them sternly in the face, measuring, weighing them, in order that the choice actually made might be seen, and even by himself the more vividly felt, to be a profound, deliberate, spontaneous election. Father, save me from this hour-- To take this as a question--\"Shall I say, Father, save me,\" &c.-- as some eminent editors and interpreters do, is unnatural and jejune. It is a real petition, like that in Gethsemane, \"Let this cup pass from Me\"; only whereas there He prefaces the prayer with an \"If it be possible,\" here He follows it up with what is tantamount to that--\"Nevertheless for this cause came I unto this hour.\" The sentiment conveyed, then, by the prayer, in both cases, is twofold: (1) that only one thing could reconcile Him to the death of the cross--its being His Father's will He should endure it--and (2) that in this view of it He yielded Himself freely to it. What He recoils from is not subjection to His Father's will: but to show how tremendous a self-sacrifice that obedience involved, He first asks the Father to save Him from it, and then signifies how perfectly He knows that He is there for the very purpose of enduring it. Only by letting these mysterious words speak their full meaning do they become intelligible and consistent. As for those who see no bitter elements in the death of Christ--nothing beyond mere dying--what can they make of such a scene? and when they place it over against the feelings with which thousands of His adoring followers have welcomed death for His sake, how can they hold Him up to the admiration of men?",
+      "source_record_sha256": "a868f266a8f3cb58e6896d6f4191c4b7dee21f6508267d8849a483ec69e2a114",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 370773,
+        "length": 2711
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.27-28",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "27-28. Now is my soul troubled-- He means at the prospect of His death, just alluded to. Strange view of the Cross this, immediately after representing it as the hour of His glory! ( Joh 12:23 ). But the two views naturally meet, and blend into one. It was the Greeks, one might say, that troubled Him. Ah! they shall see Jesus, but to Him it shall be a costly sight. and what shall I say?-- He is in a strait betwixt two. The death of the cross was, and could not but be, appalling to His spirit. But to shrink from absolute subjection to the Father, was worse still. In asking Himself, \"What shall I say?\" He seems as if thinking aloud, feeling His way between two dread alternatives, looking both of them sternly in the face, measuring, weighing them, in order that the choice actually made might be seen, and even by himself the more vividly felt, to be a profound, deliberate, spontaneous election. Father, save me from this hour-- To take this as a question--\"Shall I say, Father, save me,\" &c.-- as some eminent editors and interpreters do, is unnatural and jejune. It is a real petition, like that in Gethsemane, \"Let this cup pass from Me\"; only whereas there He prefaces the prayer with an \"If it be possible,\" here He follows it up with what is tantamount to that--\"Nevertheless for this cause came I unto this hour.\" The sentiment conveyed, then, by the prayer, in both cases, is twofold: (1) that only one thing could reconcile Him to the death of the cross--its being His Father's will He should endure it--and (2) that in this view of it He yielded Himself freely to it. What He recoils from is not subjection to His Father's will: but to show how tremendous a self-sacrifice that obedience involved, He first asks the Father to save Him from it, and then signifies how perfectly He knows that He is there for the very purpose of enduring it. Only by letting these mysterious words speak their full meaning do they become intelligible and consistent. As for those who see no bitter elements in the death of Christ--nothing beyond mere dying--what can they make of such a scene? and when they place it over against the feelings with which thousands of His adoring followers have welcomed death for His sake, how can they hold Him up to the admiration of men?"
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.29-33:4:374245:382",
+      "passage_start": "JHN.12.29",
+      "passage_end": "JHN.12.33",
+      "start_verse": 29,
+      "end_verse": 33,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15269\"/><div sID=\"gen29369\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15269\"/><hi type=\"bold\">29-33. The people therefore that stood by, said, It thundered; others, An angel spake to him--</hi>some hearing only a sound, others an articulate, but to them unintelligible voice. <div eID=\"gen29369\" type=\"x-p\"/>",
+      "content_plain": "29-33. The people therefore that stood by, said, It thundered; others, An angel spake to him-- some hearing only a sound, others an articulate, but to them unintelligible voice.",
+      "source_record_sha256": "2a2625e52b5d81b1dfcbb2de831fa71bc7c91065c7ac237b25a06a207e002fdf",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 374245,
+        "length": 382
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.29-33",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "29-33. The people therefore that stood by, said, It thundered; others, An angel spake to him-- some hearing only a sound, others an articulate, but to them unintelligible voice."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.34-34:4:377791:1184",
+      "passage_start": "JHN.12.34",
+      "passage_end": "JHN.12.34",
+      "start_verse": 34,
+      "end_verse": 34,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15274\"/><div sID=\"gen29375\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15274\"/><hi type=\"bold\">34. We have heard out of the law--</hi>the scriptures of the Old Testament (referring to such places as <reference osisRef=\"Ps.89.28\">Psa 89:28</reference>, <reference osisRef=\"Ps.89.29\">29</reference>; <reference osisRef=\"Ps.110.4\">110:4</reference>; <reference osisRef=\"Dan.2.44\">Da 2:44</reference>; <reference osisRef=\"2Cor.7.13\">7:13</reference>, <reference osisRef=\"2Cor.7.14\">14</reference>).<div eID=\"gen29375\" type=\"x-p\"/> <div sID=\"gen29376\" type=\"x-p\"/><hi type=\"bold\">that Christ--</hi>the Christ \"endureth for ever.\"<div eID=\"gen29376\" type=\"x-p\"/> <div sID=\"gen29377\" type=\"x-p\"/><hi type=\"bold\">and how sayest thou, The Son of Man must be lifted up, &amp;c.--</hi>How can that consist with this \"uplifting?\" They saw very well both that He was holding Himself up as the Christ and a Christ to die a violent death; and as that ran counter to all their ideas of the Messianic prophecies, they were glad to get this seeming advantage to justify their unyielding attitude. <div eID=\"gen29377\" type=\"x-p\"/>",
+      "content_plain": "34. We have heard out of the law-- the scriptures of the Old Testament (referring to such places as Psa 89:28 , 29 ; 110:4 ; Da 2:44 ; 7:13 , 14 ). that Christ-- the Christ \"endureth for ever.\" and how sayest thou, The Son of Man must be lifted up, &c.-- How can that consist with this \"uplifting?\" They saw very well both that He was holding Himself up as the Christ and a Christ to die a violent death; and as that ran counter to all their ideas of the Messianic prophecies, they were glad to get this seeming advantage to justify their unyielding attitude.",
+      "source_record_sha256": "a5bf7dd3e6ee42c45b3478db8a736252d752b3eea49dccc8f423f573acbe01bd",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 377791,
+        "length": 1184
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.12.34",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "34. We have heard out of the law-- the scriptures of the Old Testament (referring to such places as Psa 89:28 , 29 ; 110:4 ; Da 2:44 ; 7:13 , 14 ). that Christ-- the Christ \"endureth for ever.\" and how sayest thou, The Son of Man must be lifted up, &c.-- How can that consist with this \"uplifting?\" They saw very well both that He was holding Himself up as the Christ and a Christ to die a violent death; and as that ran counter to all their ideas of the Messianic prophecies, they were glad to get this seeming advantage to justify their unyielding attitude."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.35-36:4:378975:850",
+      "passage_start": "JHN.12.35",
+      "passage_end": "JHN.12.36",
+      "start_verse": 35,
+      "end_verse": 36,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15275\"/><div sID=\"gen29378\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15275\"/><hi type=\"bold\">35-36. Yet a little while is the light with you. Walk while ye have the light, &amp;c.--</hi>Instead of answering their question, He warns them, with mingled majesty and tenderness, against trifling with their last brief opportunity, and entreats them to let in the Light while they have it in the midst of them, that they themselves might be \"light in the Lord.\" In this case, all the clouds which hung around His Person and Mission would speedily be dispelled, while if they continued to hate the light, bootless were all His answers to their merely speculative or captious questions. (See on <reference osisRef=\"Luke.13.23\">Lu 13:23</reference>). <div eID=\"gen29378\" type=\"x-p\"/>",
+      "content_plain": "35-36. Yet a little while is the light with you. Walk while ye have the light, &c.-- Instead of answering their question, He warns them, with mingled majesty and tenderness, against trifling with their last brief opportunity, and entreats them to let in the Light while they have it in the midst of them, that they themselves might be \"light in the Lord.\" In this case, all the clouds which hung around His Person and Mission would speedily be dispelled, while if they continued to hate the light, bootless were all His answers to their merely speculative or captious questions. (See on Lu 13:23 ).",
+      "source_record_sha256": "bdaf19d3fa1f35e42d3de2df6aa897b64260253b0d0d1136a37713cb390b03d8",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 378975,
+        "length": 850
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.35-36",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "35-36. Yet a little while is the light with you. Walk while ye have the light, &c.-- Instead of answering their question, He warns them, with mingled majesty and tenderness, against trifling with their last brief opportunity, and entreats them to let in the Light while they have it in the midst of them, that they themselves might be \"light in the Lord.\" In this case, all the clouds which hung around His Person and Mission would speedily be dispelled, while if they continued to hate the light, bootless were all His answers to their merely speculative or captious questions. (See on Lu 13:23 )."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.37-41:4:380444:668",
+      "passage_start": "JHN.12.37",
+      "passage_end": "JHN.12.41",
+      "start_verse": 37,
+      "end_verse": 41,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15277\"/><div sID=\"gen29380\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15277\"/>37-41. It is the manner of this Evangelist alone to record his own reflections on the scenes he describes; but here, having arrived at what was virtually the close of our Lord's public ministry, he casts an affecting glance over the fruitlessness of His whole ministry on the bulk of the now doomed people.<div eID=\"gen29380\" type=\"x-p\"/> <div sID=\"gen29381\" type=\"x-p\"/><hi type=\"bold\">though he had done so many miracles--</hi>The word used suggests their nature as well as number. <div eID=\"gen29381\" type=\"x-p\"/>",
+      "content_plain": "37-41. It is the manner of this Evangelist alone to record his own reflections on the scenes he describes; but here, having arrived at what was virtually the close of our Lord's public ministry, he casts an affecting glance over the fruitlessness of His whole ministry on the bulk of the now doomed people. though he had done so many miracles-- The word used suggests their nature as well as number.",
+      "source_record_sha256": "600216c5532fb78e760f32c3db8328f5fc592d49ee8bc2335c939787636fa032",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 380444,
+        "length": 668
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.37-41",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "37-41. It is the manner of this Evangelist alone to record his own reflections on the scenes he describes; but here, having arrived at what was virtually the close of our Lord's public ministry, he casts an affecting glance over the fruitlessness of His whole ministry on the bulk of the now doomed people. though he had done so many miracles-- The word used suggests their nature as well as number."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.42-43:4:382888:694",
+      "passage_start": "JHN.12.42",
+      "passage_end": "JHN.12.43",
+      "start_verse": 42,
+      "end_verse": 43,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15281\"/><div sID=\"gen29385\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15281\"/><hi type=\"bold\">42-43. among the chief rulers also--</hi>rather, \"even of the rulers\"; such as Nicodemus and Joseph.<div eID=\"gen29385\" type=\"x-p\"/> <div sID=\"gen29386\" type=\"x-p\"/><hi type=\"bold\">because of the Pharisees--</hi>that is, the leaders of the sects; for they were of it themselves.<div eID=\"gen29386\" type=\"x-p\"/> <div sID=\"gen29387\" type=\"x-p\"/><hi type=\"bold\">put out of the synagogue--</hi>See <reference osisRef=\"John.9.22\">Joh 9:22</reference>, <reference osisRef=\"John.9.34\">34</reference>. <div eID=\"gen29387\" type=\"x-p\"/>",
+      "content_plain": "42-43. among the chief rulers also-- rather, \"even of the rulers\"; such as Nicodemus and Joseph. because of the Pharisees-- that is, the leaders of the sects; for they were of it themselves. put out of the synagogue-- See Joh 9:22 , 34 .",
+      "source_record_sha256": "c9ccb49bc3b66af96f46ed55a378f0f1717392e60e4cc5d84b9a478964bea3ce",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 382888,
+        "length": 694
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.42-43",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "42-43. among the chief rulers also-- rather, \"even of the rulers\"; such as Nicodemus and Joseph. because of the Pharisees-- that is, the leaders of the sects; for they were of it themselves. put out of the synagogue-- See Joh 9:22 , 34 ."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.12.44-50:4:384115:661",
+      "passage_start": "JHN.12.44",
+      "passage_end": "JHN.12.50",
+      "start_verse": 44,
+      "end_verse": 50,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15283\"/><div sID=\"gen29389\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15283\"/><hi type=\"bold\">44-50. Jesus cried--</hi>in a loud tone, and with peculiar solemnity. (Compare <reference osisRef=\"John.7.37\">Joh 7:37</reference>).<div eID=\"gen29389\" type=\"x-p\"/> <div sID=\"gen29390\" type=\"x-p\"/><hi type=\"bold\">and said, He that believeth on me, &amp;c.--</hi>This seems to be a supplementary record of some weighty proclamations, for which there had been found no natural place before, and introduced here as a sort of summary and winding up of His whole testimony. <chapter eID=\"John.12\"/>",
+      "content_plain": "44-50. Jesus cried-- in a loud tone, and with peculiar solemnity. (Compare Joh 7:37 ). and said, He that believeth on me, &c.-- This seems to be a supplementary record of some weighty proclamations, for which there had been found no natural place before, and introduced here as a sort of summary and winding up of His whole testimony.",
+      "source_record_sha256": "fa0d529fd9a4b74ac52365b15f8088a75c26051842cb75d62ced5e8c288910da",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 384115,
+        "length": 661
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.12.44-50",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "44-50. Jesus cried-- in a loud tone, and with peculiar solemnity. (Compare Joh 7:37 ). and said, He that believeth on me, &c.-- This seems to be a supplementary record of some weighty proclamations, for which there had been found no natural place before, and introduced here as a sort of summary and winding up of His whole testimony."
+    }
+  ],
+  "indexed_verse_count": 44,
+  "unindexed_verse_count": 6,
+  "upstream_snapshot_id": "SOTW_JHN_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 13
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.12:P:chapter-12",
+      "navigation_id": "JHN.12:P:chapter-12",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 12",
+      "content_plain": "CHAPTER 12",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 12</title> ",
+      "source_entry_id": "sword:jfb:JHN.12.1-8:4:354151:682",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        98
+      ],
+      "source_fragment_sha256": "9974648688d4c105b5d0869a6fb98db927d09591b6f834ec3fe10c6463fbc724",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.12.1",
+        "JHN.12.8"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.12:P:joh-12-1-11-the-anointing-at-bethany",
+      "navigation_id": "JHN.12:P:joh-12-1-11-the-anointing-at-bethany",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Joh 12:1-11 . The Anointing at Bethany.",
+      "content_plain": "Joh 12:1-11 . The Anointing at Bethany. (See on Mt 26:6-13 ).",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"John.12.1-John.12.11\">Joh 12:1-11</reference>. The Anointing at Bethany.</title> <div sID=\"gen29325\" type=\"x-p\"/> (See on <reference osisRef=\"Matt.26.6-Matt.26.13\">Mt 26:6-13</reference>).<div eID=\"gen29325\" type=\"x-p\"/> <div sID=\"gen29326\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15250\"/>",
+      "source_entry_id": "sword:jfb:JHN.12.1-8:4:354151:682",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        98,
+        450
+      ],
+      "source_fragment_sha256": "45a2fd2d7330b7a3e5f662a3eb4312afd25cc7ef7325bcfe12aee507845e5157",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.12.1",
+        "JHN.12.8"
+      ],
+      "source_title_explicit_range": [
+        "JHN.12.1",
+        "JHN.12.11"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.12:P:joh-12-12-19-christ-s-triumphal-entry-into-jerusalem",
+      "navigation_id": "JHN.12:P:joh-12-12-19-christ-s-triumphal-entry-into-jerusalem",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Joh 12:12-19 . Christ's Triumphal Entry into Jerusalem.",
+      "content_plain": "Joh 12:12-19 . Christ's Triumphal Entry into Jerusalem.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"John.12.12-John.12.19\">Joh 12:12-19</reference>. Christ's Triumphal Entry into Jerusalem.</title>",
+      "source_entry_id": "sword:jfb:JHN.12.9-11:4:363239:1044",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        697,
+        833
+      ],
+      "source_fragment_sha256": "fe3acb60b20cf1ef01e842b68c1864424bd03c299bf4f310ea9445d72201ec26",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.12.9",
+        "JHN.12.11"
+      ],
+      "source_title_explicit_range": [
+        "JHN.12.12",
+        "JHN.12.19"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.12:P:joh-12-20-36-some-greeks-desire-to-see-jesus-the-discourse-and-scene-thereupon",
+      "navigation_id": "JHN.12:P:joh-12-20-36-some-greeks-desire-to-see-jesus-the-discourse-and-scene-thereupon",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Joh 12:20-36 . Some Greeks Desire to See Jesus--The Discourse and Scene Thereupon.",
+      "content_plain": "Joh 12:20-36 . Some Greeks Desire to See Jesus--The Discourse and Scene Thereupon.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"John.12.20-John.12.36\">Joh 12:20-36</reference>. Some Greeks Desire to See Jesus--The Discourse and Scene Thereupon.</title>",
+      "source_entry_id": "sword:jfb:JHN.12.20-22:4:365776:1233",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        223
+      ],
+      "source_fragment_sha256": "11fb7cae8aee164868768992b5161ff5af3cbc69ddacd686fb08c60ca3c39cd7",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.12.20",
+        "JHN.12.22"
+      ],
+      "source_title_explicit_range": [
+        "JHN.12.20",
+        "JHN.12.36"
+      ]
+    }
+  ],
+  "navigation_section_count": 4,
+  "reader_visible_entry_count": 13,
+  "unavailable_author_work_for_testament": false
+}

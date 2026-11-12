@@ -1,0 +1,393 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-john-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "JHN",
+  "chapter": 16,
+  "canonical_chapter": "JHN.16",
+  "versification": "KJV",
+  "verse_count": 33,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"John\" sID=\"gen28609\" type=\"book\"/> <milestone n=\"THE GOSPEL ACCORDING TO JOHN\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE GOSPEL ACCORDING TO JOHN</title> <div sID=\"gen28610\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen28610\" type=\"x-p\"/> ",
+      "source_record_sha256": "63ae52e5b2992fbfed83dee61163dc5460774a7324823ebc3ddbb37503294063",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 0,
+        "length": 351
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"16\" osisID=\"John.16\" sID=\"John.16\"/><div eID=\"gen29535\" type=\"x-p\"/> ",
+      "source_record_sha256": "e51358f9604146d96af257218a3c19d94bd85d57acc02c5917806e9ccbd7b758",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 450073,
+        "length": 81
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:JHN.16.1-5:4:450154:505",
+      "passage_start": "JHN.16.1",
+      "passage_end": "JHN.16.5",
+      "start_verse": 1,
+      "end_verse": 5,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15358\"/><title type=\"x-s2\">CHAPTER 16</title> <title type=\"x-s3\"><reference osisRef=\"John.16.1-John.16.33\">Joh 16:1-33</reference>. Discourse at the Supper Table Concluded.</title> <div sID=\"gen29536\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15358\"/><hi type=\"bold\">1-5. These things have I spoken unto you, that ye should not be offended--</hi>both the warnings and the encouragements just given. <div eID=\"gen29536\" type=\"x-p\"/>",
+      "content_plain": "CHAPTER 16 Joh 16:1-33 . Discourse at the Supper Table Concluded. 1-5. These things have I spoken unto you, that ye should not be offended-- both the warnings and the encouragements just given.",
+      "source_record_sha256": "8ff18dd62d08daae8daaa752faef17e01325530c17efc46d1cb92c55c11cdc90",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 450154,
+        "length": 505
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.1-5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1-5. These things have I spoken unto you, that ye should not be offended-- both the warnings and the encouragements just given.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        325,
+        505
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1-5. These things have I spoken unto you, that ye should not be offended--</hi>both the warnings and the encouragements just given. <div eID=\"gen29536\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.6-7:4:452748:353",
+      "passage_start": "JHN.16.6",
+      "passage_end": "JHN.16.7",
+      "start_verse": 6,
+      "end_verse": 7,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15362\"/><div sID=\"gen29544\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15362\"/><hi type=\"bold\">6-7. But because I have said these things ... sorrow hath filled your heart--</hi>Sorrow had too much paralyzed them, and He would rouse their energies. <div eID=\"gen29544\" type=\"x-p\"/>",
+      "content_plain": "6-7. But because I have said these things ... sorrow hath filled your heart-- Sorrow had too much paralyzed them, and He would rouse their energies.",
+      "source_record_sha256": "c268dec88be6af10269eb39080cf500d68904dbd1e1a93904c1bc7b152a08dce",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 452748,
+        "length": 353
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.6-7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6-7. But because I have said these things ... sorrow hath filled your heart-- Sorrow had too much paralyzed them, and He would rouse their energies."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.8-8:4:453993:1003",
+      "passage_start": "JHN.16.8",
+      "passage_end": "JHN.16.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15364\"/><div sID=\"gen29551\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15364\"/><hi type=\"bold\">8. And when he is come, he will, &amp;c.--</hi>This is one of the passages most pregnant with thought in the profound discourses of Christ; with a few great strokes depicting all and every part of the ministry of the Holy Ghost in the world--His operation with reference to individuals as well as the mass, on believers and unbelievers alike [Olshausen].<div eID=\"gen29551\" type=\"x-p\"/> <div sID=\"gen29552\" type=\"x-p\"/><hi type=\"bold\">he will reprove--</hi>This is too weak a word to express what is meant. Reproof is indeed implied in the term employed, and doubtless the word begins with it. But convict or convince is the thing intended; and as the one expresses the work of the Spirit on the unbelieving portion of mankind, and the other on the believing, it is better not to restrict it to either. <div eID=\"gen29552\" type=\"x-p\"/>",
+      "content_plain": "8. And when he is come, he will, &c.-- This is one of the passages most pregnant with thought in the profound discourses of Christ; with a few great strokes depicting all and every part of the ministry of the Holy Ghost in the world--His operation with reference to individuals as well as the mass, on believers and unbelievers alike [Olshausen]. he will reprove-- This is too weak a word to express what is meant. Reproof is indeed implied in the term employed, and doubtless the word begins with it. But convict or convince is the thing intended; and as the one expresses the work of the Spirit on the unbelieving portion of mankind, and the other on the believing, it is better not to restrict it to either.",
+      "source_record_sha256": "fd07faea8a65f319dd7c40f674e4e6e6ea692263cb3ee7de8c0f564adb8bd26c",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 453993,
+        "length": 1003
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.16.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. And when he is come, he will, &c.-- This is one of the passages most pregnant with thought in the profound discourses of Christ; with a few great strokes depicting all and every part of the ministry of the Holy Ghost in the world--His operation with reference to individuals as well as the mass, on believers and unbelievers alike [Olshausen]. he will reprove-- This is too weak a word to express what is meant. Reproof is indeed implied in the term employed, and doubtless the word begins with it. But convict or convince is the thing intended; and as the one expresses the work of the Spirit on the unbelieving portion of mankind, and the other on the believing, it is better not to restrict it to either."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.9-9:4:454996:522",
+      "passage_start": "JHN.16.9",
+      "passage_end": "JHN.16.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15365\"/><div sID=\"gen29553\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15365\"/><hi type=\"bold\">9. Of sin, because they believe not on me--</hi>As all sin has its root in unbelief, so the most aggravated form of unbelief is the rejection of Christ. The Spirit, however, in fastening this truth upon the conscience, does not extinguish, but, on the contrary, does consummate and intensify, the sense of all other sins. <div eID=\"gen29553\" type=\"x-p\"/>",
+      "content_plain": "9. Of sin, because they believe not on me-- As all sin has its root in unbelief, so the most aggravated form of unbelief is the rejection of Christ. The Spirit, however, in fastening this truth upon the conscience, does not extinguish, but, on the contrary, does consummate and intensify, the sense of all other sins.",
+      "source_record_sha256": "bcc1e5c3eaad78178e72e57ec782f088018e2740d07e071c3a9005f923dfa067",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 454996,
+        "length": 522
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.16.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. Of sin, because they believe not on me-- As all sin has its root in unbelief, so the most aggravated form of unbelief is the rejection of Christ. The Spirit, however, in fastening this truth upon the conscience, does not extinguish, but, on the contrary, does consummate and intensify, the sense of all other sins."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.10-10:4:455518:2091",
+      "passage_start": "JHN.16.10",
+      "passage_end": "JHN.16.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15366\"/><div sID=\"gen29554\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15366\"/><hi type=\"bold\">10. Of righteousness, because I go to my Father, and ye see me no more--</hi>Beyond doubt, it is Christ's personal righteousness which the Spirit was to bring home to the sinner's heart. The evidence of this was to lie in the great historical fact, that He had \"gone to His Father and was no more visible to men\":--for if His claim to be the Son of God, the Saviour of the world, had been a lie, how should the Father, who is \"a jealous God,\" have raised such a blasphemer from the dead and exalted him to His right hand? But if He was the \"Faithful and True Witness,\" the Father's \"Righteous Servant,\" \"His Elect, in whom His soul delighted,\" then was His departure to the Father, and consequent disappearance from the view of men, but the fitting consummation, the august reward, of all that He did here below, the seal of His mission, the glorification of the testimony which He bore on earth, by the reception of its Bearer to the Father's bosom. This triumphant vindication of Christ's rectitude is to us divine evidence, bright as heaven, that He is indeed the Saviour of the world, God's Righteous Servant to justify many, because He bare their iniquities (<reference osisRef=\"Isa.53.11\">Is 53:11</reference>). Thus the Spirit, in this clause, is seen convincing men that there is in Christ perfect relief under the sense of sin of which He had before convinced them; and so far from mourning over His absence from us, as an irreparable loss, we learn to glory in it, as the evidence of His perfect acceptance on our behalf, exclaiming with one who understood this point, \"Who shall lay anything to the charge of God's elect? It is God that justifieth: Who is he that condemneth? It is Christ that died; yea, rather, that is risen again, who is even at the right hand of God,\" &amp;c. (<reference osisRef=\"Rom.8.33\">Ro 8:33</reference>, <reference osisRef=\"Rom.8.34\">34</reference>). <div eID=\"gen29554\" type=\"x-p\"/>",
+      "content_plain": "10. Of righteousness, because I go to my Father, and ye see me no more-- Beyond doubt, it is Christ's personal righteousness which the Spirit was to bring home to the sinner's heart. The evidence of this was to lie in the great historical fact, that He had \"gone to His Father and was no more visible to men\":--for if His claim to be the Son of God, the Saviour of the world, had been a lie, how should the Father, who is \"a jealous God,\" have raised such a blasphemer from the dead and exalted him to His right hand? But if He was the \"Faithful and True Witness,\" the Father's \"Righteous Servant,\" \"His Elect, in whom His soul delighted,\" then was His departure to the Father, and consequent disappearance from the view of men, but the fitting consummation, the august reward, of all that He did here below, the seal of His mission, the glorification of the testimony which He bore on earth, by the reception of its Bearer to the Father's bosom. This triumphant vindication of Christ's rectitude is to us divine evidence, bright as heaven, that He is indeed the Saviour of the world, God's Righteous Servant to justify many, because He bare their iniquities ( Is 53:11 ). Thus the Spirit, in this clause, is seen convincing men that there is in Christ perfect relief under the sense of sin of which He had before convinced them; and so far from mourning over His absence from us, as an irreparable loss, we learn to glory in it, as the evidence of His perfect acceptance on our behalf, exclaiming with one who understood this point, \"Who shall lay anything to the charge of God's elect? It is God that justifieth: Who is he that condemneth? It is Christ that died; yea, rather, that is risen again, who is even at the right hand of God,\" &c. ( Ro 8:33 , 34 ).",
+      "source_record_sha256": "1b78c707ad01444227eb541b207aa4b874f4e681829c68e62951f6b9c3ff5513",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 455518,
+        "length": 2091
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.16.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. Of righteousness, because I go to my Father, and ye see me no more-- Beyond doubt, it is Christ's personal righteousness which the Spirit was to bring home to the sinner's heart. The evidence of this was to lie in the great historical fact, that He had \"gone to His Father and was no more visible to men\":--for if His claim to be the Son of God, the Saviour of the world, had been a lie, how should the Father, who is \"a jealous God,\" have raised such a blasphemer from the dead and exalted him to His right hand? But if He was the \"Faithful and True Witness,\" the Father's \"Righteous Servant,\" \"His Elect, in whom His soul delighted,\" then was His departure to the Father, and consequent disappearance from the view of men, but the fitting consummation, the august reward, of all that He did here below, the seal of His mission, the glorification of the testimony which He bore on earth, by the reception of its Bearer to the Father's bosom. This triumphant vindication of Christ's rectitude is to us divine evidence, bright as heaven, that He is indeed the Saviour of the world, God's Righteous Servant to justify many, because He bare their iniquities ( Is 53:11 ). Thus the Spirit, in this clause, is seen convincing men that there is in Christ perfect relief under the sense of sin of which He had before convinced them; and so far from mourning over His absence from us, as an irreparable loss, we learn to glory in it, as the evidence of His perfect acceptance on our behalf, exclaiming with one who understood this point, \"Who shall lay anything to the charge of God's elect? It is God that justifieth: Who is he that condemneth? It is Christ that died; yea, rather, that is risen again, who is even at the right hand of God,\" &c. ( Ro 8:33 , 34 )."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.11-11:4:457609:2028",
+      "passage_start": "JHN.16.11",
+      "passage_end": "JHN.16.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15367\"/><div sID=\"gen29555\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15367\"/><hi type=\"bold\">11. Of judgment, because the prince of this world is judged--</hi>By supposing that the final judgment is here meant, the point of this clause is, even by good interpreters, quite missed. The statement, \"The prince of this world is judged,\" means, beyond all reasonable doubt, the same as that in <reference osisRef=\"John.12.31\">Joh 12:31</reference>, \"Now shall the prince of this world be cast out\"; and both mean that his dominion over men, or his power to enslave and so to ruin them, is destroyed. The death of Christ \"judged\" or judicially overthrew him, and he was thereupon \"cast out\" or expelled from his usurped dominion (<reference osisRef=\"Heb.2.14\">He 2:14</reference>; <reference osisRef=\"1John.3.8\">1Jo 3:8</reference>; <reference osisRef=\"Col.2.15\">Col 2:15</reference>). Thus, then, the Spirit shall bring home to men's conscience: (1) the sense of sin, consummated in the rejection of Him who came to \"take away the sin of the world\"; (2) the sense of perfect relief in the righteousness of the Father's Servant, now fetched from the earth that spurned Him to that bosom where from everlasting He had dwelt; and (3) the sense of emancipation from the fetters of Satan, whose judgment brings to men liberty to be holy, and transformation out of servants of the devil into sons and daughters of the Lord Almighty. To one class of men, however, all this will carry conviction only; they \"will not come to Christ\"--revealed though He be to them as the life-giving One--that they may have life. Such, abiding voluntarily under the dominion of the prince of this world, are judged in his judgment, the visible consummation of which will be at the great day. To another class, however, this blessed teaching will have another issue--translating them out of the kingdom of darkness into the kingdom of God's dear Son. <div eID=\"gen29555\" type=\"x-p\"/>",
+      "content_plain": "11. Of judgment, because the prince of this world is judged-- By supposing that the final judgment is here meant, the point of this clause is, even by good interpreters, quite missed. The statement, \"The prince of this world is judged,\" means, beyond all reasonable doubt, the same as that in Joh 12:31 , \"Now shall the prince of this world be cast out\"; and both mean that his dominion over men, or his power to enslave and so to ruin them, is destroyed. The death of Christ \"judged\" or judicially overthrew him, and he was thereupon \"cast out\" or expelled from his usurped dominion ( He 2:14 ; 1Jo 3:8 ; Col 2:15 ). Thus, then, the Spirit shall bring home to men's conscience: (1) the sense of sin, consummated in the rejection of Him who came to \"take away the sin of the world\"; (2) the sense of perfect relief in the righteousness of the Father's Servant, now fetched from the earth that spurned Him to that bosom where from everlasting He had dwelt; and (3) the sense of emancipation from the fetters of Satan, whose judgment brings to men liberty to be holy, and transformation out of servants of the devil into sons and daughters of the Lord Almighty. To one class of men, however, all this will carry conviction only; they \"will not come to Christ\"--revealed though He be to them as the life-giving One--that they may have life. Such, abiding voluntarily under the dominion of the prince of this world, are judged in his judgment, the visible consummation of which will be at the great day. To another class, however, this blessed teaching will have another issue--translating them out of the kingdom of darkness into the kingdom of God's dear Son.",
+      "source_record_sha256": "11b9464332fc8cef42993007fbd366e89bc182254c8a7a4aa22726fea458c4d3",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 457609,
+        "length": 2028
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "JHN.16.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. Of judgment, because the prince of this world is judged-- By supposing that the final judgment is here meant, the point of this clause is, even by good interpreters, quite missed. The statement, \"The prince of this world is judged,\" means, beyond all reasonable doubt, the same as that in Joh 12:31 , \"Now shall the prince of this world be cast out\"; and both mean that his dominion over men, or his power to enslave and so to ruin them, is destroyed. The death of Christ \"judged\" or judicially overthrew him, and he was thereupon \"cast out\" or expelled from his usurped dominion ( He 2:14 ; 1Jo 3:8 ; Col 2:15 ). Thus, then, the Spirit shall bring home to men's conscience: (1) the sense of sin, consummated in the rejection of Him who came to \"take away the sin of the world\"; (2) the sense of perfect relief in the righteousness of the Father's Servant, now fetched from the earth that spurned Him to that bosom where from everlasting He had dwelt; and (3) the sense of emancipation from the fetters of Satan, whose judgment brings to men liberty to be holy, and transformation out of servants of the devil into sons and daughters of the Lord Almighty. To one class of men, however, all this will carry conviction only; they \"will not come to Christ\"--revealed though He be to them as the life-giving One--that they may have life. Such, abiding voluntarily under the dominion of the prince of this world, are judged in his judgment, the visible consummation of which will be at the great day. To another class, however, this blessed teaching will have another issue--translating them out of the kingdom of darkness into the kingdom of God's dear Son."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.12-15:4:459637:707",
+      "passage_start": "JHN.16.12",
+      "passage_end": "JHN.16.15",
+      "start_verse": 12,
+      "end_verse": 15,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15368\"/><div sID=\"gen29556\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15368\"/><hi type=\"bold\">12-15. when he, the Spirit of truth, is come ... he shall not speak of himself--</hi>that is, from Himself, but, like Christ Himself, \"what He hears,\" what is given Him to communicate.<div eID=\"gen29556\" type=\"x-p\"/> <div sID=\"gen29557\" type=\"x-p\"/><hi type=\"bold\">he will show you things to come--</hi>referring specially to those revelations which, in the Epistles partially, but most fully in the Apocalypse, open up a vista into the Future of the Kingdom of God, whose horizon is the everlasting hills. <div eID=\"gen29557\" type=\"x-p\"/>",
+      "content_plain": "12-15. when he, the Spirit of truth, is come ... he shall not speak of himself-- that is, from Himself, but, like Christ Himself, \"what He hears,\" what is given Him to communicate. he will show you things to come-- referring specially to those revelations which, in the Epistles partially, but most fully in the Apocalypse, open up a vista into the Future of the Kingdom of God, whose horizon is the everlasting hills.",
+      "source_record_sha256": "5b8c617722a2fd54215438d7c8ce50536db7aba0688517cba0bdbc226df82014",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 459637,
+        "length": 707
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.12-15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12-15. when he, the Spirit of truth, is come ... he shall not speak of himself-- that is, from Himself, but, like Christ Himself, \"what He hears,\" what is given Him to communicate. he will show you things to come-- referring specially to those revelations which, in the Epistles partially, but most fully in the Apocalypse, open up a vista into the Future of the Kingdom of God, whose horizon is the everlasting hills."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.16-22:4:461891:781",
+      "passage_start": "JHN.16.16",
+      "passage_end": "JHN.16.22",
+      "start_verse": 16,
+      "end_verse": 22,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15371\"/><div sID=\"gen29560\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15371\"/><hi type=\"bold\">16-22. A little while, and ye shall not see me; and again a little while, and ye shall see me, because I go to the Father--</hi>The joy of the world at their not seeing Him seems to show that His removal from them by death was what He meant; and in that case, their joy at again seeing Him points to their transport at His reappearance amongst them on His Resurrection, when they could no longer doubt His identity. At the same time the sorrow of the widowed Church in the absence of her Lord in the heavens, and her transport at His personal return, are certainly here expressed. <div eID=\"gen29560\" type=\"x-p\"/>",
+      "content_plain": "16-22. A little while, and ye shall not see me; and again a little while, and ye shall see me, because I go to the Father-- The joy of the world at their not seeing Him seems to show that His removal from them by death was what He meant; and in that case, their joy at again seeing Him points to their transport at His reappearance amongst them on His Resurrection, when they could no longer doubt His identity. At the same time the sorrow of the widowed Church in the absence of her Lord in the heavens, and her transport at His personal return, are certainly here expressed.",
+      "source_record_sha256": "4fb588204670e824150193a1a7786cca25ec7109d135b339dd017f67d4b322e6",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 461891,
+        "length": 781
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.16-22",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16-22. A little while, and ye shall not see me; and again a little while, and ye shall see me, because I go to the Father-- The joy of the world at their not seeing Him seems to show that His removal from them by death was what He meant; and in that case, their joy at again seeing Him points to their transport at His reappearance amongst them on His Resurrection, when they could no longer doubt His identity. At the same time the sorrow of the widowed Church in the absence of her Lord in the heavens, and her transport at His personal return, are certainly here expressed."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.23-28:4:462672:753",
+      "passage_start": "JHN.16.23",
+      "passage_end": "JHN.16.28",
+      "start_verse": 23,
+      "end_verse": 28,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15372\"/><div sID=\"gen29561\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15372\"/><hi type=\"bold\">23-28. In that day--</hi>of the dispensation of the Spirit (as in <reference osisRef=\"John.14.20\">Joh 14:20</reference>).<div eID=\"gen29561\" type=\"x-p\"/> <div sID=\"gen29562\" type=\"x-p\"/><hi type=\"bold\">ye shall ask--</hi>inquire of<div eID=\"gen29562\" type=\"x-p\"/> <div sID=\"gen29563\" type=\"x-p\"/><hi type=\"bold\">me nothing--</hi>by reason of the fulness of the Spirit's teaching (<reference osisRef=\"John.14.26\">Joh 14:26</reference>; <reference osisRef=\"John.16.13\">16:13</reference>; and compare <reference osisRef=\"1John.2.27\">1Jo 2:27</reference>). <div eID=\"gen29563\" type=\"x-p\"/>",
+      "content_plain": "23-28. In that day-- of the dispensation of the Spirit (as in Joh 14:20 ). ye shall ask-- inquire of me nothing-- by reason of the fulness of the Spirit's teaching ( Joh 14:26 ; 16:13 ; and compare 1Jo 2:27 ).",
+      "source_record_sha256": "56a4cd64e1757b9470240fc4c68572898684460d1ec1409eefcca24e9d92ff88",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 462672,
+        "length": 753
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.23-28",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "23-28. In that day-- of the dispensation of the Spirit (as in Joh 14:20 ). ye shall ask-- inquire of me nothing-- by reason of the fulness of the Spirit's teaching ( Joh 14:26 ; 16:13 ; and compare 1Jo 2:27 )."
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.29-30:4:465595:623",
+      "passage_start": "JHN.16.29",
+      "passage_end": "JHN.16.30",
+      "start_verse": 29,
+      "end_verse": 30,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15378\"/><div sID=\"gen29570\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15378\"/><hi type=\"bold\">29-30. His disciples said, ... now speakest thou plainly, and speakest no proverb--</hi>hardly more so than before; the time for perfect plainness was yet to come; but having caught a glimpse of His meaning (it was nothing more), they eagerly express their satisfaction, as if glad to make anything of His words. How touchingly does this show both the simplicity of their hearts and the infantile character of their faith! <div eID=\"gen29570\" type=\"x-p\"/>",
+      "content_plain": "29-30. His disciples said, ... now speakest thou plainly, and speakest no proverb-- hardly more so than before; the time for perfect plainness was yet to come; but having caught a glimpse of His meaning (it was nothing more), they eagerly express their satisfaction, as if glad to make anything of His words. How touchingly does this show both the simplicity of their hearts and the infantile character of their faith!",
+      "source_record_sha256": "932c187f9557077561b068f12f8a2ad2db072f8e1f0c0ab14ccc363f42c5249c",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 465595,
+        "length": 623
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.29-30",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "29-30. His disciples said, ... now speakest thou plainly, and speakest no proverb-- hardly more so than before; the time for perfect plainness was yet to come; but having caught a glimpse of His meaning (it was nothing more), they eagerly express their satisfaction, as if glad to make anything of His words. How touchingly does this show both the simplicity of their hearts and the infantile character of their faith!"
+    },
+    {
+      "entry_id": "sword:jfb:JHN.16.31-33:4:466218:1382",
+      "passage_start": "JHN.16.31",
+      "passage_end": "JHN.16.33",
+      "start_verse": 31,
+      "end_verse": 33,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv15379\"/><div sID=\"gen29571\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15379\"/><hi type=\"bold\">31-33. Jesus answered ... Do ye now believe?--</hi>that is, \"It is well ye do, for it is soon to be tested, and in a way ye little expect.\"<div eID=\"gen29571\" type=\"x-p\"/> <div sID=\"gen29572\" type=\"x-p\"/><hi type=\"bold\">the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone; and yet I am not alone--</hi>A deep and awful sense of wrong experienced is certainly expressed here, but how lovingly! That He was not to be utterly deserted, that there was One who would not forsake Him, was to Him matter of ineffable support and consolation; but that He should be without all human countenance and cheer, who as Man was exquisitely sensitive to the law of sympathy, would fill themselves with as much shame, when they afterwards recurred to it, as the Redeemer's heart in His hour of need with pungent sorrow. \"I looked for some to take pity, but there was none; and for comforters, but I found none\" (<reference osisRef=\"Ps.69.20\">Psa 69:20</reference>).<div eID=\"gen29572\" type=\"x-p\"/> <div sID=\"gen29573\" type=\"x-p\"/><hi type=\"bold\">because the Father is with me--</hi>how near, and with what sustaining power, who can express? <div eID=\"gen29573\" type=\"x-p\"/>",
+      "content_plain": "31-33. Jesus answered ... Do ye now believe?-- that is, \"It is well ye do, for it is soon to be tested, and in a way ye little expect.\" the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone; and yet I am not alone-- A deep and awful sense of wrong experienced is certainly expressed here, but how lovingly! That He was not to be utterly deserted, that there was One who would not forsake Him, was to Him matter of ineffable support and consolation; but that He should be without all human countenance and cheer, who as Man was exquisitely sensitive to the law of sympathy, would fill themselves with as much shame, when they afterwards recurred to it, as the Redeemer's heart in His hour of need with pungent sorrow. \"I looked for some to take pity, but there was none; and for comforters, but I found none\" ( Psa 69:20 ). because the Father is with me-- how near, and with what sustaining power, who can express?",
+      "source_record_sha256": "553a8a9b6ede4a16e7e11f13c8fd8eb5625568e55bb7818609119030f5c45eaf",
+      "index_record": {
+        "testament": "NT",
+        "block": 4,
+        "offset": 466218,
+        "length": 1382
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "JHN.16.31-33",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "31-33. Jesus answered ... Do ye now believe?-- that is, \"It is well ye do, for it is soon to be tested, and in a way ye little expect.\" the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone; and yet I am not alone-- A deep and awful sense of wrong experienced is certainly expressed here, but how lovingly! That He was not to be utterly deserted, that there was One who would not forsake Him, was to Him matter of ineffable support and consolation; but that He should be without all human countenance and cheer, who as Man was exquisitely sensitive to the law of sympathy, would fill themselves with as much shame, when they afterwards recurred to it, as the Redeemer's heart in His hour of need with pungent sorrow. \"I looked for some to take pity, but there was none; and for comforters, but I found none\" ( Psa 69:20 ). because the Father is with me-- how near, and with what sustaining power, who can express?"
+    }
+  ],
+  "indexed_verse_count": 33,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_JHN_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 11
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.16:P:chapter-16",
+      "navigation_id": "JHN.16:P:chapter-16",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 16",
+      "content_plain": "CHAPTER 16",
+      "content_osis": "<title type=\"x-s2\">CHAPTER 16</title> ",
+      "source_entry_id": "sword:jfb:JHN.16.1-5:4:450154:505",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        98
+      ],
+      "source_fragment_sha256": "06eb7fac733c09d3fce29ff34faa583fbb85181c7ad59aefb450c6dd023cebf1",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.16.1",
+        "JHN.16.5"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:JHN.16:P:joh-16-1-33-discourse-at-the-supper-table-concluded",
+      "navigation_id": "JHN.16:P:joh-16-1-33-discourse-at-the-supper-table-concluded",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Joh 16:1-33 . Discourse at the Supper Table Concluded.",
+      "content_plain": "Joh 16:1-33 . Discourse at the Supper Table Concluded.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"John.16.1-John.16.33\">Joh 16:1-33</reference>. Discourse at the Supper Table Concluded.</title> <div sID=\"gen29536\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv15358\"/>",
+      "source_entry_id": "sword:jfb:JHN.16.1-5:4:450154:505",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        98,
+        325
+      ],
+      "source_fragment_sha256": "85e459f86a93457800519f73e0c199e2a1b321440f4f3bc077d261140c5427fd",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "JHN.16.1",
+        "JHN.16.5"
+      ],
+      "source_title_explicit_range": [
+        "JHN.16.1",
+        "JHN.16.33"
+      ]
+    }
+  ],
+  "navigation_section_count": 2,
+  "reader_visible_entry_count": 11,
+  "unavailable_author_work_for_testament": false
+}
