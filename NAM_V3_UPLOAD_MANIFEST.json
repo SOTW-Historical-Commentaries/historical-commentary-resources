@@ -1,0 +1,238 @@
+{
+  "kind": "sotw_structured_commentary_root_upload_manifest",
+  "version": "v3-nahum-2026-11-11",
+  "book": "NAM",
+  "book_name": "Nahum",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-nahum-2026-11-11",
+  "baseline_main_commit": "d3d22725bbf2962695d01e70251e842b97935b0f",
+  "baseline_navigation_manifest_git_blob": "dd337ea7c91d71ea82d07b8891157a0913d4abc5",
+  "baseline_navigation_sha256": "d5e1ecacbb52661c5d3e4a264d29dd6d6a868402d18b72f4e85b0912aa96b46a",
+  "prerequisites": [
+    "Current main and navigation manifest match pinned baseline; no preexisting NAM book snapshot",
+    "Owner extracts numbered ZIPs and uploads their contained files into repository root, preserving exact paths",
+    "Batch 1 new files first; cumulative navigation manifest Batch 2 last; no direct assistant writes"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 25,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/NAM.json",
+      "size_bytes": 36062,
+      "sha256": "4f05977ad3006d184159d7f3993d4bab49ba9335c012ef5d0e8b610a95a9c8b4",
+      "git_blob_sha": "23e39522fa87e7af3ff8e9b33bbcfad753c668e8",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "size_bytes": 17662,
+      "sha256": "a4a4450b3da84607fc6b5e5dc3d4c5671eab32fdace7868042d77638cc51d461",
+      "git_blob_sha": "b1cbaad28779fbb514fb430e72b566e7fec5aea6",
+      "change": "REPLACE_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/adam-clarke/NAM/1.json",
+      "size_bytes": 70082,
+      "sha256": "e4cdb36fa131e94be490e55e1e791f9fd951ebc860d7b4c068c7704e036fc76d",
+      "git_blob_sha": "da2b781cd1cffb3f9d21e72c79b64859cb37421a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/adam-clarke/NAM/2.json",
+      "size_bytes": 41328,
+      "sha256": "91e2fda261f42a48af447149be92be13a6591b24d694a9a663a76d90560be593",
+      "git_blob_sha": "eac8cead1a1a45f500088d9a8aa31d3f1be521be",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/adam-clarke/NAM/3.json",
+      "size_bytes": 58877,
+      "sha256": "0429b9b4d0f925e86ac1478872f137ddee4200a6b94f219151f527b3b186e9cf",
+      "git_blob_sha": "2efc61d81d5b275b161604d69ab4c42d982ba6b6",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/jamieson-fausset-brown/NAM/1.json",
+      "size_bytes": 81807,
+      "sha256": "c7b268d9a1f31d25fa8952436a0a2ad750e9a0b3dc12aa173de4c5800d169203",
+      "git_blob_sha": "43f77d3f6b70ced91b0839fbf90517aa6a9b677f",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/jamieson-fausset-brown/NAM/2.json",
+      "size_bytes": 57473,
+      "sha256": "3eeb0bdbf77ee8b08643b6d2684d8b37c3b8600156c60e5b8eaa4353f1a8364d",
+      "git_blob_sha": "1a77e40407c20bbde63a6c1c91e58220592fb5be",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/jamieson-fausset-brown/NAM/3.json",
+      "size_bytes": 66567,
+      "sha256": "badbc0e825f97153b731e93b93ebe7f3869dde863a58895a6ad1ccadf9843589",
+      "git_blob_sha": "378d7462d6615684c3dee77b707c67f56c7ecbd7",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/john-calvin/NAM/1.json",
+      "size_bytes": 285604,
+      "sha256": "64cc107e217131770bf2ee1245503d1cc2429c7aaaa821e11cdbe7cdfd6e2e55",
+      "git_blob_sha": "80b20eb9e92cbab38283d6b5e90354fccbbdd8e2",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/john-calvin/NAM/2.json",
+      "size_bytes": 229214,
+      "sha256": "0f7cb5b631768052afd2f7587179ffcb0545adfc58c7e6c6f5798068ceb5edae",
+      "git_blob_sha": "511cb1f1f22e5383fd1371a2bd7d4e0512989dfc",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/john-calvin/NAM/3.json",
+      "size_bytes": 347263,
+      "sha256": "9580b94ea07276398d58f42a053092e7e449c0903adfd6ec1bbeeacdf5ddd07e",
+      "git_blob_sha": "0265b2ae9120f4ee44a5d945d3eec3e84f5c9b63",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/john-gill/NAM/1.json",
+      "size_bytes": 151783,
+      "sha256": "7ec0744e185c541f4ed7e414ff1b174773b65802ac93a5762ebe5d9e1309405b",
+      "git_blob_sha": "641bd74a0d112b569c70feee5cd45239b74202ca",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/john-gill/NAM/2.json",
+      "size_bytes": 103778,
+      "sha256": "f055ff41a7c72192f94043f0b29aa4aeeac09bd192602f6f71a3eafeab53bcf9",
+      "git_blob_sha": "4b826af8c7e36c6f4190aeecb10274cfa3a0309f",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/john-gill/NAM/3.json",
+      "size_bytes": 186396,
+      "sha256": "e5a29fe0ac38b9bc8de82c5843f03908cc1492e479213fe12831d5b114037dee",
+      "git_blob_sha": "fb2fad5c2af377b32077da30aa908f715e33c2a3",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/keil-delitzsch/NAM/1.json",
+      "size_bytes": 165842,
+      "sha256": "34ae7218e85e3371bdd906652c3cd5a4384444182d27090319124c21b23ed1ac",
+      "git_blob_sha": "5718f33effc967ca1fbca6c260985a348499dd5c",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/keil-delitzsch/NAM/2.json",
+      "size_bytes": 100385,
+      "sha256": "4f0c7fc7f299397e7213f918b3dd00059bb2ad3ad58de3de029dc75a062808ed",
+      "git_blob_sha": "874eef8bf55cd2492644877b4df625b5dc6e99f4",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/keil-delitzsch/NAM/3.json",
+      "size_bytes": 161608,
+      "sha256": "7ddba43e868f5ef5bcacd4be1960fa4d3e1d6b7b2b3fb465c789951069bd97b7",
+      "git_blob_sha": "2aab24d37271a714135bd8c389e3b4ff030cd045",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/matthew-henry/NAM/1.json",
+      "size_bytes": 107221,
+      "sha256": "8e669fce323263830e402562eac6de731e03c7432158f680fad535ea4ade9626",
+      "git_blob_sha": "22aba17b02157f7a2f4e633e02838f7fc37997e8",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/matthew-henry/NAM/2.json",
+      "size_bytes": 64306,
+      "sha256": "ddf0f77662525caf50d2d4a6960b8ce191e2de5dd091acf3bb1b924581c2c184",
+      "git_blob_sha": "caa6b273fc227f38dcd7ae642d26b3a8dd9375d6",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/authors/matthew-henry/NAM/3.json",
+      "size_bytes": 82235,
+      "sha256": "7ce9985fb003dd31bf24c56a10571c1bdce9d9587a47ff1c0943e621e9c47256",
+      "git_blob_sha": "bfb24cdd6c044bcfdb3b5932fb9d1b2c5c9e5f3d",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/index/NAM/1.json",
+      "size_bytes": 10342,
+      "sha256": "8cc64e174b2fb3adbb09dc772259be866e68dc40a1acb063fe130eb5005524f3",
+      "git_blob_sha": "11e40584c311c477f146b4d19837bed81df8f58b",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/index/NAM/2.json",
+      "size_bytes": 8251,
+      "sha256": "2446a92406e098c01c3330ba9268f0c643e3a3ea6b6713ef3b10d91aa789ebeb",
+      "git_blob_sha": "745f4bab2aa19a63de6c09b352523f2502002eb5",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/index/NAM/3.json",
+      "size_bytes": 9848,
+      "sha256": "c7ccc98b8c1f81b223bb900222fea656e93bd7cb767bf7401507528470178b81",
+      "git_blob_sha": "7c75de3ccfc4e853f4a466e3e93ba4c0622d1e7c",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-nahum-2026-11-11/manifest.json",
+      "size_bytes": 1745,
+      "sha256": "2229936232ab9bce2f4cb32bc1b6754bce1d4e1fbcc8a2d602d0f52a7e9889c2",
+      "git_blob_sha": "190f05e72cab583b5d81741a95879db355fb9123",
+      "change": "ADD"
+    },
+    {
+      "path": "review-nahum-v3.html",
+      "size_bytes": 14363,
+      "sha256": "55ae5fe6b9528964b27d4d9400aeede7f2871c18ca05d9bf7d9d6e3701749fdb",
+      "git_blob_sha": "205c6a7c4f383756226c6ba1a56bb67d878aa36c",
+      "change": "ADD"
+    }
+  ],
+  "qa": {
+    "independent_source_provenance_checks": 4031,
+    "reader_navigation_checks": 2898,
+    "errors": 0,
+    "source_archives_sha_locked": 6,
+    "source_license_records_preserved": true,
+    "original_p_sections": 23,
+    "routed_p_sections": 24,
+    "previous_books_preserved": 33,
+    "github_writes": 0,
+    "browser_rendering": "NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "counts": {
+    "chapters": 3,
+    "scripture_verse_coordinates": 47,
+    "authors": 6,
+    "original_source_entries": 206,
+    "source_backed_verse_author_links": 276
+  },
+  "source_scoped_exceptions": {
+    "adam-clarke:1": [
+      5,
+      6
+    ],
+    "john-calvin:3": [
+      9
+    ],
+    "adam-clarke:3": [
+      2,
+      3,
+      11
+    ]
+  },
+  "rights_and_provenance": "Five selected original CrossWire/SWORD modules with original OSIS and native binary index; original HelloAO Gill source. Preserve modules licensing and digital-edition/provenance metadata; no translation text. Actual public redistribution remains edition-specific.",
+  "release_scope": "Additive independent staging book; no rewrites to earlier accepted books, config, shared scripts, workflows, or CGBC player",
+  "publication_gate": "Owner manual upload plus exact path/hash/Pages deployment and browser visual verification"
+}
