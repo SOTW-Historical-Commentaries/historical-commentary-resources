@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.25-additive-jonah",
+  "version": "navigation-coverage-v1.26-additive-micah",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -36,7 +36,8 @@
     "JOL",
     "AMO",
     "OBA",
-    "JON"
+    "JON",
+    "MIC"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -70,7 +71,8 @@
     "JOL": "structured-joel-2026-11-11",
     "AMO": "structured-amos-2026-11-11",
     "OBA": "structured-obadiah-2026-11-11",
-    "JON": "structured-jonah-2026-11-11"
+    "JON": "structured-jonah-2026-11-11",
+    "MIC": "structured-micah-2026-11-11"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -84,7 +86,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 5564,
+    "original_P_sections": 5619,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -118,7 +120,8 @@
       "JOL": 29,
       "AMO": 66,
       "OBA": 9,
-      "JON": 29
+      "JON": 29,
+      "MIC": 55
     },
     "routed_by_book": {
       "GEN": 64,
@@ -152,10 +155,11 @@
       "JOL": 30,
       "AMO": 67,
       "OBA": 10,
-      "JON": 30
+      "JON": 30,
+      "MIC": 56
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.24-additive-obadiah",
+  "previous_manifest_version": "navigation-coverage-v1.25-additive-jonah",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -261,6 +265,10 @@
     "Jonah (4 chapters, 48 KJV coordinates), six historical authors, original SWORD/HelloAO.",
     "Jonah original book/chapter introductions and chapter-range headings are non-Scripture source-backed P sections.",
     "Previously accepted JFB Genesis-hosted Prophetical Books introduction linked without text duplication.",
-    "All 31 earlier original book snapshots and reader files are unchanged."
+    "All 31 earlier original book snapshots and reader files are unchanged.",
+    "Micah (7 chapters, 105 KJV verse coordinates), six original historical authors, source-linked SWORD/HelloAO.",
+    "Micah original book/chapter introductions and explicitly title-bounded Keil & Delitzsch multi-chapter sections are separate P records.",
+    "Previously accepted immutable JFB Prophetical Books introduction linked without source text duplication.",
+    "All 32 earlier original book snapshots and reader files remain unchanged."
   ]
 }
