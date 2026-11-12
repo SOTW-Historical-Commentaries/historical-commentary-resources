@@ -1,0 +1,386 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "ZEC",
+  "chapter": 10,
+  "canonical_chapter": "ZEC.10",
+  "versification": "KJV",
+  "verse_count": 12,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zech\" sID=\"gen35390\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen35391\" type=\"x-p\"/> ",
+      "source_record_sha256": "cc7b69c30e55d2229d74ccd01ff1f3d6abb5a1cd0634df29a4a5827d84d2169d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen35657\" type=\"x-p\"/> <chapter n=\"10\" osisID=\"Zech.10\" sID=\"Zech.10\"/> ",
+      "source_record_sha256": "852f766eafa7b653f0c60ffac23745e65fe785415f8d37bbdad323224cd81dee",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 92456,
+        "length": 82
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:ZEC.10.1-1:38:92538:1619",
+      "passage_start": "ZEC.10.1",
+      "passage_end": "ZEC.10.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen35657\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen35658\" type=\"introduction\"/> <div sID=\"gen35659\" type=\"x-p\"/> <div eID=\"gen35659\" type=\"x-p\"/> <div eID=\"gen35658\" type=\"introduction\"/> <div sID=\"gen35660\" type=\"x-p\"/> The promise of prosperity and plenty in the close of the preceding chapter leads the prophet to suggest, next, the means of obtaining them; supplication to Jehovah, and not to idols, whose worship had already proved a fertile source of calamities, <reference osisRef=\"Zac.10.1-Zac.10.3\">Zac 10:1-3</reference>. The rest of the chapter (like the preceding) promises to the Jews a restoration to their own land under rulers and governors, victory over their enemies, and much increase and prosperity; and this in a manner so miraculous, that it is described, <reference osisRef=\"Zac.10.4-Zac.10.12\">Zac 10:4-12</reference>, by allusions to the deliverance from Egypt. <div eID=\"gen35660\" type=\"x-p\"/> <div sID=\"gen35661\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen35661\" type=\"x-p\"/> <div sID=\"gen35662\" type=\"x-p\"/> Ask ye of the Lord rain - Rain in the due seasons - <div eID=\"gen35662\" type=\"x-p\"/> <div sID=\"gen35663\" type=\"x-p\"/> 1. To impregnate the seed when sown; and <div eID=\"gen35663\" type=\"x-p\"/> <div sID=\"gen35664\" type=\"x-p\"/> 2. To fill the ear near the time of harvest - was so essential to the fertility of the land, and the well-being of the people, that it stands well among the chief of God's mercies and the promise of it here shows that God designs to ensure the prosperity promised, by using those means by which it was promoted. ",
+      "content_plain": "Introduction The promise of prosperity and plenty in the close of the preceding chapter leads the prophet to suggest, next, the means of obtaining them; supplication to Jehovah, and not to idols, whose worship had already proved a fertile source of calamities, Zac 10:1-3 . The rest of the chapter (like the preceding) promises to the Jews a restoration to their own land under rulers and governors, victory over their enemies, and much increase and prosperity; and this in a manner so miraculous, that it is described, Zac 10:4-12 , by allusions to the deliverance from Egypt. Verse 1 Ask ye of the Lord rain - Rain in the due seasons - 1. To impregnate the seed when sown; and 2. To fill the ear near the time of harvest - was so essential to the fertility of the land, and the well-being of the people, that it stands well among the chief of God's mercies and the promise of it here shows that God designs to ensure the prosperity promised, by using those means by which it was promoted.",
+      "source_record_sha256": "b4c4bb6496ef68f7f25068f055244c2ccf3c15554e12dc45721300a31fc98d23",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 92538,
+        "length": 1619
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 Ask ye of the Lord rain - Rain in the due seasons - 1. To impregnate the seed when sown; and 2. To fill the ear near the time of harvest - was so essential to the fertility of the land, and the well-being of the people, that it stands well among the chief of God's mercies and the promise of it here shows that God designs to ensure the prosperity promised, by using those means by which it was promoted.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original introduction separate from explicitly printed Verse 1",
+      "reader_source_character_span": [
+        987,
+        1619
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen35661\" type=\"x-p\"/> <div sID=\"gen35662\" type=\"x-p\"/> Ask ye of the Lord rain - Rain in the due seasons - <div eID=\"gen35662\" type=\"x-p\"/> <div sID=\"gen35663\" type=\"x-p\"/> 1. To impregnate the seed when sown; and <div eID=\"gen35663\" type=\"x-p\"/> <div sID=\"gen35664\" type=\"x-p\"/> 2. To fill the ear near the time of harvest - was so essential to the fertility of the land, and the well-being of the people, that it stands well among the chief of God's mercies and the promise of it here shows that God designs to ensure the prosperity promised, by using those means by which it was promoted. "
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.2-2:38:94157:797",
+      "passage_start": "ZEC.10.2",
+      "passage_end": "ZEC.10.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen35664\" type=\"x-p\"/> <div sID=\"gen35665\" type=\"x-p\"/> The idols have spoken vanity - This is spoken of the Jews, and must refer to their idolatry practiced before the captivity, for there were no idols after. <div eID=\"gen35665\" type=\"x-p\"/> <div sID=\"gen35666\" type=\"x-p\"/> Therefore they went their way - They were like a flock that had no shepherd, shifting from place to place, and wandering about in the wilderness, seeking for pasture, wherever they might find it. Some think that the idols and diviners were those of the Seleucidae Greeks, who excited their masters with promises of success against the Maccabees. Others think that the Babylonish captivity is foretold; for a determined future event is frequently spoken of by the prophets as past. ",
+      "content_plain": "Verse 2 The idols have spoken vanity - This is spoken of the Jews, and must refer to their idolatry practiced before the captivity, for there were no idols after. Therefore they went their way - They were like a flock that had no shepherd, shifting from place to place, and wandering about in the wilderness, seeking for pasture, wherever they might find it. Some think that the idols and diviners were those of the Seleucidae Greeks, who excited their masters with promises of success against the Maccabees. Others think that the Babylonish captivity is foretold; for a determined future event is frequently spoken of by the prophets as past.",
+      "source_record_sha256": "bfa16f22556855386ca532dd87fc1af2417353c31185f8938ad7a2fdbc03b2b8",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 94157,
+        "length": 797
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 The idols have spoken vanity - This is spoken of the Jews, and must refer to their idolatry practiced before the captivity, for there were no idols after. Therefore they went their way - They were like a flock that had no shepherd, shifting from place to place, and wandering about in the wilderness, seeking for pasture, wherever they might find it. Some think that the idols and diviners were those of the Seleucidae Greeks, who excited their masters with promises of success against the Maccabees. Others think that the Babylonish captivity is foretold; for a determined future event is frequently spoken of by the prophets as past."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.3-3:38:94954:841",
+      "passage_start": "ZEC.10.3",
+      "passage_end": "ZEC.10.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen35666\" type=\"x-p\"/> <div sID=\"gen35667\" type=\"x-p\"/> Mine anger was kindled against the shepherds - Bad kings and bad priests. I will punish the goats; these were the wicked priests, who were shepherds by their office, and goats by the impurity of their lives. <div eID=\"gen35667\" type=\"x-p\"/> <div sID=\"gen35668\" type=\"x-p\"/> As his goodly horse in the battle - The honorable war horse, or the horse that carried the general's equipage. In the unaccountable variation of interpreters on these chapters, this, among other things, is thought to be spoken of Matthias, and Judas Maccabeus, who assembled the people from all quarters, as a shepherd gathers his sheep together; and led them against the sons of Greece, the Seleucidae Greeks. Others refer every thing here to times before the captivity. ",
+      "content_plain": "Verse 3 Mine anger was kindled against the shepherds - Bad kings and bad priests. I will punish the goats; these were the wicked priests, who were shepherds by their office, and goats by the impurity of their lives. As his goodly horse in the battle - The honorable war horse, or the horse that carried the general's equipage. In the unaccountable variation of interpreters on these chapters, this, among other things, is thought to be spoken of Matthias, and Judas Maccabeus, who assembled the people from all quarters, as a shepherd gathers his sheep together; and led them against the sons of Greece, the Seleucidae Greeks. Others refer every thing here to times before the captivity.",
+      "source_record_sha256": "e9c695788dab9d4b8139890af282503fe4464a27150cff557844bd22bd705865",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 94954,
+        "length": 841
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 Mine anger was kindled against the shepherds - Bad kings and bad priests. I will punish the goats; these were the wicked priests, who were shepherds by their office, and goats by the impurity of their lives. As his goodly horse in the battle - The honorable war horse, or the horse that carried the general's equipage. In the unaccountable variation of interpreters on these chapters, this, among other things, is thought to be spoken of Matthias, and Judas Maccabeus, who assembled the people from all quarters, as a shepherd gathers his sheep together; and led them against the sons of Greece, the Seleucidae Greeks. Others refer every thing here to times before the captivity."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.4-4:38:95795:687",
+      "passage_start": "ZEC.10.4",
+      "passage_end": "ZEC.10.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen35668\" type=\"x-p\"/> <div sID=\"gen35669\" type=\"x-p\"/> Out of him came forth the corner - This is spoken of the tribe of Judah: all strength, counsel, and excellence came from that tribe. The corner stone, the ornament and completion of the building; the nail, by which the tents were fastened, and on which they hung their clothes, armor, etc., the battlebow, the choicest archers. <div eID=\"gen35669\" type=\"x-p\"/> <div sID=\"gen35670\" type=\"x-p\"/> Every oppressor together - Those heroes and generals, by whom, under God, their foes should be totally routed. Newcome translates, \"Every ruler together.\" Perhaps all this is spoken of the Messiah. ",
+      "content_plain": "Verse 4 Out of him came forth the corner - This is spoken of the tribe of Judah: all strength, counsel, and excellence came from that tribe. The corner stone, the ornament and completion of the building; the nail, by which the tents were fastened, and on which they hung their clothes, armor, etc., the battlebow, the choicest archers. Every oppressor together - Those heroes and generals, by whom, under God, their foes should be totally routed. Newcome translates, \"Every ruler together.\" Perhaps all this is spoken of the Messiah.",
+      "source_record_sha256": "6e6aca5e118c4b758c8a039a3665947697296808e6b203e8b5351e6884cd6678",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 95795,
+        "length": 687
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 Out of him came forth the corner - This is spoken of the tribe of Judah: all strength, counsel, and excellence came from that tribe. The corner stone, the ornament and completion of the building; the nail, by which the tents were fastened, and on which they hung their clothes, armor, etc., the battlebow, the choicest archers. Every oppressor together - Those heroes and generals, by whom, under God, their foes should be totally routed. Newcome translates, \"Every ruler together.\" Perhaps all this is spoken of the Messiah."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.5-5:38:96482:402",
+      "passage_start": "ZEC.10.5",
+      "passage_end": "ZEC.10.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen35670\" type=\"x-p\"/> <div sID=\"gen35671\" type=\"x-p\"/> They shall be as mighty men - The Maccabees and their successors. <div eID=\"gen35671\" type=\"x-p\"/> <div sID=\"gen35672\" type=\"x-p\"/> Riders on horses - The Macedonians, who opposed the Maccabees, and had much cavalry; whereas the Jews had none, and even few weapons of war; yet they overcame these horsemen. ",
+      "content_plain": "Verse 5 They shall be as mighty men - The Maccabees and their successors. Riders on horses - The Macedonians, who opposed the Maccabees, and had much cavalry; whereas the Jews had none, and even few weapons of war; yet they overcame these horsemen.",
+      "source_record_sha256": "00a6a088d47828d6f0eaa4939fe3ac73d34dd52019ce72057b9d3890b5d0849c",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 96482,
+        "length": 402
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 They shall be as mighty men - The Maccabees and their successors. Riders on horses - The Macedonians, who opposed the Maccabees, and had much cavalry; whereas the Jews had none, and even few weapons of war; yet they overcame these horsemen."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.6-6:38:96884:496",
+      "passage_start": "ZEC.10.6",
+      "passage_end": "ZEC.10.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen35672\" type=\"x-p\"/> <div sID=\"gen35673\" type=\"x-p\"/> I will strengthen the house of Judah - I doubt whether the sixth, seventh, eighth, and ninth verses are not to be understood of the future ingathering of the Jews in the times of the Gospel. See <reference osisRef=\"Jer.3.14\">Jer 3:14</reference>; <reference osisRef=\"Jer.23.6\">Jer 23:6</reference>; <reference osisRef=\"Hos.1.2\">Hos 1:2</reference>; <reference osisRef=\"Hos.6.11\">Hos 6:11</reference>. ",
+      "content_plain": "Verse 6 I will strengthen the house of Judah - I doubt whether the sixth, seventh, eighth, and ninth verses are not to be understood of the future ingathering of the Jews in the times of the Gospel. See Jer 3:14 ; Jer 23:6 ; Hos 1:2 ; Hos 6:11 .",
+      "source_record_sha256": "830d93762e27e0ecb3a49a729ce2cc1d184987f5d6fdbadf359941ded81f2425",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 96884,
+        "length": 496
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 I will strengthen the house of Judah - I doubt whether the sixth, seventh, eighth, and ninth verses are not to be understood of the future ingathering of the Jews in the times of the Gospel. See Jer 3:14 ; Jer 23:6 ; Hos 1:2 ; Hos 6:11 ."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.7-7:38:97380:183",
+      "passage_start": "ZEC.10.7",
+      "passage_end": "ZEC.10.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen35673\" type=\"x-p\"/> <div sID=\"gen35674\" type=\"x-p\"/> Ephraim shall be like a mighty man - This tribe was always distinguished for its valor. ",
+      "content_plain": "Verse 7 Ephraim shall be like a mighty man - This tribe was always distinguished for its valor.",
+      "source_record_sha256": "22a6581fc05e365ab72a828756762494ba0e85b124941a0cb1961ba556c1c25d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 97380,
+        "length": 183
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 Ephraim shall be like a mighty man - This tribe was always distinguished for its valor."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.8-8:38:97563:284",
+      "passage_start": "ZEC.10.8",
+      "passage_end": "ZEC.10.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen35674\" type=\"x-p\"/> <div sID=\"gen35675\" type=\"x-p\"/> I will hiss for them - אשרקה eshrekah, \"I will shriek for them;\" call them with such a shrill strong voice, that they shall hear me, and find that it is the voice of their redemption. ",
+      "content_plain": "Verse 8 I will hiss for them - אשרקה eshrekah, \"I will shriek for them;\" call them with such a shrill strong voice, that they shall hear me, and find that it is the voice of their redemption.",
+      "source_record_sha256": "027e3e44f03472e9e2adb08422be287322934e482432c1d9a9bafce67e93bce2",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 97563,
+        "length": 284
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 8 I will hiss for them - אשרקה eshrekah, \"I will shriek for them;\" call them with such a shrill strong voice, that they shall hear me, and find that it is the voice of their redemption."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.9-9:38:97847:337",
+      "passage_start": "ZEC.10.9",
+      "passage_end": "ZEC.10.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen35675\" type=\"x-p\"/> <div sID=\"gen35676\" type=\"x-p\"/> I will sow them among the people - Wherever they have been dispersed, my voice in the preaching of the Gospel shall reach them. And they shall remember me, and they and their children shall turn again to the Lord, through Messiah their King. ",
+      "content_plain": "Verse 9 I will sow them among the people - Wherever they have been dispersed, my voice in the preaching of the Gospel shall reach them. And they shall remember me, and they and their children shall turn again to the Lord, through Messiah their King.",
+      "source_record_sha256": "c71ea5dbe50c1ddfef4b22035e7ce345db9d158a3e07a05dd2f76ed9f5147722",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 97847,
+        "length": 337
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 I will sow them among the people - Wherever they have been dispersed, my voice in the preaching of the Gospel shall reach them. And they shall remember me, and they and their children shall turn again to the Lord, through Messiah their King."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.10-10:38:98184:727",
+      "passage_start": "ZEC.10.10",
+      "passage_end": "ZEC.10.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen35676\" type=\"x-p\"/> <div sID=\"gen35677\" type=\"x-p\"/> Out of the land of Egypt - I will bring them out of all the countries where they have been dispersed, and bring them back to their own land; and they shall be so numerous that they shall scarcely find there, in all its length and breadth, a sufficiency of room. If all the Jews that are now scattered over the face of the earth were gathered together, they would make a mighty nation. And God will gather them together. As a wonderful providence has preserved them in every place, so a wondrous providence will collect them from every place of their dispersion. When the great call comes, no one soul of them shall be left behind. ",
+      "content_plain": "Verse 10 Out of the land of Egypt - I will bring them out of all the countries where they have been dispersed, and bring them back to their own land; and they shall be so numerous that they shall scarcely find there, in all its length and breadth, a sufficiency of room. If all the Jews that are now scattered over the face of the earth were gathered together, they would make a mighty nation. And God will gather them together. As a wonderful providence has preserved them in every place, so a wondrous providence will collect them from every place of their dispersion. When the great call comes, no one soul of them shall be left behind.",
+      "source_record_sha256": "d0e426aed24bcd15e22d7fe45f9d114924fc51d04125b5b6505f507d4dd60d49",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 98184,
+        "length": 727
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 Out of the land of Egypt - I will bring them out of all the countries where they have been dispersed, and bring them back to their own land; and they shall be so numerous that they shall scarcely find there, in all its length and breadth, a sufficiency of room. If all the Jews that are now scattered over the face of the earth were gathered together, they would make a mighty nation. And God will gather them together. As a wonderful providence has preserved them in every place, so a wondrous providence will collect them from every place of their dispersion. When the great call comes, no one soul of them shall be left behind."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.11-11:38:98911:790",
+      "passage_start": "ZEC.10.11",
+      "passage_end": "ZEC.10.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen35677\" type=\"x-p\"/> <div sID=\"gen35678\" type=\"x-p\"/> And he shall pass through the sea - Here is an allusion to the passage of the Red Sea, on their coming out of Egypt, and to their crossing Jordan, when they went into the promised land; the waves or waters of both were dried up, thrown from side to side, till all the people passed safely through. When they shall return from the various countries in which they now sojourn, God will work, if necessary, similar miracles to those which he formerly worked for their forefathers; and the people shall be glad to let them go, however much they may be profited by their operations in the state. Those that oppose, as Assyria and Egypt formerly did, shall be brought down, and their scepter broken. ",
+      "content_plain": "Verse 11 And he shall pass through the sea - Here is an allusion to the passage of the Red Sea, on their coming out of Egypt, and to their crossing Jordan, when they went into the promised land; the waves or waters of both were dried up, thrown from side to side, till all the people passed safely through. When they shall return from the various countries in which they now sojourn, God will work, if necessary, similar miracles to those which he formerly worked for their forefathers; and the people shall be glad to let them go, however much they may be profited by their operations in the state. Those that oppose, as Assyria and Egypt formerly did, shall be brought down, and their scepter broken.",
+      "source_record_sha256": "fce01f62f892e5df79fba027681fc3bbd5df128861fad2cbb752d68d51501638",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 98911,
+        "length": 790
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 11 And he shall pass through the sea - Here is an allusion to the passage of the Red Sea, on their coming out of Egypt, and to their crossing Jordan, when they went into the promised land; the waves or waters of both were dried up, thrown from side to side, till all the people passed safely through. When they shall return from the various countries in which they now sojourn, God will work, if necessary, similar miracles to those which he formerly worked for their forefathers; and the people shall be glad to let them go, however much they may be profited by their operations in the state. Those that oppose, as Assyria and Egypt formerly did, shall be brought down, and their scepter broken."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.10.12-12:38:99701:924",
+      "passage_start": "ZEC.10.12",
+      "passage_end": "ZEC.10.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen35678\" type=\"x-p\"/> <div sID=\"gen35679\" type=\"x-p\"/> I will strengthen them in the Lord - I, the God of Israel, will strengthen them in the Lord-Jesus, the Messiah; and thus indeed the Chaldee: I will strengthen them, בימרא דיי bemeymre dayai, in or by the Word of Jehovah, the same personal Word which we so often meet with in the Chaldee paraphrases or Targum. <div eID=\"gen35679\" type=\"x-p\"/> <div sID=\"gen35680\" type=\"x-p\"/> They shall walk up and down in his name - In the name of the Messiah. Saith the Lord - God speaks here, not of himself, but concerning his Christ. The Jews shall have complete liberty; they shall appear everywhere as a part of the flock of Christ, and no difference be made between them and the converted Gentiles. They shall be all one fold under one Shepherd and Bishop of all souls.  <chapter eID=\"Zech.10\"/> <div eID=\"gen35680\" type=\"x-p\"/>",
+      "content_plain": "Verse 12 I will strengthen them in the Lord - I, the God of Israel, will strengthen them in the Lord-Jesus, the Messiah; and thus indeed the Chaldee: I will strengthen them, בימרא דיי bemeymre dayai, in or by the Word of Jehovah, the same personal Word which we so often meet with in the Chaldee paraphrases or Targum. They shall walk up and down in his name - In the name of the Messiah. Saith the Lord - God speaks here, not of himself, but concerning his Christ. The Jews shall have complete liberty; they shall appear everywhere as a part of the flock of Christ, and no difference be made between them and the converted Gentiles. They shall be all one fold under one Shepherd and Bishop of all souls.",
+      "source_record_sha256": "f672e214963ae44b3928a799ba8f8553814566578b3284ca8e868db45349abd4",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 99701,
+        "length": 924
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.10.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 12 I will strengthen them in the Lord - I, the God of Israel, will strengthen them in the Lord-Jesus, the Messiah; and thus indeed the Chaldee: I will strengthen them, בימרא דיי bemeymre dayai, in or by the Word of Jehovah, the same personal Word which we so often meet with in the Chaldee paraphrases or Targum. They shall walk up and down in his name - In the name of the Messiah. Saith the Lord - God speaks here, not of himself, but concerning his Christ. The Jews shall have complete liberty; they shall appear everywhere as a part of the flock of Christ, and no difference be made between them and the converted Gentiles. They shall be all one fold under one Shepherd and Bishop of all souls."
+    }
+  ],
+  "indexed_verse_count": 12,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_ZEC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 12
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:ZEC.10:P:zechariah-original-chapter-introduction",
+      "navigation_id": "ZEC.10:P:zechariah-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Zechariah · Original Chapter Introduction",
+      "content_plain": "Introduction The promise of prosperity and plenty in the close of the preceding chapter leads the prophet to suggest, next, the means of obtaining them; supplication to Jehovah, and not to idols, whose worship had already proved a fertile source of calamities, Zac 10:1-3 . The rest of the chapter (like the preceding) promises to the Jews a restoration to their own land under rulers and governors, victory over their enemies, and much increase and prosperity; and this in a manner so miraculous, that it is described, Zac 10:4-12 , by allusions to the deliverance from Egypt.",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen35658\" type=\"introduction\"/> <div sID=\"gen35659\" type=\"x-p\"/> <div eID=\"gen35659\" type=\"x-p\"/> <div eID=\"gen35658\" type=\"introduction\"/> <div sID=\"gen35660\" type=\"x-p\"/> The promise of prosperity and plenty in the close of the preceding chapter leads the prophet to suggest, next, the means of obtaining them; supplication to Jehovah, and not to idols, whose worship had already proved a fertile source of calamities, <reference osisRef=\"Zac.10.1-Zac.10.3\">Zac 10:1-3</reference>. The rest of the chapter (like the preceding) promises to the Jews a restoration to their own land under rulers and governors, victory over their enemies, and much increase and prosperity; and this in a manner so miraculous, that it is described, <reference osisRef=\"Zac.10.4-Zac.10.12\">Zac 10:4-12</reference>, by allusions to the deliverance from Egypt. <div eID=\"gen35660\" type=\"x-p\"/> <div sID=\"gen35661\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:ZEC.10.1-1:38:92538:1619",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        987
+      ],
+      "source_fragment_sha256": "d85f595c6011aae7b96987ee0814f8d7152e0058a7e59c5407a6919c9ae53bcc",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.10.1",
+        "ZEC.10.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 12
+}

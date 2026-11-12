@@ -1,0 +1,338 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "ZEC",
+  "chapter": 7,
+  "canonical_chapter": "ZEC.7",
+  "versification": "KJV",
+  "verse_count": 14,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zech\" sID=\"gen35390\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen35391\" type=\"x-p\"/> ",
+      "source_record_sha256": "cc7b69c30e55d2229d74ccd01ff1f3d6abb5a1cd0634df29a4a5827d84d2169d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen35552\" type=\"x-p\"/> <chapter n=\"7\" osisID=\"Zech.7\" sID=\"Zech.7\"/> ",
+      "source_record_sha256": "ec2327647c944ed25b7f019b15beaba8d6790487ae2575468ecd93c100a939c1",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 58898,
+        "length": 79
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:ZEC.7.1-1:38:58977:1557",
+      "passage_start": "ZEC.7.1",
+      "passage_end": "ZEC.7.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen35552\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen35553\" type=\"introduction\"/> <div sID=\"gen35554\" type=\"x-p\"/> <div eID=\"gen35554\" type=\"x-p\"/> <div eID=\"gen35553\" type=\"introduction\"/> <div sID=\"gen35555\" type=\"x-p\"/> Some Jews being sent from those who remained at Babylon to inquire of the priests and prophets at Jerusalem whether they were still bound to observe those fasts which had been appointed on occasion of the destruction of Jerusalem, and kept during the captivity, the prophet is commanded to take this opportunity of enforcing upon them the weightier matters of the law, judgment and mercy, that they might not incur such calamities as befell their fathers. He also intimates that in their former fasts they had regarded themselves more than God; and that they had rested too much on the performance of external rites, although the former prophets had largely insisted on the superior excellence of moral duties, <reference osisRef=\"Zac.7.1-Zac.7.14\">Zac 7:1-14</reference>. <div eID=\"gen35555\" type=\"x-p\"/> <div sID=\"gen35556\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen35556\" type=\"x-p\"/> <div sID=\"gen35557\" type=\"x-p\"/> The fourth year of Ring Darius - Two years after they began to rebuild the temple, see <reference osisRef=\"Zac.1.1\">Zac 1:1</reference>, A.M. 3486. <div eID=\"gen35557\" type=\"x-p\"/> <div sID=\"gen35558\" type=\"x-p\"/> The ninth month, even in Chisleu - This answers to a part of our November and December. The names of the month appear only under and after the captivity. ",
+      "content_plain": "Introduction Some Jews being sent from those who remained at Babylon to inquire of the priests and prophets at Jerusalem whether they were still bound to observe those fasts which had been appointed on occasion of the destruction of Jerusalem, and kept during the captivity, the prophet is commanded to take this opportunity of enforcing upon them the weightier matters of the law, judgment and mercy, that they might not incur such calamities as befell their fathers. He also intimates that in their former fasts they had regarded themselves more than God; and that they had rested too much on the performance of external rites, although the former prophets had largely insisted on the superior excellence of moral duties, Zac 7:1-14 . Verse 1 The fourth year of Ring Darius - Two years after they began to rebuild the temple, see Zac 1:1 , A.M. 3486. The ninth month, even in Chisleu - This answers to a part of our November and December. The names of the month appear only under and after the captivity.",
+      "source_record_sha256": "6ccad29492ce2bd026ad309fa11d598431920af0d7e522eca74013ed66896632",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 58977,
+        "length": 1557
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 The fourth year of Ring Darius - Two years after they began to rebuild the temple, see Zac 1:1 , A.M. 3486. The ninth month, even in Chisleu - This answers to a part of our November and December. The names of the month appear only under and after the captivity.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original introduction separate from explicitly printed Verse 1",
+      "reader_source_character_span": [
+        1094,
+        1557
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen35556\" type=\"x-p\"/> <div sID=\"gen35557\" type=\"x-p\"/> The fourth year of Ring Darius - Two years after they began to rebuild the temple, see <reference osisRef=\"Zac.1.1\">Zac 1:1</reference>, A.M. 3486. <div eID=\"gen35557\" type=\"x-p\"/> <div sID=\"gen35558\" type=\"x-p\"/> The ninth month, even in Chisleu - This answers to a part of our November and December. The names of the month appear only under and after the captivity. "
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.2-2:38:60534:386",
+      "passage_start": "ZEC.7.2",
+      "passage_end": "ZEC.7.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen35558\" type=\"x-p\"/> <div sID=\"gen35559\" type=\"x-p\"/> When they had sent - Sherezer and Regem-melech - To inquire whether the fasts should be continued, which they had hitherto observed on account of their ruined temple; and the reason why they inquired was, that they were rebuilding that temple, and were likely to bring it to a joyful issue. ",
+      "content_plain": "Verse 2 When they had sent - Sherezer and Regem-melech - To inquire whether the fasts should be continued, which they had hitherto observed on account of their ruined temple; and the reason why they inquired was, that they were rebuilding that temple, and were likely to bring it to a joyful issue.",
+      "source_record_sha256": "23cec6bddda134d095e2cf6537e35054fed1634c482f688e066ce40e484bf117",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 60534,
+        "length": 386
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 When they had sent - Sherezer and Regem-melech - To inquire whether the fasts should be continued, which they had hitherto observed on account of their ruined temple; and the reason why they inquired was, that they were rebuilding that temple, and were likely to bring it to a joyful issue."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.5-5:38:60920:528",
+      "passage_start": "ZEC.7.5",
+      "passage_end": "ZEC.7.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen35559\" type=\"x-p\"/> <div sID=\"gen35560\" type=\"x-p\"/> When ye fasted and mourned in the fifth - month - This they did in the remembrance of the burning of the temple, on the tenth day of that month; and on the seventh month, on the third of which month they observed a fast for the murder of Gedaliah, and the dispersion of the remnant of the people which were with him. See <reference osisRef=\"Jer.41.1\">Jer 41:1</reference>, and <reference osisRef=\"2Kgs.25.25\">2Kgs 25:25</reference>. ",
+      "content_plain": "Verse 5 When ye fasted and mourned in the fifth - month - This they did in the remembrance of the burning of the temple, on the tenth day of that month; and on the seventh month, on the third of which month they observed a fast for the murder of Gedaliah, and the dispersion of the remnant of the people which were with him. See Jer 41:1 , and 2Kgs 25:25 .",
+      "source_record_sha256": "d06bc429bd9dd686349f82ebe17cc3ba9c7c348bff0754ee6c628a944139415a",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 60920,
+        "length": 528
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 When ye fasted and mourned in the fifth - month - This they did in the remembrance of the burning of the temple, on the tenth day of that month; and on the seventh month, on the third of which month they observed a fast for the murder of Gedaliah, and the dispersion of the remnant of the people which were with him. See Jer 41:1 , and 2Kgs 25:25 ."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.6-6:38:61448:384",
+      "passage_start": "ZEC.7.6",
+      "passage_end": "ZEC.7.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen35560\" type=\"x-p\"/> <div sID=\"gen35561\" type=\"x-p\"/> And when ye did eat - They had not observed those fasts as they should have done. They deplored the loss of their temple, and its riches, etc., but they did not humble themselves because of those iniquities which had brought the displeasure of God upon them, their temple, and their city. ",
+      "content_plain": "Verse 6 And when ye did eat - They had not observed those fasts as they should have done. They deplored the loss of their temple, and its riches, etc., but they did not humble themselves because of those iniquities which had brought the displeasure of God upon them, their temple, and their city.",
+      "source_record_sha256": "bf7f0161b54b18666c0de384f83e1334f00f410edb6effa0bdb809780862e1a3",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 61448,
+        "length": 384
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 And when ye did eat - They had not observed those fasts as they should have done. They deplored the loss of their temple, and its riches, etc., but they did not humble themselves because of those iniquities which had brought the displeasure of God upon them, their temple, and their city."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.7-7:38:61832:1137",
+      "passage_start": "ZEC.7.7",
+      "passage_end": "ZEC.7.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen35561\" type=\"x-p\"/> <div sID=\"gen35562\" type=\"x-p\"/> The words which the Lord hath cried by the former prophets - נביאים הראשנים nebiim harishonim, is the title which the Jews give to Joshua, Judges, the two books of Samuel, and the two books of Kings. <div eID=\"gen35562\" type=\"x-p\"/> <div sID=\"gen35563\" type=\"x-p\"/> The latter prophets, נביאים אחרונים nebiim acharonim, are Isaiah, Jeremiah, Ezekiel, and the twelve minor prophets. <div eID=\"gen35563\" type=\"x-p\"/> <div sID=\"gen35564\" type=\"x-p\"/> The hagiographa, כתובים kethubim, holy writings, are the Psalms, Proverbs, Job, Song of Solomon, Ruth, Lamentations, Ecclesiastes, Esther, Daniel, Ezra, Nehemiah, and the two books of Chronicles. But the above words, the former prophets, seem to apply to Isaiah, Jeremiah, and Ezekiel. <div eID=\"gen35564\" type=\"x-p\"/> <div sID=\"gen35565\" type=\"x-p\"/> The south and the plain? - From Eleutheropolis to the sea, <reference osisRef=\"Oba.1.19\">Oba 1:19</reference>. The south was the wilderness and mountainous parts of Judea: and the plain, the plains of Jericho. ",
+      "content_plain": "Verse 7 The words which the Lord hath cried by the former prophets - נביאים הראשנים nebiim harishonim, is the title which the Jews give to Joshua, Judges, the two books of Samuel, and the two books of Kings. The latter prophets, נביאים אחרונים nebiim acharonim, are Isaiah, Jeremiah, Ezekiel, and the twelve minor prophets. The hagiographa, כתובים kethubim, holy writings, are the Psalms, Proverbs, Job, Song of Solomon, Ruth, Lamentations, Ecclesiastes, Esther, Daniel, Ezra, Nehemiah, and the two books of Chronicles. But the above words, the former prophets, seem to apply to Isaiah, Jeremiah, and Ezekiel. The south and the plain? - From Eleutheropolis to the sea, Oba 1:19 . The south was the wilderness and mountainous parts of Judea: and the plain, the plains of Jericho.",
+      "source_record_sha256": "e3a0adf81d8656467b863d6ab4493de3f19c7baa55524409f7cde0b6a42ed64e",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 61832,
+        "length": 1137
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 The words which the Lord hath cried by the former prophets - נביאים הראשנים nebiim harishonim, is the title which the Jews give to Joshua, Judges, the two books of Samuel, and the two books of Kings. The latter prophets, נביאים אחרונים nebiim acharonim, are Isaiah, Jeremiah, Ezekiel, and the twelve minor prophets. The hagiographa, כתובים kethubim, holy writings, are the Psalms, Proverbs, Job, Song of Solomon, Ruth, Lamentations, Ecclesiastes, Esther, Daniel, Ezra, Nehemiah, and the two books of Chronicles. But the above words, the former prophets, seem to apply to Isaiah, Jeremiah, and Ezekiel. The south and the plain? - From Eleutheropolis to the sea, Oba 1:19 . The south was the wilderness and mountainous parts of Judea: and the plain, the plains of Jericho."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.9-9:38:62969:346",
+      "passage_start": "ZEC.7.9",
+      "passage_end": "ZEC.7.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen35565\" type=\"x-p\"/> <div sID=\"gen35566\" type=\"x-p\"/> Execute true judgment - See <reference osisRef=\"Isa.58.6\">Isa 58:6</reference>, <reference osisRef=\"Isa.58.7\">Isa 58:7</reference>; Jeremiah<reference osisRef=\"Jer.7.23\">Jer 7:23</reference>; <reference osisRef=\"Mic.6.8\">Mic 6:8</reference>, chap. 8. ",
+      "content_plain": "Verse 9 Execute true judgment - See Isa 58:6 , Isa 58:7 ; Jeremiah Jer 7:23 ; Mic 6:8 , chap. 8.",
+      "source_record_sha256": "09fbc8eeaedc30806f30fa894f0362135cba4d4264c286101c8299c5bde2acfa",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 62969,
+        "length": 346
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 Execute true judgment - See Isa 58:6 , Isa 58:7 ; Jeremiah Jer 7:23 ; Mic 6:8 , chap. 8."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.10-10:38:63315:256",
+      "passage_start": "ZEC.7.10",
+      "passage_end": "ZEC.7.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen35566\" type=\"x-p\"/> <div sID=\"gen35567\" type=\"x-p\"/> Evil against his brother in your heart - Do not indulge an unfavourable opinion of another: do not envy him; do not harbour an unbrotherly feeling towards him. ",
+      "content_plain": "Verse 10 Evil against his brother in your heart - Do not indulge an unfavourable opinion of another: do not envy him; do not harbour an unbrotherly feeling towards him.",
+      "source_record_sha256": "99eb1a47d7a828ff58349f110b6982ba2f768bb08f383317b33653d8469c0758",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 63315,
+        "length": 256
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 Evil against his brother in your heart - Do not indulge an unfavourable opinion of another: do not envy him; do not harbour an unbrotherly feeling towards him."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.11-11:38:63571:206",
+      "passage_start": "ZEC.7.11",
+      "passage_end": "ZEC.7.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen35567\" type=\"x-p\"/> <div sID=\"gen35568\" type=\"x-p\"/> Pulled away the shoulder - From under the yoke of the law, like an unbroken or restive bullock in the plough. ",
+      "content_plain": "Verse 11 Pulled away the shoulder - From under the yoke of the law, like an unbroken or restive bullock in the plough.",
+      "source_record_sha256": "2fcaa340a7b2b89570fdbded8f729abcbab94ebf855d503f56e0b8ceff08551f",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 63571,
+        "length": 206
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 11 Pulled away the shoulder - From under the yoke of the law, like an unbroken or restive bullock in the plough."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.12-12:38:63777:431",
+      "passage_start": "ZEC.7.12",
+      "passage_end": "ZEC.7.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen35568\" type=\"x-p\"/> <div sID=\"gen35569\" type=\"x-p\"/> Made their hearts as an adamant stone - שמיר shamir may mean the granite. This is the hardest stone with which the common people could be acquainted. Perhaps the corundum, of which emery is a species, may be intended. Bochart thinks it means a stone used in polishing others. The same name, in Hebrew, applies to different stones. ",
+      "content_plain": "Verse 12 Made their hearts as an adamant stone - שמיר shamir may mean the granite. This is the hardest stone with which the common people could be acquainted. Perhaps the corundum, of which emery is a species, may be intended. Bochart thinks it means a stone used in polishing others. The same name, in Hebrew, applies to different stones.",
+      "source_record_sha256": "4acbb696fd9db03f7b3a9d18daad7ceebfc0a2deb086e32a7c2a5efc04da0e16",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 63777,
+        "length": 431
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 12 Made their hearts as an adamant stone - שמיר shamir may mean the granite. This is the hardest stone with which the common people could be acquainted. Perhaps the corundum, of which emery is a species, may be intended. Bochart thinks it means a stone used in polishing others. The same name, in Hebrew, applies to different stones."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.7.14-14:38:64208:398",
+      "passage_start": "ZEC.7.14",
+      "passage_end": "ZEC.7.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen35569\" type=\"x-p\"/> <div sID=\"gen35570\" type=\"x-p\"/> I scattered them with a whirlwind - This refers to the swift victories and cruel conduct of the Chaldeans towards the Jews; they came upon them like a whirlwind; they were tossed to and fro, and up and down, everywhere scattered and confounded.  <chapter eID=\"Zech.7\"/> <div eID=\"gen35570\" type=\"x-p\"/>",
+      "content_plain": "Verse 14 I scattered them with a whirlwind - This refers to the swift victories and cruel conduct of the Chaldeans towards the Jews; they came upon them like a whirlwind; they were tossed to and fro, and up and down, everywhere scattered and confounded.",
+      "source_record_sha256": "b5cf48ae53f4886dbe8159c4f68d4c2dbd1825028a7380b0fa07e6d94bbd0040",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 64208,
+        "length": 398
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.7.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 14 I scattered them with a whirlwind - This refers to the swift victories and cruel conduct of the Chaldeans towards the Jews; they came upon them like a whirlwind; they were tossed to and fro, and up and down, everywhere scattered and confounded."
+    }
+  ],
+  "indexed_verse_count": 10,
+  "unindexed_verse_count": 4,
+  "upstream_snapshot_id": "SOTW_ZEC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 10
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:ZEC.7:P:zechariah-original-chapter-introduction",
+      "navigation_id": "ZEC.7:P:zechariah-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Zechariah · Original Chapter Introduction",
+      "content_plain": "Introduction Some Jews being sent from those who remained at Babylon to inquire of the priests and prophets at Jerusalem whether they were still bound to observe those fasts which had been appointed on occasion of the destruction of Jerusalem, and kept during the captivity, the prophet is commanded to take this opportunity of enforcing upon them the weightier matters of the law, judgment and mercy, that they might not incur such calamities as befell their fathers. He also intimates that in their former fasts they had regarded themselves more than God; and that they had rested too much on the performance of external rites, although the former prophets had largely insisted on the superior excellence of moral duties, Zac 7:1-14 .",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen35553\" type=\"introduction\"/> <div sID=\"gen35554\" type=\"x-p\"/> <div eID=\"gen35554\" type=\"x-p\"/> <div eID=\"gen35553\" type=\"introduction\"/> <div sID=\"gen35555\" type=\"x-p\"/> Some Jews being sent from those who remained at Babylon to inquire of the priests and prophets at Jerusalem whether they were still bound to observe those fasts which had been appointed on occasion of the destruction of Jerusalem, and kept during the captivity, the prophet is commanded to take this opportunity of enforcing upon them the weightier matters of the law, judgment and mercy, that they might not incur such calamities as befell their fathers. He also intimates that in their former fasts they had regarded themselves more than God; and that they had rested too much on the performance of external rites, although the former prophets had largely insisted on the superior excellence of moral duties, <reference osisRef=\"Zac.7.1-Zac.7.14\">Zac 7:1-14</reference>. <div eID=\"gen35555\" type=\"x-p\"/> <div sID=\"gen35556\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:ZEC.7.1-1:38:58977:1557",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        1094
+      ],
+      "source_fragment_sha256": "f618d8f093be1f2841f0581c1226ba5754c97055cc7cf94479fd24930a94f8db",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.7.1",
+        "ZEC.7.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 10
+}

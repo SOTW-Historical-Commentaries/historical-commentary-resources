@@ -1,0 +1,242 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "ZEC",
+  "chapter": 5,
+  "canonical_chapter": "ZEC.5",
+  "versification": "KJV",
+  "verse_count": 11,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zech\" sID=\"gen35390\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen35391\" type=\"x-p\"/> ",
+      "source_record_sha256": "cc7b69c30e55d2229d74ccd01ff1f3d6abb5a1cd0634df29a4a5827d84d2169d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen35503\" type=\"x-p\"/> <chapter n=\"5\" osisID=\"Zech.5\" sID=\"Zech.5\"/> ",
+      "source_record_sha256": "0a8e262a78fece83891c36fd2422d37f5315d092d9037c31a037f48e63177292",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 44058,
+        "length": 79
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:ZEC.5.1-1:38:44137:1282",
+      "passage_start": "ZEC.5.1",
+      "passage_end": "ZEC.5.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen35503\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen35504\" type=\"introduction\"/> <div sID=\"gen35505\" type=\"x-p\"/> <div eID=\"gen35505\" type=\"x-p\"/> <div eID=\"gen35504\" type=\"introduction\"/> <div sID=\"gen35506\" type=\"x-p\"/> The vision of the large flying roll, with the angel's explanation, <reference osisRef=\"Zac.5.1-Zac.5.4\">Zac 5:1-4</reference>. The vision of the ephah, and of the woman sitting on it, with the signification, <reference osisRef=\"Zac.5.5-Zac.5.11\">Zac 5:5-11</reference>. <div eID=\"gen35506\" type=\"x-p\"/> <div sID=\"gen35507\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen35507\" type=\"x-p\"/> <div sID=\"gen35508\" type=\"x-p\"/> Behold a flying roll - This was twenty cubits long, and ten cubits broad; the prophet saw it expanded, and flying. Itself was the catalogue of the crimes of the people, and the punishment threatened by the Lord. Some think the crimes were those of the Jews; others, those of the Chaldeans. The roll is mentioned in allusion to those large rolls on which the Jews write the Pentateuch. One now lying before me is one hundred and fifty-three feet long, by twenty-one inches wide, written on fine brown Basle goat-skin; some time since brought from Jerusalem, supposed to be four hundred years old. ",
+      "content_plain": "Introduction The vision of the large flying roll, with the angel's explanation, Zac 5:1-4 . The vision of the ephah, and of the woman sitting on it, with the signification, Zac 5:5-11 . Verse 1 Behold a flying roll - This was twenty cubits long, and ten cubits broad; the prophet saw it expanded, and flying. Itself was the catalogue of the crimes of the people, and the punishment threatened by the Lord. Some think the crimes were those of the Jews; others, those of the Chaldeans. The roll is mentioned in allusion to those large rolls on which the Jews write the Pentateuch. One now lying before me is one hundred and fifty-three feet long, by twenty-one inches wide, written on fine brown Basle goat-skin; some time since brought from Jerusalem, supposed to be four hundred years old.",
+      "source_record_sha256": "cb6a734b72e6888bd5b6a990d70fccad1177849d9dd46afe51596c3fe2abdff2",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 44137,
+        "length": 1282
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.5.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 Behold a flying roll - This was twenty cubits long, and ten cubits broad; the prophet saw it expanded, and flying. Itself was the catalogue of the crimes of the people, and the punishment threatened by the Lord. Some think the crimes were those of the Jews; others, those of the Chaldeans. The roll is mentioned in allusion to those large rolls on which the Jews write the Pentateuch. One now lying before me is one hundred and fifty-three feet long, by twenty-one inches wide, written on fine brown Basle goat-skin; some time since brought from Jerusalem, supposed to be four hundred years old.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original introduction separate from explicitly printed Verse 1",
+      "reader_source_character_span": [
+        591,
+        1282
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen35507\" type=\"x-p\"/> <div sID=\"gen35508\" type=\"x-p\"/> Behold a flying roll - This was twenty cubits long, and ten cubits broad; the prophet saw it expanded, and flying. Itself was the catalogue of the crimes of the people, and the punishment threatened by the Lord. Some think the crimes were those of the Jews; others, those of the Chaldeans. The roll is mentioned in allusion to those large rolls on which the Jews write the Pentateuch. One now lying before me is one hundred and fifty-three feet long, by twenty-one inches wide, written on fine brown Basle goat-skin; some time since brought from Jerusalem, supposed to be four hundred years old. "
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.5.3-3:38:45419:437",
+      "passage_start": "ZEC.5.3",
+      "passage_end": "ZEC.5.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen35508\" type=\"x-p\"/> <div sID=\"gen35509\" type=\"x-p\"/> Every one that stealeth - and every one that sweareth - It seems that the roll was written both on the front and back: stealing and swearing are supposed to be two general heads of crimes; the former, comprising sins against men; the latter, sins against God. It is supposed that the roll contained the sins and punishments of the Chaldeans. ",
+      "content_plain": "Verse 3 Every one that stealeth - and every one that sweareth - It seems that the roll was written both on the front and back: stealing and swearing are supposed to be two general heads of crimes; the former, comprising sins against men; the latter, sins against God. It is supposed that the roll contained the sins and punishments of the Chaldeans.",
+      "source_record_sha256": "c8f114f16ea14ad39d281f57073d3ed8ca46db065ed63ad0d2289b32be50f047",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 45419,
+        "length": 437
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.5.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 Every one that stealeth - and every one that sweareth - It seems that the roll was written both on the front and back: stealing and swearing are supposed to be two general heads of crimes; the former, comprising sins against men; the latter, sins against God. It is supposed that the roll contained the sins and punishments of the Chaldeans."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.5.4-4:38:45856:222",
+      "passage_start": "ZEC.5.4",
+      "passage_end": "ZEC.5.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen35509\" type=\"x-p\"/> <div sID=\"gen35510\" type=\"x-p\"/> Into the house of him - Babylon, the house or city of Nebuchadnezzar, who was a public plunderer, and a most glaring idolater. ",
+      "content_plain": "Verse 4 Into the house of him - Babylon, the house or city of Nebuchadnezzar, who was a public plunderer, and a most glaring idolater.",
+      "source_record_sha256": "e4d2110ca3573e8a9ad200c34757fdca56ba69af44fb79a06f34f8c0138d0a83",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 45856,
+        "length": 222
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.5.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 Into the house of him - Babylon, the house or city of Nebuchadnezzar, who was a public plunderer, and a most glaring idolater."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.5.6-6:38:46078:539",
+      "passage_start": "ZEC.5.6",
+      "passage_end": "ZEC.5.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen35510\" type=\"x-p\"/> <div sID=\"gen35511\" type=\"x-p\"/> This is an ephah that goeth forth - This, among the Jews, was the ordinary measure of grain. The woman in the ephah is supposed to represent Judea, which shall be visited for its sins; the talent of lead on the ephah, within which the woman was enclosed, the wrath of God, bending down this culprit nation, in the measure of its sins; for the angel said, \"This is wickedness;\" that is, the woman represents the mass of iniquity of this nation. ",
+      "content_plain": "Verse 6 This is an ephah that goeth forth - This, among the Jews, was the ordinary measure of grain. The woman in the ephah is supposed to represent Judea, which shall be visited for its sins; the talent of lead on the ephah, within which the woman was enclosed, the wrath of God, bending down this culprit nation, in the measure of its sins; for the angel said, \"This is wickedness;\" that is, the woman represents the mass of iniquity of this nation.",
+      "source_record_sha256": "dd3d953b1e0b142dbdfcb0d58c2a7936993414ccf56356e92054638d66243e5c",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 46078,
+        "length": 539
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.5.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 This is an ephah that goeth forth - This, among the Jews, was the ordinary measure of grain. The woman in the ephah is supposed to represent Judea, which shall be visited for its sins; the talent of lead on the ephah, within which the woman was enclosed, the wrath of God, bending down this culprit nation, in the measure of its sins; for the angel said, \"This is wickedness;\" that is, the woman represents the mass of iniquity of this nation."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.5.9-9:38:46617:1173",
+      "passage_start": "ZEC.5.9",
+      "passage_end": "ZEC.5.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen35511\" type=\"x-p\"/> <div sID=\"gen35512\" type=\"x-p\"/> There came out two women - As the one woman represented the impiety of the Jewish nation; so these two women who were to carry the ephah, in which the woman Iniquity was shut up, under the weight of a talent of lead, may mean the desperate Unbelief of the Jews in rejecting the Messiah; and that Impiety, or universal corruption of manners, which was the consequence of their unbelief, and brought down the wrath of God upon them. The strong wings, like those of a stork, may point out the power and swiftness with which Judea was carried on to fill up the measure of her iniquity, and to meet the punishment which she deserved. <div eID=\"gen35512\" type=\"x-p\"/> <div sID=\"gen35513\" type=\"x-p\"/> Between the earth and the heaven - Sins against God and Man, sins which heaven and earth contemplated with horror. <div eID=\"gen35513\" type=\"x-p\"/> <div sID=\"gen35514\" type=\"x-p\"/> Or the Babylonians and Romans may be intended by the two women who carried the Jewish ephah to its final punishment. The Chaldeans ruined Judea before the advent of our Lord; the Romans, shortly after. ",
+      "content_plain": "Verse 9 There came out two women - As the one woman represented the impiety of the Jewish nation; so these two women who were to carry the ephah, in which the woman Iniquity was shut up, under the weight of a talent of lead, may mean the desperate Unbelief of the Jews in rejecting the Messiah; and that Impiety, or universal corruption of manners, which was the consequence of their unbelief, and brought down the wrath of God upon them. The strong wings, like those of a stork, may point out the power and swiftness with which Judea was carried on to fill up the measure of her iniquity, and to meet the punishment which she deserved. Between the earth and the heaven - Sins against God and Man, sins which heaven and earth contemplated with horror. Or the Babylonians and Romans may be intended by the two women who carried the Jewish ephah to its final punishment. The Chaldeans ruined Judea before the advent of our Lord; the Romans, shortly after.",
+      "source_record_sha256": "97c54d1578058683ef912f978a3cb5816d8a04999dcdf1ad672c6b7244eda361",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 46617,
+        "length": 1173
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.5.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 There came out two women - As the one woman represented the impiety of the Jewish nation; so these two women who were to carry the ephah, in which the woman Iniquity was shut up, under the weight of a talent of lead, may mean the desperate Unbelief of the Jews in rejecting the Messiah; and that Impiety, or universal corruption of manners, which was the consequence of their unbelief, and brought down the wrath of God upon them. The strong wings, like those of a stork, may point out the power and swiftness with which Judea was carried on to fill up the measure of her iniquity, and to meet the punishment which she deserved. Between the earth and the heaven - Sins against God and Man, sins which heaven and earth contemplated with horror. Or the Babylonians and Romans may be intended by the two women who carried the Jewish ephah to its final punishment. The Chaldeans ruined Judea before the advent of our Lord; the Romans, shortly after."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.5.11-11:38:47790:748",
+      "passage_start": "ZEC.5.11",
+      "passage_end": "ZEC.5.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen35514\" type=\"x-p\"/> <div sID=\"gen35515\" type=\"x-p\"/> To build it a house in the land of Shinar - The land of Shinar means Babylon; and Babylon means Rome, in the Apocalypse. The building the house for the woman imprisoned in the ephah may signify, that there should be a long captivity under the Romans, as there was under that of Shinar or Babylon, by which Rome may here be represented. That house remains to the present day: the Jewish woman is still in the ephah; it is set on its own base - continues still as a distinct nation; and the talent of lead - God's displeasure - is still on the top. O Lord, save thy people, the remnant of Israel!  <chapter eID=\"Zech.5\"/> <div eID=\"gen35515\" type=\"x-p\"/>",
+      "content_plain": "Verse 11 To build it a house in the land of Shinar - The land of Shinar means Babylon; and Babylon means Rome, in the Apocalypse. The building the house for the woman imprisoned in the ephah may signify, that there should be a long captivity under the Romans, as there was under that of Shinar or Babylon, by which Rome may here be represented. That house remains to the present day: the Jewish woman is still in the ephah; it is set on its own base - continues still as a distinct nation; and the talent of lead - God's displeasure - is still on the top. O Lord, save thy people, the remnant of Israel!",
+      "source_record_sha256": "f234595529d320f46ea57e2577d4502630f72eb43e545d42c520f8ea3ce07e55",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 47790,
+        "length": 748
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.5.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 11 To build it a house in the land of Shinar - The land of Shinar means Babylon; and Babylon means Rome, in the Apocalypse. The building the house for the woman imprisoned in the ephah may signify, that there should be a long captivity under the Romans, as there was under that of Shinar or Babylon, by which Rome may here be represented. That house remains to the present day: the Jewish woman is still in the ephah; it is set on its own base - continues still as a distinct nation; and the talent of lead - God's displeasure - is still on the top. O Lord, save thy people, the remnant of Israel!"
+    }
+  ],
+  "indexed_verse_count": 6,
+  "unindexed_verse_count": 5,
+  "upstream_snapshot_id": "SOTW_ZEC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 6
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:ZEC.5:P:zechariah-original-chapter-introduction",
+      "navigation_id": "ZEC.5:P:zechariah-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Zechariah · Original Chapter Introduction",
+      "content_plain": "Introduction The vision of the large flying roll, with the angel's explanation, Zac 5:1-4 . The vision of the ephah, and of the woman sitting on it, with the signification, Zac 5:5-11 .",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen35504\" type=\"introduction\"/> <div sID=\"gen35505\" type=\"x-p\"/> <div eID=\"gen35505\" type=\"x-p\"/> <div eID=\"gen35504\" type=\"introduction\"/> <div sID=\"gen35506\" type=\"x-p\"/> The vision of the large flying roll, with the angel's explanation, <reference osisRef=\"Zac.5.1-Zac.5.4\">Zac 5:1-4</reference>. The vision of the ephah, and of the woman sitting on it, with the signification, <reference osisRef=\"Zac.5.5-Zac.5.11\">Zac 5:5-11</reference>. <div eID=\"gen35506\" type=\"x-p\"/> <div sID=\"gen35507\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:ZEC.5.1-1:38:44137:1282",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        591
+      ],
+      "source_fragment_sha256": "4eaaafca2a8cafd6d04c8d03802e2511876f7e7a84b0ad293343316fc80ebe6a",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.5.1",
+        "ZEC.5.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 6
+}

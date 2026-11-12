@@ -1,0 +1,410 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "ZEC",
+  "chapter": 6,
+  "canonical_chapter": "ZEC.6",
+  "versification": "KJV",
+  "verse_count": 15,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zech\" sID=\"gen35390\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen35391\" type=\"x-p\"/> ",
+      "source_record_sha256": "cc7b69c30e55d2229d74ccd01ff1f3d6abb5a1cd0634df29a4a5827d84d2169d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen35516\" type=\"x-p\"/> <chapter n=\"6\" osisID=\"Zech.6\" sID=\"Zech.6\"/> ",
+      "source_record_sha256": "4a5acbb5035f8907b190632d51c2e5bd1e60a6241edf928f52cb9e1e1194b482",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 48538,
+        "length": 79
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:ZEC.6.1-1:38:48617:1324",
+      "passage_start": "ZEC.6.1",
+      "passage_end": "ZEC.6.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen35516\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen35517\" type=\"introduction\"/> <div sID=\"gen35518\" type=\"x-p\"/> <div eID=\"gen35518\" type=\"x-p\"/> <div eID=\"gen35517\" type=\"introduction\"/> <div sID=\"gen35519\" type=\"x-p\"/> The vision of the four chariots drawn by several sorts of horses, <reference osisRef=\"Zac.6.1-Zac.6.8\">Zac 6:1-8</reference>. The other vision in thus chapter may refer in its primary sense to the establishment of the civil and religious polity of the Jews under Joshua and Zerubbabel; but relates in a fuller sense, to the Messiah, and to that spiritual kingdom of which he was to be both king and high priest. In him all these types and figures were verified; on him all the promises are yea and amen, <reference osisRef=\"Zac.6.9-Zac.6.15\">Zac 6:9-15</reference>. <div eID=\"gen35519\" type=\"x-p\"/> <div sID=\"gen35520\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen35520\" type=\"x-p\"/> <div sID=\"gen35521\" type=\"x-p\"/> There came four chariots - Four monarchies or empires. This is supposed to mean the same with the vision of the four horns, in chap. 1. <div eID=\"gen35521\" type=\"x-p\"/> <div sID=\"gen35522\" type=\"x-p\"/> Mountains of brass - The strong barriers of God's purposes, which restrained those powers within the times and limits appointed by Jehovah. ",
+      "content_plain": "Introduction The vision of the four chariots drawn by several sorts of horses, Zac 6:1-8 . The other vision in thus chapter may refer in its primary sense to the establishment of the civil and religious polity of the Jews under Joshua and Zerubbabel; but relates in a fuller sense, to the Messiah, and to that spiritual kingdom of which he was to be both king and high priest. In him all these types and figures were verified; on him all the promises are yea and amen, Zac 6:9-15 . Verse 1 There came four chariots - Four monarchies or empires. This is supposed to mean the same with the vision of the four horns, in chap. 1. Mountains of brass - The strong barriers of God's purposes, which restrained those powers within the times and limits appointed by Jehovah.",
+      "source_record_sha256": "556c79b43dc7e7875056d0babdf43271a36451d69c339e6132c5b7eb0554b6a5",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 48617,
+        "length": 1324
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 There came four chariots - Four monarchies or empires. This is supposed to mean the same with the vision of the four horns, in chap. 1. Mountains of brass - The strong barriers of God's purposes, which restrained those powers within the times and limits appointed by Jehovah.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "Clarke original introduction separate from explicitly printed Verse 1",
+      "reader_source_character_span": [
+        887,
+        1324
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen35520\" type=\"x-p\"/> <div sID=\"gen35521\" type=\"x-p\"/> There came four chariots - Four monarchies or empires. This is supposed to mean the same with the vision of the four horns, in chap. 1. <div eID=\"gen35521\" type=\"x-p\"/> <div sID=\"gen35522\" type=\"x-p\"/> Mountains of brass - The strong barriers of God's purposes, which restrained those powers within the times and limits appointed by Jehovah. "
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.2-2:38:49941:398",
+      "passage_start": "ZEC.6.2",
+      "passage_end": "ZEC.6.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen35522\" type=\"x-p\"/> <div sID=\"gen35523\" type=\"x-p\"/> In the first chariot were red horses - The empire of the Chaldeans, which overthrew the empire of the Assyrians. <div eID=\"gen35523\" type=\"x-p\"/> <div sID=\"gen35524\" type=\"x-p\"/> The second chariot black horses - The empire of the Persians founded by Cyrus, which destroyed the empire of the Chaldeans. ",
+      "content_plain": "Verse 2 In the first chariot were red horses - The empire of the Chaldeans, which overthrew the empire of the Assyrians. The second chariot black horses - The empire of the Persians founded by Cyrus, which destroyed the empire of the Chaldeans.",
+      "source_record_sha256": "8a080d23516569f91e8765a691f24809b69d4d9101574afc639e775acfd2a0b8",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 49941,
+        "length": 398
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 In the first chariot were red horses - The empire of the Chaldeans, which overthrew the empire of the Assyrians. The second chariot black horses - The empire of the Persians founded by Cyrus, which destroyed the empire of the Chaldeans."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.3-3:38:50339:638",
+      "passage_start": "ZEC.6.3",
+      "passage_end": "ZEC.6.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 3</hi> <div eID=\"gen35524\" type=\"x-p\"/> <div sID=\"gen35525\" type=\"x-p\"/> The third chariot white horses - The empire of the Greeks, founded by Alexander the Great, which destroyed the empire of the Persians. <div eID=\"gen35525\" type=\"x-p\"/> <div sID=\"gen35526\" type=\"x-p\"/> The fourth chariot grisled and bay horses - That is party-coloured horses, or with horses, some grisled and some bay. The empire of the Romans or of the Greeks. The Greeks divided after the death of Alexander; one part pointing out the Lagidae, who attacked and subdued Egypt; and the other, the seleucidae, who subdued Syria under Seleucus. ",
+      "content_plain": "Verse 3 The third chariot white horses - The empire of the Greeks, founded by Alexander the Great, which destroyed the empire of the Persians. The fourth chariot grisled and bay horses - That is party-coloured horses, or with horses, some grisled and some bay. The empire of the Romans or of the Greeks. The Greeks divided after the death of Alexander; one part pointing out the Lagidae, who attacked and subdued Egypt; and the other, the seleucidae, who subdued Syria under Seleucus.",
+      "source_record_sha256": "ccdaabe64181d259e687c3046990ef18155a92566d78813b6a3196731ad74fc9",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 50339,
+        "length": 638
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 3 The third chariot white horses - The empire of the Greeks, founded by Alexander the Great, which destroyed the empire of the Persians. The fourth chariot grisled and bay horses - That is party-coloured horses, or with horses, some grisled and some bay. The empire of the Romans or of the Greeks. The Greeks divided after the death of Alexander; one part pointing out the Lagidae, who attacked and subdued Egypt; and the other, the seleucidae, who subdued Syria under Seleucus."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.5-5:38:50977:195",
+      "passage_start": "ZEC.6.5",
+      "passage_end": "ZEC.6.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 5</hi> <div eID=\"gen35526\" type=\"x-p\"/> <div sID=\"gen35527\" type=\"x-p\"/> The four spirits of the heavens - Ministers of God's wrath against the sinful nations of the world. ",
+      "content_plain": "Verse 5 The four spirits of the heavens - Ministers of God's wrath against the sinful nations of the world.",
+      "source_record_sha256": "927f14e5f8d802fc84e82a45fc9d45675f4844d17ddc3127d2f09e77557f47cd",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 50977,
+        "length": 195
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 5 The four spirits of the heavens - Ministers of God's wrath against the sinful nations of the world."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.6-6:38:51172:1031",
+      "passage_start": "ZEC.6.6",
+      "passage_end": "ZEC.6.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen35527\" type=\"x-p\"/> <div sID=\"gen35528\" type=\"x-p\"/> The black horses - This refers to the second chariot; of the first the angel makes no mention, because the empire designed by it had ceased to exist. This had red horses, to show the cruelty of the Chaldeans towards the Jews, and the carnage they committed in the land of Judea. <div eID=\"gen35528\" type=\"x-p\"/> <div sID=\"gen35529\" type=\"x-p\"/> The black - Cyrus, at the head of the Persians and Medes, bringing devastation and death among the Chaldeans, called the north in many parts of Scripture. <div eID=\"gen35529\" type=\"x-p\"/> <div sID=\"gen35530\" type=\"x-p\"/> The white - Alexander, who was splendid in his victories, and mild towards all that he conquered. <div eID=\"gen35530\" type=\"x-p\"/> <div sID=\"gen35531\" type=\"x-p\"/> The grisled - The Lagidae or Ptolemies, who founded an empire in Egypt; of these some were good, some bad, some despotic, some moderate, some cruel, and some mild, represented by the party-coloured horses. ",
+      "content_plain": "Verse 6 The black horses - This refers to the second chariot; of the first the angel makes no mention, because the empire designed by it had ceased to exist. This had red horses, to show the cruelty of the Chaldeans towards the Jews, and the carnage they committed in the land of Judea. The black - Cyrus, at the head of the Persians and Medes, bringing devastation and death among the Chaldeans, called the north in many parts of Scripture. The white - Alexander, who was splendid in his victories, and mild towards all that he conquered. The grisled - The Lagidae or Ptolemies, who founded an empire in Egypt; of these some were good, some bad, some despotic, some moderate, some cruel, and some mild, represented by the party-coloured horses.",
+      "source_record_sha256": "9d9b3fccd98a9ae5c3464bc593adb4cfba16aef0a29247f5de9fcfb99c72cd48",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 51172,
+        "length": 1031
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 The black horses - This refers to the second chariot; of the first the angel makes no mention, because the empire designed by it had ceased to exist. This had red horses, to show the cruelty of the Chaldeans towards the Jews, and the carnage they committed in the land of Judea. The black - Cyrus, at the head of the Persians and Medes, bringing devastation and death among the Chaldeans, called the north in many parts of Scripture. The white - Alexander, who was splendid in his victories, and mild towards all that he conquered. The grisled - The Lagidae or Ptolemies, who founded an empire in Egypt; of these some were good, some bad, some despotic, some moderate, some cruel, and some mild, represented by the party-coloured horses."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.7-7:38:52203:641",
+      "passage_start": "ZEC.6.7",
+      "passage_end": "ZEC.6.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen35531\" type=\"x-p\"/> <div sID=\"gen35532\" type=\"x-p\"/> And the bay went forth - The Seleucidae, who conquered Syria and the upper provinces, and who wished to extend their conquests, and \"sought to go, that they might walk to and fro throughout the earth,\" were of unbounded ambition, and sought universal empire; such as Antiochus the Great. \"So they walked to and fro,\" did extend their conquests; and harassed many countries by their vexatious and almost continual wars. Some think the Romans are meant, who carried their conquests hither and thither, just as the Divine providence permitted them. ",
+      "content_plain": "Verse 7 And the bay went forth - The Seleucidae, who conquered Syria and the upper provinces, and who wished to extend their conquests, and \"sought to go, that they might walk to and fro throughout the earth,\" were of unbounded ambition, and sought universal empire; such as Antiochus the Great. \"So they walked to and fro,\" did extend their conquests; and harassed many countries by their vexatious and almost continual wars. Some think the Romans are meant, who carried their conquests hither and thither, just as the Divine providence permitted them.",
+      "source_record_sha256": "bab67f7b4b1b0daa8987c75f9f5134597af3aa356dce31d91c380f34dfa61c43",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 52203,
+        "length": 641
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 And the bay went forth - The Seleucidae, who conquered Syria and the upper provinces, and who wished to extend their conquests, and \"sought to go, that they might walk to and fro throughout the earth,\" were of unbounded ambition, and sought universal empire; such as Antiochus the Great. \"So they walked to and fro,\" did extend their conquests; and harassed many countries by their vexatious and almost continual wars. Some think the Romans are meant, who carried their conquests hither and thither, just as the Divine providence permitted them."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.8-8:38:52844:1306",
+      "passage_start": "ZEC.6.8",
+      "passage_end": "ZEC.6.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 8</hi> <div eID=\"gen35532\" type=\"x-p\"/> <div sID=\"gen35533\" type=\"x-p\"/> Have quieted my spirit in the north country - They have fulfilled my judgments on Assyria and Chaldea. Nabopolassar and Cyrus first, against the Assyrians and Chaldeans; and Alexander next, against the Persians. On this vision Abp. Newcome remarks: - <div eID=\"gen35533\" type=\"x-p\"/> <div sID=\"gen35534\" type=\"x-p\"/> The black horses seem to denote the Persian empire; which, by subduing the Chaldeans, and being about to inflict a second heavy chastisement on Babylon, quieted God's spirit with respect to Chaldea; a country always spoken of as lying to the north of the Jews. <div eID=\"gen35534\" type=\"x-p\"/> <div sID=\"gen35535\" type=\"x-p\"/> The white horses seem to be the Macedonian empire; which, like the Persian, overcame Chaldea. <div eID=\"gen35535\" type=\"x-p\"/> <div sID=\"gen35536\" type=\"x-p\"/> The spotted bay horses seem to be the Roman empire. This description suits it because it was governed by kings, consuls, dictators, and emperors. It penetrated southward to Egypt and Africa. The Roman empire is mentioned twice, <reference osisRef=\"Zac.6.6\">Zac 6:6</reference>, <reference osisRef=\"Zac.6.7\">Zac 6:7</reference>, under each epithet given it, <reference osisRef=\"Zac.6.3\">Zac 6:3</reference>. ",
+      "content_plain": "Verse 8 Have quieted my spirit in the north country - They have fulfilled my judgments on Assyria and Chaldea. Nabopolassar and Cyrus first, against the Assyrians and Chaldeans; and Alexander next, against the Persians. On this vision Abp. Newcome remarks: - The black horses seem to denote the Persian empire; which, by subduing the Chaldeans, and being about to inflict a second heavy chastisement on Babylon, quieted God's spirit with respect to Chaldea; a country always spoken of as lying to the north of the Jews. The white horses seem to be the Macedonian empire; which, like the Persian, overcame Chaldea. The spotted bay horses seem to be the Roman empire. This description suits it because it was governed by kings, consuls, dictators, and emperors. It penetrated southward to Egypt and Africa. The Roman empire is mentioned twice, Zac 6:6 , Zac 6:7 , under each epithet given it, Zac 6:3 .",
+      "source_record_sha256": "ced398eff8c0af6d7e53a8961832332d20a6a57dcad8db5e6166c7caf298af6d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 52844,
+        "length": 1306
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 8 Have quieted my spirit in the north country - They have fulfilled my judgments on Assyria and Chaldea. Nabopolassar and Cyrus first, against the Assyrians and Chaldeans; and Alexander next, against the Persians. On this vision Abp. Newcome remarks: - The black horses seem to denote the Persian empire; which, by subduing the Chaldeans, and being about to inflict a second heavy chastisement on Babylon, quieted God's spirit with respect to Chaldea; a country always spoken of as lying to the north of the Jews. The white horses seem to be the Macedonian empire; which, like the Persian, overcame Chaldea. The spotted bay horses seem to be the Roman empire. This description suits it because it was governed by kings, consuls, dictators, and emperors. It penetrated southward to Egypt and Africa. The Roman empire is mentioned twice, Zac 6:6 , Zac 6:7 , under each epithet given it, Zac 6:3 ."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.10-10:38:54150:481",
+      "passage_start": "ZEC.6.10",
+      "passage_end": "ZEC.6.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen35536\" type=\"x-p\"/> <div sID=\"gen35537\" type=\"x-p\"/> Take of them of the captivity - The names that follow were probably those to whom the silver and golden vessels of the temple were intrusted; and who might have had bullion of silver and gold, for particular purposes, about the ornaments of the temple. <div eID=\"gen35537\" type=\"x-p\"/> <div sID=\"gen35538\" type=\"x-p\"/> The house of Josiah - Probably an artificer in silver, gold, etc. ",
+      "content_plain": "Verse 10 Take of them of the captivity - The names that follow were probably those to whom the silver and golden vessels of the temple were intrusted; and who might have had bullion of silver and gold, for particular purposes, about the ornaments of the temple. The house of Josiah - Probably an artificer in silver, gold, etc.",
+      "source_record_sha256": "3c58f48d635cf4d3267f51dc15d853d9ca9423142834a4d7a92816f4dbcca318",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 54150,
+        "length": 481
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 Take of them of the captivity - The names that follow were probably those to whom the silver and golden vessels of the temple were intrusted; and who might have had bullion of silver and gold, for particular purposes, about the ornaments of the temple. The house of Josiah - Probably an artificer in silver, gold, etc."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.11-11:38:54631:365",
+      "passage_start": "ZEC.6.11",
+      "passage_end": "ZEC.6.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen35538\" type=\"x-p\"/> <div sID=\"gen35539\" type=\"x-p\"/> Make crowns - עטרות ataroth; but seven MSS. of Kennicott's and De Rossi's, and one ancient of my own, with the Syriac and Chaldee, have עטרת atereth, a crown, or tiara. And as Joshua the high priest is alone concerned here, I think one crown only is intended. ",
+      "content_plain": "Verse 11 Make crowns - עטרות ataroth; but seven MSS. of Kennicott's and De Rossi's, and one ancient of my own, with the Syriac and Chaldee, have עטרת atereth, a crown, or tiara. And as Joshua the high priest is alone concerned here, I think one crown only is intended.",
+      "source_record_sha256": "28c04e7ee09debd039527339cc46b6d9f9118aeff347599e9c84c6497fc7eab0",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 54631,
+        "length": 365
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 11 Make crowns - עטרות ataroth; but seven MSS. of Kennicott's and De Rossi's, and one ancient of my own, with the Syriac and Chaldee, have עטרת atereth, a crown, or tiara. And as Joshua the high priest is alone concerned here, I think one crown only is intended."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.12-12:38:54996:1193",
+      "passage_start": "ZEC.6.12",
+      "passage_end": "ZEC.6.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen35539\" type=\"x-p\"/> <div sID=\"gen35540\" type=\"x-p\"/> Behold the man whose name is The Branch! - I cannot think that Zerubbabel is here intended; indeed, he is not so much as mentioned in <reference osisRef=\"Zac.3.8\">Zac 3:8</reference>. Joshua and his companions are called אנשי מופת anshey mopheth, figurative or typical men; the crowning therefore of Joshua in this place, and calling him the Branch, was most probably in reference to that glorious person, the Messiah, of whom he was the type or figure. The Chaldee has, \"whose name is my Messiah,\" or Christ. <div eID=\"gen35540\" type=\"x-p\"/> <div sID=\"gen35541\" type=\"x-p\"/> And he shall grow up out of his place - That is, out of David's root, tribe, and family. <div eID=\"gen35541\" type=\"x-p\"/> <div sID=\"gen35542\" type=\"x-p\"/> And he shall build the temple of the Lord - This cannot refer to the building of the temple then in hand, for Zerubbabel was its builder: but to that temple, the Christian Church, that was typified by it; for Zerubbabel is not named here, and only Joshua or Jesus (the name is the same) is the person who is to be crowned and to build this spiritual temple. ",
+      "content_plain": "Verse 12 Behold the man whose name is The Branch! - I cannot think that Zerubbabel is here intended; indeed, he is not so much as mentioned in Zac 3:8 . Joshua and his companions are called אנשי מופת anshey mopheth, figurative or typical men; the crowning therefore of Joshua in this place, and calling him the Branch, was most probably in reference to that glorious person, the Messiah, of whom he was the type or figure. The Chaldee has, \"whose name is my Messiah,\" or Christ. And he shall grow up out of his place - That is, out of David's root, tribe, and family. And he shall build the temple of the Lord - This cannot refer to the building of the temple then in hand, for Zerubbabel was its builder: but to that temple, the Christian Church, that was typified by it; for Zerubbabel is not named here, and only Joshua or Jesus (the name is the same) is the person who is to be crowned and to build this spiritual temple.",
+      "source_record_sha256": "27c201b07b59d2e0e8c702e21877fc47a9416f103c1cbbc31ae2315a8a401e06",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 54996,
+        "length": 1193
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 12 Behold the man whose name is The Branch! - I cannot think that Zerubbabel is here intended; indeed, he is not so much as mentioned in Zac 3:8 . Joshua and his companions are called אנשי מופת anshey mopheth, figurative or typical men; the crowning therefore of Joshua in this place, and calling him the Branch, was most probably in reference to that glorious person, the Messiah, of whom he was the type or figure. The Chaldee has, \"whose name is my Messiah,\" or Christ. And he shall grow up out of his place - That is, out of David's root, tribe, and family. And he shall build the temple of the Lord - This cannot refer to the building of the temple then in hand, for Zerubbabel was its builder: but to that temple, the Christian Church, that was typified by it; for Zerubbabel is not named here, and only Joshua or Jesus (the name is the same) is the person who is to be crowned and to build this spiritual temple."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.13-13:38:56189:1207",
+      "passage_start": "ZEC.6.13",
+      "passage_end": "ZEC.6.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 13</hi> <div eID=\"gen35542\" type=\"x-p\"/> <div sID=\"gen35543\" type=\"x-p\"/> Even he shall build the temple - Joshua, not Zerubbabel. <div eID=\"gen35543\" type=\"x-p\"/> <div sID=\"gen35544\" type=\"x-p\"/> He shall bear the glory - Have all the honor of it; for none can do this but himself. The Messiah is still intended. <div eID=\"gen35544\" type=\"x-p\"/> <div sID=\"gen35545\" type=\"x-p\"/> And shall sit and rule upon his throne - For the government of the Church shall be upon his shoulder. <div eID=\"gen35545\" type=\"x-p\"/> <div sID=\"gen35546\" type=\"x-p\"/> And he shall be a priest upon his throne - He shall, as the great high priest, offer the only available offering and atonement; and so he shall be both king and priest, a royal king and a royal priest; for even the priest is here stated to sit upon his throne. <div eID=\"gen35546\" type=\"x-p\"/> <div sID=\"gen35547\" type=\"x-p\"/> And the counsel of peace shall be between them both - Whom? Zerubbabel and Joshua? Certainly not Zerubbabel, for he is not mentioned in all this prediction; but, as the Messiah is intended, the counsel of peace - the purpose to establish peace between heaven and earth, must be between the Father and the Son. ",
+      "content_plain": "Verse 13 Even he shall build the temple - Joshua, not Zerubbabel. He shall bear the glory - Have all the honor of it; for none can do this but himself. The Messiah is still intended. And shall sit and rule upon his throne - For the government of the Church shall be upon his shoulder. And he shall be a priest upon his throne - He shall, as the great high priest, offer the only available offering and atonement; and so he shall be both king and priest, a royal king and a royal priest; for even the priest is here stated to sit upon his throne. And the counsel of peace shall be between them both - Whom? Zerubbabel and Joshua? Certainly not Zerubbabel, for he is not mentioned in all this prediction; but, as the Messiah is intended, the counsel of peace - the purpose to establish peace between heaven and earth, must be between the Father and the Son.",
+      "source_record_sha256": "5c0ee48b4c7fade3cfa7ab93ddabf355a3a972519112941aaeec3f55e16e6a76",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 56189,
+        "length": 1207
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 13 Even he shall build the temple - Joshua, not Zerubbabel. He shall bear the glory - Have all the honor of it; for none can do this but himself. The Messiah is still intended. And shall sit and rule upon his throne - For the government of the Church shall be upon his shoulder. And he shall be a priest upon his throne - He shall, as the great high priest, offer the only available offering and atonement; and so he shall be both king and priest, a royal king and a royal priest; for even the priest is here stated to sit upon his throne. And the counsel of peace shall be between them both - Whom? Zerubbabel and Joshua? Certainly not Zerubbabel, for he is not mentioned in all this prediction; but, as the Messiah is intended, the counsel of peace - the purpose to establish peace between heaven and earth, must be between the Father and the Son."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.14-14:38:57396:553",
+      "passage_start": "ZEC.6.14",
+      "passage_end": "ZEC.6.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen35547\" type=\"x-p\"/> <div sID=\"gen35548\" type=\"x-p\"/> And the crowns shall be - One of my MSS. has אטרות ataroth, crowns, corrected into עטרת atereth, crown; and so the Septuagint, Syriac, and Arabic. The Chaldee has, \"And praise shall be,\" etc. The meaning appears to be this, that the crown made for Joshua should be delivered to the persons mentioned here and in <reference osisRef=\"Zac.6.10\">Zac 6:10</reference>, to be laid up in the temple of the Lord, as a memorial of this typical transaction. ",
+      "content_plain": "Verse 14 And the crowns shall be - One of my MSS. has אטרות ataroth, crowns, corrected into עטרת atereth, crown; and so the Septuagint, Syriac, and Arabic. The Chaldee has, \"And praise shall be,\" etc. The meaning appears to be this, that the crown made for Joshua should be delivered to the persons mentioned here and in Zac 6:10 , to be laid up in the temple of the Lord, as a memorial of this typical transaction.",
+      "source_record_sha256": "2ebf74f1eaba4607d8245f847aef518f1549d41f299fc1dcb0b3b7d5dab4b6f9",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 57396,
+        "length": 553
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 14 And the crowns shall be - One of my MSS. has אטרות ataroth, crowns, corrected into עטרת atereth, crown; and so the Septuagint, Syriac, and Arabic. The Chaldee has, \"And praise shall be,\" etc. The meaning appears to be this, that the crown made for Joshua should be delivered to the persons mentioned here and in Zac 6:10 , to be laid up in the temple of the Lord, as a memorial of this typical transaction."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.6.15-15:38:57949:949",
+      "passage_start": "ZEC.6.15",
+      "passage_end": "ZEC.6.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 15</hi> <div eID=\"gen35548\" type=\"x-p\"/> <div sID=\"gen35549\" type=\"x-p\"/> And they that are far off shall come - The Gentiles shall come to the Savior of the world; and build - become a part of this new temple; for they, as living stones, shall become a holy temple, a habitation of God through the Spirit. <div eID=\"gen35549\" type=\"x-p\"/> <div sID=\"gen35550\" type=\"x-p\"/> Ye shall know that the Lord of hosts hath sent me - These predictions, relative to the regal and sacerdotal offices of the Messiah, shall be so circumstantially fulfilled, that ye, Jews, shall be obliged to acknowledge that the Lord of hosts hath sent me with this message. <div eID=\"gen35550\" type=\"x-p\"/> <div sID=\"gen35551\" type=\"x-p\"/> And this shall come to pass - Your own temple shall be rebuilt, and God shall dwell among you now, if ye will diligently obey the voice of Jehovah your God.  <chapter eID=\"Zech.6\"/> <div eID=\"gen35551\" type=\"x-p\"/>",
+      "content_plain": "Verse 15 And they that are far off shall come - The Gentiles shall come to the Savior of the world; and build - become a part of this new temple; for they, as living stones, shall become a holy temple, a habitation of God through the Spirit. Ye shall know that the Lord of hosts hath sent me - These predictions, relative to the regal and sacerdotal offices of the Messiah, shall be so circumstantially fulfilled, that ye, Jews, shall be obliged to acknowledge that the Lord of hosts hath sent me with this message. And this shall come to pass - Your own temple shall be rebuilt, and God shall dwell among you now, if ye will diligently obey the voice of Jehovah your God.",
+      "source_record_sha256": "d6a87e85b859ab31e00ac038a0d26b3395aa72ee1860e1a36144f3fa0f348cf1",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 57949,
+        "length": 949
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.6.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 15 And they that are far off shall come - The Gentiles shall come to the Savior of the world; and build - become a part of this new temple; for they, as living stones, shall become a holy temple, a habitation of God through the Spirit. Ye shall know that the Lord of hosts hath sent me - These predictions, relative to the regal and sacerdotal offices of the Messiah, shall be so circumstantially fulfilled, that ye, Jews, shall be obliged to acknowledge that the Lord of hosts hath sent me with this message. And this shall come to pass - Your own temple shall be rebuilt, and God shall dwell among you now, if ye will diligently obey the voice of Jehovah your God."
+    }
+  ],
+  "indexed_verse_count": 13,
+  "unindexed_verse_count": 2,
+  "upstream_snapshot_id": "SOTW_ZEC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 13
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:ZEC.6:P:zechariah-original-chapter-introduction",
+      "navigation_id": "ZEC.6:P:zechariah-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Zechariah · Original Chapter Introduction",
+      "content_plain": "Introduction The vision of the four chariots drawn by several sorts of horses, Zac 6:1-8 . The other vision in thus chapter may refer in its primary sense to the establishment of the civil and religious polity of the Jews under Joshua and Zerubbabel; but relates in a fuller sense, to the Messiah, and to that spiritual kingdom of which he was to be both king and high priest. In him all these types and figures were verified; on him all the promises are yea and amen, Zac 6:9-15 .",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen35517\" type=\"introduction\"/> <div sID=\"gen35518\" type=\"x-p\"/> <div eID=\"gen35518\" type=\"x-p\"/> <div eID=\"gen35517\" type=\"introduction\"/> <div sID=\"gen35519\" type=\"x-p\"/> The vision of the four chariots drawn by several sorts of horses, <reference osisRef=\"Zac.6.1-Zac.6.8\">Zac 6:1-8</reference>. The other vision in thus chapter may refer in its primary sense to the establishment of the civil and religious polity of the Jews under Joshua and Zerubbabel; but relates in a fuller sense, to the Messiah, and to that spiritual kingdom of which he was to be both king and high priest. In him all these types and figures were verified; on him all the promises are yea and amen, <reference osisRef=\"Zac.6.9-Zac.6.15\">Zac 6:9-15</reference>. <div eID=\"gen35519\" type=\"x-p\"/> <div sID=\"gen35520\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:ZEC.6.1-1:38:48617:1324",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        887
+      ],
+      "source_fragment_sha256": "c42c0b04ac965768c6b27f8672937ff6c1be5d77556964667d8bbf55e889d24f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.6.1",
+        "ZEC.6.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 13
+}

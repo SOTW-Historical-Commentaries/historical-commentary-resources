@@ -1,0 +1,284 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "author_id": "adam-clarke",
+  "book_id": "ZEC",
+  "chapter": 4,
+  "canonical_chapter": "ZEC.4",
+  "versification": "KJV",
+  "verse_count": 14,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zech\" sID=\"gen35390\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen35391\" type=\"x-p\"/> ",
+      "source_record_sha256": "cc7b69c30e55d2229d74ccd01ff1f3d6abb5a1cd0634df29a4a5827d84d2169d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen35478\" type=\"x-p\"/> <chapter n=\"4\" osisID=\"Zech.4\" sID=\"Zech.4\"/> ",
+      "source_record_sha256": "3712a4c63354f413a8fc7d525683fec57672f9979bc3e5d1aeb74282cad8494e",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 36352,
+        "length": 79
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:ZEC.4.1-1:38:36431:857",
+      "passage_start": "ZEC.4.1",
+      "passage_end": "ZEC.4.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen35478\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen35479\" type=\"introduction\"/> <div sID=\"gen35480\" type=\"x-p\"/> <div eID=\"gen35480\" type=\"x-p\"/> <div eID=\"gen35479\" type=\"introduction\"/> <div sID=\"gen35481\" type=\"x-p\"/> The prophet, overpowered by his last vision, is roused by the angel to behold another, <reference osisRef=\"Zac.4.1\">Zac 4:1</reference>; intended also to assure the Jews of the success of Joshua and Zerubbabel in building the temple, and surmounting every obstacle in the way; till at length, by the good providence of God, it should be finished, amidst the joyful acclamations of the spectators, <reference osisRef=\"Zac.4.2-Zac.4.10\">Zac 4:2-10</reference>. The angel's explanation of the golden candlestick, and of the two olive trees, <reference osisRef=\"Zac.4.11-Zac.4.14\">Zac 4:11-14</reference>. ",
+      "content_plain": "Introduction The prophet, overpowered by his last vision, is roused by the angel to behold another, Zac 4:1 ; intended also to assure the Jews of the success of Joshua and Zerubbabel in building the temple, and surmounting every obstacle in the way; till at length, by the good providence of God, it should be finished, amidst the joyful acclamations of the spectators, Zac 4:2-10 . The angel's explanation of the golden candlestick, and of the two olive trees, Zac 4:11-14 .",
+      "source_record_sha256": "22c147ad9604ecc7f15bd971cf98d4cb5b0d77497824d0bfd61f5c7944bd0ebe",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 36431,
+        "length": 857
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "chapter_introduction_only",
+      "navigation_id": "ZEC.4.1",
+      "source_record_immutable": true,
+      "reader_visible": false,
+      "reader_content_plain": "Introduction The prophet, overpowered by his last vision, is roused by the angel to behold another, Zac 4:1 ; intended also to assure the Jews of the success of Joshua and Zerubbabel in building the temple, and surmounting every obstacle in the way; till at length, by the good providence of God, it should be finished, amidst the joyful acclamations of the spectators, Zac 4:2-10 . The angel's explanation of the golden candlestick, and of the two olive trees, Zac 4:11-14 .",
+      "source_scope_notice": "The original Clarke Zechariah chapter source at verse 1 contains only a chapter introduction; the content is available in P, not as independent verse-one exposition."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.2-2:38:41141:2074",
+      "passage_start": "ZEC.4.2",
+      "passage_end": "ZEC.4.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen35495\" type=\"x-p\"/> <div sID=\"gen35496\" type=\"x-p\"/> A candlestick all of gold - This candlestick is formed in some measure after that of the sanctuary, <reference osisRef=\"Exo.25.31\">Exo 25:31</reference>, <reference osisRef=\"Exo.25.32\">Exo 25:32</reference> : but in that of the sanctuary there was no bowl, nor seven pipes, nor seven lamps, nor the two olive trees. The two olive trees were to supply the bowl with oil; the bowl was to communicate the oil to the seven pipes; and the seven pipes were to supply the seven lamps. In general, the candlestick, its bowl, pipes, lamps, and olive trees, are emblems of the pure service of God, and the grace and salvation to be enjoyed by his true worshippers. The candlestick may, however, represent the whole Jewish state, ecclesiastical and civil; the oil, producing the light, the grace and mercy of God; and the two olive trees, the source of infinite love, whence that grace proceeds. The pipes may signify all means of grace; and the seven lamps, the perfection and abundance of the light and salvation provided. Some may take them in the following way: - <div eID=\"gen35496\" type=\"x-p\"/> <div sID=\"gen35497\" type=\"x-p\"/> 1. The olive trees, the Divine goodness, yield the oil from the olive berry, which is its fruit. <div eID=\"gen35497\" type=\"x-p\"/> <div sID=\"gen35498\" type=\"x-p\"/> 2. From each comes a pipe to convey the oil to the bowl. <div eID=\"gen35498\" type=\"x-p\"/> <div sID=\"gen35499\" type=\"x-p\"/> 3. This oil is collected in the bowl, which is supposed to represent Jesus, the great Mediator, through whom alone all grace and mercy descend to man. <div eID=\"gen35499\" type=\"x-p\"/> <div sID=\"gen35500\" type=\"x-p\"/> 4. The seven pipes, the various means of grace - reading, hearing, prayer, sacraments, etc. - through which Christ dispenses his grace and blessing to his followers. <div eID=\"gen35500\" type=\"x-p\"/> <div sID=\"gen35501\" type=\"x-p\"/> 5. The seven lamps - the Spirit of God in its plentitude of graces, gifts, and light, dispensed to the Christian Church. ",
+      "content_plain": "Verse 2 A candlestick all of gold - This candlestick is formed in some measure after that of the sanctuary, Exo 25:31 , Exo 25:32 : but in that of the sanctuary there was no bowl, nor seven pipes, nor seven lamps, nor the two olive trees. The two olive trees were to supply the bowl with oil; the bowl was to communicate the oil to the seven pipes; and the seven pipes were to supply the seven lamps. In general, the candlestick, its bowl, pipes, lamps, and olive trees, are emblems of the pure service of God, and the grace and salvation to be enjoyed by his true worshippers. The candlestick may, however, represent the whole Jewish state, ecclesiastical and civil; the oil, producing the light, the grace and mercy of God; and the two olive trees, the source of infinite love, whence that grace proceeds. The pipes may signify all means of grace; and the seven lamps, the perfection and abundance of the light and salvation provided. Some may take them in the following way: - 1. The olive trees, the Divine goodness, yield the oil from the olive berry, which is its fruit. 2. From each comes a pipe to convey the oil to the bowl. 3. This oil is collected in the bowl, which is supposed to represent Jesus, the great Mediator, through whom alone all grace and mercy descend to man. 4. The seven pipes, the various means of grace - reading, hearing, prayer, sacraments, etc. - through which Christ dispenses his grace and blessing to his followers. 5. The seven lamps - the Spirit of God in its plentitude of graces, gifts, and light, dispensed to the Christian Church.",
+      "source_record_sha256": "f05db2ccacf79821af894fc1a23841b4d9847893c14265d59003a66b5abf6084",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 41141,
+        "length": 2074
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 A candlestick all of gold - This candlestick is formed in some measure after that of the sanctuary, Exo 25:31 , Exo 25:32 : but in that of the sanctuary there was no bowl, nor seven pipes, nor seven lamps, nor the two olive trees. The two olive trees were to supply the bowl with oil; the bowl was to communicate the oil to the seven pipes; and the seven pipes were to supply the seven lamps. In general, the candlestick, its bowl, pipes, lamps, and olive trees, are emblems of the pure service of God, and the grace and salvation to be enjoyed by his true worshippers. The candlestick may, however, represent the whole Jewish state, ecclesiastical and civil; the oil, producing the light, the grace and mercy of God; and the two olive trees, the source of infinite love, whence that grace proceeds. The pipes may signify all means of grace; and the seven lamps, the perfection and abundance of the light and salvation provided. Some may take them in the following way: - 1. The olive trees, the Divine goodness, yield the oil from the olive berry, which is its fruit. 2. From each comes a pipe to convey the oil to the bowl. 3. This oil is collected in the bowl, which is supposed to represent Jesus, the great Mediator, through whom alone all grace and mercy descend to man. 4. The seven pipes, the various means of grace - reading, hearing, prayer, sacraments, etc. - through which Christ dispenses his grace and blessing to his followers. 5. The seven lamps - the Spirit of God in its plentitude of graces, gifts, and light, dispensed to the Christian Church."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.6-6:38:43215:843",
+      "passage_start": "ZEC.4.6",
+      "passage_end": "ZEC.4.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen35501\" type=\"x-p\"/> <div sID=\"gen35502\" type=\"x-p\"/> This is the word of the Lord unto Zerubbabel - This prince was in a trying situation, and he needed especial encouragement from God; and here it is: Not by might, (of thy own), nor by power, (authority from others), but by my Spirit - the providence, authority, power, and energy of the Most High. In this way shall my temple be built; in this way shall my Church be raised and preserved. No secular arm, no human prudence, no earthly policy, no suits at law, shall ever be used for the founding, extension, and preservation of my Church. But the spirit of the world says, \"These are all means to which as we must have recourse; otherwise the cause of God may be ruined.\" Satan, thou liest!  <chapter eID=\"Zech.4\"/> <div eID=\"gen35502\" type=\"x-p\"/>",
+      "content_plain": "Verse 6 This is the word of the Lord unto Zerubbabel - This prince was in a trying situation, and he needed especial encouragement from God; and here it is: Not by might, (of thy own), nor by power, (authority from others), but by my Spirit - the providence, authority, power, and energy of the Most High. In this way shall my temple be built; in this way shall my Church be raised and preserved. No secular arm, no human prudence, no earthly policy, no suits at law, shall ever be used for the founding, extension, and preservation of my Church. But the spirit of the world says, \"These are all means to which as we must have recourse; otherwise the cause of God may be ruined.\" Satan, thou liest!",
+      "source_record_sha256": "489eb0a7e3992063017cb54b375da67b06ee03405e9200d70b447789fa108f80",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 43215,
+        "length": 843
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 This is the word of the Lord unto Zerubbabel - This prince was in a trying situation, and he needed especial encouragement from God; and here it is: Not by might, (of thy own), nor by power, (authority from others), but by my Spirit - the providence, authority, power, and energy of the Most High. In this way shall my temple be built; in this way shall my Church be raised and preserved. No secular arm, no human prudence, no earthly policy, no suits at law, shall ever be used for the founding, extension, and preservation of my Church. But the spirit of the world says, \"These are all means to which as we must have recourse; otherwise the cause of God may be ruined.\" Satan, thou liest!"
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.7-7:38:37288:1060",
+      "passage_start": "ZEC.4.7",
+      "passage_end": "ZEC.4.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen35481\" type=\"x-p\"/> <div sID=\"gen35482\" type=\"x-p\"/> O great mountain? - The hinderances which were thrown in the way; the regal prohibition to discontinue the building of the temple. <div eID=\"gen35482\" type=\"x-p\"/> <div sID=\"gen35483\" type=\"x-p\"/> Before Zerubbabel - a plain - The sovereign power of God shall remove them. March on, Zerubbabel; all shall be made plain and smooth before thee. I have given thee the work to do, and I will remove all hinderances out of thy way. <div eID=\"gen35483\" type=\"x-p\"/> <div sID=\"gen35484\" type=\"x-p\"/> He shall bring forth the headstone - As he has laid the foundation stone, so shall he put on the headstone: as he has begun the building, so shall he finish it! <div eID=\"gen35484\" type=\"x-p\"/> <div sID=\"gen35485\" type=\"x-p\"/> With shoutings - The universal acclamation of the people. <div eID=\"gen35485\" type=\"x-p\"/> <div sID=\"gen35486\" type=\"x-p\"/> Grace, grace unto it - How beautiful is this structure! May the favor of God ever rest upon it, and be manifested in it! ",
+      "content_plain": "Verse 7 O great mountain? - The hinderances which were thrown in the way; the regal prohibition to discontinue the building of the temple. Before Zerubbabel - a plain - The sovereign power of God shall remove them. March on, Zerubbabel; all shall be made plain and smooth before thee. I have given thee the work to do, and I will remove all hinderances out of thy way. He shall bring forth the headstone - As he has laid the foundation stone, so shall he put on the headstone: as he has begun the building, so shall he finish it! With shoutings - The universal acclamation of the people. Grace, grace unto it - How beautiful is this structure! May the favor of God ever rest upon it, and be manifested in it!",
+      "source_record_sha256": "81f6663198bd4f4c9993647c1677ff654bcf88a912ee2a26ce88535b41a884db",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 37288,
+        "length": 1060
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 O great mountain? - The hinderances which were thrown in the way; the regal prohibition to discontinue the building of the temple. Before Zerubbabel - a plain - The sovereign power of God shall remove them. March on, Zerubbabel; all shall be made plain and smooth before thee. I have given thee the work to do, and I will remove all hinderances out of thy way. He shall bring forth the headstone - As he has laid the foundation stone, so shall he put on the headstone: as he has begun the building, so shall he finish it! With shoutings - The universal acclamation of the people. Grace, grace unto it - How beautiful is this structure! May the favor of God ever rest upon it, and be manifested in it!"
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.10-10:38:38348:973",
+      "passage_start": "ZEC.4.10",
+      "passage_end": "ZEC.4.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen35486\" type=\"x-p\"/> <div sID=\"gen35487\" type=\"x-p\"/> Who hath despised the day of small things? - The poverty, weakness, and unbefriended state of the Jews. It was said, \"What do these feeble Jews?\" \"Will they build,\" etc.? No. But God will build by them, and perfect his building too. <div eID=\"gen35487\" type=\"x-p\"/> <div sID=\"gen35488\" type=\"x-p\"/> And shall see the plummet in the hand of Zerubbabel - He is master builder under God, the grand architect. <div eID=\"gen35488\" type=\"x-p\"/> <div sID=\"gen35489\" type=\"x-p\"/> Those seven - are the eyes of the Lord - Either referring to his particular and especial providence; or to those ministering spirits, whom he has employed in behalf of the Jews, to dispense the blessings of that providence. See <reference osisRef=\"2Chr.16.9\">2Chr 16:9</reference> (note); <reference osisRef=\"Pro.15.3\">Pro 15:3</reference> (note); <reference osisRef=\"Zac.3.9\">Zac 3:9</reference> (note). ",
+      "content_plain": "Verse 10 Who hath despised the day of small things? - The poverty, weakness, and unbefriended state of the Jews. It was said, \"What do these feeble Jews?\" \"Will they build,\" etc.? No. But God will build by them, and perfect his building too. And shall see the plummet in the hand of Zerubbabel - He is master builder under God, the grand architect. Those seven - are the eyes of the Lord - Either referring to his particular and especial providence; or to those ministering spirits, whom he has employed in behalf of the Jews, to dispense the blessings of that providence. See 2Chr 16:9 (note); Pro 15:3 (note); Zac 3:9 (note).",
+      "source_record_sha256": "9a94fd6ace523017f45336c78b03b1522ce8f573db003847d1b2ec4c984e6348",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 38348,
+        "length": 973
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 Who hath despised the day of small things? - The poverty, weakness, and unbefriended state of the Jews. It was said, \"What do these feeble Jews?\" \"Will they build,\" etc.? No. But God will build by them, and perfect his building too. And shall see the plummet in the hand of Zerubbabel - He is master builder under God, the grand architect. Those seven - are the eyes of the Lord - Either referring to his particular and especial providence; or to those ministering spirits, whom he has employed in behalf of the Jews, to dispense the blessings of that providence. See 2Chr 16:9 (note); Pro 15:3 (note); Zac 3:9 (note)."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.11-11:38:39321:193",
+      "passage_start": "ZEC.4.11",
+      "passage_end": "ZEC.4.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 11</hi> <div eID=\"gen35489\" type=\"x-p\"/> <div sID=\"gen35490\" type=\"x-p\"/> What are these two olive trees - See on <reference osisRef=\"Zac.4.2\">Zac 4:2</reference> (note). ",
+      "content_plain": "Verse 11 What are these two olive trees - See on Zac 4:2 (note).",
+      "source_record_sha256": "a7dabcb91766dec60495b8d5ad018755fa484c691fe45344e193bfa08bca1628",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 39321,
+        "length": 193
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 11 What are these two olive trees - See on Zac 4:2 (note)."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.12-12:38:39514:189",
+      "passage_start": "ZEC.4.12",
+      "passage_end": "ZEC.4.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen35490\" type=\"x-p\"/> <div sID=\"gen35491\" type=\"x-p\"/> What be these two olive branches - That is, two boughs laden with branches of olive berries. ",
+      "content_plain": "Verse 12 What be these two olive branches - That is, two boughs laden with branches of olive berries.",
+      "source_record_sha256": "2390651a3811fced66a8396ea63964a475130e5c343709ad24880950beb25aac",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 39514,
+        "length": 189
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 12 What be these two olive branches - That is, two boughs laden with branches of olive berries."
+    },
+    {
+      "entry_id": "sword:clarke:ZEC.4.14-14:38:39703:1438",
+      "passage_start": "ZEC.4.14",
+      "passage_end": "ZEC.4.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen35491\" type=\"x-p\"/> <div sID=\"gen35492\" type=\"x-p\"/> These are the two anointed ones - Joshua, the high priest; and Zerubbabel the governor. These are anointed - appointed by the Lord; and stand by him, the one to minister in the ecclesiastical, the other in the civil state. <div eID=\"gen35492\" type=\"x-p\"/> <div sID=\"gen35493\" type=\"x-p\"/> Probably we may not be able to comprehend the whole of this hieroglyphical vision; for even the interpreting angel does not choose to answer the questions relative to this, which were put to him by the prophet. See <reference osisRef=\"Zac.4.4\">Zac 4:4</reference>, <reference osisRef=\"Zac.4.11\">Zac 4:11</reference>. But though the particulars are hard to be understood; yet the general meaning has, I hope, been given. <div eID=\"gen35493\" type=\"x-p\"/> <div sID=\"gen35494\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen35494\" type=\"x-p\"/> <div sID=\"gen35495\" type=\"x-p\"/> The angel - came again, and waked me - Abp. Newcome considers this vision as represented on the same night, <reference osisRef=\"Zac.1.8\">Zac 1:8</reference>, with the preceding ones. See the latter part of <reference osisRef=\"Zac.1.10\">Zac 1:10</reference>, compared with <reference osisRef=\"Zac.3.9\">Zac 3:9</reference>. After some interval the prophet, overpowered with the vision which had been presented to him, was awakened from his prophetic trance as from a sleep. ",
+      "content_plain": "Verse 14 These are the two anointed ones - Joshua, the high priest; and Zerubbabel the governor. These are anointed - appointed by the Lord; and stand by him, the one to minister in the ecclesiastical, the other in the civil state. Probably we may not be able to comprehend the whole of this hieroglyphical vision; for even the interpreting angel does not choose to answer the questions relative to this, which were put to him by the prophet. See Zac 4:4 , Zac 4:11 . But though the particulars are hard to be understood; yet the general meaning has, I hope, been given. Verse 1 The angel - came again, and waked me - Abp. Newcome considers this vision as represented on the same night, Zac 1:8 , with the preceding ones. See the latter part of Zac 1:10 , compared with Zac 3:9 . After some interval the prophet, overpowered with the vision which had been presented to him, was awakened from his prophetic trance as from a sleep.",
+      "source_record_sha256": "a6d34a4a546207887d16324956be2b9ee2da503679428531aa1bf72dacf776ab",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 39703,
+        "length": 1438
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.4.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 14 These are the two anointed ones - Joshua, the high priest; and Zerubbabel the governor. These are anointed - appointed by the Lord; and stand by him, the one to minister in the ecclesiastical, the other in the civil state. Probably we may not be able to comprehend the whole of this hieroglyphical vision; for even the interpreting angel does not choose to answer the questions relative to this, which were put to him by the prophet. See Zac 4:4 , Zac 4:11 . But though the particulars are hard to be understood; yet the general meaning has, I hope, been given. Verse 1 The angel - came again, and waked me - Abp. Newcome considers this vision as represented on the same night, Zac 1:8 , with the preceding ones. See the latter part of Zac 1:10 , compared with Zac 3:9 . After some interval the prophet, overpowered with the vision which had been presented to him, was awakened from his prophetic trance as from a sleep."
+    }
+  ],
+  "indexed_verse_count": 8,
+  "unindexed_verse_count": 6,
+  "upstream_snapshot_id": "SOTW_ZEC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 8
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:ZEC.4:P:zechariah-4-original-chapter-introduction",
+      "navigation_id": "ZEC.4:P:zechariah-4-original-chapter-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Zechariah 4 · Original Chapter Introduction",
+      "content_plain": "Introduction The prophet, overpowered by his last vision, is roused by the angel to behold another, Zac 4:1 ; intended also to assure the Jews of the success of Joshua and Zerubbabel in building the temple, and surmounting every obstacle in the way; till at length, by the good providence of God, it should be finished, amidst the joyful acclamations of the spectators, Zac 4:2-10 . The angel's explanation of the golden candlestick, and of the two olive trees, Zac 4:11-14 .",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen35479\" type=\"introduction\"/> <div sID=\"gen35480\" type=\"x-p\"/> <div eID=\"gen35480\" type=\"x-p\"/> <div eID=\"gen35479\" type=\"introduction\"/> <div sID=\"gen35481\" type=\"x-p\"/> The prophet, overpowered by his last vision, is roused by the angel to behold another, <reference osisRef=\"Zac.4.1\">Zac 4:1</reference>; intended also to assure the Jews of the success of Joshua and Zerubbabel in building the temple, and surmounting every obstacle in the way; till at length, by the good providence of God, it should be finished, amidst the joyful acclamations of the spectators, <reference osisRef=\"Zac.4.2-Zac.4.10\">Zac 4:2-10</reference>. The angel's explanation of the golden candlestick, and of the two olive trees, <reference osisRef=\"Zac.4.11-Zac.4.14\">Zac 4:11-14</reference>. ",
+      "source_entry_id": "sword:clarke:ZEC.4.1-1:38:36431:857",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        857
+      ],
+      "source_fragment_sha256": "11cd40cbf0a49716cb5e6de19dda50d5041d7d1515972d71f7601a408670a30c",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.4.1",
+        "ZEC.4.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 7
+}

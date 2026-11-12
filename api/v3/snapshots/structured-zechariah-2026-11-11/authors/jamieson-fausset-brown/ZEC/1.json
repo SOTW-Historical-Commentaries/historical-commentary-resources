@@ -1,0 +1,693 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-zechariah-2026-11-11",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "ZEC",
+  "chapter": 1,
+  "canonical_chapter": "ZEC.1",
+  "versification": "KJV",
+  "verse_count": 21,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive"
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Zech\" sID=\"gen24400\" type=\"book\"/> <milestone n=\"THE BOOK OF ZECHARIAH\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE BOOK OF ZECHARIAH</title> <div sID=\"gen24401\" type=\"x-p\"/><div eID=\"gen24401\" type=\"x-p\"/> ",
+      "source_record_sha256": "9477bf4353e4ebc3e9dbd754b7268c4c9ed0fd973106cf9fc92339dc22dbec5e",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 0,
+        "length": 311
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Zech.1\" sID=\"Zech.1\"/> <div sID=\"gen24402\" type=\"introduction\"/> ",
+      "source_record_sha256": "2392587b59f1b4d93a727d2f8f3c19a3432743e642dc1d5557d79986c047ae3d",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 311,
+        "length": 88
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:ZEC.1.1-1:38:399:8302",
+      "passage_start": "ZEC.1.1",
+      "passage_end": "ZEC.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13010\"/><title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen24403\" type=\"x-p\"/> The name Zechariah means one whom Jehovah remembers: a common name, four others of the same name occurring in the Old Testament. Like Jeremiah and Ezekiel, he was a priest as well as a prophet, which adapts him for the sacerdotal character of some of his prophecies (<reference osisRef=\"Zech.6.13\">Zec 6:13</reference>). He is called \"the son of Berechiah the son of Iddo\" (<reference osisRef=\"Zech.1.1\">Zec 1:1</reference>); but simply \"the son of Iddo\" in <reference osisRef=\"Ezra.5.1\">Ezr 5:1</reference>; <reference osisRef=\"Ezra.6.14\">6:14</reference>. Probably his father died when he was young; and hence, as sometimes occurs in Jewish genealogies, he is called \"the son of Iddo,\" his grandfather. Iddo was one of the priests who returned to Zerubbabel and Joshua from Babylon (<reference osisRef=\"Neh.12.4\">Ne 12:4</reference>).<div eID=\"gen24403\" type=\"x-p\"/> <div eID=\"gen24402\" type=\"introduction\"/> <div sID=\"gen24404\" type=\"x-p\"/><hi type=\"bold\">Zechariah entered early on his prophetic functions (<reference osisRef=\"Zech.2.4\">Zec 2:4</reference>); only two months later than Haggai, in the second year of Darius' reign, 520 B.C. The design of both prophets was to encourage the people and their religious and civil leaders, Joshua and Zerubbabel, in their work of rebuilding the temple, after the interruption caused by the Samaritans (see Introduction to Haggai). Zechariah does so especially by unfolding in detail the glorious future in connection with the present depressed appearance of the theocracy, and its visible symbol, the temple. He must have been very young in leaving Babylonia, where he was born. The Zechariah, son of Barachias, mentioned by our Lord (<reference osisRef=\"Matt.23.35\">Mt 23:35</reference>) as slain between the porch and the altar, must have been the one called the son of Jehoiada in <reference osisRef=\"2Chr.24.21\">2Ch 24:21</reference>, who so perished: the same person often had two names; and our Lord, in referring to the Hebrew Bible, of which Second Chronicles is the last book, would naturally mention the last martyr in the Hebrew order of the canon, as He had instanced Abel as the first. Owing to <reference osisRef=\"Matt.27.9\">Mt 27:9</reference> quoting <reference osisRef=\"Zech.11.12\">Zec 11:12</reference>, <reference osisRef=\"Zech.11.13\">13</reference> as the words of Jeremiah, Mede doubts the authenticity of the ninth through the fourteenth chapters, and ascribes them to Jeremiah: he thinks that these chapters were not found till after the return from the captivity, and being approved by Zechariah, were added to his prophecies, as Agur's Proverbs were added to those of Solomon. All the oldest authorities, except two manuscripts of the old Italian or Pre-Vulgate version, read Jeremiah in <reference osisRef=\"Matt.27.9\">Mt 27:9</reference>. The quotation there is not to the letter copied from Zechariah, <reference osisRef=\"Jer.18.1\">Jr 18:1</reference>, 2; 32:6-12, may also have been in the mind of Matthew, and perhaps in the mind of Zechariah, whence the former mentions Jeremiah. Hengstenberg similarly thinks that Matthew names Jeremiah, rather than Zechariah, to turn attention to the fact that Zechariah's prophecy is but a reiteration of the fearful oracle in <reference osisRef=\"Jer.18.1-Jer.19.15\">Jr 18:1-19:15</reference>, to be fulfilled in the destruction of the Jewish nation. Jeremiah had already, by the image of a potter's vessel, portrayed their ruin in Nebuchadnezzar's invasion; and as Zechariah virtually repeats this threat, to be inflicted again under Messiah for the nation's rejection of Him, Matthew, virtually, by mentioning Jeremiah, implies that the \"field of blood\" [Mt 27:8, 9], now bought by \"the reward of iniquity\" [Ac 1:18] in the valley of Hinnom, was long ago a scene of prophetic doom in which awful disaster had been symbolically predicted: that the present purchase of that field with the traitor's price renewed the prophecy and revived the curse--</hi>a curse pronounced of old by Jeremiah, and once fulfilled in the Babylonian siege--a curse reiterated by Zechariah, and again to be verified in the Roman desolation. Lightfoot (referring to B. Bathra and Kimchi) less probably thinks the third division of Scripture, the prophets, began with Jeremiah, and that the whole body of prophets is thus quoted by the name \"Jeremiah.\" The mention of \"Ephraim\" and \"Israel\" in these chapters as distinct from Judah, does not prove that the prophecy was written while the ten tribes existed as a separate kingdom. It rather implies that hereafter not only Judah, but the ten tribes also, shall be restored, the earnest of which was given in the numbers out of the ten tribes who returned with their brethren the Jews from captivity under Cyrus. There is nothing in these characters to imply that a king reigned in Judah at that time. The editor of the Hebrew canon joined these chapters to Zechariah, not to Jeremiah; the Septuagint, three hundred years B.C., confirms this.<div eID=\"gen24404\" type=\"x-p\"/> <div sID=\"gen24405\" type=\"x-p\"/> The prophecy consists of four parts: (1) Introductory, Zec 1:1-6. (2) Symbolical, <reference osisRef=\"Zech.1.7\">Zec 1:7</reference>, to the end of the sixth chapter, containing nine visions; all these were vouchsafed in one night, and are of a symbolical character. (3) Didactic, the seventh and eighth chapters containing an answer to a query of the Beth-elites concerning a certain feast. And (4) Prophetic, the ninth chapter to the end. These six last chapters predict Alexander's expedition along the west coast of Palestine to Egypt; God's protection of the Jews, both at that time and under the Maccabees; the advent, sufferings, and reign of Messiah; the destruction of Jerusalem by Rome, and dissolution of the Jews' polity; their conversion and restoration; the overthrow of the wicked confederacy which assailed them in Canaan; and the Gentiles' joining in their holy worship [Henderson]. The difference in style between the former and the latter chapters is due to the difference of subject; the first six chapters being of a symbolical and peculiar character, while the poetical style of the concluding chapters is adapted admirably to the subjects treated. The titles (<reference osisRef=\"Zech.9.1\">Zec 9:1</reference>; <reference osisRef=\"Zech.12.1\">12:1</reference>) accord with the prophetic matter which follows; nor is it necessary for unity of authorship that the introductory formulas occurring in the first eight chapters should occur in the last six. The non-reference in the last six chapters to the completion of the temple and the Jews' restoration after the captivity is just what we should expect, if, as seems likely, these chapters were written long after the completion of the temple and the restoration of the Jews' polity after the captivity, in circumstances different from those which engaged the prophet when he wrote the earlier chapters.<div eID=\"gen24405\" type=\"x-p\"/> <div sID=\"gen24406\" type=\"x-p\"/><hi type=\"bold\">The style varies with the subject: at one time conversational, at another poetical. His symbols are enigmatical and are therefore accompanied with explanations. His prose is like that of Ezekiel--</hi>diffuse, uniform, and repetitious. The rhythm is somewhat unequal, and the parallelisms are not altogether symmetrical. Still, there is found often much of the elevation met with in the earlier prophets, and a general congruity between the style and the subjects. Graphic vividness is his peculiar merit. Chaldæisms occur occasionally. Another special characteristic of Zechariah is his introduction of spiritual beings into his prophetic scenes.<div eID=\"gen24406\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <title type=\"x-s3\"><reference osisRef=\"Zech.1.1-Zech.1.17\">Zec 1:1-17</reference>. Introductory Exhortation to Repentance. The Visions. The man among the myrtles: Comforting explanation by the angel, an encouragement to the Jews to build the city and temple: The four horns and four artificers.</title> <div sID=\"gen24407\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13010\"/>1. See Introduction. <div eID=\"gen24407\" type=\"x-p\"/>",
+      "content_plain": "INTRODUCTION The name Zechariah means one whom Jehovah remembers: a common name, four others of the same name occurring in the Old Testament. Like Jeremiah and Ezekiel, he was a priest as well as a prophet, which adapts him for the sacerdotal character of some of his prophecies ( Zec 6:13 ). He is called \"the son of Berechiah the son of Iddo\" ( Zec 1:1 ); but simply \"the son of Iddo\" in Ezr 5:1 ; 6:14 . Probably his father died when he was young; and hence, as sometimes occurs in Jewish genealogies, he is called \"the son of Iddo,\" his grandfather. Iddo was one of the priests who returned to Zerubbabel and Joshua from Babylon ( Ne 12:4 ). Zechariah entered early on his prophetic functions ( Zec 2:4 ); only two months later than Haggai, in the second year of Darius' reign, 520 B.C. The design of both prophets was to encourage the people and their religious and civil leaders, Joshua and Zerubbabel, in their work of rebuilding the temple, after the interruption caused by the Samaritans (see Introduction to Haggai). Zechariah does so especially by unfolding in detail the glorious future in connection with the present depressed appearance of the theocracy, and its visible symbol, the temple. He must have been very young in leaving Babylonia, where he was born. The Zechariah, son of Barachias, mentioned by our Lord ( Mt 23:35 ) as slain between the porch and the altar, must have been the one called the son of Jehoiada in 2Ch 24:21 , who so perished: the same person often had two names; and our Lord, in referring to the Hebrew Bible, of which Second Chronicles is the last book, would naturally mention the last martyr in the Hebrew order of the canon, as He had instanced Abel as the first. Owing to Mt 27:9 quoting Zec 11:12 , 13 as the words of Jeremiah, Mede doubts the authenticity of the ninth through the fourteenth chapters, and ascribes them to Jeremiah: he thinks that these chapters were not found till after the return from the captivity, and being approved by Zechariah, were added to his prophecies, as Agur's Proverbs were added to those of Solomon. All the oldest authorities, except two manuscripts of the old Italian or Pre-Vulgate version, read Jeremiah in Mt 27:9 . The quotation there is not to the letter copied from Zechariah, Jr 18:1 , 2; 32:6-12, may also have been in the mind of Matthew, and perhaps in the mind of Zechariah, whence the former mentions Jeremiah. Hengstenberg similarly thinks that Matthew names Jeremiah, rather than Zechariah, to turn attention to the fact that Zechariah's prophecy is but a reiteration of the fearful oracle in Jr 18:1-19:15 , to be fulfilled in the destruction of the Jewish nation. Jeremiah had already, by the image of a potter's vessel, portrayed their ruin in Nebuchadnezzar's invasion; and as Zechariah virtually repeats this threat, to be inflicted again under Messiah for the nation's rejection of Him, Matthew, virtually, by mentioning Jeremiah, implies that the \"field of blood\" [Mt 27:8, 9], now bought by \"the reward of iniquity\" [Ac 1:18] in the valley of Hinnom, was long ago a scene of prophetic doom in which awful disaster had been symbolically predicted: that the present purchase of that field with the traitor's price renewed the prophecy and revived the curse-- a curse pronounced of old by Jeremiah, and once fulfilled in the Babylonian siege--a curse reiterated by Zechariah, and again to be verified in the Roman desolation. Lightfoot (referring to B. Bathra and Kimchi) less probably thinks the third division of Scripture, the prophets, began with Jeremiah, and that the whole body of prophets is thus quoted by the name \"Jeremiah.\" The mention of \"Ephraim\" and \"Israel\" in these chapters as distinct from Judah, does not prove that the prophecy was written while the ten tribes existed as a separate kingdom. It rather implies that hereafter not only Judah, but the ten tribes also, shall be restored, the earnest of which was given in the numbers out of the ten tribes who returned with their brethren the Jews from captivity under Cyrus. There is nothing in these characters to imply that a king reigned in Judah at that time. The editor of the Hebrew canon joined these chapters to Zechariah, not to Jeremiah; the Septuagint, three hundred years B.C., confirms this. The prophecy consists of four parts: (1) Introductory, Zec 1:1-6. (2) Symbolical, Zec 1:7 , to the end of the sixth chapter, containing nine visions; all these were vouchsafed in one night, and are of a symbolical character. (3) Didactic, the seventh and eighth chapters containing an answer to a query of the Beth-elites concerning a certain feast. And (4) Prophetic, the ninth chapter to the end. These six last chapters predict Alexander's expedition along the west coast of Palestine to Egypt; God's protection of the Jews, both at that time and under the Maccabees; the advent, sufferings, and reign of Messiah; the destruction of Jerusalem by Rome, and dissolution of the Jews' polity; their conversion and restoration; the overthrow of the wicked confederacy which assailed them in Canaan; and the Gentiles' joining in their holy worship [Henderson]. The difference in style between the former and the latter chapters is due to the difference of subject; the first six chapters being of a symbolical and peculiar character, while the poetical style of the concluding chapters is adapted admirably to the subjects treated. The titles ( Zec 9:1 ; 12:1 ) accord with the prophetic matter which follows; nor is it necessary for unity of authorship that the introductory formulas occurring in the first eight chapters should occur in the last six. The non-reference in the last six chapters to the completion of the temple and the Jews' restoration after the captivity is just what we should expect, if, as seems likely, these chapters were written long after the completion of the temple and the restoration of the Jews' polity after the captivity, in circumstances different from those which engaged the prophet when he wrote the earlier chapters. The style varies with the subject: at one time conversational, at another poetical. His symbols are enigmatical and are therefore accompanied with explanations. His prose is like that of Ezekiel-- diffuse, uniform, and repetitious. The rhythm is somewhat unequal, and the parallelisms are not altogether symmetrical. Still, there is found often much of the elevation met with in the earlier prophets, and a general congruity between the style and the subjects. Graphic vividness is his peculiar merit. Chaldæisms occur occasionally. Another special characteristic of Zechariah is his introduction of spiritual beings into his prophetic scenes. CHAPTER 1 Zec 1:1-17 . Introductory Exhortation to Repentance. The Visions. The man among the myrtles: Comforting explanation by the angel, an encouragement to the Jews to build the city and temple: The four horns and four artificers. 1. See Introduction.",
+      "source_record_sha256": "5ee0b084357f221e4927f97e386a4debff79c9218e64f854c78092977004b4a2",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 399,
+        "length": 8302
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. See Introduction.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "JFB native preverse delimiter separates actual book/chapter/passage headings from first indexed commentary",
+      "reader_source_character_span": [
+        8248,
+        8301
+      ],
+      "reader_content_osis": "1. See Introduction. <div eID=\"gen24407\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.2-2:38:8701:814",
+      "passage_start": "ZEC.1.2",
+      "passage_end": "ZEC.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13011\"/><div sID=\"gen24408\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13011\"/>2. God fulfilled His threats against your fathers; beware, then, lest by disregarding His voice by me, as they did in the case of former prophets, ye suffer like them. The special object Zechariah aims at is that they should awake from their selfish negligence to obey God's command to rebuild His temple (<reference osisRef=\"Hag.1.4-Hag.1.8\">Hag 1:4-8</reference>).<div eID=\"gen24408\" type=\"x-p\"/> <div sID=\"gen24409\" type=\"x-p\"/><hi type=\"bold\">sore displeased--</hi>Hebrew, \"displeased with a displeasure,\" that is, vehemently, with no common displeasure, exhibited in the destruction of the Jews' city and in their captivity. <div eID=\"gen24409\" type=\"x-p\"/>",
+      "content_plain": "2. God fulfilled His threats against your fathers; beware, then, lest by disregarding His voice by me, as they did in the case of former prophets, ye suffer like them. The special object Zechariah aims at is that they should awake from their selfish negligence to obey God's command to rebuild His temple ( Hag 1:4-8 ). sore displeased-- Hebrew, \"displeased with a displeasure,\" that is, vehemently, with no common displeasure, exhibited in the destruction of the Jews' city and in their captivity.",
+      "source_record_sha256": "792305f8076a7277afa256ab40317c5822374fcc870c737b5737a7d8972c43ac",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 8701,
+        "length": 814
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. God fulfilled His threats against your fathers; beware, then, lest by disregarding His voice by me, as they did in the case of former prophets, ye suffer like them. The special object Zechariah aims at is that they should awake from their selfish negligence to obey God's command to rebuild His temple ( Hag 1:4-8 ). sore displeased-- Hebrew, \"displeased with a displeasure,\" that is, vehemently, with no common displeasure, exhibited in the destruction of the Jews' city and in their captivity."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.3-3:38:9515:1058",
+      "passage_start": "ZEC.1.3",
+      "passage_end": "ZEC.1.3",
+      "start_verse": 3,
+      "end_verse": 3,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13012\"/><div sID=\"gen24410\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13012\"/><hi type=\"bold\">3. saith the Lord of hosts--</hi>a phrase frequent in Haggai and Zechariah, implying God's boundless resources and universal power, so as to inspire the Jews with confidence to work.<div eID=\"gen24410\" type=\"x-p\"/> <div sID=\"gen24411\" type=\"x-p\"/><hi type=\"bold\">Turn ye unto me ... and I will turn--</hi>that is, and then, as the sure consequence, \"I will turn unto you\" (Mal 3:7; <reference osisRef=\"Jas.4.8\">Jas 4:8</reference>; compare also <reference osisRef=\"Jer.3.12\">Jr 3:12</reference>; <reference osisRef=\"Ezek.18.30\">Eze 18:30</reference>; <reference osisRef=\"Mic.7.19\">Mi 7:19</reference>). Though God hath brought you back from captivity, yet this state will not last long unless ye are really converted. God has heavier scourges ready, and has begun to give symptoms of displeasure [Calvin]. (<reference osisRef=\"Hag.1.6\">Hag 1:6</reference>). <div eID=\"gen24411\" type=\"x-p\"/>",
+      "content_plain": "3. saith the Lord of hosts-- a phrase frequent in Haggai and Zechariah, implying God's boundless resources and universal power, so as to inspire the Jews with confidence to work. Turn ye unto me ... and I will turn-- that is, and then, as the sure consequence, \"I will turn unto you\" (Mal 3:7; Jas 4:8 ; compare also Jr 3:12 ; Eze 18:30 ; Mi 7:19 ). Though God hath brought you back from captivity, yet this state will not last long unless ye are really converted. God has heavier scourges ready, and has begun to give symptoms of displeasure [Calvin]. ( Hag 1:6 ).",
+      "source_record_sha256": "63c08caedd71244749455c85c3374197a3acb1487ac70974121ca84aceba5334",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 9515,
+        "length": 1058
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.3",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3. saith the Lord of hosts-- a phrase frequent in Haggai and Zechariah, implying God's boundless resources and universal power, so as to inspire the Jews with confidence to work. Turn ye unto me ... and I will turn-- that is, and then, as the sure consequence, \"I will turn unto you\" (Mal 3:7; Jas 4:8 ; compare also Jr 3:12 ; Eze 18:30 ; Mi 7:19 ). Though God hath brought you back from captivity, yet this state will not last long unless ye are really converted. God has heavier scourges ready, and has begun to give symptoms of displeasure [Calvin]. ( Hag 1:6 )."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.4-4:38:10573:757",
+      "passage_start": "ZEC.1.4",
+      "passage_end": "ZEC.1.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13013\"/><div sID=\"gen24412\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13013\"/><hi type=\"bold\">4. Be ye not as your fathers--</hi>The Jews boasted of their fathers; but he shows that their fathers were refractory, and that ancient example and long usage will not justify disobedience (<reference osisRef=\"2Chr.36.15\">2Ch 36:15</reference>, <reference osisRef=\"2Chr.36.16\">16</reference>).<div eID=\"gen24412\" type=\"x-p\"/> <div sID=\"gen24413\" type=\"x-p\"/><hi type=\"bold\">the former prophets--</hi>those who lived before the captivity. It aggravated their guilt that, not only had they the law, but they had been often called to repent by God's prophets. <div eID=\"gen24413\" type=\"x-p\"/>",
+      "content_plain": "4. Be ye not as your fathers-- The Jews boasted of their fathers; but he shows that their fathers were refractory, and that ancient example and long usage will not justify disobedience ( 2Ch 36:15 , 16 ). the former prophets-- those who lived before the captivity. It aggravated their guilt that, not only had they the law, but they had been often called to repent by God's prophets.",
+      "source_record_sha256": "a44732e60cbb30618aaca2ecab358fc272abec3c0063c0f6ce55935663a91651",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 10573,
+        "length": 757
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "4. Be ye not as your fathers-- The Jews boasted of their fathers; but he shows that their fathers were refractory, and that ancient example and long usage will not justify disobedience ( 2Ch 36:15 , 16 ). the former prophets-- those who lived before the captivity. It aggravated their guilt that, not only had they the law, but they had been often called to repent by God's prophets."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.5-5:38:11330:735",
+      "passage_start": "ZEC.1.5",
+      "passage_end": "ZEC.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13014\"/><div sID=\"gen24414\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13014\"/><hi type=\"bold\">5. Your fathers ... and the prophets, do they live for ever?--</hi>In contrast to \"My words\" (<reference osisRef=\"Zech.1.6\">Zec 1:6</reference>), which \"endure for ever\" (<reference osisRef=\"1Pet.1.25\">1Pe 1:25</reference>). \"Your fathers have perished, as was foretold; and their fate ought to warn you. But you may say, The prophets too are dead. I grant it, but still My words do not die: though dead, their prophetical words from Me, fulfilled against your fathers, are not dead with them. Beware, then, lest ye share their fate.\" <div eID=\"gen24414\" type=\"x-p\"/>",
+      "content_plain": "5. Your fathers ... and the prophets, do they live for ever?-- In contrast to \"My words\" ( Zec 1:6 ), which \"endure for ever\" ( 1Pe 1:25 ). \"Your fathers have perished, as was foretold; and their fate ought to warn you. But you may say, The prophets too are dead. I grant it, but still My words do not die: though dead, their prophetical words from Me, fulfilled against your fathers, are not dead with them. Beware, then, lest ye share their fate.\"",
+      "source_record_sha256": "99534f0ca781f59065240c8079794f9ff25519450b4e9f4a2edb9b4ea8ac7c57",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 11330,
+        "length": 735
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. Your fathers ... and the prophets, do they live for ever?-- In contrast to \"My words\" ( Zec 1:6 ), which \"endure for ever\" ( 1Pe 1:25 ). \"Your fathers have perished, as was foretold; and their fate ought to warn you. But you may say, The prophets too are dead. I grant it, but still My words do not die: though dead, their prophetical words from Me, fulfilled against your fathers, are not dead with them. Beware, then, lest ye share their fate.\""
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.6-6:38:12065:1249",
+      "passage_start": "ZEC.1.6",
+      "passage_end": "ZEC.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13015\"/><div sID=\"gen24415\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13015\"/><hi type=\"bold\">6. statutes--</hi>My determined purposes to punish for sin.<div eID=\"gen24415\" type=\"x-p\"/> <div sID=\"gen24416\" type=\"x-p\"/><hi type=\"bold\">which I commanded my servants--</hi>namely, to announce to your fathers.<div eID=\"gen24416\" type=\"x-p\"/> <div sID=\"gen24417\" type=\"x-p\"/><hi type=\"bold\">did they not take hold--</hi>that is, overtake, as a foe overtakes one fleeing.<div eID=\"gen24417\" type=\"x-p\"/> <div sID=\"gen24418\" type=\"x-p\"/><hi type=\"bold\">they returned--</hi>Turning from their former self-satisfaction, they recognized their punishment as that which God's prophets had foretold.<div eID=\"gen24418\" type=\"x-p\"/> <div sID=\"gen24419\" type=\"x-p\"/><hi type=\"bold\">thought to do--</hi>that is, decreed to do. Compare with this verse <reference osisRef=\"Lam.2.17\">La 2:17</reference>.<div eID=\"gen24419\" type=\"x-p\"/> <div sID=\"gen24420\" type=\"x-p\"/><hi type=\"bold\">our ways--</hi>evil ways (<reference osisRef=\"Jer.4.18\">Jr 4:18</reference>; <reference osisRef=\"Jer.17.10\">17:10</reference>; <reference osisRef=\"Jer.23.2\">23:2</reference>). <div eID=\"gen24420\" type=\"x-p\"/>",
+      "content_plain": "6. statutes-- My determined purposes to punish for sin. which I commanded my servants-- namely, to announce to your fathers. did they not take hold-- that is, overtake, as a foe overtakes one fleeing. they returned-- Turning from their former self-satisfaction, they recognized their punishment as that which God's prophets had foretold. thought to do-- that is, decreed to do. Compare with this verse La 2:17 . our ways-- evil ways ( Jr 4:18 ; 17:10 ; 23:2 ).",
+      "source_record_sha256": "c65f73dc9e89878fbf14c7667d11720eb3421337b3e5cbd948037103dc86f7cd",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 12065,
+        "length": 1249
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. statutes-- My determined purposes to punish for sin. which I commanded my servants-- namely, to announce to your fathers. did they not take hold-- that is, overtake, as a foe overtakes one fleeing. they returned-- Turning from their former self-satisfaction, they recognized their punishment as that which God's prophets had foretold. thought to do-- that is, decreed to do. Compare with this verse La 2:17 . our ways-- evil ways ( Jr 4:18 ; 17:10 ; 23:2 )."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.7-7:38:13314:838",
+      "passage_start": "ZEC.1.7",
+      "passage_end": "ZEC.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13016\"/><div sID=\"gen24421\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13016\"/>7. The general plan of the nine following visions (Zec 1:8-6:15) is first to present the symbol; then, on a question being put, to subjoin the interpretation. Though the visions are distinct, they form one grand whole, presented in one night to the prophet's mind, two or three months after the prophet's first commission (<reference osisRef=\"Zech.1.1\">Zec 1:1</reference>).<div eID=\"gen24421\" type=\"x-p\"/> <div sID=\"gen24422\" type=\"x-p\"/><hi type=\"bold\">Sebat--</hi>the eleventh month of the Jewish year, from the new moon in February to the new moon in March. The term is Chaldee, meaning a \"shoot,\" namely, the month when trees begin to shoot or bud. <div eID=\"gen24422\" type=\"x-p\"/>",
+      "content_plain": "7. The general plan of the nine following visions (Zec 1:8-6:15) is first to present the symbol; then, on a question being put, to subjoin the interpretation. Though the visions are distinct, they form one grand whole, presented in one night to the prophet's mind, two or three months after the prophet's first commission ( Zec 1:1 ). Sebat-- the eleventh month of the Jewish year, from the new moon in February to the new moon in March. The term is Chaldee, meaning a \"shoot,\" namely, the month when trees begin to shoot or bud.",
+      "source_record_sha256": "e8654347c8f214425add528571e7be4c259d7e17de96d6bae8742145f06e518a",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 13314,
+        "length": 838
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. The general plan of the nine following visions (Zec 1:8-6:15) is first to present the symbol; then, on a question being put, to subjoin the interpretation. Though the visions are distinct, they form one grand whole, presented in one night to the prophet's mind, two or three months after the prophet's first commission ( Zec 1:1 ). Sebat-- the eleventh month of the Jewish year, from the new moon in February to the new moon in March. The term is Chaldee, meaning a \"shoot,\" namely, the month when trees begin to shoot or bud."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.8-8:38:14152:3717",
+      "passage_start": "ZEC.1.8",
+      "passage_end": "ZEC.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13017\"/><div sID=\"gen24423\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13017\"/><hi type=\"bold\">8. by night--</hi>The Jews begin their day with sunset; therefore the night which preceded the twenty-fourth day of the month is meant (<reference osisRef=\"Zech.1.7\">Zec 1:7</reference>).<div eID=\"gen24423\" type=\"x-p\"/> <div sID=\"gen24424\" type=\"x-p\"/><hi type=\"bold\">a man--</hi>Jehovah, the second person of the Trinity, manifested in man's form, an earnest of the incarnation; called the \"angel of Jehovah\" (<reference osisRef=\"Zech.1.11\">Zec 1:11</reference>, <reference osisRef=\"1Cor.1.12\">12</reference>), \"Jehovah the angel of the covenant\" (Mal 3:1; compare <reference osisRef=\"Gen.16.7\">Ge 16:7</reference> with <reference osisRef=\"Zech.1.13\">Zec 1:13</reference>; <reference osisRef=\"Gen.22.11\">Ge 22:11</reference> with <reference osisRef=\"Zech.1.12\">Zec 1:12</reference>; <reference osisRef=\"Exod.3.2\">Ex 3:2</reference> with <reference osisRef=\"Zech.1.4\">Zec 1:4</reference>). Being at once divine and human, He must be God and man in one person.<div eID=\"gen24424\" type=\"x-p\"/> <div sID=\"gen24425\" type=\"x-p\"/><hi type=\"bold\">riding--</hi>implying swiftness in executing God's will in His providence; hastening to help His people.<div eID=\"gen24425\" type=\"x-p\"/> <div sID=\"gen24426\" type=\"x-p\"/><hi type=\"bold\">red horse--</hi>the color that represents bloodshed: implying vengeance to be inflicted on the foes of Israel (compare <reference osisRef=\"2Kgs.3.22\">2Ki 3:22</reference>; <reference osisRef=\"Isa.63.1\">Is 63:1</reference>, 2; <reference osisRef=\"Rev.6.4\">Re 6:4</reference>); also fiery zeal.<div eID=\"gen24426\" type=\"x-p\"/> <div sID=\"gen24427\" type=\"x-p\"/><hi type=\"bold\">among the myrtle trees--</hi>symbol of the Jewish Church: not a stately cedar, but a lowly, though fragrant, myrtle. It was its depressed state that caused the Jews to despond; this vision is designed to cheer them with better hopes. The uncreated angel of Jehovah's presence standing (as His abiding place, <reference osisRef=\"Ps.132.14\">Psa 132:14</reference>) among them, is a guarantee for her safety, lowly though she now be.<div eID=\"gen24427\" type=\"x-p\"/> <div sID=\"gen24428\" type=\"x-p\"/><hi type=\"bold\">in the bottom--</hi>in a low place or bottom of a river; alluding to Babylon near the rivers Euphrates and Tigris, the scene of Judah's captivity. The myrtle delights in low places and the banks of waters [Pembellus]. Maurer translates, from a different root, \"in a shady place.\"<div eID=\"gen24428\" type=\"x-p\"/> <div sID=\"gen24429\" type=\"x-p\"/><hi type=\"bold\">red horses--</hi>that is, horsemen mounted on red horses; <reference osisRef=\"Zech.1.10\">Zec 1:10</reference>, <reference osisRef=\"1Cor.1.11\">11</reference>, confirm this view.<div eID=\"gen24429\" type=\"x-p\"/> <div sID=\"gen24430\" type=\"x-p\"/><hi type=\"bold\">speckled ... white--</hi>The \"white\" implies triumph and victory for Judah; \"speckled\" (from a root \"to intertwine\"), a combination of the two colors white and red (bay [Moore]), implies a state of things mixed, partly prosperous, partly otherwise [Henderson]; or, the connection of the wrath (answering to the \"red\") about to fall on the Jews' foes, and triumph (answering to the \"white\") to the Jews themselves in God's arrangements for His people [Moore]. Some angels (\"the red horses\") exercised offices of vengeance; others (\"the white\"), those of joy; others (\"the speckled\"), those of a mixed character (compare <reference osisRef=\"Zech.6.2\">Zec 6:2</reference>, <reference osisRef=\"Zech.6.3\">3</reference>). God has ministers of every kind for promoting the interests of His Church. <div eID=\"gen24430\" type=\"x-p\"/>",
+      "content_plain": "8. by night-- The Jews begin their day with sunset; therefore the night which preceded the twenty-fourth day of the month is meant ( Zec 1:7 ). a man-- Jehovah, the second person of the Trinity, manifested in man's form, an earnest of the incarnation; called the \"angel of Jehovah\" ( Zec 1:11 , 12 ), \"Jehovah the angel of the covenant\" (Mal 3:1; compare Ge 16:7 with Zec 1:13 ; Ge 22:11 with Zec 1:12 ; Ex 3:2 with Zec 1:4 ). Being at once divine and human, He must be God and man in one person. riding-- implying swiftness in executing God's will in His providence; hastening to help His people. red horse-- the color that represents bloodshed: implying vengeance to be inflicted on the foes of Israel (compare 2Ki 3:22 ; Is 63:1 , 2; Re 6:4 ); also fiery zeal. among the myrtle trees-- symbol of the Jewish Church: not a stately cedar, but a lowly, though fragrant, myrtle. It was its depressed state that caused the Jews to despond; this vision is designed to cheer them with better hopes. The uncreated angel of Jehovah's presence standing (as His abiding place, Psa 132:14 ) among them, is a guarantee for her safety, lowly though she now be. in the bottom-- in a low place or bottom of a river; alluding to Babylon near the rivers Euphrates and Tigris, the scene of Judah's captivity. The myrtle delights in low places and the banks of waters [Pembellus]. Maurer translates, from a different root, \"in a shady place.\" red horses-- that is, horsemen mounted on red horses; Zec 1:10 , 11 , confirm this view. speckled ... white-- The \"white\" implies triumph and victory for Judah; \"speckled\" (from a root \"to intertwine\"), a combination of the two colors white and red (bay [Moore]), implies a state of things mixed, partly prosperous, partly otherwise [Henderson]; or, the connection of the wrath (answering to the \"red\") about to fall on the Jews' foes, and triumph (answering to the \"white\") to the Jews themselves in God's arrangements for His people [Moore]. Some angels (\"the red horses\") exercised offices of vengeance; others (\"the white\"), those of joy; others (\"the speckled\"), those of a mixed character (compare Zec 6:2 , 3 ). God has ministers of every kind for promoting the interests of His Church.",
+      "source_record_sha256": "be01203fe3b9a255403e2004ceec4cd45a865b69aeef95da2df1537826b09638",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 14152,
+        "length": 3717
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. by night-- The Jews begin their day with sunset; therefore the night which preceded the twenty-fourth day of the month is meant ( Zec 1:7 ). a man-- Jehovah, the second person of the Trinity, manifested in man's form, an earnest of the incarnation; called the \"angel of Jehovah\" ( Zec 1:11 , 12 ), \"Jehovah the angel of the covenant\" (Mal 3:1; compare Ge 16:7 with Zec 1:13 ; Ge 22:11 with Zec 1:12 ; Ex 3:2 with Zec 1:4 ). Being at once divine and human, He must be God and man in one person. riding-- implying swiftness in executing God's will in His providence; hastening to help His people. red horse-- the color that represents bloodshed: implying vengeance to be inflicted on the foes of Israel (compare 2Ki 3:22 ; Is 63:1 , 2; Re 6:4 ); also fiery zeal. among the myrtle trees-- symbol of the Jewish Church: not a stately cedar, but a lowly, though fragrant, myrtle. It was its depressed state that caused the Jews to despond; this vision is designed to cheer them with better hopes. The uncreated angel of Jehovah's presence standing (as His abiding place, Psa 132:14 ) among them, is a guarantee for her safety, lowly though she now be. in the bottom-- in a low place or bottom of a river; alluding to Babylon near the rivers Euphrates and Tigris, the scene of Judah's captivity. The myrtle delights in low places and the banks of waters [Pembellus]. Maurer translates, from a different root, \"in a shady place.\" red horses-- that is, horsemen mounted on red horses; Zec 1:10 , 11 , confirm this view. speckled ... white-- The \"white\" implies triumph and victory for Judah; \"speckled\" (from a root \"to intertwine\"), a combination of the two colors white and red (bay [Moore]), implies a state of things mixed, partly prosperous, partly otherwise [Henderson]; or, the connection of the wrath (answering to the \"red\") about to fall on the Jews' foes, and triumph (answering to the \"white\") to the Jews themselves in God's arrangements for His people [Moore]. Some angels (\"the red horses\") exercised offices of vengeance; others (\"the white\"), those of joy; others (\"the speckled\"), those of a mixed character (compare Zec 6:2 , 3 ). God has ministers of every kind for promoting the interests of His Church."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.9-9:38:17869:1140",
+      "passage_start": "ZEC.1.9",
+      "passage_end": "ZEC.1.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13018\"/><div sID=\"gen24431\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13018\"/><hi type=\"bold\">9. the angel that talked with me--</hi>not the \"man upon the red horse,\" as is evident from <reference osisRef=\"Zech.1.10\">Zec 1:10</reference>, where he (the Divine Angel) is distinguished from the \"angel that talked with me\" (the phrase used of him, <reference osisRef=\"Zech.1.13\">Zec 1:13</reference>, <reference osisRef=\"1Cor.1.14\">14</reference>; <reference osisRef=\"Zech.2.3\">Zec 2:3</reference>; <reference osisRef=\"2Cor.4.1\">4:1</reference>, <reference osisRef=\"2Cor.4.5\">4, 5</reference>; <reference osisRef=\"2Cor.5.5\">5:5</reference>, <reference osisRef=\"2Cor.5.10\">10</reference>; <reference osisRef=\"2Cor.6.4\">6:4</reference>), that is, the interpreting angel. The Hebrew for \"with me,\" or, \"in me\" (<reference osisRef=\"Num.12.8\">Nu 12:8</reference>), implies internal, intimate communication [Jerome].<div eID=\"gen24431\" type=\"x-p\"/> <div sID=\"gen24432\" type=\"x-p\"/><hi type=\"bold\">show thee--</hi>reveal to thy mental vision. <div eID=\"gen24432\" type=\"x-p\"/>",
+      "content_plain": "9. the angel that talked with me-- not the \"man upon the red horse,\" as is evident from Zec 1:10 , where he (the Divine Angel) is distinguished from the \"angel that talked with me\" (the phrase used of him, Zec 1:13 , 14 ; Zec 2:3 ; 4:1 , 4, 5 ; 5:5 , 10 ; 6:4 ), that is, the interpreting angel. The Hebrew for \"with me,\" or, \"in me\" ( Nu 12:8 ), implies internal, intimate communication [Jerome]. show thee-- reveal to thy mental vision.",
+      "source_record_sha256": "780d89a831e85ab3e55a1b9f583cad49c29f71b2be8f64b50a1344173a081b92",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 17869,
+        "length": 1140
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. the angel that talked with me-- not the \"man upon the red horse,\" as is evident from Zec 1:10 , where he (the Divine Angel) is distinguished from the \"angel that talked with me\" (the phrase used of him, Zec 1:13 , 14 ; Zec 2:3 ; 4:1 , 4, 5 ; 5:5 , 10 ; 6:4 ), that is, the interpreting angel. The Hebrew for \"with me,\" or, \"in me\" ( Nu 12:8 ), implies internal, intimate communication [Jerome]. show thee-- reveal to thy mental vision."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.10-10:38:19009:1089",
+      "passage_start": "ZEC.1.10",
+      "passage_end": "ZEC.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13019\"/><div sID=\"gen24433\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13019\"/><hi type=\"bold\">10. answered--</hi>The \"angel of the covenant\" here gives the reply instead of the interpreting angel, to imply that all communications through the interpreting angel come from Him as their source.<div eID=\"gen24433\" type=\"x-p\"/> <div sID=\"gen24434\" type=\"x-p\"/><hi type=\"bold\">Lord hath sent to walk to and fro through the earth--</hi>If \"Satan walks to and fro in the earth\" (implying restless activity) on errands of mischief to God's people (<reference osisRef=\"Job.1.7\">Job 1:7</reference>), the Lord sends other angels to \"walk to and fro\" with unceasing activity everywhere to counterwork Satan's designs, and to defend His people (<reference osisRef=\"Ps.34.7\">Psa 34:7</reference>; <reference osisRef=\"Ps.91.11\">91:11</reference>; <reference osisRef=\"Ps.103.20\">103:20</reference>, <reference osisRef=\"Ps.103.21\">21</reference>; <reference osisRef=\"Heb.1.14\">He 1:14</reference>). <div eID=\"gen24434\" type=\"x-p\"/>",
+      "content_plain": "10. answered-- The \"angel of the covenant\" here gives the reply instead of the interpreting angel, to imply that all communications through the interpreting angel come from Him as their source. Lord hath sent to walk to and fro through the earth-- If \"Satan walks to and fro in the earth\" (implying restless activity) on errands of mischief to God's people ( Job 1:7 ), the Lord sends other angels to \"walk to and fro\" with unceasing activity everywhere to counterwork Satan's designs, and to defend His people ( Psa 34:7 ; 91:11 ; 103:20 , 21 ; He 1:14 ).",
+      "source_record_sha256": "d534d5bca8b98ba71d174a0138198759df45554185510ef61f98d0f340563edb",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 19009,
+        "length": 1089
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. answered-- The \"angel of the covenant\" here gives the reply instead of the interpreting angel, to imply that all communications through the interpreting angel come from Him as their source. Lord hath sent to walk to and fro through the earth-- If \"Satan walks to and fro in the earth\" (implying restless activity) on errands of mischief to God's people ( Job 1:7 ), the Lord sends other angels to \"walk to and fro\" with unceasing activity everywhere to counterwork Satan's designs, and to defend His people ( Psa 34:7 ; 91:11 ; 103:20 , 21 ; He 1:14 )."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.11-11:38:20098:751",
+      "passage_start": "ZEC.1.11",
+      "passage_end": "ZEC.1.11",
+      "start_verse": 11,
+      "end_verse": 11,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13020\"/><div sID=\"gen24435\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13020\"/>11. The attendant angels report to the Lord of angels, \"the earth ... is at rest.\" The flourishing state of the heathen \"earth,\" while Judah was desolate and its temple not yet restored, is the powerful plea in the Divine Angel's intercession with God the Father in <reference osisRef=\"Zech.1.12\">Zec 1:12</reference>. When Judah was depressed to the lowest point, and the heathen elated to the highest, it was time for Jehovah to work for His people.<div eID=\"gen24435\" type=\"x-p\"/> <div sID=\"gen24436\" type=\"x-p\"/><hi type=\"bold\">sitteth still--</hi>dwells surely. <div eID=\"gen24436\" type=\"x-p\"/>",
+      "content_plain": "11. The attendant angels report to the Lord of angels, \"the earth ... is at rest.\" The flourishing state of the heathen \"earth,\" while Judah was desolate and its temple not yet restored, is the powerful plea in the Divine Angel's intercession with God the Father in Zec 1:12 . When Judah was depressed to the lowest point, and the heathen elated to the highest, it was time for Jehovah to work for His people. sitteth still-- dwells surely.",
+      "source_record_sha256": "fe1b78f627b2d5454d5a02465379ca324774acbd6536b0e015b4ee420f21c102",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 20098,
+        "length": 751
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.11",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11. The attendant angels report to the Lord of angels, \"the earth ... is at rest.\" The flourishing state of the heathen \"earth,\" while Judah was desolate and its temple not yet restored, is the powerful plea in the Divine Angel's intercession with God the Father in Zec 1:12 . When Judah was depressed to the lowest point, and the heathen elated to the highest, it was time for Jehovah to work for His people. sitteth still-- dwells surely."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.12-12:38:20849:1651",
+      "passage_start": "ZEC.1.12",
+      "passage_end": "ZEC.1.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13021\"/><div sID=\"gen24437\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13021\"/>12. Not only does Messiah stand among His people (the \"myrtles,\" <reference osisRef=\"Zech.1.8\">Zec 1:8</reference>), but intercedes for them with the Father (\"Lord,\" or \"Jehovah of hosts\") effectively (<reference osisRef=\"Zech.1.13\">Zec 1:13</reference>; <reference osisRef=\"Heb.7.25\">He 7:25</reference>). Compare <reference osisRef=\"Ps.102.13-Ps.102.20\">Psa 102:13-20</reference>; <reference osisRef=\"Isa.62.6\">Is 62:6</reference>, <reference osisRef=\"Isa.62.7\">7</reference>, as to Judah's restoration in answer to prayer.<div eID=\"gen24437\" type=\"x-p\"/> <div sID=\"gen24438\" type=\"x-p\"/><hi type=\"bold\">answered and said--</hi>said in continuation of the discourse: proceeded to say.<div eID=\"gen24438\" type=\"x-p\"/> <div sID=\"gen24439\" type=\"x-p\"/><hi type=\"bold\">how long--</hi>Messiah's people pray similarly to their Head. <reference osisRef=\"Rev.6.10\">Re 6:10</reference>, \"How long,\" &amp;c. Heretofore it was vain to pray, but now that the divinely appointed \"threescore and ten years\" (<reference osisRef=\"Jer.25.11\">Jr 25:11</reference>; <reference osisRef=\"Jer.29.10\">29:10</reference>) are elapsed, it is time to pray to Thee for the fulfilment of Thy promise, seeing that Thy grace is not yet fully manifested, nor Thy promise fulfilled. God's promises are not to make us slothful, but to quicken our prayers. Henderson, dating the seventy years from the destruction of Jerusalem (588 B.C.), supposes two years of the seventy had yet to run (520 B.C.). <div eID=\"gen24439\" type=\"x-p\"/>",
+      "content_plain": "12. Not only does Messiah stand among His people (the \"myrtles,\" Zec 1:8 ), but intercedes for them with the Father (\"Lord,\" or \"Jehovah of hosts\") effectively ( Zec 1:13 ; He 7:25 ). Compare Psa 102:13-20 ; Is 62:6 , 7 , as to Judah's restoration in answer to prayer. answered and said-- said in continuation of the discourse: proceeded to say. how long-- Messiah's people pray similarly to their Head. Re 6:10 , \"How long,\" &c. Heretofore it was vain to pray, but now that the divinely appointed \"threescore and ten years\" ( Jr 25:11 ; 29:10 ) are elapsed, it is time to pray to Thee for the fulfilment of Thy promise, seeing that Thy grace is not yet fully manifested, nor Thy promise fulfilled. God's promises are not to make us slothful, but to quicken our prayers. Henderson, dating the seventy years from the destruction of Jerusalem (588 B.C.), supposes two years of the seventy had yet to run (520 B.C.).",
+      "source_record_sha256": "f1e6ee213ce99257c10ddfa245aa1ebbdaee38384e989f0c2ece5bf70a6305da",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 20849,
+        "length": 1651
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "12. Not only does Messiah stand among His people (the \"myrtles,\" Zec 1:8 ), but intercedes for them with the Father (\"Lord,\" or \"Jehovah of hosts\") effectively ( Zec 1:13 ; He 7:25 ). Compare Psa 102:13-20 ; Is 62:6 , 7 , as to Judah's restoration in answer to prayer. answered and said-- said in continuation of the discourse: proceeded to say. how long-- Messiah's people pray similarly to their Head. Re 6:10 , \"How long,\" &c. Heretofore it was vain to pray, but now that the divinely appointed \"threescore and ten years\" ( Jr 25:11 ; 29:10 ) are elapsed, it is time to pray to Thee for the fulfilment of Thy promise, seeing that Thy grace is not yet fully manifested, nor Thy promise fulfilled. God's promises are not to make us slothful, but to quicken our prayers. Henderson, dating the seventy years from the destruction of Jerusalem (588 B.C.), supposes two years of the seventy had yet to run (520 B.C.)."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.13-13:38:22500:842",
+      "passage_start": "ZEC.1.13",
+      "passage_end": "ZEC.1.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13022\"/><div sID=\"gen24440\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13022\"/><hi type=\"bold\">13. the Lord--</hi>Jehovah, called \"the angel of the Lord (Jehovah)\" (<reference osisRef=\"Zech.1.12\">Zec 1:12</reference>).<div eID=\"gen24440\" type=\"x-p\"/> <div sID=\"gen24441\" type=\"x-p\"/><hi type=\"bold\">good words and comfortable words--</hi>literally, \"words, consolations.\" The subject of these consolatory words is stated in <reference osisRef=\"Zech.1.14\">Zec 1:14</reference>, &amp;c.; the promise of full re-establishment, <reference osisRef=\"Jer.29.10\">Jr 29:10</reference>, <reference osisRef=\"Jer.29.11\">11</reference> (compare <reference osisRef=\"Isa.57.18\">Is 57:18</reference>; <reference osisRef=\"Hos.11.8\">Ho 11:8</reference>). <div eID=\"gen24441\" type=\"x-p\"/>",
+      "content_plain": "13. the Lord-- Jehovah, called \"the angel of the Lord (Jehovah)\" ( Zec 1:12 ). good words and comfortable words-- literally, \"words, consolations.\" The subject of these consolatory words is stated in Zec 1:14 , &c.; the promise of full re-establishment, Jr 29:10 , 11 (compare Is 57:18 ; Ho 11:8 ).",
+      "source_record_sha256": "cb4b7d7f5e159af7082f4d8cb0048a6abf2361308ae035196ee94fc31f0c0869",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 22500,
+        "length": 842
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13. the Lord-- Jehovah, called \"the angel of the Lord (Jehovah)\" ( Zec 1:12 ). good words and comfortable words-- literally, \"words, consolations.\" The subject of these consolatory words is stated in Zec 1:14 , &c.; the promise of full re-establishment, Jr 29:10 , 11 (compare Is 57:18 ; Ho 11:8 )."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.14-14:38:23342:855",
+      "passage_start": "ZEC.1.14",
+      "passage_end": "ZEC.1.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13023\"/><div sID=\"gen24442\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13023\"/><hi type=\"bold\">14. Cry--</hi>Proclaim so as to be heard clearly by all (<reference osisRef=\"Isa.40.6\">Is 40:6</reference>; <reference osisRef=\"Isa.58.1\">58:1</reference>).<div eID=\"gen24442\" type=\"x-p\"/> <div sID=\"gen24443\" type=\"x-p\"/><hi type=\"bold\">I am jealous for Jerusalem--</hi>As a husband jealous for his wife, wronged by others, so Jehovah is for Judah, who has been injured wantonly by the heathen (<reference osisRef=\"Zech.8.2\">Zec 8:2</reference>; <reference osisRef=\"Num.25.11\">Nu 25:11</reference>, <reference osisRef=\"Num.25.13\">13</reference>; <reference osisRef=\"1Kgs.19.10\">1Ki 19:10</reference>; <reference osisRef=\"Joel.2.18\">Joe 2:18</reference>). <div eID=\"gen24443\" type=\"x-p\"/>",
+      "content_plain": "14. Cry-- Proclaim so as to be heard clearly by all ( Is 40:6 ; 58:1 ). I am jealous for Jerusalem-- As a husband jealous for his wife, wronged by others, so Jehovah is for Judah, who has been injured wantonly by the heathen ( Zec 8:2 ; Nu 25:11 , 13 ; 1Ki 19:10 ; Joe 2:18 ).",
+      "source_record_sha256": "63d32ac7f91e63f5b0159a21568e258c0ccaf963a6c24252420ac876487d906e",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 23342,
+        "length": 855
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14. Cry-- Proclaim so as to be heard clearly by all ( Is 40:6 ; 58:1 ). I am jealous for Jerusalem-- As a husband jealous for his wife, wronged by others, so Jehovah is for Judah, who has been injured wantonly by the heathen ( Zec 8:2 ; Nu 25:11 , 13 ; 1Ki 19:10 ; Joe 2:18 )."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.15-15:38:24197:1428",
+      "passage_start": "ZEC.1.15",
+      "passage_end": "ZEC.1.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13024\"/><div sID=\"gen24444\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13024\"/><hi type=\"bold\">15. very sore displeased with the heathen--</hi>in contrast with \"I was but a little displeased\" with My people. God's displeasure with His people is temporary and for their chastening; with the heathen oppressors, it is final and fatal (<reference osisRef=\"Jer.30.11\">Jr 30:11</reference>). God's instruments for chastising His people, when He has done with them, He casts into the fire.<div eID=\"gen24444\" type=\"x-p\"/> <div sID=\"gen24445\" type=\"x-p\"/><hi type=\"bold\">are at ease--</hi>carnally secure. A stronger phrase than \"is at rest\" (<reference osisRef=\"Zech.1.11\">Zec 1:11</reference>). They are \"at ease,\" but as I am \"sore displeased\" with them, their ease is accursed. Judah is in \"affliction,\" but as I love her and am jealous for her, she has every reason to be encouraged in prosecuting the temple work.<div eID=\"gen24445\" type=\"x-p\"/> <div sID=\"gen24446\" type=\"x-p\"/><hi type=\"bold\">helped forward the affliction--</hi>afflicted My people more than I desired. The heathen sought the utter extinction of Judah to gratify their own ambition and revenge (<reference osisRef=\"Isa.47.6\">Is 47:6</reference>; <reference osisRef=\"Ezek.25.3\">Eze 25:3</reference>, <reference osisRef=\"Ezek.25.6\">6</reference>; Ob 10-17). <div eID=\"gen24446\" type=\"x-p\"/>",
+      "content_plain": "15. very sore displeased with the heathen-- in contrast with \"I was but a little displeased\" with My people. God's displeasure with His people is temporary and for their chastening; with the heathen oppressors, it is final and fatal ( Jr 30:11 ). God's instruments for chastising His people, when He has done with them, He casts into the fire. are at ease-- carnally secure. A stronger phrase than \"is at rest\" ( Zec 1:11 ). They are \"at ease,\" but as I am \"sore displeased\" with them, their ease is accursed. Judah is in \"affliction,\" but as I love her and am jealous for her, she has every reason to be encouraged in prosecuting the temple work. helped forward the affliction-- afflicted My people more than I desired. The heathen sought the utter extinction of Judah to gratify their own ambition and revenge ( Is 47:6 ; Eze 25:3 , 6 ; Ob 10-17).",
+      "source_record_sha256": "b70c6550fee2c82031b27791251a78718b148d166ff2ce90343a2205e3f1b23c",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 24197,
+        "length": 1428
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "15. very sore displeased with the heathen-- in contrast with \"I was but a little displeased\" with My people. God's displeasure with His people is temporary and for their chastening; with the heathen oppressors, it is final and fatal ( Jr 30:11 ). God's instruments for chastising His people, when He has done with them, He casts into the fire. are at ease-- carnally secure. A stronger phrase than \"is at rest\" ( Zec 1:11 ). They are \"at ease,\" but as I am \"sore displeased\" with them, their ease is accursed. Judah is in \"affliction,\" but as I love her and am jealous for her, she has every reason to be encouraged in prosecuting the temple work. helped forward the affliction-- afflicted My people more than I desired. The heathen sought the utter extinction of Judah to gratify their own ambition and revenge ( Is 47:6 ; Eze 25:3 , 6 ; Ob 10-17)."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.16-16:38:25625:1438",
+      "passage_start": "ZEC.1.16",
+      "passage_end": "ZEC.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13025\"/><div sID=\"gen24447\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13025\"/><hi type=\"bold\">16. I am returned--</hi>whereas in anger I had before withdrawn from her (<reference osisRef=\"Hos.5.15\">Ho 5:15</reference>).<div eID=\"gen24447\" type=\"x-p\"/> <div sID=\"gen24448\" type=\"x-p\"/><hi type=\"bold\">with mercies--</hi>not merely of one kind, nor once only, but repeated mercies.<div eID=\"gen24448\" type=\"x-p\"/> <div sID=\"gen24449\" type=\"x-p\"/><hi type=\"bold\">my house shall be built--</hi>which at this time (the second year of Darius, <reference osisRef=\"Zech.1.1\">Zec 1:1</reference>) had only its foundations laid (<reference osisRef=\"Hag.2.18\">Hag 2:18</reference>). It was not completed till the sixth year of Darius (<reference osisRef=\"Ezra.6.15\">Ezr 6:15</reference>).<div eID=\"gen24449\" type=\"x-p\"/> <div sID=\"gen24450\" type=\"x-p\"/><hi type=\"bold\">line--</hi>(<reference osisRef=\"Job.38.5\">Job 38:5</reference>). The measuring-line for building, not hastily, but with measured regularity. Not only the temple, but Jerusalem also was to be rebuilt (<reference osisRef=\"Neh.2.3\">Ne 2:3</reference>, &amp;c.; compare <reference osisRef=\"Zech.2.1\">Zec 2:1</reference>, <reference osisRef=\"2Cor.2.2\">2</reference>). Also, as to the future temple and city, <reference osisRef=\"Ezek.41.3\">Eze 41:3</reference>; 42:1-44:31; 45:6. <div eID=\"gen24450\" type=\"x-p\"/>",
+      "content_plain": "16. I am returned-- whereas in anger I had before withdrawn from her ( Ho 5:15 ). with mercies-- not merely of one kind, nor once only, but repeated mercies. my house shall be built-- which at this time (the second year of Darius, Zec 1:1 ) had only its foundations laid ( Hag 2:18 ). It was not completed till the sixth year of Darius ( Ezr 6:15 ). line-- ( Job 38:5 ). The measuring-line for building, not hastily, but with measured regularity. Not only the temple, but Jerusalem also was to be rebuilt ( Ne 2:3 , &c.; compare Zec 2:1 , 2 ). Also, as to the future temple and city, Eze 41:3 ; 42:1-44:31; 45:6.",
+      "source_record_sha256": "2e33b36c3a5eb8bcebd4c2d590f7d7e55b574fd287e4594f5b608088ba752af0",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 25625,
+        "length": 1438
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16. I am returned-- whereas in anger I had before withdrawn from her ( Ho 5:15 ). with mercies-- not merely of one kind, nor once only, but repeated mercies. my house shall be built-- which at this time (the second year of Darius, Zec 1:1 ) had only its foundations laid ( Hag 2:18 ). It was not completed till the sixth year of Darius ( Ezr 6:15 ). line-- ( Job 38:5 ). The measuring-line for building, not hastily, but with measured regularity. Not only the temple, but Jerusalem also was to be rebuilt ( Ne 2:3 , &c.; compare Zec 2:1 , 2 ). Also, as to the future temple and city, Eze 41:3 ; 42:1-44:31; 45:6."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.17-17:38:27063:1440",
+      "passage_start": "ZEC.1.17",
+      "passage_end": "ZEC.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13026\"/><div sID=\"gen24451\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13026\"/><hi type=\"bold\">17. yet--</hi>though heretofore lying in abject prostration.<div eID=\"gen24451\" type=\"x-p\"/> <div sID=\"gen24452\" type=\"x-p\"/><hi type=\"bold\">My cities--</hi>not only Jerusalem, but the subordinate cities of Judah. God claims them all as peculiarly His, and therefore will restore them.<div eID=\"gen24452\" type=\"x-p\"/> <div sID=\"gen24453\" type=\"x-p\"/><hi type=\"bold\">through prosperity ... spread abroad--</hi>or overflow; metaphor from an overflowing vessel or fountain (compare <reference osisRef=\"Prov.5.16\">Pr 5:16</reference>) [Pembellus]. Abundance of fruits of the earth, corn and wine, and a large increase of citizens, are meant; also spiritual prosperity.<div eID=\"gen24453\" type=\"x-p\"/> <div sID=\"gen24454\" type=\"x-p\"/><hi type=\"bold\">comfort Zion--</hi>(<reference osisRef=\"Isa.40.1\">Is 40:1</reference>, 2; 51:3).<div eID=\"gen24454\" type=\"x-p\"/> <div sID=\"gen24455\" type=\"x-p\"/><hi type=\"bold\">choose--</hi>(<reference osisRef=\"Zech.2.12\">Zec 2:12</reference>; <reference osisRef=\"2Cor.3.2\">3:2</reference>; <reference osisRef=\"Isa.14.1\">Is 14:1</reference>). Here meaning, \"show by acts of loving-kindness that He has chosen.\" His immutable choice from everlasting is the fountain whence flow all such particular acts of love. <div eID=\"gen24455\" type=\"x-p\"/>",
+      "content_plain": "17. yet-- though heretofore lying in abject prostration. My cities-- not only Jerusalem, but the subordinate cities of Judah. God claims them all as peculiarly His, and therefore will restore them. through prosperity ... spread abroad-- or overflow; metaphor from an overflowing vessel or fountain (compare Pr 5:16 ) [Pembellus]. Abundance of fruits of the earth, corn and wine, and a large increase of citizens, are meant; also spiritual prosperity. comfort Zion-- ( Is 40:1 , 2; 51:3). choose-- ( Zec 2:12 ; 3:2 ; Is 14:1 ). Here meaning, \"show by acts of loving-kindness that He has chosen.\" His immutable choice from everlasting is the fountain whence flow all such particular acts of love.",
+      "source_record_sha256": "cad561300fed878713deb3ce27da9345e7fb80c57acb7f73812b381a4724f55f",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 27063,
+        "length": 1440
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "17. yet-- though heretofore lying in abject prostration. My cities-- not only Jerusalem, but the subordinate cities of Judah. God claims them all as peculiarly His, and therefore will restore them. through prosperity ... spread abroad-- or overflow; metaphor from an overflowing vessel or fountain (compare Pr 5:16 ) [Pembellus]. Abundance of fruits of the earth, corn and wine, and a large increase of citizens, are meant; also spiritual prosperity. comfort Zion-- ( Is 40:1 , 2; 51:3). choose-- ( Zec 2:12 ; 3:2 ; Is 14:1 ). Here meaning, \"show by acts of loving-kindness that He has chosen.\" His immutable choice from everlasting is the fountain whence flow all such particular acts of love."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.18-18:38:28503:2211",
+      "passage_start": "ZEC.1.18",
+      "passage_end": "ZEC.1.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13027\"/><title type=\"x-s3\"><reference osisRef=\"Zech.1.18-Zech.1.21\">Zec 1:18-21</reference>. Second Vision. The power of the Jews foes shall be dissipated.</title> <div sID=\"gen24456\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13027\"/><hi type=\"bold\">18. four horns--</hi>To a pastoral people like the Jews the horns of the strongest in the herd naturally suggested a symbol of power and pride of conscious strength: hence the ruling powers of the world (<reference osisRef=\"Rev.17.3\">Re 17:3</reference>, <reference osisRef=\"Rev.17.12\">12</reference>). The number four in Zechariah's time referred to the four cardinal points of the horizon. Wherever God's people turned, there were foes to encounter (<reference osisRef=\"Neh.4.7\">Ne 4:7</reference>); the Assyrian, Chaldean, and Samaritan on the north; Egypt and Arabia on the south; Philistia on the west; Ammon and Moab on the east. But the Spirit in the prophet looked farther; namely, to the four world powers, the only ones which were, or are, to rise till the kingdom of Messiah, the fifth, overthrows and absorbs all others in its universal dominion. Babylon and Medo-Persia alone had as yet risen, but soon Græco-Macedonia was to succeed (as <reference osisRef=\"Zech.9.13\">Zec 9:13</reference> foretells), and Rome the fourth and last, was to follow (Da 2:1-49; 7:1-28). The fact that the repairing of the evils caused to Judah and Israel by all four kingdoms is spoken of here, proves that the exhaustive fulfilment is yet future, and only the earnest of it given in the overthrow of the two world powers which up to Zechariah's time had \"scattered\" Judah (<reference osisRef=\"Jer.51.2\">Jr 51:2</reference>; <reference osisRef=\"Ezek.5.10\">Eze 5:10</reference>, <reference osisRef=\"Ezek.5.12\">12</reference>). That only two of the four had as yet risen, is an argument having no weight with us, as we believe God's Spirit in the prophets regards the future as present; we therefore are not to be led by Rationalists who on such grounds deny the reference here and in <reference osisRef=\"Zech.6.1\">Zec 6:1</reference> to the four world kingdoms. <div eID=\"gen24456\" type=\"x-p\"/>",
+      "content_plain": "Zec 1:18-21 . Second Vision. The power of the Jews foes shall be dissipated. 18. four horns-- To a pastoral people like the Jews the horns of the strongest in the herd naturally suggested a symbol of power and pride of conscious strength: hence the ruling powers of the world ( Re 17:3 , 12 ). The number four in Zechariah's time referred to the four cardinal points of the horizon. Wherever God's people turned, there were foes to encounter ( Ne 4:7 ); the Assyrian, Chaldean, and Samaritan on the north; Egypt and Arabia on the south; Philistia on the west; Ammon and Moab on the east. But the Spirit in the prophet looked farther; namely, to the four world powers, the only ones which were, or are, to rise till the kingdom of Messiah, the fifth, overthrows and absorbs all others in its universal dominion. Babylon and Medo-Persia alone had as yet risen, but soon Græco-Macedonia was to succeed (as Zec 9:13 foretells), and Rome the fourth and last, was to follow (Da 2:1-49; 7:1-28). The fact that the repairing of the evils caused to Judah and Israel by all four kingdoms is spoken of here, proves that the exhaustive fulfilment is yet future, and only the earnest of it given in the overthrow of the two world powers which up to Zechariah's time had \"scattered\" Judah ( Jr 51:2 ; Eze 5:10 , 12 ). That only two of the four had as yet risen, is an argument having no weight with us, as we believe God's Spirit in the prophets regards the future as present; we therefore are not to be led by Rationalists who on such grounds deny the reference here and in Zec 6:1 to the four world kingdoms.",
+      "source_record_sha256": "4f3c5ab1bcae9876cde7ec8695c12bf44bfbf313b5e131662088d65d4a09c146",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 28503,
+        "length": 2211
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "18. four horns-- To a pastoral people like the Jews the horns of the strongest in the herd naturally suggested a symbol of power and pride of conscious strength: hence the ruling powers of the world ( Re 17:3 , 12 ). The number four in Zechariah's time referred to the four cardinal points of the horizon. Wherever God's people turned, there were foes to encounter ( Ne 4:7 ); the Assyrian, Chaldean, and Samaritan on the north; Egypt and Arabia on the south; Philistia on the west; Ammon and Moab on the east. But the Spirit in the prophet looked farther; namely, to the four world powers, the only ones which were, or are, to rise till the kingdom of Messiah, the fifth, overthrows and absorbs all others in its universal dominion. Babylon and Medo-Persia alone had as yet risen, but soon Græco-Macedonia was to succeed (as Zec 9:13 foretells), and Rome the fourth and last, was to follow (Da 2:1-49; 7:1-28). The fact that the repairing of the evils caused to Judah and Israel by all four kingdoms is spoken of here, proves that the exhaustive fulfilment is yet future, and only the earnest of it given in the overthrow of the two world powers which up to Zechariah's time had \"scattered\" Judah ( Jr 51:2 ; Eze 5:10 , 12 ). That only two of the four had as yet risen, is an argument having no weight with us, as we believe God's Spirit in the prophets regards the future as present; we therefore are not to be led by Rationalists who on such grounds deny the reference here and in Zec 6:1 to the four world kingdoms.",
+      "front_matter_separated": true,
+      "front_matter_boundary_basis": "JFB native preverse delimiter separates actual book/chapter/passage headings from first indexed commentary",
+      "reader_source_character_span": [
+        308,
+        2210
+      ],
+      "reader_content_osis": "<hi type=\"bold\">18. four horns--</hi>To a pastoral people like the Jews the horns of the strongest in the herd naturally suggested a symbol of power and pride of conscious strength: hence the ruling powers of the world (<reference osisRef=\"Rev.17.3\">Re 17:3</reference>, <reference osisRef=\"Rev.17.12\">12</reference>). The number four in Zechariah's time referred to the four cardinal points of the horizon. Wherever God's people turned, there were foes to encounter (<reference osisRef=\"Neh.4.7\">Ne 4:7</reference>); the Assyrian, Chaldean, and Samaritan on the north; Egypt and Arabia on the south; Philistia on the west; Ammon and Moab on the east. But the Spirit in the prophet looked farther; namely, to the four world powers, the only ones which were, or are, to rise till the kingdom of Messiah, the fifth, overthrows and absorbs all others in its universal dominion. Babylon and Medo-Persia alone had as yet risen, but soon Græco-Macedonia was to succeed (as <reference osisRef=\"Zech.9.13\">Zec 9:13</reference> foretells), and Rome the fourth and last, was to follow (Da 2:1-49; 7:1-28). The fact that the repairing of the evils caused to Judah and Israel by all four kingdoms is spoken of here, proves that the exhaustive fulfilment is yet future, and only the earnest of it given in the overthrow of the two world powers which up to Zechariah's time had \"scattered\" Judah (<reference osisRef=\"Jer.51.2\">Jr 51:2</reference>; <reference osisRef=\"Ezek.5.10\">Eze 5:10</reference>, <reference osisRef=\"Ezek.5.12\">12</reference>). That only two of the four had as yet risen, is an argument having no weight with us, as we believe God's Spirit in the prophets regards the future as present; we therefore are not to be led by Rationalists who on such grounds deny the reference here and in <reference osisRef=\"Zech.6.1\">Zec 6:1</reference> to the four world kingdoms. <div eID=\"gen24456\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.19-19:38:30714:388",
+      "passage_start": "ZEC.1.19",
+      "passage_end": "ZEC.1.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13028\"/><div sID=\"gen24457\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13028\"/><hi type=\"bold\">19. Judah, Israel--</hi>Though some of the ten tribes of Israel returned with Judah from Babylon, the full return of the former, as of the latter, is here foretold and must be yet future. <div eID=\"gen24457\" type=\"x-p\"/>",
+      "content_plain": "19. Judah, Israel-- Though some of the ten tribes of Israel returned with Judah from Babylon, the full return of the former, as of the latter, is here foretold and must be yet future.",
+      "source_record_sha256": "eecac25f360f095cb33b49641888514374a17a598c0837136618e62801abdbe5",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 30714,
+        "length": 388
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19. Judah, Israel-- Though some of the ten tribes of Israel returned with Judah from Babylon, the full return of the former, as of the latter, is here foretold and must be yet future."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.20-20:38:31102:562",
+      "passage_start": "ZEC.1.20",
+      "passage_end": "ZEC.1.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13029\"/><div sID=\"gen24458\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13029\"/><hi type=\"bold\">20. four carpenters--</hi>or \"artificers.\" The several instrumentalities employed, or to be employed, in crushing the \"Gentile\" powers which \"scattered\" Judah, are hereby referred to. For every one of the four horns there was a cleaving \"artificer\" to beat it down. For every enemy of God's people, God has provided a counteracting power adequate to destroy it. <div eID=\"gen24458\" type=\"x-p\"/>",
+      "content_plain": "20. four carpenters-- or \"artificers.\" The several instrumentalities employed, or to be employed, in crushing the \"Gentile\" powers which \"scattered\" Judah, are hereby referred to. For every one of the four horns there was a cleaving \"artificer\" to beat it down. For every enemy of God's people, God has provided a counteracting power adequate to destroy it.",
+      "source_record_sha256": "caa98486df3dccfef56aa2a88766c10133c4d6b8c0b4ef1adb0e0937b86751cb",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 31102,
+        "length": 562
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20. four carpenters-- or \"artificers.\" The several instrumentalities employed, or to be employed, in crushing the \"Gentile\" powers which \"scattered\" Judah, are hereby referred to. For every one of the four horns there was a cleaving \"artificer\" to beat it down. For every enemy of God's people, God has provided a counteracting power adequate to destroy it."
+    },
+    {
+      "entry_id": "sword:jfb:ZEC.1.21-21:38:31664:1158",
+      "passage_start": "ZEC.1.21",
+      "passage_end": "ZEC.1.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "sword_same_record_binary_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv13030\"/><div sID=\"gen24459\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13030\"/><hi type=\"bold\">21. These are the horns--</hi>rather, Those, namely, the horns being distinguished from the \"carpenters,\" or destroying workmen (\"skilful to destroy,\" <reference osisRef=\"Exod.21.31\">Ex 21:31</reference>), intended in the \"these\" of the question.<div eID=\"gen24459\" type=\"x-p\"/> <div sID=\"gen24460\" type=\"x-p\"/><hi type=\"bold\">no man ... lift up his head--</hi>so depressed were they with a heavy weight of evils (<reference osisRef=\"Job.10.15\">Job 10:15</reference>).<div eID=\"gen24460\" type=\"x-p\"/> <div sID=\"gen24461\" type=\"x-p\"/><hi type=\"bold\">to fray--</hi>to strike terror into them (<reference osisRef=\"Ezek.30.9\">Eze 30:9</reference>).<div eID=\"gen24461\" type=\"x-p\"/> <div sID=\"gen24462\" type=\"x-p\"/><hi type=\"bold\">lifted up ... horn--</hi>in the haughtiness of conscious strength (<reference osisRef=\"Ps.75.4\">Psa 75:4</reference>, <reference osisRef=\"Ps.75.5\">5</reference>) tyrannizing over Judah (<reference osisRef=\"Ezek.34.21\">Eze 34:21</reference>). <chapter eID=\"Zech.1\"/>",
+      "content_plain": "21. These are the horns-- rather, Those, namely, the horns being distinguished from the \"carpenters,\" or destroying workmen (\"skilful to destroy,\" Ex 21:31 ), intended in the \"these\" of the question. no man ... lift up his head-- so depressed were they with a heavy weight of evils ( Job 10:15 ). to fray-- to strike terror into them ( Eze 30:9 ). lifted up ... horn-- in the haughtiness of conscious strength ( Psa 75:4 , 5 ) tyrannizing over Judah ( Eze 34:21 ).",
+      "source_record_sha256": "665af1c5f7f046c103d16640b5eb5e824608c2af6204fb0202d8fcccdeed5ee5",
+      "index_record": {
+        "testament": "OT",
+        "block": 38,
+        "offset": 31664,
+        "length": 1158
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ZEC.1.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "21. These are the horns-- rather, Those, namely, the horns being distinguished from the \"carpenters,\" or destroying workmen (\"skilful to destroy,\" Ex 21:31 ), intended in the \"these\" of the question. no man ... lift up his head-- so depressed were they with a heavy weight of evils ( Job 10:15 ). to fray-- to strike terror into them ( Eze 30:9 ). lifted up ... horn-- in the haughtiness of conscious strength ( Psa 75:4 , 5 ) tyrannizing over Judah ( Eze 34:21 )."
+    }
+  ],
+  "indexed_verse_count": 21,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_ZEC_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-11",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/OT-binary-verse-index",
+    "original_record_count": 21
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:ZEC:P:zechariah-original-book-introduction",
+      "navigation_id": "ZEC:P:zechariah-original-book-introduction",
+      "kind": "original_SWORD_source_section",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "Zechariah · Original Book Introduction",
+      "content_plain": "INTRODUCTION The name Zechariah means one whom Jehovah remembers: a common name, four others of the same name occurring in the Old Testament. Like Jeremiah and Ezekiel, he was a priest as well as a prophet, which adapts him for the sacerdotal character of some of his prophecies ( Zec 6:13 ). He is called \"the son of Berechiah the son of Iddo\" ( Zec 1:1 ); but simply \"the son of Iddo\" in Ezr 5:1 ; 6:14 . Probably his father died when he was young; and hence, as sometimes occurs in Jewish genealogies, he is called \"the son of Iddo,\" his grandfather. Iddo was one of the priests who returned to Zerubbabel and Joshua from Babylon ( Ne 12:4 ). Zechariah entered early on his prophetic functions ( Zec 2:4 ); only two months later than Haggai, in the second year of Darius' reign, 520 B.C. The design of both prophets was to encourage the people and their religious and civil leaders, Joshua and Zerubbabel, in their work of rebuilding the temple, after the interruption caused by the Samaritans (see Introduction to Haggai). Zechariah does so especially by unfolding in detail the glorious future in connection with the present depressed appearance of the theocracy, and its visible symbol, the temple. He must have been very young in leaving Babylonia, where he was born. The Zechariah, son of Barachias, mentioned by our Lord ( Mt 23:35 ) as slain between the porch and the altar, must have been the one called the son of Jehoiada in 2Ch 24:21 , who so perished: the same person often had two names; and our Lord, in referring to the Hebrew Bible, of which Second Chronicles is the last book, would naturally mention the last martyr in the Hebrew order of the canon, as He had instanced Abel as the first. Owing to Mt 27:9 quoting Zec 11:12 , 13 as the words of Jeremiah, Mede doubts the authenticity of the ninth through the fourteenth chapters, and ascribes them to Jeremiah: he thinks that these chapters were not found till after the return from the captivity, and being approved by Zechariah, were added to his prophecies, as Agur's Proverbs were added to those of Solomon. All the oldest authorities, except two manuscripts of the old Italian or Pre-Vulgate version, read Jeremiah in Mt 27:9 . The quotation there is not to the letter copied from Zechariah, Jr 18:1 , 2; 32:6-12, may also have been in the mind of Matthew, and perhaps in the mind of Zechariah, whence the former mentions Jeremiah. Hengstenberg similarly thinks that Matthew names Jeremiah, rather than Zechariah, to turn attention to the fact that Zechariah's prophecy is but a reiteration of the fearful oracle in Jr 18:1-19:15 , to be fulfilled in the destruction of the Jewish nation. Jeremiah had already, by the image of a potter's vessel, portrayed their ruin in Nebuchadnezzar's invasion; and as Zechariah virtually repeats this threat, to be inflicted again under Messiah for the nation's rejection of Him, Matthew, virtually, by mentioning Jeremiah, implies that the \"field of blood\" [Mt 27:8, 9], now bought by \"the reward of iniquity\" [Ac 1:18] in the valley of Hinnom, was long ago a scene of prophetic doom in which awful disaster had been symbolically predicted: that the present purchase of that field with the traitor's price renewed the prophecy and revived the curse-- a curse pronounced of old by Jeremiah, and once fulfilled in the Babylonian siege--a curse reiterated by Zechariah, and again to be verified in the Roman desolation. Lightfoot (referring to B. Bathra and Kimchi) less probably thinks the third division of Scripture, the prophets, began with Jeremiah, and that the whole body of prophets is thus quoted by the name \"Jeremiah.\" The mention of \"Ephraim\" and \"Israel\" in these chapters as distinct from Judah, does not prove that the prophecy was written while the ten tribes existed as a separate kingdom. It rather implies that hereafter not only Judah, but the ten tribes also, shall be restored, the earnest of which was given in the numbers out of the ten tribes who returned with their brethren the Jews from captivity under Cyrus. There is nothing in these characters to imply that a king reigned in Judah at that time. The editor of the Hebrew canon joined these chapters to Zechariah, not to Jeremiah; the Septuagint, three hundred years B.C., confirms this. The prophecy consists of four parts: (1) Introductory, Zec 1:1-6. (2) Symbolical, Zec 1:7 , to the end of the sixth chapter, containing nine visions; all these were vouchsafed in one night, and are of a symbolical character. (3) Didactic, the seventh and eighth chapters containing an answer to a query of the Beth-elites concerning a certain feast. And (4) Prophetic, the ninth chapter to the end. These six last chapters predict Alexander's expedition along the west coast of Palestine to Egypt; God's protection of the Jews, both at that time and under the Maccabees; the advent, sufferings, and reign of Messiah; the destruction of Jerusalem by Rome, and dissolution of the Jews' polity; their conversion and restoration; the overthrow of the wicked confederacy which assailed them in Canaan; and the Gentiles' joining in their holy worship [Henderson]. The difference in style between the former and the latter chapters is due to the difference of subject; the first six chapters being of a symbolical and peculiar character, while the poetical style of the concluding chapters is adapted admirably to the subjects treated. The titles ( Zec 9:1 ; 12:1 ) accord with the prophetic matter which follows; nor is it necessary for unity of authorship that the introductory formulas occurring in the first eight chapters should occur in the last six. The non-reference in the last six chapters to the completion of the temple and the Jews' restoration after the captivity is just what we should expect, if, as seems likely, these chapters were written long after the completion of the temple and the restoration of the Jews' polity after the captivity, in circumstances different from those which engaged the prophet when he wrote the earlier chapters. The style varies with the subject: at one time conversational, at another poetical. His symbols are enigmatical and are therefore accompanied with explanations. His prose is like that of Ezekiel-- diffuse, uniform, and repetitious. The rhythm is somewhat unequal, and the parallelisms are not altogether symmetrical. Still, there is found often much of the elevation met with in the earlier prophets, and a general congruity between the style and the subjects. Graphic vividness is his peculiar merit. Chaldæisms occur occasionally. Another special characteristic of Zechariah is his introduction of spiritual beings into his prophetic scenes.",
+      "content_osis": "<title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen24403\" type=\"x-p\"/> The name Zechariah means one whom Jehovah remembers: a common name, four others of the same name occurring in the Old Testament. Like Jeremiah and Ezekiel, he was a priest as well as a prophet, which adapts him for the sacerdotal character of some of his prophecies (<reference osisRef=\"Zech.6.13\">Zec 6:13</reference>). He is called \"the son of Berechiah the son of Iddo\" (<reference osisRef=\"Zech.1.1\">Zec 1:1</reference>); but simply \"the son of Iddo\" in <reference osisRef=\"Ezra.5.1\">Ezr 5:1</reference>; <reference osisRef=\"Ezra.6.14\">6:14</reference>. Probably his father died when he was young; and hence, as sometimes occurs in Jewish genealogies, he is called \"the son of Iddo,\" his grandfather. Iddo was one of the priests who returned to Zerubbabel and Joshua from Babylon (<reference osisRef=\"Neh.12.4\">Ne 12:4</reference>).<div eID=\"gen24403\" type=\"x-p\"/> <div eID=\"gen24402\" type=\"introduction\"/> <div sID=\"gen24404\" type=\"x-p\"/><hi type=\"bold\">Zechariah entered early on his prophetic functions (<reference osisRef=\"Zech.2.4\">Zec 2:4</reference>); only two months later than Haggai, in the second year of Darius' reign, 520 B.C. The design of both prophets was to encourage the people and their religious and civil leaders, Joshua and Zerubbabel, in their work of rebuilding the temple, after the interruption caused by the Samaritans (see Introduction to Haggai). Zechariah does so especially by unfolding in detail the glorious future in connection with the present depressed appearance of the theocracy, and its visible symbol, the temple. He must have been very young in leaving Babylonia, where he was born. The Zechariah, son of Barachias, mentioned by our Lord (<reference osisRef=\"Matt.23.35\">Mt 23:35</reference>) as slain between the porch and the altar, must have been the one called the son of Jehoiada in <reference osisRef=\"2Chr.24.21\">2Ch 24:21</reference>, who so perished: the same person often had two names; and our Lord, in referring to the Hebrew Bible, of which Second Chronicles is the last book, would naturally mention the last martyr in the Hebrew order of the canon, as He had instanced Abel as the first. Owing to <reference osisRef=\"Matt.27.9\">Mt 27:9</reference> quoting <reference osisRef=\"Zech.11.12\">Zec 11:12</reference>, <reference osisRef=\"Zech.11.13\">13</reference> as the words of Jeremiah, Mede doubts the authenticity of the ninth through the fourteenth chapters, and ascribes them to Jeremiah: he thinks that these chapters were not found till after the return from the captivity, and being approved by Zechariah, were added to his prophecies, as Agur's Proverbs were added to those of Solomon. All the oldest authorities, except two manuscripts of the old Italian or Pre-Vulgate version, read Jeremiah in <reference osisRef=\"Matt.27.9\">Mt 27:9</reference>. The quotation there is not to the letter copied from Zechariah, <reference osisRef=\"Jer.18.1\">Jr 18:1</reference>, 2; 32:6-12, may also have been in the mind of Matthew, and perhaps in the mind of Zechariah, whence the former mentions Jeremiah. Hengstenberg similarly thinks that Matthew names Jeremiah, rather than Zechariah, to turn attention to the fact that Zechariah's prophecy is but a reiteration of the fearful oracle in <reference osisRef=\"Jer.18.1-Jer.19.15\">Jr 18:1-19:15</reference>, to be fulfilled in the destruction of the Jewish nation. Jeremiah had already, by the image of a potter's vessel, portrayed their ruin in Nebuchadnezzar's invasion; and as Zechariah virtually repeats this threat, to be inflicted again under Messiah for the nation's rejection of Him, Matthew, virtually, by mentioning Jeremiah, implies that the \"field of blood\" [Mt 27:8, 9], now bought by \"the reward of iniquity\" [Ac 1:18] in the valley of Hinnom, was long ago a scene of prophetic doom in which awful disaster had been symbolically predicted: that the present purchase of that field with the traitor's price renewed the prophecy and revived the curse--</hi>a curse pronounced of old by Jeremiah, and once fulfilled in the Babylonian siege--a curse reiterated by Zechariah, and again to be verified in the Roman desolation. Lightfoot (referring to B. Bathra and Kimchi) less probably thinks the third division of Scripture, the prophets, began with Jeremiah, and that the whole body of prophets is thus quoted by the name \"Jeremiah.\" The mention of \"Ephraim\" and \"Israel\" in these chapters as distinct from Judah, does not prove that the prophecy was written while the ten tribes existed as a separate kingdom. It rather implies that hereafter not only Judah, but the ten tribes also, shall be restored, the earnest of which was given in the numbers out of the ten tribes who returned with their brethren the Jews from captivity under Cyrus. There is nothing in these characters to imply that a king reigned in Judah at that time. The editor of the Hebrew canon joined these chapters to Zechariah, not to Jeremiah; the Septuagint, three hundred years B.C., confirms this.<div eID=\"gen24404\" type=\"x-p\"/> <div sID=\"gen24405\" type=\"x-p\"/> The prophecy consists of four parts: (1) Introductory, Zec 1:1-6. (2) Symbolical, <reference osisRef=\"Zech.1.7\">Zec 1:7</reference>, to the end of the sixth chapter, containing nine visions; all these were vouchsafed in one night, and are of a symbolical character. (3) Didactic, the seventh and eighth chapters containing an answer to a query of the Beth-elites concerning a certain feast. And (4) Prophetic, the ninth chapter to the end. These six last chapters predict Alexander's expedition along the west coast of Palestine to Egypt; God's protection of the Jews, both at that time and under the Maccabees; the advent, sufferings, and reign of Messiah; the destruction of Jerusalem by Rome, and dissolution of the Jews' polity; their conversion and restoration; the overthrow of the wicked confederacy which assailed them in Canaan; and the Gentiles' joining in their holy worship [Henderson]. The difference in style between the former and the latter chapters is due to the difference of subject; the first six chapters being of a symbolical and peculiar character, while the poetical style of the concluding chapters is adapted admirably to the subjects treated. The titles (<reference osisRef=\"Zech.9.1\">Zec 9:1</reference>; <reference osisRef=\"Zech.12.1\">12:1</reference>) accord with the prophetic matter which follows; nor is it necessary for unity of authorship that the introductory formulas occurring in the first eight chapters should occur in the last six. The non-reference in the last six chapters to the completion of the temple and the Jews' restoration after the captivity is just what we should expect, if, as seems likely, these chapters were written long after the completion of the temple and the restoration of the Jews' polity after the captivity, in circumstances different from those which engaged the prophet when he wrote the earlier chapters.<div eID=\"gen24405\" type=\"x-p\"/> <div sID=\"gen24406\" type=\"x-p\"/><hi type=\"bold\">The style varies with the subject: at one time conversational, at another poetical. His symbols are enigmatical and are therefore accompanied with explanations. His prose is like that of Ezekiel--</hi>diffuse, uniform, and repetitious. The rhythm is somewhat unequal, and the parallelisms are not altogether symmetrical. Still, there is found often much of the elevation met with in the earlier prophets, and a general congruity between the style and the subjects. Graphic vividness is his peculiar merit. Chaldæisms occur occasionally. Another special characteristic of Zechariah is his introduction of spiritual beings into his prophetic scenes.<div eID=\"gen24406\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:jfb:ZEC.1.1-1:38:399:8302",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        7817
+      ],
+      "source_fragment_sha256": "716dcf8d8bfaa21b0f98b336249673fbd367f9d7df306578487666ecdc15bb9f",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.1.1",
+        "ZEC.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ZEC.1:P:chapter-1",
+      "navigation_id": "ZEC.1:P:chapter-1",
+      "kind": "original_SWORD_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1",
+      "content_osis": "<title type=\"x-s\">CHAPTER 1</title> ",
+      "source_entry_id": "sword:jfb:ZEC.1.1-1:38:399:8302",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        7817,
+        7853
+      ],
+      "source_fragment_sha256": "c4c7e85f8cc229520a40ca3c451c39bc0fc2826dbdcfd74bf970753c4e9af4ae",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.1.1",
+        "ZEC.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ZEC.1:P:zec-1-1-17-introductory-exhortation-to-repentance-the-visions-the-man-among-th",
+      "navigation_id": "ZEC.1:P:zec-1-1-17-introductory-exhortation-to-repentance-the-visions-the-man-among-th",
+      "kind": "original_SWORD_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Zec 1:1-17 . Introductory Exhortation to Repentance. The Visions. The man among the myrtles: Comforting explanation by the angel, an encouragement to the Jews to build the city and temple: The four horns and four artificers.",
+      "content_plain": "Zec 1:1-17 . Introductory Exhortation to Repentance. The Visions. The man among the myrtles: Comforting explanation by the angel, an encouragement to the Jews to build the city and temple: The four horns and four artificers.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Zech.1.1-Zech.1.17\">Zec 1:1-17</reference>. Introductory Exhortation to Repentance. The Visions. The man among the myrtles: Comforting explanation by the angel, an encouragement to the Jews to build the city and temple: The four horns and four artificers.</title> <div sID=\"gen24407\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13010\"/>",
+      "source_entry_id": "sword:jfb:ZEC.1.1-1:38:399:8302",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        7853,
+        8248
+      ],
+      "source_fragment_sha256": "28bcf7c0ecbaf0781e1ccb6c98e5e757767d390f9e8a8d343b550a091c564546",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.1.1",
+        "ZEC.1.1"
+      ],
+      "source_title_explicit_range": [
+        "ZEC.1.1",
+        "ZEC.1.17"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ZEC.1:P:zec-1-18-21-second-vision-the-power-of-the-jews-foes-shall-be-dissipated",
+      "navigation_id": "ZEC.1:P:zec-1-18-21-second-vision-the-power-of-the-jews-foes-shall-be-dissipated",
+      "kind": "original_SWORD_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Zec 1:18-21 . Second Vision. The power of the Jews foes shall be dissipated.",
+      "content_plain": "Zec 1:18-21 . Second Vision. The power of the Jews foes shall be dissipated.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Zech.1.18-Zech.1.21\">Zec 1:18-21</reference>. Second Vision. The power of the Jews foes shall be dissipated.</title> <div sID=\"gen24456\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv13027\"/>",
+      "source_entry_id": "sword:jfb:ZEC.1.18-18:38:28503:2211",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        308
+      ],
+      "source_fragment_sha256": "290649fa4516d2948f8b7f807e1168bec5ac4d33b1d51693733785cfc5836989",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_P_bounds",
+      "extraction_basis": "original_OSIS_title_or_chapter_marker_native_SWORD",
+      "source_indexed_passage": [
+        "ZEC.1.18",
+        "ZEC.1.18"
+      ],
+      "source_title_explicit_range": [
+        "ZEC.1.18",
+        "ZEC.1.21"
+      ]
+    }
+  ],
+  "navigation_section_count": 4,
+  "reader_visible_entry_count": 21
+}
