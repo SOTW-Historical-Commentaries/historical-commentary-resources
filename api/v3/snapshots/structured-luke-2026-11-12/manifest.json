@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-luke-2026-11-12",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "LUK"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 144,
+    "original_entries": 2817,
+    "navigation_sections": 276,
+    "reader_visible_entries": 2816,
+    "verse_author_routes": 4232,
+    "sword_chapters": 120,
+    "helloao_chapters": 24,
+    "chapters": 24,
+    "P_source_sections": 276,
+    "inherited_P_references": 0,
+    "P_routed_sections": 276
+  },
+  "chapter_verse_count": {
+    "1": 80,
+    "2": 52,
+    "3": 38,
+    "4": 44,
+    "5": 39,
+    "6": 49,
+    "7": 50,
+    "8": 56,
+    "9": 62,
+    "10": 42,
+    "11": 54,
+    "12": 59,
+    "13": 35,
+    "14": 35,
+    "15": 32,
+    "16": 31,
+    "17": 37,
+    "18": 43,
+    "19": 48,
+    "20": 47,
+    "21": 38,
+    "22": 71,
+    "23": 56,
+    "24": 53
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Luke is canonical book 42, previous 41 snapshots immutable.",
+    "Keil & Delitzsch has no NT commentary in original archive.",
+    "Reader is review staging; owner manually installs release ZIP; no CGBC player changes."
+  ]
+}

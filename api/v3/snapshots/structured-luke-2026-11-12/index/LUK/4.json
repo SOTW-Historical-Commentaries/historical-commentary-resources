@@ -1,0 +1,698 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-luke-2026-11-12",
+  "canonical_chapter": "LUK.4",
+  "verse_count": 44,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/matthew-henry/LUK/4.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 3,
+      "reader_visible_entries": 3,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 44,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/john-calvin/LUK/4.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 16,
+      "reader_visible_entries": 16,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 16,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/adam-clarke/LUK/4.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 26,
+      "reader_visible_entries": 26,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 26,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/jamieson-fausset-brown/LUK/4.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 17,
+      "reader_visible_entries": 17,
+      "navigation_section_count": 6,
+      "indexed_verse_count": 21,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/keil-delitzsch/LUK/4.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-luke-2026-11-12/authors/john-gill/LUK/4.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 43,
+      "reader_visible_entries": 43,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 43,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        0
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        0
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        0
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        7
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        9
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        10
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        11
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        1
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        13
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "34": {
+      "matthew-henry": [
+        2
+      ],
+      "john-gill": [
+        32
+      ]
+    },
+    "35": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        33
+      ]
+    },
+    "36": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        34
+      ]
+    },
+    "37": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "john-gill": [
+        35
+      ]
+    },
+    "38": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "john-gill": [
+        36
+      ]
+    },
+    "39": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        15
+      ],
+      "john-gill": [
+        37
+      ]
+    },
+    "40": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        23
+      ],
+      "john-gill": [
+        38
+      ]
+    },
+    "41": {
+      "matthew-henry": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "john-gill": [
+        39
+      ]
+    },
+    "42": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        24
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "john-gill": [
+        40
+      ]
+    },
+    "43": {
+      "matthew-henry": [
+        2
+      ],
+      "adam-clarke": [
+        25
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "john-gill": [
+        41
+      ]
+    },
+    "44": {
+      "matthew-henry": [
+        2
+      ],
+      "john-gill": [
+        42
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:LUK.4:P:luke-4-original-chapter-introduction",
+        "navigation_id": "LUK.4:P:luke-4-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Luke 4 · Original Chapter Introduction"
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.4:P:the-temptation-in-the-wilderness",
+        "navigation_id": "LUK.4:P:the-temptation-in-the-wilderness",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Temptation in the Wilderness."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.4:P:christ-in-the-synagogue-of-nazareth-christ-driven-from-nazareth",
+        "navigation_id": "LUK.4:P:christ-in-the-synagogue-of-nazareth-christ-driven-from-nazareth",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "Christ in the Synagogue of Nazareth; Christ Driven from Nazareth."
+      },
+      {
+        "section_id": "nav:matthew-henry:LUK.4:P:the-expulsion-of-a-demon-christ-s-departure-from-capernaum",
+        "navigation_id": "LUK.4:P:the-expulsion-of-a-demon-christ-s-departure-from-capernaum",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "The Expulsion of a Demon; Christ's Departure from Capernaum."
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:LUK.4:P:luke-4-original-chapter-introduction",
+        "navigation_id": "LUK.4:P:luke-4-original-chapter-introduction",
+        "scope": "chapter",
+        "role": "chapter_introduction",
+        "title": "Luke 4 · Original Chapter Introduction"
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.4:P:chapter-4",
+        "navigation_id": "LUK.4:P:chapter-4",
+        "scope": "chapter",
+        "role": "source_heading",
+        "title": "CHAPTER 4"
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.4:P:lu-4-1-13-temptation-of-christ",
+        "navigation_id": "LUK.4:P:lu-4-1-13-temptation-of-christ",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 4:1-13 . Temptation of Christ."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.4:P:lu-4-14-32-jesus-entering-on-his-public-ministry-makes-a-circuit-of-galilee-re",
+        "navigation_id": "LUK.4:P:lu-4-14-32-jesus-entering-on-his-public-ministry-makes-a-circuit-of-galilee-re",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 4:14-32 . Jesus Entering on His Public Ministry, Makes a Circuit of Galilee--Rejection at Nazareth."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.4:P:lu-4-33-37-demoniac-healed",
+        "navigation_id": "LUK.4:P:lu-4-33-37-demoniac-healed",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 4:33-37 . Demoniac Healed."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.4:P:lu-4-38-41-peter-s-mother-in-law-and-many-others-healed",
+        "navigation_id": "LUK.4:P:lu-4-38-41-peter-s-mother-in-law-and-many-others-healed",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 4:38-41 . Peter's Mother-in-law and Many Others, Healed."
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:LUK.4:P:lu-4-42-44-jesus-sought-out-at-morning-prayer-and-entreated-to-stay-declines-f",
+        "navigation_id": "LUK.4:P:lu-4-42-44-jesus-sought-out-at-morning-prayer-and-entreated-to-stay-declines-f",
+        "scope": "passage",
+        "role": "source_heading",
+        "title": "Lu 4:42-44 . Jesus Sought Out at Morning Prayer, and Entreated to Stay, Declines from the Urgency of His Work."
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/LUK.json; unindexed means unavailable."
+}
