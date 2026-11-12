@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-john-2026-11-12",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "JHN"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 126,
+    "original_entries": 2780,
+    "navigation_sections": 210,
+    "reader_visible_entries": 2779,
+    "verse_author_routes": 4099,
+    "sword_chapters": 105,
+    "helloao_chapters": 21,
+    "chapters": 21,
+    "P_source_sections": 210,
+    "inherited_P_references": 0,
+    "P_routed_sections": 210
+  },
+  "chapter_verse_count": {
+    "1": 51,
+    "2": 25,
+    "3": 36,
+    "4": 54,
+    "5": 47,
+    "6": 71,
+    "7": 53,
+    "8": 59,
+    "9": 41,
+    "10": 42,
+    "11": 57,
+    "12": 50,
+    "13": 38,
+    "14": 31,
+    "15": 27,
+    "16": 33,
+    "17": 26,
+    "18": 40,
+    "19": 42,
+    "20": 31,
+    "21": 25
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "John is canonical book 43, previous 42 snapshots immutable.",
+    "Keil & Delitzsch has no NT commentary in original archive.",
+    "Reader is review staging; owner manually installs release ZIP; no CGBC player changes."
+  ]
+}
