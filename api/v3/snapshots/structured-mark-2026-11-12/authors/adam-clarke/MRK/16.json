@@ -1,0 +1,460 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-mark-2026-11-12",
+  "author_id": "adam-clarke",
+  "book_id": "MRK",
+  "chapter": 16,
+  "canonical_chapter": "MRK.16",
+  "versification": "KJV",
+  "verse_count": 20,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "clarke",
+    "module_version": "2.0",
+    "module_title": "Adam Clarke's Commentary and critical notes on the Bible",
+    "module_versification": "KJV",
+    "mod_driver": "zCom",
+    "distribution_license": "Public Domain",
+    "text_source": "https://en.wikisource.org/wiki/Commentary_and_critical_notes_on_the_Bible",
+    "module_zip_sha256": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Mark\" sID=\"gen39043\" type=\"book\"/> <milestone n=\"\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <div sID=\"gen39044\" type=\"x-p\"/> ",
+      "source_record_sha256": "9e87eb2b7a5d80d73ae8e6d36f78d9e9c9e7f7e23900e15c067f22202c5c79e6",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 0,
+        "length": 209
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<div sID=\"gen39697\" type=\"x-p\"/> <chapter n=\"16\" osisID=\"Mark.16\" sID=\"Mark.16\"/> ",
+      "source_record_sha256": "0670f0d4986e27650efb6c66779495e4e646a81e6c6e4366132b6737149a6287",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 244637,
+        "length": 82
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:clarke:MRK.16.1-1:2:244719:1844",
+      "passage_start": "MRK.16.1",
+      "passage_end": "MRK.16.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div eID=\"gen39697\" type=\"x-p\"/> <title type=\"x-s\">Introduction</title> <div sID=\"gen39698\" type=\"introduction\"/> <div sID=\"gen39699\" type=\"x-p\"/> <div eID=\"gen39699\" type=\"x-p\"/> <div eID=\"gen39698\" type=\"introduction\"/> <div sID=\"gen39700\" type=\"x-p\"/> Early in the morning after the Sabbath, the three Marys come to the sepulcher, bringing sweet spices to embalm the body, <reference osisRef=\"Mar.16.1-Mar.16.4\">Mar 16:1-4</reference>. They see an angel who announces the resurrection of our Lord, <reference osisRef=\"Mar.16.5-Mar.16.8\">Mar 16:5-8</reference>. Jesus appears to Mary Magdalene, who goes and tells the disciples, <reference osisRef=\"Mar.16.9-Mar.16.11\">Mar 16:9-11</reference>. He appears also to the two disciples who were going into the country, who also tell it to the rest, <reference osisRef=\"Mar.16.12\">Mar 16:12</reference>, <reference osisRef=\"Mar.16.13\">Mar 16:13</reference>. Afterwards he appears unto the eleven, and commissions them to preach the Gospel to all mankind, <reference osisRef=\"Mar.16.14-Mar.16.16\">Mar 16:14-16</reference>. And promises to endue them with power to work miracles, <reference osisRef=\"Mar.16.17\">Mar 16:17</reference>, <reference osisRef=\"Mar.16.18\">Mar 16:18</reference>. He is received up into heaven, <reference osisRef=\"Mar.16.19\">Mar 16:19</reference>. And they go forth to preach and work miracles, <reference osisRef=\"Mar.16.20\">Mar 16:20</reference>. <div eID=\"gen39700\" type=\"x-p\"/> <div sID=\"gen39701\" type=\"x-p\"/> <hi type=\"bold\">Verse 1</hi> <div eID=\"gen39701\" type=\"x-p\"/> <div sID=\"gen39702\" type=\"x-p\"/> And anoint him - Rather, to embalm him. This is a proof that they had not properly understood what Christ had so frequently spoken, viz. that he would rise again the third day. And this inattention or unbelief of theirs is a proof of the truth of the resurrection. ",
+      "content_plain": "Introduction Early in the morning after the Sabbath, the three Marys come to the sepulcher, bringing sweet spices to embalm the body, Mar 16:1-4 . They see an angel who announces the resurrection of our Lord, Mar 16:5-8 . Jesus appears to Mary Magdalene, who goes and tells the disciples, Mar 16:9-11 . He appears also to the two disciples who were going into the country, who also tell it to the rest, Mar 16:12 , Mar 16:13 . Afterwards he appears unto the eleven, and commissions them to preach the Gospel to all mankind, Mar 16:14-16 . And promises to endue them with power to work miracles, Mar 16:17 , Mar 16:18 . He is received up into heaven, Mar 16:19 . And they go forth to preach and work miracles, Mar 16:20 . Verse 1 And anoint him - Rather, to embalm him. This is a proof that they had not properly understood what Christ had so frequently spoken, viz. that he would rise again the third day. And this inattention or unbelief of theirs is a proof of the truth of the resurrection.",
+      "source_record_sha256": "74dbebdb6d4a5e16c7c46ab387eaca9647e05064158528352492d9a442e520b7",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 244719,
+        "length": 1844
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 1 And anoint him - Rather, to embalm him. This is a proof that they had not properly understood what Christ had so frequently spoken, viz. that he would rise again the third day. And this inattention or unbelief of theirs is a proof of the truth of the resurrection.",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        1484,
+        1844
+      ],
+      "reader_content_osis": "<hi type=\"bold\">Verse 1</hi> <div eID=\"gen39701\" type=\"x-p\"/> <div sID=\"gen39702\" type=\"x-p\"/> And anoint him - Rather, to embalm him. This is a proof that they had not properly understood what Christ had so frequently spoken, viz. that he would rise again the third day. And this inattention or unbelief of theirs is a proof of the truth of the resurrection. "
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.2-2:2:246563:2800",
+      "passage_start": "MRK.16.2",
+      "passage_end": "MRK.16.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 2</hi> <div eID=\"gen39702\" type=\"x-p\"/> <div sID=\"gen39703\" type=\"x-p\"/> Very early in the morning, - This was the time they left their own houses, and by the rising of the sun they got to the tomb. As the preceding day was the Sabbath, they could not, consistently with the observances of that day, approach the tomb. See the concluding notes at the end of John. <div eID=\"gen39703\" type=\"x-p\"/> <div sID=\"gen39704\" type=\"x-p\"/> The following observations from Lightfoot will serve to illustrate this subject. \"The distinction of the twilight among the rabbins was this: - \"I. איילחא השחרא The hinde of the morning - the first appearance. R. Chaiia Rab, and R. Simeon ben Chalaphta, travelling together on a certain morning in the valley of Arbel, saw the hinde of the morning, that its light spread the sky. R. Chaiia said, Such shall be the redemption of Israel. First, it goes forward by degrees, and by little and little; but by how much the more it shall go forward, by so much the more it shall increase. It was at that time that Christ arose, namely, in the first morning, as may be gathered from the words of St. Matthew. And to this the title of the 22d Psalm seems to have respect - על איילת השחר. See also <reference osisRef=\"Rev.22.16\">Rev 22:16</reference>, I am the bright and morning star. And now you may imagine the women went out of their houses towards the sepulchre. \"II. משיכיר בי הכלת ללב When one may distinguish between purple color and white. From what time do they recite their phylacterical prayers in the morning? From that time that one may distinguish between purple color and white. R. Eliezer saith, Between purple color and green. Before this time was obscurum adhue caeptae lucis, the obscurity of the begun light, as Tacitus's expression is. \"III. משיארו המזרח When the east begins to lighten. \"IV. בנץ החמה Sunrise; from the hinde of the morning going forth, until the east begins to lighten; and from the time the east begins to lighten, until sunrise, etc. \"According to these four parts of time, one might not improperly suit the four phrases of the evangelists. According to the first, Matthew's, Τῃ επιφωσκουσῃ, As it began to dawn. According to the second, John's, Πρωΐ σκοτιας ετι ουσης, Early in the morning when it was yet dark. To the third, Luke's, Ορθρου βαθεως, Very early in the morning. To the fourth, Mark's, Λιαν πρωΐ, Very early in the morning. And yet, Ανατειλαντος του ἡλιου, At the rising of the sun. For the women came twice to the sepulchre, as St. John teaches, by whom the other evangelists are to be explained; which being well considered, the reconciling them together is very easy.\" ",
+      "content_plain": "Verse 2 Very early in the morning, - This was the time they left their own houses, and by the rising of the sun they got to the tomb. As the preceding day was the Sabbath, they could not, consistently with the observances of that day, approach the tomb. See the concluding notes at the end of John. The following observations from Lightfoot will serve to illustrate this subject. \"The distinction of the twilight among the rabbins was this: - \"I. איילחא השחרא The hinde of the morning - the first appearance. R. Chaiia Rab, and R. Simeon ben Chalaphta, travelling together on a certain morning in the valley of Arbel, saw the hinde of the morning, that its light spread the sky. R. Chaiia said, Such shall be the redemption of Israel. First, it goes forward by degrees, and by little and little; but by how much the more it shall go forward, by so much the more it shall increase. It was at that time that Christ arose, namely, in the first morning, as may be gathered from the words of St. Matthew. And to this the title of the 22d Psalm seems to have respect - על איילת השחר. See also Rev 22:16 , I am the bright and morning star. And now you may imagine the women went out of their houses towards the sepulchre. \"II. משיכיר בי הכלת ללב When one may distinguish between purple color and white. From what time do they recite their phylacterical prayers in the morning? From that time that one may distinguish between purple color and white. R. Eliezer saith, Between purple color and green. Before this time was obscurum adhue caeptae lucis, the obscurity of the begun light, as Tacitus's expression is. \"III. משיארו המזרח When the east begins to lighten. \"IV. בנץ החמה Sunrise; from the hinde of the morning going forth, until the east begins to lighten; and from the time the east begins to lighten, until sunrise, etc. \"According to these four parts of time, one might not improperly suit the four phrases of the evangelists. According to the first, Matthew's, Τῃ επιφωσκουσῃ, As it began to dawn. According to the second, John's, Πρωΐ σκοτιας ετι ουσης, Early in the morning when it was yet dark. To the third, Luke's, Ορθρου βαθεως, Very early in the morning. To the fourth, Mark's, Λιαν πρωΐ, Very early in the morning. And yet, Ανατειλαντος του ἡλιου, At the rising of the sun. For the women came twice to the sepulchre, as St. John teaches, by whom the other evangelists are to be explained; which being well considered, the reconciling them together is very easy.\"",
+      "source_record_sha256": "e231656da6f497e9977f4dc71c5c46ed07d8a15f93e2793dca2bc215adc17006",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 246563,
+        "length": 2800
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 2 Very early in the morning, - This was the time they left their own houses, and by the rising of the sun they got to the tomb. As the preceding day was the Sabbath, they could not, consistently with the observances of that day, approach the tomb. See the concluding notes at the end of John. The following observations from Lightfoot will serve to illustrate this subject. \"The distinction of the twilight among the rabbins was this: - \"I. איילחא השחרא The hinde of the morning - the first appearance. R. Chaiia Rab, and R. Simeon ben Chalaphta, travelling together on a certain morning in the valley of Arbel, saw the hinde of the morning, that its light spread the sky. R. Chaiia said, Such shall be the redemption of Israel. First, it goes forward by degrees, and by little and little; but by how much the more it shall go forward, by so much the more it shall increase. It was at that time that Christ arose, namely, in the first morning, as may be gathered from the words of St. Matthew. And to this the title of the 22d Psalm seems to have respect - על איילת השחר. See also Rev 22:16 , I am the bright and morning star. And now you may imagine the women went out of their houses towards the sepulchre. \"II. משיכיר בי הכלת ללב When one may distinguish between purple color and white. From what time do they recite their phylacterical prayers in the morning? From that time that one may distinguish between purple color and white. R. Eliezer saith, Between purple color and green. Before this time was obscurum adhue caeptae lucis, the obscurity of the begun light, as Tacitus's expression is. \"III. משיארו המזרח When the east begins to lighten. \"IV. בנץ החמה Sunrise; from the hinde of the morning going forth, until the east begins to lighten; and from the time the east begins to lighten, until sunrise, etc. \"According to these four parts of time, one might not improperly suit the four phrases of the evangelists. According to the first, Matthew's, Τῃ επιφωσκουσῃ, As it began to dawn. According to the second, John's, Πρωΐ σκοτιας ετι ουσης, Early in the morning when it was yet dark. To the third, Luke's, Ορθρου βαθεως, Very early in the morning. To the fourth, Mark's, Λιαν πρωΐ, Very early in the morning. And yet, Ανατειλαντος του ἡλιου, At the rising of the sun. For the women came twice to the sepulchre, as St. John teaches, by whom the other evangelists are to be explained; which being well considered, the reconciling them together is very easy.\""
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.4-4:2:249363:592",
+      "passage_start": "MRK.16.4",
+      "passage_end": "MRK.16.4",
+      "start_verse": 4,
+      "end_verse": 4,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 4</hi> <div eID=\"gen39704\" type=\"x-p\"/> <div sID=\"gen39705\" type=\"x-p\"/> For it was very great - This clause should be read immediately after the third verse, according to D, three copies of the Itala, Syriac, Hier., and Eusebius. \"Who shall roll us away the stone from the door of the sepulchre? for it was very great. And when they looked, they saw that the stone was rolled away.\" They knew that the stone was too heavy for them to roll away; and, unless they got access to the body, they could not apply the aromatics which they had brought to finish the embalming. ",
+      "content_plain": "Verse 4 For it was very great - This clause should be read immediately after the third verse, according to D, three copies of the Itala, Syriac, Hier., and Eusebius. \"Who shall roll us away the stone from the door of the sepulchre? for it was very great. And when they looked, they saw that the stone was rolled away.\" They knew that the stone was too heavy for them to roll away; and, unless they got access to the body, they could not apply the aromatics which they had brought to finish the embalming.",
+      "source_record_sha256": "805b1246e75c2364840efc053d3cea5520c035039deb52361b8d395f2d5b22a2",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 249363,
+        "length": 592
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 4 For it was very great - This clause should be read immediately after the third verse, according to D, three copies of the Itala, Syriac, Hier., and Eusebius. \"Who shall roll us away the stone from the door of the sepulchre? for it was very great. And when they looked, they saw that the stone was rolled away.\" They knew that the stone was too heavy for them to roll away; and, unless they got access to the body, they could not apply the aromatics which they had brought to finish the embalming."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.6-6:2:249955:1174",
+      "passage_start": "MRK.16.6",
+      "passage_end": "MRK.16.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 6</hi> <div eID=\"gen39705\" type=\"x-p\"/> <div sID=\"gen39706\" type=\"x-p\"/> Jesus of Nazareth - The Jews had given this name to Christ by way of reproach, <reference osisRef=\"Mat.2.23\">Mat 2:23</reference>; but as it was under this name that he was crucified, <reference osisRef=\"Joh.19.19\">Joh 19:19</reference>, the angel here, and the apostles after, have given him the same name, <reference osisRef=\"Act.4.10\">Act 4:10</reference>, etc. Names which the world, in derision, fixes all the followers of God, often become the general appellatives of religious bodies: thus Quakers, Puritans, Pietists, and Methodists, have in their respective times been the nicknames, given in derision by the world, to those who separated themselves from its corruptions. Our Lord, by continuing to bear the name of the Nazarene, teaches us not to be too nice or scrupulous in fixing our own appellation. No matter what the name may be, as long as it implies no particular evil, and serves sufficiently to mark us out. Let us be contented to bear it, and thus carry about with us the reproach of Christ; always taking care to keep our garments unspotted from the world. ",
+      "content_plain": "Verse 6 Jesus of Nazareth - The Jews had given this name to Christ by way of reproach, Mat 2:23 ; but as it was under this name that he was crucified, Joh 19:19 , the angel here, and the apostles after, have given him the same name, Act 4:10 , etc. Names which the world, in derision, fixes all the followers of God, often become the general appellatives of religious bodies: thus Quakers, Puritans, Pietists, and Methodists, have in their respective times been the nicknames, given in derision by the world, to those who separated themselves from its corruptions. Our Lord, by continuing to bear the name of the Nazarene, teaches us not to be too nice or scrupulous in fixing our own appellation. No matter what the name may be, as long as it implies no particular evil, and serves sufficiently to mark us out. Let us be contented to bear it, and thus carry about with us the reproach of Christ; always taking care to keep our garments unspotted from the world.",
+      "source_record_sha256": "cbdf11cceaf6e1915a7ef8d5f17fb3fe6c7333953d3284b4bd71102f967a2098",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 249955,
+        "length": 1174
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 6 Jesus of Nazareth - The Jews had given this name to Christ by way of reproach, Mat 2:23 ; but as it was under this name that he was crucified, Joh 19:19 , the angel here, and the apostles after, have given him the same name, Act 4:10 , etc. Names which the world, in derision, fixes all the followers of God, often become the general appellatives of religious bodies: thus Quakers, Puritans, Pietists, and Methodists, have in their respective times been the nicknames, given in derision by the world, to those who separated themselves from its corruptions. Our Lord, by continuing to bear the name of the Nazarene, teaches us not to be too nice or scrupulous in fixing our own appellation. No matter what the name may be, as long as it implies no particular evil, and serves sufficiently to mark us out. Let us be contented to bear it, and thus carry about with us the reproach of Christ; always taking care to keep our garments unspotted from the world."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.7-7:2:251129:522",
+      "passage_start": "MRK.16.7",
+      "passage_end": "MRK.16.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 7</hi> <div eID=\"gen39706\" type=\"x-p\"/> <div sID=\"gen39707\" type=\"x-p\"/> Tell his disciples and Peter - Why is not Peter included among the disciples? For this plain reason, - he had forfeited his discipleship, and all right to the honor and privileges of an apostle, by denying his Lord and Master. However, he is now a penitent: - tell him that Jesus is risen from the dead, and is ready to heal his backsliding, and love him freely; so that, after being converted, he may strengthen his brethren. ",
+      "content_plain": "Verse 7 Tell his disciples and Peter - Why is not Peter included among the disciples? For this plain reason, - he had forfeited his discipleship, and all right to the honor and privileges of an apostle, by denying his Lord and Master. However, he is now a penitent: - tell him that Jesus is risen from the dead, and is ready to heal his backsliding, and love him freely; so that, after being converted, he may strengthen his brethren.",
+      "source_record_sha256": "f2189d41448caf9736a3f5b7c8b9230db69ddcbd014256910107863975bdbdac",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 251129,
+        "length": 522
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 7 Tell his disciples and Peter - Why is not Peter included among the disciples? For this plain reason, - he had forfeited his discipleship, and all right to the honor and privileges of an apostle, by denying his Lord and Master. However, he is now a penitent: - tell him that Jesus is risen from the dead, and is ready to heal his backsliding, and love him freely; so that, after being converted, he may strengthen his brethren."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.9-9:2:251651:1100",
+      "passage_start": "MRK.16.9",
+      "passage_end": "MRK.16.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 9</hi> <div eID=\"gen39707\" type=\"x-p\"/> <div sID=\"gen39708\" type=\"x-p\"/> Now when Jesus was risen, etc. - This, to the conclusion of the Gospel, is wanting in the famous Codex Vaticanus, and has anciently been wanting in many others. See Wetstein and Griesbach. In the margin of the later Syriac version, there is a remarkable addition after this verse; it is as follows: - And they declared briefly all that was commanded, to them that were with Peter. Afterward Jesus himself published by them, from east to west, the holy and incorruptible preaching of eternal salvation. Amen. <div eID=\"gen39708\" type=\"x-p\"/> <div sID=\"gen39709\" type=\"x-p\"/> Mary Magdalene - It seems likely that, after this woman had carried the news of Christ's resurrection to the disciples, she returned alone to the tomb; and that it was then that Christ appeared to her, <reference osisRef=\"Joh.20.1-Joh.20.12\">Joh 20:1-12</reference>; and a little after he appeared to all the women together, <reference osisRef=\"Mat.28.9\">Mat 28:9</reference>; <reference osisRef=\"Luk.24.16\">Luk 24:16</reference>. ",
+      "content_plain": "Verse 9 Now when Jesus was risen, etc. - This, to the conclusion of the Gospel, is wanting in the famous Codex Vaticanus, and has anciently been wanting in many others. See Wetstein and Griesbach. In the margin of the later Syriac version, there is a remarkable addition after this verse; it is as follows: - And they declared briefly all that was commanded, to them that were with Peter. Afterward Jesus himself published by them, from east to west, the holy and incorruptible preaching of eternal salvation. Amen. Mary Magdalene - It seems likely that, after this woman had carried the news of Christ's resurrection to the disciples, she returned alone to the tomb; and that it was then that Christ appeared to her, Joh 20:1-12 ; and a little after he appeared to all the women together, Mat 28:9 ; Luk 24:16 .",
+      "source_record_sha256": "86d828e6373bb1356f42a1113571d3d3775895d82ba4b6c80381c1875eeb69d5",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 251651,
+        "length": 1100
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 9 Now when Jesus was risen, etc. - This, to the conclusion of the Gospel, is wanting in the famous Codex Vaticanus, and has anciently been wanting in many others. See Wetstein and Griesbach. In the margin of the later Syriac version, there is a remarkable addition after this verse; it is as follows: - And they declared briefly all that was commanded, to them that were with Peter. Afterward Jesus himself published by them, from east to west, the holy and incorruptible preaching of eternal salvation. Amen. Mary Magdalene - It seems likely that, after this woman had carried the news of Christ's resurrection to the disciples, she returned alone to the tomb; and that it was then that Christ appeared to her, Joh 20:1-12 ; and a little after he appeared to all the women together, Mat 28:9 ; Luk 24:16 ."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.10-10:2:252751:420",
+      "passage_start": "MRK.16.10",
+      "passage_end": "MRK.16.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 10</hi> <div eID=\"gen39709\" type=\"x-p\"/> <div sID=\"gen39710\" type=\"x-p\"/> Them that had been with him - Not only the eleven disciples, but several others who had been the occasional companions of Christ and the apostles. <div eID=\"gen39710\" type=\"x-p\"/> <div sID=\"gen39711\" type=\"x-p\"/> Mourned and wept - Because they had lost their Lord and Master, and had basely abandoned him in his extremity. ",
+      "content_plain": "Verse 10 Them that had been with him - Not only the eleven disciples, but several others who had been the occasional companions of Christ and the apostles. Mourned and wept - Because they had lost their Lord and Master, and had basely abandoned him in his extremity.",
+      "source_record_sha256": "c1fe70f306e14a3047165e52c872b764c055736029e8513c2f1d1d9bf56c46b9",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 252751,
+        "length": 420
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 10 Them that had been with him - Not only the eleven disciples, but several others who had been the occasional companions of Christ and the apostles. Mourned and wept - Because they had lost their Lord and Master, and had basely abandoned him in his extremity."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.12-12:2:253171:3368",
+      "passage_start": "MRK.16.12",
+      "passage_end": "MRK.16.12",
+      "start_verse": 12,
+      "end_verse": 12,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 12</hi> <div eID=\"gen39711\" type=\"x-p\"/> <div sID=\"gen39712\" type=\"x-p\"/> He appeared - unto two of them - These were the two who were going to Emmaus. The whole account is given by Luke, 24:13-34, where see the notes. <div eID=\"gen39712\" type=\"x-p\"/> <div sID=\"gen39713\" type=\"x-p\"/> Dr. Lightfoot's criticism upon this passage is worthy of notice. \"That, in the verses immediately going before, the discourse is of the two disciples going to Emmaus, is without all controversy. And then how do these things consist with that relation in Luke, who saith, That they two, returning to Jerusalem, found the eleven gathered together, and they that were with them; who said, The Lord is risen indeed, and has appeared to Simon? <reference osisRef=\"Luk.24.34\">Luk 24:34</reference>. The word λεγοντας, saying, evidently makes those to be the words των ενδεκα, of the eleven, and of those that were gathered together with them; which, when you read the versions, you would scarcely suspect. For when that word is rendered by the Syriac, cad amrin; by the Arabic, wehom yekolon; by the Vulgate, dicentes; by the Italian, dicendo; by the French, disans; by the English, saying; who, I pray, would take it in another sense, than that those two that returned from Emmaus said, The Lord is risen indeed, etc.? But in the original Greek, when it is the accusative case, it is plainly to be referred to the eleven disciples, and those that were together with them; as if they had discoursed among themselves of the appearance made to Peter, either before, or now in the very access of those two coming from Emmaus. And yet, says this our evangelist, that when those two had related the whole business, they gave no credit to them; so that, according to Luke, they believed Christ was risen, and had appeared to Simon, before they told their story; but, according to Mark, they believed it not, no, not when they had told it. The reconciling therefore of the evangelists is to be fetched thence, that those words pronounced by the eleven, Ὁτι ηγερθη ὁ Κυριος οντως, etc., The Lord is risen indeed, etc., do not manifest their absolute confession of the resurrection of Christ, but a conjectural reasoning of the sudden and unexpected return of Peter. I believe that Peter was going with Cleophas into Galilee, and that being moved with the words of Christ, told him by the women, Say to his disciples and Peter, I go before you into Galilee - think with yourself how doubtful Peter was, and how he fluctuated within himself after his threefold denial, and how he gasped to see the Lord again, if he were risen, and to cast himself an humble suppliant at his feet. When therefore he heard these things from the women, (and he had heard it indeed from Christ himself, while he was yet alive, that when he arose he would go before them into Galilee), and when the rest were very little moved with the report of his resurrection, nor as yet stirred from that place, he will try a journey into Galilee, and Alpheus with him; which, when it was well known to the rest, and they saw him return so soon and so unexpectedly - Certainly, say they, the Lord is risen, and hath appeared to Peter, otherwise he had not so soon come back again. And yet, when he and Cleophas open the whole matter, they do not yet believe even them.\" ",
+      "content_plain": "Verse 12 He appeared - unto two of them - These were the two who were going to Emmaus. The whole account is given by Luke, 24:13-34, where see the notes. Dr. Lightfoot's criticism upon this passage is worthy of notice. \"That, in the verses immediately going before, the discourse is of the two disciples going to Emmaus, is without all controversy. And then how do these things consist with that relation in Luke, who saith, That they two, returning to Jerusalem, found the eleven gathered together, and they that were with them; who said, The Lord is risen indeed, and has appeared to Simon? Luk 24:34 . The word λεγοντας, saying, evidently makes those to be the words των ενδεκα, of the eleven, and of those that were gathered together with them; which, when you read the versions, you would scarcely suspect. For when that word is rendered by the Syriac, cad amrin; by the Arabic, wehom yekolon; by the Vulgate, dicentes; by the Italian, dicendo; by the French, disans; by the English, saying; who, I pray, would take it in another sense, than that those two that returned from Emmaus said, The Lord is risen indeed, etc.? But in the original Greek, when it is the accusative case, it is plainly to be referred to the eleven disciples, and those that were together with them; as if they had discoursed among themselves of the appearance made to Peter, either before, or now in the very access of those two coming from Emmaus. And yet, says this our evangelist, that when those two had related the whole business, they gave no credit to them; so that, according to Luke, they believed Christ was risen, and had appeared to Simon, before they told their story; but, according to Mark, they believed it not, no, not when they had told it. The reconciling therefore of the evangelists is to be fetched thence, that those words pronounced by the eleven, Ὁτι ηγερθη ὁ Κυριος οντως, etc., The Lord is risen indeed, etc., do not manifest their absolute confession of the resurrection of Christ, but a conjectural reasoning of the sudden and unexpected return of Peter. I believe that Peter was going with Cleophas into Galilee, and that being moved with the words of Christ, told him by the women, Say to his disciples and Peter, I go before you into Galilee - think with yourself how doubtful Peter was, and how he fluctuated within himself after his threefold denial, and how he gasped to see the Lord again, if he were risen, and to cast himself an humble suppliant at his feet. When therefore he heard these things from the women, (and he had heard it indeed from Christ himself, while he was yet alive, that when he arose he would go before them into Galilee), and when the rest were very little moved with the report of his resurrection, nor as yet stirred from that place, he will try a journey into Galilee, and Alpheus with him; which, when it was well known to the rest, and they saw him return so soon and so unexpectedly - Certainly, say they, the Lord is risen, and hath appeared to Peter, otherwise he had not so soon come back again. And yet, when he and Cleophas open the whole matter, they do not yet believe even them.\"",
+      "source_record_sha256": "89ddda59b1870f13ab74ee4ab19dc8968d37ff4611d20f7b5fd7e04436e015a7",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 253171,
+        "length": 3368
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 12 He appeared - unto two of them - These were the two who were going to Emmaus. The whole account is given by Luke, 24:13-34, where see the notes. Dr. Lightfoot's criticism upon this passage is worthy of notice. \"That, in the verses immediately going before, the discourse is of the two disciples going to Emmaus, is without all controversy. And then how do these things consist with that relation in Luke, who saith, That they two, returning to Jerusalem, found the eleven gathered together, and they that were with them; who said, The Lord is risen indeed, and has appeared to Simon? Luk 24:34 . The word λεγοντας, saying, evidently makes those to be the words των ενδεκα, of the eleven, and of those that were gathered together with them; which, when you read the versions, you would scarcely suspect. For when that word is rendered by the Syriac, cad amrin; by the Arabic, wehom yekolon; by the Vulgate, dicentes; by the Italian, dicendo; by the French, disans; by the English, saying; who, I pray, would take it in another sense, than that those two that returned from Emmaus said, The Lord is risen indeed, etc.? But in the original Greek, when it is the accusative case, it is plainly to be referred to the eleven disciples, and those that were together with them; as if they had discoursed among themselves of the appearance made to Peter, either before, or now in the very access of those two coming from Emmaus. And yet, says this our evangelist, that when those two had related the whole business, they gave no credit to them; so that, according to Luke, they believed Christ was risen, and had appeared to Simon, before they told their story; but, according to Mark, they believed it not, no, not when they had told it. The reconciling therefore of the evangelists is to be fetched thence, that those words pronounced by the eleven, Ὁτι ηγερθη ὁ Κυριος οντως, etc., The Lord is risen indeed, etc., do not manifest their absolute confession of the resurrection of Christ, but a conjectural reasoning of the sudden and unexpected return of Peter. I believe that Peter was going with Cleophas into Galilee, and that being moved with the words of Christ, told him by the women, Say to his disciples and Peter, I go before you into Galilee - think with yourself how doubtful Peter was, and how he fluctuated within himself after his threefold denial, and how he gasped to see the Lord again, if he were risen, and to cast himself an humble suppliant at his feet. When therefore he heard these things from the women, (and he had heard it indeed from Christ himself, while he was yet alive, that when he arose he would go before them into Galilee), and when the rest were very little moved with the report of his resurrection, nor as yet stirred from that place, he will try a journey into Galilee, and Alpheus with him; which, when it was well known to the rest, and they saw him return so soon and so unexpectedly - Certainly, say they, the Lord is risen, and hath appeared to Peter, otherwise he had not so soon come back again. And yet, when he and Cleophas open the whole matter, they do not yet believe even them.\""
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.14-14:2:256539:503",
+      "passage_start": "MRK.16.14",
+      "passage_end": "MRK.16.14",
+      "start_verse": 14,
+      "end_verse": 14,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 14</hi> <div eID=\"gen39713\" type=\"x-p\"/> <div sID=\"gen39714\" type=\"x-p\"/> And upbraided them with their unbelief - Never were there a people so difficult to be persuaded of the truth of spiritual things as the disciples. It may be justly asserted, that people of so skeptical a turn of mind would never credit any thing till they had the fullest evidence of its truth. The unbelief of the disciples is a strong proof of the truth of the Gospel of God. See the addition at the end. ",
+      "content_plain": "Verse 14 And upbraided them with their unbelief - Never were there a people so difficult to be persuaded of the truth of spiritual things as the disciples. It may be justly asserted, that people of so skeptical a turn of mind would never credit any thing till they had the fullest evidence of its truth. The unbelief of the disciples is a strong proof of the truth of the Gospel of God. See the addition at the end.",
+      "source_record_sha256": "4b5d9cdbd50d085755f5051f56fe845f19b8d5d9a5b5178f58efd6c993bc26cc",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 256539,
+        "length": 503
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.14",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 14 And upbraided them with their unbelief - Never were there a people so difficult to be persuaded of the truth of spiritual things as the disciples. It may be justly asserted, that people of so skeptical a turn of mind would never credit any thing till they had the fullest evidence of its truth. The unbelief of the disciples is a strong proof of the truth of the Gospel of God. See the addition at the end."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.15-15:2:257042:735",
+      "passage_start": "MRK.16.15",
+      "passage_end": "MRK.16.15",
+      "start_verse": 15,
+      "end_verse": 15,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 15</hi> <div eID=\"gen39714\" type=\"x-p\"/> <div sID=\"gen39715\" type=\"x-p\"/> Go ye into all the world - See on <reference osisRef=\"Mat.28.19\">Mat 28:19</reference> (note). <div eID=\"gen39715\" type=\"x-p\"/> <div sID=\"gen39716\" type=\"x-p\"/> And preach the Gospel to every creature - Proclaim the glad tidings - of Christ crucified; and raised from the dead - to all the creation, πασῃ τῃ κτισει - to the Gentile world; for in this sense בריות berioth, is often understood among the rabbins; because He, through the grace of God, hath tasted death for Every man, <reference osisRef=\"Heb.2.9\">Heb 2:9</reference>. And on the rejection of the Gospel by the Jews, it was sent to the whole Gentile world. ",
+      "content_plain": "Verse 15 Go ye into all the world - See on Mat 28:19 (note). And preach the Gospel to every creature - Proclaim the glad tidings - of Christ crucified; and raised from the dead - to all the creation, πασῃ τῃ κτισει - to the Gentile world; for in this sense בריות berioth, is often understood among the rabbins; because He, through the grace of God, hath tasted death for Every man, Heb 2:9 . And on the rejection of the Gospel by the Jews, it was sent to the whole Gentile world.",
+      "source_record_sha256": "79256da6759551fc10ba9308a5d2a15b3d0daa74725576267d8d9a0c6749b5f6",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 257042,
+        "length": 735
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 15 Go ye into all the world - See on Mat 28:19 (note). And preach the Gospel to every creature - Proclaim the glad tidings - of Christ crucified; and raised from the dead - to all the creation, πασῃ τῃ κτισει - to the Gentile world; for in this sense בריות berioth, is often understood among the rabbins; because He, through the grace of God, hath tasted death for Every man, Heb 2:9 . And on the rejection of the Gospel by the Jews, it was sent to the whole Gentile world."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.16-16:2:257777:511",
+      "passage_start": "MRK.16.16",
+      "passage_end": "MRK.16.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 16</hi> <div eID=\"gen39716\" type=\"x-p\"/> <div sID=\"gen39717\" type=\"x-p\"/> He that believeth - He that credits this Gospel as a revelation from God: and is baptized - takes upon him the profession of it, obliging himself to walk according to its precepts: he shall be saved - redeemed from sin here, and brought at last to the enjoyment of my eternal glory. But he that believeth not, shall be damned - because he rejects the only provision that could be effectual to his soul's salvation. ",
+      "content_plain": "Verse 16 He that believeth - He that credits this Gospel as a revelation from God: and is baptized - takes upon him the profession of it, obliging himself to walk according to its precepts: he shall be saved - redeemed from sin here, and brought at last to the enjoyment of my eternal glory. But he that believeth not, shall be damned - because he rejects the only provision that could be effectual to his soul's salvation.",
+      "source_record_sha256": "264534ad2d825c2827e3b0ef0e33866da523ed7393a7d105b7f13e570ddef701",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 257777,
+        "length": 511
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 16 He that believeth - He that credits this Gospel as a revelation from God: and is baptized - takes upon him the profession of it, obliging himself to walk according to its precepts: he shall be saved - redeemed from sin here, and brought at last to the enjoyment of my eternal glory. But he that believeth not, shall be damned - because he rejects the only provision that could be effectual to his soul's salvation."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.17-17:2:258288:989",
+      "passage_start": "MRK.16.17",
+      "passage_end": "MRK.16.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 17</hi> <div eID=\"gen39717\" type=\"x-p\"/> <div sID=\"gen39718\" type=\"x-p\"/> These signs shall follow - Or rather, accompany; this is the proper import of the original word παρακολουθησει, from παρα with, and ακολουθεω, I follow. <div eID=\"gen39718\" type=\"x-p\"/> <div sID=\"gen39719\" type=\"x-p\"/> Them that believe - The believers, as we express it; i.e. the apostles, and all those who in those primitive times were endued with miraculous powers, for the confirmation of the doctrines they preached. <div eID=\"gen39719\" type=\"x-p\"/> <div sID=\"gen39720\" type=\"x-p\"/> In my name - That is, by the authority and influence of the almighty Jesus. <div eID=\"gen39720\" type=\"x-p\"/> <div sID=\"gen39721\" type=\"x-p\"/> Cast out devils - Whose kingdom Jesus Christ was manifested to destroy. <div eID=\"gen39721\" type=\"x-p\"/> <div sID=\"gen39722\" type=\"x-p\"/> Speak with new tongues - This was most literally fulfilled on the day of pentecost, Acts 2:4-19. ",
+      "content_plain": "Verse 17 These signs shall follow - Or rather, accompany; this is the proper import of the original word παρακολουθησει, from παρα with, and ακολουθεω, I follow. Them that believe - The believers, as we express it; i.e. the apostles, and all those who in those primitive times were endued with miraculous powers, for the confirmation of the doctrines they preached. In my name - That is, by the authority and influence of the almighty Jesus. Cast out devils - Whose kingdom Jesus Christ was manifested to destroy. Speak with new tongues - This was most literally fulfilled on the day of pentecost, Acts 2:4-19.",
+      "source_record_sha256": "0f5120b0fba9db87bf90948490cff7304cfd3066b276121600d69209397cb830",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 258288,
+        "length": 989
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 17 These signs shall follow - Or rather, accompany; this is the proper import of the original word παρακολουθησει, from παρα with, and ακολουθεω, I follow. Them that believe - The believers, as we express it; i.e. the apostles, and all those who in those primitive times were endued with miraculous powers, for the confirmation of the doctrines they preached. In my name - That is, by the authority and influence of the almighty Jesus. Cast out devils - Whose kingdom Jesus Christ was manifested to destroy. Speak with new tongues - This was most literally fulfilled on the day of pentecost, Acts 2:4-19."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.18-18:2:259277:4231",
+      "passage_start": "MRK.16.18",
+      "passage_end": "MRK.16.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 18</hi> <div eID=\"gen39722\" type=\"x-p\"/> <div sID=\"gen39723\" type=\"x-p\"/> Take up serpents - Several MSS. add εν ταις χερσιν, in their hands - shall be enabled to give, when such a proof may be serviceable to the cause of truth, this evidence of their being continually under the power and protection of God, and that all nature is subject to him. This also was literally fulfilled in the case of Paul, <reference osisRef=\"Act.28.5\">Act 28:5</reference>. <div eID=\"gen39723\" type=\"x-p\"/> <div sID=\"gen39724\" type=\"x-p\"/> If they drink any deadly thing - Θανασιμον (φαρμακον) being understood - if they should through mistake, or accident, drink any poisonous matter, their constant preserver will take care that it shall not injure them. See a similar promise, <reference osisRef=\"Isa.43.2\">Isa 43:2</reference>. <div eID=\"gen39724\" type=\"x-p\"/> <div sID=\"gen39725\" type=\"x-p\"/> They shall lay hands on the sick - And I will convey a healing power by their hands, so that the sick shall recover, and men shall see that these are sent and acknowledged by the Most High. Several instances of this kind are found in the Acts of the Apostles. <div eID=\"gen39725\" type=\"x-p\"/> <div sID=\"gen39726\" type=\"x-p\"/> That the apostles of our Lord should not lose their lives by poison is most fully asserted in this verse, and there is neither record nor tradition to disprove this. But it is worthy of remark, that Mohammed, who styled himself The Apostle Of God, lost his life by poison; and had he been a true apostle of God, he could not have fallen by it. Al Kodai, Abul Feda, and Al Janabi, give the following account. <div eID=\"gen39726\" type=\"x-p\"/> <div sID=\"gen39727\" type=\"x-p\"/> When Mohammed, in the seventh year of the Hejra, a.d. 628, had taken the city of Kheebar, from the Arab Jews, he took up his lodgings at the house of Hareth, the father of Marhab the Jewish general, who had been slain at the taking of the city by Alee, the son-in-law of Mohammed. Zeenab the daughter of Hareth, who was appointed to dress the prophet's dinner, to avenge the fall of her people, and the death of her brother, put poison in a roasted lamb which was provided for the occasion. Bashar, one of his companions, falling on too hastily, fell dead on the spot. Mohammed had only chewed one mouthful, but had not swallowed it: though, on perceiving that it was poisoned, he immediately spat it out, yet he had swallowed a sufficiency of the juice to lay the foundation of his death; though this did not take place till about three years after: but that it was the cause of his death then, his dying words related by Al Janabi, and others, sufficiently testify. When the mother of Bashar came to see him in his dying agonies, he thus addressed her: \"O mother of Bashar, I now feel the veins of my heart bursting through the poison of that morsel which I ate with thy son at Kheebar.\" <div eID=\"gen39727\" type=\"x-p\"/> <div sID=\"gen39728\" type=\"x-p\"/> Abul Feda, Ebnol Athir, and Ebn Phares say, that the prophet acknowledged on his death-bed, that the poison which he had taken at Kheebar had tormented him from that time until then, notwithstanding blisters were applied to his shoulders, and every thing done in the beginning to prevent its effects. Al Kodai and Al Janabi relate, that when Zeenab was questioned why she did this, she answered to this effect: \"I said in my heart, If he be a king, we shall hereby be freed from his tyranny; and if he be a prophet, he will easily perceive it, and consequently receive no injury.\" To support his credit, he pretended that the lamb spoke to him, and said that it was infected with poison! See Elmakin, p. 8. It was therefore policy in him not to put Zeenab to death. It has pleased God that this fact should be acknowledged by the dying breath of this scourge of the earth; and that several of even the most partial Mohammedan historians should relate it! And, thus attested, it stands for the complete and everlasting refutation of his pretensions to the prophetic spirit and mission. Vide Specimen Hist. Arabum, a Pocockio, p. 189, 190. Le Coran traduit par Savary, vol. i; p. 135, and 212. See also, The Life of Mohammed by Prideaux, 93, 101. ",
+      "content_plain": "Verse 18 Take up serpents - Several MSS. add εν ταις χερσιν, in their hands - shall be enabled to give, when such a proof may be serviceable to the cause of truth, this evidence of their being continually under the power and protection of God, and that all nature is subject to him. This also was literally fulfilled in the case of Paul, Act 28:5 . If they drink any deadly thing - Θανασιμον (φαρμακον) being understood - if they should through mistake, or accident, drink any poisonous matter, their constant preserver will take care that it shall not injure them. See a similar promise, Isa 43:2 . They shall lay hands on the sick - And I will convey a healing power by their hands, so that the sick shall recover, and men shall see that these are sent and acknowledged by the Most High. Several instances of this kind are found in the Acts of the Apostles. That the apostles of our Lord should not lose their lives by poison is most fully asserted in this verse, and there is neither record nor tradition to disprove this. But it is worthy of remark, that Mohammed, who styled himself The Apostle Of God, lost his life by poison; and had he been a true apostle of God, he could not have fallen by it. Al Kodai, Abul Feda, and Al Janabi, give the following account. When Mohammed, in the seventh year of the Hejra, a.d. 628, had taken the city of Kheebar, from the Arab Jews, he took up his lodgings at the house of Hareth, the father of Marhab the Jewish general, who had been slain at the taking of the city by Alee, the son-in-law of Mohammed. Zeenab the daughter of Hareth, who was appointed to dress the prophet's dinner, to avenge the fall of her people, and the death of her brother, put poison in a roasted lamb which was provided for the occasion. Bashar, one of his companions, falling on too hastily, fell dead on the spot. Mohammed had only chewed one mouthful, but had not swallowed it: though, on perceiving that it was poisoned, he immediately spat it out, yet he had swallowed a sufficiency of the juice to lay the foundation of his death; though this did not take place till about three years after: but that it was the cause of his death then, his dying words related by Al Janabi, and others, sufficiently testify. When the mother of Bashar came to see him in his dying agonies, he thus addressed her: \"O mother of Bashar, I now feel the veins of my heart bursting through the poison of that morsel which I ate with thy son at Kheebar.\" Abul Feda, Ebnol Athir, and Ebn Phares say, that the prophet acknowledged on his death-bed, that the poison which he had taken at Kheebar had tormented him from that time until then, notwithstanding blisters were applied to his shoulders, and every thing done in the beginning to prevent its effects. Al Kodai and Al Janabi relate, that when Zeenab was questioned why she did this, she answered to this effect: \"I said in my heart, If he be a king, we shall hereby be freed from his tyranny; and if he be a prophet, he will easily perceive it, and consequently receive no injury.\" To support his credit, he pretended that the lamb spoke to him, and said that it was infected with poison! See Elmakin, p. 8. It was therefore policy in him not to put Zeenab to death. It has pleased God that this fact should be acknowledged by the dying breath of this scourge of the earth; and that several of even the most partial Mohammedan historians should relate it! And, thus attested, it stands for the complete and everlasting refutation of his pretensions to the prophetic spirit and mission. Vide Specimen Hist. Arabum, a Pocockio, p. 189, 190. Le Coran traduit par Savary, vol. i; p. 135, and 212. See also, The Life of Mohammed by Prideaux, 93, 101.",
+      "source_record_sha256": "fa57d0ac895d00033d55d20070aabdc7bbc8d3beda744a4769e5c09baa7f8f59",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 259277,
+        "length": 4231
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 18 Take up serpents - Several MSS. add εν ταις χερσιν, in their hands - shall be enabled to give, when such a proof may be serviceable to the cause of truth, this evidence of their being continually under the power and protection of God, and that all nature is subject to him. This also was literally fulfilled in the case of Paul, Act 28:5 . If they drink any deadly thing - Θανασιμον (φαρμακον) being understood - if they should through mistake, or accident, drink any poisonous matter, their constant preserver will take care that it shall not injure them. See a similar promise, Isa 43:2 . They shall lay hands on the sick - And I will convey a healing power by their hands, so that the sick shall recover, and men shall see that these are sent and acknowledged by the Most High. Several instances of this kind are found in the Acts of the Apostles. That the apostles of our Lord should not lose their lives by poison is most fully asserted in this verse, and there is neither record nor tradition to disprove this. But it is worthy of remark, that Mohammed, who styled himself The Apostle Of God, lost his life by poison; and had he been a true apostle of God, he could not have fallen by it. Al Kodai, Abul Feda, and Al Janabi, give the following account. When Mohammed, in the seventh year of the Hejra, a.d. 628, had taken the city of Kheebar, from the Arab Jews, he took up his lodgings at the house of Hareth, the father of Marhab the Jewish general, who had been slain at the taking of the city by Alee, the son-in-law of Mohammed. Zeenab the daughter of Hareth, who was appointed to dress the prophet's dinner, to avenge the fall of her people, and the death of her brother, put poison in a roasted lamb which was provided for the occasion. Bashar, one of his companions, falling on too hastily, fell dead on the spot. Mohammed had only chewed one mouthful, but had not swallowed it: though, on perceiving that it was poisoned, he immediately spat it out, yet he had swallowed a sufficiency of the juice to lay the foundation of his death; though this did not take place till about three years after: but that it was the cause of his death then, his dying words related by Al Janabi, and others, sufficiently testify. When the mother of Bashar came to see him in his dying agonies, he thus addressed her: \"O mother of Bashar, I now feel the veins of my heart bursting through the poison of that morsel which I ate with thy son at Kheebar.\" Abul Feda, Ebnol Athir, and Ebn Phares say, that the prophet acknowledged on his death-bed, that the poison which he had taken at Kheebar had tormented him from that time until then, notwithstanding blisters were applied to his shoulders, and every thing done in the beginning to prevent its effects. Al Kodai and Al Janabi relate, that when Zeenab was questioned why she did this, she answered to this effect: \"I said in my heart, If he be a king, we shall hereby be freed from his tyranny; and if he be a prophet, he will easily perceive it, and consequently receive no injury.\" To support his credit, he pretended that the lamb spoke to him, and said that it was infected with poison! See Elmakin, p. 8. It was therefore policy in him not to put Zeenab to death. It has pleased God that this fact should be acknowledged by the dying breath of this scourge of the earth; and that several of even the most partial Mohammedan historians should relate it! And, thus attested, it stands for the complete and everlasting refutation of his pretensions to the prophetic spirit and mission. Vide Specimen Hist. Arabum, a Pocockio, p. 189, 190. Le Coran traduit par Savary, vol. i; p. 135, and 212. See also, The Life of Mohammed by Prideaux, 93, 101."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.19-19:2:263508:254",
+      "passage_start": "MRK.16.19",
+      "passage_end": "MRK.16.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 19</hi> <div eID=\"gen39728\" type=\"x-p\"/> <div sID=\"gen39729\" type=\"x-p\"/> After the Lord had spoken - These things, and conversed with them for forty days, he was taken up into heaven, there to appear in the presence of God for us. ",
+      "content_plain": "Verse 19 After the Lord had spoken - These things, and conversed with them for forty days, he was taken up into heaven, there to appear in the presence of God for us.",
+      "source_record_sha256": "86e47af858960cb971825d78fcafb9ecb0ff8bfab36505713efa063806f409e1",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 263508,
+        "length": 254
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 19 After the Lord had spoken - These things, and conversed with them for forty days, he was taken up into heaven, there to appear in the presence of God for us."
+    },
+    {
+      "entry_id": "sword:clarke:MRK.16.20-20:2:263762:5474",
+      "passage_start": "MRK.16.20",
+      "passage_end": "MRK.16.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<hi type=\"bold\">Verse 20</hi> <div eID=\"gen39729\" type=\"x-p\"/> <div sID=\"gen39730\" type=\"x-p\"/> The Lord working with them - This co-operation was twofold, internal and external. Internal, illuminating their minds, convincing them of the truth, and establishing them in it. External, conveying their word to the souls that heard it, by the demonstration of the Holy Ghost; convincing them of sin, righteousness, and judgment; justifying them by his blood, and sanctifying them by his Spirit. Though miraculous powers are not now requisite, because the truth of the Gospel has been sufficiently confirmed, yet this co-operation of God is indispensably necessary, without which no man can be a successful preacher; and without which no soul can be saved. <div eID=\"gen39730\" type=\"x-p\"/> <div sID=\"gen39731\" type=\"x-p\"/> With signs following - Επακολουθουντων σημειων, the accompanying signs: viz. those mentioned in the 17th and 18th verses, and those others just now spoken of, which still continue to be produced by the energy of God, accompanying the faithful preaching of his unadulterated word. <div eID=\"gen39731\" type=\"x-p\"/> <div sID=\"gen39732\" type=\"x-p\"/> Amen - This is added here by many MSS. and versions; but is supposed not to have made a part of the text originally. Griesbach, Bengel, and others, leave it out. <div eID=\"gen39732\" type=\"x-p\"/> <div sID=\"gen39733\" type=\"x-p\"/> St. Jerome mentions certain Greek copies, which have the following remarkable addition to <reference osisRef=\"Mar.16.14\">Mar 16:14</reference>, after these words - and reproached them for their unbelief and hardness of heart, because they did not believe those who had seen him after he was raised up: Et illi satisfaciebant dicentes: seculum istud iniquitatis et incredulitatis substantia est, quae non sinit per immundos spiritus verem Dei apprehendi virtutem. Idcirco, jam nunc revela justitiam tuam. \"And they confessed the charge, saying: This age is the substance of iniquity and unbelief, which, through the influence of impure spirits, does not permit the true influence of God to be apprehended. Therefore, even now, reveal thy righteousness.\" <div eID=\"gen39733\" type=\"x-p\"/> <div sID=\"gen39734\" type=\"x-p\"/> There are various subscriptions to this book in the MSS. and versions; the principal are the following: \"The holy Gospel according to Mark is ended written by him - in Egypt - in Rome - in the Latin tongue - directed by Peter the 10th-12th year after the ascension of Christ - preached in Alexandria, and all its coasts.\" Dr. Lardner supposes this Gospel to have been composed a.d. 64 or 65, and published before the end of the last mentioned year. See the Preface. <div eID=\"gen39734\" type=\"x-p\"/> <div sID=\"gen39735\" type=\"x-p\"/> The Gospel according to Mark, if not an abridgment of the Gospel according to Matthew, contains a neat, perspicuous abridgment of the history of our Lord; and, taken in this point of view, is very satisfactory; and is the most proper of all the four Gospels to be put into the hands of young persons, in order to bring them to an acquaintance with the great facts of evangelical history. But as a substitute for the Gospel by Matthew, it should never be used. It is very likely that it was written originally for the use of the Gentiles, and probably for those of Rome. Of this, there seem to be several evidences in the work itself. Of the other Gospels it is not only a grand corroborating evidence, but contains many valuable hints for completing the history of our Lord, which have been omitted by the others; and thus, in the mouths of Four witnesses, all these glorious and interesting facts are established. <div eID=\"gen39735\" type=\"x-p\"/> <div sID=\"gen39736\" type=\"x-p\"/> One thing may be observed, that this Gospel has suffered more by the carelessness and inaccuracy of transcribers than any of the others: and hence the various readings in the MSS. are much more numerous, in proportion, than in the other evangelists. Every thing of this description, which I judged to be of real importance, I have carefully noted. <div eID=\"gen39736\" type=\"x-p\"/> <div sID=\"gen39737\" type=\"x-p\"/> Though the matter of St. Mark's work came from the inspiration of the Holy Spirit, yet the language seems to be entirely his own: it is very plain, simple, and unadorned; and sometimes appears to approach to a degree of rusticity or inelegance. Whoever reads the original must be struck with the very frequent, and often pleonastic, occurrence of ευθεως, immediately, and παλιν, again, and such like; but these detract nothing from the accuracy and fidelity of the work. The Hebraisms which abound in it may be naturally expected from a native of Palestine, writing in Greek. The Latinisms which frequently occur are accounted for on the ground of this Gospel being written for the Gentiles, and particularly for the Roman people: this, it must be confessed, is only theory, but it is a theory which stands supported by many arguments, and highly presumptive facts. However this may be, the Gospel according to Mark is a very important portion of Divine revelation, which God has preserved by a chain of providences, from the time of its promulgation until now; and for which no truly pious reader will hesitate to render due praise to that God whose work is ever perfect. Amen.  <chapter eID=\"Mark.16\"/> <div eID=\"gen39737\" type=\"x-p\"/> <div canonical=\"true\" eID=\"gen39043\" osisID=\"Mark\" type=\"book\"/>",
+      "content_plain": "Verse 20 The Lord working with them - This co-operation was twofold, internal and external. Internal, illuminating their minds, convincing them of the truth, and establishing them in it. External, conveying their word to the souls that heard it, by the demonstration of the Holy Ghost; convincing them of sin, righteousness, and judgment; justifying them by his blood, and sanctifying them by his Spirit. Though miraculous powers are not now requisite, because the truth of the Gospel has been sufficiently confirmed, yet this co-operation of God is indispensably necessary, without which no man can be a successful preacher; and without which no soul can be saved. With signs following - Επακολουθουντων σημειων, the accompanying signs: viz. those mentioned in the 17th and 18th verses, and those others just now spoken of, which still continue to be produced by the energy of God, accompanying the faithful preaching of his unadulterated word. Amen - This is added here by many MSS. and versions; but is supposed not to have made a part of the text originally. Griesbach, Bengel, and others, leave it out. St. Jerome mentions certain Greek copies, which have the following remarkable addition to Mar 16:14 , after these words - and reproached them for their unbelief and hardness of heart, because they did not believe those who had seen him after he was raised up: Et illi satisfaciebant dicentes: seculum istud iniquitatis et incredulitatis substantia est, quae non sinit per immundos spiritus verem Dei apprehendi virtutem. Idcirco, jam nunc revela justitiam tuam. \"And they confessed the charge, saying: This age is the substance of iniquity and unbelief, which, through the influence of impure spirits, does not permit the true influence of God to be apprehended. Therefore, even now, reveal thy righteousness.\" There are various subscriptions to this book in the MSS. and versions; the principal are the following: \"The holy Gospel according to Mark is ended written by him - in Egypt - in Rome - in the Latin tongue - directed by Peter the 10th-12th year after the ascension of Christ - preached in Alexandria, and all its coasts.\" Dr. Lardner supposes this Gospel to have been composed a.d. 64 or 65, and published before the end of the last mentioned year. See the Preface. The Gospel according to Mark, if not an abridgment of the Gospel according to Matthew, contains a neat, perspicuous abridgment of the history of our Lord; and, taken in this point of view, is very satisfactory; and is the most proper of all the four Gospels to be put into the hands of young persons, in order to bring them to an acquaintance with the great facts of evangelical history. But as a substitute for the Gospel by Matthew, it should never be used. It is very likely that it was written originally for the use of the Gentiles, and probably for those of Rome. Of this, there seem to be several evidences in the work itself. Of the other Gospels it is not only a grand corroborating evidence, but contains many valuable hints for completing the history of our Lord, which have been omitted by the others; and thus, in the mouths of Four witnesses, all these glorious and interesting facts are established. One thing may be observed, that this Gospel has suffered more by the carelessness and inaccuracy of transcribers than any of the others: and hence the various readings in the MSS. are much more numerous, in proportion, than in the other evangelists. Every thing of this description, which I judged to be of real importance, I have carefully noted. Though the matter of St. Mark's work came from the inspiration of the Holy Spirit, yet the language seems to be entirely his own: it is very plain, simple, and unadorned; and sometimes appears to approach to a degree of rusticity or inelegance. Whoever reads the original must be struck with the very frequent, and often pleonastic, occurrence of ευθεως, immediately, and παλιν, again, and such like; but these detract nothing from the accuracy and fidelity of the work. The Hebraisms which abound in it may be naturally expected from a native of Palestine, writing in Greek. The Latinisms which frequently occur are accounted for on the ground of this Gospel being written for the Gentiles, and particularly for the Roman people: this, it must be confessed, is only theory, but it is a theory which stands supported by many arguments, and highly presumptive facts. However this may be, the Gospel according to Mark is a very important portion of Divine revelation, which God has preserved by a chain of providences, from the time of its promulgation until now; and for which no truly pious reader will hesitate to render due praise to that God whose work is ever perfect. Amen.",
+      "source_record_sha256": "5c934f9b0836c87ef3c64e205e65edd963a8b7f80d037feac5a5c09abce7e3fe",
+      "index_record": {
+        "testament": "NT",
+        "block": 2,
+        "offset": 263762,
+        "length": 5474
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "MRK.16.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Verse 20 The Lord working with them - This co-operation was twofold, internal and external. Internal, illuminating their minds, convincing them of the truth, and establishing them in it. External, conveying their word to the souls that heard it, by the demonstration of the Holy Ghost; convincing them of sin, righteousness, and judgment; justifying them by his blood, and sanctifying them by his Spirit. Though miraculous powers are not now requisite, because the truth of the Gospel has been sufficiently confirmed, yet this co-operation of God is indispensably necessary, without which no man can be a successful preacher; and without which no soul can be saved. With signs following - Επακολουθουντων σημειων, the accompanying signs: viz. those mentioned in the 17th and 18th verses, and those others just now spoken of, which still continue to be produced by the energy of God, accompanying the faithful preaching of his unadulterated word. Amen - This is added here by many MSS. and versions; but is supposed not to have made a part of the text originally. Griesbach, Bengel, and others, leave it out. St. Jerome mentions certain Greek copies, which have the following remarkable addition to Mar 16:14 , after these words - and reproached them for their unbelief and hardness of heart, because they did not believe those who had seen him after he was raised up: Et illi satisfaciebant dicentes: seculum istud iniquitatis et incredulitatis substantia est, quae non sinit per immundos spiritus verem Dei apprehendi virtutem. Idcirco, jam nunc revela justitiam tuam. \"And they confessed the charge, saying: This age is the substance of iniquity and unbelief, which, through the influence of impure spirits, does not permit the true influence of God to be apprehended. Therefore, even now, reveal thy righteousness.\" There are various subscriptions to this book in the MSS. and versions; the principal are the following: \"The holy Gospel according to Mark is ended written by him - in Egypt - in Rome - in the Latin tongue - directed by Peter the 10th-12th year after the ascension of Christ - preached in Alexandria, and all its coasts.\" Dr. Lardner supposes this Gospel to have been composed a.d. 64 or 65, and published before the end of the last mentioned year. See the Preface. The Gospel according to Mark, if not an abridgment of the Gospel according to Matthew, contains a neat, perspicuous abridgment of the history of our Lord; and, taken in this point of view, is very satisfactory; and is the most proper of all the four Gospels to be put into the hands of young persons, in order to bring them to an acquaintance with the great facts of evangelical history. But as a substitute for the Gospel by Matthew, it should never be used. It is very likely that it was written originally for the use of the Gentiles, and probably for those of Rome. Of this, there seem to be several evidences in the work itself. Of the other Gospels it is not only a grand corroborating evidence, but contains many valuable hints for completing the history of our Lord, which have been omitted by the others; and thus, in the mouths of Four witnesses, all these glorious and interesting facts are established. One thing may be observed, that this Gospel has suffered more by the carelessness and inaccuracy of transcribers than any of the others: and hence the various readings in the MSS. are much more numerous, in proportion, than in the other evangelists. Every thing of this description, which I judged to be of real importance, I have carefully noted. Though the matter of St. Mark's work came from the inspiration of the Holy Spirit, yet the language seems to be entirely his own: it is very plain, simple, and unadorned; and sometimes appears to approach to a degree of rusticity or inelegance. Whoever reads the original must be struck with the very frequent, and often pleonastic, occurrence of ευθεως, immediately, and παλιν, again, and such like; but these detract nothing from the accuracy and fidelity of the work. The Hebraisms which abound in it may be naturally expected from a native of Palestine, writing in Greek. The Latinisms which frequently occur are accounted for on the ground of this Gospel being written for the Gentiles, and particularly for the Roman people: this, it must be confessed, is only theory, but it is a theory which stands supported by many arguments, and highly presumptive facts. However this may be, the Gospel according to Mark is a very important portion of Divine revelation, which God has preserved by a chain of providences, from the time of its promulgation until now; and for which no truly pious reader will hesitate to render due praise to that God whose work is ever perfect. Amen."
+    }
+  ],
+  "indexed_verse_count": 15,
+  "unindexed_verse_count": 5,
+  "upstream_snapshot_id": "SOTW_MRK_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 15
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:adam-clarke:MRK.16:P:mark-16-original-chapter-introduction",
+      "navigation_id": "MRK.16:P:mark-16-original-chapter-introduction",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_introduction",
+      "title": "Mark 16 · Original Chapter Introduction",
+      "content_plain": "Introduction Early in the morning after the Sabbath, the three Marys come to the sepulcher, bringing sweet spices to embalm the body, Mar 16:1-4 . They see an angel who announces the resurrection of our Lord, Mar 16:5-8 . Jesus appears to Mary Magdalene, who goes and tells the disciples, Mar 16:9-11 . He appears also to the two disciples who were going into the country, who also tell it to the rest, Mar 16:12 , Mar 16:13 . Afterwards he appears unto the eleven, and commissions them to preach the Gospel to all mankind, Mar 16:14-16 . And promises to endue them with power to work miracles, Mar 16:17 , Mar 16:18 . He is received up into heaven, Mar 16:19 . And they go forth to preach and work miracles, Mar 16:20 .",
+      "content_osis": "<title type=\"x-s\">Introduction</title> <div sID=\"gen39698\" type=\"introduction\"/> <div sID=\"gen39699\" type=\"x-p\"/> <div eID=\"gen39699\" type=\"x-p\"/> <div eID=\"gen39698\" type=\"introduction\"/> <div sID=\"gen39700\" type=\"x-p\"/> Early in the morning after the Sabbath, the three Marys come to the sepulcher, bringing sweet spices to embalm the body, <reference osisRef=\"Mar.16.1-Mar.16.4\">Mar 16:1-4</reference>. They see an angel who announces the resurrection of our Lord, <reference osisRef=\"Mar.16.5-Mar.16.8\">Mar 16:5-8</reference>. Jesus appears to Mary Magdalene, who goes and tells the disciples, <reference osisRef=\"Mar.16.9-Mar.16.11\">Mar 16:9-11</reference>. He appears also to the two disciples who were going into the country, who also tell it to the rest, <reference osisRef=\"Mar.16.12\">Mar 16:12</reference>, <reference osisRef=\"Mar.16.13\">Mar 16:13</reference>. Afterwards he appears unto the eleven, and commissions them to preach the Gospel to all mankind, <reference osisRef=\"Mar.16.14-Mar.16.16\">Mar 16:14-16</reference>. And promises to endue them with power to work miracles, <reference osisRef=\"Mar.16.17\">Mar 16:17</reference>, <reference osisRef=\"Mar.16.18\">Mar 16:18</reference>. He is received up into heaven, <reference osisRef=\"Mar.16.19\">Mar 16:19</reference>. And they go forth to preach and work miracles, <reference osisRef=\"Mar.16.20\">Mar 16:20</reference>. <div eID=\"gen39700\" type=\"x-p\"/> <div sID=\"gen39701\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:clarke:MRK.16.1-1:2:244719:1844",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        33,
+        1484
+      ],
+      "source_fragment_sha256": "e528993a20dd541d38a69d93259ca1d2866dc234c48af84642f78503daded1aa",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "MRK.16.1",
+        "MRK.16.1"
+      ],
+      "source_title_explicit_range": null
+    }
+  ],
+  "navigation_section_count": 1,
+  "reader_visible_entry_count": 15,
+  "unavailable_author_work_for_testament": false
+}

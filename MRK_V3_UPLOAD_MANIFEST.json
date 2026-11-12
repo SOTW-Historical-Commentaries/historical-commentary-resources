@@ -1,0 +1,866 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-mark-2026-11-12",
+  "book": "MRK",
+  "book_name": "Mark",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 41,
+  "testament": "NT",
+  "snapshot": "structured-mark-2026-11-12",
+  "baseline_main_commit": "a25cdb851688aeb00f4e26ac144d02d7dd60c657",
+  "baseline_navigation_manifest_git_blob": "fa36c61a40d918fcfbf4ff54835596b9ae484688",
+  "baseline_navigation_sha256": "2087eb7c51785056f93dfde57ab2c8fb75918c20dea9def038f6c9a71d307169",
+  "baseline_kind": "verified-current-GitHub-main",
+  "prerequisites": [
+    "Confirm previous navigation Git blob fa36c61a40d918fcfbf4ff54835596b9ae484688 and SHA-256 2087eb7c51785056f93dfde57ab2c8fb75918c20dea9def038f6c9a71d307169.",
+    "Confirm all 40 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 116,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/MRK.json",
+      "sha256": "77e18570dd7bc6a94148093fc39eca155b4b8faa52a0da5df3e10e98d1c5b5ba",
+      "git_blob_sha": "712ad64e9988c8ef4d89495d77653342ed6c5c06",
+      "bytes": 233820,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "c3615df3885739b1d472de4947c0ac0c643930997bf9598c5d1ab53a6213f8ce",
+      "git_blob_sha": "88cf9e148126fb1b7c5e60877bea4c9fbb56c2ac",
+      "bytes": 20871,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/1.json",
+      "sha256": "cb7ed6ccfc58132cc76cee10430a382b6c9e74e688738f32a98c3cabfade8a10",
+      "git_blob_sha": "26b7bfd0f526422f5c43d9a8baada90ef2ed43ef",
+      "bytes": 116510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/10.json",
+      "sha256": "81ef38e8c6486f076644d419a7d4e1e24357dc6c19254b5396dec14fb8f5ee1b",
+      "git_blob_sha": "d1a5a01ba832c83eab035d37b5b8ebe247846204",
+      "bytes": 61746,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/11.json",
+      "sha256": "6399521e7503c6ee16fdbc33a52dca2b1d53dd18b78886a23494a86f0f3df672",
+      "git_blob_sha": "4f03e229a62d760248be576af28ef50c1f0c0486",
+      "bytes": 54898,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/12.json",
+      "sha256": "b58ce91ad163ed7c87aaccc0948c109997e1fce983401c8d87cb77b8d0ee8ced",
+      "git_blob_sha": "bf2990e71e844ea4eb1f17dbb629c8f7f6d3442e",
+      "bytes": 49715,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/13.json",
+      "sha256": "33dcf0180555e273476d2aee9a21a82c7ebc6ff3fbd02cc62c8af20b1fc9dcb0",
+      "git_blob_sha": "1218f009564debed38bf031da0aae64ffe006360",
+      "bytes": 41584,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/14.json",
+      "sha256": "d11becb02116493f77a897e615372b513fd8c97178c9ca96853e91c11a215b13",
+      "git_blob_sha": "ad7f448d0c0cb638f671abd8ec9aa15f5a6d804e",
+      "bytes": 61319,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/15.json",
+      "sha256": "93a0552d2c86c8fe13d7a28621196b33c8d2bbac2bab9031297b1ded3112168e",
+      "git_blob_sha": "354cd8528186bdedd948df821718cc3c428bfddf",
+      "bytes": 49766,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/16.json",
+      "sha256": "6ad9c1fd6bccd66ed25ba6befe76f238f90b4a41082c40213de45b1cd9da37f2",
+      "git_blob_sha": "861358f7860fa7dce56efc9d4bfd2e6166c6b8fa",
+      "bytes": 83101,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/2.json",
+      "sha256": "15a87173f438a8689466c26bff117baab0e78e9fe3b682d2487111341c9f263a",
+      "git_blob_sha": "9ed90be40c86d5fb7f0c22ec5285a50b0721d9ac",
+      "bytes": 48409,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/3.json",
+      "sha256": "b48d97348fe45218bf691768ee7453758f27cb64ec1455a370bf8c7e44283e04",
+      "git_blob_sha": "4005e486614faa7b295e8b391888b9c8b1c66bda",
+      "bytes": 53040,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/4.json",
+      "sha256": "767af1598f2f3f93e914afe27ad2cff2b64bcb0a90f1fedcae62316003ebc17d",
+      "git_blob_sha": "55e13016eb029ee8d22896273f030dfa45ef0edd",
+      "bytes": 72968,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/5.json",
+      "sha256": "3478527b1844d48acbb201e49dab3a38640ea608437432ad53a2e88cee9bc7d9",
+      "git_blob_sha": "117ac180088840c596d0b2c2f5a3c87508640a91",
+      "bytes": 69228,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/6.json",
+      "sha256": "4f18203235ae4c44b4bcc7f42b3b69323ab52336332045769a74a9e702b67d25",
+      "git_blob_sha": "9a7c09e14556c3f7bc7ff195284f10798c3836a3",
+      "bytes": 68032,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/7.json",
+      "sha256": "7002946e991e25f4c9efaa979fc79784cc9bd56274d4969a3b1cd4ee04451729",
+      "git_blob_sha": "df47f53a5e9280d446784d99e099a2c74f3114ce",
+      "bytes": 64969,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/8.json",
+      "sha256": "b88b4861d8aea67c91b8892301229b221953265a7a422a8772d7c9dd419db255",
+      "git_blob_sha": "05102beec77be891483895df14bd950f49a062d4",
+      "bytes": 56116,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/adam-clarke/MRK/9.json",
+      "sha256": "402f6a050fde34f55ad0e55781e41217231c2a56309d926976924bc01396d552",
+      "git_blob_sha": "8dddb388b1effd34105ccf1fbefd8918ed6a7682",
+      "bytes": 70961,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/1.json",
+      "sha256": "431363a7f8055b6f2b030d8bed7512f973d0e3aa04fea0d8c145a3c9666307a8",
+      "git_blob_sha": "fcbb3ba51844a693f5ce4ea8fb18625613c14cbf",
+      "bytes": 105085,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/10.json",
+      "sha256": "fe4b610f77cd565ce0b77c2aedf34b1741d70f5493d860c1694eb9cf82c094d3",
+      "git_blob_sha": "06ecfcd34bc2514ce80ff5f7c4d742a733a81918",
+      "bytes": 67413,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/11.json",
+      "sha256": "26f6886d9c3a1f0dbb2167cd167220c6ccc62e406e30a4758082f964d57ee318",
+      "git_blob_sha": "725e6be5d5b05ef35011b08a90756bb7ef08e79f",
+      "bytes": 42355,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/12.json",
+      "sha256": "efbfbb26b145e739579505193148f15b298b4fd7e5d9be05d2892df0ede58e11",
+      "git_blob_sha": "609388cb84eec186c46b088ec08d61061249d354",
+      "bytes": 102369,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/13.json",
+      "sha256": "b01686aed2e5d7b1f1a653aa4f3b88d311e7ccf6b6fc560c01a612a784957be1",
+      "git_blob_sha": "2797cc7f3f30b0700d4733b289fe8fbff7db3439",
+      "bytes": 122635,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/14.json",
+      "sha256": "2f018790d9866392b969b17b758e543af024288d612182ed0411425d15e61fe7",
+      "git_blob_sha": "8ae9ef20f56daf35b6347fe13a5f28c860721874",
+      "bytes": 195587,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/15.json",
+      "sha256": "4af503427fdea0b7e6d556ad352eca37658f65d914875ec71b63c756df371446",
+      "git_blob_sha": "824d79dcc29fb2ba6e7f59be423d68de0db80929",
+      "bytes": 8217,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/16.json",
+      "sha256": "8069445ab962b8108b22efa932c2563981f7c2e80757a5433ca5a3c42a07428b",
+      "git_blob_sha": "5d4961994fe4fb8454cfdfa462b0f5b85f0b4d3d",
+      "bytes": 47815,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/2.json",
+      "sha256": "4304084e1fc4d6d89f9fda6b660c2d08fc20e478e532089edcfe8536e2ad8901",
+      "git_blob_sha": "f3a7ea4ba2b310478c4bf0fc457c9f2ac16ef60c",
+      "bytes": 51229,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/3.json",
+      "sha256": "7f41f62ba5c6cfe6524c60c014ddd1d83f1586592d786cfbb7ff62138816509c",
+      "git_blob_sha": "7e959bb31f7f1be6bcc015731cdf29846d42c13c",
+      "bytes": 7819,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/4.json",
+      "sha256": "8e75323259e1ed074dfc48939f3167b5847f874c6bc61dfde2974a34837c0a58",
+      "git_blob_sha": "92afeb76bd92f96474349fb0ff7e25acae8db1d1",
+      "bytes": 102287,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/5.json",
+      "sha256": "a82d576d30aa9de9e257dd72467e09642d7a8383df99194efee98325469f5bf7",
+      "git_blob_sha": "8cb3fd986784a9e33025dfabad4dde6aa4d638b1",
+      "bytes": 113746,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/6.json",
+      "sha256": "9d45879effc484e72c75b20a187a50a57d286dc9e34397436889f79b518c5b9c",
+      "git_blob_sha": "13a41e17329bd733823964a58a4808cd92e3cd44",
+      "bytes": 146871,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/7.json",
+      "sha256": "99be81e0a5f705760e74b21d675a4f7b02d77d46a7b1c4eff93ff65500f43f9e",
+      "git_blob_sha": "2337f483a761784c77992402fec6af055ec34a1b",
+      "bytes": 62816,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/8.json",
+      "sha256": "15a9dcda24778601d399dd0cdba5465cc8d12225a5bc65a5c7bc359be8885075",
+      "git_blob_sha": "1ea024b61b62c643bd927b2bfe1672c21db06881",
+      "bytes": 70802,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/jamieson-fausset-brown/MRK/9.json",
+      "sha256": "9cf28e67f5ed0242facd74c59693515a357b9ccdf79a786469df5cc53f8ce9bc",
+      "git_blob_sha": "02213ac0f1ef9cb7b39ccda2de1fd11b28e491e7",
+      "bytes": 120567,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/1.json",
+      "sha256": "053384f6bf727aa04514edf34c94fda1edaaf314ce816dbe14274848fc0d7285",
+      "git_blob_sha": "ec8a35ad00b8a6e96224de9d72591a04fff91215",
+      "bytes": 99317,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/10.json",
+      "sha256": "3974c546e5da78bd79603b0b820816e70b976ddf2173575a1108a6497b09a9a4",
+      "git_blob_sha": "5424bcaf11a534260536cd1e0ce4cdc82bd9ce73",
+      "bytes": 25658,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/11.json",
+      "sha256": "108e9de1db8ceee6a2d403302ada3a221389b49e1db80c157f7dc98427c12406",
+      "git_blob_sha": "b5cbde6458c60900066639aef7e029729e1b2ebe",
+      "bytes": 12244,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/12.json",
+      "sha256": "c9fa8284d60af3f9bf8513fbd313592ee650cd7119dc3974aace668a1c13e90e",
+      "git_blob_sha": "d2f3c65d75b55759363fa16cbb95d27be6b51cf4",
+      "bytes": 44491,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/13.json",
+      "sha256": "57c6c029faf7633d041eae75183ff94dd79edd5c1d51f15f44d9bcc900f0f9f6",
+      "git_blob_sha": "7ae4e5728f2fea00a05df795c4030b6e70fcf8fd",
+      "bytes": 10010,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/14.json",
+      "sha256": "f7f9396e07ef2f29a7b3d6268ff89e6311147fadf4028f9e2e725b7487c7b54e",
+      "git_blob_sha": "fa0bbdc96bb313547f88e4b2a3c3e1f87604375d",
+      "bytes": 34433,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/15.json",
+      "sha256": "a4fa427a50b196e155666c08b4d9793abb036592bc1ef8d87d6c59ad8220ccb7",
+      "git_blob_sha": "3303c09b15516fe881265117313b2de78cf6a77c",
+      "bytes": 21089,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/16.json",
+      "sha256": "379e88ea80671cf5495a5d6eca073ee82b550a5e730d5d642f603933ba13df9f",
+      "git_blob_sha": "0247a39b8e72afc007bb76936818f26f2a65cf9f",
+      "bytes": 89991,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/2.json",
+      "sha256": "9d7fa45315759a22fe5341557a74f51545b5a972f9c9e91fd94ab37138c52075",
+      "git_blob_sha": "bd9c2929d2acb9907760adc57ea35f6516fa71ad",
+      "bytes": 21253,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/3.json",
+      "sha256": "c1bdc40a84ad46501f66e11ada2a4688548becbeffe6cb54a020d27c83967707",
+      "git_blob_sha": "40212fcbee297ef409251637fd16eeb1a8a689c7",
+      "bytes": 67680,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/4.json",
+      "sha256": "c05f9eabf21648f7ff23d3551a5d33c0b72fa34ab992fede4a83696e8ce9d0b6",
+      "git_blob_sha": "b9177d43f6c43f0518c13dc29fc6b618409fa47c",
+      "bytes": 10411,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/5.json",
+      "sha256": "91ca9159184b77563d26a9edcd4492221bfb0d642c543db64294975466192e2d",
+      "git_blob_sha": "1a414491438e60e5240eb5ba7e6799e81d10e40a",
+      "bytes": 67708,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/6.json",
+      "sha256": "6ec8516ef5a44dcccc1d0bbe23d839bb7fdd83e21ab1250469f00607e648aff1",
+      "git_blob_sha": "4c5a2bd1bc6b0ce5d54089c4955bd85e2ac077d7",
+      "bytes": 58985,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/7.json",
+      "sha256": "45ff441386f65c5b827feba23ea503d79a9fd065f14a0918da82344be1a49152",
+      "git_blob_sha": "72b3874160d061cbb5b4e3a2def9fb511fd74988",
+      "bytes": 26206,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/8.json",
+      "sha256": "7342c82478ca82bea0cb88c8337b611b57a027deca8b29b52cb95cb2711b6612",
+      "git_blob_sha": "d838626f7eb215d4bad2fc6f0857ffbfe77f907d",
+      "bytes": 23986,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-calvin/MRK/9.json",
+      "sha256": "60e3082cd8ba641a1c2e237a39c9ae6f16176c194847db1f7627948a8d4d9591",
+      "git_blob_sha": "4b1d1eee6e33e0b9ae34c3b7a0222fa6a008d9f8",
+      "bytes": 78405,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/1.json",
+      "sha256": "d5c4d59eca84e78e82efc9b10812defd5fb466ca888c81e33cc0d7ce024585be",
+      "git_blob_sha": "e0ac9be61aeabbdd84d7b417e210ed53bfbb8d7f",
+      "bytes": 250443,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/10.json",
+      "sha256": "fcec950db1f6063c3d99d4612209cbe6dce87d5016532855721c764da488a62e",
+      "git_blob_sha": "dcb34228d17b0f2ba29ceba2f51eddc278e9a793",
+      "bytes": 262467,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/11.json",
+      "sha256": "26179a677fc5ee48a6f2a61b47f36de6fe2794e8b4f3576fda48ec4433ddfa50",
+      "git_blob_sha": "cad3138a476cf5616e968ef7397233185505890f",
+      "bytes": 141255,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/12.json",
+      "sha256": "b4de892e669457cadadb212eaa297336e109aaabd9fa5bd3295d6b7916caf8f7",
+      "git_blob_sha": "3fbba9611263c8bbf8e9c02d0d82783bd84b75ae",
+      "bytes": 246187,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/13.json",
+      "sha256": "f39fa5a1cb3ab8f875851eeeaef3cbcf82488acceecd1bc4a808d80082f1c420",
+      "git_blob_sha": "91b71ad8b688ee49dcbbcae488bc8cc29ebca6f9",
+      "bytes": 148687,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/14.json",
+      "sha256": "222519144f81476e69c4497bfa1c26cf88aab373f58eff079980dda1d36d73e3",
+      "git_blob_sha": "c29941cc75683953097fde2efefda486d73f608a",
+      "bytes": 256923,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/15.json",
+      "sha256": "716f39e7d27cee07e95c34970820970d7d84327e01800bdbeb107628aa8e6746",
+      "git_blob_sha": "7ce3b5628243d309105e34d29925ef54e9b0ab4e",
+      "bytes": 152203,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/16.json",
+      "sha256": "45c7ffd54f2e4a06f94b1ab4ab261f61f7fa7740448d30bbefd87d79b489fb68",
+      "git_blob_sha": "a680b46a9b221344f4c1393453ef93880f6a2c77",
+      "bytes": 145827,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/2.json",
+      "sha256": "25cf70828cbd0f3c1b4db202a992f35a9f86b242a929d7fc4633d9d4ecd2eaa5",
+      "git_blob_sha": "02182ce4ecbb7989e614d6adf61ad32d44cd5f80",
+      "bytes": 222064,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/3.json",
+      "sha256": "a576b3714e786fce95d8cdf8507ea5b61cd82cf5559e0b7cbfd530b98065edff",
+      "git_blob_sha": "de656819b551c06289441b221c0ac261da057303",
+      "bytes": 153104,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/4.json",
+      "sha256": "b28cdb34a9bbc3614f445c579a7068f103a7c11786e6ea32414dcd0a5b9a4ec8",
+      "git_blob_sha": "ed0f4218df4d4a683819db3d16621e4a901277cb",
+      "bytes": 218844,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/5.json",
+      "sha256": "7e5f1ecb1f4a58601280d378224cec5ded0d48b82abefe7afd6f75206e4f4b1d",
+      "git_blob_sha": "e122c9cb84ac983899ae63005f49141bf6251fa4",
+      "bytes": 391308,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/6.json",
+      "sha256": "ac200d91127aab2741b698dc2a81885d9b91074e82602dcf3aa73745ce2039c3",
+      "git_blob_sha": "cca7a1cac13636a20820e73561c16dccd359a5e8",
+      "bytes": 304528,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/7.json",
+      "sha256": "2785f083b380d59f72aa226ea67892ae33b5b47b2ed8824ba2d289614606951a",
+      "git_blob_sha": "6620e608a7030a28d5213878566743bdbf38f97b",
+      "bytes": 306104,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/8.json",
+      "sha256": "b7c7814f1ebccb081e52e23c4843af600d20cf0c13c5daf5246d3a3f9842b554",
+      "git_blob_sha": "333d3390d75f757331de8a23ab0058b8e776a3eb",
+      "bytes": 191592,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/john-gill/MRK/9.json",
+      "sha256": "14c40747ac829f103abbd6e8e0925e6db79481597259298980632e5f7343230e",
+      "git_blob_sha": "de136bc0edfdfc330326a59c595eaa06274b0728",
+      "bytes": 255076,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/1.json",
+      "sha256": "f6769a4757541931dfab85cb81d94d19f2ddfaf1f3d1b756aa550c18e00e09cf",
+      "git_blob_sha": "2ab4def77d6cd755df10a7d42eb3f7ba757a6fff",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/10.json",
+      "sha256": "fa3a33aabacc33c036f7d9d99d8b836fca3c6af62f6aa7d8715954c25106d0ee",
+      "git_blob_sha": "dea8d9265b21e15448759992b43fc6c66599e9da",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/11.json",
+      "sha256": "802d6e334b4182f9fcb1c7e8ecee1e08d112d4c6db26b31ed57a06cff531fdff",
+      "git_blob_sha": "73576337d048ea3e1b4846e2da6c4e3e595a9984",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/12.json",
+      "sha256": "e8a387cbf0ed48996e5d5b7739d61d5a4632802b412c5df4f798118d8c386bdf",
+      "git_blob_sha": "32fa8cbd77f2c9703a4b8e75fa4ac6f8ee197e95",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/13.json",
+      "sha256": "cc6b0d351fad3df57fe7ec08fa98d821624e8f8a9c727d629275a8a85d6b9c58",
+      "git_blob_sha": "44138a56971b0ab343a301cb1b268a8abb41c606",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/14.json",
+      "sha256": "4ce1d640f271e5c59b2525f11c3a8ad92c0f2281e7c6f49af3899a2f3406c4a9",
+      "git_blob_sha": "50e84916f84c0fc711f99667c273b85d77645cfd",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/15.json",
+      "sha256": "83402fb8cf148c71c1bf22f0beb495fa9d50458d6e63b0e4e675e4ebbf326da7",
+      "git_blob_sha": "40529aac4462c23e1dd073ffd86341d942ddcaf9",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/16.json",
+      "sha256": "7dea51b745801f644dcf8c24c1a315823e568664f25777a6b0bde5b3d154d6ca",
+      "git_blob_sha": "61c3622db96b10ad04f79bee601fb1e1fcf83774",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/2.json",
+      "sha256": "ceb0a11d98d1bcce6e0d3026d244c3424558cd15d3199fc7abeac24efa12737a",
+      "git_blob_sha": "5df7bc9db14f4eb8cbbaf4bf84206e98de79dc93",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/3.json",
+      "sha256": "f8efefc492afa27b1b75d8537964f4dfa0efe75284a84391cf2048fca54e1d11",
+      "git_blob_sha": "17d9c50880f8cb41aa61766bc31fcf2af38e91fb",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/4.json",
+      "sha256": "bcc5c12cc068e18764160a09d4d0908fb23cd0344a09b4aad2b2a6eccfc1841d",
+      "git_blob_sha": "e6db866dab5af620eea12811c4491c1afc91b812",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/5.json",
+      "sha256": "1e6dccef487f34a14afda702539cc288c16431ecc562a37ffd3544055671965a",
+      "git_blob_sha": "b4585a27a0ce9bfbe69d293fd9eef52fdb95d9bf",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/6.json",
+      "sha256": "36779b9b8cb82659a990991f608ab53f8aa9756efb7ca9773f5b6a00d280b4f5",
+      "git_blob_sha": "bcc660ba37bf5c84c6a8bd6aac3cdcd97c452a0e",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/7.json",
+      "sha256": "aa18cbd1b959b47dd8fe476f1741da70c462cf9075cd2b6c8a272008e5eac1de",
+      "git_blob_sha": "cfd60950596ca2e1f8f5790714f29e3d37a65097",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/8.json",
+      "sha256": "9d89d32b7ee96d60d3f277c7cdd6a6152837894a53ea20df445d81121d2c763b",
+      "git_blob_sha": "00e4f25e37f530edac790b5094c7c5f91c976c03",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/keil-delitzsch/MRK/9.json",
+      "sha256": "6ba959bdab33d18d6574ef9b9623dbc8a9ced2d387b770e2dbb9f492391546b5",
+      "git_blob_sha": "62e544219024d9922de077ae52f7b15b48094cca",
+      "bytes": 1494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/1.json",
+      "sha256": "ebbf4a301ca069f24b9c192cb3b70825c0b6d6151663c462b647c731b0b5a5c3",
+      "git_blob_sha": "b4c14561e588f3c4413ceea8c46c7d21bb2f8965",
+      "bytes": 214358,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/10.json",
+      "sha256": "a0cd533fd6a16524c31f76e76c9809ac9f82ff507579dc33bf4a5cb75556e103",
+      "git_blob_sha": "22ecc93f4590e4088aa5431cc36202d0b95a0f43",
+      "bytes": 193730,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/11.json",
+      "sha256": "ed305f35030c0c37c9f93abf5622f96c5e8fc7420f9dc4d2cfacbb0186d0bd23",
+      "git_blob_sha": "4fb0fc07109b4b7a5b5f444bb2e606ab49a24908",
+      "bytes": 123187,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/12.json",
+      "sha256": "a400b2a4477712450a98d62e056bfd5774fb7db2062d0393e9865c71c137ae3f",
+      "git_blob_sha": "ca6331a02c0c7f1059fdd790d325fbf147639cbb",
+      "bytes": 182260,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/13.json",
+      "sha256": "8a88b7d41c15905b7df637e98ecf251ea6b9b3c674bffa13cc40831131654fec",
+      "git_blob_sha": "1ce18c59b5780a45e6798dc07a4985a42fab5bfa",
+      "bytes": 148160,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/14.json",
+      "sha256": "ec20f2a9125cfb9b347ee103878ab99a2a9141a338a475ac41168a1c4f84fc7e",
+      "git_blob_sha": "014290bd79a35f7f8e9e31b5a076489ba25460e8",
+      "bytes": 285924,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/15.json",
+      "sha256": "e5560eb917fc5910965c99cb91a31f3a822f50924537354a66975b1aaf809e50",
+      "git_blob_sha": "0fc14c2831de2c9624a837a7dfd7896b2e9be256",
+      "bytes": 187564,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/16.json",
+      "sha256": "f542ba96ad87af31d4d5e91b593c9a86def34bc2f82111a885d77693bc072e3b",
+      "git_blob_sha": "1ee4cb3493307d8a55079b1f2db74f01360f7527",
+      "bytes": 123883,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/2.json",
+      "sha256": "c2a2a7ea19effdd618bfbdad2ddada8555bd610b82030c1b9c532318caa6a158",
+      "git_blob_sha": "083765756e09ed81d643127d8a1c3e11acc40e0f",
+      "bytes": 118600,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/3.json",
+      "sha256": "50c3272e8987a8ff6ce50833dcc0e4fc1e48db0a2aa555d49a0d0b7dfce84434",
+      "git_blob_sha": "d89e577743ba69ad4d3ac241e6abbc5a2c34ffac",
+      "bytes": 124289,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/4.json",
+      "sha256": "644c353a45713793fc89b7bfa8811df1a7623ffaa89f9d7fe43d931c6b588b49",
+      "git_blob_sha": "e9dc0004f66bacb3dd2052dc193cb27c8e57c191",
+      "bytes": 161234,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/5.json",
+      "sha256": "c01c261afcf26ad25eecb272feff13d8bda89f1b963973346f94022b01540dcf",
+      "git_blob_sha": "610ecb0a5d1b6a94e4eab1eb68da3d640b65aafd",
+      "bytes": 157439,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/6.json",
+      "sha256": "1dd98033fd57905777630cb11e2fafe4b7894ddd0b60c4c941a5bb22a146a815",
+      "git_blob_sha": "66e4ac516c1043d557ebaa01eaf897d13da03127",
+      "bytes": 201010,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/7.json",
+      "sha256": "b6ed06962f2a1561e408c73a1100012090cceed1a7d8dfcfbfc55e36f9f72930",
+      "git_blob_sha": "87b726dff41e7a5bbbc815d4164ce3612adba861",
+      "bytes": 155585,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/8.json",
+      "sha256": "9946c22037e24f27a1393af9833bb4be7041948b6499c1bd5aca14614e0c831c",
+      "git_blob_sha": "ce921e1eda0df387f1e08d6d7a436fb051515763",
+      "bytes": 148474,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/authors/matthew-henry/MRK/9.json",
+      "sha256": "3d036835880f77b37efefe709c019d3ec58143cac9b31c57e8f8765d5f89c861",
+      "git_blob_sha": "5559b28003698000876b6517b2b7c99d0b928f04",
+      "bytes": 195523,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/1.json",
+      "sha256": "28264ea48b485782b21df49deba72802544cedfb47ca0aa1e1d39046b9d22360",
+      "git_blob_sha": "1f99a0b7253e94634bd772006929d431a546c3ff",
+      "bytes": 14236,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/10.json",
+      "sha256": "1fbee2354e86a8b1203fb72ef1cd155494526b598ea92308c98cba9858f5870c",
+      "git_blob_sha": "e29af614e5202902875fc13bfb2076ddd4252ef8",
+      "bytes": 14406,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/11.json",
+      "sha256": "6892cfec6e7a6d36bb8ff805b6add5873b352c309a21284eb56e2133eadb3bdf",
+      "git_blob_sha": "4efd8a1b49d38bd1056cf5c710f27be162fce3e9",
+      "bytes": 10720,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/12.json",
+      "sha256": "e4cf5e991aa4d2ab907fb1f1bb819fe6c02658b48151779cdf530833073b6f67",
+      "git_blob_sha": "dcd1d05e587ab9220d205c2e29a372436480f976",
+      "bytes": 13681,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/13.json",
+      "sha256": "cd7ff4f403a7554111f20d1118162327e6a4ab5c31eab65b132afec1220699fc",
+      "git_blob_sha": "84e49243fd0a16dc30821ad294d730892f32d8e5",
+      "bytes": 11909,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/14.json",
+      "sha256": "cfc8fdf9396593bf470d11eddc4395d72875fb295e38251a52b690a43d458ff2",
+      "git_blob_sha": "91125c461dbcd194e86b7f92563c54a4ef3d2bc0",
+      "bytes": 18264,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/15.json",
+      "sha256": "d2bdaffef237bde65062dbae2fda07238a44fadee046889ae5572f0b81474052",
+      "git_blob_sha": "64ba67131982138d5b1ad4edcc4b191c03199d5d",
+      "bytes": 10590,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/16.json",
+      "sha256": "932636f3267b14946fa26e02bb34bc6812d127a237f1e2832fddcba6e427fc3b",
+      "git_blob_sha": "df4d3100f72654d8907947a713e405f0f0f4652e",
+      "bytes": 9836,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/2.json",
+      "sha256": "a9658b01c7a668ec69edc49937f8e6f6562d2d027351ad53009275049ae18aee",
+      "git_blob_sha": "b92ea74a8f19b8a9b9457456c238b509b2f76a55",
+      "bytes": 10547,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/3.json",
+      "sha256": "61abab9d0a13647cca365851b59c3fbc8bb11fc9c97c499dc39e58d5e22ec399",
+      "git_blob_sha": "cb54900441a4a773cda871c4adf8bb61df4ff9a9",
+      "bytes": 9469,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/4.json",
+      "sha256": "028a0d4404a3af91b850c3fbfa323dd6c679a84280b5a987d70086ed1e96303d",
+      "git_blob_sha": "c6ad92497d4acee09129257a476fc9e6382131c7",
+      "bytes": 12364,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/5.json",
+      "sha256": "20f6378abde1151b6952e34bcbbee5923b931bc7f64f8518ea4a0909cd6d9ce1",
+      "git_blob_sha": "c4b062b9481e46d4c8cebfd1cafd90120129283c",
+      "bytes": 13264,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/6.json",
+      "sha256": "a0f4a163919cfde3fa52a83977d7fd75dfb67a0d94b74475bb0bcad7a30b73cf",
+      "git_blob_sha": "d9ba1fd0ad766df616fcfaaef9462d23fe0b8cc9",
+      "bytes": 16443,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/7.json",
+      "sha256": "f465607a6cced421af2c7e8f2def3876fa90c60528c5a71752aa6efd4161a042",
+      "git_blob_sha": "7554a22efbc6fe4db4df42783730df7ecf1953e6",
+      "bytes": 11000,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/8.json",
+      "sha256": "4d3ad04deb0696b2d7f46b5dbebb5d3afa63a6a2feb95a1268941460dcd39462",
+      "git_blob_sha": "cb9e969badb4595399ee379f000323ea981fd019",
+      "bytes": 11982,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/index/MRK/9.json",
+      "sha256": "3f9268e878d65b4ccd082f10af8ea874ab185c7cc4da65637c36eedbb343e49c",
+      "git_blob_sha": "f5c141188c8b86dce01747bc21902174dfd8fd36",
+      "bytes": 14535,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-mark-2026-11-12/manifest.json",
+      "sha256": "c96b7fb92be2e158ec4c2d9bc5ff455167b55fcc0f97a0970a1c7e51c42974bd",
+      "git_blob_sha": "7b3767d9b18fd6998adb83ebcbc69b7873a56451",
+      "bytes": 1736,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-mark-v3.html",
+      "sha256": "fb8d404d2c3394ba8c848a20fc35e60086a25666c5900e77f687ee00761b002a",
+      "git_blob_sha": "6c9cd4d2671292349e7c5bb6fa7fe8662a58a607",
+      "bytes": 14700,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 22018,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 227627,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 16,
+    "verse_coordinates": 678,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 5,
+    "original_entries": 1512,
+    "verse_author_routes": 2128,
+    "original_P_sections": 164,
+    "routed_P_sections": 164
+  },
+  "source_scoped_exceptions": "Mark uses four original New Testament SWORD source modules plus original HelloAO Gill. Original Keil & Delitzsch has no NT commentary. All missing verse indexes, source-wide pooled records, introductions and original chapter headings remain bounded and independently source-audited.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}
