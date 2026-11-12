@@ -1,0 +1,789 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter",
+  "snapshot_id": "structured-romans-2026-11-12",
+  "author_id": "jamieson-fausset-brown",
+  "book_id": "ROM",
+  "chapter": 1,
+  "canonical_chapter": "ROM.1",
+  "versification": "KJV",
+  "verse_count": 32,
+  "source": {
+    "system": "CrossWire/SWORD",
+    "module_id": "jfb",
+    "module_version": "3.0",
+    "module_title": "Jamieson Fausset Brown Bible Commentary",
+    "module_versification": "KJV",
+    "mod_driver": "zCom4",
+    "distribution_license": "Public Domain",
+    "text_source": "https://ccel.org/ccel/j/jamieson/jfb/cache/jfb.txt",
+    "module_zip_sha256": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "license_declared_by": "module configuration in original archive",
+    "native_testament": "NT",
+    "native_testament_available": true
+  },
+  "fallback_reason": "none",
+  "chapter_introductions": {
+    "chapter": null,
+    "book": null
+  },
+  "sword_marker_records": [
+    {
+      "kind": "book_marker",
+      "content_osis": "<div canonical=\"true\" osisID=\"Rom\" sID=\"gen31642\" type=\"book\"/> <milestone n=\"THE EPISTLE OF PAUL THE APOSTLE TO THE ROMANS\" type=\"x-usfm-toc1\"/> <milestone n=\"\" type=\"x-usfm-toc2\"/> <milestone n=\"\" type=\"x-usfm-toc3\"/> <title type=\"main\">THE EPISTLE OF PAUL THE APOSTLE TO THE ROMANS</title> <div sID=\"gen31643\" type=\"x-p\"/> Commentary by David Brown<div eID=\"gen31643\" type=\"x-p\"/> ",
+      "source_record_sha256": "62d9dea4fac61ab8b98a53c707a5bea9af8de7b6f6eba2f0f4c14ed9d2b50ef5",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 0,
+        "length": 384
+      }
+    },
+    {
+      "kind": "chapter_marker",
+      "content_osis": "<chapter n=\"1\" osisID=\"Rom.1\" sID=\"Rom.1\"/> <div sID=\"gen31644\" type=\"introduction\"/> ",
+      "source_record_sha256": "13d1fc1eddfec52cfdfbb3fd44b7517ac26d4e7281a2ba870d868d44ca4875c1",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 384,
+        "length": 86
+      }
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "sword:jfb:ROM.1.1-1:6:470:11921",
+      "passage_start": "ROM.1.1",
+      "passage_end": "ROM.1.1",
+      "start_verse": 1,
+      "end_verse": 1,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16335\"/><title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen31645\" type=\"x-p\"/> The Genuineness of the Epistle to the Romans has never been questioned. It has the unbroken testimony of all antiquity, up to Clement of Rome, the apostle's \"fellow laborer in the Gospel, whose name was in the Book of Life\" (<reference osisRef=\"Phil.4.3\">Php 4:3</reference>), and who quotes from it in his undoubted Epistle to the Corinthians, written before the close of the first century. The most searching investigations of modern criticism have left it untouched.<div eID=\"gen31645\" type=\"x-p\"/> <div eID=\"gen31644\" type=\"introduction\"/> <div sID=\"gen31646\" type=\"x-p\"/><hi type=\"bold\">When and Where this Epistle was written we have the means of determining with great precision, from the Epistle itself compared with the Acts of the Apostles. Up to the date of it the apostle had never been at Rome (<reference osisRef=\"Rom.1.11\">Ro 1:11</reference>, 13, 15). He was then on the eve of visiting Jerusalem with a pecuniary contribution for its Christian poor from the churches of Macedonia and Achaia, after which his purpose was to pay a visit to Rome on his way to Spain (<reference osisRef=\"Rom.15.23-Rom.15.28\">Ro 15:23-28</reference>). Now this contribution we know that he carried with him from Corinth, at the close of his third visit to that city, which lasted three months (<reference osisRef=\"Acts.20.2\">Ac 20:2</reference>, <reference osisRef=\"Acts.20.3\">3</reference>; <reference osisRef=\"Acts.24.17\">24:17</reference>). On this occasion there accompanied him from Corinth certain persons whose names are given by the historian of the Acts (<reference osisRef=\"Acts.20.4\">Ac 20:4</reference>), and four of these are expressly mentioned in our Epistle as being with the apostle when he wrote it--</hi>Timotheus, Sosipater, Gaius, and Erastus (<reference osisRef=\"Rom.16.21\">Ro 16:21</reference>, <reference osisRef=\"Rom.16.23\">23</reference>). Of these four, the third, Gaius, was an inhabitant of Corinth (<reference osisRef=\"1Cor.1.14\">1Co 1:14</reference>), and the fourth, Erastus, was \"chamberlain of the city\" (<reference osisRef=\"Rom.16.23\">Ro 16:23</reference>), which can hardly be supposed to be other than Corinth. Finally, Phoebebe, the bearer, as appears, of this Epistle, was a deaconess of the Church at Cenchrea, the eastern port of Corinth (<reference osisRef=\"Rom.16.1\">Ro 16:1</reference>). Putting these facts together, it is impossible to resist the conviction, in which all critics agree, that Corinth was the place from which the Epistle was written, and that it was despatched about the close of the visit above mentioned, probably in the early spring of the year 58.<div eID=\"gen31646\" type=\"x-p\"/> <div sID=\"gen31647\" type=\"x-p\"/><hi type=\"bold\">The Founder of this celebrated church is unknown. That it owed its origin to the apostle Peter, and that he was its first bishop, though an ancient tradition and taught in the Church of Rome as a fact not to be doubted, is refuted by the clearest evidence, and is given up even by candid Romanists. On that supposition, how are we to account for so important a circumstance being passed by in silence by the historian of the Acts, not only in the narrative of Peter's labors, but in that of Paul's approach to the metropolis, of the deputations of Roman \"brethren\" that came as far as Appii Forum and the Three Taverns to meet him, and of his two years' labors there (<reference osisRef=\"Acts.28.15\">Ac 28:15</reference>, <reference osisRef=\"Acts.28.30\">30</reference>)? And how, consistently with his declared principle--</hi>not to build on another man's foundation (<reference osisRef=\"Rom.15.20\">Ro 15:20</reference>)--could he express his anxious desire to come to them that he might have some fruit among them also, even as among other Gentiles (<reference osisRef=\"Rom.1.13\">Ro 1:13</reference>), if all the while he knew that they had the apostle of the circumcision for their spiritual father? And how, if so, is there no salutation to Peter among the many in this Epistle? or, if it may be thought that he was known to be elsewhere at that particular time, how does there occur in all the Epistles which our apostle afterwards wrote from Rome not one allusion to such an origin of the church at Rome? The same considerations would seem to prove that this church owed its origin to no prominent Christian laborer; and this brings us to the much-litigated question.<div eID=\"gen31647\" type=\"x-p\"/> <div sID=\"gen31648\" type=\"x-p\"/><hi type=\"bold\">For What Class of Christians was this Epistle principally designed--</hi>Jewish or Gentile? That a large number of Jews and Jewish proselytes resided at this time at Rome is known to all who are familiar with the classical and Jewish writers of that and the immediately subsequent periods; and that those of them who were at Jerusalem on the day of Pentecost (<reference osisRef=\"Acts.2.10\">Ac 2:10</reference>), and formed probably part of the three thousand converts of that day, would on their return to Rome carry the glad tidings with them, there can be no doubt. Nor are indications wanting that some of those embraced in the salutations of this Epistle were Christians already of long standing, if not among the earliest converts to the Christian faith. Others of them who had made the apostle's acquaintance elsewhere, and who, if not indebted to him for their first knowledge of Christ, probably owed much to his ministrations, seemed to have charged themselves with the duty of cherishing and consolidating the work of the Lord in the capital. And thus it is not improbable that up to the time of the apostle's arrival the Christian community at Rome had been dependent upon subordinate agency for the increase of its numbers, aided by occasional visits of stated preachers from the provinces; and perhaps it may be gathered from the salutations of the last chapter that it was up to that time in a less organized, though far from less flourishing state, than some other churches to whom the apostle had already addressed Epistles. Certain it is, that the apostle writes to them expressly as a Gentile Church (<reference osisRef=\"Rom.1.13\">Ro 1:13</reference>, <reference osisRef=\"1Cor.1.15\">15</reference>; <reference osisRef=\"1Cor.15.15\">15:15</reference>, <reference osisRef=\"1Cor.15.16\">16</reference>); and though it is plain that there were Jewish Christians among them, and the whole argument presupposes an intimate acquaintance on the part of his readers with the leading principles of the Old Testament, this will be sufficiently explained by supposing that the bulk of them, having before they knew the Lord been Gentile proselytes to the Jewish faith, had entered the pale of the Christian Church through the gate of the ancient economy.<div eID=\"gen31648\" type=\"x-p\"/> <div sID=\"gen31649\" type=\"x-p\"/> It remains only to speak briefly of the Plan and Character Of this Epistle. Of all the undoubted Epistles of our apostle, this is the most elaborate, and at the same time the most glowing. It has just as much in common with a theological treatise as is consistent with the freedom and warmth of a real letter. Referring to the headings which we have prefixed to its successive sections, as best exhibiting the progress of the argument and the connection of its points, we here merely note that its first great topic is what may be termed the legal relation of man to God as a violator of His holy law, whether as merely written on the heart, as in the case of the heathen, or, as in the case of the Chosen People, as further known by external revelation; that it next treats of that legal relation as wholly reversed through believing connection with the Lord Jesus Christ; and that its third and last great topic is the new life which accompanies this change of relation, embracing at once a blessedness and a consecration to God which, rudimentally complete already, will open, in the future world, into the bliss of immediate and stainless fellowship with God. The bearing of these wonderful truths upon the condition and destiny of the Chosen People, to which the apostle next comes, though it seem but the practical application of them to his kinsmen according to the flesh, is in some respects the deepest and most difficult part of the whole Epistle, carrying us directly to the eternal springs of Grace to the guilty in the sovereign love and inscrutable purposes of God; after which, however, we are brought back to the historical platform of the visible Church, in the calling of the Gentiles, the preservation of a faithful Israelitish remnant amidst the general unbelief and fall of the nation, and the ultimate recovery of all Israel to constitute, with the Gentiles in the latter day, one catholic Church of God upon earth. The remainder of the Epistle is devoted to sundry practical topics, winding up with salutations and outpourings of heart delightfully suggestive.<div eID=\"gen31649\" type=\"x-p\"/> <title type=\"x-s\">CHAPTER 1</title> <title type=\"x-s3\"><reference osisRef=\"Rom.1.1-Rom.1.17\">Ro 1:1-17</reference>. Introduction.</title> <div sID=\"gen31650\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16335\"/><hi type=\"bold\">1. Paul--</hi>(See on <reference osisRef=\"Acts.13.9\">Ac 13:9</reference>).<div eID=\"gen31650\" type=\"x-p\"/> <div sID=\"gen31651\" type=\"x-p\"/><hi type=\"bold\">a servant of Jesus Christ--</hi>The word here rendered \"servant\" means \"bond-servant,\" or one subject to the will and wholly at the disposal of another. In this sense it is applied to the disciples of Christ at large (<reference osisRef=\"1Cor.7.21-1Cor.7.23\">1Co 7:21-23</reference>), as in the Old Testament to all the people of God (<reference osisRef=\"Isa.66.14\">Is 66:14</reference>). But as, in addition to this, the prophets and kings of Israel were officially \"the servants of the Lord\" (<reference osisRef=\"Josh.1.1\">Jos 1:1</reference>; <reference osisRef=\"Ps.18.1\">Psa 18:1</reference>, title), the apostles call themselves, in the same official sense, \"the servants of Christ\" (as here, and <reference osisRef=\"Phil.1.1\">Php 1:1</reference>; <reference osisRef=\"Jas.1.1\">Jas 1:1</reference>; <reference osisRef=\"2Pet.1.1\">2Pe 1:1</reference>; Jude 1), expressing such absolute subjection and devotion to the Lord Jesus as they would never have yielded to a mere creature. (See on <reference osisRef=\"Rom.1.7\">Ro 1:7</reference>; <reference osisRef=\"John.5.22\">Joh 5:22</reference>, <reference osisRef=\"John.5.23\">23</reference>).<div eID=\"gen31651\" type=\"x-p\"/> <div sID=\"gen31652\" type=\"x-p\"/><hi type=\"bold\">called to be an apostle--</hi>when first he \"saw the Lord\"; the indispensable qualification for apostleship. (See on <reference osisRef=\"Acts.9.5\">Ac 9:5</reference>; <reference osisRef=\"Acts.22.14\">Ac 22:14</reference>; <reference osisRef=\"1Cor.9.1\">1Co 9:1</reference>).<div eID=\"gen31652\" type=\"x-p\"/> <div sID=\"gen31653\" type=\"x-p\"/><hi type=\"bold\">separated unto the--</hi>preaching of the<div eID=\"gen31653\" type=\"x-p\"/> <div sID=\"gen31654\" type=\"x-p\"/><hi type=\"bold\">gospel--</hi>neither so late as when \"the Holy Ghost said, Separate me Barnabas and Saul\" (<reference osisRef=\"Acts.13.2\">Ac 13:2</reference>), nor so early as when \"separated from his mother's womb\" (see on <reference osisRef=\"Gal.1.15\">Ga 1:15</reference>). He was called at one and the same time to the faith and the apostleship of Christ (<reference osisRef=\"Acts.26.16-Acts.26.18\">Ac 26:16-18</reference>).<div eID=\"gen31654\" type=\"x-p\"/> <div sID=\"gen31655\" type=\"x-p\"/><hi type=\"bold\">of God--</hi>that is, the Gospel of which God is the glorious Author. (So <reference osisRef=\"Rom.15.16\">Ro 15:16</reference>; <reference osisRef=\"1Thess.2.2\">1Th 2:2</reference>, <reference osisRef=\"2Cor.8.9\">8, 9</reference>; <reference osisRef=\"1Pet.4.17\">1Pe 4:17</reference>). <div eID=\"gen31655\" type=\"x-p\"/>",
+      "content_plain": "INTRODUCTION The Genuineness of the Epistle to the Romans has never been questioned. It has the unbroken testimony of all antiquity, up to Clement of Rome, the apostle's \"fellow laborer in the Gospel, whose name was in the Book of Life\" ( Php 4:3 ), and who quotes from it in his undoubted Epistle to the Corinthians, written before the close of the first century. The most searching investigations of modern criticism have left it untouched. When and Where this Epistle was written we have the means of determining with great precision, from the Epistle itself compared with the Acts of the Apostles. Up to the date of it the apostle had never been at Rome ( Ro 1:11 , 13, 15). He was then on the eve of visiting Jerusalem with a pecuniary contribution for its Christian poor from the churches of Macedonia and Achaia, after which his purpose was to pay a visit to Rome on his way to Spain ( Ro 15:23-28 ). Now this contribution we know that he carried with him from Corinth, at the close of his third visit to that city, which lasted three months ( Ac 20:2 , 3 ; 24:17 ). On this occasion there accompanied him from Corinth certain persons whose names are given by the historian of the Acts ( Ac 20:4 ), and four of these are expressly mentioned in our Epistle as being with the apostle when he wrote it-- Timotheus, Sosipater, Gaius, and Erastus ( Ro 16:21 , 23 ). Of these four, the third, Gaius, was an inhabitant of Corinth ( 1Co 1:14 ), and the fourth, Erastus, was \"chamberlain of the city\" ( Ro 16:23 ), which can hardly be supposed to be other than Corinth. Finally, Phoebebe, the bearer, as appears, of this Epistle, was a deaconess of the Church at Cenchrea, the eastern port of Corinth ( Ro 16:1 ). Putting these facts together, it is impossible to resist the conviction, in which all critics agree, that Corinth was the place from which the Epistle was written, and that it was despatched about the close of the visit above mentioned, probably in the early spring of the year 58. The Founder of this celebrated church is unknown. That it owed its origin to the apostle Peter, and that he was its first bishop, though an ancient tradition and taught in the Church of Rome as a fact not to be doubted, is refuted by the clearest evidence, and is given up even by candid Romanists. On that supposition, how are we to account for so important a circumstance being passed by in silence by the historian of the Acts, not only in the narrative of Peter's labors, but in that of Paul's approach to the metropolis, of the deputations of Roman \"brethren\" that came as far as Appii Forum and the Three Taverns to meet him, and of his two years' labors there ( Ac 28:15 , 30 )? And how, consistently with his declared principle-- not to build on another man's foundation ( Ro 15:20 )--could he express his anxious desire to come to them that he might have some fruit among them also, even as among other Gentiles ( Ro 1:13 ), if all the while he knew that they had the apostle of the circumcision for their spiritual father? And how, if so, is there no salutation to Peter among the many in this Epistle? or, if it may be thought that he was known to be elsewhere at that particular time, how does there occur in all the Epistles which our apostle afterwards wrote from Rome not one allusion to such an origin of the church at Rome? The same considerations would seem to prove that this church owed its origin to no prominent Christian laborer; and this brings us to the much-litigated question. For What Class of Christians was this Epistle principally designed-- Jewish or Gentile? That a large number of Jews and Jewish proselytes resided at this time at Rome is known to all who are familiar with the classical and Jewish writers of that and the immediately subsequent periods; and that those of them who were at Jerusalem on the day of Pentecost ( Ac 2:10 ), and formed probably part of the three thousand converts of that day, would on their return to Rome carry the glad tidings with them, there can be no doubt. Nor are indications wanting that some of those embraced in the salutations of this Epistle were Christians already of long standing, if not among the earliest converts to the Christian faith. Others of them who had made the apostle's acquaintance elsewhere, and who, if not indebted to him for their first knowledge of Christ, probably owed much to his ministrations, seemed to have charged themselves with the duty of cherishing and consolidating the work of the Lord in the capital. And thus it is not improbable that up to the time of the apostle's arrival the Christian community at Rome had been dependent upon subordinate agency for the increase of its numbers, aided by occasional visits of stated preachers from the provinces; and perhaps it may be gathered from the salutations of the last chapter that it was up to that time in a less organized, though far from less flourishing state, than some other churches to whom the apostle had already addressed Epistles. Certain it is, that the apostle writes to them expressly as a Gentile Church ( Ro 1:13 , 15 ; 15:15 , 16 ); and though it is plain that there were Jewish Christians among them, and the whole argument presupposes an intimate acquaintance on the part of his readers with the leading principles of the Old Testament, this will be sufficiently explained by supposing that the bulk of them, having before they knew the Lord been Gentile proselytes to the Jewish faith, had entered the pale of the Christian Church through the gate of the ancient economy. It remains only to speak briefly of the Plan and Character Of this Epistle. Of all the undoubted Epistles of our apostle, this is the most elaborate, and at the same time the most glowing. It has just as much in common with a theological treatise as is consistent with the freedom and warmth of a real letter. Referring to the headings which we have prefixed to its successive sections, as best exhibiting the progress of the argument and the connection of its points, we here merely note that its first great topic is what may be termed the legal relation of man to God as a violator of His holy law, whether as merely written on the heart, as in the case of the heathen, or, as in the case of the Chosen People, as further known by external revelation; that it next treats of that legal relation as wholly reversed through believing connection with the Lord Jesus Christ; and that its third and last great topic is the new life which accompanies this change of relation, embracing at once a blessedness and a consecration to God which, rudimentally complete already, will open, in the future world, into the bliss of immediate and stainless fellowship with God. The bearing of these wonderful truths upon the condition and destiny of the Chosen People, to which the apostle next comes, though it seem but the practical application of them to his kinsmen according to the flesh, is in some respects the deepest and most difficult part of the whole Epistle, carrying us directly to the eternal springs of Grace to the guilty in the sovereign love and inscrutable purposes of God; after which, however, we are brought back to the historical platform of the visible Church, in the calling of the Gentiles, the preservation of a faithful Israelitish remnant amidst the general unbelief and fall of the nation, and the ultimate recovery of all Israel to constitute, with the Gentiles in the latter day, one catholic Church of God upon earth. The remainder of the Epistle is devoted to sundry practical topics, winding up with salutations and outpourings of heart delightfully suggestive. CHAPTER 1 Ro 1:1-17 . Introduction. 1. Paul-- (See on Ac 13:9 ). a servant of Jesus Christ-- The word here rendered \"servant\" means \"bond-servant,\" or one subject to the will and wholly at the disposal of another. In this sense it is applied to the disciples of Christ at large ( 1Co 7:21-23 ), as in the Old Testament to all the people of God ( Is 66:14 ). But as, in addition to this, the prophets and kings of Israel were officially \"the servants of the Lord\" ( Jos 1:1 ; Psa 18:1 , title), the apostles call themselves, in the same official sense, \"the servants of Christ\" (as here, and Php 1:1 ; Jas 1:1 ; 2Pe 1:1 ; Jude 1), expressing such absolute subjection and devotion to the Lord Jesus as they would never have yielded to a mere creature. (See on Ro 1:7 ; Joh 5:22 , 23 ). called to be an apostle-- when first he \"saw the Lord\"; the indispensable qualification for apostleship. (See on Ac 9:5 ; Ac 22:14 ; 1Co 9:1 ). separated unto the-- preaching of the gospel-- neither so late as when \"the Holy Ghost said, Separate me Barnabas and Saul\" ( Ac 13:2 ), nor so early as when \"separated from his mother's womb\" (see on Ga 1:15 ). He was called at one and the same time to the faith and the apostleship of Christ ( Ac 26:16-18 ). of God-- that is, the Gospel of which God is the glorious Author. (So Ro 15:16 ; 1Th 2:2 , 8, 9 ; 1Pe 4:17 ).",
+      "source_record_sha256": "2089368d86623022acc026d544b3f78afc76d8ee68e23f68ea80dc9f422b051c",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 470,
+        "length": 11921
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.1",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "1. Paul-- (See on Ac 13:9 ). a servant of Jesus Christ-- The word here rendered \"servant\" means \"bond-servant,\" or one subject to the will and wholly at the disposal of another. In this sense it is applied to the disciples of Christ at large ( 1Co 7:21-23 ), as in the Old Testament to all the people of God ( Is 66:14 ). But as, in addition to this, the prophets and kings of Israel were officially \"the servants of the Lord\" ( Jos 1:1 ; Psa 18:1 , title), the apostles call themselves, in the same official sense, \"the servants of Christ\" (as here, and Php 1:1 ; Jas 1:1 ; 2Pe 1:1 ; Jude 1), expressing such absolute subjection and devotion to the Lord Jesus as they would never have yielded to a mere creature. (See on Ro 1:7 ; Joh 5:22 , 23 ). called to be an apostle-- when first he \"saw the Lord\"; the indispensable qualification for apostleship. (See on Ac 9:5 ; Ac 22:14 ; 1Co 9:1 ). separated unto the-- preaching of the gospel-- neither so late as when \"the Holy Ghost said, Separate me Barnabas and Saul\" ( Ac 13:2 ), nor so early as when \"separated from his mother's womb\" (see on Ga 1:15 ). He was called at one and the same time to the faith and the apostleship of Christ ( Ac 26:16-18 ). of God-- that is, the Gospel of which God is the glorious Author. (So Ro 15:16 ; 1Th 2:2 , 8, 9 ; 1Pe 4:17 ).",
+      "front_matter_separated": true,
+      "reader_source_character_span": [
+        9248,
+        11921
+      ],
+      "reader_content_osis": "<hi type=\"bold\">1. Paul--</hi>(See on <reference osisRef=\"Acts.13.9\">Ac 13:9</reference>).<div eID=\"gen31650\" type=\"x-p\"/> <div sID=\"gen31651\" type=\"x-p\"/><hi type=\"bold\">a servant of Jesus Christ--</hi>The word here rendered \"servant\" means \"bond-servant,\" or one subject to the will and wholly at the disposal of another. In this sense it is applied to the disciples of Christ at large (<reference osisRef=\"1Cor.7.21-1Cor.7.23\">1Co 7:21-23</reference>), as in the Old Testament to all the people of God (<reference osisRef=\"Isa.66.14\">Is 66:14</reference>). But as, in addition to this, the prophets and kings of Israel were officially \"the servants of the Lord\" (<reference osisRef=\"Josh.1.1\">Jos 1:1</reference>; <reference osisRef=\"Ps.18.1\">Psa 18:1</reference>, title), the apostles call themselves, in the same official sense, \"the servants of Christ\" (as here, and <reference osisRef=\"Phil.1.1\">Php 1:1</reference>; <reference osisRef=\"Jas.1.1\">Jas 1:1</reference>; <reference osisRef=\"2Pet.1.1\">2Pe 1:1</reference>; Jude 1), expressing such absolute subjection and devotion to the Lord Jesus as they would never have yielded to a mere creature. (See on <reference osisRef=\"Rom.1.7\">Ro 1:7</reference>; <reference osisRef=\"John.5.22\">Joh 5:22</reference>, <reference osisRef=\"John.5.23\">23</reference>).<div eID=\"gen31651\" type=\"x-p\"/> <div sID=\"gen31652\" type=\"x-p\"/><hi type=\"bold\">called to be an apostle--</hi>when first he \"saw the Lord\"; the indispensable qualification for apostleship. (See on <reference osisRef=\"Acts.9.5\">Ac 9:5</reference>; <reference osisRef=\"Acts.22.14\">Ac 22:14</reference>; <reference osisRef=\"1Cor.9.1\">1Co 9:1</reference>).<div eID=\"gen31652\" type=\"x-p\"/> <div sID=\"gen31653\" type=\"x-p\"/><hi type=\"bold\">separated unto the--</hi>preaching of the<div eID=\"gen31653\" type=\"x-p\"/> <div sID=\"gen31654\" type=\"x-p\"/><hi type=\"bold\">gospel--</hi>neither so late as when \"the Holy Ghost said, Separate me Barnabas and Saul\" (<reference osisRef=\"Acts.13.2\">Ac 13:2</reference>), nor so early as when \"separated from his mother's womb\" (see on <reference osisRef=\"Gal.1.15\">Ga 1:15</reference>). He was called at one and the same time to the faith and the apostleship of Christ (<reference osisRef=\"Acts.26.16-Acts.26.18\">Ac 26:16-18</reference>).<div eID=\"gen31654\" type=\"x-p\"/> <div sID=\"gen31655\" type=\"x-p\"/><hi type=\"bold\">of God--</hi>that is, the Gospel of which God is the glorious Author. (So <reference osisRef=\"Rom.15.16\">Ro 15:16</reference>; <reference osisRef=\"1Thess.2.2\">1Th 2:2</reference>, <reference osisRef=\"2Cor.8.9\">8, 9</reference>; <reference osisRef=\"1Pet.4.17\">1Pe 4:17</reference>). <div eID=\"gen31655\" type=\"x-p\"/>"
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.2-2:6:12391:720",
+      "passage_start": "ROM.1.2",
+      "passage_end": "ROM.1.2",
+      "start_verse": 2,
+      "end_verse": 2,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16336\"/><div sID=\"gen31656\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16336\"/><hi type=\"bold\">2. Which he had promised afore ... in the holy scriptures--</hi>Though the Roman Church was Gentile by nation (see on <reference osisRef=\"Rom.1.13\">Ro 1:13</reference>), yet as it consisted mostly of proselytes to the Jewish faith (see on Introduction to this Epistle), they are here reminded that in embracing Christ they had not cast off, but only the more profoundly yielded themselves to, Moses and the prophets (<reference osisRef=\"Acts.13.32\">Ac 13:32</reference>, <reference osisRef=\"Acts.13.33\">33</reference>). <div eID=\"gen31656\" type=\"x-p\"/>",
+      "content_plain": "2. Which he had promised afore ... in the holy scriptures-- Though the Roman Church was Gentile by nation (see on Ro 1:13 ), yet as it consisted mostly of proselytes to the Jewish faith (see on Introduction to this Epistle), they are here reminded that in embracing Christ they had not cast off, but only the more profoundly yielded themselves to, Moses and the prophets ( Ac 13:32 , 33 ).",
+      "source_record_sha256": "7733038ccbe271f72f2457d55a7e1dc1e4eff845c23ead8e0ffdb9f6d42d021e",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 12391,
+        "length": 720
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.2",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "2. Which he had promised afore ... in the holy scriptures-- Though the Roman Church was Gentile by nation (see on Ro 1:13 ), yet as it consisted mostly of proselytes to the Jewish faith (see on Introduction to this Epistle), they are here reminded that in embracing Christ they had not cast off, but only the more profoundly yielded themselves to, Moses and the prophets ( Ac 13:32 , 33 )."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.3-4:6:13111:875",
+      "passage_start": "ROM.1.3",
+      "passage_end": "ROM.1.4",
+      "start_verse": 3,
+      "end_verse": 4,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16337\"/><div sID=\"gen31657\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16337\"/><hi type=\"bold\">3-4. Concerning his Son Jesus Christ our Lord--</hi>the grand burden of this \"Gospel of God.\"<div eID=\"gen31657\" type=\"x-p\"/> <div sID=\"gen31658\" type=\"x-p\"/><hi type=\"bold\">made of the seed of David--</hi>as, according to \"the holy scriptures,\" He behooved to be. (See on <reference osisRef=\"Matt.1.1\">Mt 1:1</reference>).<div eID=\"gen31658\" type=\"x-p\"/> <div sID=\"gen31659\" type=\"x-p\"/><hi type=\"bold\">according to the flesh--</hi>that is, in His human nature (compare <reference osisRef=\"Rom.9.5\">Ro 9:5</reference>; <reference osisRef=\"John.1.14\">Joh 1:14</reference>); implying, of course, that He had another nature, of which the apostle immediately proceeds to speak. <div eID=\"gen31659\" type=\"x-p\"/>",
+      "content_plain": "3-4. Concerning his Son Jesus Christ our Lord-- the grand burden of this \"Gospel of God.\" made of the seed of David-- as, according to \"the holy scriptures,\" He behooved to be. (See on Mt 1:1 ). according to the flesh-- that is, in His human nature (compare Ro 9:5 ; Joh 1:14 ); implying, of course, that He had another nature, of which the apostle immediately proceeds to speak.",
+      "source_record_sha256": "4b3b4a6fbce1945b2de02a1fbae7fd2cee272844c52f24c371bfa10d8a36a6e2",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 13111,
+        "length": 875
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ROM.1.3-4",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "3-4. Concerning his Son Jesus Christ our Lord-- the grand burden of this \"Gospel of God.\" made of the seed of David-- as, according to \"the holy scriptures,\" He behooved to be. (See on Mt 1:1 ). according to the flesh-- that is, in His human nature (compare Ro 9:5 ; Joh 1:14 ); implying, of course, that He had another nature, of which the apostle immediately proceeds to speak."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.5-5:6:16955:1203",
+      "passage_start": "ROM.1.5",
+      "passage_end": "ROM.1.5",
+      "start_verse": 5,
+      "end_verse": 5,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16339\"/><div sID=\"gen31664\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16339\"/><hi type=\"bold\">5. By whom--</hi>as the ordained channel.<div eID=\"gen31664\" type=\"x-p\"/> <div sID=\"gen31665\" type=\"x-p\"/><hi type=\"bold\">we have received grace--</hi>the whole \"grace that bringeth salvation\" (<reference osisRef=\"Titus.2.11\">Tit 2:11</reference>).<div eID=\"gen31665\" type=\"x-p\"/> <div sID=\"gen31666\" type=\"x-p\"/><hi type=\"bold\">and apostleship--</hi>for the publication of that \"grace,\" and the organization of as many as receive it into churches of visible discipleship. (We prefer thus taking them as two distinct things, and not, with some good interpreters, as one--\"the grace of apostleship\").<div eID=\"gen31666\" type=\"x-p\"/> <div sID=\"gen31667\" type=\"x-p\"/><hi type=\"bold\">for obedience to the faith--</hi>rather, \"for the obedience of faith\"--that is, in order to men's yielding themselves to the belief of God's saving message, which is the highest of all obedience.<div eID=\"gen31667\" type=\"x-p\"/> <div sID=\"gen31668\" type=\"x-p\"/><hi type=\"bold\">for his name--</hi>that He might be glorified. <div eID=\"gen31668\" type=\"x-p\"/>",
+      "content_plain": "5. By whom-- as the ordained channel. we have received grace-- the whole \"grace that bringeth salvation\" ( Tit 2:11 ). and apostleship-- for the publication of that \"grace,\" and the organization of as many as receive it into churches of visible discipleship. (We prefer thus taking them as two distinct things, and not, with some good interpreters, as one--\"the grace of apostleship\"). for obedience to the faith-- rather, \"for the obedience of faith\"--that is, in order to men's yielding themselves to the belief of God's saving message, which is the highest of all obedience. for his name-- that He might be glorified.",
+      "source_record_sha256": "20f690debbd0333fb98a19d1061b583c06667c58d0be6fbe46be3e6d3ad63b74",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 16955,
+        "length": 1203
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.5",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "5. By whom-- as the ordained channel. we have received grace-- the whole \"grace that bringeth salvation\" ( Tit 2:11 ). and apostleship-- for the publication of that \"grace,\" and the organization of as many as receive it into churches of visible discipleship. (We prefer thus taking them as two distinct things, and not, with some good interpreters, as one--\"the grace of apostleship\"). for obedience to the faith-- rather, \"for the obedience of faith\"--that is, in order to men's yielding themselves to the belief of God's saving message, which is the highest of all obedience. for his name-- that He might be glorified."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.6-6:6:18158:884",
+      "passage_start": "ROM.1.6",
+      "passage_end": "ROM.1.6",
+      "start_verse": 6,
+      "end_verse": 6,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16340\"/><div sID=\"gen31669\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16340\"/><hi type=\"bold\">6. Among whom are ye also--</hi>that is, along with others; for the apostle ascribes nothing special to the Church of Rome (compare <reference osisRef=\"1Cor.14.36\">1Co 14:36</reference>) [Bengel].<div eID=\"gen31669\" type=\"x-p\"/> <div sID=\"gen31670\" type=\"x-p\"/><hi type=\"bold\">the called--</hi>(See on <reference osisRef=\"Rom.8.30\">Ro 8:30</reference>).<div eID=\"gen31670\" type=\"x-p\"/> <div sID=\"gen31671\" type=\"x-p\"/><hi type=\"bold\">of Christ Jesus--</hi>that is, either called \"by Him\" (<reference osisRef=\"John.5.25\">Joh 5:25</reference>), or the called \"belonging to Him\"; \"Christ's called ones.\" Perhaps this latter sense is best supported, but one hardly knows which to prefer. <div eID=\"gen31671\" type=\"x-p\"/>",
+      "content_plain": "6. Among whom are ye also-- that is, along with others; for the apostle ascribes nothing special to the Church of Rome (compare 1Co 14:36 ) [Bengel]. the called-- (See on Ro 8:30 ). of Christ Jesus-- that is, either called \"by Him\" ( Joh 5:25 ), or the called \"belonging to Him\"; \"Christ's called ones.\" Perhaps this latter sense is best supported, but one hardly knows which to prefer.",
+      "source_record_sha256": "95a366d75d731f5e1e83a0f4cea7f4c6d2e64e6195dc60b898ffb79f601346c1",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 18158,
+        "length": 884
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.6",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "6. Among whom are ye also-- that is, along with others; for the apostle ascribes nothing special to the Church of Rome (compare 1Co 14:36 ) [Bengel]. the called-- (See on Ro 8:30 ). of Christ Jesus-- that is, either called \"by Him\" ( Joh 5:25 ), or the called \"belonging to Him\"; \"Christ's called ones.\" Perhaps this latter sense is best supported, but one hardly knows which to prefer."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.7-7:6:19042:1516",
+      "passage_start": "ROM.1.7",
+      "passage_end": "ROM.1.7",
+      "start_verse": 7,
+      "end_verse": 7,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16341\"/><div sID=\"gen31672\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16341\"/><hi type=\"bold\">7. beloved of God--</hi>(Compare <reference osisRef=\"Deut.33.12\">De 33:12</reference>; <reference osisRef=\"Col.3.12\">Col 3:12</reference>).<div eID=\"gen31672\" type=\"x-p\"/> <div sID=\"gen31673\" type=\"x-p\"/><hi type=\"bold\">Grace, &amp;c.--</hi>(See on <reference osisRef=\"John.1.14\">Joh 1:14</reference>).<div eID=\"gen31673\" type=\"x-p\"/> <div sID=\"gen31674\" type=\"x-p\"/><hi type=\"bold\">and peace--</hi>the peace which Christ made through the blood of His cross (<reference osisRef=\"Col.1.20\">Col 1:20</reference>), and which reflects into the believing bosom \"the peace of God which passeth all understanding\" (<reference osisRef=\"Phil.4.7\">Php 4:7</reference>).<div eID=\"gen31674\" type=\"x-p\"/> <div sID=\"gen31675\" type=\"x-p\"/><hi type=\"bold\">from God our Father, and the Lord Jesus Christ--</hi>\"Nothing speaks more decisively for the divinity of Christ than these juxtapositions of Christ with the eternal God, which run through the whole language of Scripture, and the derivation of purely divine influences from Him also. The name of no man can be placed by the side of the Almighty. He only, in whom the Word of the Father who is Himself God became flesh, may be named beside Him; for men are commanded to honor Him even as they honor the Father (<reference osisRef=\"John.5.23\">Joh 5:23</reference>)\" [Olshausen]. <div eID=\"gen31675\" type=\"x-p\"/>",
+      "content_plain": "7. beloved of God-- (Compare De 33:12 ; Col 3:12 ). Grace, &c.-- (See on Joh 1:14 ). and peace-- the peace which Christ made through the blood of His cross ( Col 1:20 ), and which reflects into the believing bosom \"the peace of God which passeth all understanding\" ( Php 4:7 ). from God our Father, and the Lord Jesus Christ-- \"Nothing speaks more decisively for the divinity of Christ than these juxtapositions of Christ with the eternal God, which run through the whole language of Scripture, and the derivation of purely divine influences from Him also. The name of no man can be placed by the side of the Almighty. He only, in whom the Word of the Father who is Himself God became flesh, may be named beside Him; for men are commanded to honor Him even as they honor the Father ( Joh 5:23 )\" [Olshausen].",
+      "source_record_sha256": "68272d85fe7d2d3078ad8a61077635f3af69cd4f7526cf63883413ce3b548fda",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 19042,
+        "length": 1516
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.7",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "7. beloved of God-- (Compare De 33:12 ; Col 3:12 ). Grace, &c.-- (See on Joh 1:14 ). and peace-- the peace which Christ made through the blood of His cross ( Col 1:20 ), and which reflects into the believing bosom \"the peace of God which passeth all understanding\" ( Php 4:7 ). from God our Father, and the Lord Jesus Christ-- \"Nothing speaks more decisively for the divinity of Christ than these juxtapositions of Christ with the eternal God, which run through the whole language of Scripture, and the derivation of purely divine influences from Him also. The name of no man can be placed by the side of the Almighty. He only, in whom the Word of the Father who is Himself God became flesh, may be named beside Him; for men are commanded to honor Him even as they honor the Father ( Joh 5:23 )\" [Olshausen]."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.8-8:6:20558:618",
+      "passage_start": "ROM.1.8",
+      "passage_end": "ROM.1.8",
+      "start_verse": 8,
+      "end_verse": 8,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16342\"/><div sID=\"gen31676\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16342\"/><hi type=\"bold\">8. your faith is spoken of throughout the whole world--</hi>This was quite practicable through the frequent visits paid to the capital from all the provinces; and the apostle, having an eye to the influence they would exercise upon others, as well as their own blessedness, given thanks for such faith to \"his God through Jesus Christ,\" as being the source, according to his theology of faith, as of all grace in men. <div eID=\"gen31676\" type=\"x-p\"/>",
+      "content_plain": "8. your faith is spoken of throughout the whole world-- This was quite practicable through the frequent visits paid to the capital from all the provinces; and the apostle, having an eye to the influence they would exercise upon others, as well as their own blessedness, given thanks for such faith to \"his God through Jesus Christ,\" as being the source, according to his theology of faith, as of all grace in men.",
+      "source_record_sha256": "b0834f8f9c9f08236799900a3733c324b75c0a1fefa7ab824d5a6e76e8f4bbd0",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 20558,
+        "length": 618
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.8",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "8. your faith is spoken of throughout the whole world-- This was quite practicable through the frequent visits paid to the capital from all the provinces; and the apostle, having an eye to the influence they would exercise upon others, as well as their own blessedness, given thanks for such faith to \"his God through Jesus Christ,\" as being the source, according to his theology of faith, as of all grace in men."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.9-9:6:21176:1344",
+      "passage_start": "ROM.1.9",
+      "passage_end": "ROM.1.9",
+      "start_verse": 9,
+      "end_verse": 9,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16343\"/><div sID=\"gen31677\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16343\"/><hi type=\"bold\">9. For God ... whom I serve--</hi>the word denotes religious service.<div eID=\"gen31677\" type=\"x-p\"/> <div sID=\"gen31678\" type=\"x-p\"/><hi type=\"bold\">with my spirit--</hi>from my inmost soul.<div eID=\"gen31678\" type=\"x-p\"/> <div sID=\"gen31679\" type=\"x-p\"/><hi type=\"bold\">in the gospel of his Son--</hi>to which Paul's whole religious life and official activity were consecrated.<div eID=\"gen31679\" type=\"x-p\"/> <div sID=\"gen31680\" type=\"x-p\"/><hi type=\"bold\">is my witness, that without ceasing I make mention of you always in my prayers--</hi>so for the Ephesians (<reference osisRef=\"Eph.1.15\">Ep 1:15</reference>, <reference osisRef=\"1Cor.1.16\">16</reference>); so for the Philippians (<reference osisRef=\"Phil.1.3\">Php 1:3</reference>, <reference osisRef=\"1Cor.1.4\">4</reference>); so for the Colossians (<reference osisRef=\"Col.1.3\">Col 1:3</reference>, <reference osisRef=\"1Cor.1.4\">4</reference>); so for the Thessalonians (<reference osisRef=\"1Thess.1.2\">1Th 1:2</reference>, <reference osisRef=\"1Cor.1.3\">3</reference>). What catholic love, what all-absorbing spirituality, what impassioned devotion to the glory of Christ among men! <div eID=\"gen31680\" type=\"x-p\"/>",
+      "content_plain": "9. For God ... whom I serve-- the word denotes religious service. with my spirit-- from my inmost soul. in the gospel of his Son-- to which Paul's whole religious life and official activity were consecrated. is my witness, that without ceasing I make mention of you always in my prayers-- so for the Ephesians ( Ep 1:15 , 16 ); so for the Philippians ( Php 1:3 , 4 ); so for the Colossians ( Col 1:3 , 4 ); so for the Thessalonians ( 1Th 1:2 , 3 ). What catholic love, what all-absorbing spirituality, what impassioned devotion to the glory of Christ among men!",
+      "source_record_sha256": "9da978b940c3fb0ee0e35779ba54d27c50b45b791c7fd78005808e80eed89dd4",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 21176,
+        "length": 1344
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.9",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "9. For God ... whom I serve-- the word denotes religious service. with my spirit-- from my inmost soul. in the gospel of his Son-- to which Paul's whole religious life and official activity were consecrated. is my witness, that without ceasing I make mention of you always in my prayers-- so for the Ephesians ( Ep 1:15 , 16 ); so for the Philippians ( Php 1:3 , 4 ); so for the Colossians ( Col 1:3 , 4 ); so for the Thessalonians ( 1Th 1:2 , 3 ). What catholic love, what all-absorbing spirituality, what impassioned devotion to the glory of Christ among men!"
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.10-10:6:22520:1020",
+      "passage_start": "ROM.1.10",
+      "passage_end": "ROM.1.10",
+      "start_verse": 10,
+      "end_verse": 10,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16344\"/><div sID=\"gen31681\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16344\"/><hi type=\"bold\">10. Making request, if by any means now at length I may have a prosperous journey by the will of God, to come to you--</hi>Though long anxious to visit the capital, he met with a number of providential hindrances (<reference osisRef=\"Rom.1.13\">Ro 1:13</reference>; <reference osisRef=\"Rom.15.22\">Ro 15:22</reference>; and see on <reference osisRef=\"Acts.19.21\">Ac 19:21</reference>; <reference osisRef=\"Acts.23.11\">Ac 23:11</reference>; <reference osisRef=\"Acts.28.15\">Ac 28:15</reference>); insomuch that nearly a quarter of a century elapsed, after his conversion, ere his desire was accomplished, and that only as \"a prisoner of Jesus Christ.\" Thus taught that his whole future was in the hands of God, he makes it his continual prayer that at length the obstacles to a happy and prosperous meeting might be removed. <div eID=\"gen31681\" type=\"x-p\"/>",
+      "content_plain": "10. Making request, if by any means now at length I may have a prosperous journey by the will of God, to come to you-- Though long anxious to visit the capital, he met with a number of providential hindrances ( Ro 1:13 ; Ro 15:22 ; and see on Ac 19:21 ; Ac 23:11 ; Ac 28:15 ); insomuch that nearly a quarter of a century elapsed, after his conversion, ere his desire was accomplished, and that only as \"a prisoner of Jesus Christ.\" Thus taught that his whole future was in the hands of God, he makes it his continual prayer that at length the obstacles to a happy and prosperous meeting might be removed.",
+      "source_record_sha256": "5704a6c24a4bb13ff9a63210f05772a10f7778e3eec815de889268e203a3f3ce",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 22520,
+        "length": 1020
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.10",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "10. Making request, if by any means now at length I may have a prosperous journey by the will of God, to come to you-- Though long anxious to visit the capital, he met with a number of providential hindrances ( Ro 1:13 ; Ro 15:22 ; and see on Ac 19:21 ; Ac 23:11 ; Ac 28:15 ); insomuch that nearly a quarter of a century elapsed, after his conversion, ere his desire was accomplished, and that only as \"a prisoner of Jesus Christ.\" Thus taught that his whole future was in the hands of God, he makes it his continual prayer that at length the obstacles to a happy and prosperous meeting might be removed."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.11-12:6:23540:501",
+      "passage_start": "ROM.1.11",
+      "passage_end": "ROM.1.12",
+      "start_verse": 11,
+      "end_verse": 12,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16345\"/><div sID=\"gen31682\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16345\"/><hi type=\"bold\">11-12. For I long to see you, that I may impart to you some spiritual gift--</hi>not any supernatural gift, as the next clause shows, and compare <reference osisRef=\"1Cor.1.7\">1Co 1:7</reference>.<div eID=\"gen31682\" type=\"x-p\"/> <div sID=\"gen31683\" type=\"x-p\"/> to the end that ye may be established. <div eID=\"gen31683\" type=\"x-p\"/>",
+      "content_plain": "11-12. For I long to see you, that I may impart to you some spiritual gift-- not any supernatural gift, as the next clause shows, and compare 1Co 1:7 . to the end that ye may be established.",
+      "source_record_sha256": "75d7bcca654a8ee8bdc1e0f3a68eebdf3874d82e791d58c209a45475e2e52fa2",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 23540,
+        "length": 501
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ROM.1.11-12",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "11-12. For I long to see you, that I may impart to you some spiritual gift-- not any supernatural gift, as the next clause shows, and compare 1Co 1:7 . to the end that ye may be established."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.13-13:6:24945:1042",
+      "passage_start": "ROM.1.13",
+      "passage_end": "ROM.1.13",
+      "start_verse": 13,
+      "end_verse": 13,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16347\"/><div sID=\"gen31685\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16347\"/><hi type=\"bold\">13. oftentimes I purposed to come unto you, but was let--</hi>hindered.<div eID=\"gen31685\" type=\"x-p\"/> <div sID=\"gen31686\" type=\"x-p\"/><hi type=\"bold\">hitherto--</hi>chiefly by his desire to go first to places where Christ was not known (<reference osisRef=\"Rom.15.20-Rom.15.24\">Ro 15:20-24</reference>).<div eID=\"gen31686\" type=\"x-p\"/> <div sID=\"gen31687\" type=\"x-p\"/><hi type=\"bold\">that I might have some fruit--</hi>of my ministry<div eID=\"gen31687\" type=\"x-p\"/> <div sID=\"gen31688\" type=\"x-p\"/><hi type=\"bold\">among you also, even as among other Gentiles--</hi>The Gentile origin of the Church at Rome is here so explicitly stated, that those who conclude, merely from the Jewish strain of the argument, that they must have been mostly Israelites, decide in opposition to the apostle himself. (But see on Introduction to this Epistle.) <div eID=\"gen31688\" type=\"x-p\"/>",
+      "content_plain": "13. oftentimes I purposed to come unto you, but was let-- hindered. hitherto-- chiefly by his desire to go first to places where Christ was not known ( Ro 15:20-24 ). that I might have some fruit-- of my ministry among you also, even as among other Gentiles-- The Gentile origin of the Church at Rome is here so explicitly stated, that those who conclude, merely from the Jewish strain of the argument, that they must have been mostly Israelites, decide in opposition to the apostle himself. (But see on Introduction to this Epistle.)",
+      "source_record_sha256": "df44d06c8203e2d2ee3ae6fce8c51ebe7fef3060b745d5b91c023f5f02b29ca6",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 24945,
+        "length": 1042
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.13",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "13. oftentimes I purposed to come unto you, but was let-- hindered. hitherto-- chiefly by his desire to go first to places where Christ was not known ( Ro 15:20-24 ). that I might have some fruit-- of my ministry among you also, even as among other Gentiles-- The Gentile origin of the Church at Rome is here so explicitly stated, that those who conclude, merely from the Jewish strain of the argument, that they must have been mostly Israelites, decide in opposition to the apostle himself. (But see on Introduction to this Epistle.)"
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.14-15:6:25987:369",
+      "passage_start": "ROM.1.14",
+      "passage_end": "ROM.1.15",
+      "start_verse": 14,
+      "end_verse": 15,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16348\"/><div sID=\"gen31689\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16348\"/><hi type=\"bold\">14-15. I am debtor both to the Greeks--</hi>cultivated<div eID=\"gen31689\" type=\"x-p\"/> <div sID=\"gen31690\" type=\"x-p\"/><hi type=\"bold\">and to the Barbarians--</hi>rude. <div eID=\"gen31690\" type=\"x-p\"/>",
+      "content_plain": "14-15. I am debtor both to the Greeks-- cultivated and to the Barbarians-- rude.",
+      "source_record_sha256": "694e12c6960e0df3c4a9e993269682c987cc7eb41377f43f8649d23f6d815efd",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 25987,
+        "length": 369
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ROM.1.14-15",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "14-15. I am debtor both to the Greeks-- cultivated and to the Barbarians-- rude."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.16-16:6:26847:1265",
+      "passage_start": "ROM.1.16",
+      "passage_end": "ROM.1.16",
+      "start_verse": 16,
+      "end_verse": 16,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16350\"/><div sID=\"gen31692\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16350\"/><hi type=\"bold\">16. For I am not ashamed of the gospel--</hi>(The words, \"of Christ,\" which follow here, are not found in the oldest and best manuscripts). This language implies that it required some courage to bring to \"the mistress of the world\" what \"to the Jews was a stumbling-block and to the Greeks foolishness\" (<reference osisRef=\"1Cor.1.23\">1Co 1:23</reference>). But its inherent glory, as God's life-giving message to a dying world, so filled his soul, that, like his blessed Master, he \"despised the shame.\"<div eID=\"gen31692\" type=\"x-p\"/> <div sID=\"gen31693\" type=\"x-p\"/><hi type=\"bold\">for it is the power of God unto salvation to every one that believeth--</hi>Here and in <reference osisRef=\"Rom.1.17\">Ro 1:17</reference> the apostle announces the great theme of his ensuing argument; Salvation, the one overwhelming necessity of perishing men; this revealed IN THE GOSPEL MESSAGE; and that message so owned and honored of God as to carry, in the proclamation of it, God's own power to save every soul that embraces it, Greek and Barbarian, wise and unwise alike. <div eID=\"gen31693\" type=\"x-p\"/>",
+      "content_plain": "16. For I am not ashamed of the gospel-- (The words, \"of Christ,\" which follow here, are not found in the oldest and best manuscripts). This language implies that it required some courage to bring to \"the mistress of the world\" what \"to the Jews was a stumbling-block and to the Greeks foolishness\" ( 1Co 1:23 ). But its inherent glory, as God's life-giving message to a dying world, so filled his soul, that, like his blessed Master, he \"despised the shame.\" for it is the power of God unto salvation to every one that believeth-- Here and in Ro 1:17 the apostle announces the great theme of his ensuing argument; Salvation, the one overwhelming necessity of perishing men; this revealed IN THE GOSPEL MESSAGE; and that message so owned and honored of God as to carry, in the proclamation of it, God's own power to save every soul that embraces it, Greek and Barbarian, wise and unwise alike.",
+      "source_record_sha256": "0fad21a14c367b218623c52914ca422abb83f94e4d5e390e601e079ea17186bf",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 26847,
+        "length": 1265
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.16",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "16. For I am not ashamed of the gospel-- (The words, \"of Christ,\" which follow here, are not found in the oldest and best manuscripts). This language implies that it required some courage to bring to \"the mistress of the world\" what \"to the Jews was a stumbling-block and to the Greeks foolishness\" ( 1Co 1:23 ). But its inherent glory, as God's life-giving message to a dying world, so filled his soul, that, like his blessed Master, he \"despised the shame.\" for it is the power of God unto salvation to every one that believeth-- Here and in Ro 1:17 the apostle announces the great theme of his ensuing argument; Salvation, the one overwhelming necessity of perishing men; this revealed IN THE GOSPEL MESSAGE; and that message so owned and honored of God as to carry, in the proclamation of it, God's own power to save every soul that embraces it, Greek and Barbarian, wise and unwise alike."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.17-17:6:28112:4686",
+      "passage_start": "ROM.1.17",
+      "passage_end": "ROM.1.17",
+      "start_verse": 17,
+      "end_verse": 17,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16351\"/><div sID=\"gen31694\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16351\"/><hi type=\"bold\">17. For therein is the righteousness of God revealed--</hi>that is (as the whole argument of the Epistle shows), God's justifying righteousness.<div eID=\"gen31694\" type=\"x-p\"/> <div sID=\"gen31695\" type=\"x-p\"/><hi type=\"bold\">from faith to faith--</hi>a difficult clause. Most interpreters (judging from the sense of such phrases elsewhere) take it to mean, \"from one degree of faith to another.\" But this agrees ill with the apostle's design, which has nothing to do with the progressive stages of faith, but solely with faith itself as the appointed way of receiving God's \"righteousness.\" We prefer, therefore, to understand it thus: \"The righteousness of God is in the gospel message, revealed (to be) from (or 'by') faith to (or 'for') faith,\" that is, \"in order to be by faith received.\" (So substantially, Melville, Meyer, Stuart, Bloomfield, &amp;c.).<div eID=\"gen31695\" type=\"x-p\"/> <div sID=\"gen31696\" type=\"x-p\"/><hi type=\"bold\">as it is written--</hi>(<reference osisRef=\"Hab.2.4\">Ha 2:4</reference>).<div eID=\"gen31696\" type=\"x-p\"/> <div sID=\"gen31697\" type=\"x-p\"/><hi type=\"bold\">The just shall live by faith--</hi>This golden maxim of the Old Testament is thrice quoted in the New Testament--here; <reference osisRef=\"Gal.3.11\">Ga 3:11</reference>; <reference osisRef=\"Heb.10.38\">He 10:38</reference>--showing that the gospel way of \"LIFE BY FAITH,\" so far from disturbing, only continued and developed the ancient method.<div eID=\"gen31697\" type=\"x-p\"/> <div sID=\"gen31698\" type=\"x-p\"/> On the foregoing verses, Note (1) What manner of persons ought the ministers of Christ to be, according to the pattern here set up: absolutely subject and officially dedicated to the Lord Jesus; separated unto the gospel of God, which contemplates the subjugation of all nations to the faith of Christ: debtors to all classes, the refined and the rude, to bring the gospel to them all alike, all shame in the presence of the one, as well as pride before the other, sinking before the glory which they feel to be in their message; yearning over all faithful churches, not lording it over them, but rejoicing in their prosperity, and finding refreshment and strength in their fellowship! <hi type=\"bold\">(2) The peculiar features of the gospel here brought prominently forward should be the devout study of all who preach it, and guide the views and the taste of all who are privileged statedly to hear it: that it is \"the gospel of God,\" as a message from heaven, yet not absolutely new, but on the contrary, only the fulfilment of Old Testament promise, that not only is Christ the great theme of it, but Christ in the very nature of God as His own Son, and in the nature of men as partaker of their flesh--</hi>the Son of God now in resurrection--power and invested with authority to dispense all grace to men, and all gifts for the establishment and edification of the Church, Christ the righteousness provided of God for the justification of all that believe in His name; and that in this glorious Gospel, when preached as such, there resides the very power of God to save Jew and Gentile alike who embrace it. (3) While Christ is to be regarded as the ordained Channel of all grace from God to men (<reference osisRef=\"Rom.1.8\">Ro 1:8</reference>), let none imagine that His proper divinity is in any respect compromised by this arrangement, since He is here expressly associated with \"God the Father,\" in prayer for \"grace and peace\" (including all spiritual blessings) to rest upon this Church (<reference osisRef=\"Rom.1.7\">Ro 1:7</reference>). (<reference osisRef=\"1Cor.1.4\">4</reference>) While this Epistle teaches, in conformity with the teaching of our Lord Himself, that all salvation is suspended upon faith, this is but half a truth, and will certainly minister to self-righteousness, if dissociated from another feature of the same truth, here explicitly taught, that this faith in God's own gift--for which accordingly in the case of the Roman believers, he \"thanks his God through Jesus Christ\" (<reference osisRef=\"Rom.1.8\">Ro 1:8</reference>). (<reference osisRef=\"1Cor.1.5\">5</reference>) Christian fellowship, as indeed all real fellowship, is a mutual benefit; and as it is not possible for the most eminent saints and servants of Christ to impart any refreshment and profit to the meanest of their brethren without experiencing a rich return into their bosoms, so just in proportion to their humility and love will they feel their need of it and rejoice in it. <div eID=\"gen31698\" type=\"x-p\"/>",
+      "content_plain": "17. For therein is the righteousness of God revealed-- that is (as the whole argument of the Epistle shows), God's justifying righteousness. from faith to faith-- a difficult clause. Most interpreters (judging from the sense of such phrases elsewhere) take it to mean, \"from one degree of faith to another.\" But this agrees ill with the apostle's design, which has nothing to do with the progressive stages of faith, but solely with faith itself as the appointed way of receiving God's \"righteousness.\" We prefer, therefore, to understand it thus: \"The righteousness of God is in the gospel message, revealed (to be) from (or 'by') faith to (or 'for') faith,\" that is, \"in order to be by faith received.\" (So substantially, Melville, Meyer, Stuart, Bloomfield, &c.). as it is written-- ( Ha 2:4 ). The just shall live by faith-- This golden maxim of the Old Testament is thrice quoted in the New Testament--here; Ga 3:11 ; He 10:38 --showing that the gospel way of \"LIFE BY FAITH,\" so far from disturbing, only continued and developed the ancient method. On the foregoing verses, Note (1) What manner of persons ought the ministers of Christ to be, according to the pattern here set up: absolutely subject and officially dedicated to the Lord Jesus; separated unto the gospel of God, which contemplates the subjugation of all nations to the faith of Christ: debtors to all classes, the refined and the rude, to bring the gospel to them all alike, all shame in the presence of the one, as well as pride before the other, sinking before the glory which they feel to be in their message; yearning over all faithful churches, not lording it over them, but rejoicing in their prosperity, and finding refreshment and strength in their fellowship! (2) The peculiar features of the gospel here brought prominently forward should be the devout study of all who preach it, and guide the views and the taste of all who are privileged statedly to hear it: that it is \"the gospel of God,\" as a message from heaven, yet not absolutely new, but on the contrary, only the fulfilment of Old Testament promise, that not only is Christ the great theme of it, but Christ in the very nature of God as His own Son, and in the nature of men as partaker of their flesh-- the Son of God now in resurrection--power and invested with authority to dispense all grace to men, and all gifts for the establishment and edification of the Church, Christ the righteousness provided of God for the justification of all that believe in His name; and that in this glorious Gospel, when preached as such, there resides the very power of God to save Jew and Gentile alike who embrace it. (3) While Christ is to be regarded as the ordained Channel of all grace from God to men ( Ro 1:8 ), let none imagine that His proper divinity is in any respect compromised by this arrangement, since He is here expressly associated with \"God the Father,\" in prayer for \"grace and peace\" (including all spiritual blessings) to rest upon this Church ( Ro 1:7 ). ( 4 ) While this Epistle teaches, in conformity with the teaching of our Lord Himself, that all salvation is suspended upon faith, this is but half a truth, and will certainly minister to self-righteousness, if dissociated from another feature of the same truth, here explicitly taught, that this faith in God's own gift--for which accordingly in the case of the Roman believers, he \"thanks his God through Jesus Christ\" ( Ro 1:8 ). ( 5 ) Christian fellowship, as indeed all real fellowship, is a mutual benefit; and as it is not possible for the most eminent saints and servants of Christ to impart any refreshment and profit to the meanest of their brethren without experiencing a rich return into their bosoms, so just in proportion to their humility and love will they feel their need of it and rejoice in it.",
+      "source_record_sha256": "6bfa26d75f893e79d159946ff034c81aa5bf273eb9573d67b86b0eb58a9d3933",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 28112,
+        "length": 4686
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.17",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "17. For therein is the righteousness of God revealed-- that is (as the whole argument of the Epistle shows), God's justifying righteousness. from faith to faith-- a difficult clause. Most interpreters (judging from the sense of such phrases elsewhere) take it to mean, \"from one degree of faith to another.\" But this agrees ill with the apostle's design, which has nothing to do with the progressive stages of faith, but solely with faith itself as the appointed way of receiving God's \"righteousness.\" We prefer, therefore, to understand it thus: \"The righteousness of God is in the gospel message, revealed (to be) from (or 'by') faith to (or 'for') faith,\" that is, \"in order to be by faith received.\" (So substantially, Melville, Meyer, Stuart, Bloomfield, &c.). as it is written-- ( Ha 2:4 ). The just shall live by faith-- This golden maxim of the Old Testament is thrice quoted in the New Testament--here; Ga 3:11 ; He 10:38 --showing that the gospel way of \"LIFE BY FAITH,\" so far from disturbing, only continued and developed the ancient method. On the foregoing verses, Note (1) What manner of persons ought the ministers of Christ to be, according to the pattern here set up: absolutely subject and officially dedicated to the Lord Jesus; separated unto the gospel of God, which contemplates the subjugation of all nations to the faith of Christ: debtors to all classes, the refined and the rude, to bring the gospel to them all alike, all shame in the presence of the one, as well as pride before the other, sinking before the glory which they feel to be in their message; yearning over all faithful churches, not lording it over them, but rejoicing in their prosperity, and finding refreshment and strength in their fellowship! (2) The peculiar features of the gospel here brought prominently forward should be the devout study of all who preach it, and guide the views and the taste of all who are privileged statedly to hear it: that it is \"the gospel of God,\" as a message from heaven, yet not absolutely new, but on the contrary, only the fulfilment of Old Testament promise, that not only is Christ the great theme of it, but Christ in the very nature of God as His own Son, and in the nature of men as partaker of their flesh-- the Son of God now in resurrection--power and invested with authority to dispense all grace to men, and all gifts for the establishment and edification of the Church, Christ the righteousness provided of God for the justification of all that believe in His name; and that in this glorious Gospel, when preached as such, there resides the very power of God to save Jew and Gentile alike who embrace it. (3) While Christ is to be regarded as the ordained Channel of all grace from God to men ( Ro 1:8 ), let none imagine that His proper divinity is in any respect compromised by this arrangement, since He is here expressly associated with \"God the Father,\" in prayer for \"grace and peace\" (including all spiritual blessings) to rest upon this Church ( Ro 1:7 ). ( 4 ) While this Epistle teaches, in conformity with the teaching of our Lord Himself, that all salvation is suspended upon faith, this is but half a truth, and will certainly minister to self-righteousness, if dissociated from another feature of the same truth, here explicitly taught, that this faith in God's own gift--for which accordingly in the case of the Roman believers, he \"thanks his God through Jesus Christ\" ( Ro 1:8 ). ( 5 ) Christian fellowship, as indeed all real fellowship, is a mutual benefit; and as it is not possible for the most eminent saints and servants of Christ to impart any refreshment and profit to the meanest of their brethren without experiencing a rich return into their bosoms, so just in proportion to their humility and love will they feel their need of it and rejoice in it."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.18-18:6:32798:2671",
+      "passage_start": "ROM.1.18",
+      "passage_end": "ROM.1.18",
+      "start_verse": 18,
+      "end_verse": 18,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16352\"/><title type=\"x-s3\"><reference osisRef=\"Rom.1.18\">Ro 1:18</reference>. Why This Divinely Provided Righteousness Is Needed by All Men.</title> <div sID=\"gen31699\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16352\"/><hi type=\"bold\">18. For the wrath of God--</hi>His holy displeasure and righteous vengeance against sin.<div eID=\"gen31699\" type=\"x-p\"/> <div sID=\"gen31700\" type=\"x-p\"/><hi type=\"bold\">is revealed from heaven--</hi>in the consciences of men, and attested by innumerable outward evidences of a moral government.<div eID=\"gen31700\" type=\"x-p\"/> <div sID=\"gen31701\" type=\"x-p\"/><hi type=\"bold\">against all ungodliness--</hi>that is, their whole irreligiousness, or their living without any conscious reference to God, and proper feelings towards Him.<div eID=\"gen31701\" type=\"x-p\"/> <div sID=\"gen31702\" type=\"x-p\"/><hi type=\"bold\">and unrighteousness of men--</hi>that is, all their deviations from moral rectitude in heart, speech, and behavior. (So these terms must be distinguished when used together, though, when standing alone, either of them includes the other). <div eID=\"gen31702\" type=\"x-p\"/> <div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16353\"/><title type=\"x-s3\"><reference osisRef=\"Rom.1.18-Rom.1.32\">Ro 1:18-32</reference>. This Wrath of God, Revealed against All Iniquity, Overhangs the Whole Heathen World.</title> <div sID=\"gen31703\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16353\"/><hi type=\"bold\">18. who hold--</hi>rather, \"hold down,\" \"hinder,\" or \"keep back.\"<div eID=\"gen31703\" type=\"x-p\"/> <div sID=\"gen31704\" type=\"x-p\"/><hi type=\"bold\">the truth in unrighteousness--</hi>The apostle, though he began this verse with a comprehensive proposition regarding men in general, takes up in the end of it only one of the two great divisions of mankind, to whom he meant to apply it; thus gently sliding into his argument. But before enumerating their actual iniquities, he goes back to the origin of them all, their stifling the light which still remained to them. As darkness overspreads the mind, so impotence takes possession of the heart, when the \"still small voice\" of conscience is first disregarded, next thwarted, and then systematically deadened. Thus \"the truth\" which God left with and in men, instead of having free scope and developing itself, as it otherwise would, was obstructed (compare <reference osisRef=\"Matt.6.22\">Mt 6:22</reference>, <reference osisRef=\"Matt.6.23\">23</reference>; <reference osisRef=\"Eph.4.17\">Ep 4:17</reference>, <reference osisRef=\"Eph.4.18\">18</reference>). <div eID=\"gen31704\" type=\"x-p\"/>",
+      "content_plain": "Ro 1:18 . Why This Divinely Provided Righteousness Is Needed by All Men. 18. For the wrath of God-- His holy displeasure and righteous vengeance against sin. is revealed from heaven-- in the consciences of men, and attested by innumerable outward evidences of a moral government. against all ungodliness-- that is, their whole irreligiousness, or their living without any conscious reference to God, and proper feelings towards Him. and unrighteousness of men-- that is, all their deviations from moral rectitude in heart, speech, and behavior. (So these terms must be distinguished when used together, though, when standing alone, either of them includes the other). Ro 1:18-32 . This Wrath of God, Revealed against All Iniquity, Overhangs the Whole Heathen World. 18. who hold-- rather, \"hold down,\" \"hinder,\" or \"keep back.\" the truth in unrighteousness-- The apostle, though he began this verse with a comprehensive proposition regarding men in general, takes up in the end of it only one of the two great divisions of mankind, to whom he meant to apply it; thus gently sliding into his argument. But before enumerating their actual iniquities, he goes back to the origin of them all, their stifling the light which still remained to them. As darkness overspreads the mind, so impotence takes possession of the heart, when the \"still small voice\" of conscience is first disregarded, next thwarted, and then systematically deadened. Thus \"the truth\" which God left with and in men, instead of having free scope and developing itself, as it otherwise would, was obstructed (compare Mt 6:22 , 23 ; Ep 4:17 , 18 ).",
+      "source_record_sha256": "c8140f5a6fad8ba254de119c894d31e25c32167055961ba20afeb137bf56682a",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 32798,
+        "length": 2671
+      },
+      "embedded_front_matter_possible": true,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.18",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "Ro 1:18 . Why This Divinely Provided Righteousness Is Needed by All Men. 18. For the wrath of God-- His holy displeasure and righteous vengeance against sin. is revealed from heaven-- in the consciences of men, and attested by innumerable outward evidences of a moral government. against all ungodliness-- that is, their whole irreligiousness, or their living without any conscious reference to God, and proper feelings towards Him. and unrighteousness of men-- that is, all their deviations from moral rectitude in heart, speech, and behavior. (So these terms must be distinguished when used together, though, when standing alone, either of them includes the other). Ro 1:18-32 . This Wrath of God, Revealed against All Iniquity, Overhangs the Whole Heathen World. 18. who hold-- rather, \"hold down,\" \"hinder,\" or \"keep back.\" the truth in unrighteousness-- The apostle, though he began this verse with a comprehensive proposition regarding men in general, takes up in the end of it only one of the two great divisions of mankind, to whom he meant to apply it; thus gently sliding into his argument. But before enumerating their actual iniquities, he goes back to the origin of them all, their stifling the light which still remained to them. As darkness overspreads the mind, so impotence takes possession of the heart, when the \"still small voice\" of conscience is first disregarded, next thwarted, and then systematically deadened. Thus \"the truth\" which God left with and in men, instead of having free scope and developing itself, as it otherwise would, was obstructed (compare Mt 6:22 , 23 ; Ep 4:17 , 18 )."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.19-19:6:35469:531",
+      "passage_start": "ROM.1.19",
+      "passage_end": "ROM.1.19",
+      "start_verse": 19,
+      "end_verse": 19,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16354\"/><div sID=\"gen31705\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16354\"/><hi type=\"bold\">19. Because that which may be--</hi>rather, \"which is.\"<div eID=\"gen31705\" type=\"x-p\"/> <div sID=\"gen31706\" type=\"x-p\"/><hi type=\"bold\">known of God is manifest in them; for God hath showed it unto them--</hi>The sense of this pregnant statement the apostle proceeds to unfold in <reference osisRef=\"Rom.1.20\">Ro 1:20</reference>. <div eID=\"gen31706\" type=\"x-p\"/>",
+      "content_plain": "19. Because that which may be-- rather, \"which is.\" known of God is manifest in them; for God hath showed it unto them-- The sense of this pregnant statement the apostle proceeds to unfold in Ro 1:20 .",
+      "source_record_sha256": "1c1bc24cd3669a333707d93455cd8f794b48c4582849987dd7c6b0a0f1f50f93",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 35469,
+        "length": 531
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.19",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "19. Because that which may be-- rather, \"which is.\" known of God is manifest in them; for God hath showed it unto them-- The sense of this pregnant statement the apostle proceeds to unfold in Ro 1:20 ."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.20-20:6:36000:1736",
+      "passage_start": "ROM.1.20",
+      "passage_end": "ROM.1.20",
+      "start_verse": 20,
+      "end_verse": 20,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16355\"/><div sID=\"gen31707\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16355\"/><hi type=\"bold\">20. For the invisible things of him from--</hi>or \"since\"<div eID=\"gen31707\" type=\"x-p\"/> <div sID=\"gen31708\" type=\"x-p\"/><hi type=\"bold\">the creation of the world are clearly seen--</hi>the mind brightly beholding what the eye cannot discern.<div eID=\"gen31708\" type=\"x-p\"/> <div sID=\"gen31709\" type=\"x-p\"/><hi type=\"bold\">being understood by the things that are made--</hi>Thus, the outward creation is not the parent but the interpreter of our faith in God. That faith has its primary sources within our own breast (<reference osisRef=\"Rom.1.19\">Ro 1:19</reference>); but it becomes an intelligible and articulate conviction only through what we observe around us (\"by the things which are made,\" <reference osisRef=\"Rom.1.20\">Ro 1:20</reference>). And thus are the inner and the outer revelation of God the complement of each other, making up between them one universal and immovable conviction that God is. (With this striking apostolic statement agree the latest conclusions of the most profound speculative students of Theism).<div eID=\"gen31709\" type=\"x-p\"/> <div sID=\"gen31710\" type=\"x-p\"/><hi type=\"bold\">even his eternal power and Godhead--</hi>both that there is an Eternal Power, and that this is not a mere blind force, or pantheistic \"spirit of nature,\" but the power of a living Godhead.<div eID=\"gen31710\" type=\"x-p\"/> <div sID=\"gen31711\" type=\"x-p\"/><hi type=\"bold\">so that they are without excuse--</hi>all their degeneracy being a voluntary departure from truth thus brightly revealed to the unsophisticated spirit. <div eID=\"gen31711\" type=\"x-p\"/>",
+      "content_plain": "20. For the invisible things of him from-- or \"since\" the creation of the world are clearly seen-- the mind brightly beholding what the eye cannot discern. being understood by the things that are made-- Thus, the outward creation is not the parent but the interpreter of our faith in God. That faith has its primary sources within our own breast ( Ro 1:19 ); but it becomes an intelligible and articulate conviction only through what we observe around us (\"by the things which are made,\" Ro 1:20 ). And thus are the inner and the outer revelation of God the complement of each other, making up between them one universal and immovable conviction that God is. (With this striking apostolic statement agree the latest conclusions of the most profound speculative students of Theism). even his eternal power and Godhead-- both that there is an Eternal Power, and that this is not a mere blind force, or pantheistic \"spirit of nature,\" but the power of a living Godhead. so that they are without excuse-- all their degeneracy being a voluntary departure from truth thus brightly revealed to the unsophisticated spirit.",
+      "source_record_sha256": "2965ffe1f8599cb1c0dba78b144140ca52f4969074f022eeea031062c79fa657",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 36000,
+        "length": 1736
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.20",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "20. For the invisible things of him from-- or \"since\" the creation of the world are clearly seen-- the mind brightly beholding what the eye cannot discern. being understood by the things that are made-- Thus, the outward creation is not the parent but the interpreter of our faith in God. That faith has its primary sources within our own breast ( Ro 1:19 ); but it becomes an intelligible and articulate conviction only through what we observe around us (\"by the things which are made,\" Ro 1:20 ). And thus are the inner and the outer revelation of God the complement of each other, making up between them one universal and immovable conviction that God is. (With this striking apostolic statement agree the latest conclusions of the most profound speculative students of Theism). even his eternal power and Godhead-- both that there is an Eternal Power, and that this is not a mere blind force, or pantheistic \"spirit of nature,\" but the power of a living Godhead. so that they are without excuse-- all their degeneracy being a voluntary departure from truth thus brightly revealed to the unsophisticated spirit."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.21-21:6:37736:1521",
+      "passage_start": "ROM.1.21",
+      "passage_end": "ROM.1.21",
+      "start_verse": 21,
+      "end_verse": 21,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16356\"/><div sID=\"gen31712\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16356\"/><hi type=\"bold\">21. Because that, when they knew God--</hi>that is, while still retaining some real knowledge of Him, and ere they sank down into the state next to be described.<div eID=\"gen31712\" type=\"x-p\"/> <div sID=\"gen31713\" type=\"x-p\"/><hi type=\"bold\">they glorified him not as God, neither were thankful--</hi>neither yielded the adoration due to Himself, nor rendered the gratitude which His beneficence demanded.<div eID=\"gen31713\" type=\"x-p\"/> <div sID=\"gen31714\" type=\"x-p\"/><hi type=\"bold\">but became vain--</hi>(compare <reference osisRef=\"Jer.2.5\">Jr 2:5</reference>).<div eID=\"gen31714\" type=\"x-p\"/> <div sID=\"gen31715\" type=\"x-p\"/><hi type=\"bold\">in their imaginations--</hi>thoughts, notions, speculations, regarding God; compare <reference osisRef=\"Matt.15.19\">Mt 15:19</reference>; <reference osisRef=\"Luke.2.35\">Lu 2:35</reference>; <reference osisRef=\"1Cor.3.20\">1Co 3:20</reference>, Greek.<div eID=\"gen31715\" type=\"x-p\"/> <div sID=\"gen31716\" type=\"x-p\"/><hi type=\"bold\">and their foolish--</hi>\"senseless,\" \"stupid.\"<div eID=\"gen31716\" type=\"x-p\"/> <div sID=\"gen31717\" type=\"x-p\"/><hi type=\"bold\">heart--</hi>that is, their whole inner man.<div eID=\"gen31717\" type=\"x-p\"/> <div sID=\"gen31718\" type=\"x-p\"/><hi type=\"bold\">was darkened--</hi>How instructively is the downward progress of the human soul here traced! <div eID=\"gen31718\" type=\"x-p\"/>",
+      "content_plain": "21. Because that, when they knew God-- that is, while still retaining some real knowledge of Him, and ere they sank down into the state next to be described. they glorified him not as God, neither were thankful-- neither yielded the adoration due to Himself, nor rendered the gratitude which His beneficence demanded. but became vain-- (compare Jr 2:5 ). in their imaginations-- thoughts, notions, speculations, regarding God; compare Mt 15:19 ; Lu 2:35 ; 1Co 3:20 , Greek. and their foolish-- \"senseless,\" \"stupid.\" heart-- that is, their whole inner man. was darkened-- How instructively is the downward progress of the human soul here traced!",
+      "source_record_sha256": "bc4811f020bde6931bae8b1664ea82843db25497e28eb517ed7115fc1b5420f7",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 37736,
+        "length": 1521
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.21",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "21. Because that, when they knew God-- that is, while still retaining some real knowledge of Him, and ere they sank down into the state next to be described. they glorified him not as God, neither were thankful-- neither yielded the adoration due to Himself, nor rendered the gratitude which His beneficence demanded. but became vain-- (compare Jr 2:5 ). in their imaginations-- thoughts, notions, speculations, regarding God; compare Mt 15:19 ; Lu 2:35 ; 1Co 3:20 , Greek. and their foolish-- \"senseless,\" \"stupid.\" heart-- that is, their whole inner man. was darkened-- How instructively is the downward progress of the human soul here traced!"
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.22-23:6:39257:590",
+      "passage_start": "ROM.1.22",
+      "passage_end": "ROM.1.23",
+      "start_verse": 22,
+      "end_verse": 23,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16357\"/><div sID=\"gen31719\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16357\"/><hi type=\"bold\">22-23. Professing themselves--</hi>\"boasting,\" or \"pretending to be\"<div eID=\"gen31719\" type=\"x-p\"/> <div sID=\"gen31720\" type=\"x-p\"/><hi type=\"bold\">wise, they became fools--</hi>\"It is the invariable property of error in morals and religion, that men take credit to themselves for it and extol it as wisdom. So the heathen\" (<reference osisRef=\"1Cor.1.21\">1Co 1:21</reference>) [Tholuck]. <div eID=\"gen31720\" type=\"x-p\"/>",
+      "content_plain": "22-23. Professing themselves-- \"boasting,\" or \"pretending to be\" wise, they became fools-- \"It is the invariable property of error in morals and religion, that men take credit to themselves for it and extol it as wisdom. So the heathen\" ( 1Co 1:21 ) [Tholuck].",
+      "source_record_sha256": "9a15a84dab46a7e11bceff3e1cb313ee8fa614aa4081103f3051627c50065127",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 39257,
+        "length": 590
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ROM.1.22-23",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "22-23. Professing themselves-- \"boasting,\" or \"pretending to be\" wise, they became fools-- \"It is the invariable property of error in morals and religion, that men take credit to themselves for it and extol it as wisdom. So the heathen\" ( 1Co 1:21 ) [Tholuck]."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.24-24:6:41612:1059",
+      "passage_start": "ROM.1.24",
+      "passage_end": "ROM.1.24",
+      "start_verse": 24,
+      "end_verse": 24,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16359\"/><div sID=\"gen31725\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16359\"/><hi type=\"bold\">24. Wherefore God also--</hi>in righteous retribution.<div eID=\"gen31725\" type=\"x-p\"/> <div sID=\"gen31726\" type=\"x-p\"/><hi type=\"bold\">gave them up--</hi>This divine abandonment of men is here strikingly traced in three successive stages, at each of which the same word is used (<reference osisRef=\"Rom.1.24\">Ro 1:24</reference>, <reference osisRef=\"1Cor.1.26\">26</reference>; and <reference osisRef=\"Rom.1.28\">Ro 1:28</reference>, where the word is rendered \"gave over\"). \"As they deserted God, God in turn deserted them; not giving them divine (that is, supernatural) laws, and suffering them to corrupt those which were human; not sending them prophets, and allowing the philosophers to run into absurdities. He let them do what they pleased, even what was in the last degree vile, that those who had not honored God, might dishonor themselves\" [Grotius]. <div eID=\"gen31726\" type=\"x-p\"/>",
+      "content_plain": "24. Wherefore God also-- in righteous retribution. gave them up-- This divine abandonment of men is here strikingly traced in three successive stages, at each of which the same word is used ( Ro 1:24 , 26 ; and Ro 1:28 , where the word is rendered \"gave over\"). \"As they deserted God, God in turn deserted them; not giving them divine (that is, supernatural) laws, and suffering them to corrupt those which were human; not sending them prophets, and allowing the philosophers to run into absurdities. He let them do what they pleased, even what was in the last degree vile, that those who had not honored God, might dishonor themselves\" [Grotius].",
+      "source_record_sha256": "8a6643b84a948b6d097489f170b062094c86ee8f618437149276a4d462a26035",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 41612,
+        "length": 1059
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.24",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "24. Wherefore God also-- in righteous retribution. gave them up-- This divine abandonment of men is here strikingly traced in three successive stages, at each of which the same word is used ( Ro 1:24 , 26 ; and Ro 1:28 , where the word is rendered \"gave over\"). \"As they deserted God, God in turn deserted them; not giving them divine (that is, supernatural) laws, and suffering them to corrupt those which were human; not sending them prophets, and allowing the philosophers to run into absurdities. He let them do what they pleased, even what was in the last degree vile, that those who had not honored God, might dishonor themselves\" [Grotius]."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.25-25:6:42671:1098",
+      "passage_start": "ROM.1.25",
+      "passage_end": "ROM.1.25",
+      "start_verse": 25,
+      "end_verse": 25,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16360\"/><div sID=\"gen31727\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16360\"/><hi type=\"bold\">25. Who changed the truth of God into a lie--</hi>that is, the truth concerning God into idol falsehood.<div eID=\"gen31727\" type=\"x-p\"/> <div sID=\"gen31728\" type=\"x-p\"/><hi type=\"bold\">and worshipped and served the creature more than the Creator--</hi>Professing merely to worship the Creator by means of the creature, they soon came to lose sight of the Creator in the creature. How aggravated is the guilt of the Church of Rome, which, under the same flimsy pretext, does shamelessly what the heathen are here condemned for doing, and with light which the heathen never had!<div eID=\"gen31728\" type=\"x-p\"/> <div sID=\"gen31729\" type=\"x-p\"/><hi type=\"bold\">who is blessed for ever! Amen--</hi>By this doxology the apostle instinctively relieves the horror which the penning of such things excited within his breast; an example to such as are called to expose like dishonor done to the blessed God. <div eID=\"gen31729\" type=\"x-p\"/>",
+      "content_plain": "25. Who changed the truth of God into a lie-- that is, the truth concerning God into idol falsehood. and worshipped and served the creature more than the Creator-- Professing merely to worship the Creator by means of the creature, they soon came to lose sight of the Creator in the creature. How aggravated is the guilt of the Church of Rome, which, under the same flimsy pretext, does shamelessly what the heathen are here condemned for doing, and with light which the heathen never had! who is blessed for ever! Amen-- By this doxology the apostle instinctively relieves the horror which the penning of such things excited within his breast; an example to such as are called to expose like dishonor done to the blessed God.",
+      "source_record_sha256": "18987a676cb8f51d0c0fc002075d756f68970106bb16fa2bfa9348518816479b",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 42671,
+        "length": 1098
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.25",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "25. Who changed the truth of God into a lie-- that is, the truth concerning God into idol falsehood. and worshipped and served the creature more than the Creator-- Professing merely to worship the Creator by means of the creature, they soon came to lose sight of the Creator in the creature. How aggravated is the guilt of the Church of Rome, which, under the same flimsy pretext, does shamelessly what the heathen are here condemned for doing, and with light which the heathen never had! who is blessed for ever! Amen-- By this doxology the apostle instinctively relieves the horror which the penning of such things excited within his breast; an example to such as are called to expose like dishonor done to the blessed God."
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.26-27:6:43769:2041",
+      "passage_start": "ROM.1.26",
+      "passage_end": "ROM.1.27",
+      "start_verse": 26,
+      "end_verse": 27,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16361\"/><div sID=\"gen31730\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16361\"/><hi type=\"bold\">26-27. For this cause God gave them up--</hi>(See on <reference osisRef=\"Rom.1.24\">Ro 1:24</reference>).<div eID=\"gen31730\" type=\"x-p\"/> <div sID=\"gen31731\" type=\"x-p\"/><hi type=\"bold\">for even their women--</hi>that sex whose priceless jewel and fairest ornament is modesty, and which, when that is once lost, not only becomes more shameless than the other sex, but lives henceforth only to drag the other sex down to its level.<div eID=\"gen31731\" type=\"x-p\"/> <div sID=\"gen31732\" type=\"x-p\"/><hi type=\"bold\">did change, &amp;c.--</hi>The practices here referred to, though too abundantly attested by classic authors, cannot be further illustrated, without trenching on things which \"ought not to be named among us as become the saints.\" But observe how vice is here seen consuming and exhausting itself. When the passions, scourged by violent and continued indulgence in natural vices, became impotent to yield the craved enjoyment, resort was had to artificial stimulants by the practice of unnatural and monstrous vices. How early these were in full career, in the history of the world, the case of Sodom affectingly shows; and because of such abominations, centuries after that, the land of Canaan \"spued out\" its old inhabitants. Long before this chapter was penned, the Lesbians and others throughout refined Greece had been luxuriating in such debasements; and as for the Romans, Tacitus, speaking of the emperor Tiberius, tells us that new words had then to be coined to express the newly invented stimulants to jaded passion. No wonder that, thus sick and dying as was this poor humanity of ours under the highest earthly culture, its many-voiced cry for the balm in Gilead, and the Physician there, \"Come over and help us,\" pierced the hearts of the missionaries of the Cross, and made them \"not ashamed of the Gospel of Christ!\" <div eID=\"gen31732\" type=\"x-p\"/>",
+      "content_plain": "26-27. For this cause God gave them up-- (See on Ro 1:24 ). for even their women-- that sex whose priceless jewel and fairest ornament is modesty, and which, when that is once lost, not only becomes more shameless than the other sex, but lives henceforth only to drag the other sex down to its level. did change, &c.-- The practices here referred to, though too abundantly attested by classic authors, cannot be further illustrated, without trenching on things which \"ought not to be named among us as become the saints.\" But observe how vice is here seen consuming and exhausting itself. When the passions, scourged by violent and continued indulgence in natural vices, became impotent to yield the craved enjoyment, resort was had to artificial stimulants by the practice of unnatural and monstrous vices. How early these were in full career, in the history of the world, the case of Sodom affectingly shows; and because of such abominations, centuries after that, the land of Canaan \"spued out\" its old inhabitants. Long before this chapter was penned, the Lesbians and others throughout refined Greece had been luxuriating in such debasements; and as for the Romans, Tacitus, speaking of the emperor Tiberius, tells us that new words had then to be coined to express the newly invented stimulants to jaded passion. No wonder that, thus sick and dying as was this poor humanity of ours under the highest earthly culture, its many-voiced cry for the balm in Gilead, and the Physician there, \"Come over and help us,\" pierced the hearts of the missionaries of the Cross, and made them \"not ashamed of the Gospel of Christ!\"",
+      "source_record_sha256": "1987157ed6e24c8b4453a2d9f3d8dbc27186f63108a84517445ca71d73e0c2c6",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 43769,
+        "length": 2041
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ROM.1.26-27",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "26-27. For this cause God gave them up-- (See on Ro 1:24 ). for even their women-- that sex whose priceless jewel and fairest ornament is modesty, and which, when that is once lost, not only becomes more shameless than the other sex, but lives henceforth only to drag the other sex down to its level. did change, &c.-- The practices here referred to, though too abundantly attested by classic authors, cannot be further illustrated, without trenching on things which \"ought not to be named among us as become the saints.\" But observe how vice is here seen consuming and exhausting itself. When the passions, scourged by violent and continued indulgence in natural vices, became impotent to yield the craved enjoyment, resort was had to artificial stimulants by the practice of unnatural and monstrous vices. How early these were in full career, in the history of the world, the case of Sodom affectingly shows; and because of such abominations, centuries after that, the land of Canaan \"spued out\" its old inhabitants. Long before this chapter was penned, the Lesbians and others throughout refined Greece had been luxuriating in such debasements; and as for the Romans, Tacitus, speaking of the emperor Tiberius, tells us that new words had then to be coined to express the newly invented stimulants to jaded passion. No wonder that, thus sick and dying as was this poor humanity of ours under the highest earthly culture, its many-voiced cry for the balm in Gilead, and the Physician there, \"Come over and help us,\" pierced the hearts of the missionaries of the Cross, and made them \"not ashamed of the Gospel of Christ!\""
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.28-31:6:46217:508",
+      "passage_start": "ROM.1.28",
+      "passage_end": "ROM.1.31",
+      "start_verse": 28,
+      "end_verse": 31,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16363\"/><div sID=\"gen31734\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16363\"/><hi type=\"bold\">28-31. gave them over--</hi>or \"up\" (see on <reference osisRef=\"Rom.1.24\">Ro 1:24</reference>).<div eID=\"gen31734\" type=\"x-p\"/> <div sID=\"gen31735\" type=\"x-p\"/><hi type=\"bold\">to do those things which are not convenient--</hi>in the old sense of that word, that is, \"not becoming,\" \"indecorous,\" \"shameful.\" <div eID=\"gen31735\" type=\"x-p\"/>",
+      "content_plain": "28-31. gave them over-- or \"up\" (see on Ro 1:24 ). to do those things which are not convenient-- in the old sense of that word, that is, \"not becoming,\" \"indecorous,\" \"shameful.\"",
+      "source_record_sha256": "87d7af85cc7a8ab588268858c0c15e32decf47d06629873f5d47e12acf797bb7",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 46217,
+        "length": 508
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "passage_commentary",
+      "navigation_id": "ROM.1.28-31",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "28-31. gave them over-- or \"up\" (see on Ro 1:24 ). to do those things which are not convenient-- in the old sense of that word, that is, \"not becoming,\" \"indecorous,\" \"shameful.\""
+    },
+    {
+      "entry_id": "sword:jfb:ROM.1.32-32:6:47378:7711",
+      "passage_start": "ROM.1.32",
+      "passage_end": "ROM.1.32",
+      "start_verse": 32,
+      "end_verse": 32,
+      "coverage_basis": "native_SWORD_same_binary_record_index",
+      "source_format": "OSIS",
+      "content_osis": "<div type=\"x-milestone\" subType=\"x-preverse\" sID=\"pv16365\"/><div sID=\"gen31737\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16365\"/><hi type=\"bold\">32. Who knowing--</hi>from the voice of conscience, <reference osisRef=\"Rom.2.14\">Ro 2:14</reference>, <reference osisRef=\"2Cor.2.15\">15</reference><div eID=\"gen31737\" type=\"x-p\"/> <div sID=\"gen31738\" type=\"x-p\"/><hi type=\"bold\">the judgment of God--</hi>the stern law of divine procedure.<div eID=\"gen31738\" type=\"x-p\"/> <div sID=\"gen31739\" type=\"x-p\"/><hi type=\"bold\">that they which commit such things are worthy of death--</hi>here used in its widest known sense, as the uttermost of divine vengeance against sin: see <reference osisRef=\"Acts.28.4\">Ac 28:4</reference>.<div eID=\"gen31739\" type=\"x-p\"/> <div sID=\"gen31740\" type=\"x-p\"/><hi type=\"bold\">not only do the same--</hi>which they might do under the pressure of temptation and in the heat of passion.<div eID=\"gen31740\" type=\"x-p\"/> <div sID=\"gen31741\" type=\"x-p\"/><hi type=\"bold\">but have pleasure in them that do them--</hi>deliberately set their seal to such actions by encouraging and applauding the doing of them in others. This is the climax of our apostle's charges against the heathen; and certainly, if the things are in themselves as black as possible, this settled and unblushing satisfaction at the practice of them, apart from all the blinding effects of present passion, must be regarded as the darkest feature of human depravity.<div eID=\"gen31741\" type=\"x-p\"/> <div sID=\"gen31742\" type=\"x-p\"/><hi type=\"bold\">On this section, Note (1) \"The wrath of God\" against sin has all the dread reality of a \"revelation from heaven\" sounding in the consciences of men, in the self-inflicted miseries of the wicked, and in the vengeance which God's moral government, sooner or later, takes upon all who outrage it; so this \"wrath of God\" is not confined to high-handed crimes, or the grosser manifestations of human depravity, but is \"revealed\" against all violations of divine law of whatever nature--</hi>\"against all ungodliness\" as well as \"unrighteousness of men,\" against all disregard of God in the conduct of life as well as against all deviations from moral rectitude; and therefore, since no child of Adam can plead guiltless either of \"ungodliness\" or of \"unrighteousness,\" to a greater or less extent, it follows that every human being is involved in the awful sweep of \"the wrath of God\" (<reference osisRef=\"Rom.1.18\">Ro 1:18</reference>). The apostle places this terrible truth in the forefront of his argument on justification by faith, that upon the basis of universal condemnation he might rear the edifice of a free, world-wide salvation; nor can the Gospel be scripturally preached or embraced, save as the good news of salvation to those that are all equally \"lost.\" (2) We must not magnify the supernatural revelation which God has been pleased to make of Himself, through Abraham's family to the human race, at the expense of that older, and, in itself, lustrous revelation which He has made to the whole family of man through the medium of their own nature and the creation around them. Without the latter, the former would have been impossible, and those who have not been favored with the former will be without excuse, if they are deaf to the voice and blind to the glory of the latter (<reference osisRef=\"Rom.1.19\">Ro 1:19</reference>, <reference osisRef=\"1Cor.1.20\">20</reference>). (<reference osisRef=\"1Cor.1.3\">3</reference>) Wilful resistance of light has a retributive tendency to blunt the moral perceptions and weaken the capacity to apprehend and approve of truth and goodness; and thus is the soul prepared to surrender itself, to an indefinite extent, to error and sin (<reference osisRef=\"Rom.1.21\">Ro 1:21</reference>, &amp;c.). (4) Pride of wisdom, as it is a convincing evidence of the want of it, so it makes the attainment of it impossible (<reference osisRef=\"Rom.1.22\">Ro 1:22</reference>; and compare <reference osisRef=\"Matt.11.25\">Mt 11:25</reference>; 1Co 3:18-20). (5) As idolatry, even in its most plausible forms, is the fruit of unworthy views of the Godhead, so its natural effect is to vitiate and debase still further the religious conceptions; nor is there any depth of degradation too low and too revolting for men's ideas of the Godhead to sink to, if only their natural temperament and the circumstances they are placed in be favorable to their unrestrained development (<reference osisRef=\"Rom.1.23\">Ro 1:23</reference>, <reference osisRef=\"1Cor.1.25\">25</reference>). The apostle had Greece and Egypt in his eye when he penned this description. But all the paganisms of the East at this day attest its accuracy, from the more elaborate idolatry of India and the simpler and more stupid idolatry of China down to the childish rudiments of nature worship prevalent among the savage tribes. Alas! Christendom itself furnishes a melancholy illustration of this truth; the constant use of material images in the Church of Rome and the materialistic and sensuous character of its entire service (to say nothing of the less offensive but more stupid service of the Greek Church,) debasing the religious ideas of millions of nominal Christians, and lowering the whole character and tone of Christianity as represented within their immense pale. (6) Moral corruption invariably follows religious debasement. The grossness of pagan idolatry is only equalled by the revolting character and frightful extent of the immoralities which it fostered and consecrated (<reference osisRef=\"Rom.1.24\">Ro 1:24</reference>, 26, 27). And so strikingly is this to be seen in all its essential features in the East at this day, that (as Hodge says) the missionaries have frequently been accused by the natives of having forged the whole of the latter part of this chapter, as they could not believe that so accurate a description of themselves could have been written eighteen centuries ago. The kingdoms of Israel and Judah furnish a striking illustration of the inseparable connection between religion and morals. Israel corrupted and debased the worship of Jehovah, and the sins with which they were charged were mostly of the grosser kind--intemperance and sensuality: the people of Judah, remaining faithful to the pure worship, were for a long time charged mostly with formality and hypocrisy; and only as they fell into the idolatries of the heathen around them, did they sink into their vices. And may not a like distinction be observed between the two great divisions of Christendom, the Popish and the Protestant? To test this, we must not look to Popery, surrounded with, and more or less influenced by, the presence and power of Protestantism; nor to Protestantism under every sort of disadvantage, internal and external. But look at Romanism where it has unrestrained liberty to develop its true character, and see whether impurity does not there taint society to its core, pervading alike the highest and the lowest classes; and then look at Protestantism where it enjoys the same advantages, and see whether it be not marked by a comparatively high standard of social virtue. (7) To take pleasure in what is sinful and vicious for its own sake, and knowing it to be such, is the last and lowest stage of human recklessness (<reference osisRef=\"Rom.1.32\">Ro 1:32</reference>). But (8) this knowledge can never be wholly extinguished in the breast of men. So long as reason remains to them, there is still a small voice in the worst of men, protesting, in the name of the Power that implanted it, \"that they which do such things are worthy of death\" (<reference osisRef=\"Rom.1.32\">Ro 1:32</reference>). <chapter eID=\"Rom.1\"/>",
+      "content_plain": "32. Who knowing-- from the voice of conscience, Ro 2:14 , 15 the judgment of God-- the stern law of divine procedure. that they which commit such things are worthy of death-- here used in its widest known sense, as the uttermost of divine vengeance against sin: see Ac 28:4 . not only do the same-- which they might do under the pressure of temptation and in the heat of passion. but have pleasure in them that do them-- deliberately set their seal to such actions by encouraging and applauding the doing of them in others. This is the climax of our apostle's charges against the heathen; and certainly, if the things are in themselves as black as possible, this settled and unblushing satisfaction at the practice of them, apart from all the blinding effects of present passion, must be regarded as the darkest feature of human depravity. On this section, Note (1) \"The wrath of God\" against sin has all the dread reality of a \"revelation from heaven\" sounding in the consciences of men, in the self-inflicted miseries of the wicked, and in the vengeance which God's moral government, sooner or later, takes upon all who outrage it; so this \"wrath of God\" is not confined to high-handed crimes, or the grosser manifestations of human depravity, but is \"revealed\" against all violations of divine law of whatever nature-- \"against all ungodliness\" as well as \"unrighteousness of men,\" against all disregard of God in the conduct of life as well as against all deviations from moral rectitude; and therefore, since no child of Adam can plead guiltless either of \"ungodliness\" or of \"unrighteousness,\" to a greater or less extent, it follows that every human being is involved in the awful sweep of \"the wrath of God\" ( Ro 1:18 ). The apostle places this terrible truth in the forefront of his argument on justification by faith, that upon the basis of universal condemnation he might rear the edifice of a free, world-wide salvation; nor can the Gospel be scripturally preached or embraced, save as the good news of salvation to those that are all equally \"lost.\" (2) We must not magnify the supernatural revelation which God has been pleased to make of Himself, through Abraham's family to the human race, at the expense of that older, and, in itself, lustrous revelation which He has made to the whole family of man through the medium of their own nature and the creation around them. Without the latter, the former would have been impossible, and those who have not been favored with the former will be without excuse, if they are deaf to the voice and blind to the glory of the latter ( Ro 1:19 , 20 ). ( 3 ) Wilful resistance of light has a retributive tendency to blunt the moral perceptions and weaken the capacity to apprehend and approve of truth and goodness; and thus is the soul prepared to surrender itself, to an indefinite extent, to error and sin ( Ro 1:21 , &c.). (4) Pride of wisdom, as it is a convincing evidence of the want of it, so it makes the attainment of it impossible ( Ro 1:22 ; and compare Mt 11:25 ; 1Co 3:18-20). (5) As idolatry, even in its most plausible forms, is the fruit of unworthy views of the Godhead, so its natural effect is to vitiate and debase still further the religious conceptions; nor is there any depth of degradation too low and too revolting for men's ideas of the Godhead to sink to, if only their natural temperament and the circumstances they are placed in be favorable to their unrestrained development ( Ro 1:23 , 25 ). The apostle had Greece and Egypt in his eye when he penned this description. But all the paganisms of the East at this day attest its accuracy, from the more elaborate idolatry of India and the simpler and more stupid idolatry of China down to the childish rudiments of nature worship prevalent among the savage tribes. Alas! Christendom itself furnishes a melancholy illustration of this truth; the constant use of material images in the Church of Rome and the materialistic and sensuous character of its entire service (to say nothing of the less offensive but more stupid service of the Greek Church,) debasing the religious ideas of millions of nominal Christians, and lowering the whole character and tone of Christianity as represented within their immense pale. (6) Moral corruption invariably follows religious debasement. The grossness of pagan idolatry is only equalled by the revolting character and frightful extent of the immoralities which it fostered and consecrated ( Ro 1:24 , 26, 27). And so strikingly is this to be seen in all its essential features in the East at this day, that (as Hodge says) the missionaries have frequently been accused by the natives of having forged the whole of the latter part of this chapter, as they could not believe that so accurate a description of themselves could have been written eighteen centuries ago. The kingdoms of Israel and Judah furnish a striking illustration of the inseparable connection between religion and morals. Israel corrupted and debased the worship of Jehovah, and the sins with which they were charged were mostly of the grosser kind--intemperance and sensuality: the people of Judah, remaining faithful to the pure worship, were for a long time charged mostly with formality and hypocrisy; and only as they fell into the idolatries of the heathen around them, did they sink into their vices. And may not a like distinction be observed between the two great divisions of Christendom, the Popish and the Protestant? To test this, we must not look to Popery, surrounded with, and more or less influenced by, the presence and power of Protestantism; nor to Protestantism under every sort of disadvantage, internal and external. But look at Romanism where it has unrestrained liberty to develop its true character, and see whether impurity does not there taint society to its core, pervading alike the highest and the lowest classes; and then look at Protestantism where it enjoys the same advantages, and see whether it be not marked by a comparatively high standard of social virtue. (7) To take pleasure in what is sinful and vicious for its own sake, and knowing it to be such, is the last and lowest stage of human recklessness ( Ro 1:32 ). But (8) this knowledge can never be wholly extinguished in the breast of men. So long as reason remains to them, there is still a small voice in the worst of men, protesting, in the name of the Power that implanted it, \"that they which do such things are worthy of death\" ( Ro 1:32 ).",
+      "source_record_sha256": "c53ed31ef30c9a63c7daa9b22bbb0a69fb33318b7f13fc72ebd2f42de00c408d",
+      "index_record": {
+        "testament": "NT",
+        "block": 6,
+        "offset": 47378,
+        "length": 7711
+      },
+      "embedded_front_matter_possible": false,
+      "commentary_kind": "verse_commentary",
+      "navigation_id": "ROM.1.32",
+      "source_record_immutable": true,
+      "reader_visible": true,
+      "reader_content_plain": "32. Who knowing-- from the voice of conscience, Ro 2:14 , 15 the judgment of God-- the stern law of divine procedure. that they which commit such things are worthy of death-- here used in its widest known sense, as the uttermost of divine vengeance against sin: see Ac 28:4 . not only do the same-- which they might do under the pressure of temptation and in the heat of passion. but have pleasure in them that do them-- deliberately set their seal to such actions by encouraging and applauding the doing of them in others. This is the climax of our apostle's charges against the heathen; and certainly, if the things are in themselves as black as possible, this settled and unblushing satisfaction at the practice of them, apart from all the blinding effects of present passion, must be regarded as the darkest feature of human depravity. On this section, Note (1) \"The wrath of God\" against sin has all the dread reality of a \"revelation from heaven\" sounding in the consciences of men, in the self-inflicted miseries of the wicked, and in the vengeance which God's moral government, sooner or later, takes upon all who outrage it; so this \"wrath of God\" is not confined to high-handed crimes, or the grosser manifestations of human depravity, but is \"revealed\" against all violations of divine law of whatever nature-- \"against all ungodliness\" as well as \"unrighteousness of men,\" against all disregard of God in the conduct of life as well as against all deviations from moral rectitude; and therefore, since no child of Adam can plead guiltless either of \"ungodliness\" or of \"unrighteousness,\" to a greater or less extent, it follows that every human being is involved in the awful sweep of \"the wrath of God\" ( Ro 1:18 ). The apostle places this terrible truth in the forefront of his argument on justification by faith, that upon the basis of universal condemnation he might rear the edifice of a free, world-wide salvation; nor can the Gospel be scripturally preached or embraced, save as the good news of salvation to those that are all equally \"lost.\" (2) We must not magnify the supernatural revelation which God has been pleased to make of Himself, through Abraham's family to the human race, at the expense of that older, and, in itself, lustrous revelation which He has made to the whole family of man through the medium of their own nature and the creation around them. Without the latter, the former would have been impossible, and those who have not been favored with the former will be without excuse, if they are deaf to the voice and blind to the glory of the latter ( Ro 1:19 , 20 ). ( 3 ) Wilful resistance of light has a retributive tendency to blunt the moral perceptions and weaken the capacity to apprehend and approve of truth and goodness; and thus is the soul prepared to surrender itself, to an indefinite extent, to error and sin ( Ro 1:21 , &c.). (4) Pride of wisdom, as it is a convincing evidence of the want of it, so it makes the attainment of it impossible ( Ro 1:22 ; and compare Mt 11:25 ; 1Co 3:18-20). (5) As idolatry, even in its most plausible forms, is the fruit of unworthy views of the Godhead, so its natural effect is to vitiate and debase still further the religious conceptions; nor is there any depth of degradation too low and too revolting for men's ideas of the Godhead to sink to, if only their natural temperament and the circumstances they are placed in be favorable to their unrestrained development ( Ro 1:23 , 25 ). The apostle had Greece and Egypt in his eye when he penned this description. But all the paganisms of the East at this day attest its accuracy, from the more elaborate idolatry of India and the simpler and more stupid idolatry of China down to the childish rudiments of nature worship prevalent among the savage tribes. Alas! Christendom itself furnishes a melancholy illustration of this truth; the constant use of material images in the Church of Rome and the materialistic and sensuous character of its entire service (to say nothing of the less offensive but more stupid service of the Greek Church,) debasing the religious ideas of millions of nominal Christians, and lowering the whole character and tone of Christianity as represented within their immense pale. (6) Moral corruption invariably follows religious debasement. The grossness of pagan idolatry is only equalled by the revolting character and frightful extent of the immoralities which it fostered and consecrated ( Ro 1:24 , 26, 27). And so strikingly is this to be seen in all its essential features in the East at this day, that (as Hodge says) the missionaries have frequently been accused by the natives of having forged the whole of the latter part of this chapter, as they could not believe that so accurate a description of themselves could have been written eighteen centuries ago. The kingdoms of Israel and Judah furnish a striking illustration of the inseparable connection between religion and morals. Israel corrupted and debased the worship of Jehovah, and the sins with which they were charged were mostly of the grosser kind--intemperance and sensuality: the people of Judah, remaining faithful to the pure worship, were for a long time charged mostly with formality and hypocrisy; and only as they fell into the idolatries of the heathen around them, did they sink into their vices. And may not a like distinction be observed between the two great divisions of Christendom, the Popish and the Protestant? To test this, we must not look to Popery, surrounded with, and more or less influenced by, the presence and power of Protestantism; nor to Protestantism under every sort of disadvantage, internal and external. But look at Romanism where it has unrestrained liberty to develop its true character, and see whether impurity does not there taint society to its core, pervading alike the highest and the lowest classes; and then look at Protestantism where it enjoys the same advantages, and see whether it be not marked by a comparatively high standard of social virtue. (7) To take pleasure in what is sinful and vicious for its own sake, and knowing it to be such, is the last and lowest stage of human recklessness ( Ro 1:32 ). But (8) this knowledge can never be wholly extinguished in the breast of men. So long as reason remains to them, there is still a small voice in the worst of men, protesting, in the name of the Power that implanted it, \"that they which do such things are worthy of death\" ( Ro 1:32 )."
+    }
+  ],
+  "indexed_verse_count": 32,
+  "unindexed_verse_count": 0,
+  "upstream_snapshot_id": "SOTW_ROM_ORIGINAL_SOURCES_SHA_LOCKED_2026-11-12",
+  "upstream_content_semantics": {
+    "original_source_index": "SWORD/NT-binary-verse-index",
+    "original_record_count": 24
+  },
+  "navigation_sections": [
+    {
+      "section_id": "nav:jamieson-fausset-brown:ROM:P:romans-original-jfb-book-introduction",
+      "navigation_id": "ROM:P:romans-original-jfb-book-introduction",
+      "kind": "original_source_section",
+      "scope": "book",
+      "role": "book_introduction",
+      "title": "Romans · Original JFB Book Introduction",
+      "content_plain": "INTRODUCTION The Genuineness of the Epistle to the Romans has never been questioned. It has the unbroken testimony of all antiquity, up to Clement of Rome, the apostle's \"fellow laborer in the Gospel, whose name was in the Book of Life\" ( Php 4:3 ), and who quotes from it in his undoubted Epistle to the Corinthians, written before the close of the first century. The most searching investigations of modern criticism have left it untouched. When and Where this Epistle was written we have the means of determining with great precision, from the Epistle itself compared with the Acts of the Apostles. Up to the date of it the apostle had never been at Rome ( Ro 1:11 , 13, 15). He was then on the eve of visiting Jerusalem with a pecuniary contribution for its Christian poor from the churches of Macedonia and Achaia, after which his purpose was to pay a visit to Rome on his way to Spain ( Ro 15:23-28 ). Now this contribution we know that he carried with him from Corinth, at the close of his third visit to that city, which lasted three months ( Ac 20:2 , 3 ; 24:17 ). On this occasion there accompanied him from Corinth certain persons whose names are given by the historian of the Acts ( Ac 20:4 ), and four of these are expressly mentioned in our Epistle as being with the apostle when he wrote it-- Timotheus, Sosipater, Gaius, and Erastus ( Ro 16:21 , 23 ). Of these four, the third, Gaius, was an inhabitant of Corinth ( 1Co 1:14 ), and the fourth, Erastus, was \"chamberlain of the city\" ( Ro 16:23 ), which can hardly be supposed to be other than Corinth. Finally, Phoebebe, the bearer, as appears, of this Epistle, was a deaconess of the Church at Cenchrea, the eastern port of Corinth ( Ro 16:1 ). Putting these facts together, it is impossible to resist the conviction, in which all critics agree, that Corinth was the place from which the Epistle was written, and that it was despatched about the close of the visit above mentioned, probably in the early spring of the year 58. The Founder of this celebrated church is unknown. That it owed its origin to the apostle Peter, and that he was its first bishop, though an ancient tradition and taught in the Church of Rome as a fact not to be doubted, is refuted by the clearest evidence, and is given up even by candid Romanists. On that supposition, how are we to account for so important a circumstance being passed by in silence by the historian of the Acts, not only in the narrative of Peter's labors, but in that of Paul's approach to the metropolis, of the deputations of Roman \"brethren\" that came as far as Appii Forum and the Three Taverns to meet him, and of his two years' labors there ( Ac 28:15 , 30 )? And how, consistently with his declared principle-- not to build on another man's foundation ( Ro 15:20 )--could he express his anxious desire to come to them that he might have some fruit among them also, even as among other Gentiles ( Ro 1:13 ), if all the while he knew that they had the apostle of the circumcision for their spiritual father? And how, if so, is there no salutation to Peter among the many in this Epistle? or, if it may be thought that he was known to be elsewhere at that particular time, how does there occur in all the Epistles which our apostle afterwards wrote from Rome not one allusion to such an origin of the church at Rome? The same considerations would seem to prove that this church owed its origin to no prominent Christian laborer; and this brings us to the much-litigated question. For What Class of Christians was this Epistle principally designed-- Jewish or Gentile? That a large number of Jews and Jewish proselytes resided at this time at Rome is known to all who are familiar with the classical and Jewish writers of that and the immediately subsequent periods; and that those of them who were at Jerusalem on the day of Pentecost ( Ac 2:10 ), and formed probably part of the three thousand converts of that day, would on their return to Rome carry the glad tidings with them, there can be no doubt. Nor are indications wanting that some of those embraced in the salutations of this Epistle were Christians already of long standing, if not among the earliest converts to the Christian faith. Others of them who had made the apostle's acquaintance elsewhere, and who, if not indebted to him for their first knowledge of Christ, probably owed much to his ministrations, seemed to have charged themselves with the duty of cherishing and consolidating the work of the Lord in the capital. And thus it is not improbable that up to the time of the apostle's arrival the Christian community at Rome had been dependent upon subordinate agency for the increase of its numbers, aided by occasional visits of stated preachers from the provinces; and perhaps it may be gathered from the salutations of the last chapter that it was up to that time in a less organized, though far from less flourishing state, than some other churches to whom the apostle had already addressed Epistles. Certain it is, that the apostle writes to them expressly as a Gentile Church ( Ro 1:13 , 15 ; 15:15 , 16 ); and though it is plain that there were Jewish Christians among them, and the whole argument presupposes an intimate acquaintance on the part of his readers with the leading principles of the Old Testament, this will be sufficiently explained by supposing that the bulk of them, having before they knew the Lord been Gentile proselytes to the Jewish faith, had entered the pale of the Christian Church through the gate of the ancient economy. It remains only to speak briefly of the Plan and Character Of this Epistle. Of all the undoubted Epistles of our apostle, this is the most elaborate, and at the same time the most glowing. It has just as much in common with a theological treatise as is consistent with the freedom and warmth of a real letter. Referring to the headings which we have prefixed to its successive sections, as best exhibiting the progress of the argument and the connection of its points, we here merely note that its first great topic is what may be termed the legal relation of man to God as a violator of His holy law, whether as merely written on the heart, as in the case of the heathen, or, as in the case of the Chosen People, as further known by external revelation; that it next treats of that legal relation as wholly reversed through believing connection with the Lord Jesus Christ; and that its third and last great topic is the new life which accompanies this change of relation, embracing at once a blessedness and a consecration to God which, rudimentally complete already, will open, in the future world, into the bliss of immediate and stainless fellowship with God. The bearing of these wonderful truths upon the condition and destiny of the Chosen People, to which the apostle next comes, though it seem but the practical application of them to his kinsmen according to the flesh, is in some respects the deepest and most difficult part of the whole Epistle, carrying us directly to the eternal springs of Grace to the guilty in the sovereign love and inscrutable purposes of God; after which, however, we are brought back to the historical platform of the visible Church, in the calling of the Gentiles, the preservation of a faithful Israelitish remnant amidst the general unbelief and fall of the nation, and the ultimate recovery of all Israel to constitute, with the Gentiles in the latter day, one catholic Church of God upon earth. The remainder of the Epistle is devoted to sundry practical topics, winding up with salutations and outpourings of heart delightfully suggestive.",
+      "content_osis": "<title type=\"x-IS\">INTRODUCTION</title> <div sID=\"gen31645\" type=\"x-p\"/> The Genuineness of the Epistle to the Romans has never been questioned. It has the unbroken testimony of all antiquity, up to Clement of Rome, the apostle's \"fellow laborer in the Gospel, whose name was in the Book of Life\" (<reference osisRef=\"Phil.4.3\">Php 4:3</reference>), and who quotes from it in his undoubted Epistle to the Corinthians, written before the close of the first century. The most searching investigations of modern criticism have left it untouched.<div eID=\"gen31645\" type=\"x-p\"/> <div eID=\"gen31644\" type=\"introduction\"/> <div sID=\"gen31646\" type=\"x-p\"/><hi type=\"bold\">When and Where this Epistle was written we have the means of determining with great precision, from the Epistle itself compared with the Acts of the Apostles. Up to the date of it the apostle had never been at Rome (<reference osisRef=\"Rom.1.11\">Ro 1:11</reference>, 13, 15). He was then on the eve of visiting Jerusalem with a pecuniary contribution for its Christian poor from the churches of Macedonia and Achaia, after which his purpose was to pay a visit to Rome on his way to Spain (<reference osisRef=\"Rom.15.23-Rom.15.28\">Ro 15:23-28</reference>). Now this contribution we know that he carried with him from Corinth, at the close of his third visit to that city, which lasted three months (<reference osisRef=\"Acts.20.2\">Ac 20:2</reference>, <reference osisRef=\"Acts.20.3\">3</reference>; <reference osisRef=\"Acts.24.17\">24:17</reference>). On this occasion there accompanied him from Corinth certain persons whose names are given by the historian of the Acts (<reference osisRef=\"Acts.20.4\">Ac 20:4</reference>), and four of these are expressly mentioned in our Epistle as being with the apostle when he wrote it--</hi>Timotheus, Sosipater, Gaius, and Erastus (<reference osisRef=\"Rom.16.21\">Ro 16:21</reference>, <reference osisRef=\"Rom.16.23\">23</reference>). Of these four, the third, Gaius, was an inhabitant of Corinth (<reference osisRef=\"1Cor.1.14\">1Co 1:14</reference>), and the fourth, Erastus, was \"chamberlain of the city\" (<reference osisRef=\"Rom.16.23\">Ro 16:23</reference>), which can hardly be supposed to be other than Corinth. Finally, Phoebebe, the bearer, as appears, of this Epistle, was a deaconess of the Church at Cenchrea, the eastern port of Corinth (<reference osisRef=\"Rom.16.1\">Ro 16:1</reference>). Putting these facts together, it is impossible to resist the conviction, in which all critics agree, that Corinth was the place from which the Epistle was written, and that it was despatched about the close of the visit above mentioned, probably in the early spring of the year 58.<div eID=\"gen31646\" type=\"x-p\"/> <div sID=\"gen31647\" type=\"x-p\"/><hi type=\"bold\">The Founder of this celebrated church is unknown. That it owed its origin to the apostle Peter, and that he was its first bishop, though an ancient tradition and taught in the Church of Rome as a fact not to be doubted, is refuted by the clearest evidence, and is given up even by candid Romanists. On that supposition, how are we to account for so important a circumstance being passed by in silence by the historian of the Acts, not only in the narrative of Peter's labors, but in that of Paul's approach to the metropolis, of the deputations of Roman \"brethren\" that came as far as Appii Forum and the Three Taverns to meet him, and of his two years' labors there (<reference osisRef=\"Acts.28.15\">Ac 28:15</reference>, <reference osisRef=\"Acts.28.30\">30</reference>)? And how, consistently with his declared principle--</hi>not to build on another man's foundation (<reference osisRef=\"Rom.15.20\">Ro 15:20</reference>)--could he express his anxious desire to come to them that he might have some fruit among them also, even as among other Gentiles (<reference osisRef=\"Rom.1.13\">Ro 1:13</reference>), if all the while he knew that they had the apostle of the circumcision for their spiritual father? And how, if so, is there no salutation to Peter among the many in this Epistle? or, if it may be thought that he was known to be elsewhere at that particular time, how does there occur in all the Epistles which our apostle afterwards wrote from Rome not one allusion to such an origin of the church at Rome? The same considerations would seem to prove that this church owed its origin to no prominent Christian laborer; and this brings us to the much-litigated question.<div eID=\"gen31647\" type=\"x-p\"/> <div sID=\"gen31648\" type=\"x-p\"/><hi type=\"bold\">For What Class of Christians was this Epistle principally designed--</hi>Jewish or Gentile? That a large number of Jews and Jewish proselytes resided at this time at Rome is known to all who are familiar with the classical and Jewish writers of that and the immediately subsequent periods; and that those of them who were at Jerusalem on the day of Pentecost (<reference osisRef=\"Acts.2.10\">Ac 2:10</reference>), and formed probably part of the three thousand converts of that day, would on their return to Rome carry the glad tidings with them, there can be no doubt. Nor are indications wanting that some of those embraced in the salutations of this Epistle were Christians already of long standing, if not among the earliest converts to the Christian faith. Others of them who had made the apostle's acquaintance elsewhere, and who, if not indebted to him for their first knowledge of Christ, probably owed much to his ministrations, seemed to have charged themselves with the duty of cherishing and consolidating the work of the Lord in the capital. And thus it is not improbable that up to the time of the apostle's arrival the Christian community at Rome had been dependent upon subordinate agency for the increase of its numbers, aided by occasional visits of stated preachers from the provinces; and perhaps it may be gathered from the salutations of the last chapter that it was up to that time in a less organized, though far from less flourishing state, than some other churches to whom the apostle had already addressed Epistles. Certain it is, that the apostle writes to them expressly as a Gentile Church (<reference osisRef=\"Rom.1.13\">Ro 1:13</reference>, <reference osisRef=\"1Cor.1.15\">15</reference>; <reference osisRef=\"1Cor.15.15\">15:15</reference>, <reference osisRef=\"1Cor.15.16\">16</reference>); and though it is plain that there were Jewish Christians among them, and the whole argument presupposes an intimate acquaintance on the part of his readers with the leading principles of the Old Testament, this will be sufficiently explained by supposing that the bulk of them, having before they knew the Lord been Gentile proselytes to the Jewish faith, had entered the pale of the Christian Church through the gate of the ancient economy.<div eID=\"gen31648\" type=\"x-p\"/> <div sID=\"gen31649\" type=\"x-p\"/> It remains only to speak briefly of the Plan and Character Of this Epistle. Of all the undoubted Epistles of our apostle, this is the most elaborate, and at the same time the most glowing. It has just as much in common with a theological treatise as is consistent with the freedom and warmth of a real letter. Referring to the headings which we have prefixed to its successive sections, as best exhibiting the progress of the argument and the connection of its points, we here merely note that its first great topic is what may be termed the legal relation of man to God as a violator of His holy law, whether as merely written on the heart, as in the case of the heathen, or, as in the case of the Chosen People, as further known by external revelation; that it next treats of that legal relation as wholly reversed through believing connection with the Lord Jesus Christ; and that its third and last great topic is the new life which accompanies this change of relation, embracing at once a blessedness and a consecration to God which, rudimentally complete already, will open, in the future world, into the bliss of immediate and stainless fellowship with God. The bearing of these wonderful truths upon the condition and destiny of the Chosen People, to which the apostle next comes, though it seem but the practical application of them to his kinsmen according to the flesh, is in some respects the deepest and most difficult part of the whole Epistle, carrying us directly to the eternal springs of Grace to the guilty in the sovereign love and inscrutable purposes of God; after which, however, we are brought back to the historical platform of the visible Church, in the calling of the Gentiles, the preservation of a faithful Israelitish remnant amidst the general unbelief and fall of the nation, and the ultimate recovery of all Israel to constitute, with the Gentiles in the latter day, one catholic Church of God upon earth. The remainder of the Epistle is devoted to sundry practical topics, winding up with salutations and outpourings of heart delightfully suggestive.<div eID=\"gen31649\" type=\"x-p\"/> ",
+      "source_entry_id": "sword:jfb:ROM.1.1-1:6:470:11921",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        9018
+      ],
+      "source_fragment_sha256": "0ebaf28a98be237d2d4af0c43068c8a9b63801c951bafdd85c9402a318b96d0e",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ROM.1.1",
+        "ROM.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ROM.1:P:chapter-1",
+      "navigation_id": "ROM.1:P:chapter-1",
+      "kind": "original_source_section",
+      "scope": "chapter",
+      "role": "chapter_heading",
+      "title": "CHAPTER 1",
+      "content_plain": "CHAPTER 1",
+      "content_osis": "<title type=\"x-s\">CHAPTER 1</title> ",
+      "source_entry_id": "sword:jfb:ROM.1.1-1:6:470:11921",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        9018,
+        9054
+      ],
+      "source_fragment_sha256": "c4c7e85f8cc229520a40ca3c451c39bc0fc2826dbdcfd74bf970753c4e9af4ae",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ROM.1.1",
+        "ROM.1.1"
+      ],
+      "source_title_explicit_range": null
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ROM.1:P:ro-1-1-17-introduction",
+      "navigation_id": "ROM.1:P:ro-1-1-17-introduction",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "passage_overview",
+      "title": "Ro 1:1-17 . Introduction.",
+      "content_plain": "Ro 1:1-17 . Introduction.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Rom.1.1-Rom.1.17\">Ro 1:1-17</reference>. Introduction.</title> <div sID=\"gen31650\" type=\"x-p\"/><div type=\"x-milestone\" subType=\"x-preverse\" eID=\"pv16335\"/>",
+      "source_entry_id": "sword:jfb:ROM.1.1-1:6:470:11921",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        9054,
+        9248
+      ],
+      "source_fragment_sha256": "6754b91b54228dadd4a1336fc26e92596fc9ecd9fa9405e7aa51701b3e84d296",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ROM.1.1",
+        "ROM.1.1"
+      ],
+      "source_title_explicit_range": [
+        "ROM.1.1",
+        "ROM.1.17"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ROM.1:P:ro-1-18-why-this-divinely-provided-righteousness-is-needed-by-all-men",
+      "navigation_id": "ROM.1:P:ro-1-18-why-this-divinely-provided-righteousness-is-needed-by-all-men",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Ro 1:18 . Why This Divinely Provided Righteousness Is Needed by All Men.",
+      "content_plain": "Ro 1:18 . Why This Divinely Provided Righteousness Is Needed by All Men.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Rom.1.18\">Ro 1:18</reference>. Why This Divinely Provided Righteousness Is Needed by All Men.</title>",
+      "source_entry_id": "sword:jfb:ROM.1.18-18:6:32798:2671",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        60,
+        200
+      ],
+      "source_fragment_sha256": "0b9117250f2cda4ab070017be995f4baabb92d8343e3f8636ada81667425f575",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ROM.1.18",
+        "ROM.1.18"
+      ],
+      "source_title_explicit_range": [
+        "ROM.1.18",
+        "ROM.1.18"
+      ]
+    },
+    {
+      "section_id": "nav:jamieson-fausset-brown:ROM.1:P:ro-1-18-32-this-wrath-of-god-revealed-against-all-iniquity-overhangs-the-whole",
+      "navigation_id": "ROM.1:P:ro-1-18-32-this-wrath-of-god-revealed-against-all-iniquity-overhangs-the-whole",
+      "kind": "original_source_section",
+      "scope": "passage",
+      "role": "source_heading",
+      "title": "Ro 1:18-32 . This Wrath of God, Revealed against All Iniquity, Overhangs the Whole Heathen World.",
+      "content_plain": "Ro 1:18-32 . This Wrath of God, Revealed against All Iniquity, Overhangs the Whole Heathen World.",
+      "content_osis": "<title type=\"x-s3\"><reference osisRef=\"Rom.1.18-Rom.1.32\">Ro 1:18-32</reference>. This Wrath of God, Revealed against All Iniquity, Overhangs the Whole Heathen World.</title>",
+      "source_entry_id": "sword:jfb:ROM.1.18-18:6:32798:2671",
+      "source_record_kind": null,
+      "source_marker_index": null,
+      "source_character_span": [
+        1253,
+        1427
+      ],
+      "source_fragment_sha256": "a20807cd5852d737ec2674b89c5246890c5221cf713d302421cce41768b4bf40",
+      "section_display_policy": "separate_P_navigation_not_verse_exposition",
+      "coverage_assertion": "original_source_heading_or_marker_and_explicit_KJV_source_bounds",
+      "extraction_basis": "exact_original_OSIS_character_span",
+      "source_indexed_passage": [
+        "ROM.1.18",
+        "ROM.1.18"
+      ],
+      "source_title_explicit_range": [
+        "ROM.1.18",
+        "ROM.1.32"
+      ]
+    }
+  ],
+  "navigation_section_count": 5,
+  "reader_visible_entry_count": 24,
+  "unavailable_author_work_for_testament": false
+}

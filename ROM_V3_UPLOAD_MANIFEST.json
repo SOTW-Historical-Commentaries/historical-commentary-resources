@@ -1,0 +1,866 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-romans-2026-11-12",
+  "book": "ROM",
+  "book_name": "Romans",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 45,
+  "testament": "NT",
+  "snapshot": "structured-romans-2026-11-12",
+  "baseline_main_commit": "8f5239ae5d8b9c43741ae6471056edbd5c61eb9b",
+  "baseline_navigation_manifest_git_blob": "d7958d7c09b1327107a0e55421675656d3934b16",
+  "baseline_navigation_sha256": "68f8c230323e1e7cba8c6c0d72bbeaedc7771986e52a62d76fa521ca680f31cf",
+  "baseline_kind": "accepted-github-main",
+  "prerequisites": [
+    "Confirm previous navigation Git blob d7958d7c09b1327107a0e55421675656d3934b16 and SHA-256 68f8c230323e1e7cba8c6c0d72bbeaedc7771986e52a62d76fa521ca680f31cf.",
+    "Confirm all 44 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 116,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/ROM.json",
+      "sha256": "aff264225f83bf2157a7596c785d6236b1caf364b17c06ec5e3fdb742e48ab71",
+      "git_blob_sha": "18d51344602e3e274582f370aeb1aa6895808755",
+      "bytes": 171020,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "2d2b52a99693aa99528a8373d213327195e4b08f6ed1444a921f437fa45fe670",
+      "git_blob_sha": "751c4728b91cd5b89f907f41b6b61d5d178afdb8",
+      "bytes": 22336,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/1.json",
+      "sha256": "fe186180ad0195418a7f1706205e75dc68dd4a6c7a96cd3d21cbd4a33153f152",
+      "git_blob_sha": "19428f3d11a341ed38a4792e2ab5e92aef409627",
+      "bytes": 341527,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/10.json",
+      "sha256": "3ee8549cdc559873e735283bd3fac6f574f970b6ba921d216347db8c983f49b2",
+      "git_blob_sha": "230ae4249a3de0668343ed6462f92a070efb4e4b",
+      "bytes": 104228,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/11.json",
+      "sha256": "16a1da110c1889e2b67eaea9a27b939fb680c68082730522e113031bf29b7762",
+      "git_blob_sha": "9d89ceec419dc47e1b59fdf912bf8150caf601fc",
+      "bytes": 214103,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/12.json",
+      "sha256": "7b38badcf03784af90d572c6b582756c6667a9c660bd892b60c44d4b51ce3d3f",
+      "git_blob_sha": "b0756da0c551f791ac7923d74f266404e540da69",
+      "bytes": 167235,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/13.json",
+      "sha256": "fb918ae3eb5b7a849fb3c2aa30605d7afce7fa9d31e598823979d66615c4cc1c",
+      "git_blob_sha": "d0b1737826e4182d2a648843407dc9a1584d9cb5",
+      "bytes": 141081,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/14.json",
+      "sha256": "88bcd609c94e5604feede40d6a447fcb5bda1bc8784651c9c738b36c1e0cf351",
+      "git_blob_sha": "aa7dc5ac877d6018430a6dfc2d6f5f8a519ade88",
+      "bytes": 110304,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/15.json",
+      "sha256": "711f986ef059b7ae9f0522cfe08c2889d006030af50ea150a669bee7455e5fc9",
+      "git_blob_sha": "a3812371bf9eda08490d7ab4bce79b94b9e53809",
+      "bytes": 120555,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/16.json",
+      "sha256": "ee1851f9963ae63c0023edc4ff785fbfdd9e3a169c76165b8dc000f0bbc8ed6a",
+      "git_blob_sha": "9e8592686bf7a5117c5755274ad93493094569c6",
+      "bytes": 120567,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/2.json",
+      "sha256": "aa312cec9653cb977e1be3427e7381b2ed02aa2eebfea2f5e808026b5e986f33",
+      "git_blob_sha": "dd8fb34d16d7c31028c65aa6e12842c771da912d",
+      "bytes": 137240,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/3.json",
+      "sha256": "1fb35f59c103a0b9ec5cc156eb27db1a724af27da8efa42bebe469a2b5563ed4",
+      "git_blob_sha": "9e557082438a17178347531de0b967ad23eef0fb",
+      "bytes": 131892,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/4.json",
+      "sha256": "b721655b0a593bf1d70c23d2968f5c8c88ce16f207790647e3335d4e784d9884",
+      "git_blob_sha": "0f1bfc4868b171f3f6d9c4489acad03a706cb624",
+      "bytes": 127159,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/5.json",
+      "sha256": "0336ba73361ae156c7247d3d80d68aef3382991fb4bbd8552da2ae811ece5f1b",
+      "git_blob_sha": "d66f0d67546adb35ce6a2d6ca36dc0d24f780f4c",
+      "bytes": 210483,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/6.json",
+      "sha256": "6055393a07792a800ad07d754d1bee07fd149b36cdab4506c40eab6d372cb25f",
+      "git_blob_sha": "c136d31f56abb8472dac2e6fa3ae997b3c85812c",
+      "bytes": 120237,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/7.json",
+      "sha256": "23c6ce6b9717d129a8d7f8dadc285f36e5ae7c207489e87c47f4217037c19483",
+      "git_blob_sha": "7088a38c092d5abce51009c82c13a6a46e91a5dd",
+      "bytes": 252266,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/8.json",
+      "sha256": "99a3ba3ae6ae607f8b60f156100c13a7f3a3f88ea11118a573a385a1075e234b",
+      "git_blob_sha": "7223eccc54c92e3178e19d7c830b5af113537d71",
+      "bytes": 284061,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/adam-clarke/ROM/9.json",
+      "sha256": "7159f2c4ffae236511697cd9f306bcebca63d0300027906c3dffe646bdac40b8",
+      "git_blob_sha": "f84c63990eedf532ab9a8ec2286d29c8686e4a5b",
+      "bytes": 287165,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/1.json",
+      "sha256": "2ab8635ffe7dc31486d064302c1b9feca1718fc9b34aa9ab136348bee30d722b",
+      "git_blob_sha": "c0e81c49022f2c7d53567652e89280f9fe147155",
+      "bytes": 153173,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/10.json",
+      "sha256": "58a057c10165f1a0c1639ef3e4727bec8d1f0bd09188ab8e3da2df82a9db0e02",
+      "git_blob_sha": "22c5a8c2a8e4f8ca7d751db126fb3bc3dd8a60b0",
+      "bytes": 47552,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/11.json",
+      "sha256": "208929e23d152d20c1bad890b9b1839d410d741c6de89015a98ae0c14f88218c",
+      "git_blob_sha": "740af1ce1aedeac671c8bae809ece75455ba6ff3",
+      "bytes": 92115,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/12.json",
+      "sha256": "bd4d1d33544125303cabeb2118992deb6f1745e0c16d7f66efc831922d7e07f7",
+      "git_blob_sha": "8c482ba5c18b78be8325a19c1b4ccfb95c1b3efc",
+      "bytes": 66486,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/13.json",
+      "sha256": "b89865d2cf1942423e5a474dc2e27457760bb0ab47c5ac36f0cb1b9b32370bd2",
+      "git_blob_sha": "95c4741405b9923f5f0dfdf80008f599640810b2",
+      "bytes": 39614,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/14.json",
+      "sha256": "c7345c497a9824ca10a26229b7e4549a2659827f019ce941dde8d7e861d62707",
+      "git_blob_sha": "0ff416a509472f485cc62162065707197307b954",
+      "bytes": 75321,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/15.json",
+      "sha256": "06323928303b6ee62dddc404124686157e7ee7f0fb7ee69edf95e9f6ec4650ce",
+      "git_blob_sha": "c44ca3d5aea351dccdbf65e49bd800f7c4503ff0",
+      "bytes": 67871,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/16.json",
+      "sha256": "21d6e9e5bb3322be48d399b11986cc4c6d059a68ed05342e87ff14fd11261840",
+      "git_blob_sha": "258aed8de1a937d1aeb7f5de16625b9768e3a3b9",
+      "bytes": 96349,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/2.json",
+      "sha256": "af0720b6616d437aa7f845cf2d8a82ca0d7ab11860547a4c0d241d04cd337b9a",
+      "git_blob_sha": "47b85943223e39c0a36771932b469d7dd1b117c6",
+      "bytes": 24409,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/3.json",
+      "sha256": "2ee2664aebec526ab3dfd3503d8fea04a8a02f5fa129e361e830e2c82d89eeaf",
+      "git_blob_sha": "a2454921b238e1a9ae7ee72f21b83f07cc71194c",
+      "bytes": 63336,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/4.json",
+      "sha256": "4137f29de3197f82f56159eaed2d818ad3212a83ded2692c07abb7d44eb86a58",
+      "git_blob_sha": "3cb6498501ab2d83a6f176d949fb8beaf7821127",
+      "bytes": 22974,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/5.json",
+      "sha256": "eaf85e13314dced1a424ac3316415da06800fe811a87e4e96bb4a21b59eda5a1",
+      "git_blob_sha": "7d00a71e2a49b2a8c6b71303fcb89bd4ebb9cac6",
+      "bytes": 95772,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/6.json",
+      "sha256": "2a63f2a12ace55ee941454f196318f625d82d1c8e63b5d4b57ff45f93192be35",
+      "git_blob_sha": "e8206c215a2ad4d9712e227bf7c5136d3de7edce",
+      "bytes": 85947,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/7.json",
+      "sha256": "2acc3d79ecadf51c923083d2f6dbab804c5959768880d217cb5c5e2b077c2149",
+      "git_blob_sha": "a168effbd80e1f52e76e429cb4e90a75104036c7",
+      "bytes": 81518,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/8.json",
+      "sha256": "d850f6fb3fd8bd047f1c5956766473c02e9890bbf56fe6a51585a4e57465c7b1",
+      "git_blob_sha": "c5ceeb85f0f63402646f58fdb25c288d34a47524",
+      "bytes": 137924,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/jamieson-fausset-brown/ROM/9.json",
+      "sha256": "c7342bc973b0d1e3b3c65b3bcb567bd5638b9321489a133191da8f48d6953096",
+      "git_blob_sha": "b1e12c310d5daf4b97b2dd3011f2e3a8582a86ff",
+      "bytes": 88503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/1.json",
+      "sha256": "cea4eb951cef8093a71a2f89621403b723e78021f915b9b187bfefc3cb7b7287",
+      "git_blob_sha": "2b6e736787d74069ba07d115b72dcc0667ff1024",
+      "bytes": 411360,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/10.json",
+      "sha256": "7591933d9e27b0c3a5800f8eb9c514d049e787015bcfac1d44d789e0faeaaf07",
+      "git_blob_sha": "4478e8848b99c3a711c94564c7503ac664f52d40",
+      "bytes": 240942,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/11.json",
+      "sha256": "5b1f91ac510bb745bf9b0711ab0bde1595f7d7962fe398f372befe534c219622",
+      "git_blob_sha": "1ed77720e15ee496b59cbbd0accfe1bf5c7c292e",
+      "bytes": 381532,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/12.json",
+      "sha256": "02e454a36e7ec237c1368eecdbd1a91fd2d5b2d178b7fcdf7be53e70fc36184d",
+      "git_blob_sha": "133ba4dd4a6bb7bf84de7715612fee2fba065363",
+      "bytes": 261862,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/13.json",
+      "sha256": "4a21d72f1c57732fb97d9be75726ae5e8119785c60d5d2403261683d84274db1",
+      "git_blob_sha": "6091948d9f3b6770280d94ea0b9872758aa325f4",
+      "bytes": 135679,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/14.json",
+      "sha256": "baec58f3a2b882084bff7a5b34b7f816018fa1101f41a32e75bda589a7ab269c",
+      "git_blob_sha": "d483cc99d553394089540f652d793f1d7f2d2159",
+      "bytes": 211397,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/15.json",
+      "sha256": "80ee8ce9c9bb589dc9c5fdd091c60fc6b78ca5d87cfefe825f4c65b04fa0a857",
+      "git_blob_sha": "8ce32b46fb8cf0cad34f21d42e574493c86379a4",
+      "bytes": 282700,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/16.json",
+      "sha256": "e8bfca13d4b8286ff5c3afee13438bc9e815dde136772e090a4120a210520854",
+      "git_blob_sha": "4dc6fcd77b8bdfef642e2bd4cceab3c9cb560bc8",
+      "bytes": 168429,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/2.json",
+      "sha256": "ffc7b8d2f4d42b010ec588eb51e3aba53031bf543c31d8f8db278d55e2767001",
+      "git_blob_sha": "5ad427cba3eb7574ba26a6bcae1267d8385b46fa",
+      "bytes": 280780,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/3.json",
+      "sha256": "e68e8d21e85aa9f9e93e5ee88010b4dd428ade6004aa2878de33f4f14d3b4e4d",
+      "git_blob_sha": "b6f745d73a26e166f3c00d9369bd442ae677b1cb",
+      "bytes": 375556,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/4.json",
+      "sha256": "ff67b0bcd304e8706922b815b6281922b658d95b296e3821c955687396ec8c82",
+      "git_blob_sha": "24f10d964bcc8f9f03d6d8921adfdaf3df81fb84",
+      "bytes": 303762,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/5.json",
+      "sha256": "650e295d811c4460dc58f5e7bc140c597c07c1bb9a91b7453eec313c3ab65db1",
+      "git_blob_sha": "700300cd36228d9513988f6752c797f5300e1a9e",
+      "bytes": 290207,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/6.json",
+      "sha256": "47a7bac0b464819bc42f09f67631f19e2ee2647591f87ded69e6441881479b67",
+      "git_blob_sha": "189c44a715834baf2c81dfbacfa73d630a255f00",
+      "bytes": 247264,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/7.json",
+      "sha256": "1464fb7dc19a728765c19c8fe6cddf67b8f13a71916d40a333850dce1deaa2cb",
+      "git_blob_sha": "c1377a28d9c6d6c53f67a594078efd6a8f9600a4",
+      "bytes": 295826,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/8.json",
+      "sha256": "d88746947b1856f520bb26a555bea6789d83dc3f5379f739df9896685c75caae",
+      "git_blob_sha": "42f4969b734439252f58b274ab910786e0d4d625",
+      "bytes": 534110,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-calvin/ROM/9.json",
+      "sha256": "2e09e84295a28e115b17c703503b09dce0c3ad419570c0ad6b9addc0bff15a6d",
+      "git_blob_sha": "c096a4009f64c90a95b6e55735b61526ffb15b50",
+      "bytes": 451085,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/1.json",
+      "sha256": "208fe20514b6920687c1e59a8ad2fc2f98e3b0e5a3440ce5054e3cd247fdbfaa",
+      "git_blob_sha": "80da01413f94138efd9f6202311eb93710486601",
+      "bytes": 254224,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/10.json",
+      "sha256": "347b268a64ab228675a535d6bb49e66ac39f938d2504fa9ebc933fcb4f1d067c",
+      "git_blob_sha": "36acaea83b980ae51f947dfd6acd3f99e765d987",
+      "bytes": 258796,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/11.json",
+      "sha256": "5b8762abf0073e8ae1d0247bde6178a6f6f634901efb219a5f81394644494ef3",
+      "git_blob_sha": "6764244412134b83b8633b2fdac2fad3da5cc35b",
+      "bytes": 426405,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/12.json",
+      "sha256": "bfcf616fb2b5a5ab65bb49cf792e36b895fa456141bad1c3a6f11c7cb475c44f",
+      "git_blob_sha": "f5bdef25b7379d445dfced44f3ca960ef8d3f9d6",
+      "bytes": 236881,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/13.json",
+      "sha256": "15eccecc04186e44f7cacad85ce9067fd0de64b00534ec775f8e419df2083627",
+      "git_blob_sha": "d98a90053f0275186eb7187f2e297f896a928e09",
+      "bytes": 174253,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/14.json",
+      "sha256": "0c2fae11b198eeb9881c9292aaaa6cafb10c3400ff5c1d10ffbc3cfebb1ed6fa",
+      "git_blob_sha": "f9fa7f4bc12cee57bbf346b828418bdd11203292",
+      "bytes": 252857,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/15.json",
+      "sha256": "579a3efd154abc134668df545cdc3dd3be6e0b3d9f251de3dc02f90935e43325",
+      "git_blob_sha": "675cb715f43fadc59b3d9ca6689ca2cc2fcb3037",
+      "bytes": 424369,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/16.json",
+      "sha256": "5d3317d0ec75292cb9034c26693f7522ffaa7bd0b4164fa258b9597d8f9189d5",
+      "git_blob_sha": "c35b1f12c4052331de7ad10ba9f231756d3808da",
+      "bytes": 298985,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/2.json",
+      "sha256": "9e0e0446d674996cbfe5ee9f4f55f9c69cab310fc039b881af39e0be0da573d6",
+      "git_blob_sha": "2c7c65f4c549b087d2bed290387b91cd20d29ea6",
+      "bytes": 212750,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/3.json",
+      "sha256": "24186a94c2cf88e88ff7b53eb61fa0cd9858d516406c9a651968a12a965acf7e",
+      "git_blob_sha": "7cd3c772a387c17b30b6e50edc44514c3be9db9c",
+      "bytes": 276082,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/4.json",
+      "sha256": "5dfc0ff5622492a96dcbd28cd8d78808a74af92048237bd5546aa412c7cceab1",
+      "git_blob_sha": "2f7ca9bf38934b348cb4dc300292d54a8aec30cb",
+      "bytes": 194782,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/5.json",
+      "sha256": "01f4c40d5b92a29ef0b1883f593ca7fe728ca7783de3359c7bf1f5e5197a2647",
+      "git_blob_sha": "7fa06fa85b6a19609c6d47b933ecbb5ac6414a9c",
+      "bytes": 255498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/6.json",
+      "sha256": "ae07c242dbf89267a18abe5cdde3302f5e0b43b11b60ec4fa8c5908daab75b16",
+      "git_blob_sha": "4d3ffaa219f50253b02483723e13f874e827587b",
+      "bytes": 230634,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/7.json",
+      "sha256": "32d1467ad8217e14170add39bc55a1eb1a015519fd16a4ecd29be9c6ce3b6033",
+      "git_blob_sha": "5d3e052e0f689c67173482a6ad623b977737b885",
+      "bytes": 281742,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/8.json",
+      "sha256": "70adf272dc96b30eeb2455c83f8204f6795f11d601b446e14457769613d9c288",
+      "git_blob_sha": "465e0ccb00252e958921d1e80d5bf7aaecdfa184",
+      "bytes": 612834,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/john-gill/ROM/9.json",
+      "sha256": "784945fd0c65563ddef8599b03183ffe96ab1605420be348dd90d2c681bcb063",
+      "git_blob_sha": "ed04d6490041b40061eebaf4c601221a0ad30497",
+      "bytes": 434686,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/1.json",
+      "sha256": "f8fc52ad35c4db187a88ed438f7a81865003bd9c055d83653bee4364d3bb39b9",
+      "git_blob_sha": "e351bf86ad1cabc01a898d2c192df0e6dfdf48db",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/10.json",
+      "sha256": "bb6e6860598db692e3497631d225db89fa47db4697aeb7ab1d18769e8c5eefae",
+      "git_blob_sha": "e7142482b9684f3f00764b7c897ce031f575912c",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/11.json",
+      "sha256": "bff105e5bff59997087886f76b27a40743fdd66324dad18a34ba313059b39d8f",
+      "git_blob_sha": "f485ffb09ff5f616d712c3bb37d8d902a81e716a",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/12.json",
+      "sha256": "19d8a63eae84fce344bc4d68db0917ff953e7cadea1bd70e9e7afa960afcc939",
+      "git_blob_sha": "4d64b94da46ea1c3fcc6c76bfe46973c2da26154",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/13.json",
+      "sha256": "09bd63cc540b8a301d34cbaaf4ca64f2399876e0c37a8b6b0e5ac7f44f66defa",
+      "git_blob_sha": "5a69b48301ac67c5596bf56376237dcc97ebb732",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/14.json",
+      "sha256": "7e158a13dd6e5683f192cf448ff025d3510656173c6da4214eda324cb1b901b1",
+      "git_blob_sha": "79969f63c91b59df2d8ecbc94100cb62432b9d0b",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/15.json",
+      "sha256": "7af999b917721d812068958ad5de4838894cd9453821b764815022a238db3189",
+      "git_blob_sha": "988ba7719bdb6af700ca2c25e442200d06a3a99b",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/16.json",
+      "sha256": "3e88dc0c4d316d319591aac79cdccd747ad340a5f1376e9884e16b4ac653cc5d",
+      "git_blob_sha": "eef23def49404fbaad5416a3f1187789058f772e",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/2.json",
+      "sha256": "bae01a430be7b71912a7de756b59ae6d14963543c24f5936f215a9fc8d57dd46",
+      "git_blob_sha": "a6bcb049a7e50287fc69a8ef4281ae95561ae239",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/3.json",
+      "sha256": "e32901d8e1828edc69870e82cd3ffb9942c30431ebb8d0575f1df6ea4f29de52",
+      "git_blob_sha": "23e732bc6ab2c11c4a703f862b64cd26dd09e441",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/4.json",
+      "sha256": "6e3a14200b90126f476759e6f464a8708fa279345a05c286f10b714ef72eea87",
+      "git_blob_sha": "6a466f09c9cf7263600778e6e83dff92806f6e7e",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/5.json",
+      "sha256": "4cd94c38bc663899403a739e096b5149e4094de55961375df5ed5141c2dd9b9f",
+      "git_blob_sha": "e8dd7b854ce98c2af0e248d881570b6536d65cf9",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/6.json",
+      "sha256": "f649e0f2a2ca6fc62f40f9b4907302815e71e8fe261d49e37a6d58cf77453c4a",
+      "git_blob_sha": "4a9d06a60c585d5698b37a3a16de6f424e0f6683",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/7.json",
+      "sha256": "0b0512e05a05a6fa0389691053960e1403fbcd79a2dd215d1c0ed9584a66879e",
+      "git_blob_sha": "5269f9928a0fcc9df68aa09d6b1b5ba25b1d9322",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/8.json",
+      "sha256": "b184b39bf315c660f7b31a2580919d1bca0f9cf78795f3a6c4ac95d8a8011780",
+      "git_blob_sha": "3446934ecf74ed3e4d779df50c6759cada404b2b",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/keil-delitzsch/ROM/9.json",
+      "sha256": "87eb510cd1792c6c8a5cd4d5bd38b8bcf7df5a85647eba8b438690d63425b973",
+      "git_blob_sha": "6b2ae4364db026d684fde0e84b9b8f9e83a218ca",
+      "bytes": 1496,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/1.json",
+      "sha256": "1027d9360ffd24e8de91bae4fe92d5f633ebb3eb05bc56c8bd2bc484fb5be2a1",
+      "git_blob_sha": "1aa90a3d6cb64ae066e8588084d05b09b72b264f",
+      "bytes": 226336,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/10.json",
+      "sha256": "0201518aa82b2c015f95cdc2aea75b96add0d593d471d1f4b12708497f43d8f5",
+      "git_blob_sha": "6fd4be3f17e0c0eb096882adaccf2c544ad8ce8b",
+      "bytes": 148274,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/11.json",
+      "sha256": "e9b8a34e6f03a75f108059b4f965f12d352f3041d06a2fe6c4284f8d459de82f",
+      "git_blob_sha": "225672b5b7632a41c409c31cd1eb0c989401af31",
+      "bytes": 251343,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/12.json",
+      "sha256": "b0238c8086db629d61d615c1faa603eca5aa2b4407e199a0482cce7b6a9a4beb",
+      "git_blob_sha": "2a803b8307edf904d214264995d717b53e03b578",
+      "bytes": 299130,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/13.json",
+      "sha256": "95b7217c52b35bed274c207ece04fd4a39082b670083b4c5d404582d7bffdde0",
+      "git_blob_sha": "d3cc7b6c55e16978ee395538c0bd8100b69622d7",
+      "bytes": 143023,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/14.json",
+      "sha256": "3c5eb389a39e21d90f905828d5f8431fe8c992bde13a1045163506acabf41683",
+      "git_blob_sha": "8b1f558baef4ef9aba790c7eeca2a5643aeed0c6",
+      "bytes": 248775,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/15.json",
+      "sha256": "9f58a30cec206708957a0e197a07eba12762e1aa1e5be47693e8db55903642d2",
+      "git_blob_sha": "d7145e9bbd35c8499d4ced43a38e56675755aeec",
+      "bytes": 288329,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/16.json",
+      "sha256": "bef901b650fb6346aeb677889a0ac819e0baa7bef2c86485e871bc9809ecb280",
+      "git_blob_sha": "53f9d57921eb2a74e7611f311c7f8b36d28746d4",
+      "bytes": 184547,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/2.json",
+      "sha256": "c56fe95c56aebe8f83df86494ab8a9052e431313b42b7aeccc12a68e8f218d6b",
+      "git_blob_sha": "2cbc8ab2439f1617176ce2be21b0797a3550b6f2",
+      "bytes": 164398,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/3.json",
+      "sha256": "1e9cf764ddbd1d7ef4c1f42b5cfc15e1ec0d20fd1ccb24d8d217fe535db7f888",
+      "git_blob_sha": "307b00b6250157922e006f0557592a79463a04d2",
+      "bytes": 176517,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/4.json",
+      "sha256": "39661b0e7f46821a09dab347cbba24da126e043c5f998e8a7cd0e0b873e11af7",
+      "git_blob_sha": "e1bff8a0c2dc6fbffcc6769d24ac8dcf495295e0",
+      "bytes": 108089,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/5.json",
+      "sha256": "8dde0e6ffcf66f96b77100d29034cf7c6e13ca94650760a274aabc441ba484a8",
+      "git_blob_sha": "55bf0d3044b3ac5656e53639e44220a72ea6f45f",
+      "bytes": 142177,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/6.json",
+      "sha256": "ee4b284aedf3520ccc810d9239e5f85269e4c4951cd587ec1dd012d524d99452",
+      "git_blob_sha": "472f8d46d6b1e3792d313bb632a84ca4ae49fc1a",
+      "bytes": 152914,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/7.json",
+      "sha256": "5ac327d4fe5f1ce8ab244d8fc036292b38f620cfa934e8a72ee89a2917db8011",
+      "git_blob_sha": "43565c4d249f255da22e3deaaa8116d65f6b80fd",
+      "bytes": 91331,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/8.json",
+      "sha256": "6b73e38209b6242495cd9429299ba31edc464a9c47fb6f40faebe97f0c4d8850",
+      "git_blob_sha": "17ea40bb9684c5701efd52db4b1200b529b260a3",
+      "bytes": 294103,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/authors/matthew-henry/ROM/9.json",
+      "sha256": "ae9919441e66cb381d67a57e90dd1d62ed56dc2b6405e9a50f2b67e4954a3309",
+      "git_blob_sha": "4ee8e66e491236457a3825cf131cd92a1271d0de",
+      "bytes": 194571,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/1.json",
+      "sha256": "e4304a7e2cc8c8f4a107ecf970046ff4627688f64ea217119a257896bd4bde08",
+      "git_blob_sha": "8dfb973c69e8a776eb08adf5c6fcfa4bf13700ec",
+      "bytes": 14156,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/10.json",
+      "sha256": "6fdf04b27834ea336d609d8a13588fe36099a56b21818fde6fb42509043f898e",
+      "git_blob_sha": "a639a96583aa37713aa35a6899a54f83b8740384",
+      "bytes": 9734,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/11.json",
+      "sha256": "65bd67dbac0f20a98470d27867bad2ca28cca6150733659ad262be082ad5ea4a",
+      "git_blob_sha": "4a3f120b2821b33bc9c3a22c594011ba2979e598",
+      "bytes": 13224,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/12.json",
+      "sha256": "11877215ebd2f573ffc6d562834de8fad60ba3e8d4eef3848460684a547e8e3a",
+      "git_blob_sha": "91f27d3f02bd4d554d835a63fbd9713983705a05",
+      "bytes": 9465,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/13.json",
+      "sha256": "7a1e5a3f95b5bcff0a5cc37845d7f6825d74894bfd2b4c32ebf4d5f3abf5fd77",
+      "git_blob_sha": "e131d052dc736738a3c9d5c1390153ffea653065",
+      "bytes": 8273,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/14.json",
+      "sha256": "81dfa7ce00875439808313ef406fc875af168b94484fbe4ca10e909ae0d3016d",
+      "git_blob_sha": "4e85a1075c01c04cfc9e85d36d8bfdb16545219d",
+      "bytes": 9672,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/15.json",
+      "sha256": "80414758b2286b663bc20626d0a02271b6dd5adfb03a8dce04d0c81d55320122",
+      "git_blob_sha": "5ea8d86246ff0f1cd3a91949fcb5d1fe4dbe6145",
+      "bytes": 14653,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/16.json",
+      "sha256": "d7d5d3852210695a06dbcd8fd13c381ea60ddb28dc1dcda288285ade95f595da",
+      "git_blob_sha": "cd034ed7193801b5de3b7ebb3acc1c52fb1d6bdb",
+      "bytes": 11251,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/2.json",
+      "sha256": "d7ded071377d16e1d98e5e45b7e6fa5ece494f4c8ea589814182d8ee20364c92",
+      "git_blob_sha": "9cddeadbd10f1b5d7dc77472d4d92f5e4f689e5f",
+      "bytes": 11198,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/3.json",
+      "sha256": "876c4d4976fa43179e7534e3aba250bdb083817fe3741286d6690137282a5e58",
+      "git_blob_sha": "a8e1087213f0b505542a711a30344e65a790dc4e",
+      "bytes": 13026,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/4.json",
+      "sha256": "49b6e356730485ae634975042b637505fe4bc36743ce874b07eb7a0cb9eb3fa1",
+      "git_blob_sha": "0e8dee43f4e8af839f970a311db8994bc919ed84",
+      "bytes": 10717,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/5.json",
+      "sha256": "df67ca939e0598ce2766eb75e629b7f732a2a0ff30b328825088e778e52654a4",
+      "git_blob_sha": "ca6c47f1a8627eeda741995518ba9f8b0cb8d6a3",
+      "bytes": 10101,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/6.json",
+      "sha256": "5ffd0b5b0b948c18ac101fbeb855787709cda9a27e322094ce859d3b02a2bd65",
+      "git_blob_sha": "5f737fa9feaf9e559bd5634ac86505b742737690",
+      "bytes": 9798,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/7.json",
+      "sha256": "95fce238fb3a7af9305d784dc1a83252b5cbe2735455479366cd53039e85f8fc",
+      "git_blob_sha": "f3407358d21303cdd5b8df47333974900963a956",
+      "bytes": 10446,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/8.json",
+      "sha256": "18223bcf30d9931cdc886eda686138bdcc093d54750d6b3e9c66da2203580901",
+      "git_blob_sha": "60d508b170ff784b3b1123fc0b5834660e149d72",
+      "bytes": 15250,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/index/ROM/9.json",
+      "sha256": "644c36d2198d40afcc8d3256a8c447453ea267d08efe61c8a68f60d62cd42fc7",
+      "git_blob_sha": "8197e0e5e974faa14f79dcb2762903453568406e",
+      "bytes": 13500,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-romans-2026-11-12/manifest.json",
+      "sha256": "297b092c24578c2ac2520dbd843d1450ac56f3110878252f53b56c9829bea64f",
+      "git_blob_sha": "f699e6759676a1e95fdb0581763f621e99c0f6f5",
+      "bytes": 1740,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-romans-v3.html",
+      "sha256": "6980881d8b6080835cc4acb750fd616a45e2954f4d161391e049297c9eb49b8c",
+      "git_blob_sha": "fac40d430545f1e6abf39568a583ae29af069b43",
+      "bytes": 14723,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 20276,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 108650,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 16,
+    "verse_coordinates": 433,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 5,
+    "original_entries": 1567,
+    "verse_author_routes": 2101,
+    "original_P_sections": 120,
+    "routed_P_sections": 120
+  },
+  "source_scoped_exceptions": "Romans uses four original New Testament SWORD source modules plus original HelloAO Gill. Original Keil & Delitzsch has no NT commentary. All missing verse indexes, source-wide pooled records, introductions and original chapter headings remain bounded and independently source-audited.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}
