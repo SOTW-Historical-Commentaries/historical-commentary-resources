@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.36-additive-john",
+  "version": "navigation-coverage-v1.37-additive-acts",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -47,7 +47,8 @@
     "MAT",
     "MRK",
     "LUK",
-    "JHN"
+    "JHN",
+    "ACT"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -92,7 +93,8 @@
     "MAT": "structured-matthew-2026-11-11",
     "MRK": "structured-mark-2026-11-12",
     "LUK": "structured-luke-2026-11-12",
-    "JHN": "structured-john-2026-11-12"
+    "JHN": "structured-john-2026-11-12",
+    "ACT": "structured-acts-2026-11-12"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -106,7 +108,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 6782,
+    "original_P_sections": 7036,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -151,7 +153,8 @@
       "MAT": 289,
       "MRK": 164,
       "LUK": 276,
-      "JHN": 210
+      "JHN": 210,
+      "ACT": 254
     },
     "routed_by_book": {
       "GEN": 64,
@@ -196,10 +199,11 @@
       "MAT": 289,
       "MRK": 164,
       "LUK": 276,
-      "JHN": 210
+      "JHN": 210,
+      "ACT": 254
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.35-additive-luke",
+  "previous_manifest_version": "navigation-coverage-v1.36-additive-john",
   "additive_release_notes": [
     "1 and 2 Samuel added without touching accepted Genesis–Ruth chapter snapshots, P book overlays, or existing readers.",
     "Five original CrossWire SWORD binaries with native KJV passage indexes preserved, Gill from original HelloAO.",
@@ -344,6 +348,9 @@
     "All prior 41 book snapshots preserved; manual upload only.",
     "John (21 chapters; 879 KJV verse coordinates), native original historical commentary sources.",
     "Original source-backed introductions and headings in P; native binary index gaps remain authoritative.",
-    "All prior 42 book snapshots preserved; manual upload only."
+    "All prior 42 book snapshots preserved; manual upload only.",
+    "Acts (28 chapters; 1007 KJV verse coordinates), native original historical commentary sources.",
+    "Original source-backed introductions and headings in P; native binary index gaps remain authoritative.",
+    "All prior 43 book snapshots preserved; manual upload only."
   ]
 }
