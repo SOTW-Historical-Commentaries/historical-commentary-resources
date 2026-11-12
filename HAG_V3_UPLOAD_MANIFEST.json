@@ -1,0 +1,228 @@
+{
+  "kind": "sotw_structured_commentary_root_upload_manifest",
+  "version": "v3-haggai-2026-11-11",
+  "book": "HAG",
+  "book_name": "Haggai",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "snapshot": "structured-haggai-2026-11-11",
+  "baseline_main_commit": "43ec32df58e89e8afa6741377c07e3ea45f20cac",
+  "baseline_navigation_manifest_git_blob": "4d2e18eb2456901e842a0decd19b71af56083f40",
+  "baseline_navigation_sha256": "f31110165426d09b446787db22384109bc4f9a2b7c17d6ace11017dd605553c4",
+  "baseline_is_installed_or_staged": "installed_verified_ZEP",
+  "prerequisites": [
+    "Before upload: GitHub main commit equals pinned Zephaniah commit and navigation manifest matches exact pinned SHA-256/Git blob",
+    "Upload all new files in Batch 01, then replace cumulative navigation manifest in final batch",
+    "Verify successful Pages deployment and exact Haggai file hashes before installing Zechariah"
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 18,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/HAG.json",
+      "size_bytes": 32860,
+      "sha256": "f1912101bae83f3fb442014ef7f71e98727c552dc45900aa00b9cb0891c13edc",
+      "git_blob_sha": "77bc9df8d9931a80324a0c9dbf8c224962aa707c",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "size_bytes": 19261,
+      "sha256": "30deffd78818a06c70f07a882401f41e527c70a263ed9542d190f01e0ecc4573",
+      "git_blob_sha": "5e8dfc920e22781f3fd2e2bc588d740b6d404f19",
+      "change": "REPLACE_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/adam-clarke/HAG/1.json",
+      "size_bytes": 36270,
+      "sha256": "8e532ddca6b07298c4facc33defb1a78672bfbdb5e66f837768fc561f7e286d4",
+      "git_blob_sha": "cafbe3a509dfc62b5a779fbc6fb3fd375440f07a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/adam-clarke/HAG/2.json",
+      "size_bytes": 70618,
+      "sha256": "5bb6f1ce3479bffa4511d34f41dd65eff2420faa96a1bc4eaef2d5be97a8f470",
+      "git_blob_sha": "ef7e3701d98d856ded4d620355dff9791a5eb57a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/jamieson-fausset-brown/HAG/1.json",
+      "size_bytes": 85954,
+      "sha256": "358ce0c05c9e2516db678e15ea8fca7cb31e6c8a86066eb75059c465e4738309",
+      "git_blob_sha": "8340fb0a9394cc40c6115bfe75cec51c5f23e476",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/jamieson-fausset-brown/HAG/2.json",
+      "size_bytes": 100403,
+      "sha256": "c97fde3d2ade1cb05f923dc4f5557671f16411d9c9bd74a8577ab7aaa2cda110",
+      "git_blob_sha": "7fbd37792aa8c5412b0674ba0c018324328e9858",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/john-calvin/HAG/1.json",
+      "size_bytes": 246769,
+      "sha256": "58842aea122d26c17523256a944b959a35d242bd5057dd8f531b0dd96c653adb",
+      "git_blob_sha": "c82565e4898da236295d92a0faec1e81b4f67fa3",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/john-calvin/HAG/2.json",
+      "size_bytes": 473111,
+      "sha256": "1ba2753905535fac825863d45fb23811e88e88c4a6ba73e366f311649e6c63c0",
+      "git_blob_sha": "ed810ae2c1eec6d6d3434d7373caa497abce0e1a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/john-gill/HAG/1.json",
+      "size_bytes": 118075,
+      "sha256": "dfe4aa559b5bcb7dd813000645ffacc78998f638f70f8d8d8ce89cdd1d92235e",
+      "git_blob_sha": "6bd3abfd307cbc93a8625fd09bfb61581785dc9d",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/john-gill/HAG/2.json",
+      "size_bytes": 197229,
+      "sha256": "4696b6c61496258a400695a626699435661e9e313555fffe24797162090d44ac",
+      "git_blob_sha": "8a212e8884b576e0bc8c48c4e3fb89e2421d458a",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/keil-delitzsch/HAG/1.json",
+      "size_bytes": 170104,
+      "sha256": "01f25ab61e1e857707fcb5e6308fbad0288a1bb9915b193856887a3eb8a1dffc",
+      "git_blob_sha": "5b6c1f407dd80753faebc46e02d98ee4ccd37225",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/keil-delitzsch/HAG/2.json",
+      "size_bytes": 250649,
+      "sha256": "e4caf7f6d5b63fd12cca4acf14c46180e3dd60d23c32c833ff3ef295c84fbdba",
+      "git_blob_sha": "057ee3c1ab8fab55edc11a256e6b51296e0fabf8",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/matthew-henry/HAG/1.json",
+      "size_bytes": 133683,
+      "sha256": "af8ce9cda0e657b92882a422885e763a7ca72f0cdf518265ca899ad6c1ee4a07",
+      "git_blob_sha": "aa21c21c90db60b191e58d28981ccb90d08608fc",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/authors/matthew-henry/HAG/2.json",
+      "size_bytes": 143660,
+      "sha256": "df774c0acdd1c25748779140ffe791b75f0a968fdd80527237fa2262e1a16110",
+      "git_blob_sha": "a8325266a628561494dce37c83e608a4a1584636",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/index/HAG/1.json",
+      "size_bytes": 9391,
+      "sha256": "1bdbec713f61c4400b160fbd3b46b7d8556d7ce4e9750a3f80f376ace6b1f171",
+      "git_blob_sha": "a498963a5acc0ad8220b204d38f649d9f77a6004",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/index/HAG/2.json",
+      "size_bytes": 12190,
+      "sha256": "5eb07e221131c3cb47a34604266621bc95d8ad38c806aed625421d3212297842",
+      "git_blob_sha": "45d56a886722ae19b3a862b6745c8d2eb58cb075",
+      "change": "ADD"
+    },
+    {
+      "path": "api/v3/snapshots/structured-haggai-2026-11-11/manifest.json",
+      "size_bytes": 1638,
+      "sha256": "77b5bda734a688a1fa9a50da67d78808b3a5b03622a39fb2b5f896813c2975ff",
+      "git_blob_sha": "954a9c29c4e20dcceb8e2bf2dd47e681f9d95afe",
+      "change": "ADD"
+    },
+    {
+      "path": "review-haggai-v3.html",
+      "size_bytes": 14452,
+      "sha256": "a95685c3c98dbf8fb556efd2137610ffe9536d31e164c0bdcdcc4b58750dcff9",
+      "git_blob_sha": "c96a82865a0b878d04e0181ce748a48ed0e39bba",
+      "change": "ADD"
+    }
+  ],
+  "qa": {
+    "independent_source_provenance_checks": 2809,
+    "reader_navigation_checks": 1955,
+    "errors": 0,
+    "source_archives_sha_locked": 6,
+    "original_p_sections": 20,
+    "routed_p_sections": 21,
+    "previous_books_preserved": 36,
+    "github_writes": 0,
+    "browser_rendering": "NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "counts": {
+    "chapters": 2,
+    "scripture_verse_coordinates": 38,
+    "authors": 6,
+    "original_source_entries": 136,
+    "source_backed_verse_author_links": 189
+  },
+  "source_scoped_exceptions": {
+    "john-calvin:1": [
+      3,
+      4,
+      8,
+      11,
+      14
+    ],
+    "adam-clarke:1": [
+      3,
+      7,
+      11
+    ],
+    "jamieson-fausset-brown:1": [
+      3,
+      7
+    ],
+    "john-calvin:2": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23
+    ],
+    "adam-clarke:2": [
+      2,
+      5,
+      8,
+      11,
+      12,
+      13,
+      15,
+      17,
+      19,
+      22
+    ],
+    "jamieson-fausset-brown:2": [
+      2
+    ]
+  },
+  "rights_and_provenance": "Five original CrossWire/SWORD digital editions with native KJV-structured binary index and exact OSIS source bytes, plus original HelloAO John Gill items and preserved edition-specific license metadata; no Bible translation text.",
+  "release_scope": "Independent source-first additive staging book. Earlier book reader and source files, config, workflows, CGBC runtime and Bible Tools production untouched.",
+  "publication_gate": "Owner manual upload plus final commit file hashes, successful Pages deployment, and human browser visual check"
+}

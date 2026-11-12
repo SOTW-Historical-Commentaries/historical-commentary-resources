@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-haggai-2026-11-11",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "HAG"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 12,
+    "original_entries": 136,
+    "navigation_sections": 20,
+    "reader_visible_entries": 135,
+    "verse_author_routes": 189,
+    "sword_chapters": 10,
+    "unavailable_chapters": 0,
+    "helloao_chapters": 2,
+    "chapters": 2
+  },
+  "chapter_verse_count": {
+    "1": 15,
+    "2": 23
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Five SHA-locked CrossWire/SWORD digital editions with native KJV OT index keys, one original HelloAO John Gill source; fallback only if entire SWORD chapter missing.",
+  "reader_policy": "Verse by default; original source-bounded P introductions and chapter/passage headings available separately; out-of-range P reverts to verse.",
+  "provenance_policy": "Original OSIS and HelloAO item data preserved, source index/hash/edition/license retained; no synthetic commentary.",
+  "notes": [
+    "Haggai is canonical book 37 after Zephaniah; earlier 36 snapshots immutable.",
+    "Original source-defined P introductions and headings are separate from original indexed records.",
+    "No Bible translation text, production deployment, or CGBC player changes."
+  ]
+}
