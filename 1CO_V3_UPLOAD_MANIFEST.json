@@ -1,0 +1,866 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-1-corinthians-2026-11-12",
+  "book": "1CO",
+  "book_name": "1 Corinthians",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_position": 46,
+  "testament": "NT",
+  "snapshot": "structured-1-corinthians-2026-11-12",
+  "baseline_main_commit": null,
+  "baseline_navigation_manifest_git_blob": "751c4728b91cd5b89f907f41b6b61d5d178afdb8",
+  "baseline_navigation_sha256": "2d2b52a99693aa99528a8373d213327195e4b08f6ed1444a921f437fa45fe670",
+  "baseline_kind": "projected-after-ROM",
+  "prerequisites": [
+    "Confirm previous navigation Git blob 751c4728b91cd5b89f907f41b6b61d5d178afdb8 and SHA-256 2d2b52a99693aa99528a8373d213327195e4b08f6ed1444a921f437fa45fe670.",
+    "Confirm all 45 previous canonical books and snapshot pointers unchanged.",
+    "Upload all new files in batches, then replace the cumulative navigation manifest only in final batch; no automatic deployment.",
+    "Stop if the current GitHub baseline has changed or if a path already exists unexpectedly."
+  ],
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 116,
+  "files": [
+    {
+      "path": "api/v3/navigation-coverage/v1/books/1CO.json",
+      "sha256": "8dc2c0ad5332243f4ccefce55cff3e7e826b42f77d4751f42b1c4fe729b377ca",
+      "git_blob_sha": "64bdf768ee8bb853c8994ce404fc2833d32b0690",
+      "bytes": 164143,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "68c68e82095e340cddcb9358f588a6e08b52a83ce101ad5caab81179686b506b",
+      "git_blob_sha": "402bef22809d9a3430982d8ecb5b587d91403a53",
+      "bytes": 22728,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/1.json",
+      "sha256": "21135964546438304d00ccc28eed323e0ca74fd12c84c5057c95b07fac8f15cc",
+      "git_blob_sha": "1fcb49a486c92ab66f6b18ee6135990d12a4ed06",
+      "bytes": 177722,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/10.json",
+      "sha256": "03607626a73cfb4ebd0572e55001612ebd459411bc001a683e6d0fc6967e1df5",
+      "git_blob_sha": "b0e60535ad4ec425fb0579dd0ff1ff65c274c8fd",
+      "bytes": 139067,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/11.json",
+      "sha256": "b0449a5cdc3980dd1ae159579beaf3456601e9a3bf39bd24e3d82c9f6b5c7fb4",
+      "git_blob_sha": "6db72d17f128815d8546d97005fe30670ab8a309",
+      "bytes": 159505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/12.json",
+      "sha256": "77c445796e0072307dcb28e95b3b49e6905f741127263964e13a930203627bd2",
+      "git_blob_sha": "bb35793e2e2a9a3300c2e6e2822a5536ee7a58d1",
+      "bytes": 125429,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/13.json",
+      "sha256": "346f85f97a1ec840f740411bea14e2f8de9055d3c4accf3f160e95d57dcbd2f6",
+      "git_blob_sha": "4dc0166494a0a3eb7bf6983e4a097ae243c0825b",
+      "bytes": 212339,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/14.json",
+      "sha256": "4ffb2d9b9c2a618fe52b36bf513688dc8f3c0e58fcf164bdeb10002b998c1055",
+      "git_blob_sha": "ce8290ee40bd3d2188530cc04b6ab52886cd9fda",
+      "bytes": 129122,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/15.json",
+      "sha256": "724e2d647943468d0cfd52e61f7d442a58677c68e0266b413eb174f1933e16b2",
+      "git_blob_sha": "9312562e9349860e407612d88ef4eb9112b0053c",
+      "bytes": 297183,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/16.json",
+      "sha256": "8bc8cb9627d234c6e98d5935327e834bea94cb15e3f8c16c6b425cfda71ce2ba",
+      "git_blob_sha": "8bbb71027b02c4ff3b7ced94a534886aee880ac2",
+      "bytes": 131552,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/2.json",
+      "sha256": "d9f246516c7808593e3cbcde21f0c0cad53acd8c307d5f930c29d40c43fd9e32",
+      "git_blob_sha": "c064ee889cfb555652228e4b90322036e7b4ab10",
+      "bytes": 95389,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/3.json",
+      "sha256": "7da5b2333b483f41c318ca509f941af7ac528e3b334f0363b606234b0628c49b",
+      "git_blob_sha": "cf2d678b7b4828b2efb12c09993a2cd48c34428b",
+      "bytes": 112157,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/4.json",
+      "sha256": "5d1e33e0ab196a71aed201920c44be6abdd0893e360d0c353260e79427ce5a1c",
+      "git_blob_sha": "899d02d50991f376db8c34ab2945c99112400b57",
+      "bytes": 107082,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/5.json",
+      "sha256": "8d2f8fc4cfceab61a992f0df7fbac8c53e044ce3537fd750de2a92bc5f184443",
+      "git_blob_sha": "79c141343a708ebef06ce60252d10a76ab3b48ea",
+      "bytes": 69309,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/6.json",
+      "sha256": "cb5a94ef1ba75816f57406a41c0fd614abf2561daa521a3d1d12949ec5d9d563",
+      "git_blob_sha": "29424c93ca9634758be1d89470230c2aa20a4c3c",
+      "bytes": 86576,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/7.json",
+      "sha256": "83b9dcf15a0d813d0f4dcfd01711766bd30371a193dd399eac8f15037043a6b2",
+      "git_blob_sha": "50011f9cb2ab9ab8134a3464cc5ae08b89cb5f1e",
+      "bytes": 230614,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/8.json",
+      "sha256": "7011b51686944ea90f200c382c8cb39a70d390fcb5585176c16ffbe3b069def8",
+      "git_blob_sha": "0e2642b1a6f4aef806f1cd7d359923d1a407a24b",
+      "bytes": 83745,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/adam-clarke/1CO/9.json",
+      "sha256": "649cdb26748ded31d54f2ffe9bfc57f995fe272b005e0ecb3ca4919dedb06b64",
+      "git_blob_sha": "ff7c165c47856e81f6e37b699fb5d0601413413d",
+      "bytes": 172221,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/1.json",
+      "sha256": "2563428abf820cdf47fd2875ce3f8a0d078531e26d4f17af16b98471252e7fb0",
+      "git_blob_sha": "1390b0424b30c235827edfc883d430c70164f4a4",
+      "bytes": 165820,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/10.json",
+      "sha256": "20b76e420713a134acd0ecc5dc9aa5f46675db3e27e833072ef74c44c185f538",
+      "git_blob_sha": "f695342ecbf5d3b9360e713eb10ae62f70a103ab",
+      "bytes": 128259,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/11.json",
+      "sha256": "a47dd1831c71148b6d9b61fe0332a82efc6367fc791c9228e737bb64cf544820",
+      "git_blob_sha": "9ad7b5eb92f4575ba43180333814d61547e98f8c",
+      "bytes": 128933,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/12.json",
+      "sha256": "0372ca7dbbac1f37cd900b74371a8c7af07f66aa56cfa23e3d6a8a4811050162",
+      "git_blob_sha": "b4d7154929d5a1ddb5f0521d9129f4251bd5d315",
+      "bytes": 82541,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/13.json",
+      "sha256": "027b243efaa2f76510b880819903a417ef9fc80bbf4def3cfb0eb6c9298e5c90",
+      "git_blob_sha": "561345d26f80fd81fc8d8810442919d68437130b",
+      "bytes": 54130,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/14.json",
+      "sha256": "380b10e8a910beac0fc4433617fedc8ef7d5b738f523c84fa2d3a6719c54a6ec",
+      "git_blob_sha": "5f3c3ed4f139b82e3ddfc6c3ac68228658b51e14",
+      "bytes": 110262,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/15.json",
+      "sha256": "71be7e3a14e8098a18759f85402163d415771bac98037f3a166e9424d7f2d9ed",
+      "git_blob_sha": "a39f5bb44bf8c646401010996fce7e70ff5e0403",
+      "bytes": 202769,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/16.json",
+      "sha256": "24e4d0b26d223c35766886d53cc26586e97f4e408de2089450e16a600efb7989",
+      "git_blob_sha": "ba039b764b785d02dc36f603e9ba9252f70afd00",
+      "bytes": 93598,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/2.json",
+      "sha256": "90b139b1a08638cf5994385cea4d0789cdb68461b8bcc12dec5888d00e648b7b",
+      "git_blob_sha": "9dcc2b2e95adfb3e8f23dc3cd92976225fa8f6ca",
+      "bytes": 75907,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/3.json",
+      "sha256": "98b50b7f6687f74e36cad29d6b5f51de678fc544421edd1815e531cf0d4df57c",
+      "git_blob_sha": "16f31cd00917f7967131ea9c0394074dd32d37ce",
+      "bytes": 91276,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/4.json",
+      "sha256": "66b74309d726ad79fc700f1c2f56f940ecec9cd7eec8d40c7fde03ac8fb6c2bb",
+      "git_blob_sha": "913bab76466fadb87cd789be1c6e0818eba69000",
+      "bytes": 84847,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/5.json",
+      "sha256": "a9e1b461af00d7d45d5e871e51fcb724387cfa5663702ba594a72ab403d02f71",
+      "git_blob_sha": "64db3e793317794ceabea1e9c00a1781679c1eb4",
+      "bytes": 59703,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/6.json",
+      "sha256": "8a1f2d91564df6f5b990ec61583ce870cb61b39ca2fa39dd89bb889ff01d14ae",
+      "git_blob_sha": "49590bfc8aee27f523936a3e16adef028ce35dd4",
+      "bytes": 82125,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/7.json",
+      "sha256": "b33a52fc2a875a64a399240b9e6e5b9baf8c0bd6f13962a6bebe5a58563e9e81",
+      "git_blob_sha": "89c8b402314fc2ec3fdaf569f7bebeb5436a5253",
+      "bytes": 116759,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/8.json",
+      "sha256": "53920567d8712ff99b406084ba6c9e1c31dd3856153127bdfabd9a1ad2aae49e",
+      "git_blob_sha": "42dfdb6ee00b0cb10f4649209d0c50246725b8e9",
+      "bytes": 51748,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/jamieson-fausset-brown/1CO/9.json",
+      "sha256": "40ced222ac187cd9dc6762250c44e157dd030c4ace897d68af4dd60c8f0e29d4",
+      "git_blob_sha": "1d1e232bc0d0332862a43cdc163203602e31ed33",
+      "bytes": 104233,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/1.json",
+      "sha256": "c926a23fc9e5b686e1d550c7a4eb210be2791e6d9fc3e442de8be8f5fe6f93f9",
+      "git_blob_sha": "f217060cb9f8ce9d810a05f75c1fdcfac1c14111",
+      "bytes": 411751,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/10.json",
+      "sha256": "15c048a5b93f32e3735a05f9d5691d05090efb68ae05eb5bf94b40e8a128c8c3",
+      "git_blob_sha": "31592863fe59d07e2f0d38ee5f10fbd0c8c7d317",
+      "bytes": 350554,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/11.json",
+      "sha256": "6ae05acb88184a3a6455a9868eb3a135c210a595e33d1b1a37d5346cc88609ba",
+      "git_blob_sha": "4342d88fc555b01da57be735896a335a0504d22a",
+      "bytes": 403850,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/12.json",
+      "sha256": "4c673ff178db2d78390dd1cdf534ecf9dc6fdabc3d3a9f4729f31c41932bb026",
+      "git_blob_sha": "224aed5ee2f870110e622faa4c70ab3b870268fc",
+      "bytes": 217160,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/13.json",
+      "sha256": "e2f2c3fe63ce7037e2fa2e0e291f24462d25db5b4ed2fa5d6c9e635eddc7389a",
+      "git_blob_sha": "4afcdc564e2cfbe7cb92130cac6fed1658f5d504",
+      "bytes": 147004,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/14.json",
+      "sha256": "457228a34e5d61c479e6660a76bff786629fd0a9e407a731a01fcf096fdfdd0d",
+      "git_blob_sha": "c8831ea28527fcd0a16ea8fe60565fa3010774df",
+      "bytes": 398743,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/15.json",
+      "sha256": "270ccd2f4f10558040546cf0929f86adbe72e3c6dd2e0e888347bd512488b1b4",
+      "git_blob_sha": "0982e5f02615fa66ced0e406891115a6cd4d2ee6",
+      "bytes": 599542,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/16.json",
+      "sha256": "454315c09dcb277ba31bfde6b00ca26fe170377911560117d1f557119f2cd91c",
+      "git_blob_sha": "70ceedbecfe039f6c25cbd175e608f395115e271",
+      "bytes": 147864,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/2.json",
+      "sha256": "44412d807153f0a063389ab2afa951cb79a89226230fc69c1b01b4af7a05fcb6",
+      "git_blob_sha": "ec73666a3a225d731e204c6626ede4f797c15d7e",
+      "bytes": 223721,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/3.json",
+      "sha256": "847536756221cc59ed54964f2279b6ddf767889de23c143dc8a48246a8de4d01",
+      "git_blob_sha": "28915693ac7de57b9f1b56cddc92a0835a57601a",
+      "bytes": 252647,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/4.json",
+      "sha256": "b04f767cec912657669083bb8ebd83c9a761592ebdf66b8d79bd2da09ff2f467",
+      "git_blob_sha": "bc7aac428c20f22a1428fe654d5889f88cc35aff",
+      "bytes": 265655,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/5.json",
+      "sha256": "22d3510fca145dda76d06078cda32cc78e247edce3e4512958fbac907181c4d5",
+      "git_blob_sha": "264041cc8f5fef8e43090703109da4f3a6ee45bc",
+      "bytes": 169790,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/6.json",
+      "sha256": "71f5d679d8ff83a7bc2ea8655e56f4a95d372bab6e53f718f7924f23d1fa155e",
+      "git_blob_sha": "aed2d4c9f3c5babb382c27be44da97513e6bc850",
+      "bytes": 210147,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/7.json",
+      "sha256": "1d76d2663f5ea6462807468bbf01b60b46f87644c8e42738f72c0fd6a4a0859b",
+      "git_blob_sha": "3209ce4325ca65c90e3d7a6fccc3dea4a6004070",
+      "bytes": 437800,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/8.json",
+      "sha256": "9fe05bd53fd026239829084f5062a2103a2f867aee04ff3bcdba21358679461d",
+      "git_blob_sha": "9a9c56669c2bd022d05120a8116f7e080f5b017f",
+      "bytes": 142345,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-calvin/1CO/9.json",
+      "sha256": "ba3ee8cdc049065a328fc85f5bb25a5e54c1bf05a492657666029e5a290b8b87",
+      "git_blob_sha": "7ffc1ea4d5ad5b23ee9f2544b66703667bd0a791",
+      "bytes": 224651,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/1.json",
+      "sha256": "89b95fa31b921f0f1c814654c62cbba20ff54656410a9702833e6a72f8af0c0c",
+      "git_blob_sha": "6d31eb9b43bd0b7c0833fd52a551fabe99f07f83",
+      "bytes": 300362,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/10.json",
+      "sha256": "beda7c145e1b1315f0f3f98bc58a24ad7673dce7d521a605b4e8a62470f887e9",
+      "git_blob_sha": "ba2f758118d5e4458874eadeefbb1be302d1a103",
+      "bytes": 325896,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/11.json",
+      "sha256": "7ff956acaaaa63baca31956414a301388df30df5afb80ec66adc0b04b0e0ea32",
+      "git_blob_sha": "a4e680fd192fe85102e51a3f4c2ec121cdb56ec2",
+      "bytes": 343800,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/12.json",
+      "sha256": "2309c15efa42784624422ba08537e450e75d17a87fc761540fe3b1efa2bfa679",
+      "git_blob_sha": "484b22b98cf9e219e5c37091870443783aef264f",
+      "bytes": 246716,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/13.json",
+      "sha256": "de792fa4ce22d07895a142e62ef2fd9f2322fa3d63fb52439d384ac2be36283f",
+      "git_blob_sha": "360c429e6cd1266c3edbc04a584848b5d2e7900b",
+      "bytes": 208524,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/14.json",
+      "sha256": "f9f97f5ea4bc8dd8c7044c18ed91c3a85861c770a2ff3aa3b710e56b60affc38",
+      "git_blob_sha": "1a30a20cf76a9d9faf9e55aaff3e309e7a9e208a",
+      "bytes": 328988,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/15.json",
+      "sha256": "9b7dfa7ef6c03ac5c3b7aba1a6306deea1a4ff19a44c0374736e8b80d24103a0",
+      "git_blob_sha": "c26c41eb01b60ab303dae02ad4bd62f3ae9fdc08",
+      "bytes": 659792,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/16.json",
+      "sha256": "0da6d0e8764e38ab7fce38ae2d57afe4a503b5ffa590791b49890fb56aac5f85",
+      "git_blob_sha": "92c1faa2d3bcfae7ed27d9d60443f49a6a46fd22",
+      "bytes": 189348,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/2.json",
+      "sha256": "9f177622cbe05fb3142b28b53ff55669adc26b0e8807dd227161b5c85ba31f83",
+      "git_blob_sha": "00fbb8f94b4d69de51eda93b861fb3cd22cb2c4b",
+      "bytes": 172445,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/3.json",
+      "sha256": "97ffb31eabf19ea761f85a310be87b124dff9af99e3e255654f2209c3faf171f",
+      "git_blob_sha": "60b4a41a5a52872ce681981167aa472c85a6576a",
+      "bytes": 204045,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/4.json",
+      "sha256": "8cc11ae6a62d07acc43a96d49ba0bb958f595d014a24235c71b05bbf32c5f952",
+      "git_blob_sha": "daef57db5eb914b329538fc55ea5387131452fdb",
+      "bytes": 199421,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/5.json",
+      "sha256": "9008ab23ee4dd8dfb8bd2ff3c62541f92b5945b5e281b996703cdffaa4b84330",
+      "git_blob_sha": "83c4b13917bea798880aa5aee8755ad8427871ca",
+      "bytes": 152973,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/6.json",
+      "sha256": "437c9e12ddb4a6dd5ae4636aa9c305ced501ae9e27e569fd64d7e350c5da4c1a",
+      "git_blob_sha": "d3b19fc8601b30d1767360e03f2e26113a5369bb",
+      "bytes": 176873,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/7.json",
+      "sha256": "77534e4248804a1a14ee134a7f2f5fe9c5ac72e4100d14c46c9d249e88e49066",
+      "git_blob_sha": "a4ad62fbae75736470dc6f9c02921b151317d089",
+      "bytes": 405977,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/8.json",
+      "sha256": "8858ce6e649c5b7774e590be59bf06ffdd7e84aa1ddee34f214e78bcadf62845",
+      "git_blob_sha": "9bc99bc89ce99c89316c8c7984a906c621010319",
+      "bytes": 111081,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/john-gill/1CO/9.json",
+      "sha256": "1cda111cc329fcd2d794c7560ee8ef1719b515a9ca3473acb30d6e2f4e36d027",
+      "git_blob_sha": "b766bf87aefa4101bad3796d27eeb514ec930ee0",
+      "bytes": 231049,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/1.json",
+      "sha256": "09d5e2c6f5bb64a3bd325aaec80c38dbd5f96705b94012cd331ffbda49f9d109",
+      "git_blob_sha": "d54aef492ca1121e2d1f3ebe27a9bd1d8ad4edfc",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/10.json",
+      "sha256": "8d8b88e37ab3130a9fcda0ab374c78b1dfe2c5b4d7b5ccc90591bb42d80afe9b",
+      "git_blob_sha": "2501dd970951ea1eb600499189bfc2b4656f4609",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/11.json",
+      "sha256": "e00e52f38f321f87da07fe13cf260bdfedb68fc4ad1a36dd8cdaf47bacd681ef",
+      "git_blob_sha": "9d5eb9a09b7f3b5d79c9ff613832d75fc2f938ee",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/12.json",
+      "sha256": "6d66464b46871806d51c304f1eb9c9cd789b272b4701e0252d5579657824dfc4",
+      "git_blob_sha": "a3696becb3b37a0db6f3f8573aa8c5ff916e97d0",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/13.json",
+      "sha256": "e594be354991871e6d0bd0f965e9c4a2eee5f0167c27ccacfe30aca2310060b0",
+      "git_blob_sha": "0091cf51b5cf83de9c2b0de56cd6559beb824f87",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/14.json",
+      "sha256": "8a861a9be9b4b212f1971f9f9c8133539589078551de5aeb1b80b2305eb9fb77",
+      "git_blob_sha": "12476658e362f831b1146a79c1408f731c69fc54",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/15.json",
+      "sha256": "4a4d17cba59f39661628dd7e26b9cc0e323a5d782ad82d1ea8b6a890379b2b55",
+      "git_blob_sha": "c38da20b092462919ab5fdf66ea726146ffce8dc",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/16.json",
+      "sha256": "2e3beebd7c79f71ad84cec16b91e2f612a34b4d54be991b1b83aca9c382f8acf",
+      "git_blob_sha": "09cdb1de5ee87cb162e5a3e196988d04fe806917",
+      "bytes": 1505,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/2.json",
+      "sha256": "e9b38be9cd94edf0d9a9f4a80054ea307a952f8f7fdb752310ac3b617d40ae08",
+      "git_blob_sha": "70b79c0d8ff80ea96caf12c12b2dd05acb176cef",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/3.json",
+      "sha256": "3c267bedd867c0d41282e25264de1e247376218f82a00623f91be1997ecb3fa8",
+      "git_blob_sha": "93cc218fe622f7bcda1f16612b267634a29a5089",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/4.json",
+      "sha256": "7c728de2a14241567a69b197569d745b7ee8c17f62d22e347ba5307a191f5a8d",
+      "git_blob_sha": "75e578547525f3d7af6f607c15e1100ab8f925ea",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/5.json",
+      "sha256": "40500540e083e742f5825d655c65977b83931acba1a6757de4017c80fb5c0d95",
+      "git_blob_sha": "bcb3a4559fd8f33e60327435ce34dda682f53a81",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/6.json",
+      "sha256": "5cfb41abb696e4342d4863172a2722f30706199c3d68544f0dadb85330c4b409",
+      "git_blob_sha": "812f5821e2d0848662fe837ffbf752e98282682a",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/7.json",
+      "sha256": "fc7bae1753b69e8b1180cced071e8cb2405998aa4bab3811c1bee822e14ce6f1",
+      "git_blob_sha": "63f0b3bb110ca451037eaec25bd050acd1182e3c",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/8.json",
+      "sha256": "bc1d75172b7d398385d3d44c90461c3639f7d9e462d7e68aa7f1e399c1c32860",
+      "git_blob_sha": "e288b46320528768844ee6d66e78f9118d0f14e1",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/keil-delitzsch/1CO/9.json",
+      "sha256": "993c6d112c3cc2239b473a8acc300b2b42a4fb0ec126889cfb0c15976f6696cc",
+      "git_blob_sha": "30fd5c8d417a13c24e7d25df7125c7caebd06aa8",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/1.json",
+      "sha256": "d98cd5a82a4ed48a0863cbcbe638c7280003d8f370bc1bd7738195f96cdb7504",
+      "git_blob_sha": "6ef7659198e7a70527608b961d3680dc63207e3a",
+      "bytes": 161391,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/10.json",
+      "sha256": "62ddc842fce5a1a9b190395a72febeee46c282e6a5cbc2c1c181881c6fe85141",
+      "git_blob_sha": "54c6ce5a835e0f911949d71369b4a4c6be760e0f",
+      "bytes": 130911,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/11.json",
+      "sha256": "b2be5be805039a4c3063c9c7a45024a1628a6fd12e42d94551fabc24e748fc36",
+      "git_blob_sha": "c27f96421cdb9e7846c1a65917980c11fed4d334",
+      "bytes": 140467,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/12.json",
+      "sha256": "3feb2832fc12688dde48dc61e6a897b7bd6e7ae27393a5abe73eb2004745ae53",
+      "git_blob_sha": "8f3a0b07522000acfc031ac63d82d5448bd23460",
+      "bytes": 123922,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/13.json",
+      "sha256": "5bccc64e141278f4d417c8b0a3141fa7cca0f9639db15cd23f05a9c4da75a290",
+      "git_blob_sha": "89c467d4c5a953aacf379f3e0c741ffc77b701b7",
+      "bytes": 105852,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/14.json",
+      "sha256": "2232dffb2648c35b394d95d23b7759b72e0ea5ad4bd9a0e2977dbf4fdf5b0b70",
+      "git_blob_sha": "541152763b59a5739c899f62bb30fd883db44307",
+      "bytes": 160527,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/15.json",
+      "sha256": "8022aeae9af9d921a18ee180231872c0564284484291c2f78d6339250f43d793",
+      "git_blob_sha": "591006fd9ffbd7da42d66d9ab03a02aa8ce6d5dd",
+      "bytes": 278661,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/16.json",
+      "sha256": "6ccf564ca20584005644e63ac80ccc061b46300e88f5464f915dc5c3f6e7d827",
+      "git_blob_sha": "6f3bfb24aa6abe0f28fa9a38e18213ca50be7130",
+      "bytes": 160247,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/2.json",
+      "sha256": "e2ac8df9444f3a17b43e0c049339d4c54f0018e8ffccdfe951213d032cde04ad",
+      "git_blob_sha": "8c9df7da172dce0fd3805bc8d976af8f02ca93f1",
+      "bytes": 89699,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/3.json",
+      "sha256": "511b8478760a523b2503096608351f08e6f22c8cc9f7803e2fe2d73d890bfac1",
+      "git_blob_sha": "3675e6697e88b8e0816198d83375736329ee2dbe",
+      "bytes": 121357,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/4.json",
+      "sha256": "4873e785b90b72e248a5050ae08ddbeaf4f65ce271acb9e7b1e79fc50168684c",
+      "git_blob_sha": "3a34c1434600ffa438186a32fb0e705001d276a2",
+      "bytes": 133802,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/5.json",
+      "sha256": "c118d2e01fe8c7d357dd5515cdacfec8293a7e5c068b01c1a069502072b7352d",
+      "git_blob_sha": "1f5197ed76a65abf2adc964ba0ba1dd677b3e14d",
+      "bytes": 79856,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/6.json",
+      "sha256": "39755ab001b53edc90d668afa15077e3e3f4b04e3e51a3d409f137327d7c56c1",
+      "git_blob_sha": "a33c2ecde590b81a1f4fc3c9519f602e54cd72b4",
+      "bytes": 106968,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/7.json",
+      "sha256": "87e567cba2c075e339e48f376deefb2877983c2b2507adfe6353bd2170bc7591",
+      "git_blob_sha": "7ffb318e21111c7a0032532748fd973183729339",
+      "bytes": 168675,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/8.json",
+      "sha256": "beae787ee0ed2e26206524e701d4ff648de3c81d2171ae0a2c5222276dbf20ce",
+      "git_blob_sha": "b412bd508ec006b32741b31827eadad2487c5a26",
+      "bytes": 79344,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/authors/matthew-henry/1CO/9.json",
+      "sha256": "f0062e3695bd9bcec113db78698f4ffd9459c3c097d729d2a52302fbfefddcaf",
+      "git_blob_sha": "5625a603622b9e4e04d3dd6d0c407233088e8e51",
+      "bytes": 118595,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/1.json",
+      "sha256": "2fe2948cfcef64ff8237b36c98f48af8e2ee87931e683086f7e835abb924ad79",
+      "git_blob_sha": "581322bc7c501b7a0a372fd8db2c515f621420e1",
+      "bytes": 12742,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/10.json",
+      "sha256": "2310d8f2c6d46053aa69ac3eeeeac22bfd6ce381d4b6a92c0cc61de588592f37",
+      "git_blob_sha": "a1c035b6bc914d862fa36f7dd9a578acbc7d83f8",
+      "bytes": 12629,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/11.json",
+      "sha256": "aace3abddc4eab6934dba6c1a0f37494f52f40b2d3ccfaaebd89930636a0e0f4",
+      "git_blob_sha": "b91a1db9598c3ebae8d47c2bce655bfd1e920998",
+      "bytes": 12636,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/12.json",
+      "sha256": "105ff06ff0bec67be7428fa9fd72e4dfd9efea2a68e95e37ec663948ab4046d5",
+      "git_blob_sha": "2276e90a64aa65f547363db3cb5e6bf0b0f56365",
+      "bytes": 11128,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/13.json",
+      "sha256": "edd8d51e39d433c19652992c437227de478f655dea6843416d01c110dd2aeaa2",
+      "git_blob_sha": "eec61d733e215d2f09f8aad07d555fe8f0724d79",
+      "bytes": 7589,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/14.json",
+      "sha256": "c1f1b8154ff604e31deb35f8d26cdd1188d133903de3f8f1b4a3c3038913b74c",
+      "git_blob_sha": "00e2d7266591f7dfd72d717f6b501c53bdf3938d",
+      "bytes": 15615,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/15.json",
+      "sha256": "014ccccb2205a83c398081278daefa322ea2f6d5fcca46ff48198ea8220d1de6",
+      "git_blob_sha": "4baa04fc986163c7ac426bdfd94bccd997d0bdbf",
+      "bytes": 19033,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/16.json",
+      "sha256": "09f573c05d86bbca2c6ddb25e773ad72bd73c2668de2b2685b0bd89849b55f99",
+      "git_blob_sha": "6640b0bcf247ef5850bec67b0d00b2f334c46320",
+      "bytes": 10609,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/2.json",
+      "sha256": "e3bc7858044006def102500c016d38bdb3d3fa08007b28498e29019961174707",
+      "git_blob_sha": "ca77cc6eee7a233f774a96541a04f63ec7ba3086",
+      "bytes": 8220,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/3.json",
+      "sha256": "f9fec21a6c7ec99c4edf7ef0e21a19c15949e06d2f47dc241fe34a4c1fb1a218",
+      "git_blob_sha": "04fa9e7f457237bf88d7e270fe5a82201a07e62a",
+      "bytes": 10925,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/4.json",
+      "sha256": "e9814a2138342762f49b7f7eb86da2e2603116ec7c748166dd45a6e8545e3176",
+      "git_blob_sha": "2262f1dfcde193f523e7c8776ecf5a154ade0376",
+      "bytes": 10044,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/5.json",
+      "sha256": "7b58eb8c2ff5e1cad5a50c469c5057be4e6c4fc6d2e472622537f358f1cb58db",
+      "git_blob_sha": "1f02a164aee554bafe113d191a9ee2c7d8fb8da0",
+      "bytes": 7740,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/6.json",
+      "sha256": "c32e619f7bed4a1d19a45fea243fede7124904fa434eb28db79a2972e3d51bb1",
+      "git_blob_sha": "a9cea5d9f55a6a6b9a3d2fbd14fe9430e1dec389",
+      "bytes": 9156,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/7.json",
+      "sha256": "48b60a099bbb01f7dc3c100c3d7358efb8e72e391cccb5188dd0c0847b16687f",
+      "git_blob_sha": "f33374adc2fd0fecc17945504dcad3c6bd9d2569",
+      "bytes": 14913,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/8.json",
+      "sha256": "f4f58a2d8b5e8503aa4b74487542b057180579803b39c305652b3e80228d8ccc",
+      "git_blob_sha": "78639e50eee28a5bedc9827268c256b854b82070",
+      "bytes": 7729,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/index/1CO/9.json",
+      "sha256": "6ccef9b9278d0d91398ec3e8bc40e15b406046d00e1af2868238a20989e2cb52",
+      "git_blob_sha": "131f35d77f317d54c975c01bcb52ae24e2ea211e",
+      "bytes": 11530,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-1-corinthians-2026-11-12/manifest.json",
+      "sha256": "ea3bf1f9a5f336f5be43f4f20ff53c871cfb6525af018da018c7e436c61d6c35",
+      "git_blob_sha": "b8579957a2f3af5d4c20e5e72b0e12c7b10c8caa",
+      "bytes": 1754,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-1-corinthians-v3.html",
+      "sha256": "27cdc498907a05d2205d328cfc1d4e80491513cf25f1df5da92fc65097b5e1eb",
+      "git_blob_sha": "dcf2319dda155e7be888b0655c00b65dac97a7d6",
+      "bytes": 14793,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "source_audit_status": "PASS",
+    "source_assertions": 21479,
+    "reader_nav_status": "PASS",
+    "reader_nav_assertions": 109044,
+    "live_visual": "NOT_PERFORMED",
+    "github_writes": 0,
+    "recovery_reconstruction": "PASS_FRESH_EXTRACTION_ALL_PAYLOAD_HASHES"
+  },
+  "counts": {
+    "chapters": 16,
+    "verse_coordinates": 437,
+    "author_source_roster": 6,
+    "authors_with_actual_primary_commentary": 5,
+    "original_entries": 1718,
+    "verse_author_routes": 2102,
+    "original_P_sections": 119,
+    "routed_P_sections": 119
+  },
+  "source_scoped_exceptions": "1 Corinthians uses four original New Testament SWORD source modules plus original HelloAO Gill. Original Keil & Delitzsch has no NT commentary. All missing verse indexes, source-wide pooled records, introductions and original chapter headings remain bounded and independently source-audited.",
+  "rights_and_provenance": "Exact historical original SWORD OSIS and HelloAO source work edition pointers, hashes, explicit original rights metadata; no modern copyrighted Bible translation included.",
+  "release_scope": "Additive book/snapshot files and one cumulative navigation manifest only; earlier books, shared registries, SPP and CGBC player unchanged.",
+  "publication_gate": "Manual owner upload, exact Git hash verification, GitHub Pages successful final commit and visual reader testing."
+}
