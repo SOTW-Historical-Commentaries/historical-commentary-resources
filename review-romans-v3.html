@@ -39,10 +39,10 @@ function jakeMatches(scope,ch,v){if(!scope||!scope.startsWith('ROM.'))return fal
 async function loadJake(){
  if(jakeLoaded)return jakeEntries;
  const catalog=await get('api/jake/v1/catalog.json');
- const base='https://raw.githubusercontent.com/'+catalog.sourceRepository+'/'+catalog.sourceBranch+'/';
+
  const sources=await Promise.all((catalog.sources||[]).map(async source=>{
-  const data=await get(base+source.path);
-  if(data.sermon?.stableId!==source.sermonId||!Array.isArray(data.structure?.commentaryIndex))throw new Error('CGBC source contract mismatch');
+  const data=await get(source.path);
+  if(data.sermon?.stableId!==source.sermonId||!Array.isArray(data.structure?.commentaryIndex))throw new Error('Jacob commentary source contract mismatch');
   return data.structure.commentaryIndex.map(e=>({...e,_sermon:data.sermon,_sourcePath:source.path,_generatedAt:data.generatedAt}));
  }));
  jakeEntries=sources.flat();jakeLoaded=true;return jakeEntries;
