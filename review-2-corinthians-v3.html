@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2 Corinthians · Historical Commentary Review · Servants of the Way</title>
+<style>
+:root{color-scheme:light;font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;color:#233a34;background:#f5f7f3}*{box-sizing:border-box}
+body{margin:0}header{background:#203f38;color:#fff;padding:24px max(20px,calc((100% - 1140px)/2))}header small{color:#bbd6cc;letter-spacing:.12em;text-transform:uppercase}h1{font:2.1rem Georgia,serif;margin:8px 0}header p{color:#d5e5de;margin:0}
+main{max-width:1140px;margin:auto;padding:22px 18px 55px}button,select{font:inherit;padding:8px 12px;border:1px solid #cbd6d1;border-radius:8px;background:white;color:#203c33}button{cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #64a594}
+button.active,button:hover{background:#275b50;color:white}.controls{background:#fff;border:1px solid #e1e8e3;border-radius:12px;padding:15px;display:flex;gap:14px;flex-wrap:wrap;align-items:end;margin-bottom:18px}
+.control{display:flex;gap:4px;flex-direction:column;min-width:145px;flex:1}.control label{font-size:.78rem;color:#466057;font-weight:700}.mode{display:flex;gap:5px;align-items:center}.split{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:18px}
+.paper,.aside{background:#fff;border:1px solid #e1e8e3;border-radius:12px;padding:clamp(15px,3vw,29px)}.paper{min-height:400px}.paper h2{font:1.6rem Georgia,serif;margin:4px 0 14px}.body{font:1.07rem/1.86 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere}.aside h3{font:1.2rem Georgia,serif;margin:0 0 9px}.hint,.status{font-size:.86rem;color:#587369}.notice{padding:11px 13px;background:#fff9e6;color:#665327;border:1px solid #e5d4a7;border-radius:8px;margin:10px 0 20px}.list{display:flex;flex-direction:column;gap:7px;max-height:520px;overflow:auto}.list button{text-align:left;font-size:.88rem}.list button.active{background:#23584b;color:white}.tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}footer{color:#667b73;text-align:center;padding:30px;font-size:.8rem}
+@media(max-width:760px){.split{grid-template-columns:1fr}.control{min-width:120px}header{padding:18px}.aside{order:-1}.list{max-height:235px}}
+</style></head><body>
+<header><small>Servants of the Way · Historical Commentary Library</small><h1>2 Corinthians</h1><p>Six historical authors · Original-source structured navigation · Review staging</p></header>
+<main><div class="notice">Original commentary and prefatory material remain separately indexed. P sections are non-Scripture. Unavailable author passages are not filled in from neighboring records. This is a review reader, not the CGBC player.</div>
+<section class="controls" aria-label="Passage navigation">
+<div class="control"><label for="author">Historical author</label><select id="author"></select></div>
+<div class="control"><label for="chapter">Chapter</label><select id="chapter"></select></div>
+<div class="control"><label for="verse">Verse</label><select id="verse"></select></div>
+<div class="control"><label>Reading mode</label><div class="mode"><button id="verseMode" type="button" class="active">Verse</button><button id="pMode" type="button">P · Introductions</button></div></div>
+</section>
+<div class="split"><article class="paper"><h2 id="heading">Loading original commentary…</h2><p class="status" id="meta"></p><div id="body" class="body"></div><div class="tools"><button id="copy">Copy passage link</button><button id="previous">Previous verse</button><button id="next">Next verse</button></div></article>
+<aside class="aside"><h3 id="sidebarHeading">Source navigation</h3><p class="hint" id="sidebarHint">Original passages and introductions</p><div class="list" id="sidebar"></div></aside></div></main>
+<footer>Servants of the Way is the present source provider. Commentary authors remain the historical creators. Original SWORD and HelloAO editions, index records, and rights statements are retained with each chapter file.</footer>
+<script>
+'use strict';const BOOK='2CO',SNAP='structured-second-corinthians-2026-11-12',CHAPTERS=13;
+const authors={'matthew-henry':'Matthew Henry','john-calvin':'John Calvin','adam-clarke':'Adam Clarke','jamieson-fausset-brown':'Jamieson–Fausset–Brown','keil-delitzsch':'Keil & Delitzsch','john-gill':'John Gill'};
+const $=id=>document.getElementById(id),cache=new Map();
+const params=new URLSearchParams(location.search);
+const state={author:authors[params.get('author')]?params.get('author'):'matthew-henry',chapter:Math.min(CHAPTERS,Math.max(1,+(params.get('chapter')||1))),verse:Math.max(1,+(params.get('verse')||1)),mode:params.get('mode')==='p'?'p':'verse',p:params.get('p')||null};
+let coverage=null,index=null,doc=null,eligible=[];
+async function fetchJson(path){if(cache.has(path))return cache.get(path);const r=await fetch(path);if(!r.ok)throw Error('Missing '+path+' ('+r.status+')');const v=await r.json();cache.set(path,v);return v}
+function pathChapter(author,chapter){return 'api/v3/snapshots/'+SNAP+'/authors/'+author+'/'+BOOK+'/'+chapter+'.json'}
+function pathIndex(chapter){return 'api/v3/snapshots/'+SNAP+'/index/'+BOOK+'/'+chapter+'.json'}
+function parseRef(s){const m=String(s||'').match(/^([A-Z0-9]+)\.(\d+)\.(\d+)$/);return m?{b:m[1],c:+m[2],v:+m[3]}:null}
+function cmp(a,b){return a.c===b.c?a.v-b.v:a.c-b.c}
+function eligibleFor(section){if(!section.eligible_books?.includes(BOOK))return false;
+if(section.scope==='book')return true;
+if(section.scope==='chapter'){const m=String(section.source?.chapter_file||'').match(/\/(\d+)\.json$/);return m&&+m[1]===state.chapter}
+if(section.scope==='passage'){const lo=parseRef(section.passage_start),hi=parseRef(section.passage_end),here={b:BOOK,c:state.chapter,v:state.verse};return lo&&hi&&lo.b===BOOK&&hi.b===BOOK&&cmp(here,lo)>=0&&cmp(here,hi)<=0}
+return false}
+function syncUrl(){const u=new URL(location.href);for(let [k,v]of Object.entries({author:state.author,chapter:state.chapter,verse:state.verse,mode:state.mode,p:state.mode==='p'?state.p:null})){if(v===null)u.searchParams.delete(k);else u.searchParams.set(k,v)}history.replaceState(null,'',u)}
+function setMessage(str){$('body').textContent=str}
+function options(sel,entries,selected){sel.replaceChildren();for(const [value,label] of entries){let o=document.createElement('option');o.value=value;o.textContent=label;sel.appendChild(o)}sel.value=String(selected)}
+function pList(){return (coverage?.author_sections?.[state.author]||[]).filter(eligibleFor)}
+function sidebarButton(text,onClick,isActive){const b=document.createElement('button');b.type='button';b.textContent=text;if(isActive)b.classList.add('active');b.addEventListener('click',onClick);$('sidebar').appendChild(b)}
+function displayVerse(){const v=String(state.verse);let indices=index?.verse_routes?.[v]?.[state.author]||[];
+$('heading').textContent=BOOK.replace('2CO','2 Corinthians').replace('GAL','Galatians')+' '+state.chapter+':'+state.verse;
+$('meta').textContent=(authors[state.author]||state.author)+' · '+(doc.source?.module_title||doc.source?.source_work_title||'Original archive')+' · '+(doc.source?.module_version||'source snapshot');
+if(!indices.length){setMessage(doc.unavailable_author_work_for_testament?'This historical work has no New Testament commentary in the supplied original source.':'No original indexed commentary is available for this exact verse.');return}
+setMessage(indices.map(i=>doc.entries?.[i]?.reader_content_plain??doc.entries?.[i]?.content_plain??'').join('\n\n').trim()||'This source record is empty.');}
+async function displayP(){const section=eligible.find(s=>s.section_id===state.p);if(!section){state.mode='verse';state.p=null;displayVerse();return}
+const srcFile=section.source?.chapter_file||'';const c=srcFile.match(/\/(\d+)\.json$/);if(!c){setMessage('Source path missing.');return}
+const srcDoc=await fetchJson(srcFile);const nav=srcDoc.navigation_sections?.find(x=>x.section_id===section.section_id);
+$('heading').textContent=section.title;$('meta').textContent=(authors[state.author]||state.author)+' · non-Scripture P · '+section.scope;
+setMessage(nav?.content_plain||'Section could not be resolved from its original immutable source.');}
+async function render(){try{
+$('verseMode').classList.toggle('active',state.mode==='verse');$('pMode').classList.toggle('active',state.mode==='p');
+index=await fetchJson(pathIndex(state.chapter));state.verse=Math.min(index.verse_count,state.verse);
+options($('chapter'),Array.from({length:CHAPTERS},(_,i)=>[String(i+1),'Chapter '+(i+1)]),state.chapter);
+options($('verse'),Array.from({length:index.verse_count},(_,i)=>[String(i+1),'Verse '+(i+1)]),state.verse);
+doc=await fetchJson(pathChapter(state.author,state.chapter));eligible=pList();
+if(state.mode==='p'&&!eligible.some(x=>x.section_id===state.p)){state.mode='verse';state.p=null}
+$('sidebar').replaceChildren();
+if(state.mode==='verse'){
+ $('sidebarHeading').textContent='Original source index';$('sidebarHint').textContent='Choose an indexed verse. Commentary gaps remain visible.';
+ for(let v=1;v<=index.verse_count;v++){const enabled=!!index.verse_routes?.[v]?.[state.author];sidebarButton((enabled?'':'○ ')+'Verse '+v,()=>{state.verse=v;render()},state.verse===v)}
+ displayVerse();
+}else{
+ $('sidebarHeading').textContent='P: source sections';$('sidebarHint').textContent='Only original source-backed non-Scripture headings and introductions';
+ for(const sec of eligible)sidebarButton(sec.title,()=>{state.p=sec.section_id;render()},sec.section_id===state.p);
+ await displayP();
+}
+syncUrl();
+}catch(err){console.error(err);$('heading').textContent='Source unavailable';setMessage(String(err.message||err))}}
+$('author').addEventListener('change',e=>{state.author=e.target.value;state.mode='verse';state.p=null;render()});
+$('chapter').addEventListener('change',e=>{state.chapter=+e.target.value;state.verse=1;state.mode='verse';state.p=null;render()});
+$('verse').addEventListener('change',e=>{state.verse=+e.target.value;state.mode='verse';state.p=null;render()});
+$('verseMode').addEventListener('click',()=>{state.mode='verse';state.p=null;render()});
+$('pMode').addEventListener('click',()=>{eligible=pList();if(!eligible.length){$('heading').textContent='No P sections at this selection';setMessage('Choose another passage or author.');return}state.mode='p';state.p=eligible[0].section_id;render()});
+$('previous').addEventListener('click',()=>{state.mode='verse';state.p=null;if(state.verse>1)state.verse--;else if(state.chapter>1){state.chapter--;state.verse=1}render()});
+$('next').addEventListener('click',()=>{state.mode='verse';state.p=null;if(index&&state.verse<index.verse_count)state.verse++;else if(state.chapter<CHAPTERS){state.chapter++;state.verse=1}render()});
+$('copy').addEventListener('click',()=>{if(navigator.clipboard?.writeText)navigator.clipboard.writeText(location.href).then(()=>{$('copy').textContent='Copied';setTimeout(()=>$('copy').textContent='Copy passage link',1200)}).catch(()=>{});else prompt('Copy source link',location.href)});
+options($('author'),Object.entries(authors),state.author);
+fetchJson('api/v3/navigation-coverage/v1/books/'+BOOK+'.json').then(c=>{coverage=c;render()}).catch(err=>{$('heading').textContent='Navigation source unavailable';setMessage(String(err))});
+</script></body></html>

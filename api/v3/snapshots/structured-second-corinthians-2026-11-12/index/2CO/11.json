@@ -1,0 +1,669 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_chapter_index",
+  "snapshot_id": "structured-second-corinthians-2026-11-12",
+  "canonical_chapter": "2CO.11",
+  "verse_count": 33,
+  "authors": [
+    {
+      "author_id": "matthew-henry",
+      "path": "/api/v3/snapshots/structured-second-corinthians-2026-11-12/authors/matthew-henry/2CO/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 4,
+      "reader_visible_entries": 4,
+      "navigation_section_count": 4,
+      "indexed_verse_count": 33,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "john-calvin",
+      "path": "/api/v3/snapshots/structured-second-corinthians-2026-11-12/authors/john-calvin/2CO/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 31,
+      "reader_visible_entries": 31,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 31,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "adam-clarke",
+      "path": "/api/v3/snapshots/structured-second-corinthians-2026-11-12/authors/adam-clarke/2CO/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 33,
+      "reader_visible_entries": 33,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 33,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "jamieson-fausset-brown",
+      "path": "/api/v3/snapshots/structured-second-corinthians-2026-11-12/authors/jamieson-fausset-brown/2CO/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 32,
+      "reader_visible_entries": 32,
+      "navigation_section_count": 1,
+      "indexed_verse_count": 32,
+      "source_unavailable": false
+    },
+    {
+      "author_id": "keil-delitzsch",
+      "path": "/api/v3/snapshots/structured-second-corinthians-2026-11-12/authors/keil-delitzsch/2CO/11.json",
+      "source_system": "CrossWire/SWORD",
+      "total_original_entries": 0,
+      "reader_visible_entries": 0,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 0,
+      "source_unavailable": true
+    },
+    {
+      "author_id": "john-gill",
+      "path": "/api/v3/snapshots/structured-second-corinthians-2026-11-12/authors/john-gill/2CO/11.json",
+      "source_system": "HelloAO",
+      "total_original_entries": 33,
+      "reader_visible_entries": 33,
+      "navigation_section_count": 0,
+      "indexed_verse_count": 33,
+      "source_unavailable": false
+    }
+  ],
+  "verse_routes": {
+    "1": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        0
+      ],
+      "adam-clarke": [
+        0
+      ],
+      "jamieson-fausset-brown": [
+        0
+      ],
+      "john-gill": [
+        0
+      ]
+    },
+    "2": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        1
+      ],
+      "adam-clarke": [
+        1
+      ],
+      "jamieson-fausset-brown": [
+        1
+      ],
+      "john-gill": [
+        1
+      ]
+    },
+    "3": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        2
+      ],
+      "adam-clarke": [
+        2
+      ],
+      "jamieson-fausset-brown": [
+        2
+      ],
+      "john-gill": [
+        2
+      ]
+    },
+    "4": {
+      "matthew-henry": [
+        0
+      ],
+      "john-calvin": [
+        3
+      ],
+      "adam-clarke": [
+        3
+      ],
+      "jamieson-fausset-brown": [
+        3
+      ],
+      "john-gill": [
+        3
+      ]
+    },
+    "5": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        4
+      ],
+      "adam-clarke": [
+        4
+      ],
+      "jamieson-fausset-brown": [
+        4
+      ],
+      "john-gill": [
+        4
+      ]
+    },
+    "6": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        5
+      ],
+      "adam-clarke": [
+        5
+      ],
+      "jamieson-fausset-brown": [
+        5
+      ],
+      "john-gill": [
+        5
+      ]
+    },
+    "7": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        6
+      ],
+      "adam-clarke": [
+        6
+      ],
+      "jamieson-fausset-brown": [
+        6
+      ],
+      "john-gill": [
+        6
+      ]
+    },
+    "8": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        7
+      ],
+      "adam-clarke": [
+        7
+      ],
+      "jamieson-fausset-brown": [
+        7
+      ],
+      "john-gill": [
+        7
+      ]
+    },
+    "9": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        8
+      ],
+      "adam-clarke": [
+        8
+      ],
+      "jamieson-fausset-brown": [
+        8
+      ],
+      "john-gill": [
+        8
+      ]
+    },
+    "10": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        9
+      ],
+      "adam-clarke": [
+        9
+      ],
+      "jamieson-fausset-brown": [
+        9
+      ],
+      "john-gill": [
+        9
+      ]
+    },
+    "11": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        10
+      ],
+      "adam-clarke": [
+        10
+      ],
+      "jamieson-fausset-brown": [
+        10
+      ],
+      "john-gill": [
+        10
+      ]
+    },
+    "12": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        11
+      ],
+      "adam-clarke": [
+        11
+      ],
+      "jamieson-fausset-brown": [
+        11
+      ],
+      "john-gill": [
+        11
+      ]
+    },
+    "13": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        12
+      ],
+      "adam-clarke": [
+        12
+      ],
+      "jamieson-fausset-brown": [
+        12
+      ],
+      "john-gill": [
+        12
+      ]
+    },
+    "14": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        13
+      ],
+      "adam-clarke": [
+        13
+      ],
+      "jamieson-fausset-brown": [
+        13
+      ],
+      "john-gill": [
+        13
+      ]
+    },
+    "15": {
+      "matthew-henry": [
+        1
+      ],
+      "john-calvin": [
+        14
+      ],
+      "adam-clarke": [
+        14
+      ],
+      "jamieson-fausset-brown": [
+        14
+      ],
+      "john-gill": [
+        14
+      ]
+    },
+    "16": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        15
+      ],
+      "adam-clarke": [
+        15
+      ],
+      "jamieson-fausset-brown": [
+        15
+      ],
+      "john-gill": [
+        15
+      ]
+    },
+    "17": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        16
+      ],
+      "adam-clarke": [
+        16
+      ],
+      "jamieson-fausset-brown": [
+        16
+      ],
+      "john-gill": [
+        16
+      ]
+    },
+    "18": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        17
+      ],
+      "adam-clarke": [
+        17
+      ],
+      "jamieson-fausset-brown": [
+        17
+      ],
+      "john-gill": [
+        17
+      ]
+    },
+    "19": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        18
+      ],
+      "adam-clarke": [
+        18
+      ],
+      "jamieson-fausset-brown": [
+        18
+      ],
+      "john-gill": [
+        18
+      ]
+    },
+    "20": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        19
+      ],
+      "adam-clarke": [
+        19
+      ],
+      "jamieson-fausset-brown": [
+        19
+      ],
+      "john-gill": [
+        19
+      ]
+    },
+    "21": {
+      "matthew-henry": [
+        2
+      ],
+      "john-calvin": [
+        20
+      ],
+      "adam-clarke": [
+        20
+      ],
+      "jamieson-fausset-brown": [
+        20
+      ],
+      "john-gill": [
+        20
+      ]
+    },
+    "22": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        21
+      ],
+      "adam-clarke": [
+        21
+      ],
+      "jamieson-fausset-brown": [
+        21
+      ],
+      "john-gill": [
+        21
+      ]
+    },
+    "23": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        22
+      ],
+      "adam-clarke": [
+        22
+      ],
+      "jamieson-fausset-brown": [
+        22
+      ],
+      "john-gill": [
+        22
+      ]
+    },
+    "24": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        23
+      ],
+      "adam-clarke": [
+        23
+      ],
+      "jamieson-fausset-brown": [
+        23
+      ],
+      "john-gill": [
+        23
+      ]
+    },
+    "25": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        24
+      ],
+      "adam-clarke": [
+        24
+      ],
+      "jamieson-fausset-brown": [
+        24
+      ],
+      "john-gill": [
+        24
+      ]
+    },
+    "26": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        25
+      ],
+      "adam-clarke": [
+        25
+      ],
+      "jamieson-fausset-brown": [
+        25
+      ],
+      "john-gill": [
+        25
+      ]
+    },
+    "27": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        26
+      ],
+      "adam-clarke": [
+        26
+      ],
+      "jamieson-fausset-brown": [
+        26
+      ],
+      "john-gill": [
+        26
+      ]
+    },
+    "28": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        27
+      ],
+      "adam-clarke": [
+        27
+      ],
+      "jamieson-fausset-brown": [
+        27
+      ],
+      "john-gill": [
+        27
+      ]
+    },
+    "29": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        28
+      ],
+      "adam-clarke": [
+        28
+      ],
+      "jamieson-fausset-brown": [
+        28
+      ],
+      "john-gill": [
+        28
+      ]
+    },
+    "30": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        29
+      ],
+      "adam-clarke": [
+        29
+      ],
+      "jamieson-fausset-brown": [
+        29
+      ],
+      "john-gill": [
+        29
+      ]
+    },
+    "31": {
+      "matthew-henry": [
+        3
+      ],
+      "john-calvin": [
+        30
+      ],
+      "adam-clarke": [
+        30
+      ],
+      "jamieson-fausset-brown": [
+        30
+      ],
+      "john-gill": [
+        30
+      ]
+    },
+    "32": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        31
+      ],
+      "jamieson-fausset-brown": [
+        31
+      ],
+      "john-gill": [
+        31
+      ]
+    },
+    "33": {
+      "matthew-henry": [
+        3
+      ],
+      "adam-clarke": [
+        32
+      ],
+      "john-gill": [
+        32
+      ]
+    }
+  },
+  "navigation_routes": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:2CO.11:P:the-apostle-asserts-his-claims-a-d-57-1-4-1",
+        "navigation_id": "2CO.11:P:the-apostle-asserts-his-claims-a-d-57-1-4-1",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Apostle Asserts His Claims. ( a. d. 57.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:2CO.11:P:the-apostle-asserts-his-claims-a-d-57-5-15-1",
+        "navigation_id": "2CO.11:P:the-apostle-asserts-his-claims-a-d-57-5-15-1",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Apostle Asserts His Claims. ( a. d. 57.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:2CO.11:P:the-apostle-asserts-his-claims-a-d-57-16-21-1",
+        "navigation_id": "2CO.11:P:the-apostle-asserts-his-claims-a-d-57-16-21-1",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Apostle Asserts His Claims. ( a. d. 57.)"
+      },
+      {
+        "section_id": "nav:matthew-henry:2CO.11:P:the-apostle-recounts-his-sufferings-a-d-57-22-33-1",
+        "navigation_id": "2CO.11:P:the-apostle-recounts-his-sufferings-a-d-57-22-33-1",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Apostle Recounts His Sufferings. ( a. d. 57.)"
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:2CO.11:P:chapter-11-1-1-1",
+        "navigation_id": "2CO.11:P:chapter-11-1-1-1",
+        "scope": "chapter",
+        "role": "chapter_heading",
+        "title": "CHAPTER 11"
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": []
+  },
+  "nav_policy": "Original KJV-native NT index; separately scoped P in /api/v3/navigation-coverage/v1/books/2CO.json; unindexed means unavailable."
+}
