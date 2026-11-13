@@ -1,6 +1,6 @@
 {
   "schemaVersion": "sotw-jake-canonical-source-catalog-v1",
-  "status": "PILOT_COMMISSIONED_DRAFT_NOT_APPROVED",
+  "status": "CGBC_OWNER_AUTHORIZED_COMMISSIONED_COMMENTARY",
   "description": "Non-authoritative discovery of CGBC canonical Info Map 3.0 sermon records. Do not copy sermon-meaning JSON into SOTW.",
   "sourceRepository": "joelpsadler/CGBC-Sermon-Player",
   "sourceBranch": "main",
@@ -8,10 +8,10 @@
     {
       "sermonId": "media-fie2dj",
       "path": "knowledge/2026/2026-11-08_the-impact-of-the-gospel-in-relationships-pt-11.json",
-      "sourceBlobSha": "522a81a6782a61ae638bfaff9694ec37e49124c2",
-      "status": "JAKE DRAFT SYNTHESIS"
+      "sourceBlobSha": "86a53b082dee96d1cf9c5863560a0f598b37a917",
+      "status": "CGBC_OWNER_AUTHORIZED_COMMISSIONED_SYNTHESIS"
     }
   ],
   "scopePolicy": "Passage, verse/range, chapter and book records are filtered at reader runtime. Current display is sourced from CGBC; later cumulative reconciliation requires a versioned accepted projection.",
-  "rightsPolicy": "Commissioned Jake synthesis, not proof of Jake adoption. No private notes, transcripts, or slide assets embedded."
+  "rightsPolicy": "CGBC-owner-authorized first-person pastoral commentary synthesized from original Jake teaching. Synthesis is not a verbatim transcript. Original sermon provenance and source distinctions remain in CGBC."
 }
