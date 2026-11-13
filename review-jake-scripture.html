@@ -35,7 +35,7 @@ function refresh(){
 }
 async function start(){
  try{const r=await fetch(SOURCE);if(!r.ok)throw Error('Jake catalog unavailable');const catalog=await r.json();if(!Array.isArray(catalog.sources))throw Error('Invalid catalog');
- for(const src of catalog.sources){const u='https://raw.githubusercontent.com/'+catalog.sourceRepository+'/'+catalog.sourceBranch+'/'+src.path;const f=await fetch(u);if(!f.ok)throw Error('CGBC canonical source unavailable');const j=await f.json();if(j.sermon?.stableId!==src.sermonId||!Array.isArray(j.structure?.commentaryIndex))throw Error('CGBC source mismatch');for(const e of j.structure.commentaryIndex)entries.push({source:j,item:e})}
+ for(const src of catalog.sources){const u=src.path;const f=await fetch(u);if(!f.ok)throw Error('Jacob commentary source unavailable');const j=await f.json();if(j.sermon?.stableId!==src.sermonId||!Array.isArray(j.structure?.commentaryIndex))throw Error('Jacob commentary source mismatch');for(const e of j.structure.commentaryIndex)entries.push({source:j,item:e})}
  if(!entries.length)throw Error('No commentary is indexed');$('book').replaceChildren();const books=[...new Set(entries.map(x=>keyBook(x.item.scopeKey)))].sort();for(const b of books)option($('book'),b,b);$('book').value=books.includes(q.get('book'))?q.get('book'):'ROM';if(!$('book').value)$('book').value=books[0];refresh();
  $('book').addEventListener('change',()=>refresh());$('scope').addEventListener('change',()=>{const x=entries.find(e=>e.item.teachingOccasionId===$('scope').value);if(x)selectEntry(x)});
  }catch(e){$('status').textContent='Source verification required';$('body').textContent=e.message;console.error(e)}
