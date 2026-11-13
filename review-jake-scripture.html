@@ -9,7 +9,7 @@
 <div class="controls"><label>Book <select id="book"></select></label><label>Commentary section <select id="scope"></select></label></div>
 <div class="layout"><article class="paper"><div class="tag" id="status">Loading source records…</div><h2 id="title">Scripture commentary</h2><div class="text" id="body"></div><p class="muted" id="provenance"></p><div id="links"></div><details id="other" hidden><summary id="otherLabel">Other occasions</summary><div id="occasions"></div></details></article>
 <aside class="side"><h3>Explore</h3><p class="muted">This reader uses CGBC's native Info Map as the source. Sections are arranged by Scripture scope rather than sermon title.</p><div id="sections"></div><p><a href="review-romans-v3.html?ch=12&amp;verse=17&amp;author=pastor-jake">Compare Romans 12:17 alongside historical commentators</a></p></aside></div></main>
-<footer>Original sermon provenance is retained. Transcript timestamps are cue positions, not independently verified media seek offsets. Later commentary revisions require source-backed reconciliation, not automatic merging of divergent drafts.</footer>
+<footer>Original sermon provenance is retained. Transcript timestamps are cue positions, not independently verified media seek offsets. Later commentary revisions require source-backed reconciliation, not automatic merging of materially different teaching.</footer>
 <script>
 'use strict';
 const $=id=>document.getElementById(id),q=new URLSearchParams(location.search);
@@ -19,7 +19,7 @@ function anchor(where,label,url){if(!url||!/^https:\/\//.test(url))return;const 
 function keyBook(s){return(s||'').split('.')[0]}
 function videoUrl(sermon){return sermon?.youtubeId?'https://www.youtube.com/watch?v='+encodeURIComponent(sermon.youtubeId):null}
 function selectEntry(entry){chosen=entry;const j=entry.source;const e=entry.item;
- $('title').textContent=e.title;$('body').textContent=e.commentary;$('status').textContent=e.attributionStatus+' · '+e.scopeType+' · '+e.scopeKey;
+ $('title').textContent=e.title;$('body').textContent=e.commentary;$('status').textContent='CGBC-authorized commissioned commentary · '+e.scopeType+' · '+e.scopeKey;
  $('provenance').textContent='Original sermon: '+j.sermon.title+' · '+j.sermon.date+' · teaching occasion '+e.teachingOccasionId+' · original transcript position '+Math.floor(e.startSeconds||0)+'s. No independent media sync verified.';
  $('links').replaceChildren();anchor($('links'),'Watch complete sermon',videoUrl(j.sermon));anchor($('links'),'Listen original audio',j.structure?.chapterNavigation?.[0]?.sourceAudio||j.sermon.episodeUrl);
  const other=entries.filter(x=>x!==entry&&x.item.scopeKey===e.scopeKey);$('other').hidden=!other.length;$('otherLabel').textContent='Other teaching occasions ('+other.length+')';
