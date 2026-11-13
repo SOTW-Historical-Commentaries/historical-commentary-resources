@@ -1,18 +1,22 @@
 {
   "schemaVersion": "sotw-jake-canonical-source-catalog-v1",
   "status": "CGBC_OWNER_AUTHORIZED_COMMISSIONED_COMMENTARY",
-  "description": "Non-authoritative discovery of CGBC canonical Info Map 3.0 sermon records. Do not copy sermon-meaning JSON into SOTW.",
-  "sourceRepository": "joelpsadler/CGBC-Sermon-Player",
+  "description": "Translation-neutral Jacob Lannom commentary catalog. The original source record and cumulative current commentary are housed in the SOTW author namespace.",
+  "sourceRepository": "SOTW-Historical-Commentaries/historical-commentary-resources",
   "sourceBranch": "main",
   "sources": [
     {
       "sermonId": "media-fie2dj",
-      "path": "knowledge/2026/2026-11-08_the-impact-of-the-gospel-in-relationships-pt-11.json",
+      "path": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
       "sourceBlobSha": "a0ab352d4597bdddced3ee376f78b164cbcd781c",
       "status": "CGBC_OWNER_AUTHORIZED_COMMISSIONED_SYNTHESIS"
     }
   ],
-  "scopePolicy": "Passage, verse/range, chapter and book records are filtered at reader runtime. Current display is sourced from CGBC; later cumulative reconciliation requires a versioned accepted projection.",
-  "rightsPolicy": "CGBC-owner-authorized first-person pastoral commentary synthesized from original Jake teaching. Synthesis is not a verbatim transcript. Original sermon provenance and source distinctions remain in CGBC.",
-  "displayAuthor": "Jacob Lannom"
+  "scopePolicy": "OSIS scope IDs are stable across KJV, ASV and future Bible translation changes. Historical sources remain independent.",
+  "rightsPolicy": "Preserve original sermon occasions, provenance, and commentary revision history internally. Display author as Jacob Lannom.",
+  "displayAuthor": "Jacob Lannom",
+  "sourceMode": "SOTW_LOCAL",
+  "authorId": "jacob-lannom",
+  "coveragePath": "api/jacob-lannom/v1/coverage.json",
+  "currentCommentaryPath": "api/jacob-lannom/v1/current-commentary.json"
 }
