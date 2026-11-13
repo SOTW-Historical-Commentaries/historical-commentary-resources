@@ -21,7 +21,7 @@ function videoUrl(sermon){return sermon?.youtubeId?'https://www.youtube.com/watc
 function selectEntry(entry){chosen=entry;const j=entry.source;const e=entry.item;
  $('title').textContent=e.title;$('body').textContent=e.commentary;$('status').textContent=e.attributionStatus+' · '+e.scopeType+' · '+e.scopeKey;
  $('provenance').textContent='Original sermon: '+j.sermon.title+' · '+j.sermon.date+' · teaching occasion '+e.teachingOccasionId+' · original transcript position '+Math.floor(e.startSeconds||0)+'s. No independent media sync verified.';
- $('links').replaceChildren();anchor($('links'),'Watch complete sermon',videoUrl(j.sermon));anchor($('links'),'Listen / episode',j.sermon.episodeUrl||'https://broJacobcedargrovebaptist.podbean.com/e/the-impact-of-the-gospel-in-relationships-pt-11-romans-chapter-12/');
+ $('links').replaceChildren();anchor($('links'),'Watch complete sermon',videoUrl(j.sermon));anchor($('links'),'Listen original audio',j.structure?.chapterNavigation?.[0]?.sourceAudio||j.sermon.episodeUrl);
  const other=entries.filter(x=>x!==entry&&x.item.scopeKey===e.scopeKey);$('other').hidden=!other.length;$('otherLabel').textContent='Other teaching occasions ('+other.length+')';
  const list=$('occasions');list.replaceChildren();for(const x of other){const b=document.createElement('button');b.className='item';b.textContent=x.source.sermon.title+' · '+x.item.teachingOccasionId;b.onclick=()=>selectEntry(x);list.append(b)}
  const p=new URLSearchParams({book:keyBook(e.scopeKey),scope:e.scopeKey});history.replaceState(null,'','?'+p.toString());
