@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-galatians-2026-11-12",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "GAL"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 592,
+    "navigation_sections": 30,
+    "reader_visible_entries": 592,
+    "verse_author_routes": 737,
+    "sword_chapters": 24,
+    "helloao_chapters": 6,
+    "chapters": 6,
+    "P_source_sections": 30,
+    "inherited_P_references": 0,
+    "P_routed_sections": 30,
+    "author_chapters": 36
+  },
+  "chapter_verse_count": {
+    "1": 24,
+    "2": 21,
+    "3": 29,
+    "4": 31,
+    "5": 26,
+    "6": 18
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Galatians is canonical book 48; prior snapshots unchanged.",
+    "Keil & Delitzsch original module has no New Testament commentary.",
+    "No GitHub changes, no CGBC player changes; manual owner upload only."
+  ]
+}
