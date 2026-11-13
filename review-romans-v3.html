@@ -9,7 +9,7 @@
 <section class="controls" aria-label="Commentary controls">
 <div class="control"><label for="chapter">Chapter</label><select id="chapter"></select></div>
 <div class="control"><label for="verse">Verse</label><select id="verse"></select></div>
-<div class="control" style="flex:2"><label for="author">Historical commentator</label><select id="author"></select></div>
+<div class="control" style="flex:2"><label for="author">Commentary source</label><select id="author"></select></div>
 <div class="control"><label>Display mode</label><div class="segment"><button id="verseMode" class="active" type="button">Verse</button><button id="pMode" type="button">P · Prefaces</button></div></div>
 <div class="control off" id="pControl" style="flex:2"><label for="pSelect">Applicable original introduction / heading</label><select id="pSelect"></select></div>
 </section>
@@ -21,7 +21,7 @@
 'use strict';
 const ROOT='api/v3/snapshots/structured-romans-2026-11-12/';
 const COUNTS=[32,29,31,25,21,23,25,39,33,21,36,21,14,23,33,27];
-const AUTHORS=[['matthew-henry','Matthew Henry'],['john-calvin','John Calvin'],['adam-clarke','Adam Clarke'],['jamieson-fausset-brown','Jamieson–Fausset–Brown'],['keil-delitzsch','Keil & Delitzsch'],['john-gill','John Gill']];
+const AUTHORS=[['matthew-henry','Matthew Henry'],['john-calvin','John Calvin'],['adam-clarke','Adam Clarke'],['jamieson-fausset-brown','Jamieson–Fausset–Brown'],['keil-delitzsch','Keil & Delitzsch'],['john-gill','John Gill'],['pastor-jake','Pastor Jake Lannom · commissioned draft']];
 const $=id=>document.getElementById(id); const query=new URLSearchParams(location.search);
 const state={ch:Math.max(1,Math.min(16,Number(query.get('ch')||query.get('chapter'))||1)),v:1,author:query.get('author')||'matthew-henry',mode:'verse',p:query.get('p')||null};
 state.v=Math.max(1,Math.min(COUNTS[state.ch-1],Number(query.get('verse'))||1));if(query.get('mode')==='p'||state.p)state.mode='p';
@@ -33,13 +33,55 @@ function vRange(n){const arr=[];for(let i=1;i<=n;i++)arr.push([i,String(i)]);ret
 function opt(select,arr,value){select.replaceChildren();for(const [val,label] of arr){const el=document.createElement('option');el.value=val;el.textContent=label;select.append(el)};select.value=String(value)}
 function parseId(s){const m=/^ROM\.(\d+)\.(\d+)$/.exec(s||'');return m?[Number(m[1]),Number(m[2])]:null}
 function eligible(s){if(s.status!=='active'||!s.eligible_books?.includes('ROM'))return false;switch(s.scope){case 'book_group':case 'book':case 'work':case 'volume':return true;case 'chapter':{const m=/^ROM\.(\d+):P/.exec(s.navigation_id);return m?Number(m[1])===state.ch:false}case 'passage':{const a=parseId(s.passage_start),b=parseId(s.passage_end);if(!a||!b)return false;const pos=state.ch*1000+state.v;return pos>=a[0]*1000+a[1]&&pos<=b[0]*1000+b[1]}default:return false}}
-function sectionList(){return(coverage?.author_sections?.[state.author]||[]).filter(eligible)}
+let jakeEntries=[];let jakeLoaded=false;
+function sectionList(){if(state.author==='pastor-jake')return jakeEntries.filter(x=>(x.scopeType==='BOOK_OVERVIEW'||x.scopeType==='CHAPTER_INTRODUCTION'||x.scopeType==='MULTI_CHAPTER_PREFACE')&&(x.scopeKey==='ROM'||x.scopeKey==='ROM.'+state.ch||x.scopeKey?.startsWith('ROM.')&&x.scopeType==='MULTI_CHAPTER_PREFACE')).map(x=>({section_id:x.teachingOccasionId,title:x.title,scope:x.scopeType,record:x}));return(coverage?.author_sections?.[state.author]||[]).filter(eligible)}
+function jakeMatches(scope,ch,v){if(!scope||!scope.startsWith('ROM.'))return false;const m=/^ROM\.(\d+)\.(\d+)(?:-(\d+))?$/.exec(scope);return !!m&&Number(m[1])===ch&&v>=Number(m[2])&&v<=Number(m[3]||m[2]);}
+async function loadJake(){
+ if(jakeLoaded)return jakeEntries;
+ const catalog=await get('api/jake/v1/catalog.json');
+ const base='https://raw.githubusercontent.com/'+catalog.sourceRepository+'/'+catalog.sourceBranch+'/';
+ const sources=await Promise.all((catalog.sources||[]).map(async source=>{
+  const data=await get(base+source.path);
+  if(data.sermon?.stableId!==source.sermonId||!Array.isArray(data.structure?.commentaryIndex))throw new Error('CGBC source contract mismatch');
+  return data.structure.commentaryIndex.map(e=>({...e,_sermon:data.sermon,_sourcePath:source.path,_generatedAt:data.generatedAt}));
+ }));
+ jakeEntries=sources.flat();jakeLoaded=true;return jakeEntries;
+}
+function jakeLink(parent,label,url){
+ if(!url||!/^https:\/\//.test(url))return;
+ const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=label;parent.append(a,document.createTextNode(' · '));
+}
+async function renderJake(seq){
+ await loadJake();if(seq!==requestNumber)return;
+ updateControls();const prefaces=sectionList();let e=null;
+ if(state.mode==='p'){
+  e=prefaces.find(x=>x.section_id===state.p)?.record||null;
+  if(!e){state.mode='verse';state.p=null;updateControls();setURL()}
+ }
+ if(!e){const candidates=jakeEntries.filter(x=>jakeMatches(x.scopeKey,state.ch,state.v));e=candidates.find(x=>x.scopeType==='VERSE_EXPOSITION')||candidates[0]||null}
+ $('heading').textContent=e?.title||'Romans '+state.ch+':'+state.v;
+ $('subheading').textContent='Pastor Jake Lannom · commissioned synthesis (not Jake-approved or published)';
+ showText(e?.commentary||'No passage-specific Jake exposition is indexed for this verse. Use P · Prefaces for his book and chapter explanations, or choose a historical commentator.');
+ const source=$('source');source.replaceChildren();
+ if(e){
+  const msg=document.createElement('span');msg.textContent='Supported by original sermon '+e.sourceSermonStableId+' · teaching occasion '+e.teachingOccasionId+' · transcript position '+Math.floor(e.startSeconds||0)+'s (media synchronization not independently verified). ';source.append(msg);
+  jakeLink(source,'Watch complete sermon',e._sermon.youtubeId?'https://www.youtube.com/watch?v='+encodeURIComponent(e._sermon.youtubeId):'');
+  jakeLink(source,'Listen complete sermon','https://broJacobcedargrovebaptist.podbean.com/e/the-impact-of-the-gospel-in-relationships-pt-11-romans-chapter-12/');
+ }
+ $('coverage').textContent='Jake commissioned draft from '+new Set(jakeEntries.map(x=>x.sourceSermonStableId)).size+' canonical CGBC sermon record(s); '+jakeEntries.length+' scoped exposition entry/entries. This is not an original historical commentary or an approval by Jake.';
+ const list=$('related');list.replaceChildren();
+ const note=document.createElement('p');note.className='note';note.textContent=prefaces.length+' available book/chapter introductions and overview sections';list.append(note);
+ for(const p of prefaces){const b=document.createElement('button');b.type='button';b.textContent=p.title;b.addEventListener('click',()=>{state.mode='p';state.p=p.section_id;render()});list.append(b)}
+ const other=jakeEntries.filter(x=>e&&x.scopeKey===e.scopeKey&&x.teachingOccasionId!==e.teachingOccasionId);
+ if(other.length){const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Other teaching occasions ('+other.length+')';details.append(summary);for(const item of other){const b=document.createElement('button');b.type='button';b.textContent=item._sermon.title+' · '+item.teachingOccasionId;b.addEventListener('click',()=>{showText(item.commentary);$('heading').textContent=item.title;source.textContent='Original teaching occasion '+item.teachingOccasionId});details.append(b)}list.append(details)}
+}
+
 function setURL(){const p=new URLSearchParams({ch:String(state.ch),verse:String(state.v),author:state.author});if(state.mode==='p'&&state.p){p.set('mode','p');p.set('p',state.p)}history.replaceState(null,'',location.pathname+'?'+p.toString())}
 function updateControls(){opt($('chapter'),vRange(16).map(([v,t])=>[v,'Romans '+t]),state.ch);opt($('verse'),vRange(COUNTS[state.ch-1]),state.v);opt($('author'),AUTHORS,state.author);const sections=sectionList();opt($('pSelect'),sections.map(x=>[x.section_id,x.title+' · '+x.scope]),state.p);$('verseMode').classList.toggle('active',state.mode==='verse');$('pMode').classList.toggle('active',state.mode==='p');$('pControl').classList.toggle('off',state.mode!=='p');$('pMode').disabled=!sections.length;}
 function navMove(step){let v=state.v+step,ch=state.ch;if(v>COUNTS[ch-1]){if(ch<16){ch++;v=1}else return}if(v<1){if(ch>1){ch--;v=COUNTS[ch-1]}else return}state.ch=ch;state.v=v;state.mode='verse';state.p=null;render()}
 function showText(s){$('reading').textContent=s||'No source content available for this selection.'}
 async function render(){const seq=++requestNumber;updateControls();setURL();$('heading').textContent='Romans '+state.ch+':'+state.v;$('subheading').textContent='Reading original-source commentary…';showText('Loading…');$('source').textContent='';$('prev').disabled=state.ch===1&&state.v===1;$('next').disabled=state.ch===16&&state.v===27;
-try{const [idx,chapter]=await Promise.all([get(ROOT+'index/ROM/'+state.ch+'.json'),get(getPath(state.author,state.ch))]);let authors=null;try{authors=await get('api/v3/authors.json')}catch(_){}if(seq!==requestNumber)return;authorCatalog=authors;const selectedName=AUTHORS.find(a=>a[0]===state.author)?.[1]||state.author;const section=sectionList().find(s=>s.section_id===state.p);
+try{if(state.author==='pastor-jake'){await renderJake(seq);return}const [idx,chapter]=await Promise.all([get(ROOT+'index/ROM/'+state.ch+'.json'),get(getPath(state.author,state.ch))]);let authors=null;try{authors=await get('api/v3/authors.json')}catch(_){}if(seq!==requestNumber)return;authorCatalog=authors;const selectedName=AUTHORS.find(a=>a[0]===state.author)?.[1]||state.author;const section=sectionList().find(s=>s.section_id===state.p);
 if(state.mode==='p'&&section){const linked=await get(section.source.chapter_file);if(seq!==requestNumber)return;const src=linked.navigation_sections?.find(s=>s.section_id===section.source.section_id);if(!src)throw new Error('Original section pointer cannot be resolved from '+section.source.chapter_file);$('heading').textContent=section.title;$('subheading').textContent=selectedName+' · '+section.scope+' · original non-Scripture source';showText(src.content_plain||src.content_osis||'No text');$('source').textContent='Original source: '+section.source.chapter_file+' · '+(section.source.source_entry_id||'book introduction')+' · fragment SHA-256 '+section.source.fragment_sha256;}
 else{if(state.mode==='p'){state.mode='verse';state.p=null;updateControls();setURL()};const n=String(state.v);const positions=idx.verse_routes?.[n]?.[state.author]||[];const entries=positions.map(i=>chapter.entries[i]).filter(e=>e&&e.reader_visible!==false);$('subheading').textContent=selectedName+' · '+(entries.length?entries.length+' original source record'+(entries.length!==1?'s':''):'no source-supported verse record');if(entries.length)showText(entries.map(e=>e.reader_content_plain||e.content_plain||(e.content_parts||[]).join('\n')).join('\n\n──────────\n\n'));else showText('This original edition does not supply separate verse exposition for Romans '+state.ch+':'+state.v+'. No neighboring verse or different author has been substituted. Some original edition records are introductions, not standalone verse exposition. The P tab may contain a source-linked introduction.');$('source').textContent=entries.length?(entries.some(e=>e.source_scope_notice)?entries[0].source_scope_notice+' · ':'')+'Original entry: '+entries.map(e=>e.entry_id).join('; ')+' · '+(chapter.source?.system||'')+' · '+(chapter.source?.module_title||chapter.source?.source_work_title||''):'Unindexed in supplied source. '+(chapter.fallback_reason||'');}
 $('coverage').textContent=selectedName+' · '+chapter.entries.length+' exact source entries in Romans '+state.ch+' · '+chapter.indexed_verse_count+'/'+chapter.verse_count+' verses source-indexed. '+(chapter.fallback_reason!=='none'?'Source unavailable or incomplete in the original edition: '+chapter.fallback_reason:'');
