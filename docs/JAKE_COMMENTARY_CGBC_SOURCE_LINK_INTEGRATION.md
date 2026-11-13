@@ -22,3 +22,7 @@ A Jake passage appears only if CGBC supplies an explicitly scoped commentaryInde
 SOTW initial baseline before integration: `8d6d9a6cb668b7306e92d2c0f39de624fedb5599`; existing Romans reader original Git blob `fac40d430545f1e6abf39568a583ae29af069b43`.
 CGBC initial baseline: `a24f9a8af239f7293e9db053814c42a9263d7618`.
 The added code does not change original historical commentary payloads or the CGBC Player runtime. If Jake source fetch fails, its source displays a clear error while other historical-author routing stays in place. A live browser and deployment check is still needed before calling cross-origin functionality production-verified.
+
+
+## 2026-11-13 authorized first-person voice correction
+The CGBC owner commissions and authorizes first-person Jake pastoral-expository synthesis from original sermons. Public reader labels must not impose another Jake approval gate. The SOTW reader consumes the corrected canonical CGBC JSON; no duplicate Jake sermon-meaning JSON is stored in SOTW. Synthesis must not be presented as verbatim recorded speech. Existing cue, timestamp and teaching-occasion provenance is preserved.
