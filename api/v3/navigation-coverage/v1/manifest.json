@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.40-additive-second-corinthians",
+  "version": "navigation-coverage-v1.41-additive-galatians",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -51,7 +51,8 @@
     "ACT",
     "ROM",
     "1CO",
-    "2CO"
+    "2CO",
+    "GAL"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -100,7 +101,8 @@
     "ACT": "structured-acts-2026-11-12",
     "ROM": "structured-romans-2026-11-12",
     "1CO": "structured-1-corinthians-2026-11-12",
-    "2CO": "structured-second-corinthians-2026-11-12"
+    "2CO": "structured-second-corinthians-2026-11-12",
+    "GAL": "structured-galatians-2026-11-12"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -114,7 +116,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 7331,
+    "original_P_sections": 7361,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -163,7 +165,8 @@
       "ACT": 254,
       "ROM": 120,
       "1CO": 119,
-      "2CO": 56
+      "2CO": 56,
+      "GAL": 30
     },
     "routed_by_book": {
       "GEN": 64,
@@ -212,12 +215,13 @@
       "ACT": 254,
       "ROM": 120,
       "1CO": 119,
-      "2CO": 56
+      "2CO": 56,
+      "GAL": 30
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.39-additive-1-corinthians",
+  "previous_manifest_version": "navigation-coverage-v1.40-additive-second-corinthians",
   "additive_release_notes": [
-    "Added source-faithful 2CO with native CrossWire/SWORD indexed records and original HelloAO John Gill; no previous book paths changed.",
+    "Added source-faithful GAL with native CrossWire/SWORD indexed records and original HelloAO John Gill; no previous book paths changed.",
     "The authoritative previous 46-book cumulative manifest remains available in repository Git history, at cc1ba8ee1721afb4983c7edaa3038082c5d2bbd9.",
     "No historical chapter snapshots, author catalog, held-unmapped list, or CGBC player records changed.",
     "Current staging reader is subject to owner live visual review."
