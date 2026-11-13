@@ -1,118 +1,326 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="dark">
-<title>SOTW + CGBC | Romans 12 Study Lab · Early Preview</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Romans 12 | SOTW Simple Study Demo</title>
 <style>
-:root{--bg:#0c1320;--panel:#152033;--panel2:#1b2a40;--line:#324257;--ink:#edf4fa;--muted:#a9bacc;--gold:#e8c17c;--blue:#91cafa;--green:#93d9bc;--danger:#ffc1ac}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% -8%,#29415b 0,transparent 32%),var(--bg);color:var(--ink);font:15px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--blue)}button,select,input{font:inherit}button{cursor:pointer}header{border-bottom:1px solid var(--line);padding:28px clamp(16px,4vw,52px) 22px}.kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:750}.hero{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}.hero h1{font:600 clamp(34px,5vw,58px)/1.03 Georgia,serif;letter-spacing:-.04em;margin:7px 0}.hero p{max-width:770px;color:var(--muted);margin:8px 0}.tag{display:inline-flex;align-items:center;gap:6px;border:1px solid #806b43;color:#f9deaa;background:#3a332b;border-radius:99px;padding:5px 12px;font-size:12px;font-weight:750}.shell{max-width:1700px;margin:auto;padding:19px clamp(13px,2.6vw,40px) 50px}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:14px;background:#122034;border:1px solid var(--line);border-radius:14px;margin-bottom:18px}.controls label{font-size:13px;color:var(--muted)}select,input{color:var(--ink);background:#1f3045;border:1px solid #45586c;border-radius:9px;padding:9px 12px;min-height:39px}.controls button,.mini{border:1px solid #506784;background:#284160;border-radius:9px;color:var(--ink);padding:8px 12px}.controls button:hover,.mini:hover{background:#365978}.status{color:var(--muted);font-size:12px;margin-left:auto}.workspace{display:grid;grid-template-columns:minmax(370px,1.1fr) minmax(380px,1fr);gap:18px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;min-width:0;overflow:hidden}.panelhead{padding:18px 20px;border-bottom:1px solid var(--line);background:linear-gradient(110deg,#1a2a40,#152033)}.panelhead h2{font:500 27px/1.2 Georgia,serif;margin:0}.panelhead p{color:var(--muted);font-size:12px;margin:5px 0 0}.pad{padding:16px 18px}.note{font-size:12px;color:var(--muted)}.note strong{color:var(--ink)}.verse-nav{display:flex;gap:5px;flex-wrap:wrap;margin:0 0 13px}.verse-nav button{width:32px;height:31px;border-radius:8px;border:1px solid #354a64;background:#1d3048;color:#c5d7e8}.verse-nav button.selected{background:var(--gold);color:#152033;font-weight:800;border-color:var(--gold)}.verse-card{padding:10px 12px;margin:6px 0;border:1px solid transparent;border-radius:10px;color:#dde8f3;cursor:pointer}.verse-card:hover{background:#1b2b41}.verse-card.selected{border-color:#736a58;background:#26344a}.verse-label{font:700 13px system-ui;color:var(--gold);margin-right:9px}.scripture{font:19px/1.62 Georgia,Cambria,serif}.token{font:inherit;color:inherit;background:none;border:0;border-bottom:1px dotted #d3b77e;padding:0;text-decoration:none;border-radius:0}.token:hover,.token:focus{color:#f9d993;background:#3c3b38}.supplied{font-style:italic;color:#aec8e1}.verse-count{font-size:12px;color:var(--muted);margin-top:12px}.stack{display:grid;gap:18px}.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:12px 15px;border-bottom:1px solid var(--line)}.tabs button{border:1px solid #3b4e66;color:var(--muted);background:#1c2c41;border-radius:8px;padding:8px 10px;font-size:13px}.tabs button.active{background:#294865;color:#fff;border-color:#8dadd0}.data-card{border:1px solid var(--line);background:#1a293d;padding:14px;border-radius:11px;margin:9px 0}.data-card h3{font:600 19px Georgia,serif;margin:0 0 5px}.data-card p{margin:6px 0}.data-card .meta{color:var(--muted);font-size:12px}.word-list{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}.word-list button{background:#223954;color:#eff7ff;border:1px solid #54718b;border-radius:7px;padding:6px 9px}.word-list button.picked{background:var(--gold);color:#121d2a}.subhead{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--gold);margin-top:12px}.greek{font:25px Georgia,serif;color:#f5dbab}.mono{font:12px/1.5 ui-monospace,Consolas,monospace;color:#b0d7f2;overflow-wrap:anywhere}.longtext{white-space:pre-wrap;overflow-wrap:anywhere}.rowflex{display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap}.author{border-bottom:1px solid #3d5065;padding:12px 0}.author:last-child{border-bottom:0}.author h3{margin:0;font:500 21px Georgia,serif}.author .meta{font-size:12px;color:var(--muted)}details{margin-top:7px}summary{color:var(--blue);cursor:pointer;font-size:13px;font-weight:700}details p{white-space:pre-wrap;overflow-wrap:anywhere}.snippet{margin:8px 0;padding:10px 12px;background:#202f46;border-left:3px solid #c9aa73;border-radius:4px}.snippet a{white-space:nowrap}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.chip{border:1px solid #586b7f;padding:2px 8px;border-radius:99px;color:var(--green);font-size:11px}.warn{color:var(--danger)}footer{padding:24px clamp(16px,4vw,52px);color:var(--muted);border-top:1px solid var(--line);font-size:12px}footer a{margin-right:12px}.spacer{height:12px}@media(max-width:950px){.workspace{grid-template-columns:1fr}.shell{padding:12px}.scripture{font-size:18px}.status{width:100%;margin:0}.grid2{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#263747;background:#f8faf9}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit}button{cursor:pointer}a{color:#1b6277}
+header{background:#193b45;color:white;padding:25px max(18px,calc((100vw - 1220px)/2));border-bottom:5px solid #be9b56}
+header .eyebrow{font-size:11px;letter-spacing:.13em;color:#ded6b9;font-weight:750;text-transform:uppercase}
+h1{font:500 clamp(29px,5vw,45px)/1.14 Georgia,serif;margin:6px 0}header p{margin:6px 0;color:#d6e2e3;font-size:14px}
+main{max-width:1260px;margin:0 auto;padding:18px 18px 50px}
+.toolbar{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin:0 0 18px}.field{display:grid;gap:4px}.field label,.smalllabel{font-size:12px;font-weight:700;color:#47626b}
+select{border:1px solid #b8cacb;background:white;color:#213a42;border-radius:9px;padding:10px 13px;min-height:43px}
+#translation{min-width:190px}#verse{min-width:160px}
+button.action{border:1px solid #a7c4c8;background:white;color:#234e59;border-radius:9px;padding:10px 15px}
+button.action:hover{background:#ebf4f3}
+.status{font-size:12px;color:#556c6c;margin-left:auto;align-self:center}
+.layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,0.95fr);gap:18px;align-items:start}
+.panel{border:1px solid #d5dfdc;border-radius:14px;background:white;box-shadow:0 3px 14px #112f3010;min-width:0;overflow:hidden}
+.panel-head{padding:17px 19px;background:#eef3f1;border-bottom:1px solid #d6e3df}
+.panel-head h2{margin:0;font:500 24px/1.25 Georgia,serif}
+.panel-head p{margin:5px 0 0;color:#546b6c;font-size:12px}
+.pad{padding:19px}
+.scripture-title{font:500 26px Georgia,serif;color:#234b53;margin:0 0 9px}
+.scripture{font:22px/1.82 Georgia,serif;color:#293a40;margin:0 0 15px;overflow-wrap:anywhere}
+.scripture .word{font:inherit;color:inherit;background:transparent;border:0;border-bottom:1px dotted #c3a268;padding:0 1px;border-radius:2px;cursor:pointer}
+.scripture .word:hover,.scripture .word:focus-visible,.scripture .word.chosen{background:#fff0c8;outline:none;border-bottom:2px solid #bd8d38}
+.scripture .num{font:700 13px system-ui;color:#8d6a2c;margin-right:9px}
+.hint{color:#607879;font-size:12px;margin:12px 0}
+.chapterdetails{border-top:1px solid #e1e9e7;padding-top:15px}
+summary{cursor:pointer;color:#236474;font-weight:700}
+.chapter-row{padding:9px;border:1px solid transparent;border-radius:8px;cursor:pointer;font:16px/1.6 Georgia,serif}
+.chapter-row:hover,.chapter-row.selected{background:#f1f6f3;border-color:#c9dcd4}
+.chapter-row .num{font:700 12px system-ui;color:#956b27;margin-right:8px}
+.right{display:grid;gap:18px}
+.caption{font-size:12px;color:#63797b;margin:0 0 9px}
+.word-head{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.strong{display:inline-block;background:#e6f3ee;border:1px solid #b9d9c8;border-radius:8px;color:#1d6553;padding:3px 8px;font-size:12px;font-weight:800}
+.greek{font:28px Georgia,serif;color:#1b5563}
+.subtle{font-size:12px;color:#597176}
+h3{font:500 19px Georgia,serif;color:#27454b;margin:15px 0 6px}
+.value{margin:4px 0 9px}
+.pillbar{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0}
+.pillbar button{font-size:12px;color:#1a5361;border:1px solid #b9ced0;border-radius:7px;background:#eff7f7;padding:7px 9px}
+.pillbar button.active{color:white;background:#275867;border-color:#275867}
+.morph{background:#f2f7f6;border:1px solid #d1e4dd;border-radius:8px;padding:9px 11px;margin:10px 0}
+.morph code{font-size:13px;color:#234f5c}
+.commentary-choice{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.commentary-choice select{width:100%;max-width:440px}
+.commentary{font:16px/1.75 Georgia,serif;color:#37474b;white-space:pre-wrap}
+.source{font:12px/1.65 system-ui;color:#5e7475;padding:11px 13px;background:#f5f7f6;border-radius:9px;margin:13px 0 0}
+.source a{overflow-wrap:anywhere}.muted{color:#718384}.warning{color:#a04432}
+details summary{font:700 13px system-ui}
+footer{border-top:1px solid #d5dfdc;padding:18px;max-width:1260px;margin:0 auto;color:#627779;font-size:12px}
+footer a{margin-right:15px}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.status{width:100%;margin:0}.scripture{font-size:21px}header{padding:22px 17px}}
 </style>
 </head>
 <body>
-<header>
-<div class="kicker">Stewards of the Way · CGBC Research Preview</div>
-<div class="hero"><div><h1>Romans 12 <span style="color:var(--gold)">Study Lab</span></h1><p>Four Bible editions, Strong’s original-language links, concise and source-complete dictionary fields, Greek morphology witnesses, five historical commentaries, and timestamped Pastor Jake sermon evidence, together for one chapter.</p></div><div class="tag">PRE-BETA · PUBLIC-SAFE SOURCE VIEW</div></div>
-</header>
-<main class="shell">
-<div class="controls">
-<label for="edition">Bible edition</label>
-<select id="edition"><option value="ASV1901">ASV 1901 · click supported words</option><option value="KJV1769">KJV 1769</option><option value="BSB">Berean Standard Bible</option><option value="WEBSTER1833">Webster Bible 1833 · click supported words</option></select>
-<label for="verseSelect">Verse</label><select id="verseSelect"></select>
-<button id="previous">← Previous</button><button id="next">Next →</button>
-<span id="status" class="status" role="status">Loading real SOTW resources…</span>
+<header><div class="eyebrow">Stewards of the Way · CGBC · early study demo</div><h1>Romans 12</h1><p>Read Scripture. Click a word for Strong’s and Greek morphology. Choose a commentary.</p></header>
+<main>
+<div class="toolbar">
+<div class="field"><label for="translation">Bible translation</label><select id="translation"><option value="KJV1769">King James Version (1769)</option><option value="ASV1901">American Standard Version (1901)</option><option value="BSB">Berean Standard Bible</option><option value="WEBSTER1833">Webster Bible (1833)</option></select></div>
+<div class="field"><label for="verse">Verse</label><select id="verse"></select></div>
+<button class="action" id="previous" aria-label="Previous verse">← Prev</button><button class="action" id="next" aria-label="Next verse">Next →</button>
+<div class="status" id="status" role="status">Loading sources…</div>
 </div>
-<div class="workspace">
-<section class="panel" aria-label="Bible chapter">
-<div class="panelhead"><h2>Scripture · Romans 12</h2><p>Select a verse or a dotted word. Supplied words are italicized where the edition identifies them. Word links are evidence associations, not guarantees of one-to-one Greek meaning.</p></div>
+<div class="layout">
+<section class="panel">
+<div class="panel-head"><h2>Scripture</h2><p>Tap any word to open study tools. The source evidence determines how closely a word can be linked.</p></div>
 <div class="pad">
-<div class="verse-nav" id="verseNav"></div><div id="bibleText">Retrieving Bible text…</div>
-<div class="verse-count" id="verseCount"></div>
+<h2 class="scripture-title" id="verseTitle">Romans 12:17</h2>
+<div id="focusText" class="scripture">Loading Romans 12…</div>
+<p class="hint">All words are selectable. When direct English-to-Greek alignment is not verified, the original Greek words for the verse appear as choices.</p>
+<details class="chapterdetails" id="wholeChapter"><summary>Read the entire chapter (21 verses)</summary><div id="chapterText"></div></details>
 </div>
 </section>
-<div class="stack">
-<section class="panel" aria-label="Word study">
-<div class="panelhead"><h2>Original Language Desk</h2><p>Short definition · longer source fields · Greek witness forms · morphology · source status</p></div>
-<div class="tabs" id="toolTabs"><button data-tab="words" class="active">Strong’s + dictionary</button><button data-tab="morphology">Greek morphology</button><button data-tab="compare">Translation comparison</button></div>
-<div class="pad"><div id="toolPanel">Loading word evidence…</div></div>
+<div class="right">
+<section class="panel" id="wordPanel">
+<div class="panel-head"><h2>Word study</h2><p>Strong’s dictionary · Greek form · morphology</p></div>
+<div class="pad" id="wordContent"><p class="muted">Click a Scripture word to begin.</p></div>
 </section>
-<section class="panel" aria-label="Historical commentaries">
-<div class="panelhead"><h2>Historical Commentary</h2><p>Five Romans witnesses, with original source scope displayed. Keil &amp; Delitzsch is Old Testament only.</p></div>
-<div class="pad"><div id="historyPanel">Loading chapter commentators…</div></div>
-</section>
-<section class="panel" aria-label="Pastor Jake source evidence">
-<div class="panelhead"><h2>Pastor Jake · Sermon Evidence</h2><p>April 26, 2026 · “The Impact of the Gospel in Ministry Pt. 4 (Grace Gifts: Teaching)”</p></div>
+<section class="panel">
+<div class="panel-head"><h2>Commentary</h2><p>Choose a writer for the selected verse.</p></div>
 <div class="pad">
-<p class="note"><strong>Important provenance:</strong> These are passages from the public <em>display-clean</em> transcript with timestamps, not a newly approved or complete verse-by-verse Jake commentary. The authoritative original speech and any later commissioned commentary remain separate.</p>
-<label for="jakeSearch" class="note">Search this sermon’s transcript</label><input id="jakeSearch" placeholder="grace gifts, body, teaching…" style="width:100%;margin:5px 0 9px" value="grace gift">
-<div id="jakePanel">Loading public sermon transcript…</div>
+<div class="commentary-choice"><label class="smalllabel" for="author">Commentator</label><select id="author">
+<option value="jacob-lannom">Jacob Lannom</option>
+<option value="jamieson-fausset-brown">Jamieson–Fausset–Brown</option>
+<option value="matthew-henry">Matthew Henry</option>
+<option value="john-calvin">John Calvin</option>
+<option value="john-gill">John Gill</option>
+<option value="adam-clarke">Adam Clarke</option>
+</select></div>
+<div id="commentaryContent" aria-live="polite"><p class="muted">Loading commentary…</p></div>
+</div></section></div>
 </div>
-</section>
-</div>
-</div>
-<div class="spacer"></div>
-<div class="note"><strong>How to read this early preview:</strong> The Bible text and historical authors are read from public SOTW GitHub repositories. The original-language chapter evidence is the accepted SOTW association catalog; it does not turn native KJV tagged ordinals or BSB original-language rows into verified English word positions. Original-language parsing codes are shown as source data rather than silently interpreted. Any missing source stays visibly unavailable.</div>
 </main>
-<footer>
-<div><strong>SOTW Romans 12 early review only.</strong> No CGBC player modification, no new sermon Info Map, no private author corpus publishing. Data versions may evolve.</div>
-<div style="margin-top:8px"><a href="https://github.com/SOTW-Original-Languages-2/original-language-resources">Original-language links</a><a href="https://github.com/SOTW-Original-Languages/original-language-resources">Strong’s lexicon</a><a href="https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources">Historical witnesses</a><a href="https://github.com/joelpsadler/CGBC-Sermon-Player">CGBC sermon source</a></div>
+<footer>Early SOTW prototype. Text, Strong’s and morphology are read from existing public repositories. Jacob Lannom’s passage commentary is the commissioned, evidence-linked SOTW projection, not a verbatim historical quotation. No CGBC player files or canonical sources are changed.
+<p><a href="https://github.com/SOTW-Original-Languages-2/original-language-resources">SOTW word evidence</a><a href="https://github.com/SOTW-Original-Languages/original-language-resources">Strong’s source</a><a href="https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources">SOTW commentaries</a></p>
 </footer>
 <script>
 (function(){
 'use strict';
-var root='https://raw.githubusercontent.com/';
-var U={
-ASV1901:root+'SOTW-ASV-1901/asv-1901-resources/main/data/asv1901/romans/chapters/12.json',
-KJV1769:root+'SOTW-KJV-1769/kjv-1769-resources/main/data/kjv1769/romans/chapters/12.json',
-BSB:root+'SOTW-BSB/-bsb-resources/main/data/bsb/romans/chapters/12.json',
-WEBSTER1833:root+'SOTW-WEBSTER-1833/webster-1833-resources/main/data/webster1833/romans/chapters/12.json',
-links:root+'SOTW-Original-Languages-2/original-language-resources/main/study-data/v1/chapters/ROM/12.json',
-lex:root+'SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/G/',
-history:root+'SOTW-Historical-Commentaries/historical-commentary-resources/main/api/v3/snapshots/structured-romans-2026-11-12/authors/',
-jake:root+'joelpsadler/CGBC-Sermon-Player/main/data/transcripts/en/2026-04-26_the-impact-of-the-gospel-in-ministry-pt-4.display.json'
+var RAW='https://raw.githubusercontent.com/';
+var HIST=RAW+'SOTW-Historical-Commentaries/historical-commentary-resources/main/';
+var urls={
+ KJV1769:RAW+'SOTW-KJV-1769/kjv-1769-resources/main/data/kjv1769/romans/chapters/12.json',
+ ASV1901:RAW+'SOTW-ASV-1901/asv-1901-resources/main/data/asv1901/romans/chapters/12.json',
+ BSB:RAW+'SOTW-BSB/-bsb-resources/main/data/bsb/romans/chapters/12.json',
+ WEBSTER1833:RAW+'SOTW-WEBSTER-1833/webster-1833-resources/main/data/webster1833/romans/chapters/12.json',
+ wordLinks:RAW+'SOTW-Original-Languages-2/original-language-resources/main/study-data/v1/chapters/ROM/12.json',
+ lexicon:RAW+'SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/G/',
+ jacob:HIST+'api/jacob-lannom/v1/current-commentary.json',
+ historical:HIST+'api/v3/snapshots/structured-romans-2026-11-12/authors/'
 };
-var labels={ASV1901:'ASV 1901',KJV1769:'KJV 1769',BSB:'BSB',WEBSTER1833:'Webster Bible 1833'};
-var authors=[['jamieson-fausset-brown','Jamieson–Fausset–Brown'],['matthew-henry','Matthew Henry'],['john-calvin','John Calvin'],['john-gill','John Gill'],['adam-clarke','Adam Clarke']];
-var state={edition:'ASV1901',verse:6,tab:'words',chosen:null,bibles:{},links:null,history:{},lexicon:{},jake:null,errors:[]};
-var $=id=>document.getElementById(id);
-function esc(s){return String(s===null||s===undefined?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-async function get(url){var r=await fetch(url,{mode:'cors',cache:'force-cache'});if(!r.ok)throw Error('HTTP '+r.status+' · '+url);return r.json()}
-function err(t){state.errors.push(t);$('status').textContent=state.errors.length+' source request(s) unavailable · see panels'}
-function sVerse(n){state.verse=Math.max(1,Math.min(21,Number(n)||1));state.chosen=null;$('verseSelect').value=state.verse;history.replaceState(null,'','#v'+state.verse);renderAll()}
-function editionData(id){return state.bibles[id]?.verses||[]}
-function verseText(v){return (v?.spans||[]).map(x=>x.text||'').join('')}
-function vRecord(id,n){return editionData(id).find(v=>Number(v.verse)===n)}
-function verseLinks(n,ed){return state.links?.verses?.['ROM.12.'+n]?.[ed]||[]}
-function strongIds(item){return item.strongs_ids||[]}
-function shortCode(id){return String(id).replace('strongs:','')}
-function wordMap(verse,ed){var m={};if(ed!=='ASV1901'&&ed!=='WEBSTER1833')return m;verseLinks(verse,ed).forEach(row=>{var n=row.source_locator?.target_token_index_zero_based;if(Number.isInteger(n)&&row.strongs_ids?.length){(m[n]||=([])).push.apply(m[n],row.strongs_ids)}});return m}
-function strongWordHTML(v,n,ed){var plain=verseText(v);var map=wordMap(n,ed);if(!Object.keys(map).length)return (v?.spans||[]).map(s=>s.kind==='supplied'?'<span class="supplied">'+esc(s.text)+'</span>':esc(s.text)).join('');var tokens=plain.match(/\S+|\s+/g)||[];var position=0;return tokens.map(t=>{if(/^\s+$/.test(t))return esc(t);var ids=map[position++]||[];return ids.length?'<button class="token" data-strong="'+esc(ids[0])+'" title="Study '+esc(ids.map(shortCode).join(', '))+'">'+esc(t)+'</button>':esc(t)}).join('')}
-function renderVerses(){var v=editionData(state.edition);if(!v.length){$('bibleText').innerHTML='<p class="warn">Bible text for '+esc(labels[state.edition])+' is not available at the public source endpoint.</p>';return}var nav='', html='';for(var n=1;n<=21;n++){nav+='<button data-nav="'+n+'" class="'+(state.verse===n?'selected':'')+'">'+n+'</button>';var r=vRecord(state.edition,n);html+='<div id="verse-'+n+'" class="verse-card '+(state.verse===n?'selected':'')+'" data-verse="'+n+'"><span class="verse-label">'+n+'</span><span class="scripture">'+strongWordHTML(r,n,state.edition)+'</span></div>'}$('verseNav').innerHTML=nav;$('bibleText').innerHTML=html;$('verseCount').textContent=v.length+' verses in '+labels[state.edition]+'. Dotted words are supported associations for ASV/Webster, not independent contextual definitions.'}
-function renderCompare(){var out='<p class="note">Verse '+state.verse+' across four independent Bible text repositories. Edition-specific supplied words are preserved in the originals.</p>';Object.keys(labels).forEach(ed=>{var v=vRecord(ed,state.verse);out+='<div class="data-card"><strong>'+esc(labels[ed])+'</strong><p style="font-family:Georgia,serif;font-size:17px">'+(v?esc(verseText(v)):'Source unavailable')+'</p></div>'});$('toolPanel').innerHTML=out}
-function morphRows(){var list=verseLinks(state.verse,'BSB');if(state.chosen)list=list.filter(x=>strongIds(x).includes(state.chosen));return list}
-function renderMorph(){var rows=morphRows();var h='<p class="note">These are <strong>native BSB source-table original-language occurrences</strong>, not Greek words aligned to the displayed English token positions. The parsing codes below are preserved exactly as supplied; no additional morphology interpretation is asserted.</p>';if(state.chosen)h+='<p class="note">Filtering for '+esc(shortCode(state.chosen))+'. <button class="mini" data-clear="1">Show all source rows</button></p>';if(!rows.length)h+='<p>No source rows for the selected filter.</p>';rows.slice(0,80).forEach(x=>{var loc=x.source_locator||{};h+='<div class="data-card"><div class="rowflex"><span class="greek">'+esc(loc.original_form||'Form unavailable')+'</span><span class="mono">'+esc((x.strongs_ids||[]).map(shortCode).join(' / '))+'</span></div><div class="meta">Transliteration: '+esc(loc.transliteration||'not supplied')+' · Source parsing: <strong>'+esc(loc.parsing_compact||'not supplied')+'</strong></div><div class="meta">Original source table row: '+esc(loc.source_line||'not supplied')+'</div><button class="mini" data-strong="'+esc(x.strongs_ids?.[0]||'')+'">Open dictionary entry</button></div>'});$('toolPanel').innerHTML=h}
-function wordSummary(){var ids=[];verseLinks(state.verse,state.edition).forEach(x=>strongIds(x).forEach(id=>{if(!ids.includes(id))ids.push(id)}));return ids}
-async function selectStrong(id){if(!id)return;state.chosen=id;state.tab='words';renderTabs();renderWords();if(!state.lexicon[id]){try{var number=Number(id.replace(/\D/g,''));var first=Math.floor((number-1)/250)*250+1;var last=Math.min(5624,first+249);var file='G'+String(first).padStart(5,'0')+'-'+String(last).padStart(5,'0')+'.json';var j=await get(U.lex+file);Object.assign(state.lexicon,j.entries||{});renderWords()}catch(e){err('Lexicon '+id);renderWords()}}}
-function renderWords(){var ids=wordSummary();var h='<p class="note">Romans 12:'+state.verse+' · <strong>'+esc(labels[state.edition])+'</strong> · '+ids.length+' distinct referenced Strong’s IDs. KJV has native tagged-word ordinals, BSB has native source rows, ASV and Webster have supported derived English target positions.</p>';h+='<div class="word-list">'+ids.map(id=>'<button data-strong="'+esc(id)+'" class="'+(id===state.chosen?'picked':'')+'">'+esc(shortCode(id))+'</button>').join('')+'</div>';if(!ids.length)h+='<p>No word-link rows from this edition for this verse.</p>';var entry=state.lexicon[state.chosen];if(state.chosen){h+='<div class="data-card"><div class="rowflex"><h3>'+esc(shortCode(state.chosen))+'</h3><span class="chip">Strong’s Greek · source entry</span></div>';if(!entry){h+='<p class="note">Retrieving source dictionary entry…</p>'}else{var d=entry.definitions||{};h+='<div class="greek">'+esc(entry.headword||'')+'</div><div class="meta">Transliteration: '+esc(entry.transliteration||'')+' · Pronunciation: '+esc(entry.source_language_metadata?.pronunciation||'not supplied')+'</div><div class="subhead">Short dictionary definition</div><p>'+esc(d.concise_source_authored||'Not supplied by this digital source')+'</p><div class="subhead">Long / full source-authored entry fields</div>';if(d.numbered_expanded_source_authored?.length)h+='<p class="longtext">'+esc(JSON.stringify(d.numbered_expanded_source_authored,null,2))+'</p>';else h+='<p class="note">No separately numbered extended definition is supplied for this headword in the selected Strong’s digital edition.</p>';if(d.derivation_source_authored)h+='<div class="meta"><b>Source derivation:</b> '+esc(d.derivation_source_authored)+'</div>';if(d.kjv_renderings_source_authored)h+='<div class="meta"><b>Recorded KJV renderings:</b> '+esc(d.kjv_renderings_source_authored)+'</div>';if(d.supplemental_source_authored)h+='<p>'+esc(typeof d.supplemental_source_authored==='string'?d.supplemental_source_authored:JSON.stringify(d.supplemental_source_authored))+'</p>';h+='<div class="meta">Source: '+esc(entry.provenance?.source_id||'SOTW selected Strong’s edition')+'. A dictionary range is not itself a verse-level meaning verdict.</div>'}h+='</div>'}h+='<p class="note"><a target="_blank" rel="noopener" href="https://sotw-original-languages.github.io/original-language-resources/">Shared lexicon foundation</a> · <a href="https://github.com/SOTW-Original-Languages/original-language-resources/blob/main/webster1828.json" target="_blank" rel="noopener">Webster 1828 English dictionary (separate source)</a></p>';$('toolPanel').innerHTML=h}
-function renderTabs(){document.querySelectorAll('#toolTabs button').forEach(x=>x.classList.toggle('active',x.dataset.tab===state.tab))}
-function renderTools(){renderTabs();if(state.tab==='compare')return renderCompare();if(state.tab==='morphology')return renderMorph();renderWords()}
-function historyFor(author){var d=state.history[author];if(!d)return [];return (d.entries||[]).filter(x=>Number(x.start_verse)<=state.verse&&Number(x.end_verse)>=state.verse)}
-function renderHistory(){var out='';authors.forEach(pair=>{var key=pair[0],name=pair[1],d=state.history[key],es=historyFor(key);out+='<article class="author"><div class="rowflex"><h3>'+esc(name)+'</h3><span class="chip">'+(es.length?es.length+' entry / entries':'no verse entry')+'</span></div>';if(!d){out+='<p class="note warn">Source unavailable or loading.</p></article>';return}out+='<div class="meta">Source: '+esc(d.source?.system||'SOTW historical collection')+' · snapshot '+esc(d.snapshot_id||'')+'</div>';if(!es.length){out+='<p class="note">No entry anchored to this selected verse; absence is preserved.</p>'}else es.forEach((e,i)=>{var plain=e.content_plain||e.content_parts?.join('\n')||'';var scope=e.start_verse===e.end_verse?'verse '+e.start_verse:'verses '+e.start_verse+'–'+e.end_verse;out+='<div class="meta">Original source coverage: '+esc(scope)+' · '+esc(e.coverage_basis||'source range')+'</div><p>'+esc(plain.slice(0,510))+(plain.length>510?'…':'')+'</p>';if(plain.length>510)out+='<details><summary>Read full source passage ('+plain.length.toLocaleString()+' characters)</summary><p class="longtext">'+esc(plain)+'</p></details>'});out+='</article>'});out+='<article class="author"><h3>Keil &amp; Delitzsch</h3><p class="note">Not applicable to Romans. This work covers the Old Testament; the SOTW Romans source correctly marks it unavailable.</p></article>';$('historyPanel').innerHTML=out}
-function duration(t){var s=Math.floor(t||0),m=Math.floor(s/60);return String(m).padStart(2,'0')+':'+String(s%60).padStart(2,'0')}
-function sermonUrl(s){return 'https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-m04f9j&start='+Math.floor(s||0)+'&autoplay=0'}
-function renderJake(){var all=state.jake?.segments;if(!all){$('jakePanel').innerHTML='<p class="note warn">The public transcript is unavailable.</p>';return}var q=$('jakeSearch').value.trim().toLowerCase();var matches;if(q){matches=all.filter(x=>x.text.toLowerCase().includes(q)).slice(0,9)}else{var wanted=[4,6,20,24,43,149];matches=all.filter(x=>wanted.includes(x.index))}var out='<p class="note">'+all.length+' display-clean timed segments. Showing '+matches.length+(q?' search matches':' selected examples')+'. Open the actual public sermon at the cited moment.</p>';matches.forEach(x=>out+='<div class="snippet"><div class="rowflex"><strong>'+duration(x.start)+'</strong><a target="_blank" rel="noopener" href="'+sermonUrl(x.start)+'">Open sermon at this moment ↗</a></div><div>'+esc(x.text)+'</div></div>');if(!matches.length)out+='<p class="note">No matching snippet. Try “teaching”, “grace”, or “body”.</p>';out+='<p><a href="'+sermonUrl(0)+'" target="_blank" rel="noopener">Open complete sermon from the beginning ↗</a></p>';$('jakePanel').innerHTML=out}
-function renderAll(){renderVerses();renderTools();renderHistory();renderJake()}
-async function start(){for(var i=1;i<=21;i++){var o=document.createElement('option');o.value=i;o.textContent='Romans 12:'+i;$('verseSelect').appendChild(o)}var h=location.hash.match(/^#v([0-9]+)$/);state.verse=h?Math.max(1,Math.min(21,+h[1])):6;$('verseSelect').value=state.verse;$('edition').value=state.edition;var tasks=[];Object.keys(labels).forEach(ed=>tasks.push(get(U[ed]).then(x=>state.bibles[ed]=x).catch(e=>err(ed))));tasks.push(get(U.links).then(x=>state.links=x).catch(e=>err('word links')));tasks.push(get(U.jake).then(x=>state.jake=x).catch(e=>err('Jake transcript')));authors.forEach(x=>tasks.push(get(U.history+x[0]+'/ROM/12.json').then(j=>state.history[x[0]]=j).catch(e=>err('Historical '+x[0]))));renderAll();await Promise.all(tasks);$('status').textContent=state.errors.length?'Loaded with '+state.errors.length+' unavailable source(s)':'Live public source files loaded · Romans 12';renderAll();var ids=wordSummary();if(ids.length)selectStrong(ids.find(x=>x==='strongs:G5485')||ids.find(x=>x==='strongs:G5486')||ids[0])}
-$('edition').addEventListener('change',e=>{state.edition=e.target.value;state.chosen=null;renderAll();var ids=wordSummary();if(ids.length)selectStrong(ids[0])});
-$('verseSelect').addEventListener('change',e=>sVerse(e.target.value));
-$('previous').addEventListener('click',()=>sVerse(state.verse-1));
-$('next').addEventListener('click',()=>sVerse(state.verse+1));
-$('verseNav').addEventListener('click',e=>{var n=e.target.closest('[data-nav]');if(n){sVerse(n.dataset.nav);document.getElementById('verse-'+state.verse)?.scrollIntoView({block:'nearest'})}});
-$('bibleText').addEventListener('click',e=>{var w=e.target.closest('[data-strong]');if(w){selectStrong(w.dataset.strong);return}var v=e.target.closest('[data-verse]');if(v)sVerse(v.dataset.verse)});
-$('toolTabs').addEventListener('click',e=>{var t=e.target.closest('[data-tab]');if(t){state.tab=t.dataset.tab;renderTools()}});
-$('toolPanel').addEventListener('click',e=>{var w=e.target.closest('[data-strong]');if(w){state.tab='words';selectStrong(w.dataset.strong)}if(e.target.closest('[data-clear]')){state.chosen=null;renderMorph()}});
-$('jakeSearch').addEventListener('input',renderJake);
-start().catch(e=>{err('initialization');$('status').textContent='Initialization problem: '+e.message});
+var state={verse:17,edition:'KJV1769',author:'jacob-lannom',bibles:{},wordData:null,jacob:null,history:{},lex:{},shards:{},pick:null,activeId:null,messages:[],loadHistory:{}};
+var el=id=>document.getElementById(id);
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]))}
+function nrm(s){return String(s||'').normalize('NFKC').toLowerCase().replace(/^[^a-z0-9]+|[^a-z0-9]+$/g,'')}
+function plain(v){return (v?.spans||[]).map(s=>s.text||'').join('')}
+function verseObj(ed,n){return state.bibles[ed]?.verses?.find(x=>x.verse===n)}
+function rows(n,ed){return state.wordData?.verses?.['ROM.12.'+n]?.[ed]||[]}
+function greekRows(n){return rows(n,'BSB')}
+function wordUnits(n,ed){return plain(verseObj(ed,n)).match(/\s+|\S+/g)||[]}
+function wordTokens(n,ed){return plain(verseObj(ed,n)).match(/\S+/g)||[]}
+function jsurl(s){return 'https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-fie2dj&start='+Math.floor(s||0)+'&autoplay=0'}
+async function fetchJSON(url){const r=await fetch(url,{mode:'cors',cache:'default'});if(!r.ok)throw Error('HTTP '+r.status);return r.json()}
+function setStatus(s){el('status').textContent=s}
+function wordIndex(n,ed){
+ const tok=wordTokens(n,ed),map={};
+ const rr=rows(n,ed);
+ if(ed==='ASV1901'||ed==='WEBSTER1833'){
+   rr.forEach(r=>{let i=r.source_locator?.target_token_index_zero_based;
+     if(Number.isInteger(i)&&i>=0&&i<tok.length&&nrm(tok[i])===nrm(r.source_locator?.target_surface)){
+       (map[i]||=[]).push(...(r.strongs_ids||[]));
+     }
+   });return map;
+ }
+ if(ed==='KJV1769'){
+   rr.forEach(r=>{const surface=nrm(r.source_locator?.tagged_surface);if(!surface)return;
+     const hits=tok.map((s,i)=>nrm(s)===surface?i:-1).filter(i=>i>=0);
+     const same=rr.filter(z=>nrm(z.source_locator?.tagged_surface)===surface);
+     if(hits.length===1&&same.length===1)(map[hits[0]]||=[]).push(...(r.strongs_ids||[]));
+   });
+ }
+ return map;
+}
+function focusWords(n,ed){
+ let tokens=wordUnits(n,ed),map=wordIndex(n,ed),i=0;
+ return tokens.map(t=>{
+   if(/^\s+$/.test(t))return esc(t);
+   const index=i++,ids=map[index]||[];
+   const selected=state.pick&&state.verse===n&&state.pick.index===index?'chosen':'';
+   return '<button class="word '+selected+'" data-verse="'+n+'" data-index="'+index+'" title="'+(ids.length?'Strong’s evidence '+esc(ids.map(x=>x.replace('strongs:','')).join(', ')):'Study Greek words in this verse')+'">'+esc(t)+'</button>';
+ }).join('');
+}
+function renderScripture(){
+ el('verse').value=String(state.verse);
+ el('verseTitle').textContent='Romans 12:'+state.verse;
+ const v=verseObj(state.edition,state.verse);
+ el('focusText').innerHTML=v?'<span class="num">'+state.verse+'</span>'+focusWords(state.verse,state.edition):'<p class="warning">Translation source unavailable.</p>';
+ if(!state.bibles[state.edition]){el('chapterText').innerHTML='<p class="muted">Loading chapter…</p>';return}
+ el('chapterText').innerHTML=(state.bibles[state.edition].verses||[]).map(v=>'<div class="chapter-row '+(v.verse===state.verse?'selected':'')+'" data-verse="'+v.verse+'"><span class="num">'+v.verse+'</span>'+focusWords(v.verse,state.edition)+'</div>').join('');
+}
+function changeVerse(n){
+ state.verse=Math.max(1,Math.min(21,Number(n)||17));state.pick=null;state.activeId=null;
+ history.replaceState(null,'','#v'+state.verse);renderScripture();renderWord();renderCommentary();
+}
+async function chooseWord(n,i){
+ if(n!==state.verse){state.verse=n;el('verse').value=n}
+ let token=wordTokens(n,state.edition)[i]||'';
+ const ids=wordIndex(n,state.edition)[i]||[];
+ state.pick={index:i,token:token,ids:ids};
+ state.activeId=ids[0]||null;
+ renderScripture();renderWord();renderCommentary();
+ if(state.activeId)await ensureLex(state.activeId);
+}
+function chooseGreek(id){state.activeId=id;renderWord();ensureLex(id)}
+async function ensureLex(id){
+ if(!id||state.lex[id])return;
+ let num=Number(String(id).replace(/\D/g,''));if(!Number.isInteger(num)||num<1||num>5624)return;
+ let first=Math.floor((num-1)/250)*250+1,last=Math.min(first+249,5624);
+ let file='G'+String(first).padStart(5,'0')+'-'+String(last).padStart(5,'0')+'.json';
+ if(!state.shards[file])state.shards[file]=fetchJSON(urls.lexicon+file).then(d=>{Object.assign(state.lex,d.entries||{});return d}).catch(e=>{state.shards[file]=null;state.messages.push('Dictionary source '+file+' unavailable');return null});
+ await state.shards[file];if(state.activeId===id)renderWord();
+}
+function simpleMorph(code){
+ if(!code)return 'Source parsing not provided';
+ const cases={N:'nominative',G:'genitive',D:'dative',A:'accusative',V:'vocative'};
+ const genders={M:'masculine',F:'feminine',N:'neuter'};
+ const numbers={S:'singular',P:'plural'};
+ const tenses={P:'present',I:'imperfect',F:'future',A:'aorist',R:'perfect',L:'pluperfect'};
+ const voices={A:'active',M:'middle',P:'passive'};
+ const moods={I:'indicative',S:'subjunctive',O:'optative',M:'imperative',N:'infinitive',P:'participle'};
+ let bits=code.split('-');
+ let part=bits[0],tail=bits[1]||'',end=bits[2]||'';
+ if(part==='Prep')return 'Preposition';
+ if(part==='Conj')return 'Conjunction';
+ if(part==='Adv')return 'Adverb';
+ if(part==='Prtcl')return 'Particle';
+ if(part==='V'&&tail.length>=3){
+   let out=[tenses[tail[0]],voices[tail[2]],moods[tail[1]]].filter(Boolean);
+   if(end.length>=3)out.push(cases[end[0]],genders[end[1]],numbers[end[2]]);
+   return out.filter(Boolean).join(' · ')||code;
+ }
+ if(['N','Adj','Art','Pro','RelPro','PersPro','DemPro'].includes(part)&&tail.length>=3){
+   return [part==='N'?'Noun':part==='Adj'?'Adjective':part,cases[tail[0]],genders[tail[1]],numbers[tail[2]]].filter(Boolean).join(' · ');
+ }
+ return code;
+}
+function renderWord(){
+ const n=state.verse,ed=state.edition,rs=greekRows(n),id=state.activeId,entry=state.lex[id];
+ let html='';
+ if(!state.wordData){el('wordContent').innerHTML='<p class="muted">Loading Strong’s associations…</p>';return}
+ if(!state.pick){
+   html='<p class="muted">Click a word above. The Greek source forms for this verse are available below.</p>';
+ }else{
+   html='<p class="caption">Selected English word: <strong>'+esc(state.pick.token)+'</strong></p>';
+   if(!state.pick.ids.length)html+='<p class="caption">No verified direct word position for this edition. Choose an original-language form below. This avoids claiming a one-to-one English/Greek alignment.</p>';
+   else html+='<p class="caption">'+(ed==='KJV1769'?'Matched a unique KJV tagged surface. Native tags do not include full-verse English token positions.':'Supported KJV-derived English token association.')+'</p>';
+ }
+ if(id){
+   html+='<div class="word-head"><span class="strong">'+esc(id.replace('strongs:',''))+'</span><strong class="greek">'+esc(entry?.headword||'Greek dictionary loading…')+'</strong></div>';
+   const exact=rs.filter(r=>(r.strongs_ids||[]).includes(id));
+   if(entry){
+     const d=entry.definitions||{};
+     html+='<div class="subtle">'+esc(entry.transliteration||'')+(entry.source_language_metadata?.pronunciation?' · '+esc(entry.source_language_metadata.pronunciation):'')+'</div>';
+     html+='<h3>Short definition</h3><p class="value">'+esc(d.concise_source_authored||'No short entry in this edition')+'</p>';
+     html+='<details><summary>Full Strong’s source fields</summary>';
+     if(d.derivation_source_authored)html+='<p><strong>Derivation:</strong> '+esc(d.derivation_source_authored)+'</p>';
+     if(d.kjv_renderings_source_authored)html+='<p><strong>KJV renderings:</strong> '+esc(d.kjv_renderings_source_authored)+'</p>';
+     if(d.numbered_expanded_source_authored?.length)html+='<p>'+esc(d.numbered_expanded_source_authored.join('; '))+'</p>';
+     else html+='<p class="caption">No separately expanded numbered definition is supplied for this Strong’s headword.</p>';
+     if(d.supplemental_source_authored)html+='<p>'+esc(typeof d.supplemental_source_authored==='string'?d.supplemental_source_authored:JSON.stringify(d.supplemental_source_authored))+'</p>';
+     html+='<p class="caption">Dictionary: '+esc(entry.provenance?.source_id||'SOTW selected Greek Strong’s')+'. Dictionary senses are not automatic interpretations of the verse.</p></details>';
+   }
+   if(exact.length){html+='<h3>Greek morphology in Romans 12:'+n+'</h3>';
+     exact.forEach(r=>{let l=r.source_locator||{};
+       html+='<div class="morph"><div class="word-head"><span class="greek">'+esc(l.original_form||'')+'</span><span class="subtle">'+esc(l.transliteration||'')+'</span></div>';
+       html+='<code>'+esc(l.parsing_compact||'not recorded')+'</code><div class="caption">'+esc(simpleMorph(l.parsing_compact))+'</div></div>';
+     });
+   }
+ }
+ html+='<h3>'+(!id?'Greek words in this verse':'Other Greek words in this verse')+'</h3>';
+ html+='<div class="pillbar">';
+ rs.forEach(r=>{const lid=r.strongs_ids?.[0];if(!lid)return;
+   let loc=r.source_locator||{};
+   html+='<button data-greek="'+esc(lid)+'" class="'+(lid===id?'active':'')+'" title="'+esc(loc.parsing_compact||'')+'">'+esc(loc.original_form||lid)+' · '+esc(lid.replace('strongs:',''))+'</button>';
+ });
+ html+='</div>';
+ html+='<p class="caption">Greek forms and parsing: BSB native original-language source rows. English rendering and Greek morphology are kept distinct.</p>';
+ el('wordContent').innerHTML=html;
+}
+function loadHistory(author){
+ if(state.history[author])return Promise.resolve(state.history[author]);
+ if(state.loadHistory[author])return state.loadHistory[author];
+ state.loadHistory[author]=fetchJSON(urls.historical+author+'/ROM/12.json').then(d=>{state.history[author]=d;return d}).catch(e=>{state.history[author]={entries:[],loadError:true};return state.history[author]});
+ return state.loadHistory[author];
+}
+function commentaryEntryHistorical(){
+ const d=state.history[state.author];return (d?.entries||[]).filter(x=>Number(x.start_verse)<=state.verse&&Number(x.end_verse)>=state.verse);
+}
+function renderCommentary(){
+ let out='',a=state.author,n=state.verse;
+ if(a==='jacob-lannom'){
+   if(!state.jacob){el('commentaryContent').innerHTML='<p class="muted">Loading Jacob Lannom commentary…</p>';return}
+   let e=(state.jacob.entries||[]).find(x=>x.scopeKey==='ROM.12.'+n);
+   let chapter=false;
+   if(!e){e=(state.jacob.entries||[]).find(x=>x.scopeKey==='ROM.12');chapter=true}
+   if(!e){el('commentaryContent').innerHTML='<p>No Jacob commentary in this scope.</p>';return}
+   out+='<h3>'+esc(e.title)+'</h3>';
+   if(chapter)out+='<p class="caption">Chapter introduction only. This is not a verse-specific claim for Romans 12:'+n+'.</p>';
+   out+='<div class="commentary">'+esc(e.commentary||'')+'</div>';
+   let occasion=e.supportingOccasions?.[0];
+   out+='<div class="source"><strong>Jacob Lannom</strong> · commissioned faithful sermon synthesis, not an exact spoken quote. ';
+   if(occasion)out+='Source sermon: November 8, 2026. <a target="_blank" rel="noopener" href="'+jsurl(occasion.startSeconds)+'">Open source sermon around '+Math.floor(occasion.startSeconds/60)+':'+String(Math.floor(occasion.startSeconds%60)).padStart(2,'0')+'</a>. ';
+   out+='<a target="_blank" rel="noopener" href="https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/blob/main/api/jacob-lannom/v1/current-commentary.json">Current SOTW commentary record</a>.</div>';
+ }else{
+   if(!state.history[a]){el('commentaryContent').innerHTML='<p class="muted">Loading historical commentary…</p>';return}
+   const entries=commentaryEntryHistorical(),d=state.history[a];
+   if(!entries.length){out='<p class="muted">'+(d.loadError?'Historical source could not be loaded.':'No specifically anchored or covering section supplied for this verse.')+'</p>'}
+   entries.forEach(e=>{
+     let content=e.content_plain||e.content_parts?.join('\n')||'';
+     out+='<h3>Romans 12:'+(e.start_verse===e.end_verse?e.start_verse:e.start_verse+'–'+e.end_verse)+'</h3>';
+     out+='<p class="caption">Source scope: '+esc(e.coverage_basis||'source record')+'. '+(e.start_verse!==e.end_verse?'This is a passage-wide entry, not a separate verse comment.':'')+'</p>';
+     if(content.length>6000){
+       out+='<div class="commentary">'+esc(content.slice(0,2500))+'…</div><details><summary>Read full commentary</summary><div class="commentary">'+esc(content)+'</div></details>';
+     }else out+='<div class="commentary">'+esc(content)+'</div>';
+   });
+   out+='<div class="source">Historical source: '+esc(d?.source?.system||'SOTW source')+'. <a href="https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources" target="_blank" rel="noopener">SOTW historical commentary records</a>.</div>';
+ }
+ el('commentaryContent').innerHTML=out;
+}
+async function changeAuthor(a){state.author=a;renderCommentary();if(a!=='jacob-lannom'){await loadHistory(a);if(state.author===a)renderCommentary()}}
+async function initialize(){
+ for(let n=1;n<=21;n++){let opt=document.createElement('option');opt.value=n;opt.textContent='Romans 12:'+n;el('verse').appendChild(opt)}
+ let h=location.hash.match(/^#v([1-9]|1[0-9]|2[01])$/);if(h)state.verse=Number(h[1]);
+ el('verse').value=state.verse;
+ const request=[...['KJV1769','ASV1901','BSB','WEBSTER1833'].map(ed=>fetchJSON(urls[ed]).then(x=>state.bibles[ed]=x).catch(e=>state.messages.push('Bible '+ed+' not available'))),
+   fetchJSON(urls.wordLinks).then(x=>state.wordData=x).catch(e=>state.messages.push('Strong’s links unavailable')),
+   fetchJSON(urls.jacob).then(x=>state.jacob=x).catch(e=>state.messages.push('Jacob commentary unavailable'))];
+ renderScripture();renderWord();renderCommentary();
+ await Promise.all(request);
+ setStatus(state.messages.length?state.messages.join('; '):'Sources loaded · Romans 12');
+ renderScripture();renderWord();renderCommentary();
+ if(state.verse===17&&state.wordData&&state.bibles.KJV1769){
+   const i=wordTokens(17,'KJV1769').findIndex(t=>nrm(t)==='provide');
+   if(i>=0)await chooseWord(17,i);
+ }
+}
+function onWordClick(event){
+ const w=event.target.closest('button.word');
+ if(w){event.stopPropagation();chooseWord(Number(w.dataset.verse),Number(w.dataset.index));return true}
+ return false;
+}
+el('focusText').addEventListener('click',onWordClick);
+el('chapterText').addEventListener('click',e=>{if(onWordClick(e))return;let row=e.target.closest('[data-verse]');if(row)changeVerse(row.dataset.verse)});
+el('wordContent').addEventListener('click',e=>{let w=e.target.closest('button[data-greek]');if(w)chooseGreek(w.dataset.greek)});
+el('translation').addEventListener('change',e=>{state.edition=e.target.value;state.pick=null;state.activeId=null;renderScripture();renderWord()});
+el('verse').addEventListener('change',e=>changeVerse(e.target.value));
+el('previous').addEventListener('click',()=>changeVerse(state.verse-1));
+el('next').addEventListener('click',()=>changeVerse(state.verse+1));
+el('author').addEventListener('change',e=>changeAuthor(e.target.value));
+initialize().catch(e=>{setStatus('Demo could not finish loading');el('wordContent').innerHTML='<p class="warning">Could not load study resources.</p>'});
 })();
 </script>
 </body></html>
