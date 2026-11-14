@@ -1,0 +1,680 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-2th-1ti-pair-2026-11-14",
+  "books": [
+    "2TH",
+    "1TI"
+  ],
+  "book_names": [
+    "2 Thessalonians",
+    "1 Timothy"
+  ],
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_positions": [
+    53,
+    54
+  ],
+  "testament": "NT",
+  "snapshots": {
+    "2TH": "structured-second-thessalonians-2026-11-14",
+    "1TI": "structured-first-timothy-2026-11-14"
+  },
+  "baseline_main_commit": "f56c7c94165009808d88ca8feb1e3550fbe7c080",
+  "baseline_navigation_manifest_git_blob": "c65f7343698f72a66d91ee2d209ad7cbc6a22a69",
+  "baseline_navigation_sha256": "34af8993b3c8ae1d9d476542ff0e43dafb1a71ce39c8fcb84c3978182ec7efbe",
+  "file_count_excluding_this_manifest": 74,
+  "original_source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "files": [
+    {
+      "path": "2TH_1TI_V3_INSTALL_NOTES.md",
+      "sha256": "c4c587c0b58684b2bd25ab84dcd791a2fee926165b58f35eb7c74039b1cde236",
+      "git_blob_sha": "93d330c4f015948e0792388f14aba40093231d0d",
+      "bytes": 1611,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/1TI.json",
+      "sha256": "4282f378ac8e52a20b39d27ca03cf4d2f9531f4027d80345dee8b6bb223491d4",
+      "git_blob_sha": "3f053b04a4dd2f315ea766f6439c8978522944d3",
+      "bytes": 46684,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/2TH.json",
+      "sha256": "3502117768b9af272d04ca08d8f3fdf32b23883280fa0919546d0b86f3b7f373",
+      "git_blob_sha": "4190e270dc319759df31cb3dccbc09edaac17765",
+      "bytes": 27073,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "bd408ee6f3373a287fa48f4c2cc00667dda8383eac85c730c952b9bfa463584c",
+      "git_blob_sha": "60b4fce758907627408659b8a6db9b5ac7f2e3ae",
+      "bytes": 6818,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/adam-clarke/1TI/1.json",
+      "sha256": "4de6d79a4fe2fabccb2fe3f19462605f4dafcdf777742dfc05255889a03056f1",
+      "git_blob_sha": "fe35949101bb081b8cf71c84d5c0bab3ad4d813a",
+      "bytes": 195353,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/adam-clarke/1TI/2.json",
+      "sha256": "4dc9f7ec96885d5ebbd537ea5b46401d579e40f22158e4da99e86d2834a4a8ea",
+      "git_blob_sha": "9bd14b4eff520b9c249f5f50fa90b6deeb98459b",
+      "bytes": 104893,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/adam-clarke/1TI/3.json",
+      "sha256": "0984401b8108014d096a69a2edbf438052eb5f599ee6c9c3e7030c1df329c9f7",
+      "git_blob_sha": "1ff1cca4257506efdd2de81465a5193687062bf0",
+      "bytes": 140921,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/adam-clarke/1TI/4.json",
+      "sha256": "4a8d1438d9b27f0c5c3cb192fbfb7ffb7e9a6ee77a31d19850de8cc4792aa73e",
+      "git_blob_sha": "db01b7f58af00c0293267bd559f4424e970b484f",
+      "bytes": 127198,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/adam-clarke/1TI/5.json",
+      "sha256": "ddab48d3a875b2aba0101767ef19e51aae20f494ac15bfcd2bb2f15daf3da8f0",
+      "git_blob_sha": "7738e332e7ce73ad87624f9baf0ada81d6529c0d",
+      "bytes": 123709,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/adam-clarke/1TI/6.json",
+      "sha256": "c346863c7317525aa954cde63f67e9255a502c3f3107c0da0850ebaa47c6be86",
+      "git_blob_sha": "72bb57077c17172b2b49e64f00210eca6f1fbbdf",
+      "bytes": 145187,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/jamieson-fausset-brown/1TI/1.json",
+      "sha256": "64fa3329805c53ed5977a806fe37eaf1f8cd2573c03a9eaac2156695f440595a",
+      "git_blob_sha": "9d72b11f64b4661550d8cd6140c0060f6573e3c3",
+      "bytes": 215727,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/jamieson-fausset-brown/1TI/2.json",
+      "sha256": "dac7bcf70157018b4cfbb05426d38ec056e71bae135ac26b451f2cf627d3c5b7",
+      "git_blob_sha": "254a2feba91e8d741dd067d6d9b83f5380793afd",
+      "bytes": 78409,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/jamieson-fausset-brown/1TI/3.json",
+      "sha256": "10bbeb813e505c87660c5c4b2bf51b65cf5fc5da10bbff93a20cfb29d72524eb",
+      "git_blob_sha": "90d7cca5a8d805a33a93b5e485bd604fee35801d",
+      "bytes": 111510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/jamieson-fausset-brown/1TI/4.json",
+      "sha256": "8622c41a44d538e9c070efe6b9f830d4e59994936b52ef6d7430665e701e814f",
+      "git_blob_sha": "1f086b6078a176a8aed5e494dd2f8871430d796f",
+      "bytes": 89180,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/jamieson-fausset-brown/1TI/5.json",
+      "sha256": "d3dab2b5a7f7ee626856223a7fd0e59e8dfd71b19f940567de05e5f30c22508a",
+      "git_blob_sha": "27a554734fef510e4cb6cdaf229a8f99e1cba6f6",
+      "bytes": 118792,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/jamieson-fausset-brown/1TI/6.json",
+      "sha256": "3e99113ab4d64ed61a02b14bfab00beba79e6b52d22db584afcd832f162eef4b",
+      "git_blob_sha": "70ce38d8ac8397dd1a05a2707026e43acb76bf47",
+      "bytes": 112582,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-calvin/1TI/1.json",
+      "sha256": "9c9f28cce3421fba3cab8f91473d94f8a45c4a4609cc200ac36612f3837f9dfa",
+      "git_blob_sha": "5fc69cc141b4c07b672c0e732ded238c3d5b223d",
+      "bytes": 12921,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-calvin/1TI/2.json",
+      "sha256": "5e88a7dc49915e2b3f497ea1f14f657ab52e086cce5181e2155d60dfb5942d9a",
+      "git_blob_sha": "264148a4f1d5b2d4e68c1e9fa5a630b68885f7fb",
+      "bytes": 21288,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-calvin/1TI/3.json",
+      "sha256": "6187aee657dc40827eb4a2b88f08d5a59c9099c5e4543da0f3008c806e61de76",
+      "git_blob_sha": "ca014f82a376e7b382933d422e61614f653e7809",
+      "bytes": 32127,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-calvin/1TI/4.json",
+      "sha256": "74596258a9c4e520eee4b72d63648b314f7e02511c634bae6b410f501d3a2e55",
+      "git_blob_sha": "4a7abd826ee15bce301017a1bdebf67e790a4c72",
+      "bytes": 33617,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-calvin/1TI/5.json",
+      "sha256": "d7cd64de663930f33b7d38bffe1505250a9c92773b2c1d19ac804d2fbfe96770",
+      "git_blob_sha": "c4116c14972ae3cbe0643c1d9538fdc0a3b0415b",
+      "bytes": 11294,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-calvin/1TI/6.json",
+      "sha256": "c2b5f7f3aa811b353e3afcc2079b0513ecaceb7373ee06e8f2aa095c6accf3e7",
+      "git_blob_sha": "0271149a81836caf8902640a643584be42403e3f",
+      "bytes": 14837,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-gill/1TI/1.json",
+      "sha256": "d069fcd8763a1cbda11c012a6028009fa4efefd3da2e7a9505ebe6924a05cfaf",
+      "git_blob_sha": "aa72b3125cb2d01a2730183cd0d69284d30e2ff6",
+      "bytes": 212267,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-gill/1TI/2.json",
+      "sha256": "10ef72a4961b96a19cf374b655b3142626151b6c5435ac9cb0bc3672c75dddee",
+      "git_blob_sha": "4d8e5f0a80aab4390afc0a01b003fbfeb9833bbc",
+      "bytes": 138663,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-gill/1TI/3.json",
+      "sha256": "0d4c363b92e754ee69da02857376f824f8cdff31ea742b3e1360631c45e2a5a6",
+      "git_blob_sha": "0e313e91636c555e049bbaca919b33668f984628",
+      "bytes": 108177,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-gill/1TI/4.json",
+      "sha256": "c13db6ab90bccb9afddd14aaaeb4fcc45a657828a1c963dbce2cf26b8d01386a",
+      "git_blob_sha": "eb99dc820605dd214e998bd1cc5475b8c02b57a5",
+      "bytes": 133344,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-gill/1TI/5.json",
+      "sha256": "047576199af6cd61b6fd891ed6b5175caede759388c05ebfc75a09a0eafc9beb",
+      "git_blob_sha": "1549530c54b112244ebb2cb64fe3f87368bc020e",
+      "bytes": 161397,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/john-gill/1TI/6.json",
+      "sha256": "0d475ddc12da5388e09f564181307d77f01bb6fb83638de9dc9f551c3dca85b4",
+      "git_blob_sha": "5950d4682043c7a4d9686bafee47c3c1b2cb498b",
+      "bytes": 166512,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/keil-delitzsch/1TI/1.json",
+      "sha256": "58a1a4b56f44b05580d9fa1b74dbcb1d358ef51038892900bee7811d5464031e",
+      "git_blob_sha": "b60a34bd5543a1b5e04d6b97efe90327c1715ef0",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/keil-delitzsch/1TI/2.json",
+      "sha256": "333079ba3ff68b8f2fca29c6c32a8a469e797c4c6b7dbbcfa4f6e8afbca4992a",
+      "git_blob_sha": "ed58bb3dd8d47291b81cc2429dbb8bfeda686a9d",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/keil-delitzsch/1TI/3.json",
+      "sha256": "978160ffccf91af232ea6c4c12c1cf0de2801e8b5c0698ad0f9ba2a4e264b533",
+      "git_blob_sha": "0fd0df10be65a0e579a7e0fa3b25ffab0597a898",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/keil-delitzsch/1TI/4.json",
+      "sha256": "093aa1a1ebaa82eda104f00f93f7116b83e792d1b48786dfd72be222086dda0f",
+      "git_blob_sha": "e47f75f325739ee12b594f942022661539dd8055",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/keil-delitzsch/1TI/5.json",
+      "sha256": "cee4fa5d1adf9fa7dbf881ac3b5f7f9462dfc78a270fd7e227b707d67d078889",
+      "git_blob_sha": "f72058c9c9921f4e6fd5df9b529924d1cd1d2c3f",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/keil-delitzsch/1TI/6.json",
+      "sha256": "00e6d74832211419e5c04e5713533b8af77e223482b054438501728834eb1b17",
+      "git_blob_sha": "04ce464ad8cdf4851dff9163e278b105ea8055eb",
+      "bytes": 1503,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/matthew-henry/1TI/1.json",
+      "sha256": "b7aaa6a1ab7e3c0c9ab86f0500796404a5b666b1b3cdb44f3644917b4a162eea",
+      "git_blob_sha": "68a73073ee59d32c7a8bdc1508be064e1d7d4398",
+      "bytes": 111271,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/matthew-henry/1TI/2.json",
+      "sha256": "1d4e62ebdc2f9c973e6e8327590d7c1daf066f166c9c4e82bf3b89c09efd0e76",
+      "git_blob_sha": "9bdb60b982b952f5ab9bf52cd5f0f6e88f121977",
+      "bytes": 58340,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/matthew-henry/1TI/3.json",
+      "sha256": "38773785bf227d2367b2dc57ead19f1e92106923cb394dffd5d15d662a3601f1",
+      "git_blob_sha": "0516ddd6c1140729b1994348f15f1d58b1f71713",
+      "bytes": 83673,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/matthew-henry/1TI/4.json",
+      "sha256": "0ceae4f94964390ad777c9e9f6c93d367d5d9a03253cb8dc16b2ed81c5583812",
+      "git_blob_sha": "0abda6c06a41e13d7b970b499b25913462a96ee3",
+      "bytes": 76410,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/matthew-henry/1TI/5.json",
+      "sha256": "fc5bb3943b3fd0cc0b40209c27a064301c3806cddf60b81638125bd966ad76be",
+      "git_blob_sha": "e74db1c5f5c38f59313c13017d41909ebbf97007",
+      "bytes": 83235,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/authors/matthew-henry/1TI/6.json",
+      "sha256": "ba34396fb4c4bc5a2028b32ae833b7862a9bf5a6abaa24809cfb2c2d452a8825",
+      "git_blob_sha": "e992e20622f0ffcdf5755772a02d8f16008a7279",
+      "bytes": 103904,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/index/1TI/1.json",
+      "sha256": "8ee60a9784b5bdce29b6b5a476186058e6b5998603b7b2957bed40536f9bf0ba",
+      "git_blob_sha": "2b891d52fe111e76359e7e34bb93adf3c9246047",
+      "bytes": 10531,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/index/1TI/2.json",
+      "sha256": "d6f7e55c3dd245821d06c6eeb4636deff30ae6dd12645f933b43a5d1000fbabf",
+      "git_blob_sha": "c66279d4b62781c411ebf6636605ea1657cc1078",
+      "bytes": 7536,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/index/1TI/3.json",
+      "sha256": "ff7951a9b10a52a3d44689c56a654112a128630f8ae0a4b6be8300f8e8d2f2cc",
+      "git_blob_sha": "4a16512462710831707a481a8108991842c381bc",
+      "bytes": 8080,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/index/1TI/4.json",
+      "sha256": "e87e89fe8143129edde22f100b1e27366314fa12bdfd1331dc62828f6dbe08e8",
+      "git_blob_sha": "15226846e35c65a661a8577dbdf4fe57562725a6",
+      "bytes": 7903,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/index/1TI/5.json",
+      "sha256": "7c0387125344b7d22ccee6122d31bf6481c999f7f1b3745e70f60110a718b1b1",
+      "git_blob_sha": "30cc4ff6f2b7cab7e2fddc76167578cd5fac6e00",
+      "bytes": 10275,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/index/1TI/6.json",
+      "sha256": "c331b65b4aa7ac4a3ddfea33fe82a564447f2637a4d664fdbc546c4ed90788bb",
+      "git_blob_sha": "6bdc1c5701feba422af35ce9468e0164780df7eb",
+      "bytes": 9385,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-timothy-2026-11-14/manifest.json",
+      "sha256": "a747d9e8bf10c4718039e8fde01b4e5f46be3ff730a3fdb975a53a58f83c1075",
+      "git_blob_sha": "df6e6d4c634752d88b2ebe0a0da4213e6fb8b9c6",
+      "bytes": 1661,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/adam-clarke/2TH/1.json",
+      "sha256": "b9015dd34b992d0e65b97b09330e23399e43ad7b4a6269b1057b3b8d09752836",
+      "git_blob_sha": "18d82041a748df9a11b8d46935d6c074f5a31a14",
+      "bytes": 120061,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/adam-clarke/2TH/2.json",
+      "sha256": "6af2afe1edfc10c3e64a7fc8a27a5212b7b587567ae3603c85d5aa7b22dec618",
+      "git_blob_sha": "d7a51a1c4144a6a15b3371d79b1c43bdf9f73c4d",
+      "bytes": 182745,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/adam-clarke/2TH/3.json",
+      "sha256": "413066894283305c3e531b5aef58b2c4436e7031f03e208ba2e1c80f41db2f79",
+      "git_blob_sha": "e1b4fc40edffdf1423afc7e56c07d0aa6b5532eb",
+      "bytes": 65575,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/jamieson-fausset-brown/2TH/1.json",
+      "sha256": "4dde7dce8fe202c100dc61496da7b11a85fc93fdfa158efb2dd8aae258b437af",
+      "git_blob_sha": "c9eb22ab8e39ec5fe47b7d4ed4fb4924ec3e5caa",
+      "bytes": 76789,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/jamieson-fausset-brown/2TH/2.json",
+      "sha256": "0160b0488468e3512bb931c422daed5b14806c35aec06957a9490d056245ce3d",
+      "git_blob_sha": "0c499ded409e2bd99e53078582ee7957cb49feb9",
+      "bytes": 139303,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/jamieson-fausset-brown/2TH/3.json",
+      "sha256": "7f1f445ad0da0544e494b4a311829e5f65b7865ffc0ef62d3a78ff8a1a51c572",
+      "git_blob_sha": "d1576e6841ae3290c8ab67c4cf4a45095c6337d8",
+      "bytes": 63471,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/john-calvin/2TH/1.json",
+      "sha256": "7b7666fef32c48936c44dae0aefb3af23f2380ebe7af7c5edd17605528468061",
+      "git_blob_sha": "cd737ae7b86cb8222e7e53c80c064f104c4121b4",
+      "bytes": 100988,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/john-calvin/2TH/2.json",
+      "sha256": "dd600f84e176af1033847d8162bff2046f68350f1b1f0ffb71b5ea84b3936764",
+      "git_blob_sha": "4c715b135269f21e5ae2e258aa80dc2d5dadea01",
+      "bytes": 216582,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/john-calvin/2TH/3.json",
+      "sha256": "5307dd62743646cdef795a8f7869eb658a86bae6135b38332e7bb909104c432a",
+      "git_blob_sha": "13aa7333d52a0d093186f1a21dea889437271157",
+      "bytes": 167129,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/john-gill/2TH/1.json",
+      "sha256": "1efd0179f1a1ee510055fd71a5e3e94580735d783b89346662393a95ec224df6",
+      "git_blob_sha": "50c973132613f312e971f20149e733c365c1db3e",
+      "bytes": 113369,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/john-gill/2TH/2.json",
+      "sha256": "cac8d7f60b26f0125de7d06206f7bf03521e57056abba35adac52fac971086e8",
+      "git_blob_sha": "4b1c0ef931a296e768be59987eb431aee1ed2d3d",
+      "bytes": 185770,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/john-gill/2TH/3.json",
+      "sha256": "c0128f76edc7047b964794784739b515d272612ba335a289011161de0b4f61b4",
+      "git_blob_sha": "a146ef0bc60218b34cb8a7a1356818d17a9e1b8a",
+      "bytes": 131899,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/keil-delitzsch/2TH/1.json",
+      "sha256": "646b6b9b5005fa3b328277e3fabba4a0cefda288be010aa696c29e94889f7dc0",
+      "git_blob_sha": "4c87dd5fdda7a9936a031d3f2f8b76c25ae1e384",
+      "bytes": 1510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/keil-delitzsch/2TH/2.json",
+      "sha256": "494420618ffb4377fad34f26da115cac2e9ce0fbd64ec56bbce36217eca4b0a0",
+      "git_blob_sha": "7e4621ca08a92d817b22b5eaaa08b03caf938189",
+      "bytes": 1510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/keil-delitzsch/2TH/3.json",
+      "sha256": "c41667cb0c25838fd031618ca6d444a51b47ec41563d2bde425861349de99c9f",
+      "git_blob_sha": "8c5e093890e2ae1cba51e7f128c282c8b020eba1",
+      "bytes": 1510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/matthew-henry/2TH/1.json",
+      "sha256": "a3af1100693ab24af24767fbec9cda20ca08e66e34ea7888ff4e510db4352b64",
+      "git_blob_sha": "9ef2f24c2786d6d95206299d335f8943185f44da",
+      "bytes": 81921,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/matthew-henry/2TH/2.json",
+      "sha256": "14e0eaf1c071f6c4d8778ed84f306a104059d65d81eda2b9706b41f75421512f",
+      "git_blob_sha": "8fa2ef6c71019187c61978ea98f164725a579250",
+      "bytes": 58871,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/authors/matthew-henry/2TH/3.json",
+      "sha256": "a127ef69bf09057ce0086d486d2be35c7cda8baeae73dffca0ff82018e0dd73e",
+      "git_blob_sha": "05c0b44f7fcb6d48b68486e2306de37c91fef5a9",
+      "bytes": 83598,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/index/2TH/1.json",
+      "sha256": "6abf8acd290d7173fdfe814da4cb76b36512bbf4a8b8f7e663f942d29929c9af",
+      "git_blob_sha": "e7fb6ba7799620c48e58dc9cc68f7d290d7e5dce",
+      "bytes": 8307,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/index/2TH/2.json",
+      "sha256": "7281f0cd9446b71f8d099809e5be9de9ab6422ccca53b375f5a0af7124a9e06e",
+      "git_blob_sha": "354c8649999a59d5649b4c3f9d6902fd9032eeb7",
+      "bytes": 8263,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/index/2TH/3.json",
+      "sha256": "a930da4c9e983afba2ad622d9576363485e38279d6d680ffff0bdb7437cdbcc9",
+      "git_blob_sha": "84c8fd4615690194d85dca4e73730391a2ce8a07",
+      "bytes": 8500,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-thessalonians-2026-11-14/manifest.json",
+      "sha256": "84dacaf8bfad60f49bbcbf666a10a39154045c09f20ebf3495282521f454e211",
+      "git_blob_sha": "a5c58caecd1a107712968eadc82cbe73eac46c33",
+      "bytes": 1635,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/2TH_1TI_INDEPENDENT_SOURCE_AUDIT_2026-11-14.json",
+      "sha256": "cf2c5191cb08f390bd85dc7d7fb836eb808b2b6bf1e9d448c13d62e6830a0a6e",
+      "git_blob_sha": "c0da0be500b3d004844ff47c3505677298677fa9",
+      "bytes": 1579,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/2TH_1TI_READER_STATIC_VALIDATION_2026-11-14.json",
+      "sha256": "99f1b6cee78e6ed4f189a6731e3e930289de62b684be80b86897576b17a73f47",
+      "git_blob_sha": "2af79cceaf6fa2a8bcb079972cd2d65155155eac",
+      "bytes": 858,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/2TH_1TI_SOURCE_NAV_QA_2026-11-14.json",
+      "sha256": "58a8d0ef80d9ca4a9dd9b14e17b3014b5965dcb9ef399e1c3f0f8755fabef63b",
+      "git_blob_sha": "1120167bfcf6dcb0cc67a50cf9af19f80386445d",
+      "bytes": 2412,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-first-timothy-v3.html",
+      "sha256": "1488637a3ce55ad860edcd42f7b13b263865178f7da78a177b1f2e579694206f",
+      "git_blob_sha": "92716689515de912fe6ec972a385e4042c62e4dc",
+      "bytes": 12116,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-second-thessalonians-v3.html",
+      "sha256": "1a21518a8e24cce994de2ad528d44a3c9740fd1b9789ba7e0452a0bb96deba55",
+      "git_blob_sha": "ea667058a5ed3ea68bc6d4eeddc0b12ca2a08785",
+      "bytes": 12129,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "qa": {
+    "validated_original_sword_records": 386,
+    "validated_helloao_items": 159,
+    "native_index_coordinates": 800,
+    "unavailable_KD_chapters": 9,
+    "source_P_sections": 52,
+    "hash_validation_errors": [],
+    "source_archives": {
+      "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+      "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+      "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+      "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+      "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+      "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+    },
+    "books": {
+      "2TH": {
+        "verses": 47,
+        "original_entries": 189,
+        "navigation_sections": 19,
+        "reader_visible_entries": 189,
+        "verse_author_routes": 228,
+        "sword_chapters": 12,
+        "helloao_chapters": 3,
+        "chapters": 3,
+        "P_source_sections": 19,
+        "inherited_P_references": 0,
+        "P_routed_sections": 19,
+        "author_chapters": 18
+      },
+      "1TI": {
+        "verses": 113,
+        "original_entries": 356,
+        "navigation_sections": 33,
+        "reader_visible_entries": 356,
+        "verse_author_routes": 562,
+        "sword_chapters": 24,
+        "helloao_chapters": 6,
+        "chapters": 6,
+        "P_source_sections": 33,
+        "inherited_P_references": 0,
+        "P_routed_sections": 33,
+        "author_chapters": 36
+      }
+    },
+    "source_verse_count_discrepancies": [
+      {
+        "book": "1TI",
+        "chapter": 5,
+        "source": "HelloAO John Gill",
+        "source_declared_count": 24,
+        "canonical_KJV_verse_count": 25,
+        "source_verse_anchors": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    ],
+    "status": "PASS_SOURCE_AND_NAV_INTEGRITY",
+    "baseline_commit": "f56c7c94165009808d88ca8feb1e3550fbe7c080",
+    "baseline_navigation_blob": "c65f7343698f72a66d91ee2d209ad7cbc6a22a69",
+    "release_books": [
+      "2TH",
+      "1TI"
+    ],
+    "publication_lane": "STAGING_NOT_PRODUCTION",
+    "live_visual": "OWNER_PENDING",
+    "github_writes": 0,
+    "independent_audit_status": "PASS_ALL_ORIGINAL_SOURCE_POINTERS_AND_52_NAV_SECTIONS",
+    "independent_audit_path": "reports/2TH_1TI_INDEPENDENT_SOURCE_AUDIT_2026-11-14.json",
+    "reader_javascript_syntax": "PASS_NODE_CHECK",
+    "reader_browser_status": "NOT_VERIFIED_BROWSER_ACCESS_BLOCKED",
+    "source_specific_exception": "Original HelloAO John Gill source 1TI.5.13 absent; not infilled"
+  },
+  "counts": {
+    "2TH": {
+      "original_entries": 189,
+      "navigation_sections": 19,
+      "reader_visible_entries": 189,
+      "verse_author_routes": 228,
+      "sword_chapters": 12,
+      "helloao_chapters": 3,
+      "chapters": 3,
+      "P_source_sections": 19,
+      "inherited_P_references": 0,
+      "P_routed_sections": 19,
+      "author_chapters": 18
+    },
+    "1TI": {
+      "original_entries": 356,
+      "navigation_sections": 33,
+      "reader_visible_entries": 356,
+      "verse_author_routes": 562,
+      "sword_chapters": 24,
+      "helloao_chapters": 6,
+      "chapters": 6,
+      "P_source_sections": 33,
+      "inherited_P_references": 0,
+      "P_routed_sections": 33,
+      "author_chapters": 36
+    }
+  },
+  "release_scope": "Only two additive book snapshots, coverage files, review readers, reports and final cumulative nav manifest; no existing source snapshots changed.",
+  "publication_gate": "Owner manual GitHub upload, fresh baseline check, GitHub Pages deployment success, owner visual reader review."
+}

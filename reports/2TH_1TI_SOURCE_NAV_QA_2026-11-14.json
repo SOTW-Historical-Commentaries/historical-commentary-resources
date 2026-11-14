@@ -1,0 +1,91 @@
+{
+  "validated_original_sword_records": 386,
+  "validated_helloao_items": 159,
+  "native_index_coordinates": 800,
+  "unavailable_KD_chapters": 9,
+  "source_P_sections": 52,
+  "hash_validation_errors": [],
+  "source_archives": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "books": {
+    "2TH": {
+      "verses": 47,
+      "original_entries": 189,
+      "navigation_sections": 19,
+      "reader_visible_entries": 189,
+      "verse_author_routes": 228,
+      "sword_chapters": 12,
+      "helloao_chapters": 3,
+      "chapters": 3,
+      "P_source_sections": 19,
+      "inherited_P_references": 0,
+      "P_routed_sections": 19,
+      "author_chapters": 18
+    },
+    "1TI": {
+      "verses": 113,
+      "original_entries": 356,
+      "navigation_sections": 33,
+      "reader_visible_entries": 356,
+      "verse_author_routes": 562,
+      "sword_chapters": 24,
+      "helloao_chapters": 6,
+      "chapters": 6,
+      "P_source_sections": 33,
+      "inherited_P_references": 0,
+      "P_routed_sections": 33,
+      "author_chapters": 36
+    }
+  },
+  "source_verse_count_discrepancies": [
+    {
+      "book": "1TI",
+      "chapter": 5,
+      "source": "HelloAO John Gill",
+      "source_declared_count": 24,
+      "canonical_KJV_verse_count": 25,
+      "source_verse_anchors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "status": "PASS_SOURCE_AND_NAV_INTEGRITY",
+  "baseline_commit": "f56c7c94165009808d88ca8feb1e3550fbe7c080",
+  "baseline_navigation_blob": "c65f7343698f72a66d91ee2d209ad7cbc6a22a69",
+  "release_books": [
+    "2TH",
+    "1TI"
+  ],
+  "publication_lane": "STAGING_NOT_PRODUCTION",
+  "live_visual": "OWNER_PENDING",
+  "github_writes": 0
+}

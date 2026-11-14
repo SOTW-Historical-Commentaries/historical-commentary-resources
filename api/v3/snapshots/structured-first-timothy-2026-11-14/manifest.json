@@ -1,0 +1,50 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-first-timothy-2026-11-14",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "1TI"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 356,
+    "navigation_sections": 33,
+    "reader_visible_entries": 356,
+    "verse_author_routes": 562,
+    "sword_chapters": 24,
+    "helloao_chapters": 6,
+    "chapters": 6,
+    "P_source_sections": 33,
+    "inherited_P_references": 0,
+    "P_routed_sections": 33,
+    "author_chapters": 36
+  },
+  "chapter_verse_count": {
+    "1": 20,
+    "2": 15,
+    "3": 16,
+    "4": 16,
+    "5": 25,
+    "6": 21
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "1 Timothy is canonical book 54; prior 52 snapshots immutable.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes."
+  ]
+}

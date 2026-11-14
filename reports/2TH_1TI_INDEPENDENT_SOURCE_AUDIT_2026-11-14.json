@@ -1,0 +1,51 @@
+{
+  "total_files": 73,
+  "author_chapters": 54,
+  "native_source_records": 386,
+  "helloao_original_items": 159,
+  "native_index_coordinates": 800,
+  "reader_verse_routes": 790,
+  "P_section_count": 52,
+  "original_entries": 545,
+  "original_source_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "book_results": {
+    "2TH": {
+      "chapters": 3,
+      "verses": 47,
+      "entries": 189,
+      "verse_routes": 228,
+      "P_sections": 19,
+      "expected_KD_missing": 3
+    },
+    "1TI": {
+      "chapters": 6,
+      "verses": 113,
+      "entries": 356,
+      "verse_routes": 562,
+      "P_sections": 33,
+      "expected_KD_missing": 6
+    }
+  },
+  "source_gaps": [
+    {
+      "book": "1TI",
+      "chapter": 5,
+      "author": "john-gill",
+      "verses_without_original_entry": [
+        13
+      ]
+    }
+  ],
+  "errors": [],
+  "release_status": "PASS_SOURCE_SCHEMA_NAVIGATION_AND_ZIP_INTEGRITY",
+  "live_browser_status": "NOT_VERIFIED_BROWSER_BLOCKED",
+  "source_file_sha256_verified_against_archives": true,
+  "navigation_baseline_preserved_52_books": true
+}
