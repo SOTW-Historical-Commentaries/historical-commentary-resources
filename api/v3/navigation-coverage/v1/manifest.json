@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.44-additive-colossians-first-thessalonians",
+  "version": "navigation-coverage-v1.45-additive-second-thessalonians-first-timothy",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -56,7 +56,9 @@
     "EPH",
     "PHP",
     "COL",
-    "1TH"
+    "1TH",
+    "2TH",
+    "1TI"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -110,7 +112,9 @@
     "EPH": "structured-ephesians-2026-11-13",
     "PHP": "structured-philippians-2026-11-13",
     "COL": "structured-colossians-2026-11-14",
-    "1TH": "structured-first-thessalonians-2026-11-14"
+    "1TH": "structured-first-thessalonians-2026-11-14",
+    "2TH": "structured-second-thessalonians-2026-11-14",
+    "1TI": "structured-first-timothy-2026-11-14"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -124,7 +128,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 7501,
+    "original_P_sections": 7553,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -178,7 +182,9 @@
       "EPH": 44,
       "PHP": 36,
       "COL": 32,
-      "1TH": 28
+      "1TH": 28,
+      "2TH": 19,
+      "1TI": 33
     },
     "routed_by_book": {
       "GEN": 64,
@@ -232,16 +238,18 @@
       "EPH": 44,
       "PHP": 36,
       "COL": 32,
-      "1TH": 28
+      "1TH": 28,
+      "2TH": 19,
+      "1TI": 33
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.43-additive-ephesians-philippians",
+  "previous_manifest_version": "navigation-coverage-v1.44-additive-colossians-first-thessalonians",
   "additive_release_notes": [
-    "Paired canonical books 51 and 52, Colossians and 1 Thessalonians; source-locked NT SWORD and HelloAO Gill.",
-    "All preceding 50 book snapshot identities and source/routed P counts preserved exactly from live baseline.",
+    "Paired canonical books 53 and 54, 2 Thessalonians and 1 Timothy; source-locked NT SWORD and HelloAO Gill.",
+    "All preceding 52 book snapshot identities and source/routed P counts preserved exactly from live baseline.",
     "Both books use source-bounded original prefatory and passage heading fragments.",
     "Three previously held source group sections remain unassigned; no speculative applicability added.",
     "Upload cumulative navigation manifest only LAST after the complete two-book files, with baseline drift check.",
-    "Baseline commit bdadbef0e25f1d50d0604fdad079eb0166ea26b4, baseline navigation Git blob 51e7264b59540cab471277b7513639cd71a4051f."
+    "Baseline commit f56c7c94165009808d88ca8feb1e3550fbe7c080, baseline navigation Git blob c65f7343698f72a66d91ee2d209ad7cbc6a22a69."
   ]
 }
