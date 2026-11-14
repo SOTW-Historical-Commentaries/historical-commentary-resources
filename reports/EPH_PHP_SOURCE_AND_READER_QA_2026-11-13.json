@@ -1,0 +1,139 @@
+{
+  "kind": "sotw_epistles_source_first_verification",
+  "date": "2026-11-13",
+  "status": "PASS_LOCAL_STAGING",
+  "repository_baseline_commit": "8d6d9a6cb668b7306e92d2c0f39de624fedb5599",
+  "original_source_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "audit": {
+    "status": "PASS",
+    "errors": [],
+    "error_count": 0,
+    "stats": {
+      "author_chapter_files": 60,
+      "verified_sword_source_records": 788,
+      "audited_entry_pointers": 1271,
+      "audited_P_sections": 80,
+      "audited_chapter_files": 60,
+      "audited_books": 2,
+      "main_previous_books_preserved": 48
+    },
+    "book_counts": {
+      "EPH": {
+        "original_entries": 626,
+        "navigation_sections": 44,
+        "reader_visible_entries": 626,
+        "sword_chapters": 24,
+        "helloao_chapters": 6,
+        "verse_author_routes": 764,
+        "chapters": 6,
+        "author_chapters": 36,
+        "P_source_sections": 44,
+        "inherited_P_references": 0,
+        "P_routed_sections": 44
+      },
+      "PHP": {
+        "original_entries": 421,
+        "navigation_sections": 36,
+        "reader_visible_entries": 421,
+        "sword_chapters": 16,
+        "helloao_chapters": 4,
+        "verse_author_routes": 507,
+        "chapters": 4,
+        "author_chapters": 24,
+        "P_source_sections": 36,
+        "inherited_P_references": 0,
+        "P_routed_sections": 36
+      }
+    },
+    "limits": "Checks original available SWORD NT binary sources, Gill original items, all indexed routes, every source P fragment hash and reference. Local reader browser test separate."
+  },
+  "local_chromium_interaction_tests": {
+    "status": "PASS",
+    "tests": [
+      [
+        "EPH",
+        "initial verse renders",
+        3782
+      ],
+      [
+        "EPH",
+        "Gill original commentary loads"
+      ],
+      [
+        "EPH",
+        "Keil unavailable exposed correctly"
+      ],
+      [
+        "EPH",
+        "book-level P from original author loads"
+      ],
+      [
+        "EPH",
+        "chapter change resets to verse"
+      ],
+      [
+        "EPH",
+        "last verse next boundary safe"
+      ],
+      [
+        "EPH",
+        "JFB source P navigation works"
+      ],
+      [
+        "EPH",
+        "mobile width no overflow"
+      ],
+      [
+        "PHP",
+        "initial verse renders",
+        4774
+      ],
+      [
+        "PHP",
+        "Gill original commentary loads"
+      ],
+      [
+        "PHP",
+        "Keil unavailable exposed correctly"
+      ],
+      [
+        "PHP",
+        "book-level P from original author loads"
+      ],
+      [
+        "PHP",
+        "chapter change resets to verse"
+      ],
+      [
+        "PHP",
+        "last verse next boundary safe"
+      ],
+      [
+        "PHP",
+        "JFB source P navigation works"
+      ],
+      [
+        "PHP",
+        "mobile width no overflow"
+      ]
+    ]
+  },
+  "browser_test_method": "Chromium via Playwright page.set_content; fetch() mocked to return exact generated local JSON files; actual GitHub Pages not tested; no production deployment.",
+  "original_source_fidelity": "Each output SWORD entry byte-compared with the native NT binary indexed original, plus Gill verse items text-compared to the original HelloAO JSON.",
+  "chapter_count": 10,
+  "historical_author_lanes_per_chapter": 6,
+  "known_unavailable": "Keil & Delitzsch original module has no New Testament text; source records intentionally have unavailable=true and zero entries.",
+  "not_claimed": [
+    "live GitHub Pages installation",
+    "owner visual browser acceptance on public URL",
+    "CGBC Bible Tools or sermon player integration"
+  ],
+  "no_direct_repository_writes": true
+}

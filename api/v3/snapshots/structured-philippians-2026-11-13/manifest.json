@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-philippians-2026-11-13",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "PHP"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 421,
+    "navigation_sections": 36,
+    "reader_visible_entries": 421,
+    "sword_chapters": 16,
+    "helloao_chapters": 4,
+    "verse_author_routes": 507,
+    "chapters": 4,
+    "author_chapters": 24,
+    "P_source_sections": 36,
+    "inherited_P_references": 0,
+    "P_routed_sections": 36
+  },
+  "chapter_verse_count": {
+    "1": 30,
+    "2": 30,
+    "3": 21,
+    "4": 23
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Philippians is canonical book 50, previous 48 snapshot pointers are immutable.",
+    "Keil & Delitzsch has no New Testament commentary in original archive.",
+    "Staging reader and original source records only. Owner manual installation; no CGBC player changes."
+  ]
+}

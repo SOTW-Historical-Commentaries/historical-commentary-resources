@@ -1,0 +1,615 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-epistles-paired-2026-11-13",
+  "books": [
+    "EPH",
+    "PHP"
+  ],
+  "names": [
+    "Ephesians",
+    "Philippians"
+  ],
+  "canonical_positions": [
+    49,
+    50
+  ],
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_main_commit": "8d6d9a6cb668b7306e92d2c0f39de624fedb5599",
+  "baseline_navigation_manifest_git_blob": "bdfd07aac43ae688ba39ec88b614764787e81b24",
+  "prerequisites": [
+    "Confirm live main HEAD exactly equals baseline; if not, stop and rebaseline the cumulative manifest.",
+    "Confirm cumulative navigation Git blob and original 48 snapshot pointers unchanged.",
+    "Upload batch 1 additive paths first, batch 2 cumulative navigation manifest LAST.",
+    "No direct CGBC player edits, deployment, schema changes, or promotion in this package."
+  ],
+  "source_archive_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 79,
+  "files": [
+    {
+      "path": "EPH_PHP_V3_INSTALL_NOTES.md",
+      "sha256": "2c1de8405084c77fd649fddd0a05064702a5cd7ccbef7f7b72260ed0959f5094",
+      "git_blob_sha": "85846a2cbfde80d81c08ff9cf9c22d1f43917993",
+      "bytes": 3414,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/EPH.json",
+      "sha256": "ee8789cc79568640bd9459d0eb7c18174cce2f932dd2e35188cfea3f141a6bdb",
+      "git_blob_sha": "a0de085436e44264ab06b9b5c78e000adcd8d0b5",
+      "bytes": 65258,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/PHP.json",
+      "sha256": "70e0c5e5fa9e1eac1e8a6e7fc368d59c8be09c749136590503a9177d6475be09",
+      "git_blob_sha": "113d3beb1d2307bff5e9c1e8c456d5369dd7b0a6",
+      "bytes": 53139,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "09b953d2994503080345a94cb99982ab10c3081ebae78f9246c2f9e1217bf617",
+      "git_blob_sha": "51e7264b59540cab471277b7513639cd71a4051f",
+      "bytes": 6402,
+      "install_policy": "replace_existing_cumulative_navigation_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/adam-clarke/EPH/1.json",
+      "sha256": "5bd1d357457e17d2291cd7faa0e3509c8e1c081d7ed3cbdae7d70bc30c0bb88a",
+      "git_blob_sha": "8b16031129e35da384a50085dddde1978761bcf4",
+      "bytes": 172764,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/adam-clarke/EPH/2.json",
+      "sha256": "fb8e1bc7f6bf6c63f9c0003d51388ab1ab7a88dd9c04e8ed2e2a0dff854f7599",
+      "git_blob_sha": "c10da9c1d2a0f58ca585ea2f20862451d221f5d3",
+      "bytes": 120170,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/adam-clarke/EPH/3.json",
+      "sha256": "d74c6d44fe7a4b4851a2057a33070f3b0fe9e28d1262c366a66f26d433b260a3",
+      "git_blob_sha": "1d023394da1281650fb18e9d0e258e069add2dcc",
+      "bytes": 142331,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/adam-clarke/EPH/4.json",
+      "sha256": "6b36da10cb5ddd23ef8a28de49915e18c34d96a94ce0e81ae53a6bf17d1f501e",
+      "git_blob_sha": "d741415b99432b7fa1c0a6337cf2d3a06e84f44c",
+      "bytes": 167994,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/adam-clarke/EPH/5.json",
+      "sha256": "1c97624dfb76f50eaf18e42c5aa4b3612694b5cf3c199e23918226f83f67ea66",
+      "git_blob_sha": "06b413e76faeea1b17cc2d67ba4e4b7a9728c16c",
+      "bytes": 169197,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/adam-clarke/EPH/6.json",
+      "sha256": "1e886428ec3ae70420c6abeb97f5492f09cdad77130d08a49e8187be0c027049",
+      "git_blob_sha": "96b5448ac399fae865519c20ac36bba0df917178",
+      "bytes": 156284,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/jamieson-fausset-brown/EPH/1.json",
+      "sha256": "4b17b1f509ced91cc2e96dbbb82d3cbe0ad3ab4d4cbde1abfc825ef4d5093796",
+      "git_blob_sha": "3fa91165613b319fce0dc97aada7a1d609975f6b",
+      "bytes": 162327,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/jamieson-fausset-brown/EPH/2.json",
+      "sha256": "27b4ecd7cb04b5bd6bc003ef79484df2ef9220b7d463b015c9fc70c3d2542b49",
+      "git_blob_sha": "94e812cf4bba17c38818fbedae76f33875382b72",
+      "bytes": 120438,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/jamieson-fausset-brown/EPH/3.json",
+      "sha256": "ad839b8c7e58a950959c2c6b6ff820f6b6ca65b441e4ca021cd3257c9912cbf3",
+      "git_blob_sha": "0d22aa3d3cde7eca52a2e75414f9cfc3657cfe28",
+      "bytes": 82642,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/jamieson-fausset-brown/EPH/4.json",
+      "sha256": "c49a046d9bc6deb324829b69573ed3655db756c682a67155d3cbdb523c25b2c0",
+      "git_blob_sha": "3dc83ad1114db7dfc39db9ac59ffd17685cb1de9",
+      "bytes": 153552,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/jamieson-fausset-brown/EPH/5.json",
+      "sha256": "cfb5850e49942e2fa90989e1fa3f54534eca34e57b7c79b17e66bf4c04a0e4ca",
+      "git_blob_sha": "5ae4db63590643ac0c2a6755e0c16a277579a679",
+      "bytes": 143201,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/jamieson-fausset-brown/EPH/6.json",
+      "sha256": "58255fbeb4d3d1f24e3459719c2f019c84523f7d8c356f526b3d3c7bc4e7f356",
+      "git_blob_sha": "3c62d7915a0c209cc90fc93af3c88614a45cd978",
+      "bytes": 106839,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-calvin/EPH/1.json",
+      "sha256": "8199aef6f65228cc88eb51949f331245e9aefd61b5fa4d76dc816f05cfc9ee84",
+      "git_blob_sha": "af8044c5df7f5c115d874f010c7a1176a8370e97",
+      "bytes": 207388,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-calvin/EPH/2.json",
+      "sha256": "3b86bf7a9f03e0800315c7e58b8ff8f860d31cfeb2b121091c3ecdceae295742",
+      "git_blob_sha": "35028e56da44fbe043ba2b023ad165dfd0304e85",
+      "bytes": 238281,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-calvin/EPH/3.json",
+      "sha256": "ae1a6489ee11c3d90309a649684c79be1dbfeabd793f4649e3b72bad7face582",
+      "git_blob_sha": "c7b7b1f24ec0a5067a3336b860409510183a6608",
+      "bytes": 178911,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-calvin/EPH/4.json",
+      "sha256": "76b2881540e4cc1dc26761f4d2695eca1a1275519a48834b8fd074b03fd2a7c3",
+      "git_blob_sha": "23a5256bb1ee26ebe972a73ab52f3f6d77372292",
+      "bytes": 322992,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-calvin/EPH/5.json",
+      "sha256": "23c836cda7eba9136d9a541dcc5555404ed545adf65a5d5aa0f216d1f82465dd",
+      "git_blob_sha": "1586c2d2ada809bb28ca3dd9fb6639ac2bf61cda",
+      "bytes": 225554,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-calvin/EPH/6.json",
+      "sha256": "c6167dd9d600f0d9d7304d269adb56d717404a3f7817e6c55eeda7f72362a6f0",
+      "git_blob_sha": "cd5a1d34fa776f19d673d4c42441a224d8cecb3c",
+      "bytes": 294227,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-gill/EPH/1.json",
+      "sha256": "7f1a7cf87cb42191da251dc6c99e71bb985fd39b7738ea3d70f1972b8ad2687e",
+      "git_blob_sha": "a09537844344ffb2790c0460d3b5f78febcdd0dd",
+      "bytes": 202215,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-gill/EPH/2.json",
+      "sha256": "507bd1ce31d28c84939417cc95115ced3aab3decf50865f6835bf3a9890cee49",
+      "git_blob_sha": "f2067d940486687e10a47361bfa8f9bc09668268",
+      "bytes": 189228,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-gill/EPH/3.json",
+      "sha256": "678022cab38c12008e436b7da1b3a2751e8b4c306fb4f719c182f0a80c795c10",
+      "git_blob_sha": "5f293f7a87d3f1cfd1d61e3d309a8efd6fd4944c",
+      "bytes": 129879,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-gill/EPH/4.json",
+      "sha256": "3348839184b3c5b21f0ce1db83f08267e63b0b16770a6b652be6233a85c059e7",
+      "git_blob_sha": "7a0a6d99583101b73328203107657c586b0e3870",
+      "bytes": 260523,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-gill/EPH/5.json",
+      "sha256": "27e4794c85c13c44dcc7c1aee670cf920e1bdec5963182ea9ba4e9e2ddb246d7",
+      "git_blob_sha": "ce4a9c58707ab25c5c42c08733c6e8167f7f8f29",
+      "bytes": 189417,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/john-gill/EPH/6.json",
+      "sha256": "bd689164b1fdf2e9eef56323f164fa907debc64987da2aacfa03e6b792e954a0",
+      "git_blob_sha": "e1ed3bf609f8bb4eb45329a9c0eb71e25a0ffbf5",
+      "bytes": 147081,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/keil-delitzsch/EPH/1.json",
+      "sha256": "b29b7cb5eedaa9898f09aea5909f8563353016f4d7e0d46caa7c4d0f20fa7f83",
+      "git_blob_sha": "024532072de2f90190a3609869e18e412c49890e",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/keil-delitzsch/EPH/2.json",
+      "sha256": "39f296a2130663116bc0ad9e2f8e87154356b7a2ab8818d498f68b11fb446fd7",
+      "git_blob_sha": "baad6f546348a00e7082461861e15b0a568d9f6a",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/keil-delitzsch/EPH/3.json",
+      "sha256": "67d5ff2d0ceddba75af65f1e47eb0b90a19c0d418beb3b138a1d5b52ce3e16df",
+      "git_blob_sha": "8a7dbc0b0179d998bc4d447238ba2ed11a4c6a96",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/keil-delitzsch/EPH/4.json",
+      "sha256": "0c806714c04efb8653c55c8bd2209300ae1a07fbdc6404ffdfc272d3b9086278",
+      "git_blob_sha": "6be298395f2e95de3afdcbdf741ad2c576022d01",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/keil-delitzsch/EPH/5.json",
+      "sha256": "2542127231ad0dc84a02a4927fe3f44d0afc45d5c35b47c27d23764a71081884",
+      "git_blob_sha": "bf3e4d26cd44749c25b0981fceccacdde565568f",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/keil-delitzsch/EPH/6.json",
+      "sha256": "afd25ce2cf378fa07dfd9106cd38a2aa4e99d14ddbc3ea8915d8b22466ef81bd",
+      "git_blob_sha": "1c13689571302b793583f43127d7b4340bd26d46",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/matthew-henry/EPH/1.json",
+      "sha256": "00fcd0a3377071d48db7b991c54786e71893dc3dd5ea2adad9180fec98aa8ded",
+      "git_blob_sha": "d840c06fdde0efe9bbc9e1fc5bd466b8926dcca4",
+      "bytes": 118301,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/matthew-henry/EPH/2.json",
+      "sha256": "292f0e2e93048a6bddea83531f4587fa8646418267a9e26152291c0183a2dc85",
+      "git_blob_sha": "958a16f114d7eab5d11c72938128bddea2501809",
+      "bytes": 92715,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/matthew-henry/EPH/3.json",
+      "sha256": "f80098c7625da5b9b3cf7e191081d0d6acc40827bbd5dbfa7704db07c13c3188",
+      "git_blob_sha": "72f13bbef19ced5d774bf8615ee471014376b1c2",
+      "bytes": 96286,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/matthew-henry/EPH/4.json",
+      "sha256": "e4bdfd77b7ef86abde6a8448a4168880820219bff24d4d44de8747ea86ee90d6",
+      "git_blob_sha": "2bb6b76541130f578b0e4d36be79188815f9a2cf",
+      "bytes": 159119,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/matthew-henry/EPH/5.json",
+      "sha256": "c46ab6217ac6223499e86051e603c262fd91c2f790a0412586c3463135ca2b26",
+      "git_blob_sha": "1a4e0c0d43abd23a43ba3e475e68d1322059875e",
+      "bytes": 133747,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/authors/matthew-henry/EPH/6.json",
+      "sha256": "b9531d55777f51f11a6dcb12f3a4433867f885495c9ea22e6dd95ea291ff0637",
+      "git_blob_sha": "0159c4417a84e4ccc0f72f293f1e088066ed9ba1",
+      "bytes": 122635,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/index/EPH/1.json",
+      "sha256": "fffb154ab4feb5fb31a99758172db22573d1b67247cb84786413ada72ab7a9ee",
+      "git_blob_sha": "9dec3a7c949bb80c84946b5b96b20f5d57db5def",
+      "bytes": 11293,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/index/EPH/2.json",
+      "sha256": "1a3bbe513e6429ace755e347b13728a7c58d832ff5ce75e0144fc0294eb6c1ba",
+      "git_blob_sha": "16b366c55ff2c5b008e9d4a003d0e07cae6c88e9",
+      "bytes": 10859,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/index/EPH/3.json",
+      "sha256": "a0b83a627ffdfbebad006cb1b591ceb954b732e263158e0af053548e7bdb8e3b",
+      "git_blob_sha": "06b373ed977b3d2160c7386fddbc29945d6de145",
+      "bytes": 9902,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/index/EPH/4.json",
+      "sha256": "71ff6b1bb3532064805594f4a2c3a3f03ae76fc17a4432e91673d203bde28f6f",
+      "git_blob_sha": "30cb977820d6d1bda00d0ea2f565d2d6f3d0ff6e",
+      "bytes": 13066,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/index/EPH/5.json",
+      "sha256": "8289d72413eb90225a4f152421c439324facde99d149e0f2a3cc94e7b6d795f8",
+      "git_blob_sha": "bdf2941ed51b594dc7d1966870b8638e5a5fc2bd",
+      "bytes": 13184,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/index/EPH/6.json",
+      "sha256": "fa0e25320f122a089d76867ddd4a9de2f935a7fe6c909398d2c968eed6d81369",
+      "git_blob_sha": "cfd02607b13db8a7aacff5ee9773d12862d158e5",
+      "bytes": 10818,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-ephesians-2026-11-13/manifest.json",
+      "sha256": "284445304e08e0bd40f8f229bf2970f791c722e0597367bc877bf4307b2914de",
+      "git_blob_sha": "1e66ce5c28b738d47421c7d66dc0882f4196f89b",
+      "bytes": 1637,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/adam-clarke/PHP/1.json",
+      "sha256": "9fd235de97a185821947ea017e14a8e51e81a3e714de72ec92dccdbaa211361e",
+      "git_blob_sha": "2207418d035c9be80b0f40eaa48668eab03f2129",
+      "bytes": 118572,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/adam-clarke/PHP/2.json",
+      "sha256": "50e21ccc95ab71fc481cbc6b8230ec82c29f4b3a0b4a4133e94fa566f7ee22ca",
+      "git_blob_sha": "bbecf840502cd8920675c0f7183334f6ec066df7",
+      "bytes": 124134,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/adam-clarke/PHP/3.json",
+      "sha256": "11c9910c514a8e6b532e64276568b6bb0130924430bd0ac1e07e3797b6281628",
+      "git_blob_sha": "7058ad1d638f99871c32c2935f207dd59fbe4b17",
+      "bytes": 99840,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/adam-clarke/PHP/4.json",
+      "sha256": "91914e681904f5b60c5a0aa863ca26e70e67e0eafbde2fd1ba4334d92a8528da",
+      "git_blob_sha": "5a5ef98f314b62b61dba211b256d56733aedfd1a",
+      "bytes": 89142,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/jamieson-fausset-brown/PHP/1.json",
+      "sha256": "42eba5fd3cda185540ca6fffe439df3f3eca4cba518901e2b4b6abc1ee3dcec9",
+      "git_blob_sha": "c480efcf13e85c6f9217e36b5187da5b41bed1f8",
+      "bytes": 156945,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/jamieson-fausset-brown/PHP/2.json",
+      "sha256": "0be1033043493fcdea182513970b612492f2f7336d48d0eb6da435428cea7d7d",
+      "git_blob_sha": "1453bc204df85af1ca4a0f000f43b2cb1c731602",
+      "bytes": 124215,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/jamieson-fausset-brown/PHP/3.json",
+      "sha256": "5f8f8c5267cd6e0d8dafc73bf9d2d09bb5aa843ce9209302928bd33dd77667e9",
+      "git_blob_sha": "0a4a3ee4546c48ab61eebad53f58907c9ccb8de0",
+      "bytes": 101843,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/jamieson-fausset-brown/PHP/4.json",
+      "sha256": "6608bc7585aa29be4993f5569de8f03353cabcbf05e51748fda43f63c2c4190b",
+      "git_blob_sha": "3e85dcb449e8fc77f89225441621e8a933ac913f",
+      "bytes": 84858,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-calvin/PHP/1.json",
+      "sha256": "4b1d3c80ae3a2f4736801e26dd8b6231e16f1dd305c2e71f82fe474934908944",
+      "git_blob_sha": "85c080492a3c9e6b62c99467dc784d28d1a591bd",
+      "bytes": 261266,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-calvin/PHP/2.json",
+      "sha256": "df692ee76c30bacef5142efe608aba6924bf19a04c9e71d5e7544f67b849b960",
+      "git_blob_sha": "8166d8395c220929ef221ba2ed6a132a7050ffd7",
+      "bytes": 316482,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-calvin/PHP/3.json",
+      "sha256": "486732794564f83ff8c05bc398b3af2ea7ae8d21efa88e5cadb6828f04d95030",
+      "git_blob_sha": "f02456dbc4e4623ccb4060c8c522a165d4d2b08b",
+      "bytes": 229310,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-calvin/PHP/4.json",
+      "sha256": "49058e6464f89e4e366751d26e63d7033c6bffdce885c20b8352535df738bc80",
+      "git_blob_sha": "24dfb1ca1d3f9d1a372005fb0df039ce499ba6b1",
+      "bytes": 216186,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-gill/PHP/1.json",
+      "sha256": "c0e81ca92c85d0ef42c81f5cf33d7f964a5ffc1727e9e605a39cd0efaef36a97",
+      "git_blob_sha": "720f75aaa41bdca2d62300675edbbe317da25fea",
+      "bytes": 330717,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-gill/PHP/2.json",
+      "sha256": "f79c38a1e88a8c641f977dadb0469983498ce78fa472b90dfca79160d69b2c0c",
+      "git_blob_sha": "f808c36e4ce20b23583d7ad4f25bcd9de004a3ea",
+      "bytes": 263741,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-gill/PHP/3.json",
+      "sha256": "e8793ebe75a5dd37ba6d809570515986fe47e6e4651179e3e8966d353c48b272",
+      "git_blob_sha": "9fcb083857f57bd914e30290dcef98933d758d50",
+      "bytes": 242459,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/john-gill/PHP/4.json",
+      "sha256": "2bcdd6bb3de8c378de5ddf814f48289321d669a32ba6d1e7d45e0662a2b548da",
+      "git_blob_sha": "6c1adf8a53e7ec3c79af0c7a7988c1c51db1515d",
+      "bytes": 170150,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/keil-delitzsch/PHP/1.json",
+      "sha256": "30b360987bab4a111aebe06258ac979d4a25e85dac371da28445ee6d4e87c661",
+      "git_blob_sha": "6768e76654e927d61b28641f4112316ceed9d208",
+      "bytes": 1501,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/keil-delitzsch/PHP/2.json",
+      "sha256": "541ec112a1c17f4da006f1f24be9125589856fb928b911d649b0f8fd31a6b2a7",
+      "git_blob_sha": "3c4043b5da142e2f7a127d88a3c90ab3654ec64f",
+      "bytes": 1501,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/keil-delitzsch/PHP/3.json",
+      "sha256": "449c21cc4ce8cd0fbb6058a36f937edc6aebb0cafe3ae3b0d1bcb2154a1ce72c",
+      "git_blob_sha": "6aa4f3904f427ea1b8fdf4d1a2d1af731b48c7d2",
+      "bytes": 1501,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/keil-delitzsch/PHP/4.json",
+      "sha256": "ae1cb3b14982694c8b24a2084a10dff738265cbd801014bc991e6e4f41fde554",
+      "git_blob_sha": "cd8aa1824733c34862122ef487d8a825fda3913d",
+      "bytes": 1501,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/matthew-henry/PHP/1.json",
+      "sha256": "531a15a0f69d9b81d86f2ed5ec8fff0d850cb7ca7d5e54dbb339c305106d29a6",
+      "git_blob_sha": "a0462971262c917ab58c55e7ed8cf5ebf33e6a4c",
+      "bytes": 176636,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/matthew-henry/PHP/2.json",
+      "sha256": "ed2e0940c45729bcfd0f59072afe17a21486dc97ced818f3a0b2fbe653e22ce1",
+      "git_blob_sha": "7039cffa0fcf3664a195000008ea795538aa41b6",
+      "bytes": 121329,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/matthew-henry/PHP/3.json",
+      "sha256": "ba345e1690d1ed8e3ac6258725b41643530878abb2632c8dfde9ee83ec00e53b",
+      "git_blob_sha": "1a3d9f4a5aefb6606a8f105c3ae9fa00c4fab1f9",
+      "bytes": 117399,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/authors/matthew-henry/PHP/4.json",
+      "sha256": "09da299ed7c3b0ef77640c9dfe9d07911401241576962498b27053c6b15881d3",
+      "git_blob_sha": "f09647d75570088a4768253ce6c12ddbe77503f8",
+      "bytes": 98364,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/index/PHP/1.json",
+      "sha256": "2f406292633987b59c4e1be5446651ea696968cb693d45ad7dae436f67f800c5",
+      "git_blob_sha": "54de8ad73e7a3292598acf302f88dfb2716374fe",
+      "bytes": 14379,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/index/PHP/2.json",
+      "sha256": "d7d5f0b1acf75e93400b4e96a5f8245ed50ee2a289ab60bfd2d12a1f97654e74",
+      "git_blob_sha": "6bcff5c7ab3311b4e8bc04a0b80c08f34b8abfea",
+      "bytes": 12734,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/index/PHP/3.json",
+      "sha256": "f3236807d59775b8537aa475702ed749946d5f36165d85d79f4edb230b14bcfe",
+      "git_blob_sha": "8a162443be8ba49e0b55d7cc254f4b1bcd6427f1",
+      "bytes": 10535,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/index/PHP/4.json",
+      "sha256": "883cf190c125ea1c939d7671ad3082dfed8d7dff800fe1bb335e2d9ad4de3f8b",
+      "git_blob_sha": "832c3d6410df3d7d02ab3f83279654e065cef66a",
+      "bytes": 10413,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philippians-2026-11-13/manifest.json",
+      "sha256": "8e4db01940101cbb253e97a505f7323238e5ba9b9ea83b01e3ba3029a5283c61",
+      "git_blob_sha": "7ad324e8a8a7b8eca2f310aa60d4b98e86ffac27",
+      "bytes": 1615,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/EPH_PHP_SOURCE_AND_READER_QA_2026-11-13.json",
+      "sha256": "96df043333259a07a789a45431f0c3e72d70e138610471742025c9cad762d9ed",
+      "git_blob_sha": "867be1258e24eb3fbf71745e65b7c03e47f17c01",
+      "bytes": 4174,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-ephesians-v3.html",
+      "sha256": "56617f7581c2e4cc70379f49d02b407b237fe8103f77717b1963eec77eedc8a6",
+      "git_blob_sha": "17ef497b795ba3c277ad6d736da0444d1a02ca7f",
+      "bytes": 12112,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-philippians-v3.html",
+      "sha256": "fec67d82fa70f3da2be416377b6f70d4da263eb1b71963f0360950e39b05a750",
+      "git_blob_sha": "58c6f936ac4d676eab350a87e3121b277cd28993",
+      "bytes": 12112,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "counts": {
+    "books": 2,
+    "chapters": 10,
+    "canonical_verses": 259,
+    "author_source_roster": 6,
+    "authors_with_primary_NT_commentary": 5,
+    "author_chapter_files": 60,
+    "original_source_entries": 1047,
+    "verse_author_routes": 1271,
+    "original_P_sections": 80,
+    "routed_P_sections": 80
+  },
+  "qa": {
+    "source_audit": "PASS",
+    "source_byte_records_verified": 788,
+    "john_gill_items_verified": 259,
+    "chapter_source_files_verified": 60,
+    "navigation_assertions_checked": 1271,
+    "source_P_sections_verified": 80,
+    "reader_interaction": "PASS_LOCAL_CHROMIUM",
+    "browser_scenarios": 16,
+    "live_visual": "OWNER_PENDING",
+    "github_writes": 0
+  },
+  "release_scope": "Additive EPH/PHP source JSON, indexes, book manifests, coverage overlay, staging readers, and audit/notes plus a final cumulative navigation manifest.",
+  "publication_gate": "Owner installs batches and verifies exact live hashes, successful Pages run for final commit, and both readers visually before production promotion."
+}
