@@ -1,0 +1,56 @@
+{
+  "validated_original_sword_records": 553,
+  "validated_helloao_items": 184,
+  "native_index_coordinates": 920,
+  "unavailable_KD_chapters": 9,
+  "source_P_sections": 60,
+  "hash_validation_errors": [],
+  "source_archives": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "books": {
+    "COL": {
+      "verses": 95,
+      "original_entries": 382,
+      "navigation_sections": 32,
+      "reader_visible_entries": 382,
+      "verse_author_routes": 460,
+      "sword_chapters": 16,
+      "helloao_chapters": 4,
+      "chapters": 4,
+      "P_source_sections": 32,
+      "inherited_P_references": 0,
+      "P_routed_sections": 32,
+      "author_chapters": 24
+    },
+    "1TH": {
+      "verses": 89,
+      "original_entries": 355,
+      "navigation_sections": 28,
+      "reader_visible_entries": 355,
+      "verse_author_routes": 428,
+      "sword_chapters": 20,
+      "helloao_chapters": 5,
+      "chapters": 5,
+      "P_source_sections": 28,
+      "inherited_P_references": 0,
+      "P_routed_sections": 28,
+      "author_chapters": 30
+    }
+  },
+  "status": "PASS_SOURCE_AND_NAV_INTEGRITY",
+  "baseline_commit": "bdadbef0e25f1d50d0604fdad079eb0166ea26b4",
+  "baseline_navigation_blob": "51e7264b59540cab471277b7513639cd71a4051f",
+  "release_books": [
+    "COL",
+    "1TH"
+  ],
+  "publication_lane": "STAGING_NOT_PRODUCTION",
+  "live_visual": "OWNER_PENDING",
+  "github_writes": 0
+}

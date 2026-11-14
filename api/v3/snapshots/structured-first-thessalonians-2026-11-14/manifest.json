@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-first-thessalonians-2026-11-14",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "1TH"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 355,
+    "navigation_sections": 28,
+    "reader_visible_entries": 355,
+    "verse_author_routes": 428,
+    "sword_chapters": 20,
+    "helloao_chapters": 5,
+    "chapters": 5,
+    "P_source_sections": 28,
+    "inherited_P_references": 0,
+    "P_routed_sections": 28,
+    "author_chapters": 30
+  },
+  "chapter_verse_count": {
+    "1": 10,
+    "2": 20,
+    "3": 13,
+    "4": 18,
+    "5": 28
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "1 Thessalonians is canonical book 52; prior 50 snapshots immutable.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes."
+  ]
+}

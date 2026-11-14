@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Source-faithful historical Bible commentary study reader. Original authors, source-linked verses, original book and passage introductions.">
+<title>Colossians | SOTW Historical Commentaries</title>
+<style>
+:root{color-scheme:light;--ink:#152a2e;--teal:#126259;--pale:#e9f4f1;--border:#c9d7d3;--back:#f7faf8}
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;margin:0;background:var(--back);color:var(--ink);line-height:1.55}
+header{background:#183a3d;color:#fff;padding:21px max(18px,calc((100vw - 1160px)/2));}header h1{margin:0 0 5px;font-size:clamp(1.45rem,4vw,2.2rem);font-weight:750}header p{margin:0;color:#dcece8}
+main{max-width:1200px;margin:0 auto;padding:20px 18px 50px}.alert{border:1px solid #b0cac3;border-radius:10px;padding:13px 16px;background:#eff8f4;font-size:.89rem}
+.controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:16px 0}.controls label{display:block;font-size:.81rem;font-weight:700;margin-bottom:5px}.controls select{width:100%;padding:10px;border:1px solid var(--border);border-radius:8px;background:white;font-size:1rem}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 17px}button{border:1px solid #8bb3a6;color:#224d47;background:white;border-radius:8px;padding:9px 12px;cursor:pointer;font:inherit}button:focus-visible{outline:3px solid #f2bc59;outline-offset:2px}button.active{background:var(--teal);color:white;border-color:var(--teal)}button[disabled]{opacity:.45;cursor:not-allowed}
+.layout{display:grid;grid-template-columns:minmax(190px,260px) minmax(0,1fr);gap:20px}.panel{background:white;border:1px solid var(--border);border-radius:11px;overflow:hidden}.sidebar h2{font-size:1rem;background:#e5efeb;margin:0;padding:13px 14px}.sidebar p{font-size:.83rem;margin:8px 14px;color:#526460}.sidebar .links{padding:0 10px 14px;display:grid;gap:5px;max-height:540px;overflow:auto}.links button{text-align:left;padding:8px 10px;overflow-wrap:anywhere;font-size:.83rem}
+.reading{padding:24px}.reading h2{font-size:1.35rem;margin:0 0 5px;line-height:1.3}.reading .meta{font-size:.83rem;color:#52645e;margin-bottom:18px}.reading .body{font-family:Georgia,'Times New Roman',serif;font-size:1.075rem;line-height:1.72;white-space:pre-wrap;overflow-wrap:anywhere}.reading .body.empty{font-family:system-ui,sans-serif;font-size:.95rem;color:#5c6664}
+footer{max-width:1160px;margin:0 auto;padding:8px 18px 32px;color:#596e69;font-size:.8rem}footer a{color:var(--teal)}@media(max-width:720px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}.controls .control:first-child{grid-column:1 / -1}.layout{display:flex;flex-direction:column}.sidebar .links{max-height:200px;grid-template-columns:repeat(2,minmax(0,1fr))}.reading{padding:17px}}
+</style></head><body>
+<header><h1>Colossians</h1><p>Servants of the Way · Historical Commentary Library · Source-first v3 review</p></header>
+<main><div class="alert"><strong>Staging review.</strong> These are distinct historical source editions. The verse reader does not fill in missing commentary. The optional <strong>P</strong> sections are original non-Scripture source introductions/headings, scoped to the book, chapter or explicitly supported passage. This is not an endorsement of a commentator's theology.</div>
+<div class="controls"><div class="control"><label for="author">Historical commentary</label><select id="author"></select></div><div class="control"><label for="chapter">Chapter</label><select id="chapter"></select></div><div class="control"><label for="verse">Verse</label><select id="verse"></select></div></div>
+<div class="actions"><button id="verseMode" type="button">Verse commentary</button><button id="pMode" type="button">P · Source introductions</button><button id="previous" type="button">Previous verse</button><button id="next" type="button">Next verse</button><button id="copy" type="button">Copy link</button></div>
+<div class="layout"><aside class="panel sidebar"><h2 id="sideTitle">Source navigation</h2><p id="sideHint"></p><div class="links" id="links"></div></aside>
+<section class="panel reading" aria-live="polite"><h2 id="title">Loading source…</h2><div class="meta" id="meta"></div><div class="body" id="body"></div></section></div>
+</main><footer>Provider: Servants of the Way Commentary Library. The historical authors retain original authorship. Acquisition: CrossWire/SWORD and HelloAO. Original work title, module edition, archive hash, source locator and rights notices accompany chapter JSON files. Scripture translation selection remains separate from commentary. No CGBC player integration is implied.</footer>
+<script>
+'use strict';
+const BOOK='COL',NAME='Colossians',SNAP='structured-colossians-2026-11-14',CHAPTERS=4,COUNTS=[29, 23, 25, 18];
+const AUTHORS={"matthew-henry": "Matthew Henry", "john-calvin": "John Calvin", "adam-clarke": "Adam Clarke", "jamieson-fausset-brown": "Jamieson, Fausset & Brown", "keil-delitzsch": "Keil & Delitzsch", "john-gill": "John Gill"};
+const $=id=>document.getElementById(id),cache=new Map(),qs=new URLSearchParams(location.search);
+const state={author:AUTHORS[qs.get('author')]?qs.get('author'):'matthew-henry',chapter:clamp(+qs.get('chapter')||1,1,CHAPTERS),verse:+qs.get('verse')||1,mode:qs.get('mode')==='p'?'p':'verse',p:qs.get('p')||null};
+let coverage=null,doc=null,idx=null,seq=0;
+function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
+function choose(id,opts,val){let el=$(id);el.replaceChildren();for(let [key,text] of opts){let node=document.createElement('option');node.value=String(key);node.textContent=text;el.append(node)}el.value=String(val)}
+function msg(s,empty=false){$('body').textContent=s;$('body').classList.toggle('empty',empty)}
+async function get(p){if(!cache.has(p))cache.set(p,fetch(p).then(r=>{if(!r.ok)throw Error('Cannot read source: '+p+' (HTTP '+r.status+')');return r.json()}).catch(err=>{cache.delete(p);throw err}));return cache.get(p)}
+function chapterPath(author,ch){return 'api/v3/snapshots/'+SNAP+'/authors/'+author+'/'+BOOK+'/'+ch+'.json'}
+function indexPath(ch){return 'api/v3/snapshots/'+SNAP+'/index/'+BOOK+'/'+ch+'.json'}
+function ref(s){let x=/^([A-Z0-9]+)\.(\d+)\.(\d+)$/.exec(s||'');return x?{book:x[1],ch:+x[2],v:+x[3]}:null}
+function compare(a,b){return a.ch===b.ch?a.v-b.v:a.ch-b.ch}
+function eligible(s){if(s.status!=='active'||!s.eligible_books?.includes(BOOK))return false;
+ if(s.scope==='book')return true;
+ if(s.scope==='chapter'){const m=String(s.source?.chapter_file||'').match(/\/(\d+)\.json$/);return !!(m && +m[1]===state.chapter)}
+ if(s.scope==='passage'){const a=ref(s.passage_start),b=ref(s.passage_end),here={book:BOOK,ch:state.chapter,v:state.verse};return !!(a&&b&&a.book===BOOK&&b.book===BOOK&&compare(here,a)>=0&&compare(here,b)<=0)}
+ return false}
+function sections(){return (coverage?.author_sections?.[state.author]||[]).filter(eligible)}
+function updateURL(){const u=new URL(location.href);for(let [k,v]of Object.entries({author:state.author,chapter:state.chapter,verse:state.verse,mode:state.mode,p:state.mode==='p'?state.p:null})){if(v===null)u.searchParams.delete(k);else u.searchParams.set(k,String(v))}history.replaceState(null,'',u)}
+function button(label,cb,active){let b=document.createElement('button');b.type='button';b.textContent=label;b.classList.toggle('active',!!active);b.addEventListener('click',cb);$('links').append(b)}
+function displayVerse(){let ids=idx?.verse_routes?.[state.verse]?.[state.author]||[];
+ $('title').textContent=NAME+' '+state.chapter+':'+state.verse;
+ $('meta').textContent=AUTHORS[state.author]+' · '+(doc.source?.module_title||doc.source?.source_work_title||'Original historical source')+' · '+(doc.source?.module_version||'Original edition');
+ if(!ids.length){msg(doc.unavailable_author_work_for_testament?'No New Testament commentary exists in the supplied original Keil & Delitzsch module.':'No commentary is indexed by this original source for this verse. No neighboring verse was substituted.',true);return}
+ let content=ids.map(i=>doc.entries?.[i]?.reader_content_plain??doc.entries?.[i]?.content_plain??'').filter(Boolean).join('\n\n');msg(content||'The original indexed source record is empty.',!content)}
+async function displayP(myseq){const s=sections().find(x=>x.section_id===state.p);if(!s){state.mode='verse';state.p=null;displayVerse();return}
+ const file=s.source?.chapter_file;if(!file){msg('Original source pointer unavailable.',true);return}
+ const src=await get(file);if(myseq!==seq)return;
+ const nav=src.navigation_sections?.find(x=>x.section_id===s.section_id);
+ $('title').textContent=s.title;$('meta').textContent=AUTHORS[state.author]+' · P non-Scripture · '+s.scope+' · source-backed';
+ msg(nav?.content_plain||'Cannot locate this source section in its original chapter record.',!nav?.content_plain)}
+async function render(){const mine=++seq;try{
+ state.chapter=clamp(state.chapter,1,CHAPTERS);state.verse=clamp(state.verse,1,COUNTS[state.chapter-1]);
+ choose('author',Object.entries(AUTHORS),state.author);choose('chapter',Array.from({length:CHAPTERS},(_,i)=>[i+1,'Chapter '+(i+1)]),state.chapter);choose('verse',Array.from({length:COUNTS[state.chapter-1]},(_,i)=>[i+1,'Verse '+(i+1)]),state.verse);
+ const [x,y]=await Promise.all([get(indexPath(state.chapter)),get(chapterPath(state.author,state.chapter))]);if(mine!==seq)return;idx=x;doc=y;
+ let available=sections();if(state.mode==='p'&&!available.some(x=>x.section_id===state.p)){state.mode='verse';state.p=null}
+ $('verseMode').classList.toggle('active',state.mode==='verse');$('pMode').classList.toggle('active',state.mode==='p');$('links').replaceChildren();
+ if(state.mode==='verse'){$('sideTitle').textContent='Original source index';$('sideHint').textContent='○ indicates a verse without an indexed source record.';
+ for(let v=1;v<=idx.verse_count;v++){const ok=!!idx.verse_routes?.[v]?.[state.author];button((ok?'':'○ ')+'Verse '+v,()=>{state.verse=v;state.mode='verse';render()},state.verse===v)}displayVerse()}
+ else{$('sideTitle').textContent='P · original source sections';$('sideHint').textContent='Only introductions/headings authorized for the current passage.';
+ for(let s of available)button(s.title,()=>{state.p=s.section_id;render()},s.section_id===state.p);await displayP(mine)}
+ if(mine===seq)updateURL();
+ }catch(e){if(mine!==seq)return;$('title').textContent='Source unavailable';msg(String(e.message||e),true);console.error(e)}}
+$('author').addEventListener('change',e=>{state.author=e.target.value;state.mode='verse';state.p=null;render()});
+$('chapter').addEventListener('change',e=>{state.chapter=+e.target.value;state.verse=1;state.mode='verse';state.p=null;render()});
+$('verse').addEventListener('change',e=>{state.verse=+e.target.value;state.mode='verse';state.p=null;render()});
+$('verseMode').addEventListener('click',()=>{state.mode='verse';state.p=null;render()});
+$('pMode').addEventListener('click',()=>{let available=sections();if(!available.length){$('title').textContent='No original P sections at this passage';msg('Choose another chapter, verse, or historical author.',true);return}state.mode='p';state.p=available[0].section_id;render()});
+$('previous').addEventListener('click',()=>{state.mode='verse';state.p=null;if(state.verse>1)state.verse--;else if(state.chapter>1){state.chapter--;state.verse=COUNTS[state.chapter-1]}render()});
+$('next').addEventListener('click',()=>{state.mode='verse';state.p=null;if(state.verse<COUNTS[state.chapter-1])state.verse++;else if(state.chapter<CHAPTERS){state.chapter++;state.verse=1}render()});
+$('copy').addEventListener('click',()=>{if(navigator.clipboard?.writeText)navigator.clipboard.writeText(location.href).then(()=>{$('copy').textContent='Copied'}).catch(()=>{});else prompt('Copy source link',location.href)});
+get('api/v3/navigation-coverage/v1/books/'+BOOK+'.json').then(v=>{coverage=v;render()}).catch(e=>{$('title').textContent='Navigation unavailable';msg(String(e),true)});
+</script></body></html>

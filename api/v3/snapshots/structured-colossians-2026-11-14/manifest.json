@@ -1,0 +1,48 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-colossians-2026-11-14",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "COL"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 382,
+    "navigation_sections": 32,
+    "reader_visible_entries": 382,
+    "verse_author_routes": 460,
+    "sword_chapters": 16,
+    "helloao_chapters": 4,
+    "chapters": 4,
+    "P_source_sections": 32,
+    "inherited_P_references": 0,
+    "P_routed_sections": 32,
+    "author_chapters": 24
+  },
+  "chapter_verse_count": {
+    "1": 29,
+    "2": 23,
+    "3": 25,
+    "4": 18
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Colossians is canonical book 51; prior 50 snapshots immutable.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes."
+  ]
+}
