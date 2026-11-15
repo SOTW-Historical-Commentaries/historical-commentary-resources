@@ -1,0 +1,49 @@
+{
+  "status": "PASS_SOURCE_AND_STRUCTURE_ONLY",
+  "baseline": "b9bdb2d9d830e70868aed8a9b3607235ab3f224e",
+  "baseline_navigation_git_blob": "60b4fce758907627408659b8a6db9b5ac7f2e3ae",
+  "source_archives_verified": true,
+  "canonical_grid": {
+    "2TI": [
+      18,
+      26,
+      17,
+      22
+    ],
+    "TIT": [
+      16,
+      15,
+      15
+    ]
+  },
+  "checks": {
+    "2TI": {
+      "chapter_indexes": 4,
+      "author_files": 24,
+      "original_entries_sha_checked": 266,
+      "verse_author_routes": 415,
+      "unindexed_source_slots": 83,
+      "unavailable_KD_chapters": 4,
+      "P_source_sections": 28,
+      "all_original_sources_checked": true,
+      "original_P_boundaries_checked": true,
+      "chapter_index_routes_checked": true
+    },
+    "TIT": {
+      "chapter_indexes": 3,
+      "author_files": 18,
+      "original_entries_sha_checked": 149,
+      "verse_author_routes": 230,
+      "unindexed_source_slots": 46,
+      "unavailable_KD_chapters": 3,
+      "P_source_sections": 20,
+      "all_original_sources_checked": true,
+      "original_P_boundaries_checked": true,
+      "chapter_index_routes_checked": true
+    }
+  },
+  "errors": [],
+  "unsupported_claims": [],
+  "reader_visual_acceptance": "NOT_TESTED_REQUIRES_OWNER",
+  "repository_installation": "NOT_INSTALLED"
+}

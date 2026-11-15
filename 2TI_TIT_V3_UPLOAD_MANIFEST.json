@@ -1,0 +1,494 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-2ti-tit-pair-2026-11-14",
+  "books": [
+    "2TI",
+    "TIT"
+  ],
+  "book_names": [
+    "2 Timothy",
+    "Titus"
+  ],
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "canonical_positions": [
+    55,
+    56
+  ],
+  "testament": "NT",
+  "snapshots": {
+    "2TI": "structured-second-timothy-2026-11-14",
+    "TIT": "structured-titus-2026-11-14"
+  },
+  "baseline_main_commit": "b9bdb2d9d830e70868aed8a9b3607235ab3f224e",
+  "baseline_navigation_manifest_git_blob": "60b4fce758907627408659b8a6db9b5ac7f2e3ae",
+  "baseline_navigation_sha256": "UNAVAILABLE_LOCAL_SOURCE_ONLY_GIT_BLOB_PINNED",
+  "file_count_excluding_this_manifest": 61,
+  "source_archives": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "files": [
+    {
+      "path": "2TI_TIT_V3_INSTALL_NOTES.md",
+      "sha256": "cc3becc1ba50e9f97a5a705b33db1b3b02ad875eb739fb725969f9d8c7a1ae10",
+      "git_blob_sha": "0186f18f4139d9443cbbcf6cdb23a3263dd9b27d",
+      "bytes": 2380,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/2TI.json",
+      "sha256": "bf619b149597b5233d200aa98fff73be7ef9221b7d2f5069e2208d986a794945",
+      "git_blob_sha": "e9a9f473c2c86ae762bb23314066a7bc5b0be7db",
+      "bytes": 41648,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/TIT.json",
+      "sha256": "404c69e90cfd67c10c7fabfc4f0959e364d6196a8ef0e6a482c384b9bbd69989",
+      "git_blob_sha": "d0278dfc7e08e62c4b956c50a1c4156409744679",
+      "bytes": 29974,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "e455ca5ab5212c4d47471719ad70a177e37a8f105f17e3244fde9a8295cbdf1d",
+      "git_blob_sha": "c1c4d7bb2a1e13a35b945134211dad7189cacca4",
+      "bytes": 6958,
+      "install_policy": "final_existing_file_replace"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/adam-clarke/2TI/1.json",
+      "sha256": "9b1823b17148ce0f0b2b2b5a7d29003567dbcca5125678417d14ef25cb0283a1",
+      "git_blob_sha": "b427768d6d4ef3eacc461a1cad87490bf7dd657b",
+      "bytes": 119696,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/adam-clarke/2TI/2.json",
+      "sha256": "8bf806b7ed453e20254ae9cff4b6621de3e81eda1847d6ab704d97182c4f95ab",
+      "git_blob_sha": "05867d0c84f4f4cb18f5d147b016df89b1ab3074",
+      "bytes": 98275,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/adam-clarke/2TI/3.json",
+      "sha256": "a2dcc691083b490a0920c456ab90db66593aab4792460acb395ad0b7d68ab030",
+      "git_blob_sha": "6ebff451a1f6788b69b47c3b6deeb8476d22a4a7",
+      "bytes": 74613,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/adam-clarke/2TI/4.json",
+      "sha256": "6a76c666195977c42cb871955131878aed7e8f1bea2242bee46afff2d3680390",
+      "git_blob_sha": "adee3b4536d60c557f7a76c4a5bf645a227becdd",
+      "bytes": 99140,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/jamieson-fausset-brown/2TI/1.json",
+      "sha256": "996bb38d76ca1d146b84be800ee96c635c72478c4a84fdf31cff7af1f6d1a3fe",
+      "git_blob_sha": "28f31c9f5822c679106fc1dfcc17a5edde21325f",
+      "bytes": 128392,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/jamieson-fausset-brown/2TI/2.json",
+      "sha256": "88ab4cfb433e12f8115647436f0575149ad306897a2106fd8b9a7c033cde8b00",
+      "git_blob_sha": "15135e78163fef5533411a6811109cb1adf71ef3",
+      "bytes": 104705,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/jamieson-fausset-brown/2TI/3.json",
+      "sha256": "f896fecfc3f094a3fda5f1995808e11bfcb5c2c3d4cb72fd229598933fad3cca",
+      "git_blob_sha": "d3bf5b52b4e37648b73ddd9157255c35396decd5",
+      "bytes": 86559,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/jamieson-fausset-brown/2TI/4.json",
+      "sha256": "db309c3d2b18aefb3f4189c34c3390120f32f420be0d1eb13675f30755d8c8fd",
+      "git_blob_sha": "bc62584af238247af4794a5e199a90e529c3b81b",
+      "bytes": 96239,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-calvin/2TI/1.json",
+      "sha256": "23b9fcbb22621d95528216cc78e5f2d52ac0b859a9c43cffb21715a617b46327",
+      "git_blob_sha": "78609da7585478fc9205e7a29e760dad976726bb",
+      "bytes": 17126,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-calvin/2TI/2.json",
+      "sha256": "3e9660c487344906e1a889a513b3ea52d2639b8ccd40edb9ef2fe8d9dd3ef9e1",
+      "git_blob_sha": "cf25b0d5cfa4027b762093901d2b4cc71128ebe3",
+      "bytes": 13302,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-calvin/2TI/3.json",
+      "sha256": "506734fe1d204d2a30b022973840eeebc82bf2f433f87d465e19cb063cceabd4",
+      "git_blob_sha": "a1171494e501058958c287eee3f19308da6fd52f",
+      "bytes": 16210,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-calvin/2TI/4.json",
+      "sha256": "279dd413c00b03b6259dec96f5176c904f67a8214d1f4bcc39897c82b8baaff6",
+      "git_blob_sha": "2a57f2142c71a1270e436ffb22d463c3d83c9461",
+      "bytes": 14981,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-gill/2TI/1.json",
+      "sha256": "6f3209adcd0dac7280139cd8539ef973b8d47df3c711a03f5ea3441193f17001",
+      "git_blob_sha": "ce59dbaa58ed44d000f399b94b9bca4490520456",
+      "bytes": 156896,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-gill/2TI/2.json",
+      "sha256": "ea7a9c8b988b2d5b5b77fee2a5b101879c96f7ac0004f86bd61b849fa94bef1f",
+      "git_blob_sha": "e6513b524cf5e3b0f867aaf6317359cef0065cfb",
+      "bytes": 182509,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-gill/2TI/3.json",
+      "sha256": "acd86ef2b11dceb476166c9db8758b75124404115ac46700ca869d45fbdabecb",
+      "git_blob_sha": "acc5fa0775d496cda45b1dd681ba1955eceb2025",
+      "bytes": 133270,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/john-gill/2TI/4.json",
+      "sha256": "bd0833f543bd477e28f91de083009250b5234e6f56025fc20e89d52dc1072f72",
+      "git_blob_sha": "13fa8511fe85aa6236482322d2a1c113e98dfaa5",
+      "bytes": 144976,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/keil-delitzsch/2TI/1.json",
+      "sha256": "f763a44445bfba79c08c2338d7cd0786f06cae0c767f6e612a5b7a26f81327f9",
+      "git_blob_sha": "05a8629886be7b3a0d354e0f7fc0abc763561ee2",
+      "bytes": 1504,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/keil-delitzsch/2TI/2.json",
+      "sha256": "b5c2e5e6d7bedd5b3531cf0c576715a89f4d2f61a93daba8ea8352e7e6d4a930",
+      "git_blob_sha": "69ec39ae74da010daeb5e92653ef0eae36acdca1",
+      "bytes": 1504,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/keil-delitzsch/2TI/3.json",
+      "sha256": "2c3b86dc6fc5a0b2de2d585ebab0d6261b1bf906f338d1ff4b0d679fe318d6dd",
+      "git_blob_sha": "34c080d2f0ec8a8b8ac13edd60ae72dc3acd9fef",
+      "bytes": 1504,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/keil-delitzsch/2TI/4.json",
+      "sha256": "0861af70117f017177f53e7ea24b1885c0cbfdc35401313b0320125c0b427db3",
+      "git_blob_sha": "c86380261f0f6f1c0a02c08bec502028cbad7656",
+      "bytes": 1504,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/matthew-henry/2TI/1.json",
+      "sha256": "5aa4c3581586d797140b389a0c350a253c5de9d639037ab9ed3f3f1c5866e298",
+      "git_blob_sha": "ad6e7e58a5a1c45bca6c219d2707f22bc20d73c6",
+      "bytes": 100798,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/matthew-henry/2TI/2.json",
+      "sha256": "8894746723fdbaf55478ceb5059c8cdc2cb2cf7d7d54a5a08edca4a3fb1f9339",
+      "git_blob_sha": "2864b938f03ca5db96f30193ca8722885789eea0",
+      "bytes": 113376,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/matthew-henry/2TI/3.json",
+      "sha256": "0fb9120a7feff3d728363c2f1b0de8456c763550a507e4f894e88ac635a3adb7",
+      "git_blob_sha": "94b448c4d26f20ec155903239aa7f02fdfd4d236",
+      "bytes": 90248,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/authors/matthew-henry/2TI/4.json",
+      "sha256": "3c4f8428f4ebac658b704ffc542edd0622a265955f0777f74587a40012442e8e",
+      "git_blob_sha": "75a6c84b91a56d2c515c6b574bd4e19f71918370",
+      "bytes": 99683,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/index/2TI/1.json",
+      "sha256": "6500d8b8c5294d60912119b35aeee82307ef92df36c043373b9f863f5e60e0f2",
+      "git_blob_sha": "423d66628499f0ab5a305b012139fceb999435c5",
+      "bytes": 9902,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/index/2TI/2.json",
+      "sha256": "9c82c52ea8ad46aae851d7891084cc5c07faf62de4b9a1fe3212459ff9d4ce08",
+      "git_blob_sha": "03a3ab44583809f0aa8f370dc8efabc1be3799b0",
+      "bytes": 11473,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/index/2TI/3.json",
+      "sha256": "be120c4dfc7608889a8a2755dd81989c471cac2547eb85544c7e8efa58c631f8",
+      "git_blob_sha": "1bd03e27be31ed0b43876eedd619b14d82d72e9d",
+      "bytes": 8500,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/index/2TI/4.json",
+      "sha256": "e1e6c99af4aa3e159dbe5934e8bf048eb3a518edca158295c3992b44da53f6c9",
+      "git_blob_sha": "f5c366f71dd41fc996d41032f3556d0103a23bf6",
+      "bytes": 10157,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-timothy-2026-11-14/manifest.json",
+      "sha256": "e856f0a5d396744f866395f75f43f14866d1c8a997f7ddd6c7b9f491567df3db",
+      "git_blob_sha": "e575244abac37011ddc7cdf7b6a5f19609bf9a56",
+      "bytes": 1648,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/adam-clarke/TIT/1.json",
+      "sha256": "6b15ebe161b169d49a5179a6bdcdf1d3b138d5512d114d4f396a86a8cd030c9c",
+      "git_blob_sha": "e81b4c10eb30966c208194a49dd30216fee1ef4e",
+      "bytes": 147292,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/adam-clarke/TIT/2.json",
+      "sha256": "013285ee3cdf92799f11974c9e3cc84a76cbe43adf3571aa740030d72ef74ecc",
+      "git_blob_sha": "d26ec2422ce3044fe0e776b8de45e2641e175ec4",
+      "bytes": 93386,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/adam-clarke/TIT/3.json",
+      "sha256": "d458b289fdd7afadf4ed64b6f379e3a9e8024130920d8e53cf7ca0726c9aff9a",
+      "git_blob_sha": "2bd6a5ad595edc318c9842ff3ac1203c51234ac1",
+      "bytes": 86431,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/jamieson-fausset-brown/TIT/1.json",
+      "sha256": "fada38792086d926552f0a47edda2f47da1430ac8124b5ebaf109c1aef61b53c",
+      "git_blob_sha": "a65edf60c78e2214a68cca9c3c93c7fa8a2df28b",
+      "bytes": 93192,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/jamieson-fausset-brown/TIT/2.json",
+      "sha256": "921a39d0115546c0ac365e4ff22aa4d8b5ecc13cea41dea9857131c1a7b90d6f",
+      "git_blob_sha": "d380af7a797c285c3b9959f523697e4adfe69edf",
+      "bytes": 68237,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/jamieson-fausset-brown/TIT/3.json",
+      "sha256": "0f5a65d558102f192a4a3af4fa613d88ad2f8ab07a1ae4865eb6eed2cb9df90f",
+      "git_blob_sha": "46c58bc6b8aa37cbc4f8d6e1e4728262a7ab2331",
+      "bytes": 73230,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/john-calvin/TIT/1.json",
+      "sha256": "04ff31c1f655ac0004ca13027e282e28ed0d7b53c7d4fdbba68f4788c018daaf",
+      "git_blob_sha": "b7699140f977f64c866d8464809d9b612dff1a9f",
+      "bytes": 33744,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/john-calvin/TIT/2.json",
+      "sha256": "d33ba71ed77b52155baf1ce7540712aba5a4c7f4d8fbb9c797f53db58a8db52f",
+      "git_blob_sha": "1b7008dcf29c980f69dea821794006b1f0d0e8d4",
+      "bytes": 18803,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/john-calvin/TIT/3.json",
+      "sha256": "14baf33a94ce628c1ab01218868517572b0c8d5908848b65f85fb20f972c33c3",
+      "git_blob_sha": "bab948bf8e60502804db691ec65130831dd23b00",
+      "bytes": 11247,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/john-gill/TIT/1.json",
+      "sha256": "87cb2fda72ae22d211903ac531859403188c3bfc1c20a9c6b339f925973ef5ce",
+      "git_blob_sha": "a1373339661d29dcc5b969e7ed55d161c01b0424",
+      "bytes": 144906,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/john-gill/TIT/2.json",
+      "sha256": "7764e6e4f6b87e274deca52d3a5eeebb9f34252226f0c8e8d66b9484ab15f9b1",
+      "git_blob_sha": "b3dcda76c0744f1a8b1d3b860372772a8f460741",
+      "bytes": 114979,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/john-gill/TIT/3.json",
+      "sha256": "ceaca6347529ba4a1f918e43dc0c1b2541b7d8186ae56651fb29fc3aa8fa545c",
+      "git_blob_sha": "a1de825adf0e4f36f925ea44e5fb374f9c39801a",
+      "bytes": 125494,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/keil-delitzsch/TIT/1.json",
+      "sha256": "0c5f821be426fa6ec1d09f1d12c81fe344a393746576aaaa3fa061ccab39a8f2",
+      "git_blob_sha": "6f02ae043f31c0c161a6dcffe7dcc17727786a58",
+      "bytes": 1495,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/keil-delitzsch/TIT/2.json",
+      "sha256": "1311dd33b531caab6834e75f35e319ec875c3f01c589000641ad7d38f48bc8ad",
+      "git_blob_sha": "c062454f55d0f75915dbd9d483b5e5063ae69161",
+      "bytes": 1495,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/keil-delitzsch/TIT/3.json",
+      "sha256": "f7913f2bf299c31cf13e5e2c8e84d7cd19a1391e9eb374ca2e7cbe9260b795b9",
+      "git_blob_sha": "477dd122e5522066e7e263edb9b9b1f0ad96fe2b",
+      "bytes": 1495,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/matthew-henry/TIT/1.json",
+      "sha256": "d4e25c3f5ae4dd3c502f02a3d213873e3a5005b2ea6c70e5b970c2177424810d",
+      "git_blob_sha": "a384d016af5806f936c9244d6648f083ec91b086",
+      "bytes": 168119,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/matthew-henry/TIT/2.json",
+      "sha256": "2f2cd65a843697a6f71676a561fef7a53ec9acf75716626f16024afc9a5e0de8",
+      "git_blob_sha": "6226acf0a979f6c88985f388d454aad0c96d655c",
+      "bytes": 180253,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/authors/matthew-henry/TIT/3.json",
+      "sha256": "93a6b65df3045b496660ba5e6768b1bd9bddf245c84e54cb861b98801d736f99",
+      "git_blob_sha": "f129bd94d277724d3463a3bac13f9d26fa631d0f",
+      "bytes": 145634,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/index/TIT/1.json",
+      "sha256": "a6a11cadf1f228ef4df6a3989d5272ec8aa262ffe5a4707fa8163996b3119c75",
+      "git_blob_sha": "4e5e73c53b1ed5b94b72716688e87c5309e33ef9",
+      "bytes": 9326,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/index/TIT/2.json",
+      "sha256": "7c028ddcbe680ead68d84aebdcc0af60e05134529fed58ccb95f8c9d65d106a3",
+      "git_blob_sha": "593eed891b7f5e63943351287d70f28cba71bf2d",
+      "bytes": 8279,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/index/TIT/3.json",
+      "sha256": "9e7d5c49860c6067a203c456e30ab208c2d11ff5c6c5c4b7b9465dcc85ff3f37",
+      "git_blob_sha": "0e336be1492958061781bb1a648c345b2562de7c",
+      "bytes": 8103,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-titus-2026-11-14/manifest.json",
+      "sha256": "a04ac2b5a54a648acf7abceb86c1e018209240bfde06280c83fc260ec0d51b77",
+      "git_blob_sha": "354da364b9b69c558659b4336aeee011427a2bc2",
+      "bytes": 1622,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/2TI_SOURCE_NAV_AUDIT_2026-11-14.json",
+      "sha256": "269ef5abb699bcfa860d22aa5e9a900cb7baa792632469e63adf05c9ac0348a5",
+      "git_blob_sha": "ef7ceb7337d8ba678650d9c1d0a6efcbae2c8811",
+      "bytes": 9267,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/2TI_TIT_INDEPENDENT_SOURCE_NAV_QA_2026-11-14.json",
+      "sha256": "885c737b73ea5ec24844776785fbf601b5516db839f196d74bfa9534dd6ec12e",
+      "git_blob_sha": "d9bff52075e7de954a82337c85cd54db5ecd3b05",
+      "bytes": 1294,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/2TI_TIT_READER_STATIC_VALIDATION_2026-11-14.json",
+      "sha256": "dc5f4e1e147c644d976c8abbf9942a6c3c55d93cd2c8c97a88774038a84dd848",
+      "git_blob_sha": "2d8d39bb9181ed238c294e9d25735859af5c662b",
+      "bytes": 278,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/TIT_SOURCE_NAV_AUDIT_2026-11-14.json",
+      "sha256": "2fbf7a768efb6c9d63eb45d03d33f333bf58ad9693a034fe90a6d2479fac04c8",
+      "git_blob_sha": "d5533878fe6a4cb25a53751c440f95e775fe8872",
+      "bytes": 7147,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-second-timothy-v3.html",
+      "sha256": "f5edf1f83cd6c3154b1c53faabcccd4352f983d8212890d7747a8a1ab7fb11e8",
+      "git_blob_sha": "2888ee07eba56d08231084eb3047b964b21a8619",
+      "bytes": 11882,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-titus-v3.html",
+      "sha256": "f963f762529aaca5410ada3d255d5724b8afad0ba8472c81fa8dd41b8bd64316",
+      "git_blob_sha": "9c8fb8102f723a1db5704444d2f03a4c8dd16928",
+      "bytes": 11874,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "release_status": "PREPARED_LOCAL_ONLY_STAGING",
+  "verification": {
+    "2TI": {
+      "chapter_indexes": 4,
+      "author_files": 24,
+      "original_entries_sha_checked": 266,
+      "verse_author_routes": 415,
+      "unindexed_source_slots": 83,
+      "unavailable_KD_chapters": 4,
+      "P_source_sections": 28,
+      "all_original_sources_checked": true,
+      "original_P_boundaries_checked": true,
+      "chapter_index_routes_checked": true
+    },
+    "TIT": {
+      "chapter_indexes": 3,
+      "author_files": 18,
+      "original_entries_sha_checked": 149,
+      "verse_author_routes": 230,
+      "unindexed_source_slots": 46,
+      "unavailable_KD_chapters": 3,
+      "P_source_sections": 20,
+      "all_original_sources_checked": true,
+      "original_P_boundaries_checked": true,
+      "chapter_index_routes_checked": true
+    }
+  },
+  "manual_upload_batches": [
+    "UPLOAD_BATCH_01_2TI_TIT_ADD_FILES.zip",
+    "UPLOAD_BATCH_02_FINAL_CUMULATIVE_NAV.zip"
+  ]
+}
