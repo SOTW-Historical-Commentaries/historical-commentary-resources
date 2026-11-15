@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.47-additive-philemon-hebrews",
+  "version": "navigation-coverage-v1.46-additive-second-timothy-titus",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -60,9 +60,7 @@
     "2TH",
     "1TI",
     "2TI",
-    "TIT",
-    "PHM",
-    "HEB"
+    "TIT"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -120,9 +118,7 @@
     "2TH": "structured-second-thessalonians-2026-11-14",
     "1TI": "structured-first-timothy-2026-11-14",
     "2TI": "structured-second-timothy-2026-11-14",
-    "TIT": "structured-titus-2026-11-14",
-    "PHM": "structured-philemon-2026-11-14",
-    "HEB": "structured-hebrews-2026-11-14"
+    "TIT": "structured-titus-2026-11-14"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -136,7 +132,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 7682,
+    "original_P_sections": 7601,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -194,9 +190,7 @@
       "2TH": 19,
       "1TI": 33,
       "2TI": 28,
-      "TIT": 20,
-      "PHM": 7,
-      "HEB": 74
+      "TIT": 20
     },
     "routed_by_book": {
       "GEN": 64,
@@ -254,29 +248,16 @@
       "2TH": 19,
       "1TI": 33,
       "2TI": 28,
-      "TIT": 20,
-      "PHM": 7,
-      "HEB": 74
+      "TIT": 20
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.46-additive-second-timothy-titus",
+  "previous_manifest_version": "navigation-coverage-v1.45-additive-second-thessalonians-first-timothy",
   "additive_release_notes": [
-    "Paired canonical books 57 and 58: Philemon and Hebrews; SHA-locked original NT SWORD and HelloAO Gill.",
-    "DO NOT INSTALL until predecessor 2TI/TIT release is installed and verified: live main at package creation has only 54 books.",
-    "All prior 56 book snapshots, P counts and pointers from predecessor package remain unchanged.",
-    "Three previously held JFB group sections remain unmapped; no speculative links.",
-    "Set cumulative navigation manifest LAST, after all additive files and predecessor checks; re-check live hashes.",
-    "Baseline 54-book main b9bdb2d9d830e70868aed8a9b3607235ab3f224e; predecessor package manifest e455ca5ab5212c4d47471719ad70a177e37a8f105f17e3244fde9a8295cbdf1d."
-  ],
-  "predecessor_required": {
-    "status": "NOT_INSTALLED_AT_BUILD",
-    "books": [
-      "2TI",
-      "TIT"
-    ],
-    "expected_navigation_manifest_sha256": "e455ca5ab5212c4d47471719ad70a177e37a8f105f17e3244fde9a8295cbdf1d",
-    "expected_navigation_git_blob": "c1c4d7bb2a1e13a35b945134211dad7189cacca4",
-    "parent_live_main_commit": "b9bdb2d9d830e70868aed8a9b3607235ab3f224e",
-    "parent_live_navigation_git_blob": "60b4fce758907627408659b8a6db9b5ac7f2e3ae"
-  }
+    "Paired canonical books 55 and 56: 2 Timothy and Titus; source-locked NT SWORD and HelloAO Gill.",
+    "All preceding 54 book snapshots, IDs and P counts preserved from verified live baseline.",
+    "New book and chapter introductions have source-backed byte and character spans. No speculative verse ranges.",
+    "Three previously held JFB source group sections remain unmapped.",
+    "Upload cumulative navigation manifest ONLY LAST after complete 2TI and TIT upload, with baseline drift check.",
+    "Baseline commit b9bdb2d9d830e70868aed8a9b3607235ab3f224e, baseline navigation Git blob 60b4fce758907627408659b8a6db9b5ac7f2e3ae."
+  ]
 }
