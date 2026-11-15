@@ -1,0 +1,48 @@
+{
+  "kind": "sotw_local_chromium_interaction_smoke_test",
+  "status": "PASS_LOCAL_HEADLESS_SIMULATED_FETCH",
+  "method": "Real headless Chromium rendered generated reader HTML; original generated chapter JSON and authoritative P overlays supplied via intercepted in-document fetch. History URL writes mocked solely because local page origin is about:blank.",
+  "limits": "Not a deployed GitHub Pages test, not real live URL deep link verification, not final owner visual acceptance.",
+  "cases": [
+    {
+      "book": "philemon",
+      "device": "desktop",
+      "status": "PASS",
+      "author_count": 6,
+      "p_navigation": "PASS",
+      "verse_navigation": "PASS",
+      "horizontal_overflow": false,
+      "console_errors": 0
+    },
+    {
+      "book": "philemon",
+      "device": "mobile",
+      "status": "PASS",
+      "author_count": 6,
+      "p_navigation": "PASS",
+      "verse_navigation": "PASS",
+      "horizontal_overflow": false,
+      "console_errors": 0
+    },
+    {
+      "book": "hebrews",
+      "device": "desktop",
+      "status": "PASS",
+      "author_count": 6,
+      "p_navigation": "PASS",
+      "verse_navigation": "PASS",
+      "horizontal_overflow": false,
+      "console_errors": 0
+    },
+    {
+      "book": "hebrews",
+      "device": "mobile",
+      "status": "PASS",
+      "author_count": 6,
+      "p_navigation": "PASS",
+      "verse_navigation": "PASS",
+      "horizontal_overflow": false,
+      "console_errors": 0
+    }
+  ]
+}

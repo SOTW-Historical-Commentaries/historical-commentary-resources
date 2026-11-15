@@ -1,0 +1,29 @@
+{
+  "kind": "sotw_v3_reader_static_validation",
+  "books": [
+    "PHM",
+    "HEB"
+  ],
+  "checks": {
+    "PHM": {
+      "node_js_syntax": "PASS",
+      "error": "",
+      "book_id_reference": true,
+      "snapshot_id_reference": true,
+      "chapter_counts_reference": true,
+      "navigation_coverage_loaded": true,
+      "source_fallback_handled": true
+    },
+    "HEB": {
+      "node_js_syntax": "PASS",
+      "error": "",
+      "book_id_reference": true,
+      "snapshot_id_reference": true,
+      "chapter_counts_reference": true,
+      "navigation_coverage_loaded": true,
+      "source_fallback_handled": true
+    }
+  },
+  "live_visual": "NOT_TESTED",
+  "status": "PASS_STATIC_ONLY"
+}

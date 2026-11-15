@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-hebrews-2026-11-14",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "HEB"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "original_entries": 1163,
+    "navigation_sections": 74,
+    "reader_visible_entries": 1163,
+    "verse_author_routes": 1445,
+    "sword_chapters": 52,
+    "helloao_chapters": 13,
+    "chapters": 13,
+    "P_source_sections": 74,
+    "inherited_P_references": 0,
+    "P_routed_sections": 74,
+    "author_chapters": 78
+  },
+  "chapter_verse_count": {
+    "1": 14,
+    "2": 18,
+    "3": 19,
+    "4": 16,
+    "5": 14,
+    "6": 20,
+    "7": 28,
+    "8": 13,
+    "9": 28,
+    "10": 39,
+    "11": 40,
+    "12": 29,
+    "13": 25
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Hebrews is canonical book 58; release depends on prior 2 Timothy/Titus package install and navigation parity.",
+    "Earlier book snapshots immutable.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Hebrews source attributions and historic claims remain original authors' opinions, not modern SOTW adjudication.",
+    "Manual owner upload only; no GitHub or CGBC player changes."
+  ]
+}

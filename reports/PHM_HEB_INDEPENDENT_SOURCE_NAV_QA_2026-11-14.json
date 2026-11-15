@@ -1,0 +1,51 @@
+{
+  "kind": "sotw_original_archive_independent_audit",
+  "books": [
+    "PHM",
+    "HEB"
+  ],
+  "predecessor_live_installed": false,
+  "source_archives_sha256_verified": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "native_reference_coordinates": {
+    "PHM": {
+      "book_marker_index": 7016,
+      "chapter_1_first_verse_index": 7018
+    },
+    "HEB": {
+      "book_marker_index": 7043,
+      "chapter_1_first_verse_index": 7045
+    }
+  },
+  "book_results": {
+    "PHM": {
+      "expected_verses": 25,
+      "original_sword_records_sha_checked": 69,
+      "author_chapters_checked": 6,
+      "P_fragments_sha_checked": 7,
+      "verse_source_routes_checked": 117,
+      "original_helloao_items_sha_checked": 25,
+      "coverage_source_hash_checked": 7
+    },
+    "HEB": {
+      "expected_verses": 303,
+      "original_sword_records_sha_checked": 860,
+      "author_chapters_checked": 78,
+      "P_fragments_sha_checked": 74,
+      "verse_source_routes_checked": 1445,
+      "original_helloao_items_sha_checked": 303,
+      "coverage_source_hash_checked": 74
+    }
+  },
+  "keil_delitzsch_nt_coverage": "unavailable_original_module_has_no_NT_commentary",
+  "source_separation": "SWORD original text and its own binary verse index; HelloAO original Gill anchors. No neighbor ranges.",
+  "errors": [],
+  "status": "PASS_SOURCE_AND_NAVIGATION_EVIDENCE",
+  "live_visual": "NOT_TESTED"
+}
