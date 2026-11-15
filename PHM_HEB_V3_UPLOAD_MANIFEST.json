@@ -1,0 +1,840 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-phm-heb-pair-2026-11-14",
+  "books": [
+    "PHM",
+    "HEB"
+  ],
+  "book_names": [
+    "Philemon",
+    "Hebrews"
+  ],
+  "canonical_positions": [
+    57,
+    58
+  ],
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "testament": "NT",
+  "snapshots": {
+    "PHM": "structured-philemon-2026-11-14",
+    "HEB": "structured-hebrews-2026-11-14"
+  },
+  "dependency_status": "PREDECESSOR_2TI_TIT_NOT_INSTALLED",
+  "parent_live_main_commit": "b9bdb2d9d830e70868aed8a9b3607235ab3f224e",
+  "parent_live_navigation_git_blob": "60b4fce758907627408659b8a6db9b5ac7f2e3ae",
+  "required_predecessor_manifest_sha256": "e455ca5ab5212c4d47471719ad70a177e37a8f105f17e3244fde9a8295cbdf1d",
+  "required_predecessor_manifest_git_blob": "c1c4d7bb2a1e13a35b945134211dad7189cacca4",
+  "file_count_excluding_this_manifest": 109,
+  "source_archives_sha256": {
+    "MHC.zip": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "CalvinCommentaries.zip": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "Clarke.zip": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "JFB.zip": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "KD.zip": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "helloao-historical-commentaries.zip": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "files": [
+    {
+      "path": "PHM_HEB_V3_INSTALL_NOTES.md",
+      "sha256": "ea7c079c48dd77ed458c8b3695e6222b86c0e6ccf06406701c1759b661152d2d",
+      "git_blob_sha": "52262a55f385934cef04f90a485620432d39edf4",
+      "bytes": 2864,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/HEB.json",
+      "sha256": "be18455f4d0e768025176fdc77ee22afc85f932373d97bf4796303f78fdd7f89",
+      "git_blob_sha": "0496672364cf4c67cf1f611970bf5c928dcd979e",
+      "bytes": 105658,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/PHM.json",
+      "sha256": "ec689544143c54957da835b596e49b2b7ab94b75efe0ae23c111c160d24d9231",
+      "git_blob_sha": "4a9eb8d92e3c12d9ffccdfbc2b215bbd83ef5eb3",
+      "bytes": 10815,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/1.json",
+      "sha256": "bef52fa2ebb77b6b5510f714861cf0528352d1114482fb1148772ea92d7a862c",
+      "git_blob_sha": "317f9517069b30b2fdc7f21c17b92d81d7579a16",
+      "bytes": 181821,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/10.json",
+      "sha256": "c4bb3b8e9c8d7b5e24811d37fdcc87c62ac9b8bc6215296e43f61be3f3c849ae",
+      "git_blob_sha": "a315f56858964371495b16895d3313fc03ec16ef",
+      "bytes": 192440,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/11.json",
+      "sha256": "f00c8c9afa53a66eaba204ae189659d92047bfde5ad58128decbd4bf6b314769",
+      "git_blob_sha": "24e6f5dfa648eeafe65313d1d8b99075ce1ea3be",
+      "bytes": 175677,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/12.json",
+      "sha256": "5648a71f6522fd48fbcad4d5b0cc9af9aa179fcdcb47ab0663b0f7ea0108261f",
+      "git_blob_sha": "fc0db6dfdfdbffbcb694dd03c6e47b26b9296452",
+      "bytes": 153582,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/13.json",
+      "sha256": "92d6d43b0a0b530078e718e6f13b72457dfd29a9e6fe8e1872436b8413e6f1b2",
+      "git_blob_sha": "b1a0b81112e2097bf0a6e819d67557d5a9a09940",
+      "bytes": 112099,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/2.json",
+      "sha256": "a43784a045cdc4d18f91bd7db7cf54b6393c687116331fd06db4b0eb83d01047",
+      "git_blob_sha": "2013e58618240fae9c370a9b59a85cefbfd7eaa0",
+      "bytes": 141296,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/3.json",
+      "sha256": "2b5b1d4ef450ee898291fc8d3eabb3207f590e1b897eb684f25d5abe5cfc7c15",
+      "git_blob_sha": "d477eb17d116737721d2fefca1d0b514b8a71109",
+      "bytes": 144648,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/4.json",
+      "sha256": "e2323a6b0fc8b059e9d753fcbb9492ab5a37c645c38dd95047d869dea2e66501",
+      "git_blob_sha": "72e2c5f54222091e3f41f2bfd651f8113459d6ee",
+      "bytes": 149469,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/5.json",
+      "sha256": "5b652cc8a85cdb6861041e957c6154dc706141fc84ff8caa261b6307802856e8",
+      "git_blob_sha": "a62854d7cc359dffe008119a9426b44a19808f42",
+      "bytes": 137696,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/6.json",
+      "sha256": "071aa7d656079876cab6a87447edbda8439f3a905e27e275ae203421a63ca8cb",
+      "git_blob_sha": "c6cd551e99b92b7915db400425377009f6e60794",
+      "bytes": 154401,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/7.json",
+      "sha256": "ea3a5b60c137fdabfc1d11c0f79d9ba3a9a3f90f6c53a26c72807206af9cceba",
+      "git_blob_sha": "4692145d0b372b513a515f395df69aa863d9dfdc",
+      "bytes": 179781,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/8.json",
+      "sha256": "b31526c6b98d4fe2b1b8c65e1e5b102e59182cbf3423a7cc8e4fd79a9cc55dce",
+      "git_blob_sha": "1cc11c0919146a6fe747fdf6809680d9305241bd",
+      "bytes": 72656,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/adam-clarke/HEB/9.json",
+      "sha256": "b46ba9c622ea179fef68cce0747c1c947389885e8e15764d93e59dc5f83049bf",
+      "git_blob_sha": "98b9b0c83ff76b4377cd2b6525286b0084e70ea4",
+      "bytes": 195807,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/1.json",
+      "sha256": "3cd248a99c77ab5dacf817bb0ec8538db57b67ef1ae98a3ae828516e0832e7a8",
+      "git_blob_sha": "b8ecff05fc97eb9374b3dbb7693c82401df25bf0",
+      "bytes": 164159,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/10.json",
+      "sha256": "2c22595320c4154a314cc7b42dbea54a85412ffa1ee432c6ebdebf0d5b62e4a9",
+      "git_blob_sha": "a9cd0524b23133bdb94d106e32d81562b795f812",
+      "bytes": 173296,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/11.json",
+      "sha256": "c9ec1fe15f0ca2de476eb8d377657ceeb4ae9edf25821ad9abc2593af9ede9de",
+      "git_blob_sha": "f93b527fb745ed08bf3799be992fd9a35b1eced7",
+      "bytes": 188060,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/12.json",
+      "sha256": "9f00a753639b7cb55eeebfdf4a307f2624252a76f08bce39b18706c74695092e",
+      "git_blob_sha": "17f5632ed9e98f000d34c6eec105b09a1da4f38e",
+      "bytes": 153188,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/13.json",
+      "sha256": "48dcbe8cd0050fd3bd77f7ef1611d27ce863026593a6f72e5ac2b5af56743ff9",
+      "git_blob_sha": "24ea3e75de0ee5f8f868b3f2b75fbdd40fd23ff7",
+      "bytes": 104416,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/2.json",
+      "sha256": "24fdee06f5ac44a1d8d08859a6b3af1e43d2e8306e8f3b8da49c6db1d1ff3187",
+      "git_blob_sha": "818a3f4151146170adf1178d482424077708897c",
+      "bytes": 125848,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/3.json",
+      "sha256": "cae0e6eafcb597a39b0a9ad961d1295dbe80fa443b6a728649156fe302080b24",
+      "git_blob_sha": "4efb1b13bdfcd936df4a1e55cb2e7663840bfb38",
+      "bytes": 64521,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/4.json",
+      "sha256": "f5d6980425c047b4ffc2641c31fff0c9b39a7dbf4ab28ea1cfc40537b4ea4a1b",
+      "git_blob_sha": "29969ece7833754faabc7c71d63ecabff1e15e9b",
+      "bytes": 94126,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/5.json",
+      "sha256": "0df3c60e88f1680d52ee8ac038ced1d0fc39c352a807a1e5770a7fbdba3f7bc6",
+      "git_blob_sha": "97e808b24bf5972352092cb4ad8f53afa05ee6e6",
+      "bytes": 67359,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/6.json",
+      "sha256": "53648909612043bd5b96f504a110ff770196a9cc0f0fc955dfe8e51fcfe141e8",
+      "git_blob_sha": "3705ba9ab3bf7c1692b66fe965b38baa711c433f",
+      "bytes": 104585,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/7.json",
+      "sha256": "ed709622059f1d19e92b99e8349cd80fcbba50946dbc194ff673adf85fa3428f",
+      "git_blob_sha": "e2fe82cfabb74434fda3126d7c69af6deef97c1a",
+      "bytes": 129712,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/8.json",
+      "sha256": "7b41b9b1b5448a1ea31aacbe5f3a81ccadef4beb6b4980825997a64242bf724c",
+      "git_blob_sha": "9c918d3e16817a6a4e4d4e697c6c0518e2a1a5a6",
+      "bytes": 66787,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/jamieson-fausset-brown/HEB/9.json",
+      "sha256": "11b31b0004e0516005dd4b8e373f67ceca6b741c5b4462a25f612c9d707a73a4",
+      "git_blob_sha": "d7400360db0171ad1b9b06134782937fb7d10a3e",
+      "bytes": 190533,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/1.json",
+      "sha256": "bfd139c8a9b93751447c54fb639aa76cb96c65b7fd6e082122ced2b98cbc36b8",
+      "git_blob_sha": "12eaff4ae26bb43fa365cf1925d23c1ef2fa9e4d",
+      "bytes": 178172,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/10.json",
+      "sha256": "d8bcc2930c6a060ae9b76a53e6612e96c7a39ec8c5b4cf5235f55969076f6bf5",
+      "git_blob_sha": "c974e88d320297cb4329924b9be68a3d93920165",
+      "bytes": 347197,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/11.json",
+      "sha256": "09925ad3b64457787e09857dfceeb733711773201325863eef14e7c755b202ea",
+      "git_blob_sha": "e9d8c10c93974d5154555079ff3f213923ce0957",
+      "bytes": 446506,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/12.json",
+      "sha256": "4a099560fbaafa5eab0a96805765a40c87625e8db7239524f1913c865e1171c7",
+      "git_blob_sha": "b999636307b2a47e4efbb4da2501470ca2c5b6da",
+      "bytes": 267284,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/13.json",
+      "sha256": "17deda60375a63fa9d748ffec436067f6b0f9854f36192fa3953752d887bf4b6",
+      "git_blob_sha": "7c17dc25b310d7329f8031e423f60dacde8389ad",
+      "bytes": 338178,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/2.json",
+      "sha256": "8915ac8f4b53bef3a043dfaa84167e54af5b5e779980db038a9067b1fe74a9e5",
+      "git_blob_sha": "bc7f36ba2441d2984c2e1c76b7c3d2c3af15c994",
+      "bytes": 222520,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/3.json",
+      "sha256": "a8c73f6ee708350c08b13a5372917409f48f6eee4a11ac27aebe011f379b3bf4",
+      "git_blob_sha": "98665179711d22a36245b6af433047f934d3f8a2",
+      "bytes": 146061,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/4.json",
+      "sha256": "6103058ed23d102f4109bf3bdb6f7668495bedc001d6c9dc9156379a30abb73c",
+      "git_blob_sha": "c38393f644ee59df23bfe16fcc67db212cbb018d",
+      "bytes": 171899,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/5.json",
+      "sha256": "10f99fe082d41df8e05171bbdd799e6e93d9a6f1047dcfbc95c329b174038437",
+      "git_blob_sha": "8c5a823d62f349838b3cf4376ca5f860cdc9ee02",
+      "bytes": 158563,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/6.json",
+      "sha256": "fb36e5a74a5a81de13cd9ab6b32758f4b3e14b615cd03a3e36d0b21e86276d20",
+      "git_blob_sha": "cd9b3b5058f755b3f38b1e809de4369ea890ef9c",
+      "bytes": 211802,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/7.json",
+      "sha256": "6872e1b4c179cb919cd8fc4f735de95fa99efbd0c0e04330b6d4290b7567a705",
+      "git_blob_sha": "5221bbc47d70d8d0757c32d6fb1e4e784b27c742",
+      "bytes": 212196,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/8.json",
+      "sha256": "31529948b4b34463578fe7051cba269d77c07c55ab7555922faff24e7f33ff65",
+      "git_blob_sha": "c71eab7fe972da86e1af73b04b22b5eb7c884491",
+      "bytes": 135446,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-calvin/HEB/9.json",
+      "sha256": "18a7bb21c91b2c796a156662994c8982112ae79f6b8910b88f3a90ece64ee71c",
+      "git_blob_sha": "8e7ee6e26e0ce4b8880d66bbeccac776771bbb69",
+      "bytes": 250490,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/1.json",
+      "sha256": "a765c08e0f78b58dc65982bea7b786c59db206096048528333180768051686dd",
+      "git_blob_sha": "9bebded95872ed61f1c5dae79cf311cbe0de82a8",
+      "bytes": 132455,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/10.json",
+      "sha256": "c7d4364cf043ce2b94a03e7265c657a7b09235ff11222289277accf915ea11b0",
+      "git_blob_sha": "a14196782b5b5e4b4bbf31c865e3b237dee8118d",
+      "bytes": 243027,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/11.json",
+      "sha256": "3248437968e283749f6a661cd1716cb8e1bb97e63216e46ba15bb61f8ac2c5b9",
+      "git_blob_sha": "ed9a189ab06df7f4c4dec9c0bc50c7b175a379bb",
+      "bytes": 325795,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/12.json",
+      "sha256": "26e32fe8145f52aef30f688c43b297c0b876ed47b7d2fb5fb8351ab39c660210",
+      "git_blob_sha": "194c0a90bc3d498a691ae99e6c6be725a7d86a3a",
+      "bytes": 267320,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/13.json",
+      "sha256": "1306d7864268cbe1858c3ea24b7338462b6de2f4f4e6f44b7cbcc86a5d6b2eb8",
+      "git_blob_sha": "fea85baeca6e6b8c616656fd13c7cbcfdf1f2e3a",
+      "bytes": 205930,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/2.json",
+      "sha256": "9f89ff23ac043cbc10f9067d56bcf0f2f1c673c4e619d965b839ffc5d1a2cf08",
+      "git_blob_sha": "7fc6d5b9d967b56f4a77a5f2e6812a0c7ba22a59",
+      "bytes": 158349,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/3.json",
+      "sha256": "be047d386a7600306bb27a29ae6a16be1f8b6942d3b6047f18fd569e172570cd",
+      "git_blob_sha": "e26b9ffaa71e384213909f2b5d398cadf7dd7399",
+      "bytes": 119310,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/4.json",
+      "sha256": "059f4c87e61fddec24c6b9119dc1f9f3000c8c06a2323e65999bfca9d796991e",
+      "git_blob_sha": "b06899ba331389cd457f273138b77c84304d3e2a",
+      "bytes": 109737,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/5.json",
+      "sha256": "0648672e4e0492197e34474df55b09e6422a3a97134c88fbc0b63c1075685f4b",
+      "git_blob_sha": "90d6a1da86fbf60248ce4cd6cebc459005adabdb",
+      "bytes": 83205,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/6.json",
+      "sha256": "7c697d051ac418f594689bf26f144c57308fdfdc82d5c7544179f95fdff5a838",
+      "git_blob_sha": "cd889791a5d1f821d28333f781ea2aae391b57d4",
+      "bytes": 193092,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/7.json",
+      "sha256": "d5a612224540351de6902ee83d31bd34f72e3609bd4cc4233dc2a4912e06504d",
+      "git_blob_sha": "c7acde8a947ae38699194c76e4c6be580a4e0300",
+      "bytes": 203157,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/8.json",
+      "sha256": "11d185ff33c5026b8cb89497dda6c031e6fdf45b49247ec8ba19963fc5959269",
+      "git_blob_sha": "60279b11c2a861db5e468ba23f89c96e49f84df7",
+      "bytes": 113775,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/john-gill/HEB/9.json",
+      "sha256": "a9ae1bd24e817323386420dc1341383bd6e4d75d07d0b17602fb9e82368ffc17",
+      "git_blob_sha": "7938889d8a96a845da17a6fda284e13ab895de6f",
+      "bytes": 312135,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/1.json",
+      "sha256": "ce3b72c98a291e90553bfd70d914178cab0764339d45cf5e5aecaf4a720d6ac3",
+      "git_blob_sha": "dbbfbf116a6a8dfed5afc1865b7889b7aa50a60e",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/10.json",
+      "sha256": "357a6e9f92cf19272eb1c2d7c7e5e4bc3de34368a4a913c5bcf6ccccf38402f2",
+      "git_blob_sha": "08f1d6abd10a821fa4c7e515e019ecb84073ef18",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/11.json",
+      "sha256": "0560de8a1655ec5515b79a4ce139c25c106456a47b1d66f40a4fec1b41b325f4",
+      "git_blob_sha": "d1cc66fe24e59baf330d5201ef3fe4fb0a9a759b",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/12.json",
+      "sha256": "99aadb5e18bf321ac03599fc470f873e67ad367cd20e3442093b699d618b5737",
+      "git_blob_sha": "ce758020842c65b8b69110c57dd92d95fe069a67",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/13.json",
+      "sha256": "3beeed10a8a9d227f4d3ef7b70a9906bdb3e12f5fce7b714283a80b7f1c6c78f",
+      "git_blob_sha": "09f6b390288727cbec6fd634bdcc95b64659d3ba",
+      "bytes": 1499,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/2.json",
+      "sha256": "07dfe9ecd341acaa77c3651510fc035190ba5ff2341650e66dafc42f72095989",
+      "git_blob_sha": "016e50b342c8ab5853911255db7ef0ed2378c7c9",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/3.json",
+      "sha256": "91ced80234d7e315ac373bd6a700d570f1b12712792af19db02ce1e11eb5f203",
+      "git_blob_sha": "9dbb36cbf531ee8b3aabdf17b2731a681704e463",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/4.json",
+      "sha256": "8b0d4b493da68f1b53547dc729fefcd646b73ee5039aa9f25d219961d2147036",
+      "git_blob_sha": "f43d68adb6a26fde43dcbc29e33164ab7dea58f9",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/5.json",
+      "sha256": "cec333e49c5c8f22c091149385c620117455e049d1db1a5b7525f2a698f0da95",
+      "git_blob_sha": "d0e714e68183a5fe7db1b5ad3a46f2439f22c7a5",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/6.json",
+      "sha256": "543e1cd9c05442bc5dd93c3907805b5dc689761a11d56c8d40a9eb87c37f415d",
+      "git_blob_sha": "7a988d43e3cbbc87bebdd580716972525cc45a5a",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/7.json",
+      "sha256": "69d77ffc54c0662d2e4f72c7de3a531ffa2ed569d9121c8a031bb98fcd97c201",
+      "git_blob_sha": "2995c4a1ba5595abc51619c4d838eafc67cb0b70",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/8.json",
+      "sha256": "18e9530a2bb1eee1184babd96bb786daed131a82f1917c7373452ced70a9ee34",
+      "git_blob_sha": "57a3ea52e2030bc9b5e36cc6080fd3d7493693ee",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/keil-delitzsch/HEB/9.json",
+      "sha256": "c9bb18c9c5d2a25a2132a7fb635dd6d8a9d900a2dc1d2569be40485303f72180",
+      "git_blob_sha": "e62c6996cc992e46f0800fce5de49f10820749a1",
+      "bytes": 1497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/1.json",
+      "sha256": "b464592129e076d5e63340cd6c4039f4cf07168dd83e61a9d9a17a50ed2f1e34",
+      "git_blob_sha": "24a8aa21ce3cc94f08c1f162cba3ee6d6ec4da01",
+      "bytes": 122931,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/10.json",
+      "sha256": "84af47edebd7857c91eadaa586350af988d98d9acfcf7d12aac46b6dc7b05cc4",
+      "git_blob_sha": "49143dca508ed6b4857913081939cb73ddc1b0c0",
+      "bytes": 142999,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/11.json",
+      "sha256": "1463f1e50dee07f8251ca760a8073c71883120e098b13cf3e53278cec7ea8be6",
+      "git_blob_sha": "9b63202938e3bf1d6a736eb803c66f1b7524145b",
+      "bytes": 281271,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/12.json",
+      "sha256": "07b2132b9010390fb792cd7485a6165e6e669e50a22a5d9f165628ac61f75594",
+      "git_blob_sha": "78c51595eb2cea1916a842d1c4d51aa55a7a3215",
+      "bytes": 140556,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/13.json",
+      "sha256": "66c3a66032c56d794603c9d1b815d82f59c14b0d6cf85c2cb578ad148d84fcc8",
+      "git_blob_sha": "ac38ad200a612a698bbf073c26edb51c1616e6f6",
+      "bytes": 103475,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/2.json",
+      "sha256": "2dd96ffce1ede54809744f314ac32d91c218bed9abd3e076c30fc8d784a87347",
+      "git_blob_sha": "909be49a0c76ca03a715d4271ea242d4162bf2a5",
+      "bytes": 117218,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/3.json",
+      "sha256": "088644d0af1a866f0de01cb9631fb1f5fc27144bf5ddf6bb96cf5197c4778739",
+      "git_blob_sha": "5b410cafabe0396df7e238e88c672558f700bbeb",
+      "bytes": 74501,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/4.json",
+      "sha256": "bc946c564d6cf17d8375962062c4d7194874eba8e18aa4ff0c1b6fb9bbc74d9a",
+      "git_blob_sha": "aa933a2c485a8430dd347c14439224987c6cc5e4",
+      "bytes": 86093,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/5.json",
+      "sha256": "6eeae087cdd348abb4347ef3d4a1a3bd43f4bd84e79d92c3b1b1a7995b0c45af",
+      "git_blob_sha": "cd7998f348a4133c1e0a9e31d5519a30f4ed59e0",
+      "bytes": 71420,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/6.json",
+      "sha256": "b8479f06d9e7a11c9149e16e3e27edc2d838b33fa079204482f5a53fba89a985",
+      "git_blob_sha": "860bca636567c8b3f49ab09ffc5f3040753158c9",
+      "bytes": 88914,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/7.json",
+      "sha256": "bfecf23a1811c8e8ae8736585b63b91dad6046628442e143ba62cd3f7dc1a3aa",
+      "git_blob_sha": "59fc5dd7c2d75051539717d2c6ae655959d74583",
+      "bytes": 87291,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/8.json",
+      "sha256": "1e24d1679f563ef1df927071dbdcd7db1a5e8edf468d4c1fdcdb0634906e09d8",
+      "git_blob_sha": "1d845a4317c5caf5dd2f444945c0a85195490441",
+      "bytes": 56439,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/authors/matthew-henry/HEB/9.json",
+      "sha256": "fdef118d6dff4eb761d354d9615ea72bf40f554d3b985c3825bbe70efbc79f4f",
+      "git_blob_sha": "95982c12ebaaf0236bce0295dbe82b89ba5e543c",
+      "bytes": 122500,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/1.json",
+      "sha256": "4372f490139c0399687ee741c7aba5c4722da1af007fb1c8b19d16e082c06b94",
+      "git_blob_sha": "ae2da97eb7e8b65dd4751d4d9d81f0927bb58cea",
+      "bytes": 8479,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/10.json",
+      "sha256": "5029c0a85f5d247f03bc08fef9d814ee5f52eda230a1090dd61921cda24760cb",
+      "git_blob_sha": "89d2538ea188e3292bf9208a608d1fe820af86d1",
+      "bytes": 13474,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/11.json",
+      "sha256": "2c91dd443efaf66706fca6dbf34eb542e7cc844196b38510ac700577d771ac55",
+      "git_blob_sha": "ff805f9503150faa0f0398bf169d5a33fbbe5d21",
+      "bytes": 13852,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/12.json",
+      "sha256": "e311532c25223862b98577ecb3ea6e8e3b86562ee5b09db43fcab7ade70a059b",
+      "git_blob_sha": "4de449b0a5ee129bda8ad9897bb8867a0d846342",
+      "bytes": 11538,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/13.json",
+      "sha256": "a511e8c39fdd084e02d4775d3c656d9a48b4865f498aca2c8c0ba654db346d0b",
+      "git_blob_sha": "bd4c09c62945029a4f94e7fe422457dc19360303",
+      "bytes": 10073,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/2.json",
+      "sha256": "89688633f4a4eb1a560dc485fd40c24729b8d941eb7411a0598e1ec6dd4d77ca",
+      "git_blob_sha": "b5136d003d377c1c6dc2a13b26c2ec83f06b2b50",
+      "bytes": 9198,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/3.json",
+      "sha256": "a8dde2762a11a910738d7f56895a4adbf60a4f0b9b8cc6e053f7099c73f56aa1",
+      "git_blob_sha": "cd1431980e353dba0fa0f27d85e5c79c77b6ff16",
+      "bytes": 8796,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/4.json",
+      "sha256": "bf17a5b2549bad04723fa1ecc021f5fa4a884f1cade98f7df3bd2a2e3396acbe",
+      "git_blob_sha": "2e020249223f2590ec6e65fcb44367a2b49f5042",
+      "bytes": 8106,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/5.json",
+      "sha256": "d6621fd5a9669bc03fb3e4e5868163f0d580713756e97612c2d30d1cb2a0d81a",
+      "git_blob_sha": "8964b26669d73899f3be25887bc222635cbcfc1e",
+      "bytes": 7630,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/6.json",
+      "sha256": "abceeac989b56cd25d05521413f25843c74856587ca16e405298ca13a5a57ff0",
+      "git_blob_sha": "90e7d224336e965757291d53e9eaf61243051eaa",
+      "bytes": 9051,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/7.json",
+      "sha256": "86b5c19534fa7865d6ae9caac44401a32d3e366721d13292f4938f8c0b85fd59",
+      "git_blob_sha": "335990164bab84220bbfad2c5145a49c1fd831eb",
+      "bytes": 10784,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/8.json",
+      "sha256": "552cefbdecb7650c39b5d3a5ec706ecec3cec0c7a28e00a08f2b5a611a0f71fa",
+      "git_blob_sha": "75b7f74a2cd8afe6cb03d12a7f903706d640efe9",
+      "bytes": 7069,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/index/HEB/9.json",
+      "sha256": "d591683b0201f5a26e683a8793a8cab5e32bf7492ea4428026cad48f4de13cde",
+      "git_blob_sha": "33c7c7964d31c269949400386edd9add6fb569d6",
+      "bytes": 11510,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-hebrews-2026-11-14/manifest.json",
+      "sha256": "9f93c228caa5e13eefb4d8a958e3674b48791da6d19ffce25e50585c36de33ff",
+      "git_blob_sha": "52a7d93deb49ef8fb8c199457ee6a9254ec45f59",
+      "bytes": 1874,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/authors/adam-clarke/PHM/1.json",
+      "sha256": "01667853e044bfa6705f2af4fff930a9bc1279f8b9b176227ad1ecbdb65d8af5",
+      "git_blob_sha": "3956b582dd0b245484e132cf9c3a72f58da42ab8",
+      "bytes": 149468,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/authors/jamieson-fausset-brown/PHM/1.json",
+      "sha256": "49e40f81196eb9f7831861a03b10815a72097bd071ff702594b8838ed4f3c100",
+      "git_blob_sha": "9d0e896471da118e04ad883f87721c9dc732c477",
+      "bytes": 78742,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/authors/john-calvin/PHM/1.json",
+      "sha256": "c12be7dcc565665ca96158e4812c913740114f6eefb126f60137f84123d7305a",
+      "git_blob_sha": "3e34b45a76ad2826df47a407d5e10e600255d162",
+      "bytes": 140330,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/authors/john-gill/PHM/1.json",
+      "sha256": "aa72c34832c440a0ecb703f938f217b076a65317289992c944cae83b9b3d46ee",
+      "git_blob_sha": "65569fee504d24addae77e109305321e0f462a5f",
+      "bytes": 142310,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/authors/keil-delitzsch/PHM/1.json",
+      "sha256": "8c48bcc835518a41b4ebfa8b0fe892ef5db0f421ad5474473cbc7b87eb74b8d6",
+      "git_blob_sha": "d85c0eea341f8e88987bac2d9861634a8f5c6170",
+      "bytes": 1498,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/authors/matthew-henry/PHM/1.json",
+      "sha256": "4398b7c0fdce5c3ba916efd5a3b47d59082ede92bad721dc58294d59f0f41fb0",
+      "git_blob_sha": "49eb6a4953d32a369755b3a0f67dccd3ce9862f9",
+      "bytes": 204326,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/index/PHM/1.json",
+      "sha256": "1cd86a9a8d6e80d4367ef6d53cc15128eca56ff323838a96d16932f62ec89d55",
+      "git_blob_sha": "ad520d4cf58ca6f0445f59cb5cfdf6b52cbdc636",
+      "bytes": 10661,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-philemon-2026-11-14/manifest.json",
+      "sha256": "e4c44ca3259ed9d4698f0a7696977cb440944b8a5baeea827cd94d546b63cc6b",
+      "git_blob_sha": "f1b88131db3b24d518a3bea35caf61741b420a41",
+      "bytes": 1641,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/PHM_HEB_INDEPENDENT_SOURCE_NAV_QA_2026-11-14.json",
+      "sha256": "33912196991f8b91a58620509ae6dcc98ed479365eecb3bc2ec6bc3c7278fd0b",
+      "git_blob_sha": "33fac9250135bc209cdbb837de6f5a32b831ad87",
+      "bytes": 1890,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/PHM_HEB_READER_LOCAL_CHROMIUM_2026-11-14.json",
+      "sha256": "00cfcb4faabe8b69743797f8d04b194277e315a6d001921a7333a5a0651f4fed",
+      "git_blob_sha": "b685f78873951ed2d2e9e128b00182fe1618cdac",
+      "bytes": 1463,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "reports/PHM_HEB_READER_STATIC_VALIDATION_2026-11-14.json",
+      "sha256": "582459f6af1ee4e2b3a37666436b35b87c0aa00d9a7ec5c439bdf6aa8b44b9de",
+      "git_blob_sha": "5912757bb3859f82d85ec23014fd7576a35ee0be",
+      "bytes": 691,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-hebrews-v3.html",
+      "sha256": "eb0596f1a499b4d690769865b5359e30f3fbfb5245b0cd4fdf5597cc11184d93",
+      "git_blob_sha": "165ae3aeb1f997e4a08597afd2f8ec6530733ea4",
+      "bytes": 11885,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-philemon-v3.html",
+      "sha256": "c7b52e92a8be655a312de8be1cbd45906217d3a2b450ee53c69c1abfa25d7f34",
+      "git_blob_sha": "2121fa476b6c7970bf194ec06b632496d6804255",
+      "bytes": 11940,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "301e04a2ceb041e22e032c0cfa4168e464313233f5a7cad377a7ac553f9b517e",
+      "git_blob_sha": "e5f265abdfc3fbb154eb0cca70e3c45231e9dbb1",
+      "bytes": 7660,
+      "install_policy": "replace_cumulative_manifest_LAST_after_predecessor"
+    }
+  ],
+  "verification": {
+    "PHM": {
+      "original_entries": 94,
+      "navigation_sections": 7,
+      "reader_visible_entries": 94,
+      "verse_author_routes": 117,
+      "sword_chapters": 4,
+      "helloao_chapters": 1,
+      "author_chapters": 6,
+      "unavailable_KD_chapters": 1,
+      "chapters": 1,
+      "P_source_sections": 7,
+      "P_routed_sections": 7,
+      "inherited_P_references": 0,
+      "verses": 25
+    },
+    "HEB": {
+      "original_entries": 1163,
+      "navigation_sections": 74,
+      "reader_visible_entries": 1163,
+      "verse_author_routes": 1445,
+      "sword_chapters": 52,
+      "helloao_chapters": 13,
+      "author_chapters": 78,
+      "unavailable_KD_chapters": 13,
+      "chapters": 13,
+      "P_source_sections": 74,
+      "P_routed_sections": 74,
+      "inherited_P_references": 0,
+      "verses": 303
+    }
+  },
+  "independent_audit": "reports/PHM_HEB_INDEPENDENT_SOURCE_NAV_QA_2026-11-14.json",
+  "status": "PREPARED_LOCAL_STAGING_MUST_INSTALL_PREDECESSOR_FIRST",
+  "manual_upload_batches": [
+    "UPLOAD_BATCH_01_PHM_HEB_ADD_FILES.zip",
+    "UPLOAD_BATCH_02_PHM_HEB_ADD_FILES.zip",
+    "UPLOAD_BATCH_03_FINAL_CUMULATIVE_NAV.zip"
+  ]
+}

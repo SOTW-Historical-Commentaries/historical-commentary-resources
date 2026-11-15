@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "sotw_authoritative_nonverse_navigation_coverage",
+  "provider": "Servants of the Way Commentary Library",
+  "book_id": "PHM",
+  "snapshot_id": "structured-philemon-2026-11-14",
+  "source_snapshot_unchanged": true,
+  "contract": "Original source P applicability only; no inference from adjacent verse indexes.",
+  "default_reader_mode": "verse",
+  "author_sections": {
+    "matthew-henry": [
+      {
+        "section_id": "nav:matthew-henry:PHM:P:philemon-original-book-introduction",
+        "navigation_id": "PHM:P:philemon-original-book-introduction",
+        "scope": "book",
+        "role": "book_or_collection_introduction",
+        "title": "Philemon · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/matthew-henry/PHM/1.json",
+          "chapter_file_sha256": "4398b7c0fdce5c3ba916efd5a3b47d59082ede92bad721dc58294d59f0f41fb0",
+          "section_id": "nav:matthew-henry:PHM:P:philemon-original-book-introduction",
+          "source_entry_id": "sword:mhc:PHM.1.1-7:18:398:24015",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "eb482aac63e871226211afe75f90b2fef07836aaf9e7979394a95bd4019950a5",
+          "character_span": [
+            0,
+            5907
+          ]
+        },
+        "passage_start": null,
+        "passage_end": null,
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "matthew-henry",
+        "original_scope": "book",
+        "status": "active",
+        "applicability_basis": "original_source_book_heading_or_introduction",
+        "source_evidence": "Philemon · Original Book Introduction",
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:PHM.1:P:apostolic-salutations-gratitude-on-philemon-s-behalf-a-d-62-at-1-f1f39d9",
+        "navigation_id": "PHM.1:P:apostolic-salutations-gratitude-on-philemon-s-behalf-a-d-62-at-1-f1f39d9",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "Apostolic Salutations; Gratitude on Philemon's Behalf. (a. d. 62.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/matthew-henry/PHM/1.json",
+          "chapter_file_sha256": "4398b7c0fdce5c3ba916efd5a3b47d59082ede92bad721dc58294d59f0f41fb0",
+          "section_id": "nav:matthew-henry:PHM.1:P:apostolic-salutations-gratitude-on-philemon-s-behalf-a-d-62-at-1-f1f39d9",
+          "source_entry_id": "sword:mhc:PHM.1.1-7:18:398:24015",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "f1f39d96f8a48331de40df6f98019990133a789349ad7714afd94c02688ed56a",
+          "character_span": [
+            5907,
+            6027
+          ]
+        },
+        "passage_start": "PHM.1.1",
+        "passage_end": "PHM.1.7",
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "matthew-henry",
+        "original_scope": "passage",
+        "status": "active",
+        "applicability_basis": "original_title_literal_range_or_native_same_source_record_range",
+        "source_evidence": "Apostolic Salutations; Gratitude on Philemon's Behalf. (a. d. 62.)",
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:matthew-henry:PHM.1:P:the-apostle-s-plea-for-onesimus-salutations-a-d-62-at-8-da67df3",
+        "navigation_id": "PHM.1:P:the-apostle-s-plea-for-onesimus-salutations-a-d-62-at-8-da67df3",
+        "scope": "passage",
+        "role": "passage_heading",
+        "title": "The Apostle's Plea for Onesimus; Salutations. (a. d. 62.)",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/matthew-henry/PHM/1.json",
+          "chapter_file_sha256": "4398b7c0fdce5c3ba916efd5a3b47d59082ede92bad721dc58294d59f0f41fb0",
+          "section_id": "nav:matthew-henry:PHM.1:P:the-apostle-s-plea-for-onesimus-salutations-a-d-62-at-8-da67df3",
+          "source_entry_id": "sword:mhc:PHM.1.8-25:18:24413:42780",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "da67df3d2a6ed257c5520501b38e835c9e066350dc075f8a29c0582657c16504",
+          "character_span": [
+            33,
+            144
+          ]
+        },
+        "passage_start": "PHM.1.8",
+        "passage_end": "PHM.1.25",
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "matthew-henry",
+        "original_scope": "passage",
+        "status": "active",
+        "applicability_basis": "original_title_literal_range_or_native_same_source_record_range",
+        "source_evidence": "The Apostle's Plea for Onesimus; Salutations. (a. d. 62.)",
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "john-calvin": [],
+    "adam-clarke": [
+      {
+        "section_id": "nav:adam-clarke:PHM:P:philemon-original-book-preface",
+        "navigation_id": "PHM:P:philemon-original-book-preface",
+        "scope": "book",
+        "role": "book_preface",
+        "title": "Philemon · Original Book Preface",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/adam-clarke/PHM/1.json",
+          "chapter_file_sha256": "01667853e044bfa6705f2af4fff930a9bc1279f8b9b176227ad1ecbdb65d8af5",
+          "section_id": "nav:adam-clarke:PHM:P:philemon-original-book-preface",
+          "source_entry_id": "sword:clarke:PHM.1.1-1:18:255:11095",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "c360b37fcb0fd8b7ad22447ef97a9e5df94a5b822b98e3dd4878357880a8d962",
+          "character_span": [
+            0,
+            9352
+          ]
+        },
+        "passage_start": null,
+        "passage_end": null,
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "adam-clarke",
+        "original_scope": "book",
+        "status": "active",
+        "applicability_basis": "original_source_book_heading_or_introduction",
+        "source_evidence": "Philemon · Original Book Preface",
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "jamieson-fausset-brown": [
+      {
+        "section_id": "nav:jamieson-fausset-brown:PHM:P:philemon-original-book-heading",
+        "navigation_id": "PHM:P:philemon-original-book-heading",
+        "scope": "book",
+        "role": "book_heading",
+        "title": "Philemon · Original Book Heading",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/jamieson-fausset-brown/PHM/1.json",
+          "chapter_file_sha256": "49e40f81196eb9f7831861a03b10815a72097bd071ff702594b8838ed4f3c100",
+          "section_id": "nav:jamieson-fausset-brown:PHM:P:philemon-original-book-heading",
+          "source_entry_id": null,
+          "source_record_kind": "original_SWORD_book_marker",
+          "source_marker_index": 0,
+          "fragment_sha256": "b665de3798156157eb54a93c7017ca13dae628d10187886646e41175f20214ef",
+          "character_span": [
+            0,
+            364
+          ]
+        },
+        "passage_start": null,
+        "passage_end": null,
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "jamieson-fausset-brown",
+        "original_scope": "book",
+        "status": "active",
+        "applicability_basis": "original_source_book_heading_or_introduction",
+        "source_evidence": "Philemon · Original Book Heading",
+        "content_preserved_in_original_json": true
+      },
+      {
+        "section_id": "nav:jamieson-fausset-brown:PHM:P:philemon-original-jfb-book-introduction",
+        "navigation_id": "PHM:P:philemon-original-jfb-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Philemon · Original JFB Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/jamieson-fausset-brown/PHM/1.json",
+          "chapter_file_sha256": "49e40f81196eb9f7831861a03b10815a72097bd071ff702594b8838ed4f3c100",
+          "section_id": "nav:jamieson-fausset-brown:PHM:P:philemon-original-jfb-book-introduction",
+          "source_entry_id": "sword:jfb:PHM.1.1-1:18:555:5657",
+          "source_record_kind": null,
+          "source_marker_index": null,
+          "fragment_sha256": "1532d7f30403f1dbbdf0905942524781b5a225696412ca5248b0a337c6bd9b74",
+          "character_span": [
+            0,
+            5094
+          ]
+        },
+        "passage_start": null,
+        "passage_end": null,
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "jamieson-fausset-brown",
+        "original_scope": "book",
+        "status": "active",
+        "applicability_basis": "original_source_book_heading_or_introduction",
+        "source_evidence": "Philemon · Original JFB Book Introduction",
+        "content_preserved_in_original_json": true
+      }
+    ],
+    "keil-delitzsch": [],
+    "john-gill": [
+      {
+        "section_id": "nav:john-gill:PHM:P:philemon-original-book-introduction",
+        "navigation_id": "PHM:P:philemon-original-book-introduction",
+        "scope": "book",
+        "role": "book_introduction",
+        "title": "Philemon · Original Book Introduction",
+        "source": {
+          "chapter_file": "api/v3/snapshots/structured-philemon-2026-11-14/authors/john-gill/PHM/1.json",
+          "chapter_file_sha256": "aa72c34832c440a0ecb703f938f217b076a65317289992c944cae83b9b3d46ee",
+          "section_id": "nav:john-gill:PHM:P:philemon-original-book-introduction",
+          "source_entry_id": null,
+          "source_record_kind": "HelloAO_book_introduction",
+          "source_marker_index": null,
+          "fragment_sha256": "2eee7dc503b80fda60d1b2c554a052118469e57613a3cdc1f987c5ee13a77b31",
+          "character_span": [
+            0,
+            3005
+          ]
+        },
+        "passage_start": null,
+        "passage_end": null,
+        "eligible_books": [
+          "PHM"
+        ],
+        "author_id": "john-gill",
+        "original_scope": "book",
+        "status": "active",
+        "applicability_basis": "original_source_book_heading_or_introduction",
+        "source_evidence": "Philemon · Original Book Introduction",
+        "content_preserved_in_original_json": true
+      }
+    ]
+  },
+  "source_scope_notes": [
+    "Philemon source-backed P sections only; original OSIS/HTML and HelloAO text preserved in immutable v3 chapter files.",
+    "Verse routes use native SWORD shared-record indexes or HelloAO explicit anchors. No verse-by-verse source overlay.",
+    "Book/chapter introductions are not verse commentary.",
+    "Keil & Delitzsch original work does not cover the New Testament."
+  ]
+}
