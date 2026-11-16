@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-jude-2026-11-15",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "JUD"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 6,
+    "original_entries": 101,
+    "reader_visible_entries": 101,
+    "sword_chapters": 4,
+    "helloao_chapters": 1,
+    "navigation_sections": 10,
+    "verse_author_routes": 124,
+    "verses": 25,
+    "chapters": 1,
+    "P_source_sections": 10,
+    "P_routed_sections": 10,
+    "inherited_P_references": 0
+  },
+  "chapter_verse_count": {
+    "1": 25
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Jude is canonical book 65; prior 63 accepted snapshot identities are untouched.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes.",
+    "Matthew Henry edition contains the original John Billingsley contribution credit; preserved verbatim."
+  ]
+}

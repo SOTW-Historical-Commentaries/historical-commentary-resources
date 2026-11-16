@@ -1,0 +1,185 @@
+{
+  "kind": "sotw_historical_commentary_final_three_independent_local_audit",
+  "version": "2026-11-15",
+  "status": "PASS_LOCAL_SOURCE_SCHEMA_NAVIGATION_READER_SIMULATED_UNINSTALLED",
+  "books": [
+    "3JN",
+    "JUD",
+    "REV"
+  ],
+  "canonical_positions": [
+    64,
+    65,
+    66
+  ],
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "baseline_commit": "d007cb8a34aa8a4709b06903cb3cb204e3d7f0d9",
+  "baseline_nav_git_blob": "68959d9b885405d42331a296c253c302fafe5867",
+  "baseline_nav_sha256": "fbe11e5fb75042a45eca6dd3d87fabc956e8631c849b0593cb6ecbfbc5601202",
+  "source_archive_sha256": {
+    "matthew-henry": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "john-calvin": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "adam-clarke": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "jamieson-fausset-brown": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "keil-delitzsch": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "john-gill": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "source_policy": {
+    "sword": "original native NT compressed source + indexed verse and milestone binary keys",
+    "helloao": "original JSON explicit per-verse anchor, no extrapolation",
+    "fallback": "entire missing SWORD chapter only, never overlay in present SWORD chapter",
+    "no_NT_source": "Keil & Delitzsch",
+    "no_3JN_or_REV_source": "John Calvin",
+    "copyright_editions": "original archived edition attribution/rights preserved"
+  },
+  "new_book_counts": {
+    "3JN": {
+      "author_chapters": 6,
+      "original_entries": 46,
+      "reader_visible_entries": 46,
+      "sword_chapters": 3,
+      "helloao_chapters": 1,
+      "navigation_sections": 10,
+      "verse_author_routes": 56,
+      "verses": 14,
+      "chapters": 1,
+      "P_source_sections": 10,
+      "P_routed_sections": 12,
+      "inherited_P_references": 2
+    },
+    "JUD": {
+      "author_chapters": 6,
+      "original_entries": 101,
+      "reader_visible_entries": 101,
+      "sword_chapters": 4,
+      "helloao_chapters": 1,
+      "navigation_sections": 10,
+      "verse_author_routes": 124,
+      "verses": 25,
+      "chapters": 1,
+      "P_source_sections": 10,
+      "P_routed_sections": 10,
+      "inherited_P_references": 0
+    },
+    "REV": {
+      "author_chapters": 132,
+      "original_entries": 1241,
+      "reader_visible_entries": 1241,
+      "sword_chapters": 66,
+      "helloao_chapters": 22,
+      "navigation_sections": 103,
+      "verse_author_routes": 1597,
+      "verses": 404,
+      "chapters": 22,
+      "P_source_sections": 103,
+      "P_routed_sections": 103,
+      "inherited_P_references": 0
+    }
+  },
+  "verified_source_routes_and_fragments": {
+    "status": "PASS_SOURCE_INDEX_P_FRAGMENT_NAVIGATION_LOCAL",
+    "books": {
+      "3JN": {
+        "chapters": 1,
+        "verses": 14,
+        "indexed_verse_author_routes": 56,
+        "author_files": 6,
+        "native_entries": 46,
+        "local_P": 10,
+        "inherited_P": 2,
+        "errors": []
+      },
+      "JUD": {
+        "chapters": 1,
+        "verses": 25,
+        "indexed_verse_author_routes": 124,
+        "author_files": 6,
+        "native_entries": 101,
+        "local_P": 10,
+        "inherited_P": 0,
+        "errors": []
+      },
+      "REV": {
+        "chapters": 22,
+        "verses": 404,
+        "indexed_verse_author_routes": 1597,
+        "author_files": 132,
+        "native_entries": 1241,
+        "local_P": 103,
+        "inherited_P": 0,
+        "errors": []
+      }
+    },
+    "cumulative_books": 66,
+    "inherited_live_2JN_JFB_shared_prelude_refs": 2
+  },
+  "reader_testing": {
+    "mode": "Chromium simulated network, pre-install local JSON",
+    "all_six_lanes_passed": true,
+    "cases": [
+      {
+        "book": "3JN",
+        "mode": "desktop",
+        "MHC_records": 1,
+        "gill_records": 1,
+        "gill_P_choices": 1,
+        "confirmation": "PASS"
+      },
+      {
+        "book": "3JN",
+        "mode": "mobile",
+        "MHC_records": 1,
+        "gill_records": 1,
+        "gill_P_choices": 1,
+        "confirmation": "PASS"
+      },
+      {
+        "book": "JUD",
+        "mode": "desktop",
+        "MHC_records": 1,
+        "gill_records": 1,
+        "gill_P_choices": 1,
+        "confirmation": "PASS"
+      },
+      {
+        "book": "JUD",
+        "mode": "mobile",
+        "MHC_records": 1,
+        "gill_records": 1,
+        "gill_P_choices": 1,
+        "confirmation": "PASS"
+      },
+      {
+        "book": "REV",
+        "mode": "desktop",
+        "MHC_records": 1,
+        "gill_records": 1,
+        "gill_P_choices": 1,
+        "confirmation": "PASS"
+      },
+      {
+        "book": "REV",
+        "mode": "mobile",
+        "MHC_records": 1,
+        "gill_records": 1,
+        "gill_P_choices": 1,
+        "confirmation": "PASS"
+      }
+    ],
+    "limitations": "Not a live GitHub Pages test; owner must check rendered readers after upload."
+  },
+  "crossbook_evidence": {
+    "source": "api/v3/snapshots/structured-second-john-2026-11-15/authors/jamieson-fausset-brown/2JN/1.json",
+    "unchanged": true,
+    "inherited_book_level_selections": 2,
+    "basis": "Original THE SECOND AND THIRD EPISTLES GENERAL OF JOHN heading and shared INTRODUCTION"
+  },
+  "regressions": {
+    "previous_accepted_books_retained": 63,
+    "chapter_snapshots_and_P_counts_identical": true,
+    "old_reader_policy_identical": true,
+    "3_old_held_JFB_sections_unchanged": true,
+    "original_source_files_modified": false
+  },
+  "release_status": "LOCAL_READY_FOR_OWNER_MANUAL_UPLOAD_ONLY"
+}
