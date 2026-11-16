@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "sotw_navigation_coverage_overlay",
   "status": "STAGING_NAVIGATION_CORRECTION",
-  "version": "navigation-coverage-v1.48-additive-james-first-peter",
+  "version": "navigation-coverage-v1.49-additive-second-peter-first-second-john",
   "provider": "Servants of the Way Commentary Library",
   "books": [
     "GEN",
@@ -64,7 +64,10 @@
     "PHM",
     "HEB",
     "JAS",
-    "1PE"
+    "1PE",
+    "2PE",
+    "1JN",
+    "2JN"
   ],
   "chapter_snapshots": {
     "GEN": "structured-genesis-2026-11-03",
@@ -126,7 +129,10 @@
     "PHM": "structured-philemon-2026-11-14",
     "HEB": "structured-hebrews-2026-11-14",
     "JAS": "structured-james-2026-11-15",
-    "1PE": "structured-first-peter-2026-11-15"
+    "1PE": "structured-first-peter-2026-11-15",
+    "2PE": "structured-second-peter-2026-11-15",
+    "1JN": "structured-first-john-2026-11-15",
+    "2JN": "structured-second-john-2026-11-15"
   },
   "publication_rule": "Use books/{BOOK}.json for P navigation. Legacy source navigation_sections remain evidence, not scope-authoritative routing. Original verse_routes remain authoritative for verse commentary.",
   "reader_policy": {
@@ -140,7 +146,7 @@
   "source_text_changed": false,
   "verse_index_changed": false,
   "section_counts": {
-    "original_P_sections": 7748,
+    "original_P_sections": 7821,
     "unassigned_P_sections": 3,
     "source_by_book": {
       "GEN": 67,
@@ -202,7 +208,10 @@
       "PHM": 7,
       "HEB": 74,
       "JAS": 32,
-      "1PE": 34
+      "1PE": 34,
+      "2PE": 23,
+      "1JN": 39,
+      "2JN": 11
     },
     "routed_by_book": {
       "GEN": 64,
@@ -264,16 +273,20 @@
       "PHM": 7,
       "HEB": 74,
       "JAS": 32,
-      "1PE": 34
+      "1PE": 34,
+      "2PE": 24,
+      "1JN": 39,
+      "2JN": 11
     }
   },
-  "previous_manifest_version": "navigation-coverage-v1.47-additive-philemon-hebrews",
+  "previous_manifest_version": "navigation-coverage-v1.48-additive-james-first-peter",
   "additive_release_notes": [
-    "Paired canonical books 59 and 60: James and 1 Peter; original SHA-locked NT SWORD + HelloAO Gill.",
-    "All prior 58 accepted book snapshot identities, source P counts and routed P counts preserved exactly from live predecessor.",
-    "Original source book introductions, author source-range headings, and chapter introductions are separated only when source boundaries are explicit.",
-    "3 held JFB group sections remain unmapped. No speculative P scope or verse-zero introduced.",
-    "Upload additive files before cumulative navigation manifest. Recheck live main and manifest SHA before both batches.",
-    "Baseline main 7b6657f74b42c396eea19d3cfdf9a77c3f643c25; baseline nav Git blob e5f265abdfc3fbb154eb0cca70e3c45231e9dbb1."
+    "Canonical books 61–63: 2 Peter, 1 John, 2 John; original SHA-locked CrossWire SWORD and HelloAO John Gill.",
+    "All prior 60 accepted snapshot IDs and source/routed P section counts retained.",
+    "Unindexed verses and missing historical works remain explicitly unavailable.",
+    "Source-original book introductions and passage headings separate from native verse routes; section source span/hash retained.",
+    "3 held JFB group sections remain unmapped. No verse-zero or inferred neighboring passage scopes.",
+    "MANUAL: upload additive files first, install this cumulative navigation file LAST only after baseline SHA check.",
+    "Baseline main d72102a3fed507f4c738e644e75cd5fd22298cb9; baseline nav Git blob 522284bd7bd24e2420621ca0cbbdc38b4126716c."
   ]
 }
