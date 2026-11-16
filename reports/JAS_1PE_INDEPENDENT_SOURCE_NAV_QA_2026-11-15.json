@@ -1,0 +1,45 @@
+{
+  "input_source_sha256": {
+    "matthew-henry": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "john-calvin": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "adam-clarke": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "jamieson-fausset-brown": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "keil-delitzsch": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "john-gill": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "native_alignment_checks": {},
+  "source_gaps": [],
+  "errors": [],
+  "books": {
+    "JAS": {
+      "chapters": 5,
+      "verses": 108,
+      "six_author_files": 30,
+      "original_source_entries": 425,
+      "verified_verse_routes": 523,
+      "source_backed_P": 32
+    },
+    "1PE": {
+      "chapters": 5,
+      "verses": 105,
+      "six_author_files": 30,
+      "original_source_entries": 435,
+      "verified_verse_routes": 518,
+      "source_backed_P": 34
+    }
+  },
+  "native_source_records_checked": 860,
+  "native_verse_routes_checked": 1041,
+  "P_sections_verified": 66,
+  "source_archive_sha256_verified": true,
+  "KJV_index_coordinates": {
+    "JAS": 7360,
+    "1PE": 7474
+  },
+  "navigation_original_58_preserved": true,
+  "predecessor_live_main_commit": "7b6657f74b42c396eea19d3cfdf9a77c3f643c25",
+  "predecessor_live_nav_git_blob": "e5f265abdfc3fbb154eb0cca70e3c45231e9dbb1",
+  "release_status": "PASS_SOURCE_SCHEMA_NAVIGATION_AND_ARCHIVE_INTEGRITY_LOCAL_ONLY",
+  "local_reader_simulated_chromium": "PASS_DESKTOP_AND_MOBILE_BOTH_BOOKS",
+  "live_visual_status": "NOT_YET_TESTED"
+}

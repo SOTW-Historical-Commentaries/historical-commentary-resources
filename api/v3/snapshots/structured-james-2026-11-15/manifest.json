@@ -1,0 +1,50 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-james-2026-11-15",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "JAS"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "verses": 108,
+    "author_chapters": 30,
+    "original_entries": 425,
+    "navigation_sections": 32,
+    "reader_visible_entries": 425,
+    "verse_author_routes": 523,
+    "sword_chapters": 20,
+    "helloao_chapters": 5,
+    "chapters": 5,
+    "P_source_sections": 32,
+    "inherited_P_references": 0,
+    "P_routed_sections": 32
+  },
+  "chapter_verse_count": {
+    "1": 27,
+    "2": 26,
+    "3": 18,
+    "4": 17,
+    "5": 20
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "James is canonical book 59; preceding 58 snapshots remain untouched.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes."
+  ]
+}
