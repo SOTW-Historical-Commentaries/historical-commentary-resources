@@ -21,7 +21,7 @@
 'use strict';
 const ROOT='api/v3/snapshots/structured-romans-2026-11-12/';
 const COUNTS=[32,29,31,25,21,23,25,39,33,21,36,21,14,23,33,27];
-const AUTHORS=[['matthew-henry','Matthew Henry'],['john-calvin','John Calvin'],['adam-clarke','Adam Clarke'],['jamieson-fausset-brown','Jamieson–Fausset–Brown'],['keil-delitzsch','Keil & Delitzsch'],['john-gill','John Gill'],['pastor-jake','Jacob Lannom']];
+const AUTHORS=[['matthew-henry','Matthew Henry'],['john-calvin','John Calvin'],['adam-clarke','Adam Clarke'],['jamieson-fausset-brown','Jamieson–Fausset–Brown'],['keil-delitzsch','Keil & Delitzsch'],['john-gill','John Gill']];
 const $=id=>document.getElementById(id); const query=new URLSearchParams(location.search);
 const state={ch:Math.max(1,Math.min(16,Number(query.get('ch')||query.get('chapter'))||1)),v:1,author:query.get('author')||'matthew-henry',mode:'verse',p:query.get('p')||null};
 state.v=Math.max(1,Math.min(COUNTS[state.ch-1],Number(query.get('verse'))||1));if(query.get('mode')==='p'||state.p)state.mode='p';

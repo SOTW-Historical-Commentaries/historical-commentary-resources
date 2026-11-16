@@ -4,331 +4,465 @@
   "displayName": "Jacob Lannom",
   "translationIndependent": true,
   "scriptureIdScheme": "SOTW_CANONICAL_OSIS_SCOPE",
-  "lastReconciledOn": "2026-11-13",
+  "lastReconciledOn": "2026-11-16",
   "status": "CURRENT",
   "sourceRecords": [
     {
-      "sermonId": "media-fie2dj",
-      "sermonDate": "2026-11-08",
-      "sermonTitle": "The Impact of the Gospel In Relationships Pt. 11",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceBlobSha": "a0ab352d4597bdddced3ee376f78b164cbcd781c"
+      "sermonId": "media-daqi89",
+      "sermonDate": "2026-11-01",
+      "sermonTitle": "Why Membership Matters",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceSHA256": "fd4383e39a07c81b81449fdd55642516b19171a215d31dffe587809b922e6cee"
     }
   ],
   "summary": {
     "bookIntroductions": 1,
-    "scopedEntries": 20,
+    "scopedEntries": 7,
     "sermonOccasions": 1,
-    "scriptureConnections": 10
+    "scriptureConnections": 6
   },
   "entries": [
     {
-      "scopeKey": "ROM",
-      "scopeType": "BOOK_OVERVIEW",
-      "title": "Romans: The Gospel and the Life It Produces",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.01",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.01",
-      "sourceCueIds": [
-        31,
-        48
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM"
-    },
-    {
-      "scopeKey": "ROM.1",
+      "scopeKey": "ACT.2",
       "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 1: The Gospel Is God’s Power",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.02",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.02",
+      "title": "Acts 2: The Spirit, the Gospel, and a Devoted Church",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.01",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n002",
       "sourceCueIds": [
-        48
+        147,
+        190,
+        227
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.1"
+      "readerUrl": "review-jake-scripture.html?book=ACT&scope=ACT.2",
+      "evidenceMoments": [
+        {
+          "cueId": "147",
+          "startSeconds": 394.199,
+          "endSeconds": 397.199,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 394,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=394&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=394&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "190",
+          "startSeconds": 519.483,
+          "endSeconds": 522.233,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 519,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=519&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=519&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "227",
+          "startSeconds": 607.566,
+          "endSeconds": 610.566,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 607,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=607&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=607&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     },
     {
-      "scopeKey": "ROM.2",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 2: God Judges Impartially",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.03",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.03",
-      "sourceCueIds": [
-        54
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.2"
-    },
-    {
-      "scopeKey": "ROM.3",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 3: The Universal Need of Grace",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.04",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.04",
-      "sourceCueIds": [
-        74
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.3"
-    },
-    {
-      "scopeKey": "ROM.4",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 4: Abraham and Justification by Faith",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.05",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.05",
-      "sourceCueIds": [
-        80
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.4"
-    },
-    {
-      "scopeKey": "ROM.5",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 5: Peace and Access Through Faith",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.06",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.06",
-      "sourceCueIds": [
-        90
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.5"
-    },
-    {
-      "scopeKey": "ROM.6",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 6: Newness of Life",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.07",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.07",
-      "sourceCueIds": [
-        100
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.6"
-    },
-    {
-      "scopeKey": "ROM.7",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 7: Belonging to the Risen Christ",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.08",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.08",
-      "sourceCueIds": [
-        118
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.7"
-    },
-    {
-      "scopeKey": "ROM.8",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 8: Providence and Assurance",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.09",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.09",
-      "sourceCueIds": [
-        132
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.8"
-    },
-    {
-      "scopeKey": "ROM.9-11",
-      "scopeType": "PASSAGE_PREFACE",
-      "title": "Romans 9–11: God’s Purposes and Wisdom",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.10",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.10",
-      "sourceCueIds": [
-        153,
-        172
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.9-11"
-    },
-    {
-      "scopeKey": "ROM.10.9-13",
+      "scopeKey": "ACT.2.37-41",
       "scopeType": "PASSAGE",
-      "title": "Romans 10:9–13: The Gospel Invitation",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.11",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.11",
+      "title": "Acts 2:37–41: Received, Baptized, and Added",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.02",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n003",
       "sourceCueIds": [
-        159
+        253,
+        261,
+        278,
+        294
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.10.9-13"
+      "readerUrl": "review-jake-scripture.html?book=ACT&scope=ACT.2.37-41",
+      "evidenceMoments": [
+        {
+          "cueId": "253",
+          "startSeconds": 675.966,
+          "endSeconds": 678.6,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 675,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=675&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=675&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "261",
+          "startSeconds": 693.066,
+          "endSeconds": 696.116,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 693,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=693&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=693&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "278",
+          "startSeconds": 743.166,
+          "endSeconds": 746.7,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 743,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=743&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=743&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "294",
+          "startSeconds": 777.966,
+          "endSeconds": 781.566,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 777,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=777&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=777&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     },
     {
-      "scopeKey": "ROM.12",
-      "scopeType": "CHAPTER_INTRODUCTION",
-      "title": "Romans 12: Mercy Expressed in a Changed Life",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.12",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.12",
-      "sourceCueIds": [
-        191,
-        386
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.12"
-    },
-    {
-      "scopeKey": "EPH.2.1-5",
+      "scopeKey": "ACT.6.1-6",
       "scopeType": "PASSAGE",
-      "title": "Ephesians 2:1–5: From Death to Life",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.13",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.13",
+      "title": "Acts 6:1–6: Leaders from Among the Body",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.03",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n004",
       "sourceCueIds": [
-        241,
-        386
+        308,
+        315,
+        342,
+        368
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=EPH&scope=EPH.2.1-5"
+      "readerUrl": "review-jake-scripture.html?book=ACT&scope=ACT.6.1-6",
+      "evidenceMoments": [
+        {
+          "cueId": "308",
+          "startSeconds": 814.633,
+          "endSeconds": 818.35,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 814,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=814&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=814&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "315",
+          "startSeconds": 837.549,
+          "endSeconds": 840.85,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 837,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=837&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=837&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "342",
+          "startSeconds": 908.833,
+          "endSeconds": 910.983,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 908,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=908&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=908&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "368",
+          "startSeconds": 972.0,
+          "endSeconds": 974.633,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 972,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=972&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=972&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     },
     {
-      "scopeKey": "ROM.12.14-16",
+      "scopeKey": "HEB.13.17",
       "scopeType": "PASSAGE",
-      "title": "Romans 12:14–16: The Immediate Relational Context",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.14",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.14",
+      "title": "Hebrews 13:17: A Shepherd’s Responsibility",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.04",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n005",
       "sourceCueIds": [
-        534
+        384,
+        390,
+        404,
+        410
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.12.14-16"
+      "readerUrl": "review-jake-scripture.html?book=HEB&scope=HEB.13.17",
+      "evidenceMoments": [
+        {
+          "cueId": "384",
+          "startSeconds": 1014.483,
+          "endSeconds": 1018.383,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1014,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1014&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1014&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "390",
+          "startSeconds": 1038.9,
+          "endSeconds": 1042.25,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1038,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1038&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1038&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "404",
+          "startSeconds": 1075.983,
+          "endSeconds": 1079.95,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1075,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1075&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1075&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "410",
+          "startSeconds": 1098.366,
+          "endSeconds": 1100.633,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1098,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1098&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1098&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     },
     {
-      "scopeKey": "ROM.12.17",
+      "scopeKey": "EPH.4.11-16",
       "scopeType": "PASSAGE",
-      "title": "Romans 12:17: Refuse Revenge; Pursue What Is Honorable",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.15",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.15",
+      "title": "Ephesians 4:11–16: Every Part Works",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.05",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n006",
       "sourceCueIds": [
-        545,
-        648,
-        720
+        433,
+        453,
+        462,
+        485
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=ROM&scope=ROM.12.17"
+      "readerUrl": "review-jake-scripture.html?book=EPH&scope=EPH.4.11-16",
+      "evidenceMoments": [
+        {
+          "cueId": "433",
+          "startSeconds": 1158.183,
+          "endSeconds": 1162.2,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1158,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1158&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1158&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "453",
+          "startSeconds": 1216.083,
+          "endSeconds": 1219.083,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1216,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1216&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1216&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "462",
+          "startSeconds": 1245.183,
+          "endSeconds": 1249.433,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1245,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1245&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1245&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "485",
+          "startSeconds": 1311.483,
+          "endSeconds": 1313.333,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1311,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1311&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1311&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     },
     {
-      "scopeKey": "EXO.21.24",
+      "scopeKey": "1CO.5.1-13",
       "scopeType": "PASSAGE",
-      "title": "Exodus 21:24: Proportional Justice, Not Private Revenge",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.16",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.16",
+      "title": "1 Corinthians 5:1–13: Inside and Outside",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.06",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n007",
       "sourceCueIds": [
-        586,
-        633
+        517,
+        540,
+        579,
+        584
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=EXO&scope=EXO.21.24"
+      "readerUrl": "review-jake-scripture.html?book=1CO&scope=1CO.5.1-13",
+      "evidenceMoments": [
+        {
+          "cueId": "517",
+          "startSeconds": 1390.799,
+          "endSeconds": 1392.9,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1390,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1390&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1390&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "540",
+          "startSeconds": 1459.683,
+          "endSeconds": 1462.683,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1459,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1459&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1459&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "579",
+          "startSeconds": 1570.45,
+          "endSeconds": 1573.083,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1570,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1570&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1570&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "584",
+          "startSeconds": 1591.633,
+          "endSeconds": 1594.983,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1591,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1591&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1591&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     },
     {
-      "scopeKey": "PRO.20.22",
+      "scopeKey": "GAL.6.1",
       "scopeType": "PASSAGE",
-      "title": "Proverbs 20:22: Leave Retaliation with the Lord",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.17",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.17",
+      "title": "Galatians 6:1: Restore with Gentleness",
+      "sermonDate": "2026-11-01",
+      "sermonId": "media-daqi89",
+      "teachingOccasionId": "media-daqi89.teaching.07",
+      "sourcePath": "api/jacob-lannom/v1/source-records/media-daqi89.json",
+      "sourceNodeRef": "media-daqi89.n008",
       "sourceCueIds": [
-        622
+        594,
+        596,
+        600,
+        615
       ],
       "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=PRO&scope=PRO.20.22"
-    },
-    {
-      "scopeKey": "PRO.24.29",
-      "scopeType": "PASSAGE",
-      "title": "Proverbs 24:29: Reject the Payback Mindset",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.18",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.18",
-      "sourceCueIds": [
-        624
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=PRO&scope=PRO.24.29"
-    },
-    {
-      "scopeKey": "2CO.8.21",
-      "scopeType": "PASSAGE",
-      "title": "2 Corinthians 8:21: Integrity before Others",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.19",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.19",
-      "sourceCueIds": [
-        673
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=2CO&scope=2CO.8.21"
-    },
-    {
-      "scopeKey": "1TH.5.15",
-      "scopeType": "PASSAGE",
-      "title": "1 Thessalonians 5:15: Pursue Good Instead of Payback",
-      "sermonDate": "2026-11-08",
-      "sermonId": "media-fie2dj",
-      "teachingOccasionId": "media-fie2dj.teaching.20",
-      "sourcePath": "api/jacob-lannom/v1/source-records/media-fie2dj.json",
-      "sourceNodeRef": "media-fie2dj.exposition.20",
-      "sourceCueIds": [
-        675
-      ],
-      "availability": "CURRENT",
-      "readerUrl": "review-jake-scripture.html?book=1TH&scope=1TH.5.15"
+      "readerUrl": "review-jake-scripture.html?book=GAL&scope=GAL.6.1",
+      "evidenceMoments": [
+        {
+          "cueId": "594",
+          "startSeconds": 1622.283,
+          "endSeconds": 1625.4,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1622,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1622&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1622&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "596",
+          "startSeconds": 1628.733,
+          "endSeconds": 1631.766,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1628,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1628&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1628&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "600",
+          "startSeconds": 1642.783,
+          "endSeconds": 1644.183,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1642,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1642&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1642&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        },
+        {
+          "cueId": "615",
+          "startSeconds": 1682.65,
+          "endSeconds": 1685.816,
+          "originalSourceSHA256": "837811aa9228848ef322c40a65a547e118fc503a9aa41c7b51b22ad43f8a4927",
+          "evidenceType": "ORIGINAL_SRT_SPOKEN_WORDS_NOT_SYNTHESIS_QUOTE",
+          "seekSeconds": 1682,
+          "listenUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=audio&item=media-daqi89&start=1682&autoplay=0",
+          "watchUrl": "https://joelpsadler.github.io/CGBC-Sermon-Player/index.html?mode=video&item=media-daqi89&start=1682&autoplay=0",
+          "clockSync": "SRT_CLOCK_MEDIA_OFFSET_UNVERIFIED"
+        }
+      ]
     }
   ],
-  "notes": "Coverage index is a review and navigation projection, not another canonical sermon record. Includes book, chapter and passage scopes. KJV, ASV and future translations share identical scope keys."
+  "notes": [
+    "Coverage index is a review and navigation projection, not another canonical sermon record. Includes book, chapter and passage scopes. KJV, ASV and future translations share identical scope keys.",
+    "New coverage cues are spoken SRT spot checks, not verbatim verification of composed commentary; media sync not independently verified.",
+    "Owner withdrew previously staged Romans 12:17 generated commentary for reprocessing. No corresponding active Romans source, coverage or published prose remains. Prior Git history is recoverable.",
+    "Scope IDs are translation neutral for ASV1901, KJV1769, BSB and Webster1833. Reader integration is edition-specific and must be verified separately."
+  ]
 }
