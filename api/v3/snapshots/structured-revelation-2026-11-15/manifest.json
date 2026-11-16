@@ -1,0 +1,68 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-revelation-2026-11-15",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "REV"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 132,
+    "original_entries": 1241,
+    "reader_visible_entries": 1241,
+    "sword_chapters": 66,
+    "helloao_chapters": 22,
+    "navigation_sections": 103,
+    "verse_author_routes": 1597,
+    "verses": 404,
+    "chapters": 22,
+    "P_source_sections": 103,
+    "P_routed_sections": 103,
+    "inherited_P_references": 0
+  },
+  "chapter_verse_count": {
+    "1": 20,
+    "2": 29,
+    "3": 22,
+    "4": 11,
+    "5": 14,
+    "6": 17,
+    "7": 17,
+    "8": 13,
+    "9": 21,
+    "10": 11,
+    "11": 19,
+    "12": 17,
+    "13": 18,
+    "14": 20,
+    "15": 8,
+    "16": 21,
+    "17": 18,
+    "18": 24,
+    "19": 21,
+    "20": 15,
+    "21": 27,
+    "22": 21
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "Revelation is canonical book 66; prior 63 accepted snapshot identities are untouched.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes.",
+    "Calvin original source and HelloAO have no coverage in this book; explicitly unavailable."
+  ]
+}

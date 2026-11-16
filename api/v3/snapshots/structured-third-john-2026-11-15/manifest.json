@@ -1,0 +1,48 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-third-john-2026-11-15",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "3JN"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 6,
+    "original_entries": 46,
+    "reader_visible_entries": 46,
+    "sword_chapters": 3,
+    "helloao_chapters": 1,
+    "navigation_sections": 10,
+    "verse_author_routes": 56,
+    "verses": 14,
+    "chapters": 1,
+    "P_source_sections": 10,
+    "P_routed_sections": 12,
+    "inherited_P_references": 2
+  },
+  "chapter_verse_count": {
+    "1": 14
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "3 John is canonical book 64; prior 63 accepted snapshot identities are untouched.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes.",
+    "Calvin original source and HelloAO have no coverage in this book; explicitly unavailable.",
+    "Matthew Henry edition contains the original John Reynolds contribution credit; preserved verbatim. JFB shared Second/Third John introduction is inherited from accepted 2 John source."
+  ]
+}
