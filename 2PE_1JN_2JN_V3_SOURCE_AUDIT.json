@@ -1,0 +1,123 @@
+{
+  "kind": "sotw_historical_commentary_three_book_independent_local_audit",
+  "version": "2026-11-15",
+  "decision": "PASS_LOCAL_SOURCE_SCHEMA_NAVIGATION_READER_SIMULATED_UNINSTALLED",
+  "scope": "2 Peter, 1 John, 2 John / canonical books 61–63",
+  "live_github_baseline": "d72102a3fed507f4c738e644e75cd5fd22298cb9",
+  "live_navigation_git_blob": "522284bd7bd24e2420621ca0cbbdc38b4126716c",
+  "live_navigation_sha256": "2b637755ef70697d6e96e99e26ebe783d911df21a45caaffc7d9c301829149f4",
+  "source_original_archive_sha256": {
+    "matthew-henry": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "john-calvin": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "adam-clarke": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "jamieson-fausset-brown": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "keil-delitzsch": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "john-gill": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "counts": {
+    "2PE": {
+      "author_chapters": 18,
+      "original_entries": 250,
+      "reader_visible_entries": 250,
+      "sword_chapters": 12,
+      "helloao_chapters": 3,
+      "navigation_sections": 23,
+      "verse_author_routes": 298,
+      "verses": 61,
+      "chapters": 3,
+      "P_source_sections": 23,
+      "P_routed_sections": 24,
+      "inherited_P_references": 1
+    },
+    "1JN": {
+      "author_chapters": 30,
+      "original_entries": 437,
+      "reader_visible_entries": 437,
+      "sword_chapters": 20,
+      "helloao_chapters": 5,
+      "navigation_sections": 39,
+      "verse_author_routes": 521,
+      "verses": 105,
+      "chapters": 5,
+      "P_source_sections": 39,
+      "P_routed_sections": 39,
+      "inherited_P_references": 0
+    },
+    "2JN": {
+      "author_chapters": 6,
+      "original_entries": 43,
+      "reader_visible_entries": 43,
+      "sword_chapters": 3,
+      "helloao_chapters": 1,
+      "navigation_sections": 11,
+      "verse_author_routes": 51,
+      "verses": 13,
+      "chapters": 1,
+      "P_source_sections": 11,
+      "P_routed_sections": 11,
+      "inherited_P_references": 0
+    }
+  },
+  "qa_source_route_fragment_checks": {
+    "status": "PASS_SOURCE_INDEX_P_FRAGMENT_NAVIGATION_LOCAL",
+    "books": {
+      "2PE": {
+        "chapters": 3,
+        "verses": 61,
+        "indexed_verse_author_routes": 298,
+        "author_files": 18,
+        "native_entries": 250,
+        "local_P": 23,
+        "inherited_P": 1,
+        "errors": []
+      },
+      "1JN": {
+        "chapters": 5,
+        "verses": 105,
+        "indexed_verse_author_routes": 521,
+        "author_files": 30,
+        "native_entries": 437,
+        "local_P": 39,
+        "inherited_P": 0,
+        "errors": []
+      },
+      "2JN": {
+        "chapters": 1,
+        "verses": 13,
+        "indexed_verse_author_routes": 51,
+        "author_files": 6,
+        "native_entries": 43,
+        "local_P": 11,
+        "inherited_P": 0,
+        "errors": []
+      }
+    },
+    "cumulative_books": 63,
+    "inherited_live_1PE_clarke_preface_refs": 1
+  },
+  "source_policy": {
+    "sword": "same native NT binary key and original compressed source block",
+    "helloao": "source item explicit verse anchors only",
+    "fallback": "only if the entire native SWORD chapter has zero records, and alternative HelloAO has a chapter",
+    "no_sword_nt": "Keil & Delitzsch",
+    "missing_2JN": "John Calvin",
+    "original_source_strings_preserved": true,
+    "new_bible_translation_text_embedded": false
+  },
+  "regressions": {
+    "previous_cumulative_books_preserved": 60,
+    "new_books": 3,
+    "previous_source_by_book_unchanged": true,
+    "previous_routed_by_book_unchanged": true,
+    "held_JFB_group_sections_unchanged": 3,
+    "shared_Clarke_peter_preface_inherited_from_1PE": 1,
+    "existing_reader_or_source_files_replaced": 0
+  },
+  "local_ui_checks": {
+    "chromium_simulated": true,
+    "cases": "3 books x desktop/mobile = six interaction test lanes",
+    "performed": "verse and author switching, original P selection, explicit absence for KD and Calvin, next verse",
+    "limitation": "Direct local file and localhost navigation were denied by browser administrator; simulation used injected HTML and intercepted local JSON fetches; live Pages unverified."
+  },
+  "release_status": "LOCAL_PREPARED_NOT_INSTALLED_NO_GITHUB_WRITES"
+}

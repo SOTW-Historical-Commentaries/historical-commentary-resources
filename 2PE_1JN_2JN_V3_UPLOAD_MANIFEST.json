@@ -1,0 +1,580 @@
+{
+  "kind": "sotw_v3_owner_manual_upload_release_manifest",
+  "version": "v3-three-books-2026-11-15",
+  "books": [
+    "2PE",
+    "1JN",
+    "2JN"
+  ],
+  "book_names": [
+    "2 Peter",
+    "1 John",
+    "2 John"
+  ],
+  "canonical_positions": [
+    61,
+    62,
+    63
+  ],
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "status": "PREPARED_LOCAL_NOT_INSTALLED",
+  "snapshots": {
+    "2PE": "structured-second-peter-2026-11-15",
+    "1JN": "structured-first-john-2026-11-15",
+    "2JN": "structured-second-john-2026-11-15"
+  },
+  "baseline_main_commit": "d72102a3fed507f4c738e644e75cd5fd22298cb9",
+  "baseline_navigation_manifest_git_blob": "522284bd7bd24e2420621ca0cbbdc38b4126716c",
+  "baseline_navigation_sha256": "2b637755ef70697d6e96e99e26ebe783d911df21a45caaffc7d9c301829149f4",
+  "source_archives_sha256": {
+    "matthew-henry": "6bcb936873ca144e317805e5c1677940fd86e2403f7c14517752e44f25c8882b",
+    "john-calvin": "df66fc8c03537499ad006d069481d2c95b600887cdbd6ce75ec5d264b573192a",
+    "adam-clarke": "56bb33d3bf0f50c1609f4dd10ac81e7450bb0e8aae93bf340074ccb5e207a44f",
+    "jamieson-fausset-brown": "78eae01d4e4cea96aec496b4d4f149b582d6d7316c56c0b1f9ef07f8f784b2a6",
+    "keil-delitzsch": "ca3bdb6a04c0b717ee2faed71b432d58195db96f217f490ce6f7d9c36a2876f7",
+    "john-gill": "f8746a5553fdadd12cfee5004eca1c36bf3065b19cd7a5b3ab278fc188e7efbb"
+  },
+  "file_count_excluding_this_manifest": 75,
+  "files": [
+    {
+      "path": "2PE_1JN_2JN_V3_INSTALL_NOTES.md",
+      "sha256": "4600ef479d305a80943951e84d3195c918d07e27f832728d8d9a73b7716ded60",
+      "git_blob_sha": "22e5a958b6ae91f1505d897a0720cc05570ec924",
+      "bytes": 4184,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "2PE_1JN_2JN_V3_SOURCE_AUDIT.json",
+      "sha256": "9aec29b6b346e8882f44b539311f581518c5e53f4317136c6a2ab762277e4e32",
+      "git_blob_sha": "2a86e3eaccd2263863b2bb01e6a7cce881e568ff",
+      "bytes": 4434,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/1JN.json",
+      "sha256": "4c987707ca9dab3759dd5bbdace121f5719256a8b17cf6344501b98e90a8e544",
+      "git_blob_sha": "8da9643a6766b7c882526224184c345509543df9",
+      "bytes": 59228,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/2JN.json",
+      "sha256": "48594ff79974f1c6284154fcbde241f5f3d8571c31ef17c708d8593ab3532593",
+      "git_blob_sha": "c73edb00704d127de8480e3b7c07b5cfbec951c1",
+      "bytes": 17085,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/books/2PE.json",
+      "sha256": "69cd7a7a47eeaad7011200e69880e03892634b13cb6001855c7a5ba3932aa9c6",
+      "git_blob_sha": "22baef06b6938776474bb7679a4727ecf62c94db",
+      "bytes": 37278,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/navigation-coverage/v1/manifest.json",
+      "sha256": "fbe11e5fb75042a45eca6dd3d87fabc956e8631c849b0593cb6ecbfbc5601202",
+      "git_blob_sha": "68959d9b885405d42331a296c253c302fafe5867",
+      "bytes": 7718,
+      "install_policy": "replace_cumulative_manifest_LAST"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/adam-clarke/1JN/1.json",
+      "sha256": "bb75792ebdc5baeca362d22ef7986a541efc71908e9bf5d64d7f36a5bec55dc1",
+      "git_blob_sha": "8981869240cfc2731382a0fb38ef09d617e90d8c",
+      "bytes": 169633,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/adam-clarke/1JN/2.json",
+      "sha256": "b5e6280011ca880cc64178b3660a18eb55da1e10976751143c97e9358cb44876",
+      "git_blob_sha": "0c183e30e489d6434221d47299cbfb38c7866aae",
+      "bytes": 204634,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/adam-clarke/1JN/3.json",
+      "sha256": "d057171135083d3dcb7d5a3a9d7ef3d65889c4b0b7fd1cc4ea1565f59e663c09",
+      "git_blob_sha": "9f8095899fe997c716ac95c84ec0edd74576756b",
+      "bytes": 133667,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/adam-clarke/1JN/4.json",
+      "sha256": "9c0d06c86a0c52335890475aabb1dd57d8426544c8a2c721165a0282a04a1a83",
+      "git_blob_sha": "8e5f2d0cf980861a28435f88d8e0b7f9466e49d5",
+      "bytes": 88683,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/adam-clarke/1JN/5.json",
+      "sha256": "bca7201a7d9305111182cf1de586877210e5f9cb816101f036dc924e44c4eca1",
+      "git_blob_sha": "c7bb089d88180d4a77c3374e8de22063ac6c1fd4",
+      "bytes": 144179,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/jamieson-fausset-brown/1JN/1.json",
+      "sha256": "e90090d030429492ddec9704b36f495ca11af961f804aed37b56d5e9f95721b6",
+      "git_blob_sha": "52fbdbf646763b88229d0939c3e7eda81e73ee20",
+      "bytes": 130660,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/jamieson-fausset-brown/1JN/2.json",
+      "sha256": "035167c0de5d7b94ece0f35181d5626db5438dd8c5f6cebc39f02e17eb690f58",
+      "git_blob_sha": "842fde1b39844747b3e4dd7e96bb7962840de96d",
+      "bytes": 185977,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/jamieson-fausset-brown/1JN/3.json",
+      "sha256": "21e92796ecc37cce83063fa835ec647a7be7ff7b0f412ead8438cf2678174ccc",
+      "git_blob_sha": "f29a21235620a2f865a755a06069d38a6c41ad38",
+      "bytes": 148689,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/jamieson-fausset-brown/1JN/4.json",
+      "sha256": "64f235eaa669c9826ecf1563e85793bafead3aee3e2cfc3eeac48a6302c727ea",
+      "git_blob_sha": "71b955197e07f0f5c7521f137bf115f72c849f76",
+      "bytes": 92276,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/jamieson-fausset-brown/1JN/5.json",
+      "sha256": "65f125524bf67512c0bf8f5d230b4af121902d407fafbc1b5c00a7187e3c3b94",
+      "git_blob_sha": "246371326adb86684257d3b7a0eb96e098928acd",
+      "bytes": 147745,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-calvin/1JN/1.json",
+      "sha256": "5e177456ad8036877f4aeeef4c09aeed6b9e3ee16d36f56fecf690d6be1cf24e",
+      "git_blob_sha": "f913722eef2ba40640cf7d5daeea8f07c4c00135",
+      "bytes": 150363,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-calvin/1JN/2.json",
+      "sha256": "2614c6808d1e9ddae37e1a2938b424ca4830a6acdef789dc159c0449cd83b263",
+      "git_blob_sha": "8644ba4826beaf0ebee9111c8aac8b10b41a865c",
+      "bytes": 389697,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-calvin/1JN/3.json",
+      "sha256": "6b150ac959f4a03fcebb80b8dbd380e5f338423472912d1769c30011db875a2e",
+      "git_blob_sha": "b27c4d2a9aea7a00c09a8d943b8166f2e73406bf",
+      "bytes": 304763,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-calvin/1JN/4.json",
+      "sha256": "258bbbede523696a4cdf9e0a88451a32308f76fe3380a06512ea83249fd490a5",
+      "git_blob_sha": "3010d12385a581bf512cbeb218710934a680549c",
+      "bytes": 264590,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-calvin/1JN/5.json",
+      "sha256": "71d9ebb10fb95d281c4d5364cd00048731bebe046ae1bf095eebe18779f56aa0",
+      "git_blob_sha": "ecd141cd3407465b5668c174571d0f36fcc1eb9c",
+      "bytes": 321019,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-gill/1JN/1.json",
+      "sha256": "bfb8a4422fdf8b857583a8d46788f1a7f30036d46b70cc148373a7b4d5678a85",
+      "git_blob_sha": "188e47375a305071fb0d66ae7fcbe7834e364358",
+      "bytes": 102559,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-gill/1JN/2.json",
+      "sha256": "668029205ded8b6ff8f1508c486aa1656f532f834fcb5a9264470e97cc689da9",
+      "git_blob_sha": "6882402f7e572d3e19aee187b83004d6550d9e22",
+      "bytes": 281497,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-gill/1JN/3.json",
+      "sha256": "d20485303c20b4d2a5b876fb99454181b1f3cc0cc7c8fc1a84cf523f6ccd10b3",
+      "git_blob_sha": "0d9fa302de33ebccfe6a04a390e95df19913b8e7",
+      "bytes": 189676,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-gill/1JN/4.json",
+      "sha256": "ae2b6fb08e2662b0a3fc39cc504ac3acf6548e9170852860ee54a079e8901566",
+      "git_blob_sha": "e1e7977a05de8db3e7fdd0a721cf3fd1d1492978",
+      "bytes": 153763,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/john-gill/1JN/5.json",
+      "sha256": "f0ad3924629ab9d76fda58846cb611441637e7fb44cdeb66bcc3472ff9a31050",
+      "git_blob_sha": "1448ef426230e05d07b155501cdb684da533fa74",
+      "bytes": 176641,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/keil-delitzsch/1JN/1.json",
+      "sha256": "abf65eb35b1de9e8161a3bc3c3532876187e47bb3a1bfe3c1d4615fb66881de8",
+      "git_blob_sha": "38b339a842999fd2fc08ed1776c5f04ef91f2c93",
+      "bytes": 1444,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/keil-delitzsch/1JN/2.json",
+      "sha256": "c49349b5811594628d5511c7dc61b80a63207b9cb24370d0c6cdd4dce5c0ad9c",
+      "git_blob_sha": "eba2467cec2c8198b2315946eea6d47102b31511",
+      "bytes": 1444,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/keil-delitzsch/1JN/3.json",
+      "sha256": "c47afc56e5a6102389c973dc915a120d57690542ad0126bad96ff1d3f165f3c0",
+      "git_blob_sha": "66d9ca2cf0553cc1e0c246c5d76474785002b331",
+      "bytes": 1444,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/keil-delitzsch/1JN/4.json",
+      "sha256": "6b76f93feb1de123155052fc26adbe4bbb8f7e40f34c5dcdbc20f21d204de18d",
+      "git_blob_sha": "991bd6b43930af985788195cd817447b5ce9c176",
+      "bytes": 1444,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/keil-delitzsch/1JN/5.json",
+      "sha256": "2dfe893f2eacdea8d51e8c69b2dbcfcd9f31f16f3821da3ca00bac935bef0bd0",
+      "git_blob_sha": "f38d6545615f152e5f40ac80a20807b4d91ccd77",
+      "bytes": 1444,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/matthew-henry/1JN/1.json",
+      "sha256": "d972a8e1f0e0404e5cc2cc8fd6ac096daad09cb62d8e7fe429625720e301ac1c",
+      "git_blob_sha": "d31c75d2a330431a6b8754a7645789f95c918740",
+      "bytes": 125908,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/matthew-henry/1JN/2.json",
+      "sha256": "d6618a38bd6262e408dfc95f933e16e9beb534418557a8088ed8dca8c92e8fe4",
+      "git_blob_sha": "7a0051e163e3a03412a5314f98f22822e8dda5c4",
+      "bytes": 259005,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/matthew-henry/1JN/3.json",
+      "sha256": "9b7d6c2d443c67c211032766ccc249e5192e1fbad1a6900db25e27e3574d6f3d",
+      "git_blob_sha": "0b96ea8c5202b9753aec0f3f4990c244c216f6e2",
+      "bytes": 205046,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/matthew-henry/1JN/4.json",
+      "sha256": "ea964a30390a0937eaf1f6b2cab77b581ffb7fbb82671ac808bd333091168d4a",
+      "git_blob_sha": "6bba592f3d59836110cefc7c62e34c72be877b94",
+      "bytes": 167711,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/authors/matthew-henry/1JN/5.json",
+      "sha256": "f363cabae1d63418bc7203fdb61538c22b64debdf2a2df9106ffc22b1ab4c3d6",
+      "git_blob_sha": "f647981e449132f0de04616989a6644d21a1b3cd",
+      "bytes": 289261,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/index/1JN/1.json",
+      "sha256": "673db72bee55c66f0074be9855158498b12e6d290dcace299a4001b3cff92c8d",
+      "git_blob_sha": "960a771504a8513b1c7fb93b8f80bd8ab1cc9052",
+      "bytes": 7842,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/index/1JN/2.json",
+      "sha256": "57f8861a0a527e4e48bf91095fd85128eb99e966368f3a09f4f1144f67d14ab6",
+      "git_blob_sha": "faff29af49ec80fc5429cb03d298f89449ee62ce",
+      "bytes": 13007,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/index/1JN/3.json",
+      "sha256": "fec4477d5dca1591e13926413921f695f45420d879cac41c0b055b31118d771d",
+      "git_blob_sha": "6029435b82a98e4ff60cfd7b3bc49dc37a3139c3",
+      "bytes": 11306,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/index/1JN/4.json",
+      "sha256": "48b9dadfdc0814c1927d7ac73fa579183ca8257ba011dee0683d125043473547",
+      "git_blob_sha": "4aec813ede858d25aa0189ecfd084a7efb4e7f3c",
+      "bytes": 10188,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/index/1JN/5.json",
+      "sha256": "cad0538e5802f8c8ca402f1be1730b0a6c8d0a1278d09f3057dd052382a86384",
+      "git_blob_sha": "94a0693bb974e0662712686a78d3ebf8f45de647",
+      "bytes": 10336,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-first-john-2026-11-15/manifest.json",
+      "sha256": "4ea2a7e4185b06a74045c371d9a90ff38e83b475a0c5d31b518b3091db6a3e21",
+      "git_blob_sha": "a3e144e3a4219e96fd2fa3561be4ce46b4828ff4",
+      "bytes": 1684,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/authors/adam-clarke/2JN/1.json",
+      "sha256": "8d4b9701de08ee3aa85e353c50b0af15ae4c15c8e972293c03f506fc2957bde5",
+      "git_blob_sha": "abe982ee67fec61230fad4004a6547b251839ff0",
+      "bytes": 95192,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/authors/jamieson-fausset-brown/2JN/1.json",
+      "sha256": "be62f491bf404a49657a88f17017d5f9a927735c44ac00f74ea7cfcc1d1241dc",
+      "git_blob_sha": "86d6ea12ba9a1ba6778e20d092633469b0893945",
+      "bytes": 83865,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/authors/john-calvin/2JN/1.json",
+      "sha256": "a16543dec91d858d31c94513e3158d3db9a1717e6a227e7b52a729251f0fe84f",
+      "git_blob_sha": "61c07a50b0ac947c3a777e6cf77be81722303016",
+      "bytes": 1381,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/authors/john-gill/2JN/1.json",
+      "sha256": "596a20e80b4a8334f5e9ea7dee5bcd599830a6f4f9fcad1dc27821a21fc346c1",
+      "git_blob_sha": "60f11820d2e6cf5fad040eb4ab71308a192e0b64",
+      "bytes": 77620,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/authors/keil-delitzsch/2JN/1.json",
+      "sha256": "1f27cc248f01575b9e8766d8052e9308c620de055933abe487ec9584b0636743",
+      "git_blob_sha": "7221f565c971514b5013ef716a6ddf0e2342b140",
+      "bytes": 1445,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/authors/matthew-henry/2JN/1.json",
+      "sha256": "79efba7b9a42da96c33c86632b4f4edd01c4f5dbd7fdfe5399e3ad36f5c82439",
+      "git_blob_sha": "1d1881a58aa0c0259f1b3af26a1111737927948c",
+      "bytes": 115269,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/index/2JN/1.json",
+      "sha256": "1862c1d42734c7ea1afaa9cd2c749388e11ff25e6208404cd347b3d7c233b5ce",
+      "git_blob_sha": "024193d07e0a32c4bf55f6a2429e5542b56bd8ba",
+      "bytes": 9027,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-john-2026-11-15/manifest.json",
+      "sha256": "baad66156ac7c655f10999c50873327a9ed0011225d91d150e68e5447aeb68d5",
+      "git_blob_sha": "0806c8857e209a576053ae3a763e9c1667aefe94",
+      "bytes": 1710,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/adam-clarke/2PE/1.json",
+      "sha256": "ceabc9eb755d1f83b3e9dab9c6d58a260237a33ab9def8e6a74c9dd8235c23d5",
+      "git_blob_sha": "eb3ce7d2d1a4aa9c6504086cdfcb48e798b275b7",
+      "bytes": 226810,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/adam-clarke/2PE/2.json",
+      "sha256": "925c73818ff8c8f9e836515781b3a1dca958151dc60ce93adbd32eb3e427306a",
+      "git_blob_sha": "892dc0a43539ce6bbf39b1f8998594fa5128bd64",
+      "bytes": 157918,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/adam-clarke/2PE/3.json",
+      "sha256": "e99c408c73fdf4666cc91a1a32e7435a4f27a9005a0decc4d794181152db0b1b",
+      "git_blob_sha": "907719e25d03cbbb1a02fde524dd5dcdb9b751f5",
+      "bytes": 148322,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/jamieson-fausset-brown/2PE/1.json",
+      "sha256": "4f949c109716d91dcc90b32f06c7961ff05b9c10f45dc7b819e4f4cc5210a815",
+      "git_blob_sha": "68281480b2df100af418480b5f2fbe11de18f31d",
+      "bytes": 206175,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/jamieson-fausset-brown/2PE/2.json",
+      "sha256": "47ae06db179df1023fd5bb6ce65a01efde7e7eab5b02887dc845b1db5835a388",
+      "git_blob_sha": "dfac00e75decb618580f68277f4e29d35ca618bc",
+      "bytes": 117782,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/jamieson-fausset-brown/2PE/3.json",
+      "sha256": "b089dac26b012168f5b51b1231dbf2684988a1b699e658a07f382b3d911ecbfe",
+      "git_blob_sha": "2178e7804a0f7856ba299312fcc115948daa9e34",
+      "bytes": 122604,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/john-calvin/2PE/1.json",
+      "sha256": "730db792d259f23db767a7a3821fef74e8bda8a3030931d78ce36332ca82d477",
+      "git_blob_sha": "28df3881ec0340d0b9d7b5cc91d6878e9086ed87",
+      "bytes": 309559,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/john-calvin/2PE/2.json",
+      "sha256": "6ac300b50f816e58b69fdb0933dfac87ec6bbd066ddb21b9c6846696df75b326",
+      "git_blob_sha": "b7828fe7a8bb982a61c66fe20c54690c4e807f73",
+      "bytes": 261192,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/john-calvin/2PE/3.json",
+      "sha256": "84b9268e4e9b8c559e10633a4a6f717890da515e301ada0cdf3ac71ea55d63b5",
+      "git_blob_sha": "abe5c599cc13879ff9a3f408c19b1e706844f7cf",
+      "bytes": 196787,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/john-gill/2PE/1.json",
+      "sha256": "e9b18ddbf70ddd9e0d2b987a07d6927291be310a0e8b0dea17ca87f385535c6e",
+      "git_blob_sha": "d26de5402db83631907fbc51553b7a8e38a9d018",
+      "bytes": 212394,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/john-gill/2PE/2.json",
+      "sha256": "8db1b5d5492f96c8bf19ac5781dfce7c196bacbd4282c3e632c9e4507f138cdc",
+      "git_blob_sha": "a60cc6ce548a69fa6516fe1790de1d910eaede8e",
+      "bytes": 207513,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/john-gill/2PE/3.json",
+      "sha256": "cbbfb9c5af2d9d7135bd012af4726365fb9e08bd9369a130872f46262345788d",
+      "git_blob_sha": "1786b8b253304faf46ae858d205972af1a19efc9",
+      "bytes": 214278,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/keil-delitzsch/2PE/1.json",
+      "sha256": "c1c36591562243048aa4e2c45af6de13bc2db4ee06a190422e762b5367e4aef5",
+      "git_blob_sha": "8cbe9601a472b05f8933049a4152f9a48a73bc6a",
+      "bytes": 1446,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/keil-delitzsch/2PE/2.json",
+      "sha256": "485716aeb6918bb10b858372a251bb861f445792bdcead0726d3540d2075600e",
+      "git_blob_sha": "054a0660c8d4d06096540a5808c93e6d6f606a8f",
+      "bytes": 1446,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/keil-delitzsch/2PE/3.json",
+      "sha256": "a70f5c4e7a3349013e67649b8af99d67f9c1c3b6f261b192f3e54beed01dbdb9",
+      "git_blob_sha": "12fb14c4319d7a213e956e05a31a3c4fa573c16e",
+      "bytes": 1446,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/matthew-henry/2PE/1.json",
+      "sha256": "2116e9bdbd8de9bc66edd3323e0592d4871f490a3aee2d5fe7440a29e31cd1af",
+      "git_blob_sha": "fbecb78189b9e733d326bb95d689c0b42d9b5649",
+      "bytes": 215622,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/matthew-henry/2PE/2.json",
+      "sha256": "112f69d2b5de33cdd9a70d37eaba20d3af1056677c7136bf616cdd3d726ee6b0",
+      "git_blob_sha": "60b2e007ad3a9bae436c4e8a78f015478058eb76",
+      "bytes": 128821,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/authors/matthew-henry/2PE/3.json",
+      "sha256": "29aa733e2d53bed4f927168e286d230c4b47f9e7173c2659f2078987aebc8ecd",
+      "git_blob_sha": "1b1eb8adaece526a05cabdf3f6d99c049c12ea5e",
+      "bytes": 217647,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/index/2PE/1.json",
+      "sha256": "930dc7b9e70f359f6c54b138842dbba7df906935d81733eb2df2b0ab1e5d234a",
+      "git_blob_sha": "e0e6b9e90f0d5d94b3535d7020eb96d17761f077",
+      "bytes": 11631,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/index/2PE/2.json",
+      "sha256": "3b6b6bdf760e85f315ea7159d0a99d2be1524dfcc9d9aa2db22f2afb86b65912",
+      "git_blob_sha": "d546e822449e5a41dc0acb21e9abb92322d415c0",
+      "bytes": 9789,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/index/2PE/3.json",
+      "sha256": "5e61bdfb9463c37530d541c81d107332d697748521456b5f242075b6ccf4db39",
+      "git_blob_sha": "aeca3b7f40d0c5e846b5ce7179195a1c2a3a9f97",
+      "bytes": 9676,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "api/v3/snapshots/structured-second-peter-2026-11-15/manifest.json",
+      "sha256": "e056685ab5a72a5309af2460d5a49138faaac4595f169f7b4a50076e4b2e521f",
+      "git_blob_sha": "d3066d34830bc5a30b415661f366ae5ebe39ecd3",
+      "bytes": 1660,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-first-john-v3.html",
+      "sha256": "91c1a6051eef1e2bf9a3a65baf4662f2dc2ed227af7ee4ebef5533c235e11eb7",
+      "git_blob_sha": "cbbf07e6e01d85d1dda5f98373225c76e1f11570",
+      "bytes": 11591,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-second-john-v3.html",
+      "sha256": "c4bbf06617c10cf91f03f6a53a723ed9d2e9e098fd36e1732b9a87ade6647dd2",
+      "git_blob_sha": "1b1994e6e9ea46de7ab981ee2d9843f059f3ceec",
+      "bytes": 11575,
+      "install_policy": "new_additive_file"
+    },
+    {
+      "path": "review-second-peter-v3.html",
+      "sha256": "0dc4e8d9c2817683cdd93d1350d3ae5c7d142a4a0365dfa59346faddeca7241d",
+      "git_blob_sha": "9389a73015cdd02b248cd82dae6b8c6c082df2e3",
+      "bytes": 11585,
+      "install_policy": "new_additive_file"
+    }
+  ],
+  "verification": "PASS_LOCAL_SOURCE_SCHEMA_NAVIGATION_READER_SIMULATED_UNINSTALLED",
+  "release_status": "owner_manual_upload_only",
+  "manual_upload_batches": [
+    {
+      "name": "UPLOAD_BATCH_01_2PE_1JN_2JN_ADD_FILES.zip",
+      "file_count": 75,
+      "policy": "All release files except cumulative NAV, plus this release manifest",
+      "note": "Actual upload file count excludes the single NAV file and includes release manifest."
+    },
+    {
+      "name": "UPLOAD_BATCH_02_FINAL_63_BOOK_NAV.zip",
+      "file_count": 1,
+      "policy": "Cumulative navigation file LAST"
+    }
+  ]
+}

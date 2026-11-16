@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.0.0-staging",
+  "kind": "sotw_structured_commentary_book_snapshot_manifest",
+  "snapshot_id": "structured-second-john-2026-11-15",
+  "status": "STAGING_NOT_PRODUCTION",
+  "books": [
+    "2JN"
+  ],
+  "authors": [
+    "matthew-henry",
+    "john-calvin",
+    "adam-clarke",
+    "jamieson-fausset-brown",
+    "keil-delitzsch",
+    "john-gill"
+  ],
+  "counts": {
+    "author_chapters": 6,
+    "original_entries": 43,
+    "reader_visible_entries": 43,
+    "sword_chapters": 3,
+    "helloao_chapters": 1,
+    "navigation_sections": 11,
+    "verse_author_routes": 51,
+    "verses": 13,
+    "chapters": 1,
+    "P_source_sections": 11,
+    "P_routed_sections": 11,
+    "inherited_P_references": 0
+  },
+  "chapter_verse_count": {
+    "1": 13
+  },
+  "author_metadata": "/api/v3/authors.json",
+  "navigation_schema": "/api/v3/navigation-schema.json",
+  "provider": "Servants of the Way · Commentary Library",
+  "source_policy": "Original SHA locked CrossWire/SWORD NT native KJV binary index; HelloAO John Gill original; unavailable sources labeled; no infill.",
+  "reader_policy": "Verse mode by default; separate source-bounded P navigation; source gaps visible.",
+  "provenance_policy": "Exact original records, edition metadata, source indices, hashes, declared licenses preserved.",
+  "notes": [
+    "2 John is canonical book 63; prior 60 accepted snapshot identities are untouched.",
+    "Keil & Delitzsch original source has no NT commentary.",
+    "Original historical commentary is source-attributed, not CGBC/Jake sermon content.",
+    "Manual owner upload only; no GitHub or CGBC player changes.",
+    "Calvin SWORD and HelloAO provide no 2 John chapter; explicitly unavailable."
+  ]
+}
