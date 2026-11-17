@@ -9,6 +9,14 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | JACOB ROTATED-SQUARE TAP ISOLATION (OWNER CLARIFICATION; DESIGN ONLY)
+
+**Owner clarifies the marker's identity and touch routing:** The Jacob Lannom commentary availability marker is a **rotated-square icon** (geometric appearance), **not a gemstone/diamond-themed icon**. Retain the already accepted visual marker rather than swapping it for a literal diamond emoji or unrelated icon.
+
+**Critical interaction rule:** Normal tapping of a verse currently opens the verse study tools. The rotated-square availability marker is INSIDE / adjacent to that tappable Scripture context, so it must have an **independently mapped, dedicated tap target and handler**. Tap on the marker -> open the applicable accepted **Jacob Lannom commentary directly**. Tap on the other verse text -> open the ordinary verse tools. The marker tap must **not also activate the verse's default tap action** (prevent click/touch event propagation or equivalent control separation). Preserve passage/scroll position on return, support accessible touch size and keyboard/assistive-tech activation, and keep the Commentary dropdown as the alternate entry path.
+
+**Scope:** Only render/action the marker on an accepted eligible Jacob coverage match; no new author record or copied content. This is the owner's intended interaction, not a claim of existing functionality. **Pending coordinated design implementation; no application code or deploy changes.**
+
 ## 2026-11-17 | JACOB DIAMOND SHORTCUT REVIEW — TWO ENTRY PATHS (OWNER SCREENSHOT; DESIGN ONLY)
 
 **Owner request and screenshot:** The screenshot shows the existing Jacob Lannom pastoral commentary viewer, titled “Receiving the Word, Baptism, and Belonging” (Acts 2:41 context). The owner says the previously chosen **diamond icon** indicating available Jacob Lannom commentary should itself be **pressable in Scripture and take the reader directly to that Jacob commentary**, not simply serve as an availability decoration or require another author-chooser step.
