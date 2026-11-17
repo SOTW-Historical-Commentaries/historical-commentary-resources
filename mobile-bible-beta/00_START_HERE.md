@@ -7,6 +7,14 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT v0.13.1 OWNER IPHONE FOLLOW-UP (2026-11-17)
+
+**Owner visual review:** The Word-by-Word KJV sequence is useful, but the Jacob rotated-square icon at the end of a verse was opening verse study rather than directly opening commentary. The owner requests a Dictionary button INSIDE each eligible word card, without taking away the normal card-tap return to the verse.
+
+**Reader fix committed:** In `mobile-bible-beta/index.html`, marker placed BEFORE its correct verse, with a separate click target/propagation guard and direct accepted Jacob author open; in `study-ux-repair.js`, eligible English source cards have a secondary `Webster’s 1828 Dictionary ›` button when the exact real dictionary entry exists, and Back returns to Word-by-Word. Cards without confirmed English dictionary coverage do not show a dead button, especially BSB original-form-only rows. New stylesheet handling; index uses `?v=20261117-reader131` for updated study assets. **Latest reviewed code head:** `34643e995df3285bd0316f877cbb928321cd8fec`. Source data unchanged; three beta files touched.
+
+**Verification:** GitHub file readback + JavaScript parse and source-level guard checks passed, but owner's real phone retry is still required before declaring the Jacob square and dictionary in-card tap tested. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md). Owner's unresolved common-word underline decision remains parked.
+
 ## CURRENT v0.13 REVIEW BUILD (2026-11-17): owner screenshot redesign + Palatino trial
 
 **Owner authorized building the review beta after screenshot collection.** Reader-only changes now committed on `main`; latest reviewed implementation head `3297c833048d51dca6270c6fd4198cc9e3fec7b4` with a later documentation-only ledger commit `0d7adb0069fee556302a09197fe9e27938a6082b`. Pre-change recoverable baseline `b8ccf618624ce26ee47865e903c944ca7797d605`. Source/lexicon/author JSON untouched.
