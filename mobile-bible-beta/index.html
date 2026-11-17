@@ -401,6 +401,15 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
  background:#fafbf9!important;color:#253d46!important;border-color:#afc4c9!important}
 @media(prefers-reduced-motion:reduce){.mobile-beta #readerEditionModal .modal-content{animation:none}}
 
+
+/* Webster 1828 availability gate: mark only words with real entries. */
+.mobile-beta #modernStudyVerse button.webster-word{
+ text-decoration:underline dotted #638d9b 1px;
+ text-underline-offset:4px;
+}
+.mobile-beta.beta-light #modernStudyVerse button.webster-word{
+ text-decoration-color:#6e9ca4;
+}
 </style>
 <link rel="stylesheet" href="./asv-facsimile.css">
 </head>
@@ -978,45 +987,40 @@ async function getSotwWebster1828(){
  }).finally(()=>{sotwWebsterPending=null});
  return sotwWebsterPending;
 }
-async function showWebsterDictionary(english){
- const request=modernStudyRequest;
- const word=normalizeWebsterHeadword(english);
- if(!word)return;
+
+/* Only render an English dictionary affordance for a headword with an actual
+   definition in SOTW's published 1828 transcription. No guessed stemming. */
+function websterDefinitionsFor(english){
+ const key=normalizeWebsterHeadword(english);
+ const rows=key&&sotwWebsterData?sotwWebsterData[key]:null;
+ return Array.isArray(rows)?rows.filter(row=>Array.isArray(row)&&typeof row[1]==='string'&&row[1].trim().length>0):[];
+}
+function showWebsterDictionary(english){
+ const rows=websterDefinitionsFor(english);
+ if(!rows.length)return; // No empty/failed dictionary panels.
  openStudyLayer('dictionary','Noah Webster · 1828');
- studyOverlayBody.querySelector('#voices')?.replaceChildren();
- const loading=document.createElement('p');
- loading.className='modern-panel-desc';loading.textContent='Opening historical English dictionary…';
- studyOverlayBody.append(loading);
- try{
-  const dict=await getSotwWebster1828();
-  if(request!==modernStudyRequest||studyView!=='dictionary'||!document.body.classList.contains('study-open'))return;
-  const rows=dict[word];
-  studyOverlayBody.querySelector('#voices')?.replaceChildren();
-  if(!Array.isArray(rows)||!rows.length){
-   const noExact=document.createElement('p');noExact.className='modern-panel-desc';
-   noExact.textContent='No exact 1828 dictionary entry for “'+english+'”. Try the base word form; historical entries are not automatically stemmed.';
-   studyOverlayBody.append(noExact);
-  }else{
-   const heading=document.createElement('h3');heading.textContent=english;heading.className='word-summary-head';studyOverlayBody.append(heading);
-   for(const row of rows){
-    if(!Array.isArray(row)||typeof row[1]!=='string')continue;
-    const card=document.createElement('div');card.className='dictionary-entry';
-    const source=document.createElement('strong');source.textContent='Dictionary entry '+String(row[2]??'');
-    const definition=document.createElement('p');definition.textContent=row[1];
-    card.append(source,definition);studyOverlayBody.append(card);
-   }
-  }
-  const credit=document.createElement('p');credit.className='dictionary-license';
-  credit.append(document.createTextNode('Noah Webster (1828) · Digital transcription CC BY-SA 4.0 · '));
-  const license=document.createElement('a');license.href=WEBSTER_1828_LICENSE;license.target='_blank';license.rel='noopener noreferrer';license.textContent='Source & license';
-  credit.append(license);studyOverlayBody.append(credit);
- }catch(err){
-  if(request!==modernStudyRequest||studyView!=='dictionary')return;
-  loading.textContent='The historical dictionary could not be loaded. Please try again when connected.';
+ // openStudyLayer retains #voices for future commentary. Remove all other
+ // previous study content; never leave a stale Loading message behind.
+ for(const child of Array.from(studyOverlayBody.children)){
+  if(child.id!=='voices')child.remove();
  }
+ const heading=document.createElement('h3');heading.textContent=english;
+ heading.className='word-summary-head';studyOverlayBody.append(heading);
+ for(const row of rows){
+  const card=document.createElement('div');card.className='dictionary-entry';
+  const source=document.createElement('strong');source.textContent='Dictionary entry '+String(row[2]??'');
+  const definition=document.createElement('p');definition.textContent=row[1];
+  card.append(source,definition);studyOverlayBody.append(card);
+ }
+ const credit=document.createElement('p');credit.className='dictionary-license';
+ credit.append(document.createTextNode('Noah Webster (1828) · Digital transcription CC BY-SA 4.0 · '));
+ const license=document.createElement('a');license.href=WEBSTER_1828_LICENSE;license.target='_blank';
+ license.rel='noopener noreferrer';license.textContent='Source & license';
+ credit.append(license);studyOverlayBody.append(credit);
 }
 function offerWebster1828(english,request){
  if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+ if(!websterDefinitionsFor(english).length)return;
  if(betaWordDetail.querySelector('.webster-lookup'))return;
  const btn=document.createElement('button');btn.type='button';btn.className='webster-lookup';
  const name=document.createElement('span');name.textContent='Noah Webster’s Dictionary';
@@ -1026,6 +1030,8 @@ function offerWebster1828(english,request){
  betaWordDetail.append(btn);
 }
 function selectWebsterEnglish(word,btn){
+ // Data availability is authoritative, not the presence of a button.
+ if(!websterDefinitionsFor(word).length)return;
  if(btn.classList.contains('is-open')){
   btn.classList.remove('is-open');websterActiveWord='';betaWordDetail.replaceChildren();return;
  }
@@ -1037,16 +1043,20 @@ function selectWebsterEnglish(word,btn){
  offerWebster1828(word,modernStudyRequest);
 }
 function addEnglishWordTargets(){
- if(!document.body.classList.contains('study-open'))return;
+ // Leave Scripture plain until the dictionary is successfully loaded.
+ // Words without entries are never clickable for Webster.
+ if(!document.body.classList.contains('study-open')||!sotwWebsterData)return;
  for(const textNode of Array.from(modernStudyCard.childNodes)){
   if(textNode.nodeType!==3)continue;
   const parts=(textNode.nodeValue||'').match(/[\p{L}]+(?:['\u2019][\p{L}]+)*|[^\p{L}]+/gu);
   if(!parts)continue;
   const fragment=document.createDocumentFragment();
   for(const part of parts){
-   if(!/^\p{L}/u.test(part)){fragment.append(document.createTextNode(part));continue;}
+   if(!/^\p{L}/u.test(part)||!websterDefinitionsFor(part).length){
+    fragment.append(document.createTextNode(part));continue;
+   }
    const btn=document.createElement('button');btn.type='button';btn.className='webster-word';
-   btn.textContent=part;btn.setAttribute('aria-label','Study English word '+part);
+   btn.textContent=part;btn.setAttribute('aria-label','Read Noah Webster 1828 entry for '+part);
    btn.addEventListener('click',()=>selectWebsterEnglish(part,btn));
    fragment.append(btn);
   }
@@ -1063,12 +1073,27 @@ modernLoadAlignedWords=async function(request){
 const lexiconBeforeWebster=betaLexicon;
 betaLexicon=async function(id,request,english){
  await lexiconBeforeWebster(id,request,english);
- if(request===modernStudyRequest&&document.body.classList.contains('study-open')&&currentLexical?.english===english){
-  offerWebster1828(english,request);
+ if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+ if(currentLexical?.english!==english)return;
+ if(sotwWebsterData){offerWebster1828(english,request);}
+ else{
+  getSotwWebster1828().then(()=>{
+   if(request===modernStudyRequest&&currentLexical?.english===english&&document.body.classList.contains('study-open'))
+    offerWebster1828(english,request);
+  }).catch(()=>{});
  }
 };
 const openBeforeWebster=betaOpen;
-betaOpen=function(){websterActiveWord='';openBeforeWebster();};
+betaOpen=function(){
+ websterActiveWord='';openBeforeWebster();
+ const request=modernStudyRequest;
+ // Start one lazy, shared dictionary request on the first verse study.
+ // Only decorate words whose exact dictionary records are present.
+ if(sotwWebsterData){addEnglishWordTargets();}
+ else getSotwWebster1828().then(()=>{
+  if(request===modernStudyRequest&&document.body.classList.contains('study-open'))addEnglishWordTargets();
+ }).catch(()=>{/* Missing dictionary does not produce an empty UI item. */});
+};
 
 
 /* v0.5 anchored navigation and evidence-scoped doctrine tags */
