@@ -259,7 +259,9 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta .study-launch:focus-visible{outline:2px solid #b0d4df;outline-offset:2px}
 .mobile-beta #studyOverlay{position:absolute;inset:76px 0 77px;z-index:104;display:none;
  background:#152129;padding:0 18px;overflow:hidden}
-.mobile-beta #studyOverlay.is-open{display:flex;flex-direction:column}
+.mobile-beta #studyOverlay.is-open{display:flex;flex-direction:column;animation:studyLayerRise .23s cubic-bezier(.2,.65,.2,1) both}
+@keyframes studyLayerRise{from{opacity:.75;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.mobile-beta #studyOverlay.is-open{animation:none}}
 .mobile-beta #studyOverlayHeader{display:flex;align-items:center;gap:10px;padding:7px 0 16px;
  border-bottom:1px solid #38505a;flex:0 0 auto}
 .mobile-beta #studyOverlayBack{border:1px solid #526b74;border-radius:9px;background:#263c45;
