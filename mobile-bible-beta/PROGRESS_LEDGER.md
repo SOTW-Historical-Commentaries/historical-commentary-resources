@@ -9,6 +9,24 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | v0.8: STRICT WEBSTER 1828 AVAILABILITY / EMPTY-CONTENT FIX (OWNER IPHONE SCREENSHOT)
+
+**Owner evidence:** iPhone screenshot at approximately 10:02 PM, selected the English word **“disciples”** and tapped Noah Webster's dictionary. The study drawer exposed a dead end: “No exact 1828 dictionary entry for ‘disciples’,” plus a stale “Opening historical English dictionary…” message above that notice and an overly large attribution in the older cached page. Owner specifically requires the dictionary NOT to be selectable where it has no entry.
+
+**Root cause in previously deployed v0.7:** `addEnglishWordTargets()` blindly rendered all English words as tappable `webster-word` buttons before checking `webster1828.json`; `offerWebster1828()` always offered the lookup for selected words. The dictionary renderer did not remove a previous loading element, because it cleared the voices container instead of the loading content.
+
+**Implemented in isolated beta:** Reader commit `fef737aed247164fcda784835e9f43beb176c5ac`, blob `53b02ef1fc0a7342b84b731920681713ffef9375`.
+- New `websterDefinitionsFor(word)` checks normalized exact-key records against the **actual approved 1828 dictionary** and only counts rows with a usable non-empty source definition. No guessed stemming, false base-form match or fallback dictionary.
+- Dictionary words are **not** made tappable until the 1828 JSON has genuinely loaded; after the shared lazy fetch completes, only English words with actual entries get the subtle word affordance. If data is unavailable, only independently verified Strong's word targets remain.
+- A Webster launcher is displayed **only if** `websterDefinitionsFor(word).length > 0`. This applies equally to a word associated with Strong's and a word selected for English dictionary lookup.
+- Dictionary view refuses to open when a matching definition is absent. When a matching definition exists, it opens directly to the actual text, without a stale “Opening…” status or empty notice. It preserves the existing commentary node while clearing prior study content.
+- Short CC BY-SA 4.0 attribution and source/license link remain intact. Separate Strong's original-language links remain unchanged; full-screen study and translation dropdown/ASV scan extensions are preserved.
+- The 15.4 MB dictionary remains loaded once, lazily upon the first verse study; appearance of new valid English dictionary word targets may occur when the download completes. Future optimization: generate a compact version-pinned headword availability index from the accepted SOTW dictionary if a faster mobile experience is needed, without altering the canonical resource.
+
+**QA:** GitHub HTML update/readback and both inline JavaScript syntax checks PASS; extracted pure function was tested against representative fixtures and correctly returned zero matches for `disciples` and valid matches for `disciple`, `LOVE` (case-normalized), and filtered empty rows. These are **test fixtures**, not claims about actual 1828 word coverage; source data's complete 15.4 MB record could not be directly downloaded in this session. Browser Pages URL remains inaccessible to the remote web checker and fresh iPhone render/data-download testing is **PENDING**. Owner screenshot proves a defect in the previous version, not this fix.
+
+**Next phone check:** Refresh the beta, return to the same verse and check **disciples**. If no source entry exists, it remains ordinary text (unless independently linked through Strong's), and Webster 1828 never opens for it. Tap a word that does have a real dictionary entry (e.g., a verified available example from loaded source) and confirm the dictionary opens directly to definitions with no loading/no-result text. Check Close/Back, Strong's and commentary are preserved. If the old 1828 disclaimer still appears, investigate Safari PWA/offline HTML caching and reload rather than silently deleting required license credit.
+
 ## 2026-11-16 | v0.7: translation dropdown matches upper book navigator
 
 **Owner request:** Give the translation selector beside the passage title the same *upper anchored dropdown and dimmed background* treatment as Book navigation, instead of showing its choices as a bottom sheet.
