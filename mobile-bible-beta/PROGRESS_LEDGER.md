@@ -9,6 +9,30 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | VISUAL BETA v0.2: consolidated reader redesign published
+
+**STATUS:** New mobile reader HTML committed to the existing public SOTW GitHub Pages repository for owner visual inspection. Exact code commit: `f6bfcd29e8666607f3819331c70e18cce951ec85` (corrected release), file blob `b40540ec5365c0e28af0a3ab03b02f702cb51778`; main redesign commit `d218ee8c6cd79cd7f0ce8a3a9ec0844811c8fff9`. The only changed app file was `mobile-bible-beta/index.html`. Existing curated repositories and `unified-commentary-reader/index.html` are unchanged.
+
+**Public beta to inspect:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/
+
+**Implemented from owner-approved design:**
+- Scripture is now *paragraph-first*, respecting each translation's existing `paragraph_start` records. Single verses no longer form the default tall list.
+- No verse highlight/study selection is produced at initial chapter load. Scrolling by swipe does not select a verse. Separate tap gesture discriminator limits click activation during drag/momentum; actual phone verification still needed.
+- A deliberate tap opens a compact single-verse sheet. Closing clears transient study highlighting and returns to the existing reader DOM/scroll position.
+- Strong's-number bank is suppressed in the new sheet. For ASV1901/WEBSTER1833 only, supported exact English token indices and surface match are used to mark tappable English words. Selecting one displays its actual Strong's record. For KJV1769/BSB no false English-token alignment is asserted, so unsupported words are unmarked.
+- Commentary displays a *collapsed chooser*, generated only from actual Jacob accepted coverage or historical `verse_routes`. Choosing a single author loads that content on demand; selecting again collapses it. No automatic endless six-author exposition.
+- Modern unobtrusive Scripture header with prominent book/chapter, compact translation chooser and separate search/theme icons; original 4-dropdown navigation is preserved inside a quickly opened passage picker. Translation profile selector has verified text/edition labels, no fabricated cover art.
+- Search dialog accepts direct book/chapter/verse references and text phrases in the current chapter, with early suggestions. **Whole-Bible full-text and concept search are not built** and are not represented as available. No auto-scroll.
+- Separate state tracks reading location vs transient verse selected for study. Chapter/edition changes reset reader scroll to beginning; drawer close does not rebuild Scripture.
+
+**QA and truthfulness:** GitHub file readback PASS; JavaScript syntax gate PASS; main original unified reader Git blob `b7cb82e66859a8f8705f390644a706965d0cc265` unchanged. An independent live site HTTP/browser render and genuine iPhone gesture/visual inspection could not be performed in this session; `web` could not access the Pages URL although prior owner screenshots established the earlier beta loaded. DO NOT CLAIM THIS REDESIGN HAS PASSED MOBILE QA.
+
+**Rollback:** previous working HTML beta commit `e1182d7f7005c046880a8ca14dd5c8104eb9184a`, old blob `8f021b03960c0691cb9533111774077b9e099bfd`. Use a normal forward revert/recovery after confirming current GitHub branch SHA, not a force-reset that risks newer files.
+
+**Pending beyond this inspection:** Authentic KJV and other translation cover/title-page imagery, ASV-only original-page viewer from existing verse-page indexes, full Bible search and Concept Registry collage, cross-reference back-stack, source-specific word alignment for KJV/BSB, full UI accessibility/performance/mobile gestures. No fabricated facsimile thumbnails, claims or lexical mappings.
+
+**Owner visual QA checklist:** Refresh the public beta on iPhone. Verify clean modern book/chapter header, paragraph reading with no default highlight, scrolling without opening tools, intentional verse tap opens single-verse sheet, Close returns to same scroll, ASV English word tap shows one Strong's definition, commentary remains collapsed until selecting a real available author, theme light/dark, passage picker and search. Screenshot any flaws. Once reviewed, revise the consolidated UI, not a succession of unrelated micro-fixes.
+
 ## 2026-11-16 | Owner design decision: Paragraph reader as default; zero auto-selection
 
 **STATUS: Approved core reading UX direction, NOT IMPLEMENTED in current mobile beta.** Supersedes earlier experimentation with line-separated verse layout as the normal reading view, and overrides current beta logic that selects/highlights verse 1 on chapter load.
