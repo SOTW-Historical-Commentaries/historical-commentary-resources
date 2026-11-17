@@ -669,7 +669,7 @@ async function modernLoadAlignedWords(request){
    if(!byIndex.has(idx))byIndex.set(idx,row);
   }
   if(!byIndex.size)return;
-  const raw=(modernSourceVerse(modernStudyVerse)?.spans||[]).map(a=>a.text||'').join('');
+  const raw=(modernSourceVerse(modernStudyVerse)?.spans||[]).map(a=>a.text||'').join('').replace(/^\s*[¶§]+\s*/u,'');
   const parts=raw.match(/\s+|\S+/g)||[];
   const normalized=x=>String(x||'').toLocaleLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
   let tokenNumber=0;
