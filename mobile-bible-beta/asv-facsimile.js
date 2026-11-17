@@ -64,7 +64,7 @@ function ensureAsvPdfLib(){
  }).catch(e=>{asvPdfLibPromise=null;throw e});
  return asvPdfLibPromise;
 }
-async function renderAsvCanvas(ctx,p,holder,status,scale,serial){
+async function renderAsvCanvas(ctx,p,holder,status,scale,serial,fallback){
  try{
   const lib=await ensureAsvPdfLib();
   const pdfUrl=asvScanUrl(ctx,p).split('#')[0];
@@ -92,12 +92,27 @@ async function renderAsvCanvas(ctx,p,holder,status,scale,serial){
   await page.render({canvasContext:context,viewport}).promise;
   if(serial!==asvRenderSerial||!holder.isConnected)return;
   holder.replaceChildren(canvas);
-  status.textContent='Original scan ready · '+Math.round(scale*100)+'%';
+  status.textContent='Original scan ready';
+  if(fallback)fallback.hidden=true;
  }catch(err){
   if(serial!==asvRenderSerial||!holder.isConnected)return;
   holder.replaceChildren();
-  status.textContent='Inline scan preview unavailable on this device. Use “Open original PDF” above.';
+  status.textContent='Inline scan unavailable on this device.';
+  if(fallback)fallback.hidden=false;
  }
+}
+function asvHumanRange(from,to){
+ const read=key=>{
+  const m=/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)$/.exec(String(key||''));
+  if(!m)return null;
+  const book=BOOKS.find(b=>b.code===m[1]);if(!book)return null;
+  return {name:book.name,chapter:Number(m[2]),verse:Number(m[3])};
+ };
+ const a=read(from),b=read(to);
+ if(!a||!b)return 'Scripture page';
+ if(a.name===b.name&&a.chapter===b.chapter)return a.name+' '+a.chapter+':'+a.verse+'–'+b.verse;
+ if(a.name===b.name)return a.name+' '+a.chapter+':'+a.verse+' – '+b.chapter+':'+b.verse;
+ return a.name+' '+a.chapter+':'+a.verse+' – '+b.name+' '+b.chapter+':'+b.verse;
 }
 function renderAsvScanPage(ctx,i){
  const p=ctx.index.pages[i];
@@ -109,7 +124,7 @@ function renderAsvScanPage(ctx,i){
  const root=document.createElement('div');root.id='asvScanContent';
  const meta=document.createElement('p');meta.className='asv-metadata';
  meta.textContent='ASV 1901 · Printed p. '+(p.printed_page??'unmarked')+
-  ' · '+p.first_verse+' to '+p.last_verse;
+  ' · '+asvHumanRange(p.first_verse,p.last_verse);
  const nav=document.createElement('div');nav.className='asv-page-controls';
  const prev=document.createElement('button'),next=document.createElement('button');
  prev.type='button';next.type='button';
@@ -126,22 +141,16 @@ function renderAsvScanPage(ctx,i){
  nav.append(prev,pageCount,next);
  const direct=document.createElement('a');direct.className='asv-native-link';
  direct.href=asvScanUrl(ctx,p);direct.target='_blank';direct.rel='noopener noreferrer';
- direct.textContent='Open original PDF · pinch to zoom';
- const zoom=document.createElement('div');zoom.className='asv-zoom-controls';
- const minus=document.createElement('button'),plus=document.createElement('button');
- minus.type='button';plus.type='button';minus.textContent='− Zoom out';plus.textContent='+ Zoom in';
- const status=document.createElement('span');status.className='asv-metadata';
+ direct.textContent='Open original PDF if the scan cannot be displayed';
+ direct.hidden=true; // Keep the source fallback without an oversized top banner.
+ const status=document.createElement('p');status.className='asv-metadata asv-render-status';
  status.textContent='Loading original scanned page…';
- zoom.append(minus,status,plus);
  const canvasArea=document.createElement('div');canvasArea.className='asv-canvas-area';
- let scale=1;
- const update=()=>{const run=++asvRenderSerial;renderAsvCanvas(ctx,p,canvasArea,status,scale,run)};
- minus.addEventListener('click',()=>{scale=Math.max(0.75,Math.round((scale-.25)*100)/100);update()});
- plus.addEventListener('click',()=>{scale=Math.min(2.5,Math.round((scale+.25)*100)/100);update()});
- root.append(meta,nav,direct,zoom,canvasArea);
+ const serialRun=++asvRenderSerial;
+ root.append(meta,nav,canvasArea,status,direct);
  studyOverlayBody.append(root);
  ctx.pageIndex=i;
- update();
+ renderAsvCanvas(ctx,p,canvasArea,status,1,serialRun,direct);
 }
 asvScanButton.addEventListener('click',()=>{
  if(state.edition!=='ASV1901'||!activeAsvScan)return;
