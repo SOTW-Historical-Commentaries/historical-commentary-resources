@@ -1,0 +1,16 @@
+/* ASV-only facsimile access, hidden unless an indexed 1901 original printed page exists */
+.mobile-beta #readerNavModal .modern-panel-desc:empty{display:none}
+.mobile-beta #asvSourceEntry[hidden]{display:none!important}
+.mobile-beta #asvSourceEntry{flex:0 0 auto;width:100%;margin:0 0 12px;min-height:43px;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #445e69;border-radius:10px;padding:10px 12px;background:transparent;color:#c4e1e9;font:600 13px system-ui;text-align:left;cursor:pointer}
+.mobile-beta #asvSourceEntry small{font:11px system-ui;color:#bbd2d9}
+.mobile-beta .asv-page-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0}
+.mobile-beta .asv-page-controls button{padding:9px 10px;background:#2c414b;color:#e3f0f4;border:1px solid #536b77;border-radius:9px;font:600 12px system-ui}
+.mobile-beta .asv-page-controls button:disabled{opacity:.35}
+.mobile-beta .asv-metadata{font:13px/1.6 system-ui;color:#b7cbd3}
+.mobile-beta .asv-native-link{display:block;text-align:center;padding:14px 12px;background:#91bfcb;color:#152d34;border-radius:9px;font:700 14px system-ui;text-decoration:none;margin:12px 0}
+.mobile-beta .asv-help{font:12px/1.6 system-ui;color:#a9c2cc}
+.mobile-beta .asv-pdf-preview{width:100%;height:min(54svh,580px);border:1px solid #536b77;border-radius:8px;background:white}
+.mobile-beta.beta-light #asvSourceEntry{background:#edf5f3;border-color:#bfd0d1;color:#2b535e}
+.mobile-beta.beta-light #asvSourceEntry small{color:#50717a}
+.mobile-beta.beta-light .asv-page-controls button{background:#e5eff0;color:#29474f;border-color:#b5cccd}
+.mobile-beta.beta-light .asv-metadata,.mobile-beta.beta-light .asv-help{color:#526b74}
