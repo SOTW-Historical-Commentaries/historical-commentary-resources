@@ -9,6 +9,23 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | Owner design decision: word-first, collapsible verse study
+
+**STATUS: Approved UX direction, NOT IMPLEMENTED.** This supersedes the current beta's unusable top-of-panel list of raw Strong's identifiers.
+
+**Problem directly observed:** Tapping a verse opens many raw Strong's numbers at the top. Readers cannot identify the desired English word by number. An endless vertical stream of commentary is not acceptable for quick Scripture following.
+
+**Required compact mobile flow:**
+1. Tap a verse to open a compact study panel showing that verse **in readable English**. Visually distinguish only words with genuine, edition-specific supported word-study links; use tasteful accent underline/highlight, not raw identifier chips or dense colored controls. Normal Scripture remains intact in the underlying reader.
+2. Tap a marked English word to open **only that word's** detail directly beneath the verse: original Hebrew/Greek spelling, Strong's identifier and concise source definition, transliteration and verified morphology when present. Offer an optional full Strong's expansion; distinct Noah Webster 1828 English dictionary only when available from the separate source.
+3. Re-tap selected word, collapse the lexical card, or close the full sheet in one action; preserve the exact Scripture scroll position.
+4. At the bottom of the compact sheet, show a **collapsed commentary chooser** listing only authors with matching accepted passage/book/chapter/verse coverage. When chosen, expand one author's commentary as requested, with a separate affordance for full original text. Do not automatically render every author as full-height cards; do not create an endless scroll.
+5. Switching to another verse updates this same flow. Reversible cited-Scripture navigation remains a planned feature.
+
+**Critical data-binding constraint:** The approved SOTW language contract does NOT authorize treating KJV tagged USFM ordinals or BSB source original-language row indexes as English text offsets. Direct English word highlighting must be enabled only for proven supported offsets/links per edition. ASV1901 and WEBSTER1833 supported target offsets may be used only according to their accepted contract. Missing reliable word alignment means no fabricated English-word click target. Source-based Strong's listings alone should not masquerade as clickable English tokens.
+
+**Priority:** Incorporate this into the consolidated core mobile UI/UX redesign with owner feedback before writing a new beta. Do not alter curated sources; no application files were changed in this decision.
+
 ## 2026-11-16 | Owner priority decision: UI/UX design FIRST
 **Current phase:** Mobile Reader UI/UX design and feedback consolidation. Existing SOTW verse, original-language and commentary integration appears to work in owner iPhone tests; do not re-open curated source research or pursue backend additions before the core experience is designed.
 **Known search gap:** Current Find is reference-first plus limited current-chapter text search. Owner confirms this is not intuitive or adequate. Design a single natural search interface supporting reference entry, book/chapter navigation, words/phrases, and eventual concepts/questions. **Do not falsely claim Bible-wide indexing/search has been built.** Build full-text/concept matching only after the UI contract is agreed.
