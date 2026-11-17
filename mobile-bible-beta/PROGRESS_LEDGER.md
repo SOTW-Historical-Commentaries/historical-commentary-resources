@@ -9,6 +9,21 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | Owner design decision: Paragraph reader as default; zero auto-selection
+
+**STATUS: Approved core reading UX direction, NOT IMPLEMENTED in current mobile beta.** Supersedes earlier experimentation with line-separated verse layout as the normal reading view, and overrides current beta logic that selects/highlights verse 1 on chapter load.
+
+**Locked behavior:**
+1. **Default chapter presentation is flowing Scripture paragraphs**, honoring actual paragraph boundaries and poetic formatting from the selected translation's source where available. Small but readable verse numbers mark verse starts. Separate single-verse presentation belongs **inside the study sheet after a deliberate tap**, not as the normal page display.
+2. **Initial load has no selected verse.** Do not automatically select verse 1, open a study panel, or highlight a verse simply because a chapter loads. Restored Continue Reading location or deep-linked verse may position the viewport but must not be confused with selecting a verse for study.
+3. **Scrolling never selects.** Ordinary vertical swipes, touch drags, kinetic/momentum scrolling and programmatic restoration do not activate any word-study or commentary panel. Do not make the visible/centered verse a forced selected state.
+4. **Only an intentional tap on a verse** changes explicit study selection and opens its compact single-verse study sheet. Design reliable mobile gesture discrimination so tapping is distinct from dragging/sliding, including on iOS Safari.
+5. **Closing study** clears the transient selection highlight and restores the reader's exact paragraph scroll position, translation, chapter and reading context. Reading-position state and study-selection state are separate.
+6. Changing chapters or translations keeps a readable Scripture page, with no new auto-selected verse. If reader follows a commentary Scripture reference, back navigation restores the exact study/reader context; cited-verse deep links need not automatically invoke the study sheet.
+7. Selected single-verse study displays verified clickable English words and a collapsed available-only commentary chooser, as previously recorded. Do not reintroduce a top bank of raw Strong's number chips.
+
+**Regression checks for the redesign:** Initial open has no selected styles; passive scroll doesn't activate study; momentum scroll doesn't activate; short tap does; close returns to precisely the same reader scroll; changing chapter/edition doesn't select a verse; long paragraph reading remains readable. No app code changed for this design decision. Current deployed app still uses legacy selection behavior until the consolidated redesign.
+
 ## 2026-11-16 | ASV-only historical facsimile access: owner design requirement
 
 **STATUS: Approved direction for upcoming consolidated UI redesign. NOT IMPLEMENTED in mobile-bible-beta.** The owner has already curated/corroborated the original print scans, and mapped Scripture verses to full scanned physical pages in the independent SOTW ASV foundation. Do not rerun this original source research.
