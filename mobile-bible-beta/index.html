@@ -472,7 +472,7 @@ function para(container,text,cls='empty'){const p=document.createElement('p');p.
 function plainContent(container,text){const txt=(text||'').trim();if(!txt){para(container,'This source has no readable display text.');return}if(txt.length<=1150){para(container,txt,'copy');return}para(container,txt.slice(0,880).trimEnd()+'…','preview');const details=document.createElement('details');const sum=document.createElement('summary');sum.textContent='Read complete original commentary ('+txt.length.toLocaleString()+' characters)';const body=document.createElement('div');body.className='copy';body.textContent=txt;details.append(sum,body);container.append(details)}
 function sourceLink(container,path,label='Inspect original source JSON'){const link=document.createElement('a');link.className='source-link';link.href=path;link.target='_blank';link.rel='noopener noreferrer';link.textContent=label;container.append(link)}
 function parseScope(s){const bookOnly=/^([1-3]?[A-Z]{2,3})$/.exec(s||'');if(bookOnly)return{book:bookOnly[1],chapter:null,from:null,to:null};const m=/^([1-3]?[A-Z]{2,3})\.(\d+)(?:\.(\d+)(?:-(\d+))?)?$/.exec(s||'');return m?{book:m[1],chapter:Number(m[2]),from:m[3]?Number(m[3]):null,to:m[4]?Number(m[4]):Number(m[3]||0)}:null}
-function matchingJacob(e){const p=parseScope(e.scopeKey);if(!p||p.book!==state.book)return false;if(p.chapter===null)return e.scopeType==='BOOK_OVERVIEW'&&state.chapter===1&&state.verse===1;if(p.chapter!==state.chapter)return false;if(p.from===null)return e.scopeType==='CHAPTER_INTRODUCTION'&&state.verse===1;return state.verse>=p.from&&state.verse<=p.to}
+function matchingJacob(e,targetVerse=state.verse){const p=parseScope(e.scopeKey);if(!p||p.book!==state.book)return false;if(p.chapter===null)return e.scopeType==='BOOK_OVERVIEW'&&state.chapter===1&&targetVerse===1;if(p.chapter!==state.chapter)return false;if(p.from===null)return e.scopeType==='CHAPTER_INTRODUCTION'&&targetVerse===1;return targetVerse>=p.from&&targetVerse<=p.to}
 function renderJacob(){const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;const c=voiceCard('Jacob Lannom','jacob');$('voices').append(c.el);const pass=matches.filter(e=>!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));const intros=matches.filter(e=>['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));if(!matches.length){para(c.body,`There is no accepted Jacob commentary for ${bookInfo().name} ${state.chapter}:${state.verse}. This does not affect the historical sources. Check the coverage archive for his published passages.`);return}for(const e of pass){para(c.body,e.title,'title');plainContent(c.body,e.commentary);para(c.body,'Scope: '+formatScope(e.scopeKey)+' · accepted passage commentary','meta')}
 for(const e of intros){if(pass.length){const d=document.createElement('details');const s=document.createElement('summary');s.textContent='Also available: '+e.title+' (book / chapter introduction)';const x=document.createElement('div');x.className='copy';x.textContent=e.commentary;d.append(s,x);c.body.append(d)}else{para(c.body,e.title,'title');plainContent(c.body,e.commentary)}para(c.body,'Book/chapter introduction, not an independently verified claim about this individual verse.','meta')}
 sourceLink(c.body,'../review-jacob-coverage.html','Verify accepted scope in coverage archive')}
@@ -485,7 +485,7 @@ async function renderVoices(){const generation=++state.generation;const v=$('voi
 function chooseVerse(n){const max=Math.max(1,Number(state.index?.verse_count||state.bible?.verses?.length||1));if(n<1||n>max)return;state.verse=n;$('verse').value=String(n);$('previous').disabled=n===1;$('next').disabled=n===max;setURL();renderBible();renderVoices();setStatus(`${formatScope(state.book+'.'+state.chapter+'.'+state.verse)} · ${EDITIONS[state.edition][0]} · historic reader v3 indexes`)}
 async function loadChapter(resetVerse=false){const request=++chapterRequest;const edition=state.edition;const b=bookInfo();const initial=state.chapter;const statusLabel=b.name+' '+state.chapter;setStatus('Loading '+statusLabel+' source indexes and translation…');$('voices').replaceChildren();state.index=null;state.bible=null;const root=snapshotRoot(b);try{const [idx,bib]=await Promise.all([getJson(root+`index/${state.book}/${state.chapter}.json`),getJson(pathForEdition())]);if(request!==chapterRequest||state.chapter!==initial||bookInfo().code!==b.code||edition!==state.edition)return;if(idx.canonical_chapter!==`${state.book}.${state.chapter}`||bib.book_code!==state.book||bib.chapter!==state.chapter||bib.edition_id!==state.edition)throw Error('A source identity check failed. No text was substituted.');state.index=idx;state.bible=bib;const max=Number(idx.verse_count)||bib.verses.length;state.verse=resetVerse?1:Math.max(1,Math.min(max,state.verse));fillNumbers($('verse'),max,state.verse);chooseVerse(state.verse)}catch(e){if(request!==chapterRequest)return;setStatus('Could not load '+statusLabel+': '+e.message,true);$('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
 async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(!m.books?.includes(b.code)||!m.chapter_verse_count)throw Error('Unexpected book manifest');count=Object.keys(m.chapter_verse_count).length}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
-async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(document.body.classList.contains('study-open')&&typeof showVerseDoctrineTags==='function')showVerseDoctrineTags();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacobs accepted commentary list is unavailable: '+e.message,true);return false}}
+async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();if(document.body.classList.contains('study-open')&&typeof showVerseDoctrineTags==='function')showVerseDoctrineTags();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacobs accepted commentary list is unavailable: '+e.message,true);return false}}
 async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index)renderVoices()}
 $('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
 $('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
@@ -620,7 +620,26 @@ renderBible=function(){
   btn.setAttribute('aria-label',bookInfo().name+' '+state.chapter+':'+v.verse);
   const sup=document.createElement('span');sup.className='number';sup.textContent=String(v.verse);
   btn.append(sup,document.createTextNode((v.spans||[]).map(a=>a.text||'').join('')));
-  p.append(btn,document.createTextNode(' '));
+  p.append(btn);
+  // The rotated square is a sibling of the verse action, with its own tap target.
+  const eligibleJacob=(state.jacob||[]).some(e=>matchingJacob(e,Number(v.verse))&&
+    typeof e.commentary==='string'&&e.commentary.trim());
+  if(eligibleJacob){
+   const marker=document.createElement('button');marker.type='button';
+   marker.className='jacob-verse-marker';
+   marker.setAttribute('aria-label','Open Jacob Lannom commentary for '+bookInfo().name+' '+state.chapter+':'+v.verse);
+   marker.title='Jacob Lannom commentary available';
+   marker.addEventListener('click',event=>{
+    event.stopPropagation();
+    if(modernGesture.moved&&event.detail!==0)return;
+    const number=Number(v.verse);
+    modernStudyVerse=number;chooseVerse(number);betaOpen();
+    const author=availableAuthors.find(a=>a.id==='jacob-lannom');
+    if(author)openAuthorCommentary(author);
+   });
+   p.append(marker);
+  }
+  p.append(document.createTextNode(' '));
  }
  readerView.scrollTop=keep;
 };
@@ -899,6 +918,16 @@ function appendLexicalLine(container,heading,value){
  const p=document.createElement('p');p.textContent=t;
  container.append(h,p);
 }
+/* Display-only quick meaning; all underlying source text remains unchanged. */
+function sotwQuickDisplayMeaning(source,id){
+ if(id==='strongs:G2309')return 'Choose or prefer; wish or be inclined.';
+ const value=String(source||'').replace(/\s+/g,' ').trim();
+ if(value.length<=96)return value;
+ const first=value.match(/^.{18,95}?[.;!?](?=\s|$)/u);
+ if(first)return first[0];
+ const excerpt=value.slice(0,94).replace(/\s+\S*$/u,'').trim();
+ return excerpt?excerpt+'…':'';
+}
 function renderFullLexical(){
  if(!currentLexical)return;
  const {row,id,english}=currentLexical;
@@ -935,14 +964,9 @@ betaLexicon=async function(id,request,english){
   const trans=document.createElement('span');trans.className='word-summary-meta';
   trans.textContent=row.transliteration||'';
   const short=document.createElement('p');short.className='word-summary-short';
-  short.textContent=row.definitions?.concise_source_authored||'';
+  short.textContent=sotwQuickDisplayMeaning(row.definitions?.concise_source_authored||'',id);
   betaWordDetail.append(label,original,trans,short);
-  const d=row.definitions||{};
-  if(d.derivation_source_authored||d.kjv_renderings_source_authored||d.numbered_expanded_source_authored?.length||d.supplemental_source_authored){
-   const full=document.createElement('button');full.type='button';full.className='word-expand';
-   full.textContent='Read full Strong’s entry  ↗';full.addEventListener('click',renderFullLexical);
-   betaWordDetail.append(full);
-  }
+  // Preserve all lexicon records, but do not expose expanded/copyright-sensitive prose here.
   /* Noah Webster 1828 is a separate dictionary. Do not display an empty
      lookup or substitute the Webster 1833 Bible for it. */
  }catch{if(request===modernStudyRequest)betaWordDetail.replaceChildren()}
