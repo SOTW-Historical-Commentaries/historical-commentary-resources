@@ -18,6 +18,7 @@
   let languageEvidence=[];
   let languageGeneration=0;
   let currentSourceWord=null;
+  let resumeWordByWord=false;
   function noLongerCurrent(request,generation,book,chapter,verse,edition){
     return request!==modernStudyRequest||generation!==languageGeneration||
       !document.body.classList.contains('study-open')||
@@ -42,15 +43,23 @@
       languageEvidence=rows.filter(row=>
         Array.isArray(row.strongs_ids)&&row.strongs_ids.some(id=>/^strongs:[HG]\d+$/.test(id)) &&
         typeof row.source_location_kind==='string');
-      if(!languageEvidence.length)return;
+      if(!languageEvidence.length){
+        if(resumeWordByWord){resumeWordByWord=false;renderSourceList();}
+        return;
+      }
       const greek=BOOKS.findIndex(b=>b.code===book)>=39;
       const name=document.createElement('span');
-      name.textContent=(greek?'Greek':'Hebrew')+' & word study';
+      name.textContent='Word-by-Word';
       const meta=document.createElement('small');
-      meta.textContent=languageEvidence.length+' source '+(languageEvidence.length===1?'form':'forms')+' ›';
+      meta.textContent='Explore this verse ›';
       languageButton.replaceChildren(name,meta);
       languageButton.hidden=false;
-    }catch{/* A missing mandatory chapter record cannot generate a link. */}
+      if(resumeWordByWord){resumeWordByWord=false;renderSourceList();}
+    }catch{
+      if(!noLongerCurrent(request,generation,book,chapter,verse,edition)&&resumeWordByWord){
+        resumeWordByWord=false;renderSourceList();
+      }
+    }
   }
   function sourceLabel(row){
     const a=row.source_locator||{};
@@ -59,7 +68,7 @@
     if(row.source_location_kind==='tagged_word_ordinal_not_full_verse_token')
       return {word:a.tagged_surface||'',secondary:'',morph:'',kind:'Native KJV word tag'};
     if(row.source_location_kind==='source_verified_target_english_token_index_zero_based')
-      return {word:a.target_surface||'',secondary:'Verified linked English',morph:'',kind:'Verified edition word link'};
+      return {word:a.target_surface||'',secondary:'',morph:'',kind:'Verified edition word link'};
     return {word:'',secondary:'',morph:'',kind:''};
   }
   function sourceValidity(row){
@@ -72,54 +81,151 @@
   /* Whole-verse optional source atlas. The first click exposes every attested
      form, actual Strong's number and any recorded morphology. Definitions
      arrive directly inside each word's card, without another tap. */
-  function renderSourceList(){
-    openStudyLayer('source-forms','Words in this verse');
-    currentSourceWord=null;
-    for(const child of Array.from(studyOverlayBody.children)){
-      if(child.id!=='voices')child.remove();
+  // Word-by-Word reads the selected English verse in its actual order.
+  // Unsupported English positions are plain, while original forms that cannot
+  // be confidently aligned still appear in their own authoritative sequence.
+  function normalizeAtlasWord(value){
+    return String(value||'').toLocaleLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
+  }
+  function englishAtlasRows(pieces){
+    const rows=languageEvidence.filter(sourceValidity);
+    const assigned=new Map(),used=new Set();
+    const words=pieces.filter(piece=>!(/^\s+$/u.test(piece)));
+    if(['ASV1901','WEBSTER1833'].includes(state.edition)){
+      for(const row of rows){
+        if(row.source_location_kind!=='source_verified_target_english_token_index_zero_based')continue;
+        const index=row.source_locator?.target_token_index_zero_based;
+        if(!Number.isInteger(index)||!words[index]||
+          normalizeAtlasWord(words[index])!==normalizeAtlasWord(row.source_locator?.target_surface))continue;
+        if(!assigned.has(index)){assigned.set(index,row);used.add(row);}
+      }
+    }else if(state.edition==='KJV1769'){
+      const groups=new Map(),counts=new Map();
+      for(const row of rows){
+        if(row.source_location_kind!=='tagged_word_ordinal_not_full_verse_token')continue;
+        const key=normalizeAtlasWord(row.source_locator?.tagged_surface);
+        if(!key)continue;
+        if(!groups.has(key))groups.set(key,[]);
+        groups.get(key).push(row);
+      }
+      for(const word of words){
+        const key=normalizeAtlasWord(word);
+        if(key)counts.set(key,(counts.get(key)||0)+1);
+      }
+      words.forEach((word,index)=>{
+        const key=normalizeAtlasWord(word),matches=groups.get(key)||[];
+        if(key&&counts.get(key)===1&&matches.length===1){assigned.set(index,matches[0]);used.add(matches[0]);}
+      });
     }
-    const intro=document.createElement('p');intro.className='modern-panel-desc';
-    intro.textContent='Tap any word below to bring its short definition back beside Scripture.';
-    studyOverlayBody.append(intro);
-    for(const row of languageEvidence.filter(sourceValidity)){
-      const descriptor=sourceLabel(row);
-      const id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
-      const button=document.createElement('button');
-      button.type='button';button.className='language-choice';
-      const left=document.createElement('div');left.className='word-atlas-text';
-      const top=document.createElement('div');top.className='word-atlas-head';
-      const head=document.createElement('strong');head.textContent=descriptor.word;
-      const number=document.createElement('span');number.className='lexical-strongs';
-      number.textContent=id.replace('strongs:','');
-      top.append(head,number);left.append(top);
-      if(descriptor.secondary){
-        const trans=document.createElement('span');trans.textContent=descriptor.secondary;left.append(trans);
-      }
-      if(descriptor.morph){
-        const grammar=document.createElement('span');grammar.className='word-atlas-grammar';
-        grammar.textContent=descriptor.morph;left.append(grammar);
-      }
-      const original=document.createElement('span');original.className='word-atlas-original';
-      const short=document.createElement('span');short.className='word-atlas-short';
-      left.append(original,short);button.append(left);
-      button.addEventListener('click',()=>renderSourceDetail(row));
-      studyOverlayBody.append(button);
-      const lexMatch=id.match(/^strongs:([HG])(\d+)$/);
-      const lang=lexMatch[1],num=Number(lexMatch[2]);
-      if(!Number.isInteger(num)||num<1||num>(lang==='H'?8674:5624))continue;
+    return {words,assigned,unpositioned:rows.filter(row=>!used.has(row))};
+  }
+  function makeAtlasCard(row,displayWord){
+    const descriptor=sourceLabel(row);
+    const id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
+    const card=document.createElement('button');card.type='button';
+    card.className='language-choice word-sequence-card';
+    const left=document.createElement('div');left.className='word-atlas-text';
+    const top=document.createElement('div');top.className='word-atlas-head';
+    const word=document.createElement('strong');
+    word.textContent=displayWord||descriptor.word;
+    const number=document.createElement('span');number.className='lexical-strongs';
+    number.textContent=id.replace('strongs:','');
+    top.append(word,number);left.append(top);
+    if(descriptor.secondary){
+      const trans=document.createElement('span');trans.textContent=descriptor.secondary;left.append(trans);
+    }
+    if(descriptor.morph){
+      const grammar=document.createElement('span');grammar.className='word-atlas-grammar';
+      grammar.textContent=descriptor.morph;left.append(grammar);
+    }
+    const original=document.createElement('span');original.className='word-atlas-original';
+    const short=document.createElement('span');short.className='word-atlas-short';
+    left.append(original,short);card.append(left);
+    card.setAttribute('aria-label','Study '+(displayWord||descriptor.word)+' '+id.replace('strongs:',''));
+    card.addEventListener('click',()=>renderSourceDetail(row));
+    const match=id.match(/^strongs:([HG])(\d+)$/),lang=match[1],num=Number(match[2]);
+    if(Number.isInteger(num)&&num>0&&num<=(lang==='H'?8674:5624)){
       const first=Math.floor((num-1)/250)*250+1,last=Math.min(first+249,lang==='H'?8674:5624);
       const pad=n=>String(n).padStart(5,'0');
       const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+lang+'/'+lang+pad(first)+'-'+pad(last)+'.json';
       getJson(url).then(data=>{
-        if(!button.isConnected||studyView!=='source-forms')return;
-        const entry=data.entries?.[id],definition=entry?.definitions?.concise_source_authored;
+        if(!card.isConnected||studyView!=='source-forms')return;
+        const entry=data.entries?.[id];
         if(entry?.headword){
-          const forms=[entry.headword,entry.transliteration].filter(Boolean);
-          original.textContent=forms.join(' · ');
+          original.textContent=[entry.headword,entry.transliteration].filter(Boolean).join(' · ');
         }
-        if(typeof definition==='string'&&definition.trim())short.textContent=definition;
+        const definition=entry?.definitions?.concise_source_authored;
+        if(typeof definition==='string'&&definition.trim()){
+          short.textContent=sotwQuickDisplayMeaning(definition,id);
+        }
       }).catch(()=>{});
     }
+    return card;
+  }
+  function makeWordLine(word){
+    const line=document.createElement('div');line.className='word-sequence-plain';
+    const content=document.createElement('span');content.textContent=word;
+    const rule=document.createElement('span');rule.className='word-sequence-rule';
+    rule.setAttribute('aria-hidden','true');line.append(content,rule);return line;
+  }
+  function makeVerseNavigation(){
+    const bar=document.createElement('nav');bar.className='word-sequence-nav';
+    bar.setAttribute('aria-label','Navigate verses in Word-by-Word');
+    const prev=document.createElement('button'),next=document.createElement('button');
+    prev.type=next.type='button';prev.textContent='‹';next.textContent='›';
+    const max=Number(state.index?.verse_count||state.bible?.verses?.length||0);
+    prev.disabled=modernStudyVerse<=1;next.disabled=modernStudyVerse>=max;
+    prev.setAttribute('aria-label','Previous verse');next.setAttribute('aria-label','Next verse');
+    const label=document.createElement('span');
+    label.textContent=bookInfo().name+' '+state.chapter+':'+modernStudyVerse;
+    prev.addEventListener('click',()=>moveWordByWord(-1));
+    next.addEventListener('click',()=>moveWordByWord(1));
+    bar.append(prev,label,next);return bar;
+  }
+  function moveWordByWord(delta){
+    const verse=modernStudyVerse+delta;
+    if(!modernSourceVerse(verse))return;
+    // Let the normal read-only reader refresh every scope, then restore atlas.
+    resumeWordByWord=true;modernStudyVerse=verse;chooseVerse(verse);betaOpen();
+  }
+  function renderSourceList(){
+    openStudyLayer('source-forms','Word-by-Word');
+    currentSourceWord=null;
+    for(const child of Array.from(studyOverlayBody.children)){
+      if(child.id!=='voices')child.remove();
+    }
+    studyOverlayBody.append(makeVerseNavigation());
+    const selected=modernSourceVerse(modernStudyVerse);
+    const raw=(selected?.spans||[]).map(x=>x.text||'').join('').replace(/^\s*[¶§]+\s*/u,'');
+    const verse=document.createElement('p');verse.className='word-sequence-verse';
+    verse.textContent=raw;studyOverlayBody.append(verse);
+    const section=document.createElement('p');section.className='word-sequence-caption';
+    section.textContent='Read the verse word by word';studyOverlayBody.append(section);
+    const sequence=document.createElement('div');sequence.className='word-sequence-list';
+    const pieces=raw.match(/\s+|\S+/gu)||[];
+    const {words,assigned,unpositioned}=englishAtlasRows(pieces);
+    words.forEach((word,index)=>{
+      const row=assigned.get(index);
+      sequence.append(row?makeAtlasCard(row,word):makeWordLine(word));
+    });
+    studyOverlayBody.append(sequence);
+    if(unpositioned.length){
+      const sourceTitle=document.createElement('p');sourceTitle.className='word-sequence-caption';
+      sourceTitle.textContent=BOOKS.findIndex(b=>b.code===state.book)>=39
+        ?'Greek words in source order':'Hebrew words in source order';
+      studyOverlayBody.append(sourceTitle);
+      if(state.edition==='BSB'){
+        const note=document.createElement('p');note.className='word-sequence-note';
+        note.textContent='These original-language forms belong to this verse; their exact English word positions are not supplied by the source.';
+        studyOverlayBody.append(note);
+      }
+      for(const row of unpositioned)studyOverlayBody.append(makeAtlasCard(row));
+    }
+    if(!words.length){
+      const none=document.createElement('p');none.className='word-sequence-note';
+      none.textContent='Verse text is not available in this edition.';studyOverlayBody.append(none);
+    }
+    studyOverlayBody.append(makeVerseNavigation());
   }
   /* A tap on an attested original-language source word puts its short Strong's
      explanation immediately below the verse, without requiring a second click
@@ -168,18 +274,11 @@
       original.textContent=[found.headword,found.transliteration].filter(Boolean).join(' · ');
       box.append(original);
       const def=document.createElement('p');def.className='definition';
-      def.textContent=found.definitions.concise_source_authored;
+      def.textContent=sotwQuickDisplayMeaning(found.definitions.concise_source_authored,id);
       box.append(def);
       currentLexical={row:found,id,english:descriptor.word};
-      const d=found.definitions;
-      if(d.numbered_expanded_source_authored?.length||d.derivation_source_authored||
-         d.kjv_renderings_source_authored||d.supplemental_source_authored){
-        const full=document.createElement('button');full.type='button';full.className='word-expand';
-        full.textContent='Read full Strong’s entry ›';
-        full.addEventListener('click',renderFullLexical);box.append(full);
-      }
-      if(row.source_location_kind==='tagged_word_ordinal_not_full_verse_token'&&
-         typeof offerWebster1828==='function'){
+      // Longer digital-source material is not exposed in this quick reader.
+      if(typeof offerWebster1828==='function'){
         if(sotwWebsterData)offerWebster1828(descriptor.word,request);
         else getSotwWebster1828().then(()=>{
           if(request===modernStudyRequest&&currentSourceWord===row&&
