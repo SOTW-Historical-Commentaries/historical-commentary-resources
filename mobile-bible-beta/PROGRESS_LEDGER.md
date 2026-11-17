@@ -11,6 +11,11 @@
 
 ## 2026-11-16 | VISUAL BETA v0.2: consolidated reader redesign published
 
+### v0.2 chapter-loader correction, same release — 2026-11-16
+**LATEST v0.2 application commit:** `189a3bc1243f0bb8ea62d33cdf5961093836df17`, HTML blob `57943843affb9065e147c40245f6c003ce024a2b`. The post-redesign source review found that the original chapter load routine depended on `chooseVerse` to call `renderBible`; the first v0.2 override omitted that call, risking a blank chapter. Correction now renders new Scripture chapter data once on load while keeping ordinary study taps from rerendering/scrolling the reader. GitHub readback and inline JS syntax PASS. Genuine phone render, scroll and click behavior still require owner inspection. Previous in-section commit `f6bfcd29` is an intermediate, not the final review release.
+
+
+
 **STATUS:** New mobile reader HTML committed to the existing public SOTW GitHub Pages repository for owner visual inspection. Exact code commit: `f6bfcd29e8666607f3819331c70e18cce951ec85` (corrected release), file blob `b40540ec5365c0e28af0a3ab03b02f702cb51778`; main redesign commit `d218ee8c6cd79cd7f0ce8a3a9ec0844811c8fff9`. The only changed app file was `mobile-bible-beta/index.html`. Existing curated repositories and `unified-commentary-reader/index.html` are unchanged.
 
 **Public beta to inspect:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/
