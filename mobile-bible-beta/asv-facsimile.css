@@ -23,3 +23,19 @@
 .mobile-beta .asv-canvas-area{display:block;width:100%;min-height:0;overflow:auto;background:transparent;border:0;border-radius:8px;-webkit-overflow-scrolling:touch}
 .mobile-beta .asv-canvas-area canvas{display:block;max-width:none!important;min-height:0;margin:0 auto;border:1px solid #a6b2b7;background:#fff;box-shadow:0 4px 18px #0002}
 .mobile-beta.beta-light .asv-zoom-controls button{background:#e2efef;border-color:#a3bfc6;color:#23434e}
+
+/* v0.13: let the historical page dominate the screen. Fallback appears on failure. */
+.mobile-beta #asvScanContent .asv-native-link[hidden]{display:none!important}
+.mobile-beta #asvScanContent .asv-native-link{
+ display:block;margin:10px 0 16px;padding:9px 10px;
+ text-align:left;border:1px solid #607f8a;border-radius:8px;
+ color:#b9dce7;background:transparent;font:600 12px system-ui;
+ text-decoration:underline;text-underline-offset:2px;
+}
+.mobile-beta #asvScanContent .asv-page-controls{margin:5px 0 9px}
+.mobile-beta #asvScanContent .asv-metadata{margin:0 0 8px}
+.mobile-beta #asvScanContent .asv-render-status{margin:8px 0;font-size:11px}
+.mobile-beta #asvScanContent .asv-canvas-area{margin-top:2px}
+.mobile-beta.beta-light #asvScanContent .asv-native-link{
+ color:#315e6c;border-color:#b6cfd2;background:transparent
+}
