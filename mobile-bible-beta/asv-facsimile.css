@@ -14,3 +14,12 @@
 .mobile-beta.beta-light #asvSourceEntry small{color:#50717a}
 .mobile-beta.beta-light .asv-page-controls button{background:#e5eff0;color:#29474f;border-color:#b5cccd}
 .mobile-beta.beta-light .asv-metadata,.mobile-beta.beta-light .asv-help{color:#526b74}
+
+
+/* v0.12: render one authentic ASV PDF page in canvas instead of blank iOS iframe */
+.mobile-beta .asv-zoom-controls{display:flex;align-items:center;gap:8px;justify-content:space-between;margin:12px 0}
+.mobile-beta .asv-zoom-controls button{background:#29434e;color:#eaf2f4;border:1px solid #66838e;border-radius:9px;padding:9px 10px;font:650 12px system-ui}
+.mobile-beta .asv-zoom-controls span{font-size:11px;text-align:center}
+.mobile-beta .asv-canvas-area{display:block;width:100%;min-height:0;overflow:auto;background:transparent;border:0;border-radius:8px;-webkit-overflow-scrolling:touch}
+.mobile-beta .asv-canvas-area canvas{display:block;max-width:none!important;min-height:0;margin:0 auto;border:1px solid #a6b2b7;background:#fff;box-shadow:0 4px 18px #0002}
+.mobile-beta.beta-light .asv-zoom-controls button{background:#e2efef;border-color:#a3bfc6;color:#23434e}
