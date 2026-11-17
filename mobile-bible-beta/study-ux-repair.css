@@ -233,3 +233,44 @@
 .mobile-beta.beta-light #studyOverlayBody .word-sequence-nav button{
  background:#e9f3f1;border-color:#b9ced0;color:#254e59;
 }
+
+/* v0.13.1: optional dictionary action belongs inside each source-word card. */
+.mobile-beta #studyOverlayBody .word-sequence-card{
+ margin:5px 0!important;padding:0!important;
+ border:1px solid #425b66;border-radius:10px;background:#253944;
+ overflow:hidden;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-main{
+ width:100%;min-height:48px;
+ margin:0!important;padding:11px 13px!important;
+ border:0!important;border-radius:0!important;
+ background:transparent!important;
+ display:flex;align-items:flex-start;text-align:left;
+ cursor:pointer;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-main:focus-visible,
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary:focus-visible{
+ outline:2px solid #a1d3dc;outline-offset:-3px;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ display:block;width:100%;min-height:39px;
+ margin:0;padding:9px 13px;
+ border:0;border-top:1px solid #47636d;
+ background:#293f49;color:#c3e3e9;
+ text-align:left;font:600 12px/1.45 system-ui;
+ cursor:pointer;touch-action:manipulation;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary:active{
+ background:#355662;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card{
+ background:#f1f6f4;border-color:#b8cfd0;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-main{
+ background:transparent!important;color:#29444d!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ background:#e9f2f0;color:#285865;border-top-color:#bfd3d5;
+}
+/* Make marker purpose unmistakable without adding a legend. */
+.mobile-beta #verses .jacob-verse-marker{vertical-align:baseline;touch-action:manipulation}
