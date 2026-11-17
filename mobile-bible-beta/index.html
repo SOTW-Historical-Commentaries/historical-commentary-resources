@@ -381,12 +381,13 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light #doctrineTags .doctrine-formal,.mobile-beta.beta-light #doctrineTags .doctrine-aliases{color:#4b6872}
 
 </style>
+<link rel="stylesheet" href="./asv-facsimile.css">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
 <main>
 <div class="toolbar" role="group" aria-label="Choose Scripture passage and edition">
-<div class="control"><label for="book">Bible book</label><select id="book"></select></div>
+<div class="control"><label for="book">Book</label><select id="book"></select></div>
 <div class="control"><label for="chapter">Chapter</label><select id="chapter"></select></div>
 <div class="control"><label for="verse">Verse</label><select id="verse"></select></div>
 <div class="control"><label for="edition">Bible translation</label><select id="edition"><option value="ASV1901">ASV 1901</option><option value="KJV1769">KJV 1769</option><option value="BSB">Berean Standard Bible</option><option value="WEBSTER1833">Webster 1833</option></select></div>
@@ -536,7 +537,7 @@ const modalLayer=(id,title)=>{
  document.body.append(veil);return {veil,panel};
 };
 const navModal=modalLayer('readerNavModal','Choose a passage');
-const navDesc=document.createElement('p');navDesc.className='modern-panel-desc';navDesc.textContent='Book, chapter, and verse in a few taps.';navModal.panel.append(navDesc);
+const navDesc=document.createElement('p');navDesc.className='modern-panel-desc';navDesc.textContent='';navModal.panel.append(navDesc);
 navModal.panel.append(document.querySelector('.toolbar'));
 const navGo=document.createElement('button');navGo.type='button';navGo.className='modern-primary';navGo.textContent='Read passage';navGo.addEventListener('click',()=>{navModal.veil.classList.remove('is-open');modernJumpToVerse(state.verse)});navModal.panel.append(navGo);
 const editionModal=modalLayer('readerEditionModal','Bible translation');
@@ -985,8 +986,8 @@ async function showWebsterDictionary(english){
    }
   }
   const credit=document.createElement('p');credit.className='dictionary-license';
-  credit.append(document.createTextNode('Noah Webster, An American Dictionary of the English Language (1828). Digital transcription CC BY-SA 4.0. English dictionary definitions are not Greek/Hebrew contextual senses. '));
-  const license=document.createElement('a');license.href=WEBSTER_1828_LICENSE;license.target='_blank';license.rel='noopener noreferrer';license.textContent='Source license and attribution';
+  credit.append(document.createTextNode('Noah Webster (1828) · Digital transcription CC BY-SA 4.0 · '));
+  const license=document.createElement('a');license.href=WEBSTER_1828_LICENSE;license.target='_blank';license.rel='noopener noreferrer';license.textContent='Source & license';
   credit.append(license);studyOverlayBody.append(credit);
  }catch(err){
   if(request!==modernStudyRequest||studyView!=='dictionary')return;
@@ -1120,5 +1121,6 @@ betaCloseSheet=function(){
 };
 
 </script>
+<script src="./asv-facsimile.js"></script>
 </body>
 </html>
