@@ -104,3 +104,44 @@
 .mobile-beta.beta-light.study-open #studyBodyScroll #modernCommentaryMenu{
  border-color:#becfd1!important;
 }
+
+
+/* v0.12: whole-verse study atlas + restrained word cues + readable light theme */
+.mobile-beta #modernStudyVerse button.webster-word,
+.mobile-beta #studyBodyScroll #modernStudyVerse button.webster-word{
+ text-decoration:none!important;
+ box-shadow:none!important;
+ border-bottom:0!important;
+ background:transparent!important;
+ color:inherit!important;
+}
+.mobile-beta #modernStudyVerse button.webster-word.is-open{
+ background:rgba(106,168,185,.22)!important;
+}
+.mobile-beta #studyOverlayBody .language-choice{
+ align-items:flex-start;
+ margin-bottom:9px;
+ padding:12px 14px;
+}
+.mobile-beta #studyOverlayBody .word-atlas-text{display:flex;flex-direction:column;gap:4px;flex:1;min-width:0}
+.mobile-beta #studyOverlayBody .word-atlas-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.mobile-beta #studyOverlayBody .word-atlas-head strong{font:600 18px Georgia,serif;overflow-wrap:anywhere}
+.mobile-beta #studyOverlayBody .word-atlas-text>span{font:12px/1.4 system-ui;color:#c5d9df}
+.mobile-beta #studyOverlayBody .word-atlas-text .word-atlas-grammar{font-weight:650;color:#9fc9d4}
+.mobile-beta #studyOverlayBody .word-atlas-text .word-atlas-short{
+ font:14px/1.55 Georgia,serif;color:#edf1f2;display:-webkit-box;
+ -webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+}
+.mobile-beta.beta-light.study-open #studyBodyScroll #studyHeading{
+ color:#284d5a!important;
+}
+.mobile-beta.beta-light.study-open #studyBodyScroll #modernCommentaryMenu .study-launch{
+ background:#e2eeed!important;color:#25444e!important;border-color:#a2bdc3!important;
+}
+.mobile-beta.beta-light.study-open #studyBodyScroll #modernCommentaryMenu .study-launch small{
+ color:#4e7079!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .language-choice{background:#f1f6f4;color:#26414b}
+.mobile-beta.beta-light #studyOverlayBody .word-atlas-text>span{color:#4a6972}
+.mobile-beta.beta-light #studyOverlayBody .word-atlas-text .word-atlas-grammar{color:#305e6a}
+.mobile-beta.beta-light #studyOverlayBody .word-atlas-text .word-atlas-short{color:#2a4550}
