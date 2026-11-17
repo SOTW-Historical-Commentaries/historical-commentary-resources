@@ -53,3 +53,54 @@
 .mobile-beta.beta-light .language-detail h3,
 .mobile-beta.beta-light .language-detail .definition{color:#263e48}
 .mobile-beta.beta-light .language-detail .morphology{color:#516f79}
+
+
+/* v0.10: ordered study flow, one scrollable region, commentary after word tools */
+.mobile-beta.study-open #studyBodyScroll{
+ display:block!important;
+ flex:1 1 auto!important;
+ min-height:0!important;
+ width:100%!important;
+ overflow-y:auto!important;
+ overflow-x:hidden!important;
+ padding:4px 1px max(30px,env(safe-area-inset-bottom))!important;
+ overscroll-behavior-y:contain;
+ -webkit-overflow-scrolling:touch;
+ scrollbar-width:thin;
+}
+.mobile-beta.study-open #studyBodyScroll #studyHeading{
+ margin:0 0 11px!important;
+}
+.mobile-beta.study-open #studyBodyScroll #doctrineTags{
+ margin:0 0 13px!important;
+}
+.mobile-beta.study-open #studyBodyScroll #modernStudyVerse{
+ flex:none!important;
+ max-height:none!important;
+ height:auto!important;
+ overflow:visible!important;
+ margin:0 0 12px!important;
+}
+.mobile-beta.study-open #studyBodyScroll #studyWordDetail{
+ flex:none!important;
+ max-height:none!important;
+ overflow:visible!important;
+ margin:0 0 12px!important;
+}
+.mobile-beta.study-open #studyBodyScroll #originalLanguageEntry,
+.mobile-beta.study-open #studyBodyScroll #asvSourceEntry{
+ margin:0 0 11px!important;
+}
+.mobile-beta.study-open #studyBodyScroll #modernCommentaryMenu{
+ position:static!important;
+ margin:14px 0 5px!important;
+ padding:14px 0 0!important;
+ border-top:1px solid #415963!important;
+ background:transparent!important;
+}
+.mobile-beta.study-open #studyBodyScroll #modernCommentaryMenu .study-launch{
+ min-height:47px!important;
+}
+.mobile-beta.beta-light.study-open #studyBodyScroll #modernCommentaryMenu{
+ border-color:#becfd1!important;
+}
