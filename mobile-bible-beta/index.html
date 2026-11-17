@@ -353,6 +353,7 @@ if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceW
 let modernStudyVerse = 0;
 let modernOpenAuthor = "";
 let modernStudyRequest = 0;
+let modernRenderedChapter = '';
 let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
 const modernOldHeader=document.querySelector('body.mobile-beta > header');
 if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
@@ -412,7 +413,9 @@ function modernSourceVerse(n){return state.bible?.verses?.find(v=>Number(v.verse
 renderBible=function(){
  if(!state.bible)return;
  modernUpdateHeader();
- const keep=readerView.scrollTop;
+ const currentKey=state.edition+':'+state.book+':'+state.chapter;
+ const keep=modernRenderedChapter===currentKey?readerView.scrollTop:0;
+ modernRenderedChapter=currentKey;
  readerView.replaceChildren();
  let p=null;
  for(const v of state.bible.verses||[]){
@@ -531,13 +534,16 @@ betaCloseSheet=function(){
  modernStudyVerse=0;modernOpenAuthor='';betaWordDetail.replaceChildren();
  for(const target of readerView.querySelectorAll('.is-studying'))target.classList.remove('is-studying');
 };
+/* Capture close clicks before legacy beta listeners so the selection always clears. */
+betaClose.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseSheet()},{capture:true});
+betaShade.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseSheet()},{capture:true});
 readerView.addEventListener('pointerdown',e=>{modernGesture.x=e.clientX;modernGesture.y=e.clientY;modernGesture.moved=false},{passive:true});
 readerView.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-modernGesture.x)>9||Math.abs(e.clientY-modernGesture.y)>9)modernGesture.moved=true},{passive:true});
 readerView.addEventListener('touchmove',()=>{modernGesture.moved=true},{passive:true});
 readerView.addEventListener('scroll',()=>{modernGesture.scrollTime=Date.now();modernGesture.moved=true},{passive:true});
 readerView.addEventListener('click',e=>{
  const node=e.target.closest('button.reader-verse');
- if(!node||modernGesture.moved||Date.now()-modernGesture.scrollTime<160)return;
+ if(!node||(e.detail!==0&&(modernGesture.moved||Date.now()-modernGesture.scrollTime<160)))return;
  const n=Number(node.dataset.verse);if(!modernSourceVerse(n))return;
  modernStudyVerse=n;chooseVerse(n);betaOpen();
 });
