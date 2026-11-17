@@ -60,8 +60,8 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta #studyHeading{font-size:13px;color:#a9c9d4;margin:0 0 12px}
 .mobile-beta #betaBar{position:fixed;z-index:65;bottom:0;left:0;right:0;display:flex;align-items:center;justify-content:space-around;gap:5px;padding:9px 10px max(12px,env(safe-area-inset-bottom));background:#151f25;border-top:1px solid #35464f}
 .mobile-beta #betaBar button{background:#21323a;border:1px solid #415863;border-radius:8px;color:#d9e3e7;padding:8px 10px;font-size:12px;cursor:pointer}
-.mobile-beta #betaBar label{font-size:11px;display:flex;align-items:center;gap:4px;color:#b7c8ce}
-.mobile-beta #betaBar input[type="range"]{width:75px;accent-color:#8cc6d6}
+
+
 .mobile-beta #studyWords{padding:7px 0}
 .mobile-beta #studyWords:empty{display:none}
 .mobile-beta #studyWords button{background:#21323a;color:#cde4eb;border:1px solid #455c66;border-radius:8px;padding:7px 10px;margin:4px 4px 4px 0;cursor:pointer}
@@ -78,7 +78,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f7f9f7;color:#24373a}
 .mobile-beta.beta-light #studyClose{color:#304448}
 @media(min-width:900px){.mobile-beta.study-open section[aria-label="Commentary comparison"]{left:auto;top:0;right:0;width:min(530px,48vw);max-height:100svh;border-radius:16px 0 0 16px}.mobile-beta main{padding-bottom:90px}}
-@media(max-width:650px){.mobile-beta .head-inner{padding:10px 14px}.mobile-beta .toolbar{grid-template-columns:1.5fr .55fr .55fr 1.1fr}.mobile-beta .control:first-child,.mobile-beta .control:nth-child(4){grid-column:auto}.mobile-beta .panel-body{padding:9px}.mobile-beta main{padding:7px 8px 95px}.mobile-beta .all-verses{height:calc(100svh - 255px)}.mobile-beta .utility{margin:4px 0}.mobile-beta #betaBar{flex-wrap:wrap}.mobile-beta #betaBar input[type=range]{width:62px}}
+@media(max-width:650px){.mobile-beta .head-inner{padding:10px 14px}.mobile-beta .toolbar{grid-template-columns:1.5fr .55fr .55fr 1.1fr}.mobile-beta .control:first-child,.mobile-beta .control:nth-child(4){grid-column:auto}.mobile-beta .panel-body{padding:9px}.mobile-beta main{padding:7px 8px 95px}.mobile-beta .all-verses{height:calc(100svh - 255px)}.mobile-beta .utility{margin:4px 0}.mobile-beta #betaBar{flex-wrap:wrap}}
 
 /* iPhone field-test refinements: one-row controls, anchored Close button,
    contrast-safe light study surfaces, no legacy P-section control. */
@@ -93,12 +93,11 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
  min-height:36px;min-width:98px;border:1px solid #79939d;background:#263840;color:#edf7f8;
  border-radius:10px;font-size:13px;font-weight:650;touch-action:manipulation}
 .mobile-beta #studyHeading{color:#b1d3df;font-size:13px;font-weight:600;margin:8px 0 12px}
-.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;
+.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;
  padding:8px 8px max(10px,env(safe-area-inset-bottom));}
 .mobile-beta #betaBar button{width:100%;min-width:0;padding:9px 3px;font-size:10px;white-space:nowrap}
-.mobile-beta #betaBar label{flex-direction:column;justify-content:center;gap:2px;min-width:0;
- font-size:10px;text-align:center}
-.mobile-beta #betaBar input[type="range"]{width:100%;max-width:65px;margin:0 auto}
+
+
 .mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f7f9f6;color:#25383e}
 .mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools{
  background:#eef3ef;border-bottom-color:#ccd7d4}
@@ -126,11 +125,11 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light .head-inner .brand{color:#43636c}
 .mobile-beta.beta-light .head-inner h1{color:#24383f}
 .mobile-beta.beta-light .head-inner p{color:#4c626c}
-.mobile-beta.beta-light #betaBar label{color:#39545d}
+
 .mobile-beta.beta-light .utility button{background:#e3ecea;color:#27404a;border-color:#b7c9ca}
 
-@media(max-width:650px){.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));flex-wrap:nowrap}
-.mobile-beta #betaBar input[type="range"]{width:100%;max-width:55px}}
+@media(max-width:650px){.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex-wrap:nowrap}
+}
 </style>
 </head>
 <body class="mobile-beta">
@@ -180,7 +179,7 @@ function formatScope(s){const p=(s||'').split('.');let b=BOOKS.find(x=>x.code===
 function addOption(select,value,label){const o=document.createElement('option');o.value=String(value);o.textContent=label;select.append(o)}
 function fillNumbers(select,count,want){select.replaceChildren();for(let n=1;n<=count;n++)addOption(select,n,n);select.value=String(Math.max(1,Math.min(count,want)));return Number(select.value)}
 function setStatus(message,error=false){$('status').textContent=message;$('status').classList.toggle('error',error)}
-function setURL(){try{localStorage.setItem('sotw.mobile.reader.beta.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,theme:document.body.classList.contains('beta-light')?'light':'dark',layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',speed:Number(document.getElementById('betaSpeed')?.value||betaSaved.speed||3)}))}catch{}const p=new URLSearchParams({book:state.book,chapter:String(state.chapter),verse:String(state.verse),translation:state.edition});try{history.replaceState(null,'',location.pathname+'?'+p.toString())}catch(_){/* local/embedded preview without a normal document origin */}}
+function setURL(){try{localStorage.setItem('sotw.mobile.reader.beta.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,theme:document.body.classList.contains('beta-light')?'light':'dark',layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',}))}catch{}const p=new URLSearchParams({book:state.book,chapter:String(state.chapter),verse:String(state.verse),translation:state.edition});try{history.replaceState(null,'',location.pathname+'?'+p.toString())}catch(_){/* local/embedded preview without a normal document origin */}}
 function selectedText(){const v=state.bible?.verses?.find(e=>Number(e.verse)===state.verse);return v?((v.spans||[]).map(s=>s.text||'').join('')||'Verse has no display text'):'No text in this edition for the selected verse.'}
 function renderBible(){const b=bookInfo();$('scripture-heading').textContent=b.name+' '+state.chapter;$('scripture-edition').textContent=EDITIONS[state.edition][0]+' · published SOTW edition';$('focus-label').textContent=b.name+' '+state.chapter+':'+state.verse;$('focus-text').textContent=selectedText();$('scripture-credit').textContent=`Edition ${state.edition} · verse text supplied by the SOTW ${EDITIONS[state.edition][0]} repository`;
 const c=$('verses');c.replaceChildren();for(const v of state.bible?.verses||[]){const btn=document.createElement('button');btn.type='button';btn.className='verse'+(Number(v.verse)===state.verse?' selected':'')+(v.paragraph_start?' para-start':'');btn.setAttribute('aria-label',b.name+' '+state.chapter+':'+v.verse);const n=document.createElement('span');n.className='number';n.textContent=v.verse;btn.append(n,document.createTextNode((v.spans||[]).map(s=>s.text||'').join('')));btn.addEventListener('click',()=>chooseVerse(Number(v.verse)));c.append(btn)}const sel=c.querySelector('.selected');if(sel)c.scrollTop=Math.max(0,sel.offsetTop-c.offsetTop);}
@@ -228,13 +227,11 @@ const betaHeading=document.createElement('p');betaHeading.id='studyHeading';beta
 const betaWords=document.createElement('div');betaWords.id='studyWords';betaHeading.after(betaWords);
 const betaWordDetail=document.createElement('div');betaWordDetail.id='studyWordDetail';betaWords.after(betaWordDetail);
 const betaBar=document.createElement('nav');betaBar.id='betaBar';betaBar.setAttribute('aria-label','Reading controls');
-betaBar.innerHTML='<button type="button" id="betaTheme" aria-label="Toggle light or dark">☼ Theme</button><button type="button" id="betaLayout">¶ Paragraphs</button><button type="button" id="betaAuto">▶ Auto</button><label>Speed <input id="betaSpeed" type="range" min="1" max="10" step="1" value="3"></label><button type="button" id="betaFind">⌕ Find</button>';
+betaBar.innerHTML='<button type="button" id="betaTheme" aria-label="Toggle light or dark">☼ Theme</button><button type="button" id="betaLayout">¶ Paragraphs</button><button type="button" id="betaFind">⌕ Find</button>';
 document.body.append(betaBar);
-let betaScrolling=false,betaRaf=0,betaStamp=0,betaWordSeq=0;
-function betaStore(){try{localStorage.setItem('sotw.mobile.reader.beta.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',theme:document.body.classList.contains('beta-light')?'light':'dark',speed:Number(document.getElementById('betaSpeed').value)}))}catch{}}
-function betaPause(){betaScrolling=false;if(betaRaf)cancelAnimationFrame(betaRaf);betaRaf=0;betaStamp=0;document.getElementById('betaAuto').textContent='▶ Auto'}
-function betaAutoStep(ts){if(!betaScrolling)return;const gap=betaStamp?Math.min(ts-betaStamp,64):16;betaStamp=ts;const el=document.getElementById('verses');el.scrollTop+=gap*(.016+Number(document.getElementById('betaSpeed').value)*.035);if(el.scrollTop+el.clientHeight>=el.scrollHeight-2){betaPause();return}betaRaf=requestAnimationFrame(betaAutoStep)}
-function betaOpen(){betaPause();betaSection.scrollTop=0;document.body.classList.add('study-open');betaHeading.textContent=bookInfo().name+' '+state.chapter+':'+state.verse;betaWords.replaceChildren();betaWordDetail.replaceChildren();betaLoadWords()}
+let betaWordSeq=0;
+function betaStore(){try{localStorage.setItem('sotw.mobile.reader.beta.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',theme:document.body.classList.contains('beta-light')?'light':'dark'}))}catch{}}
+function betaOpen(){betaSection.scrollTop=0;document.body.classList.add('study-open');betaHeading.textContent=bookInfo().name+' '+state.chapter+':'+state.verse;betaWords.replaceChildren();betaWordDetail.replaceChildren();betaLoadWords()}
 function betaCloseSheet(){document.body.classList.remove('study-open');betaWordSeq++;betaWordDetail.replaceChildren()}
 async function betaLoadWords(){const seq=++betaWordSeq;const isFirst=BOOKS.findIndex(b=>b.code===state.book)<19;const repo=isFirst?'SOTW-Original-Languages/original-language-resources':'SOTW-Original-Languages-2/original-language-resources';const url='https://raw.githubusercontent.com/'+repo+'/main/study-data/v1/chapters/'+state.book+'/'+String(state.chapter).padStart(2,'0')+'.json';const ids=[];try{const data=await getJson(url);if(seq!==betaWordSeq||!document.body.classList.contains('study-open'))return;const entries=data?.verses?.[state.book+'.'+state.chapter+'.'+state.verse]?.[state.edition]||[];for(const row of entries)for(const id of row.strongs_ids||[])if(!ids.includes(id))ids.push(id);if(!ids.length)return;const t=document.createElement('p');t.textContent='Original-language word links';t.style.color='#b8d2dc';t.style.fontSize='13px';betaWords.append(t);for(const id of ids){const b=document.createElement('button');b.type='button';b.textContent=id.replace('strongs:','');b.addEventListener('click',()=>betaLexicon(id,seq));betaWords.append(b)} }catch{/* no record; hide rather than display a false link */}}
 async function betaLexicon(id,seq){const m=id.match(/^strongs:([HG])(\d+)$/);if(!m)return;const type=m[1],number=Number(m[2]),limit=type==='H'?8674:5624;if(number<1||number>limit)return;const first=Math.floor((number-1)/250)*250+1,last=Math.min(first+249,limit);const pad=n=>String(n).padStart(5,'0');const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+type+'/'+type+pad(first)+'-'+pad(last)+'.json';betaWordDetail.textContent='Loading '+id.replace('strongs:','')+'…';try{const data=await getJson(url);if(seq!==betaWordSeq)return;const row=data?.entries?.[id];if(!row){betaWordDetail.replaceChildren();return}betaWordDetail.replaceChildren();const title=document.createElement('strong');title.textContent=(row.headword||id)+'  '+(row.transliteration||'');const desc=document.createElement('p');desc.textContent=row.definitions?.concise_source_authored||'';betaWordDetail.append(title,desc);const expanded=(row.definitions?.numbered_expanded_source_authored||[]).join('\n');if(expanded){const d=document.createElement('details');const sm=document.createElement('summary');sm.textContent='Full Strong’s entry';const p=document.createElement('p');p.textContent=expanded;d.append(sm,p);betaWordDetail.append(d)}}catch{if(seq===betaWordSeq)betaWordDetail.replaceChildren()}}
@@ -242,13 +239,11 @@ betaClose.addEventListener('click',betaCloseSheet);betaShade.addEventListener('c
 document.getElementById('verses').addEventListener('click',e=>{if(e.target.closest('button.verse'))setTimeout(betaOpen,0)});
 document.getElementById('betaTheme').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore()});
 document.getElementById('betaLayout').addEventListener('click',()=>{document.body.classList.toggle('as-paragraphs');document.getElementById('betaLayout').textContent=document.body.classList.contains('as-paragraphs')?'☰ Verses':'¶ Paragraphs';betaStore()});
-document.getElementById('betaAuto').addEventListener('click',()=>{if(betaScrolling){betaPause();return}betaCloseSheet();betaScrolling=true;document.getElementById('betaAuto').textContent='Ⅱ Pause';betaRaf=requestAnimationFrame(betaAutoStep)});
-document.getElementById('betaSpeed').value=betaSaved.speed||3;document.getElementById('betaSpeed').addEventListener('input',betaStore);
 if(betaSaved.layout==='paragraphs'){document.body.classList.add('as-paragraphs');document.getElementById('betaLayout').textContent='☰ Verses'}
 if(betaSaved.theme==='light')document.body.classList.add('beta-light');
-document.getElementById('verses').addEventListener('wheel',betaPause,{passive:true});document.getElementById('verses').addEventListener('touchstart',betaPause,{passive:true});
+
 document.getElementById('betaFind').addEventListener('click',async()=>{
- betaPause();
+
  const q=prompt('Bible reference (e.g. Romans 12:6) or words in this chapter:');
  if(!q)return;
  const txt=q.toLowerCase().trim();
