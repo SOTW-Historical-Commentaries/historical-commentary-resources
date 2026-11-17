@@ -57,7 +57,7 @@
     if(row.source_location_kind==='source_table_original_language_row_not_english_token')
       return {word:a.original_form||'',secondary:a.transliteration||'',morph:a.parsing_compact||'',kind:'BSB original-language source form'};
     if(row.source_location_kind==='tagged_word_ordinal_not_full_verse_token')
-      return {word:a.tagged_surface||'',secondary:'KJV source-tagged English',morph:'',kind:'Native KJV word tag'};
+      return {word:a.tagged_surface||'',secondary:'',morph:'',kind:'Native KJV word tag'};
     if(row.source_location_kind==='source_verified_target_english_token_index_zero_based')
       return {word:a.target_surface||'',secondary:'Verified linked English',morph:'',kind:'Verified edition word link'};
     return {word:'',secondary:'',morph:'',kind:''};
@@ -68,36 +68,54 @@
       row.verse_id===state.book+'.'+state.chapter+'.'+modernStudyVerse &&
       row.strongs_ids.some(id=>/^strongs:[HG]\d+$/.test(id));
   }
+
+  /* Whole-verse optional source atlas. The first click exposes every attested
+     form, actual Strong's number and any recorded morphology. Definitions
+     arrive directly inside each word's card, without another tap. */
   function renderSourceList(){
-    openStudyLayer('source-forms','Original-language word study');
+    openStudyLayer('source-forms','Words in this verse');
     currentSourceWord=null;
-    const container=document.createElement('div');
-    const subtitle=document.createElement('p');
-    subtitle.className='modern-panel-desc';
-    subtitle.textContent=state.edition==='BSB'
-      ?'Original-language source forms with available grammar. These rows are not aligned to particular English words.'
-      :state.edition==='KJV1769'
-      ?'Source-tagged words. Their sequence is not an exact position in the English verse.'
-      :'Edition-supported word associations. Select a form for its lexical details.';
-    container.append(subtitle);
+    for(const child of Array.from(studyOverlayBody.children)){
+      if(child.id!=='voices')child.remove();
+    }
+    const intro=document.createElement('p');intro.className='modern-panel-desc';
+    intro.textContent='Tap any word below to bring its short definition back beside Scripture.';
+    studyOverlayBody.append(intro);
     for(const row of languageEvidence.filter(sourceValidity)){
-      const descriptor=sourceLabel(row),id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
+      const descriptor=sourceLabel(row);
+      const id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
       const button=document.createElement('button');
       button.type='button';button.className='language-choice';
-      const left=document.createElement('div');
+      const left=document.createElement('div');left.className='word-atlas-text';
+      const top=document.createElement('div');top.className='word-atlas-head';
       const head=document.createElement('strong');head.textContent=descriptor.word;
-      const sub=document.createElement('span');sub.textContent=descriptor.secondary+
-        (descriptor.morph?' · '+descriptor.morph:'');
-      left.append(head,document.createElement('div'),sub);
       const number=document.createElement('span');number.className='lexical-strongs';
       number.textContent=id.replace('strongs:','');
-      button.append(left,number);
+      top.append(head,number);left.append(top);
+      if(descriptor.secondary){
+        const trans=document.createElement('span');trans.textContent=descriptor.secondary;left.append(trans);
+      }
+      if(descriptor.morph){
+        const grammar=document.createElement('span');grammar.className='word-atlas-grammar';
+        grammar.textContent=descriptor.morph;left.append(grammar);
+      }
+      const short=document.createElement('span');short.className='word-atlas-short';
+      left.append(short);button.append(left);
       button.addEventListener('click',()=>renderSourceDetail(row));
-      container.append(button);
+      studyOverlayBody.append(button);
+      const lexMatch=id.match(/^strongs:([HG])(\d+)$/);
+      const lang=lexMatch[1],num=Number(lexMatch[2]);
+      if(!Number.isInteger(num)||num<1||num>(lang==='H'?8674:5624))continue;
+      const first=Math.floor((num-1)/250)*250+1,last=Math.min(first+249,lang==='H'?8674:5624);
+      const pad=n=>String(n).padStart(5,'0');
+      const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+lang+'/'+lang+pad(first)+'-'+pad(last)+'.json';
+      getJson(url).then(data=>{
+        if(!button.isConnected||studyView!=='source-forms')return;
+        const entry=data.entries?.[id],definition=entry?.definitions?.concise_source_authored;
+        if(typeof definition==='string'&&definition.trim())short.textContent=definition;
+      }).catch(()=>{});
     }
-    studyOverlayBody.append(container);
   }
-
   /* A tap on an attested original-language source word puts its short Strong's
      explanation immediately below the verse, without requiring a second click
      or leaving the main study. Full lexical detail is a separate opt-in. */
@@ -190,6 +208,59 @@
   for(const node of order){if(node)studyScroll.append(node);}
   // The nested lexical/author/PDF overlay stays fixed within the study panel.
   betaSection.append(studyOverlay);
+
+  // Remove editorial paragraph symbols only in the displayed verse, never in
+  // authoritative Scripture text files or passage source hashes.
+  const previousPlainVerse=modernPlainVerse;
+  modernPlainVerse=function(){
+    previousPlainVerse();
+    for(const textNode of Array.from(modernStudyCard.childNodes)){
+      if(textNode.nodeType!==3)continue;
+      if(/^\s*[¶§]/u.test(textNode.nodeValue||'')){
+        textNode.nodeValue=textNode.nodeValue.replace(/^\s*[¶§]+\s*/u,'');
+      }
+      break;
+    }
+  };
+  /* KJV tagged rows are not token offsets. On the displayed KJV verse only,
+     match a unique, case-insensitive English surface that occurs exactly once
+     in BOTH the source-tagged set and the verse. Never infer repeated words,
+     morphology or Greek alignment from an ordinal. */
+  const previouslyAligned=modernLoadAlignedWords;
+  modernLoadAlignedWords=async function(request){
+    if(state.edition!=='KJV1769')return previouslyAligned(request);
+    const book=state.book,chapter=state.chapter,verse=modernStudyVerse;
+    try{
+      const evidence=await getJson(chapterEvidenceUrl(book,chapter));
+      if(request!==modernStudyRequest||!document.body.classList.contains('study-open')||
+         state.book!==book||state.chapter!==chapter||modernStudyVerse!==verse)return;
+      const rows=(evidence.verses?.[book+'.'+chapter+'.'+verse]?.KJV1769||[])
+        .filter(r=>r.verse_id===book+'.'+chapter+'.'+verse&&
+          r.source_location_kind==='tagged_word_ordinal_not_full_verse_token'&&
+          (r.strongs_ids||[]).some(id=>/^strongs:[HG]\d+$/.test(id)));
+      const raw=(modernSourceVerse(verse)?.spans||[]).map(x=>x.text||'').join('')
+        .replace(/^\s*[¶§]+\s*/u,'');
+      const pieces=raw.match(/\s+|\S+/gu)||[];
+      const norm=x=>String(x||'').toLocaleLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
+      const grouped=new Map();
+      for(const row of rows){const key=norm(row.source_locator?.tagged_surface);if(!key)continue;
+        if(!grouped.has(key))grouped.set(key,[]);grouped.get(key).push(row);}
+      const occurrences=new Map();
+      for(const piece of pieces){if(/^\s+$/u.test(piece))continue;
+        const key=norm(piece);if(key)occurrences.set(key,(occurrences.get(key)||0)+1);}
+      let position=0;const fragment=document.createDocumentFragment();
+      for(const piece of pieces){
+        if(/^\s+$/u.test(piece)){fragment.append(document.createTextNode(piece));continue;}
+        const key=norm(piece),matches=grouped.get(key)||[];
+        if(key&&occurrences.get(key)===1&&matches.length===1){
+          fragment.append(modernWordButton(piece,matches[0],position,request));
+        }else fragment.append(document.createTextNode(piece));
+        position++;
+      }
+      modernStudyCard.replaceChildren(fragment);
+      if(typeof addEnglishWordTargets==='function')addEnglishWordTargets();
+    }catch{/* No proven match: Scripture remains unlinked, never guessed. */}
+  };
 
   /* English word-to-Greek/Hebrew display only for ASV/Webster 1833 source-
      verified English token alignment. KJV and BSB word associations do not
