@@ -333,6 +333,53 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light .dictionary-license{color:#4b6772}
 .mobile-beta.beta-light .dictionary-license a{color:#236375}
 
+
+/* Reader v0.5: book-anchored dropdown, dimmed background, source-scoped doctrine tags */
+.mobile-beta #readerNavModal{position:fixed!important;inset:0!important;z-index:160!important;
+ display:none;align-items:flex-start!important;justify-content:flex-start!important;
+ background:rgba(2,9,13,.78)!important;backdrop-filter:brightness(.84)}
+.mobile-beta #readerNavModal.is-open{display:flex!important}
+.mobile-beta #readerNavModal .modal-content{
+ position:absolute!important;
+ top:var(--passage-nav-top,115px)!important;
+ left:var(--passage-nav-left,12px)!important;
+ width:min(432px,calc(100vw - 24px))!important;
+ max-height:var(--passage-nav-height,72svh)!important;
+ border-radius:15px!important;
+ overflow:auto!important;
+ background:#192931!important;
+ border:1px solid #516571!important;
+ padding:16px 16px max(18px,env(safe-area-inset-bottom))!important;
+ box-shadow:0 18px 70px #000b!important;
+ animation:passageDrop .16s ease-out both;
+}
+@keyframes passageDrop{from{transform:translateY(-9px);opacity:.7}to{transform:translateY(0);opacity:1}}
+@media(prefers-reduced-motion:reduce){.mobile-beta #readerNavModal .modal-content{animation:none}}
+.mobile-beta #readerNavModal .modal-head{margin-bottom:10px}
+.mobile-beta #readerNavModal .modern-panel-desc{margin-bottom:12px}
+.mobile-beta #readerNavModal .toolbar{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mobile-beta #readerNavModal .toolbar .control:first-child{grid-column:1/-1}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(2),
+.mobile-beta #readerNavModal .toolbar .control:nth-child(3){grid-column:auto}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(4){display:none!important}
+.mobile-beta #readerNavModal .modern-primary{margin-top:14px}
+.mobile-beta.beta-light #readerNavModal .modal-content{background:#fafbf9!important;color:#253d46!important;border-color:#afc4c9!important}
+.mobile-beta #doctrineTags[hidden]{display:none!important}
+.mobile-beta #doctrineTags{flex:0 0 auto;display:flex;flex-direction:column;gap:7px;
+ margin:1px 0 13px;padding:10px 12px 11px;background:#1d313a;
+ border:1px solid #3c5762;border-radius:12px;color:#dce9ee}
+.mobile-beta #doctrineTags .doctrine-caption{font:700 10px system-ui;letter-spacing:.1em;
+ text-transform:uppercase;color:#9cbbc6}
+.mobile-beta #doctrineTags .doctrine-main{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.mobile-beta #doctrineTags .doctrine-primary{font:650 13px system-ui;background:#304c56;
+ color:#e4f4f7;border-radius:999px;border:1px solid #67939e;padding:5px 10px}
+.mobile-beta #doctrineTags .doctrine-formal{font:600 11px system-ui;color:#bad2da}
+.mobile-beta #doctrineTags .doctrine-aliases{font:12px/1.45 system-ui;color:#b9cbd1;white-space:normal}
+.mobile-beta.beta-light #doctrineTags{background:#eff5f3;border-color:#b8cfce;color:#29424a}
+.mobile-beta.beta-light #doctrineTags .doctrine-caption{color:#627d83}
+.mobile-beta.beta-light #doctrineTags .doctrine-primary{background:#dcecea;border-color:#88acb2;color:#22434b}
+.mobile-beta.beta-light #doctrineTags .doctrine-formal,.mobile-beta.beta-light #doctrineTags .doctrine-aliases{color:#4b6872}
+
 </style>
 </head>
 <body class="mobile-beta">
@@ -1000,6 +1047,77 @@ betaLexicon=async function(id,request,english){
 };
 const openBeforeWebster=betaOpen;
 betaOpen=function(){websterActiveWord='';openBeforeWebster();};
+
+
+/* v0.5 anchored navigation and evidence-scoped doctrine tags */
+function positionPassageDropdown(){
+ const target=navContainer.getBoundingClientRect();
+ const width=Math.min(432,Math.max(280,window.innerWidth-24));
+ const left=Math.max(12,Math.min(Math.round(target.left),window.innerWidth-width-12));
+ const top=Math.max(58,Math.min(Math.round(target.bottom+7),window.innerHeight-160));
+ navModal.veil.style.setProperty('--passage-nav-top',top+'px');
+ navModal.veil.style.setProperty('--passage-nav-left',left+'px');
+ navModal.veil.style.setProperty('--passage-nav-height',Math.max(125,window.innerHeight-top-12)+'px');
+}
+for(const control of [navLocation,navArrow]){
+ control.addEventListener('click',positionPassageDropdown);
+}
+window.addEventListener('resize',()=>{if(navModal.veil.classList.contains('is-open'))positionPassageDropdown()});
+navModal.veil.addEventListener('click',event=>{
+ if(event.target===navModal.veil)event.stopImmediatePropagation();
+},true); // Dimmed reader remains behind navigation until Read passage or explicit Close.
+const doctrineTags=document.createElement('div');doctrineTags.id='doctrineTags';doctrineTags.hidden=true;
+betaHeading.after(doctrineTags);
+const doctrineIndexPath='./data/verse-doctrine-tags.v1.json';
+let doctrineIndexPromise=null;
+function loadDoctrineIndex(){
+ if(!doctrineIndexPromise)doctrineIndexPromise=getJson(doctrineIndexPath).catch(e=>{doctrineIndexPromise=null;throw e});
+ return doctrineIndexPromise;
+}
+function entryCoversVerse(entry,book,chapter,verse){
+ const match=String(entry.scopeKey||'').match(/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)(?:-(\d+))?$/);
+ if(!match||match[1]!==book||Number(match[2])!==chapter)return false;
+ return verse>=Number(match[3])&&verse<=Number(match[4]||match[3]);
+}
+async function showVerseDoctrineTags(){
+ doctrineTags.replaceChildren();doctrineTags.hidden=true;
+ if(!modernStudyVerse)return;
+ const selected=modernStudyVerse,book=state.book,chapter=state.chapter,request=modernStudyRequest;
+ try{
+  const data=await loadDoctrineIndex();
+  if(request!==modernStudyRequest||!document.body.classList.contains('study-open')||modernStudyVerse!==selected||
+     state.book!==book||state.chapter!==chapter||data.schema!=='sotw-reader-verse-doctrine-display-v1')return;
+  const matches=(data.entries||[]).filter(entry=>
+    entryCoversVerse(entry,book,chapter,selected) &&
+    state.jacob.some(x=>x.scopeKey===entry.scopeKey && typeof x.commentary==='string' && x.commentary.trim().length>0)
+  );
+  if(!matches.length)return;
+  const caption=document.createElement('span');caption.className='doctrine-caption';
+  caption.textContent='Doctrine and study terms';doctrineTags.append(caption);
+  for(const entry of matches.slice(0,3)){
+   const row=document.createElement('div');row.className='doctrine-main';
+   const plain=document.createElement('span');plain.className='doctrine-primary';plain.textContent=entry.display;
+   const formal=document.createElement('span');formal.className='doctrine-formal';formal.textContent=entry.formal;
+   row.append(plain,formal);doctrineTags.append(row);
+   if(entry.aliases?.length){
+    const aliases=document.createElement('div');aliases.className='doctrine-aliases';
+    aliases.textContent='Related terms: '+entry.aliases.slice(0,4).join(' · ');
+    doctrineTags.append(aliases);
+   }
+  }
+  doctrineTags.hidden=false;
+ }catch{/* No matching, validated doctrine coverage; never invent a tag. */}
+}
+const betaOpenBeforeDoctrine=betaOpen;
+betaOpen=function(){
+ betaOpenBeforeDoctrine();
+ showVerseDoctrineTags();
+};
+const betaCloseBeforeDoctrine=betaCloseSheet;
+betaCloseSheet=function(){
+ doctrineTags.replaceChildren();doctrineTags.hidden=true;
+ betaCloseBeforeDoctrine();
+};
 
 </script>
 </body>
