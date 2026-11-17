@@ -151,3 +151,85 @@
  font:15px/1.45 Georgia,serif;color:#d9e9ec;
 }
 .mobile-beta.beta-light #studyOverlayBody .word-atlas-text .word-atlas-original{color:#274a56}
+
+/* v0.13: Palatino reading experiment; fall back to Georgia where unavailable. */
+.mobile-beta #verses .reader-paragraph,
+.mobile-beta #verses .reader-verse,
+.mobile-beta #modernStudyVerse,
+.mobile-beta #studyOverlayBody .word-sequence-verse,
+.mobile-beta #studyOverlayBody .word-sequence-plain,
+.mobile-beta #studyOverlayBody .word-atlas-head strong,
+.mobile-beta .voice-body .copy,
+.mobile-beta .voice-body .preview,
+.mobile-beta #studyOverlayBody .word-atlas-short,
+.mobile-beta #studyWordDetail .word-summary-short{
+ font-family:Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif!important;
+}
+/* A separate square turned onto its corner, not a gemstone icon. */
+.mobile-beta #verses .jacob-verse-marker{
+ display:inline-flex;align-items:center;justify-content:center;
+ vertical-align:middle;position:relative;width:31px;height:33px;
+ padding:0;margin:0 1px 0 0;border:0;border-radius:7px;
+ background:transparent;color:#9ac6bb;cursor:pointer;touch-action:manipulation;
+}
+.mobile-beta #verses .jacob-verse-marker::before{
+ content:"";width:9px;height:9px;border:1.8px solid currentColor;
+ background:currentColor;transform:rotate(45deg);border-radius:1px;
+}
+.mobile-beta #verses .jacob-verse-marker:hover,
+.mobile-beta #verses .jacob-verse-marker:focus-visible{background:rgba(103,173,168,.16)}
+.mobile-beta.beta-light #verses .jacob-verse-marker{color:#347c72}
+
+/* Whole-verse Word-by-Word: readable English in order, then source-only rows. */
+.mobile-beta #studyOverlayBody .word-sequence-nav{
+ display:flex;align-items:center;justify-content:space-between;gap:9px;
+ margin:0 0 12px;padding:0 2px;color:#e0ebee;
+ font:600 13px system-ui;
+}
+.mobile-beta #studyOverlayBody .word-sequence-nav button{
+ display:inline-flex;align-items:center;justify-content:center;
+ border:1px solid #526d77;border-radius:9px;
+ width:44px;height:40px;background:#253c46;color:#eaf2f4;
+ font:normal 28px/1 Georgia,serif;cursor:pointer;
+}
+.mobile-beta #studyOverlayBody .word-sequence-nav button:disabled{opacity:.3;cursor:default}
+.mobile-beta #studyOverlayBody .word-sequence-verse{
+ border:1px solid #49636b;border-radius:11px;background:#233741;
+ margin:0 0 15px;padding:14px 15px;font-size:18px;line-height:1.73;
+ color:#eff5f5;white-space:pre-wrap;
+}
+.mobile-beta #studyOverlayBody .word-sequence-caption{
+ margin:16px 0 9px;color:#add1d8;
+ text-transform:none;font:650 13px/1.35 system-ui;
+}
+.mobile-beta #studyOverlayBody .word-sequence-list{display:flex;flex-direction:column;gap:5px}
+.mobile-beta #studyOverlayBody .word-sequence-plain{
+ display:flex;align-items:baseline;gap:12px;min-height:33px;
+ padding:5px 5px 4px 12px;font-size:16px;line-height:1.45;
+ color:#d4e2e6;
+}
+.mobile-beta #studyOverlayBody .word-sequence-rule{
+ height:1px;background:#4e6970;flex:1;min-width:14px;
+ align-self:center;opacity:.65;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card{
+ margin:5px 0!important;padding:11px 13px!important;
+}
+.mobile-beta #studyOverlayBody .word-sequence-note{
+ margin:0 0 12px;font:12px/1.6 system-ui;color:#a9c4cc;
+}
+.mobile-beta #studyOverlayBody .word-sequence-nav:last-child{
+ border-top:1px solid #415c65;padding-top:14px;margin-top:18px;
+}
+/* Gentle light mode for the same two reading paths. */
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-verse{
+ background:#fff;color:#293e46;border-color:#c5d6d7;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-plain{color:#2e4851}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-rule{background:#bad0d3}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-caption{color:#3c6470}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-note{color:#54717a}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-nav{color:#304c55}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-nav button{
+ background:#e9f3f1;border-color:#b9ced0;color:#254e59;
+}
