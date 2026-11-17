@@ -620,26 +620,29 @@ renderBible=function(){
   btn.setAttribute('aria-label',bookInfo().name+' '+state.chapter+':'+v.verse);
   const sup=document.createElement('span');sup.className='number';sup.textContent=String(v.verse);
   btn.append(sup,document.createTextNode((v.spans||[]).map(a=>a.text||'').join('')));
-  p.append(btn);
-  // The rotated square is a sibling of the verse action, with its own tap target.
+  // Keep the marker visibly tied to THIS verse. Two sibling buttons; no nested
+  // button and no shared click handler with the verse study action.
   const eligibleJacob=(state.jacob||[]).some(e=>matchingJacob(e,Number(v.verse))&&
     typeof e.commentary==='string'&&e.commentary.trim());
   if(eligibleJacob){
    const marker=document.createElement('button');marker.type='button';
-   marker.className='jacob-verse-marker';
-   marker.setAttribute('aria-label','Open Jacob Lannom commentary for '+bookInfo().name+' '+state.chapter+':'+v.verse);
-   marker.title='Jacob Lannom commentary available';
+   marker.className='jacob-verse-marker';marker.dataset.jacobVerse=String(v.verse);
+   marker.setAttribute('aria-label','Read Jacob Lannom commentary on '+bookInfo().name+' '+state.chapter+':'+v.verse);
+   marker.title='Jacob Lannom commentary';
    marker.addEventListener('click',event=>{
-    event.stopPropagation();
-    if(modernGesture.moved&&event.detail!==0)return;
-    const number=Number(v.verse);
-    modernStudyVerse=number;chooseVerse(number);betaOpen();
-    const author=availableAuthors.find(a=>a.id==='jacob-lannom');
-    if(author)openAuthorCommentary(author);
+    // A valid mobile click must not be cancelled by a stale scroll gesture flag.
+    event.preventDefault();event.stopImmediatePropagation();
+    const number=Number(marker.dataset.jacobVerse);
+    if(!modernSourceVerse(number))return;
+    if(!(state.jacob||[]).some(e=>matchingJacob(e,number)&&
+       typeof e.commentary==='string'&&e.commentary.trim()))return;
+    modernStudyVerse=number;chooseVerse(number);
+    betaOpen(); // Mount the existing study panel, then immediately open Jacob.
+    openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary'});
    });
    p.append(marker);
   }
-  p.append(document.createTextNode(' '));
+  p.append(btn,document.createTextNode(' '));
  }
  readerView.scrollTop=keep;
 };
@@ -758,6 +761,8 @@ readerView.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-modernGestur
 readerView.addEventListener('touchmove',()=>{modernGesture.moved=true},{passive:true});
 readerView.addEventListener('scroll',()=>{modernGesture.scrollTime=Date.now();modernGesture.moved=true},{passive:true});
 readerView.addEventListener('click',e=>{
+ // The rotated-square commentary shortcut never opens normal verse tools.
+ if(e.target.closest('button.jacob-verse-marker'))return;
  const node=e.target.closest('button.reader-verse');
  if(!node||(e.detail!==0&&(modernGesture.moved||Date.now()-modernGesture.scrollTime<160)))return;
  const n=Number(node.dataset.verse);if(!modernSourceVerse(n))return;
