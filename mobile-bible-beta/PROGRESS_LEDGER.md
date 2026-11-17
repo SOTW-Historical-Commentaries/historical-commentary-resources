@@ -9,6 +9,12 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | COMMON-WORD MARKING DECISION PARKED (OWNER REVIEW, NO DESIGN CHOSEN)
+
+**Owner follow-up to underline discoverability:** The reader needs an intuitive sign that useful lookup information is available, but **not a whole visual key or map legend** that people must learn. Very common words such as “the,” “a,” “and,” “then,” “he,” “she,” “said,” and “sayeth” do not need prominent repeated lookup invitations merely because dictionary entries may exist. The owner does **not** yet know the right treatment and explicitly requested **“put a pin in it.”**
+
+**Status: OPEN / DEFERRED.** Do not choose underline types, icons, legends, common-word suppression, a stopword blacklist, or count policy on the owner's behalf. Common words may still have legitimate source language information, so no automatic filtering of Strong's or morphology. Keep the earlier priority (discoverability without clutter) and exact-count concerns as unresolved requirements, not as approved final styles. No code or data changes. Resume after additional owner review.
+
 ## 2026-11-17 | UNDERLINE DISCOVERABILITY REVIEW — ACTS 2:2 (OWNER SCREENSHOT; DESIGN ONLY)
 
 **New direct owner evidence:** iPhone screenshot of full-screen Acts 2 · Verse 2 with "The Holy Spirit / Pneumatology" passage theme, many English words underlined, selected "suddenly · G869" (ἄφνω / áphnō), a short source definition, "Read full Strong's entry", "Noah Webster's Dictionary 1828", and "Greek & word study — 17 source forms."
