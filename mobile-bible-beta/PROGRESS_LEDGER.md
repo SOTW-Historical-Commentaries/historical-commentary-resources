@@ -9,6 +9,26 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16, 9:29 PM CST | v0.3 owner screenshot corrections: full-screen nested study
+
+**STATE:** Published to same GitHub Pages repository in isolated `mobile-bible-beta/index.html`. Current app commit `53b2a0187ebc5ad44e30a009dd4202a38fc8ae18`, HTML blob `c4589d46cf7c97d6111f25e9cc1b16fc20398d2c`; functional base commit `fc0b7290fc484e1a525bff7f56f6c22484edecba`. Original `unified-commentary-reader/index.html` remains unchanged (blob `b7cb82e66859a8f8705f390644a706965d0cc265`).
+
+**Owner evidence:** Three screenshots of Philippians 1:1 and 1:8 on iPhone showed (a) a passage chooser repeating Bible translation, (b) a lengthy commentary view with original-source metadata and JSON links, and (c) a half-screen verse sheet with a large immediately visible five-author selection list and a short Greek definition. The screenshots are evidence for the previous release, not proof that this v0.3 correction renders correctly.
+
+**Owner's required interaction contract now implemented in code:**
+1. Passage navigation chevron appears immediately adjacent to the book/chapter heading; its picker exposes *only Book, Chapter, Verse*, leaving translation exclusively in its own upper-right chooser.
+2. Deliberate verse tap opens the entire viewport study surface, not a half-height pane. Scripture reader stays mounted behind it for exact return.
+3. A source-verified English linked word displays *only that word's* Strong's identifier, original Hebrew/Greek headword, transliteration and concise definition. Optional “Read full Strong's entry” slides a second layer over the verse while leaving the Commentary entry accessible at the bottom. It uses available original lexical derivations, renderings and expanded source text, without inventing morphology or external definitions.
+4. Commentary displays **one collapsed button initially**. Tapping opens an availability-only list of real authors; tapping one opens that author's commentary in the layered view, with Back to chooser, then Back to verse. Historical content comes from existing typed index routes; Jacob from accepted SOTW entries only.
+5. Public commentary hides source JSON and internal metadata. Jacob remains identified by name but source-type chip is **Pastoral Commentary**, not “Accepted Pastoral Commentary.” Text and author/source records themselves remain unchanged.
+6. Nested layers animate gently; reduce-motion preference disables animation. Light and dark styles exist for the fullscreen layout.
+
+**Partial/pending:** The owner also requested a tappable **Noah Webster 1828 dictionary** for each supported English word. No verified, published SOTW Webster 1828 dictionary endpoint/data contract was discovered in the installed repositories; older source register treats its public-display integration as conditional upon an approved, checksum-locked transcription. Therefore no misleading Webster button was added. The Webster 1833 Bible must **not** be substituted. Add the correct dictionary lookup once separately verified and approved.
+
+**QA / truthfulness:** The current v0.3 GitHub HTML readback passed, JavaScript parse/syntax passed and code markers for nav, full screen, nested word/author layers, suppressed JSON and accepted Jacob label were checked. Not proven yet: public Pages cache/propagation, real iPhone drawer stacking, author response loading, cross-browser gestures, true Webster dictionary integration, source semantic/rights audit. No live browser screenshot of v0.3 was produced here. Source/scheme compatibility should be tested on owner's iPhone before accepting.
+
+**Next visual QA:** Reload https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ on iPhone. Check navigation only Book/Chapter/Verse, ASV upper-right, verse tap fullscreen, short word card, full word overlay Back, Commentary button -> authors -> one author -> Back, and no JSON/source labels. Check close returns to exact paragraph. Note any discrepancy with screenshots before further enhancements.
+
 ## 2026-11-16 | VISUAL BETA v0.2: consolidated reader redesign published
 
 ### v0.2 chapter-loader correction, same release — 2026-11-16
