@@ -1,14 +1,27 @@
 {
   "schema": "sotw-reader-verse-doctrine-display-v1",
   "editionNeutral": true,
-  "status": "LIMITED_CONFIRMED_COVERAGE",
-  "description": "Reader-only, source-scoped doctrinal display seeds. These are not blanket verse tags. Existing public pastoral passage commentary supports the connection; formal labels and aliases follow owner CGBC doctrine taxonomy. Do not infer from simple text matches.",
+  "status": "LIMITED_EVIDENCE_SCOPED_COVERAGE",
+  "description": "Reader-only and evidence-scoped labels. Passage-specific commentary and a separately marked passage theme from accepted chapter context are permitted, but no chapter-wide blanket verse tags. Not a universal verse doctrine catalog.",
   "authority": {
     "passageSource": "api/jacob-lannom/v1/current-commentary.json",
     "taxonomy": "CGBC_Biblical_Doctrine_Taxonomy_Aliased.json (owner supplied; plain_label and nugget_label)",
-    "rule": "Only display on explicitly evidenced passage scope; do not extend passage tags to an entire chapter or all alias word occurrences."
+    "rule": "Display only within explicitly supported verse ranges; chapter-introduction thematic evidence is labeled 'Passage theme' and is never represented as verse-specific author exposition. No term-matching inference."
   },
   "entries": [
+    {
+      "scopeKey": "ACT.2.1-4",
+      "evidenceScopeKey": "ACT.2",
+      "evidenceScopeType": "CHAPTER_INTRODUCTION",
+      "evidenceLevel": "PASSAGE_THEME_IN_CHAPTER_CONTEXT",
+      "display": "The Holy Spirit",
+      "formal": "Pneumatology",
+      "aliases": [
+        "Holy Spirit",
+        "work of the Holy Spirit"
+      ],
+      "basis": "Accepted Acts 2 chapter introduction: the Spirit promised by Jesus empowers witnesses at Pentecost; selected passage is the Pentecost opening, not a separate verse-specific Jacob commentary"
+    },
     {
       "scopeKey": "ACT.2.37-41",
       "display": "The Church",
