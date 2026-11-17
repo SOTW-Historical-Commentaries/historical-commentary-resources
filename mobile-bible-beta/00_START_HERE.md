@@ -7,6 +7,16 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## LATEST VISUAL REVIEW: v0.5 — anchored passage dropdown and source-backed doctrine chips
+
+**CURRENT APP COMMIT:** `4868e34a216dd2b623dec4c9b26b2c726cd0203f` (`mobile-bible-beta/index.html` blob `41d7fb4ad9b989b8700bcd7c61cc3a9365c74996`). New **limited doctrine index**: `mobile-bible-beta/data/verse-doctrine-tags.v1.json`, commit `562abb268bf89caebc99732c2c3d5a21dc15c2f0`. Base before v0.5: `3d1a8e99e3ca74aab554f91917af5674e0506bb6`. Existing original `unified-commentary-reader/` and authority data untouched.
+
+**What's new:** Book/Chapter/Verse selector now drops *from directly beneath the book/chapter title* with a dimmed background and remains open until Read Passage or Close. The rest of the reader remains readable after dismissal. Full-screen verse study now shows doctrinal label, formal category and aliases at top **only on passages with real evidence**. Initial supported group is Ecclesiology / The Church on six exact SOTW portable-commentary passages (Acts 2:37–41; Acts 6:1–7; Hebrews 13:17; Ephesians 4:11–16; 1 Corinthians 5:1–13; Galatians 6:1). No generic automatic verse tagging is authorized; a taxonomy match alone does not establish the doctrine of a verse. The app hides doctrine chips when no verified mapping is available. Philippians 1:8 has no tag in this first mapping.
+
+**READ THIS FOR NEXT THREAD:** The owner-provided CGBC Biblical Doctrine aliased taxonomy supplies public plain labels, formal doctrinal terms, and aliases, but **not** verse membership. CGBC Concept Registry v2 is sermon-meaning evidence, not an all-verse mapping. Expand only from audited accepted passage evidence; preserve provenance. Never guess by matching a keyword. `PROGRESS_LEDGER.md` has complete source and QA status.
+
+**QA:** GitHub code/JSON readback and inline JS syntax passed. New v0.5 GitHub Pages visual / iPhone gestures **NOT YET VERIFIED** because external Pages URL was unavailable through the checking browser. First test: open Bible, tap heading; dropdown anchors under it, page dims, Book/Chapter/Verse only. Select Acts 2:41, tap verse; see The Church / Ecclesiology plus aliases above text. Test Phil 1:8 to confirm no fabricated doctrinal chip. Report screenshots, especially full-screen drawer scroll and nav placement.
+
 ## CURRENT CORRECTION: Noah Webster 1828 dictionary is already in SOTW and now wired into beta
 
 **LATEST APP SOURCE:** `mobile-bible-beta/index.html` commit `3d1a8e99e3ca74aab554f91917af5674e0506bb6`, blob `62374d76891586859644f0c892e4f3725abb3050`. Reader reused the already-published `SOTW-Original-Languages/original-language-resources/webster1828.json`, plus existing `demo/word-study/app.js` lookup contract. The older handoff statement that no SOTW 1828 resource existed was incorrect and is **superseded**. The historical source/digital transcription license is CC BY-SA 4.0 and is attributed inside the dictionary view.
