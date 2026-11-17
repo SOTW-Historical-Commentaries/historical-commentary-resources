@@ -39,29 +39,109 @@ async function offerAsvScan(){
   asvButtonPage.textContent='Printed p. '+(index.pages[found].printed_page??'?')+' ›';
  }catch{/* Never display an unverified scan link. */}
 }
+
+/* PDF.js renders a single existing source page to canvas on iPhone, where
+   WebKit otherwise leaves an iframe completely white. The original PDF remains
+   the authoritative asset and can always be opened directly. */
+const SOTW_PDFJS='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
+let asvPdfLibPromise=null;
+const asvPdfDocuments=new Map();
+let asvRenderSerial=0;
+function ensureAsvPdfLib(){
+ if(window.pdfjsLib)return Promise.resolve(window.pdfjsLib);
+ if(asvPdfLibPromise)return asvPdfLibPromise;
+ asvPdfLibPromise=new Promise((resolve,reject)=>{
+  const script=document.createElement('script');
+  script.src=SOTW_PDFJS+'pdf.min.js';
+  script.async=true;
+  script.onload=()=>{
+   if(!window.pdfjsLib)return reject(Error('PDF renderer unavailable'));
+   window.pdfjsLib.GlobalWorkerOptions.workerSrc=SOTW_PDFJS+'pdf.worker.min.js';
+   resolve(window.pdfjsLib);
+  };
+  script.onerror=()=>reject(Error('PDF renderer could not load'));
+  document.head.append(script);
+ }).catch(e=>{asvPdfLibPromise=null;throw e});
+ return asvPdfLibPromise;
+}
+async function renderAsvCanvas(ctx,p,holder,status,scale,serial){
+ try{
+  const lib=await ensureAsvPdfLib();
+  const pdfUrl=asvScanUrl(ctx,p).split('#')[0];
+  if(!asvPdfDocuments.has(pdfUrl)){
+   const task=lib.getDocument({url:pdfUrl,withCredentials:false});
+   asvPdfDocuments.set(pdfUrl,task.promise.catch(e=>{asvPdfDocuments.delete(pdfUrl);throw e}));
+  }
+  const pdf=await asvPdfDocuments.get(pdfUrl);
+  if(serial!==asvRenderSerial||!holder.isConnected)return;
+  const number=p.volume_pdf_page;
+  if(number<1||number>pdf.numPages)throw Error('Page outside scanned volume');
+  const page=await pdf.getPage(number);
+  if(serial!==asvRenderSerial||!holder.isConnected)return;
+  const natural=page.getViewport({scale:1});
+  const baseWidth=Math.max(230,Math.min(window.innerWidth-58,680));
+  const factor=Math.min(1.8,window.devicePixelRatio||1);
+  const viewport=page.getViewport({scale:baseWidth/natural.width*scale*factor});
+  const canvas=document.createElement('canvas');
+  canvas.width=Math.ceil(viewport.width);canvas.height=Math.ceil(viewport.height);
+  canvas.style.width=(viewport.width/factor)+'px';
+  canvas.style.height=(viewport.height/factor)+'px';
+  canvas.setAttribute('aria-label','Facsimile scan, original printed page '+p.printed_page);
+  const context=canvas.getContext('2d',{alpha:false});
+  if(!context)throw Error('Canvas unavailable');
+  await page.render({canvasContext:context,viewport}).promise;
+  if(serial!==asvRenderSerial||!holder.isConnected)return;
+  holder.replaceChildren(canvas);
+  status.textContent='Original scan ready · '+Math.round(scale*100)+'%';
+ }catch(err){
+  if(serial!==asvRenderSerial||!holder.isConnected)return;
+  holder.replaceChildren();
+  status.textContent='Inline scan preview unavailable on this device. Use “Open original PDF” above.';
+ }
+}
 function renderAsvScanPage(ctx,i){
  const p=ctx.index.pages[i];
  if(!p||p.type!=='scripture'||!p.volume||!Number.isInteger(p.volume_pdf_page))return;
- const previous=studyOverlayBody.querySelector('#asvScanContent');if(previous)previous.remove();
+ const serial=++asvRenderSerial;
+ for(const child of Array.from(studyOverlayBody.children)){
+  if(child.id!=='voices')child.remove();
+ }
  const root=document.createElement('div');root.id='asvScanContent';
  const meta=document.createElement('p');meta.className='asv-metadata';
- meta.textContent='ASV 1901 · Printed page '+(p.printed_page??'unmarked')+' · Original scan '+p.source_pdf_page+' · '+p.first_verse+' to '+p.last_verse;
- const buttons=document.createElement('div');buttons.className='asv-page-controls';
+ meta.textContent='ASV 1901 · Printed p. '+(p.printed_page??'unmarked')+
+  ' · '+p.first_verse+' to '+p.last_verse;
+ const nav=document.createElement('div');nav.className='asv-page-controls';
  const prev=document.createElement('button'),next=document.createElement('button');
- prev.type='button';next.type='button';prev.textContent='← Previous';next.textContent='Next →';
- prev.disabled=i===0;next.disabled=i===ctx.index.pages.length-1;
- prev.addEventListener('click',()=>renderAsvScanPage(ctx,i-1));
- next.addEventListener('click',()=>renderAsvScanPage(ctx,i+1));
- const counter=document.createElement('span');counter.textContent=(i+1)+' / '+ctx.index.pages.length;
- buttons.append(prev,counter,next);
- const link=document.createElement('a');link.className='asv-native-link';
- link.href=asvScanUrl(ctx,p);link.target='_blank';link.rel='noopener noreferrer';
- link.textContent='Open full page · pinch to zoom';
- const tip=document.createElement('p');tip.className='asv-help';
- tip.textContent='This is the complete physical page, not a verse crop. Returning preserves your Scripture location.';
- const preview=document.createElement('iframe');preview.className='asv-pdf-preview';
- preview.title='ASV 1901 scanned page '+(p.printed_page??'');preview.loading='lazy';preview.src=asvScanUrl(ctx,p);
- root.append(meta,buttons,link,tip,preview);studyOverlayBody.append(root);ctx.pageIndex=i;
+ prev.type='button';next.type='button';
+ prev.textContent='← Previous page';next.textContent='Next page →';
+ const valid=i=>ctx.index.pages[i]?.type==='scripture';
+ let before=i-1,after=i+1;
+ while(before>=0&&!valid(before))before--;
+ while(after<ctx.index.pages.length&&!valid(after))after++;
+ prev.disabled=before<0;next.disabled=after>=ctx.index.pages.length;
+ prev.addEventListener('click',()=>renderAsvScanPage(ctx,before));
+ next.addEventListener('click',()=>renderAsvScanPage(ctx,after));
+ const pageCount=document.createElement('span');pageCount.className='asv-metadata';
+ pageCount.textContent='Printed '+(p.printed_page??'?');
+ nav.append(prev,pageCount,next);
+ const direct=document.createElement('a');direct.className='asv-native-link';
+ direct.href=asvScanUrl(ctx,p);direct.target='_blank';direct.rel='noopener noreferrer';
+ direct.textContent='Open original PDF · pinch to zoom';
+ const zoom=document.createElement('div');zoom.className='asv-zoom-controls';
+ const minus=document.createElement('button'),plus=document.createElement('button');
+ minus.type='button';plus.type='button';minus.textContent='− Zoom out';plus.textContent='+ Zoom in';
+ const status=document.createElement('span');status.className='asv-metadata';
+ status.textContent='Loading original scanned page…';
+ zoom.append(minus,status,plus);
+ const canvasArea=document.createElement('div');canvasArea.className='asv-canvas-area';
+ let scale=1;
+ const update=()=>{const run=++asvRenderSerial;renderAsvCanvas(ctx,p,canvasArea,status,scale,run)};
+ minus.addEventListener('click',()=>{scale=Math.max(0.75,Math.round((scale-.25)*100)/100);update()});
+ plus.addEventListener('click',()=>{scale=Math.min(2.5,Math.round((scale+.25)*100)/100);update()});
+ root.append(meta,nav,direct,zoom,canvasArea);
+ studyOverlayBody.append(root);
+ ctx.pageIndex=i;
+ update();
 }
 asvScanButton.addEventListener('click',()=>{
  if(state.edition!=='ASV1901'||!activeAsvScan)return;
@@ -71,4 +151,4 @@ asvScanButton.addEventListener('click',()=>{
 const beforeAsvStudyOpen=betaOpen;
 betaOpen=function(){beforeAsvStudyOpen();offerAsvScan();};
 const beforeAsvStudyClose=betaCloseSheet;
-betaCloseSheet=function(){asvScanButton.hidden=true;activeAsvScan=null;beforeAsvStudyClose();};
+betaCloseSheet=function(){++asvRenderSerial;asvScanButton.hidden=true;activeAsvScan=null;beforeAsvStudyClose();};
