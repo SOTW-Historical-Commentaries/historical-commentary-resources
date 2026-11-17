@@ -7,6 +7,14 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT BUG FIX: v0.8, Webster 1828 words require real dictionary coverage
+
+**Latest reader source:** `mobile-bible-beta/index.html` commit `fef737aed247164fcda784835e9f43beb176c5ac` (blob `53b02ef1fc0a7342b84b731920681713ffef9375`). Pre-fix fallback: `cc2916ec7dec45cec2d2e034819f4988badf1efc`. See `PROGRESS_LEDGER.md` for the full chronology.
+
+**Owner screenshot demonstrated a defect:** Tapping the Noah Webster 1828 option for *disciples* opened “No exact 1828 dictionary entry” with a leftover loading message. **No-empty-controls rule applies to English dictionary entries too.** Current app checks the true published `webster1828.json` exact headword before making a word tappable for Webster or offering the dictionary. It does not invent word stems, display empty dictionary panels, or keep stale Loading text. Source-supported Strong's words remain independent and tappable where verified. A dictionary download may delay English dictionary highlighting until loaded.
+
+**QA status:** GitHub readback and JS syntax PASS. Extracted membership function passed six controlled fixture cases. Real dictionary data loading and updated UI on iPhone **NOT YET VERIFIED**. Ask owner to refresh and retry the previously failing *disciples* example, then a documented positive-entry word. Do not call the issue closed until the phone behavior is inspected. No SOTW authoritative dictionary, Scripture text or unified commentary source files changed.
+
 ## LATEST v0.7 VISUAL CHANGE: translation selector now opens at upper right
 
 **Latest reader app code:** commit `cc2916ec7dec45cec2d2e034819f4988badf1efc`, blob `d0cd85270d9a8d7651ec5de07de9806705b77085` in `mobile-bible-beta/index.html`. Pre-v0.7 fallback: `7cea41e75332c69454ec625753a1860119f52084`. Only this reader HTML changed; source foundations and original unified commentary reader untouched.
