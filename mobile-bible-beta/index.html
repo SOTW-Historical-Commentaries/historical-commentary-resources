@@ -914,7 +914,7 @@ async function showWebsterDictionary(english){
  const word=normalizeWebsterHeadword(english);
  if(!word)return;
  openStudyLayer('dictionary','Noah Webster · 1828');
- studyOverlayBody.replaceChildren();
+ studyOverlayBody.querySelector('#voices')?.replaceChildren();
  const loading=document.createElement('p');
  loading.className='modern-panel-desc';loading.textContent='Opening historical English dictionary…';
  studyOverlayBody.append(loading);
@@ -922,7 +922,7 @@ async function showWebsterDictionary(english){
   const dict=await getSotwWebster1828();
   if(request!==modernStudyRequest||studyView!=='dictionary'||!document.body.classList.contains('study-open'))return;
   const rows=dict[word];
-  studyOverlayBody.replaceChildren();
+  studyOverlayBody.querySelector('#voices')?.replaceChildren();
   if(!Array.isArray(rows)||!rows.length){
    const noExact=document.createElement('p');noExact.className='modern-panel-desc';
    noExact.textContent='No exact 1828 dictionary entry for “'+english+'”. Try the base word form; historical entries are not automatically stemmed.';
