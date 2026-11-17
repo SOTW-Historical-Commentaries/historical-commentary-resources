@@ -99,8 +99,9 @@
         const grammar=document.createElement('span');grammar.className='word-atlas-grammar';
         grammar.textContent=descriptor.morph;left.append(grammar);
       }
+      const original=document.createElement('span');original.className='word-atlas-original';
       const short=document.createElement('span');short.className='word-atlas-short';
-      left.append(short);button.append(left);
+      left.append(original,short);button.append(left);
       button.addEventListener('click',()=>renderSourceDetail(row));
       studyOverlayBody.append(button);
       const lexMatch=id.match(/^strongs:([HG])(\d+)$/);
@@ -112,6 +113,10 @@
       getJson(url).then(data=>{
         if(!button.isConnected||studyView!=='source-forms')return;
         const entry=data.entries?.[id],definition=entry?.definitions?.concise_source_authored;
+        if(entry?.headword){
+          const forms=[entry.headword,entry.transliteration].filter(Boolean);
+          original.textContent=forms.join(' · ');
+        }
         if(typeof definition==='string'&&definition.trim())short.textContent=definition;
       }).catch(()=>{});
     }
