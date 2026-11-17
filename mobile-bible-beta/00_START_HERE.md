@@ -7,6 +7,14 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## LATEST v0.7 VISUAL CHANGE: translation selector now opens at upper right
+
+**Latest reader app code:** commit `cc2916ec7dec45cec2d2e034819f4988badf1efc`, blob `d0cd85270d9a8d7651ec5de07de9806705b77085` in `mobile-bible-beta/index.html`. Pre-v0.7 fallback: `7cea41e75332c69454ec625753a1860119f52084`. Only this reader HTML changed; source foundations and original unified commentary reader untouched.
+
+**Owner UI decision implemented:** Translation chooser now behaves as a mirror of the book navigator: tap KJV/ASV/etc in the upper-right header to open a drop-down panel immediately beneath it, with a dimmed reader background, responsive width/position, original edition names and metadata, and Close/selection behavior. Book dropdown remains upper-left. This replaces the old bottom-opening translation sheet.
+
+**QA:** GitHub readback/JavaScript syntax and internal source checks passed. Owner iPhone screenshot/browser layout check is **PENDING**. Public beta: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ . See `PROGRESS_LEDGER.md` for release details and v0.6 ASV scan/doctrine scope.
+
 ## LATEST v0.6 RELEASE / NEXT PHONE INSPECTION — 2026-11-16
 
 **Current reader:** `mobile-bible-beta/index.html` commit `7cea41e75332c69454ec625753a1860119f52084`, blob `1934c3bccfb16bf4f9669dc16d8da0d817fa4ca7`. Separate new assets: `asv-facsimile.js` and `asv-facsimile.css`. Pre-change fallback reader commit `4868e34a216dd2b623dec4c9b26b2c726cd0203f`. Unrelated source repos and original unified reader remain unchanged. Read newest `PROGRESS_LEDGER.md` below for detailed changes and tests.
