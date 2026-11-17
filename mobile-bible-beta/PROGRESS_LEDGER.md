@@ -9,6 +9,25 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | ASV-only historical facsimile access: owner design requirement
+
+**STATUS: Approved direction for upcoming consolidated UI redesign. NOT IMPLEMENTED in mobile-bible-beta.** The owner has already curated/corroborated the original print scans, and mapped Scripture verses to full scanned physical pages in the independent SOTW ASV foundation. Do not rerun this original source research.
+
+**Source inspection:** `SOTW-ASV-1901/asv-1901-resources`
+- `data/asv1901/<book-slug>/page-index.json` provides `edition_id: ASV1901`, original print-PDF SHA, page coverage `first_verse`/`last_verse`, `source_pdf_page`, `printed_page`, `volume`, `volume_pdf_page`, physical page overlap/continuation data.
+- `data/asv1901/micah/page-index.json`: MIC.1.1 resolves to source PDF page 939, printed page 895, volume `asv1901-micah-pages-939-943.pdf`, volume page 1. ROM has its own `romans/page-index.json`.
+- `books/romans/site/index.html` already demonstrates PDF navigation by mapping the verse to the page and loading `data/asv1901/romans/facsimile/<volume>.pdf#page=<volume_pdf_page>`; its continuation control handles cases when a verse spans two source pages.
+- `data/asv1901/catalog-romans.json` includes `facsimile_index: romans/page-index.json`. `books/romans/SOURCE_INVENTORY.json` identifies the print as **1901**, not 1801, and records source/provenance/hashes. The existing Princeton confirmation is owner-supplied project history, not independently re-proven in this UI-design pass.
+
+**Placement requirements:**
+1. The normal Bible reader remains uncluttered. When ASV1901 is the active translation, its translation-details profile may include a quiet **Explore original 1901 printed edition** entry, with authentic artwork and provenance.
+2. Within the compact verse study sheet, conditionally show **View original printed page** only for ASV1901 verses whose page-index mapping resolves to an existing facsimile PDF. No such option for KJV, BSB, or Webster Bible 1833. No broken/empty placeholder.
+3. Open in an easy-to-close image/PDF viewer showing the complete original physical page, preserving the original scan and page boundaries. Allow natural pinch zoom/pan on a phone, optional adjacent physical page/verse continuation navigation. Do not crop or pretend to map the verse to precise coordinates within the page: mapping is verse-to-**page**, not a bounding box.
+4. A visible **Back to [original verse]** closes the viewer and restores the exact Scripture/study-sheet scroll position and current commentary context, preserving Continue Reading. Clicking adjacent original pages is investigation, not a reading-position change.
+5. Preserve the print-page number and source page/volume metadata in the viewer without overwhelming the reading interface. Keep rights attribution in translation details, minimal in the reader.
+
+**Release scope:** Record now; implement during core UI redesign after owner feedback consolidation, not as an independent large feature or an excuse to alter curated source datasets. No Bible Reader code was changed for this design decision.
+
 ## 2026-11-16 | Owner decisions: Translation artwork/metadata; RETIRE auto-scroll
 
 **Direction for translation selection (UI design only, not yet implemented):** Owner wants a fresh, contemporary feel with useful historical metadata and imagery. When a reader taps the compact translation label (e.g., KJV), open a tasteful translation profile/selector displaying a genuine, rights-cleared relevant book jacket or title-page image, complete translation and edition title, short historical description and optional source/edition details. Close profile after selection and leave only the short edition label on the Scripture screen. **Distinguish the standardized KJV 1769 text from the original 1611 title page** if a 1611 image is displayed; do not misrepresent the image as the actual source edition. Do not invent a jacket or add a large permanent cover to the reading page. Find and select verified authentic artwork during the consolidated redesign.
