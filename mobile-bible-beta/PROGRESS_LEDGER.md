@@ -9,6 +9,18 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | JACOB DIAMOND SHORTCUT REVIEW — TWO ENTRY PATHS (OWNER SCREENSHOT; DESIGN ONLY)
+
+**Owner request and screenshot:** The screenshot shows the existing Jacob Lannom pastoral commentary viewer, titled “Receiving the Word, Baptism, and Belonging” (Acts 2:41 context). The owner says the previously chosen **diamond icon** indicating available Jacob Lannom commentary should itself be **pressable in Scripture and take the reader directly to that Jacob commentary**, not simply serve as an availability decoration or require another author-chooser step.
+
+**Two legitimate access routes to the same accepted content:**
+1. **Direct from Scripture:** Where a selected verse is actually covered by accepted Jacob Lannom commentary (verse, passage or other explicitly supported scope), show the diamond availability icon as a discoverable, accessible tap target. Tapping it opens the **applicable Jacob Lannom commentary directly in the current reversible commentary viewer**, without extra dropdown/author-selection clicks.
+2. **Via existing Commentary dropdown:** Keep the existing Commentary selector and author choices available, including Jacob Lannom when the same accepted coverage exists. Both paths must resolve to the SAME underlying authorized author entry and not create two copies of the commentary.
+
+**Scope and UX safeguards:** Do not display a Jacob icon for a verse with no eligible accepted Jacob record, or mislabel a broad chapter introduction as his verse-specific authored statement. On return, preserve the Bible passage and reader position. Use the existing commentary UI and public name “Jacob Lannom”; no invented commentary, audio cue links or source metadata in public display. The owner's screenshot represents the **destination viewer**, not proof that the icon is already tappable.
+
+**Status:** Recorded as owner-approved design direction for later coordinated implementation. No reader code, canonical commentary data or deployment changed by this ledger update; visual/phone interaction QA remains pending.
+
 ## 2026-11-17 | COMMON-WORD MARKING DECISION PARKED (OWNER REVIEW, NO DESIGN CHOSEN)
 
 **Owner follow-up to underline discoverability:** The reader needs an intuitive sign that useful lookup information is available, but **not a whole visual key or map legend** that people must learn. Very common words such as “the,” “a,” “and,” “then,” “he,” “she,” “said,” and “sayeth” do not need prominent repeated lookup invitations merely because dictionary entries may exist. The owner does **not** yet know the right treatment and explicitly requested **“put a pin in it.”**
