@@ -7,6 +7,16 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT VISUAL INSPECTION: v0.3, November 16, 2026, 9:29 PM CST
+
+**LATEST APP SOURCE:** `mobile-bible-beta/index.html` commit `53b2a0187ebc5ad44e30a009dd4202a38fc8ae18`, Git blob `c4589d46cf7c97d6111f25e9cc1b16fc20398d2c`. GitHub readback/JS syntax PASS; public v0.3 iPhone UX QA **PENDING**. Existing `unified-commentary-reader/` source unchanged. Backup baseline for last beta: `189a3bc1243f0bb8ea62d33cdf5961093836df17`.
+
+**Owner screenshot-driven changes:** Navigation chevron adjacent to passage, *only Book/Chapter/Verse* in its modal, separate translation chooser upper-right; fullscreen verse study; tap one supported word for original spelling/Strong's short definition, tap for full entry in reverse slide covering verse, Back closes layer; Commentary shows one collapsed launcher, tapping reveals available authors, tapping author reveals just its commentary; internal original source/JSON metadata hidden; Jacob source type labelled “Pastoral Commentary,” not “Accepted.” Unavailable content remains hidden.
+
+**NOAH WEBSTER 1828:** Desired as a tap-to-view historical English definition, but no authorized published SOTW dictionary data endpoint found. Do not invent entries or confuse it with Webster's 1833 Bible. Mark as pending source integration, not completed.
+
+**NEXT THREAD MUST:** Open latest progress ledger and owner screenshots from this conversation; ask owner to test refreshed v0.3 on iPhone (or inspect their next screenshots). Confirm fullscreen height, nested lexical/author sliding, safe close/return, available-only author list and source visibility; repair concrete faults first. Synchronize GitHub ledger and Google Doc after actual changes, preserving source foundations and recoverable baseline.
+
 ## CURRENT VISUAL REVIEW: v0.2, November 16, 2026
 
 **Read this section first.** The current mobile reader is the owner's *first consolidated UI redesign*, not the earlier functional beta. Use the same GitHub Pages URL above and review on an iPhone.
