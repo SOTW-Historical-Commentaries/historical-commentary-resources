@@ -354,6 +354,7 @@ let modernStudyVerse = 0;
 let modernOpenAuthor = "";
 let modernStudyRequest = 0;
 let modernRenderedChapter = '';
+let modernRenderedBible = null;
 let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
 const modernOldHeader=document.querySelector('body.mobile-beta > header');
 if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
@@ -416,6 +417,7 @@ renderBible=function(){
  const currentKey=state.edition+':'+state.book+':'+state.chapter;
  const keep=modernRenderedChapter===currentKey?readerView.scrollTop:0;
  modernRenderedChapter=currentKey;
+ modernRenderedBible=state.bible;
  readerView.replaceChildren();
  let p=null;
  for(const v of state.bible.verses||[]){
@@ -431,6 +433,7 @@ renderBible=function(){
 chooseVerse=function(n){
  const found=modernSourceVerse(n);
  if(!found)return;
+ if(modernRenderedBible!==state.bible)renderBible();
  state.verse=Number(n);$('verse').value=String(n);
  $('previous').disabled=n<=1;$('next').disabled=n>=Number(state.index?.verse_count||state.bible.verses.length);
  setURL();modernUpdateHeader();
