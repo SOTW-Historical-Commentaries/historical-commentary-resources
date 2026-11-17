@@ -218,6 +218,92 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light .commentary-toggle[aria-expanded="true"]{background:#d9ecea;border-color:#719ca5}
 @media(min-width:750px){.mobile-beta .modal-scrim{align-items:center}.mobile-beta .modal-content{border-radius:18px}.mobile-beta .all-verses{height:calc(100svh - 110px)!important}.mobile-beta #verses .reader-paragraph{font-size:21px}}
 
+
+/* SOTW 0.3: quiet top navigation, full-screen verse study, nested detail layers */
+.mobile-beta .location-line{justify-content:space-between;gap:10px}
+.mobile-beta .location-picker{display:flex;align-items:center;gap:0;min-width:0}
+.mobile-beta #readerLocation{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mobile-beta #readerLocation small{display:none}
+.mobile-beta #readerNavToggle{color:#a9c0ca;border:0;background:none;font:600 23px system-ui;
+ padding:4px 12px 4px 5px;min-width:42px;min-height:42px;cursor:pointer}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(4){display:none!important}
+.mobile-beta #readerNavModal .toolbar{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.mobile-beta #readerNavModal .toolbar .control:first-child{grid-column:1/-1}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(2),.mobile-beta #readerNavModal .toolbar .control:nth-child(3){grid-column:auto}
+.mobile-beta.study-open section[aria-label="Commentary comparison"]{
+ position:fixed!important;inset:0!important;top:0!important;bottom:0!important;left:0!important;right:0!important;
+ height:100svh!important;max-height:100svh!important;width:100%!important;max-width:none!important;
+ border:0!important;border-radius:0!important;box-shadow:none!important;overflow:hidden!important;
+ background:#152129!important;padding:0 18px max(12px,env(safe-area-inset-bottom))!important;
+ display:flex!important;flex-direction:column!important;z-index:101!important
+}
+.mobile-beta.study-open section[aria-label="Commentary comparison"] .tools{
+ position:relative!important;top:0!important;flex:0 0 auto!important;padding:calc(9px + env(safe-area-inset-top)) 0 11px!important;
+ margin:0 -1px 13px!important;border-bottom:1px solid #374c53!important;background:#152129!important;
+ min-height:65px;z-index:106!important
+}
+.mobile-beta.study-open #studyClose{background:#2b424c;color:#f3f6f7;border-color:#7898a3}
+.mobile-beta.study-open #studyHeading{flex:0 0 auto!important;margin:0 0 10px!important;font-size:13px;color:#a6c7d0}
+.mobile-beta.study-open #modernStudyVerse{flex:0 1 auto;max-height:50svh;min-height:0;overflow:auto;
+ font:normal clamp(19px,4.7vw,23px)/1.85 Georgia,serif;border-radius:13px;padding:19px 18px;
+ margin:0 0 12px;background:#23343e}
+.mobile-beta.study-open #studyWordDetail{flex:0 1 auto;overflow:auto;max-height:35svh;margin:0 0 14px}
+.mobile-beta.study-open #studyWordDetail:empty{display:none!important}
+.mobile-beta.study-open #modernCommentaryMenu{flex:0 0 auto;margin-top:auto;padding:13px 0 0;
+ border-top:1px solid #3d5159;background:#152129;position:relative;z-index:105}
+.mobile-beta .study-launch{width:100%;min-height:49px;border:1px solid #526b75;
+ background:#2c3f48;color:#e3eef2;border-radius:11px;padding:13px 15px;
+ display:flex;align-items:center;justify-content:space-between;gap:10px;text-align:left;
+ font:650 14px system-ui;cursor:pointer}
+.mobile-beta .study-launch small{font:12px system-ui;color:#a6c3cd}
+.mobile-beta .study-launch:focus-visible{outline:2px solid #b0d4df;outline-offset:2px}
+.mobile-beta #studyOverlay{position:absolute;inset:76px 0 77px;z-index:104;display:none;
+ background:#152129;padding:0 18px;overflow:hidden}
+.mobile-beta #studyOverlay.is-open{display:flex;flex-direction:column}
+.mobile-beta #studyOverlayHeader{display:flex;align-items:center;gap:10px;padding:7px 0 16px;
+ border-bottom:1px solid #38505a;flex:0 0 auto}
+.mobile-beta #studyOverlayBack{border:1px solid #526b74;border-radius:9px;background:#263c45;
+ color:#e5eff2;padding:9px 13px;font:600 13px system-ui;cursor:pointer}
+.mobile-beta #studyOverlayTitle{font:600 16px system-ui;color:#dce8ec}
+.mobile-beta #studyOverlayBody{overflow-y:auto;overscroll-behavior:contain;padding:16px 0 30px;flex:1}
+.mobile-beta #studyOverlayBody .voice{margin:0 0 12px;border-radius:12px}
+.mobile-beta #studyOverlayBody .voice .source-link,
+.mobile-beta #studyOverlayBody .voice .meta,
+.mobile-beta #studyOverlayBody .voice .p-section{display:none!important}
+.mobile-beta #studyOverlayBody .voice-title{display:flex;align-items:start}
+.mobile-beta #studyOverlayBody .voice .source-chip{white-space:normal;text-align:right;line-height:1.35}
+.mobile-beta .available-author{display:flex;justify-content:space-between;align-items:center;
+ width:100%;border:1px solid #415962;background:#253943;color:#e4eff2;
+ padding:15px;border-radius:11px;text-align:left;font:600 15px system-ui;
+ margin-bottom:9px;cursor:pointer}
+.mobile-beta .available-author small{font:12px system-ui;color:#b7cdd5}
+.mobile-beta .word-summary-title{font:600 14px system-ui;color:#b8d8e1;display:block;margin:0 0 7px}
+.mobile-beta .word-summary-head{font:600 22px Georgia,serif;color:#f2f7f8;display:block;margin-bottom:4px}
+.mobile-beta .word-summary-meta{font:13px system-ui;color:#b7c9cf}
+.mobile-beta .word-summary-short{font:15px/1.65 system-ui;margin:12px 0 4px}
+.mobile-beta .word-expand{margin-top:11px;width:100%;background:#324b55;color:#e9f4f5;
+ border:1px solid #577580;border-radius:9px;padding:11px 12px;
+ text-align:left;font:600 13px system-ui}
+.mobile-beta .expanded-lexical{font:15px/1.8 Georgia,serif;color:#e3ebed;white-space:pre-wrap;overflow-wrap:anywhere}
+.mobile-beta .expanded-lexical h3{font:600 22px Georgia,serif;color:#f0f7f8}
+.mobile-beta .expanded-lexical h4{font:600 13px system-ui;color:#aecdd6;margin:17px 0 7px}
+.mobile-beta #modernStudyVerse .word-target{border-bottom-width:2px;box-shadow:inset 0 -2px #6dabb7}
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f8faf8!important;color:#243b43}
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools{background:#f8faf8!important;border-color:#d0dbd8!important}
+.mobile-beta.beta-light.study-open #modernStudyVerse{background:#fff;color:#243941;border-color:#d1dedd}
+.mobile-beta.beta-light.study-open #modernCommentaryMenu{background:#f8faf8;border-color:#cbdad8}
+.mobile-beta.beta-light .study-launch,.mobile-beta.beta-light .available-author{background:#eaf1ef;color:#253e45;border-color:#b7cecd}
+.mobile-beta.beta-light .study-launch small,.mobile-beta.beta-light .available-author small{color:#54717a}
+.mobile-beta.beta-light #studyOverlay{background:#f8faf8}
+.mobile-beta.beta-light #studyOverlayHeader{border-color:#cbd9d9}
+.mobile-beta.beta-light #studyOverlayTitle{color:#2a424c}
+.mobile-beta.beta-light #studyOverlayBack{background:#e8f0ef;color:#2b4650;border-color:#b6cccb}
+.mobile-beta.beta-light .word-summary-head,.mobile-beta.beta-light .expanded-lexical h3{color:#263d44}
+.mobile-beta.beta-light .word-summary-title,.mobile-beta.beta-light .expanded-lexical h4{color:#426a77}
+.mobile-beta.beta-light .word-summary-meta,.mobile-beta.beta-light .word-summary-short,
+.mobile-beta.beta-light .expanded-lexical{color:#30474f}
+.mobile-beta.beta-light .word-expand{background:#e0ebeb;color:#284650;border-color:#a2bfc4}
+
 </style>
 </head>
 <body class="mobile-beta">
@@ -589,6 +675,190 @@ searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&searchResults.fir
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil])x.classList.remove('is-open')}});
 if(betaSaved.theme==='light')document.body.classList.add('beta-light');
 modernUpdateHeader();
+
+
+/* v0.3: full-height study, selected word -> concise/full, commentary -> chooser -> author */
+const navLocation=$('readerLocation'),navContainer=document.createElement('div');
+navContainer.className='location-picker';
+navLocation.before(navContainer);navContainer.append(navLocation);
+const navArrow=document.createElement('button');navArrow.type='button';navArrow.id='readerNavToggle';
+navArrow.textContent='⌄';navArrow.setAttribute('aria-label','Navigate book chapter verse');
+navArrow.addEventListener('click',()=>openModal(navModal));navContainer.append(navArrow);
+const navEditionControl=document.querySelector('#readerNavModal .toolbar .control:nth-child(4)');
+if(navEditionControl)navEditionControl.hidden=true;
+
+let studyView='verse',currentLexical=null,activeAuthor=null,availableAuthors=[];
+const studyOverlay=document.createElement('div');studyOverlay.id='studyOverlay';
+const studyOverlayHeader=document.createElement('div');studyOverlayHeader.id='studyOverlayHeader';
+const studyOverlayBack=document.createElement('button');studyOverlayBack.id='studyOverlayBack';studyOverlayBack.type='button';studyOverlayBack.textContent='← Back';
+const studyOverlayTitle=document.createElement('span');studyOverlayTitle.id='studyOverlayTitle';
+const studyOverlayBody=document.createElement('div');studyOverlayBody.id='studyOverlayBody';
+studyOverlayHeader.append(studyOverlayBack,studyOverlayTitle);studyOverlay.append(studyOverlayHeader,studyOverlayBody);
+modernCommentaryMenu.before(studyOverlay);
+studyOverlayBody.append($('voices'));
+function openStudyLayer(view,title){
+ studyView=view;studyOverlay.classList.add('is-open');studyOverlayTitle.textContent=title;
+ studyOverlayBody.scrollTop=0;
+ if(view!=='author')studyOverlayBody.replaceChildren($('voices'));
+}
+function hideStudyLayer(){studyView='verse';studyOverlay.classList.remove('is-open');studyOverlayBody.replaceChildren($('voices'))}
+studyOverlayBack.addEventListener('click',()=>{
+ if(studyView==='author'){displayCommentaryChooser();return;}
+ hideStudyLayer();
+});
+/* Overwrite the beta's former full-scroll author cards with an availability-gated door */
+renderVoices=function(){
+ const voices=$('voices');voices.replaceChildren();modernCommentaryMenu.replaceChildren();
+ availableAuthors=[];modernOpenAuthor='';
+ if(!modernStudyVerse||!state.index)return;
+ const routes=state.index.verse_routes?.[String(modernStudyVerse)]||{};
+ if(state.jacob.some(matchingJacob))availableAuthors.push({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary'});
+ for(const [id,name] of HIST){
+  if(state.index.authors?.find(a=>a.author_id===id)?.source_unavailable)continue;
+  if(Array.isArray(routes[id])&&routes[id].length)availableAuthors.push({id,name,kind:'Historical Commentary'});
+ }
+ if(!availableAuthors.length)return;
+ const launch=document.createElement('button');launch.type='button';launch.className='study-launch';
+ const name=document.createElement('strong');name.textContent='Commentary';
+ const count=document.createElement('small');count.textContent=availableAuthors.length+' available  ›';
+ launch.append(name,count);
+ launch.addEventListener('click',()=>displayCommentaryChooser());
+ modernCommentaryMenu.append(launch);
+};
+function displayCommentaryChooser(){
+ if(!availableAuthors.length){hideStudyLayer();return}
+ openStudyLayer('choices','Available commentary');
+ const voices=$('voices');voices.replaceChildren();
+ const intro=document.createElement('p');intro.className='modern-panel-desc';intro.textContent='Select one author to read.';
+ studyOverlayBody.append(intro);
+ for(const author of availableAuthors){
+  const b=document.createElement('button');b.type='button';b.className='available-author';
+  const left=document.createElement('span');left.textContent=author.name;
+  const right=document.createElement('small');right.textContent=author.kind==='Pastoral Commentary'?'Pastoral':'Read ›';
+  b.append(left,right);b.addEventListener('click',()=>openAuthorCommentary(author));
+  studyOverlayBody.append(b);
+ }
+}
+function appendVisibleCommentary(container,text){
+ const t=String(text||'').trim();if(!t)return;
+ const preview=document.createElement('p');preview.className='copy';
+ preview.textContent=t.length>1050?t.slice(0,850).trimEnd()+'…':t;container.append(preview);
+ if(t.length>1050){
+  const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Read full commentary';
+  const all=document.createElement('div');all.className='copy';all.textContent=t;
+  details.append(summary,all);container.append(details);
+ }
+}
+function createVisibleAuthorCard(name,kind){
+ const c=voiceCard(name,kind==='Pastoral Commentary'?'jacob':'historic');
+ c.el.querySelector('.source-chip').textContent=kind;
+ $('voices').append(c.el);return c.body;
+}
+function openAuthorCommentary(author){
+ activeAuthor=author;openStudyLayer('author',author.name);
+ const voice=$('voices');studyOverlayBody.replaceChildren(voice);voice.replaceChildren();
+ const gen=++state.generation;const verseKey=state.book+'.'+state.chapter;
+ if(author.id==='jacob-lannom'){
+  const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;
+  const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
+  for(const entry of matches){
+   const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
+   appendVisibleCommentary(body,entry.commentary);
+  }
+  return;
+ }
+ const inds=state.index?.verse_routes?.[String(modernStudyVerse)]?.[author.id]||[];
+ if(!inds.length)return;
+ const body=createVisibleAuthorCard(author.name,'Historical Commentary');
+ const loading=document.createElement('p');loading.className='modern-panel-desc';loading.textContent='Loading commentary…';body.append(loading);
+ const u=snapshotRoot()+'authors/'+author.id+'/'+state.book+'/'+state.chapter+'.json';
+ getJson(u).then(data=>{
+  if(gen!==state.generation||studyView!=='author'||activeAuthor?.id!==author.id)return;
+  loading.remove();if(data?.author_id!==author.id||data?.canonical_chapter!==verseKey)return;
+  for(const i of inds){
+   const entry=data.entries?.[i];
+   if(!entry||entry.reader_visible===false)continue;
+   const bodyText=content(entry);if(!bodyText)continue;
+   const title=document.createElement('h4');
+   title.textContent=(entry.passage_start||'')+(entry.passage_end&&entry.passage_end!==entry.passage_start?' – '+entry.passage_end:'');
+   body.append(title);appendVisibleCommentary(body,bodyText);
+  }
+ }).catch(()=>{if(gen===state.generation)loading.textContent='Commentary could not be loaded.'});
+}
+function appendLexicalLine(container,heading,value){
+ const t=String(value||'').trim();if(!t)return;
+ const h=document.createElement('h4');h.textContent=heading;
+ const p=document.createElement('p');p.textContent=t;
+ container.append(h,p);
+}
+function renderFullLexical(){
+ if(!currentLexical)return;
+ const {row,id,english}=currentLexical;
+ openStudyLayer('lexical','Full Strong’s entry');
+ const wrap=document.createElement('div');wrap.className='expanded-lexical';
+ const title=document.createElement('h3');title.textContent=english+' · '+id.replace('strongs:','');
+ const head=document.createElement('p');head.textContent=[row.headword,row.transliteration].filter(Boolean).join(' · ');
+ wrap.append(title,head);
+ appendLexicalLine(wrap,'Short definition',row.definitions?.concise_source_authored);
+ appendLexicalLine(wrap,'Derivation',row.definitions?.derivation_source_authored);
+ appendLexicalLine(wrap,'KJV renderings',row.definitions?.kjv_renderings_source_authored);
+ const longer=row.definitions?.numbered_expanded_source_authored||[];
+ if(Array.isArray(longer)&&longer.length)appendLexicalLine(wrap,'Additional lexical details',longer.join('\n'));
+ const supplemental=row.definitions?.supplemental_source_authored;
+ if(typeof supplemental==='string')appendLexicalLine(wrap,'Additional notes',supplemental);
+ studyOverlayBody.append(wrap);
+}
+/* Fetch only the selected word's linked Strong's entry. No raw Strong's list is displayed. */
+betaLexicon=async function(id,request,english){
+ const match=String(id).match(/^strongs:([HG])(\d+)$/);if(!match)return;
+ const language=match[1],num=Number(match[2]),first=Math.floor((num-1)/250)*250+1,last=Math.min(first+249,language==='H'?8674:5624);
+ const pad=n=>String(n).padStart(5,'0');
+ const u='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+language+'/'+language+pad(first)+'-'+pad(last)+'.json';
+ betaWordDetail.textContent='Loading word study…';
+ try{
+  const data=await getJson(u);
+  if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+  const row=data.entries?.[id];betaWordDetail.replaceChildren();if(!row)return;
+  currentLexical={row,id,english};
+  const label=document.createElement('span');label.className='word-summary-title';
+  label.textContent=english+'  ·  '+id.replace('strongs:','');
+  const original=document.createElement('span');original.className='word-summary-head';
+  original.textContent=row.headword||'';
+  const trans=document.createElement('span');trans.className='word-summary-meta';
+  trans.textContent=row.transliteration||'';
+  const short=document.createElement('p');short.className='word-summary-short';
+  short.textContent=row.definitions?.concise_source_authored||'';
+  betaWordDetail.append(label,original,trans,short);
+  const d=row.definitions||{};
+  if(d.derivation_source_authored||d.kjv_renderings_source_authored||d.numbered_expanded_source_authored?.length||d.supplemental_source_authored){
+   const full=document.createElement('button');full.type='button';full.className='word-expand';
+   full.textContent='Read full Strong’s entry  ↗';full.addEventListener('click',renderFullLexical);
+   betaWordDetail.append(full);
+  }
+  /* Noah Webster 1828 is a separate dictionary. Do not display an empty
+     lookup or substitute the Webster 1833 Bible for it. */
+ }catch{if(request===modernStudyRequest)betaWordDetail.replaceChildren()}
+};
+modernWordButton=function(token,row,index,request){
+ const btn=document.createElement('button');btn.type='button';btn.className='word-target';
+ btn.textContent=token;btn.dataset.wordIndex=String(index);
+ btn.setAttribute('aria-label','Study '+token.replace(/[^\p{L}\p{N}']/gu,''));
+ btn.addEventListener('click',()=>{
+  if(btn.classList.contains('is-open')){btn.classList.remove('is-open');currentLexical=null;betaWordDetail.replaceChildren();return}
+  for(const w of modernStudyCard.querySelectorAll('.word-target'))w.classList.remove('is-open');
+  btn.classList.add('is-open');currentLexical=null;betaWordDetail.replaceChildren();
+  if(row.strongs_ids?.[0])betaLexicon(row.strongs_ids[0],request,token);
+ });return btn;
+};
+const beforeOpen=betaOpen;
+betaOpen=function(){
+ currentLexical=null;activeAuthor=null;hideStudyLayer();
+ beforeOpen();
+};
+const beforeClose=betaCloseSheet;
+betaCloseSheet=function(){
+ hideStudyLayer();currentLexical=null;activeAuthor=null;++state.generation;beforeClose();
+};
 
 </script>
 </body>
