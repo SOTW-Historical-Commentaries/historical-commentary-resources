@@ -7,6 +7,14 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT CORRECTION: Noah Webster 1828 dictionary is already in SOTW and now wired into beta
+
+**LATEST APP SOURCE:** `mobile-bible-beta/index.html` commit `3d1a8e99e3ca74aab554f91917af5674e0506bb6`, blob `62374d76891586859644f0c892e4f3725abb3050`. Reader reused the already-published `SOTW-Original-Languages/original-language-resources/webster1828.json`, plus existing `demo/word-study/app.js` lookup contract. The older handoff statement that no SOTW 1828 resource existed was incorrect and is **superseded**. The historical source/digital transcription license is CC BY-SA 4.0 and is attributed inside the dictionary view.
+
+On a verse, English words can open **Noah Webster’s Dictionary (1828)** via an explicit tap. Words having safe source-supported Strong's alignments also show their original-language short/full entry separately. 1828 dictionary data loads lazily (15.4 MB) on explicit request, with exact-normalized headword lookup, no fabricated contextual sense. GitHub commit/readback and JS syntax PASS; new iPhone dictionary behavior and public Pages render **NOT YET VERIFIED**.
+
+**Next step:** Open the beta on phone, tap a word in Philippians 1:8 and open Noah Webster’s Dictionary, check definitions, Back, full Strong's and commentary, plus manual scroll restoration. Record actual browser evidence and any network failure in this ledger and the living Google Doc. Do not conflate the 1833 Webster Bible with this 1828 English dictionary.
+
 ## CURRENT VISUAL INSPECTION: v0.3, November 16, 2026, 9:29 PM CST
 
 **LATEST APP SOURCE:** `mobile-bible-beta/index.html` commit `53b2a0187ebc5ad44e30a009dd4202a38fc8ae18`, Git blob `c4589d46cf7c97d6111f25e9cc1b16fc20398d2c`. GitHub readback/JS syntax PASS; public v0.3 iPhone UX QA **PENDING**. Existing `unified-commentary-reader/` source unchanged. Backup baseline for last beta: `189a3bc1243f0bb8ea62d33cdf5961093836df17`.
