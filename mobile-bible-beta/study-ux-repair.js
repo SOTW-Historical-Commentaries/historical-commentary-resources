@@ -64,7 +64,9 @@
   }
   function sourceValidity(row){
     const label=sourceLabel(row);
-    return !!label.word&&!!label.kind&&row.strongs_ids.some(id=>/^strongs:[HG]\d+$/.test(id));
+    return !!label.word&&!!label.kind&&
+      row.verse_id===state.book+'.'+state.chapter+'.'+modernStudyVerse &&
+      row.strongs_ids.some(id=>/^strongs:[HG]\d+$/.test(id));
   }
   function renderSourceList(){
     openStudyLayer('source-forms','Original-language word study');
@@ -141,6 +143,68 @@
     }
   }
   languageButton.addEventListener('click',renderSourceList);
+
+  /* Requested visual order: passage, supported doctrine/aliases, verse,
+     selected word lexical detail, optional original source forms/facsimile,
+     and Commentary last. A single scrolling content region prevents the
+     bottom panel from clipping lexical definitions on small iPhones. */
+  const studyScroll=document.createElement('div');
+  studyScroll.id='studyBodyScroll';
+  betaSection.querySelector('.tools').after(studyScroll);
+  const order=[
+    betaHeading,
+    doctrineTags,
+    modernStudyCard,
+    betaWords,
+    betaWordDetail,
+    languageButton,
+    document.getElementById('asvSourceEntry'),
+    modernCommentaryMenu
+  ];
+  for(const node of order){if(node)studyScroll.append(node);}
+  // The nested lexical/author/PDF overlay stays fixed within the study panel.
+  betaSection.append(studyOverlay);
+
+  /* English word-to-Greek/Hebrew display only for ASV/Webster 1833 source-
+     verified English token alignment. KJV and BSB word associations do not
+     assert an English offset. Their original-language evidence is accessed
+     through the separate source-forms control. */
+  modernWordButton=function(token,row,index,request){
+    const btn=document.createElement('button');btn.type='button';btn.className='word-target';
+    btn.dataset.wordIndex=String(index);btn.textContent=token;
+    btn.setAttribute('aria-label','Study source-linked word '+token);
+    btn.addEventListener('click',async()=>{
+      if(btn.classList.contains('is-open')){
+        btn.classList.remove('is-open');currentLexical=null;
+        betaWordDetail.replaceChildren();return;
+      }
+      modernStudyCard.querySelectorAll('.word-target.is-open,.webster-word.is-open').forEach(x=>x.classList.remove('is-open'));
+      btn.classList.add('is-open');currentLexical=null;betaWordDetail.replaceChildren();
+      const id=(row.strongs_ids||[]).find(x=>/^strongs:[HG]\d+$/.test(x));
+      if(!id)return;
+      // The selected Strong's identifier and contextual morphology are
+      // source-controlled; lexical definition is fetched, not inferred.
+      const summary=document.createElement('p');summary.className='word-summary-title';
+      summary.textContent=token+' · '+id.replace('strongs:','');
+      betaWordDetail.append(summary);
+      const parsing=row.source_locator?.parsing_compact;
+      if(typeof parsing==='string'&&parsing.trim()){
+        const morphology=document.createElement('p');morphology.className='word-summary-meta';
+        morphology.textContent='Source morphology: '+parsing;
+        betaWordDetail.append(morphology);
+      }
+      await betaLexicon(id,request,token);
+      if(request!==modernStudyRequest||!btn.classList.contains('is-open'))return;
+      if(typeof parsing==='string'&&parsing.trim()&&currentLexical?.id===id){
+        const morphology=document.createElement('p');morphology.className='word-summary-meta';
+        morphology.textContent='Source morphology: '+parsing;
+        const def=betaWordDetail.querySelector('.word-summary-short');
+        if(def)def.before(morphology);else betaWordDetail.append(morphology);
+      }
+    });
+    return btn;
+  };
+
   studyOverlayBack.addEventListener('click',event=>{
     if(studyView==='source-word-detail'){
       event.stopImmediatePropagation();
