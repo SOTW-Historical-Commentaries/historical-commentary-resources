@@ -1,0 +1,72 @@
+{
+  "schema": "sotw-reader-verse-doctrine-display-v1",
+  "editionNeutral": true,
+  "status": "LIMITED_CONFIRMED_COVERAGE",
+  "description": "Reader-only, source-scoped doctrinal display seeds. These are not blanket verse tags. Existing public pastoral passage commentary supports the connection; formal labels and aliases follow owner CGBC doctrine taxonomy. Do not infer from simple text matches.",
+  "authority": {
+    "passageSource": "api/jacob-lannom/v1/current-commentary.json",
+    "taxonomy": "CGBC_Biblical_Doctrine_Taxonomy_Aliased.json (owner supplied; plain_label and nugget_label)",
+    "rule": "Only display on explicitly evidenced passage scope; do not extend passage tags to an entire chapter or all alias word occurrences."
+  },
+  "entries": [
+    {
+      "scopeKey": "ACT.2.37-41",
+      "display": "The Church",
+      "formal": "Ecclesiology",
+      "aliases": [
+        "church membership",
+        "local church"
+      ],
+      "basis": "Pastoral commentary: Receiving the Word, Baptism, and Belonging"
+    },
+    {
+      "scopeKey": "ACT.6.1-7",
+      "display": "The Church",
+      "formal": "Ecclesiology",
+      "aliases": [
+        "church leadership",
+        "deacons"
+      ],
+      "basis": "Pastoral commentary: Servants Chosen from Among the Church"
+    },
+    {
+      "scopeKey": "HEB.13.17",
+      "display": "The Church",
+      "formal": "Ecclesiology",
+      "aliases": [
+        "church leadership",
+        "elders"
+      ],
+      "basis": "Pastoral commentary: Pastoral Watchfulness and a Recognizable Flock"
+    },
+    {
+      "scopeKey": "EPH.4.11-16",
+      "display": "The Church",
+      "formal": "Ecclesiology",
+      "aliases": [
+        "body of Christ",
+        "church leadership"
+      ],
+      "basis": "Pastoral commentary: Every Part Serving as the Body Grows"
+    },
+    {
+      "scopeKey": "1CO.5.1-13",
+      "display": "The Church",
+      "formal": "Ecclesiology",
+      "aliases": [
+        "church discipline",
+        "local church"
+      ],
+      "basis": "Pastoral commentary: Accountability Begins within the Church"
+    },
+    {
+      "scopeKey": "GAL.6.1",
+      "display": "The Church",
+      "formal": "Ecclesiology",
+      "aliases": [
+        "church life"
+      ],
+      "basis": "Pastoral commentary: Restoration with Gentleness and Humility"
+    }
+  ]
+}
