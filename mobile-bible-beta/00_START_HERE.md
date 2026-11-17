@@ -7,6 +7,16 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## LATEST v0.6 RELEASE / NEXT PHONE INSPECTION — 2026-11-16
+
+**Current reader:** `mobile-bible-beta/index.html` commit `7cea41e75332c69454ec625753a1860119f52084`, blob `1934c3bccfb16bf4f9669dc16d8da0d817fa4ca7`. Separate new assets: `asv-facsimile.js` and `asv-facsimile.css`. Pre-change fallback reader commit `4868e34a216dd2b623dec4c9b26b2c726cd0203f`. Unrelated source repos and original unified reader remain unchanged. Read newest `PROGRESS_LEDGER.md` below for detailed changes and tests.
+
+**Changes:** Passage chooser says Book/Chapter/Verse only (no explanatory sentence; no “Bible book”). Webster dictionary credit is reduced to short CC BY-SA 4.0 attribution + source/license link, with technical caveat removed from public UI. ASV1901 verses NOW have a conditional original full-page PDF scan launcher when an accepted SOTW `page-index.json` maps the selected verse, with embedded PDF preview, physical page navigation and a direct “Open full page · pinch to zoom” link; no scan button for KJV, BSB or Webster 1833. All 66 ASV book-specific original-page maps and 97 PDF volumes were observed in its existing repository tree. **Genuine iPhone Safari PDF and page preview behavior still needs inspection.**
+
+**Doctrinal tags:** The tags were implemented in v0.5 for ONLY six evidence-backed Ecclesiology passages. They are not an all-Bible doctrinal search. Test Acts 2:41 after tapping the verse, where the mapped `ACT.2.37-41` record should show The Church / Ecclesiology and aliases at the top. Philippians 1:8 has no approved verse doctrine mapping and correctly shows nothing. If Acts 2:41 also shows nothing, treat as a genuine fetch/visibility bug to investigate next. No invented tags allowed.
+
+**Recommended test:** Refresh https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ ; choose ASV; tap Micah 1:1 and open printed page 895 (full-page scan); then Acts 2:41 to inspect the doctrine tags. Provide screenshots of any missing control. GitHub source/JS syntax checks passed, but the new browser/iPhone output remains **NOT VERIFIED**.
+
 ## LATEST VISUAL REVIEW: v0.5 — anchored passage dropdown and source-backed doctrine chips
 
 **CURRENT APP COMMIT:** `4868e34a216dd2b623dec4c9b26b2c726cd0203f` (`mobile-bible-beta/index.html` blob `41d7fb4ad9b989b8700bcd7c61cc3a9365c74996`). New **limited doctrine index**: `mobile-bible-beta/data/verse-doctrine-tags.v1.json`, commit `562abb268bf89caebc99732c2c3d5a21dc15c2f0`. Base before v0.5: `3d1a8e99e3ca74aab554f91917af5674e0506bb6`. Existing original `unified-commentary-reader/` and authority data untouched.
