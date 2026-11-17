@@ -9,6 +9,21 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | UNDERLINE DISCOVERABILITY REVIEW — ACTS 2:2 (OWNER SCREENSHOT; DESIGN ONLY)
+
+**New direct owner evidence:** iPhone screenshot of full-screen Acts 2 · Verse 2 with "The Holy Spirit / Pneumatology" passage theme, many English words underlined, selected "suddenly · G869" (ἄφνω / áphnō), a short source definition, "Read full Strong's entry", "Noah Webster's Dictionary 1828", and "Greek & word study — 17 source forms."
+
+**Important correction to the prior November 17 screenshot handoff:** The owner DISAGREES with presenting dictionary-eligible words completely unmarked merely to keep the verse clean. An unmarked word looks as though no lookup exists and discourages exploration. **Study availability must be discoverable.** Do not silently carry forward the prior "Webster-only always unmarked" rule as a settled owner decision. Treat this entry as the newer owner direction for the upcoming coordinated design.
+
+**Owner's requested presentation, verbatim intent:**
+- "Underline is Strongs and morphology, under that is NWB if selected." Source-linked words should visibly advertise their available Strong's/original-language study, with morphology **only if actually attested**; the Webster dictionary lookup is a subordinate, on-demand choice beneath the selected word's short Strong's info, not an auto-expanded definition.
+- "The morphology count should match the underlined words." A visible count must have the SAME defined denominator as its visible underline set, rather than presenting the 17 `KJV` source-form records as if they were 17 English words with proven morphology. If the interface labels a number "morphology," every counted item must truly have source grammar attached; count actual eligible marked English occurrences, not all source rows.
+- The abbreviation `NWB` appears in the owner's note and likely refers to the existing Noah Webster dictionary (1828) control shown in the image, but its precise expansion is **not independently confirmed**. Do not silently introduce a nonexistent new dictionary or conflate Noah Webster's 1828 dictionary with the Webster 1833 Bible.
+
+**Reconciliation required before UI implementation:** Some source-linked English words have genuine Strong's IDs without independently attested per-English-word morphology; several Greek/Hebrew source occurrences may correspond to one English rendering, and BSB source rows do not certify English token offsets. Thus it is not safe to make a one-to-one *morphology* count equal to all Strong's underlines by relabeling the existing `17 source forms`. Implement a truthful `source-linked marked word` count if needed, or a strict morphology-marked subset and matching count, after the owner settles visual marking. **Open visual question:** how exactly should words with ONLY an eligible Webster dictionary entry signal availability, since the owner rejects an entirely invisible option but wants source-linked underlines to retain a special meaning? A distinctive subtle cue versus a shared underline must be owner-reviewed. No unverified connections or invented morphology.
+
+**Status:** Owner's screenshot observations and updated design priority captured; count semantics and dictionary-only marker detail flagged for review. **No code changes or deployment** until the screenshot review ends.
+
 ## 2026-11-17 | ASV SCAN REVIEW — PRINTED 125 (OWNER SCREENSHOT; DESIGN ONLY)
 
 **Evidence:** Owner's iPhone screenshot of the original ASV 1901 scanned printed p. 125, currently showing `ACT.4.7 to ACT.4.34`, a prominent `Open original PDF · pinch to zoom` banner above the scan, and `− Zoom out` / `+ Zoom in` buttons. Image shows the actual scanned page rendered below the controls.
