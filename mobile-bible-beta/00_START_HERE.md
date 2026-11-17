@@ -7,6 +7,18 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## LATEST OWNER INSPECTION: v0.10 verse-first study order + Greek verse check
+
+**Current site:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ . **Updated assets:** `mobile-bible-beta/study-ux-repair.js` commit `f73da502087e02b811724bf7cf102b94e132778d` and `study-ux-repair.css` commit `2fb01060dfd0662e7692d64c8e2acca41fe382c9`. The previously published `index.html` already references both, so its current blob remains `f0df64e539cd34daade4de4f8a8d9536ae659446`. Original unified commentary reader and all SOTW source files are unchanged. Prior v0.9 JS/CSS blobs are recoverable from Git history; do not reset unrelated newer commits.
+
+**Ordered study UI:** passage title, *available only* doctrine and alias labels, selected verse, touched word source-linked Strong's number and morphology if actually attested, concise real lexical definition, Noah Webster 1828 when exact headword exists, and **Commentary last** (collapsed until requested). The ASV scan action and a separate Greek/Hebrew source-forms selector remain scoped content tools. A single scrollable panel prevents previously pinned Commentary and extra empty space. The overlay full lexical/commentary/scan view remains reversible.
+
+**Source-specific fidelity:** The accepted BSB source proves original Greek forms and `parsing_compact` but does not assert exact English word offsets; KJV source tagged USFM ordinals similarly are not full English offsets. Do NOT invent a per-word Strong's/morphology mapping for those editions. ASV/Webster1833 target English indexes are certified when exact source surface matches. Morphology is displayed only when the specific source row has it.
+
+**ACT 2:2–3 verified directly:** Read complete original-language ACT chapter 2 JSON via blob `a6abf30a16673c6bad2ff50dbe6c3566fa8ad9fb`. ACT.2.2 has `καθήμενοι` “sitting”, Strong's G2521, source morphology `V-PPM/P-NMP`, and NO “fire” row. ACT.2.3 has `πυρός` “fire”, G4442 (`N-GNS`), plus `ἐκάθισεν` “rested/sat” G2523 (`V-AIA-3S`). Existing SOTW source does not mix the records. v0.10 source list also checks explicit `verse_id`.
+
+**Verification status:** Repository write/readback and JavaScript syntax checks PASS. The newly ordered v0.10 interface and lexical interactions have NOT been independently tested on iPhone Safari; require owner screenshots before declaring visual QA complete. Test BSB Acts 2:2 & 2:3 word study, ASV exact-word links, and Acts 2:41 doctrine positive. Read `PROGRESS_LEDGER.md` for implementation scope and blockers, then synchronize repo ledger and living Google Doc on every change.
+
 ## LATEST v0.9 OWNER SCREENSHOT RESPONSE: Commentary higher; source-language and grammar tools
 
 **Current reader:** `mobile-bible-beta/index.html` commit `5c27e43b1af601a46b39de9741618908b472e570` (blob `f0df64e539cd34daade4de4f8a8d9536ae659446`). New read-only UI files `study-ux-repair.js` commit `032aa3b9ea7407fe3ea4aaefe299c7f6fabc5e7e` and `study-ux-repair.css` commit `d0097b91d5b13e32d7dd37d11ea8c4ef65586b00`. Last working pre-v0.9 beta HTML fallback `fef737aed247164fcda784835e9f43beb176c5ac`. Original SOTW content foundations and preexisting unified commentary reader unchanged.
