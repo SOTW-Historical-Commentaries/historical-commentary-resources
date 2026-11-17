@@ -7,6 +7,16 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## LATEST v0.9 OWNER SCREENSHOT RESPONSE: Commentary higher; source-language and grammar tools
+
+**Current reader:** `mobile-bible-beta/index.html` commit `5c27e43b1af601a46b39de9741618908b472e570` (blob `f0df64e539cd34daade4de4f8a8d9536ae659446`). New read-only UI files `study-ux-repair.js` commit `032aa3b9ea7407fe3ea4aaefe299c7f6fabc5e7e` and `study-ux-repair.css` commit `d0097b91d5b13e32d7dd37d11ea8c4ef65586b00`. Last working pre-v0.9 beta HTML fallback `fef737aed247164fcda784835e9f43beb176c5ac`. Original SOTW content foundations and preexisting unified commentary reader unchanged.
+
+**Owner screenshot and newest request:** Acts 2:2 displayed Webster word targets but didn't expose Strong's/morphology; Doctrine section absent; study heading too much like an ID; Commentary button was way down at bottom. This update MOVES the available-only, collapsed Commentary selector under the doctrine region and above selected verse. Shows readable passage heading “Acts 2 · Verse 2”. For source-supported verses adds ONE “Greek & word study”/“Hebrew & word study” launcher below the verse. Tap to select actual source attested forms, short Strong's definition, transliteration and `parsing_compact` grammar if present, with full entry on request; KJV native tagged English and BSB native original-language rows are not falsely treated as exact displayed English token offsets.
+
+**Doctrinal note:** The currently accepted display index covers SIX specific Ecclesiology/Church passages only. ACT.2.2 is **NOT** a tagged verse and must remain untagged until independent accepted evidence. ACT.2.41 **IS** mapped to `ACT.2.37-41` and should show The Church / Ecclesiology. The nonappearance of doctrine on the ACT.2.2 screenshot is not itself a UI bug, but a positive tagged-verse mobile test is still required.
+
+**Tests and boundaries:** GitHub readback and JS parsing passed for HTML and new external JS, and original content source unaffected. Actual Safari interaction/Greek forms/grammar and commentary placement have NOT been independently rendered or tested in mobile browser. Keep source-specific rights and no-empty-items. Do not fake universal doctrine coverage. Next owner test: BSB Acts 2:2 → Greek & word study, Greek form, source parsing and short Strong's; confirm Commentary box is near top; then Acts 2:41 doctrine positive check, with screenshots. Continue by updating both this repo ledger and living Google Doc once results are known.
+
 ## CURRENT BUG FIX: v0.8, Webster 1828 words require real dictionary coverage
 
 **Latest reader source:** `mobile-bible-beta/index.html` commit `fef737aed247164fcda784835e9f43beb176c5ac` (blob `53b02ef1fc0a7342b84b731920681713ffef9375`). Pre-fix fallback: `cc2916ec7dec45cec2d2e034819f4988badf1efc`. See `PROGRESS_LEDGER.md` for the full chronology.
