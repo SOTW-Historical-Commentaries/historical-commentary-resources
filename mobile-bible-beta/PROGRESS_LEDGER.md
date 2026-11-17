@@ -9,6 +9,18 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | v0.7: translation dropdown matches upper book navigator
+
+**Owner request:** Give the translation selector beside the passage title the same *upper anchored dropdown and dimmed background* treatment as Book navigation, instead of showing its choices as a bottom sheet.
+
+**Implemented in isolated mobile reader:** `mobile-bible-beta/index.html` commit `cc2916ec7dec45cec2d2e034819f4988badf1efc`, blob `d0cd85270d9a8d7651ec5de07de9806705b77085`. The edition menu now opens directly beneath the upper-right translation button (KJV, ASV, BSB, Webster) and aligns to the right screen edge. Matching passage dropdown styling includes a dimmed full-screen backdrop, 15px rounded panel, responsive clamped width/height, and respect for reduced-motion settings. The user selects an edition, which closes the menu and loads its chapter; X Close dismisses without changing translation. The backdrop is not an implicit selection or automatic dismissal. Book/Chapter/Verse navigation and its matching upper-left dropdown were preserved. All original edition labels/metadata remain intact.
+
+**Safety/integration:** No SOTW Scripture, commentary, facsimile or language source data modified. Existing `unified-commentary-reader/index.html` remains untouched. The existing `asv-facsimile.js` link is preserved.
+
+**QA:** GitHub file update succeeded; two nonempty inline JavaScript blocks independently passed syntax parsing; existing external ASV script inclusion is intact; source checks for upper-right positioning, responsive overlay, dim background, dropdown selection/close flow passed. **Real iPhone/Safari placement and cache refresh remain unverified.** This is a visual beta update, not a production-QA claim.
+
+**Next owner inspection:** Refresh https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ , tap upper-right ASV/KJV, confirm choices appear beneath it rather than at screen bottom, Bible behind dims, edition selection loads chapter and Close returns without changes. Report any clipping on smaller phones.
+
 ## 2026-11-16 | v0.6 nav microcopy, Webster attribution and ASV original page viewer
 
 **Owner feedback:** Remove the explanatory “Book, chapter, and verse in a few taps” sentence from the passage popup and rename “Bible book” to “Book”. Avoid distracting dictionary explanation/source links. User did not see ASV scans or doctrine tags.
