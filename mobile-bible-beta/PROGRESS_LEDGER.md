@@ -9,6 +9,16 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | Owner decisions: Translation artwork/metadata; RETIRE auto-scroll
+
+**Direction for translation selection (UI design only, not yet implemented):** Owner wants a fresh, contemporary feel with useful historical metadata and imagery. When a reader taps the compact translation label (e.g., KJV), open a tasteful translation profile/selector displaying a genuine, rights-cleared relevant book jacket or title-page image, complete translation and edition title, short historical description and optional source/edition details. Close profile after selection and leave only the short edition label on the Scripture screen. **Distinguish the standardized KJV 1769 text from the original 1611 title page** if a 1611 image is displayed; do not misrepresent the image as the actual source edition. Do not invent a jacket or add a large permanent cover to the reading page. Find and select verified authentic artwork during the consolidated redesign.
+
+**Owner decision:** Auto-scroll is unreliable/not useful and should be **removed**, including Start/Pause, speed slider and background scrolling logic. Normal manual touchscreen scrolling remains the intended reading motion. Do not plan auto-scroll for the redesign unless the owner reverses this decision.
+
+**Actual beta code change:** Commit `e1182d7f7005c046880a8ca14dd5c8104eb9184a`, new mobile reader blob SHA `8f021b03960c0691cb9533111774077b9e099bfd`. Removed the auto-scroll controls and JavaScript from `mobile-bible-beta/index.html`, leaving a three-button temporary toolbar (theme, paragraph/verse, Find). Existing source data, historic unified reader and Scripture foundation code untouched. No translation artwork implemented.
+
+**Verification:** Read back new HTML via GitHub, inline JavaScript syntax PASS, no auto-scroll identifiers found, three-column bar present, original unified reader blob SHA unchanged (`b7cb82e66859a8f8705f390644a706965d0cc265`). Live iPhone refresh/screenshot after change remains pending.
+
 ## 2026-11-16 | Owner feedback: modern, reader-first top navigation
 
 **STATUS: UI/UX direction recorded, NOT IMPLEMENTED.** Owner describes the existing compact Book / Chapter / Verse / Translation row as a useful but overly utilitarian “Swiss Army knife.” The public-domain, historical library deserves an inviting, contemporary reading experience, not an administrative control panel.
