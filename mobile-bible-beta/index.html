@@ -130,6 +130,94 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 
 @media(max-width:650px){.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex-wrap:nowrap}
 }
+
+/* SOTW Reader Beta v0.2 — coherent mobile-first reading interface */
+.mobile-beta #betaBar,.mobile-beta > header:not(#modernReaderHeader),.mobile-beta .utility,
+.mobile-beta .toolbar,.mobile-beta .panel-head,.mobile-beta .panel-body h3,
+.mobile-beta .focus,.mobile-beta .foot,.mobile-beta .scopehint{display:none!important}
+.mobile-beta #status{display:none}
+.mobile-beta #status.error{display:block;margin:6px 12px;padding:9px 12px;border:1px solid #99574b;color:#ffccc5;background:#382a28}
+.mobile-beta main{max-width:900px;margin:auto;padding:0 0 max(8px,env(safe-area-inset-bottom))}
+.mobile-beta .layout,.mobile-beta .panel,.mobile-beta .scripture{display:block;background:transparent;border:0;box-shadow:none;border-radius:0}
+.mobile-beta .panel-body{padding:0 18px!important}
+.mobile-beta .all-verses{height:calc(100svh - 112px)!important;min-height:280px;max-height:none!important;overflow:auto;padding:17px 0 140px;scrollbar-width:thin;overscroll-behavior-y:contain}
+.mobile-beta #verses .reader-paragraph{margin:0 0 20px;font:normal clamp(18px,4.65vw,21px)/1.85 Georgia,'Times New Roman',serif;letter-spacing:.005em;color:#e0e4e7}
+.mobile-beta #verses .reader-verse{display:inline!important;width:auto!important;font:inherit!important;text-align:left!important;white-space:normal!important;border:0!important;border-radius:3px!important;background:transparent!important;color:inherit!important;padding:2px 1px!important;margin:0!important;line-height:inherit!important;cursor:pointer;box-shadow:none!important;touch-action:pan-y}
+.mobile-beta #verses .reader-verse:hover{background:transparent!important}
+.mobile-beta #verses .reader-verse:focus-visible{outline:2px solid #97c3d0;outline-offset:2px}
+.mobile-beta #verses .reader-verse.is-studying{background:#263f49!important}
+.mobile-beta #verses .reader-verse .number{display:inline!important;min-width:0!important;vertical-align:baseline!important;font:700 11px/1 system-ui!important;margin:0 5px 0 1px!important;color:#90aab4!important}
+.mobile-beta #modernReaderHeader{position:sticky;top:0;z-index:60;display:block;max-width:none;background:#11191e;border-bottom:1px solid #2d3d46;color:#ecf2f3;padding:10px 17px 12px}
+.mobile-beta #modernReaderHeader .modern-inner{max-width:900px;margin:auto}
+.mobile-beta .brand-line{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.mobile-beta .reader-brand{font:700 10px/1.2 system-ui;letter-spacing:.20em;text-transform:uppercase;color:#93adb7}
+.mobile-beta .header-actions{display:flex;gap:5px}
+.mobile-beta .header-icon{width:36px;height:34px;display:flex;align-items:center;justify-content:center;background:transparent;color:#cddde2;border:0;border-radius:9px;cursor:pointer;font-size:20px}
+.mobile-beta .header-icon:focus-visible{outline:2px solid #a0c7d4}
+.mobile-beta .location-line{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.mobile-beta #readerLocation{background:none;border:0;color:#eef2f3;font:600 clamp(23px,5.8vw,30px)/1.22 Georgia,serif;padding:4px 0;text-align:left;cursor:pointer}
+.mobile-beta #readerLocation small{color:#879ea6;font:400 16px system-ui;margin-left:5px}
+.mobile-beta #readerEdition{color:#d9e5e7;border:1px solid #46575d;background:#263138;border-radius:9px;font:600 12px system-ui;padding:9px 11px;flex-shrink:0;cursor:pointer}
+.mobile-beta .modal-scrim{position:fixed;inset:0;z-index:150;display:none;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.69)}
+.mobile-beta .modal-scrim.is-open{display:flex}
+.mobile-beta .modal-content{width:100%;max-width:620px;max-height:86svh;overflow:auto;background:#172229;border-radius:19px 19px 0 0;padding:18px 18px max(24px,env(safe-area-inset-bottom));box-shadow:0 -14px 55px #0008;color:#e5eff1}
+.mobile-beta .modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px}
+.mobile-beta .modal-head strong{font:650 19px system-ui}
+.mobile-beta .modal-close{background:#2d3c43;color:#e1edf0;border:1px solid #50626c;border-radius:10px;padding:8px 12px;font:600 13px system-ui}
+.mobile-beta .modern-panel-desc{font:13px/1.55 system-ui;color:#adbec5;margin:0 0 14px}
+.mobile-beta #readerNavModal .toolbar{display:grid!important;grid-template-columns:1fr 1fr;gap:10px;box-shadow:none;border:0;padding:0;background:none}
+.mobile-beta #readerNavModal .control:first-child,.mobile-beta #readerNavModal .control:nth-child(4){grid-column:1/-1}
+.mobile-beta #readerNavModal .control label{font-size:11px}
+.mobile-beta #readerNavModal .control select{width:100%;height:46px;padding:8px;color:#f3f7f8;background:#293941;font-size:15px}
+.mobile-beta #readerNavModal .toolbar #copyLink{display:none!important}
+.mobile-beta .modern-primary{display:block;width:100%;margin-top:16px;border:0;background:#93becb;color:#10242c;font:700 14px system-ui;padding:13px;border-radius:10px}
+.mobile-beta .edition-option{display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:#223239;border:1px solid #42545c;color:#e3eaee;border-radius:11px;padding:14px;margin-bottom:9px;cursor:pointer}
+.mobile-beta .edition-option[aria-pressed="true"]{border-color:#90c3cc;background:#2b454c}
+.mobile-beta .edition-option strong{display:block;font:650 15px system-ui;margin-bottom:4px}
+.mobile-beta .edition-option span{display:block;color:#b8c9cf;font:12px system-ui}
+.mobile-beta #modernSearchInput{width:100%;border:1px solid #61737c;background:#283941;color:#f2f7f9;font:16px system-ui;padding:13px;border-radius:11px;outline-offset:2px}
+.mobile-beta #modernSearchResults{padding:12px 0 0;display:grid;gap:7px}
+.mobile-beta .search-hit{width:100%;text-align:left;border:1px solid #41565d;background:#23343b;color:#e8f2f4;border-radius:10px;padding:11px;font:14px/1.5 system-ui}
+.mobile-beta .search-hit small{display:block;color:#a8bfc7;font-size:12px}
+.mobile-beta.study-open section[aria-label="Commentary comparison"]{background:#152129;border:1px solid #41555d;padding:16px!important;max-height:84svh}
+.mobile-beta #studyHeading{font:650 13px system-ui;color:#b3ccd4;margin:8px 0 12px}
+.mobile-beta #modernStudyVerse{padding:14px 15px;background:#23323b;border:1px solid #354b55;border-radius:12px;color:#e5ebed;font:17px/1.8 Georgia,serif;margin-bottom:10px}
+.mobile-beta #modernStudyVerse .word-target{font:inherit;color:#f0f7f8;border:0;border-bottom:2px solid #71b0c0;background:rgba(107,170,189,.10);border-radius:2px;padding:0 1px;cursor:pointer}
+.mobile-beta #modernStudyVerse .word-target.is-open{background:#3a5861;border-bottom-color:#c5e0e6}
+.mobile-beta #studyWordDetail{border:1px solid #526b74;background:#233942;padding:13px;border-radius:10px;margin:0 0 15px;color:#e1eef0}
+.mobile-beta #studyWordDetail p{margin:7px 0 0}
+.mobile-beta #modernCommentaryMenu{padding:11px 0 7px;margin-top:12px;border-top:1px solid #3b5059}
+.mobile-beta #modernCommentaryMenu h3{font:650 13px system-ui;letter-spacing:.02em;color:#afc9d2;margin:0 0 10px}
+.mobile-beta .commentary-toggle{display:flex;width:100%;align-items:center;justify-content:space-between;text-align:left;border:1px solid #455861;background:#27363e;color:#e1ebee;border-radius:9px;padding:12px;margin-bottom:7px;font:600 14px system-ui}
+.mobile-beta .commentary-toggle[aria-expanded="true"]{border-color:#8ec1cb;background:#314b54}
+.mobile-beta #voices{display:block!important}
+.mobile-beta .voice{margin-bottom:10px}
+.mobile-beta .voice-title strong{font-size:17px}
+.mobile-beta #studyWords{display:none!important}
+.mobile-beta.beta-light{background:#fafaf8;color:#293a42}
+.mobile-beta.beta-light #modernReaderHeader{background:#fbfbf8;border-bottom:1px solid #d4dfdd}
+.mobile-beta.beta-light .reader-brand{color:#627982}
+.mobile-beta.beta-light #readerLocation{color:#243b42}
+.mobile-beta.beta-light #readerLocation small{color:#62747a}
+.mobile-beta.beta-light #readerEdition{background:#edf2f0;color:#2c474f;border-color:#becfcb}
+.mobile-beta.beta-light .header-icon{color:#35515b}
+.mobile-beta.beta-light #verses .reader-paragraph{color:#29373c}
+.mobile-beta.beta-light #verses .reader-verse .number{color:#617880!important}
+.mobile-beta.beta-light #verses .reader-verse.is-studying{background:#e0eeef!important}
+.mobile-beta.beta-light .modal-content,.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f9fbf8;color:#263c42}
+.mobile-beta.beta-light .modal-close,.mobile-beta.beta-light .edition-option,.mobile-beta.beta-light .search-hit{background:#edf3f1;color:#293f47;border-color:#c2d1ce}
+.mobile-beta.beta-light .edition-option span,.mobile-beta.beta-light .search-hit small{color:#566f76}
+.mobile-beta.beta-light .edition-option[aria-pressed="true"]{background:#e1eeed;border-color:#729ba5}
+.mobile-beta.beta-light #readerNavModal .control select,.mobile-beta.beta-light #modernSearchInput{background:#fff;color:#283b42;border-color:#aabfbf}
+.mobile-beta.beta-light #modernStudyVerse,.mobile-beta.beta-light #studyWordDetail{background:#fff;color:#283a42;border-color:#c4d4d2}
+.mobile-beta.beta-light #modernStudyVerse .word-target{color:#224a59;background:#ecf4f5;border-bottom-color:#558b98}
+.mobile-beta.beta-light #modernStudyVerse .word-target.is-open{background:#d4e6e9}
+.mobile-beta.beta-light #modernCommentaryMenu{border-color:#cbd9d6}
+.mobile-beta.beta-light #modernCommentaryMenu h3{color:#45656e}
+.mobile-beta.beta-light .commentary-toggle{background:#eef3f1;color:#29434b;border-color:#bccdc9}
+.mobile-beta.beta-light .commentary-toggle[aria-expanded="true"]{background:#d9ecea;border-color:#719ca5}
+@media(min-width:750px){.mobile-beta .modal-scrim{align-items:center}.mobile-beta .modal-content{border-radius:18px}.mobile-beta .all-verses{height:calc(100svh - 110px)!important}.mobile-beta #verses .reader-paragraph{font-size:21px}}
+
 </style>
 </head>
 <body class="mobile-beta">
@@ -236,7 +324,7 @@ function betaCloseSheet(){document.body.classList.remove('study-open');betaWordS
 async function betaLoadWords(){const seq=++betaWordSeq;const isFirst=BOOKS.findIndex(b=>b.code===state.book)<19;const repo=isFirst?'SOTW-Original-Languages/original-language-resources':'SOTW-Original-Languages-2/original-language-resources';const url='https://raw.githubusercontent.com/'+repo+'/main/study-data/v1/chapters/'+state.book+'/'+String(state.chapter).padStart(2,'0')+'.json';const ids=[];try{const data=await getJson(url);if(seq!==betaWordSeq||!document.body.classList.contains('study-open'))return;const entries=data?.verses?.[state.book+'.'+state.chapter+'.'+state.verse]?.[state.edition]||[];for(const row of entries)for(const id of row.strongs_ids||[])if(!ids.includes(id))ids.push(id);if(!ids.length)return;const t=document.createElement('p');t.textContent='Original-language word links';t.style.color='#b8d2dc';t.style.fontSize='13px';betaWords.append(t);for(const id of ids){const b=document.createElement('button');b.type='button';b.textContent=id.replace('strongs:','');b.addEventListener('click',()=>betaLexicon(id,seq));betaWords.append(b)} }catch{/* no record; hide rather than display a false link */}}
 async function betaLexicon(id,seq){const m=id.match(/^strongs:([HG])(\d+)$/);if(!m)return;const type=m[1],number=Number(m[2]),limit=type==='H'?8674:5624;if(number<1||number>limit)return;const first=Math.floor((number-1)/250)*250+1,last=Math.min(first+249,limit);const pad=n=>String(n).padStart(5,'0');const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+type+'/'+type+pad(first)+'-'+pad(last)+'.json';betaWordDetail.textContent='Loading '+id.replace('strongs:','')+'…';try{const data=await getJson(url);if(seq!==betaWordSeq)return;const row=data?.entries?.[id];if(!row){betaWordDetail.replaceChildren();return}betaWordDetail.replaceChildren();const title=document.createElement('strong');title.textContent=(row.headword||id)+'  '+(row.transliteration||'');const desc=document.createElement('p');desc.textContent=row.definitions?.concise_source_authored||'';betaWordDetail.append(title,desc);const expanded=(row.definitions?.numbered_expanded_source_authored||[]).join('\n');if(expanded){const d=document.createElement('details');const sm=document.createElement('summary');sm.textContent='Full Strong’s entry';const p=document.createElement('p');p.textContent=expanded;d.append(sm,p);betaWordDetail.append(d)}}catch{if(seq===betaWordSeq)betaWordDetail.replaceChildren()}}
 betaClose.addEventListener('click',betaCloseSheet);betaShade.addEventListener('click',betaCloseSheet);
-document.getElementById('verses').addEventListener('click',e=>{if(e.target.closest('button.verse'))setTimeout(betaOpen,0)});
+/* Verse selection is exclusively handled by the deliberate tap recognizer in v0.2. */
 document.getElementById('betaTheme').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore()});
 document.getElementById('betaLayout').addEventListener('click',()=>{document.body.classList.toggle('as-paragraphs');document.getElementById('betaLayout').textContent=document.body.classList.contains('as-paragraphs')?'☰ Verses':'¶ Paragraphs';betaStore()});
 if(betaSaved.layout==='paragraphs'){document.body.classList.add('as-paragraphs');document.getElementById('betaLayout').textContent='☰ Verses'}
@@ -259,6 +347,239 @@ document.getElementById('betaFind').addEventListener('click',async()=>{
 document.addEventListener('keydown',e=>{if(e.key==='Escape')betaCloseSheet()});
 window.addEventListener('pagehide',betaStore);
 if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('./sw.js').catch(()=>{});
+
+
+/* SOTW v0.2 reading flow: reading position and study selection are independent. */
+let modernStudyVerse = 0;
+let modernOpenAuthor = "";
+let modernStudyRequest = 0;
+let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
+const modernOldHeader=document.querySelector('body.mobile-beta > header');
+if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
+const modernHeader=document.createElement('header');modernHeader.id='modernReaderHeader';
+modernHeader.innerHTML='<div class="modern-inner"><div class="brand-line"><span class="reader-brand">Servants of the Way</span><div class="header-actions"><button type="button" class="header-icon" id="modernSearchButton" aria-label="Find Scripture">⌕</button><button type="button" class="header-icon" id="modernThemeButton" aria-label="Change light or dark theme">☼</button></div></div><div class="location-line"><button type="button" id="readerLocation" aria-label="Choose book chapter or verse">Romans 12 <small>⌄</small></button><button type="button" id="readerEdition" aria-label="Choose Bible translation">KJV ▾</button></div></div>';
+document.body.prepend(modernHeader);
+betaBar.remove();
+const readerView=$('verses');
+readerView.setAttribute('aria-label','Scripture chapter — tap a verse to study');
+const modalLayer=(id,title)=>{
+ const veil=document.createElement('div');veil.id=id;veil.className='modal-scrim';
+ const panel=document.createElement('div');panel.className='modal-content';panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','true');
+ const head=document.createElement('div');head.className='modal-head';
+ const strong=document.createElement('strong');strong.textContent=title;
+ const close=document.createElement('button');close.type='button';close.className='modal-close';close.textContent='✕ Close';close.addEventListener('click',()=>veil.classList.remove('is-open'));
+ head.append(strong,close);panel.append(head);veil.append(panel);veil.addEventListener('click',e=>{if(e.target===veil)veil.classList.remove('is-open')});
+ document.body.append(veil);return {veil,panel};
+};
+const navModal=modalLayer('readerNavModal','Choose a passage');
+const navDesc=document.createElement('p');navDesc.className='modern-panel-desc';navDesc.textContent='Book, chapter, and verse in a few taps.';navModal.panel.append(navDesc);
+navModal.panel.append(document.querySelector('.toolbar'));
+const navGo=document.createElement('button');navGo.type='button';navGo.className='modern-primary';navGo.textContent='Read passage';navGo.addEventListener('click',()=>{navModal.veil.classList.remove('is-open');modernJumpToVerse(state.verse)});navModal.panel.append(navGo);
+const editionModal=modalLayer('readerEditionModal','Bible translation');
+const editionText={KJV1769:['King James Version','Standardized 1769 text'],ASV1901:['American Standard Version','1901 • Original printed-page archive'],BSB:['Berean Standard Bible','Publisher public-domain edition'],WEBSTER1833:["Webster's Bible",'1833 historical revision']};
+for(const [edition,details] of Object.entries(editionText)){
+ const btn=document.createElement('button');btn.type='button';btn.className='edition-option';btn.dataset.edition=edition;
+ const words=document.createElement('div');const name=document.createElement('strong');name.textContent=details[0];const sub=document.createElement('span');sub.textContent=details[1];words.append(name,sub);
+ const mark=document.createElement('span');mark.textContent='↗';btn.append(words,mark);
+ btn.addEventListener('click',()=>{$('edition').value=edition;state.edition=edition;modernStudyVerse=0;betaCloseSheet();editionModal.veil.classList.remove('is-open');loadChapter(false)});
+ editionModal.panel.append(btn);
+}
+const searchModal=modalLayer('readerSearchModal','Find Scripture');
+const searchNote=document.createElement('p');searchNote.className='modern-panel-desc';searchNote.textContent='Jump to a book or reference. Words and phrases search the current chapter in this preview.';
+searchModal.panel.append(searchNote);
+const searchInput=document.createElement('input');searchInput.id='modernSearchInput';searchInput.type='search';searchInput.autocomplete='off';searchInput.setAttribute('aria-label','Search Scripture');searchInput.placeholder='John 3:16, Romans 12, or chapter phrase';searchModal.panel.append(searchInput);
+const searchResults=document.createElement('div');searchResults.id='modernSearchResults';searchModal.panel.append(searchResults);
+const openModal=modal=>{for(const el of [navModal.veil,editionModal.veil,searchModal.veil])el.classList.remove('is-open');modal.veil.classList.add('is-open');};
+$('readerLocation').addEventListener('click',()=>openModal(navModal));
+$('readerEdition').addEventListener('click',()=>{
+ for(const b of editionModal.panel.querySelectorAll('.edition-option'))b.setAttribute('aria-pressed',String(b.dataset.edition===state.edition));
+ openModal(editionModal);
+});
+$('modernSearchButton').addEventListener('click',()=>{openModal(searchModal);searchInput.value='';modernSearchRender();searchInput.focus()});
+$('modernThemeButton').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore()});
+function modernUpdateHeader(){
+ $('readerLocation').innerHTML='';$('readerLocation').append(document.createTextNode(bookInfo().name+' '+state.chapter));
+ const chevron=document.createElement('small');chevron.textContent='⌄';$('readerLocation').append(chevron);
+ const short={KJV1769:'KJV',ASV1901:'ASV',BSB:'BSB',WEBSTER1833:'Webster'};
+ $('readerEdition').textContent=(short[state.edition]||state.edition)+' ▾';
+}
+function modernJumpToVerse(n){
+ const el=readerView.querySelector('[data-verse="'+Number(n)+'"]');
+ if(el){el.scrollIntoView({block:'start',behavior:'instant'});}
+ modernStudyVerse=0;betaCloseSheet();
+}
+function modernSourceVerse(n){return state.bible?.verses?.find(v=>Number(v.verse)===Number(n))}
+renderBible=function(){
+ if(!state.bible)return;
+ modernUpdateHeader();
+ const keep=readerView.scrollTop;
+ readerView.replaceChildren();
+ let p=null;
+ for(const v of state.bible.verses||[]){
+  if(!p||v.paragraph_start){p=document.createElement('p');p.className='reader-paragraph';readerView.append(p)}
+  const btn=document.createElement('button');btn.type='button';btn.className='reader-verse verse';btn.dataset.verse=String(v.verse);
+  btn.setAttribute('aria-label',bookInfo().name+' '+state.chapter+':'+v.verse);
+  const sup=document.createElement('span');sup.className='number';sup.textContent=String(v.verse);
+  btn.append(sup,document.createTextNode((v.spans||[]).map(a=>a.text||'').join('')));
+  p.append(btn,document.createTextNode(' '));
+ }
+ readerView.scrollTop=keep;
+};
+chooseVerse=function(n){
+ const found=modernSourceVerse(n);
+ if(!found)return;
+ state.verse=Number(n);$('verse').value=String(n);
+ $('previous').disabled=n<=1;$('next').disabled=n>=Number(state.index?.verse_count||state.bible.verses.length);
+ setURL();modernUpdateHeader();
+};
+const modernStudyCard=document.createElement('div');modernStudyCard.id='modernStudyVerse';betaHeading.after(modernStudyCard);
+const modernCommentaryMenu=document.createElement('div');modernCommentaryMenu.id='modernCommentaryMenu';betaWordDetail.after(modernCommentaryMenu);
+function modernPlainVerse(){
+ const v=modernSourceVerse(modernStudyVerse);
+ modernStudyCard.replaceChildren();
+ if(v)modernStudyCard.textContent=(v.spans||[]).map(x=>x.text||'').join('');
+}
+function modernWordButton(token,row,index,request){
+ const btn=document.createElement('button');btn.type='button';btn.className='word-target';btn.textContent=token;btn.dataset.wordIndex=String(index);
+ btn.setAttribute('aria-label','Study '+token.replace(/[^\p{L}\p{N}']/gu,''));
+ btn.addEventListener('click',()=>{
+  if(btn.classList.contains('is-open')){btn.classList.remove('is-open');betaWordDetail.replaceChildren();return;}
+  for(const x of modernStudyCard.querySelectorAll('.word-target'))x.classList.remove('is-open');
+  btn.classList.add('is-open');betaWordDetail.replaceChildren();
+  const ids=row.strongs_ids||[];
+  if(ids[0])betaLexicon(ids[0],request);
+ });
+ return btn;
+}
+async function modernLoadAlignedWords(request){
+ if(!['ASV1901','WEBSTER1833'].includes(state.edition))return;
+ const bookIndex=BOOKS.findIndex(b=>b.code===state.book);
+ const sourceRepo=bookIndex<19?'SOTW-Original-Languages/original-language-resources':'SOTW-Original-Languages-2/original-language-resources';
+ const jsonUrl='https://raw.githubusercontent.com/'+sourceRepo+'/main/study-data/v1/chapters/'+state.book+'/'+String(state.chapter).padStart(2,'0')+'.json';
+ const verseId=state.book+'.'+state.chapter+'.'+modernStudyVerse;
+ const edition=state.edition;
+ try{
+  const evidence=await getJson(jsonUrl);
+  if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+  const rows=evidence?.verses?.[verseId]?.[edition]||[];
+  const byIndex=new Map();
+  for(const row of rows){
+   const idx=row.source_locator?.target_token_index_zero_based;
+   if(row.source_location_kind!=='source_verified_target_english_token_index_zero_based'||!Number.isInteger(idx)||!row.strongs_ids?.length)continue;
+   if(!byIndex.has(idx))byIndex.set(idx,row);
+  }
+  if(!byIndex.size)return;
+  const raw=(modernSourceVerse(modernStudyVerse)?.spans||[]).map(a=>a.text||'').join('');
+  const parts=raw.match(/\s+|\S+/g)||[];
+  const normalized=x=>String(x||'').toLocaleLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
+  let tokenNumber=0;
+  const frag=document.createDocumentFragment();
+  for(const part of parts){
+   if(/^\s+$/.test(part)){frag.append(document.createTextNode(part));continue;}
+   const row=byIndex.get(tokenNumber);
+   if(row&&normalized(row.source_locator?.target_surface)===normalized(part)&&normalized(part)){
+    frag.append(modernWordButton(part,row,tokenNumber,request));
+   }else frag.append(document.createTextNode(part));
+   tokenNumber++;
+  }
+  modernStudyCard.replaceChildren(frag);
+ }catch{/* No verified association available. Leave Scripture readable without fabricated links. */}
+}
+renderVoices=function(){
+ const voices=$('voices');voices.replaceChildren();modernCommentaryMenu.replaceChildren();
+ if(!modernStudyVerse||!state.index)return;
+ const sources=[];
+ if(state.jacob.some(matchingJacob))sources.push({id:'jacob-lannom',name:'Jacob Lannom'});
+ const routes=state.index?.verse_routes?.[String(modernStudyVerse)]||{};
+ for(const [id,name] of HIST){
+  const sourceStatus=state.index?.authors?.find(a=>a.author_id===id);
+  if(sourceStatus?.source_unavailable)continue;
+  if(Array.isArray(routes[id])&&routes[id].length)sources.push({id,name});
+ }
+ if(!sources.length)return;
+ const head=document.createElement('h3');head.textContent='Commentary';modernCommentaryMenu.append(head);
+ for(const author of sources){
+  const btn=document.createElement('button');btn.type='button';btn.className='commentary-toggle';
+  btn.textContent=author.name+'  ▾';btn.setAttribute('aria-expanded','false');
+  btn.addEventListener('click',()=>{
+   const same=modernOpenAuthor===author.id;
+   modernOpenAuthor=same?'':author.id;
+   const generation=++state.generation;voices.replaceChildren();
+   for(const b of modernCommentaryMenu.querySelectorAll('.commentary-toggle')){
+    b.setAttribute('aria-expanded',String(!same&&b===btn));
+    const id=b.dataset.author;const name=sources.find(x=>x.id===id)?.name||'';
+    b.textContent=name+(b.getAttribute('aria-expanded')==='true'?'  ▴':'  ▾');
+   }
+   if(same)return;
+   if(author.id==='jacob-lannom')renderJacob();
+   else renderHistorical(author.id,author.name,generation);
+  });
+  btn.dataset.author=author.id;modernCommentaryMenu.append(btn);
+ }
+};
+betaOpen=function(){
+ if(!modernStudyVerse)return;
+ betaSection.scrollTop=0;document.body.classList.add('study-open');modernStudyRequest++;betaWordSeq=modernStudyRequest;
+ betaHeading.textContent=bookInfo().name+' '+state.chapter+':'+modernStudyVerse;
+ modernOpenAuthor='';
+ betaWordDetail.replaceChildren();betaWords.replaceChildren();modernPlainVerse();
+ renderVoices();modernLoadAlignedWords(modernStudyRequest);
+ const target=readerView.querySelector('[data-verse="'+modernStudyVerse+'"]');target?.classList.add('is-studying');
+};
+betaCloseSheet=function(){
+ document.body.classList.remove('study-open');modernStudyRequest++;betaWordSeq=modernStudyRequest;
+ modernStudyVerse=0;modernOpenAuthor='';betaWordDetail.replaceChildren();
+ for(const target of readerView.querySelectorAll('.is-studying'))target.classList.remove('is-studying');
+};
+readerView.addEventListener('pointerdown',e=>{modernGesture.x=e.clientX;modernGesture.y=e.clientY;modernGesture.moved=false},{passive:true});
+readerView.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-modernGesture.x)>9||Math.abs(e.clientY-modernGesture.y)>9)modernGesture.moved=true},{passive:true});
+readerView.addEventListener('touchmove',()=>{modernGesture.moved=true},{passive:true});
+readerView.addEventListener('scroll',()=>{modernGesture.scrollTime=Date.now();modernGesture.moved=true},{passive:true});
+readerView.addEventListener('click',e=>{
+ const node=e.target.closest('button.reader-verse');
+ if(!node||modernGesture.moved||Date.now()-modernGesture.scrollTime<160)return;
+ const n=Number(node.dataset.verse);if(!modernSourceVerse(n))return;
+ modernStudyVerse=n;chooseVerse(n);betaOpen();
+});
+function modernSearchRender(){
+ searchResults.replaceChildren();const q=searchInput.value.trim().toLowerCase();if(!q)return;
+ const m=q.match(/^(.+?)\s+(\d{1,3})(?::(\d{1,3}))?$/);
+ if(m){
+  const b=BOOKS.find(x=>x.name.toLowerCase()===m[1]||x.code.toLowerCase()===m[1]);
+  if(b&&Number(m[2])>=1&&Number(m[2])<=b.chapterCount){
+   const button=document.createElement('button');button.className='search-hit';button.type='button';
+   button.textContent='Open '+b.name+' '+m[2]+(m[3]?':'+m[3]:'');
+   button.addEventListener('click',async()=>{
+    searchModal.veil.classList.remove('is-open');modernStudyVerse=0;betaCloseSheet();
+    const same=state.book===b.code&&state.chapter===Number(m[2]);
+    state.book=b.code;state.chapter=Number(m[2]);state.verse=Number(m[3]||1);$('book').value=b.code;
+    if(!same)await loadBook();else chooseVerse(state.verse);
+    modernJumpToVerse(state.verse);
+   });searchResults.append(button);return;
+  }
+ }
+ const bookMatches=BOOKS.filter(b=>b.name.toLowerCase().includes(q)||b.code.toLowerCase()===q).slice(0,5);
+ for(const b of bookMatches){
+  const button=document.createElement('button');button.className='search-hit';button.type='button';button.textContent=b.name;
+  button.addEventListener('click',async()=>{searchModal.veil.classList.remove('is-open');state.book=b.code;state.chapter=1;state.verse=1;$('book').value=b.code;betaCloseSheet();await loadBook(true);readerView.scrollTop=0});
+  searchResults.append(button);
+ }
+ if(q.length>1){
+  const verses=(state.bible?.verses||[]).filter(v=>(v.spans||[]).map(a=>a.text||'').join('').toLowerCase().includes(q)).slice(0,8);
+  for(const v of verses){
+   const button=document.createElement('button');button.className='search-hit';button.type='button';
+   const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
+   const desc=document.createElement('small');desc.textContent=(v.spans||[]).map(a=>a.text||'').join('').slice(0,110);
+   button.append(label,desc);button.addEventListener('click',()=>{searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse))});
+   searchResults.append(button);
+  }
+ }
+}
+searchInput.addEventListener('input',modernSearchRender);
+searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&searchResults.firstElementChild)searchResults.firstElementChild.click()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil])x.classList.remove('is-open')}});
+if(betaSaved.theme==='light')document.body.classList.add('beta-light');
+modernUpdateHeader();
 
 </script>
 </body>
