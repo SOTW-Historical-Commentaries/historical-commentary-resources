@@ -19,6 +19,7 @@
   let languageGeneration=0;
   let currentSourceWord=null;
   let resumeWordByWord=false;
+  let dictionaryReturnToAtlas=false;
   function noLongerCurrent(request,generation,book,chapter,verse,edition){
     return request!==modernStudyRequest||generation!==languageGeneration||
       !document.body.classList.contains('study-open')||
@@ -122,8 +123,11 @@
   function makeAtlasCard(row,displayWord){
     const descriptor=sourceLabel(row);
     const id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
+    // Card is a container with two sibling actions. Never nest a dictionary
+    // button inside the word button; that causes unreliable mobile taps.
+    const wrapper=document.createElement('div');wrapper.className='word-sequence-card';
     const card=document.createElement('button');card.type='button';
-    card.className='language-choice word-sequence-card';
+    card.className='language-choice word-sequence-main';
     const left=document.createElement('div');left.className='word-atlas-text';
     const top=document.createElement('div');top.className='word-atlas-head';
     const word=document.createElement('strong');
@@ -140,7 +144,7 @@
     }
     const original=document.createElement('span');original.className='word-atlas-original';
     const short=document.createElement('span');short.className='word-atlas-short';
-    left.append(original,short);card.append(left);
+    left.append(original,short);card.append(left);wrapper.append(card);
     card.setAttribute('aria-label','Study '+(displayWord||descriptor.word)+' '+id.replace('strongs:',''));
     card.addEventListener('click',()=>renderSourceDetail(row));
     const match=id.match(/^strongs:([HG])(\d+)$/),lang=match[1],num=Number(match[2]);
@@ -160,7 +164,30 @@
         }
       }).catch(()=>{});
     }
-    return card;
+    // Show a secondary Webster control ONLY if a real, nonempty exact
+    // English headword is published in SOTW's 1828 dictionary.
+    // Original-only BSB Greek/Hebrew rows have no claimed English token link.
+    const englishWord=displayWord || (row.source_location_kind==='tagged_word_ordinal_not_full_verse_token' ||
+      row.source_location_kind==='source_verified_target_english_token_index_zero_based'
+        ?descriptor.word:'');
+    if(englishWord&&typeof getSotwWebster1828==='function'){
+      getSotwWebster1828().then(()=>{
+        if(!wrapper.isConnected||studyView!=='source-forms')return;
+        if(!websterDefinitionsFor(englishWord).length)return;
+        const dictionary=document.createElement('button');dictionary.type='button';
+        dictionary.className='word-sequence-dictionary';
+        dictionary.textContent='Webster’s 1828 Dictionary ›';
+        dictionary.setAttribute('aria-label','Read Webster’s 1828 dictionary definition for '+englishWord);
+        dictionary.addEventListener('click',event=>{
+          event.stopPropagation();
+          if(!websterDefinitionsFor(englishWord).length)return;
+          dictionaryReturnToAtlas=true;
+          showWebsterDictionary(englishWord);
+        });
+        wrapper.append(dictionary);
+      }).catch(()=>{/* Absent dictionary data must not display a dead control. */});
+    }
+    return wrapper;
   }
   function makeWordLine(word){
     const line=document.createElement('div');line.className='word-sequence-plain';
@@ -407,6 +434,12 @@
   };
 
   studyOverlayBack.addEventListener('click',event=>{
+    if(studyView==='dictionary'&&dictionaryReturnToAtlas){
+      event.stopImmediatePropagation();
+      dictionaryReturnToAtlas=false;
+      renderSourceList();
+      return;
+    }
     if(studyView==='source-word-detail'){
       event.stopImmediatePropagation();
       renderSourceList();
@@ -421,7 +454,7 @@
   };
   const earlierClose=betaCloseSheet;
   betaCloseSheet=function(){
-    ++languageGeneration;languageEvidence=[];currentSourceWord=null;
+    ++languageGeneration;languageEvidence=[];currentSourceWord=null;dictionaryReturnToAtlas=false;
     languageButton.hidden=true;
     earlierClose();
   };
