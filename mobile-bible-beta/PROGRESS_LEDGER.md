@@ -9,6 +9,18 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | ASV SCAN REVIEW — PRINTED 125 (OWNER SCREENSHOT; DESIGN ONLY)
+
+**Evidence:** Owner's iPhone screenshot of the original ASV 1901 scanned printed p. 125, currently showing `ACT.4.7 to ACT.4.34`, a prominent `Open original PDF · pinch to zoom` banner above the scan, and `− Zoom out` / `+ Zoom in` buttons. Image shows the actual scanned page rendered below the controls.
+
+**Owner requests for the coordinated reader UI change:**
+- **Remove both separate zoom buttons** from the visible original-page reader. Do not claim a pinch-zoom gesture is working until mobile QA verifies it; no requirement to remove underlying renderer support.
+- **Remove the prominent PDF-opening link/button from the top of the scan reader.** The owner did not explicitly direct deletion of a technical fallback; consider retaining a discreet fallback elsewhere only if needed for failure recovery, rather than taking up the main viewing area.
+- **Render Bible references for humans, not internal IDs.** Replace public `ACT.4.7 to ACT.4.34` with ordinary citation form such as `Acts 4:7–34`. Keep the exact internal reference keys in data and mapping, with no changes to scanned PDFs, printed page indexing, verse scope, or canonical records.
+- **Move the scanned page upward and reduce interface clutter.** Preserve useful back/previous/next-page navigation unless separately revised by the owner.
+
+**Status:** Screenshot feedback logged only. No reader code, scanned documents, zoom functionality, source reference keys or deployment changed. Continue the review; coordinate implementation after the owner finishes the remaining screenshots.
+
 ## 2026-11-17 | OWNER ~4:20 PM SCREENSHOT REVIEW HANDOFF: WORD-BY-WORD (PARTIAL, NOT IMPLEMENTED)
 
 **Provenance and change status:** This section transcribes the owner's pasted excerpts from a November 17 conversation that hit its thread maximum. It is **not** an assertion that the approximately ten original screenshot image files or entire thread are available here. All statements below are **proposed / owner-directed design decisions for coordinated implementation**, NOT fixes already made or mobile QA passed. The independently verified BSB data inventory immediately below remains intact. **No reader code, source dataset, schemas, production deployment, or other repository files were edited for this handoff.**
