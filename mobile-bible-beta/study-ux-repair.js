@@ -97,10 +97,14 @@
     }
     studyOverlayBody.append(container);
   }
+
+  /* A tap on an attested original-language source word puts its short Strong's
+     explanation immediately below the verse, without requiring a second click
+     or leaving the main study. Full lexical detail is a separate opt-in. */
   async function renderSourceDetail(row){
     const descriptor=sourceLabel(row);
     const id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
-    if(!id)return;
+    if(!id||row.verse_id!==state.book+'.'+state.chapter+'.'+modernStudyVerse)return;
     const match=id.match(/^strongs:([HG])(\d+)$/),letter=match[1],number=Number(match[2]);
     const bound=letter==='H'?8674:5624;
     if(!Number.isInteger(number)||number<1||number>bound)return;
@@ -109,37 +113,59 @@
     const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+letter+'/'+letter+pad(first)+'-'+pad(last)+'.json';
     const request=modernStudyRequest,generation=languageGeneration;
     currentSourceWord=row;
-    openStudyLayer('source-word-detail','Word study · '+id.replace('strongs:',''));
+    hideStudyLayer();
+    betaWordDetail.replaceChildren();currentLexical=null;
     const box=document.createElement('div');box.className='language-detail';
-    const heading=document.createElement('h3');heading.textContent=descriptor.word;
+    const heading=document.createElement('h3');heading.textContent=descriptor.word+' · '+id.replace('strongs:','');
     box.append(heading);
-    if(descriptor.secondary){const sub=document.createElement('p');sub.className='morphology';sub.textContent=descriptor.secondary;box.append(sub)}
-    if(descriptor.morph){const morph=document.createElement('p');morph.className='morphology';morph.textContent='Source grammar: '+descriptor.morph;box.append(morph)}
-    const loading=document.createElement('p');loading.className='modern-panel-desc';loading.textContent='Loading lexical entry…';
-    box.append(loading);studyOverlayBody.append(box);
+    if(descriptor.secondary){
+      const sub=document.createElement('p');sub.className='morphology';sub.textContent=descriptor.secondary;
+      box.append(sub);
+    }
+    if(descriptor.morph){
+      const morph=document.createElement('p');morph.className='morphology';
+      morph.textContent='Source morphology: '+descriptor.morph;box.append(morph);
+    }
+    const loading=document.createElement('p');loading.className='modern-panel-desc';
+    loading.textContent='Loading short Strong’s definition…';
+    box.append(loading);betaWordDetail.append(box);
+    box.scrollIntoView({block:'nearest'});
     try{
       const data=await getJson(url);
-      if(request!==modernStudyRequest||generation!==languageGeneration||studyView!=='source-word-detail'||currentSourceWord!==row)return;
+      if(request!==modernStudyRequest||generation!==languageGeneration||currentSourceWord!==row||
+         !document.body.classList.contains('study-open'))return;
       loading.remove();
       const found=data.entries?.[id];
-      if(!found)return;
-      const original=document.createElement('h3');original.textContent=found.headword||id;
+      if(!found||!found.definitions?.concise_source_authored){
+        const warning=document.createElement('p');warning.className='modern-panel-desc';
+        warning.textContent='Short Strong’s source definition unavailable.';box.append(warning);
+        return;
+      }
+      const original=document.createElement('p');original.className='word-summary-meta';
+      original.textContent=[found.headword,found.transliteration].filter(Boolean).join(' · ');
       box.append(original);
-      if(found.transliteration){const tr=document.createElement('p');tr.className='morphology';tr.textContent=found.transliteration;box.append(tr)}
-      if(found.definitions?.concise_source_authored){const def=document.createElement('p');def.className='definition';def.textContent=found.definitions.concise_source_authored;box.append(def)}
-      const d=found.definitions||{};
-      if(d.numbered_expanded_source_authored?.length||d.derivation_source_authored||d.kjv_renderings_source_authored){
+      const def=document.createElement('p');def.className='definition';
+      def.textContent=found.definitions.concise_source_authored;
+      box.append(def);
+      currentLexical={row:found,id,english:descriptor.word};
+      const d=found.definitions;
+      if(d.numbered_expanded_source_authored?.length||d.derivation_source_authored||
+         d.kjv_renderings_source_authored||d.supplemental_source_authored){
         const full=document.createElement('button');full.type='button';full.className='word-expand';
         full.textContent='Read full Strong’s entry ›';
-        full.addEventListener('click',()=>{
-          currentLexical={row:found,id,english:descriptor.word};
-          renderFullLexical();
-        });
-        box.append(full);
+        full.addEventListener('click',renderFullLexical);box.append(full);
+      }
+      if(row.source_location_kind==='tagged_word_ordinal_not_full_verse_token'&&
+         typeof offerWebster1828==='function'){
+        if(sotwWebsterData)offerWebster1828(descriptor.word,request);
+        else getSotwWebster1828().then(()=>{
+          if(request===modernStudyRequest&&currentSourceWord===row&&
+             document.body.classList.contains('study-open'))offerWebster1828(descriptor.word,request);
+        }).catch(()=>{});
       }
     }catch{
-      if(request===modernStudyRequest&&studyView==='source-word-detail')
-        loading.textContent='The source lexical entry could not be loaded.';
+      if(request===modernStudyRequest&&currentSourceWord===row)
+        loading.textContent='The Strong’s source definition could not be loaded.';
     }
   }
   languageButton.addEventListener('click',renderSourceList);
