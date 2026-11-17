@@ -9,6 +9,21 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16, late evening | Correction: Webster 1828 already published in SOTW, now connected to Bible reader
+
+**Owner correction upheld:** Prior v0.3 note claiming no verified/published SOTW Webster 1828 endpoint was **WRONG**. The source has long been available in `SOTW-Original-Languages/original-language-resources/webster1828.json` (15,432,595-byte Git blob `95d67367804509c3faa039d1e1f5d685c92a69a7`). Source license is `LICENSE_WEBSTER_SOURCE.txt` (digital transcription CC BY-SA 4.0). The pre-existing accepted `demo/word-study/app.js` has the exact working contract: `fetch('../../webster1828.json')`, dictionary index `dictionary[normalizedEnglishWord]`, entry rows `[?, definitionText, sourceRowNumber]`, and displays definition as plain text. Its README documents this feature and source provenance. This did **not** require a new upstream dataset, additional independent source research, or modifying authoritative SOTW data.
+
+**Actual isolated-reader integration:** New app commit `79f023f3e206e4fdfea4171e5e7fcdcc3ca8ad44`, corrected by `3d1a8e99e3ca74aab554f91917af5674e0506bb6` (LATEST app blob `62374d76891586859644f0c892e4f3725abb3050`). `mobile-bible-beta/index.html` now links to the unchanged published read-only dictionary at `https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/webster1828.json`.
+- In full-screen verse study, every displayed English word is an optional, discreet English-dictionary tap target, even if no valid Strong's-to-English link exists; truly source-supported Strong's targets retain the distinct accented word styling.
+- Tap an English word and select “Noah Webster’s Dictionary 1828” to reveal its exact headword entries in a nested drawer. The dictionary loads **only when requested**, once per browser session, and is reused in memory. No invented stemming or word-context Greek/Hebrew semantics; missing exact entry receives a truthful notice.
+- Tapping a supported original-language word first shows Strong's short definition; the same Webster lookup is also available as a separate secondary control.
+- Existing CC BY-SA 4.0 attribution and source-license link are included in the dictionary view, not in the public commentary reader. External definition content is inserted with `textContent`, never executed as HTML. Webster 1828 remains explicitly separate from the `WEBSTER1833` Bible edition.
+- Corrected nested dictionary overlay to preserve the permanent commentary DOM container so closing the dictionary can still return to the verse and other study tools.
+
+**QA:** Connected GitHub source readback PASS; inline JavaScript syntax PASS; release application blob SHA above confirmed. **Actual iPhone dictionary download/lookup/render and network/browser cache behavior remain untested**; 15.4 MB download may be noticeable on a slow connection. Public Pages visual test still needs owner inspection. No changes made to SOTW dictionary, Strong's source, canonical Bible text, or the original unified commentary reader.
+
+**Documentation supersession:** Earlier “Webster 1828 not published/connection missing” language in historical v0.3 ledger entries and Google Doc is superseded by this verified correction. Do not repeat it in future threads.
+
 ## 2026-11-16, 9:29 PM CST | v0.3 owner screenshot corrections: full-screen nested study
 
 **STATE:** Published to same GitHub Pages repository in isolated `mobile-bible-beta/index.html`. Current app commit `53b2a0187ebc5ad44e30a009dd4202a38fc8ae18`, HTML blob `c4589d46cf7c97d6111f25e9cc1b16fc20398d2c`; functional base commit `fc0b7290fc484e1a525bff7f56f6c22484edecba`. Original `unified-commentary-reader/index.html` remains unchanged (blob `b7cb82e66859a8f8705f390644a706965d0cc265`).
