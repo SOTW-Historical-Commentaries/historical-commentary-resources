@@ -23,6 +23,8 @@
 - Hide the original review-interface checkbox *and its label* for P sections, without modifying the historical source feature or underlying records.
 - Keep mobile reading controls in one row, adjust selected-verse top alignment.
 
+**Follow-up contrast patch:** Commit `8bef5b4a26b7e84df18dae670ba7ab446b735235`, HTML blob `a96dde66c7395fbfd1e2f5d9bd8b0c94232b715f`; corrected light theme header, app title, subtitle, bottom speed-label, and previous/next controls. This is the latest reader code commit.
+
 **Validation:** Post-write GitHub file readback PASS; JavaScript parse gate PASS; targeted source markers PASS. **Still requires real iPhone visual verification after refreshing.** Existing `unified-commentary-reader/index.html` and all original SOTW data files remain untouched.
 
 **Next test:** Reload beta on iPhone, try Micah 1:1 in light mode and Acts 2:37 in dark mode, check Close button stays visible while scrolling full commentary, tap outside and reopen, check toolbar no longer wraps, and verify no P-sections label. Send any further screenshots. Next development milestone after usability is reversible tappable commentary Scripture references, then faithful scope-aware prefaces and available-only selectors.
