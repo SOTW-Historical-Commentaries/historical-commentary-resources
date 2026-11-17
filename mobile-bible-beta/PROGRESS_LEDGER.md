@@ -9,6 +9,13 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | Owner priority decision: UI/UX design FIRST
+**Current phase:** Mobile Reader UI/UX design and feedback consolidation. Existing SOTW verse, original-language and commentary integration appears to work in owner iPhone tests; do not re-open curated source research or pursue backend additions before the core experience is designed.
+**Known search gap:** Current Find is reference-first plus limited current-chapter text search. Owner confirms this is not intuitive or adequate. Design a single natural search interface supporting reference entry, book/chapter navigation, words/phrases, and eventual concepts/questions. **Do not falsely claim Bible-wide indexing/search has been built.** Build full-text/concept matching only after the UI contract is agreed.
+**Immediate design targets:** (1) Scripture typography and continuous-vs-verse display, (2) fast navigation/search UX, (3) study drawer placement, open/close/return behavior, (4) visual hierarchy and dark/light controls, (5) auto-scroll and personal preferences. Collect owner's many requested revisions before making more one-off patches; group changes into a coherent redesign. 
+**Deferred until approved UI:** deeper commentary features, concept gallery, bookshelf/art, morphological expansion and substantial search infrastructure.
+**Implementation state:** No additional application code changes for this priority decision. Last live HTML commit remains `8bef5b4a26b7e84df18dae670ba7ab446b735235`. This entry updates goals only.
+
 ## 2026-11-16 | First owner iPhone field-test screenshots and UI correction
 
 **Owner evidence:** Three screenshots captured on iPhone after opening the public beta (approximately 7:13–7:15 PM America/Chicago). They establish that the public beta URL was reachable and that real content resolved in the owner's environment; this is **user screenshot evidence**, not an independent HTTP browser automation result.
