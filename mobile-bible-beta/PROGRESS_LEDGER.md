@@ -9,6 +9,19 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-16 | Owner feedback: modern, reader-first top navigation
+
+**STATUS: UI/UX direction recorded, NOT IMPLEMENTED.** Owner describes the existing compact Book / Chapter / Verse / Translation row as a useful but overly utilitarian “Swiss Army knife.” The public-domain, historical library deserves an inviting, contemporary reading experience, not an administrative control panel.
+
+**Proposed design direction for consolidated redesign:**
+- Remove the permanently exposed four-dropdown navigation toolbar from the reading canvas. Make the current **Book + Chapter** the readable, prominent header (e.g. “Romans 12”), tappable to open the fast book/chapter/verse picker. Preserve efficient, few-tap navigation, including direct verse jumps and an optional card/grid mode.
+- Keep the **translation** in a small but discoverable adjacent selector; keep **Search** prominent as a simple icon with a future natural-language/phrase/book/reference unified input. Its indexing is a separate implementation phase; current beta search is limited.
+- Put typography and Scripture at the top of the page as quickly as possible; use generous whitespace, high-quality type, charcoal with comfortable soft-gray ink, restrained modern accents and tasteful motion. Avoid ornamental antique styling, overcrowded icons or a second bank of tools.
+- Reader preferences, auto-scroll/speed, paragraph-vs-verse choice, and deeper features should be contextual/on demand. Do not introduce a mandatory Home/Library/More bar absent real destinations.
+- Public-domain content and original author attribution should remain respected; modern design does not require fabricated book headings, illustrative content, author links or unavailable controls.
+
+**Design status:** Direction agreed; exact header arrangement, search entry interaction and icons are illustrative until consolidated with owner's additional feedback. No new UI code changes here. Current mobile reader source still at commit `8bef5b4a26b7e84df18dae670ba7ab446b735235`.
+
 ## 2026-11-16 | Owner design decision: word-first, collapsible verse study
 
 **STATUS: Approved UX direction, NOT IMPLEMENTED.** This supersedes the current beta's unusable top-of-panel list of raw Strong's identifiers.
