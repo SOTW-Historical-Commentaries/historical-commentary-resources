@@ -13,6 +13,20 @@
 
 
 
+## 2026-11-17 | v0.16.0 VERIFIED CONTINUITY CHECKPOINT (DOCS ONLY)
+
+**Owner direction:** "Things are really working let's ensure files updated for continuity. Then we will talk about search." This authorizes a records/handoff checkpoint, not a new Search implementation or runtime patch. Previous owner iPhone screenshots and subsequent presentation fixes are preserved in the chronological sections below. Owner's statement is positive functional acceptance of general progress; no separate blanket UI/mobile regression PASS is inferred.
+
+**Authoritative code gate:** GitHub `main` at the start of this read-only verification was `afbf9a149764d65681e5fede4a62a3404900a4c9`, two documentation commits after the latest actual reader code change `31bec31a8db4605f79e7550e764a1c6b68470b44`. Comparison from the code commit to the initial read head showed changes **only** in `mobile-bible-beta/00_START_HERE.md` and `PROGRESS_LEDGER.md`, proving no new runtime edits. Reader source blob inventory on `main`: HTML `7c8458b89757731f81ccc5fd18a96805c8e52136`; CSS `8db2cefe0cd47967b8e46c6b145adc25992c1c51`; study JavaScript `de60bc8d8f0fa1f5559833f6d425d359ae314423`; service worker `57252b79c70249c9f0f011ff2f6b36112ec2ef57`; full CGBC + Bible + SOTW PNG under `branding/v1/cgbc-sotw-full-header-900.png`: Git blob `70534c5e9b8d2b765f5f4c63ae085be5065683c8`, 69,583 bytes. The installed CSS query is `?v=20261117-reader160`; logo file and path remain unchanged.
+
+**Validation performed:** Both inline HTML JavaScript blocks and the external study JS pass syntax checks; CSS brace counts balance; UI source retains both accessible SVG Search and Theme buttons, 44px touch targets, current logo link and display-only light search contrast rules. This confirms file state and code syntax, **not** independently verified live Pages HTTP delivery, keyboard ergonomics, or full real-device regression. Code and data baselines are unchanged by these documentation edits. The owner has seen prior iPhone beta versions working.
+
+**Next discussion reserved: Search.** Existing Find Scripture is not an exhaustive full-Bible search: its current UI explicitly calls it a preview, parses book/chapter/verse navigation, lists matching book names, and matches words/phrases against the **currently loaded chapter** (up to 8 verse hits). No new scope, indexing, matching algorithm, translation behavior, data source, search UI, backend or deployment is authorized by the continuity request. Ask the owner for desired capabilities when discussion begins; do not implement speculatively.
+
+**Other deferred work:** Edition-specific verse gaps (KJV versus BSB reflect different published `paragraph_start` records and a 20px reader paragraph margin) remain pending a scoped design decision; density of word highlighting and KJV `¶` presentation also deferred. Separate SOTW BSB original-language alignment remains a **published three-verse pilot, NOT wired into the reader**; CGBC sermon SPP/Info Map and all source repositories untouched. The rollback reference for v0.16.0 is `d750db8a90137f753c78f08bb60f4032017be6c5`, not the latest documentation HEAD.
+
+**Files brought forward for a future chat:** This `PROGRESS_LEDGER.md`, `00_START_HERE.md` (now leading with the continuity checkpoint rather than a stale v0.0 status), and the living Google Doc titled "SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS (LIVING HANDOFF)". Older "CURRENT" headings are retained as version history only. The continuity update is a documentation-only change, not a new reader version.
+
 ## 2026-11-17 | v0.16.0 OWNER IPHONE: FULL LOGO SIZE, CONTROLS AND SEARCH CONTRAST
 
 **Owner evidence:** Three screenshots in order: dark KJV Acts 2 at 10:54 with CGBC/Bible/SOTW full logo and small-looking Search/Theme; light KJV Acts 2 at 10:54 showing the same logo and controls; and light Find Scripture at 10:55 with keyboard open, where explanatory text is nearly unreadable on soft-light surface. Owner says logo looks good but a little large, and Search/Theme icons are too small. Previous full-logo approval remains, so preserve the exact artwork.
