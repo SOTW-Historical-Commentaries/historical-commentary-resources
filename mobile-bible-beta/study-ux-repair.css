@@ -431,7 +431,7 @@
  font-weight:300!important;
  /* M PLUS 1p is a static 300/400 family. Add a very small Safari ink stroke
     for an optical step toward 330 without changing size, spacing or metrics. */
- -webkit-text-stroke:0.14px currentColor;
+ -webkit-text-stroke:0.23px currentColor;
 }
 .mobile-beta #studyOverlayBody .word-sequence-verse{
  font-weight:500!important;
@@ -457,4 +457,14 @@
    No invisible footer or dictionary target is invented. */
 .mobile-beta #studyOverlayBody .word-sequence-card:not(.has-webster) .word-sequence-main{
  padding-bottom:11px!important;
+}
+
+/* v0.15.6: Pair the owner's M PLUS 1p Bible text with Literata for
+   long-form Jacob and historical commentary. This is display-only:
+   preserve accepted author text, headings, font sizes and line-height.
+   Georgia is a local fallback if the Google font is unavailable. */
+.mobile-beta .voice-body .copy,
+.mobile-beta .voice-body .preview{
+ font-family:"Literata",Georgia,serif!important;
+ font-weight:400!important;
 }
