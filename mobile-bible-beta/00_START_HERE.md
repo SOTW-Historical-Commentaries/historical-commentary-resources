@@ -4,12 +4,22 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active mobile reader **v0.16.0**; source implementation verified against GitHub `main` on 2026-11-17 (America/Chicago). The owner reports the reader is working well on iPhone. The connected GitHub repository is not proof of a separate public Pages HTTP/visual QA pass.  
+**Status:** Active mobile reader **v0.16.0 with 2026-11-18 commentary continuation hotfix**; runtime commit `886f27ae2988ec528be5f86c1444c4ee4063bdd6`. The prior owner reports the reader works well on iPhone; this specific new change still requires real-device confirmation. Public Pages rendering is not independently verified.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
 
 
 
+
+## CURRENT READER HOTFIX | COMMENTARY CONTINUATION | 2026-11-18
+
+**Owner's iPhone evidence:** At Acts 2:37–41, the Matthew Henry preview concluded near "Peter…" but opening "Read full commentary" restarted from "Peter's Sermon at Jerusalem." Owner requested continuing at the reading point without repeating text. The source records were not wrong: the modern `appendVisibleCommentary()` displayed the first 850 characters, then duplicated the entire entry in a disclosure; legacy `plainContent()` behaved similarly with an 880-character preview.
+
+**Installed display-only correction:** Both commentary render paths now use `splitCommentaryPreview(text,limit)` to place a complete-word excerpt in the opening panel and only the remaining text in the expandable section. Button label is now **Continue reading**. Applies to historical authors and accepted Jacob commentary where these same functions are called. On exceptionally unbroken text without a usable word boundary, show the complete text rather than a blank continuation. No source content is edited and short commentaries are unchanged.
+
+**Git and QA:** Pinned prechange `main` `e6a0dae0fb360a40ad49c27145c0507d578fc765`. New runtime commit `886f27ae2988ec528be5f86c1444c4ee4063bdd6`; `mobile-bible-beta/index.html` new Git blob `58329dd521cd4ea7c9e96bd1becbc512bc1e6b2e` (previous `7c8458b89757731f81ccc5fd18a96805c8e52136`). Actual Matthew Henry Acts 2 source for this test remains immutable blob `57bc7fe6ef5c464fddf5eacd1304d122d5178a29`. Readback proves only HTML changed, CSS `8db2cefe0cd47967b8e46c6b145adc25992c1c51` and study JS `de60bc8d8f0fa1f5559833f6d425d359ae314423` are untouched. Two inline JS syntax tests PASS. Unit split tests at both excerpt lengths against the actual 15,868-character Matthew Henry source and edge cases preserve all words and do not repeat the original beginning. **Actual iPhone tapping/rendered appearance remains owner-check pending**; source-only tests are not a browser visual PASS.
+
+**Boundaries and continuation:** This repair concerns expanding a commentary preview on the current panel, not long-term scroll-position restoration when exiting and reopening an author. Do not imply that separate feature is installed. Reader remains v0.16.0 with this patch; older v0.16.0 hash values below are earlier historical baselines and no longer the current `index.html` blob. Scripture, lexicon, Jacob source records, historical commentary, search, PWA, source rights, and planned separate CGBC/SOTW sites remain unchanged. The prior owner's 2026-11-17 Search v1 scope is still the next planned feature, not installed.
 
 ## END-OF-NIGHT OWNER DECISION | BIBLE SEARCH V1 SCOPE + FUTURE SITE SPLIT | 2026-11-17 CT
 
