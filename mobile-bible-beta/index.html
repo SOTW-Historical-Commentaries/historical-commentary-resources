@@ -410,6 +410,23 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light #modernStudyVerse button.webster-word{
  text-decoration-color:#6e9ca4;
 }
+
+/* Jacob's published Scripture connections, clickable whether or not he has
+   separate commentary on the target. Source relationship wording is preserved. */
+.mobile-beta .jacob-scripture-group{margin:17px 0 10px;padding:13px 0 0;border-top:1px solid #48616a}
+.mobile-beta .jacob-scripture-group h4{font:650 14px/1.4 system-ui;color:#dfedf1;margin:0 0 9px}
+.mobile-beta .jacob-scripture-list{padding:0;margin:0;list-style:none}
+.mobile-beta .jacob-scripture-list li{padding:8px 0;border-bottom:1px solid #334d56}
+.mobile-beta .jacob-scripture-list li:last-child{border-bottom:0}
+.mobile-beta .jacob-passage-link{display:inline-block;color:#d4f2fa;border:1px solid #648693;background:#2a4753;
+  border-radius:7px;padding:7px 10px;text-decoration:none;font:650 13px/1.45 system-ui;min-height:38px}
+.mobile-beta .jacob-passage-link:focus-visible{outline:2px solid #b9eff8;outline-offset:2px}
+.mobile-beta .jacob-relation-type{display:inline-block;color:#b8d2d9;font:600 12px/1.4 system-ui;margin-left:8px}
+.mobile-beta .jacob-relation-note{color:#b9cbd2!important;font:12px/1.6 system-ui!important;margin:6px 0 2px!important;white-space:normal!important}
+.mobile-beta.beta-light .jacob-scripture-group{border-color:#bdd0d1}
+.mobile-beta.beta-light .jacob-scripture-group h4{color:#294a54}
+.mobile-beta.beta-light .jacob-passage-link{background:#e9f2f2;border-color:#9dbdc5;color:#234b59}
+.mobile-beta.beta-light .jacob-relation-type,.mobile-beta.beta-light .jacob-relation-note{color:#526f76!important}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -428,14 +445,15 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <div class="control"><label for="edition">Bible translation</label><select id="edition"><option value="ASV1901">ASV 1901</option><option value="KJV1769">KJV 1769</option><option value="BSB">Berean Standard Bible</option><option value="WEBSTER1833">Webster 1833</option></select></div>
 <button class="action primary" id="copyLink" type="button">Copy passage link</button>
 </div>
-<div class="utility"><label for="jacobJump">Jump to accepted Jacob commentary <select id="jacobJump"><option value="">Choose a covered passage…</option></select></label><label><input id="includeP" type="checkbox"> Show original source introductions / P sections</label><div class="spacer"></div><button class="action" id="previous" type="button">← Previous verse</button><button class="action" id="next" type="button">Next verse →</button></div>
+<div class="utility"><label for="jacobJump">Jump to Jacob commentary <select id="jacobJump"><option value="">Choose a covered passage…</option></select></label><label><input id="includeP" type="checkbox"> Show original source introductions / P sections</label><div class="spacer"></div><button class="action" id="previous" type="button">← Previous verse</button><button class="action" id="next" type="button">Next verse →</button></div>
 <p class="status" id="status" role="status" aria-live="polite">Loading published SOTW sources…</p>
 <div class="layout">
 <section class="panel scripture" aria-labelledby="scripture-heading"><div class="panel-head"><div><h2 id="scripture-heading">Bible passage</h2><p id="scripture-edition">Four supported public editions</p></div></div><div class="panel-body"><div class="focus"><strong id="focus-label">Acts 2:37</strong><p id="focus-text">Loading verse…</p></div><h3 style="font-size:13px;color:#42685a;margin:0 0 12px">Chapter context · select any verse</h3><div id="verses" class="all-verses" aria-label="Chapter Scripture"></div><p id="scripture-credit" class="meta"></p></div></section>
-<section aria-label="Commentary comparison"><div class="tools"><h2>Commentary comparison</h2><label for="authorMode" class="sr-only">Historical author display</label><select id="authorMode"><option value="all">All six historical writers</option><option value="available">Only writers indexed at this verse</option></select></div><p class="scopehint" id="scopehint">Historical sources are independent original writings. Jacob's accepted sermon commentary is kept separate and translation-neutral.</p><div id="voices" class="voice-grid"></div></section>
+<section aria-label="Commentary comparison"><div class="tools"><h2>Commentary comparison</h2><label for="authorMode" class="sr-only">Historical author display</label><select id="authorMode"><option value="all">All six historical writers</option><option value="available">Only writers indexed at this verse</option></select></div><p class="scopehint" id="scopehint">Historical sources are independent original writings. Jacob's published sermon commentary is kept separate and translation-neutral.</p><div id="voices" class="voice-grid"></div></section>
 </div>
-<p class="foot">This is a read-only research and comparison interface, not an editorial statement that the authors agree. Historical verse records use the source's original KJV-linked indexing; selecting ASV, BSB or Webster changes the Bible text, not the attribution or original commentary. Chapter introductions and other P material are separate from verse exposition. A missing entry means no accepted or indexed entry here, not that the author never wrote about the subject. Only currently accepted Jacob commentary is shown; withdrawn drafts are excluded.</p>
+<p class="foot">This is a read-only research and comparison interface, not an editorial statement that the authors agree. Historical verse records use the source's original KJV-linked indexing; selecting ASV, BSB or Webster changes the Bible text, not the attribution or original commentary. Chapter introductions and other P material are separate from verse exposition. A missing entry means no published or indexed entry here, not that the author never wrote about the subject. Only currently published Jacob commentary is shown; drafts are not displayed.</p>
 </main>
+<script src="./jacob-scripture-links.js?v=20261118-jacoblinks1"></script>
 <script>
 'use strict';
 /* Snapshot routes below were inspected against SOTW Historical Commentaries main on 2026-11-16.
@@ -491,7 +509,7 @@ function renderBible(){const b=bookInfo();$('scripture-heading').textContent=b.n
 const c=$('verses');c.replaceChildren();for(const v of state.bible?.verses||[]){const btn=document.createElement('button');btn.type='button';btn.className='verse'+(Number(v.verse)===state.verse?' selected':'')+(v.paragraph_start?' para-start':'');btn.setAttribute('aria-label',b.name+' '+state.chapter+':'+v.verse);const n=document.createElement('span');n.className='number';n.textContent=v.verse;btn.append(n,document.createTextNode(displayVerseText(v)));btn.addEventListener('click',()=>chooseVerse(Number(v.verse)));c.append(btn)}const sel=c.querySelector('.selected');if(sel)c.scrollTop=Math.max(0,sel.offsetTop-c.offsetTop);}
 function stripOsis(xml){const raw=String(xml||'').replace(/<\/?(?:div|p|title|l|lg|chapter|milestone)\b[^>]*>/gi,'\n');const doc=new DOMParser().parseFromString(raw,'text/html');return(doc.body.textContent||'').replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim()}
 function content(entry){const t=entry?.reader_content_plain??entry?.content_plain;if(typeof t==='string'&&t.trim())return t;const parts=entry?.content_parts;if(Array.isArray(parts)&&parts.length)return parts.join('\n\n');return stripOsis(entry?.reader_content_osis??entry?.content_osis??'')}
-function voiceCard(label,type){const el=document.createElement('article');el.className='voice'+(type==='jacob'?' jacob':'');const hd=document.createElement('div');hd.className='voice-title';const strong=document.createElement('strong');strong.textContent=label;const chip=document.createElement('span');chip.className='source-chip';chip.textContent=type==='jacob'?'Accepted pastoral commentary':'Historical source';if(label.length>18)hd.classList.add('long-author-name');hd.append(strong,chip);const body=document.createElement('div');body.className='voice-body';el.append(hd,body);return{el,body}}
+function voiceCard(label,type){const el=document.createElement('article');el.className='voice'+(type==='jacob'?' jacob':'');const hd=document.createElement('div');hd.className='voice-title';const strong=document.createElement('strong');strong.textContent=label;const chip=document.createElement('span');chip.className='source-chip';chip.textContent=type==='jacob'?'Pastoral commentary':'Historical source';if(label.length>18)hd.classList.add('long-author-name');hd.append(strong,chip);const body=document.createElement('div');body.className='voice-body';el.append(hd,body);return{el,body}}
 function para(container,text,cls='empty'){const p=document.createElement('p');p.className=cls;p.textContent=text;container.append(p);return p}
 /* Display-only commentary preview. The source text is never rewritten. */
 function splitCommentaryPreview(text,limit){
@@ -509,9 +527,44 @@ function parseScope(s){const bookOnly=/^([1-3]?[A-Z]{2,3})$/.exec(s||'');if(book
 function jacobChapterIntro(e){const p=parseScope(e.scopeKey);return !!(p&&p.book===state.book&&p.chapter===state.chapter&&p.from===null&&e.scopeType==='CHAPTER_INTRODUCTION');}
 function jacobDirectAt(e,verse){const p=parseScope(e.scopeKey);return !!(p&&p.book===state.book&&p.chapter===state.chapter&&p.from!==null&&Number.isInteger(verse)&&verse>=p.from&&verse<=p.to&&!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));}
 function matchingJacob(e){return jacobDirectAt(e,state.verse)||jacobChapterIntro(e);}
-function renderJacob(){const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;const c=voiceCard('Jacob Lannom','jacob');$('voices').append(c.el);const pass=matches.filter(e=>!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));const intros=matches.filter(e=>['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));if(!matches.length){para(c.body,`There is no accepted Jacob commentary for ${bookInfo().name} ${state.chapter}:${state.verse}. This does not affect the historical sources. Check the coverage archive for his published passages.`);return}for(const e of pass){para(c.body,e.title,'title');plainContent(c.body,e.commentary);para(c.body,'Scope: '+formatScope(e.scopeKey)+' · accepted passage commentary','meta')}
-for(const e of intros){if(pass.length){const d=document.createElement('details');const s=document.createElement('summary');s.textContent='Also available: '+e.title+' (book / chapter introduction)';const x=document.createElement('div');x.className='copy';x.textContent=e.commentary;d.append(s,x);c.body.append(d)}else{para(c.body,e.title,'title');plainContent(c.body,e.commentary)}para(c.body,'Book/chapter introduction, not an independently verified claim about this individual verse.','meta')}
-sourceLink(c.body,'../review-jacob-coverage.html','Verify accepted scope in coverage archive')}
+/* Expose only references attached to entries in the reconciled, published
+   Jacob collection. No draft/coverage/staged source is used to build links. */
+function appendJacobScriptureReferences(parent,entry,showIncoming=true){
+ const routing=globalThis.SOTWJacobLinks;
+ if(!routing||!entry||!Array.isArray(state.jacob))return;
+ const targets=routing.outbound(entry);
+ const incoming=showIncoming?routing.inbound(state.jacob,entry.scopeKey):[];
+ function section(heading,rows,reverse){
+  if(!rows.length)return;
+  const group=document.createElement('section');group.className='jacob-scripture-group';
+  const title=document.createElement('h4');title.textContent=heading;group.append(title);
+  const list=document.createElement('ul');list.className='jacob-scripture-list';
+  for(const record of rows){
+   const href=routing.bibleHref(record.scope,state.edition,'./');
+   if(!href)continue;
+   const li=document.createElement('li'),a=document.createElement('a');
+   a.className='jacob-passage-link';a.href=href;
+   a.textContent=routing.label(record.scope);
+   a.setAttribute('aria-label','Read '+routing.label(record.scope)+' in '+EDITIONS[state.edition][0]);
+   li.append(a);
+   const type=document.createElement('span');type.className='jacob-relation-type';
+   type.textContent=' · '+routing.relationshipName(record.relation);
+   li.append(type);
+   if(record.relation?.rationale){
+    const reason=document.createElement('p');reason.className='jacob-relation-note';
+    reason.textContent=String(record.relation.rationale);li.append(reason);
+   }
+   list.append(li);
+  }
+  if(!list.childElementCount)return;
+  group.append(list);parent.append(group);
+ }
+ section('Related Scripture',targets,false);
+ section('Commentary connecting to this passage',incoming,true);
+}
+function renderJacob(){const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;const c=voiceCard('Jacob Lannom','jacob');$('voices').append(c.el);const pass=matches.filter(e=>!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));const intros=matches.filter(e=>['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));if(!matches.length){para(c.body,`There is no Jacob commentary for ${bookInfo().name} ${state.chapter}:${state.verse}. This does not affect other historical sources.`);return}for(const e of pass){para(c.body,e.title,'title');plainContent(c.body,e.commentary);appendJacobScriptureReferences(c.body,e);para(c.body,'Scope: '+formatScope(e.scopeKey)+' · passage commentary','meta')}
+for(const e of intros){if(pass.length){const d=document.createElement('details');const s=document.createElement('summary');s.textContent='Also available: '+e.title+' (book / chapter introduction)';const x=document.createElement('div');x.className='copy';x.textContent=e.commentary;d.append(s,x);appendJacobScriptureReferences(d,e);c.body.append(d)}else{para(c.body,e.title,'title');plainContent(c.body,e.commentary);appendJacobScriptureReferences(c.body,e)}para(c.body,'Book/chapter introduction, not an independently verified claim about this individual verse.','meta')}
+sourceLink(c.body,'../review-jacob-coverage.html','Browse Jacob’s commentary coverage')}
 function activeAuthors(){const routes=state.index?.verse_routes?.[String(state.verse)]||{};return state.mode==='available'?HIST.filter(([id])=>Array.isArray(routes[id])&&routes[id].length):HIST}
 function eligibleP(section){if(section.status!=='active'||!section.eligible_books?.includes(state.book))return false;const scope=section.scope;if(scope==='book'||scope==='book_group')return true;const p=section.source?.chapter_file||'';const chapterInSource=new RegExp(`/${state.book}/${state.chapter}\\.json$`).test(p);if(scope==='chapter')return chapterInSource;const s=parseScope(section.passage_start);const e=parseScope(section.passage_end);return !!(s&&e&&s.book===state.book&&e.book===state.book&&state.chapter*1000+state.verse>=s.chapter*1000+(s.from||0)&&state.chapter*1000+state.verse<=e.chapter*1000+(e.from||0))}
 async function attachP(body,author,generation){if(!state.showP)return;const note=para(body,'Loading source introductions and original headings…','meta');try{const nav=await getJson(`../api/v3/navigation-coverage/v1/books/${state.book}.json`);if(generation!==state.generation)return;note.remove();const routes=(nav.author_sections?.[author]||[]).filter(eligibleP);if(!routes.length){para(body,'No applicable original P navigation section is indexed here.','meta');return}const det=document.createElement('details');const summary=document.createElement('summary');summary.textContent=`Original source introductions & headings (${routes.length})`;det.append(summary);for(const s of routes){const row=document.createElement('div');row.className='p-section';const h=document.createElement('h4');h.textContent=s.title+' · '+s.scope;row.append(h);const button=document.createElement('button');button.type='button';button.textContent='Read original source text';const textNode=document.createElement('div');textNode.className='p-body';button.addEventListener('click',async()=>{if(textNode.textContent){textNode.textContent='';button.textContent='Read original source text';return}button.disabled=true;try{const json=await getJson('../'+s.source.chapter_file.replace(/^\//,''));const item=(json.navigation_sections||[]).find(x=>x.section_id===s.source.section_id);textNode.textContent=item?.content_plain||stripOsis(item?.content_osis)||'Original section text not found';button.textContent='Hide original source text'}catch(e){textNode.textContent='Unable to load original section: '+e.message}finally{button.disabled=false}});row.append(button,textNode);det.append(row)}body.append(det)}catch(e){if(generation===state.generation)note.textContent='Source P navigation unavailable: '+e.message}}
@@ -521,7 +574,7 @@ async function renderVoices(){const generation=++state.generation;const v=$('voi
 function chooseVerse(n){const max=Math.max(1,Number(state.index?.verse_count||state.bible?.verses?.length||1));if(n<1||n>max)return;state.verse=n;$('verse').value=String(n);$('previous').disabled=n===1;$('next').disabled=n===max;setURL();renderBible();renderVoices();setStatus(`${formatScope(state.book+'.'+state.chapter+'.'+state.verse)} · ${EDITIONS[state.edition][0]} · historic reader v3 indexes`)}
 async function loadChapter(resetVerse=false){const request=++chapterRequest;const edition=state.edition;const b=bookInfo();const initial=state.chapter;const statusLabel=b.name+' '+state.chapter;setStatus('Loading '+statusLabel+' source indexes and translation…');$('voices').replaceChildren();state.index=null;state.bible=null;const root=snapshotRoot(b);try{const [idx,bib]=await Promise.all([getJson(root+`index/${state.book}/${state.chapter}.json`),getJson(pathForEdition())]);if(request!==chapterRequest||state.chapter!==initial||bookInfo().code!==b.code||edition!==state.edition)return;if(idx.canonical_chapter!==`${state.book}.${state.chapter}`||bib.book_code!==state.book||bib.chapter!==state.chapter||bib.edition_id!==state.edition)throw Error('A source identity check failed. No text was substituted.');state.index=idx;state.bible=bib;const max=Number(idx.verse_count)||bib.verses.length;state.verse=resetVerse?1:Math.max(1,Math.min(max,state.verse));fillNumbers($('verse'),max,state.verse);chooseVerse(state.verse)}catch(e){if(request!==chapterRequest)return;setStatus('Could not load '+statusLabel+': '+e.message,true);$('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
 async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(!m.books?.includes(b.code)||!m.chapter_verse_count)throw Error('Unexpected book manifest');count=Object.keys(m.chapter_verse_count).length}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
-async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();if(document.body.classList.contains('study-open')&&typeof showVerseDoctrineTags==='function')showVerseDoctrineTags();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacobs accepted commentary list is unavailable: '+e.message,true);return false}}
+async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();if(document.body.classList.contains('study-open')&&typeof showVerseDoctrineTags==='function')showVerseDoctrineTags();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
 async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index)renderVoices()}
 $('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
 $('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
@@ -683,7 +736,7 @@ addMoreResource('Original languages and dictionaries',
  [{title:'Original-language resource catalog',url:'https://github.com/SOTW-Original-Languages/original-language-resources'},
   {title:'Webster 1828 source license',url:'https://github.com/SOTW-Original-Languages/original-language-resources/blob/main/LICENSE_WEBSTER_SOURCE.txt'}]);
 addMoreResource('Jacob Lannom',
- 'Jacob Lannom is a living SOTW partner. His accepted pastoral commentary is presented separately from Scripture and the historical writers, with passage-based coverage and source attribution.',
+ 'Jacob Lannom is a living SOTW partner. His pastoral commentary is presented separately from Scripture and the historical writers, with passage-based coverage and source attribution.',
  [{title:'Jacob commentary coverage',url:'../api/jacob-lannom/v1/coverage.json'}]);
 addMoreResource('About Servants of the Way',
  'This reader puts Scripture first, with optional passage-based commentary, dictionaries, and language study. Resources are attributed to their own sources, and some are unavailable for particular passages.',
@@ -1055,7 +1108,7 @@ function openAuthorCommentary(author){
   const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
   if(!matches.length){
    const note=document.createElement('p');note.className='modern-panel-desc';
-   note.textContent='No accepted Jacob commentary is available for this selection.';
+   note.textContent='No Jacob commentary is published for this selection.';
    body.append(note);return;
   }
   const direct=matches.filter(e=>e.scopeType!=='CHAPTER_INTRODUCTION');
@@ -1065,7 +1118,7 @@ function openAuthorCommentary(author){
     const summary=document.createElement('summary');summary.textContent='Chapter Intro';
     const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
     const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
-    disclosure.append(summary,heading,prose);body.append(disclosure);continue;
+    disclosure.append(summary,heading,prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
    }
    if(entry.scopeType==='CHAPTER_INTRODUCTION'){
     const scope=document.createElement('p');scope.className='jacob-scope-note';
@@ -1073,6 +1126,7 @@ function openAuthorCommentary(author){
    }
    const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
    appendVisibleCommentary(body,entry.commentary);
+   appendJacobScriptureReferences(body,entry);
   }
   return;
  }
