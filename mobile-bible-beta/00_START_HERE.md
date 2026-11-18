@@ -11,6 +11,14 @@
 
 
 
+## CURRENT READER PATCH v0.16.0 | SMALLER FULL LOGO + SEARCH/THEME VISIBILITY | 2026-11-17
+
+**Current beta:** v0.16.0. Owner iPhone screenshots of v0.15.9 in both themes show the combined CGBC + Bible/cross + SOTW header is visually successful but slightly oversized, with tiny-looking old Unicode Search/Theme glyphs. The light-mode Find Scripture sheet also displays a nearly invisible description and pale placeholder. Owner's note and screenshots authorize these three presentation improvements; they do NOT approve a broader change to verse spacing, word links or data.
+
+**Implemented:** Same verified logo image and Git file retained. Its CSS cap becomes 238px wide and 50px high (45px for screens <=375px); Search and Theme buttons become 44px square targets with 24px inline stroke SVG icons and accessible existing button labels, light/dark contrast-controlled button surfaces. Light-mode Find Scripture description now uses #3e5b64 and placeholder #4e6770. The iOS keyboard toolbar is native and untouched. Header book, translation controls and reading behavior unchanged. CSS key `?v=20261117-reader160`; existing logo asset path/query remain unchanged.
+
+**Git and QA:** Pre-change recoverable `main` `d750db8a90137f753c78f08bb60f4032017be6c5`. Atomic UI commit `31bec31a8db4605f79e7550e764a1c6b68470b44`; HTML blob `7c8458b89757731f81ccc5fd18a96805c8e52136`, CSS blob `8db2cefe0cd47967b8e46c6b145adc25992c1c51`. Git compare shows exactly the two UI files, no new logo artwork or accepted source changes. Two inline JS blocks parse PASS, CSS braces PASS, SVGs and ARIA labels present, 44px target CSS and new light search contrast selectors present. Real iPhone Safari visual approval and independent public Pages rendering **PENDING**. The previous v0.15.9 branding and 0.15.8 font/spacing commits remain historically recoverable.
+
 ## CURRENT READER PATCH v0.15.9 | CGBC + BIBLE FULL-LOGO HEADER TRIAL | 2026-11-17
 
 **Latest reader status:** v0.15.9. Owner explicitly requested installation and a visual trial of the FULL combined CGBC monogram + cross/Bible + Servants of the Way logo. This replaces only the former small all-caps brand label at the upper left of the reader; existing search, theme, book, translation and reader study controls remain. A cropped and losslessly PNG-encoded 900×187 transparent derivative of the owner's original light logo was committed at `mobile-bible-beta/branding/v1/cgbc-sotw-full-header-900.png`. Its SHA-256 is `64ffde47824fe6bcd845a6c4cc14512b204c5c488c27996df070ff3931e6c7bd`; Git blob `70534c5e9b8d2b765f5f4c63ae085be5065683c8` (69,583 bytes). The light theme applies a CSS darkening filter to that SAME asset, preventing position shifts between themes. The image has real alt text, responsive max width and height, and existing navigation button dimensions are retained.
