@@ -2,14 +2,15 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jacob Lannom | Scripture Commentary | SOTW</title>
 <style>
-:root{font:16px/1.55 system-ui,-apple-system,sans-serif;background:#f4f6f5;color:#1e3831}*{box-sizing:border-box}body{margin:0}header{background:#173e39;color:white;padding:25px max(18px,calc((100vw - 960px)/2))}header small{letter-spacing:.11em;color:#b5d8cd}h1{font-size:clamp(23px,4vw,34px);margin:5px 0}main{max-width:980px;margin:24px auto;padding:0 18px}.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin-bottom:16px}label{font-size:12px;font-weight:600}select{display:block;max-width:100%;min-width:160px;padding:10px;border:1px solid #aec7bd;border-radius:8px;background:white}article,aside{border:1px solid #d9e4dc;border-radius:12px;background:#fff;padding:22px}.layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(200px,1fr);gap:16px}.prose{font:17px/1.72 Georgia,serif;white-space:pre-wrap}.sub{color:#60776f;font-size:13px}a{color:#166c5d}h2{line-height:1.25}.related li{padding:6px 0}button{display:block;background:white;border:1px solid #acc7ba;border-radius:7px;padding:8px;margin-bottom:7px;text-align:left;cursor:pointer;width:100%}#status{margin-bottom:16px}footer{max-width:980px;margin:20px auto;padding:0 18px;color:#506e62;font-size:13px}@media(max-width:700px){.layout{grid-template-columns:1fr}}
+:root{font:16px/1.55 system-ui,-apple-system,sans-serif;background:#f4f6f5;color:#1e3831}*{box-sizing:border-box}body{margin:0}header{background:#173e39;color:white;padding:25px max(18px,calc((100vw - 960px)/2))}header small{letter-spacing:.11em;color:#b5d8cd}h1{font-size:clamp(23px,4vw,34px);margin:5px 0}main{max-width:980px;margin:24px auto;padding:0 18px}.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin-bottom:16px}label{font-size:12px;font-weight:600}select{display:block;max-width:100%;min-width:160px;padding:10px;border:1px solid #aec7bd;border-radius:8px;background:white}article,aside{border:1px solid #d9e4dc;border-radius:12px;background:#fff;padding:22px}.layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(200px,1fr);gap:16px}.prose{font:17px/1.72 Georgia,serif;white-space:pre-wrap}.sub{color:#60776f;font-size:13px}a{color:#166c5d}.scripture-destination{font-weight:700;text-decoration:underline;text-underline-offset:3px}.commentary-destination{font-size:12px;white-space:nowrap}.related li{line-height:1.65}h2{line-height:1.25}.related li{padding:6px 0}button{display:block;background:white;border:1px solid #acc7ba;border-radius:7px;padding:8px;margin-bottom:7px;text-align:left;cursor:pointer;width:100%}#status{margin-bottom:16px}footer{max-width:980px;margin:20px auto;padding:0 18px;color:#506e62;font-size:13px}@media(max-width:700px){.layout{grid-template-columns:1fr}}
 </style></head><body>
 <header><small>SOTW · Translation-neutral commentary</small><h1>Jacob Lannom · Scripture Commentary</h1><div>Explore Scripture by passage, across supported Bible editions.</div></header>
 <main><p class="sub">The same commentary is associated with the Scripture passage in ASV 1901, KJV 1769, Berean Standard Bible, and Webster 1833. Bible translation text is not reproduced here.</p>
 <div class="toolbar"><label>Translation context<select id="translation"></select></label><label>Bible book<select id="book"></select></label><label>Commentary scope<select id="scope"></select></label></div>
 <div id="status" aria-live="polite">Loading commentary…</div>
-<div class="layout"><article><h2 id="title"></h2><p id="scopeName" class="sub"></p><div id="commentary" class="prose"></div><section id="relatedSection" hidden><h3>Related Scripture</h3><ul id="related" class="related"></ul></section><section id="incomingSection" hidden><h3>Commentary referring to this passage</h3><ul id="incoming" class="related"></ul></section></article><aside><h3>Explore this book</h3><div id="browse"></div><p class="sub">Only passages with accepted Jacob commentary are listed. A missing entry does not imply the Bible passage lacks other commentary.</p></aside></div></main>
-<footer>Jacob's commentary is translation neutral and based on accepted, documented sermon teaching. Source-evidence cue and audio/video links are intentionally not displayed in the commentary viewer.</footer>
+<div class="layout"><article><h2 id="title"></h2><p id="scopeName" class="sub"></p><div id="commentary" class="prose"></div><section id="relatedSection" hidden><h3>Related Scripture</h3><ul id="related" class="related"></ul></section><section id="incomingSection" hidden><h3>Commentary referring to this passage</h3><ul id="incoming" class="related"></ul></section></article><aside><h3>Explore this book</h3><div id="browse"></div><p class="sub">Only passages with published Jacob commentary are listed. A missing entry does not imply the Bible passage lacks other commentary.</p></aside></div></main>
+<footer>Jacob's commentary is translation neutral and based on published, documented sermon teaching. Source-evidence cue and audio/video links are intentionally not displayed in the commentary viewer.</footer>
+<script src="mobile-bible-beta/jacob-scripture-links.js?v=20261118-jacoblinks1"></script>
 <script>
 'use strict';
 const $=id=>document.getElementById(id);const query=new URLSearchParams(location.search);let entries=[];
@@ -19,10 +20,38 @@ function opt(sel,k,v){let o=document.createElement('option');o.value=k;o.textCon
 function matchesScope(have,want){if(have===want)return true;const parts=want.split('.');if(parts.length!==3)return false;const [bk,ch,verse]=parts;if(!have.startsWith(bk+'.'+ch+'.'))return false;const bounds=have.split('.')[2].split('-').map(Number);return Number(verse)>=bounds[0]&&Number(verse)<=bounds[bounds.length-1]}
 function findCommentary(scope){return entries.find(e=>matchesScope(e.scopeKey,scope))||null}
 function hrefFor(scope){const p=new URLSearchParams({book:keyBook(scope),scope,translation:$('translation').value});return 'review-jake-scripture.html?'+p}
-function related(scope,container,incoming){container.replaceChildren();let found=0;for(const e of entries){const rels=e.referenceTargets||[];for(const r of rels){const target=r.reference||r.targetScope||r.to;if((incoming&&target!==scope)||(!incoming&&e.scopeKey!==scope))continue;const id=incoming?e.scopeKey:target;if(!id||id===scope)continue;let li=document.createElement('li');let match=findCommentary(id);if(match){let link=document.createElement('a');link.href=hrefFor(id);link.textContent=id;li.append(link)}else{let label=document.createElement('strong');label.textContent=id;li.append(label)}const type=r.type||r.relationshipType||'RELATED';let note=document.createElement('span');note.textContent=' · '+type+(r.rationale?': '+r.rationale:'');li.append(note);if(!findCommentary(id)){let sp=document.createElement('span');sp.textContent=' (Jacob commentary not yet available for this exact scope)';sp.className='sub';li.append(sp)}container.append(li);found++}}return found}
-function selectEntry(scope){let e=findCommentary(scope)||entries.find(x=>x.scopeKey===scope);if(!e){$('status').textContent='No accepted Jacob commentary for this scope.';return} $('title').textContent=e.title;$('scopeName').textContent=e.scopeKey+' · '+e.scopeType;$('commentary').textContent=e.commentary;$('status').textContent='Jacob Lannom · '+$('translation').selectedOptions[0].text+' context';let n=related(e.scopeKey,$('related'),false);$('relatedSection').hidden=!n;let m=related(e.scopeKey,$('incoming'),true);$('incomingSection').hidden=!m;history.replaceState(null,'',hrefFor(e.scopeKey));$('scope').value=e.scopeKey;
+function related(scope,container,incoming){
+ container.replaceChildren();
+ const routing=globalThis.SOTWJacobLinks;if(!routing)return 0;
+ const selected=entries.find(e=>e.scopeKey===scope);
+ const rows=incoming?routing.inbound(entries,scope):routing.outbound(selected);
+ let found=0;
+ for(const row of rows){
+  const passage=routing.bibleHref(row.scope,$('translation').value,'mobile-bible-beta/');
+  if(!passage)continue;
+  const li=document.createElement('li');
+  const link=document.createElement('a');link.href=passage;link.textContent=routing.label(row.scope);
+  link.className='scripture-destination';link.setAttribute('aria-label','Open '+routing.label(row.scope)+' in the Bible Reader');
+  li.append(link);
+  const kind=document.createElement('span');kind.textContent=' · '+routing.relationshipName(row.relation);
+  li.append(kind);
+  if(row.relation?.rationale){
+   const note=document.createElement('span');note.textContent=': '+String(row.relation.rationale);li.append(note);
+  }
+  // Scripture never depends on a separate Jacob commentary entry. When there
+  // is published Jacob commentary, it is an *additional* destination.
+  if(findCommentary(row.scope)){
+   const extra=document.createElement('a');extra.href=hrefFor(row.scope);
+   extra.textContent='Read Jacob commentary';extra.className='commentary-destination';
+   li.append(document.createTextNode(' · '),extra);
+  }
+  container.append(li);found++;
+ }
+ return found;
+}
+function selectEntry(scope){let e=findCommentary(scope)||entries.find(x=>x.scopeKey===scope);if(!e){$('status').textContent='No published Jacob commentary for this passage.';return} $('title').textContent=e.title;$('scopeName').textContent=e.scopeKey+' · '+e.scopeType;$('commentary').textContent=e.commentary;$('status').textContent='Jacob Lannom · '+$('translation').selectedOptions[0].text+' context';let n=related(e.scopeKey,$('related'),false);$('relatedSection').hidden=!n;let m=related(e.scopeKey,$('incoming'),true);$('incomingSection').hidden=!m;history.replaceState(null,'',hrefFor(e.scopeKey));$('scope').value=e.scopeKey;
 }
 function refresh(){const book=$('book').value;const visible=entries.filter(e=>keyBook(e.scopeKey)===book);$('scope').replaceChildren();$('browse').replaceChildren();for(const e of visible){opt($('scope'),e.scopeKey,e.scopeKey+' · '+e.title);const b=document.createElement('button');b.type='button';b.textContent=e.title;b.onclick=()=>selectEntry(e.scopeKey);$('browse').append(b)}if(visible.length){const requested=query.get('scope');selectEntry(requested&&findCommentary(requested)&&keyBook(requested)===book?requested:visible[0].scopeKey)}else{$('commentary').textContent='No commentary for this book.'}}
-async function start(){try{const r=await fetch('api/jacob-lannom/v1/current-commentary.json',{cache:'no-store'});if(!r.ok)throw Error('Commentary endpoint returned '+r.status);const j=await r.json();entries=j.entries||[];if(!entries.length)throw Error('No current accepted commentary');for(const [k,v]of EDITIONS)opt($('translation'),k,v);const edition=query.get('translation');$('translation').value=EDITIONS.some(a=>a[0]===edition)?edition:EDITIONS[0][0];const books=[...new Set(entries.map(e=>keyBook(e.scopeKey)))].sort();books.forEach(b=>opt($('book'),b,b));$('book').value=books.includes(query.get('book'))?query.get('book'):books[0];$('translation').onchange=()=>selectEntry($('scope').value);$('book').onchange=refresh;$('scope').onchange=()=>selectEntry($('scope').value);refresh()}catch(e){$('status').textContent='Unavailable: '+e.message}}
+async function start(){try{const r=await fetch('api/jacob-lannom/v1/current-commentary.json',{cache:'no-store'});if(!r.ok)throw Error('Commentary endpoint returned '+r.status);const j=await r.json();entries=j.entries||[];if(!entries.length)throw Error('No currently published commentary');for(const [k,v]of EDITIONS)opt($('translation'),k,v);const edition=query.get('translation');$('translation').value=EDITIONS.some(a=>a[0]===edition)?edition:EDITIONS[0][0];const books=[...new Set(entries.map(e=>keyBook(e.scopeKey)))].sort();books.forEach(b=>opt($('book'),b,b));$('book').value=books.includes(query.get('book'))?query.get('book'):books[0];$('translation').onchange=()=>selectEntry($('scope').value);$('book').onchange=refresh;$('scope').onchange=()=>selectEntry($('scope').value);refresh()}catch(e){$('status').textContent='Unavailable: '+e.message}}
 start();
 </script></body></html>
