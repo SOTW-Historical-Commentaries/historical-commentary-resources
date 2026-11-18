@@ -1,0 +1,33 @@
+/* SOTW Discovery v0.17. Uses existing reader palette; no page layout takeover. */
+.mobile-beta .discovery-search-label{font:700 11px/1.4 system-ui;text-transform:uppercase;letter-spacing:.08em;color:#a9c5cf;margin:17px 0 7px;padding-top:10px;border-top:1px solid #40535c}
+.mobile-beta .discovery-hit{display:block!important;width:100%;text-align:left!important;white-space:normal!important;overflow-wrap:anywhere}
+.mobile-beta .discovery-search-loading{font:12px/1.5 system-ui;color:#9eb6be;padding:6px 0}
+.mobile-beta .discovery-search-loading[hidden],.mobile-beta .discovery-original-body[hidden],.mobile-beta .discovery-verse-body[hidden]{display:none!important}
+.mobile-beta #sotwDiscoveryDetail{z-index:190!important}
+.mobile-beta #sotwDiscoveryDetail .modal-content{width:min(590px,calc(100vw - 24px))!important;max-height:83svh!important;overflow:auto!important;background:#192931!important;border:1px solid #546b75;border-radius:14px;padding:16px;color:#dfeaf0}
+.mobile-beta .discovery-detail-body{margin:12px 0 8px}
+.mobile-beta .discovery-heading{font:650 16px/1.35 Georgia,serif;color:#e3f0f3;margin:14px 0 9px}
+.mobile-beta .discovery-note{font:12px/1.55 system-ui;color:#b5cbd3;margin:7px 0 10px}
+.mobile-beta .discovery-error{font:12px/1.5 system-ui;color:#f0b8a8;padding:9px 0}
+.mobile-beta .discovery-section{margin:12px 0;padding:8px 0;border-top:1px solid #40545e}
+.mobile-beta .discovery-references{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0}
+.mobile-beta .discovery-ref{font:12px/1.4 system-ui;padding:7px 10px;color:#deeff3;border:1px solid #50717d;background:#27434d;border-radius:8px;cursor:pointer;text-align:left}
+.mobile-beta .discovery-ref:hover,.mobile-beta .discovery-launch:hover{background:#395664}
+.mobile-beta .discovery-relationship{font:12px/1.5 system-ui;border-left:2px solid #67929a;padding:6px 11px;margin:7px 0;color:#d1e4e8}
+.mobile-beta .discovery-link{display:inline-block;font:12px/1.5 system-ui;color:#bbdfeb;margin:7px 7px 7px 0;text-decoration:underline}
+.mobile-beta .discovery-study{border:1px solid #405a65;background:#1c3039;border-radius:11px;margin:9px 0 13px;padding:9px}
+.mobile-beta .discovery-launch{width:100%;padding:9px 12px;min-height:41px;text-align:left;border:1px solid #536f7d;border-radius:8px;background:#253b46;color:#e1eff2;font:650 13px system-ui;cursor:pointer}
+.mobile-beta .discovery-word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px;margin:12px 0}
+.mobile-beta .discovery-word{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:11px;background:#263d47;border:1px solid #41616c;border-radius:10px;min-width:0;overflow-wrap:anywhere}
+.mobile-beta .discovery-word strong{font:600 20px/1.4 Georgia,serif;color:#eaf5f7}
+.mobile-beta .discovery-word span{font:12px/1.4 system-ui;color:#d5e3e8}
+.mobile-beta .discovery-word small{font:11px/1.4 system-ui;color:#a4c0cb}
+.mobile-beta .discovery-strongs{background:#30515d;border:1px solid #7598a4;border-radius:6px;padding:5px 9px;color:#e5f4fa;font:650 12px system-ui;cursor:pointer}
+.mobile-beta.beta-light .discovery-study{background:#f3f7f5;border-color:#b4cbcc}
+.mobile-beta.beta-light .discovery-launch,.mobile-beta.beta-light .discovery-word{background:#e6f0ef;border-color:#a4bcc4;color:#29424a}
+.mobile-beta.beta-light .discovery-word strong,.mobile-beta.beta-light .discovery-word span,.mobile-beta.beta-light .discovery-heading{color:#24424a}
+.mobile-beta.beta-light .discovery-note,.mobile-beta.beta-light .discovery-word small{color:#526e76}
+.mobile-beta.beta-light .discovery-ref,.mobile-beta.beta-light .discovery-strongs{color:#24424a;background:#e5f0f0;border-color:#9cbac2}
+.mobile-beta.beta-light #sotwDiscoveryDetail .modal-content{background:#fbfdfb!important;color:#29434d;border-color:#a2b8bd!important}
+.mobile-beta.beta-light .discovery-search-label{color:#587c87}
+@media(max-width:600px){.mobile-beta .discovery-word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mobile-beta #sotwDiscoveryDetail .modal-content{width:calc(100vw - 20px)!important;max-height:88svh!important}.mobile-beta .discovery-word strong{font-size:18px}}
