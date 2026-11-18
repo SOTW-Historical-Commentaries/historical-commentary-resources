@@ -340,8 +340,10 @@
     betaWords,
     betaWordDetail,
     languageButton,
-    document.getElementById('asvSourceEntry'),
-    modernCommentaryMenu
+    modernCommentaryMenu,
+    // Original ASV 1901 printed scans are a niche source reference.
+    // Keep the entry available, but put it after the main study tools.
+    document.getElementById('asvSourceEntry')
   ];
   for(const node of order){if(node)studyScroll.append(node);}
   // The nested lexical/author/PDF overlay stays fixed within the study panel.
