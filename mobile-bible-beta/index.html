@@ -415,7 +415,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:wght@400&amp;family=M+PLUS+1p:wght@300;400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
-<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader156">
+<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader157">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -476,9 +476,18 @@ function addOption(select,value,label){const o=document.createElement('option');
 function fillNumbers(select,count,want){select.replaceChildren();for(let n=1;n<=count;n++)addOption(select,n,n);select.value=String(Math.max(1,Math.min(count,want)));return Number(select.value)}
 function setStatus(message,error=false){$('status').textContent=message;$('status').classList.toggle('error',error)}
 function setURL(){try{localStorage.setItem('sotw.mobile.reader.beta.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,theme:document.body.classList.contains('beta-light')?'light':'dark',layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',}))}catch{}const p=new URLSearchParams({book:state.book,chapter:String(state.chapter),verse:String(state.verse),translation:state.edition});try{history.replaceState(null,'',location.pathname+'?'+p.toString())}catch(_){/* local/embedded preview without a normal document origin */}}
-function selectedText(){const v=state.bible?.verses?.find(e=>Number(e.verse)===state.verse);return v?((v.spans||[]).map(s=>s.text||'').join('')||'Verse has no display text'):'No text in this edition for the selected verse.'}
+/* Display-only punctuation correction. Published ASV1901 ACT.2.34 has
+   the missing space in its source span; do NOT rewrite the accepted edition. */
+function displayVerseText(verse){
+ const raw=(verse?.spans||[]).map(part=>part.text||'').join('');
+ if(state.edition==='ASV1901'&&state.book==='ACT'&&Number(state.chapter)===2&&Number(verse?.verse)===34){
+  return raw.replace('himself,The Lord','himself, The Lord');
+ }
+ return raw;
+}
+function selectedText(){const v=state.bible?.verses?.find(e=>Number(e.verse)===state.verse);return v?(displayVerseText(v)||'Verse has no display text'):'No text in this edition for the selected verse.'}
 function renderBible(){const b=bookInfo();$('scripture-heading').textContent=b.name+' '+state.chapter;$('scripture-edition').textContent=EDITIONS[state.edition][0]+' · published SOTW edition';$('focus-label').textContent=b.name+' '+state.chapter+':'+state.verse;$('focus-text').textContent=selectedText();$('scripture-credit').textContent=`Edition ${state.edition} · verse text supplied by the SOTW ${EDITIONS[state.edition][0]} repository`;
-const c=$('verses');c.replaceChildren();for(const v of state.bible?.verses||[]){const btn=document.createElement('button');btn.type='button';btn.className='verse'+(Number(v.verse)===state.verse?' selected':'')+(v.paragraph_start?' para-start':'');btn.setAttribute('aria-label',b.name+' '+state.chapter+':'+v.verse);const n=document.createElement('span');n.className='number';n.textContent=v.verse;btn.append(n,document.createTextNode((v.spans||[]).map(s=>s.text||'').join('')));btn.addEventListener('click',()=>chooseVerse(Number(v.verse)));c.append(btn)}const sel=c.querySelector('.selected');if(sel)c.scrollTop=Math.max(0,sel.offsetTop-c.offsetTop);}
+const c=$('verses');c.replaceChildren();for(const v of state.bible?.verses||[]){const btn=document.createElement('button');btn.type='button';btn.className='verse'+(Number(v.verse)===state.verse?' selected':'')+(v.paragraph_start?' para-start':'');btn.setAttribute('aria-label',b.name+' '+state.chapter+':'+v.verse);const n=document.createElement('span');n.className='number';n.textContent=v.verse;btn.append(n,document.createTextNode(displayVerseText(v)));btn.addEventListener('click',()=>chooseVerse(Number(v.verse)));c.append(btn)}const sel=c.querySelector('.selected');if(sel)c.scrollTop=Math.max(0,sel.offsetTop-c.offsetTop);}
 function stripOsis(xml){const raw=String(xml||'').replace(/<\/?(?:div|p|title|l|lg|chapter|milestone)\b[^>]*>/gi,'\n');const doc=new DOMParser().parseFromString(raw,'text/html');return(doc.body.textContent||'').replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim()}
 function content(entry){const t=entry?.reader_content_plain??entry?.content_plain;if(typeof t==='string'&&t.trim())return t;const parts=entry?.content_parts;if(Array.isArray(parts)&&parts.length)return parts.join('\n\n');return stripOsis(entry?.reader_content_osis??entry?.content_osis??'')}
 function voiceCard(label,type){const el=document.createElement('article');el.className='voice'+(type==='jacob'?' jacob':'');const hd=document.createElement('div');hd.className='voice-title';const strong=document.createElement('strong');strong.textContent=label;const chip=document.createElement('span');chip.className='source-chip';chip.textContent=type==='jacob'?'Accepted pastoral commentary':'Historical source';hd.append(strong,chip);const body=document.createElement('div');body.className='voice-body';el.append(hd,body);return{el,body}}
@@ -552,7 +561,7 @@ document.getElementById('betaFind').addEventListener('click',async()=>{
  if(m){const b=BOOKS.find(x=>x.name.toLowerCase()===m[1]||x.code.toLowerCase()===m[1]);
    if(b&&+m[2]>=1&&+m[2]<=b.chapterCount){hit={book:b.code,chapter:+m[2],verse:+(m[3]||1)}}}
  if(hit){betaCloseSheet();state.book=hit.book;state.chapter=hit.chapter;state.verse=hit.verse;document.getElementById('book').value=hit.book;await loadBook();betaStore();return}
- const row=state.bible?.verses?.find(v=>(v.spans||[]).map(x=>x.text||'').join('').toLowerCase().includes(txt));
+ const row=state.bible?.verses?.find(v=>displayVerseText(v).toLowerCase().includes(txt));
  if(row){chooseVerse(Number(row.verse));const target=[...document.getElementById('verses').children].find(x=>x.getAttribute('aria-label')?.endsWith(':'+row.verse));target?.scrollIntoView({block:'nearest'})}
  else alert('No match in this chapter. Search does not yet cover the entire Bible.');
 });
@@ -672,7 +681,7 @@ renderBible=function(){
   const btn=document.createElement('button');btn.type='button';btn.className='reader-verse verse';btn.dataset.verse=String(v.verse);
   btn.setAttribute('aria-label',bookInfo().name+' '+state.chapter+':'+v.verse);
   const sup=document.createElement('span');sup.className='number';sup.textContent=String(v.verse);
-  btn.append(sup,document.createTextNode((v.spans||[]).map(a=>a.text||'').join('')));
+  btn.append(sup,document.createTextNode(displayVerseText(v)));
   // Keep the marker visibly tied to THIS verse. Two sibling buttons; no nested
   // button and no shared click handler with the verse study action.
   const eligibleJacob=(state.jacob||[]).some(e=>jacobDirectAt(e,Number(v.verse))&&
@@ -714,7 +723,7 @@ const modernCommentaryMenu=document.createElement('div');modernCommentaryMenu.id
 function modernPlainVerse(){
  const v=modernSourceVerse(modernStudyVerse);
  modernStudyCard.replaceChildren();
- if(v)modernStudyCard.textContent=(v.spans||[]).map(x=>x.text||'').join('');
+ if(v)modernStudyCard.textContent=displayVerseText(v);
 }
 function modernWordButton(token,row,index,request){
  const btn=document.createElement('button');btn.type='button';btn.className='word-target';btn.textContent=token;btn.dataset.wordIndex=String(index);
@@ -746,7 +755,7 @@ async function modernLoadAlignedWords(request){
    if(!byIndex.has(idx))byIndex.set(idx,row);
   }
   if(!byIndex.size)return;
-  const raw=(modernSourceVerse(modernStudyVerse)?.spans||[]).map(a=>a.text||'').join('').replace(/^\s*[¶§]+\s*/u,'');
+  const raw=displayVerseText(modernSourceVerse(modernStudyVerse)).replace(/^\s*[¶§]+\s*/u,'');
   const parts=raw.match(/\s+|\S+/g)||[];
   const normalized=x=>String(x||'').toLocaleLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
   let tokenNumber=0;
@@ -847,11 +856,11 @@ function modernSearchRender(){
   searchResults.append(button);
  }
  if(q.length>1){
-  const verses=(state.bible?.verses||[]).filter(v=>(v.spans||[]).map(a=>a.text||'').join('').toLowerCase().includes(q)).slice(0,8);
+  const verses=(state.bible?.verses||[]).filter(v=>displayVerseText(v).toLowerCase().includes(q)).slice(0,8);
   for(const v of verses){
    const button=document.createElement('button');button.className='search-hit';button.type='button';
    const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
-   const desc=document.createElement('small');desc.textContent=(v.spans||[]).map(a=>a.text||'').join('').slice(0,110);
+   const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
    button.append(label,desc);button.addEventListener('click',()=>{searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse))});
    searchResults.append(button);
   }
@@ -1298,6 +1307,6 @@ editionModal.veil.addEventListener('click',event=>{
  if(event.target===editionModal.veil)event.stopImmediatePropagation();
 },true);
 </script>
-<script src="./study-ux-repair.js?v=20261117-reader152"></script>
+<script src="./study-ux-repair.js?v=20261117-reader157"></script>
 </body>
 </html>
