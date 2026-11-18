@@ -9,6 +9,15 @@
 
 
 
+## 2026-11-18 | EVIDENCE ACCEPTANCE GATE v1 | OWNER DECISION
+
+**Active SOTW review policy, not yet a live UI adapter:** Owner established a clear claim-by-claim gate: (1) accept directly evidenced facts; (2) accept supported probabilities only with explicit **probable/likely** wording and evidence; (3) if two credible source views are unresolved, retain **both** with source/qualification instead of silently replacing either; (4) if evidence is absent, **exclude public claims** and close the review, while retaining original history in the locked source. Scripture link parsing failures are technical corrections, **not** factual refutations. Evaluate occurrence separately from chronology/geography/people identity.
+
+**Published policy:** [SOTW Evidence Acceptance Gate](https://github.com/Stewards-of-the-Way/bible-foundation/blob/main/docs/biblical-history/people-time-place/SOTW_EVIDENCE_ACCEPTANCE_GATE_v1.md). **Initial owner-reviewed records:** [SOTW decision ledger](https://github.com/Stewards-of-the-Way/bible-foundation/blob/main/data/search/people-time-place/review/v1/owner-evidence-decisions.json); five claim facets saved, including Cain → Enoch (`GEN.4.17`) and Ten Plagues → Exodus 7–12 accepted, unsourced Sumerian cuneiform event excluded, competing Exodus chronology and Dodanim/Rodanites source forms retained. `ACCEPT_DIRECT`, `ACCEPT_PROBABLE_QUALIFIED`, `RETAIN_ALTERNATIVES`, `EXCLUDE_NO_EVIDENCE` are the four final statuses. No automatic bulk approval or infinite research backlog.
+
+**Installation boundary:** The review gate and decisions are saved but **not applied to published search v1 or the reader**. The CGBC checksum-locked master stays unchanged. Keep reader v0.16.3 protected; the next authorized adapter must verify provenance/rights, exact IDs and passage bounds before exposing derivative links.
+
+
 ## 2026-11-18 | SOURCE AUDIT: PEOPLE / PLACES / EVENTS
 
 **Current review checkpoint, not a new data release:** Owner directed evidence review of the approved 2026-10-25 blended CGBC source and published SOTW search projection. Exclude unsourced Sumerian cuneiform-writing from public Bible discovery; accept Cain → Enoch (Cain's son) with `GEN.4.17` as a distinct identity from Enoch of Genesis 5; accept `Exodus 7–12` as valid chapter-scope evidence for Ten Plagues / Passover (no fixed BC date). **No adapter, data, or reader changes installed.**
