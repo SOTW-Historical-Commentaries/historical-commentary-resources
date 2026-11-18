@@ -9,6 +9,18 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | v0.15.4 MAIN BIBLE LIGHT 300 (TWO IPHONE SCREENSHOTS)
+
+**Owner feedback:** Two new iPhone screenshots (8:28 local) show Acts 2 main Scripture in M PLUS 1p Regular 400 and Verse Tools at Acts 2:2, whose overall typography the owner prefers. Owner: “I still think it should be lighter. Verse tools font is the weight for bible main scripture reading. Perhaps switch the two of them?” Save these photos in their original order in the [living Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit).
+
+**Specific source diagnosis:** Live mobile beta HTML/CSS already assigned BOTH the main `.reader-paragraph` AND Verse Tools `#modernStudyVerse` to `M PLUS 1p` at weight **400** (main explicitly 400; Verse Tools `font:normal clamp(...)` is also normal/400). A literal weight swap would do nothing. Their backgrounds, text rendering/interactive link highlights and layout differ, which could affect visual perception. The owner seeks a genuinely lighter main reader, not smaller text or stronger Verse Tools.
+
+**Bounded change (no source rewrite):** Set ONLY main `.mobile-beta #verses .reader-paragraph` to **`font-weight:300!important`** (M PLUS 1p *Light*), leaving Verse Tools at Regular 400 and Word-by-Word at its existing weight. M PLUS 1p source supports an authentic 300 face under SIL OFL. Extend existing official Google Fonts CSS query to `wght@300;400;500;700` so iPhone can download the real Light face rather than synthesize/fallback. Refresh only the study stylesheet asset URL to `?v=20261117-reader154`. No change to size, line height, word-target links, commentary prose, Webster 1828 controls, accepted source catalogues, other repos, or BSB source alignment work.
+
+**Git evidence:** Recoverable pre-change head `71cf63eaee45bdd92118868234383d41ad56e45f`. Two code commits: `3654a995f090ec0060d99e6f623f540ead57b2fa` (CSS) and `fa0fa39dc1cb944a4b7c64ae8b11637b58676ce8` (HTML font CSS URL and style-cache key). Compare confirms exactly two beta files changed: `mobile-bible-beta/study-ux-repair.css` blob `38db2889e8494b96eeb39ae31e28293ff29206d9` and `mobile-bible-beta/index.html` blob `d1cb1dfb2f4bf1f4e8fcc5aa4eb11fe836be3691`. External study JS blob `05d2b130be08473ac63fe9fbd9555cdcd5904840` remains unchanged.
+
+**Source/QA status:** Inline scripts parsed; CSS braces balanced; scoped 300 rule, separate Word-by-Word 500, actual Google Fonts Light weight entry, cache-busted style href verified; GitHub current main contains the code. Direct independent public Pages fetch was unavailable, so **real iPhone font loading, page appearance and final usability remain unverified**. Owner test: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/?book=ACT&chapter=2&verse=1&translation=KJV1769 . Hard refresh, compare main Scripture versus the unchanged Acts 2:2 Verse Tools, and judge readability. Do not imply automatic change to other standalone SOTW translation websites or production approval. The common-word underlining decision remains parked.
+
 ## 2026-11-17 | v0.15.3 MAIN BIBLE REGULAR 400 FONT TEST (OWNER AUTHORIZED)
 
 Owner reviewed three v0.15.2 iPhone screenshots, preferred M PLUS 1p typography as shown in Verse Tools, but reported that main Scripture paragraphs at medium weight 500 looked too heavy. Owner explicitly authorized making this adjustment live.
