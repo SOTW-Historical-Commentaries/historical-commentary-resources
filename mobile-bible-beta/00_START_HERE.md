@@ -4,9 +4,20 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active reader **v0.16.3 reference lookup hotfix** (2026-11-18); latest implementation commit `21906406050b42dcc31fee64354d749e50006298`. The v0.16.2 header and commentary layout remain, and Scripture/author source data are unchanged. On-device search navigation confirmation is pending.  
+**Status:** Active reader **v0.17.0, three-source discovery integration** (2026-11-18), code snapshot `2516542732de98158ada78877364a364cbc7e835` before these documentation commits. Source-contract and Chromium mobile-viewport QA PASS. Existing v0.16.3 navigation, commentary and source baselines preserved; real-iPhone acceptance and whole-Bible text Search v1 remain pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+
+
+## 2026-11-18 | THREE DATASETS UI INTEGRATED | v0.17.0
+
+**Reader integration now installed in `main`:** Published Nave/Torrey historical topic data, the accepted CGBC People/Places/Events source (185 people, 65 qualified places, 6 events, 257 relationships, 2 retained alternatives), and the full BSB HelloAO original-language corpus each have their own reader UI entry points. This replaces earlier notes saying all three collections were *publication-only and UI not installed*. Older milestones remain as chronological history, not current state.
+
+**Find and use:** Header Search continues exact Scripture lookup + current-chapter text first, then historical topic and accepted people/place/event result groups. Historical topic details show the mapped Scripture references with source attribution. Accepted entity details show qualified evidence and stable biblical links, with no unapproved source promotions. Tap a verse to open the existing Study panel and choose `Related topics & accepted people` for verse and separately labeled chapter-context backlinks, or `BSB original-language forms` for Hebrew/Greek sequence, parsing, publisher gloss and Strong's IDs. No inferred BSB-to-English word alignment. Original `Word-by-Word`, dictionary, Jacob, and six historical writers stay independently sourced.
+
+**Files:** `discovery-integrations.js`, `discovery-integrations.css`, `index.html`, `sw.js` cache `v0172`. Code HEAD pre-documentation `2516542732de98158ada78877364a364cbc7e835`. Source contract QA [run 44369709387](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44369709387) **PASS**; Chromium mobile viewport interaction [run 44369678640](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44369678640) **PASS**. The published topic reverse index's map-shaped `verses` contract is now correctly supported. Check Pages [deployment run 44369709043](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44369709043) for final host status.
+
+**Honest remaining work:** Browser-tested code does not substitute for real iPhone QA; forgiving Bible-wide word/phrase Search v1 is still not installed. Original translation data, accepted Jacob commentary, source/history masters and Source IDs are untouched. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for evidence, exclusions, test cases, and original sources. Live beta: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/.
 
 
 ## 2026-11-18 | ACCEPTED PEOPLE / PLACE SOURCE PUBLISHED | VERIFIED
