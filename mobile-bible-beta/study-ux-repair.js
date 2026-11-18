@@ -234,7 +234,7 @@
     }
     studyOverlayBody.append(makeVerseNavigation());
     const selected=modernSourceVerse(modernStudyVerse);
-    const raw=(selected?.spans||[]).map(x=>x.text||'').join('').replace(/^\s*[¶§]+\s*/u,'');
+    const raw=(typeof displayVerseText==='function' ? displayVerseText(selected) : (selected?.spans||[]).map(x=>x.text||'').join('')).replace(/^\s*[¶§]+\s*/u,'');
     const verse=document.createElement('p');verse.className='word-sequence-verse';
     verse.textContent=raw;studyOverlayBody.append(verse);
     const section=document.createElement('p');section.className='word-sequence-caption';
