@@ -423,10 +423,12 @@
 .mobile-beta #studyOverlayBody .word-sequence-plain{
  font-family:"M PLUS 1p",system-ui,-apple-system,"Segoe UI",sans-serif!important;
 }
-/* Owner iPhone review: regular weight for the main Bible, keeping the
-   preferred M PLUS 1p family and the Word-by-Word styling unchanged. */
+/* Owner screenshot comparison: main Bible should look optically lighter
+   than Verse Tools. Both were already 400 Regular, so use the actual M PLUS
+   1p Light 300 face here, leaving Verse Tools at its existing Regular 400.
+   Keep sizes, line-height, original-language forms and commentary unchanged. */
 .mobile-beta #verses .reader-paragraph{
- font-weight:400!important;
+ font-weight:300!important;
 }
 .mobile-beta #studyOverlayBody .word-sequence-verse{
  font-weight:500!important;
