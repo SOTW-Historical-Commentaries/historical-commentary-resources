@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - "mobile-bible-beta/tests/discovery-browser.test.cjs"
+      - "mobile-bible-beta/study-ux-repair.js"
+      - "mobile-bible-beta/discovery-integrations.js"
+      - "mobile-bible-beta/index.html"
       - ".github/workflows/reader-discovery-browser-smoke.yml"
 
 permissions:
