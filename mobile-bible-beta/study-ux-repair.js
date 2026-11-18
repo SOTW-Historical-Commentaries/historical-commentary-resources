@@ -191,6 +191,10 @@
           dictionaryReturnToAtlas=true;
           showWebsterDictionary(englishWord);
         });
+        // Reserve a small footer INSIDE the main card instead of placing a
+        // second 36px row below the meaning. The separately tappable dictionary
+        // button keeps its 36px target while visually sharing unused card space.
+        wrapper.classList.add('has-webster');
         wrapper.append(dictionary);
       }).catch(()=>{/* Absent dictionary data must not display a dead control. */});
     }
