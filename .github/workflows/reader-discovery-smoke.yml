@@ -1,0 +1,64 @@
+name: SOTW reader discovery integration QA
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "mobile-bible-beta/index.html"
+      - "mobile-bible-beta/discovery-integrations.js"
+      - "mobile-bible-beta/discovery-integrations.css"
+      - "mobile-bible-beta/sw.js"
+      - "mobile-bible-beta/tests/discovery-integration.test.cjs"
+      - ".github/workflows/reader-discovery-smoke.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript syntax gates
+        run: |
+          node --check mobile-bible-beta/discovery-integrations.js
+          node --check mobile-bible-beta/study-ux-repair.js
+          node --check mobile-bible-beta/tests/discovery-integration.test.cjs
+      - name: Adapter behavior, stable IDs, Scripture and safety gates
+        run: node mobile-bible-beta/tests/discovery-integration.test.cjs
+      - name: Published source contracts (all three data collections)
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'NODE'
+          const assert=require('node:assert/strict');
+          const urls={
+            topics:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/topics.json',
+            people:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/search/people-time-place/accepted/v1/accepted-source.json',
+            bsb:'https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/GEN/01.json'
+          };
+          (async()=>{
+            const read=async(url)=>{
+              const response=await fetch(url,{signal:AbortSignal.timeout(25000)});
+              assert(response.ok,'Remote source HTTP '+response.status);
+              return response.json();
+            };
+            const [topics,people,bsb]=await Promise.all(Object.values(urls).map(read));
+            assert.equal(topics.schema,'sotw-topics-search-index/1.0.0');
+            assert.equal(topics.topics.length,5745);
+            assert.equal(people.schema,'sotw-accepted-people-place-source/1.0.0');
+            assert.equal(people.people.length,185);assert.equal(people.places.length,65);
+            assert.equal(people.events.length,6);assert.equal(people.relationships.length,257);
+            assert(!people.events.some(x=>x.id==='event-theonize-sumerian-writing'));
+            const plagues=people.events.find(x=>x.id==='event-theonize-ten-plagues');
+            assert.deepEqual(plagues.scriptureScopes,['EXO.7','EXO.8','EXO.9','EXO.10','EXO.11','EXO.12']);
+            assert.equal(bsb.schema,'sotw-bsb-helloao-interlinear-source/1.0.0');
+            assert.equal(bsb.book_code,'GEN');assert.equal(bsb.chapter,1);
+            assert(bsb.verses.some(v=>v.id==='GEN.1.1'&&v.words?.[0]?.strongs));
+            console.log('PASS: three live GitHub source contracts and provenance rules');
+          })().catch(e=>{console.error(e);process.exit(1)});
+          NODE
