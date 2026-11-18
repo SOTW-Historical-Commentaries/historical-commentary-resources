@@ -1,342 +1,265 @@
-/* SOTW Discovery v0.17: three independently attributed, published data adapters.
-   1) NEUU Nave/Torrey historical topics, 2) accepted CGBC people/place/event source,
-   3) HelloAO BSB original-language forms. Nothing changes the Scripture renderer.
-   No English-token alignments are inferred from HelloAO bsbPos. */
+/* SOTW Bible Topics UI. The only discovery adapter in the public reader.
+   Nave/Torrey is an attributed historical index, not doctrine. The
+   People/Places/Events research collection remains published separately,
+   but is NOT loaded into the reader, searched or shown in verse study.
+   BSB publisher interlinear belongs to the existing Word-by-Word view. */
 (function(root){
 'use strict';
 const TOPICS='https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/';
-const ACCEPTED='https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/search/people-time-place/accepted/v1/';
-const BSB='https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/';
-const SOURCES={
- topics:'https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/topics/nave-torrey/v1',
- people:'https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/search/people-time-place/accepted/v1',
- language:'https://github.com/SOTW-BSB/-bsb-resources/tree/main/data/bsb/helloao-interlinear/v1'
-};
+const SOURCE='https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/topics/nave-torrey/v1';
 const asText=x=>String(x??'').trim();
 const norm=x=>asText(x).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ');
-const tokenMatch=(title,query)=>{const t=norm(title),q=norm(query);return t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;};
 function rankTopics(rows,query,limit=8){
- if(norm(query).length<2)return [];
- return rows.filter(x=>x&&x.id&&x.title&&tokenMatch(x.title,query)<99)
- .sort((a,b)=>tokenMatch(a.title,query)-tokenMatch(b.title,query)||a.title.localeCompare(b.title))
- .slice(0,limit);
-}
-function rankEntities(data,query,limit=8){
- if(norm(query).length<2)return [];
- const combined=[...(data.people||[]).map(x=>({...x,type:'person'})),
- ...(data.places||[]).map(x=>({...x,type:'place'})),
- ...(data.events||[]).map(x=>({...x,type:'event'}))];
- return combined.filter(x=>x.id&&x.name&&tokenMatch(x.name,query)<99)
- .sort((a,b)=>tokenMatch(a.name,query)-tokenMatch(b.name,query)||a.name.localeCompare(b.name))
- .slice(0,limit);
+ const q=norm(query);
+ if(q.length<2||!Array.isArray(rows))return [];
+ const rank=x=>{const t=norm(x.title);
+  return t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;};
+ return rows.filter(x=>x&&x.id&&x.title&&rank(x)<99)
+  .sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title))
+  .slice(0,limit);
 }
 function parseScope(scope,bookRows){
  const m=/^([1-3]?[A-Z]{2,3})\.(\d+)(?:\.(\d+))?$/.exec(asText(scope));
- if(!m)return null;
- const book=bookRows.find(b=>b.code===m[1]),chapter=Number(m[2]),verse=Number(m[3]||1);
- if(!book||chapter<1||chapter>book.chapterCount||verse<1||verse>176)return null;
+ if(!m||!Array.isArray(bookRows))return null;
+ const book=bookRows.find(b=>b.code===m[1]);
+ const chapter=Number(m[2]),verse=Number(m[3]||1);
+ if(!book||!Number.isInteger(chapter)||chapter<1||chapter>book.chapterCount||
+  !Number.isInteger(verse)||verse<1||verse>176)return null;
  return {book,chapter,verse,hasVerse:!!m[3]};
 }
 function verseTopicIds(index,scope){
- // Published index/by-scripture/{BOOK}.json stores verses as an ID-keyed map.
  const verses=index?.verses;
  if(!verses||typeof verses!=='object'||Array.isArray(verses))return [];
  return Array.isArray(verses[scope])?verses[scope]:[];
 }
-function entityIdsForScope(data,scope){
- const map=data?.reverseScriptureScopes||{};
- const key=scope.split('.').slice(0,2).join('.');
- return Array.from(new Set(map[scope]||[]));
+function sourceHeading(label){
+ const original=asText(label);
+ const cleaned=original.replace(/^[.\s·]+/,'').replace(/\s+/g,' ').trim();
+ if(!cleaned||/^\d{2,5}\s*:?$/.test(cleaned)||/^[.,:;]+$/.test(cleaned)||
+  /(?:of|from|in)\s*[1-3]?\s*(?:Ge|Gen|Ex|Exo)\s*\d/i.test(cleaned))
+  return {title:'Other indexed passages',sourceLabel:original};
+ return {title:cleaned,sourceLabel:''};
 }
-function getWords(chapter,book,number,verse){
- if(!chapter||chapter.schema!=='sotw-bsb-helloao-interlinear-source/1.0.0'||
- chapter.edition_id!=='BSB'||chapter.book_code!==book||Number(chapter.chapter)!==Number(number))return [];
- const row=(chapter.verses||[]).find(v=>v.id===book+'.'+number+'.'+verse&&Number(v.verse)===Number(verse));
- return Array.isArray(row?.words)?row.words.filter(w=>w&&typeof w.text==='string'&&Number.isInteger(w.pos)).sort((a,b)=>a.pos-b.pos):[];
+function topicSections(topic){
+ const mapped=new Map((topic?.references||[]).filter(x=>x?.status==='mapped'&&
+  asText(x.raw)&&Array.isArray(x.verse_ids)&&x.verse_ids.length).map(x=>[x.raw,x]));
+ return (topic?.aspects||[]).map(aspect=>{
+  const seen=new Set();
+  const refs=(aspect.references||[]).filter(raw=>{
+   if(!mapped.has(raw)||seen.has(raw))return false;
+   seen.add(raw);return true;
+  }).map(raw=>({raw,scopes:mapped.get(raw).verse_ids}));
+  return {...sourceHeading(aspect.label),references:refs};
+ }).filter(section=>section.references.length);
 }
-root.SOTWDiscoveryCore={rankTopics,rankEntities,parseScope,verseTopicIds,entityIdsForScope,getWords};
+root.SOTWDiscoveryCore={rankTopics,parseScope,verseTopicIds,sourceHeading,topicSections};
 if(typeof document==='undefined')return;
+if(typeof state==='undefined'||typeof searchInput==='undefined'||
+ typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
 
-/* The reader owns state, navigation, study sheet, reference ranking, and author UI.
-   This is one load-after adapter with read-only async fetches and cache. */
-if(typeof state==='undefined'||typeof searchInput==='undefined'||typeof betaOpen==='undefined')return;
-let topicIndex=null,acceptedData=null;
 const cache=new Map();
 function sourceJson(url){
  if(!cache.has(url)){
-  const controller=new AbortController();
-  const timeout=setTimeout(()=>controller.abort(),18000);
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),18000);
   const pending=fetch(url,{cache:'no-store',signal:controller.signal}).then(r=>{
-   if(!r.ok)throw Error('HTTP '+r.status+' for '+url);return r.json();
+   if(!r.ok)throw Error('HTTP '+r.status);
+   return r.json();
   }).catch(e=>{cache.delete(url);throw e}).finally(()=>clearTimeout(timeout));
   cache.set(url,pending);
  }
  return cache.get(url);
 }
+let topicIndex=null;
 async function topicsIndex(){
- if(!topicIndex){
-  const data=await sourceJson(TOPICS+'index/topics.json');
-  if(data.schema!=='sotw-topics-search-index/1.0.0'||!Array.isArray(data.topics))throw Error('Topics index contract mismatch');
-  topicIndex=data.topics;
- }
- return topicIndex;
+ if(topicIndex)return topicIndex;
+ const data=await sourceJson(TOPICS+'index/topics.json');
+ if(data.schema!=='sotw-topics-search-index/1.0.0'||!Array.isArray(data.topics))
+  throw Error('Unexpected topics index');
+ topicIndex=data.topics;return topicIndex;
 }
-async function accepted(){
- if(!acceptedData){
-  const data=await sourceJson(ACCEPTED+'accepted-source.json');
-  if(data.schema!=='sotw-accepted-people-place-source/1.0.0'||
-   data.status!=='PUBLISHED_ACCEPTED_SOURCE_NOT_UI_CONNECTED'||!Array.isArray(data.people)||
-   !Array.isArray(data.places)||!Array.isArray(data.events))throw Error('Accepted source contract mismatch');
-  acceptedData=data;
- }
- return acceptedData;
+function el(tag,cls,value){
+ const node=document.createElement(tag);
+ if(cls)node.className=cls;
+ if(value!==undefined)node.textContent=value;
+ return node;
 }
-function el(tag,cls,text){
- const x=document.createElement(tag);
- if(cls)x.className=cls;
- if(text!==undefined)x.textContent=text;
- return x;
+function note(parent,value,cls='discovery-note'){
+ const p=el('p',cls,value);parent.append(p);return p;
 }
-function paragraph(parent,text,cls='discovery-note'){const p=el('p',cls,text);parent.append(p);return p;}
-function link(parent,label,url){const a=el('a','discovery-link',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);return a;}
-function title(parent,heading,sub){
- parent.append(el('h3','discovery-heading',heading));
- if(sub)paragraph(parent,sub);
+function button(parent,label,action,cls='discovery-ref'){
+ const b=el('button',cls,label);b.type='button';
+ b.addEventListener('click',action);parent.append(b);return b;
 }
-function button(parent,txt,fn,cls='discovery-card'){
- const b=el('button',cls,txt);b.type='button';b.addEventListener('click',fn);parent.append(b);return b;
+function sourceLink(parent){
+ const a=el('a','discovery-link','About the Nave/Torrey historical source');
+ a.href=SOURCE;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);
 }
-const detail=modalLayer('sotwDiscoveryDetail','Source detail');
+const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
 detail.panel.classList.add('discovery-dialog');
-function showDetail(heading,make){
- detail.panel.querySelectorAll('.discovery-detail-body').forEach(x=>x.remove());
+function showDetail(heading){
+ detail.panel.querySelectorAll('.discovery-detail-body').forEach(node=>node.remove());
  const body=el('div','discovery-detail-body');
- title(body,heading);
- make(body);
- detail.panel.append(body);
+ body.append(el('h3','discovery-heading',heading));detail.panel.append(body);
  searchModal.veil.classList.remove('is-open');
- detail.veil.classList.add('is-open');
- detail.panel.scrollTop=0;
+ detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
+ return body;
 }
 async function jump(scope){
- const target=parseScope(scope,BOOKS);if(!target)return;
- const b=target.book;
- try{
-  const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+target.chapter+'.json');
-  const max=Number(idx?.verse_count||0);
-  if(idx?.canonical_chapter!==b.code+'.'+target.chapter||max<1||(target.hasVerse&&target.verse>max))
-   throw Error('Unverified Scripture scope');
-  detail.veil.classList.remove('is-open');
-  searchModal.veil.classList.remove('is-open');
-  betaCloseSheet();
-  const same=state.book===b.code&&state.chapter===target.chapter;
-  state.book=b.code;state.chapter=target.chapter;state.verse=target.verse;
-  $('book').value=b.code;
-  if(!same)await loadBook();else chooseVerse(target.verse);
-  if(state.bible)modernJumpToVerse(target.verse);
- }catch(e){
-  const body=detail.panel.querySelector('.discovery-detail-body');
-  if(body)paragraph(body,'Unable to verify that passage. Nothing was changed.','discovery-error');
- }
-}
-function scopeButton(parent,scope){
  const parsed=parseScope(scope,BOOKS);
  if(!parsed)return;
- button(parent,parsed.book.name+' '+parsed.chapter+(parsed.hasVerse?':'+parsed.verse:''),()=>jump(scope),'discovery-ref');
+ const b=parsed.book;
+ try{
+  const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+parsed.chapter+'.json');
+  const max=Number(idx?.verse_count||0);
+  if(idx?.canonical_chapter!==b.code+'.'+parsed.chapter||max<1||
+     (parsed.hasVerse&&parsed.verse>max))throw Error('Invalid Bible scope');
+  detail.veil.classList.remove('is-open');searchModal.veil.classList.remove('is-open');
+  betaCloseSheet();
+  const same=state.book===b.code&&state.chapter===parsed.chapter;
+  state.book=b.code;state.chapter=parsed.chapter;state.verse=parsed.verse;
+  $('book').value=b.code;
+  if(!same)await loadBook();else chooseVerse(parsed.verse);
+  if(state.bible)modernJumpToVerse(parsed.verse);
+ }catch{
+  const body=detail.panel.querySelector('.discovery-detail-body');
+  if(body)note(body,'Could not verify the Scripture location. The reader was not changed.','discovery-error');
+ }
 }
-function scopedLinks(parent,scopes,limit=20){
- const row=el('div','discovery-references');parent.append(row);
- for(const s of Array.from(new Set(scopes||[])).slice(0,limit))scopeButton(row,s);
- if((scopes||[]).length>limit)paragraph(parent,'Additional references are preserved in the published source.');
+function referenceButton(parent,ref){
+ // One historical source citation, not one separate chip for each verse.
+ // When it names several verses, the first verified one is the navigation
+ // destination, and the *full citation* remains visible verbatim.
+ const first=(ref.scopes||[]).find(s=>parseScope(s,BOOKS));
+ if(!first)return false;
+ const label=asText(ref.raw).replace(/(\d)\-(\d)/g,'$1–$2');
+ const b=button(parent,label,()=>jump(first),'discovery-citation');
+ b.setAttribute('aria-label','Open first cited verse of '+label);
+ return true;
+}
+function expandList(parent,rows,render,visibleCount=4){
+ const list=el('div','discovery-passage-list');parent.append(list);
+ const first=rows.slice(0,visibleCount);
+ first.forEach(x=>render(list,x));
+ if(rows.length>first.length){
+  const more=button(parent,'Show all '+rows.length+' references',()=>{
+   list.replaceChildren();rows.forEach(x=>render(list,x));more.remove();
+  },'discovery-more');
+  more.setAttribute('aria-expanded','false');
+ }
 }
 async function showTopic(topic){
- showDetail('Historical Bible Topic · '+topic.title,body=>{
-  paragraph(body,'Nave/Torrey historical source associations, not an SOTW doctrinal ruling.');
-  paragraph(body,'Loading published topic references…');
- });
- const body=detail.panel.querySelector('.discovery-detail-body');
+ const body=showDetail('Historical Bible Topic · '+topic.title);
+ note(body,'Historical Nave/Torrey references. These index associations are not doctrinal rulings.');
+ const busy=note(body,'Loading source references…');
  try{
   const shard=await sourceJson(TOPICS+topic.shard);
   const row=shard?.topics?.find(t=>t.id===topic.id);
-  if(!body.isConnected||!row||shard.schema!=='sotw-topics-neuu-shard/1.0.0')throw Error('Topic source unavailable');
-  body.querySelectorAll('p').forEach((p,i)=>{if(i===1)p.remove()});
-  let shown=0;
-  for(const aspect of row.aspects||[]){
-   const mapped=(row.references||[]).filter(r=>r.status==='mapped'&&Array.isArray(r.verse_ids));
-   const scopes=Array.from(new Set(mapped.filter(r=>(aspect.references||[]).includes(r.raw)).flatMap(r=>r.verse_ids)));
-   if(!scopes.length)continue;
-   const group=el('section','discovery-section');title(group,asText(aspect.label)||'Related Scriptures');
-   scopedLinks(group,scopes,12);body.append(group);shown++;
-   if(shown>=5)break;
-  }
-  if(!shown)paragraph(body,'No validated verse-level links are published for this topic.');
-  link(body,'Nave/Torrey source and attribution',SOURCES.topics);
- }catch{if(body.isConnected)paragraph(body,'The topic detail could not be loaded. The original source was not changed.','discovery-error')}
-}
-function showEntity(x,data){
- const kind=x.type==='person'?'Person':x.type==='place'?'Place':'Event';
- showDetail(kind+' · '+x.name,body=>{
-  paragraph(body,'Scripture and historical-source connections. Dates, relationships and proposed locations retain their source qualifications.');
-  const source=[...(x.sourceReferences||[]),...(x.sourceReference?[x.sourceReference]:[])].filter(Boolean);
-  if(source.length)paragraph(body,'Source: '+source.slice(0,4).join(' · '));
-  if(x.dateQualification)paragraph(body,x.dateQualification);
-  if(x.mapWarning)paragraph(body,x.mapWarning);
-  if(x.scriptureQualification)paragraph(body,x.scriptureQualification);
-  if(x.scriptureScopes?.length){title(body,'Scripture references');scopedLinks(body,x.scriptureScopes,16);}
-  const links=(data.relationships||[]).filter(r=>r.from===x.id||r.to===x.id).slice(0,12);
-  if(links.length){
-   title(body,'Documented connections');
-   const people=new Map(data.people.map(p=>[p.id,p.name]));
-   for(const r of links){
-    const to=r.from===x.id?r.to:r.from;
-    const label=people.get(to)||to;
-    const row=el('div','discovery-relationship',label+' · '+r.relationship);
-    body.append(row);
-    if(r.gate==='ACCEPT_DIRECT')scopedLinks(body,r.scriptureScopes,2);
+  if(!body.isConnected||!detail.veil.classList.contains('is-open'))return;
+  if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Topic not found');
+  busy.remove();
+  const sections=topicSections(row);
+  if(!sections.length){note(body,'This topic has no mapped Scripture citations.');sourceLink(body);return;}
+  note(body,sections.length+' indexed sections. Each citation opens at its first referenced verse.','discovery-guide');
+  const host=el('div','discovery-topic-groups');body.append(host);
+  function renderGroup(section,index){
+   const group=el('details','discovery-topic-group');
+   group.open=index===0;
+   const summary=el('summary','discovery-topic-summary');
+   summary.append(el('span','',section.title));
+   summary.append(el('small','',section.references.length+' '+(section.references.length===1?'passage':'passages')));
+   group.append(summary);
+   if(section.sourceLabel){
+    const original=el('p','discovery-source-heading','Original index heading: '+section.sourceLabel);
+    group.append(original);
    }
+   expandList(group,section.references,referenceButton,4);
+   host.append(group);
   }
-  const alt=(data.alternatives||[]).filter(a=>a.entityId===x.id);
-  for(const a of alt)paragraph(body,'Alternative interpretations: '+a.alternatives.map(t=>t.label).join(' / '));
-  link(body,'Source information and attribution',SOURCES.people);
- });
+  sections.slice(0,5).forEach(renderGroup);
+  if(sections.length>5){
+   const show=button(body,'Show all '+sections.length+' topic sections',()=>{
+    host.replaceChildren();sections.forEach(renderGroup);show.remove();
+   },'discovery-more');
+  }
+  sourceLink(body);
+ }catch{
+  if(body.isConnected){busy.textContent='Topic references are unavailable right now.';busy.className='discovery-error';}
+ }
 }
-/* Add secondary discovery results only after the reader's own Scripture hits.
-   Results do not imply all-Bible word/phrase search has been implemented. */
-searchNote.textContent='Scripture references and current-chapter text first. Historical Bible Topics and People/Places/Events appear below. Whole-Bible word search is not yet available.';
-searchInput.placeholder='Scripture, current-chapter words, topic or person';
-const searchPending=el('p','discovery-search-loading');searchPending.hidden=true;
-searchResults.after(searchPending);
+// The reader's own Scripture results remain at the top. No Person, Place or
+// Event index is fetched here: its directory awaits a future evidence-led UI.
+searchNote.textContent='Scripture references and current-chapter text first. Historical Bible Topics appear separately. Whole-Bible word search is not yet available.';
+searchInput.placeholder='Scripture, current-chapter words, or Bible topic';
+const pending=el('p','discovery-search-loading');pending.hidden=true;
+searchResults.after(pending);
 let seq=0,timer=0;
-async function appendDiscovery(q,n){
- const [topicResult,peopleResult]=await Promise.allSettled([topicsIndex(),accepted()]);
- if(n!==seq||norm(searchInput.value)!==norm(q)||!searchModal.veil.classList.contains('is-open'))return;
- searchPending.hidden=true;
- const topics=topicResult.status==='fulfilled'?rankTopics(topicResult.value,q,6):[];
- const entities=peopleResult.status==='fulfilled'?rankEntities(peopleResult.value,q,6):[];
- if(!topics.length&&!entities.length){
-  if(topicResult.status==='rejected'||peopleResult.status==='rejected')
-   paragraph(searchResults,'Some discovery sources could not be reached; Scripture search remains available.','discovery-error');
-  return;
- }
- if(topics.length){
-  searchResults.append(el('h4','discovery-search-label','Historical Bible Topics (Nave / Torrey)'));
-  for(const row of topics)button(searchResults,row.title+' · '+row.verse_link_count+' source links',()=>showTopic(row),'search-hit discovery-hit');
- }
- if(entities.length){
-  searchResults.append(el('h4','discovery-search-label','People, Places & Events'));
-  for(const item of entities)button(searchResults,item.name+' · '+item.type,()=>showEntity(item,peopleResult.value),'search-hit discovery-hit');
+async function appendTopicSearch(query,current){
+ try{
+  const topics=rankTopics(await topicsIndex(),query,8);
+  if(current!==seq||norm(searchInput.value)!==norm(query)||
+   !searchModal.veil.classList.contains('is-open'))return;
+  pending.hidden=true;
+  if(!topics.length)return;
+  searchResults.append(el('h4','discovery-search-label','Historical Bible Topics · Nave/Torrey'));
+  topics.forEach(t=>button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit'));
+ }catch{
+  if(current===seq&&searchModal.veil.classList.contains('is-open')){
+   pending.hidden=true;
+   note(searchResults,'Historical topic source unavailable. Scripture search still works.','discovery-error');
+  }
  }
 }
 searchInput.addEventListener('input',()=>{
- const n=++seq;clearTimeout(timer);searchPending.hidden=true;
- const q=searchInput.value.trim();
- if(q.length<2||modernParseReference(q))return;
- searchPending.textContent='Checking historical discovery sources…';searchPending.hidden=false;
- timer=setTimeout(()=>appendDiscovery(q,n),260);
+ const current=++seq;clearTimeout(timer);pending.hidden=true;
+ const query=searchInput.value.trim();
+ if(query.length<2||modernParseReference(query))return;
+ pending.textContent='Checking historical Bible Topics…';pending.hidden=false;
+ timer=setTimeout(()=>appendTopicSearch(query,current),260);
 });
 searchModal.veil.addEventListener('click',()=>{
- if(!searchModal.veil.classList.contains('is-open')){++seq;clearTimeout(timer);searchPending.hidden=true;}
+ if(!searchModal.veil.classList.contains('is-open')){
+  ++seq;clearTimeout(timer);pending.hidden=true;
+ }
 });
-/* Verse-scoped connections, lazy loaded. A chapter-level source card never
-   becomes an unsupported hit on every individual verse. */
+// Verse-specific reverse index references. Never infer a separate link for
+// every verse in a chapter or claim that historical topic tags are doctrine.
 const verseDiscovery=el('section','discovery-study');
-const verseToggle=button(verseDiscovery,'Related topics & people ›',()=>showVerseDiscovery(),'discovery-launch');
+button(verseDiscovery,'Related Bible Topics ›',()=>showVerseTopics(),'discovery-launch');
 const verseBody=el('div','discovery-verse-body');verseBody.hidden=true;verseDiscovery.append(verseBody);
 modernCommentaryMenu.before(verseDiscovery);
 let verseSeq=0;
-async function showVerseDiscovery(){
- const book=state.book,chapter=state.chapter,verse=modernStudyVerse,n=++verseSeq;
- const key=book+'.'+chapter+'.'+verse,chapterKey=book+'.'+chapter;
+async function showVerseTopics(){
+ const book=state.book,chapter=state.chapter,verse=modernStudyVerse,current=++verseSeq;
+ const scope=book+'.'+chapter+'.'+verse;
  verseBody.hidden=false;verseBody.replaceChildren();
- paragraph(verseBody,'Loading passage connections…');
- const [topicIndexResult,reverseResult,peopleResult]=await Promise.allSettled([
-  topicsIndex(),sourceJson(TOPICS+'index/by-scripture/'+book+'.json'),accepted()
+ note(verseBody,'Loading topic references…');
+ const [indexResult,reverseResult]=await Promise.allSettled([
+  topicsIndex(),sourceJson(TOPICS+'index/by-scripture/'+book+'.json')
  ]);
- if(n!==verseSeq||!document.body.classList.contains('study-open')||
- state.book!==book||state.chapter!==chapter||modernStudyVerse!==verse)return;
- verseBody.replaceChildren();
- let total=0;
- if(reverseResult.status==='fulfilled'&&topicIndexResult.status==='fulfilled'){
-  const topicIds=verseTopicIds(reverseResult.value,key);
-  const names=new Map(topicIndexResult.value.map(t=>[t.id,t]));
-  const found=topicIds.map(id=>names.get(id)).filter(Boolean).slice(0,8);
-  if(found.length){title(verseBody,'Historical topic links','Source associations from Nave/Torrey, not doctrine.');
-   for(const t of found)button(verseBody,t.title,()=>showTopic(t),'discovery-ref');
-   total+=found.length;}
- }
- if(peopleResult.status==='fulfilled'){
-  const data=peopleResult.value,ids=entityIdsForScope(data,key);
-  const entries=[...data.people.map(x=>({...x,type:'person'})),
-   ...data.places.map(x=>({...x,type:'place'})),...data.events.map(x=>({...x,type:'event'}))];
-  const map=new Map(entries.map(x=>[x.id,x]));
-  const found=ids.map(id=>map.get(id)).filter(Boolean).slice(0,8);
-  if(found.length){title(verseBody,'People, places & events');
-   for(const x of found)button(verseBody,x.name,()=>showEntity(x,data),'discovery-ref');
-   total+=found.length;}
-  const chapters=entityIdsForScope(data,chapterKey).map(id=>map.get(id)).filter(Boolean).slice(0,6);
-  if(chapters.length){title(verseBody,'Chapter-level context','Covers this chapter generally; not a claim about every verse.');
-   for(const x of chapters)button(verseBody,x.name,()=>showEntity(x,data),'discovery-ref');
-   total+=chapters.length;}
- }
- if(!total)paragraph(verseBody,'No validated discovery links available for this verse; a source may be unavailable. This does not mean no historical material exists.');
- link(verseBody,'Topic sources',SOURCES.topics);paragraph(verseBody,' · ','discovery-inline');
- link(verseBody,'Research source',SOURCES.people);
-}
-/* Optional original-text order of the published BSB interlinear. The main
-   Word-by-Word panel uses the same words in publisher-provided bsbPos English
-   phrase order. The two orders are different, but both are source supplied. */
-const originalSection=el('section','discovery-study discovery-bsb');
-const originalButton=button(originalSection,'BSB original-language order ›',()=>showOriginalVerse(),'discovery-launch');
-const originalBody=el('div','discovery-original-body');originalBody.hidden=true;originalSection.append(originalBody);
-const originalEntry=document.getElementById('originalLanguageEntry');
-if(!originalEntry)throw Error('SOTW word-study entry point unavailable');
-originalEntry.after(originalSection);
-let originalSeq=0;
-async function showOriginalVerse(){
- const book=state.book,chapter=state.chapter,verse=modernStudyVerse,n=++originalSeq;
- originalBody.hidden=false;originalBody.replaceChildren();
- paragraph(originalBody,'Loading the published BSB interlinear source…');
- try{
-  const pad=String(chapter).padStart(2,'0');
-  const data=await sourceJson(BSB+'chapters/'+book+'/'+pad+'.json');
-  if(n!==originalSeq||!document.body.classList.contains('study-open')||
+ if(current!==verseSeq||!document.body.classList.contains('study-open')||
     state.book!==book||state.chapter!==chapter||modernStudyVerse!==verse)return;
-  const words=getWords(data,book,chapter,verse);
-  originalBody.replaceChildren();
-  if(!words.length){paragraph(originalBody,'No verified source-form record is available for this verse.');return;}
-  title(originalBody,bookInfo().name+' '+chapter+':'+verse+' · source-language sequence');
-  paragraph(originalBody,'Berean / HelloAO interlinear: pos is original-language order, bsbPos is BSB English-phrase order, and each gloss is publisher supplied. This view follows the original order.');
-  const list=el('div','discovery-word-grid');
-  for(const w of words){
-   const card=el('div','discovery-word');
-   card.append(el('strong','',w.text));
-   if(w.transliteration)card.append(el('span','',w.transliteration));
-   if(w.gloss)card.append(el('span','',w.gloss));
-   if(w.parsingFull||w.parsing)card.append(el('small','',w.parsingFull||w.parsing));
-   const id=/^[HG]\d{1,5}$/.test(asText(w.strongs))?w.strongs:'';
-   if(id){
-    const sb=button(card,id,()=>{
-     betaLexicon('strongs:'+id,modernStudyRequest,w.text);
-     betaWordDetail.scrollIntoView({block:'nearest'});
-    },'discovery-strongs');
-    sb.setAttribute('aria-label','Read existing SOTW Strong’s '+id+' entry');
-   }
-   list.append(card);
-  }
-  originalBody.append(list);
-  link(originalBody,'BSB interlinear source and rights',SOURCES.language);
- }catch(e){
-  if(n===originalSeq){originalBody.replaceChildren();paragraph(originalBody,'Original-language source unavailable; no substitute was generated.','discovery-error');}
+ verseBody.replaceChildren();
+ if(indexResult.status!=='fulfilled'||reverseResult.status!=='fulfilled'){
+  note(verseBody,'Historical topics are temporarily unavailable. The Bible text is unaffected.','discovery-error');
+  return;
  }
+ const ids=verseTopicIds(reverseResult.value,scope);
+ const named=new Map(indexResult.value.map(t=>[t.id,t]));
+ const titles=Array.from(new Set(ids)).map(id=>named.get(id)).filter(Boolean);
+ if(titles.length){
+  verseBody.append(el('h3','discovery-heading','Topics indexed for this verse'));
+  note(verseBody,'Historical Nave/Torrey groupings, not doctrinal conclusions.');
+  expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t),'discovery-citation'),6);
+ }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
+ sourceLink(verseBody);
 }
+// Keep the existing study lifecycle; no separate original-order panel, no
+// People/Places section. BSB Word-by-Word continues in study-ux-repair.js.
 const earlierOpen=betaOpen,earlierClose=betaCloseSheet;
 betaOpen=function(){
- ++verseSeq;++originalSeq;verseBody.hidden=true;verseBody.replaceChildren();
- originalBody.hidden=true;originalBody.replaceChildren();
- earlierOpen();
+ ++verseSeq;verseBody.hidden=true;verseBody.replaceChildren();earlierOpen();
 };
 betaCloseSheet=function(){
- ++verseSeq;++originalSeq;verseBody.hidden=true;originalBody.hidden=true;
- earlierClose();
+ ++verseSeq;verseBody.hidden=true;verseBody.replaceChildren();earlierClose();
 };
 })(typeof globalThis==='object'?globalThis:this);
