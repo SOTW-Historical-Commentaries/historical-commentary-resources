@@ -283,10 +283,11 @@ async function showVerseDiscovery(){
  link(verseBody,'Topic sources',SOURCES.topics);paragraph(verseBody,' · ','discovery-inline');
  link(verseBody,'Accepted source',SOURCES.people);
 }
-/* Full HelloAO BSB original-language source. Its word sequence is original
-   language ordering, not verified alignment with displayed English tokens. */
+/* Optional original-text order of the published BSB interlinear. The main
+   Word-by-Word panel uses the same words in publisher-provided bsbPos English
+   phrase order. The two orders are different, but both are source supplied. */
 const originalSection=el('section','discovery-study discovery-bsb');
-const originalButton=button(originalSection,'BSB original-language forms ›',()=>showOriginalVerse(),'discovery-launch');
+const originalButton=button(originalSection,'BSB original-language order ›',()=>showOriginalVerse(),'discovery-launch');
 const originalBody=el('div','discovery-original-body');originalBody.hidden=true;originalSection.append(originalBody);
 const originalEntry=document.getElementById('originalLanguageEntry');
 if(!originalEntry)throw Error('SOTW word-study entry point unavailable');
@@ -305,7 +306,7 @@ async function showOriginalVerse(){
   originalBody.replaceChildren();
   if(!words.length){paragraph(originalBody,'No verified source-form record is available for this verse.');return;}
   title(originalBody,bookInfo().name+' '+chapter+':'+verse+' · source-language sequence');
-  paragraph(originalBody,'HelloAO / Berean Bible publisher glosses and parsing. bsbPos is not an English word position; no English alignment is inferred.');
+  paragraph(originalBody,'Berean / HelloAO interlinear: pos is original-language order, bsbPos is BSB English-phrase order, and each gloss is publisher supplied. This view follows the original order.');
   const list=el('div','discovery-word-grid');
   for(const w of words){
    const card=el('div','discovery-word');
