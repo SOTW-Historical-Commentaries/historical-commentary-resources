@@ -9,6 +9,14 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | v0.15.2 FONT WEIGHT IPHONE REVIEW: VERSE TOOLS PREFERRED
+
+**Owner visual evidence:** Three iPhone screenshots supplied in this order: (1) Acts 2:1 Verse Tools screen with study-theme terms, dotted word links and five historical commentary options; (2) Acts 2 main Bible reader with the new M PLUS 1p English text and the single Jacob chapter-introduction control; (3) Jacob Lannom Acts 2 chapter-introduction commentary rendered as serif long-form prose. All three are retained in the living Google Doc in owner upload order.
+
+**Owner evaluation:** "I like it most in the verse tools version. It is a little heavy in main bible." This is a **font-weight/hierarchy refinement**, not rejection of the preferred M PLUS 1p family. Current `study-ux-repair.css` v0.15.2 explicitly sets `.mobile-beta #verses .reader-paragraph` to `font-weight:500!important`, which yields visibly denser large Bible paragraphs than the verse-tools snippet. The verse-tools English snippet does not receive that paragraph-specific weight, generally using regular weight. Proposed next small visual experiment: keep the M PLUS 1p family, preserve current font sizes/line spacing, and set ONLY the main English Scripture paragraphs to **400 Regular**, leaving verse-tools fonts, chapter intro controls, Word-by-Word, Greek/Hebrew and Jacob's existing serif long-form prose unchanged. Test at Acts 2:1 and again at Acts 2:37 on iPhone. Avoid changes to definitions, underlines, verse linking, and source data.
+
+**Status:** User shared visual feedback, not an explicit authorization for another code deployment. **No Bible reader code changes in this review turn.** Persist this owner review for the next approved typography adjustment. The previous v0.15.2 code and all accepted SOTW language and author data stay intact. In-device screenshot evidence is more authoritative than relying on CSS theory for visual acceptance.
+
 ## 2026-11-17 | v0.15.2 OWNER FONT STANDARD + ACTUAL WEBSTER FOOTER HEIGHT REPAIR
 
 **Evidence:** One owner iPhone screenshot (Word-by-Word, Acts 2:37) supplied at 8:04, preserved next to this entry in the living Google Doc. Owner specifically identifies the bold English **“when”** inside the Strong's card as the desired **standard font for Bible reading across SOTW**, and reports that previous Webster padding tweaks failed: wants visible link closer to the definition and the WHOLE word card shorter, WITHOUT shrinking the body, label or meaning text.
