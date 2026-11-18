@@ -12,6 +12,17 @@
 
 
 
+
+## 2026-11-17 | v0.15.8 OWNER-APPROVED VERSE NUMBERS + LIGHT PANEL SEAM REPAIR
+
+**Owner evidence and scope:** Seven iPhone screenshots of v0.15.7, in owner-supplied order: dark ASV Acts 2:35–39; light KJV Acts 2:34–38; dark Word-by-Word ASV Acts 2:34; dark Jacob Romans 12:17; light Verse Tools Acts 2:36; light Word-by-Word Acts 2:36; dark historical Adam Clarke Acts 2:34. Owner considers the soft-light redesign considerably better, notes small Scripture verse numbers and some remaining light-mode glitches, and requests building the immediately recommended *two small changes* only. Word highlight density and the KJV `¶` paragraph marker remain PARKED pending a separate decision; accepted source records must remain unchanged.
+
+**Implementation:** Inline main Scripture verse numerals `.mobile-beta #verses .reader-verse .number` now use **700 weight, 13px, 1.1 line-height, system-ui**, replacing the earlier 11px inherited inline style through a later scoped CSS override. Dark number ink `#a4bdc7` on `#10171c` ~9.20:1 contrast; light ink `#45616b` on `#dce3df` ~5.07:1 calculated contrast, while remaining subordinate to actual Bible prose. The new light-theme Close toolbar and nested Back header now bleed through the existing 18px study-panel horizontal inset using -18px margins and matching 18px interior padding, so their header backgrounds and dividing lines reach the screen edges without changing inner text/card widths. This avoids a large structural/scroll rewrite. Only `beta-light` header seam styles are affected; dark-mode panel structure and all study touch handlers remain unchanged. External study CSS cache key now `?v=20261117-reader158`; JS asset URL remains at reader157 (code unchanged).
+
+**GitHub fallback, commits and hashes:** Recoverable prepatch main `aca6a9c0723953bcdc8cebd479164c4d4e22cb6b`. CSS code commit `6e20407850579627fe80f82fc636061f7f6f79ba`, blob `f2f224d35d2a55c67920172cbe6d26285fa13ede`; HTML version-key commit `c3ae173de7dba192749b735e0dc02cba0c02cf47`, blob `f87d3bd1781e950cfceb9a275bb5c1d2110fb012`; unchanged study JS blob `de60bc8d8f0fa1f5559833f6d425d359ae314423`. Git compare from fallback: exactly 2 beta presentation files, HTML 1 line changed, CSS 31 lines added; no data, source Bible, Jacob, BSB, lexicon or other app files touched.
+
+**QA:** GitHub readback SHA verified; 2 inline JS blocks + unchanged external study JS parse PASS; CSS brace count balanced; 13px override, both -18px edge compensation rules, and CSS cache key present; numeric color contrast calculations as above. No independent GitHub Pages HTTP test or real iPhone screenshot of **v0.15.8** was obtained. Owner must hard-refresh iPhone beta and verify verse-number scale, light Verse Tools and Word-by-Word full-width header bands, Close/Back, scroll return and dark unchanged. Code/source QA PASS, phone visual QA PENDING.
+
 ## 2026-11-17 | v0.15.7 OWNER IPHONE: SOFT LIGHT THEME AND ASV ACTS 2:34 SPACING
 
 **Owner screenshot evidence:** Four new iPhone screenshots (in supplied order) show (1) light-theme ASV Acts 2:2 Verse Tools, study terms, Word-by-Word/Commentary/original print launchers, (2) light-theme Word-by-Word Acts 2:2, (3) light-theme Jacob Lannom passage commentary, and (4) dark-theme ASV Acts 2:34–37 showing `himself,The Lord` run together. Owner reports light mode is glaring/washed-out, with insufficient separation when study/commentary overlays are opened. Screenshot order is owner provenance. Screenshots show PRE-change UI; real iPhone validation of the new palette remains pending.
