@@ -39,7 +39,8 @@ jobs:
           const urls={
             topics:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/topics.json',
             people:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/search/people-time-place/accepted/v1/accepted-source.json',
-            bsb:'https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/GEN/01.json'
+            bsb:'https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/GEN/01.json',
+            reverse:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/by-scripture/GEN.json'
           };
           (async()=>{
             const read=async(url)=>{
@@ -47,7 +48,7 @@ jobs:
               assert(response.ok,'Remote source HTTP '+response.status);
               return response.json();
             };
-            const [topics,people,bsb]=await Promise.all(Object.values(urls).map(read));
+            const [topics,people,bsb,reverse]=await Promise.all(Object.values(urls).map(read));
             assert.equal(topics.schema,'sotw-topics-search-index/1.0.0');
             assert.equal(topics.topics.length,5745);
             assert.equal(people.schema,'sotw-accepted-people-place-source/1.0.0');
@@ -56,6 +57,8 @@ jobs:
             assert(!people.events.some(x=>x.id==='event-theonize-sumerian-writing'));
             const plagues=people.events.find(x=>x.id==='event-theonize-ten-plagues');
             assert.deepEqual(plagues.scriptureScopes,['EXO.7','EXO.8','EXO.9','EXO.10','EXO.11','EXO.12']);
+            assert.equal(reverse.schema,'sotw-topics-scripture-index/1.0.0');
+            assert(reverse.verses.some(v=>v[0]==='GEN.1.1'&&v[1].includes('NEUU:TOPIC:creation')));
             assert.equal(bsb.schema,'sotw-bsb-helloao-interlinear-source/1.0.0');
             assert.equal(bsb.book_code,'GEN');assert.equal(bsb.chapter,1);
             assert(bsb.verses.some(v=>v.id==='GEN.1.1'&&v.words?.[0]?.strongs));
