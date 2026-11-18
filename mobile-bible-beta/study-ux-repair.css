@@ -411,3 +411,41 @@
  padding:2px 6px!important;
  line-height:1.2!important;
 }
+
+/* v0.15.2 owner choice: the 'when' card heading uses M PLUS 1p, weight 600.
+   Standardize English BIBLE text on the same family at a comfortable 500
+   reading weight. Keep original-language script and historical commentary
+   typography separately scoped; do not package any font files. */
+.mobile-beta #verses .reader-paragraph,
+.mobile-beta #verses .reader-verse,
+.mobile-beta #modernStudyVerse,
+.mobile-beta #studyOverlayBody .word-sequence-verse,
+.mobile-beta #studyOverlayBody .word-sequence-plain{
+ font-family:"M PLUS 1p",system-ui,-apple-system,"Segoe UI",sans-serif!important;
+}
+.mobile-beta #verses .reader-paragraph,
+.mobile-beta #studyOverlayBody .word-sequence-verse{
+ font-weight:500!important;
+}
+/* Earlier fixes only adjusted margins while Webster remained a separate
+   36px row. Overlay its 36px clickable rectangle into the existing main-card
+   bottom reserve, bringing its visible label up beside the definition. */
+.mobile-beta #studyOverlayBody .word-sequence-card.has-webster{
+ position:relative;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card.has-webster .word-sequence-main{
+ padding-bottom:28px!important;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card.has-webster .word-sequence-dictionary{
+ position:absolute!important;
+ bottom:1px!important;right:4px!important;
+ min-height:36px!important;
+ margin:0!important;
+ padding:2px 6px!important;
+ background:transparent!important;
+}
+/* When there is no real Webster headword, leave the original compact card.
+   No invisible footer or dictionary target is invented. */
+.mobile-beta #studyOverlayBody .word-sequence-card:not(.has-webster) .word-sequence-main{
+ padding-bottom:11px!important;
+}
