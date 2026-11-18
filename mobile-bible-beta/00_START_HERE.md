@@ -7,6 +7,12 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT v0.15 REVIEW BUILD: PALATINO TRIAL AND LESS CLUTTER (2026-11-17)
+
+**User authorized v0.15** after reviewing nine iPhone screenshots: test visible Palatino on Bible/author prose with M PLUS 1p Zelda-like UI and fallback; restore visible verse across translation switching; reduce Jacob rotated-square density to passage starts; show chapter introduction once at the chapter level, shorten optional label to `Chapter Intro`; slightly enlarge study descriptions but make the Webster 1828 label quieter (36px tap area preserved).
+
+**Live beta URL to refresh:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ . Code head `0cf14406df22ae6e3113606b6a1c2c6f199f9b84`, review-code baseline `e936640ffa9a1a72a7ca0e25572226316ef0cb9d`, only `index.html` and `study-ux-repair.css` changed by the beta commits. The baseline contains an independently installed accepted SOTW author update (`currentRevision:2`); do not revert those newer accepted source records. Source-level scroll/coverage fixtures and JS syntax tests passed, while real-device font loading, visible position and tap QA remain to be performed. Detailed hashes and limitations: [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md). Common-word underlining remains deferred.
+
 ## CURRENT v0.14 OWNER TEST BUILD (2026-11-17): JACOB, WORD-BY-WORD, M PLUS 1p
 
 Owner authorized a coordinated beta for the fixed Jacob commentary callback, Acts 2 chapter-context access, repeated KJV source word placement, compact Webster card link and M PLUS 1p study UI font trial (Palatino kept for Scripture and commentary prose).
