@@ -652,3 +652,29 @@
  background:#dce4e0!important;
  border-bottom:1px solid #91aaa8!important;
 }
+
+/* v0.15.9 owner-approved trial: full CGBC + Bible + SOTW logo from uploaded
+   transparent artwork. Branded top row only; no navigation or content changes.
+   Preserve the entire v0.15.8 Git baseline for instant rollback. */
+.mobile-beta #modernReaderHeader .brand-line{
+ display:flex;align-items:center;justify-content:space-between;
+ gap:9px;margin-bottom:7px;
+}
+.mobile-beta #modernReaderHeader .reader-brandmark{
+ display:block;flex:1 1 auto;min-width:0;max-width:320px;
+ line-height:0;
+}
+.mobile-beta #modernReaderHeader .reader-brandmark img{
+ display:block;width:100%;max-width:320px;height:auto;max-height:69px;
+ object-fit:contain;object-position:left center;
+}
+.mobile-beta #modernReaderHeader .header-actions{
+ flex:0 0 auto;gap:5px;
+}
+/* Same source image, identical geometry in both modes. */
+.mobile-beta.beta-light #modernReaderHeader .reader-brandmark img{
+ filter:brightness(0);opacity:.75;
+}
+@media(max-width:375px){
+ .mobile-beta #modernReaderHeader .reader-brandmark img{max-height:55px}
+}
