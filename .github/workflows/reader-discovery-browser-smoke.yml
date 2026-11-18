@@ -11,6 +11,8 @@ on:
       - "mobile-bible-beta/jacob-scripture-links.js"
       - "mobile-bible-beta/reader-return.js"
       - "mobile-bible-beta/tests/jacob-scripture-browser.test.cjs"
+      - "mobile-bible-beta/tests/exodus-link-browser.test.cjs"
+      - "mobile-bible-beta/tests/bsb-lexical-browser.test.cjs"
       - "review-jake-scripture.html"
       - "api/jacob-lannom/v1/current-commentary.json"
       - ".github/workflows/reader-discovery-browser-smoke.yml"
@@ -49,3 +51,7 @@ jobs:
         run: node mobile-bible-beta/tests/discovery-browser.test.cjs
       - name: Exercise published Jacob cross-references in both viewers
         run: node mobile-bible-beta/tests/jacob-scripture-browser.test.cjs
+      - name: Follow Jacob reference to Exodus 21:24 and return to Romans
+        run: node mobile-bible-beta/tests/exodus-link-browser.test.cjs
+      - name: Verify BSB Strong’s short meaning and English Webster action
+        run: node mobile-bible-beta/tests/bsb-lexical-browser.test.cjs
