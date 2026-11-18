@@ -7,6 +7,16 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT v0.14 OWNER TEST BUILD (2026-11-17): JACOB, WORD-BY-WORD, M PLUS 1p
+
+Owner authorized a coordinated beta for the fixed Jacob commentary callback, Acts 2 chapter-context access, repeated KJV source word placement, compact Webster card link and M PLUS 1p study UI font trial (Palatino kept for Scripture and commentary prose).
+
+**Test URL:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/ . Hard refresh. Code head `33ae3a4c593097ea31f572fb708d3c32215799eb`; recoverable baseline `806af31ce5383bbb160d28f38b4d7cea3cf99def`. Three source files changed, all inside the beta. User data/canon/accepted author JSON unchanged.
+
+**Verify:** KJV Acts 2:37 or 41 rotated-square opens accepted `ACT.2.37-41` passage directly, and Jacob appears in commentary chooser; Acts 2:2 provides separately labeled `ACT.2` chapter introduction rather than a false verse marker; Word-by-Word KJV Acts 2:2 two “and” words pair first-to-first when source counts agree; Webster action is subtle, bottom-right, only when an actual entry exists; M PLUS 1p affects menus/study labels, not Palatino Scripture. BSB original-form cards stay in attested source order.
+
+**QA:** JavaScript parse, scope tests with actual accepted catalog, limited DOM commentary-render fixtures and repeat-count unit fixtures passed. Actual iPhone runtime, GitHub Pages refresh and Google Fonts CDN are NOT VERIFIED, so this is a review candidate, not full QA pass. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for exact hashes and fallback. Common-word underline style stays unresolved.
+
 ## CURRENT v0.13.1 OWNER IPHONE FOLLOW-UP (2026-11-17)
 
 **Owner visual review:** The Word-by-Word KJV sequence is useful, but the Jacob rotated-square icon at the end of a verse was opening verse study rather than directly opening commentary. The owner requests a Dictionary button INSIDE each eligible word card, without taking away the normal card-tap return to the verse.
