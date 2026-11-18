@@ -176,8 +176,7 @@ async function showTopic(topic){
 function showEntity(x,data){
  const kind=x.type==='person'?'Person':x.type==='place'?'Place':'Event';
  showDetail(kind+' · '+x.name,body=>{
-  paragraph(body,'Accepted/source-qualified CGBC research. Relationship, date and site claims retain their original limitations.');
-  if(x.gate)paragraph(body,'Evidence gate: '+x.gate);
+  paragraph(body,'Scripture and historical-source connections. Dates, relationships and proposed locations retain their source qualifications.');
   const source=[...(x.sourceReferences||[]),...(x.sourceReference?[x.sourceReference]:[])].filter(Boolean);
   if(source.length)paragraph(body,'Source: '+source.slice(0,4).join(' · '));
   if(x.dateQualification)paragraph(body,x.dateQualification);
@@ -198,12 +197,12 @@ function showEntity(x,data){
   }
   const alt=(data.alternatives||[]).filter(a=>a.entityId===x.id);
   for(const a of alt)paragraph(body,'Alternative interpretations: '+a.alternatives.map(t=>t.label).join(' / '));
-  link(body,'Accepted source, rights and evidence gate',SOURCES.people);
+  link(body,'Source information and attribution',SOURCES.people);
  });
 }
 /* Add secondary discovery results only after the reader's own Scripture hits.
    Results do not imply all-Bible word/phrase search has been implemented. */
-searchNote.textContent='Scripture references and current-chapter text first. Historical Bible Topics and accepted People/Places/Events appear below. Whole-Bible word search is not yet available.';
+searchNote.textContent='Scripture references and current-chapter text first. Historical Bible Topics and People/Places/Events appear below. Whole-Bible word search is not yet available.';
 searchInput.placeholder='Scripture, current-chapter words, topic or person';
 const searchPending=el('p','discovery-search-loading');searchPending.hidden=true;
 searchResults.after(searchPending);
@@ -224,7 +223,7 @@ async function appendDiscovery(q,n){
   for(const row of topics)button(searchResults,row.title+' · '+row.verse_link_count+' source links',()=>showTopic(row),'search-hit discovery-hit');
  }
  if(entities.length){
-  searchResults.append(el('h4','discovery-search-label','Accepted People, Places & Events'));
+  searchResults.append(el('h4','discovery-search-label','People, Places & Events'));
   for(const item of entities)button(searchResults,item.name+' · '+item.type,()=>showEntity(item,peopleResult.value),'search-hit discovery-hit');
  }
 }
@@ -241,7 +240,7 @@ searchModal.veil.addEventListener('click',()=>{
 /* Verse-scoped connections, lazy loaded. A chapter-level source card never
    becomes an unsupported hit on every individual verse. */
 const verseDiscovery=el('section','discovery-study');
-const verseToggle=button(verseDiscovery,'Related topics & accepted people ›',()=>showVerseDiscovery(),'discovery-launch');
+const verseToggle=button(verseDiscovery,'Related topics & people ›',()=>showVerseDiscovery(),'discovery-launch');
 const verseBody=el('div','discovery-verse-body');verseBody.hidden=true;verseDiscovery.append(verseBody);
 modernCommentaryMenu.before(verseDiscovery);
 let verseSeq=0;
@@ -271,7 +270,7 @@ async function showVerseDiscovery(){
    ...data.places.map(x=>({...x,type:'place'})),...data.events.map(x=>({...x,type:'event'}))];
   const map=new Map(entries.map(x=>[x.id,x]));
   const found=ids.map(id=>map.get(id)).filter(Boolean).slice(0,8);
-  if(found.length){title(verseBody,'Accepted people, places & events');
+  if(found.length){title(verseBody,'People, places & events');
    for(const x of found)button(verseBody,x.name,()=>showEntity(x,data),'discovery-ref');
    total+=found.length;}
   const chapters=entityIdsForScope(data,chapterKey).map(id=>map.get(id)).filter(Boolean).slice(0,6);
@@ -281,7 +280,7 @@ async function showVerseDiscovery(){
  }
  if(!total)paragraph(verseBody,'No validated discovery links available for this verse; a source may be unavailable. This does not mean no historical material exists.');
  link(verseBody,'Topic sources',SOURCES.topics);paragraph(verseBody,' · ','discovery-inline');
- link(verseBody,'Accepted source',SOURCES.people);
+ link(verseBody,'Research source',SOURCES.people);
 }
 /* Optional original-text order of the published BSB interlinear. The main
    Word-by-Word panel uses the same words in publisher-provided bsbPos English
