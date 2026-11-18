@@ -274,3 +274,77 @@
 }
 /* Make marker purpose unmistakable without adding a legend. */
 .mobile-beta #verses .jacob-verse-marker{vertical-align:baseline;touch-action:manipulation}
+
+/* v0.14: M PLUS 1p trial for navigation and study UI, NOT reading prose.
+   Google Fonts loads with font-display:swap; offline/system fallback remains. */
+.mobile-beta #modernReaderHeader,
+.mobile-beta #modernReaderHeader button,
+.mobile-beta #readerNavModal,
+.mobile-beta #readerNavModal button,
+.mobile-beta #readerNavModal select,
+.mobile-beta #readerEditionModal,
+.mobile-beta #readerEditionModal button,
+.mobile-beta.study-open #studyClose,
+.mobile-beta.study-open #studyHeading,
+.mobile-beta.study-open #studyOverlayHeader,
+.mobile-beta.study-open #studyOverlayBack,
+.mobile-beta.study-open #studyOverlayTitle,
+.mobile-beta.study-open #originalLanguageEntry,
+.mobile-beta.study-open #modernCommentaryMenu,
+.mobile-beta.study-open #modernCommentaryMenu button,
+.mobile-beta.study-open #studyOverlayBody .available-author,
+.mobile-beta.study-open #studyOverlayBody .word-sequence-nav,
+.mobile-beta.study-open #studyOverlayBody .word-sequence-caption,
+.mobile-beta.study-open #studyOverlayBody .word-atlas-head,
+.mobile-beta.study-open #studyOverlayBody .lexical-strongs,
+.mobile-beta.study-open #studyOverlayBody .word-atlas-grammar,
+.mobile-beta.study-open #studyOverlayBody .word-sequence-dictionary,
+.mobile-beta.study-open #studyOverlayBody .jacob-scope-note,
+.mobile-beta #verses .jacob-chapter-intro{
+ font-family:"M PLUS 1p",system-ui,-apple-system,"Segoe UI",sans-serif!important;
+}
+/* Keep the Palatino family established in v0.13 for the long-form reading,
+   original-language forms, Strong's concise glosses, and Jacob's commentary. */
+.mobile-beta #studyOverlayBody .word-atlas-head strong{
+ font-family:"M PLUS 1p",system-ui,-apple-system,"Segoe UI",sans-serif!important;
+}
+.mobile-beta #verses .jacob-chapter-intro{
+ display:block;max-width:100%;min-height:36px;
+ margin:4px 0 13px 0;padding:6px 10px;
+ border:1px solid #435c63;border-radius:8px;
+ background:#1b3035;color:#a9d1ce;
+ text-align:left;font-size:12px;font-weight:500;
+ cursor:pointer;touch-action:manipulation;
+}
+.mobile-beta #verses .jacob-chapter-intro:focus-visible{
+ outline:2px solid #a7d6d5;outline-offset:2px;
+}
+.mobile-beta.beta-light #verses .jacob-chapter-intro{
+ background:#ecf3ef;color:#32635e;border-color:#c3d7d2;
+}
+.mobile-beta #studyOverlayBody .jacob-scope-note{
+ margin:2px 0 10px;font-size:12px;line-height:1.5;color:#aac4ce;
+}
+.mobile-beta.beta-light #studyOverlayBody .jacob-scope-note{color:#536f7a}
+/* v0.14 compact Webster action: same position, no heavy footer bar/divider.
+   Right aligned, with a comfortably tappable transparent 36px hit area. */
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ display:flex!important;align-items:center;justify-content:center;
+ width:max-content!important;max-width:calc(100% - 14px);
+ min-height:36px!important;
+ margin:0 6px 3px auto!important;padding:5px 9px!important;
+ border:0!important;border-radius:7px!important;
+ background:transparent!important;color:#b8dce5!important;
+ font-size:11px!important;font-weight:600;
+ text-align:right!important;line-height:1.3!important;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary:active,
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary:hover{
+ background:rgba(120,186,197,.13)!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ background:transparent!important;color:#386f7c!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-dictionary:active{
+ background:rgba(64,133,148,.10)!important;
+}
