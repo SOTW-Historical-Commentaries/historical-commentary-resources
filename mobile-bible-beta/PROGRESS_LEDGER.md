@@ -13,6 +13,18 @@
 
 
 
+## 2026-11-18 | OWNER APPROVED v0.16.1 MORE HEADER + SOURCE DISCOVERY BETA
+
+**Owner decision:** After considering a separate future CGBC-branded Bible reader and SOTW-branded one, owner approved a common header design: retain/enlarge the complete combined CGBC + Bible + SOTW logo on the current beta, place More in the upper right, move Search beside the translation selector, enlarge translation control, and put light/dark mode inside More. Owner specifically requests explanatory information on available SOTW sources. This is approval for the **existing reader beta** only, not creation of the second site or automatic production rollout.
+
+**UI installed:** New top-row `modernMoreButton` and responsive full-logo cap 270×60px, second-row `location-actions` with existing `modernSearchButton` (46×46px) and enlarged `readerEdition` (minimum 46px tall and 70px wide), and working `readerMoreModal` with the existing `modernThemeButton` repurposed as a labeled Appearance setting with live dark/light status. The More modal contains five true expandable sections: Bible translations and links to KJV/ASV/BSB/Webster source repositories; the six historical authors and the v3 catalog with passage-coverage warning; original languages/Strong's plus Webster 1828 and source license; living partner Jacob Lannom and coverage link; and About Servants of the Way with navigation-coverage manifest link. Existing commentary, cross-translation, source restrictions and provenance remain authoritative; menu is informational and makes no claim every passage has every resource.
+
+**Baseline and atomic implementation:** Pre-change HEAD `718b8aa11d1800771886cb4f4c2f0350c1e0515b`, including the earlier Matthew Henry continuation fix. Code commit `46b053bc5a20de5ce897ed8f03e2c5475fc33230`; HTML blob `8dc2c9aa703b5e024978b49ff4f93eb86aae1145` and CSS blob `3cafb15c285de3f6de5115845ffabe37e7b4b030`. CSS cache key `20261118-reader161`. Compare readback: **exactly two code files**. Study JS untouched `de60bc8d8f0fa1f5559833f6d425d359ae314423`, full logo PNG untouched `70534c5e9b8d2b765f5f4c63ae085be5065683c8`. JS syntax (2 inline and 1 study module) PASS, CSS braces PASS; new More/Search/Theme IDs and four-modal open/Escape lists verified by source readback. Search logic still only covers the current loaded chapter and no Search v1 work was started.
+
+**Pending real-device acceptance:** On owner iPhone check both color modes, logo legibility and scaling, More open/close and independent resource expansion, Appearance mode change persisted, Search icon beside edition, translation selection and verse position, and long-book labels on narrow screens. No independent screenshot/rendered-device QA or public Pages HTTP verification performed. Treat as **CODE PASS / VISUAL REVIEW PENDING**, not a universal or production release.
+
+**Guardrails:** No Scripture/chapter JSON, Jacob accepted commentary, six historical source files, lexicon, Webster 1828, service worker, BSB alignment pilot, topical registry, CGBC sermon process, or second SOTW site was modified. Future CGBC vs SOTW branding remains owner-planned, not built.
+
 ## 2026-11-18 | IPHONE OWNER BUG: COMMENTARY PREVIEW CONTINUES WITHOUT DUPLICATING
 
 **Screenshot evidence:** In the dark iPhone reader on Acts 2, owner opens historical Matthew Henry's entry (Acts 2:37–41); after a visible 850-character commentary excerpt ending near “Peter…”, the “Read full commentary” disclosure restarted at the original “Peter's Sermon at Jerusalem.” User directs: the next text should start exactly after the preview, not republish the beginning. This was an interface construction error, not a commentary source error.
