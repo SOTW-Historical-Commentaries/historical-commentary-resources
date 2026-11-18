@@ -13,6 +13,33 @@
 
 
 
+## 2026-11-18 | v0.16.3 BUGFIX: ABBREVIATED AND SPACE-SEPARATED SCRIPTURE LOOKUP
+
+**Owner iPhone screenshot:** From 2 Thessalonians 1 KJV, “Find Scripture” field contains `Gen 3 14`; no suggestion appears. The owner states it must resolve to Genesis 3:14. This is a verified gap in the current reference parser, not an authorization to implement the previously deferred whole-Bible text search.
+
+**Technical diagnosis:** Old `modernSearchRender()` regex `^(.+?)\\s+(\\d{1,3})(?::(\\d{1,3}))?# SOTW BIBLE READER — PROGRESS LEDGER
+
+**Updated:** 2026-11-18 (America/Chicago)  
+**Authoritative living ledger:** [Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
+**Repository:** `SOTW-Historical-Commentaries/historical-commentary-resources`  
+**Live-route candidate:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
+**Implementation folder:** `mobile-bible-beta/`  
+**Baseline before additions:** `201ae69e162c22c01f26e73ce7266ef6abfe150b`  
+**New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
+**PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
+
+
+
+
+
+ only allowed colon verse delimiters, and the `BOOKS.find` compared exact full lowercased names or internal codes. Thus `Gen 3 14` never became a navigable reference. Existing reference lookup and current-chapter substring search shared the same field.
+
+**Implemented fix:** Added `modernParseReference()` recognizing unambiguous prefixes (such as Gen, Rom, Thess with book number), common short aliases, full canonical book names and codes; optional whitespace/colon/period verse separators. Reference hits are ranked ahead of book-name and current-chapter matches, display a canonical book/chapter/verse label, and retain click/Enter navigation. Before navigating, the handler verifies the actual SOTW v3 published chapter index, comparing `canonical_chapter` and `verse_count`, so an impossible verse cannot silently be clamped to another verse. It then uses existing book/chapter/verse navigation and scroll-to-verse. Unrecognized text continues through the unchanged chapter-only lookup. Search v1 across the entire Bible, approximate word matching and semantic topics remain NOT INSTALLED.
+
+**Commit and QA:** Prechange `main` `1215094b58828ae9cfa9df7fc88eaf6e9a52f0d1`, code commit `21906406050b42dcc31fee64354d749e50006298`; exactly one runtime file changed `mobile-bible-beta/index.html`, Git blob `44d74a87d71173c034ddd719f29b984d793d5580`. CSS blob `bf437e2b53b4de476684c78b4b9c051fe52f04e7` and study JS blob `de60bc8d8f0fa1f5559833f6d425d359ae314423` untouched. Real Genesis 3 index `GEN.3` confirms 24 verses, Git blob `7956d03e33576d93ef80c0211b1aab4af5f29860`. Nineteen reference parsing fixtures passed including typed owner case `Gen 3 14` => `Genesis 3:14`, `Gen 3:14`, `1 John 3:4`, `2 Thess 1 1`, `Ps 119 176`, and invalid cases; both inline scripts and existing study JS syntax PASS. Existing version v0.16.2 appearance/More/source information, commentary badge and continuation fixes unchanged.
+
+**Owner QA status:** **CODE AND TEST FIXTURES PASS, IPHONE NAVIGATION REVIEW PENDING.** The owner should type `Gen 3 14`, see `Open Genesis 3:14`, tap or press Enter and confirm actual Genesis 3:14 appears. Browser/Safari experience is not independently proved by a test fixture. No Scripture, historical/Jacob commentary, original-language resources, rights, static PWA worker or planned CGBC/SOTW site split was changed.
+
 ## 2026-11-18 | v0.16.2 OWNER SCREENSHOTS: UNBOXED TOP SEARCH/MENU, LONG BOOK AND AUTHOR
 
 **Owner evidence:** Screen captures show the v0.16.1 header on Zechariah 1 ASV and truncated “2 Thessalonia…” KJV, plus the Jamieson–Fausset–Brown author view at Genesis 3:6 with an awkwardly squeezed Historical Commentary badge. Owner rejects heavy boxes around More, Search and translation, wants the *full book name* prioritized, and explicitly refines the design to place unboxed Search **left** of a three-horizontal-line menu in the original top-right More position, dropping the text “More.” Translation stays at the far right of the chapter row, reduced and unboxed. Preserve the full original logo.
