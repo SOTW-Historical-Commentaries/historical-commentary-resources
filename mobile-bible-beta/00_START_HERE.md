@@ -8,6 +8,15 @@
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
 
+
+## CURRENT READER PATCH v0.15.6 | OWNER IPHONE FONT FOLLOW-UP | 2026-11-17
+
+**Current beta:** v0.15.6, main Bible reading font remains M PLUS 1p Light 300 with slightly increased optical WebKit text stroke `0.23px` instead of `0.14px`. The change follows owner request for approximately 20 more *weight* points without changing text size. This stroke does NOT create a true 320 or 350 variable font instance. Historical and Jacob commentary prose and long-form previews now use screen-reading **Literata 400** (Google Fonts, Georgia fallback), paired with M PLUS 1p Bible text and unchanged sans controls/headings. Versioned CSS: `?v=20261117-reader156`. The prior v0.15.5 scripture reference conversion stays installed (`ACT.2.37–41` → `Acts 2:37–41`).
+
+**GitHub:** before-change recoverable `280e2cfb1a883614e4b27ee5dc495226025578c0`, HTML `04243d061b0ea6effbb803fb7147bbbcc746f4b4` blob `3f7aa090193972d8c27bc9f95c57c37cb96fc1c9`, CSS `f949f5bdfc0e9b688f036e0804e1db7a022f8edb` blob `93350bd0e9c874f4aa3c21f026522b03f95841b9`, unchanged study JS blob `05d2b130be08473ac63fe9fbd9555cdcd5904840`. Exactly two presentation files changed; syntax/structural/source checks PASS. iPhone optical proof of new Literata and Bible stroke is PENDING; screenshot supplied by owner confirms preceding v0.15.5 commentary reference display, not new typography. Read [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for scoped QA.
+
+**No BSB change:** Separate publisher-backed three-verse BSB alignment remains published but NOT integrated into the reader; original-language repositories, Jacob source JSON, historical commentary bytes, and CGBC SPP workflow untouched. Earlier handoff text below remains historical and cannot override this current beta note.
+
 ## CURRENT READER PATCH v0.15.5 | OWNER IPHONE TYPOGRAPHY AND REFERENCE HEADING | 2026-11-17
 
 **Latest committed reader:** `mobile-bible-beta/` beta v0.15.5. After owner screenshots of Matthew Henry Acts 2:1–4 and Acts 2 Scripture, the history drawer now displays readable human Scripture heading `Acts 2:1–4` rather than machine IDs `ACT.2.1 – ACT.2.4`; the underlying source IDs and coverage are unchanged. Main Scripture remains M PLUS 1p Light 300 with a **subtle 0.14px WebKit ink stroke** only on `.reader-paragraph` to approximate a small +30-weight visual adjustment between static 300 and 400. This is **not** a true variable font weight of 330. All paragraph measurements, Verse Tools 400, Word-by-Word, and commentary prose are unchanged. Cache key `?v=20261117-reader155`.
