@@ -45,7 +45,7 @@ function verseTopicIds(index,scope){
 function entityIdsForScope(data,scope){
  const map=data?.reverseScriptureScopes||{};
  const key=scope.split('.').slice(0,2).join('.');
- return Array.from(new Set([...(map[scope]||[]),...(map[key]||[])]));
+ return Array.from(new Set(map[scope]||[]));
 }
 function getWords(chapter,book,number,verse){
  if(!chapter||chapter.schema!=='sotw-bsb-helloao-interlinear-source/1.0.0'||
@@ -268,6 +268,10 @@ async function showVerseDiscovery(){
   if(found.length){title(verseBody,'Accepted people, places & events');
    for(const x of found)button(verseBody,x.name,()=>showEntity(x,data),'discovery-ref');
    total+=found.length;}
+  const chapters=entityIdsForScope(data,chapterKey).map(id=>map.get(id)).filter(Boolean).slice(0,6);
+  if(chapters.length){title(verseBody,'Chapter-level context','Covers this chapter generally; not a claim about every verse.');
+   for(const x of chapters)button(verseBody,x.name,()=>showEntity(x,data),'discovery-ref');
+   total+=chapters.length;}
  }
  if(!total)paragraph(verseBody,'No published verse-specific discovery links here. This does not imply no historical source exists.');
  link(verseBody,'Topic sources',SOURCES.topics);paragraph(verseBody,' · ','discovery-inline');
@@ -278,7 +282,9 @@ async function showVerseDiscovery(){
 const originalSection=el('section','discovery-study discovery-bsb');
 const originalButton=button(originalSection,'BSB original-language forms ›',()=>showOriginalVerse(),'discovery-launch');
 const originalBody=el('div','discovery-original-body');originalBody.hidden=true;originalSection.append(originalBody);
-originalLanguageEntry.after(originalSection);
+const originalEntry=document.getElementById('originalLanguageEntry');
+if(!originalEntry)throw Error('SOTW word-study entry point unavailable');
+originalEntry.after(originalSection);
 let originalSeq=0;
 async function showOriginalVerse(){
  const book=state.book,chapter=state.chapter,verse=modernStudyVerse,n=++originalSeq;
