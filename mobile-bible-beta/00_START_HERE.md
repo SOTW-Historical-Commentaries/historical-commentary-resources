@@ -4,9 +4,20 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active reader **v0.17.1 BSB Word-by-Word interlinear correction** (2026-11-18); source contract and Chromium/mobile tests PASS for Genesis 1:1 and Matthew 5:18. Prior v0.17.0 three-collection discovery and v0.16.3 navigation baselines preserved; iPhone acceptance and whole-Bible text Search v1 remain pending.  
+**Status:** Active reader **v0.17.2 Jacob Scripture links and public-label cleanup** (2026-11-18). Both Jacob viewers now link every published Scripture relationship to the selected Bible edition, with optional separate Jacob commentary. Source QA and Chromium/browser QA PASS; deployed Pages build succeeded. v0.17.1 BSB Word-by-Word and earlier reader baselines protected; real-iPhone acceptance and forgiving whole-Bible word/phrase search remain pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+
+
+## 2026-11-18 | JACOB SCRIPTURE REFERENCES NOW FOLLOWABLE | v0.17.2
+
+**Rule now implemented:** When an owner-reviewed SPP contribution reaches the **published** SOTW Jacob `current-commentary.json`, every validated typed Scripture connection is visible and clickable. Links open the passage in the selected Bible edition even where no independent Jacob commentary exists. When Jacob has authored separate commentary, the review page offers that as an additional link. Unpublished/pending SPP review material remains hidden; the public UI does not display internal "accepted" badges or evidence-gate strings.
+
+**Where:** [Jacob's dedicated Scripture Commentary viewer](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/blob/main/review-jake-scripture.html) and the live [mobile Bible Reader](https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/), within Jacob's author commentary panel. Both provide outbound and incoming relationships, with readable labels and source-provided rationales. Romans 12:17 now links to Proverbs 20:22, Proverbs 24:29, Exodus 21:24, 2 Corinthians 8:21, 1 Thessalonians 5:15, Romans 12:14–16, and Romans 12:18–21. Ranges remain labeled as ranges, using the first verse as the navigation starting point. The People/Places viewer's raw "Evidence gate" publication codes are also hidden from public display, without changing which records qualify for publication.
+
+**Release:** Shared `jacob-scripture-links.js` plus `review-jake-scripture.html`, `mobile-bible-beta/index.html`, `discovery-integrations.js` and PWA cache `v0175`. Source/integrity QA [44395842879](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44395842879) **PASS**, Chromium mobile/browser links [44395835763](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44395835763) **PASS**, Pages [44395842921](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44395842921) **SUCCESS**. Published code head `9e70bab942fdc963f2c0cfc77a6fa7b8bc37c115` (before docs).
+
+**Protected:** No Jacob source JSON, SPP review status, Scripture text, other historical commentary, original-language data or CGBC master was altered. No cue/media links in commentary. Whole-Bible forgiving Search v1 and real-iPhone acceptance remain unfinished. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for exact source decisions and tests.
 
 
 ## 2026-11-18 | JACOB SCRIPTURE LINK NAVIGATION GAP
