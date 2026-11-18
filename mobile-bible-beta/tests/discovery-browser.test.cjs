@@ -98,6 +98,7 @@ const {chromium}=require('playwright-core');
   assert.match(await greek.nth(2).innerText(),/you/);
   assert.match(await greek.nth(3).innerText(),/truly/);
   await page.locator('#studyOverlayBack').click();
+  await page.locator('#studyClose').click();
   await page.locator('#modernMoreButton').click();
   await page.locator('#readerMoreModal.is-open').waitFor({state:'visible'});
   assert.match(await page.locator('#readerMoreModal .modal-head').innerText(),/About & Sources/);
