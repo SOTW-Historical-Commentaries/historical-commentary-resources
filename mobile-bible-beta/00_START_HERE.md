@@ -4,12 +4,22 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active mobile reader **v0.16.2 header/author badge refinement** (2026-11-18); latest code commit `3826a3285007b2cc9f1e9bb244cbd991d105d12b`. Source Scripture/commentary unchanged; on-device visual confirmation pending.  
+**Status:** Active reader **v0.16.3 reference lookup hotfix** (2026-11-18); latest implementation commit `21906406050b42dcc31fee64354d749e50006298`. The v0.16.2 header and commentary layout remain, and Scripture/author source data are unchanged. On-device search navigation confirmation is pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
 
 
 
+
+## CURRENT BETA FIX | v0.16.3 SPACE-SEPARATED BIBLE REFERENCE LOOKUP | 2026-11-18
+
+**Owner evidence and expected behavior:** iPhone screenshot shows “Find Scripture” on 2 Thessalonians 1 KJV with input `Gen 3 14` and no result. Owner correctly expects **Genesis 3:14**. The prior modern search reference regex accepted a verse only when separated by a colon (`Genesis 3:14`) and recognized only full canonical book names or internal 3-character codes; `Gen 3 14` incorrectly fell through to current-chapter text lookup.
+
+**Installed narrow repair:** `modernParseReference(input)` now recognizes customary unambiguous book prefixes, supported short aliases, full book names, and internal codes; chapter and verse may be separated by colon, spaces, or a period (e.g., `Gen 3 14`, `Gen 3:14`, `Gen. 3.14`, `John 3:16`, `2 Thess 1 1`, `1 Cor 13:4`, `Rom 12 17`). Reference matches produce the first search result `Open Genesis 3:14`, retaining the existing tap/Enter action. Clicking the match first verifies the target published chapter identity and number of verses, preventing an impossible verse from silently opening another verse. After verification it navigates using the established `loadBook()` / `chooseVerse()` / `modernJumpToVerse()` flow, with search input blur/closure. Error feedback is shown inline in the result if a verse is outside the verified chapter or source verification fails. **This is NOT full-Bible word search**; the separate substring search still searches only the current chapter. No topic search or fuzzy word ranking was added.
+
+**GitHub gate/QA:** Prior recoverable `main` `1215094b58828ae9cfa9df7fc88eaf6e9a52f0d1`; atomic implementation commit `21906406050b42dcc31fee64354d749e50006298`. Only `mobile-bible-beta/index.html` changed, now Git blob `44d74a87d71173c034ddd719f29b984d793d5580`. `study-ux-repair.css` unchanged blob `bf437e2b53b4de476684c78b4b9c051fe52f04e7`; study JS unchanged `de60bc8d8f0fa1f5559833f6d425d359ae314423`; source logo and all published Bible records unchanged. Nineteen reference-parser fixtures PASS, including requested `Gen 3 14` => `GEN.3.14`; both inline and external study scripts parse PASS. Published Genesis 3 chapter index `api/v3/snapshots/structured-genesis-2026-11-03/index/GEN/3.json` blob `7956d03e33576d93ef80c0211b1aab4af5f29860` declares `GEN.3` and 24 verses, independently confirming `GEN.3.14` is a valid target. Git compare confirms only one runtime file was modified.
+
+**Device follow-up:** On iPhone refresh the current beta, open Search, type `Gen 3 14`, verify `Open Genesis 3:14` appears, tap it and confirm Genesis 3:14 is visible and the URL/selector reflects the chapter and verse. Try colon form, `Rom 12 17`, and `2 Thess 1 1`. This is **CODE + FIXTURE PASS**, not an independently completed Safari GUI test. The prior owner-approved source/More, unboxed header icons, long-author badge and Matthew Henry continue-reading fixes are preserved. Planned Bible-wide forgiving *word* search remains deferred pending a separate build decision.
 
 ## CURRENT BETA DESIGN | v0.16.2 QUIET TOP ICONS + LONG LABELS | 2026-11-18
 
