@@ -9,6 +9,17 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+
+## 2026-11-17 | v0.15.5 OWNER IPHONE: READABLE HISTORICAL SCRIPTURE HEADING + SUBTLE SCRIPTURE INK
+
+**Owner evidence:** Two current iPhone screenshots at 9:31 and 9:32 PM (America/Chicago) show a Matthew Henry commentary card headed with machine codes `ACT.2.1 – ACT.2.4` and main Acts 2 Bible reading in M PLUS 1p Light 300. Owner requested the commentary code be rendered as a normal Scripture reference and the reading font made only slightly heavier, described as about 30 weight points. Treat the screenshots as owner-device evidence of the *previous* build, not verification of this new styling.
+
+**Scoped v0.15.5 code patch:** Historical commentary headings in the actual mobile author drawer now call `formatPassageReference(passage_start, passage_end)`. Same-chapter ranges such as `ACT.2.1` to `ACT.2.4` display `Acts 2:1–4`; same-verse references display once; cross-chapter same-book endpoints show normal compact notation. Underlying SOTW canonical source IDs, scope boundaries and historical commentary bytes are unchanged. The reading font remains genuine **M PLUS 1p Light 300**. Because this family has static 300 and 400 faces rather than a variable 330, the main `.reader-paragraph` alone uses `-webkit-text-stroke:0.14px currentColor` as a slight optical strengthening, with no font-size, line-height, tracking, verse navigation or paragraph spacing changes. Verse Tools Regular 400, Word-by-Word, Jacob and historical commentary prose are unchanged. HTML refreshes the external CSS at `?v=20261117-reader155`.
+
+**Commit and rollback:** Recoverable before-change main `f4ef4ef18f0e07df89089d374430556d5ba8e3d4`. CSS commit `2a2d19a65f97d8e06588b2813239cebf9e786488` (new blob `3c7c4b41eef23e2ffa6004dba23bf95dba7dc136`); HTML commit `7179e7ee31765498dc8f761079eb473ae2262589` (new blob `037af27a91497e5a0fa4225180b3c6b93bf5d5c4`). Compare from baseline: exactly two modified reader files, `index.html` and `study-ux-repair.css`, no changed study JS, source, Jacob, BSB, lexicon or repository shared data.
+
+**Verified:** GitHub post-write blob readback PASS; HTML inline JavaScript parse 2/2 PASS; formatter fixtures `ACT.2.1–ACT.2.4 → Acts 2:1–4`, `ACT.2.2 → Acts 2:2`, `ROM.12.17–ROM.12.20 → Romans 12:17–20`, `ACT.2.1–ACT.3.4 → Acts 2:1–3:4` PASS; CSS rule and cache key present. **Not verified:** new public GitHub Pages HTTP response, actual iPhone Safari ink appearance/contrast and touch/scroll regressions. Owner should hard refresh the existing beta and compare both screens before accepting the optical change. BSB pilot is still not connected; the pending 66-book alignment research remains a separate workstream.
+
 ## 2026-11-17 | NEXT THREAD HANDOFF LOCK: BSB PUBLISHED PILOT + READER v0.15.4
 
 **Purpose:** Owner requested durable cross-thread handoff because this SOTW mobile-reader thread is long. This is a state snapshot and navigation aid, not a change to Bible text, accepted author commentary, word-study data, BSB sidecars or the player UI. SOTW and CGBC REV6 sermon requirements remain separate.
