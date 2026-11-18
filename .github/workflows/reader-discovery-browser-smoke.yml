@@ -8,6 +8,10 @@ on:
       - "mobile-bible-beta/study-ux-repair.js"
       - "mobile-bible-beta/discovery-integrations.js"
       - "mobile-bible-beta/index.html"
+      - "mobile-bible-beta/jacob-scripture-links.js"
+      - "mobile-bible-beta/tests/jacob-scripture-browser.test.cjs"
+      - "review-jake-scripture.html"
+      - "api/jacob-lannom/v1/current-commentary.json"
       - ".github/workflows/reader-discovery-browser-smoke.yml"
 
 permissions:
@@ -42,3 +46,5 @@ jobs:
           done
       - name: Exercise actual mobile viewport reader interactions
         run: node mobile-bible-beta/tests/discovery-browser.test.cjs
+      - name: Exercise published Jacob cross-references in both viewers
+        run: node mobile-bible-beta/tests/jacob-scripture-browser.test.cjs
