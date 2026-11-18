@@ -400,3 +400,14 @@
 .mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
  color:#426f78!important;
 }
+
+/* v0.15.1: tighten the visible Webster footer, retain its existing tap size. */
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-main{
+ padding-bottom:7px!important;
+}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ min-height:36px!important;
+ margin:-3px 4px 0 auto!important;
+ padding:2px 6px!important;
+ line-height:1.2!important;
+}
