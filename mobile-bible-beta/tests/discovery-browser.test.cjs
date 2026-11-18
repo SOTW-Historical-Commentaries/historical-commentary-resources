@@ -31,6 +31,8 @@ const {chromium}=require('playwright-core');
   await input.fill('Genesis 1:1');
   await page.locator('#modernSearchResults .search-hit').first().click();
   await page.locator('#verses [data-verse="1"]').first().waitFor({state:'visible',timeout:45000});
+  // Passage jump scrolls the reader: allow its existing 160 ms gesture guard to settle.
+  await page.waitForTimeout(350);
   await page.locator('#verses [data-verse="1"]').first().click();
   await page.locator('.discovery-bsb .discovery-launch').waitFor({state:'visible'});
   await page.locator('.discovery-bsb .discovery-launch').click();
