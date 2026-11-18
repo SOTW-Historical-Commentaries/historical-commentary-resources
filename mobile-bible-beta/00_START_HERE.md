@@ -10,6 +10,13 @@
 
 
 
+
+## CURRENT READER PATCH v0.15.8 | VERSE NUMBER AND LIGHT HEADER SEAM | 2026-11-17
+
+**Current mobile reader:** v0.15.8. Owner reviewed seven real iPhone screenshots and authorized the bounded two-item next build. Main Bible inline verse numbers are now 13px bold, up from 11px, with legible but secondary dark/light contrast. The light Verse Tools Close toolbar and nested Word-by-Word/Commentary Back header extend flush to the full width of the screen by compensating the established 18px horizontal inset; no more mismatched light side bands are intended. CSS cache `?v=20261117-reader158`. Dark panel styling, Bible/author fonts, Scripture word indicators, KJV paragraph marker `¶`, all data, and the separate BSB alignment pilot remain untouched.
+
+**Change control:** Recoverable baseline `aca6a9c0723953bcdc8cebd479164c4d4e22cb6b`. CSS commit `6e20407850579627fe80f82fc636061f7f6f79ba`, new blob `f2f224d35d2a55c67920172cbe6d26285fa13ede`. HTML cache-only commit `c3ae173de7dba192749b735e0dc02cba0c02cf47`, blob `f87d3bd1781e950cfceb9a275bb5c1d2110fb012`. Original study JS is unchanged at `de60bc8d8f0fa1f5559833f6d425d359ae314423`. GitHub compares exactly two files. Script parse 3/3 PASS, CSS braces and rule checks PASS, light verse-number contrast ~5.07:1; actual iPhone review of new version and independent Pages HTTP check still PENDING. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for source-specific QA. Preserve the older v0.15.7 block below as history.
+
 ## CURRENT READER PATCH v0.15.7 | SOFT LIGHT + VERIFIED ASV PUNCTUATION DISPLAY | 2026-11-17
 
 **Current reader code:** v0.15.7, following four owner iPhone screenshots. Light mode had an overly white uniform Verse Tools, Word-by-Word and commentary surface. Scoped CSS now gives the light UI a muted gray-green `#dce3df` background, distinct `#dce4e0` study overlay, `#e9efeb` raised cards, darker text/buttons, stronger borders and word-study highlight contrast, keeping dark mode and text sizes unchanged. Actual iPhone visual acceptance still PENDING.
