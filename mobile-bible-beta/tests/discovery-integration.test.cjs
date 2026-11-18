@@ -27,7 +27,7 @@ const books=[{code:'GEN',name:'Genesis',chapterCount:50},{code:'EXO',name:'Exodu
 assert.equal(core.parseScope('GEN.4.17',books)?.verse,17);
 assert.equal(core.parseScope('EXO.7',books)?.hasVerse,false);
 for(const key of ['GEN.0','GEN.90','UNKNOWN.1','EXO.2.0'])assert.equal(core.parseScope(key,books),null);
-const idx={verses:[['GEN.4.17',['t2','t3']],['GEN.4.18',['t4']]]};
+const idx={verses:{'GEN.4.17':['t2','t3'],'GEN.4.18':['t4']}};
 assert.deepEqual(Array.from(core.verseTopicIds(idx,'GEN.4.17')),['t2','t3']);
 assert.deepEqual(Array.from(core.verseTopicIds(idx,'GEN.4.19')),[]);
 const reverse={reverseScriptureScopes:{'EXO.7':['event-plagues'],'EXO.7.1':['person-cain']}};
