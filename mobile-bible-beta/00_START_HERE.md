@@ -9,6 +9,17 @@
 
 
 
+
+## CURRENT READER PATCH v0.15.7 | SOFT LIGHT + VERIFIED ASV PUNCTUATION DISPLAY | 2026-11-17
+
+**Current reader code:** v0.15.7, following four owner iPhone screenshots. Light mode had an overly white uniform Verse Tools, Word-by-Word and commentary surface. Scoped CSS now gives the light UI a muted gray-green `#dce3df` background, distinct `#dce4e0` study overlay, `#e9efeb` raised cards, darker text/buttons, stronger borders and word-study highlight contrast, keeping dark mode and text sizes unchanged. Actual iPhone visual acceptance still PENDING.
+
+**ASV Acts 2:34 upstream issue:** GitHub readback of the accepted `SOTW-ASV-1901/asv-1901-resources/data/asv1901/acts/chapters/02.json` blob `c8fa8a6f673bfd8b1fa9854147ae0f2ba6888ee5` found literal `himself,The Lord` in the published source span. Without altering source data, the reader now applies a display-only exact-reference correction (`ASV1901` `ACT.2.34` ONLY), rendering `himself, The Lord` in main Scripture, verse tools, search and Word-by-Word. Underlying source correction is a separate controlled process; other editions and verses must not be normalized speculatively.
+
+**Recoverable GitHub prepatch baseline:** `16cdcf8699541874c7ff5d2ad28d7e7eab022abc`. Three beta-only implementation commits: HTML `26849b21fc22433ae9be9fa2497aa34592371712` blob `5449b7a6d689d429ef9f01fef54e9394b307fd0f`; study JS `435156d7471fa51a550cb868f422a15d71d3b6c4` blob `de60bc8d8f0fa1f5559833f6d425d359ae314423`; CSS `0ec70b69b7879f25f1a56f8de786513fe4dbb1c6` blob `1bf30e5eabcbb1994ad19c317380ad0081605d23`. HTML cache keys `?v=20261117-reader157` for both study assets. 3 JS syntax checks PASS, CSS braces PASS, source/format exact-guard tests PASS, contrast calculated; real mobile screen and public Pages HTTP response NOT VERIFIED. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for full source and QA details.
+
+**No broader integration:** Original ASV text, accepted historical/Jacob JSON, BSB three-verse pilot, language data, schemas, and CGBC SPP untouched. Earlier v0.15.6/v0.15.5 headings below are historical snapshots; this v0.15.7 block is current.
+
 ## CURRENT READER PATCH v0.15.6 | OWNER IPHONE FONT FOLLOW-UP | 2026-11-17
 
 **Current beta:** v0.15.6, main Bible reading font remains M PLUS 1p Light 300 with slightly increased optical WebKit text stroke `0.23px` instead of `0.14px`. The change follows owner request for approximately 20 more *weight* points without changing text size. This stroke does NOT create a true 320 or 350 variable font instance. Historical and Jacob commentary prose and long-form previews now use screen-reading **Literata 400** (Google Fonts, Georgia fallback), paired with M PLUS 1p Bible text and unchanged sans controls/headings. Versioned CSS: `?v=20261117-reader156`. The prior v0.15.5 scripture reference conversion stays installed (`ACT.2.37–41` → `Acts 2:37–41`).
