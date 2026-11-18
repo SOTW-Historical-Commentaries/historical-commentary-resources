@@ -1,6 +1,6 @@
 # SOTW BIBLE READER — PROGRESS LEDGER
 
-**Updated:** 2026-11-17 (America/Chicago)  
+**Updated:** 2026-11-18 (America/Chicago)  
 **Authoritative living ledger:** [Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **Repository:** `SOTW-Historical-Commentaries/historical-commentary-resources`  
 **Live-route candidate:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
@@ -12,6 +12,18 @@
 
 
 
+
+## 2026-11-18 | IPHONE OWNER BUG: COMMENTARY PREVIEW CONTINUES WITHOUT DUPLICATING
+
+**Screenshot evidence:** In the dark iPhone reader on Acts 2, owner opens historical Matthew Henry's entry (Acts 2:37–41); after a visible 850-character commentary excerpt ending near “Peter…”, the “Read full commentary” disclosure restarted at the original “Peter's Sermon at Jerusalem.” User directs: the next text should start exactly after the preview, not republish the beginning. This was an interface construction error, not a commentary source error.
+
+**Source-level cause:** `appendVisibleCommentary()` appended a preview `t.slice(0,850)` then a details panel holding `t` in full. The older `plainContent()` also showed `txt.slice(0,880)` followed by the entire `txt`. Original source itself remained intact.
+
+**Actual fix:** Introduced a display-only `splitCommentaryPreview(text,limit)` helper respecting a word boundary; preview stays above, disclosure now contains `remaining` only and is labeled “Continue reading”. The mobile author screen and legacy summary both use the helper; all author types sharing these renderers are covered. Short text is unchanged. Very long unbroken text without a boundary is displayed in full rather than showing an empty continuation control. No scroll restoration across closing/reopening commentary is implied by this fix.
+
+**GitHub gate:** Pre-change `main` `e6a0dae0fb360a40ad49c27145c0507d578fc765`; code commit `886f27ae2988ec528be5f86c1444c4ee4063bdd6`. Exactly one runtime file changed: `mobile-bible-beta/index.html` blob `58329dd521cd4ea7c9e96bd1becbc512bc1e6b2e`. Source comparison against `api/v3/snapshots/structured-acts-2026-11-12/authors/matthew-henry/ACT/2.json` blob `57bc7fe6ef5c464fddf5eacd1304d122d5178a29` verifies the original excerpt is followed by the continuation beginning “Peter, in all his life…”, rather than the source introduction. Normalized preview+remaining text preserves all words for the 15,868-character original and other edge cases at both 850 and 880-character limits. Both inline JS syntax blocks PASS; GitHub readback PASS. CSS and external JS retain prior blobs `8db2cefe0cd47967b8e46c6b145adc25992c1c51`, `de60bc8d8f0fa1f5559833f6d425d359ae314423`.
+
+**Acceptance status:** **CODE PASS, REAL IPHONE VISUAL PROOF PENDING**. Owner should refresh the beta at Acts 2:37–41, select Matthew Henry, tap “Continue reading” and verify the sentence flows without the earlier material repeating. No public Pages HTTP proof was produced here; do not claim final production PASS. Keep SOTW Bible Search v1 requirements, external topical dataset candidate, two-site CGBC/SOTW plan and other earlier UI issues separately tracked and unchanged. Reader's historical version remains v0.16.0 with this targeted hotfix.
 
 ## 2026-11-17 | OWNER END-OF-NIGHT SEARCH DECISION: SCRIPTURE LOOKUP + FORGIVING TEXT MATCHES (DESIGN ONLY)
 
