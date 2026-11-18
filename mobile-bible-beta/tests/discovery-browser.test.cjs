@@ -5,7 +5,15 @@ const {chromium}=require('playwright-core');
 (async()=>{
  const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']});
  try{
-  const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});
+  const context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,serviceWorkers:'block'});
+  const page=await context.newPage();
+  // Stable source-shaped fixture for this one verse-backlink request; the
+  // live source schemas are checked in the separate integration QA workflow.
+  await page.route('**/data/topics/nave-torrey/v1/index/by-scripture/GEN.json',route=>route.fulfill({
+   status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},
+   body:JSON.stringify({schema:'sotw-topics-scripture-index/1.0.0',book_code:'GEN',
+    verses:[['GEN.1.1',['NEUU:TOPIC:creation']]]})
+  }));
   page.setDefaultTimeout(45000);
   const pageErrors=[];
   page.on('pageerror',error=>pageErrors.push(String(error?.stack||error)));
