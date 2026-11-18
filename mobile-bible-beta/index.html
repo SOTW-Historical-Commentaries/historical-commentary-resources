@@ -415,7 +415,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
-<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader154">
+<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader155">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -461,6 +461,17 @@ function snapshotRoot(b=bookInfo()){return `../api/v3/snapshots/${b.snapshot}/`}
 function pathForEdition(){const [label,repo,folder]=EDITIONS[state.edition];return `https://raw.githubusercontent.com/${repo}/main/data/${folder}/${bookInfo().slug}/chapters/${String(state.chapter).padStart(2,'0')}.json`}
 async function getJson(url){if(!cache.has(url)){cache.set(url,fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(`HTTP ${r.status} · ${url}`);return r.json()}).catch(e=>{cache.delete(url);throw e}))}return cache.get(url)}
 function formatScope(s){const p=(s||'').split('.');let b=BOOKS.find(x=>x.code===p[0]);return(b?.name||p[0])+(p.length>1?' '+p.slice(1).join(':'):'')}
+/* Display historical passage headings as normal Scripture references.
+   Preserve the original SOTW identifiers in the source/index records. */
+function formatPassageReference(start,end){
+ const from=String(start||''),to=String(end||'');
+ const first=formatScope(from);
+ if(!to||to===from)return first;
+ const a=/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)$/.exec(from);
+ const b=/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)$/.exec(to);
+ if(a&&b&&a[1]===b[1])return first+'–'+(a[2]===b[2]?'':b[2]+':')+b[3];
+ return first+'–'+formatScope(to);
+}
 function addOption(select,value,label){const o=document.createElement('option');o.value=String(value);o.textContent=label;select.append(o)}
 function fillNumbers(select,count,want){select.replaceChildren();for(let n=1;n<=count;n++)addOption(select,n,n);select.value=String(Math.max(1,Math.min(count,want)));return Number(select.value)}
 function setStatus(message,error=false){$('status').textContent=message;$('status').classList.toggle('error',error)}
@@ -977,7 +988,7 @@ function openAuthorCommentary(author){
    if(!entry||entry.reader_visible===false)continue;
    const bodyText=content(entry);if(!bodyText)continue;
    const title=document.createElement('h4');
-   title.textContent=(entry.passage_start||'')+(entry.passage_end&&entry.passage_end!==entry.passage_start?' – '+entry.passage_end:'');
+   title.textContent=formatPassageReference(entry.passage_start,entry.passage_end);
    body.append(title);appendVisibleCommentary(body,bodyText);
   }
  }).catch(()=>{if(gen===state.generation)loading.textContent='Commentary could not be loaded.'});
