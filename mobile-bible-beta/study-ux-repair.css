@@ -468,3 +468,156 @@
  font-family:"Literata",Georgia,serif!important;
  font-weight:400!important;
 }
+
+/* v0.15.7 soft-light: lower the light theme's glare and separate its layers.
+   Scoped to beta-light only. No dark-mode, text-size or source changes.
+   Dark body text vs soft canvas ~10:1; labels and buttons exceed 4.5:1. */
+.mobile-beta.beta-light{
+ background:#dce3df!important;
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light #modernReaderHeader{
+ background:#cad8d2!important;
+ border-bottom-color:#8fa8a8!important;
+}
+.mobile-beta.beta-light #verses .reader-paragraph{color:#1f343c!important}
+.mobile-beta.beta-light #readerEdition{
+ background:#c9dad6!important;color:#23424c!important;border-color:#86a5a9!important;
+}
+/* Full-screen study, verse tools and modal backgrounds should be distinct
+   from their text cards, never all near pure white. */
+.mobile-beta.beta-light #studyOverlay,
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{
+ background:#dce4e0!important;
+ color:#1f343c!important;
+ border-color:#8fa8a8!important;
+}
+.mobile-beta.beta-light #studyOverlayHeader,
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools{
+ background:#cad8d2!important;
+ border-bottom-color:#91aaa8!important;
+}
+.mobile-beta.beta-light #studyOverlayBody,
+.mobile-beta.beta-light #studyBodyScroll{
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light #studyOverlayTitle,
+.mobile-beta.beta-light #studyHeading,
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-nav{
+ color:#23434d!important;
+}
+.mobile-beta.beta-light #studyClose{
+ background:#295461!important;
+ border-color:#295461!important;
+ color:#f7fbfa!important;
+}
+.mobile-beta.beta-light #studyOverlayBack{
+ background:#cadbd7!important;
+ border-color:#8fa8a8!important;
+ color:#1f343c!important;
+}
+/* In light mode the verse, commentary and word cards get a slightly lifted
+   (not white) surface, visible cool-grey edge, and genuinely dark text. */
+.mobile-beta.beta-light #modernStudyVerse,
+.mobile-beta.beta-light #studyWordDetail,
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-verse,
+.mobile-beta.beta-light #studyOverlayBody .voice,
+.mobile-beta.beta-light #studyOverlayBody .voice.jacob{
+ background:#e9efeb!important;
+ border-color:#90aaa8!important;
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .voice-title,
+.mobile-beta.beta-light #studyOverlayBody .voice.jacob .voice-title{
+ background:#d4e1dc!important;
+ border-bottom-color:#90aaa8!important;
+}
+.mobile-beta.beta-light .voice-title strong,
+.mobile-beta.beta-light #studyOverlayBody .voice-body .copy,
+.mobile-beta.beta-light #studyOverlayBody .voice-body .preview,
+.mobile-beta.beta-light #studyOverlayBody .voice-body h4,
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-verse{
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light .source-chip{
+ background:#bdd5cd!important;color:#214a46!important;
+}
+.mobile-beta.beta-light #doctrineTags{
+ background:#d4e3df!important;
+ border-color:#8ea9a8!important;
+ color:#23434c!important;
+}
+.mobile-beta.beta-light #doctrineTags .doctrine-primary{
+ background:#bdd7d3!important;
+ color:#17434d!important;
+ border-color:#78a2a6!important;
+}
+.mobile-beta.beta-light #doctrineTags .doctrine-caption,
+.mobile-beta.beta-light #doctrineTags .doctrine-formal,
+.mobile-beta.beta-light #doctrineTags .doctrine-aliases,
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-caption,
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-note,
+.mobile-beta.beta-light #studyOverlayBody .voice-body .meta{
+ color:#3e5c64!important;
+}
+/* Stronger cues, without treating Webster-only words as original links. */
+.mobile-beta.beta-light #modernStudyVerse .word-target{
+ background:#c5dddc!important;
+ border-bottom-color:#397b87!important;
+ color:#1e4a59!important;
+}
+.mobile-beta.beta-light #modernStudyVerse .word-target.is-open{
+ background:#abcfd0!important;
+}
+.mobile-beta.beta-light .study-launch,
+.mobile-beta.beta-light .available-author,
+.mobile-beta.beta-light .commentary-toggle{
+ background:#cadbd7!important;
+ color:#1f343c!important;
+ border-color:#8fa8a8!important;
+}
+.mobile-beta.beta-light .study-launch small,
+.mobile-beta.beta-light .available-author small,
+.mobile-beta.beta-light .commentary-toggle small{
+ color:#3e5c64!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card{
+ background:#dce7e2!important;
+ border-color:#90aaa8!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-main{
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-plain,
+.mobile-beta.beta-light #studyOverlayBody .word-atlas-text>span,
+.mobile-beta.beta-light #studyOverlayBody .word-atlas-head strong{
+ color:#28434c!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-rule{
+ background:#91aaa8!important;opacity:1!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-nav button,
+.mobile-beta.beta-light .word-expand{
+ background:#cadbd7!important;
+ border-color:#8fa8a8!important;
+ color:#23434d!important;
+}
+/* The same soft canvas for navigation and edition popovers. */
+.mobile-beta.beta-light .modal-content,
+.mobile-beta.beta-light #readerEditionModal .modal-content,
+.mobile-beta.beta-light #readerNavModal .modal-content{
+ background:#dce4e0!important;
+ border-color:#8fa8a8!important;
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light .modal-close,
+.mobile-beta.beta-light .edition-option,
+.mobile-beta.beta-light .search-hit{
+ background:#e9efeb!important;
+ border-color:#90aaa8!important;
+ color:#1f343c!important;
+}
+.mobile-beta.beta-light .edition-option[aria-pressed="true"]{
+ background:#c5dbd5!important;
+ border-color:#638e93!important;
+}
