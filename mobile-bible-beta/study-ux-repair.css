@@ -429,6 +429,9 @@
    Keep sizes, line-height, original-language forms and commentary unchanged. */
 .mobile-beta #verses .reader-paragraph{
  font-weight:300!important;
+ /* M PLUS 1p is a static 300/400 family. Add a very small Safari ink stroke
+    for an optical step toward 330 without changing size, spacing or metrics. */
+ -webkit-text-stroke:0.14px currentColor;
 }
 .mobile-beta #studyOverlayBody .word-sequence-verse{
  font-weight:500!important;
