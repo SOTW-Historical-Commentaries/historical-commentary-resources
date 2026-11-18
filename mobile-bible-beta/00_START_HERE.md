@@ -4,12 +4,22 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active mobile reader **v0.16.0 with 2026-11-18 commentary continuation hotfix**; runtime commit `886f27ae2988ec528be5f86c1444c4ee4063bdd6`. The prior owner reports the reader works well on iPhone; this specific new change still requires real-device confirmation. Public Pages rendering is not independently verified.  
+**Status:** Active mobile reader **v0.16.1 header beta** with 2026-11-18 More/source-info design; code commit `46b053bc5a20de5ce897ed8f03e2c5475fc33230`. Existing Scripture and commentary data are unchanged. Real iPhone visual acceptance and independent live Pages rendering remain pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
 
 
 
+
+## CURRENT BETA DESIGN | v0.16.1 HEADER MORE + LIBRARY SOURCE INFO | 2026-11-18
+
+**Owner direction and implementation:** Owner approved an updated iPhone header after reviewing earlier full CGBC + Bible + SOTW branding and noting the need for a More button with explanatory material about available sources. Header now displays the **existing original combined logo, enlarged** (responsive cap 270px/60px), and a top-right **More** button. Search moves to the second row beside the translation selector (46px Search target; translation minimum 46px tall and 70px wide). Chapter navigation remains on the second row. The light/dark control moves inside More as a functional **Appearance** button, showing the current mode and switching it immediately. Navigation, search logic, keyboard behaviors and book/verse reading are unchanged.
+
+**More functionality:** A real dismissible modal lists expandable, linked source information covering the four independently published Bible translations (KJV1769, ASV1901, BSB, WEBSTER1833), six historical commentary authors and variable passage coverage, Strong's/Hebrew/Greek lexicons and Webster 1828 (distinct from Webster 1833 Bible), living featured SOTW partner Jacob Lannom's provenance-scoped commentary, and About Servants of the Way. Source catalog, repository and rights links open existing records. The menu does **not** claim universal original-language availability or full commentary coverage. It changes appearance preference through the existing theme persistence. A future SOTW-only header and CGBC/SOTW dual-site deployment remain a **separate owner-intended future project**, not part of this beta.
+
+**Code and QA:** Pinned pre-change main `718b8aa11d1800771886cb4f4c2f0350c1e0515b`. Atomic header+menu commit `46b053bc5a20de5ce897ed8f03e2c5475fc33230`; updated `mobile-bible-beta/index.html` blob `8dc2c9aa703b5e024978b49ff4f93eb86aae1145` and `study-ux-repair.css` blob `3cafb15c285de3f6de5115845ffabe37e7b4b030`. CSS cache key `?v=20261118-reader161`. Study JS remains `de60bc8d8f0fa1f5559833f6d425d359ae314423`; the logo remains the exact previous `branding/v1/cgbc-sotw-full-header-900.png` Git blob `70534c5e9b8d2b765f5f4c63ae085be5065683c8`. Readback confirmed only HTML/CSS changed, two inline and the external study JS syntax checks PASS, CSS brace counts balanced, modal wiring/links/IDs retained. **Actual iPhone light/dark, More scroll/open/close, Search, translation picker and layout review still pending**. No independent Pages visual PASS; do not misstate this as released production.
+
+**Next test:** Open the existing beta, switch to both themes from More, inspect enlarged combined logo and two-row controls on iPhone, expand all five resource sections and verify readable links, then tap Search and change editions to ensure navigation remains sound. Earlier Matthew Henry **Continue reading** fix is retained unchanged. Search v1 plans (Bible-wide fuzzy text search), topical dataset research, source registries and rights records are unchanged.
 
 ## CURRENT READER HOTFIX | COMMENTARY CONTINUATION | 2026-11-18
 
