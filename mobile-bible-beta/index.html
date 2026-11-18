@@ -889,22 +889,54 @@ readerView.addEventListener('click',e=>{
  const n=Number(node.dataset.verse);if(!modernSourceVerse(n))return;
  modernStudyVerse=n;chooseVerse(n);betaOpen();
 });
+/* Reader reference lookup v0.16.3: accept ordinary remembered references
+   such as "Gen 3 14", "Gen. 3:14", "1 Thess 2:3", or "John 3:16".
+   This does NOT change the current-chapter-only text search. */
+function modernParseReference(input){
+ const text=String(input||'').trim().replace(/\s+/gu,' ');
+ const m=text.match(/^(.+?)\s+(\d{1,3})(?:(?:\s*[:.,]\s*|\s+)(\d{1,3}))?\.?$/u);
+ if(!m)return null;
+ const normalize=s=>String(s).toLowerCase().replace(/[^a-z0-9]/g,'');
+ const key=normalize(m[1]);
+ const aliases={ge:'GEN',gn:'GEN',ps:'PSA',psalm:'PSA',
+   phil:'PHP',philem:'PHM',jn:'JHN',mt:'MAT',mk:'MRK',lk:'LUK',
+   song:'SNG',canticles:'SNG'};
+ let book=BOOKS.find(b=>normalize(b.name)===key||normalize(b.code)===key);
+ if(!book&&aliases[key])book=BOOKS.find(b=>b.code===aliases[key]);
+ if(!book&&key.length>=3){
+  const options=BOOKS.filter(b=>normalize(b.name).startsWith(key));
+  if(options.length===1)book=options[0];
+ }
+ const chapter=Number(m[2]),verse=Number(m[3]||1);
+ return book&&chapter>=1&&chapter<=book.chapterCount&&verse>=1&&verse<=176
+  ?{book,chapter,verse,hasVerse:!!m[3]}:null;
+}
 function modernSearchRender(){
  searchResults.replaceChildren();const q=searchInput.value.trim().toLowerCase();if(!q)return;
- const m=q.match(/^(.+?)\s+(\d{1,3})(?::(\d{1,3}))?$/);
- if(m){
-  const b=BOOKS.find(x=>x.name.toLowerCase()===m[1]||x.code.toLowerCase()===m[1]);
-  if(b&&Number(m[2])>=1&&Number(m[2])<=b.chapterCount){
-   const button=document.createElement('button');button.className='search-hit';button.type='button';
-   button.textContent='Open '+b.name+' '+m[2]+(m[3]?':'+m[3]:'');
-   button.addEventListener('click',async()=>{
-    searchModal.veil.classList.remove('is-open');modernStudyVerse=0;betaCloseSheet();
-    const same=state.book===b.code&&state.chapter===Number(m[2]);
-    state.book=b.code;state.chapter=Number(m[2]);state.verse=Number(m[3]||1);$('book').value=b.code;
+ const ref=modernParseReference(q);
+ if(ref){
+  const {book:b,chapter,verse,hasVerse}=ref;
+  const button=document.createElement('button');button.className='search-hit';button.type='button';
+  button.textContent='Open '+b.name+' '+chapter+(hasVerse?':'+verse:'');
+  button.addEventListener('click',async()=>{
+   // Check the published chapter index before navigation, so a non-existent
+   // verse is never silently changed into a different passage.
+   button.disabled=true;
+   try{
+    const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+chapter+'.json');
+    const count=Number(idx?.verse_count||0);
+    if(idx?.canonical_chapter!==b.code+'.'+chapter||count<1)throw Error('Unverified chapter index');
+    if(verse>count){
+     button.textContent=b.name+' '+chapter+' has '+count+' verses';button.disabled=false;return;
+    }
+    searchInput.blur();searchModal.veil.classList.remove('is-open');
+    modernStudyVerse=0;betaCloseSheet();
+    const same=state.book===b.code&&state.chapter===chapter;
+    state.book=b.code;state.chapter=chapter;state.verse=verse;$('book').value=b.code;
     if(!same)await loadBook();else chooseVerse(state.verse);
-    modernJumpToVerse(state.verse);
-   });searchResults.append(button);return;
-  }
+    if(state.bible)modernJumpToVerse(state.verse);
+   }catch(_){button.textContent='Could not verify '+b.name+' '+chapter+'; try again';button.disabled=false;}
+  });searchResults.append(button);return;
  }
  const bookMatches=BOOKS.filter(b=>b.name.toLowerCase().includes(q)||b.code.toLowerCase()===q).slice(0,5);
  for(const b of bookMatches){
