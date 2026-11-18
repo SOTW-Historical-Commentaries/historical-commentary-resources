@@ -41,6 +41,7 @@ const {chromium}=require('playwright-core');
   assert.match(await page.locator('.discovery-original-body').innerText(),/H7225/);
   await page.locator('.discovery-study:not(.discovery-bsb) .discovery-launch').first().click();
   await page.locator('.discovery-verse-body:not([hidden])').waitFor({state:'visible',timeout:45000});
+  await page.locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
   assert.match(await page.locator('.discovery-verse-body').innerText(),/Historical topic links/);
   assert.deepEqual(pageErrors,[],'Uncaught reader JavaScript errors');
   console.log('PASS: mobile viewport, topic search, accepted person, BSB source, passage backlinks and no uncaught JS errors');
