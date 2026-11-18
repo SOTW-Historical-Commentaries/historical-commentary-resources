@@ -65,8 +65,10 @@ assert(!script.includes('innerHTML='),'Source text must never become executable 
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
 assert(html.includes('discovery-integrations.js?v=20261118-discovery6'));
+assert(html.includes('reader-return.js?v=20261118-return1'),'Reader must load return navigation');
 assert(html.includes('discovery-integrations.css?v=20261118-discovery2'));
-assert(sw.includes("sotw-mobile-bible-beta-shell-v0176"));
+assert(sw.includes("sotw-mobile-bible-beta-shell-v0177"));
+assert(sw.includes("'./reader-return.js'"),'PWA must precache the return script');
 assert(sw.includes('./discovery-integrations.js')&&sw.includes('./discovery-integrations.css'));
 assert(study.includes('renderBsbWordByWord')&&study.includes("if(state.edition==='BSB')"),
  'Full publisher-aligned BSB Word-by-Word must remain intact');
