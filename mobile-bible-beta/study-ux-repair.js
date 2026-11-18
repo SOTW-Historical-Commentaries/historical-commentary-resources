@@ -109,14 +109,21 @@
         if(!groups.has(key))groups.set(key,[]);
         groups.get(key).push(row);
       }
-      for(const word of words){
-        const key=normalizeAtlasWord(word);
-        if(key)counts.set(key,(counts.get(key)||0)+1);
-      }
+      // SOTW's tagged records are already ordered. For repeated English
+      // words, pair first-to-first only when occurrence counts agree exactly.
+      // No browser linguistics, guesses or token matches on unequal counts.
+      const positions=new Map();
       words.forEach((word,index)=>{
-        const key=normalizeAtlasWord(word),matches=groups.get(key)||[];
-        if(key&&counts.get(key)===1&&matches.length===1){assigned.set(index,matches[0]);used.add(matches[0]);}
+        const key=normalizeAtlasWord(word);
+        if(!key)return;
+        if(!positions.has(key))positions.set(key,[]);
+        positions.get(key).push(index);
       });
+      for(const [key,records] of groups){
+        const englishPositions=positions.get(key)||[];
+        if(englishPositions.length!==records.length)continue;
+        englishPositions.forEach((index,i)=>{assigned.set(index,records[i]);used.add(records[i]);});
+      }
     }
     return {words,assigned,unpositioned:rows.filter(row=>!used.has(row))};
   }
@@ -176,7 +183,7 @@
         if(!websterDefinitionsFor(englishWord).length)return;
         const dictionary=document.createElement('button');dictionary.type='button';
         dictionary.className='word-sequence-dictionary';
-        dictionary.textContent='Webster’s 1828 Dictionary ›';
+        dictionary.textContent='Webster 1828  ›';
         dictionary.setAttribute('aria-label','Read Webster’s 1828 dictionary definition for '+englishWord);
         dictionary.addEventListener('click',event=>{
           event.stopPropagation();
@@ -236,7 +243,7 @@
       sequence.append(row?makeAtlasCard(row,word):makeWordLine(word));
     });
     studyOverlayBody.append(sequence);
-    if(unpositioned.length){
+    if(unpositioned.length&&state.edition==='BSB'){
       const sourceTitle=document.createElement('p');sourceTitle.className='word-sequence-caption';
       sourceTitle.textContent=BOOKS.findIndex(b=>b.code===state.book)>=39
         ?'Greek words in source order':'Hebrew words in source order';
