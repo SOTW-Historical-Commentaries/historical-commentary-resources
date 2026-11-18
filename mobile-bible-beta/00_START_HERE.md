@@ -9,6 +9,15 @@
 
 
 
+## 2026-11-18 | ACCEPTED PEOPLE / PLACE SOURCE PUBLISHED | VERIFIED
+
+**GitHub publication PASS:** Bible Foundation accepted-source publishing script + regression tests + GitHub Actions workflow are installed. Workflow run [44363614614](https://github.com/Stewards-of-the-Way/bible-foundation/actions/runs/44363614614) succeeded; commit `bb1331896a43e27ae52555359f5e1d67baef5d0b` published exactly **three** generated files to [`data/search/people-time-place/accepted/v1/`](https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/search/people-time-place/accepted/v1). Current manifest `PUBLISHED_ACCEPTED_SOURCE_NOT_UI_CONNECTED`.
+
+**Accepted source:** 185 people, 65 source-qualified places, 6 events, 257 relationships, 2 documented unresolved alternatives. Withheld from accepted outputs: 84 persons, 180 events, 70 relationship candidates pending source-specific review; excluded Sumerian writing event stays in historical master only. Cain → Enoch `GEN.4.17`, Ten Plagues `EXO.7`–`EXO.12`, and original Matthew teaching `MAT.19`–`MAT.20` are present and checked. Preserve the source's alternative historical dates, Dodanim/Rodanites name forms and geography limitations.
+
+**Protection/next:** The accepted v1 directory is a DERIVED trusted/source-qualified collection, not a replacement for the checksum-locked CGBC historical master. The original People/Places source/search v1 is unchanged. SOTW reader **v0.16.3 remains unchanged**, including the deferred real-iPhone search verification; the new accepted source is **not yet wired into Search v1 or the UI**. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for script/workflow SHA, scope, withheld counts and release proof.
+
+
 ## 2026-11-18 | EVIDENCE ACCEPTANCE GATE v1 | OWNER DECISION
 
 **Active SOTW review policy, not yet a live UI adapter:** Owner established a clear claim-by-claim gate: (1) accept directly evidenced facts; (2) accept supported probabilities only with explicit **probable/likely** wording and evidence; (3) if two credible source views are unresolved, retain **both** with source/qualification instead of silently replacing either; (4) if evidence is absent, **exclude public claims** and close the review, while retaining original history in the locked source. Scripture link parsing failures are technical corrections, **not** factual refutations. Evaluate occurrence separately from chronology/geography/people identity.
