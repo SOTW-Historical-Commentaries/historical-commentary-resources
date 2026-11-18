@@ -1,0 +1,41 @@
+name: SOTW reader browser integration smoke
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "mobile-bible-beta/tests/discovery-browser.test.cjs"
+      - ".github/workflows/reader-discovery-browser-smoke.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Locate real Chrome browser
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHROME="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          "$CHROME" --version
+          echo "CHROME_PATH=$CHROME" >> "$GITHUB_ENV"
+      - name: Install headless browser test driver only
+        run: npm install --no-save --no-audit --no-fund playwright-core@1.58.2
+      - name: Serve exact repository reader + published Scripture snapshots
+        shell: bash
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/sotw-reader-http.log 2>&1 &
+          echo $! >/tmp/sotw-reader-http.pid
+          for n in 1 2 3 4 5; do
+            if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
+            sleep 1
+          done
+      - name: Exercise actual mobile viewport reader interactions
+        run: node mobile-bible-beta/tests/discovery-browser.test.cjs
