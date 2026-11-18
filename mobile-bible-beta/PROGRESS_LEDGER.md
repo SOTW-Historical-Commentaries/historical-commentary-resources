@@ -9,6 +9,16 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | v0.15.3 MAIN BIBLE REGULAR 400 FONT TEST (OWNER AUTHORIZED)
+
+Owner reviewed three v0.15.2 iPhone screenshots, preferred M PLUS 1p typography as shown in Verse Tools, but reported that main Scripture paragraphs at medium weight 500 looked too heavy. Owner explicitly authorized making this adjustment live.
+
+**Implemented:** In `mobile-bible-beta/study-ux-repair.css`, change ONLY the main `.mobile-beta #verses .reader-paragraph` weight from `500!important` to **`400!important` (Regular)**, keeping `M PLUS 1p`, identical Scripture font size/line height, and the unchanged Word-by-Word `.word-sequence-verse` weight 500. Greek/Hebrew forms, commentary prose, verse links, dictionary UI, Strong's and SOTW accepted data untouched. In `mobile-bible-beta/index.html`, bump stylesheet cache key from `?v=20261117-reader152` to `?v=20261117-reader153`. No JS modification.
+
+**Source control:** Recoverable pre-change main SHA `bb1cae7cf47a79cd548685884835c5aaa7a5de17`. Commit `fe09bbce78be954c7a0765cfbc04fb9e57af0248` changes CSS; commit `8a619f6994986814a22bf1569fe5fa55565ac29a` bumps its HTML stylesheet link. GitHub compare confirms exactly **two files** changed: `mobile-bible-beta/study-ux-repair.css` blob `9c6602fefdf5ab96fc7cd4761a06b4e9b85bf2d7` and `mobile-bible-beta/index.html` blob `e0c0acd4de665b0508529291b2e424167fd4a3f1`. JavaScript study file unchanged, source/author records unchanged, no independent translation sites affected.
+
+**Validation:** Re-read files and branch head, CSS brace balance, exact scoped main/Word-by-Word weights, M PLUS font family and CSS cache key all checked. Both inline JavaScript blocks and external study JS syntax previously passed; no JavaScript changed in v0.15.3. GitHub Pages public stylesheet URL could not be independently fetched through the current browser connector, so **do not claim actual deployment/visual iPhone PASS**. Owner test link: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/?book=ACT&chapter=2&verse=1&translation=KJV1769 . Refresh on device, compare main Bible Acts 2 with Verse Tools, and report weight preference. No BSB alignment research restarted; common-word underline remains parked.
+
 ## 2026-11-17 | v0.15.2 FONT WEIGHT IPHONE REVIEW: VERSE TOOLS PREFERRED
 
 **Owner visual evidence:** Three iPhone screenshots supplied in this order: (1) Acts 2:1 Verse Tools screen with study-theme terms, dotted word links and five historical commentary options; (2) Acts 2 main Bible reader with the new M PLUS 1p English text and the single Jacob chapter-introduction control; (3) Jacob Lannom Acts 2 chapter-introduction commentary rendered as serif long-form prose. All three are retained in the living Google Doc in owner upload order.
