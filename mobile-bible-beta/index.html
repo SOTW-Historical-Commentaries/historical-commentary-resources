@@ -1191,7 +1191,7 @@ betaLexicon=async function(id,request,english){
  try{
   const data=await getJson(u);
   if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
-  const row=data.entries?.[id];betaWordDetail.replaceChildren();if(!row)return;
+  const row=data.entries?.['strongs:'+language+num]||data.entries?.[id];betaWordDetail.replaceChildren();if(!row)return;
   currentLexical={row,id,english};
   const label=document.createElement('span');label.className='word-summary-title';
   label.textContent=english+'  ·  '+id.replace('strongs:','');
@@ -1453,7 +1453,7 @@ editionModal.veil.addEventListener('click',event=>{
  if(event.target===editionModal.veil)event.stopImmediatePropagation();
 },true);
 </script>
-<script src="./study-ux-repair.js?v=20261118-reader164"></script>
+<script src="./study-ux-repair.js?v=20261118-reader165"></script>
 <script src="./discovery-integrations.js?v=20261118-discovery6"></script>
 <script src="./reader-return.js?v=20261118-return1"></script>
 </body>
