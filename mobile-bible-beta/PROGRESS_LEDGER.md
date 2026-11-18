@@ -9,6 +9,16 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | ACTS 2 CHAPTER INTRODUCTION COVERAGE AT ACTS 2:2 (OWNER DESKTOP SCREENSHOT)
+
+**Owner follow-up image:** Desktop Safari screenshot of the existing separate public `Jacob Lannom | Scripture Commentary | SOTW` page. Its chooser selects `ACT.2 · Acts 2: The Spirit and a Believing Community` and the content visibly renders the accepted chapter introduction. Screenshot provided November 17 following the four iPhone bug screenshots; additional image embedded in the living Google Doc **after** the four images and documented separately.
+
+**Direct authoritative source verification:** Public `api/jacob-lannom/v1/current-commentary.json` has `scopeKey:"ACT.2"`, `scopeType:"CHAPTER_INTRODUCTION"`, title `Acts 2: The Spirit and a Believing Community` (1027 characters). It also has distinct `ACT.2.37-41` `PASSAGE` commentary, `Receiving the Word, Baptism, and Belonging` (492 characters). These are **two different accepted scopes**. An introduction applies as *chapter context* while reading Acts 2:2, but it is NOT a verse-specific claim about Acts 2:2; do not promote it to one.
+
+**UI gap beyond the proven Array.filter/some callback-index bug:** Even after fixing the index-misbinding error, current `matchingJacob` explicitly restricts `CHAPTER_INTRODUCTION` to `targetVerse===1`. Thus the owner is correct that Acts 2:2 does not yet have a proper way to navigate to its applicable Acts 2 chapter introduction. This is a separate scope/navigation design issue. Chapter introductions should be available at chapter level throughout their chapter, with clearly distinguished scope, and must not cause the rotated-square marker to falsely imply a separate verse-specific teaching on every verse. Determine the best chapter-context access affordance while retaining direct squares for genuine verse/passage matches. **Do not invent or duplicate author contributions, and keep lookup/rendering from already accepted SOTW data.**
+
+**Status:** Evidence/owner intent captured; both callback-index bug and chapter-introduction access are **UNFIXED** in the reader. Owner is in visual review, and no code/data/deployment changes are approved or made in this documentation step.
+
 ## 2026-11-17 | IPHONE FOUR-PHOTO REPRODUCTION: JACOB SQUARE OPENS EMPTY VIEW (UNFIXED)
 
 **Owner-supplied real-device evidence, exact four-image sequence:** The actual **four original iPhone screenshots were embedded, in owner order**, in the [authoritative living Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit) under heading **"IPHONE BUG EVIDENCE - FOUR SCREENSHOTS IN OWNER ORDER - ACTS 2:1"**. Images are in the document, not invented GitHub paths or links. The sequence is:
