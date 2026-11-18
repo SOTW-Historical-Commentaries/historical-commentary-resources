@@ -9,6 +9,15 @@
 
 
 
+## 2026-11-18 | JACOB SCRIPTURE LINK NAVIGATION GAP
+
+**Owner SPP-review finding:** Review packages expose outbound/inbound Scripture relationships that were not previously obvious. For the shown `ROM.12.17` example, the published SOTW `api/jacob-lannom/v1/current-commentary.json` **already contains seven typed links** from the accepted 2026-11-08 sermon (`media-fie2dj`), reconciled 2026-11-17. `ROM.12` also points into `ROM.12.17`. Any *additional* current SPP review-package relationships need independent comparison; do not assume they are already in accepted SOTW.
+
+**Real issue:** `review-jake-scripture.html` displays these relationships but only links destinations if independent Jacob commentary exists there. Valid Scripture passages otherwise render as plain text with "commentary not yet available"; `mobile-bible-beta/index.html` does not render `referenceTargets` in the Jacob reader panel at all. This is a **Scripture navigation/UI gap**, not evidence the Romans links are missing from the current published JSON.
+
+**Next UI requirement (not installed):** Every accepted, canonical relationship target should navigate to its Scripture in the selected Bible edition **even when Jacob has no separate commentary for that target**. Offer "Read Jacob commentary" separately only where accepted commentary exists. Preserve direction/type/rationale, range bounds, provenance, rights and the separate SPP release gate. No public audio/video/cue links in Jacob commentary, no changes to accepted data or runtime in this checkpoint. Full evidence: [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md).
+
+
 ## 2026-11-18 | BSB WORD-BY-WORD PUBLISHER ALIGNMENT CORRECTED | v0.17.1
 
 **Current correction:** Owner's iPhone screenshots exposed empty BSB Word-by-Word English rows. HelloAO's official interlinear contract confirms `bsbPos` is the BSB English-order **rank**, `gloss` is the publisher-supplied corresponding English **phrase**, and `pos` is the original-text order. Earlier wording "not an English word alignment" was wrong; the precise constraint is that `bsbPos` is **not an English token number/character offset**. The new BSB Word-by-Word path renders publisher glosses in English order in the same row-card layout as other editions, showing original word, transliteration, morphology and SOTW Strong's entry. All 66 books are source-backed on demand. Untranslated markers remain visible; never invent English words or offsets. Separate original-order view remains accessible.
