@@ -4,12 +4,22 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active mobile reader **v0.16.1 header beta** with 2026-11-18 More/source-info design; code commit `46b053bc5a20de5ce897ed8f03e2c5475fc33230`. Existing Scripture and commentary data are unchanged. Real iPhone visual acceptance and independent live Pages rendering remain pending.  
+**Status:** Active mobile reader **v0.16.2 header/author badge refinement** (2026-11-18); latest code commit `3826a3285007b2cc9f1e9bb244cbd991d105d12b`. Source Scripture/commentary unchanged; on-device visual confirmation pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
 
 
 
+
+## CURRENT BETA DESIGN | v0.16.2 QUIET TOP ICONS + LONG LABELS | 2026-11-18
+
+**Owner screenshot-driven update:** In dark-mode images of Genesis 3:6 (Jamieson–Fausset–Brown), Zechariah 1 (ASV), and 2 Thessalonians (KJV), owner noted two problems: the longest historical author name visually squeezed the Historical Commentary badge; and the boxed More/Search/translation controls felt disconnected and consumed room needed for long book titles. Owner refined the request: **Search icon moves back to the top row immediately LEFT of a three-line hamburger icon for More; remove both boxes and the word More**. The second row should prioritize the complete book name with a quiet unboxed translation label, shrinking other controls before the title. Preserve the original combined CGBC/Bible/SOTW image and functional More contents.
+
+**Installed in the existing beta only:** Header markup now groups Search and the accessible hamburger at the top right. Both retain >=44×44px tap targets with transparent backgrounds and focus styling. The first-row logo retains its source asset and responsive 270px cap; header side insets reduce from 17px to 12px to recover space. The second row holds only the book/chapter navigation and edition text; chapter dropdown chevron becomes compact and edition shrinks before the book name, with no framed Search or edition button. On narrow screens book title scales moderately but preserves full wording whenever it fits. Existing More modal, theme toggle, translation selection behavior, reference navigation, current-chapter Search and saved preferences remain wired to their original IDs. In commentary, names longer than 18 characters receive a `long-author-name` class: author name gets a full line and the original source-status badge occupies a separate row, avoiding squeezing/wrapping against long names. This affects presentation, not commentary data.
+
+**Recoverability and checks:** Pinned pre-change main `3ec892676b4e3b579fa787faed376eeadf3ea9cd` (v0.16.1 plus documentation). Atomic code commit `3826a3285007b2cc9f1e9bb244cbd991d105d12b` changes exactly two files: `mobile-bible-beta/index.html` Git blob `adac9014fe4b9a5d52851f1c44929821a0d97204`; `mobile-bible-beta/study-ux-repair.css` blob `bf437e2b53b4de476684c78b4b9c051fe52f04e7`. CSS cache key `?v=20261118-reader162`. Unchanged study JS blob `de60bc8d8f0fa1f5559833f6d425d359ae314423`, unchanged source PNG Git blob `70534c5e9b8d2b765f5f4c63ae085be5065683c8`. Readback verified top-row order Search→hamburger, edition-only lower right, responsive styles, intact More/Appearance wiring, two inline scripts and study JS parsing PASS and CSS braces balanced. Real Safari layout and public Pages HTTP could not be independently verified (public host inaccessible in tool runtime); **owner visual QA still required**. No production release claim.
+
+**Owner next check:** Refresh iPhone Safari at 2 Thessalonians 1 and Zechariah 1 to compare long-title behavior, search/hamburger clarity, and light/dark presentation. At Genesis 3:6 open Jamieson–Fausset–Brown and ensure its source badge occupies its own neat line. Confirm both Search and hamburger work, appearance switches, and translation remains easy to select. Older v0.16.1 layout and documentation below are **historical**, not instructions to restore it. No search engine, source text, CGBC-only content or second SOTW site changed.
 
 ## CURRENT BETA DESIGN | v0.16.1 HEADER MORE + LIBRARY SOURCE INFO | 2026-11-18
 
