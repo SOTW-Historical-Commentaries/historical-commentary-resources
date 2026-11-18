@@ -348,3 +348,55 @@
 .mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-dictionary:active{
  background:rgba(64,133,148,.10)!important;
 }
+
+/* v0.15: make system Palatino the explicit reading trial, with the owner's
+   preferred M PLUS 1p as the fallback when Palatino is not installed.
+   We do NOT distribute proprietary Palatino font files. */
+.mobile-beta #verses .reader-paragraph,
+.mobile-beta #verses .reader-verse,
+.mobile-beta #modernStudyVerse,
+.mobile-beta #studyOverlayBody .word-sequence-verse,
+.mobile-beta #studyOverlayBody .word-sequence-plain,
+.mobile-beta .voice-body .copy,
+.mobile-beta .voice-body .preview,
+.mobile-beta #studyOverlayBody .word-atlas-short,
+.mobile-beta #studyWordDetail .word-summary-short,
+.mobile-beta #studyOverlayBody .word-atlas-original{
+ font-family:"Palatino","Palatino Linotype","Book Antiqua","M PLUS 1p",Georgia,serif!important;
+}
+.mobile-beta #verses .reader-paragraph{
+ font-size:clamp(19px,4.85vw,22px);
+ letter-spacing:0;
+ line-height:1.78;
+}
+.mobile-beta .voice-body .copy,.mobile-beta .voice-body .preview{
+ font-size:17px;line-height:1.78;
+}
+.mobile-beta #studyOverlayBody .word-atlas-text>span:not(.word-atlas-short):not(.word-atlas-original){
+ font-size:13px;line-height:1.5;
+}
+.mobile-beta #studyOverlayBody .word-atlas-text .word-atlas-original{
+ font-size:16px;line-height:1.47;
+}
+.mobile-beta #studyOverlayBody .word-atlas-text .word-atlas-short{
+ font-size:15px;line-height:1.6;
+}
+.mobile-beta #studyOverlayBody .lexical-strongs,
+.mobile-beta #studyOverlayBody .word-atlas-grammar{
+ font-size:13px!important;line-height:1.5;
+}
+.mobile-beta #studyOverlayBody .word-sequence-plain{
+ font-size:17px;line-height:1.55;
+}
+.mobile-beta #studyOverlayBody .word-sequence-verse{font-size:19px;line-height:1.8}
+.mobile-beta #studyOverlayBody .available-author{font-size:14px}
+.mobile-beta #studyOverlayTitle{font-size:16px}
+.mobile-beta #studyOverlayBody .jacob-scope-note{font-size:13px}
+.mobile-beta #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ font-size:10px!important;font-weight:500!important;
+ letter-spacing:0!important;min-height:36px!important;
+ color:#aacbd3!important;
+}
+.mobile-beta.beta-light #studyOverlayBody .word-sequence-card .word-sequence-dictionary{
+ color:#426f78!important;
+}
