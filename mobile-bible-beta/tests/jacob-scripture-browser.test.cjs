@@ -13,6 +13,11 @@ const {chromium}=require('playwright-core');
   const page=await context.newPage();
   page.setDefaultTimeout(45000);
   const errors=[];page.on('pageerror',e=>errors.push(String(e?.stack||e)));
+  // A bounded Webster fixture tests the reader action without fetching the
+  // entire 15 MB English dictionary in every browser smoke run.
+  await page.route('**/webster1828.json',route=>route.fulfill({status:200,contentType:'application/json',
+   headers:{'access-control-allow-origin':'*'},
+   body:JSON.stringify({evil:[['EVIL','Harm, wrong, or moral evil.',1]]})}));
   await page.goto('http://127.0.0.1:8765/review-jake-scripture.html?book=ROM&scope=ROM.12.17&translation=BSB',
     {waitUntil:'domcontentloaded'});
   const links=page.locator('#related .scripture-destination');
@@ -56,7 +61,37 @@ const {chromium}=require('playwright-core');
   await page.waitForURL(/book=ROM&chapter=12&verse=17&translation=BSB/);
   assert.equal(await returnPill.isVisible(),false,'Return control hides on original Scripture');
   assert.match(await page.locator('#readerEdition').innerText(),/BSB/);
-  assert.deepEqual(errors,[],'No browser JS errors during Scripture-link navigation');
+  // Exodus has a valid manifest that exposes counts.chapters rather than
+  // chapter_verse_count. Following the accepted Jacob reference must work.
+  await page.locator('button.jacob-verse-marker[data-jacob-verse="17"]').first().click();
+  await page.locator('#studyOverlay .jacob-passage-link').filter({hasText:'Exodus 21:24'}).first().click();
+  await page.waitForURL(/book=EXO&chapter=21&verse=24&translation=BSB/);
+  await page.locator('#verses .reader-verse[data-verse="24"]').waitFor({state:'visible'});
+  assert(!/Cannot verify|Unexpected book manifest/.test(await page.locator('#status').innerText()));
+  await returnPill.click();
+  await page.waitForURL(/book=ROM&chapter=12&verse=17&translation=BSB/);
+  // The BSB publisher supplies G0591, while Strong's stores strongs:G591.
+  // The first card must now show its sourced definition ahead of morphology.
+  await page.locator('#verses .reader-verse[data-verse="17"]').click();
+  await page.locator('#originalLanguageEntry').waitFor({state:'visible'});
+  await page.locator('#originalLanguageEntry').click();
+  const firstWord=page.locator('#studyOverlay .word-sequence-card').first();
+  await firstWord.waitFor({state:'visible'});
+  assert.match(await firstWord.innerText(),/Do not repay anyone/);
+  assert.match(await firstWord.innerText(),/G0591/);
+  await page.waitForFunction(()=>{
+   const text=document.querySelector('#studyOverlay .word-sequence-card .word-atlas-short')?.textContent||'';
+   return /to give away/i.test(text);
+  },null,{timeout:45000});
+  // A multiword publisher phrase is never one Webster headword. A verified
+  // one-word English gloss can open the separate Webster 1828 dictionary.
+  assert.equal(await firstWord.locator('.word-sequence-dictionary').count(),0);
+  const evilCard=page.locator('#studyOverlay .word-sequence-card').filter({hasText:/^evil/}).first();
+  await evilCard.waitFor({state:'visible'});
+  await evilCard.locator('.word-sequence-dictionary').waitFor({state:'visible'});
+  await evilCard.locator('.word-sequence-dictionary').click();
+  await page.getByText('Harm, wrong, or moral evil.').waitFor({state:'visible'});
+  assert.deepEqual(errors,[],'No browser JS errors during Scripture-link and original-language study');
   console.log('PASS: seven Romans links, inbound source, reviewed-only public data, no acceptance badge, review and mobile Scripture navigation');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
