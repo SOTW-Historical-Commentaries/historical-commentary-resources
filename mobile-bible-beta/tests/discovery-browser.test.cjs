@@ -12,7 +12,7 @@ const {chromium}=require('playwright-core');
   await page.route('**/data/topics/nave-torrey/v1/index/by-scripture/GEN.json',route=>route.fulfill({
    status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},
    body:JSON.stringify({schema:'sotw-topics-scripture-index/1.0.0',book_code:'GEN',
-    verses:[['GEN.1.1',['NEUU:TOPIC:creation']]]})
+    verses:{'GEN.1.1':['NEUU:TOPIC:creation']}})
   }));
   page.setDefaultTimeout(45000);
   const pageErrors=[];
