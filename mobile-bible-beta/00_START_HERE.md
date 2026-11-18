@@ -1,5 +1,14 @@
 # 00 START HERE — SERVANTS OF THE WAY BIBLE READER
 
+## 2026-11-18 | CONTEXTUAL BACK TO SCRIPTURE | MERGED TO MAIN, PAGES RECHECK PENDING
+
+**Owner authorized production merge** of the sole open draft PR [#1](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/1). GitHub confirmed merge commit `11c5244da0fa2a47331abdb3f0b8d79b89f30bb2` on `main`; there were no other open drafts in this repository. The small contextual **Back to Scripture** control preserves original passage, edition and scroll position when navigating a published Jacob Scripture link, source topic citation or search result. It is hidden on normal reading/direct incoming links. The same release fixes Exodus 21:24 snapshot-manifest validation, padded BSB Strong's dictionary lookup, and bounded English Webster 1828 headwords. PWA shell `v0178`; study script `reader165`. No accepted Bible text, Jacob source, SPP, dictionary dataset, historical master or curation decision changed.
+
+**Release evidence:** [source checks PASS](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44412069944) and [iPhone-width Chromium PASS](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44412795733), including Romans 12:17 to Exodus 21:24 and Back, BSB G0591 and Webster checks. GitHub `main` contains `mobile-bible-beta/reader-return.js` and cache `v0178`. **Do not yet assert a successful post-merge GitHub Pages deployment:** a fresh Pages run/public HTTP readback has not been independently verified in this session. Physical iPhone Safari acceptance and forgiving whole-Bible Search v1 are also pending.
+
+**Recoverable fallback:** verified exact pre-merge commit `66e687efc3dfb5bc40c505b780284782f52fee82` at branch `safety/pre-reader-return-20261118-66e687ef` (identical comparison, 0 commits difference). Never roll back unrelated new content automatically.
+
+
 **Project:** Public mobile-first SOTW Bible web app / PWA beta  
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
