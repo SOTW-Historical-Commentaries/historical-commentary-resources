@@ -7,6 +7,10 @@ on:
       - "mobile-bible-beta/index.html"
       - "mobile-bible-beta/discovery-integrations.js"
       - "mobile-bible-beta/study-ux-repair.js"
+      - "mobile-bible-beta/jacob-scripture-links.js"
+      - "mobile-bible-beta/tests/jacob-scripture-links.test.cjs"
+      - "review-jake-scripture.html"
+      - "api/jacob-lannom/v1/current-commentary.json"
       - "mobile-bible-beta/discovery-integrations.css"
       - "mobile-bible-beta/sw.js"
       - "mobile-bible-beta/tests/discovery-integration.test.cjs"
@@ -28,9 +32,13 @@ jobs:
         run: |
           node --check mobile-bible-beta/discovery-integrations.js
           node --check mobile-bible-beta/study-ux-repair.js
+          node --check mobile-bible-beta/jacob-scripture-links.js
+          node --check mobile-bible-beta/tests/jacob-scripture-links.test.cjs
           node --check mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates
         run: node mobile-bible-beta/tests/discovery-integration.test.cjs
+      - name: Published Jacob Scripture-link safety, scope and navigation contract
+        run: node mobile-bible-beta/tests/jacob-scripture-links.test.cjs
       - name: Published source contracts (all three data collections)
         shell: bash
         run: |
