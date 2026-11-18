@@ -38,9 +38,10 @@ function parseScope(scope,bookRows){
  return {book,chapter,verse,hasVerse:!!m[3]};
 }
 function verseTopicIds(index,scope){
- if(!Array.isArray(index?.verses))return [];
- const row=index.verses.find(x=>Array.isArray(x)&&x[0]===scope);
- return Array.isArray(row?.[1])?row[1]:[];
+ // Published index/by-scripture/{BOOK}.json stores verses as an ID-keyed map.
+ const verses=index?.verses;
+ if(!verses||typeof verses!=='object'||Array.isArray(verses))return [];
+ return Array.isArray(verses[scope])?verses[scope]:[];
 }
 function entityIdsForScope(data,scope){
  const map=data?.reverseScriptureScopes||{};
