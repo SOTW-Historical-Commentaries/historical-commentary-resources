@@ -4,9 +4,20 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active reader **v0.17.2 Jacob Scripture links and public-label cleanup** (2026-11-18). Both Jacob viewers now link every published Scripture relationship to the selected Bible edition, with optional separate Jacob commentary. Source QA and Chromium/browser QA PASS; deployed Pages build succeeded. v0.17.1 BSB Word-by-Word and earlier reader baselines protected; real-iPhone acceptance and forgiving whole-Bible word/phrase search remain pending.  
+**Status:** Active reader **v0.17.3, topic-only discovery and simplified study UI** (2026-11-18). Public People/Places/Events cards and duplicate BSB original-order view retired; historical Bible Topics grouped into expandable source citations; menu renamed About & Sources. Source QA, mobile Chromium QA and Pages deployment PASS. Original source collections preserved; real-iPhone acceptance and forgiving whole-Bible word/phrase Search v1 remain pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+
+
+## 2026-11-18 | TOPIC-ONLY READER CLEANUP | v0.17.3
+
+**Current UI:** The owner chose to defer the incomplete public **People/Places/Events** directory after reviewing Jesus/Paul source cards that contained little useful interpretation or navigational depth. The reader no longer fetches or shows those person/place/event results, family links or chapter-level directory cards. The published [accepted v1 source](https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/search/people-time-place/accepted/v1) and protected master remain intact, available for future design, not deleted or rejected.
+
+**Streamlined verse study:** BSB no longer has a second **"Original-Language Order"** panel; the complete publisher-aligned interlinear is already in the existing BSB **Word-by-Word** view. The separate study action is now **"Related Bible Topics"**. Historical Nave/Torrey topic details show expandable source sections, grouped passage citations rather than every verse as a chip, source labels presented cleanly where possible, and on-demand expansion. Valid mapped citation buttons open their first referenced verse. Nothing was inferred about unmapped citations or doctrine.
+
+**Reader menu:** The three-line menu now opens **"About & Sources"** for appearance, translation origin, historical commentary attributions, source rights and study-resource explanations. This is provenance, not extra notes on the verse being read. Header Search remains Scripture-reference and current-chapter text first, with separately labeled Bible Topics below.
+
+**Verified:** Source/JS/BSB/Jacob QA [44400567609](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44400567609) **PASS**; mobile Chromium regression [44400831909](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44400831909) **PASS**; Pages [44400830568](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44400830568) **SUCCESS**. Release commit `c4a3bd9a675c546769e8841d5914a598bf09f6dc`, PWA shell `v0176`, topic adapter version `discovery6`. Physical-iPhone acceptance and forgiving whole-Bible Search v1 still pending. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for detailed release gates and source constraints. Live reader: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/
 
 
 ## 2026-11-18 | JACOB SCRIPTURE REFERENCES NOW FOLLOWABLE | v0.17.2
