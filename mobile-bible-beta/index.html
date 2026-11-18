@@ -492,7 +492,15 @@ function stripOsis(xml){const raw=String(xml||'').replace(/<\/?(?:div|p|title|l|
 function content(entry){const t=entry?.reader_content_plain??entry?.content_plain;if(typeof t==='string'&&t.trim())return t;const parts=entry?.content_parts;if(Array.isArray(parts)&&parts.length)return parts.join('\n\n');return stripOsis(entry?.reader_content_osis??entry?.content_osis??'')}
 function voiceCard(label,type){const el=document.createElement('article');el.className='voice'+(type==='jacob'?' jacob':'');const hd=document.createElement('div');hd.className='voice-title';const strong=document.createElement('strong');strong.textContent=label;const chip=document.createElement('span');chip.className='source-chip';chip.textContent=type==='jacob'?'Accepted pastoral commentary':'Historical source';hd.append(strong,chip);const body=document.createElement('div');body.className='voice-body';el.append(hd,body);return{el,body}}
 function para(container,text,cls='empty'){const p=document.createElement('p');p.className=cls;p.textContent=text;container.append(p);return p}
-function plainContent(container,text){const txt=(text||'').trim();if(!txt){para(container,'This source has no readable display text.');return}if(txt.length<=1150){para(container,txt,'copy');return}para(container,txt.slice(0,880).trimEnd()+'…','preview');const details=document.createElement('details');const sum=document.createElement('summary');sum.textContent='Read complete original commentary ('+txt.length.toLocaleString()+' characters)';const body=document.createElement('div');body.className='copy';body.textContent=txt;details.append(sum,body);container.append(details)}
+/* Display-only commentary preview. The source text is never rewritten. */
+function splitCommentaryPreview(text,limit){
+ const before=text.slice(0,limit);
+ const prior=before.search(/\s+\S*$/u);
+ const next=text.slice(limit).search(/\s/u);
+ const cut=prior>=limit-120?prior:(next<0?text.length:limit+next);
+ return {preview:text.slice(0,cut).trimEnd(),remaining:text.slice(cut).trimStart()};
+}
+function plainContent(container,text){const txt=(text||'').trim();if(!txt){para(container,'This source has no readable display text.');return}if(txt.length<=1150){para(container,txt,'copy');return}const parts=splitCommentaryPreview(txt,880);if(!parts.remaining){para(container,txt,'copy');return}para(container,parts.preview+'…','preview');const details=document.createElement('details');const sum=document.createElement('summary');sum.textContent='Continue reading';const body=document.createElement('div');body.className='copy';body.textContent=parts.remaining;details.append(sum,body);container.append(details)}
 function sourceLink(container,path,label='Inspect original source JSON'){const link=document.createElement('a');link.className='source-link';link.href=path;link.target='_blank';link.rel='noopener noreferrer';link.textContent=label;container.append(link)}
 function parseScope(s){const bookOnly=/^([1-3]?[A-Z]{2,3})$/.exec(s||'');if(bookOnly)return{book:bookOnly[1],chapter:null,from:null,to:null};const m=/^([1-3]?[A-Z]{2,3})\.(\d+)(?:\.(\d+)(?:-(\d+))?)?$/.exec(s||'');return m?{book:m[1],chapter:Number(m[2]),from:m[3]?Number(m[3]):null,to:m[4]?Number(m[4]):Number(m[3]||0)}:null}
 /* Never pass an optional-verse callback directly to Array.filter/some:
@@ -939,12 +947,14 @@ function displayCommentaryChooser(){
 }
 function appendVisibleCommentary(container,text){
  const t=String(text||'').trim();if(!t)return;
+ const parts=t.length>1050?splitCommentaryPreview(t,850):null;
+ const hasMore=!!(parts&&parts.remaining);
  const preview=document.createElement('p');preview.className='copy';
- preview.textContent=t.length>1050?t.slice(0,850).trimEnd()+'…':t;container.append(preview);
- if(t.length>1050){
-  const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Read full commentary';
-  const all=document.createElement('div');all.className='copy';all.textContent=t;
-  details.append(summary,all);container.append(details);
+ preview.textContent=hasMore?parts.preview+'…':t;container.append(preview);
+ if(hasMore){
+  const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Continue reading';
+  const rest=document.createElement('div');rest.className='copy';rest.textContent=parts.remaining;
+  details.append(summary,rest);container.append(details);
  }
 }
 function createVisibleAuthorCard(name,kind){
