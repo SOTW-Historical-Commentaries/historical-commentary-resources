@@ -45,13 +45,30 @@ const {chromium}=require('playwright-core');
   await page.locator('.discovery-bsb .discovery-launch').waitFor({state:'visible'});
   await page.locator('.discovery-bsb .discovery-launch').click();
   await page.locator('.discovery-word strong').first().waitFor({state:'visible',timeout:45000});
-  assert.match(await page.locator('.discovery-original-body').innerText(),/bsbPos is not an English word position/);
+  assert.match(await page.locator('.discovery-original-body').innerText(),/bsbPos is BSB English-phrase order/);
   assert.match(await page.locator('.discovery-original-body').innerText(),/H7225/);
+  // BSB must now have the SAME Word-by-Word card layout as the other editions,
+  // populated from publisher-supplied BSB glosses in bsbPos English order.
+  await page.locator('#originalLanguageEntry').waitFor({state:'visible',timeout:45000});
+  await page.locator('#originalLanguageEntry').click();
+  await page.locator('#studyOverlay.is-open .word-sequence-card').first().waitFor({state:'visible',timeout:45000});
+  const bsbRows=page.locator('#studyOverlay .word-sequence-card');
+  assert.equal(await bsbRows.count(),7,'Genesis 1:1 must have seven published BSB interlinear source-word cards');
+  assert.match(await bsbRows.nth(0).innerText(),/In the beginning/);
+  assert.match(await bsbRows.nth(0).innerText(),/H7225/);
+  assert.match(await bsbRows.nth(1).innerText(),/God/);
+  assert.match(await bsbRows.nth(1).innerText(),/H0430/);
+  assert.match(await bsbRows.nth(2).innerText(),/Not separately translated/);
+  assert.match(await bsbRows.nth(3).innerText(),/created/);
+  assert.equal(await page.locator('#studyOverlay .word-sequence-plain').count(),0,
+    'BSB must not fall back to the previous empty English word rows');
+  assert.match(await bsbRows.nth(0).innerText(),/בְּרֵאשִׁ/);
+  await page.locator('#studyOverlayBack').click();
   await page.locator('.discovery-study:not(.discovery-bsb) .discovery-launch').first().click();
   await page.locator('.discovery-verse-body:not([hidden])').waitFor({state:'visible',timeout:45000});
   await page.locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
   assert.match(await page.locator('.discovery-verse-body').innerText(),/Historical topic links/);
   assert.deepEqual(pageErrors,[],'Uncaught reader JavaScript errors');
-  console.log('PASS: mobile viewport, topic search, accepted person, BSB source, passage backlinks and no uncaught JS errors');
+  console.log('PASS: mobile viewport, historical topics, accepted people, BSB seven aligned word cards, English gloss order, passage backlinks');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
