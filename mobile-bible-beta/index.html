@@ -415,7 +415,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:wght@400&amp;family=M+PLUS+1p:wght@300;400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
-<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader160">
+<link rel="stylesheet" href="./study-ux-repair.css?v=20261118-reader161">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -589,7 +589,7 @@ let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
 const modernOldHeader=document.querySelector('body.mobile-beta > header');
 if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
 const modernHeader=document.createElement('header');modernHeader.id='modernReaderHeader';
-modernHeader.innerHTML='<div class="modern-inner"><div class="brand-line"><span class="reader-brandmark"><img src="./branding/v1/cgbc-sotw-full-header-900.png?v=20261117-reader159" width="900" height="187" alt="CGBC · Servants of the Way" decoding="async"></span><div class="header-actions"><button type="button" class="header-icon" id="modernSearchButton" aria-label="Find Scripture"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 5 5"></path></svg></button><button type="button" class="header-icon" id="modernThemeButton" aria-label="Change light or dark theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg></button></div></div><div class="location-line"><button type="button" id="readerLocation" aria-label="Choose book chapter or verse">Romans 12 <small>⌄</small></button><button type="button" id="readerEdition" aria-label="Choose Bible translation">KJV ▾</button></div></div>';
+modernHeader.innerHTML='<div class="modern-inner"><div class="brand-line"><span class="reader-brandmark"><img src="./branding/v1/cgbc-sotw-full-header-900.png?v=20261117-reader159" width="900" height="187" alt="CGBC · Servants of the Way" decoding="async"></span><button type="button" class="reader-more-button" id="modernMoreButton" aria-haspopup="dialog" aria-controls="readerMoreModal" aria-label="More settings and source information"><span aria-hidden="true" class="more-dots">⋯</span><span>More</span></button></div><div class="location-line"><button type="button" id="readerLocation" aria-label="Choose book chapter or verse">Romans 12 <small>⌄</small></button><div class="location-actions"><button type="button" class="header-icon" id="modernSearchButton" aria-label="Find Scripture"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 5 5"></path></svg></button><button type="button" id="readerEdition" aria-label="Choose Bible translation">KJV ▾</button></div></div></div>';
 document.body.prepend(modernHeader);
 betaBar.remove();
 const readerView=$('verses');
@@ -639,14 +639,63 @@ const searchNote=document.createElement('p');searchNote.className='modern-panel-
 searchModal.panel.append(searchNote);
 const searchInput=document.createElement('input');searchInput.id='modernSearchInput';searchInput.type='search';searchInput.autocomplete='off';searchInput.setAttribute('aria-label','Search Scripture');searchInput.placeholder='John 3:16, Romans 12, or chapter phrase';searchModal.panel.append(searchInput);
 const searchResults=document.createElement('div');searchResults.id='modernSearchResults';searchModal.panel.append(searchResults);
-const openModal=modal=>{for(const el of [navModal.veil,editionModal.veil,searchModal.veil])el.classList.remove('is-open');modal.veil.classList.add('is-open');};
+/* SOTW v0.16.1: Resources are explained here without claiming universal
+   passage coverage or treating original-language data as Bible translation. */
+const moreModal=modalLayer('readerMoreModal','More');
+moreModal.panel.setAttribute('aria-label','Appearance and SOTW source information');
+const moreIntro=document.createElement('p');moreIntro.className='modern-panel-desc';
+moreIntro.textContent='Reading settings and sources available through Servants of the Way. Coverage varies by passage.';
+moreModal.panel.append(moreIntro);
+const appearanceButton=document.createElement('button');appearanceButton.type='button';
+appearanceButton.id='modernThemeButton';appearanceButton.className='more-appearance';
+appearanceButton.setAttribute('aria-label','Switch between light and dark reading mode');
+const appearanceTitle=document.createElement('span');appearanceTitle.className='more-item-title';appearanceTitle.textContent='☼  Appearance';
+const appearanceState=document.createElement('span');appearanceState.className='more-item-note';
+appearanceButton.append(appearanceTitle,appearanceState);moreModal.panel.append(appearanceButton);
+function syncMoreAppearance(){appearanceState.textContent=document.body.classList.contains('beta-light')?'Light mode · Switch to dark':'Dark mode · Switch to light';}
+function addMoreResource(title,description,links){
+ const disclosure=document.createElement('details');disclosure.className='more-resource';
+ const summary=document.createElement('summary');summary.textContent=title;
+ const p=document.createElement('p');p.textContent=description;
+ disclosure.append(summary,p);
+ if(links&&links.length){
+  const resources=document.createElement('div');resources.className='more-resource-links';
+  for(const item of links){
+   const a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=item.title;
+   resources.append(a);
+  }
+  disclosure.append(resources);
+ }
+ moreModal.panel.append(disclosure);
+}
+addMoreResource('Bible translations',
+ 'Read KJV 1769, ASV 1901, Berean Standard Bible, and Webster 1833 as distinct published editions. The translation selector chooses which Bible text you are reading.',
+ [{title:'KJV source',url:'https://github.com/SOTW-KJV-1769/kjv-1769-resources'},
+  {title:'ASV source',url:'https://github.com/SOTW-ASV-1901/asv-1901-resources'},
+  {title:'BSB source',url:'https://github.com/SOTW-BSB/-bsb-resources'},
+  {title:'Webster 1833 source',url:'https://github.com/SOTW-WEBSTER-1833/webster-1833-resources'}]);
+addMoreResource('Historical commentary',
+ 'Explore Matthew Henry, John Calvin, Adam Clarke, Jamieson-Fausset-Brown, Keil-Delitzsch, and John Gill where they are indexed for a passage. These are historical perspectives, not additional Bible text. Availability and coverage differ by author and verse.',
+ [{title:'Author and source catalog',url:'../api/v3/authors.json'}]);
+addMoreResource('Original languages and dictionaries',
+ 'Verified Hebrew and Greek source forms, Strong’s references, and lexicon entries appear only where attested. Webster’s 1828 English dictionary is a separate reference from the Webster 1833 Bible translation.',
+ [{title:'Original-language resource catalog',url:'https://github.com/SOTW-Original-Languages/original-language-resources'},
+  {title:'Webster 1828 source license',url:'https://github.com/SOTW-Original-Languages/original-language-resources/blob/main/LICENSE_WEBSTER_SOURCE.txt'}]);
+addMoreResource('Jacob Lannom',
+ 'Jacob Lannom is a living SOTW partner. His accepted pastoral commentary is presented separately from Scripture and the historical writers, with passage-based coverage and source attribution.',
+ [{title:'Jacob commentary coverage',url:'../api/jacob-lannom/v1/coverage.json'}]);
+addMoreResource('About Servants of the Way',
+ 'This reader puts Scripture first, with optional passage-based commentary, dictionaries, and language study. Resources are attributed to their own sources, and some are unavailable for particular passages.',
+ [{title:'Available commentary coverage',url:'../api/v3/navigation-coverage/v1/manifest.json'}]);
+const openModal=modal=>{for(const el of [navModal.veil,editionModal.veil,searchModal.veil,moreModal.veil])el.classList.remove('is-open');modal.veil.classList.add('is-open');};
 $('readerLocation').addEventListener('click',()=>openModal(navModal));
 $('readerEdition').addEventListener('click',()=>{
  for(const b of editionModal.panel.querySelectorAll('.edition-option'))b.setAttribute('aria-pressed',String(b.dataset.edition===state.edition));
  openModal(editionModal);
 });
 $('modernSearchButton').addEventListener('click',()=>{openModal(searchModal);searchInput.value='';modernSearchRender();searchInput.focus()});
-$('modernThemeButton').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore()});
+$('modernMoreButton').addEventListener('click',()=>{syncMoreAppearance();openModal(moreModal);appearanceButton.focus()});
+$('modernThemeButton').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore();syncMoreAppearance()});
 function modernUpdateHeader(){
  $('readerLocation').innerHTML='';$('readerLocation').append(document.createTextNode(bookInfo().name+' '+state.chapter));
  const chevron=document.createElement('small');chevron.textContent='⌄';$('readerLocation').append(chevron);
@@ -876,7 +925,7 @@ function modernSearchRender(){
 }
 searchInput.addEventListener('input',modernSearchRender);
 searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&searchResults.firstElementChild)searchResults.firstElementChild.click()});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil])x.classList.remove('is-open')}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil,moreModal.veil])x.classList.remove('is-open')}});
 if(betaSaved.theme==='light')document.body.classList.add('beta-light');
 modernUpdateHeader();
 
