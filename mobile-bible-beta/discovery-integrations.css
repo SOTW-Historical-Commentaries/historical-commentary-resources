@@ -1,33 +1,105 @@
-/* SOTW Discovery v0.17. Uses existing reader palette; no page layout takeover. */
-.mobile-beta .discovery-search-label{font:700 11px/1.4 system-ui;text-transform:uppercase;letter-spacing:.08em;color:#a9c5cf;margin:17px 0 7px;padding-top:10px;border-top:1px solid #40535c}
-.mobile-beta .discovery-hit{display:block!important;width:100%;text-align:left!important;white-space:normal!important;overflow-wrap:anywhere}
+/* SOTW v0.17.3 historical Bible Topic UI.
+   Single source-index adapter, no People/Place cards, no duplicate BSB form grid. */
+.mobile-beta .discovery-search-label{
+ font:700 11px/1.4 system-ui;text-transform:uppercase;letter-spacing:.07em;
+ color:#a9c5cf;margin:17px 0 7px;padding-top:10px;border-top:1px solid #40535c;
+}
+.mobile-beta .discovery-hit{
+ display:block!important;width:100%;text-align:left!important;
+ white-space:normal!important;overflow-wrap:anywhere;
+}
 .mobile-beta .discovery-search-loading{font:12px/1.5 system-ui;color:#9eb6be;padding:6px 0}
-.mobile-beta .discovery-search-loading[hidden],.mobile-beta .discovery-original-body[hidden],.mobile-beta .discovery-verse-body[hidden]{display:none!important}
+.mobile-beta .discovery-search-loading[hidden],
+.mobile-beta .discovery-verse-body[hidden]{display:none!important}
 .mobile-beta #sotwDiscoveryDetail{z-index:190!important}
-.mobile-beta #sotwDiscoveryDetail .modal-content{width:min(590px,calc(100vw - 24px))!important;max-height:83svh!important;overflow:auto!important;background:#192931!important;border:1px solid #546b75;border-radius:14px;padding:16px;color:#dfeaf0}
+.mobile-beta #sotwDiscoveryDetail .modal-content{
+ width:min(590px,calc(100vw - 24px))!important;
+ max-height:83svh!important;overflow:auto!important;background:#192931!important;
+ border:1px solid #546b75;border-radius:14px;padding:16px;color:#dfeaf0;
+}
 .mobile-beta .discovery-detail-body{margin:12px 0 8px}
-.mobile-beta .discovery-heading{font:650 16px/1.35 Georgia,serif;color:#e3f0f3;margin:14px 0 9px}
-.mobile-beta .discovery-note{font:12px/1.55 system-ui;color:#b5cbd3;margin:7px 0 10px}
+.mobile-beta .discovery-heading{
+ font:650 16px/1.35 Georgia,serif;color:#e3f0f3;margin:14px 0 9px;
+}
+.mobile-beta .discovery-note{
+ font:12px/1.55 system-ui;color:#b5cbd3;margin:7px 0 10px;
+}
+.mobile-beta .discovery-guide{font:12px/1.5 system-ui;color:#a9c6cf;margin:10px 0}
 .mobile-beta .discovery-error{font:12px/1.5 system-ui;color:#f0b8a8;padding:9px 0}
-.mobile-beta .discovery-section{margin:12px 0;padding:8px 0;border-top:1px solid #40545e}
-.mobile-beta .discovery-references{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0}
-.mobile-beta .discovery-ref{font:12px/1.4 system-ui;padding:7px 10px;color:#deeff3;border:1px solid #50717d;background:#27434d;border-radius:8px;cursor:pointer;text-align:left}
-.mobile-beta .discovery-ref:hover,.mobile-beta .discovery-launch:hover{background:#395664}
-.mobile-beta .discovery-relationship{font:12px/1.5 system-ui;border-left:2px solid #67929a;padding:6px 11px;margin:7px 0;color:#d1e4e8}
-.mobile-beta .discovery-link{display:inline-block;font:12px/1.5 system-ui;color:#bbdfeb;margin:7px 7px 7px 0;text-decoration:underline}
-.mobile-beta .discovery-study{border:1px solid #405a65;background:#1c3039;border-radius:11px;margin:9px 0 13px;padding:9px}
-.mobile-beta .discovery-launch{width:100%;padding:9px 12px;min-height:41px;text-align:left;border:1px solid #536f7d;border-radius:8px;background:#253b46;color:#e1eff2;font:650 13px system-ui;cursor:pointer}
-.mobile-beta .discovery-word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px;margin:12px 0}
-.mobile-beta .discovery-word{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:11px;background:#263d47;border:1px solid #41616c;border-radius:10px;min-width:0;overflow-wrap:anywhere}
-.mobile-beta .discovery-word strong{font:600 20px/1.4 Georgia,serif;color:#eaf5f7}
-.mobile-beta .discovery-word span{font:12px/1.4 system-ui;color:#d5e3e8}
-.mobile-beta .discovery-word small{font:11px/1.4 system-ui;color:#a4c0cb}
-.mobile-beta .discovery-strongs{background:#30515d;border:1px solid #7598a4;border-radius:6px;padding:5px 9px;color:#e5f4fa;font:650 12px system-ui;cursor:pointer}
+.mobile-beta .discovery-topic-groups{display:grid;gap:8px;margin:14px 0}
+.mobile-beta .discovery-topic-group{
+ min-width:0;border:1px solid #415b65;border-radius:10px;background:#1f343e;
+ padding:0 11px;
+}
+.mobile-beta .discovery-topic-summary{
+ display:flex;align-items:center;justify-content:space-between;gap:10px;
+ cursor:pointer;min-height:50px;padding:10px 0;font:650 13px/1.4 system-ui;
+ color:#e1edf1;list-style-position:inside;
+}
+.mobile-beta .discovery-topic-summary span{flex:1;min-width:0;overflow-wrap:anywhere}
+.mobile-beta .discovery-topic-summary small{
+ color:#acc7cf;font:11px/1.4 system-ui;white-space:nowrap;
+}
+.mobile-beta .discovery-topic-group[open] .discovery-topic-summary{
+ border-bottom:1px solid #3c535e;margin-bottom:5px;
+}
+.mobile-beta .discovery-source-heading{
+ font:11px/1.45 system-ui;color:#aac3cc;margin:8px 0;
+}
+.mobile-beta .discovery-passage-list{
+ display:grid;gap:7px;margin:10px 0;min-width:0;
+}
+.mobile-beta .discovery-citation{
+ display:block;width:100%;text-align:left;min-width:0;
+ padding:10px 11px;border:1px solid #4e6b76;border-radius:8px;
+ background:#294650;color:#e3f2f5;font:12px/1.45 system-ui;
+ overflow-wrap:anywhere;cursor:pointer;touch-action:manipulation;
+}
+.mobile-beta .discovery-citation:hover,.mobile-beta .discovery-launch:hover{
+ background:#385966;
+}
+.mobile-beta .discovery-citation:focus-visible,.mobile-beta .discovery-more:focus-visible{
+ outline:2px solid #b9e3f1;outline-offset:2px;
+}
+.mobile-beta .discovery-more{
+ display:block;width:100%;min-height:39px;text-align:center;
+ padding:7px 10px;margin:8px 0 12px;background:transparent;
+ color:#b9dce8;border:1px solid #597784;border-radius:8px;
+ font:650 12px/1.4 system-ui;cursor:pointer;
+}
+.mobile-beta .discovery-link{
+ display:inline-block;font:12px/1.5 system-ui;color:#bbdfeb;
+ margin:12px 0 7px;text-decoration:underline;
+}
+.mobile-beta .discovery-study{
+ border:1px solid #405a65;background:#1c3039;border-radius:11px;
+ margin:9px 0 13px;padding:9px;
+}
+.mobile-beta .discovery-launch{
+ width:100%;padding:9px 12px;min-height:41px;text-align:left;
+ border:1px solid #536f7d;border-radius:8px;background:#253b46;
+ color:#e1eff2;font:650 13px system-ui;cursor:pointer;
+}
 .mobile-beta.beta-light .discovery-study{background:#f3f7f5;border-color:#b4cbcc}
-.mobile-beta.beta-light .discovery-launch,.mobile-beta.beta-light .discovery-word{background:#e6f0ef;border-color:#a4bcc4;color:#29424a}
-.mobile-beta.beta-light .discovery-word strong,.mobile-beta.beta-light .discovery-word span,.mobile-beta.beta-light .discovery-heading{color:#24424a}
-.mobile-beta.beta-light .discovery-note,.mobile-beta.beta-light .discovery-word small{color:#526e76}
-.mobile-beta.beta-light .discovery-ref,.mobile-beta.beta-light .discovery-strongs{color:#24424a;background:#e5f0f0;border-color:#9cbac2}
-.mobile-beta.beta-light #sotwDiscoveryDetail .modal-content{background:#fbfdfb!important;color:#29434d;border-color:#a2b8bd!important}
+.mobile-beta.beta-light .discovery-launch,
+.mobile-beta.beta-light .discovery-topic-group{background:#e6f0ef;border-color:#a4bcc4;color:#29424a}
+.mobile-beta.beta-light .discovery-citation{background:#e5f0f0;color:#24424a;border-color:#9cbac2}
+.mobile-beta.beta-light .discovery-more{color:#315762;border-color:#9cbac2}
+.mobile-beta.beta-light .discovery-note,
+.mobile-beta.beta-light .discovery-guide,
+.mobile-beta.beta-light .discovery-source-heading,
+.mobile-beta.beta-light .discovery-topic-summary small{color:#526e76}
+.mobile-beta.beta-light .discovery-heading,.mobile-beta.beta-light .discovery-topic-summary{
+ color:#24424a;
+}
+.mobile-beta.beta-light #sotwDiscoveryDetail .modal-content{
+ background:#fbfdfb!important;color:#29434d;border-color:#a2b8bd!important;
+}
 .mobile-beta.beta-light .discovery-search-label{color:#587c87}
-@media(max-width:600px){.mobile-beta .discovery-word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mobile-beta #sotwDiscoveryDetail .modal-content{width:calc(100vw - 20px)!important;max-height:88svh!important}.mobile-beta .discovery-word strong{font-size:18px}}
+@media(max-width:600px){
+ .mobile-beta #sotwDiscoveryDetail .modal-content{
+  width:calc(100vw - 20px)!important;max-height:88svh!important;
+ }
+ .mobile-beta .discovery-topic-summary{min-height:52px}
+ .mobile-beta .discovery-topic-summary small{font-size:10px}
+}
