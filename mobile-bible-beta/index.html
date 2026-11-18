@@ -411,8 +411,11 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
  text-decoration-color:#6e9ca4;
 }
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
-<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader131">
+<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader14">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -472,7 +475,11 @@ function para(container,text,cls='empty'){const p=document.createElement('p');p.
 function plainContent(container,text){const txt=(text||'').trim();if(!txt){para(container,'This source has no readable display text.');return}if(txt.length<=1150){para(container,txt,'copy');return}para(container,txt.slice(0,880).trimEnd()+'…','preview');const details=document.createElement('details');const sum=document.createElement('summary');sum.textContent='Read complete original commentary ('+txt.length.toLocaleString()+' characters)';const body=document.createElement('div');body.className='copy';body.textContent=txt;details.append(sum,body);container.append(details)}
 function sourceLink(container,path,label='Inspect original source JSON'){const link=document.createElement('a');link.className='source-link';link.href=path;link.target='_blank';link.rel='noopener noreferrer';link.textContent=label;container.append(link)}
 function parseScope(s){const bookOnly=/^([1-3]?[A-Z]{2,3})$/.exec(s||'');if(bookOnly)return{book:bookOnly[1],chapter:null,from:null,to:null};const m=/^([1-3]?[A-Z]{2,3})\.(\d+)(?:\.(\d+)(?:-(\d+))?)?$/.exec(s||'');return m?{book:m[1],chapter:Number(m[2]),from:m[3]?Number(m[3]):null,to:m[4]?Number(m[4]):Number(m[3]||0)}:null}
-function matchingJacob(e,targetVerse=state.verse){const p=parseScope(e.scopeKey);if(!p||p.book!==state.book)return false;if(p.chapter===null)return e.scopeType==='BOOK_OVERVIEW'&&state.chapter===1&&targetVerse===1;if(p.chapter!==state.chapter)return false;if(p.from===null)return e.scopeType==='CHAPTER_INTRODUCTION'&&targetVerse===1;return targetVerse>=p.from&&targetVerse<=p.to}
+/* Never pass an optional-verse callback directly to Array.filter/some:
+   their second parameter is the array index, not the selected verse. */
+function jacobChapterIntro(e){const p=parseScope(e.scopeKey);return !!(p&&p.book===state.book&&p.chapter===state.chapter&&p.from===null&&e.scopeType==='CHAPTER_INTRODUCTION');}
+function jacobDirectAt(e,verse){const p=parseScope(e.scopeKey);return !!(p&&p.book===state.book&&p.chapter===state.chapter&&p.from!==null&&Number.isInteger(verse)&&verse>=p.from&&verse<=p.to&&!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));}
+function matchingJacob(e){return jacobDirectAt(e,state.verse)||jacobChapterIntro(e);}
 function renderJacob(){const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;const c=voiceCard('Jacob Lannom','jacob');$('voices').append(c.el);const pass=matches.filter(e=>!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));const intros=matches.filter(e=>['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));if(!matches.length){para(c.body,`There is no accepted Jacob commentary for ${bookInfo().name} ${state.chapter}:${state.verse}. This does not affect the historical sources. Check the coverage archive for his published passages.`);return}for(const e of pass){para(c.body,e.title,'title');plainContent(c.body,e.commentary);para(c.body,'Scope: '+formatScope(e.scopeKey)+' · accepted passage commentary','meta')}
 for(const e of intros){if(pass.length){const d=document.createElement('details');const s=document.createElement('summary');s.textContent='Also available: '+e.title+' (book / chapter introduction)';const x=document.createElement('div');x.className='copy';x.textContent=e.commentary;d.append(s,x);c.body.append(d)}else{para(c.body,e.title,'title');plainContent(c.body,e.commentary)}para(c.body,'Book/chapter introduction, not an independently verified claim about this individual verse.','meta')}
 sourceLink(c.body,'../review-jacob-coverage.html','Verify accepted scope in coverage archive')}
@@ -613,6 +620,22 @@ renderBible=function(){
  modernRenderedChapter=currentKey;
  modernRenderedBible=state.bible;
  readerView.replaceChildren();
+ // Chapter context is reachable once at the start of the chapter, NOT marked
+ // as a verse-specific exposition on every verse.
+ const hasIntro=(state.jacob||[]).some(e=>jacobChapterIntro(e)&&e.commentary?.trim());
+ if(hasIntro){
+  const context=document.createElement('button');context.type='button';
+  context.className='jacob-chapter-intro';
+  context.textContent='Jacob Lannom · Chapter introduction  ›';
+  context.setAttribute('aria-label','Read Jacob Lannom chapter introduction to '+bookInfo().name+' '+state.chapter);
+  context.addEventListener('click',event=>{
+   event.preventDefault();event.stopImmediatePropagation();
+   const selected=state.verse||1;
+   modernStudyVerse=selected;chooseVerse(selected);betaOpen();
+   openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom · Chapter introduction',kind:'Chapter Introduction',chapterOnly:true});
+  });
+  readerView.append(context);
+ }
  let p=null;
  for(const v of state.bible.verses||[]){
   if(!p||v.paragraph_start){p=document.createElement('p');p.className='reader-paragraph';readerView.append(p)}
@@ -622,7 +645,7 @@ renderBible=function(){
   btn.append(sup,document.createTextNode((v.spans||[]).map(a=>a.text||'').join('')));
   // Keep the marker visibly tied to THIS verse. Two sibling buttons; no nested
   // button and no shared click handler with the verse study action.
-  const eligibleJacob=(state.jacob||[]).some(e=>matchingJacob(e,Number(v.verse))&&
+  const eligibleJacob=(state.jacob||[]).some(e=>jacobDirectAt(e,Number(v.verse))&&
     typeof e.commentary==='string'&&e.commentary.trim());
   if(eligibleJacob){
    const marker=document.createElement('button');marker.type='button';
@@ -634,7 +657,7 @@ renderBible=function(){
     event.preventDefault();event.stopImmediatePropagation();
     const number=Number(marker.dataset.jacobVerse);
     if(!modernSourceVerse(number))return;
-    if(!(state.jacob||[]).some(e=>matchingJacob(e,number)&&
+    if(!(state.jacob||[]).some(e=>jacobDirectAt(e,number)&&
        typeof e.commentary==='string'&&e.commentary.trim()))return;
     modernStudyVerse=number;chooseVerse(number);
     betaOpen(); // Mount the existing study panel, then immediately open Jacob.
@@ -844,7 +867,9 @@ renderVoices=function(){
  availableAuthors=[];modernOpenAuthor='';
  if(!modernStudyVerse||!state.index)return;
  const routes=state.index.verse_routes?.[String(modernStudyVerse)]||{};
- if(state.jacob.some(matchingJacob))availableAuthors.push({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary'});
+ const hasDirect=(state.jacob||[]).some(e=>jacobDirectAt(e,modernStudyVerse)&&e.commentary?.trim());
+ const hasContext=(state.jacob||[]).some(e=>jacobChapterIntro(e)&&e.commentary?.trim());
+ if(hasDirect||hasContext)availableAuthors.push({id:'jacob-lannom',name:hasDirect?'Jacob Lannom':'Jacob Lannom · Chapter introduction',kind:hasDirect?'Pastoral Commentary':'Chapter Introduction'});
  for(const [id,name] of HIST){
   if(state.index.authors?.find(a=>a.author_id===id)?.source_unavailable)continue;
   if(Array.isArray(routes[id])&&routes[id].length)availableAuthors.push({id,name,kind:'Historical Commentary'});
@@ -866,7 +891,7 @@ function displayCommentaryChooser(){
  for(const author of availableAuthors){
   const b=document.createElement('button');b.type='button';b.className='available-author';
   const left=document.createElement('span');left.textContent=author.name;
-  const right=document.createElement('small');right.textContent=author.kind==='Pastoral Commentary'?'Pastoral':'Read ›';
+  const right=document.createElement('small');right.textContent=author.kind==='Pastoral Commentary'?'Pastoral':author.kind==='Chapter Introduction'?'Context ›':'Read ›';
   b.append(left,right);b.addEventListener('click',()=>openAuthorCommentary(author));
   studyOverlayBody.append(b);
  }
@@ -891,9 +916,28 @@ function openAuthorCommentary(author){
  const voice=$('voices');studyOverlayBody.replaceChildren(voice);voice.replaceChildren();
  const gen=++state.generation;const verseKey=state.book+'.'+state.chapter;
  if(author.id==='jacob-lannom'){
-  const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;
+  const matches=state.jacob.filter(e=>(jacobDirectAt(e,modernStudyVerse)||jacobChapterIntro(e))&&
+    (!author.chapterOnly||e.scopeType==='CHAPTER_INTRODUCTION')&&
+    typeof e.commentary==='string'&&e.commentary.trim());
   const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
-  for(const entry of matches){
+  if(!matches.length){
+   const note=document.createElement('p');note.className='modern-panel-desc';
+   note.textContent='No accepted Jacob commentary is available for this selection.';
+   body.append(note);return;
+  }
+  const direct=matches.filter(e=>e.scopeType!=='CHAPTER_INTRODUCTION');
+  for(const entry of [...direct,...matches.filter(e=>e.scopeType==='CHAPTER_INTRODUCTION')]){
+   if(entry.scopeType==='CHAPTER_INTRODUCTION'&&direct.length){
+    const disclosure=document.createElement('details');
+    const summary=document.createElement('summary');summary.textContent='Also available: chapter introduction';
+    const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
+    const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
+    disclosure.append(summary,heading,prose);body.append(disclosure);continue;
+   }
+   if(entry.scopeType==='CHAPTER_INTRODUCTION'){
+    const scope=document.createElement('p');scope.className='jacob-scope-note';
+    scope.textContent='Chapter introduction · Context for '+bookInfo().name+' '+state.chapter;body.append(scope);
+   }
    const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
    appendVisibleCommentary(body,entry.commentary);
   }
@@ -1222,6 +1266,6 @@ editionModal.veil.addEventListener('click',event=>{
  if(event.target===editionModal.veil)event.stopImmediatePropagation();
 },true);
 </script>
-<script src="./study-ux-repair.js?v=20261117-reader131"></script>
+<script src="./study-ux-repair.js?v=20261117-reader14"></script>
 </body>
 </html>
