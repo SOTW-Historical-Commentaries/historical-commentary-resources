@@ -9,6 +9,20 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | ACTS 2:37–41 OWNER CONFIRMATION: JACOB PASSAGE ALSO FAILS TO OPEN
+
+**Additional owner evidence (roughly 6:21 PM Central, in supplied order):**
+6. **Desktop Safari original accepted content:** The existing separate public Jacob Lannom commentary site successfully displays `ACT.2.37-41` / `PASSAGE`, titled “Receiving the Word, Baptism, and Belonging”, with the accepted commentary and related Scripture. The owner has independently verified that the source itself is available.
+7. **iPhone Bible Reader (KJV Acts 2:37–40):** Rotated-square markers appear before individual verses, including within the `ACT.2.37-41` accepted passage scope, but the owner reports that tapping one repeats the same broken navigation (empty Jacob panel, Back to the commentary list, Back to standard study) with **Jacob Lannom never listed or displayed**. The iPhone image shows the markers/verse numbers; the empty-panel sequence is grounded in the owner's direct report and the earlier four-screenshot sequence.
+
+**Both original images appended after the original five, in owner-supplied order**, to the living Google Doc. Do not confuse the authoritative scope: `ACT.2` is a `CHAPTER_INTRODUCTION`, whereas `ACT.2.37-41` is a directly relevant accepted `PASSAGE` for verses 37, 38, 39, 40 and 41.
+
+**Diagnosis now decisively cross-checked against both cases:** The reader's `matchingJacob(e,targetVerse=state.verse)` is incorrectly passed as a raw callback into `Array.filter` and `Array.some` at FOUR call sites in `index.html`. The callback's second argument is the array index, not the selected verse, so the accepted passage with `from:37,to:41` can never be matched when only seven Jacob entries exist. The rotated-square availability path passes an explicit verse and correctly knows there is accepted content, while the commentary chooser and author viewer filter it away. Thus the marker is NOT proof the display works. Fixing only chapter-introduction scope without fixing these callbacks would leave the passage failure intact.
+
+**Required future bounded repair:** Decouple `Array` callback signature from explicit verse matching, use actual selected verse for author display; then test both `ACT.2.1` chapter-context navigation and `ACT.2.37-41` direct passage markers/chooser. Do not invent new commentary, reharvest SOTW research or insert runtime-language analysis. Keep the ordinary commentary chooser and user's reading position. All source data untouched.
+
+**Status: ONGOING REVIEW / UNFIXED.** This update is evidence only. The owner previously directed no code changes while checking the last push; no reader implementation, SOTW source JSON, or deployment was modified in this step.
+
 ## 2026-11-17 | ACTS 2 CHAPTER INTRODUCTION COVERAGE AT ACTS 2:2 (OWNER DESKTOP SCREENSHOT)
 
 **Owner follow-up image:** Desktop Safari screenshot of the existing separate public `Jacob Lannom | Scripture Commentary | SOTW` page. Its chooser selects `ACT.2 · Acts 2: The Spirit and a Believing Community` and the content visibly renders the accepted chapter introduction. Screenshot provided November 17 following the four iPhone bug screenshots; additional image embedded in the living Google Doc **after** the four images and documented separately.
