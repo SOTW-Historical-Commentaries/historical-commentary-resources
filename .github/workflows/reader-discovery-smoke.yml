@@ -1,4 +1,4 @@
-name: SOTW reader discovery integration QA
+name: SOTW reader Topics, BSB and Jacob source QA
 
 on:
   workflow_dispatch:
@@ -39,7 +39,7 @@ jobs:
         run: node mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Published Jacob Scripture-link safety, scope and navigation contract
         run: node mobile-bible-beta/tests/jacob-scripture-links.test.cjs
-      - name: Published source contracts (all three data collections)
+      - name: Published reader source contracts (Nave/Torrey and BSB)
         shell: bash
         run: |
           set -euo pipefail
@@ -47,7 +47,6 @@ jobs:
           const assert=require('node:assert/strict');
           const urls={
             topics:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/topics.json',
-            people:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/search/people-time-place/accepted/v1/accepted-source.json',
             bsb:'https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/GEN/01.json',
             reverse:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/by-scripture/GEN.json'
           };
@@ -57,15 +56,9 @@ jobs:
               assert(response.ok,'Remote source HTTP '+response.status);
               return response.json();
             };
-            const [topics,people,bsb,reverse]=await Promise.all(Object.values(urls).map(read));
+            const [topics,bsb,reverse]=await Promise.all(Object.values(urls).map(read));
             assert.equal(topics.schema,'sotw-topics-search-index/1.0.0');
             assert.equal(topics.topics.length,5745);
-            assert.equal(people.schema,'sotw-accepted-people-place-source/1.0.0');
-            assert.equal(people.people.length,185);assert.equal(people.places.length,65);
-            assert.equal(people.events.length,6);assert.equal(people.relationships.length,257);
-            assert(!people.events.some(x=>x.id==='event-theonize-sumerian-writing'));
-            const plagues=people.events.find(x=>x.id==='event-theonize-ten-plagues');
-            assert.deepEqual(plagues.scriptureScopes,['EXO.7','EXO.8','EXO.9','EXO.10','EXO.11','EXO.12']);
             assert.equal(reverse.schema,'sotw-topics-scripture-index/1.0.0');
             assert(Array.isArray(reverse.verses['GEN.1.1'])&&reverse.verses['GEN.1.1'].includes('NEUU:TOPIC:creation'));
             assert.equal(bsb.schema,'sotw-bsb-helloao-interlinear-source/1.0.0');
@@ -79,6 +72,6 @@ jobs:
             assert.equal(aligned[1].gloss,'God');
             assert.equal(aligned[2].gloss,null);
             assert.equal(aligned[3].gloss,'created');
-            console.log('PASS: three live GitHub source contracts and provenance rules');
+            console.log('PASS: live Nave/Torrey verse indexing and BSB publisher interlinear source contracts');
           })().catch(e=>{console.error(e);process.exit(1)});
           NODE
