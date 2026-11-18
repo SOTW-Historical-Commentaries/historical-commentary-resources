@@ -415,7 +415,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
-<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader14">
+<link rel="stylesheet" href="./study-ux-repair.css?v=20261117-reader15">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -497,7 +497,7 @@ async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$
 $('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
 $('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
 $('verse').addEventListener('change',e=>chooseVerse(Number(e.target.value)));
-$('edition').addEventListener('change',async e=>{state.edition=e.target.value;await loadChapter(false)});
+$('edition').addEventListener('change',async e=>{modernCaptureEditionAnchor();state.edition=e.target.value;await loadChapter(false)});
 $('authorMode').addEventListener('change',e=>{state.mode=e.target.value;if(state.index)renderVoices()});
 $('includeP').addEventListener('change',e=>{state.showP=e.target.checked;if(state.index)renderVoices()});
 $('previous').addEventListener('click',()=>chooseVerse(Math.max(1,state.verse-1)));
@@ -556,6 +556,7 @@ let modernOpenAuthor = "";
 let modernStudyRequest = 0;
 let modernRenderedChapter = '';
 let modernRenderedBible = null;
+let modernEditionAnchor = null;
 let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
 const modernOldHeader=document.querySelector('body.mobile-beta > header');
 if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
@@ -565,6 +566,24 @@ document.body.prepend(modernHeader);
 betaBar.remove();
 const readerView=$('verses');
 readerView.setAttribute('aria-label','Scripture chapter — tap a verse to study');
+function modernCaptureEditionAnchor(){
+ // The verse visible to the reader can differ from the last tapped verse.
+ const viewport=readerView.getBoundingClientRect();
+ const verses=Array.from(readerView.querySelectorAll('button.reader-verse[data-verse]'));
+ const top=verses.find(el=>el.getBoundingClientRect().bottom>viewport.top+6)||
+   verses.find(el=>Number(el.dataset.verse)===state.verse);
+ modernEditionAnchor=top?{book:state.book,chapter:state.chapter,
+   verse:Number(top.dataset.verse),offset:top.getBoundingClientRect().top-viewport.top}:null;
+}
+function modernRestoreEditionAnchor(){
+ const saved=modernEditionAnchor;modernEditionAnchor=null;
+ if(!saved||saved.book!==state.book||saved.chapter!==state.chapter)return false;
+ const el=readerView.querySelector('button.reader-verse[data-verse="'+saved.verse+'"]');
+ if(!el)return false;
+ const delta=el.getBoundingClientRect().top-readerView.getBoundingClientRect().top-saved.offset;
+ readerView.scrollTop=Math.max(0,readerView.scrollTop+delta);
+ return true;
+}
 const modalLayer=(id,title)=>{
  const veil=document.createElement('div');veil.id=id;veil.className='modal-scrim';
  const panel=document.createElement('div');panel.className='modal-content';panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','true');
@@ -584,7 +603,7 @@ for(const [edition,details] of Object.entries(editionText)){
  const btn=document.createElement('button');btn.type='button';btn.className='edition-option';btn.dataset.edition=edition;
  const words=document.createElement('div');const name=document.createElement('strong');name.textContent=details[0];const sub=document.createElement('span');sub.textContent=details[1];words.append(name,sub);
  const mark=document.createElement('span');mark.textContent='↗';btn.append(words,mark);
- btn.addEventListener('click',()=>{$('edition').value=edition;state.edition=edition;modernStudyVerse=0;betaCloseSheet();editionModal.veil.classList.remove('is-open');loadChapter(false)});
+ btn.addEventListener('click',()=>{if(edition===state.edition){editionModal.veil.classList.remove('is-open');return;}modernCaptureEditionAnchor();$('edition').value=edition;state.edition=edition;modernStudyVerse=0;betaCloseSheet();editionModal.veil.classList.remove('is-open');loadChapter(false)});
  editionModal.panel.append(btn);
 }
 const searchModal=modalLayer('readerSearchModal','Find Scripture');
@@ -626,7 +645,7 @@ renderBible=function(){
  if(hasIntro){
   const context=document.createElement('button');context.type='button';
   context.className='jacob-chapter-intro';
-  context.textContent='Jacob Lannom · Chapter introduction  ›';
+  context.textContent='Chapter Intro · Jacob Lannom  ›';
   context.setAttribute('aria-label','Read Jacob Lannom chapter introduction to '+bookInfo().name+' '+state.chapter);
   context.addEventListener('click',event=>{
    event.preventDefault();event.stopImmediatePropagation();
@@ -646,6 +665,7 @@ renderBible=function(){
   // Keep the marker visibly tied to THIS verse. Two sibling buttons; no nested
   // button and no shared click handler with the verse study action.
   const eligibleJacob=(state.jacob||[]).some(e=>jacobDirectAt(e,Number(v.verse))&&
+    Number(parseScope(e.scopeKey)?.from)===Number(v.verse)&&
     typeof e.commentary==='string'&&e.commentary.trim());
   if(eligibleJacob){
    const marker=document.createElement('button');marker.type='button';
@@ -668,6 +688,7 @@ renderBible=function(){
   p.append(btn,document.createTextNode(' '));
  }
  readerView.scrollTop=keep;
+ if(modernEditionAnchor)modernRestoreEditionAnchor();
 };
 chooseVerse=function(n){
  const found=modernSourceVerse(n);
@@ -868,8 +889,8 @@ renderVoices=function(){
  if(!modernStudyVerse||!state.index)return;
  const routes=state.index.verse_routes?.[String(modernStudyVerse)]||{};
  const hasDirect=(state.jacob||[]).some(e=>jacobDirectAt(e,modernStudyVerse)&&e.commentary?.trim());
- const hasContext=(state.jacob||[]).some(e=>jacobChapterIntro(e)&&e.commentary?.trim());
- if(hasDirect||hasContext)availableAuthors.push({id:'jacob-lannom',name:hasDirect?'Jacob Lannom':'Jacob Lannom · Chapter introduction',kind:hasDirect?'Pastoral Commentary':'Chapter Introduction'});
+ // Chapter introductions are at the chapter top, not repeated by every verse.
+ if(hasDirect)availableAuthors.push({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary'});
  for(const [id,name] of HIST){
   if(state.index.authors?.find(a=>a.author_id===id)?.source_unavailable)continue;
   if(Array.isArray(routes[id])&&routes[id].length)availableAuthors.push({id,name,kind:'Historical Commentary'});
@@ -929,14 +950,14 @@ function openAuthorCommentary(author){
   for(const entry of [...direct,...matches.filter(e=>e.scopeType==='CHAPTER_INTRODUCTION')]){
    if(entry.scopeType==='CHAPTER_INTRODUCTION'&&direct.length){
     const disclosure=document.createElement('details');
-    const summary=document.createElement('summary');summary.textContent='Also available: chapter introduction';
+    const summary=document.createElement('summary');summary.textContent='Chapter Intro';
     const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
     const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
     disclosure.append(summary,heading,prose);body.append(disclosure);continue;
    }
    if(entry.scopeType==='CHAPTER_INTRODUCTION'){
     const scope=document.createElement('p');scope.className='jacob-scope-note';
-    scope.textContent='Chapter introduction · Context for '+bookInfo().name+' '+state.chapter;body.append(scope);
+    scope.textContent='Chapter Intro · '+bookInfo().name+' '+state.chapter;body.append(scope);
    }
    const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
    appendVisibleCommentary(body,entry.commentary);
@@ -1266,6 +1287,6 @@ editionModal.veil.addEventListener('click',event=>{
  if(event.target===editionModal.veil)event.stopImmediatePropagation();
 },true);
 </script>
-<script src="./study-ux-repair.js?v=20261117-reader14"></script>
+<script src="./study-ux-repair.js?v=20261117-reader15"></script>
 </body>
 </html>
