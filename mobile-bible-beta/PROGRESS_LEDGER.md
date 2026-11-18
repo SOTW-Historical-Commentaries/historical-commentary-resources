@@ -13,26 +13,25 @@
 
 
 
+## 2026-11-18 | DESIGN REVIEW: EXISTING PEOPLE / PLACE / EVENT DATA FOR NATURAL SEARCH
+
+**Owner direction:** Asked whether SOTW's People/Place directory can enrich ordinary reader Search. Owner subsequently asked to save progress, not build or publish a new feature. The approved direction of Scripture-first Bible-reference lookup and planned forgiving Bible-text matches remains primary. A **separately labeled and lower-priority directory card** is a potential optional addition, not a universal topic/semantic engine or a replacement for Scripture search. Current reader remains **v0.16.3**; the previously corrected `Gen 3 14` reference parser is installed, while corpus-wide fuzzy text search is **not**.
+
+**Located source:** `Stewards-of-the-Way/bible-foundation` contains a CGBC-labeled, read-only people/time/place dataset under `data/biblical-history/people-time-place/`. The current-merged-library README documents **269 people, 327 relationships, 65 places, 186 events**, and warns that its historic 184/256/11/4 counts are retired seed counts. The `CGBC_HISTORICAL_EVENT_TIME_PLACE_LINKS.json` Git blob `b3b6501f8364d6713abfac8bd8e0828f66277c11` was inspected: 186 events, 148 with at least one place ID. **64 events explicitly have a missing/required historical-source identification placeholder** in `sourcePassage`; exclude these as Scripture-linked event results unless independently qualified and approved. `CGBC_SOURCE_ATTRIBUTED_MAP_FEATURES.geojson` blob `b4b9e049f6859a716335db7a61f9985445cfee75` contains 64 features, **30 `historic_site_candidate`**, remainder `CONTEXT_ONLY_NOT_A_MAP_SITE_PIN`. Coordinates identify candidate modern reference sites, never exact biblical events. The large people master file exists but its record-by-record contents and file-level checksum were **not independently verified** in this analysis; 269/327/65 counts are documentation-reported, not newly audited.
+
+**Evidence-grounded user experience (proposal ONLY):** For exact person-name searches like `Nehemiah`, show existing Bible text/ref results first, then optional `Biblical person` record and independently verified `Rebuilding Jerusalem's wall` event referencing Nehemiah 2:11–18 and 6:15; a place like `Bethlehem` could show a place card. Link only via accepted canonical Scripture reference IDs and explicitly attributed person/place/event stable IDs; qualify uncertain identities/dates. Queries such as `grace` that do not match verified entities should remain Bible search, not trigger broad entity cards. Do NOT inflate results with 186 events or automatically publish every place/geocode.
+
+**Policy and rights HOLD:** The CGBC-approved pinned People/Time/Place master is **READ-ONLY** by owner policy. The foundation `docs/biblical-history/people-time-place/CGBC_PERMANENT_LIBRARY_LOCK_2026-10-25.json` says `LOCAL_APPROVED_BASELINE_NOT_DEPLOYED`; GitHub presence alone is not a proof of the pinned canonical SHA-256 parity, authorized public SOTW installation, or publication approval. Read source/rights and checksum policy before relying on any specific copy. OpenBible-derived geography is **CC BY 4.0** with attribution and precision/alternative-site caveats; inherited MIT/ISC materials and excluded third-party sources have their own restrictions. Keep chronology proposals model-labeled; don't turn inferred temporal overlap into an asserted meeting, or genealogy paths into proved parentage.
+
+**Architecture proposal/gates:** If authorized later, build a small, derived, versioned **read-only People/Places/Events search index** from eligible source IDs, names/approved aliases, typed links and Scripture citation ranges. Do not mutate the locked master, create replacement facts, add global automatic entity tags to Scripture, or merge CGBC-only material into the SOTW public site without explicit permission. Rank Bible locations and actual verse matches first. Explicitly confirm owner approval for release scope/rights, checksum matching, source validity, editorial filters, SOTW-versus-CGBC visibility, matching/ambiguity behavior and tests before any code or publication.
+
+**Documentation maintenance:** While inserting this checkpoint, a pre-existing accidental duplicate top ledger heading embedded inside the v0.16.3 `Technical diagnosis` paragraph was repaired surgically; a clean description of the original parser defect was restored. No historical version sections elsewhere were deleted. This was a text-only correction and not a new reader code change.
+
 ## 2026-11-18 | v0.16.3 BUGFIX: ABBREVIATED AND SPACE-SEPARATED SCRIPTURE LOOKUP
 
 **Owner iPhone screenshot:** From 2 Thessalonians 1 KJV, “Find Scripture” field contains `Gen 3 14`; no suggestion appears. The owner states it must resolve to Genesis 3:14. This is a verified gap in the current reference parser, not an authorization to implement the previously deferred whole-Bible text search.
 
-**Technical diagnosis:** Old `modernSearchRender()` regex `^(.+?)\\s+(\\d{1,3})(?::(\\d{1,3}))?# SOTW BIBLE READER — PROGRESS LEDGER
-
-**Updated:** 2026-11-18 (America/Chicago)  
-**Authoritative living ledger:** [Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
-**Repository:** `SOTW-Historical-Commentaries/historical-commentary-resources`  
-**Live-route candidate:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Implementation folder:** `mobile-bible-beta/`  
-**Baseline before additions:** `201ae69e162c22c01f26e73ce7266ef6abfe150b`  
-**New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
-**PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
-
-
-
-
-
- only allowed colon verse delimiters, and the `BOOKS.find` compared exact full lowercased names or internal codes. Thus `Gen 3 14` never became a navigable reference. Existing reference lookup and current-chapter substring search shared the same field.
+**Technical diagnosis:** The previous \`modernSearchRender()\` reference regex required a colon before the verse number, and the \`BOOKS.find\` lookup compared only full canonical book names or internal codes. Thus \`Gen 3 14\` never became a navigable reference; it fell through to the current-chapter text search. This diagnosis concerns the v0.16.2 parser, not the v0.16.3 corrected version.
 
 **Implemented fix:** Added `modernParseReference()` recognizing unambiguous prefixes (such as Gen, Rom, Thess with book number), common short aliases, full canonical book names and codes; optional whitespace/colon/period verse separators. Reference hits are ranked ahead of book-name and current-chapter matches, display a canonical book/chapter/verse label, and retain click/Enter navigation. Before navigating, the handler verifies the actual SOTW v3 published chapter index, comparing `canonical_chapter` and `verse_count`, so an impossible verse cannot silently be clamped to another verse. It then uses existing book/chapter/verse navigation and scroll-to-verse. Unrecognized text continues through the unchanged chapter-only lookup. Search v1 across the entire Bible, approximate word matching and semantic topics remain NOT INSTALLED.
 
