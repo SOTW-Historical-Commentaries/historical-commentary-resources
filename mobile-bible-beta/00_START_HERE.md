@@ -9,6 +9,18 @@
 
 
 
+## 2026-11-18 | THREE PUBLISHED DATA COLLECTIONS — READY FOR UI ADAPTERS
+
+**Current source publication:** All three SOTW study/discovery data projects have now published their normalized outputs. The earlier People/Places *design-only* notes and Nave/Torrey *UNVERIFIED* research-candidate labels below are historical checkpoints, **superseded for source-publication status only**. No reader integration was installed by the data publications.
+
+- **Nave/Torrey Topics:** [published v1](https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/topics/nave-torrey/v1/), **5,745 topics**, **65,207 mapped reference entries**, **278 exclusions audited**. Use `index/topics.json`, letter shards, and `index/by-scripture/{BOOK}.json`; source-provided historical associations, **not SOTW doctrine**. NEUU/CCEL attribution and **CC BY 4.0**. Manifest: `NORMALIZED_SOURCE_NOT_YET_CONNECTED_TO_SEARCH_V1`.
+- **Full BSB HelloAO interlinear:** [published v1](https://github.com/SOTW-BSB/-bsb-resources/tree/main/data/bsb/helloao-interlinear/v1/), **66 books**, **1,189 chapters**, **443,625 original-language word objects**; source-supplied Strong's, parsing, gloss and `bsbPos`. `bsbPos` is **not a proven English word offset**. Use the existing SOTW Strong's route map and keep Webster 1828 separate; no alteration of BSB English verse text or the accepted three-verse alignment pilot. Manifest: `PUBLISHED_SOURCE_DATA_NOT_READER_CONNECTED`.
+- **People/Places/Events Search projection:** [published v1](https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/search/people-time-place/v1/), **339 public search entries**, **285 typed links**, **303 indexed Scripture scopes**, **64 map candidates**. QA excludes **181 events** requiring source/context review and **71 pending family relationships**, with **66 unparsed source expressions** retained in audit. Commit `0263e0911d5bcbbfa8a3f4b89ec28e9a4f740668` added exactly **eight derivative files** and left the locked master unchanged. Manifest: `READY_FOR_UI_ADAPTER_NOT_LIVE`.
+
+**Current beta:** Reader **v0.16.3** unchanged; `Gen 3 14` reference parsing installed, real iPhone navigation QA pending; Bible-wide forgiving word/phrase search, topical result cards, people/place cards, and the full BSB word-study UI **not installed**. Next consumer work should rank Scripture reference and verified verse-text matches first, show historical Topics and eligible People/Places/Events as distinctly labeled opt-in discovery, and expose BSB source/Strong's details without invented token alignment. Preserve CGBC historical-master locks, rights, Jacob's independent accepted commentary, current source files and current reader runtime. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md) for publication evidence and integration contract.
+
+
+
 
 
 ## SEARCH DISCOVERY CANDIDATE | PEOPLE, PLACES & EVENTS | 2026-11-18
