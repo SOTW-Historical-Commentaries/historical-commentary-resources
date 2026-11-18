@@ -7,6 +7,12 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT v0.15.4 LIGHT 300 BIBLE FONT TRIAL (2026-11-17)
+
+The owner compared two new Acts 2 iPhone screenshots: main M PLUS 1p 400 Scripture appeared still too heavy versus Verse Tools. Both areas were already 400; a literal swap would be no-op. **New beta v0.15.4 loads genuine M PLUS 1p Light 300 and uses that weight only for MAIN Scripture paragraphs**. Verse Tools and Word-by-Word remain unchanged, including spacing, sizes, links and source records.
+
+**Test**: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/?book=ACT&chapter=2&verse=1&translation=KJV1769 (refresh for `?v=20261117-reader154`). Recoverable pre-change head `71cf63eaee45bdd92118868234383d41ad56e45f`; code head `fa0fa39dc1cb944a4b7c64ae8b11637b58676ce8`; exact two files changed `index.html`, `study-ux-repair.css`, not study JS or any accepted data. Syntax and source checks PASS, live iPhone optical test PENDING. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md).
+
 ## CURRENT v0.15.3: LIGHTER M PLUS 1p MAIN SCRIPTURE (2026-11-17)
 
 Owner authorized a minimal font weight refinement after comparing three v0.15.2 iPhone screenshots: `M PLUS 1p` **Regular 400** for the MAIN English Scripture reader instead of medium 500. Verse Tools, Word-by-Word verse and Jacob commentary remain unchanged. Same sizes and family. CSS asset version `?v=20261117-reader153`.
