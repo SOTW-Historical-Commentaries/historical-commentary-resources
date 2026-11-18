@@ -9,6 +9,15 @@
 
 
 
+## 2026-11-18 | SOURCE AUDIT: PEOPLE / PLACES / EVENTS
+
+**Current review checkpoint, not a new data release:** Owner directed evidence review of the approved 2026-10-25 blended CGBC source and published SOTW search projection. Exclude unsourced Sumerian cuneiform-writing from public Bible discovery; accept Cain → Enoch (Cain's son) with `GEN.4.17` as a distinct identity from Enoch of Genesis 5; accept `Exodus 7–12` as valid chapter-scope evidence for Ten Plagues / Passover (no fixed BC date). **No adapter, data, or reader changes installed.**
+
+**Root causes verified:** 181 review-only events = **123 biblical-category plus 58 world-history**. **64 events** lack identified historical sources (58 world plus 6 historically framed entries). **71 withheld family links** all came from the Daniel-Hug candidate overlay. **85 candidate people** currently appear in public search without source references/scopes in their *projected* details, although source locators survive in the pinned master. **66 unparsed strings** are actually **54 geography attribution strings** plus **12 Scripture expressions** needing bounded parsing or editorial scope decisions. Review the categories separately; they are not uniform factual contradictions.
+
+**Disputes remaining:** Relative Scripture vs disputed BC chronology; Matthew/Luke genealogy identity conflicts, Luke Cainan, Rahab identity; Genesis 10 clan/ethnonym versus literal biological parentage and the **Dodanim / Rodanites** name form; disputed Ur site identification; historical composition dates and unverified secular events. Preserve name variants, source attribution, precise scope semantics and a pinned/READ-ONLY master. Full evidence and next gates: [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md), `data/search/people-time-place/v1/`.
+
+
 ## 2026-11-18 | THREE PUBLISHED DATA COLLECTIONS — READY FOR UI ADAPTERS
 
 **Current source publication:** All three SOTW study/discovery data projects have now published their normalized outputs. The earlier People/Places *design-only* notes and Nave/Torrey *UNVERIFIED* research-candidate labels below are historical checkpoints, **superseded for source-publication status only**. No reader integration was installed by the data publications.
