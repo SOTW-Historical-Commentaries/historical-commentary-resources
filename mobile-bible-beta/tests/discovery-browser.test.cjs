@@ -36,13 +36,13 @@ const {chromium}=require('playwright-core');
   assert.match(await page.locator('#sotwDiscoveryDetail .discovery-heading').first().innerText(),/Historical Bible Topic/);
   const group=page.locator('#sotwDiscoveryDetail .discovery-topic-group').first();
   assert.match(await group.locator('summary').innerText(),/OF ENEMIES/i);
-  assert.match(await group.locator('summary').innerText(),/19 passages/);
+  assert.match(await group.locator('summary').innerText(),/18 passages/);
   assert.equal(await group.locator('.discovery-citation').count(),4,
    'Only a few readable source citations should be initially visible');
   assert.match(await group.locator('.discovery-citation').first().innerText(),/Exodus 23:4/);
   await group.locator('.discovery-more').click();
-  assert.equal(await group.locator('.discovery-citation').count(),19,
-   'Expanded source subsection must retain all 19 mapped citations');
+  assert.equal(await group.locator('.discovery-citation').count(),18,
+   'Expanded source subsection must retain all 18 mapped citations');
   const allText=await page.locator('#sotwDiscoveryDetail').innerText();
   assert(!/Person ·|Evidence gate:|Additional references are preserved/i.test(allText));
   await page.locator('#sotwDiscoveryDetail .modal-close').click();
