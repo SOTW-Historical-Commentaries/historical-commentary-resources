@@ -13,6 +13,16 @@
 
 
 
+## 2026-11-17 | v0.16.0 OWNER IPHONE: FULL LOGO SIZE, CONTROLS AND SEARCH CONTRAST
+
+**Owner evidence:** Three screenshots in order: dark KJV Acts 2 at 10:54 with CGBC/Bible/SOTW full logo and small-looking Search/Theme; light KJV Acts 2 at 10:54 showing the same logo and controls; and light Find Scripture at 10:55 with keyboard open, where explanatory text is nearly unreadable on soft-light surface. Owner says logo looks good but a little large, and Search/Theme icons are too small. Previous full-logo approval remains, so preserve the exact artwork.
+
+**Bounded implementation:** Header-only logo style cap reduced from 320px width/69px height to 238px/50px (45px on <=375px screens). Retained installed `branding/v1/cgbc-sotw-full-header-900.png` and its light-mode filter. Replace visually undersized Unicode glyphs `⌕` and `☼` with self-contained inline 24px vector search/sun icons; buttons are 44×44px, color/border tuned separately for dark/light, with existing `id` and accessible `aria-label` unchanged. Light-mode Find Scripture helper text becomes #3e5b64 and input placeholder #4e6770; controls and native iPhone keyboard not modified. This is presentation only. The Bible reader and Word-by-Word data, layouts and source/navigation code remain unchanged. CSS cache-bust `?v=20261117-reader160`.
+
+**Gate checks:** Pinned prechange `main` `d750db8a90137f753c78f08bb60f4032017be6c5`; atomic code commit `31bec31a8db4605f79e7550e764a1c6b68470b44`. HTML Git blob `7c8458b89757731f81ccc5fd18a96805c8e52136`; CSS Git blob `8db2cefe0cd47967b8e46c6b145adc25992c1c51`; unchanged study JS `de60bc8d8f0fa1f5559833f6d425d359ae314423`. GitHub readback and compare: exactly 2 beta presentation files changed, 2 inline JS syntax checks PASS, CSS braces PASS, both 24px SVG paths and button ARIA labels present, updated CSS and placeholder styles present, same full-logo image path. No edited Bible/author commentary or CGBC production files.
+
+**Awaiting device proof:** Owner to hard-refresh mobile beta and view dark/light Acts 2 header, tap Search and Theme and use Find Scripture. Native keyboard accessibility row is iOS-provided and was not restyled. Public Pages HTTP check and actual v0.16.0 iPhone screenshots are pending, so no production PASS claimed. Verse-spacing harmony across editions remains a separate unresolved proposal.
+
 ## 2026-11-17 | v0.15.9 FULL CGBC/BIBLE SOTW MOBILE HEADER TRIAL
 
 **Owner direction:** After uploading three distinct ZIP sets of logos and reviewing full-logo design, owner said "let's put it in and take a look." This specifically authorizes a header visual trial in the existing SOTW reader, not broader CGBC/SOTW brand replacement or changes to original Scripture data. Previous assistant incorrectly stated GitHub write capability was unavailable; connected GitHub permissions have since been verified `push:true` and the header code installed using the owner's live connection.
