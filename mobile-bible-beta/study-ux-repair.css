@@ -423,7 +423,11 @@
 .mobile-beta #studyOverlayBody .word-sequence-plain{
  font-family:"M PLUS 1p",system-ui,-apple-system,"Segoe UI",sans-serif!important;
 }
-.mobile-beta #verses .reader-paragraph,
+/* Owner iPhone review: regular weight for the main Bible, keeping the
+   preferred M PLUS 1p family and the Word-by-Word styling unchanged. */
+.mobile-beta #verses .reader-paragraph{
+ font-weight:400!important;
+}
 .mobile-beta #studyOverlayBody .word-sequence-verse{
  font-weight:500!important;
 }
