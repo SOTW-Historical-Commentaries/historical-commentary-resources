@@ -4,12 +4,22 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
+**Status:** Active mobile reader **v0.16.0**; source implementation verified against GitHub `main` on 2026-11-17 (America/Chicago). The owner reports the reader is working well on iPhone. The connected GitHub repository is not proof of a separate public Pages HTTP/visual QA pass.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
 
 
 
+
+## ACTIVE CONTINUITY CHECKPOINT | v0.16.0 | 2026-11-17
+
+**Start here for the next SOTW reader conversation.** The latest tested code revision, before documentation-only continuity edits, is `31bec31a8db4605f79e7550e764a1c6b68470b44`. The current implementation files and Git blob SHAs are `index.html` `7c8458b89757731f81ccc5fd18a96805c8e52136`, `study-ux-repair.css` `8db2cefe0cd47967b8e46c6b145adc25992c1c51`, `study-ux-repair.js` `de60bc8d8f0fa1f5559833f6d425d359ae314423`, and owner-logo asset `branding/v1/cgbc-sotw-full-header-900.png` `70534c5e9b8d2b765f5f4c63ae085be5065683c8` (69,583 bytes). The latest v0.16.0 code patch changed only HTML and CSS. Connected GitHub has confirmed write access.
+
+**Acceptance/evidence:** Owner's latest message, "Things are really working", is positive functional feedback, not a completed automated or device-wide regression gate. Prior iPhone screenshots established earlier working reader/word tools, theme and full-logo presentation; v0.16.0 resized logo, 44px icon controls and light-search text still have not been independently established as a full mobile QA PASS. Current source-only QA: 2 inline and 1 external JavaScript parse checks PASS, CSS braces PASS, installed asset link present, GitHub code blobs unchanged since implementation commit. The service-worker source remains unchanged.
+
+**Next conversation:** OWNER WANTS TO DISCUSS **SEARCH**, not implement it yet. The existing `Find Scripture` sheet presently supports jumping by book/chapter/verse and finding text only in the **currently loaded chapter** (up to eight verse text hits in the preview). Do not mistake this for a full-Bible search index or start work until the owner describes desired search behavior. Keep keyboard and accessibility decisions open. Translation-specific paragraph margins observed in KJV versus BSB, and optional highlight/paragraph-marker refinements, are also **deferred**, not installed.
+
+**Guardrails:** Preserve accepted KJV/ASV/BSB/Webster text, Jacob and historical commentaries, original-language/lexicon hooks, source IDs/links, PWA behavior, and the separate published three-verse BSB alignment pilot (**not integrated**). No CGBC sermon SPP or production deployment changes. Rollback of the latest v0.16.0 presentation patch: `d750db8a90137f753c78f08bb60f4032017be6c5`; previous functioning code remains in Git history. Older headings below that say "CURRENT" are historical version snapshots, not instructions that override this checkpoint. See `PROGRESS_LEDGER.md` and the linked living Google Doc for evidence and version history.
 
 ## CURRENT READER PATCH v0.16.0 | SMALLER FULL LOGO + SEARCH/THEME VISIBILITY | 2026-11-17
 
