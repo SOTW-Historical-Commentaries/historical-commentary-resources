@@ -7,6 +7,15 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+
+## CURRENT READER PATCH v0.15.5 | OWNER IPHONE TYPOGRAPHY AND REFERENCE HEADING | 2026-11-17
+
+**Latest committed reader:** `mobile-bible-beta/` beta v0.15.5. After owner screenshots of Matthew Henry Acts 2:1–4 and Acts 2 Scripture, the history drawer now displays readable human Scripture heading `Acts 2:1–4` rather than machine IDs `ACT.2.1 – ACT.2.4`; the underlying source IDs and coverage are unchanged. Main Scripture remains M PLUS 1p Light 300 with a **subtle 0.14px WebKit ink stroke** only on `.reader-paragraph` to approximate a small +30-weight visual adjustment between static 300 and 400. This is **not** a true variable font weight of 330. All paragraph measurements, Verse Tools 400, Word-by-Word, and commentary prose are unchanged. Cache key `?v=20261117-reader155`.
+
+**Code and checks:** Recoverable prepatch main `f4ef4ef18f0e07df89089d374430556d5ba8e3d4`. HTML commit `7179e7ee31765498dc8f761079eb473ae2262589`, blob `037af27a91497e5a0fa4225180b3c6b93bf5d5c4`; CSS commit `2a2d19a65f97d8e06588b2813239cebf9e786488`, blob `3c7c4b41eef23e2ffa6004dba23bf95dba7dc136`; study JS unchanged `05d2b130be08473ac63fe9fbd9555cdcd5904840`. GitHub readback, two inline JS parse gates, four reference-format examples, and two-file compare PASS. Owner's new iPhone visual approval and remote Pages response **PENDING**, so do not declare full mobile QA complete. More detailed test notes in [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md).
+
+**No BSB integration change:** Published three-verse BSB alignment pilot is still opt-in and not installed. Full-corpus work is separate. Historical handoff v0.15.4 below is retained as the previous snapshot; the v0.15.5 note above controls current implementation status.
+
 ## NEXT THREAD START HERE | v0.15.4 + BSB PUBLISHED ALIGNMENT PILOT | 2026-11-17
 
 **Scope:** SOTW mobile Bible reader, not CGBC SPP sermon processing. This is the current, cross-verified handoff for the next reader conversation. Read this section, [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md), and the [living Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit) first. Protect newer unrelated data, verify fresh GitHub main before any edit, and do not restart previous BSB source research.
