@@ -56,7 +56,8 @@ const {chromium}=require('playwright-core');
   assert.equal(await returnPill.isVisible(),false,'Return hides after recovering the original verse');
   const allText=await page.locator('#sotwDiscoveryDetail').innerText();
   assert(!/Person ·|Evidence gate:|Additional references are preserved/i.test(allText));
-  await page.locator('#sotwDiscoveryDetail .modal-close').click();
+  if(await page.locator('#sotwDiscoveryDetail.is-open').count())
+   await page.locator('#sotwDiscoveryDetail .modal-close').click();
   await page.locator('#modernSearchButton').click();
   input=page.locator('#modernSearchInput');
   await input.fill('Jesus');
