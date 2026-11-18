@@ -36,6 +36,16 @@
     const book=state.book,chapter=state.chapter,verse=modernStudyVerse,edition=state.edition;
     languageButton.hidden=true;languageEvidence=[];
     if(!verse)return;
+    // The published HelloAO BSB interlinear covers the full Bible and directly
+    // supplies BSB English-order rank + publisher gloss for each source word.
+    // It must not depend on our separate three-verse verified-token pilot.
+    if(edition==='BSB'){
+      const name=document.createElement('span');name.textContent='Word-by-Word';
+      const meta=document.createElement('small');meta.textContent='BSB interlinear ›';
+      languageButton.replaceChildren(name,meta);languageButton.hidden=false;
+      if(resumeWordByWord){resumeWordByWord=false;renderSourceList();}
+      return;
+    }
     try{
       const data=await getJson(chapterEvidenceUrl(book,chapter));
       if(noLongerCurrent(request,generation,book,chapter,verse,edition))return;
@@ -129,7 +139,7 @@
   }
   function makeAtlasCard(row,displayWord){
     const descriptor=sourceLabel(row);
-    const id=row.strongs_ids.find(x=>/^strongs:[HG]\d+$/.test(x));
+    const id=(row.strongs_ids||[]).find(x=>/^strongs:[HG]\d+$/.test(x))||'';
     // Card is a container with two sibling actions. Never nest a dictionary
     // button inside the word button; that causes unreliable mobile taps.
     const wrapper=document.createElement('div');wrapper.className='word-sequence-card';
@@ -140,8 +150,12 @@
     const word=document.createElement('strong');
     word.textContent=displayWord||descriptor.word;
     const number=document.createElement('span');number.className='lexical-strongs';
-    number.textContent=id.replace('strongs:','');
+    number.textContent=id?id.replace('strongs:',''):'';
     top.append(word,number);left.append(top);
+    if(row.bsbInterlinear){
+      const sourceForm=document.createElement('span');sourceForm.className='word-atlas-bsb-original';
+      sourceForm.textContent=descriptor.word;left.append(sourceForm);
+    }
     if(descriptor.secondary){
       const trans=document.createElement('span');trans.textContent=descriptor.secondary;left.append(trans);
     }
@@ -152,9 +166,14 @@
     const original=document.createElement('span');original.className='word-atlas-original';
     const short=document.createElement('span');short.className='word-atlas-short';
     left.append(original,short);card.append(left);wrapper.append(card);
-    card.setAttribute('aria-label','Study '+(displayWord||descriptor.word)+' '+id.replace('strongs:',''));
-    card.addEventListener('click',()=>renderSourceDetail(row));
-    const match=id.match(/^strongs:([HG])(\d+)$/),lang=match[1],num=Number(match[2]);
+    if(id){
+      card.setAttribute('aria-label','Study '+(displayWord||descriptor.word)+' '+id.replace('strongs:',''));
+      card.addEventListener('click',()=>renderSourceDetail(row));
+    }else{
+      card.disabled=true;card.setAttribute('aria-label','Source word without a Strong’s identifier');
+    }
+    const match=id.match(/^strongs:([HG])(\d+)$/);
+    const lang=match?.[1],num=Number(match?.[2]||0);
     if(Number.isInteger(num)&&num>0&&num<=(lang==='H'?8674:5624)){
       const first=Math.floor((num-1)/250)*250+1,last=Math.min(first+249,lang==='H'?8674:5624);
       const pad=n=>String(n).padStart(5,'0');
@@ -174,9 +193,11 @@
     // Show a secondary Webster control ONLY if a real, nonempty exact
     // English headword is published in SOTW's 1828 dictionary.
     // Original-only BSB Greek/Hebrew rows have no claimed English token link.
-    const englishWord=displayWord || (row.source_location_kind==='tagged_word_ordinal_not_full_verse_token' ||
-      row.source_location_kind==='source_verified_target_english_token_index_zero_based'
-        ?descriptor.word:'');
+    const englishWord=row.bsbInterlinear
+      ? (/^[A-Za-z]+(?:['’][A-Za-z]+)?$/.test(displayWord||'')?displayWord:'')
+      : (displayWord || (row.source_location_kind==='tagged_word_ordinal_not_full_verse_token' ||
+        row.source_location_kind==='source_verified_target_english_token_index_zero_based'
+          ?descriptor.word:''));
     if(englishWord&&typeof getSotwWebster1828==='function'){
       getSotwWebster1828().then(()=>{
         if(!wrapper.isConnected||studyView!=='source-forms')return;
@@ -226,7 +247,83 @@
     // Let the normal read-only reader refresh every scope, then restore atlas.
     resumeWordByWord=true;modernStudyVerse=verse;chooseVerse(verse);betaOpen();
   }
+  /* Full publisher BSB interlinear, in the BSB English translation's
+     documented bsbPos order. Each gloss is a publisher-supplied phrase for a
+     source word, NOT a numeric English token offset. Untranslated words remain
+     visible. The existing verse text above is never retokenized or rewritten. */
+  let bsbWordByWordGeneration=0;
+  async function renderBsbWordByWord(){
+    const gen=++bsbWordByWordGeneration,request=modernStudyRequest;
+    const book=state.book,chapter=state.chapter,verse=modernStudyVerse,edition=state.edition;
+    openStudyLayer('source-forms','Word-by-Word');
+    currentSourceWord=null;
+    for(const child of Array.from(studyOverlayBody.children)){
+      if(child.id!=='voices')child.remove();
+    }
+    studyOverlayBody.append(makeVerseNavigation());
+    const originalVerse=modernSourceVerse(verse);
+    const displayed=(typeof displayVerseText==='function'?displayVerseText(originalVerse):'')
+      .replace(/^\s*[¶§]+\s*/u,'');
+    const passage=document.createElement('p');passage.className='word-sequence-verse';
+    passage.textContent=displayed;studyOverlayBody.append(passage);
+    const caption=document.createElement('p');caption.className='word-sequence-caption';
+    caption.textContent='BSB word-by-word · English translation order';studyOverlayBody.append(caption);
+    const explanation=document.createElement('p');explanation.className='word-sequence-note';
+    explanation.textContent='Aligned BSB English phrases supplied by Berean / HelloAO, with the corresponding original words. One phrase may contain several English words.';
+    studyOverlayBody.append(explanation);
+    const list=document.createElement('div');list.className='word-sequence-list';
+    studyOverlayBody.append(list);
+    const loading=document.createElement('p');loading.className='word-sequence-note';
+    loading.textContent='Loading Berean interlinear words…';list.append(loading);
+    studyOverlayBody.append(makeVerseNavigation());
+    const current=()=>gen===bsbWordByWordGeneration&&request===modernStudyRequest&&
+      state.book===book&&state.chapter===chapter&&modernStudyVerse===verse&&state.edition===edition&&
+      document.body.classList.contains('study-open')&&studyView==='source-forms';
+    const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),18000);
+    try{
+      const url='https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/'+
+        book+'/'+String(chapter).padStart(2,'0')+'.json';
+      const response=await fetch(url,{cache:'no-store',signal:controller.signal});
+      if(!response.ok)throw Error('Interlinear chapter HTTP '+response.status);
+      const data=await response.json();
+      if(!current())return;
+      if(data.schema!=='sotw-bsb-helloao-interlinear-source/1.0.0'||
+        data.book_code!==book||Number(data.chapter)!==Number(chapter)||data.edition_id!=='BSB')
+        throw Error('Interlinear chapter identity mismatch');
+      const found=data.verses?.find(v=>v.id===book+'.'+chapter+'.'+verse&&Number(v.verse)===verse);
+      const words=Array.isArray(found?.words)?found.words:[];
+      const ordered=words.filter(w=>Number.isInteger(w.pos)&&w.pos>0&&
+        Number.isInteger(w.bsbPos)&&w.bsbPos>0&&typeof w.text==='string'&&w.text.trim())
+        .sort((a,b)=>a.bsbPos-b.bsbPos||a.pos-b.pos);
+      if(ordered.length!==words.length)throw Error('Interlinear word fields incomplete');
+      list.replaceChildren();
+      if(!ordered.length){
+        const unavailable=document.createElement('p');unavailable.className='word-sequence-note';
+        unavailable.textContent='No published BSB word alignment for this verse.';list.append(unavailable);return;
+      }
+      for(const w of ordered){
+        const strongs=/^[HG]\d{1,5}$/.test(w.strongs||'')?w.strongs:'';
+        const row={
+          bsbInterlinear:true,verse_id:book+'.'+chapter+'.'+verse,
+          strongs_ids:strongs?['strongs:'+strongs]:[],
+          source_location_kind:'source_table_original_language_row_not_english_token',
+          source_locator:{original_form:w.text,transliteration:w.transliteration||'',
+            parsing_compact:w.parsingFull||w.parsing||''}
+        };
+        const gloss=w.gloss===null?'Not separately translated':
+          String(w.gloss||'').trim()||'Not separately translated';
+        list.append(makeAtlasCard(row,gloss));
+      }
+      const source=document.createElement('p');source.className='word-sequence-note';
+      source.textContent='Source: Berean Standard Bible Interlinear via HelloAO. English phrase/order is publisher-provided; source-language position is separately retained.';
+      studyOverlayBody.append(source);
+    }catch(e){
+      if(!current())return;
+      loading.textContent='The BSB interlinear could not be loaded. The original Bible verse is unchanged.';
+    }finally{clearTimeout(timeout);}
+  }
   function renderSourceList(){
+    if(state.edition==='BSB'){renderBsbWordByWord();return;}
     openStudyLayer('source-forms','Word-by-Word');
     currentSourceWord=null;
     for(const child of Array.from(studyOverlayBody.children)){
