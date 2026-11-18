@@ -621,3 +621,34 @@
  background:#c5dbd5!important;
  border-color:#638e93!important;
 }
+
+/* v0.15.8 owner-approved small UI patch: clearer inline verse numerals.
+   Keep numbers subordinate to Scripture and preserve tap/scroll behavior. */
+.mobile-beta #verses .reader-verse .number{
+ font:700 13px/1.1 system-ui,-apple-system,"Segoe UI",sans-serif!important;
+ color:#a4bdc7!important;
+}
+.mobile-beta.beta-light #verses .reader-verse .number{
+ color:#45616b!important;
+}
+
+/* v0.15.8 repair: light-mode full-screen study headers previously ended at
+   the parent panel's 18px horizontal inset, showing mismatched side bands.
+   Bleed the headers through that exact inset while keeping their controls
+   padded and leaving the actual study body at its original readable width. */
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools{
+ margin-left:-18px!important;
+ margin-right:-18px!important;
+ padding-left:18px!important;
+ padding-right:18px!important;
+ background:#cad8d2!important;
+ border-bottom:1px solid #91aaa8!important;
+}
+.mobile-beta.beta-light #studyOverlayHeader{
+ margin-left:-18px!important;
+ margin-right:-18px!important;
+ padding-left:18px!important;
+ padding-right:18px!important;
+ background:#dce4e0!important;
+ border-bottom:1px solid #91aaa8!important;
+}
