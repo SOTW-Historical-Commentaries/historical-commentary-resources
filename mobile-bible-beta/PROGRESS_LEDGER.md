@@ -9,6 +9,22 @@
 **New code commit:** `10dd81a65063706fd5ac38c1ca04df6b83cd4f50` (fixed JavaScript syntax)  
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
+## 2026-11-17 | IPHONE FOUR-PHOTO REPRODUCTION: JACOB SQUARE OPENS EMPTY VIEW (UNFIXED)
+
+**Owner-supplied real-device evidence, exact four-image sequence:** The actual **four original iPhone screenshots were embedded, in owner order**, in the [authoritative living Google Doc](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit) under heading **"IPHONE BUG EVIDENCE - FOUR SCREENSHOTS IN OWNER ORDER - ACTS 2:1"**. Images are in the document, not invented GitHub paths or links. The sequence is:
+1. **Acts 2 reader:** rotated-square marker appears **before verse 1**.
+2. **Tap the square:** the overlay title reads **Jacob Lannom**, but its **commentary body is entirely blank**.
+3. **Tap Back:** the **Available commentary** chooser lists Matthew Henry, John Calvin, Adam Clarke, Jamieson–Fausset–Brown, and John Gill; **Jacob Lannom is missing**.
+4. **Tap Back again:** the ordinary **Acts 2 · Verse 1** study panel returns, showing doctrine tags, underlined words, Word-by-Word, and Commentary (**5 available**). The intended Jacob commentary was never displayed.
+
+**Source verified: NOT a missing Jacob contribution.** Current public `api/jacob-lannom/v1/current-commentary.json` has an accepted `ACT.2` `CHAPTER_INTRODUCTION` titled **"Acts 2: The Spirit and a Believing Community"** (1027-character commentary) and an accepted `ACT.2.37-41` `PASSAGE` titled **"Receiving the Word, Baptism, and Belonging"** (492 characters). No need to invent or reconstruct pastoral prose.
+
+**Exact code defect discovered:** In `mobile-bible-beta/index.html`, `matchingJacob(e,targetVerse=state.verse)` accepts an optional second verse parameter. However, several call sites pass it *directly* into `state.jacob.filter(matchingJacob)` / `state.jacob.some(matchingJacob)`. The JavaScript Array callback's **second argument is the array INDEX**, overriding the default `state.verse` with `0`, `1`, etc. That causes author availability and the author viewer to reject eligible Acts 2:1 chapter-introduction commentary, producing the blank panel. The separate marker uses `matchingJacob(e,Number(v.verse))`, correctly passing the verse, so the marker displays, creating the inconsistent state. The earlier v0.13.1 marker-position/tap fix alone was insufficient.
+
+**Required bounded repair when owner resumes code changes:** Make `matchingJacob(e)` a **one-argument** standard filter/some predicate using the current selected verse, and a distinct `jacobCoversVerse(entry,verse)` for explicit verse availability, or wrap all callback uses so array indexes never become verses. Keep accepted scope semantics; ensure the square opens Jacob's actual chapter introduction directly and that the normal author chooser includes Jacob for Acts 2:1. Test the four-screen path on iPhone. No Bible, Jacob JSON, SOTW research or source relationship changes.
+
+**STATUS: CONFIRMED REGRESSION / NOT FIXED.** This turn preserved the four original screenshots in the Google Doc and recorded the diagnosis. **No application code, deployment or commentary JSON was modified**, respecting the owner's ongoing inspection. Do not mark the direct Jacob link PASS until a retest shows actual commentary body and normal Back/Close behavior.
+
 ## 2026-11-17 | v0.13.1 OWNER IPHONE FEEDBACK: JACOB SQUARE TAP FIX + WEBSTER ON WORD CARDS
 
 **Owner field evidence:** Two real iPhone screenshots show (a) KJV Acts 2 paragraph reading with an on-corner square drawn on its OWN line below the preceding verse, and (b) an excellent first-look Word-by-Word KJV card sequence. The owner reports enjoying the Word-by-Word experience but states that tapping the rotated-square shortcut still opens standard verse study tools rather than Jacob Lannom commentary. In the Word-by-Word list, tapping the main source card currently returns to the regular verse tools with that word selected; this existing behavior is acceptable to the owner. Requested improvement: a separate, directly usable **Dictionary** button **inside** a supported card to reach SOTW's Webster definitions without that extra return.
