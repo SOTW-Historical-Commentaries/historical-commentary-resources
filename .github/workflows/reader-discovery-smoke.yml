@@ -6,6 +6,7 @@ on:
     paths:
       - "mobile-bible-beta/index.html"
       - "mobile-bible-beta/discovery-integrations.js"
+      - "mobile-bible-beta/study-ux-repair.js"
       - "mobile-bible-beta/discovery-integrations.css"
       - "mobile-bible-beta/sw.js"
       - "mobile-bible-beta/tests/discovery-integration.test.cjs"
@@ -62,6 +63,14 @@ jobs:
             assert.equal(bsb.schema,'sotw-bsb-helloao-interlinear-source/1.0.0');
             assert.equal(bsb.book_code,'GEN');assert.equal(bsb.chapter,1);
             assert(bsb.verses.some(v=>v.id==='GEN.1.1'&&v.words?.[0]?.strongs));
+            const sourceWords=bsb.verses.find(v=>v.id==='GEN.1.1').words;
+            assert.equal(sourceWords.length,7);
+            const aligned=[...sourceWords].sort((a,b)=>a.bsbPos-b.bsbPos);
+            assert.equal(aligned[0].gloss,'In the beginning');
+            assert.equal(aligned[0].strongs,'H7225');
+            assert.equal(aligned[1].gloss,'God');
+            assert.equal(aligned[2].gloss,null);
+            assert.equal(aligned[3].gloss,'created');
             console.log('PASS: three live GitHub source contracts and provenance rules');
           })().catch(e=>{console.error(e);process.exit(1)});
           NODE
