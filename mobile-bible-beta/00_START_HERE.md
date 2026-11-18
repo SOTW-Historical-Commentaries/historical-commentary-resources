@@ -7,6 +7,14 @@
 **Status:** Code committed to GitHub main on 2026-11-16; public Pages route is based on this same repository's already-operating unified-commentary-reader route. A direct independent browser HTTP check of this *new* URL was unavailable in the deployment session. Do not record HTTP VERIFIED until checked on a real browser.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+## CURRENT v0.15.3: LIGHTER M PLUS 1p MAIN SCRIPTURE (2026-11-17)
+
+Owner authorized a minimal font weight refinement after comparing three v0.15.2 iPhone screenshots: `M PLUS 1p` **Regular 400** for the MAIN English Scripture reader instead of medium 500. Verse Tools, Word-by-Word verse and Jacob commentary remain unchanged. Same sizes and family. CSS asset version `?v=20261117-reader153`.
+
+**Owner test**: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/?book=ACT&chapter=2&verse=1&translation=KJV1769 . Refresh on iPhone and compare with Verse Tools.
+
+**Scope/QA**: Previous recoverable main `bb1cae7cf47a79cd548685884835c5aaa7a5de17`, committed code head `8a619f6994986814a22bf1569fe5fa55565ac29a`. Only `index.html` and `study-ux-repair.css` changed in the new beta. Source checks, scoped rule/HTML asset checks PASS; remote public Pages response and iPhone font appearance not independently verified. See [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md).
+
 ## CURRENT v0.15.2 REVIEW: M PLUS 1p STANDARD + SMALLER WEBSTER CARDS (2026-11-17)
 
 Owner's 8:04 iPhone screenshot identifies the Strong's-card header **“when”** as the desired SOTW-wide standard Bible font. Verified CSS: **M PLUS 1p**, displayed at **18px / 600 weight**, NOT Palatino. Current mobile beta now applies the same family to English Bible Scripture, verse previews, and English Word-by-Word verse/word sequence at readable **500 weight**; original Greek/Hebrew and extended commentary may retain their own appropriate typography. No proprietary fonts added. The owner intends this family across SOTW Bible readers, but **only the mobile beta has actually been updated**; separate translation repositories are unchanged pending a real-device check and coordinated rollout.
