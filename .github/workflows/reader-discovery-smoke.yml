@@ -58,7 +58,7 @@ jobs:
             const plagues=people.events.find(x=>x.id==='event-theonize-ten-plagues');
             assert.deepEqual(plagues.scriptureScopes,['EXO.7','EXO.8','EXO.9','EXO.10','EXO.11','EXO.12']);
             assert.equal(reverse.schema,'sotw-topics-scripture-index/1.0.0');
-            assert(reverse.verses.some(v=>v[0]==='GEN.1.1'&&v[1].includes('NEUU:TOPIC:creation')));
+            assert(Array.isArray(reverse.verses['GEN.1.1'])&&reverse.verses['GEN.1.1'].includes('NEUU:TOPIC:creation'));
             assert.equal(bsb.schema,'sotw-bsb-helloao-interlinear-source/1.0.0');
             assert.equal(bsb.book_code,'GEN');assert.equal(bsb.chapter,1);
             assert(bsb.verses.some(v=>v.id==='GEN.1.1'&&v.words?.[0]?.strongs));
