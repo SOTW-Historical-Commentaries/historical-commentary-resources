@@ -43,6 +43,17 @@ const {chromium}=require('playwright-core');
   await group.locator('.discovery-more').click();
   assert.equal(await group.locator('.discovery-citation').count(),18,
    'Expanded source subsection must retain all 18 mapped citations');
+  // A topic's first verified source citation must retain the original
+  // reading location while browsing another Scripture passage.
+  assert.equal(await page.locator('#sotwReturnToPassage').isVisible(),false);
+  await group.locator('.discovery-citation').first().click();
+  await page.waitForURL(/book=EXO&chapter=23&verse=4&translation=BSB/);
+  const returnPill=page.locator('#sotwReturnToPassage');
+  await returnPill.waitFor({state:'visible'});
+  assert.match(await returnPill.innerText(),/Back to Genesis 1:1/);
+  await returnPill.click();
+  await page.waitForURL(/book=GEN&chapter=1&verse=1&translation=BSB/);
+  assert.equal(await returnPill.isVisible(),false,'Return hides after recovering the original verse');
   const allText=await page.locator('#sotwDiscoveryDetail').innerText();
   assert(!/Person ·|Evidence gate:|Additional references are preserved/i.test(allText));
   await page.locator('#sotwDiscoveryDetail .modal-close').click();
