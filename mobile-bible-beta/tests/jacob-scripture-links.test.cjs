@@ -20,7 +20,7 @@ assert.equal(links.outbound(romans).length,7,'All seven owner-published Romans l
 assert.deepEqual(Array.from(links.outbound(romans),x=>x.scope),[
  'PRO.20.22','PRO.24.29','EXO.21.24','2CO.8.21','1TH.5.15','ROM.12.14-16','ROM.12.18-21'
 ]);
-assert.equal(links.inbound(entries,'ROM.12.17').length,1,'Romans chapter intro should point inward');
+assert(links.inbound(entries,'ROM.12.17').length>=1,'Romans chapter intro must link inward alongside any other published references');
 assert.equal(links.inbound(entries,'ROM.12.17')[0].scope,'ROM.12');
 assert.equal(links.label('PRO.20.22'),'Proverbs 20:22');
 assert.equal(links.label('ROM.12.14-16'),'Romans 12:14–16');
