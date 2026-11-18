@@ -8,6 +8,7 @@ on:
       - "mobile-bible-beta/discovery-integrations.js"
       - "mobile-bible-beta/study-ux-repair.js"
       - "mobile-bible-beta/jacob-scripture-links.js"
+      - "mobile-bible-beta/reader-return.js"
       - "mobile-bible-beta/tests/jacob-scripture-links.test.cjs"
       - "review-jake-scripture.html"
       - "api/jacob-lannom/v1/current-commentary.json"
@@ -33,6 +34,7 @@ jobs:
           node --check mobile-bible-beta/discovery-integrations.js
           node --check mobile-bible-beta/study-ux-repair.js
           node --check mobile-bible-beta/jacob-scripture-links.js
+          node --check mobile-bible-beta/reader-return.js
           node --check mobile-bible-beta/tests/jacob-scripture-links.test.cjs
           node --check mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates

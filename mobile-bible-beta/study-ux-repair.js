@@ -20,6 +20,14 @@
   let currentSourceWord=null;
   let resumeWordByWord=false;
   let dictionaryReturnToAtlas=false;
+  // Publisher BSB IDs may include zero padding (G0591), while the SOTW
+  // Strong's lexicon is indexed by unpadded canonical IDs (strongs:G591).
+  // Preserve source display; normalize ONLY dictionary lookups.
+  function canonicalStrongsEntryKey(id){
+    const match=/^strongs:([HG])0*(\d+)$/.exec(String(id||''));
+    const number=match?Number(match[2]):0;
+    return number>0?'strongs:'+match[1]+number:null;
+  }
   function noLongerCurrent(request,generation,book,chapter,verse,edition){
     return request!==modernStudyRequest||generation!==languageGeneration||
       !document.body.classList.contains('study-open')||
@@ -159,13 +167,15 @@
     if(descriptor.secondary){
       const trans=document.createElement('span');trans.textContent=descriptor.secondary;left.append(trans);
     }
+    const original=document.createElement('span');original.className='word-atlas-original';
+    const short=document.createElement('span');short.className='word-atlas-short';
+    // Lead with attested word meaning; source morphology remains available.
+    left.append(short);
     if(descriptor.morph){
       const grammar=document.createElement('span');grammar.className='word-atlas-grammar';
       grammar.textContent=descriptor.morph;left.append(grammar);
     }
-    const original=document.createElement('span');original.className='word-atlas-original';
-    const short=document.createElement('span');short.className='word-atlas-short';
-    left.append(original,short);card.append(left);wrapper.append(card);
+    left.append(original);card.append(left);wrapper.append(card);
     if(id){
       card.setAttribute('aria-label','Study '+(displayWord||descriptor.word)+' '+id.replace('strongs:',''));
       card.addEventListener('click',()=>renderSourceDetail(row));
@@ -180,7 +190,7 @@
       const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+lang+'/'+lang+pad(first)+'-'+pad(last)+'.json';
       getJson(url).then(data=>{
         if(!card.isConnected||studyView!=='source-forms')return;
-        const entry=data.entries?.[id];
+        const entry=data.entries?.[canonicalStrongsEntryKey(id)]||data.entries?.[id];
         if(entry?.headword){
           original.textContent=[entry.headword,entry.transliteration].filter(Boolean).join(' · ');
         }
@@ -399,7 +409,7 @@
       if(request!==modernStudyRequest||generation!==languageGeneration||currentSourceWord!==row||
          !document.body.classList.contains('study-open'))return;
       loading.remove();
-      const found=data.entries?.[id];
+      const found=data.entries?.[canonicalStrongsEntryKey(id)]||data.entries?.[id];
       if(!found||!found.definitions?.concise_source_authored){
         const warning=document.createElement('p');warning.className='modern-panel-desc';
         warning.textContent='Short Strong’s source definition unavailable.';box.append(warning);

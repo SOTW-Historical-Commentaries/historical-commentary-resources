@@ -46,9 +46,16 @@ const {chromium}=require('playwright-core');
   const range=page.locator('#studyOverlay .jacob-passage-link').filter({hasText:'Romans 12:14–16'}).first();
   assert.equal(await range.getAttribute('href'),
     './?book=ROM&chapter=12&verse=14&translation=BSB');
+  const returnPill=page.locator('#sotwReturnToPassage');
+  assert.equal(await returnPill.isVisible(),false,'Direct incoming Scripture should not invent a return place');
   await mobile.first().click();
   await page.waitForURL(/book=PRO&chapter=20&verse=22&translation=BSB/);
-  await page.locator('#readerLocation').waitFor({state:'visible'});
+  await returnPill.waitFor({state:'visible'});
+  assert.match(await returnPill.innerText(),/Back to Romans 12:17/);
+  await returnPill.click();
+  await page.waitForURL(/book=ROM&chapter=12&verse=17&translation=BSB/);
+  assert.equal(await returnPill.isVisible(),false,'Return control hides on original Scripture');
+  assert.match(await page.locator('#readerEdition').innerText(),/BSB/);
   assert.deepEqual(errors,[],'No browser JS errors during Scripture-link navigation');
   console.log('PASS: seven Romans links, inbound source, reviewed-only public data, no acceptance badge, review and mobile Scripture navigation');
  }finally{await browser.close()}
