@@ -678,3 +678,40 @@
 @media(max-width:375px){
  .mobile-beta #modernReaderHeader .reader-brandmark img{max-height:55px}
 }
+
+/* v0.16.0 owner iPhone review: keep the combined CGBC+Bible mark while
+   returning space to search and theme controls. Only header presentation. */
+.mobile-beta #modernReaderHeader .brand-line{gap:8px!important;margin-bottom:6px!important}
+.mobile-beta #modernReaderHeader .reader-brandmark{max-width:238px!important}
+.mobile-beta #modernReaderHeader .reader-brandmark img{
+ max-width:238px!important;max-height:50px!important;
+}
+.mobile-beta #modernReaderHeader .header-actions{gap:5px!important;flex-shrink:0}
+.mobile-beta #modernReaderHeader .header-icon{
+ width:44px!important;height:44px!important;min-width:44px!important;min-height:44px!important;
+ padding:9px!important;flex:0 0 44px!important;box-sizing:border-box!important;
+ border:1px solid #435760!important;border-radius:11px!important;
+ background:#203039!important;color:#dcebef!important;
+ display:inline-flex!important;align-items:center!important;justify-content:center!important;
+}
+.mobile-beta #modernReaderHeader .header-icon svg{
+ width:24px!important;height:24px!important;display:block!important;flex:none!important;
+ stroke:currentColor!important;overflow:visible;
+}
+.mobile-beta.beta-light #modernReaderHeader .header-icon{
+ background:#bfd3cf!important;border-color:#8da9aa!important;color:#1c414d!important;
+}
+.mobile-beta #modernReaderHeader .header-icon:focus-visible{
+ outline:3px solid #8fc3cf!important;outline-offset:2px!important;
+}
+@media(max-width:375px){
+ .mobile-beta #modernReaderHeader .reader-brandmark img{max-height:45px!important}
+}
+/* The native iOS keyboard accessory row is not part of the web page.
+   Fix only the nearly invisible description/placeholder in the light search sheet. */
+.mobile-beta.beta-light #readerSearchModal .modern-panel-desc{
+ color:#3e5b64!important;
+}
+.mobile-beta.beta-light #modernSearchInput::placeholder{
+ color:#4e6770!important;opacity:1!important;
+}
