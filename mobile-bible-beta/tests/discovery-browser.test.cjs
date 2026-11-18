@@ -15,7 +15,7 @@ const {chromium}=require('playwright-core');
   const input=page.locator('#modernSearchInput');
   await input.fill('Aaron');
   await page.locator('.discovery-search-label').first().waitFor({state:'visible',timeout:45000});
-  assert.match(await page.locator('#modernSearchResults').innerText(),/Historical Bible Topics/);
+  assert.match(await page.locator('#modernSearchResults').innerText(),/Historical Bible Topics/i);
   await page.locator('.discovery-hit').first().click();
   await page.locator('#sotwDiscoveryDetail.is-open').waitFor({state:'visible'});
   assert.match(await page.locator('#sotwDiscoveryDetail .discovery-heading').first().innerText(),/Historical Bible Topic/);
