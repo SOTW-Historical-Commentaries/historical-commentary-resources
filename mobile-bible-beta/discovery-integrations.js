@@ -62,9 +62,14 @@ if(typeof state==='undefined'||typeof searchInput==='undefined'||typeof betaOpen
 let topicIndex=null,acceptedData=null;
 const cache=new Map();
 function sourceJson(url){
- if(!cache.has(url))cache.set(url,fetch(url,{cache:'no-store'}).then(r=>{
-  if(!r.ok)throw Error('HTTP '+r.status+' for '+url);return r.json();
- }).catch(e=>{cache.delete(url);throw e}));
+ if(!cache.has(url)){
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),18000);
+  const pending=fetch(url,{cache:'no-store',signal:controller.signal}).then(r=>{
+   if(!r.ok)throw Error('HTTP '+r.status+' for '+url);return r.json();
+  }).catch(e=>{cache.delete(url);throw e}).finally(()=>clearTimeout(timeout));
+  cache.set(url,pending);
+ }
  return cache.get(url);
 }
 async function topicsIndex(){
@@ -273,7 +278,7 @@ async function showVerseDiscovery(){
    for(const x of chapters)button(verseBody,x.name,()=>showEntity(x,data),'discovery-ref');
    total+=chapters.length;}
  }
- if(!total)paragraph(verseBody,'No published verse-specific discovery links here. This does not imply no historical source exists.');
+ if(!total)paragraph(verseBody,'No validated discovery links available for this verse; a source may be unavailable. This does not mean no historical material exists.');
  link(verseBody,'Topic sources',SOURCES.topics);paragraph(verseBody,' · ','discovery-inline');
  link(verseBody,'Accepted source',SOURCES.people);
 }
