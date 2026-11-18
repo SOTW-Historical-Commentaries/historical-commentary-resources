@@ -4,9 +4,18 @@
 **Living handoff master:** [SOTW BIBLE READER — GOALS, DECISIONS & PROGRESS](https://docs.google.com/document/d/1ziYT4U6SN3nTQXUX5y6YXzrzfLGqQIi7vBeTPJ4GWyE/edit)  
 **This repository's current reader:** [mobile-bible-beta/index.html](./index.html)  
 **Beta address to test:** https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/  
-**Status:** Active reader **v0.17.0, three-source discovery integration** (2026-11-18), code snapshot `2516542732de98158ada78877364a364cbc7e835` before these documentation commits. Source-contract and Chromium mobile-viewport QA PASS. Existing v0.16.3 navigation, commentary and source baselines preserved; real-iPhone acceptance and whole-Bible text Search v1 remain pending.  
+**Status:** Active reader **v0.17.1 BSB Word-by-Word interlinear correction** (2026-11-18); source contract and Chromium/mobile tests PASS for Genesis 1:1 and Matthew 5:18. Prior v0.17.0 three-collection discovery and v0.16.3 navigation baselines preserved; iPhone acceptance and whole-Bible text Search v1 remain pending.  
 **Read next:** [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md)
 
+
+
+## 2026-11-18 | BSB WORD-BY-WORD PUBLISHER ALIGNMENT CORRECTED | v0.17.1
+
+**Current correction:** Owner's iPhone screenshots exposed empty BSB Word-by-Word English rows. HelloAO's official interlinear contract confirms `bsbPos` is the BSB English-order **rank**, `gloss` is the publisher-supplied corresponding English **phrase**, and `pos` is the original-text order. Earlier wording "not an English word alignment" was wrong; the precise constraint is that `bsbPos` is **not an English token number/character offset**. The new BSB Word-by-Word path renders publisher glosses in English order in the same row-card layout as other editions, showing original word, transliteration, morphology and SOTW Strong's entry. All 66 books are source-backed on demand. Untranslated markers remain visible; never invent English words or offsets. Separate original-order view remains accessible.
+
+**Verified:** Live source/JS QA PASS [44389348264](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44389348264). Chromium 390×844 BSB Genesis 1:1 PASS [44389344139](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44389344139), seven correctly ordered word cards. Owner's Matthew 5:18 screenshot regression PASS [44389584586](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44389584586), 27 publisher-aligned original words, starting "For / I tell / you / truly". Codebase changes: `study-ux-repair.js`, `discovery-integrations.js`, `index.html`; PWA shell `v0173`. The latest Pages deploy can be checked in Actions after documentation commits.
+
+**Next screenshot-driven refinements:** Make source relationship enum labels human-readable without editing original data, deal transparently with malformed historical topic headings, reduce dense reference-chip presentation, and improve search/modal keyboard behavior on small iPhones. These are logged, **not already repaired**. Keep current navigation, four Bible texts, historical writers/Jacob, BSB source, and locked CGBC master unchanged. Whole-Bible forgiving Search v1 and actual iPhone acceptance still pending. Detailed evidence and scope: [PROGRESS_LEDGER.md](./PROGRESS_LEDGER.md).
 
 
 ## 2026-11-18 | THREE DATASETS UI INTEGRATED | v0.17.0
