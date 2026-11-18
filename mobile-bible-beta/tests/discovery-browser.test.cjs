@@ -68,6 +68,25 @@ const {chromium}=require('playwright-core');
   await page.locator('.discovery-verse-body:not([hidden])').waitFor({state:'visible',timeout:45000});
   await page.locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
   assert.match(await page.locator('.discovery-verse-body').innerText(),/Historical topic links/);
+  // Owner's iPhone example: Matthew 5:18 has 27 publisher interlinear
+  // entries; the BSB English-order starts For / I tell / you / truly, NOT
+  // the original Greek sequence truly / For / I tell / you.
+  await page.goto('http://127.0.0.1:8765/mobile-bible-beta/?book=MAT&chapter=5&verse=18&translation=BSB',
+    {waitUntil:'domcontentloaded'});
+  await page.locator('#verses [data-verse="18"]').waitFor({state:'visible',timeout:45000});
+  await page.waitForTimeout(350);
+  await page.locator('#verses [data-verse="18"]').click();
+  await page.locator('#originalLanguageEntry').waitFor({state:'visible'});
+  await page.locator('#originalLanguageEntry').click();
+  await page.locator('#studyOverlay.is-open .word-sequence-card').first().waitFor({state:'visible',timeout:45000});
+  const greek=page.locator('#studyOverlay .word-sequence-card');
+  assert.equal(await greek.count(),27);
+  assert.match(await greek.nth(0).innerText(),/For/);
+  assert.match(await greek.nth(0).innerText(),/G1063/);
+  assert.match(await greek.nth(1).innerText(),/I tell/);
+  assert.match(await greek.nth(2).innerText(),/you/);
+  assert.match(await greek.nth(3).innerText(),/truly/);
+  assert.equal(await page.locator('#studyOverlay .word-sequence-plain').count(),0);
   assert.deepEqual(pageErrors,[],'Uncaught reader JavaScript errors');
   console.log('PASS: mobile viewport, historical topics, accepted people, BSB seven aligned word cards, English gloss order, passage backlinks');
  }finally{await browser.close()}
