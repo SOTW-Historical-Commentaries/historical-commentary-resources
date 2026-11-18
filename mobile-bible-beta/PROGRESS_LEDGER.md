@@ -10,6 +10,17 @@
 **PWA last asset commit:** `81fe42971ebdf3d304eed42989cf423212a2fd86`
 
 
+
+## 2026-11-17 | v0.15.6 OWNER FONT FOLLOW-UP: LIGHT +20 OPTICAL INK AND LITERATA COMMENTARY
+
+**Owner screenshot:** One new iPhone screenshot of the Matthew Henry commentary at Acts 2:37–41 (9:42 PM, America/Chicago). The v0.15.5 normalized heading `Acts 2:37–41` is visibly working in the owner's environment. Owner requested the main Bible font another ~20 weight points stronger (in context this is weight/ink, not +20pt size) and invited selection of a complementary font for commentary entries.
+
+**Implementation, strictly limited:** Main English Scripture remains M PLUS 1p genuine Light 300 with an optical WebKit ink-stroke increase from `0.14px` to `0.23px` (an extra 0.09px). This is an approximate visual increment, **not an actual M PLUS variable 320/350 font instance**; unchanged font-size, line-height and tracking. For long historical AND Jacob commentary paragraphs and preview/full text, use Google Fonts **Literata 400**, selected for digital long-form reading. Fallback `Georgia,serif` if the font cannot load. Existing Sans commentary headers, panels, language word-study, Verse Tools and Word-by-Word styles remain intact. External font stylesheet requests Literata 400 plus the previous M PLUS 1p weights. CSS cache key `?v=20261117-reader156`.
+
+**Git changes/rollback:** Before-change recoverable main `280e2cfb1a883614e4b27ee5dc495226025578c0`. CSS commit `f949f5bdfc0e9b688f036e0804e1db7a022f8edb` and blob `93350bd0e9c874f4aa3c21f026522b03f95841b9`; HTML commit `04243d061b0ea6effbb803fb7147bbbcc746f4b4`, blob `3f7aa090193972d8c27bc9f95c57c37cb96fc1c9`. Only `mobile-bible-beta/study-ux-repair.css` and `mobile-bible-beta/index.html` changed; `study-ux-repair.js` untouched at blob `05d2b130be08473ac63fe9fbd9555cdcd5904840`.
+
+**QA:** GitHub SHA readbacks, two inline JS syntax checks, CSS balanced braces, version key, previous reference formatter and old stable study JS PASS. The screenshot is owner-confirmed evidence of the OLD v0.15.5 commentary heading only. The new v0.15.6 font appearance and hosted Google Font loading on iPhone, scrolling and screenshot comparisons remain **PENDING**, not field-validated. Beta: https://sotw-historical-commentaries.github.io/historical-commentary-resources/mobile-bible-beta/?book=ACT&chapter=2&verse=37&translation=KJV1769 . No BSB pilot integration or accepted Bible/author/source changes.
+
 ## 2026-11-17 | v0.15.5 OWNER IPHONE: READABLE HISTORICAL SCRIPTURE HEADING + SUBTLE SCRIPTURE INK
 
 **Owner evidence:** Two current iPhone screenshots at 9:31 and 9:32 PM (America/Chicago) show a Matthew Henry commentary card headed with machine codes `ACT.2.1 – ACT.2.4` and main Acts 2 Bible reading in M PLUS 1p Light 300. Owner requested the commentary code be rendered as a normal Scripture reference and the reading font made only slightly heavier, described as about 30 weight points. Treat the screenshots as owner-device evidence of the *previous* build, not verification of this new styling.
