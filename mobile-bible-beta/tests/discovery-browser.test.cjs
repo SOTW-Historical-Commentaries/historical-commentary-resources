@@ -33,7 +33,9 @@ const {chromium}=require('playwright-core');
   await page.locator('.discovery-hit').filter({hasText:'Cain · person'}).first().waitFor({state:'visible',timeout:45000});
   await page.locator('.discovery-hit').filter({hasText:'Cain · person'}).first().click();
   await page.locator('#sotwDiscoveryDetail.is-open').waitFor({state:'visible'});
-  assert.match(await page.locator('#sotwDiscoveryDetail').innerText(),/Accepted\/source-qualified CGBC research/);
+  assert.match(await page.locator('#sotwDiscoveryDetail').innerText(),/Scripture and historical-source connections/);
+  assert(!/Evidence gate:|PREVIOUSLY_APPROVED_SOURCE_REPORTED/.test(await page.locator('#sotwDiscoveryDetail').innerText()),
+    'Public person details must not expose internal acceptance flags');
   await page.locator('#sotwDiscoveryDetail .modal-close').click();
   await page.locator('#modernSearchButton').click();
   await input.fill('Genesis 1:1');
