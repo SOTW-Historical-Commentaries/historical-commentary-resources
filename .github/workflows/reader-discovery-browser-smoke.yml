@@ -9,6 +9,11 @@ on:
       - "mobile-bible-beta/study-ux-repair.js"
       - "mobile-bible-beta/discovery-integrations.js"
       - "mobile-bible-beta/index.html"
+      - "mobile-bible-beta/icons/**"
+      - "mobile-bible-beta/manifest.webmanifest"
+      - "mobile-bible-beta/sw.js"
+      - "mobile-bible-sotw/**"
+      - "mobile-bible-beta/tests/pwa-brands-browser.test.cjs"
       - "mobile-bible-beta/jacob-scripture-links.js"
       - "mobile-bible-beta/reader-return.js"
       - "mobile-bible-beta/reader-trail.js"
@@ -57,6 +62,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Verify CGBC and SOTW installation branding at iPhone viewport
+        run: node mobile-bible-beta/tests/pwa-brands-browser.test.cjs
       - name: Return from Scripture to last topic or search results without retyping
         run: node mobile-bible-beta/tests/reader-trail-browser.test.cjs
       - name: Show only validated doctrine and aliases on the matching Jacob commentary entry

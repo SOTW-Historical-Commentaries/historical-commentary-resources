@@ -1,0 +1,1544 @@
+<!doctype html>
+<html lang="en">
+<head>
+<base href="../mobile-bible-beta/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Study Bible | Servants of the Way</title>
+<meta name="theme-color" content="#11181d"><link rel="manifest" href="../mobile-bible-sotw/manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="../mobile-bible-sotw/icons/sotw/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="../mobile-bible-sotw/icons/sotw/icon-192.png"><meta name="apple-mobile-web-app-title" content="Study Bible"><meta name="apple-mobile-web-app-capable" content="yes">
+<style>
+:root{--ink:#1e3635;--deep:#173e39;--cream:#fafaf7;--sage:#e9f1eb;--gold:#c3a36d;--border:#d7e2dc;--muted:#567069;--accent:#246859;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--cream)}
+*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}a{color:var(--accent)}a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #dfa94f;outline-offset:3px}header{background:var(--deep);color:#fff;border-bottom:5px solid var(--gold)}.head-inner{max-width:1390px;margin:auto;padding:22px 25px 25px;display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}.brand{color:#c0dad2;text-transform:uppercase;letter-spacing:.15em;font-size:11px;font-weight:700}.head-inner h1{font:normal clamp(27px,3vw,39px)/1.13 Georgia,serif;margin:7px 0 6px}.head-inner p{margin:0;font-size:14px;color:#d7e7e0}.head-links{display:flex;gap:9px;flex-wrap:wrap}.head-links a{border:1px solid #8fb1a7;color:#effff6;text-decoration:none;padding:9px 12px;border-radius:7px;font-size:12px}.head-links a:hover{background:#2e5d54}main{max-width:1390px;margin:auto;padding:23px 25px 70px}.toolbar{display:grid;grid-template-columns:minmax(155px,1.15fr) minmax(100px,.6fr) minmax(100px,.6fr) minmax(165px,1fr) auto;gap:12px;align-items:end;background:#fff;border:1px solid var(--border);border-radius:12px;padding:17px;box-shadow:0 2px 12px #16392c0a}.control label{display:block;margin-bottom:7px;color:#41625a;font-size:11px;font-weight:750;letter-spacing:.06em;text-transform:uppercase}.control select{width:100%;border:1px solid #b7c9bf;border-radius:7px;height:42px;padding:0 10px;background:#fff;color:var(--ink)}.action{min-height:42px;padding:0 14px;border:1px solid #9dbbb0;border-radius:7px;background:white;color:var(--deep);cursor:pointer;font-weight:650}.action.primary{color:#fff;background:var(--deep);border-color:var(--deep)}.action:hover{filter:brightness(.96)}.utility{display:flex;flex-wrap:wrap;align-items:center;gap:13px;margin:14px 0 17px}.utility small{color:var(--muted)}.utility label{font-size:12px;color:var(--ink);display:flex;gap:7px;align-items:center}.utility select{font-size:12px;padding:7px;max-width:290px;background:#fff;border:1px solid var(--border);border-radius:6px}.utility .spacer{flex:1}.status{border:1px solid var(--border);background:#eef5ef;border-radius:9px;padding:10px 13px;margin:15px 0;color:#385a4c;font-size:13px}.status.error{background:#fff1ed;border-color:#dca597;color:#913b2c}.layout{display:grid;grid-template-columns:minmax(300px,.88fr) minmax(0,1.52fr);gap:18px;align-items:start}.panel{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;min-width:0}.panel-head{padding:18px 19px 13px;border-bottom:1px solid #e2e9e4;display:flex;align-items:start;justify-content:space-between;gap:14px}.panel-head h2{margin:0 0 4px;font:normal 25px/1.22 Georgia,serif;color:#24463c}.panel-head p{margin:0;color:var(--muted);font-size:12px}.panel-body{padding:18px 19px}.scripture{position:sticky;top:12px}.focus{padding:17px;background:#f1f6f2;border:1px solid #d6e4d9;border-radius:9px;margin-bottom:16px}.focus strong{font-size:13px;color:#397363}.focus p{font:18px/1.75 Georgia,serif;margin:8px 0 0;white-space:pre-wrap}.all-verses{max-height:54vh;overflow-y:auto;padding-right:5px}.verse{display:block;width:100%;border:0;border-left:3px solid transparent;text-align:left;background:none;border-radius:0;padding:10px 10px 10px 12px;color:var(--ink);font:16px/1.65 Georgia,serif;cursor:pointer;white-space:pre-wrap}.verse .number{display:inline-block;min-width:27px;color:#6e857d;font:700 12px system-ui;vertical-align:top;margin-top:6px}.verse.selected{background:#f0f5ed;border-left-color:var(--gold)}.verse:hover{background:#f7f8f5}.tools{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:13px}.tools h2{margin:0;font:normal 25px Georgia,serif;color:#24463c}.tools select{border:1px solid var(--border);border-radius:7px;padding:8px;background:white;max-width:100%;font-size:13px}.scopehint{font-size:12px;color:var(--muted);margin:2px 0 13px}.voice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.voice{background:white;border:1px solid var(--border);border-radius:12px;overflow:hidden;min-width:0}.voice.jacob{grid-column:1/-1;border-color:#a4cabc;background:#fcfefd}.voice-title{padding:15px 17px;border-bottom:1px solid #e7eee8;display:flex;justify-content:space-between;align-items:start;gap:10px}.voice-title strong{font:normal 21px Georgia,serif}.source-chip{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#537469;background:#edf4ef;border-radius:5px;padding:5px 7px;font-weight:700;white-space:nowrap}.voice-body{padding:15px 17px}.voice-body .title{font-size:15px;font-weight:700;margin:0 0 8px}.voice-body .copy{font:16px/1.7 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}.voice-body .preview{font:16px/1.65 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere}.meta{font:12px/1.55 system-ui;color:var(--muted);margin:12px 0 0}.empty{font-size:13px;line-height:1.6;color:#617870;margin:0}.voice details{margin-top:13px}.voice details summary{cursor:pointer;color:var(--accent);font-weight:650;font-size:13px;margin-bottom:10px}.voice .source-link{font-size:12px;display:inline-block;margin-top:12px}.p-section{padding:11px 0;border-top:1px solid var(--border)}.p-section h4{font:700 13px system-ui;margin:0 0 4px}.p-section button{margin-top:7px;border:0;background:transparent;color:var(--accent);padding:0;font-size:12px;text-decoration:underline;cursor:pointer}.p-body{white-space:pre-wrap;font:15px/1.65 Georgia,serif;margin-top:9px}.foot{margin:23px 0 0;border-top:1px solid var(--border);padding:17px 2px;color:var(--muted);font-size:12px;line-height:1.65}.load-dot{display:inline-block;margin-left:5px;opacity:.6}.sr-only{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}@media(max-width:950px){.toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar .action{grid-column:1/-1}.layout{grid-template-columns:1fr}.scripture{position:static}.all-verses{max-height:340px}}@media(max-width:650px){.head-inner,main{padding-left:14px;padding-right:14px}.voice-grid{grid-template-columns:1fr}.voice.jacob{grid-column:auto}.toolbar{grid-template-columns:1fr 1fr}.control:first-child,.control:nth-child(4){grid-column:1/-1}.voice-title strong{font-size:19px}.panel-body{padding:14px}.head-links a{padding:8px}.utility label[for="jacobJump"]{width:100%;display:grid;gap:6px}.utility label[for="jacobJump"] select{max-width:none;width:100%}}
+.mobile-beta .reader-brandmark{display:inline-flex;align-items:center;gap:10px;min-width:0}
+.mobile-beta .reader-brandmark img{width:48px;height:48px;max-height:48px;border-radius:11px;object-fit:cover;flex:none}
+.mobile-beta .reader-brandmark .sotw-brand-wordmark{font:700 clamp(14px,3.7vw,24px)/1.2 system-ui;color:#e3edf0;letter-spacing:.015em}
+.mobile-beta.beta-light .reader-brandmark .sotw-brand-wordmark{color:#27454c}
+</style>
+
+<style id="mobileBetaStyles">
+:root{color-scheme:dark;--ink:#d4dce0;--deep:#111a20;--cream:#10171c;--sage:#1d2a31;--gold:#92b5bd;--border:#33414a;--muted:#a0b0b9;--accent:#98c9d7}
+body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-system,sans-serif}
+.mobile-beta header{background:#111a20;border-bottom:1px solid #293a43}
+.mobile-beta .head-inner{padding:13px 18px}
+.mobile-beta .head-inner h1{font:650 21px system-ui;margin:5px 0}
+.mobile-beta .head-inner p{font-size:12px;color:#acbec5}
+.mobile-beta .head-links,.mobile-beta .utility label[for="jacobJump"],.mobile-beta #includeP,.mobile-beta .scopehint,.mobile-beta .foot,.mobile-beta #scripture-credit,.mobile-beta .focus,.mobile-beta .tools select,.mobile-beta .toolbar #copyLink{display:none!important}
+.mobile-beta main{max-width:1100px;padding:12px 14px 96px}
+.mobile-beta .toolbar{display:grid;grid-template-columns:1.6fr .65fr .65fr 1.1fr;gap:6px;padding:9px;background:#182228;border:1px solid #33414a;border-radius:12px;box-shadow:none}
+.mobile-beta .control label{font-size:9px;letter-spacing:.03em;color:#a0b0b9;margin-bottom:4px}
+.mobile-beta .control select,.mobile-beta .utility select,.mobile-beta input,.mobile-beta select{background:#223039;color:#ecf2f4;border:1px solid #45555e;border-radius:8px;padding:7px;font-size:13px;max-width:100%}
+.mobile-beta .control select{height:37px;padding:4px 5px}
+.mobile-beta .utility{margin:8px 0;gap:8px}
+.mobile-beta .utility button{font-size:12px;padding:5px 9px;background:#202e35;color:#cadbe2;border:1px solid #3a4e59}
+.mobile-beta .status{margin:5px 0 9px;padding:5px 8px;background:transparent;border:0;color:#a3b4bd;font-size:11px}
+.mobile-beta .layout{display:block}
+.mobile-beta .panel,.mobile-beta .voice{background:#182229;color:#d4dce0;border:1px solid #34424b}
+.mobile-beta .scripture{position:static}
+.mobile-beta .panel-head{padding:13px 13px 9px;border-bottom:1px solid #2b3a44}
+.mobile-beta .panel-head h2{font:600 22px system-ui;color:#e5ecef}
+.mobile-beta .panel-head p{color:#afbec5}
+.mobile-beta .panel-body{padding:14px}
+.mobile-beta .panel-body h3{display:none}
+.mobile-beta .all-verses{max-height:none;height:calc(100svh - 300px);min-height:300px;overflow:auto;scroll-behavior:auto;overscroll-behavior:contain}
+.mobile-beta .verse{padding:10px 11px;line-height:1.85;font:var(--beta-font,19px)/1.78 Georgia,serif;color:#d2d9de;border-left:2px solid transparent;border-bottom:1px solid #25313a}
+.mobile-beta .verse .number{color:#8eacb9}
+.mobile-beta .verse.selected{background:#263842;color:#f0f6f7;border-left-color:#80b7ca}
+.mobile-beta .verse:hover{background:#25343d}
+.mobile-beta.as-paragraphs .verse{display:inline;width:auto;border:0;padding:2px 3px;background:transparent;text-align:left;line-height:1.85}
+.mobile-beta.as-paragraphs .verse.selected{background:#35505a;border-radius:3px}
+.mobile-beta.as-paragraphs .verse.para-start:before{content:"";display:block;height:10px}
+.mobile-beta .voice.jacob{background:#1b2f32;border-color:#446962}
+.mobile-beta .voice-title{border-bottom:1px solid #34454f}
+.mobile-beta .voice-title strong,.mobile-beta .tools h2{color:#e2ecf0;font:600 19px system-ui}
+.mobile-beta .voice-body{color:#d4dce0}
+.mobile-beta .source-chip{color:#bad6ce;background:#29423d}
+.mobile-beta .voice-body .meta,.mobile-beta .empty{color:#acb6bc}
+.mobile-beta .voice-body .copy,.mobile-beta .voice-body .preview{font-family:Georgia,serif;color:#d8e0e4;white-space:pre-wrap;line-height:1.8}
+.mobile-beta section[aria-label="Commentary comparison"]{display:none}
+.mobile-beta.study-open section[aria-label="Commentary comparison"]{display:block;position:fixed;z-index:101;left:0;right:0;bottom:0;background:#131d23;border:1px solid #42535c;border-radius:18px 18px 0 0;padding:16px;max-height:81svh;overflow-y:auto;box-shadow:0 -12px 50px #0009}
+.mobile-beta .voice-grid{grid-template-columns:1fr}
+.mobile-beta .voice{grid-column:auto}
+.mobile-beta #studyShade{display:none}
+.mobile-beta.study-open #studyShade{display:block;position:fixed;inset:0;background:#0009;z-index:100}
+.mobile-beta #studyClose{background:transparent;border:1px solid #435861;border-radius:30px;color:#d8e6ec;padding:6px 12px;cursor:pointer}
+.mobile-beta #studyHeading{font-size:13px;color:#a9c9d4;margin:0 0 12px}
+.mobile-beta #betaBar{position:fixed;z-index:65;bottom:0;left:0;right:0;display:flex;align-items:center;justify-content:space-around;gap:5px;padding:9px 10px max(12px,env(safe-area-inset-bottom));background:#151f25;border-top:1px solid #35464f}
+.mobile-beta #betaBar button{background:#21323a;border:1px solid #415863;border-radius:8px;color:#d9e3e7;padding:8px 10px;font-size:12px;cursor:pointer}
+
+
+.mobile-beta #studyWords{padding:7px 0}
+.mobile-beta #studyWords:empty{display:none}
+.mobile-beta #studyWords button{background:#21323a;color:#cde4eb;border:1px solid #455c66;border-radius:8px;padding:7px 10px;margin:4px 4px 4px 0;cursor:pointer}
+.mobile-beta #studyWordDetail{background:#223139;border-radius:8px;padding:12px;line-height:1.55;color:#d2dce0}
+.mobile-beta #studyWordDetail:empty{display:none}
+.mobile-beta.beta-light{background:#f8f8f5;color:#27343b}
+.mobile-beta.beta-light header,.mobile-beta.beta-light #betaBar{background:#e9eee9}
+.mobile-beta.beta-light .panel,.mobile-beta.beta-light .toolbar,.mobile-beta.beta-light .voice{background:white;color:#24363b;border-color:#d2dddb}
+.mobile-beta.beta-light .panel-head h2,.mobile-beta.beta-light .verse,.mobile-beta.beta-light .voice-body .copy,.mobile-beta.beta-light .voice-body .preview{color:#29383e}
+.mobile-beta.beta-light .control select,.mobile-beta.beta-light select{background:#f1f5f3;color:#26363e}
+.mobile-beta.beta-light .verse.selected{background:#e5efeb}
+.mobile-beta.beta-light .verse:hover{background:#f1f7f3}
+.mobile-beta.beta-light #betaBar button{background:#e0ebea;color:#253a40}
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f7f9f7;color:#24373a}
+.mobile-beta.beta-light #studyClose{color:#304448}
+@media(min-width:900px){.mobile-beta.study-open section[aria-label="Commentary comparison"]{left:auto;top:0;right:0;width:min(530px,48vw);max-height:100svh;border-radius:16px 0 0 16px}.mobile-beta main{padding-bottom:90px}}
+@media(max-width:650px){.mobile-beta .head-inner{padding:10px 14px}.mobile-beta .toolbar{grid-template-columns:1.5fr .55fr .55fr 1.1fr}.mobile-beta .control:first-child,.mobile-beta .control:nth-child(4){grid-column:auto}.mobile-beta .panel-body{padding:9px}.mobile-beta main{padding:7px 8px 95px}.mobile-beta .all-verses{height:calc(100svh - 255px)}.mobile-beta .utility{margin:4px 0}.mobile-beta #betaBar{flex-wrap:wrap}}
+
+/* iPhone field-test refinements: one-row controls, anchored Close button,
+   contrast-safe light study surfaces, no legacy P-section control. */
+.mobile-beta .utility label:has(#includeP){display:none!important}
+.mobile-beta section[aria-label="Commentary comparison"] .tools{
+ position:sticky;top:-16px;z-index:8;display:flex;justify-content:flex-end;
+ padding:11px 15px;margin:-16px -16px 9px;background:#17232a;
+ border-bottom:1px solid #354b55;min-height:52px
+}
+.mobile-beta section[aria-label="Commentary comparison"] .tools h2{display:none!important}
+.mobile-beta #studyClose{display:inline-flex!important;justify-content:center;align-items:center;
+ min-height:36px;min-width:98px;border:1px solid #79939d;background:#263840;color:#edf7f8;
+ border-radius:10px;font-size:13px;font-weight:650;touch-action:manipulation}
+.mobile-beta #studyHeading{color:#b1d3df;font-size:13px;font-weight:600;margin:8px 0 12px}
+.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;
+ padding:8px 8px max(10px,env(safe-area-inset-bottom));}
+.mobile-beta #betaBar button{width:100%;min-width:0;padding:9px 3px;font-size:10px;white-space:nowrap}
+
+
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f7f9f6;color:#25383e}
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools{
+ background:#eef3ef;border-bottom-color:#ccd7d4}
+.mobile-beta.beta-light #studyClose{background:#e1ebeb;border:1px solid #65818b;color:#1f3b44}
+.mobile-beta.beta-light #studyHeading{color:#315664}
+.mobile-beta.beta-light #studyWords>p{color:#395764!important}
+.mobile-beta.beta-light #studyWords button{background:#e7f1f2;color:#193f4b;border-color:#a9c0c5}
+.mobile-beta.beta-light #studyWordDetail{background:#e9f1f1;color:#233c45}
+.mobile-beta.beta-light .voice,.mobile-beta.beta-light .voice.jacob{
+ background:#fff;color:#23373e;border-color:#c4d0d1}
+.mobile-beta.beta-light .voice-title{border-bottom-color:#cbd6d6;background:#f4f7f5}
+.mobile-beta.beta-light .voice-title strong,.mobile-beta.beta-light .tools h2{
+ color:#263b44!important}
+.mobile-beta.beta-light .source-chip{background:#e2eeea;color:#2e5649}
+.mobile-beta.beta-light .voice-body{color:#293a40}
+.mobile-beta.beta-light .voice-body .title,.mobile-beta.beta-light .voice-body .meta,
+.mobile-beta.beta-light .empty{color:#52636b}
+.mobile-beta.beta-light .voice-body .copy,.mobile-beta.beta-light .voice-body .preview,
+.mobile-beta.beta-light .p-body{color:#29383e}
+.mobile-beta.beta-light .voice details summary,.mobile-beta.beta-light .voice .source-link{color:#205a69}
+.mobile-beta.beta-light .status{color:#53656c}
+.mobile-beta.beta-light .panel-head p{color:#566a73}
+.mobile-beta.beta-light .verse .number{color:#586f79}
+.mobile-beta.beta-light header{color:#273a43}
+.mobile-beta.beta-light .head-inner .brand{color:#43636c}
+.mobile-beta.beta-light .head-inner h1{color:#24383f}
+.mobile-beta.beta-light .head-inner p{color:#4c626c}
+
+.mobile-beta.beta-light .utility button{background:#e3ecea;color:#27404a;border-color:#b7c9ca}
+
+@media(max-width:650px){.mobile-beta #betaBar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex-wrap:nowrap}
+}
+
+/* SOTW Reader Beta v0.2 — coherent mobile-first reading interface */
+.mobile-beta #betaBar,.mobile-beta > header:not(#modernReaderHeader),.mobile-beta .utility,
+.mobile-beta .toolbar,.mobile-beta .panel-head,.mobile-beta .panel-body h3,
+.mobile-beta .focus,.mobile-beta .foot,.mobile-beta .scopehint{display:none!important}
+.mobile-beta #status{display:none}
+.mobile-beta #status.error{display:block;margin:6px 12px;padding:9px 12px;border:1px solid #99574b;color:#ffccc5;background:#382a28}
+.mobile-beta main{max-width:900px;margin:auto;padding:0 0 max(8px,env(safe-area-inset-bottom))}
+.mobile-beta .layout,.mobile-beta .panel,.mobile-beta .scripture{display:block;background:transparent;border:0;box-shadow:none;border-radius:0}
+.mobile-beta .panel-body{padding:0 18px!important}
+.mobile-beta .all-verses{height:calc(100svh - 112px)!important;min-height:280px;max-height:none!important;overflow:auto;padding:17px 0 140px;scrollbar-width:thin;overscroll-behavior-y:contain}
+.mobile-beta #verses .reader-paragraph{margin:0 0 20px;font:normal clamp(18px,4.65vw,21px)/1.85 Georgia,'Times New Roman',serif;letter-spacing:.005em;color:#e0e4e7}
+.mobile-beta #verses .reader-verse{display:inline!important;width:auto!important;font:inherit!important;text-align:left!important;white-space:normal!important;border:0!important;border-radius:3px!important;background:transparent!important;color:inherit!important;padding:2px 1px!important;margin:0!important;line-height:inherit!important;cursor:pointer;box-shadow:none!important;touch-action:pan-y}
+.mobile-beta #verses .reader-verse:hover{background:transparent!important}
+.mobile-beta #verses .reader-verse:focus-visible{outline:2px solid #97c3d0;outline-offset:2px}
+.mobile-beta #verses .reader-verse.is-studying{background:#263f49!important}
+.mobile-beta #verses .reader-verse .number{display:inline!important;min-width:0!important;vertical-align:baseline!important;font:700 11px/1 system-ui!important;margin:0 5px 0 1px!important;color:#90aab4!important}
+.mobile-beta #modernReaderHeader{position:sticky;top:0;z-index:60;display:block;max-width:none;background:#11191e;border-bottom:1px solid #2d3d46;color:#ecf2f3;padding:10px 17px 12px}
+.mobile-beta #modernReaderHeader .modern-inner{max-width:900px;margin:auto}
+.mobile-beta .brand-line{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.mobile-beta .reader-brand{font:700 10px/1.2 system-ui;letter-spacing:.20em;text-transform:uppercase;color:#93adb7}
+.mobile-beta .header-actions{display:flex;gap:5px}
+.mobile-beta .header-icon{width:36px;height:34px;display:flex;align-items:center;justify-content:center;background:transparent;color:#cddde2;border:0;border-radius:9px;cursor:pointer;font-size:20px}
+.mobile-beta .header-icon:focus-visible{outline:2px solid #a0c7d4}
+.mobile-beta .location-line{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.mobile-beta #readerLocation{background:none;border:0;color:#eef2f3;font:600 clamp(23px,5.8vw,30px)/1.22 Georgia,serif;padding:4px 0;text-align:left;cursor:pointer}
+.mobile-beta #readerLocation small{color:#879ea6;font:400 16px system-ui;margin-left:5px}
+.mobile-beta #readerEdition{color:#d9e5e7;border:1px solid #46575d;background:#263138;border-radius:9px;font:600 12px system-ui;padding:9px 11px;flex-shrink:0;cursor:pointer}
+.mobile-beta .modal-scrim{position:fixed;inset:0;z-index:150;display:none;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.69)}
+.mobile-beta .modal-scrim.is-open{display:flex}
+.mobile-beta .modal-content{width:100%;max-width:620px;max-height:86svh;overflow:auto;background:#172229;border-radius:19px 19px 0 0;padding:18px 18px max(24px,env(safe-area-inset-bottom));box-shadow:0 -14px 55px #0008;color:#e5eff1}
+.mobile-beta .modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px}
+.mobile-beta .modal-head strong{font:650 19px system-ui}
+.mobile-beta .modal-close{background:#2d3c43;color:#e1edf0;border:1px solid #50626c;border-radius:10px;padding:8px 12px;font:600 13px system-ui}
+.mobile-beta .modern-panel-desc{font:13px/1.55 system-ui;color:#adbec5;margin:0 0 14px}
+.mobile-beta #readerNavModal .toolbar{display:grid!important;grid-template-columns:1fr 1fr;gap:10px;box-shadow:none;border:0;padding:0;background:none}
+.mobile-beta #readerNavModal .control:first-child,.mobile-beta #readerNavModal .control:nth-child(4){grid-column:1/-1}
+.mobile-beta #readerNavModal .control label{font-size:11px}
+.mobile-beta #readerNavModal .control select{width:100%;height:46px;padding:8px;color:#f3f7f8;background:#293941;font-size:15px}
+.mobile-beta #readerNavModal .toolbar #copyLink{display:none!important}
+.mobile-beta .modern-primary{display:block;width:100%;margin-top:16px;border:0;background:#93becb;color:#10242c;font:700 14px system-ui;padding:13px;border-radius:10px}
+.mobile-beta .edition-option{display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:#223239;border:1px solid #42545c;color:#e3eaee;border-radius:11px;padding:14px;margin-bottom:9px;cursor:pointer}
+.mobile-beta .edition-option[aria-pressed="true"]{border-color:#90c3cc;background:#2b454c}
+.mobile-beta .edition-option strong{display:block;font:650 15px system-ui;margin-bottom:4px}
+.mobile-beta .edition-option span{display:block;color:#b8c9cf;font:12px system-ui}
+.mobile-beta #modernSearchInput{width:100%;border:1px solid #61737c;background:#283941;color:#f2f7f9;font:16px system-ui;padding:13px;border-radius:11px;outline-offset:2px}
+.mobile-beta #modernSearchResults{padding:12px 1px 12px 0;display:grid;gap:7px;align-content:start;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;flex:0 1 auto}
+.mobile-beta #readerSearchModal{top:var(--reader-search-vv-top,0px);height:var(--reader-search-vv-height,100svh);bottom:auto;overflow:hidden}
+.mobile-beta #readerSearchModal .modal-content{display:flex;flex-direction:column;overflow:hidden;max-height:calc(100% - 6px);min-height:0;overscroll-behavior:contain}
+.mobile-beta #readerSearchModal .modal-head,.mobile-beta #readerSearchModal .modern-panel-desc,.mobile-beta #modernSearchInput{flex-shrink:0}
+.mobile-beta #modernSearchInput{min-height:44px}
+.mobile-beta #readerSearchModal .discovery-search-loading:not([hidden]){flex-shrink:0}
+@media (min-width:750px){.mobile-beta #readerSearchModal{align-items:center}}
+
+.mobile-beta .search-hit{width:100%;text-align:left;border:1px solid #41565d;background:#23343b;color:#e8f2f4;border-radius:10px;padding:11px;font:14px/1.5 system-ui}
+.mobile-beta .search-hit small{display:block;color:#a8bfc7;font-size:12px}
+.mobile-beta.study-open section[aria-label="Commentary comparison"]{background:#152129;border:1px solid #41555d;padding:16px!important;max-height:84svh}
+.mobile-beta #studyHeading{font:650 13px system-ui;color:#b3ccd4;margin:8px 0 12px}
+.mobile-beta #modernStudyVerse{padding:14px 15px;background:#23323b;border:1px solid #354b55;border-radius:12px;color:#e5ebed;font:17px/1.8 Georgia,serif;margin-bottom:10px}
+.mobile-beta #modernStudyVerse .word-target{font:inherit;color:#f0f7f8;border:0;border-bottom:2px solid #71b0c0;background:rgba(107,170,189,.10);border-radius:2px;padding:0 1px;cursor:pointer}
+.mobile-beta #modernStudyVerse .word-target.is-open{background:#3a5861;border-bottom-color:#c5e0e6}
+.mobile-beta #studyWordDetail{border:1px solid #526b74;background:#233942;padding:13px;border-radius:10px;margin:0 0 15px;color:#e1eef0}
+.mobile-beta #studyWordDetail p{margin:7px 0 0}
+.mobile-beta #modernCommentaryMenu{padding:11px 0 7px;margin-top:12px;border-top:1px solid #3b5059}
+.mobile-beta #modernCommentaryMenu h3{font:650 13px system-ui;letter-spacing:.02em;color:#afc9d2;margin:0 0 10px}
+.mobile-beta .commentary-toggle{display:flex;width:100%;align-items:center;justify-content:space-between;text-align:left;border:1px solid #455861;background:#27363e;color:#e1ebee;border-radius:9px;padding:12px;margin-bottom:7px;font:600 14px system-ui}
+.mobile-beta .commentary-toggle[aria-expanded="true"]{border-color:#8ec1cb;background:#314b54}
+.mobile-beta #voices{display:block!important}
+.mobile-beta .voice{margin-bottom:10px}
+.mobile-beta .voice-title strong{font-size:17px}
+.mobile-beta #studyWords{display:none!important}
+.mobile-beta.beta-light{background:#fafaf8;color:#293a42}
+.mobile-beta.beta-light #modernReaderHeader{background:#fbfbf8;border-bottom:1px solid #d4dfdd}
+.mobile-beta.beta-light .reader-brand{color:#627982}
+.mobile-beta.beta-light #readerLocation{color:#243b42}
+.mobile-beta.beta-light #readerLocation small{color:#62747a}
+.mobile-beta.beta-light #readerEdition{background:#edf2f0;color:#2c474f;border-color:#becfcb}
+.mobile-beta.beta-light .header-icon{color:#35515b}
+.mobile-beta.beta-light #verses .reader-paragraph{color:#29373c}
+.mobile-beta.beta-light #verses .reader-verse .number{color:#617880!important}
+.mobile-beta.beta-light #verses .reader-verse.is-studying{background:#e0eeef!important}
+.mobile-beta.beta-light .modal-content,.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f9fbf8;color:#263c42}
+.mobile-beta.beta-light .modal-close,.mobile-beta.beta-light .edition-option,.mobile-beta.beta-light .search-hit{background:#edf3f1;color:#293f47;border-color:#c2d1ce}
+.mobile-beta.beta-light .edition-option span,.mobile-beta.beta-light .search-hit small{color:#566f76}
+.mobile-beta.beta-light .edition-option[aria-pressed="true"]{background:#e1eeed;border-color:#729ba5}
+.mobile-beta.beta-light #readerNavModal .control select,.mobile-beta.beta-light #modernSearchInput{background:#fff;color:#283b42;border-color:#aabfbf}
+.mobile-beta.beta-light #modernStudyVerse,.mobile-beta.beta-light #studyWordDetail{background:#fff;color:#283a42;border-color:#c4d4d2}
+.mobile-beta.beta-light #modernStudyVerse .word-target{color:#224a59;background:#ecf4f5;border-bottom-color:#558b98}
+.mobile-beta.beta-light #modernStudyVerse .word-target.is-open{background:#d4e6e9}
+.mobile-beta.beta-light #modernCommentaryMenu{border-color:#cbd9d6}
+.mobile-beta.beta-light #modernCommentaryMenu h3{color:#45656e}
+.mobile-beta.beta-light .commentary-toggle{background:#eef3f1;color:#29434b;border-color:#bccdc9}
+.mobile-beta.beta-light .commentary-toggle[aria-expanded="true"]{background:#d9ecea;border-color:#719ca5}
+@media(min-width:750px){.mobile-beta .modal-scrim{align-items:center}.mobile-beta .modal-content{border-radius:18px}.mobile-beta .all-verses{height:calc(100svh - 110px)!important}.mobile-beta #verses .reader-paragraph{font-size:21px}}
+
+
+/* SOTW 0.3: quiet top navigation, full-screen verse study, nested detail layers */
+.mobile-beta .location-line{justify-content:space-between;gap:10px}
+.mobile-beta .location-picker{display:flex;align-items:center;gap:0;min-width:0}
+.mobile-beta #readerLocation{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mobile-beta #readerLocation small{display:none}
+.mobile-beta #readerNavToggle{color:#a9c0ca;border:0;background:none;font:600 23px system-ui;
+ padding:4px 12px 4px 5px;min-width:42px;min-height:42px;cursor:pointer}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(4){display:none!important}
+.mobile-beta #readerNavModal .toolbar{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.mobile-beta #readerNavModal .toolbar .control:first-child{grid-column:1/-1}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(2),.mobile-beta #readerNavModal .toolbar .control:nth-child(3){grid-column:auto}
+.mobile-beta.study-open section[aria-label="Commentary comparison"]{
+ position:fixed!important;inset:0!important;top:0!important;bottom:0!important;left:0!important;right:0!important;
+ height:100svh!important;max-height:100svh!important;width:100%!important;max-width:none!important;
+ border:0!important;border-radius:0!important;box-shadow:none!important;overflow:hidden!important;
+ background:#152129!important;padding:0 18px max(12px,env(safe-area-inset-bottom))!important;
+ display:flex!important;flex-direction:column!important;z-index:101!important
+}
+.mobile-beta.study-open section[aria-label="Commentary comparison"] .tools{
+ position:relative!important;top:0!important;flex:0 0 auto!important;padding:calc(9px + env(safe-area-inset-top)) 0 11px!important;
+ margin:0 -1px 13px!important;border-bottom:1px solid #374c53!important;background:#152129!important;
+ min-height:65px;z-index:106!important
+}
+.mobile-beta.study-open #studyClose{background:#2b424c;color:#f3f6f7;border-color:#7898a3}
+.mobile-beta.study-open #studyHeading{flex:0 0 auto!important;margin:0 0 10px!important;font-size:13px;color:#a6c7d0}
+.mobile-beta.study-open #modernStudyVerse{flex:0 1 auto;max-height:50svh;min-height:0;overflow:auto;
+ font:normal clamp(19px,4.7vw,23px)/1.85 Georgia,serif;border-radius:13px;padding:19px 18px;
+ margin:0 0 12px;background:#23343e}
+.mobile-beta.study-open #studyWordDetail{flex:0 1 auto;overflow:auto;max-height:35svh;margin:0 0 14px}
+.mobile-beta.study-open #studyWordDetail:empty{display:none!important}
+.mobile-beta.study-open #modernCommentaryMenu{flex:0 0 auto;margin-top:auto;padding:13px 0 0;
+ border-top:1px solid #3d5159;background:#152129;position:relative;z-index:105}
+.mobile-beta .study-launch{width:100%;min-height:49px;border:1px solid #526b75;
+ background:#2c3f48;color:#e3eef2;border-radius:11px;padding:13px 15px;
+ display:flex;align-items:center;justify-content:space-between;gap:10px;text-align:left;
+ font:650 14px system-ui;cursor:pointer}
+.mobile-beta .study-launch small{font:12px system-ui;color:#a6c3cd}
+.mobile-beta .study-launch:focus-visible{outline:2px solid #b0d4df;outline-offset:2px}
+.mobile-beta #studyOverlay{position:absolute;inset:76px 0 77px;z-index:104;display:none;
+ background:#152129;padding:0 18px;overflow:hidden}
+.mobile-beta #studyOverlay.is-open{display:flex;flex-direction:column;animation:studyLayerRise .23s cubic-bezier(.2,.65,.2,1) both}
+@keyframes studyLayerRise{from{opacity:.75;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.mobile-beta #studyOverlay.is-open{animation:none}}
+.mobile-beta #studyOverlayHeader{display:flex;align-items:center;gap:10px;padding:7px 0 16px;
+ border-bottom:1px solid #38505a;flex:0 0 auto}
+.mobile-beta #studyOverlayBack{border:1px solid #526b74;border-radius:9px;background:#263c45;
+ color:#e5eff2;padding:9px 13px;font:600 13px system-ui;cursor:pointer}
+.mobile-beta #studyOverlayTitle{font:600 16px system-ui;color:#dce8ec}
+.mobile-beta #studyOverlayBody{overflow-y:auto;overscroll-behavior:contain;padding:16px 0 30px;flex:1}
+.mobile-beta #studyOverlayBody .voice{margin:0 0 12px;border-radius:12px}
+.mobile-beta #studyOverlayBody .voice .source-link,
+.mobile-beta #studyOverlayBody .voice .meta,
+.mobile-beta #studyOverlayBody .voice .p-section{display:none!important}
+.mobile-beta #studyOverlayBody .voice-title{display:flex;align-items:start}
+.mobile-beta #studyOverlayBody .voice .source-chip{white-space:normal;text-align:right;line-height:1.35}
+.mobile-beta .available-author{display:flex;justify-content:space-between;align-items:center;
+ width:100%;border:1px solid #415962;background:#253943;color:#e4eff2;
+ padding:15px;border-radius:11px;text-align:left;font:600 15px system-ui;
+ margin-bottom:9px;cursor:pointer}
+.mobile-beta .available-author small{font:12px system-ui;color:#b7cdd5}
+.mobile-beta .word-summary-title{font:600 14px system-ui;color:#b8d8e1;display:block;margin:0 0 7px}
+.mobile-beta .word-summary-head{font:600 22px Georgia,serif;color:#f2f7f8;display:block;margin-bottom:4px}
+.mobile-beta .word-summary-meta{font:13px system-ui;color:#b7c9cf}
+.mobile-beta .word-summary-short{font:15px/1.65 system-ui;margin:12px 0 4px}
+.mobile-beta .word-expand{margin-top:11px;width:100%;background:#324b55;color:#e9f4f5;
+ border:1px solid #577580;border-radius:9px;padding:11px 12px;
+ text-align:left;font:600 13px system-ui}
+.mobile-beta .expanded-lexical{font:15px/1.8 Georgia,serif;color:#e3ebed;white-space:pre-wrap;overflow-wrap:anywhere}
+.mobile-beta .expanded-lexical h3{font:600 22px Georgia,serif;color:#f0f7f8}
+.mobile-beta .expanded-lexical h4{font:600 13px system-ui;color:#aecdd6;margin:17px 0 7px}
+.mobile-beta #modernStudyVerse .word-target{border-bottom-width:2px;box-shadow:inset 0 -2px #6dabb7}
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{background:#f8faf8!important;color:#243b43}
+.mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools{background:#f8faf8!important;border-color:#d0dbd8!important}
+.mobile-beta.beta-light.study-open #modernStudyVerse{background:#fff;color:#243941;border-color:#d1dedd}
+.mobile-beta.beta-light.study-open #modernCommentaryMenu{background:#f8faf8;border-color:#cbdad8}
+.mobile-beta.beta-light .study-launch,.mobile-beta.beta-light .available-author{background:#eaf1ef;color:#253e45;border-color:#b7cecd}
+.mobile-beta.beta-light .study-launch small,.mobile-beta.beta-light .available-author small{color:#54717a}
+.mobile-beta.beta-light #studyOverlay{background:#f8faf8}
+.mobile-beta.beta-light #studyOverlayHeader{border-color:#cbd9d9}
+.mobile-beta.beta-light #studyOverlayTitle{color:#2a424c}
+.mobile-beta.beta-light #studyOverlayBack{background:#e8f0ef;color:#2b4650;border-color:#b6cccb}
+.mobile-beta.beta-light .word-summary-head,.mobile-beta.beta-light .expanded-lexical h3{color:#263d44}
+.mobile-beta.beta-light .word-summary-title,.mobile-beta.beta-light .expanded-lexical h4{color:#426a77}
+.mobile-beta.beta-light .word-summary-meta,.mobile-beta.beta-light .word-summary-short,
+.mobile-beta.beta-light .expanded-lexical{color:#30474f}
+.mobile-beta.beta-light .word-expand{background:#e0ebeb;color:#284650;border-color:#a2bfc4}
+
+
+/* Word-facing historical English lookups. Strong's-only targets stay accented. */
+.mobile-beta #modernStudyVerse button.webster-word{
+ font:inherit!important;color:inherit!important;border:0!important;background:transparent!important;
+ padding:0!important;margin:0!important;border-radius:3px!important;white-space:normal!important;
+ display:inline!important;line-height:inherit!important;cursor:pointer;touch-action:manipulation;
+}
+.mobile-beta #modernStudyVerse button.webster-word:focus-visible{outline:2px solid #98c8d8;outline-offset:2px}
+.mobile-beta #modernStudyVerse button.webster-word.is-open{background:#37525c!important;color:#fff!important}
+.mobile-beta #modernStudyVerse .word-target.is-open{background:#37525c!important}
+.mobile-beta #studyWordDetail .webster-lookup{display:flex;align-items:center;justify-content:space-between;
+ width:100%;padding:12px 13px;border:1px solid #76919c;border-radius:10px;
+ background:#304954;color:#f0f8f9;font:650 13px system-ui;cursor:pointer;margin-top:10px}
+.mobile-beta #studyWordDetail .webster-lookup small{color:#b3cfd5;font:12px system-ui}
+.mobile-beta .dictionary-entry{background:#23363e;border:1px solid #42545c;border-radius:10px;margin:12px 0;padding:14px}
+.mobile-beta .dictionary-entry strong{font:650 13px system-ui;color:#bbd9e0}
+.mobile-beta .dictionary-entry p{font:16px/1.75 Georgia,serif;white-space:pre-wrap;margin:9px 0 0;overflow-wrap:anywhere}
+.mobile-beta .dictionary-license{font:12px/1.6 system-ui;color:#b8ced3;margin:20px 0}
+.mobile-beta .dictionary-license a{color:#b7e0eb}
+.mobile-beta.beta-light #modernStudyVerse button.webster-word.is-open{background:#d7e9ed!important;color:#1c434e!important}
+.mobile-beta.beta-light #studyWordDetail .webster-lookup{background:#e1edf0;color:#23404a;border-color:#aec7ca}
+.mobile-beta.beta-light #studyWordDetail .webster-lookup small{color:#536f79}
+.mobile-beta.beta-light .dictionary-entry{background:#fff;color:#273d44;border-color:#c7d5d5}
+.mobile-beta.beta-light .dictionary-entry strong{color:#325e6b}
+.mobile-beta.beta-light .dictionary-license{color:#4b6772}
+.mobile-beta.beta-light .dictionary-license a{color:#236375}
+
+
+/* Reader v0.5: book-anchored dropdown, dimmed background, source-scoped doctrine tags */
+.mobile-beta #readerNavModal{position:fixed!important;inset:0!important;z-index:160!important;
+ display:none;align-items:flex-start!important;justify-content:flex-start!important;
+ background:rgba(2,9,13,.78)!important;backdrop-filter:brightness(.84)}
+.mobile-beta #readerNavModal.is-open{display:flex!important}
+.mobile-beta #readerNavModal .modal-content{
+ position:absolute!important;
+ top:var(--passage-nav-top,115px)!important;
+ left:var(--passage-nav-left,12px)!important;
+ width:min(432px,calc(100vw - 24px))!important;
+ max-height:var(--passage-nav-height,72svh)!important;
+ border-radius:15px!important;
+ overflow:auto!important;
+ background:#192931!important;
+ border:1px solid #516571!important;
+ padding:16px 16px max(18px,env(safe-area-inset-bottom))!important;
+ box-shadow:0 18px 70px #000b!important;
+ animation:passageDrop .16s ease-out both;
+}
+@keyframes passageDrop{from{transform:translateY(-9px);opacity:.7}to{transform:translateY(0);opacity:1}}
+@media(prefers-reduced-motion:reduce){.mobile-beta #readerNavModal .modal-content{animation:none}}
+.mobile-beta #readerNavModal .modal-head{margin-bottom:10px}
+.mobile-beta #readerNavModal .modern-panel-desc{margin-bottom:12px}
+.mobile-beta #readerNavModal .toolbar{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mobile-beta #readerNavModal .toolbar .control:first-child{grid-column:1/-1}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(2),
+.mobile-beta #readerNavModal .toolbar .control:nth-child(3){grid-column:auto}
+.mobile-beta #readerNavModal .toolbar .control:nth-child(4){display:none!important}
+.mobile-beta #readerNavModal .modern-primary{margin-top:14px}
+.mobile-beta.beta-light #readerNavModal .modal-content{background:#fafbf9!important;color:#253d46!important;border-color:#afc4c9!important}
+/* Jacob's accepted doctrine/study-term labels belong on his commentary
+   entry only, not above every Scripture verse or historical source. */
+.mobile-beta .jacob-doctrine[hidden]{display:none!important}
+.mobile-beta .jacob-doctrine{margin:8px 0 13px;padding:9px 10px;background:#1d313a;
+ border:1px solid #3c5762;border-radius:10px;color:#dce9ee}
+.mobile-beta .jacob-doctrine-caption{display:block;font:600 11px/1.3 system-ui;
+ color:#9cbbc6;margin-bottom:6px}
+.mobile-beta .jacob-doctrine-line{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.mobile-beta .jacob-doctrine-badge{display:inline-block;border:1px solid #76959c;
+ border-radius:999px;background:#304c56;color:#e4f4f7;padding:4px 9px;font:600 12px/1.35 system-ui}
+.mobile-beta .jacob-doctrine-formal{font:500 11px/1.4 system-ui;color:#bad2da}
+.mobile-beta .jacob-doctrine-aliases,.mobile-beta .jacob-doctrine-scope{
+ margin:5px 0 0;font:12px/1.45 system-ui;color:#b9cbd1}
+.mobile-beta.beta-light .jacob-doctrine{background:#eff5f3;border-color:#b8cfce;color:#29424a}
+.mobile-beta.beta-light .jacob-doctrine-badge{background:#dcecea;border-color:#88acb2;color:#22434b}
+.mobile-beta.beta-light .jacob-doctrine-caption,
+.mobile-beta.beta-light .jacob-doctrine-formal,
+.mobile-beta.beta-light .jacob-doctrine-aliases,
+.mobile-beta.beta-light .jacob-doctrine-scope{color:#4b6872}
+
+/* v0.7 translation chooser anchored to the upper-right edition button */
+.mobile-beta #readerEditionModal{position:fixed!important;inset:0!important;z-index:160!important;
+ display:none;align-items:flex-start!important;justify-content:flex-start!important;
+ background:rgba(2,9,13,.78)!important;backdrop-filter:brightness(.84)}
+.mobile-beta #readerEditionModal.is-open{display:flex!important}
+.mobile-beta #readerEditionModal .modal-content{
+ position:absolute!important;top:var(--edition-nav-top,115px)!important;
+ right:var(--edition-nav-right,12px)!important;left:auto!important;bottom:auto!important;
+ width:min(390px,calc(100vw - 24px))!important;
+ max-height:var(--edition-nav-height,72svh)!important;
+ border-radius:15px!important;overflow:auto!important;
+ background:#192931!important;border:1px solid #516571!important;
+ padding:16px 16px max(18px,env(safe-area-inset-bottom))!important;
+ box-shadow:0 18px 70px #000b!important;animation:passageDrop .16s ease-out both}
+.mobile-beta #readerEditionModal .modal-head{margin-bottom:13px}
+.mobile-beta #readerEditionModal .edition-option:last-child{margin-bottom:0}
+.mobile-beta.beta-light #readerEditionModal .modal-content{
+ background:#fafbf9!important;color:#253d46!important;border-color:#afc4c9!important}
+@media(prefers-reduced-motion:reduce){.mobile-beta #readerEditionModal .modal-content{animation:none}}
+
+
+/* Webster 1828 availability gate: mark only words with real entries. */
+.mobile-beta #modernStudyVerse button.webster-word{
+ text-decoration:underline dotted #638d9b 1px;
+ text-underline-offset:4px;
+}
+.mobile-beta.beta-light #modernStudyVerse button.webster-word{
+ text-decoration-color:#6e9ca4;
+}
+
+/* Jacob's published Scripture connections, clickable whether or not he has
+   separate commentary on the target. Source relationship wording is preserved. */
+.mobile-beta .jacob-scripture-group{margin:17px 0 10px;padding:13px 0 0;border-top:1px solid #48616a}
+.mobile-beta .jacob-scripture-group h4{font:650 14px/1.4 system-ui;color:#dfedf1;margin:0 0 9px}
+.mobile-beta .jacob-scripture-list{padding:0;margin:0;list-style:none}
+.mobile-beta .jacob-scripture-list li{padding:8px 0;border-bottom:1px solid #334d56}
+.mobile-beta .jacob-scripture-list li:last-child{border-bottom:0}
+.mobile-beta .jacob-passage-link{display:inline-block;color:#d4f2fa;border:1px solid #648693;background:#2a4753;
+  border-radius:7px;padding:7px 10px;text-decoration:none;font:650 13px/1.45 system-ui;min-height:38px}
+.mobile-beta .jacob-passage-link:focus-visible{outline:2px solid #b9eff8;outline-offset:2px}
+.mobile-beta .jacob-relation-type{display:inline-block;color:#b8d2d9;font:600 12px/1.4 system-ui;margin-left:8px}
+.mobile-beta .jacob-relation-note{color:#b9cbd2!important;font:12px/1.6 system-ui!important;margin:6px 0 2px!important;white-space:normal!important}
+.mobile-beta.beta-light .jacob-scripture-group{border-color:#bdd0d1}
+.mobile-beta.beta-light .jacob-scripture-group h4{color:#294a54}
+.mobile-beta.beta-light .jacob-passage-link{background:#e9f2f2;border-color:#9dbdc5;color:#234b59}
+.mobile-beta.beta-light .jacob-relation-type,.mobile-beta.beta-light .jacob-relation-note{color:#526f76!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:wght@400&amp;family=M+PLUS+1p:wght@300;400;500;700&amp;display=swap">
+<link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
+<link rel="stylesheet" href="./study-ux-repair.css?v=20261118-reader162">
+<link rel="stylesheet" href="./discovery-integrations.css?v=20261118-discovery2">
+</head>
+<body class="mobile-beta">
+<header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
+<main>
+<div class="toolbar" role="group" aria-label="Choose Scripture passage and edition">
+<div class="control"><label for="book">Book</label><select id="book"></select></div>
+<div class="control"><label for="chapter">Chapter</label><select id="chapter"></select></div>
+<div class="control"><label for="verse">Verse</label><select id="verse"></select></div>
+<div class="control"><label for="edition">Bible translation</label><select id="edition"><option value="ASV1901">ASV 1901</option><option value="KJV1769">KJV 1769</option><option value="BSB">Berean Standard Bible</option><option value="WEBSTER1833">Webster 1833</option></select></div>
+<button class="action primary" id="copyLink" type="button">Copy passage link</button>
+</div>
+<div class="utility"><label for="jacobJump">Jump to Jacob commentary <select id="jacobJump"><option value="">Choose a covered passage…</option></select></label><label><input id="includeP" type="checkbox"> Show original source introductions / P sections</label><div class="spacer"></div><button class="action" id="previous" type="button">← Previous verse</button><button class="action" id="next" type="button">Next verse →</button></div>
+<p class="status" id="status" role="status" aria-live="polite">Loading published SOTW sources…</p>
+<div class="layout">
+<section class="panel scripture" aria-labelledby="scripture-heading"><div class="panel-head"><div><h2 id="scripture-heading">Bible passage</h2><p id="scripture-edition">Four supported public editions</p></div></div><div class="panel-body"><div class="focus"><strong id="focus-label">Acts 2:37</strong><p id="focus-text">Loading verse…</p></div><h3 style="font-size:13px;color:#42685a;margin:0 0 12px">Chapter context · select any verse</h3><div id="verses" class="all-verses" aria-label="Chapter Scripture"></div><p id="scripture-credit" class="meta"></p></div></section>
+<section aria-label="Commentary comparison"><div class="tools"><h2>Commentary comparison</h2><label for="authorMode" class="sr-only">Historical author display</label><select id="authorMode"><option value="all">All six historical writers</option><option value="available">Only writers indexed at this verse</option></select></div><p class="scopehint" id="scopehint">Historical sources are independent original writings. Jacob's published sermon commentary is kept separate and translation-neutral.</p><div id="voices" class="voice-grid"></div></section>
+</div>
+<p class="foot">This is a read-only research and comparison interface, not an editorial statement that the authors agree. Historical verse records use the source's original KJV-linked indexing; selecting ASV, BSB or Webster changes the Bible text, not the attribution or original commentary. Chapter introductions and other P material are separate from verse exposition. A missing entry means no published or indexed entry here, not that the author never wrote about the subject. Only currently published Jacob commentary is shown; drafts are not displayed.</p>
+</main>
+<script src="./jacob-scripture-links.js?v=20261118-jacoblinks1"></script>
+<script>
+'use strict';
+/* Snapshot routes below were inspected against SOTW Historical Commentaries main on 2026-11-16.
+   Separate immutable source chapters are consumed as-is. No historical or Jacob content is generated here. */
+const BOOKS=[
+['GEN','Genesis','genesis','11-03'],['EXO','Exodus','exodus','11-03'],['LEV','Leviticus','leviticus','11-03'],['NUM','Numbers','numbers','11-03'],['DEU','Deuteronomy','deuteronomy','11-04'],['JOS','Joshua','joshua','11-04'],['JDG','Judges','judges','11-05'],['RUT','Ruth','ruth','11-05'],
+['1SA','1 Samuel','first-samuel','11-05'],['2SA','2 Samuel','second-samuel','11-05'],['1KI','1 Kings','first-kings','11-06'],['2KI','2 Kings','second-kings','11-06'],['1CH','1 Chronicles','first-chronicles','11-06'],['2CH','2 Chronicles','second-chronicles','11-06'],['EZR','Ezra','ezra','11-06'],['NEH','Nehemiah','nehemiah','11-06'],['EST','Esther','esther','11-06'],
+['JOB','Job','job','11-06'],['PSA','Psalms','psalms','11-07'],['PRO','Proverbs','proverbs','11-07'],['ECC','Ecclesiastes','ecclesiastes','11-08'],['SNG','Song of Solomon','song-of-solomon','11-08'],['ISA','Isaiah','isaiah','11-09'],['JER','Jeremiah','jeremiah','11-09'],['LAM','Lamentations','lamentations','11-10'],['EZK','Ezekiel','ezekiel','11-11'],['DAN','Daniel','daniel','11-11'],
+['HOS','Hosea','hosea','11-11'],['JOL','Joel','joel','11-11'],['AMO','Amos','amos','11-11'],['OBA','Obadiah','obadiah','11-11'],['JON','Jonah','jonah','11-11'],['MIC','Micah','micah','11-11'],['NAM','Nahum','nahum','11-11'],['HAB','Habakkuk','habakkuk','11-11'],['ZEP','Zephaniah','zephaniah','11-11'],['HAG','Haggai','haggai','11-11'],['ZEC','Zechariah','zechariah','11-11'],['MAL','Malachi','malachi','11-11'],
+['MAT','Matthew','matthew','11-11'],['MRK','Mark','mark','11-12'],['LUK','Luke','luke','11-12'],['JHN','John','john','11-12'],['ACT','Acts','acts','11-12'],['ROM','Romans','romans','11-12'],['1CO','1 Corinthians','first-corinthians','11-12'],['2CO','2 Corinthians','second-corinthians','11-12'],['GAL','Galatians','galatians','11-12'],['EPH','Ephesians','ephesians','11-13'],['PHP','Philippians','philippians','11-13'],
+['COL','Colossians','colossians','11-14'],['1TH','1 Thessalonians','first-thessalonians','11-14'],['2TH','2 Thessalonians','second-thessalonians','11-14'],['1TI','1 Timothy','first-timothy','11-14'],['2TI','2 Timothy','second-timothy','11-14'],['TIT','Titus','titus','11-14'],['PHM','Philemon','philemon','11-14'],['HEB','Hebrews','hebrews','11-14'],
+['JAS','James','james','11-15'],['1PE','1 Peter','first-peter','11-15'],['2PE','2 Peter','second-peter','11-15'],['1JN','1 John','first-john','11-15'],['2JN','2 John','second-john','11-15'],['3JN','3 John','third-john','11-15'],['JUD','Jude','jude','11-15'],['REV','Revelation','revelation','11-15']
+].map(([code,name,slug,monthday],i)=>({code,name,slug,chapterCount:[50,40,27,36,34,24,21,4,31,24,22,25,29,36,10,13,10,42,150,31,12,8,66,52,5,48,12,14,3,9,1,4,7,3,3,3,2,14,4,28,16,24,21,28,16,16,13,6,6,4,4,5,3,6,4,3,1,13,5,5,3,5,1,1,1,22][i],snapshot:code==='1CO'?'structured-1-corinthians-2026-11-12':`structured-${slug}-2026-${monthday}`}));
+const HIST=[['matthew-henry','Matthew Henry'],['john-calvin','John Calvin'],['adam-clarke','Adam Clarke'],['jamieson-fausset-brown','Jamieson–Fausset–Brown'],['keil-delitzsch','Keil & Delitzsch'],['john-gill','John Gill']];
+const EDITIONS={ASV1901:['ASV 1901','SOTW-ASV-1901/asv-1901-resources','asv1901'],KJV1769:['KJV 1769','SOTW-KJV-1769/kjv-1769-resources','kjv1769'],BSB:['Berean Standard Bible','SOTW-BSB/-bsb-resources','bsb'],WEBSTER1833:['Webster 1833','SOTW-WEBSTER-1833/webster-1833-resources','webster1833']};
+const $=id=>document.getElementById(id);
+const query=new URLSearchParams(location.search);
+const betaSaved=(()=>{try{return JSON.parse(localStorage.getItem("sotw.mobile.reader.sotw.v1")||"{}")}catch{return {}}})();
+const initBook=BOOKS.some(b=>b.code===query.get('book'))?query.get('book'):(BOOKS.some(b=>b.code===betaSaved.book)?betaSaved.book:'ROM');
+const state={book:initBook,chapter:Number(query.get('chapter'))||Number(betaSaved.chapter)||12,verse:Number(query.get('verse'))||Number(betaSaved.verse)||1,edition:EDITIONS[query.get('translation')]?query.get('translation'):(EDITIONS[betaSaved.edition]?betaSaved.edition:'KJV1769'),index:null,bible:null,jacob:[],showP:false,mode:'available',generation:0};
+const cache=new Map();let coverageReady=false;let chapterRequest=0;
+const bookInfo=()=>BOOKS.find(b=>b.code===state.book);
+function snapshotRoot(b=bookInfo()){return `../api/v3/snapshots/${b.snapshot}/`}
+function pathForEdition(){const [label,repo,folder]=EDITIONS[state.edition];return `https://raw.githubusercontent.com/${repo}/main/data/${folder}/${bookInfo().slug}/chapters/${String(state.chapter).padStart(2,'0')}.json`}
+async function getJson(url){if(!cache.has(url)){cache.set(url,fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(`HTTP ${r.status} · ${url}`);return r.json()}).catch(e=>{cache.delete(url);throw e}))}return cache.get(url)}
+function formatScope(s){const p=(s||'').split('.');let b=BOOKS.find(x=>x.code===p[0]);return(b?.name||p[0])+(p.length>1?' '+p.slice(1).join(':'):'')}
+/* Display historical passage headings as normal Scripture references.
+   Preserve the original SOTW identifiers in the source/index records. */
+function formatPassageReference(start,end){
+ const from=String(start||''),to=String(end||'');
+ const first=formatScope(from);
+ if(!to||to===from)return first;
+ const a=/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)$/.exec(from);
+ const b=/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)$/.exec(to);
+ if(a&&b&&a[1]===b[1])return first+'–'+(a[2]===b[2]?'':b[2]+':')+b[3];
+ return first+'–'+formatScope(to);
+}
+function addOption(select,value,label){const o=document.createElement('option');o.value=String(value);o.textContent=label;select.append(o)}
+function fillNumbers(select,count,want){select.replaceChildren();for(let n=1;n<=count;n++)addOption(select,n,n);select.value=String(Math.max(1,Math.min(count,want)));return Number(select.value)}
+function setStatus(message,error=false){$('status').textContent=message;$('status').classList.toggle('error',error)}
+function setURL(){try{localStorage.setItem('sotw.mobile.reader.sotw.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,theme:document.body.classList.contains('beta-light')?'light':'dark',layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',}))}catch{}const p=new URLSearchParams({book:state.book,chapter:String(state.chapter),verse:String(state.verse),translation:state.edition});try{history.replaceState(null,'',location.pathname+'?'+p.toString())}catch(_){/* local/embedded preview without a normal document origin */}}
+/* Display-only punctuation correction. Published ASV1901 ACT.2.34 has
+   the missing space in its source span; do NOT rewrite the accepted edition. */
+function displayVerseText(verse){
+ const raw=(verse?.spans||[]).map(part=>part.text||'').join('');
+ if(state.edition==='ASV1901'&&state.book==='ACT'&&Number(state.chapter)===2&&Number(verse?.verse)===34){
+  return raw.replace('himself,The Lord','himself, The Lord');
+ }
+ return raw;
+}
+function selectedText(){const v=state.bible?.verses?.find(e=>Number(e.verse)===state.verse);return v?(displayVerseText(v)||'Verse has no display text'):'No text in this edition for the selected verse.'}
+function renderBible(){const b=bookInfo();$('scripture-heading').textContent=b.name+' '+state.chapter;$('scripture-edition').textContent=EDITIONS[state.edition][0]+' · published SOTW edition';$('focus-label').textContent=b.name+' '+state.chapter+':'+state.verse;$('focus-text').textContent=selectedText();$('scripture-credit').textContent=`Edition ${state.edition} · verse text supplied by the SOTW ${EDITIONS[state.edition][0]} repository`;
+const c=$('verses');c.replaceChildren();for(const v of state.bible?.verses||[]){const btn=document.createElement('button');btn.type='button';btn.className='verse'+(Number(v.verse)===state.verse?' selected':'')+(v.paragraph_start?' para-start':'');btn.setAttribute('aria-label',b.name+' '+state.chapter+':'+v.verse);const n=document.createElement('span');n.className='number';n.textContent=v.verse;btn.append(n,document.createTextNode(displayVerseText(v)));btn.addEventListener('click',()=>chooseVerse(Number(v.verse)));c.append(btn)}const sel=c.querySelector('.selected');if(sel)c.scrollTop=Math.max(0,sel.offsetTop-c.offsetTop);}
+function stripOsis(xml){const raw=String(xml||'').replace(/<\/?(?:div|p|title|l|lg|chapter|milestone)\b[^>]*>/gi,'\n');const doc=new DOMParser().parseFromString(raw,'text/html');return(doc.body.textContent||'').replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim()}
+function content(entry){const t=entry?.reader_content_plain??entry?.content_plain;if(typeof t==='string'&&t.trim())return t;const parts=entry?.content_parts;if(Array.isArray(parts)&&parts.length)return parts.join('\n\n');return stripOsis(entry?.reader_content_osis??entry?.content_osis??'')}
+function voiceCard(label,type){const el=document.createElement('article');el.className='voice'+(type==='jacob'?' jacob':'');const hd=document.createElement('div');hd.className='voice-title';const strong=document.createElement('strong');strong.textContent=label;const chip=document.createElement('span');chip.className='source-chip';chip.textContent=type==='jacob'?'Pastoral commentary':'Historical source';if(label.length>18)hd.classList.add('long-author-name');hd.append(strong,chip);const body=document.createElement('div');body.className='voice-body';el.append(hd,body);return{el,body}}
+function para(container,text,cls='empty'){const p=document.createElement('p');p.className=cls;p.textContent=text;container.append(p);return p}
+/* Display-only commentary preview. The source text is never rewritten. */
+function splitCommentaryPreview(text,limit){
+ const before=text.slice(0,limit);
+ const prior=before.search(/\s+\S*$/u);
+ const next=text.slice(limit).search(/\s/u);
+ const cut=prior>=limit-120?prior:(next<0?text.length:limit+next);
+ return {preview:text.slice(0,cut).trimEnd(),remaining:text.slice(cut).trimStart()};
+}
+function plainContent(container,text){const txt=(text||'').trim();if(!txt){para(container,'This source has no readable display text.');return}if(txt.length<=1150){para(container,txt,'copy');return}const parts=splitCommentaryPreview(txt,880);if(!parts.remaining){para(container,txt,'copy');return}para(container,parts.preview+'…','preview');const details=document.createElement('details');const sum=document.createElement('summary');sum.textContent='Continue reading';const body=document.createElement('div');body.className='copy';body.textContent=parts.remaining;details.append(sum,body);container.append(details)}
+function sourceLink(container,path,label='Inspect original source JSON'){const link=document.createElement('a');link.className='source-link';link.href=path;link.target='_blank';link.rel='noopener noreferrer';link.textContent=label;container.append(link)}
+function parseScope(s){const bookOnly=/^([1-3]?[A-Z]{2,3})$/.exec(s||'');if(bookOnly)return{book:bookOnly[1],chapter:null,from:null,to:null};const m=/^([1-3]?[A-Z]{2,3})\.(\d+)(?:\.(\d+)(?:-(\d+))?)?$/.exec(s||'');return m?{book:m[1],chapter:Number(m[2]),from:m[3]?Number(m[3]):null,to:m[4]?Number(m[4]):Number(m[3]||0)}:null}
+/* Never pass an optional-verse callback directly to Array.filter/some:
+   their second parameter is the array index, not the selected verse. */
+function jacobChapterIntro(e){const p=parseScope(e.scopeKey);return !!(p&&p.book===state.book&&p.chapter===state.chapter&&p.from===null&&e.scopeType==='CHAPTER_INTRODUCTION');}
+function jacobDirectAt(e,verse){const p=parseScope(e.scopeKey);return !!(p&&p.book===state.book&&p.chapter===state.chapter&&p.from!==null&&Number.isInteger(verse)&&verse>=p.from&&verse<=p.to&&!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));}
+function matchingJacob(e){return jacobDirectAt(e,state.verse)||jacobChapterIntro(e);}
+/* Expose only references attached to entries in the reconciled, published
+   Jacob collection. No draft/coverage/staged source is used to build links. */
+function appendJacobScriptureReferences(parent,entry,showIncoming=true){
+ const routing=globalThis.SOTWJacobLinks;
+ if(!routing||!entry||!Array.isArray(state.jacob))return;
+ const targets=routing.outbound(entry);
+ const incoming=showIncoming?routing.inbound(state.jacob,entry.scopeKey):[];
+ function section(heading,rows,reverse){
+  if(!rows.length)return;
+  const group=document.createElement('section');group.className='jacob-scripture-group';
+  const title=document.createElement('h4');title.textContent=heading;group.append(title);
+  const list=document.createElement('ul');list.className='jacob-scripture-list';
+  for(const record of rows){
+   const href=routing.bibleHref(record.scope,state.edition,'./');
+   if(!href)continue;
+   const li=document.createElement('li'),a=document.createElement('a');
+   a.className='jacob-passage-link';a.href=href;
+   a.textContent=routing.label(record.scope);
+   a.setAttribute('aria-label','Read '+routing.label(record.scope)+' in '+EDITIONS[state.edition][0]);
+   li.append(a);
+   const type=document.createElement('span');type.className='jacob-relation-type';
+   type.textContent=' · '+routing.relationshipName(record.relation);
+   li.append(type);
+   if(record.relation?.rationale){
+    const reason=document.createElement('p');reason.className='jacob-relation-note';
+    reason.textContent=String(record.relation.rationale);li.append(reason);
+   }
+   list.append(li);
+  }
+  if(!list.childElementCount)return;
+  group.append(list);parent.append(group);
+ }
+ section('Related Scripture',targets,false);
+ section('Commentary connecting to this passage',incoming,true);
+}
+function renderJacob(){const matches=state.jacob.filter(matchingJacob);if(!matches.length)return;const c=voiceCard('Jacob Lannom','jacob');$('voices').append(c.el);const pass=matches.filter(e=>!['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));const intros=matches.filter(e=>['CHAPTER_INTRODUCTION','BOOK_OVERVIEW'].includes(e.scopeType));if(!matches.length){para(c.body,`There is no Jacob commentary for ${bookInfo().name} ${state.chapter}:${state.verse}. This does not affect other historical sources.`);return}for(const e of pass){para(c.body,e.title,'title');plainContent(c.body,e.commentary);appendJacobScriptureReferences(c.body,e);para(c.body,'Scope: '+formatScope(e.scopeKey)+' · passage commentary','meta')}
+for(const e of intros){if(pass.length){const d=document.createElement('details');const s=document.createElement('summary');s.textContent='Also available: '+e.title+' (book / chapter introduction)';const x=document.createElement('div');x.className='copy';x.textContent=e.commentary;d.append(s,x);appendJacobScriptureReferences(d,e);c.body.append(d)}else{para(c.body,e.title,'title');plainContent(c.body,e.commentary);appendJacobScriptureReferences(c.body,e)}para(c.body,'Book/chapter introduction, not an independently verified claim about this individual verse.','meta')}
+sourceLink(c.body,'../review-jacob-coverage.html','Browse Jacob’s commentary coverage')}
+function activeAuthors(){const routes=state.index?.verse_routes?.[String(state.verse)]||{};return state.mode==='available'?HIST.filter(([id])=>Array.isArray(routes[id])&&routes[id].length):HIST}
+function eligibleP(section){if(section.status!=='active'||!section.eligible_books?.includes(state.book))return false;const scope=section.scope;if(scope==='book'||scope==='book_group')return true;const p=section.source?.chapter_file||'';const chapterInSource=new RegExp(`/${state.book}/${state.chapter}\\.json$`).test(p);if(scope==='chapter')return chapterInSource;const s=parseScope(section.passage_start);const e=parseScope(section.passage_end);return !!(s&&e&&s.book===state.book&&e.book===state.book&&state.chapter*1000+state.verse>=s.chapter*1000+(s.from||0)&&state.chapter*1000+state.verse<=e.chapter*1000+(e.from||0))}
+async function attachP(body,author,generation){if(!state.showP)return;const note=para(body,'Loading source introductions and original headings…','meta');try{const nav=await getJson(`../api/v3/navigation-coverage/v1/books/${state.book}.json`);if(generation!==state.generation)return;note.remove();const routes=(nav.author_sections?.[author]||[]).filter(eligibleP);if(!routes.length){para(body,'No applicable original P navigation section is indexed here.','meta');return}const det=document.createElement('details');const summary=document.createElement('summary');summary.textContent=`Original source introductions & headings (${routes.length})`;det.append(summary);for(const s of routes){const row=document.createElement('div');row.className='p-section';const h=document.createElement('h4');h.textContent=s.title+' · '+s.scope;row.append(h);const button=document.createElement('button');button.type='button';button.textContent='Read original source text';const textNode=document.createElement('div');textNode.className='p-body';button.addEventListener('click',async()=>{if(textNode.textContent){textNode.textContent='';button.textContent='Read original source text';return}button.disabled=true;try{const json=await getJson('../'+s.source.chapter_file.replace(/^\//,''));const item=(json.navigation_sections||[]).find(x=>x.section_id===s.source.section_id);textNode.textContent=item?.content_plain||stripOsis(item?.content_osis)||'Original section text not found';button.textContent='Hide original source text'}catch(e){textNode.textContent='Unable to load original section: '+e.message}finally{button.disabled=false}});row.append(button,textNode);det.append(row)}body.append(det)}catch(e){if(generation===state.generation)note.textContent='Source P navigation unavailable: '+e.message}}
+async function renderHistorical(author,label,generation){const c=voiceCard(label,'historic');const details=state.index?.authors?.find(x=>x.author_id===author);const indexEntries=state.index?.verse_routes?.[String(state.verse)]?.[author];if(details?.source_unavailable){para(c.body,'This author collection is unavailable for this book/testament. No substitute commentary has been inserted.');if(state.showP)attachP(c.body,author,generation);return}if(!Array.isArray(indexEntries)||!indexEntries.length){para(c.body,'No original verse entry is indexed at this location. An introduction or longer source section may still exist.');if(state.showP)attachP(c.body,author,generation);return}
+const loading=para(c.body,'Loading original indexed commentary…','meta');const src=`${snapshotRoot()}authors/${author}/${state.book}/${state.chapter}.json`;try{const data=await getJson(src);if(generation!==state.generation)return;loading.remove();if(data.author_id!==author||data.canonical_chapter!==state.book+'.'+state.chapter)throw Error('Source chapter identity mismatch');let count=0;for(const i of indexEntries){const e=data.entries?.[i];if(!e||e.reader_visible===false)continue;const copy=content(e);if(!copy)continue;const heading=para(c.body,(e.passage_start===e.passage_end?formatScope(e.passage_start):`${formatScope(e.passage_start)}–${formatScope(e.passage_end)}`),'title');heading.style.fontSize='13px';plainContent(c.body,copy);para(c.body,`Original source: ${data.source?.system||'historical edition'} · ${e.coverage_basis||'native passage index'}`,'meta');count++}if(count){$('voices').append(c.el);sourceLink(c.body,src);if(state.showP)attachP(c.body,author,generation)}}catch(e){if(generation===state.generation)loading.textContent='Unable to load source: '+e.message}}
+async function renderVoices(){const generation=++state.generation;const v=$('voices');v.replaceChildren();renderJacob();const names=activeAuthors();if(!names.length)return;for(const [id,label] of names)renderHistorical(id,label,generation)}
+function chooseVerse(n){const max=Math.max(1,Number(state.index?.verse_count||state.bible?.verses?.length||1));if(n<1||n>max)return;state.verse=n;$('verse').value=String(n);$('previous').disabled=n===1;$('next').disabled=n===max;setURL();renderBible();renderVoices();setStatus(`${formatScope(state.book+'.'+state.chapter+'.'+state.verse)} · ${EDITIONS[state.edition][0]} · historic reader v3 indexes`)}
+async function loadChapter(resetVerse=false){const request=++chapterRequest;const edition=state.edition;const b=bookInfo();const initial=state.chapter;const statusLabel=b.name+' '+state.chapter;setStatus('Loading '+statusLabel+' source indexes and translation…');$('voices').replaceChildren();state.index=null;state.bible=null;const root=snapshotRoot(b);try{const [idx,bib]=await Promise.all([getJson(root+`index/${state.book}/${state.chapter}.json`),getJson(pathForEdition())]);if(request!==chapterRequest||state.chapter!==initial||bookInfo().code!==b.code||edition!==state.edition)return;if(idx.canonical_chapter!==`${state.book}.${state.chapter}`||bib.book_code!==state.book||bib.chapter!==state.chapter||bib.edition_id!==state.edition)throw Error('A source identity check failed. No text was substituted.');state.index=idx;state.bible=bib;const max=Number(idx.verse_count)||bib.verses.length;state.verse=resetVerse?1:Math.max(1,Math.min(max,state.verse));fillNumbers($('verse'),max,state.verse);chooseVerse(state.verse);if(typeof modernApplyPendingJump==='function')modernApplyPendingJump()}catch(e){if(request!==chapterRequest)return;setStatus('Could not load '+statusLabel+': '+e.message,true);$('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
+async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(m.snapshot_id!==b.snapshot||!m.books?.includes(b.code))throw Error('Unexpected book manifest');const publishedCount=m.chapter_verse_count?Object.keys(m.chapter_verse_count).length:Number(m.counts?.chapters);if(!Number.isInteger(publishedCount)||publishedCount!==b.chapterCount)throw Error('Unverified book chapter count');count=publishedCount}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
+async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
+async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index){renderVoices();if(!document.body.classList.contains('study-open'))modernJumpToVerse(state.verse)}}
+$('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
+$('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
+$('verse').addEventListener('change',e=>chooseVerse(Number(e.target.value)));
+$('edition').addEventListener('change',async e=>{modernCaptureEditionAnchor();state.edition=e.target.value;await loadChapter(false)});
+$('authorMode').addEventListener('change',e=>{state.mode=e.target.value;if(state.index)renderVoices()});
+$('includeP').addEventListener('change',e=>{state.showP=e.target.checked;if(state.index)renderVoices()});
+$('previous').addEventListener('click',()=>chooseVerse(Math.max(1,state.verse-1)));
+$('next').addEventListener('click',()=>chooseVerse(Math.min(Number(state.index?.verse_count)||state.verse,state.verse+1)));
+$('jacobJump').addEventListener('change',async e=>{const p=parseScope(e.target.value);if(!p)return;state.book=p.book;state.chapter=p.chapter||1;state.verse=p.from||1;$('book').value=state.book;await loadBook();});
+$('copyLink').addEventListener('click',async()=>{setURL();try{await navigator.clipboard.writeText(location.href);$('copyLink').textContent='Link copied';setTimeout(()=>$('copyLink').textContent='Copy passage link',1800)}catch(_){prompt('Copy this passage link:',location.href)}});
+begin();
+
+/* New mobile-facing controls. Historical and Jacob source payloads remain untouched. */
+const betaBase=location.pathname.includes('/mobile-bible-beta/')?'../':'../';
+const betaSection=document.querySelector('section[aria-label="Commentary comparison"]');
+const oldPLabel=document.getElementById('includeP')?.closest('label');if(oldPLabel)oldPLabel.style.display='none';
+const betaShade=document.createElement('div');betaShade.id='studyShade';document.body.append(betaShade);
+const betaClose=document.createElement('button');betaClose.type='button';betaClose.id='studyClose';betaClose.textContent='✕ Close';betaClose.setAttribute('aria-label','Close study tools and return to Scripture');betaSection.querySelector('.tools').prepend(betaClose);
+const betaHeading=document.createElement('p');betaHeading.id='studyHeading';betaSection.querySelector('.tools').after(betaHeading);
+const betaWords=document.createElement('div');betaWords.id='studyWords';betaHeading.after(betaWords);
+const betaWordDetail=document.createElement('div');betaWordDetail.id='studyWordDetail';betaWords.after(betaWordDetail);
+const betaBar=document.createElement('nav');betaBar.id='betaBar';betaBar.setAttribute('aria-label','Reading controls');
+betaBar.innerHTML='<button type="button" id="betaTheme" aria-label="Toggle light or dark">☼ Theme</button><button type="button" id="betaLayout">¶ Paragraphs</button><button type="button" id="betaFind">⌕ Find</button>';
+document.body.append(betaBar);
+let betaWordSeq=0;
+function betaStore(){try{localStorage.setItem('sotw.mobile.reader.sotw.v1',JSON.stringify({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,layout:document.body.classList.contains('as-paragraphs')?'paragraphs':'verses',theme:document.body.classList.contains('beta-light')?'light':'dark'}))}catch{}}
+function betaOpen(){betaSection.scrollTop=0;document.body.classList.add('study-open');betaHeading.textContent=bookInfo().name+' '+state.chapter+':'+state.verse;betaWords.replaceChildren();betaWordDetail.replaceChildren();betaLoadWords()}
+function betaCloseSheet(){document.body.classList.remove('study-open');betaWordSeq++;betaWordDetail.replaceChildren()}
+async function betaLoadWords(){const seq=++betaWordSeq;const isFirst=BOOKS.findIndex(b=>b.code===state.book)<19;const repo=isFirst?'SOTW-Original-Languages/original-language-resources':'SOTW-Original-Languages-2/original-language-resources';const url='https://raw.githubusercontent.com/'+repo+'/main/study-data/v1/chapters/'+state.book+'/'+String(state.chapter).padStart(2,'0')+'.json';const ids=[];try{const data=await getJson(url);if(seq!==betaWordSeq||!document.body.classList.contains('study-open'))return;const entries=data?.verses?.[state.book+'.'+state.chapter+'.'+state.verse]?.[state.edition]||[];for(const row of entries)for(const id of row.strongs_ids||[])if(!ids.includes(id))ids.push(id);if(!ids.length)return;const t=document.createElement('p');t.textContent='Original-language word links';t.style.color='#b8d2dc';t.style.fontSize='13px';betaWords.append(t);for(const id of ids){const b=document.createElement('button');b.type='button';b.textContent=id.replace('strongs:','');b.addEventListener('click',()=>betaLexicon(id,seq));betaWords.append(b)} }catch{/* no record; hide rather than display a false link */}}
+async function betaLexicon(id,seq){const m=id.match(/^strongs:([HG])(\d+)$/);if(!m)return;const type=m[1],number=Number(m[2]),limit=type==='H'?8674:5624;if(number<1||number>limit)return;const first=Math.floor((number-1)/250)*250+1,last=Math.min(first+249,limit);const pad=n=>String(n).padStart(5,'0');const url='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+type+'/'+type+pad(first)+'-'+pad(last)+'.json';betaWordDetail.textContent='Loading '+id.replace('strongs:','')+'…';try{const data=await getJson(url);if(seq!==betaWordSeq)return;const row=data?.entries?.[id];if(!row){betaWordDetail.replaceChildren();return}betaWordDetail.replaceChildren();const title=document.createElement('strong');title.textContent=(row.headword||id)+'  '+(row.transliteration||'');const desc=document.createElement('p');desc.textContent=row.definitions?.concise_source_authored||'';betaWordDetail.append(title,desc);const expanded=(row.definitions?.numbered_expanded_source_authored||[]).join('\n');if(expanded){const d=document.createElement('details');const sm=document.createElement('summary');sm.textContent='Full Strong’s entry';const p=document.createElement('p');p.textContent=expanded;d.append(sm,p);betaWordDetail.append(d)}}catch{if(seq===betaWordSeq)betaWordDetail.replaceChildren()}}
+betaClose.addEventListener('click',betaCloseSheet);betaShade.addEventListener('click',betaCloseSheet);
+/* Verse selection is exclusively handled by the deliberate tap recognizer in v0.2. */
+document.getElementById('betaTheme').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore()});
+document.getElementById('betaLayout').addEventListener('click',()=>{document.body.classList.toggle('as-paragraphs');document.getElementById('betaLayout').textContent=document.body.classList.contains('as-paragraphs')?'☰ Verses':'¶ Paragraphs';betaStore()});
+if(betaSaved.layout==='paragraphs'){document.body.classList.add('as-paragraphs');document.getElementById('betaLayout').textContent='☰ Verses'}
+if(betaSaved.theme==='light')document.body.classList.add('beta-light');
+
+document.getElementById('betaFind').addEventListener('click',async()=>{
+
+ const q=prompt('Bible reference (e.g. Romans 12:6) or words in this chapter:');
+ if(!q)return;
+ const txt=q.toLowerCase().trim();
+ const m=txt.match(/^(.+?)\s+(\d{1,3})(?::(\d{1,3}))?$/);
+ let hit=null;
+ if(m){const b=BOOKS.find(x=>x.name.toLowerCase()===m[1]||x.code.toLowerCase()===m[1]);
+   if(b&&+m[2]>=1&&+m[2]<=b.chapterCount){hit={book:b.code,chapter:+m[2],verse:+(m[3]||1)}}}
+ if(hit){betaCloseSheet();state.book=hit.book;state.chapter=hit.chapter;state.verse=hit.verse;document.getElementById('book').value=hit.book;await loadBook();betaStore();return}
+ const row=state.bible?.verses?.find(v=>displayVerseText(v).toLowerCase().includes(txt));
+ if(row){chooseVerse(Number(row.verse));const target=[...document.getElementById('verses').children].find(x=>x.getAttribute('aria-label')?.endsWith(':'+row.verse));target?.scrollIntoView({block:'nearest'})}
+ else alert('No match in this chapter. Search does not yet cover the entire Bible.');
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')betaCloseSheet()});
+window.addEventListener('pagehide',betaStore);
+if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('../mobile-bible-sotw/sw.js').catch(()=>{});
+
+
+/* SOTW v0.2 reading flow: reading position and study selection are independent. */
+let modernStudyVerse = 0;
+let modernOpenAuthor = "";
+let modernStudyRequest = 0;
+let modernRenderedChapter = '';
+let modernRenderedBible = null;
+let modernEditionAnchor = null;
+let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
+let modernProgrammaticScroll=false;
+const modernOldHeader=document.querySelector('body.mobile-beta > header');
+if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
+const modernHeader=document.createElement('header');modernHeader.id='modernReaderHeader';
+modernHeader.innerHTML='<div class="modern-inner"><div class="brand-line"><span class="reader-brandmark"><img src="../mobile-bible-sotw/icons/sotw/icon-192.png" width="56" height="56" alt="Servants of the Way" decoding="async"><span class="sotw-brand-wordmark">Servants of the Way</span></span><div class="header-actions"><button type="button" class="header-icon" id="modernSearchButton" aria-label="Find Scripture"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 5 5"></path></svg></button><button type="button" class="reader-more-button" id="modernMoreButton" aria-haspopup="dialog" aria-controls="readerMoreModal" aria-label="Open About & Sources menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" width="24" height="24" aria-hidden="true" focusable="false"><path d="M4 6.5h16M4 12h16M4 17.5h16"></path></svg></button></div></div><div class="location-line"><button type="button" id="readerLocation" aria-label="Choose book chapter or verse">Romans 12 <small>⌄</small></button><div class="location-actions"><button type="button" id="readerEdition" aria-label="Choose Bible translation">KJV ▾</button></div></div></div>';
+document.body.prepend(modernHeader);
+betaBar.remove();
+const readerView=$('verses');
+readerView.setAttribute('aria-label','Scripture chapter — tap a verse to study');
+function modernCaptureEditionAnchor(){
+ // The verse visible to the reader can differ from the last tapped verse.
+ const viewport=readerView.getBoundingClientRect();
+ const verses=Array.from(readerView.querySelectorAll('button.reader-verse[data-verse]'));
+ const top=verses.find(el=>el.getBoundingClientRect().bottom>viewport.top+6)||
+   verses.find(el=>Number(el.dataset.verse)===state.verse);
+ modernEditionAnchor=top?{book:state.book,chapter:state.chapter,
+   verse:Number(top.dataset.verse),offset:top.getBoundingClientRect().top-viewport.top}:null;
+}
+function modernRestoreEditionAnchor(){
+ const saved=modernEditionAnchor;modernEditionAnchor=null;
+ if(!saved||saved.book!==state.book||saved.chapter!==state.chapter)return false;
+ const el=readerView.querySelector('button.reader-verse[data-verse="'+saved.verse+'"]');
+ if(!el)return false;
+ const delta=el.getBoundingClientRect().top-readerView.getBoundingClientRect().top-saved.offset;
+ readerView.scrollTop=Math.max(0,readerView.scrollTop+delta);
+ return true;
+}
+const modalLayer=(id,title)=>{
+ const veil=document.createElement('div');veil.id=id;veil.className='modal-scrim';
+ const panel=document.createElement('div');panel.className='modal-content';panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','true');
+ const head=document.createElement('div');head.className='modal-head';
+ const strong=document.createElement('strong');strong.textContent=title;
+ const close=document.createElement('button');close.type='button';close.className='modal-close';close.textContent='✕ Close';close.addEventListener('click',()=>veil.classList.remove('is-open'));
+ head.append(strong,close);panel.append(head);veil.append(panel);veil.addEventListener('click',e=>{if(e.target===veil)veil.classList.remove('is-open')});
+ document.body.append(veil);return {veil,panel};
+};
+const navModal=modalLayer('readerNavModal','Choose a passage');
+const navDesc=document.createElement('p');navDesc.className='modern-panel-desc';navDesc.textContent='';navModal.panel.append(navDesc);
+navModal.panel.append(document.querySelector('.toolbar'));
+let modernPendingJump=null;
+const navGo=document.createElement('button');navGo.type='button';navGo.className='modern-primary';navGo.textContent='Read passage';navGo.addEventListener('click',()=>{
+ navModal.veil.classList.remove('is-open');
+ if(state.bible&&state.bible.book_code===state.book&&state.bible.chapter===state.chapter)modernJumpToVerse(state.verse);
+ else modernPendingJump={book:state.book,chapter:state.chapter,verse:state.verse};
+});navModal.panel.append(navGo);
+const editionModal=modalLayer('readerEditionModal','Bible translation');
+const editionText={KJV1769:['King James Version','Standardized 1769 text'],ASV1901:['American Standard Version','1901 • Original printed-page archive'],BSB:['Berean Standard Bible','Publisher public-domain edition'],WEBSTER1833:["Webster's Bible",'1833 historical revision']};
+for(const [edition,details] of Object.entries(editionText)){
+ const btn=document.createElement('button');btn.type='button';btn.className='edition-option';btn.dataset.edition=edition;
+ const words=document.createElement('div');const name=document.createElement('strong');name.textContent=details[0];const sub=document.createElement('span');sub.textContent=details[1];words.append(name,sub);
+ const mark=document.createElement('span');mark.textContent='↗';btn.append(words,mark);
+ btn.addEventListener('click',()=>{if(edition===state.edition){editionModal.veil.classList.remove('is-open');return;}modernCaptureEditionAnchor();$('edition').value=edition;state.edition=edition;modernStudyVerse=0;betaCloseSheet();editionModal.veil.classList.remove('is-open');loadChapter(false)});
+ editionModal.panel.append(btn);
+}
+const searchModal=modalLayer('readerSearchModal','Find Scripture');
+const searchNote=document.createElement('p');searchNote.className='modern-panel-desc';searchNote.textContent='Jump to a book or reference. Words and phrases search the current chapter in this preview.';
+searchModal.panel.append(searchNote);
+const searchInput=document.createElement('input');searchInput.id='modernSearchInput';searchInput.type='search';searchInput.autocomplete='off';searchInput.setAttribute('aria-label','Search Scripture');searchInput.placeholder='John 3:16, Romans 12, or chapter phrase';searchModal.panel.append(searchInput);
+const searchResults=document.createElement('div');searchResults.id='modernSearchResults';searchModal.panel.append(searchResults);
+// iOS Safari's layout viewport does not shrink when its keyboard opens.
+// Anchor the search sheet to the *visual* viewport, and scroll only results,
+// leaving the title and active input stationary while the keyboard resizes.
+function positionSearchViewport(){
+ const vv=window.visualViewport;
+ searchModal.veil.style.setProperty('--reader-search-vv-top',Math.max(0,Math.round(vv?.offsetTop||0))+'px');
+ searchModal.veil.style.setProperty('--reader-search-vv-height',Math.max(180,Math.round(vv?.height||window.innerHeight))+'px');
+}
+positionSearchViewport();
+window.visualViewport?.addEventListener('resize',positionSearchViewport,{passive:true});
+window.visualViewport?.addEventListener('scroll',positionSearchViewport,{passive:true});
+window.addEventListener('resize',positionSearchViewport,{passive:true});
+searchInput.addEventListener('focus',()=>{positionSearchViewport();requestAnimationFrame(positionSearchViewport)});
+
+/* SOTW v0.16.1: Resources are explained here without claiming universal
+   passage coverage or treating original-language data as Bible translation. */
+const moreModal=modalLayer('readerMoreModal','About & Sources');
+moreModal.panel.setAttribute('aria-label','About Servants of the Way sources and appearance settings');
+const moreIntro=document.createElement('p');moreIntro.className='modern-panel-desc';
+moreIntro.textContent='Appearance and source information for this reader. These are credits and explanations, not extra commentary on the selected verse.';
+moreModal.panel.append(moreIntro);
+const appearanceButton=document.createElement('button');appearanceButton.type='button';
+appearanceButton.id='modernThemeButton';appearanceButton.className='more-appearance';
+appearanceButton.setAttribute('aria-label','Switch between light and dark reading mode');
+const appearanceTitle=document.createElement('span');appearanceTitle.className='more-item-title';appearanceTitle.textContent='☼  Appearance';
+const appearanceState=document.createElement('span');appearanceState.className='more-item-note';
+appearanceButton.append(appearanceTitle,appearanceState);moreModal.panel.append(appearanceButton);
+function syncMoreAppearance(){appearanceState.textContent=document.body.classList.contains('beta-light')?'Light mode · Switch to dark':'Dark mode · Switch to light';}
+function addMoreResource(title,description,links){
+ const disclosure=document.createElement('details');disclosure.className='more-resource';
+ const summary=document.createElement('summary');summary.textContent=title;
+ const p=document.createElement('p');p.textContent=description;
+ disclosure.append(summary,p);
+ if(links&&links.length){
+  const resources=document.createElement('div');resources.className='more-resource-links';
+  for(const item of links){
+   const a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=item.title;
+   resources.append(a);
+  }
+  disclosure.append(resources);
+ }
+ moreModal.panel.append(disclosure);
+}
+addMoreResource('Bible translations',
+ 'Read KJV 1769, ASV 1901, Berean Standard Bible, and Webster 1833 as distinct published editions. The translation selector chooses which Bible text you are reading.',
+ [{title:'KJV source',url:'https://github.com/SOTW-KJV-1769/kjv-1769-resources'},
+  {title:'ASV source',url:'https://github.com/SOTW-ASV-1901/asv-1901-resources'},
+  {title:'BSB source',url:'https://github.com/SOTW-BSB/-bsb-resources'},
+  {title:'Webster 1833 source',url:'https://github.com/SOTW-WEBSTER-1833/webster-1833-resources'}]);
+addMoreResource('Historical commentary',
+ 'Explore Matthew Henry, John Calvin, Adam Clarke, Jamieson-Fausset-Brown, Keil-Delitzsch, and John Gill where they are indexed for a passage. These are historical perspectives, not additional Bible text. Availability and coverage differ by author and verse.',
+ [{title:'Author and source catalog',url:'../api/v3/authors.json'}]);
+addMoreResource('Original languages and dictionaries',
+ 'Verified Hebrew and Greek source forms, Strong’s references, and lexicon entries appear only where attested. Webster’s 1828 English dictionary is a separate reference from the Webster 1833 Bible translation.',
+ [{title:'Original-language resource catalog',url:'https://github.com/SOTW-Original-Languages/original-language-resources'},
+  {title:'Webster 1828 source license',url:'https://github.com/SOTW-Original-Languages/original-language-resources/blob/main/LICENSE_WEBSTER_SOURCE.txt'}]);
+addMoreResource('Jacob Lannom',
+ 'Jacob Lannom is a living SOTW partner. His pastoral commentary is presented separately from Scripture and the historical writers, with passage-based coverage and source attribution.',
+ [{title:'Jacob commentary coverage',url:'../api/jacob-lannom/v1/coverage.json'}]);
+addMoreResource('About Servants of the Way',
+ 'This reader puts Scripture first, with optional passage-based commentary, dictionaries, and language study. Resources are attributed to their own sources, and some are unavailable for particular passages.',
+ [{title:'Available commentary coverage',url:'../api/v3/navigation-coverage/v1/manifest.json'}]);
+const openModal=modal=>{for(const el of [navModal.veil,editionModal.veil,searchModal.veil,moreModal.veil])el.classList.remove('is-open');modal.veil.classList.add('is-open');};
+$('readerLocation').addEventListener('click',()=>openModal(navModal));
+$('readerEdition').addEventListener('click',()=>{
+ for(const b of editionModal.panel.querySelectorAll('.edition-option'))b.setAttribute('aria-pressed',String(b.dataset.edition===state.edition));
+ openModal(editionModal);
+});
+$('modernSearchButton').addEventListener('click',()=>{openModal(searchModal);positionSearchViewport();searchInput.value='';modernSearchRender();searchInput.focus()});
+$('modernMoreButton').addEventListener('click',()=>{syncMoreAppearance();openModal(moreModal);appearanceButton.focus()});
+$('modernThemeButton').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore();syncMoreAppearance()});
+function modernUpdateHeader(){
+ $('readerLocation').innerHTML='';$('readerLocation').append(document.createTextNode(bookInfo().name+' '+state.chapter));
+ const chevron=document.createElement('small');chevron.textContent='⌄';$('readerLocation').append(chevron);
+ const short={KJV1769:'KJV',ASV1901:'ASV',BSB:'BSB',WEBSTER1833:'Webster'};
+ $('readerEdition').textContent=(short[state.edition]||state.edition)+' ▾';
+}
+function modernJumpToVerse(n){
+ // A published Jacob marker sits directly before its verse. Keep that
+ // marker visible, rather than aligning the verse and hiding the marker.
+ const verse=Number(n);
+ const marker=readerView.querySelector('button.jacob-verse-marker[data-jacob-verse="'+verse+'"]');
+ const target=marker||readerView.querySelector('button.reader-verse[data-verse="'+verse+'"]');
+ if(target){
+  // Scroll ONLY the Scripture pane. scrollIntoView() also scrolls the
+  // page behind the sticky header on iPhone Safari, obscuring the target.
+  const pane=readerView.getBoundingClientRect();
+  const anchor=target.getBoundingClientRect();
+  modernProgrammaticScroll=true;
+  readerView.scrollTop=Math.max(0,readerView.scrollTop+anchor.top-pane.top-readerView.clientTop-8);
+  requestAnimationFrame(()=>{modernProgrammaticScroll=false;modernGesture.moved=false;modernGesture.scrollTime=0;});
+ }
+ modernStudyVerse=0;betaCloseSheet();
+}
+function modernApplyPendingJump(){
+ if(!modernPendingJump||!state.bible)return;
+ const p=modernPendingJump;
+ if(state.book!==p.book||state.chapter!==p.chapter||state.verse!==p.verse)return;
+ modernPendingJump=null;modernJumpToVerse(p.verse);
+}
+function modernSourceVerse(n){return state.bible?.verses?.find(v=>Number(v.verse)===Number(n))}
+renderBible=function(){
+ if(!state.bible)return;
+ modernUpdateHeader();
+ const currentKey=state.edition+':'+state.book+':'+state.chapter;
+ const keep=modernRenderedChapter===currentKey?readerView.scrollTop:0;
+ modernRenderedChapter=currentKey;
+ modernRenderedBible=state.bible;
+ readerView.replaceChildren();
+ // Chapter context is reachable once at the start of the chapter, NOT marked
+ // as a verse-specific exposition on every verse.
+ const hasIntro=(state.jacob||[]).some(e=>jacobChapterIntro(e)&&e.commentary?.trim());
+ if(hasIntro){
+  const context=document.createElement('button');context.type='button';
+  context.className='jacob-chapter-intro';
+  context.textContent='Chapter Intro · Jacob Lannom  ›';
+  context.setAttribute('aria-label','Read Jacob Lannom chapter introduction to '+bookInfo().name+' '+state.chapter);
+  context.addEventListener('click',event=>{
+   event.preventDefault();event.stopImmediatePropagation();
+   const selected=state.verse||1;
+   modernStudyVerse=selected;chooseVerse(selected);betaOpen();
+   openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom · Chapter introduction',kind:'Chapter Introduction',chapterOnly:true});
+  });
+  readerView.append(context);
+ }
+ let p=null;
+ for(const v of state.bible.verses||[]){
+  if(!p||v.paragraph_start){p=document.createElement('p');p.className='reader-paragraph';readerView.append(p)}
+  const btn=document.createElement('button');btn.type='button';btn.className='reader-verse verse';btn.dataset.verse=String(v.verse);
+  btn.setAttribute('aria-label',bookInfo().name+' '+state.chapter+':'+v.verse);
+  const sup=document.createElement('span');sup.className='number';sup.textContent=String(v.verse);
+  btn.append(sup,document.createTextNode(displayVerseText(v)));
+  // Keep the marker visibly tied to THIS verse. Two sibling buttons; no nested
+  // button and no shared click handler with the verse study action.
+  const eligibleJacob=(state.jacob||[]).some(e=>jacobDirectAt(e,Number(v.verse))&&
+    Number(parseScope(e.scopeKey)?.from)===Number(v.verse)&&
+    typeof e.commentary==='string'&&e.commentary.trim());
+  if(eligibleJacob){
+   const marker=document.createElement('button');marker.type='button';
+   marker.className='jacob-verse-marker';marker.dataset.jacobVerse=String(v.verse);
+   marker.setAttribute('aria-label','Read Jacob Lannom commentary on '+bookInfo().name+' '+state.chapter+':'+v.verse);
+   marker.title='Jacob Lannom commentary';
+   marker.addEventListener('click',event=>{
+    // A valid mobile click must not be cancelled by a stale scroll gesture flag.
+    event.preventDefault();event.stopImmediatePropagation();
+    const number=Number(marker.dataset.jacobVerse);
+    if(!modernSourceVerse(number))return;
+    if(!(state.jacob||[]).some(e=>jacobDirectAt(e,number)&&
+       typeof e.commentary==='string'&&e.commentary.trim()))return;
+    modernStudyVerse=number;chooseVerse(number);
+    betaOpen(); // Mount the existing study panel, then immediately open Jacob.
+    openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary'});
+   });
+   p.append(marker);
+  }
+  p.append(btn,document.createTextNode(' '));
+ }
+ readerView.scrollTop=keep;
+ if(modernEditionAnchor)modernRestoreEditionAnchor();
+};
+chooseVerse=function(n){
+ const found=modernSourceVerse(n);
+ if(!found)return;
+ if(modernRenderedBible!==state.bible)renderBible();
+ state.verse=Number(n);$('verse').value=String(n);
+ $('previous').disabled=n<=1;$('next').disabled=n>=Number(state.index?.verse_count||state.bible.verses.length);
+ setURL();modernUpdateHeader();
+};
+const modernStudyCard=document.createElement('div');modernStudyCard.id='modernStudyVerse';betaHeading.after(modernStudyCard);
+const modernCommentaryMenu=document.createElement('div');modernCommentaryMenu.id='modernCommentaryMenu';betaWordDetail.after(modernCommentaryMenu);
+function modernPlainVerse(){
+ const v=modernSourceVerse(modernStudyVerse);
+ modernStudyCard.replaceChildren();
+ if(v)modernStudyCard.textContent=displayVerseText(v);
+}
+function modernWordButton(token,row,index,request){
+ const btn=document.createElement('button');btn.type='button';btn.className='word-target';btn.textContent=token;btn.dataset.wordIndex=String(index);
+ btn.setAttribute('aria-label','Study '+token.replace(/[^\p{L}\p{N}']/gu,''));
+ btn.addEventListener('click',()=>{
+  if(btn.classList.contains('is-open')){btn.classList.remove('is-open');betaWordDetail.replaceChildren();return;}
+  for(const x of modernStudyCard.querySelectorAll('.word-target'))x.classList.remove('is-open');
+  btn.classList.add('is-open');betaWordDetail.replaceChildren();
+  const ids=row.strongs_ids||[];
+  if(ids[0])betaLexicon(ids[0],request);
+ });
+ return btn;
+}
+async function modernLoadAlignedWords(request){
+ if(!['ASV1901','WEBSTER1833'].includes(state.edition))return;
+ const bookIndex=BOOKS.findIndex(b=>b.code===state.book);
+ const sourceRepo=bookIndex<19?'SOTW-Original-Languages/original-language-resources':'SOTW-Original-Languages-2/original-language-resources';
+ const jsonUrl='https://raw.githubusercontent.com/'+sourceRepo+'/main/study-data/v1/chapters/'+state.book+'/'+String(state.chapter).padStart(2,'0')+'.json';
+ const verseId=state.book+'.'+state.chapter+'.'+modernStudyVerse;
+ const edition=state.edition;
+ try{
+  const evidence=await getJson(jsonUrl);
+  if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+  const rows=evidence?.verses?.[verseId]?.[edition]||[];
+  const byIndex=new Map();
+  for(const row of rows){
+   const idx=row.source_locator?.target_token_index_zero_based;
+   if(row.source_location_kind!=='source_verified_target_english_token_index_zero_based'||!Number.isInteger(idx)||!row.strongs_ids?.length)continue;
+   if(!byIndex.has(idx))byIndex.set(idx,row);
+  }
+  if(!byIndex.size)return;
+  const raw=displayVerseText(modernSourceVerse(modernStudyVerse)).replace(/^\s*[¶§]+\s*/u,'');
+  const parts=raw.match(/\s+|\S+/g)||[];
+  const normalized=x=>String(x||'').toLocaleLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
+  let tokenNumber=0;
+  const frag=document.createDocumentFragment();
+  for(const part of parts){
+   if(/^\s+$/.test(part)){frag.append(document.createTextNode(part));continue;}
+   const row=byIndex.get(tokenNumber);
+   if(row&&normalized(row.source_locator?.target_surface)===normalized(part)&&normalized(part)){
+    frag.append(modernWordButton(part,row,tokenNumber,request));
+   }else frag.append(document.createTextNode(part));
+   tokenNumber++;
+  }
+  modernStudyCard.replaceChildren(frag);
+ }catch{/* No verified association available. Leave Scripture readable without fabricated links. */}
+}
+renderVoices=function(){
+ const voices=$('voices');voices.replaceChildren();modernCommentaryMenu.replaceChildren();
+ if(!modernStudyVerse||!state.index)return;
+ const sources=[];
+ if(state.jacob.some(matchingJacob))sources.push({id:'jacob-lannom',name:'Jacob Lannom'});
+ const routes=state.index?.verse_routes?.[String(modernStudyVerse)]||{};
+ for(const [id,name] of HIST){
+  const sourceStatus=state.index?.authors?.find(a=>a.author_id===id);
+  if(sourceStatus?.source_unavailable)continue;
+  if(Array.isArray(routes[id])&&routes[id].length)sources.push({id,name});
+ }
+ if(!sources.length)return;
+ const head=document.createElement('h3');head.textContent='Commentary';modernCommentaryMenu.append(head);
+ for(const author of sources){
+  const btn=document.createElement('button');btn.type='button';btn.className='commentary-toggle';
+  btn.textContent=author.name+'  ▾';btn.setAttribute('aria-expanded','false');
+  btn.addEventListener('click',()=>{
+   const same=modernOpenAuthor===author.id;
+   modernOpenAuthor=same?'':author.id;
+   const generation=++state.generation;voices.replaceChildren();
+   for(const b of modernCommentaryMenu.querySelectorAll('.commentary-toggle')){
+    b.setAttribute('aria-expanded',String(!same&&b===btn));
+    const id=b.dataset.author;const name=sources.find(x=>x.id===id)?.name||'';
+    b.textContent=name+(b.getAttribute('aria-expanded')==='true'?'  ▴':'  ▾');
+   }
+   if(same)return;
+   if(author.id==='jacob-lannom')renderJacob();
+   else renderHistorical(author.id,author.name,generation);
+  });
+  btn.dataset.author=author.id;modernCommentaryMenu.append(btn);
+ }
+};
+betaOpen=function(){
+ if(!modernStudyVerse)return;
+ betaSection.scrollTop=0;document.body.classList.add('study-open');modernStudyRequest++;betaWordSeq=modernStudyRequest;
+ betaHeading.textContent=bookInfo().name+' '+state.chapter+':'+modernStudyVerse;
+ modernOpenAuthor='';
+ betaWordDetail.replaceChildren();betaWords.replaceChildren();modernPlainVerse();
+ renderVoices();modernLoadAlignedWords(modernStudyRequest);
+ const target=readerView.querySelector('[data-verse="'+modernStudyVerse+'"]');target?.classList.add('is-studying');
+};
+betaCloseSheet=function(){
+ document.body.classList.remove('study-open');modernStudyRequest++;betaWordSeq=modernStudyRequest;
+ modernStudyVerse=0;modernOpenAuthor='';betaWordDetail.replaceChildren();
+ for(const target of readerView.querySelectorAll('.is-studying'))target.classList.remove('is-studying');
+};
+/* Capture close clicks before legacy beta listeners so the selection always clears. */
+betaClose.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseSheet()},{capture:true});
+betaShade.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseSheet()},{capture:true});
+// A scroll without preceding human movement may be caused by browser focus,
+ // Playwright visibility or a verified Scripture jump. Do not treat it as
+ // a finger-scroll and accidentally suppress the next legitimate verse tap.
+readerView.addEventListener('pointerdown',e=>{
+ modernGesture.x=e.clientX;modernGesture.y=e.clientY;modernGesture.moved=false;
+ modernGesture.pointerDown=true;
+},{passive:true});
+readerView.addEventListener('pointermove',e=>{
+ if(!modernGesture.pointerDown)return;
+ if(Math.abs(e.clientX-modernGesture.x)>9||Math.abs(e.clientY-modernGesture.y)>9){
+  modernGesture.moved=true;modernGesture.lastHumanScroll=Date.now();
+ }
+},{passive:true});
+readerView.addEventListener('pointerup',()=>{modernGesture.pointerDown=false},{passive:true});
+readerView.addEventListener('pointercancel',()=>{modernGesture.pointerDown=false},{passive:true});
+readerView.addEventListener('touchmove',()=>{modernGesture.moved=true;modernGesture.lastHumanScroll=Date.now()},{passive:true});
+readerView.addEventListener('wheel',()=>{modernGesture.lastHumanScroll=Date.now()},{passive:true});
+readerView.addEventListener('scroll',()=>{
+ if(modernProgrammaticScroll||Date.now()-(modernGesture.lastHumanScroll||0)>400)return;
+ modernGesture.scrollTime=Date.now();modernGesture.moved=true;
+},{passive:true});
+readerView.addEventListener('click',e=>{
+ // The rotated-square commentary shortcut never opens normal verse tools.
+ if(e.target.closest('button.jacob-verse-marker'))return;
+ const node=e.target.closest('button.reader-verse');
+ if(!node||(e.detail!==0&&(modernGesture.moved||Date.now()-modernGesture.scrollTime<160)))return;
+ const n=Number(node.dataset.verse);if(!modernSourceVerse(n))return;
+ modernStudyVerse=n;chooseVerse(n);betaOpen();
+});
+/* Reader reference lookup v0.16.3: accept ordinary remembered references
+   such as "Gen 3 14", "Gen. 3:14", "1 Thess 2:3", or "John 3:16".
+   This does NOT change the current-chapter-only text search. */
+function modernParseReference(input){
+ const text=String(input||'').trim().replace(/\s+/gu,' ');
+ const m=text.match(/^(.+?)\s+(\d{1,3})(?:(?:\s*[:.,]\s*|\s+)(\d{1,3}))?\.?$/u);
+ if(!m)return null;
+ const normalize=s=>String(s).toLowerCase().replace(/[^a-z0-9]/g,'');
+ const key=normalize(m[1]);
+ const aliases={ge:'GEN',gn:'GEN',ps:'PSA',psalm:'PSA',
+   phil:'PHP',philem:'PHM',jn:'JHN',mt:'MAT',mk:'MRK',lk:'LUK',
+   song:'SNG',canticles:'SNG'};
+ let book=BOOKS.find(b=>normalize(b.name)===key||normalize(b.code)===key);
+ if(!book&&aliases[key])book=BOOKS.find(b=>b.code===aliases[key]);
+ if(!book&&key.length>=3){
+  const options=BOOKS.filter(b=>normalize(b.name).startsWith(key));
+  if(options.length===1)book=options[0];
+ }
+ const chapter=Number(m[2]),verse=Number(m[3]||1);
+ return book&&chapter>=1&&chapter<=book.chapterCount&&verse>=1&&verse<=176
+  ?{book,chapter,verse,hasVerse:!!m[3]}:null;
+}
+function modernSearchRender(){
+ searchResults.replaceChildren();const q=searchInput.value.trim().toLowerCase();if(!q)return;
+ const ref=modernParseReference(q);
+ if(ref){
+  const {book:b,chapter,verse,hasVerse}=ref;
+  const button=document.createElement('button');button.className='search-hit';button.type='button';
+  button.textContent='Open '+b.name+' '+chapter+(hasVerse?':'+verse:'');
+  button.addEventListener('click',async()=>{
+   // Check the published chapter index before navigation, so a non-existent
+   // verse is never silently changed into a different passage.
+   button.disabled=true;
+   try{
+    const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+chapter+'.json');
+    const count=Number(idx?.verse_count||0);
+    if(idx?.canonical_chapter!==b.code+'.'+chapter||count<1)throw Error('Unverified chapter index');
+    if(verse>count){
+     button.textContent=b.name+' '+chapter+' has '+count+' verses';button.disabled=false;return;
+    }
+    const trail=SOTWReaderTrail.capture('search');
+    searchInput.blur();searchModal.veil.classList.remove('is-open');
+    modernStudyVerse=0;betaCloseSheet();
+    const same=state.book===b.code&&state.chapter===chapter;
+    state.book=b.code;state.chapter=chapter;state.verse=verse;$('book').value=b.code;
+    if(!same)await loadBook();else chooseVerse(state.verse);
+    if(state.bible&&state.book===b.code&&state.chapter===chapter){modernJumpToVerse(state.verse);SOTWReaderTrail.commit(trail);}
+   }catch(_){button.textContent='Could not verify '+b.name+' '+chapter+'; try again';button.disabled=false;}
+  });searchResults.append(button);return;
+ }
+ const bookMatches=q.length<2?[]:BOOKS.filter(b=>b.name.toLowerCase().includes(q)||b.code.toLowerCase()===q).slice(0,5);
+ for(const b of bookMatches){
+  const button=document.createElement('button');button.className='search-hit';button.type='button';button.textContent=b.name;
+  button.addEventListener('click',async()=>{
+   const trail=SOTWReaderTrail.capture('search');
+   searchModal.veil.classList.remove('is-open');state.book=b.code;state.chapter=1;state.verse=1;
+   $('book').value=b.code;betaCloseSheet();await loadBook(true);
+   if(state.bible&&state.book===b.code&&state.chapter===1){readerView.scrollTop=0;SOTWReaderTrail.commit(trail);}
+  });
+  searchResults.append(button);
+ }
+ if(q.length>1){
+  const verses=(state.bible?.verses||[]).filter(v=>displayVerseText(v).toLowerCase().includes(q)).slice(0,8);
+  for(const v of verses){
+   const button=document.createElement('button');button.className='search-hit';button.type='button';
+   const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
+   const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
+   button.append(label,desc);button.addEventListener('click',()=>{
+    const trail=SOTWReaderTrail.capture('search');
+    searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
+    SOTWReaderTrail.commit(trail);
+   });
+   searchResults.append(button);
+  }
+ }
+}
+searchInput.addEventListener('input',modernSearchRender);
+searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&searchResults.firstElementChild)searchResults.firstElementChild.click()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil,moreModal.veil])x.classList.remove('is-open')}});
+if(betaSaved.theme==='light')document.body.classList.add('beta-light');
+modernUpdateHeader();
+
+
+/* v0.3: full-height study, selected word -> concise/full, commentary -> chooser -> author */
+const navLocation=$('readerLocation'),navContainer=document.createElement('div');
+navContainer.className='location-picker';
+navLocation.before(navContainer);navContainer.append(navLocation);
+const navArrow=document.createElement('button');navArrow.type='button';navArrow.id='readerNavToggle';
+navArrow.textContent='⌄';navArrow.setAttribute('aria-label','Navigate book chapter verse');
+navArrow.addEventListener('click',()=>openModal(navModal));navContainer.append(navArrow);
+const navEditionControl=document.querySelector('#readerNavModal .toolbar .control:nth-child(4)');
+if(navEditionControl)navEditionControl.hidden=true;
+
+let studyView='verse',currentLexical=null,activeAuthor=null,availableAuthors=[];
+const studyOverlay=document.createElement('div');studyOverlay.id='studyOverlay';
+const studyOverlayHeader=document.createElement('div');studyOverlayHeader.id='studyOverlayHeader';
+const studyOverlayBack=document.createElement('button');studyOverlayBack.id='studyOverlayBack';studyOverlayBack.type='button';studyOverlayBack.textContent='← Back';
+const studyOverlayTitle=document.createElement('span');studyOverlayTitle.id='studyOverlayTitle';
+const studyOverlayBody=document.createElement('div');studyOverlayBody.id='studyOverlayBody';
+studyOverlayHeader.append(studyOverlayBack,studyOverlayTitle);studyOverlay.append(studyOverlayHeader,studyOverlayBody);
+modernCommentaryMenu.before(studyOverlay);
+studyOverlayBody.append($('voices'));
+function openStudyLayer(view,title){
+ studyView=view;studyOverlay.classList.add('is-open');studyOverlayTitle.textContent=title;
+ studyOverlayBody.scrollTop=0;
+ if(view!=='author')studyOverlayBody.replaceChildren($('voices'));
+}
+function hideStudyLayer(){studyView='verse';studyOverlay.classList.remove('is-open');studyOverlayBody.replaceChildren($('voices'))}
+studyOverlayBack.addEventListener('click',()=>{
+ if(studyView==='author'){displayCommentaryChooser();return;}
+ hideStudyLayer();
+});
+/* Overwrite the beta's former full-scroll author cards with an availability-gated door */
+renderVoices=function(){
+ const voices=$('voices');voices.replaceChildren();modernCommentaryMenu.replaceChildren();
+ availableAuthors=[];modernOpenAuthor='';
+ if(!modernStudyVerse||!state.index)return;
+ const routes=state.index.verse_routes?.[String(modernStudyVerse)]||{};
+ const hasDirect=(state.jacob||[]).some(e=>jacobDirectAt(e,modernStudyVerse)&&e.commentary?.trim());
+ // Chapter introductions are at the chapter top, not repeated by every verse.
+ if(hasDirect)availableAuthors.push({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary'});
+ for(const [id,name] of HIST){
+  if(state.index.authors?.find(a=>a.author_id===id)?.source_unavailable)continue;
+  if(Array.isArray(routes[id])&&routes[id].length)availableAuthors.push({id,name,kind:'Historical Commentary'});
+ }
+ if(!availableAuthors.length)return;
+ const launch=document.createElement('button');launch.type='button';launch.className='study-launch';
+ const name=document.createElement('strong');name.textContent='Commentary';
+ const count=document.createElement('small');count.textContent=availableAuthors.length+' available  ›';
+ launch.append(name,count);
+ launch.addEventListener('click',()=>displayCommentaryChooser());
+ modernCommentaryMenu.append(launch);
+};
+function displayCommentaryChooser(){
+ if(!availableAuthors.length){hideStudyLayer();return}
+ openStudyLayer('choices','Available commentary');
+ const voices=$('voices');voices.replaceChildren();
+ const intro=document.createElement('p');intro.className='modern-panel-desc';intro.textContent='Select one author to read.';
+ studyOverlayBody.append(intro);
+ for(const author of availableAuthors){
+  const b=document.createElement('button');b.type='button';b.className='available-author';
+  const left=document.createElement('span');left.textContent=author.name;
+  const right=document.createElement('small');right.textContent=author.kind==='Pastoral Commentary'?'Pastoral':author.kind==='Chapter Introduction'?'Context ›':'Read ›';
+  b.append(left,right);b.addEventListener('click',()=>openAuthorCommentary(author));
+  studyOverlayBody.append(b);
+ }
+}
+function appendVisibleCommentary(container,text){
+ const t=String(text||'').trim();if(!t)return;
+ const parts=t.length>1050?splitCommentaryPreview(t,850):null;
+ const hasMore=!!(parts&&parts.remaining);
+ const preview=document.createElement('p');preview.className='copy';
+ preview.textContent=hasMore?parts.preview+'…':t;container.append(preview);
+ if(hasMore){
+  const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Continue reading';
+  const rest=document.createElement('div');rest.className='copy';rest.textContent=parts.remaining;
+  details.append(summary,rest);container.append(details);
+ }
+}
+function createVisibleAuthorCard(name,kind){
+ const c=voiceCard(name,kind==='Pastoral Commentary'?'jacob':'historic');
+ c.el.querySelector('.source-chip').textContent=kind;
+ $('voices').append(c.el);return c.body;
+}
+function openAuthorCommentary(author){
+ activeAuthor=author;openStudyLayer('author',author.name);
+ const voice=$('voices');studyOverlayBody.replaceChildren(voice);voice.replaceChildren();
+ const gen=++state.generation;const verseKey=state.book+'.'+state.chapter;
+ if(author.id==='jacob-lannom'){
+  const matches=state.jacob.filter(e=>(author.scopeKey?e.scopeKey===author.scopeKey:(jacobDirectAt(e,modernStudyVerse)||jacobChapterIntro(e)))&&
+    (!author.chapterOnly||e.scopeType==='CHAPTER_INTRODUCTION')&&
+    typeof e.commentary==='string'&&e.commentary.trim());
+  const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
+  if(!matches.length){
+   const note=document.createElement('p');note.className='modern-panel-desc';
+   note.textContent='No Jacob commentary is published for this selection.';
+   body.append(note);return;
+  }
+  const direct=matches.filter(e=>e.scopeType!=='CHAPTER_INTRODUCTION');
+  for(const entry of [...direct,...matches.filter(e=>e.scopeType==='CHAPTER_INTRODUCTION')]){
+   if(entry.scopeType==='CHAPTER_INTRODUCTION'&&direct.length){
+    const disclosure=document.createElement('details');
+    const summary=document.createElement('summary');summary.textContent='Chapter Intro';
+    const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
+    const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
+    disclosure.append(summary,heading);
+    appendJacobDoctrineBadge(disclosure,entry,gen);
+    disclosure.append(prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
+   }
+   if(entry.scopeType==='CHAPTER_INTRODUCTION'){
+    const scope=document.createElement('p');scope.className='jacob-scope-note';
+    scope.textContent='Chapter Intro · '+bookInfo().name+' '+state.chapter;body.append(scope);
+   }
+   const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
+   appendJacobDoctrineBadge(body,entry,gen);
+   appendVisibleCommentary(body,entry.commentary);
+   appendJacobScriptureReferences(body,entry);
+  }
+  return;
+ }
+ const inds=state.index?.verse_routes?.[String(modernStudyVerse)]?.[author.id]||[];
+ if(!inds.length)return;
+ const body=createVisibleAuthorCard(author.name,'Historical Commentary');
+ const loading=document.createElement('p');loading.className='modern-panel-desc';loading.textContent='Loading commentary…';body.append(loading);
+ const u=snapshotRoot()+'authors/'+author.id+'/'+state.book+'/'+state.chapter+'.json';
+ getJson(u).then(data=>{
+  if(gen!==state.generation||studyView!=='author'||activeAuthor?.id!==author.id)return;
+  loading.remove();if(data?.author_id!==author.id||data?.canonical_chapter!==verseKey)return;
+  for(const i of inds){
+   const entry=data.entries?.[i];
+   if(!entry||entry.reader_visible===false)continue;
+   const bodyText=content(entry);if(!bodyText)continue;
+   const title=document.createElement('h4');
+   title.textContent=formatPassageReference(entry.passage_start,entry.passage_end);
+   body.append(title);appendVisibleCommentary(body,bodyText);
+  }
+ }).catch(()=>{if(gen===state.generation)loading.textContent='Commentary could not be loaded.'});
+}
+function appendLexicalLine(container,heading,value){
+ const t=String(value||'').trim();if(!t)return;
+ const h=document.createElement('h4');h.textContent=heading;
+ const p=document.createElement('p');p.textContent=t;
+ container.append(h,p);
+}
+/* Display-only quick meaning; all underlying source text remains unchanged. */
+function sotwQuickDisplayMeaning(source,id){
+ if(id==='strongs:G2309')return 'Choose or prefer; wish or be inclined.';
+ const value=String(source||'').replace(/\s+/g,' ').trim();
+ if(value.length<=96)return value;
+ const first=value.match(/^.{18,95}?[.;!?](?=\s|$)/u);
+ if(first)return first[0];
+ const excerpt=value.slice(0,94).replace(/\s+\S*$/u,'').trim();
+ return excerpt?excerpt+'…':'';
+}
+function renderFullLexical(){
+ if(!currentLexical)return;
+ const {row,id,english}=currentLexical;
+ openStudyLayer('lexical','Full Strong’s entry');
+ const wrap=document.createElement('div');wrap.className='expanded-lexical';
+ const title=document.createElement('h3');title.textContent=english+' · '+id.replace('strongs:','');
+ const head=document.createElement('p');head.textContent=[row.headword,row.transliteration].filter(Boolean).join(' · ');
+ wrap.append(title,head);
+ appendLexicalLine(wrap,'Short definition',row.definitions?.concise_source_authored);
+ appendLexicalLine(wrap,'Derivation',row.definitions?.derivation_source_authored);
+ appendLexicalLine(wrap,'KJV renderings',row.definitions?.kjv_renderings_source_authored);
+ const longer=row.definitions?.numbered_expanded_source_authored||[];
+ if(Array.isArray(longer)&&longer.length)appendLexicalLine(wrap,'Additional lexical details',longer.join('\n'));
+ const supplemental=row.definitions?.supplemental_source_authored;
+ if(typeof supplemental==='string')appendLexicalLine(wrap,'Additional notes',supplemental);
+ studyOverlayBody.append(wrap);
+}
+/* Fetch only the selected word's linked Strong's entry. No raw Strong's list is displayed. */
+betaLexicon=async function(id,request,english){
+ const match=String(id).match(/^strongs:([HG])(\d+)$/);if(!match)return;
+ const language=match[1],num=Number(match[2]),first=Math.floor((num-1)/250)*250+1,last=Math.min(first+249,language==='H'?8674:5624);
+ const pad=n=>String(n).padStart(5,'0');
+ const u='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/'+language+'/'+language+pad(first)+'-'+pad(last)+'.json';
+ betaWordDetail.textContent='Loading word study…';
+ try{
+  const data=await getJson(u);
+  if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+  const row=data.entries?.['strongs:'+language+num]||data.entries?.[id];betaWordDetail.replaceChildren();if(!row)return;
+  currentLexical={row,id,english};
+  const label=document.createElement('span');label.className='word-summary-title';
+  label.textContent=english+'  ·  '+id.replace('strongs:','');
+  const original=document.createElement('span');original.className='word-summary-head';
+  original.textContent=row.headword||'';
+  const trans=document.createElement('span');trans.className='word-summary-meta';
+  trans.textContent=row.transliteration||'';
+  const short=document.createElement('p');short.className='word-summary-short';
+  short.textContent=sotwQuickDisplayMeaning(row.definitions?.concise_source_authored||'',id);
+  betaWordDetail.append(label,original,trans,short);
+  // Preserve all lexicon records, but do not expose expanded/copyright-sensitive prose here.
+  /* Noah Webster 1828 is a separate dictionary. Do not display an empty
+     lookup or substitute the Webster 1833 Bible for it. */
+ }catch{if(request===modernStudyRequest)betaWordDetail.replaceChildren()}
+};
+modernWordButton=function(token,row,index,request){
+ const btn=document.createElement('button');btn.type='button';btn.className='word-target';
+ btn.textContent=token;btn.dataset.wordIndex=String(index);
+ btn.setAttribute('aria-label','Study '+token.replace(/[^\p{L}\p{N}']/gu,''));
+ btn.addEventListener('click',()=>{
+  if(btn.classList.contains('is-open')){btn.classList.remove('is-open');currentLexical=null;betaWordDetail.replaceChildren();return}
+  for(const w of modernStudyCard.querySelectorAll('.word-target'))w.classList.remove('is-open');
+  btn.classList.add('is-open');currentLexical=null;betaWordDetail.replaceChildren();
+  if(row.strongs_ids?.[0])betaLexicon(row.strongs_ids[0],request,token);
+ });return btn;
+};
+const beforeOpen=betaOpen;
+betaOpen=function(){
+ currentLexical=null;activeAuthor=null;hideStudyLayer();
+ beforeOpen();
+};
+const beforeClose=betaCloseSheet;
+betaCloseSheet=function(){
+ hideStudyLayer();currentLexical=null;activeAuthor=null;++state.generation;beforeClose();
+};
+
+
+/* v0.4: reuse existing SOTW Webster 1828 dictionary lookup */
+const WEBSTER_1828_SOURCE='https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/webster1828.json';
+const WEBSTER_1828_LICENSE='https://github.com/SOTW-Original-Languages/original-language-resources/blob/main/LICENSE_WEBSTER_SOURCE.txt';
+let sotwWebsterData=null,sotwWebsterPending=null,websterActiveWord='';
+function normalizeWebsterHeadword(word){
+ return String(word||'').trim().replace(/[\u2018\u2019]/g,"'").replace(/\s+/g,' ').toLowerCase();
+}
+async function getSotwWebster1828(){
+ if(sotwWebsterData)return sotwWebsterData;
+ if(sotwWebsterPending)return sotwWebsterPending;
+ sotwWebsterPending=fetch(WEBSTER_1828_SOURCE).then(response=>{
+  if(!response.ok)throw Error('Dictionary HTTP '+response.status);
+  return response.json();
+ }).then(data=>{
+  if(!data||typeof data!=='object'||Array.isArray(data))throw Error('Unexpected Webster dictionary format');
+  sotwWebsterData=data;return data;
+ }).finally(()=>{sotwWebsterPending=null});
+ return sotwWebsterPending;
+}
+
+/* Only render an English dictionary affordance for a headword with an actual
+   definition in SOTW's published 1828 transcription. No guessed stemming. */
+function websterDefinitionsFor(english){
+ const key=normalizeWebsterHeadword(english);
+ const rows=key&&sotwWebsterData?sotwWebsterData[key]:null;
+ return Array.isArray(rows)?rows.filter(row=>Array.isArray(row)&&typeof row[1]==='string'&&row[1].trim().length>0):[];
+}
+function showWebsterDictionary(english){
+ const rows=websterDefinitionsFor(english);
+ if(!rows.length)return; // No empty/failed dictionary panels.
+ openStudyLayer('dictionary','Noah Webster · 1828');
+ // openStudyLayer retains #voices for future commentary. Remove all other
+ // previous study content; never leave a stale Loading message behind.
+ for(const child of Array.from(studyOverlayBody.children)){
+  if(child.id!=='voices')child.remove();
+ }
+ const heading=document.createElement('h3');heading.textContent=english;
+ heading.className='word-summary-head';studyOverlayBody.append(heading);
+ for(const row of rows){
+  const card=document.createElement('div');card.className='dictionary-entry';
+  const source=document.createElement('strong');source.textContent='Dictionary entry '+String(row[2]??'');
+  const definition=document.createElement('p');definition.textContent=row[1];
+  card.append(source,definition);studyOverlayBody.append(card);
+ }
+ const credit=document.createElement('p');credit.className='dictionary-license';
+ credit.append(document.createTextNode('Noah Webster (1828) · Digital transcription CC BY-SA 4.0 · '));
+ const license=document.createElement('a');license.href=WEBSTER_1828_LICENSE;license.target='_blank';
+ license.rel='noopener noreferrer';license.textContent='Source & license';
+ credit.append(license);studyOverlayBody.append(credit);
+}
+function offerWebster1828(english,request){
+ if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+ if(!websterDefinitionsFor(english).length)return;
+ if(betaWordDetail.querySelector('.webster-lookup'))return;
+ const btn=document.createElement('button');btn.type='button';btn.className='webster-lookup';
+ const name=document.createElement('span');name.textContent='Noah Webster’s Dictionary';
+ const meta=document.createElement('small');meta.textContent='1828  ›';
+ btn.append(name,meta);
+ btn.addEventListener('click',()=>showWebsterDictionary(english));
+ betaWordDetail.append(btn);
+}
+function selectWebsterEnglish(word,btn){
+ // Data availability is authoritative, not the presence of a button.
+ if(!websterDefinitionsFor(word).length)return;
+ if(btn.classList.contains('is-open')){
+  btn.classList.remove('is-open');websterActiveWord='';betaWordDetail.replaceChildren();return;
+ }
+ modernStudyCard.querySelectorAll('button.word-target.is-open,button.webster-word.is-open').forEach(x=>x.classList.remove('is-open'));
+ btn.classList.add('is-open');websterActiveWord=word;currentLexical=null;
+ betaWordDetail.replaceChildren();
+ const title=document.createElement('span');title.className='word-summary-title';
+ title.textContent='English word · '+word;betaWordDetail.append(title);
+ offerWebster1828(word,modernStudyRequest);
+}
+function addEnglishWordTargets(){
+ // Leave Scripture plain until the dictionary is successfully loaded.
+ // Words without entries are never clickable for Webster.
+ if(!document.body.classList.contains('study-open')||!sotwWebsterData)return;
+ for(const textNode of Array.from(modernStudyCard.childNodes)){
+  if(textNode.nodeType!==3)continue;
+  const parts=(textNode.nodeValue||'').match(/[\p{L}]+(?:['\u2019][\p{L}]+)*|[^\p{L}]+/gu);
+  if(!parts)continue;
+  const fragment=document.createDocumentFragment();
+  for(const part of parts){
+   if(!/^\p{L}/u.test(part)||!websterDefinitionsFor(part).length){
+    fragment.append(document.createTextNode(part));continue;
+   }
+   const btn=document.createElement('button');btn.type='button';btn.className='webster-word';
+   btn.textContent=part;btn.setAttribute('aria-label','Read Noah Webster 1828 entry for '+part);
+   btn.addEventListener('click',()=>selectWebsterEnglish(part,btn));
+   fragment.append(btn);
+  }
+  textNode.replaceWith(fragment);
+ }
+}
+const plainVerseBeforeWebster=modernPlainVerse;
+modernPlainVerse=function(){plainVerseBeforeWebster();addEnglishWordTargets();};
+const alignBeforeWebster=modernLoadAlignedWords;
+modernLoadAlignedWords=async function(request){
+ await alignBeforeWebster(request);
+ if(request===modernStudyRequest&&document.body.classList.contains('study-open'))addEnglishWordTargets();
+};
+const lexiconBeforeWebster=betaLexicon;
+betaLexicon=async function(id,request,english){
+ await lexiconBeforeWebster(id,request,english);
+ if(request!==modernStudyRequest||!document.body.classList.contains('study-open'))return;
+ if(currentLexical?.english!==english)return;
+ if(sotwWebsterData){offerWebster1828(english,request);}
+ else{
+  getSotwWebster1828().then(()=>{
+   if(request===modernStudyRequest&&currentLexical?.english===english&&document.body.classList.contains('study-open'))
+    offerWebster1828(english,request);
+  }).catch(()=>{});
+ }
+};
+const openBeforeWebster=betaOpen;
+betaOpen=function(){
+ websterActiveWord='';openBeforeWebster();
+ const request=modernStudyRequest;
+ // Start one lazy, shared dictionary request on the first verse study.
+ // Only decorate words whose exact dictionary records are present.
+ if(sotwWebsterData){addEnglishWordTargets();}
+ else getSotwWebster1828().then(()=>{
+  if(request===modernStudyRequest&&document.body.classList.contains('study-open'))addEnglishWordTargets();
+ }).catch(()=>{/* Missing dictionary does not produce an empty UI item. */});
+};
+
+
+/* v0.5 anchored navigation and evidence-scoped doctrine tags */
+function positionPassageDropdown(){
+ const target=navContainer.getBoundingClientRect();
+ const width=Math.min(432,Math.max(280,window.innerWidth-24));
+ const left=Math.max(12,Math.min(Math.round(target.left),window.innerWidth-width-12));
+ const top=Math.max(58,Math.min(Math.round(target.bottom+7),window.innerHeight-160));
+ navModal.veil.style.setProperty('--passage-nav-top',top+'px');
+ navModal.veil.style.setProperty('--passage-nav-left',left+'px');
+ navModal.veil.style.setProperty('--passage-nav-height',Math.max(125,window.innerHeight-top-12)+'px');
+}
+for(const control of [navLocation,navArrow]){
+ control.addEventListener('click',positionPassageDropdown);
+}
+window.addEventListener('resize',()=>{if(navModal.veil.classList.contains('is-open'))positionPassageDropdown()});
+navModal.veil.addEventListener('click',event=>{
+ if(event.target===navModal.veil)event.stopImmediatePropagation();
+},true); // Dimmed reader remains behind navigation until Read passage or explicit Close.
+/* Existing limited, evidence-scoped doctrine display index:
+   never infer a doctrine from matching keywords or extend its verse scope.
+   Accepted Jacob commentary remains read-only. */
+const doctrineIndexPath='./data/verse-doctrine-tags.v1.json';
+let doctrineIndexPromise=null;
+function loadDoctrineIndex(){
+ if(!doctrineIndexPromise)doctrineIndexPromise=getJson(doctrineIndexPath).catch(e=>{doctrineIndexPromise=null;throw e});
+ return doctrineIndexPromise;
+}
+function appendJacobDoctrineBadge(parent,entry,generation){
+ // Reserve the correct location immediately under THIS accepted entry title.
+ // The empty slot stays invisible when no evidence-backed mapping exists.
+ const slot=document.createElement('div');slot.className='jacob-doctrine';slot.hidden=true;
+ parent.append(slot);
+ loadDoctrineIndex().then(data=>{
+  if(data?.schema!=='sotw-reader-verse-doctrine-display-v1'||!Array.isArray(data.entries)||
+     !slot.isConnected||generation!==state.generation||
+     studyView!=='author'||activeAuthor?.id!=='jacob-lannom')return;
+  // For accepted direct exposition the source scope must match exactly.
+  // An explicitly scoped chapter-context theme may be displayed with its
+  // narrower passage scope identified, never as a whole-chapter doctrine.
+  const matches=data.entries.filter(tag=>
+   tag&&typeof tag.scopeKey==='string'&&typeof tag.display==='string'&&
+   (tag.evidenceScopeKey||tag.scopeKey)===entry.scopeKey&&
+   (!tag.evidenceScopeType||tag.evidenceScopeType===entry.scopeType)&&
+   (tag.evidenceScopeKey?tag.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT':tag.scopeKey===entry.scopeKey)
+  ).slice(0,3);
+  if(!matches.length)return;
+  for(const tag of matches){
+   const caption=document.createElement('span');caption.className='jacob-doctrine-caption';
+   caption.textContent=tag.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT'
+    ?'Passage theme · '+formatScope(tag.scopeKey)
+    :'Doctrine & study terms';
+   const line=document.createElement('div');line.className='jacob-doctrine-line';
+   const badge=document.createElement('span');badge.className='jacob-doctrine-badge';
+   badge.textContent=tag.display;
+   line.append(badge);
+   if(tag.formal){
+    const formal=document.createElement('span');formal.className='jacob-doctrine-formal';
+    formal.textContent=tag.formal;line.append(formal);
+   }
+   slot.append(caption,line);
+   if(Array.isArray(tag.aliases)&&tag.aliases.length){
+    const aliases=document.createElement('p');aliases.className='jacob-doctrine-aliases';
+    aliases.textContent='Related terms: '+tag.aliases.slice(0,4).join(' · ');
+    slot.append(aliases);
+   }
+   if(tag.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT'){
+    const note=document.createElement('p');note.className='jacob-doctrine-scope';
+    note.textContent='From chapter context, not a separate verse-by-verse exposition.';
+    slot.append(note);
+   }
+  }
+  slot.hidden=false;
+ }).catch(()=>{/* No validated mapping means no badge; never invent one. */});
+}
+</script>
+<script src="./asv-facsimile.js?v=20261117-reader13"></script>
+<script>
+
+/* v0.7 translation-anchored dropdown matching passage navigation */
+function positionEditionDropdown(){
+ const trigger=document.getElementById('readerEdition').getBoundingClientRect();
+ const width=Math.min(390,Math.max(250,window.innerWidth-24));
+ const right=Math.max(12,Math.min(Math.round(window.innerWidth-trigger.right),window.innerWidth-width-12));
+ const top=Math.max(58,Math.min(Math.round(trigger.bottom+7),window.innerHeight-160));
+ editionModal.veil.style.setProperty('--edition-nav-top',top+'px');
+ editionModal.veil.style.setProperty('--edition-nav-right',right+'px');
+ editionModal.veil.style.setProperty('--edition-nav-height',Math.max(125,window.innerHeight-top-12)+'px');
+}
+document.getElementById('readerEdition').addEventListener('click',positionEditionDropdown,{capture:true});
+window.addEventListener('resize',()=>{
+ if(editionModal.veil.classList.contains('is-open'))positionEditionDropdown();
+});
+editionModal.veil.addEventListener('click',event=>{
+ if(event.target===editionModal.veil)event.stopImmediatePropagation();
+},true);
+</script>
+<script src="./study-ux-repair.js?v=20261118-reader166"></script>
+<script src="./discovery-integrations.js?v=20261118-discovery6"></script>
+<script src="./reader-return.js?v=20261118-return1"></script>
+<script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
+<script src="./reader-trail.js?v=20261119-trail2"></script>
+</body>
+</html>

@@ -24,6 +24,10 @@ on:
       - "api/jacob-lannom/v1/current-commentary.json"
       - "mobile-bible-beta/discovery-integrations.css"
       - "mobile-bible-beta/sw.js"
+      - "mobile-bible-beta/icons/**"
+      - "mobile-bible-beta/manifest.webmanifest"
+      - "mobile-bible-sotw/**"
+      - "mobile-bible-beta/tests/pwa-brands.test.cjs"
       - "mobile-bible-beta/tests/discovery-integration.test.cjs"
       - ".github/workflows/reader-discovery-smoke.yml"
 
@@ -52,8 +56,11 @@ jobs:
           node --check mobile-bible-beta/tests/jacob-doctrine.test.cjs
           node --check mobile-bible-beta/tests/jacob-scripture-links.test.cjs
           node --check mobile-bible-beta/tests/discovery-integration.test.cjs
+          node --check mobile-bible-beta/tests/pwa-brands.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates
         run: node mobile-bible-beta/tests/discovery-integration.test.cjs
+      - name: Verify separate CGBC and SOTW Study Bible PWA icons and manifests
+        run: node mobile-bible-beta/tests/pwa-brands.test.cjs
       - name: Published Jacob Scripture-link safety, scope and navigation contract
         run: node mobile-bible-beta/tests/jacob-scripture-links.test.cjs
       - name: Published Jacob author/book/topic search and marker-first navigation
