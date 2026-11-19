@@ -371,22 +371,25 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta #readerNavModal .toolbar .control:nth-child(4){display:none!important}
 .mobile-beta #readerNavModal .modern-primary{margin-top:14px}
 .mobile-beta.beta-light #readerNavModal .modal-content{background:#fafbf9!important;color:#253d46!important;border-color:#afc4c9!important}
-.mobile-beta #doctrineTags[hidden]{display:none!important}
-.mobile-beta #doctrineTags{flex:0 0 auto;display:flex;flex-direction:column;gap:7px;
- margin:1px 0 13px;padding:10px 12px 11px;background:#1d313a;
- border:1px solid #3c5762;border-radius:12px;color:#dce9ee}
-.mobile-beta #doctrineTags .doctrine-caption{font:700 10px system-ui;letter-spacing:.1em;
- text-transform:uppercase;color:#9cbbc6}
-.mobile-beta #doctrineTags .doctrine-main{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
-.mobile-beta #doctrineTags .doctrine-primary{font:650 13px system-ui;background:#304c56;
- color:#e4f4f7;border-radius:999px;border:1px solid #67939e;padding:5px 10px}
-.mobile-beta #doctrineTags .doctrine-formal{font:600 11px system-ui;color:#bad2da}
-.mobile-beta #doctrineTags .doctrine-aliases{font:12px/1.45 system-ui;color:#b9cbd1;white-space:normal}
-.mobile-beta.beta-light #doctrineTags{background:#eff5f3;border-color:#b8cfce;color:#29424a}
-.mobile-beta.beta-light #doctrineTags .doctrine-caption{color:#627d83}
-.mobile-beta.beta-light #doctrineTags .doctrine-primary{background:#dcecea;border-color:#88acb2;color:#22434b}
-.mobile-beta.beta-light #doctrineTags .doctrine-formal,.mobile-beta.beta-light #doctrineTags .doctrine-aliases{color:#4b6872}
-
+/* Jacob's accepted doctrine/study-term labels belong on his commentary
+   entry only, not above every Scripture verse or historical source. */
+.mobile-beta .jacob-doctrine[hidden]{display:none!important}
+.mobile-beta .jacob-doctrine{margin:8px 0 13px;padding:9px 10px;background:#1d313a;
+ border:1px solid #3c5762;border-radius:10px;color:#dce9ee}
+.mobile-beta .jacob-doctrine-caption{display:block;font:600 11px/1.3 system-ui;
+ color:#9cbbc6;margin-bottom:6px}
+.mobile-beta .jacob-doctrine-line{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.mobile-beta .jacob-doctrine-badge{display:inline-block;border:1px solid #76959c;
+ border-radius:999px;background:#304c56;color:#e4f4f7;padding:4px 9px;font:600 12px/1.35 system-ui}
+.mobile-beta .jacob-doctrine-formal{font:500 11px/1.4 system-ui;color:#bad2da}
+.mobile-beta .jacob-doctrine-aliases,.mobile-beta .jacob-doctrine-scope{
+ margin:5px 0 0;font:12px/1.45 system-ui;color:#b9cbd1}
+.mobile-beta.beta-light .jacob-doctrine{background:#eff5f3;border-color:#b8cfce;color:#29424a}
+.mobile-beta.beta-light .jacob-doctrine-badge{background:#dcecea;border-color:#88acb2;color:#22434b}
+.mobile-beta.beta-light .jacob-doctrine-caption,
+.mobile-beta.beta-light .jacob-doctrine-formal,
+.mobile-beta.beta-light .jacob-doctrine-aliases,
+.mobile-beta.beta-light .jacob-doctrine-scope{color:#4b6872}
 
 /* v0.7 translation chooser anchored to the upper-right edition button */
 .mobile-beta #readerEditionModal{position:fixed!important;inset:0!important;z-index:160!important;
@@ -581,7 +584,7 @@ async function renderVoices(){const generation=++state.generation;const v=$('voi
 function chooseVerse(n){const max=Math.max(1,Number(state.index?.verse_count||state.bible?.verses?.length||1));if(n<1||n>max)return;state.verse=n;$('verse').value=String(n);$('previous').disabled=n===1;$('next').disabled=n===max;setURL();renderBible();renderVoices();setStatus(`${formatScope(state.book+'.'+state.chapter+'.'+state.verse)} · ${EDITIONS[state.edition][0]} · historic reader v3 indexes`)}
 async function loadChapter(resetVerse=false){const request=++chapterRequest;const edition=state.edition;const b=bookInfo();const initial=state.chapter;const statusLabel=b.name+' '+state.chapter;setStatus('Loading '+statusLabel+' source indexes and translation…');$('voices').replaceChildren();state.index=null;state.bible=null;const root=snapshotRoot(b);try{const [idx,bib]=await Promise.all([getJson(root+`index/${state.book}/${state.chapter}.json`),getJson(pathForEdition())]);if(request!==chapterRequest||state.chapter!==initial||bookInfo().code!==b.code||edition!==state.edition)return;if(idx.canonical_chapter!==`${state.book}.${state.chapter}`||bib.book_code!==state.book||bib.chapter!==state.chapter||bib.edition_id!==state.edition)throw Error('A source identity check failed. No text was substituted.');state.index=idx;state.bible=bib;const max=Number(idx.verse_count)||bib.verses.length;state.verse=resetVerse?1:Math.max(1,Math.min(max,state.verse));fillNumbers($('verse'),max,state.verse);chooseVerse(state.verse);if(typeof modernApplyPendingJump==='function')modernApplyPendingJump()}catch(e){if(request!==chapterRequest)return;setStatus('Could not load '+statusLabel+': '+e.message,true);$('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
 async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(m.snapshot_id!==b.snapshot||!m.books?.includes(b.code))throw Error('Unexpected book manifest');const publishedCount=m.chapter_verse_count?Object.keys(m.chapter_verse_count).length:Number(m.counts?.chapters);if(!Number.isInteger(publishedCount)||publishedCount!==b.chapterCount)throw Error('Unverified book chapter count');count=publishedCount}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
-async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();if(document.body.classList.contains('study-open')&&typeof showVerseDoctrineTags==='function')showVerseDoctrineTags();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
+async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
 async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index){renderVoices();if(!document.body.classList.contains('study-open'))modernJumpToVerse(state.verse)}}
 $('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
 $('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
@@ -1180,13 +1183,16 @@ function openAuthorCommentary(author){
     const summary=document.createElement('summary');summary.textContent='Chapter Intro';
     const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
     const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
-    disclosure.append(summary,heading,prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
+    disclosure.append(summary,heading);
+    appendJacobDoctrineBadge(disclosure,entry,gen);
+    disclosure.append(prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
    }
    if(entry.scopeType==='CHAPTER_INTRODUCTION'){
     const scope=document.createElement('p');scope.className='jacob-scope-note';
     scope.textContent='Chapter Intro · '+bookInfo().name+' '+state.chapter;body.append(scope);
    }
    const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
+   appendJacobDoctrineBadge(body,entry,gen);
    appendVisibleCommentary(body,entry.commentary);
    appendJacobScriptureReferences(body,entry);
   }
@@ -1436,63 +1442,62 @@ window.addEventListener('resize',()=>{if(navModal.veil.classList.contains('is-op
 navModal.veil.addEventListener('click',event=>{
  if(event.target===navModal.veil)event.stopImmediatePropagation();
 },true); // Dimmed reader remains behind navigation until Read passage or explicit Close.
-const doctrineTags=document.createElement('div');doctrineTags.id='doctrineTags';doctrineTags.hidden=true;
-betaHeading.after(doctrineTags);
+/* Existing limited, evidence-scoped doctrine display index:
+   never infer a doctrine from matching keywords or extend its verse scope.
+   Accepted Jacob commentary remains read-only. */
 const doctrineIndexPath='./data/verse-doctrine-tags.v1.json';
 let doctrineIndexPromise=null;
 function loadDoctrineIndex(){
  if(!doctrineIndexPromise)doctrineIndexPromise=getJson(doctrineIndexPath).catch(e=>{doctrineIndexPromise=null;throw e});
  return doctrineIndexPromise;
 }
-function entryCoversVerse(entry,book,chapter,verse){
- const match=String(entry.scopeKey||'').match(/^([1-3]?[A-Z]{2,3})\.(\d+)\.(\d+)(?:-(\d+))?$/);
- if(!match||match[1]!==book||Number(match[2])!==chapter)return false;
- return verse>=Number(match[3])&&verse<=Number(match[4]||match[3]);
-}
-async function showVerseDoctrineTags(){
- doctrineTags.replaceChildren();doctrineTags.hidden=true;
- if(!modernStudyVerse)return;
- const selected=modernStudyVerse,book=state.book,chapter=state.chapter,request=modernStudyRequest;
- try{
-  const data=await loadDoctrineIndex();
-  if(request!==modernStudyRequest||!document.body.classList.contains('study-open')||modernStudyVerse!==selected||
-     state.book!==book||state.chapter!==chapter||data.schema!=='sotw-reader-verse-doctrine-display-v1')return;
-  const matches=(data.entries||[]).filter(entry=>
-    entryCoversVerse(entry,book,chapter,selected) &&
-    state.jacob.some(x=>
-      x.scopeKey===(entry.evidenceScopeKey||entry.scopeKey) &&
-      (!entry.evidenceScopeType||x.scopeType===entry.evidenceScopeType) &&
-      typeof x.commentary==='string' && x.commentary.trim().length>0
-    )
-  );
+function appendJacobDoctrineBadge(parent,entry,generation){
+ // Reserve the correct location immediately under THIS accepted entry title.
+ // The empty slot stays invisible when no evidence-backed mapping exists.
+ const slot=document.createElement('div');slot.className='jacob-doctrine';slot.hidden=true;
+ parent.append(slot);
+ loadDoctrineIndex().then(data=>{
+  if(data?.schema!=='sotw-reader-verse-doctrine-display-v1'||!Array.isArray(data.entries)||
+     !slot.isConnected||generation!==state.generation||
+     studyView!=='author'||activeAuthor?.id!=='jacob-lannom')return;
+  // For accepted direct exposition the source scope must match exactly.
+  // An explicitly scoped chapter-context theme may be displayed with its
+  // narrower passage scope identified, never as a whole-chapter doctrine.
+  const matches=data.entries.filter(tag=>
+   tag&&typeof tag.scopeKey==='string'&&typeof tag.display==='string'&&
+   (tag.evidenceScopeKey||tag.scopeKey)===entry.scopeKey&&
+   (!tag.evidenceScopeType||tag.evidenceScopeType===entry.scopeType)&&
+   (tag.evidenceScopeKey?tag.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT':tag.scopeKey===entry.scopeKey)
+  ).slice(0,3);
   if(!matches.length)return;
-  const caption=document.createElement('span');caption.className='doctrine-caption';
-  caption.textContent=matches.some(e=>e.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT')?'Passage theme and study terms':'Doctrine and study terms';doctrineTags.append(caption);
-  for(const entry of matches.slice(0,3)){
-   const row=document.createElement('div');row.className='doctrine-main';
-   const plain=document.createElement('span');plain.className='doctrine-primary';plain.textContent=entry.display;
-   const formal=document.createElement('span');formal.className='doctrine-formal';formal.textContent=entry.formal;
-   row.append(plain,formal);doctrineTags.append(row);
-   if(entry.aliases?.length){
-    const aliases=document.createElement('div');aliases.className='doctrine-aliases';
-    aliases.textContent='Related terms: '+entry.aliases.slice(0,4).join(' · ');
-    doctrineTags.append(aliases);
+  for(const tag of matches){
+   const caption=document.createElement('span');caption.className='jacob-doctrine-caption';
+   caption.textContent=tag.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT'
+    ?'Passage theme · '+formatScope(tag.scopeKey)
+    :'Doctrine & study terms';
+   const line=document.createElement('div');line.className='jacob-doctrine-line';
+   const badge=document.createElement('span');badge.className='jacob-doctrine-badge';
+   badge.textContent=tag.display;
+   line.append(badge);
+   if(tag.formal){
+    const formal=document.createElement('span');formal.className='jacob-doctrine-formal';
+    formal.textContent=tag.formal;line.append(formal);
+   }
+   slot.append(caption,line);
+   if(Array.isArray(tag.aliases)&&tag.aliases.length){
+    const aliases=document.createElement('p');aliases.className='jacob-doctrine-aliases';
+    aliases.textContent='Related terms: '+tag.aliases.slice(0,4).join(' · ');
+    slot.append(aliases);
+   }
+   if(tag.evidenceLevel==='PASSAGE_THEME_IN_CHAPTER_CONTEXT'){
+    const note=document.createElement('p');note.className='jacob-doctrine-scope';
+    note.textContent='From chapter context, not a separate verse-by-verse exposition.';
+    slot.append(note);
    }
   }
-  doctrineTags.hidden=false;
- }catch{/* No matching, validated doctrine coverage; never invent a tag. */}
+  slot.hidden=false;
+ }).catch(()=>{/* No validated mapping means no badge; never invent one. */});
 }
-const betaOpenBeforeDoctrine=betaOpen;
-betaOpen=function(){
- betaOpenBeforeDoctrine();
- showVerseDoctrineTags();
-};
-const betaCloseBeforeDoctrine=betaCloseSheet;
-betaCloseSheet=function(){
- doctrineTags.replaceChildren();doctrineTags.hidden=true;
- betaCloseBeforeDoctrine();
-};
-
 </script>
 <script src="./asv-facsimile.js?v=20261117-reader13"></script>
 <script>
