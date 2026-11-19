@@ -2,6 +2,7 @@ name: SOTW reader Topics, BSB and Jacob source QA
 
 on:
   workflow_dispatch:
+  pull_request:
   push:
     paths:
       - "mobile-bible-beta/index.html"
