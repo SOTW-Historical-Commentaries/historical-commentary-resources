@@ -6,9 +6,8 @@
     betaHeading.setAttribute('aria-label',bookInfo().name+' chapter '+state.chapter+', verse '+modernStudyVerse);
   };
 
-  // Move the single collapsed Commentary chooser next to the Scripture text,
-  // rather than leaving it pinned at the foot of a mostly empty viewport.
-  doctrineTags.after(modernCommentaryMenu);
+  // Doctrine tags belong on evidence-matched Jacob commentary entries,
+  // not as a separate generic verse-study widget.
   const languageButton=document.createElement('button');
   languageButton.id='originalLanguageEntry';
   languageButton.type='button';
@@ -437,16 +436,14 @@
   }
   languageButton.addEventListener('click',renderSourceList);
 
-  /* Requested visual order: passage, supported doctrine/aliases, verse,
-     selected word lexical detail, optional original source forms/facsimile,
-     and Commentary last. A single scrolling content region prevents the
-     bottom panel from clipping lexical definitions on small iPhones. */
+  /* Passage, verse, selected word lexical detail, optional source forms,
+     then Commentary. Jacob doctrine/aliases are nested inside Jacob's
+     own commentary entry instead of this shared study region. */
   const studyScroll=document.createElement('div');
   studyScroll.id='studyBodyScroll';
   betaSection.querySelector('.tools').after(studyScroll);
   const order=[
     betaHeading,
-    doctrineTags,
     modernStudyCard,
     betaWords,
     betaWordDetail,
