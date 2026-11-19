@@ -13,7 +13,9 @@ css.textContent=[
  '.mobile-beta #sotwTrail{display:flex;max-width:100%;width:max-content;min-height:29px;margin-top:5px;align-items:stretch;border:1px solid #56747b;border-radius:999px;background:#233940;color:#d9e9ed;overflow:hidden}',
  '.mobile-beta #sotwTrail[hidden]{display:none!important}',
  '.mobile-beta #sotwTrailOpen,.mobile-beta #sotwTrailDismiss{border:0;background:transparent;color:inherit;cursor:pointer;font:600 12px/1.25 system-ui}',
- '.mobile-beta #sotwTrailOpen{min-width:0;max-width:min(280px,73vw);padding:7px 10px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}',
+ '.mobile-beta #sotwTrailOpen{display:inline-flex;align-items:center;gap:6px;min-width:0;max-width:min(280px,73vw);padding:7px 10px;white-space:nowrap;overflow:hidden}',
+ '.mobile-beta #sotwTrailOpen svg{width:13px;height:13px;flex:none}',
+ '.mobile-beta #sotwTrailOpen .sotw-trail-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
  '.mobile-beta #sotwTrailDismiss{border-left:1px solid #587078;padding:4px 11px;min-width:32px;font-size:16px}',
  '.mobile-beta #sotwTrail button:focus-visible{outline:3px solid #dfa94f;outline-offset:-3px}',
  '.mobile-beta .discovery-back-search{display:block;width:100%;margin:10px 0 13px;padding:11px 12px;text-align:left;border:1px solid #66848b;border-radius:9px;background:#2b444a;color:#dff0f2;font:600 13px system-ui;cursor:pointer}',
@@ -24,6 +26,9 @@ css.textContent=[
 document.head.append(css);
 const group=document.createElement('div');group.id='sotwTrail';group.hidden=true;
 const open=document.createElement('button');open.id='sotwTrailOpen';open.type='button';
+// Match Back to Scripture's left chevron, not a curved return glyph.
+open.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m15 18-6-6 6-6"/></svg>';
+const openLabel=document.createElement('span');openLabel.className='sotw-trail-label';open.append(openLabel);
 const dismiss=document.createElement('button');dismiss.id='sotwTrailDismiss';dismiss.type='button';
 dismiss.textContent='×';dismiss.setAttribute('aria-label','Dismiss last exploration return');
 group.append(open,dismiss);
@@ -47,7 +52,7 @@ function topicSnapshot(){
 function capture(type){return type==='topic'?topicSnapshot():searchSnapshot();}
 function paint(){
  group.hidden=!last;
- if(last){open.textContent='↩ Back to '+last.label;
+ if(last){openLabel.textContent='Back to '+last.label;
   open.setAttribute('aria-label','Return to previous '+last.label);}
 }
 function commit(snapshot){
