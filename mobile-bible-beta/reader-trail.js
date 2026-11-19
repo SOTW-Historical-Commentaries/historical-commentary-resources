@@ -16,6 +16,8 @@ css.textContent=[
  '.mobile-beta #sotwTrailOpen{min-width:0;max-width:min(280px,73vw);padding:7px 10px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}',
  '.mobile-beta #sotwTrailDismiss{border-left:1px solid #587078;padding:4px 11px;min-width:32px;font-size:16px}',
  '.mobile-beta #sotwTrail button:focus-visible{outline:3px solid #dfa94f;outline-offset:-3px}',
+ '.mobile-beta .discovery-back-search{display:block;width:100%;margin:10px 0 13px;padding:11px 12px;text-align:left;border:1px solid #66848b;border-radius:9px;background:#2b444a;color:#dff0f2;font:600 13px system-ui;cursor:pointer}',
+ '.mobile-beta.beta-light .discovery-back-search{background:#e8f2ef;color:#2b4b52;border-color:#adc6c8}',
  '.mobile-beta.beta-light #sotwTrail{background:#e7f1ee;color:#294750;border-color:#abc7c9}',
  '.mobile-beta.beta-light #sotwTrailDismiss{border-color:#abc7c9}'
 ].join('');
