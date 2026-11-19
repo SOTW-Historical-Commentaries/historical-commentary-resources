@@ -13,6 +13,16 @@
 **Precedence:** This Thread 6 owner instruction supersedes *earlier SOTW Reader release-process notes* that required a separate approval merely to push already-authorized, tested reader work to `main`. It does not supersede data provenance/rights or CGBC's separate production restrictions. Keep this policy at the top of the Startup Guide, Progress Ledger, and Living Google Handoff so future threads see it first.
 
 
+## 2026-11-19 | BACK TO LAST USES SAME SIMPLE CHEVRON AS BACK TO SCRIPTURE | MERGED MAIN
+
+**Owner iPhone visual request:** The curved Unicode `↩` in the new Back to Topic/Search pill looked inconsistent with the existing **Back to Scripture** control. Use the identical simple left chevron (`<` visual) and retain the explicit × dismissal.
+
+**Narrow UI-only update:** The trail control now uses the **exact same inline SVG path** (`m15 18-6-6 6-6`), 13px icon size, and compact icon/text alignment as the original Scripture return. No changes to target, query, expanded Nave topic sections, saved scroll position, single-context lifetime, or dismissal. Script query updated to `reader-trail.js?v=20261119-trail2`; PWA cache advanced from `v0182` to `v0183` so the changed icon is picked up by installed mobile clients.
+
+**Release:** Owner-authorized [PR #6](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/6) merged into `main` at `de8f7d201b687556f84a73299e8c147168a4c311`. [Source/integrity tests PASS](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44556401940), [390px Chromium browser tests PASS](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44556401857), including exact SVG path parity, topic/search round-trip and dismiss, doctrine/aliases, historical topics, BSB/Strong's, Jacob and Exodus back-return. Main readback confirmed `reader-trail.js` SVG and cache `v0183`.
+
+**Safety/verification:** Previous `main` `0a20c12a60dc0064b179b29cbf73646ee24386f9` is preserved identically at `safety/pre-back-chevron-20261119-0a20c12a`. No source-text, Jacob JSON, historical master, SPP, CGBC, taxonomy, licenses or rights changes. Independent public GitHub Pages HTTP retrieval was inaccessible in this session; do not claim Pages deployment or physical iPhone Safari acceptance passed solely from merge/browser CI. Standing Thread 6 tested-direct-to-main policy remains controlling.
+
 ## 2026-11-18 | DISMISSIBLE BACK TO LAST TOPIC/SEARCH | MERGED MAIN, QA PASS
 
 **Owner field report:** Navigating from a verse into Nave/Torrey topics and then following a cited verse returns to Scripture, but loses the interesting topic/subsection. Likewise, opening a search result and deciding to inspect a different one forces retyping. Owner asked for a genuine contextual previous-view return without permanently cluttering the reader.
