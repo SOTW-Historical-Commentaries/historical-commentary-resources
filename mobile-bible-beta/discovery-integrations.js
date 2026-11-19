@@ -97,9 +97,23 @@ function sourceLink(parent){
 const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
 detail.panel.classList.add('discovery-dialog');
 function showDetail(heading){
+ // A topic opened from search retains a return route to that exact result list.
+ const fromSearch=searchModal.veil.classList.contains('is-open');
+ const query=searchInput.value,scroll=searchResults.scrollTop;
  detail.panel.querySelectorAll('.discovery-detail-body').forEach(node=>node.remove());
  const body=el('div','discovery-detail-body');
- body.append(el('h3','discovery-heading',heading));detail.panel.append(body);
+ body.append(el('h3','discovery-heading',heading));
+ if(fromSearch&&query.trim()){
+  const back=button(body,'‹ Back to search results',()=>{
+   detail.veil.classList.remove('is-open');
+   if(searchInput.value!==query)return;
+   searchModal.veil.classList.add('is-open');
+   if(typeof positionSearchViewport==='function')positionSearchViewport();
+   requestAnimationFrame(()=>{searchResults.scrollTop=scroll;});
+  },'discovery-back-search');
+  back.setAttribute('aria-label','Return to search results for '+query.slice(0,90));
+ }
+ detail.panel.append(body);
  searchModal.veil.classList.remove('is-open');
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
  return body;
@@ -113,13 +127,17 @@ async function jump(scope){
   const max=Number(idx?.verse_count||0);
   if(idx?.canonical_chapter!==b.code+'.'+parsed.chapter||max<1||
      (parsed.hasVerse&&parsed.verse>max))throw Error('Invalid Bible scope');
+  const last=SOTWReaderTrail.capture('topic');
   detail.veil.classList.remove('is-open');searchModal.veil.classList.remove('is-open');
   betaCloseSheet();
   const same=state.book===b.code&&state.chapter===parsed.chapter;
   state.book=b.code;state.chapter=parsed.chapter;state.verse=parsed.verse;
   $('book').value=b.code;
   if(!same)await loadBook();else chooseVerse(parsed.verse);
-  if(state.bible)modernJumpToVerse(parsed.verse);
+  if(state.bible&&state.book===b.code&&state.chapter===parsed.chapter){
+   modernJumpToVerse(parsed.verse);
+   SOTWReaderTrail.commit(last);
+  }
  }catch{
   const body=detail.panel.querySelector('.discovery-detail-body');
   if(body)note(body,'Could not verify the Scripture location. The reader was not changed.','discovery-error');
