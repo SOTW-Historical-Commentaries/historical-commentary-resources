@@ -39,12 +39,18 @@ assert(!js.includes('review-package')&&!js.includes('SPP_RESEARCH'),'No unpublis
 assert(js.includes("getJson('../api/jacob-lannom/v1/current-commentary.json')"),
  'Only published Jacob catalog is searched');
 assert(js.includes('scopeKey:entry.scopeKey'),'Search should open exact author scope');
-assert(html.includes('jacob-search.js?v=20261118-jacobsearch1'));
+assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
+assert(js.includes("host.open=expandAll")&&js.includes("document.createElement('details')"),
+ 'Published Jacob sections should collapse until expanded or explicit Lannom all');
+assert(html.includes("window.visualViewport?.addEventListener('resize',positionSearchViewport"),
+ 'Search modal must track the software keyboard viewport');
+assert(html.includes('overscroll-behavior-y:contain')&&html.includes('#readerSearchModal .modal-content'),
+ 'Search results must scroll independently while header and input remain visible');
 assert(html.includes("button.jacob-verse-marker[data-jacob-verse="),
  'Selected verse must prefer marker anchor');
 assert(html.includes('readerView.scrollTop=Math.max(0,readerView.scrollTop+anchor.top-pane.top-'),
  'Scroll the chapter pane, not the sticky document');
 assert(!html.includes("el.scrollIntoView({block:'start',behavior:'instant'})"),
  'No document-level verse jump under sticky header');
-assert(sw.includes('sotw-mobile-bible-beta-shell-v0179')&&sw.includes("'./jacob-search.js'"));
+assert(sw.includes('sotw-mobile-bible-beta-shell-v0180')&&sw.includes("'./jacob-search.js'"));
 console.log('PASS: 16 published Jacob entries, author/book/topic matches, exact scope, marker-first chapter scrolling and cache');

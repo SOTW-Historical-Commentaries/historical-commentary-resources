@@ -16,16 +16,49 @@ const {chromium}=require('playwright-core');
   await page.locator('#verses .reader-verse[data-verse="10"]').waitFor({state:'visible'});
   await page.locator('#modernSearchButton').click();
   const input=page.locator('#modernSearchInput');
+  // Ordinary Jacob queries are compact: the full catalog remains in the
+  // published source but does not bury the search field and Bible results.
   await input.fill('Lannom');
-  await page.waitForFunction(()=>document.querySelectorAll('.jacob-search-hit').length===8);
-  assert.match(await page.locator('.jacob-search-section').innerText(),/16/);
-  await page.locator('.jacob-search-more').click();
-  assert.equal(await page.locator('.jacob-search-hit').count(),16);
+  await page.waitForFunction(()=>document.querySelector('.jacob-search-section')?.textContent.includes('(16)'));
+  const group=page.locator('details.jacob-search-results');
+  assert.equal(await group.getAttribute('open'),null,'Lannom stays collapsed');
+  assert.equal(await page.locator('.jacob-search-hit').count(),16,'All 16 preserved in collapsible list');
+  assert.equal(await page.locator('.jacob-search-hit:visible').count(),0);
+  // Explicit author All is the intentional expand-everything command.
+  await input.fill('Lannom all');
+  await page.waitForFunction(()=>document.querySelector('.jacob-search-results[open]')?.querySelectorAll('.jacob-search-hit').length===16);
+  // Simulate the reduced visual area while an iOS software keyboard is open.
+  await page.setViewportSize({width:390,height:430});
+  await page.waitForTimeout(120);
+  const scroll=await page.evaluate(()=>{
+    const pane=document.getElementById('modernSearchResults');
+    const field=document.getElementById('modernSearchInput').getBoundingClientRect();
+    const area=pane.getBoundingClientRect();
+    const modal=document.getElementById('readerSearchModal').getBoundingClientRect();
+    pane.scrollTop=pane.scrollHeight;
+    const down=pane.scrollTop;
+    pane.scrollTop=0;
+    const up=pane.scrollTop;
+    return {down,up,fieldTop:field.top,fieldBottom:field.bottom,areaTop:area.top,
+      modalTop:modal.top,modalBottom:modal.bottom,viewportHeight:visualViewport.height};
+  });
+  assert(scroll.down>100,'Published results must scroll independently: '+JSON.stringify(scroll));
+  assert.equal(scroll.up,0,'Reader must scroll back to top');
+  assert(scroll.fieldTop>=0&&scroll.fieldBottom<=scroll.viewportHeight+2,'Search input must remain visible: '+JSON.stringify(scroll));
+  assert(scroll.areaTop>=scroll.fieldBottom,'Only results should scroll: '+JSON.stringify(scroll));
+  assert(scroll.modalBottom<=scroll.viewportHeight+3,'Sheet must stay above keyboard-sized viewport: '+JSON.stringify(scroll));
+  assert.equal(await input.evaluate(e=>document.activeElement===e),true,'Typing focus preserved');
+  await page.setViewportSize({width:390,height:844});
   await input.fill('Lannom Romans');
-  await page.waitForFunction(()=>document.querySelectorAll('.jacob-search-hit').length===4);
+  await page.waitForFunction(()=>document.querySelector('.jacob-search-section')?.textContent.includes('(4)'));
+  assert.equal(await group.getAttribute('open'),null,'Book-filtered author list is collapsed');
+  await group.locator('summary').click();
   const scopes=await page.locator('.jacob-search-hit').evaluateAll(els=>els.map(e=>e.dataset.jacobScope).sort());
   assert.deepEqual(scopes,['ROM','ROM.12','ROM.12.17','ROM.12.18']);
   await input.fill('Revenge Lannom');
+  await page.waitForFunction(()=>document.querySelector('.jacob-search-section')?.textContent.includes('(6)'));
+  assert.equal(await group.getAttribute('open'),null,'Topical author list is collapsed');
+  await group.locator('summary').click();
   await page.locator('.jacob-search-hit[data-jacob-scope="ROM.12.17"]').waitFor({state:'visible'});
   const choices=await page.locator('.jacob-search-hit').evaluateAll(els=>els.map(e=>e.dataset.jacobScope));
   assert(choices.includes('GEN.45.1-8'));

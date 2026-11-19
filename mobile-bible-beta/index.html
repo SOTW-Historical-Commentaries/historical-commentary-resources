@@ -176,7 +176,14 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta .edition-option strong{display:block;font:650 15px system-ui;margin-bottom:4px}
 .mobile-beta .edition-option span{display:block;color:#b8c9cf;font:12px system-ui}
 .mobile-beta #modernSearchInput{width:100%;border:1px solid #61737c;background:#283941;color:#f2f7f9;font:16px system-ui;padding:13px;border-radius:11px;outline-offset:2px}
-.mobile-beta #modernSearchResults{padding:12px 0 0;display:grid;gap:7px}
+.mobile-beta #modernSearchResults{padding:12px 1px 12px 0;display:grid;gap:7px;align-content:start;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;flex:0 1 auto}
+.mobile-beta #readerSearchModal{top:var(--reader-search-vv-top,0px);height:var(--reader-search-vv-height,100svh);bottom:auto;overflow:hidden}
+.mobile-beta #readerSearchModal .modal-content{display:flex;flex-direction:column;overflow:hidden;max-height:calc(100% - 6px);min-height:0;overscroll-behavior:contain}
+.mobile-beta #readerSearchModal .modal-head,.mobile-beta #readerSearchModal .modern-panel-desc,.mobile-beta #modernSearchInput{flex-shrink:0}
+.mobile-beta #modernSearchInput{min-height:44px}
+.mobile-beta #readerSearchModal .discovery-search-loading:not([hidden]){flex-shrink:0}
+@media (min-width:750px){.mobile-beta #readerSearchModal{align-items:center}}
+
 .mobile-beta .search-hit{width:100%;text-align:left;border:1px solid #41565d;background:#23343b;color:#e8f2f4;border-radius:10px;padding:11px;font:14px/1.5 system-ui}
 .mobile-beta .search-hit small{display:block;color:#a8bfc7;font-size:12px}
 .mobile-beta.study-open section[aria-label="Commentary comparison"]{background:#152129;border:1px solid #41555d;padding:16px!important;max-height:84svh}
@@ -699,6 +706,20 @@ const searchNote=document.createElement('p');searchNote.className='modern-panel-
 searchModal.panel.append(searchNote);
 const searchInput=document.createElement('input');searchInput.id='modernSearchInput';searchInput.type='search';searchInput.autocomplete='off';searchInput.setAttribute('aria-label','Search Scripture');searchInput.placeholder='John 3:16, Romans 12, or chapter phrase';searchModal.panel.append(searchInput);
 const searchResults=document.createElement('div');searchResults.id='modernSearchResults';searchModal.panel.append(searchResults);
+// iOS Safari's layout viewport does not shrink when its keyboard opens.
+// Anchor the search sheet to the *visual* viewport, and scroll only results,
+// leaving the title and active input stationary while the keyboard resizes.
+function positionSearchViewport(){
+ const vv=window.visualViewport;
+ searchModal.veil.style.setProperty('--reader-search-vv-top',Math.max(0,Math.round(vv?.offsetTop||0))+'px');
+ searchModal.veil.style.setProperty('--reader-search-vv-height',Math.max(180,Math.round(vv?.height||window.innerHeight))+'px');
+}
+positionSearchViewport();
+window.visualViewport?.addEventListener('resize',positionSearchViewport,{passive:true});
+window.visualViewport?.addEventListener('scroll',positionSearchViewport,{passive:true});
+window.addEventListener('resize',positionSearchViewport,{passive:true});
+searchInput.addEventListener('focus',()=>{positionSearchViewport();requestAnimationFrame(positionSearchViewport)});
+
 /* SOTW v0.16.1: Resources are explained here without claiming universal
    passage coverage or treating original-language data as Bible translation. */
 const moreModal=modalLayer('readerMoreModal','About & Sources');
@@ -753,7 +774,7 @@ $('readerEdition').addEventListener('click',()=>{
  for(const b of editionModal.panel.querySelectorAll('.edition-option'))b.setAttribute('aria-pressed',String(b.dataset.edition===state.edition));
  openModal(editionModal);
 });
-$('modernSearchButton').addEventListener('click',()=>{openModal(searchModal);searchInput.value='';modernSearchRender();searchInput.focus()});
+$('modernSearchButton').addEventListener('click',()=>{openModal(searchModal);positionSearchViewport();searchInput.value='';modernSearchRender();searchInput.focus()});
 $('modernMoreButton').addEventListener('click',()=>{syncMoreAppearance();openModal(moreModal);appearanceButton.focus()});
 $('modernThemeButton').addEventListener('click',()=>{document.body.classList.toggle('beta-light');betaStore();syncMoreAppearance()});
 function modernUpdateHeader(){
@@ -1033,7 +1054,7 @@ function modernSearchRender(){
    }catch(_){button.textContent='Could not verify '+b.name+' '+chapter+'; try again';button.disabled=false;}
   });searchResults.append(button);return;
  }
- const bookMatches=BOOKS.filter(b=>b.name.toLowerCase().includes(q)||b.code.toLowerCase()===q).slice(0,5);
+ const bookMatches=q.length<2?[]:BOOKS.filter(b=>b.name.toLowerCase().includes(q)||b.code.toLowerCase()===q).slice(0,5);
  for(const b of bookMatches){
   const button=document.createElement('button');button.className='search-hit';button.type='button';button.textContent=b.name;
   button.addEventListener('click',async()=>{searchModal.veil.classList.remove('is-open');state.book=b.code;state.chapter=1;state.verse=1;$('book').value=b.code;betaCloseSheet();await loadBook(true);readerView.scrollTop=0});
@@ -1497,6 +1518,6 @@ editionModal.veil.addEventListener('click',event=>{
 <script src="./study-ux-repair.js?v=20261118-reader165"></script>
 <script src="./discovery-integrations.js?v=20261118-discovery6"></script>
 <script src="./reader-return.js?v=20261118-return1"></script>
-<script src="./jacob-search.js?v=20261118-jacobsearch1"></script>
+<script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
 </body>
 </html>

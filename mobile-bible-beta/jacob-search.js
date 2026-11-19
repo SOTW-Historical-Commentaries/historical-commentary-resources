@@ -47,10 +47,15 @@ if(typeof document==='undefined'||typeof searchInput==='undefined'||
  typeof BOOKS==='undefined'||typeof getJson!=='function')return;
 const css=document.createElement('style');
 css.textContent=[
- '.mobile-beta .jacob-search-section{font:600 13px/1.4 system-ui;margin:11px 0 2px;color:#b9d9e0}',
+ '.mobile-beta .jacob-search-results{border:1px solid #48616c;border-radius:11px;padding:0 9px 9px;min-width:0}',
+ '.mobile-beta .jacob-search-results:not([open]){padding-bottom:0}',
+ '.mobile-beta .jacob-search-section{display:list-item;cursor:pointer;font:600 13px/1.4 system-ui;margin:0;padding:13px 6px;color:#b9d9e0}',
+ '.mobile-beta .jacob-search-section:focus-visible{outline:2px solid #a6d0d8;outline-offset:-2px}',
+ '.mobile-beta .jacob-search-list{display:grid;gap:7px;max-width:100%;min-width:0}',
  '.mobile-beta .jacob-search-hit strong{display:block;font:650 14px/1.35 system-ui;margin-bottom:3px}',
  '.mobile-beta .jacob-search-hit small{font-size:12px;line-height:1.45}',
  '.mobile-beta .jacob-search-more{border:1px solid #5b7780;background:#263b44;color:#ddecf0;border-radius:9px;padding:9px 12px;font:600 13px system-ui;text-align:left}',
+ '.mobile-beta.beta-light .jacob-search-results{border-color:#bacfce}',
  '.mobile-beta.beta-light .jacob-search-section{color:#3e6370}',
  '.mobile-beta.beta-light .jacob-search-more{background:#e3edec;color:#314f56;border-color:#a5baba}'
 ].join('');
@@ -101,12 +106,19 @@ async function openEntry(item,button){
 }
 function render(results,query){
  if(!results.length)return;
- const host=document.createElement('section');host.className='jacob-search-results';
- const title=document.createElement('h4');title.className='jacob-search-section';
+ const words=tokenize(query);
+ const expandAll=words.includes('all')&&words.some(w=>w==='lannom'||w==='jacob');
+ // One collapsible author section, regardless of the number of results.
+ // Explicit "Lannom all" opens the full list; ordinary author/book/topic
+ // searches show a compact count until the reader chooses to expand.
+ const host=document.createElement('details');host.className='jacob-search-results';
+ host.open=expandAll;
+ const title=document.createElement('summary');title.className='jacob-search-section';
  title.textContent='Jacob Lannom · Published pastoral commentary ('+results.length+')';
+ title.setAttribute('aria-label','Toggle '+results.length+' published Jacob Lannom commentary results');
  host.append(title);
- const list=document.createElement('div');list.style.display='grid';list.style.gap='7px';host.append(list);
- function add(item){
+ const list=document.createElement('div');list.className='jacob-search-list';host.append(list);
+ for(const item of results){
   const b=document.createElement('button');b.type='button';b.className='search-hit jacob-search-hit';
   b.dataset.jacobScope=item.entry.scopeKey;
   const name=document.createElement('strong');name.textContent=item.entry.title;
@@ -116,13 +128,6 @@ function render(results,query){
    item.entry.scopeType==='CHAPTER_INTRODUCTION'?'Chapter introduction':'Passage commentary');
   b.append(name,caption);
   b.addEventListener('click',()=>openEntry(item,b));list.append(b);
- }
- results.slice(0,8).forEach(add);
- if(results.length>8){
-  const more=document.createElement('button');more.type='button';more.className='jacob-search-more';
-  more.textContent='Show all '+results.length+' Jacob commentary results';
-  more.addEventListener('click',()=>{results.slice(8).forEach(add);more.remove();});
-  host.append(more);
  }
  searchResults.append(host);
 }
