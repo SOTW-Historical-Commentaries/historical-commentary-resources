@@ -13,6 +13,9 @@ on:
       - "mobile-bible-beta/jacob-search.js"
       - "mobile-bible-beta/tests/jacob-search.test.cjs"
       - "mobile-bible-beta/tests/jacob-search-browser.test.cjs"
+      - "mobile-bible-beta/tests/jacob-doctrine.test.cjs"
+      - "mobile-bible-beta/tests/jacob-doctrine-browser.test.cjs"
+      - "mobile-bible-beta/data/verse-doctrine-tags.v1.json"
       - "mobile-bible-beta/tests/jacob-scripture-links.test.cjs"
       - "review-jake-scripture.html"
       - "api/jacob-lannom/v1/current-commentary.json"
@@ -41,6 +44,7 @@ jobs:
           node --check mobile-bible-beta/reader-return.js
           node --check mobile-bible-beta/jacob-search.js
           node --check mobile-bible-beta/tests/jacob-search.test.cjs
+          node --check mobile-bible-beta/tests/jacob-doctrine.test.cjs
           node --check mobile-bible-beta/tests/jacob-scripture-links.test.cjs
           node --check mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates
@@ -49,6 +53,8 @@ jobs:
         run: node mobile-bible-beta/tests/jacob-scripture-links.test.cjs
       - name: Published Jacob author/book/topic search and marker-first navigation
         run: node mobile-bible-beta/tests/jacob-search.test.cjs
+      - name: Doctrine and aliases sourced only from accepted Jacob-evidence scopes
+        run: node mobile-bible-beta/tests/jacob-doctrine.test.cjs
       - name: Published reader source contracts (Nave/Torrey and BSB)
         shell: bash
         run: |
