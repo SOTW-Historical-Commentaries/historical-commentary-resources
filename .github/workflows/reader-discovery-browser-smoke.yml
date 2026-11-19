@@ -54,6 +54,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Show only validated doctrine and aliases on the matching Jacob commentary entry
+        run: node mobile-bible-beta/tests/jacob-doctrine-browser.test.cjs
       - name: Exercise actual mobile viewport reader interactions
         run: node mobile-bible-beta/tests/discovery-browser.test.cjs
       - name: Exercise published Jacob cross-references in both viewers
@@ -62,7 +64,5 @@ jobs:
         run: node mobile-bible-beta/tests/exodus-link-browser.test.cjs
       - name: Find published Jacob commentary and align marker-first Scripture navigation
         run: node mobile-bible-beta/tests/jacob-search-browser.test.cjs
-      - name: Show only validated doctrine and aliases on the matching Jacob commentary entry
-        run: node mobile-bible-beta/tests/jacob-doctrine-browser.test.cjs
       - name: Verify BSB Strong’s short meaning and English Webster action
         run: node mobile-bible-beta/tests/bsb-lexical-browser.test.cjs
