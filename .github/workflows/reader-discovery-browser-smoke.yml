@@ -57,7 +57,7 @@ jobs:
         run: node mobile-bible-beta/tests/jacob-scripture-browser.test.cjs
       - name: Follow Jacob reference to Exodus 21:24 and return to Romans
         run: node mobile-bible-beta/tests/exodus-link-browser.test.cjs
-      - name: Verify BSB Strong’s short meaning and English Webster action
-        run: node mobile-bible-beta/tests/bsb-lexical-browser.test.cjs
       - name: Find published Jacob commentary and align marker-first Scripture navigation
         run: node mobile-bible-beta/tests/jacob-search-browser.test.cjs
+      - name: Verify BSB Strong’s short meaning and English Webster action
+        run: node mobile-bible-beta/tests/bsb-lexical-browser.test.cjs
