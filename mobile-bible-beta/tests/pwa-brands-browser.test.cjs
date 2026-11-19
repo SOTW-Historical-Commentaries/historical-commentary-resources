@@ -27,7 +27,29 @@ const {chromium}=require('playwright-core');
    assert.equal(state.iconStatus,200);
    assert(state.apple.includes(dir+'/icons/'));
    assert(state.icon.includes(dir+'/icons/'));
-   assert(state.logo.includes(dir==='mobile-bible-beta'?'cgbc-sotw-full-header':'mobile-bible-sotw/icons/sotw/'));
+   assert(state.logo.includes(dir==='mobile-bible-beta'?'cgbc-sotw-full-header':'mobile-bible-sotw/branding/v1/SOTW_Bible_and_Name_Transparent.png'));
+   if(dir==='mobile-bible-sotw'){
+    const branding=await page.evaluate(async()=>{
+      const primary=document.querySelector('.sotw-header-art.dark');
+      const alternate=document.querySelector('.sotw-header-art.light');
+      const first=await fetch(primary.src);
+      const second=await fetch(alternate.src);
+      const initial={visible:getComputedStyle(primary).display!=='none',width:primary.getBoundingClientRect().width,
+         height:primary.getBoundingClientRect().height,alternateHidden:getComputedStyle(alternate).display==='none',
+         fits:primary.getBoundingClientRect().right<=document.querySelector('.brand-line').getBoundingClientRect().right};
+      document.body.classList.add('beta-light');
+      const switched={darkHidden:getComputedStyle(primary).display==='none',
+       lightVisible:getComputedStyle(alternate).display!=='none',width:alternate.getBoundingClientRect().width};
+      document.body.classList.remove('beta-light');
+      return {initial,switched,firstStatus:first.status,secondStatus:second.status};
+    });
+    assert.equal(branding.firstStatus,200);
+    assert.equal(branding.secondStatus,200);
+    assert(branding.initial.visible&&branding.initial.alternateHidden&&branding.initial.width>150&&branding.initial.height>35&&branding.initial.fits,
+      'Wide supplied header must be visible and fit the phone '+JSON.stringify(branding));
+    assert(branding.switched.darkHidden&&branding.switched.lightVisible&&branding.switched.width>150,
+      'Light theme must switch to supplied dark-gray wordmark '+JSON.stringify(branding));
+   }
    assert(state.site.includes(dir));
   }
   assert.deepEqual(errors,[]);

@@ -49,10 +49,20 @@ const swS=fs.readFileSync(path.join(root,'mobile-bible-sotw','sw.js'),'utf8');
 assert(cgbc.includes('cgbc-sotw-full-header-900.png'),'Retain CGBC approved reader header');
 assert(!sotw.includes('cgbc-sotw-full-header-900.png'),'Never show CGBC header on SOTW');
 assert(sotw.includes('<base href="../mobile-bible-beta/">'),'Share functioning code, not duplicate canonical Bible data');
-assert(sotw.includes('src="../mobile-bible-sotw/icons/sotw/icon-192.png"'));
+assert(sotw.includes('src="../mobile-bible-sotw/branding/v1/SOTW_Bible_and_Name_Transparent.png"'));
+assert(sotw.includes('src="../mobile-bible-sotw/branding/v1/Bible_and_Wordmark_Dark_Grey_4x_Transparent.png"'));
+assert(!sotw.includes('sotw-brand-wordmark'),'Old temporary text wordmark removed');
 assert(sotw.includes('href="../mobile-bible-sotw/manifest.webmanifest"'));
 assert(sotw.includes("navigator.serviceWorker.register('../mobile-bible-sotw/sw.js')"));
-assert(swC.includes('shell-v0184')&&swS.includes('shell-v0001'),'Distinct caches');
+assert(swC.includes('shell-v0184')&&swS.includes('shell-v0002'),'Distinct caches');
 assert(swS.includes('../mobile-bible-beta/jacob-search.js'),'SOTW shares published reader runtime');
+assert(!swS.includes("'./icons/cgbc-sotw/"),'Do not cache nonexistent CGBC icons inside SOTW scope');
+for(const file of ['SOTW_Bible_and_Name_Transparent.png','Bible_and_Wordmark_Dark_Grey_4x_Transparent.png'])assert(swS.includes('./branding/v1/'+file),'Precache SOTW header asset '+file);
+for(const [name,expected] of [
+ ['SOTW_Bible_and_Name_Transparent.png','436705d88d0a3249bbddc9038c5ab0826ccb7460e8563297b6db799726ec5804'],
+ ['Bible_and_Wordmark_Dark_Grey_4x_Transparent.png','5bf917c4e5ebbcd62fe3262b043b8dea61fc14bf231ea0744edd7b4a4d6052d4']]){
+ const png=fs.readFileSync(path.join(root,'mobile-bible-sotw','branding','v1',name));
+ assert.equal(crypto.createHash('sha256').update(png).digest('hex'),expected,'Exact owner-supplied artwork '+name);
+}
 assert(!fs.existsSync(path.join(root,'mobile-bible-sotw','api')),'No second canonical author collection');
-console.log('PASS: 8 exact approved PNGs, both 180/192/512/maskable sets, unique scoped Study Bible PWAs and distinct branding');
+console.log('PASS: dual Study Bible PWAs, eight original icons, exact owner SOTW header art, distinct branding and valid SOTW cache');
