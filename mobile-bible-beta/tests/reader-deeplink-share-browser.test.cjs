@@ -66,6 +66,7 @@ const {chromium}=require('playwright-core');
    assert.equal(loc.searchParams.get('verse'),'17');
    assert.equal(loc.searchParams.get('jacob'),'ROM.12.17');
    // A longer published scope displays the actual verse range and shares that exact record.
+   await returning.addInitScript(()=>{Object.defineProperty(navigator,'share',{configurable:true,value:async info=>{window.__lastShared=info;}});});
    await returning.goto(base+'?book=ACT&chapter=6&verse=1&translation=KJV1769&jacob=ACT.6.1-7',
     {waitUntil:'domcontentloaded'});
    await returning.locator('#studyOverlay.is-open').waitFor({state:'visible',timeout:45000});
