@@ -522,9 +522,12 @@ async function fetchTranslationWithFallback(url){
   }
  }
 }
+function isPublishedEditionSource(url){
+ return Object.values(EDITIONS).some(e=>url.startsWith('https://raw.githubusercontent.com/'+e[1]+'/main/data/'+e[2]+'/'));
+}
 async function getJson(url){
  if(!cache.has(url)){
-  const task=/^https:\/\/raw\.githubusercontent\.com\//.test(url)
+  const task=isPublishedEditionSource(url)
    ?fetchTranslationWithFallback(url)
    :fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(`HTTP ${r.status} · ${url}`);return r.json()});
   cache.set(url,task.catch(e=>{cache.delete(url);throw e}));
