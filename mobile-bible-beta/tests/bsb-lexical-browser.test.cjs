@@ -16,6 +16,12 @@ const {chromium}=require('playwright-core');
   await page.goto('http://127.0.0.1:8765/mobile-bible-beta/?book=ROM&chapter=12&verse=17&translation=BSB',{waitUntil:'domcontentloaded'});
   const verse=page.locator('#verses .reader-verse[data-verse="17"]');await verse.waitFor({state:'visible'});
   await verse.click();
+  const tap=await page.evaluate(()=>({
+   studyOpen:document.body.classList.contains('study-open'),
+   gesture:{moved:modernGesture.moved,scrollTime:modernGesture.scrollTime,
+    lastHumanScroll:modernGesture.lastHumanScroll||0}
+  }));
+  assert(tap.studyOpen,'A deliberate verse tap must open study immediately: '+JSON.stringify(tap));
   const wordAction=page.locator('#originalLanguageEntry');await wordAction.waitFor({state:'visible'});
   await wordAction.click();
   const first=page.locator('#studyOverlay .word-sequence-card').first();
