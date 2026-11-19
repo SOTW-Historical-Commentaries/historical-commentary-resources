@@ -188,8 +188,8 @@ async function showTopic(topic){
 }
 // The reader's own Scripture results remain at the top. No Person, Place or
 // Event index is fetched here: its directory awaits a future evidence-led UI.
-searchNote.textContent='Scripture references and current-chapter text first. Historical Bible Topics appear separately. Whole-Bible word search is not yet available.';
-searchInput.placeholder='Scripture, current-chapter words, or Bible topic';
+searchNote.textContent='Scripture references and current-chapter text first. Published Jacob Lannom commentary and Historical Bible Topics appear in clearly labeled results. Whole-Bible word search is not yet available.';
+searchInput.placeholder='John 3:16, Lannom Romans, Revenge Lannom, or Bible topic';
 const pending=el('p','discovery-search-loading');pending.hidden=true;
 searchResults.after(pending);
 let seq=0,timer=0;
