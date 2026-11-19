@@ -14,6 +14,9 @@ on:
       - "mobile-bible-beta/sw.js"
       - "mobile-bible-sotw/**"
       - "mobile-bible-beta/tests/pwa-brands-browser.test.cjs"
+      - "mobile-bible-beta/tests/shared-asv-launch.test.cjs"
+      - "mobile-bible-beta/tests/shared-asv-launch-browser.test.cjs"
+      - "mobile-bible-beta/tests/fixtures/romans-12-asv1901.json"
       - "mobile-bible-beta/jacob-scripture-links.js"
       - "mobile-bible-beta/reader-return.js"
       - "mobile-bible-beta/reader-trail.js"
@@ -62,6 +65,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Open a fresh ASV1901 shared link with raw GitHub blocked, using only official fallback
+        run: node mobile-bible-beta/tests/shared-asv-launch-browser.test.cjs
       - name: Verify CGBC and SOTW installation branding at iPhone viewport
         run: node mobile-bible-beta/tests/pwa-brands-browser.test.cjs
       - name: Return from Scripture to last topic or search results without retyping
