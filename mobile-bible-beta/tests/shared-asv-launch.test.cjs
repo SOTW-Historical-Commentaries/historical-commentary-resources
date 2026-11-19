@@ -30,6 +30,12 @@ for(const dir of ['mobile-bible-beta','mobile-bible-sotw']){
   Uint8Array,TextDecoder,Error,TypeError,JSON,Promise,Object
  };
  vm.runInNewContext(helper+'\nglobalThis.readBible=fetchTranslationWithFallback;',sandbox);
+ assert.equal(sandbox.isPublishedEditionSource(official),true,'Official ASV chapter uses the fallback');
+ assert.equal(sandbox.isPublishedEditionSource('https://raw.githubusercontent.com/SOTW-Original-Languages/original-language-resources/main/study-data/v1/lexicon/G/G00501-G00750.json'),false,
+  'External Strong’s lexicons must continue through the existing normal fetch');
+ assert.equal(sandbox.isPublishedEditionSource('https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/ROM/12.json'),false,
+  'Publisher-aligned BSB interlinear is not a Bible edition chapter');
+
  const resultPromise=sandbox.readBible(official);
  globalThis._pendingTestRuns??=[];
  globalThis._pendingTestRuns.push(resultPromise.then(result=>{
