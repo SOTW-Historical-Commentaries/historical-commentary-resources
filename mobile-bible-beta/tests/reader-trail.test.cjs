@@ -20,7 +20,7 @@ assert(discovery.includes("SOTWReaderTrail.capture('topic')")&&discovery.include
 assert(discovery.includes('Back to search results'),'Topic can return to its source results');
 assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTWReaderTrail.commit(trail)'));
 assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
-assert(index.includes('reader-trail.js?v=20261118-trail1'));
+assert(index.includes('reader-trail.js?v=20261119-trail2'));
 assert(returnScript.includes("sotwReturnToPassage"),'Original Back to Scripture remains intact');
 assert(shell.includes('shell-v0182')&&shell.includes("'./reader-trail.js'"),'PWA must preload the new return script');
 assert(!script.includes('sessionStorage')&&!script.includes('localStorage'),'Trail is per-tab in-memory only');
