@@ -70,8 +70,10 @@ assert(html.includes('study-ux-repair.js?v=20261118-reader165'),'Reader must loa
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261118-discovery2'));
-assert(sw.includes("sotw-mobile-bible-beta-shell-v0178"));
+assert(sw.includes("sotw-mobile-bible-beta-shell-v0179"));
 assert(sw.includes("'./reader-return.js'"),'PWA must precache the return script');
+assert(sw.includes("'./jacob-search.js'"),'PWA must precache published Jacob search');
+assert(html.includes('jacob-search.js?v=20261118-jacobsearch1'));
 assert(sw.includes('./discovery-integrations.js')&&sw.includes('./discovery-integrations.css'));
 assert(study.includes('renderBsbWordByWord')&&study.includes("if(state.edition==='BSB')"),
  'Full publisher-aligned BSB Word-by-Word must remain intact');

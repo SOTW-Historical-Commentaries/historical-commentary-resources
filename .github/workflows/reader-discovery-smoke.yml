@@ -2,6 +2,7 @@ name: SOTW reader Topics, BSB and Jacob source QA
 
 on:
   workflow_dispatch:
+  pull_request:
   push:
     paths:
       - "mobile-bible-beta/index.html"
@@ -9,6 +10,9 @@ on:
       - "mobile-bible-beta/study-ux-repair.js"
       - "mobile-bible-beta/jacob-scripture-links.js"
       - "mobile-bible-beta/reader-return.js"
+      - "mobile-bible-beta/jacob-search.js"
+      - "mobile-bible-beta/tests/jacob-search.test.cjs"
+      - "mobile-bible-beta/tests/jacob-search-browser.test.cjs"
       - "mobile-bible-beta/tests/jacob-scripture-links.test.cjs"
       - "review-jake-scripture.html"
       - "api/jacob-lannom/v1/current-commentary.json"
@@ -35,12 +39,16 @@ jobs:
           node --check mobile-bible-beta/study-ux-repair.js
           node --check mobile-bible-beta/jacob-scripture-links.js
           node --check mobile-bible-beta/reader-return.js
+          node --check mobile-bible-beta/jacob-search.js
+          node --check mobile-bible-beta/tests/jacob-search.test.cjs
           node --check mobile-bible-beta/tests/jacob-scripture-links.test.cjs
           node --check mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates
         run: node mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Published Jacob Scripture-link safety, scope and navigation contract
         run: node mobile-bible-beta/tests/jacob-scripture-links.test.cjs
+      - name: Published Jacob author/book/topic search and marker-first navigation
+        run: node mobile-bible-beta/tests/jacob-search.test.cjs
       - name: Published reader source contracts (Nave/Torrey and BSB)
         shell: bash
         run: |
