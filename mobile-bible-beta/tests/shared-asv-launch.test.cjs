@@ -16,7 +16,7 @@ for(const dir of ['mobile-bible-beta','mobile-bible-sotw']){
  const helper=html.slice(begin,end);
  assert(html.includes("fetchTranslationWithFallback(url)"));
  assert(html.includes("retry.textContent='Retry chapter'"));
- const expected={'ASV1901':['ASV','SOTW-ASV-1901/asv-1901-resources']};
+ const expected={'ASV1901':['ASV','SOTW-ASV-1901/asv-1901-resources','asv1901']};
  let requests=[];
  const sandbox={
   EDITIONS:expected,
