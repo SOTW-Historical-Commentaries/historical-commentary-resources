@@ -575,7 +575,7 @@ function chooseVerse(n){const max=Math.max(1,Number(state.index?.verse_count||st
 async function loadChapter(resetVerse=false){const request=++chapterRequest;const edition=state.edition;const b=bookInfo();const initial=state.chapter;const statusLabel=b.name+' '+state.chapter;setStatus('Loading '+statusLabel+' source indexes and translation…');$('voices').replaceChildren();state.index=null;state.bible=null;const root=snapshotRoot(b);try{const [idx,bib]=await Promise.all([getJson(root+`index/${state.book}/${state.chapter}.json`),getJson(pathForEdition())]);if(request!==chapterRequest||state.chapter!==initial||bookInfo().code!==b.code||edition!==state.edition)return;if(idx.canonical_chapter!==`${state.book}.${state.chapter}`||bib.book_code!==state.book||bib.chapter!==state.chapter||bib.edition_id!==state.edition)throw Error('A source identity check failed. No text was substituted.');state.index=idx;state.bible=bib;const max=Number(idx.verse_count)||bib.verses.length;state.verse=resetVerse?1:Math.max(1,Math.min(max,state.verse));fillNumbers($('verse'),max,state.verse);chooseVerse(state.verse);if(typeof modernApplyPendingJump==='function')modernApplyPendingJump()}catch(e){if(request!==chapterRequest)return;setStatus('Could not load '+statusLabel+': '+e.message,true);$('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
 async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(m.snapshot_id!==b.snapshot||!m.books?.includes(b.code))throw Error('Unexpected book manifest');const publishedCount=m.chapter_verse_count?Object.keys(m.chapter_verse_count).length:Number(m.counts?.chapters);if(!Number.isInteger(publishedCount)||publishedCount!==b.chapterCount)throw Error('Unverified book chapter count');count=publishedCount}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
 async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();if(document.body.classList.contains('study-open')&&typeof showVerseDoctrineTags==='function')showVerseDoctrineTags();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
-async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index){renderVoices();requestAnimationFrame(()=>modernJumpToVerse(state.verse))}}
+async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index){renderVoices();if(!document.body.classList.contains('study-open'))modernJumpToVerse(state.verse)}}
 $('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
 $('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
 $('verse').addEventListener('change',e=>chooseVerse(Number(e.target.value)));
@@ -640,6 +640,7 @@ let modernRenderedChapter = '';
 let modernRenderedBible = null;
 let modernEditionAnchor = null;
 let modernGesture = {x:0,y:0,moved:false,scrollTime:0};
+let modernProgrammaticScroll=false;
 const modernOldHeader=document.querySelector('body.mobile-beta > header');
 if(modernOldHeader)modernOldHeader.setAttribute('hidden','');
 const modernHeader=document.createElement('header');modernHeader.id='modernReaderHeader';
@@ -772,7 +773,9 @@ function modernJumpToVerse(n){
   // page behind the sticky header on iPhone Safari, obscuring the target.
   const pane=readerView.getBoundingClientRect();
   const anchor=target.getBoundingClientRect();
+  modernProgrammaticScroll=true;
   readerView.scrollTop=Math.max(0,readerView.scrollTop+anchor.top-pane.top-readerView.clientTop-8);
+  requestAnimationFrame(()=>{modernProgrammaticScroll=false;modernGesture.moved=false;modernGesture.scrollTime=0;});
  }
  modernStudyVerse=0;betaCloseSheet();
 }
@@ -955,7 +958,7 @@ betaShade.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseShe
 readerView.addEventListener('pointerdown',e=>{modernGesture.x=e.clientX;modernGesture.y=e.clientY;modernGesture.moved=false},{passive:true});
 readerView.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-modernGesture.x)>9||Math.abs(e.clientY-modernGesture.y)>9)modernGesture.moved=true},{passive:true});
 readerView.addEventListener('touchmove',()=>{modernGesture.moved=true},{passive:true});
-readerView.addEventListener('scroll',()=>{modernGesture.scrollTime=Date.now();modernGesture.moved=true},{passive:true});
+readerView.addEventListener('scroll',()=>{if(modernProgrammaticScroll)return;modernGesture.scrollTime=Date.now();modernGesture.moved=true},{passive:true});
 readerView.addEventListener('click',e=>{
  // The rotated-square commentary shortcut never opens normal verse tools.
  if(e.target.closest('button.jacob-verse-marker'))return;
