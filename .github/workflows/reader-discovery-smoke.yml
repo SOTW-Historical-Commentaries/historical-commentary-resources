@@ -29,6 +29,7 @@ on:
       - "mobile-bible-sotw/**"
       - "mobile-bible-beta/tests/pwa-brands.test.cjs"
       - "mobile-bible-beta/tests/shared-asv-launch.test.cjs"
+      - "mobile-bible-beta/tests/reader-deeplink-share.test.cjs"
       - "mobile-bible-beta/tests/shared-asv-launch-browser.test.cjs"
       - "mobile-bible-beta/tests/fixtures/romans-12-asv1901.json"
       - "mobile-bible-beta/tests/discovery-integration.test.cjs"
@@ -63,6 +64,8 @@ jobs:
           node --check mobile-bible-beta/tests/shared-asv-launch.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates
         run: node mobile-bible-beta/tests/discovery-integration.test.cjs
+      - name: Verify explicit Scripture URL precedence and author share scope
+        run: node mobile-bible-beta/tests/reader-deeplink-share.test.cjs
       - name: Check service-worker cache ownership and official translation fallback
         run: node mobile-bible-beta/tests/shared-asv-launch.test.cjs
       - name: Verify separate CGBC and SOTW Study Bible PWA icons and manifests

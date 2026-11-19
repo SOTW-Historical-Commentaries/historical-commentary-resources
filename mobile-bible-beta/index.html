@@ -482,8 +482,18 @@ const EDITIONS={ASV1901:['ASV 1901','SOTW-ASV-1901/asv-1901-resources','asv1901'
 const $=id=>document.getElementById(id);
 const query=new URLSearchParams(location.search);
 const betaSaved=(()=>{try{return JSON.parse(localStorage.getItem("sotw.mobile.reader.beta.v1")||"{}")}catch{return {}}})();
-const initBook=BOOKS.some(b=>b.code===query.get('book'))?query.get('book'):(BOOKS.some(b=>b.code===betaSaved.book)?betaSaved.book:'ROM');
-const state={book:initBook,chapter:Number(query.get('chapter'))||Number(betaSaved.chapter)||12,verse:Number(query.get('verse'))||Number(betaSaved.verse)||1,edition:EDITIONS[query.get('translation')]?query.get('translation'):(EDITIONS[betaSaved.edition]?betaSaved.edition:'KJV1769'),index:null,bible:null,jacob:[],showP:false,mode:'available',generation:0};
+const incomingBook=BOOKS.find(b=>b.code===query.get('book'));
+const savedBook=BOOKS.find(b=>b.code===betaSaved.book);
+const initBook=(incomingBook||savedBook||BOOKS[0]).code;
+const validChapter=(n,b)=>Number.isInteger(n)&&n>=1&&n<=b.chapterCount;
+const queryChapter=Number(query.get('chapter'));
+const savedChapter=Number(betaSaved.chapter);
+const selectedBook=incomingBook||savedBook||BOOKS[0];
+const initChapter=incomingBook?(validChapter(queryChapter,incomingBook)?queryChapter:1):(validChapter(savedChapter,selectedBook)?savedChapter:1);
+const validVerse=n=>Number.isInteger(n)&&n>=1&&n<=176;
+const initVerse=incomingBook?(validVerse(Number(query.get('verse')))?Number(query.get('verse')):1):(validVerse(Number(betaSaved.verse))?Number(betaSaved.verse):1);
+const incomingJacobScope=query.get('jacob')||'';
+const state={book:initBook,chapter:initChapter,verse:initVerse,edition:EDITIONS[query.get('translation')]?query.get('translation'):(EDITIONS[betaSaved.edition]?betaSaved.edition:'KJV1769'),index:null,bible:null,jacob:[],showP:false,mode:'available',generation:0};
 const cache=new Map();let coverageReady=false;let chapterRequest=0;
 const bookInfo=()=>BOOKS.find(b=>b.code===state.book);
 function snapshotRoot(b=bookInfo()){return `../api/v3/snapshots/${b.snapshot}/`}
@@ -627,7 +637,24 @@ async function loadChapter(resetVerse=false){const request=++chapterRequest;cons
  $('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
 async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(m.snapshot_id!==b.snapshot||!m.books?.includes(b.code))throw Error('Unexpected book manifest');const publishedCount=m.chapter_verse_count?Object.keys(m.chapter_verse_count).length:Number(m.counts?.chapters);if(!Number.isInteger(publishedCount)||publishedCount!==b.chapterCount)throw Error('Unverified book chapter count');count=publishedCount}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
 async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
-async function begin(){for(const b of BOOKS)addOption($('book'),b.code,b.name);$('book').value=state.book;$('edition').value=state.edition;$('includeP').checked=false;$('authorMode').value='available';const p=loadJacob();await loadBook();await p;if(state.index){renderVoices();if(!document.body.classList.contains('study-open'))modernJumpToVerse(state.verse)}}
+async function begin(){
+ for(const b of BOOKS)addOption($('book'),b.code,b.name);
+ $('book').value=state.book;$('edition').value=state.edition;
+ $('includeP').checked=false;$('authorMode').value='available';
+ const p=loadJacob();await loadBook();await p;
+ if(!state.index||!state.bible)return;
+ renderVoices();
+ if(!document.body.classList.contains('study-open'))modernJumpToVerse(state.verse);
+ // Open only exact, verified published Jacob scopes supplied by the link.
+ if(incomingJacobScope){
+  const entry=state.jacob.find(e=>e.scopeKey===incomingJacobScope&&typeof e.commentary==='string'&&e.commentary.trim());
+  const ref=entry&&parseScope(entry.scopeKey);
+  if(ref&&ref.book===state.book&&(!ref.chapter||ref.chapter===state.chapter)&&(!ref.from||ref.from===state.verse)){
+   modernStudyVerse=state.verse;betaOpen();
+   openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom',kind:'Pastoral Commentary',scopeKey:entry.scopeKey});
+  }
+ }
+}
 $('book').addEventListener('change',async e=>{state.book=e.target.value;state.chapter=1;state.verse=1;await loadBook(true)});
 $('chapter').addEventListener('change',async e=>{state.chapter=Number(e.target.value);state.verse=1;await loadChapter(true)});
 $('verse').addEventListener('change',e=>chooseVerse(Number(e.target.value)));
@@ -767,11 +794,46 @@ searchInput.addEventListener('focus',()=>{positionSearchViewport();requestAnimat
 
 /* SOTW v0.16.1: Resources are explained here without claiming universal
    passage coverage or treating original-language data as Bible translation. */
+/* Share links encode published reading location, not device state. */
+function readerShareUrl(verse=state.verse,jacobScope=''){
+ if(!state.bible||!state.index)return null;
+ const accepted=jacobScope&&state.jacob.find(e=>e.scopeKey===jacobScope&&typeof e.commentary==='string'&&e.commentary.trim());
+ const scope=accepted&&parseScope(accepted.scopeKey);
+ const book=scope?.book||state.book,chapter=scope?.chapter||state.chapter;
+ const targetVerse=scope?.from||verse;
+ const params=new URLSearchParams({book,chapter:String(chapter),
+  verse:String(targetVerse),translation:state.edition});
+ if(scope)params.set('jacob',accepted.scopeKey);
+ return new URL(location.pathname+'?'+params.toString(),location.origin).href;
+}
+async function readerShare(verse=state.verse,scope=''){
+ const url=readerShareUrl(verse,scope);
+ if(!url){setStatus('Wait for verified Scripture to load before sharing.',true);return;}
+ const label=bookInfo().name+' '+state.chapter+':'+verse;
+ try{
+  if(typeof navigator.share==='function'){
+   await navigator.share({title:scope?'Jacob Lannom commentary · '+label:'Study Bible · '+label,url});return;
+  }
+  if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(url);setStatus('Share link copied: '+label);return;}
+  window.prompt('Copy this Study Bible link:',url);
+ }catch(error){
+  if(error?.name==='AbortError')return;
+  try{await navigator.clipboard.writeText(url);setStatus('Share link copied: '+label)}
+  catch{window.prompt('Copy this Study Bible link:',url)}
+ }
+}
 const moreModal=modalLayer('readerMoreModal','About & Sources');
 moreModal.panel.setAttribute('aria-label','About Servants of the Way sources and appearance settings');
 const moreIntro=document.createElement('p');moreIntro.className='modern-panel-desc';
 moreIntro.textContent='Appearance and source information for this reader. These are credits and explanations, not extra commentary on the selected verse.';
 moreModal.panel.append(moreIntro);
+const shareVerseAction=document.createElement('button');
+shareVerseAction.type='button';shareVerseAction.id='shareCurrentVerse';
+shareVerseAction.className='more-appearance';
+shareVerseAction.textContent='↗ Share current Scripture verse';
+shareVerseAction.setAttribute('aria-label','Share a link to the selected Scripture verse');
+shareVerseAction.addEventListener('click',()=>readerShare(state.verse));
+moreModal.panel.append(shareVerseAction);
 const appearanceButton=document.createElement('button');appearanceButton.type='button';
 appearanceButton.id='modernThemeButton';appearanceButton.className='more-appearance';
 appearanceButton.setAttribute('aria-label','Switch between light and dark reading mode');
@@ -1223,6 +1285,19 @@ function openAuthorCommentary(author){
     (!author.chapterOnly||e.scopeType==='CHAPTER_INTRODUCTION')&&
     typeof e.commentary==='string'&&e.commentary.trim());
   const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
+   if(matches.length){
+    const share=document.createElement('button');share.type='button';
+    share.className='jacob-share-action';
+    share.textContent='↗ Share this Jacob commentary';
+    share.setAttribute('aria-label','Share a direct link to this published Jacob Lannom commentary');
+    share.style.cssText='margin:0 0 12px;padding:9px 12px;border-radius:9px;border:1px solid #668a90;background:#2d4b54;color:#ecf7f8;font:600 13px system-ui;cursor:pointer';
+    share.addEventListener('click',()=>{
+     const selected=matches.find(e=>e.scopeKey===author.scopeKey)||matches[0];
+     const parsed=parseScope(selected.scopeKey);
+     readerShare(parsed?.from||state.verse,selected.scopeKey);
+    });
+    body.append(share);
+   }
   if(!matches.length){
    const note=document.createElement('p');note.className='modern-panel-desc';
    note.textContent='No Jacob commentary is published for this selection.';
