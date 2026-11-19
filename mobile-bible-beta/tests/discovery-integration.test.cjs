@@ -71,8 +71,8 @@ assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accep
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261118-discovery2'));
 assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0185'"));
-assert(sw.includes("'./reader-return.js'"),'PWA must precache the return script');
-assert(sw.includes("'./jacob-search.js'"),'PWA must precache published Jacob search');
+assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
+assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
 assert(sw.includes('./discovery-integrations.js')&&sw.includes('./discovery-integrations.css'));
 assert(study.includes('renderBsbWordByWord')&&study.includes("if(state.edition==='BSB')"),
