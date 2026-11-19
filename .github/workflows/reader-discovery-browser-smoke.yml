@@ -11,6 +11,9 @@ on:
       - "mobile-bible-beta/index.html"
       - "mobile-bible-beta/jacob-scripture-links.js"
       - "mobile-bible-beta/reader-return.js"
+      - "mobile-bible-beta/reader-trail.js"
+      - "mobile-bible-beta/tests/reader-trail.test.cjs"
+      - "mobile-bible-beta/tests/reader-trail-browser.test.cjs"
       - "mobile-bible-beta/jacob-search.js"
       - "mobile-bible-beta/tests/jacob-search.test.cjs"
       - "mobile-bible-beta/tests/jacob-search-browser.test.cjs"
@@ -54,6 +57,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Return from Scripture to last topic or search results without retyping
+        run: node mobile-bible-beta/tests/reader-trail-browser.test.cjs
       - name: Show only validated doctrine and aliases on the matching Jacob commentary entry
         run: node mobile-bible-beta/tests/jacob-doctrine-browser.test.cjs
       - name: Exercise actual mobile viewport reader interactions
