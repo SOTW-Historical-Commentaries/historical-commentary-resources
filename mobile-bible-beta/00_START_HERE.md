@@ -13,6 +13,12 @@
 **Precedence:** This Thread 6 owner instruction supersedes *earlier SOTW Reader release-process notes* that required a separate approval merely to push already-authorized, tested reader work to `main`. It does not supersede data provenance/rights or CGBC's separate production restrictions. Keep this policy at the top of the Startup Guide, Progress Ledger, and Living Google Handoff so future threads see it first.
 
 
+## 2026-11-19 | PHYSICAL IPHONE PWA INSTALL SCREENSHOTS | OWNER FIELD CHECK
+
+**Owner-provided physical iPhone screenshots** show TWO installed home-screen icons side by side, both with the exact caption **Study Bible**, and visually distinct CGBC and SOTW icon artwork. Separate screenshots show the CGBC version opening Romans 12 with the approved CGBC/SOTW full header and the SOTW version opening Romans 12 with its own logo and temporary text wordmark, without the CGBC badge. This is **direct real-device evidence of successful Add to Home Screen and reader launch**, supplementing the previous only-CI verification. The scripture displayed and selected header are consistent with the shared reader. Do not misinterpret the two icons as duplicate installations of a single app.
+
+**Visual refinement still pending:** SOTW's header displays a notably smaller square icon and separate wordmark text, rather than the owner's forthcoming full-width SOTW-only header graphic. This is the explicitly temporary fallback from PR #7, not proof that the PWA icon assets are wrong. Retain both distinct icons and both `Study Bible` captions until the owner requests an adjustment. Replace only the SOTW in-app header once the owner supplies its art; no image generator. **No code changes requested or made from these screenshots.** Physical display verification does not separately prove every browser capability, external Pages HTTP fetch, or Android install; keep the previously passing Chromium/source gates as their own evidence.
+
 ## 2026-11-19 | CGBC + SOTW STUDY BIBLE PWAS | OWNER-APPROVED ICONS INSTALLED IN MAIN
 
 **Status upgrade superseding the prior "NOT YET INSTALLED" entry:** The GitHub binary-blob API successfully accepted the exact bytes from both owner-provided ZIPs, using temporary file handoff that was deleted afterward. **Owner was right that the connected release path could publish them.** All 8 required PNG files were installed with matching SHA-256 source checks, verified Git object SHA and post-merge GitHub directory readback: 180px Apple, 192px regular, 512px regular, 512px maskable each for CGBC and SOTW.
