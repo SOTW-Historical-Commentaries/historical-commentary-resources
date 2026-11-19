@@ -48,6 +48,17 @@ const {chromium}=require('playwright-core');
   await page.locator('#sotwDiscoveryDetail .discovery-citation').first().click();
   await page.waitForURL(/book=EXO&chapter=21&verse=24&translation=BSB/);
   const button=page.locator('#sotwTrailOpen');await button.waitFor({state:'visible'});
+  // Pixel-independent browser assertion: use the exact same chevron SVG path
+  // as the already familiar Back to Scripture control, never a curved emoji.
+  const backIcons=await page.evaluate(()=>({
+   scripture:document.querySelector('#sotwReturnToPassage svg path')?.getAttribute('d'),
+   last:document.querySelector('#sotwTrailOpen svg path')?.getAttribute('d'),
+   label:document.querySelector('#sotwTrailOpen')?.innerText
+  }));
+  assert(backIcons.scripture&&backIcons.last,'Both return controls have left chevrons');
+  assert.equal(backIcons.last,backIcons.scripture,'Return glyphs must match exactly');
+  assert(!backIcons.label.includes('↩'),'No curved return arrow glyph');
+
   assert.match(await button.innerText(),/Back to Topic · Forgiveness/);
   await button.click();
   await page.locator('#sotwDiscoveryDetail.is-open').waitFor({state:'visible'});
