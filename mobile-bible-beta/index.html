@@ -797,9 +797,13 @@ searchInput.addEventListener('focus',()=>{positionSearchViewport();requestAnimat
 /* Share links encode published reading location, not device state. */
 function readerShareUrl(verse=state.verse,jacobScope=''){
  if(!state.bible||!state.index)return null;
- const params=new URLSearchParams({book:state.book,chapter:String(state.chapter),
-  verse:String(verse),translation:state.edition});
- if(jacobScope&&state.jacob.some(e=>e.scopeKey===jacobScope&&typeof e.commentary==='string'&&e.commentary.trim()))params.set('jacob',jacobScope);
+ const accepted=jacobScope&&state.jacob.find(e=>e.scopeKey===jacobScope&&typeof e.commentary==='string'&&e.commentary.trim());
+ const scope=accepted&&parseScope(accepted.scopeKey);
+ const book=scope?.book||state.book,chapter=scope?.chapter||state.chapter;
+ const targetVerse=scope?.from||verse;
+ const params=new URLSearchParams({book,chapter:String(chapter),
+  verse:String(targetVerse),translation:state.edition});
+ if(scope)params.set('jacob',accepted.scopeKey);
  return new URL(location.pathname+'?'+params.toString(),location.origin).href;
 }
 async function readerShare(verse=state.verse,scope=''){
