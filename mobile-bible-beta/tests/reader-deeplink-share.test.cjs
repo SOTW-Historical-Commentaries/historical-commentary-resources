@@ -17,6 +17,11 @@ for(const dir of ['mobile-bible-beta','mobile-bible-sotw']){
  assert(src.includes("params.set('jacob',accepted.scopeKey)"),dir+' exact author identity');
  assert(src.includes("shareVerseAction.id='shareCurrentVerse'"),dir+' reader share action');
  assert(src.includes("share.className='jacob-share-action'"),dir+' commentary share action');
+ assert(src.includes("share.textContent='↗ Share'"),dir+' compact Jacob share label');
+ assert(src.includes("label.textContent=description"),dir+' exact published passage reference in header');
+ assert(src.includes("appendJacobReferenceShare(body,entry)"),dir+' reference is shown before commentary text');
+ assert(src.includes("readerShare(parsed?.from||1,entry.scopeKey)"),dir+' each action shares its own published scope');
+ assert(src.includes("scope?(scope.chapter||1):state.chapter"),dir+' book overview shares its canonical first chapter');
  assert(src.includes("navigator.share({title:scope?"),dir+' native share with clipboard fallback');
  const key=dir==='mobile-bible-beta'?'sotw.mobile.reader.beta.v1':'sotw.mobile.reader.sotw.v1';
  assert(src.includes('localStorage.getItem("'+key+'")'),dir+' isolated saved reading key');
