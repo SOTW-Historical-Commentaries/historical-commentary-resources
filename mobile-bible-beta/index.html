@@ -1048,19 +1048,25 @@ function modernSearchRender(){
     if(verse>count){
      button.textContent=b.name+' '+chapter+' has '+count+' verses';button.disabled=false;return;
     }
+    const trail=SOTWReaderTrail.capture('search');
     searchInput.blur();searchModal.veil.classList.remove('is-open');
     modernStudyVerse=0;betaCloseSheet();
     const same=state.book===b.code&&state.chapter===chapter;
     state.book=b.code;state.chapter=chapter;state.verse=verse;$('book').value=b.code;
     if(!same)await loadBook();else chooseVerse(state.verse);
-    if(state.bible)modernJumpToVerse(state.verse);
+    if(state.bible&&state.book===b.code&&state.chapter===chapter){modernJumpToVerse(state.verse);SOTWReaderTrail.commit(trail);}
    }catch(_){button.textContent='Could not verify '+b.name+' '+chapter+'; try again';button.disabled=false;}
   });searchResults.append(button);return;
  }
  const bookMatches=q.length<2?[]:BOOKS.filter(b=>b.name.toLowerCase().includes(q)||b.code.toLowerCase()===q).slice(0,5);
  for(const b of bookMatches){
   const button=document.createElement('button');button.className='search-hit';button.type='button';button.textContent=b.name;
-  button.addEventListener('click',async()=>{searchModal.veil.classList.remove('is-open');state.book=b.code;state.chapter=1;state.verse=1;$('book').value=b.code;betaCloseSheet();await loadBook(true);readerView.scrollTop=0});
+  button.addEventListener('click',async()=>{
+   const trail=SOTWReaderTrail.capture('search');
+   searchModal.veil.classList.remove('is-open');state.book=b.code;state.chapter=1;state.verse=1;
+   $('book').value=b.code;betaCloseSheet();await loadBook(true);
+   if(state.bible&&state.book===b.code&&state.chapter===1){readerView.scrollTop=0;SOTWReaderTrail.commit(trail);}
+  });
   searchResults.append(button);
  }
  if(q.length>1){
@@ -1069,7 +1075,11 @@ function modernSearchRender(){
    const button=document.createElement('button');button.className='search-hit';button.type='button';
    const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
    const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
-   button.append(label,desc);button.addEventListener('click',()=>{searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse))});
+   button.append(label,desc);button.addEventListener('click',()=>{
+    const trail=SOTWReaderTrail.capture('search');
+    searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
+    SOTWReaderTrail.commit(trail);
+   });
    searchResults.append(button);
   }
  }
@@ -1524,5 +1534,6 @@ editionModal.veil.addEventListener('click',event=>{
 <script src="./discovery-integrations.js?v=20261118-discovery6"></script>
 <script src="./reader-return.js?v=20261118-return1"></script>
 <script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
+<script src="./reader-trail.js?v=20261118-trail1"></script>
 </body>
 </html>

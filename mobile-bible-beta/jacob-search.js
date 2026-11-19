@@ -85,6 +85,7 @@ async function openEntry(item,button){
   const index=await getJson(snapshotRoot(item.book)+'index/'+p.book+'/'+p.chapter+'.json');
   if(index?.canonical_chapter!==p.book+'.'+p.chapter||Number(index.verse_count)<p.verse)
    throw Error('Published chapter/verse not verified');
+  const trail=SOTWReaderTrail.capture('search');
   searchInput.blur();searchModal.veil.classList.remove('is-open');
   betaCloseSheet();
   const same=state.book===p.book&&state.chapter===p.chapter;
@@ -99,6 +100,7 @@ async function openEntry(item,button){
   modernStudyVerse=p.verse;betaOpen();
   openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom',
    kind:'Pastoral Commentary',scopeKey:entry.scopeKey});
+  SOTWReaderTrail.commit(trail);
  }catch(_){
   button.disabled=false;
   button.textContent='Unable to open this published passage. Try again.';

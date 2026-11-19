@@ -1,0 +1,27 @@
+/* Reader-only search/topic return contracts, no source-data migration. */
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const dir=path.resolve(__dirname,'..');
+const script=fs.readFileSync(path.join(dir,'reader-trail.js'),'utf8');
+const index=fs.readFileSync(path.join(dir,'index.html'),'utf8');
+const discovery=fs.readFileSync(path.join(dir,'discovery-integrations.js'),'utf8');
+const jacob=fs.readFileSync(path.join(dir,'jacob-search.js'),'utf8');
+const returnScript=fs.readFileSync(path.join(dir,'reader-return.js'),'utf8');
+const shell=fs.readFileSync(path.join(dir,'sw.js'),'utf8');
+assert(script.includes('SOTWReaderTrail={capture,commit,restore,clear'));
+assert(script.includes("query:searchInput.value,scroll:results.scrollTop"),'Exact search state is saved');
+assert(script.includes("heading:heading.textContent,scroll:panel.scrollTop"),'Topic scroll saved');
+assert(script.includes("if(!heading||heading!==snap.heading){clear();return false;}"),'Never restore another topic under stale title');
+assert(script.includes("if(searchInput.value!==snap.query){clear();return false;}"),'Avoid stale search result restoration');
+assert(script.includes("dismiss.addEventListener('click',clear)"),'Dismissibility');
+assert(discovery.includes("SOTWReaderTrail.capture('topic')")&&discovery.includes('SOTWReaderTrail.commit(last)'));
+assert(discovery.includes('Back to search results'),'Topic can return to its source results');
+assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTWReaderTrail.commit(trail)'));
+assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
+assert(index.includes('reader-trail.js?v=20261118-trail1'));
+assert(returnScript.includes("sotwReturnToPassage"),'Original Back to Scripture remains intact');
+assert(shell.includes('shell-v0182')&&shell.includes("'./reader-trail.js'"),'PWA must preload the new return script');
+assert(!script.includes('sessionStorage')&&!script.includes('localStorage'),'Trail is per-tab in-memory only');
+console.log('PASS: one dismissible local trail, topic/search scroll and query preserved, original Scripture return intact');
