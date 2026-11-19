@@ -43,7 +43,7 @@ for(const dir of ['mobile-bible-beta','mobile-bible-sotw']){
 }
 async function workerChecks(dir,own,sibling){
  const code=fs.readFileSync(path.join(root,'..',dir,'sw.js'),'utf8');
- const listeners={},deleted=[],keys=[own.replace(/v\\d+$/,'v0000'),own,sibling,'unrelated-website-cache'];
+ const listeners={},deleted=[],keys=[own.slice(0,-5)+'v0000',own,sibling,'unrelated-website-cache'];
  const store={match:async()=>undefined,put:async()=>{}};
  const sandbox={
   self:{location:{origin:'https://example.test'},clients:{claim:async()=>{}},skipWaiting:async()=>{},
