@@ -10,6 +10,9 @@ on:
       - "mobile-bible-beta/index.html"
       - "mobile-bible-beta/jacob-scripture-links.js"
       - "mobile-bible-beta/reader-return.js"
+      - "mobile-bible-beta/jacob-search.js"
+      - "mobile-bible-beta/tests/jacob-search.test.cjs"
+      - "mobile-bible-beta/tests/jacob-search-browser.test.cjs"
       - "mobile-bible-beta/tests/jacob-scripture-browser.test.cjs"
       - "mobile-bible-beta/tests/exodus-link-browser.test.cjs"
       - "mobile-bible-beta/tests/bsb-lexical-browser.test.cjs"
@@ -55,3 +58,5 @@ jobs:
         run: node mobile-bible-beta/tests/exodus-link-browser.test.cjs
       - name: Verify BSB Strong’s short meaning and English Webster action
         run: node mobile-bible-beta/tests/bsb-lexical-browser.test.cjs
+      - name: Find published Jacob commentary and align marker-first Scripture navigation
+        run: node mobile-bible-beta/tests/jacob-search-browser.test.cjs
