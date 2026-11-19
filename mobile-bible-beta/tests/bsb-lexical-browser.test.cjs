@@ -10,6 +10,13 @@ const {chromium}=require('playwright-core');
   const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   // Small rights-neutral fixture keeps this UI test from downloading the
   // full ~15 MB historical English dictionary; lexical Greek is live source.
+  // Test-only response for the G0591 -> strongs:G591 normalization contract.
+  // No test data is served to readers or represented as authoritative source.
+  // This isolates UI regression from external lexicon network outages.
+  await page.route('**/study-data/v1/lexicon/G/G00501-G00750.json',route=>route.fulfill({
+   status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},
+   body:JSON.stringify({entries:{'strongs:G591':{definitions:{concise_source_authored:'to give away'}}}})
+  }));
   await page.route('**/webster1828.json',route=>route.fulfill({status:200,contentType:'application/json',
    headers:{'access-control-allow-origin':'*'},
    body:JSON.stringify({evil:[['EVIL','Harm, wrong, or moral evil.',1]]})}));
