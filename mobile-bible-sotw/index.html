@@ -807,7 +807,7 @@ function readerShareUrl(verse=state.verse,jacobScope=''){
  if(!state.bible||!state.index)return null;
  const accepted=jacobScope&&state.jacob.find(e=>e.scopeKey===jacobScope&&typeof e.commentary==='string'&&e.commentary.trim());
  const scope=accepted&&parseScope(accepted.scopeKey);
- const book=scope?.book||state.book,chapter=scope?.chapter||state.chapter;
+ const book=scope?.book||state.book,chapter=scope?(scope.chapter||1):state.chapter;
  const targetVerse=scope?.from||verse;
  const params=new URLSearchParams({book,chapter:String(chapter),
   verse:String(targetVerse),translation:state.edition});
@@ -817,7 +817,9 @@ function readerShareUrl(verse=state.verse,jacobScope=''){
 async function readerShare(verse=state.verse,scope=''){
  const url=readerShareUrl(verse,scope);
  if(!url){setStatus('Wait for verified Scripture to load before sharing.',true);return;}
- const label=bookInfo().name+' '+state.chapter+':'+verse;
+ const parsed=scope?parseScope(scope):null;
+ const labelBook=parsed?(BOOKS.find(b=>b.code===parsed.book)?.name||parsed.book):bookInfo().name;
+ const label=labelBook+' '+(parsed?(parsed.chapter||1):state.chapter)+':'+(parsed?(parsed.from||1):verse);
  try{
   if(typeof navigator.share==='function'){
    await navigator.share({title:scope?'Jacob Lannom commentary · '+label:'Study Bible · '+label,url});return;
@@ -1293,19 +1295,25 @@ function openAuthorCommentary(author){
     (!author.chapterOnly||e.scopeType==='CHAPTER_INTRODUCTION')&&
     typeof e.commentary==='string'&&e.commentary.trim());
   const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
-   if(matches.length){
-    const share=document.createElement('button');share.type='button';
-    share.className='jacob-share-action';
-    share.textContent='↗ Share this Jacob commentary';
-    share.setAttribute('aria-label','Share a direct link to this published Jacob Lannom commentary');
-    share.style.cssText='margin:0 0 12px;padding:9px 12px;border-radius:9px;border:1px solid #668a90;background:#2d4b54;color:#ecf7f8;font:600 13px system-ui;cursor:pointer';
-    share.addEventListener('click',()=>{
-     const selected=matches.find(e=>e.scopeKey===author.scopeKey)||matches[0];
-     const parsed=parseScope(selected.scopeKey);
-     readerShare(parsed?.from||state.verse,selected.scopeKey);
-    });
-    body.append(share);
-   }
+  // Display each verified published scope beside its own compact Share action.
+  function appendJacobReferenceShare(container,entry){
+   const parsed=parseScope(entry.scopeKey);
+   const isBook=entry.scopeType==='BOOK_OVERVIEW';
+   const isChapter=entry.scopeType==='CHAPTER_INTRODUCTION';
+   const reference=formatScope(entry.scopeKey).replace(/-(\d+)$/, '–$1');
+   const description=reference+(isBook?' · Book Overview':isChapter?' · Chapter Introduction':'');
+   const line=document.createElement('div');line.className='jacob-reference-share';
+   line.style.cssText='display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 0 15px';
+   const label=document.createElement('strong');label.className='jacob-passage-reference';
+   label.textContent=description;
+   label.style.cssText='font:700 17px/1.35 system-ui;color:inherit';
+   const share=document.createElement('button');share.type='button';share.className='jacob-share-action';
+   share.textContent='↗ Share';
+   share.setAttribute('aria-label','Share Jacob Lannom commentary on '+description);
+   share.style.cssText='flex:none;margin:0;padding:5px 9px;border-radius:8px;border:1px solid #668a90;background:#2d4b54;color:#ecf7f8;font:600 12px system-ui;cursor:pointer';
+   share.addEventListener('click',()=>readerShare(parsed?.from||1,entry.scopeKey));
+   line.append(label,share);container.append(line);
+  }
   if(!matches.length){
    const note=document.createElement('p');note.className='modern-panel-desc';
    note.textContent='No Jacob commentary is published for this selection.';
@@ -1318,14 +1326,11 @@ function openAuthorCommentary(author){
     const summary=document.createElement('summary');summary.textContent='Chapter Intro';
     const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
     const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
-    disclosure.append(summary,heading);
+    disclosure.append(summary);appendJacobReferenceShare(disclosure,entry);disclosure.append(heading);
     appendJacobDoctrineBadge(disclosure,entry,gen);
     disclosure.append(prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
    }
-   if(entry.scopeType==='CHAPTER_INTRODUCTION'){
-    const scope=document.createElement('p');scope.className='jacob-scope-note';
-    scope.textContent='Chapter Intro · '+bookInfo().name+' '+state.chapter;body.append(scope);
-   }
+   appendJacobReferenceShare(body,entry);
    const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
    appendJacobDoctrineBadge(body,entry,gen);
    appendVisibleCommentary(body,entry.commentary);

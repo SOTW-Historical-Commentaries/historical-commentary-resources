@@ -49,7 +49,15 @@ const {chromium}=require('playwright-core');
    await returning.evaluate(()=>{
     Object.defineProperty(navigator,'share',{configurable:true,value:async info=>{window.__lastShared=info;}});
    });
-   await returning.locator('.jacob-share-action').first().click();
+   const romanRef=returning.locator('#studyOverlay .jacob-passage-reference').first();
+   assert.equal((await romanRef.innerText()).trim(),'Romans 12:17');
+   const romanShare=returning.locator('#studyOverlay .jacob-share-action').first();
+   assert.equal((await romanShare.innerText()).trim(),'↗ Share');
+   const shareRect=await romanShare.boundingBox();
+   assert(shareRect&&shareRect.width<120,dir+' share button should be compact');
+   const refRect=await romanRef.boundingBox();
+   assert(refRect&&refRect.x<shareRect.x,dir+' passage reference must be left of Share');
+   await romanShare.click();
    const comment=await returning.evaluate(()=>window.__lastShared);
    assert(comment?.url.startsWith(base),dir+' Jacob link must remain on same brand');
    const loc=new URL(comment.url);
@@ -57,6 +65,15 @@ const {chromium}=require('playwright-core');
    assert.equal(loc.searchParams.get('chapter'),'12');
    assert.equal(loc.searchParams.get('verse'),'17');
    assert.equal(loc.searchParams.get('jacob'),'ROM.12.17');
+   // A longer published scope displays the actual verse range and shares that exact record.
+   await returning.addInitScript(()=>{Object.defineProperty(navigator,'share',{configurable:true,value:async info=>{window.__lastShared=info;}});});
+   await returning.goto(base+'?book=ACT&chapter=6&verse=1&translation=KJV1769&jacob=ACT.6.1-7',
+    {waitUntil:'domcontentloaded'});
+   await returning.locator('#studyOverlay.is-open').waitFor({state:'visible',timeout:45000});
+   assert.equal((await returning.locator('#studyOverlay .jacob-passage-reference').first().innerText()).trim(),'Acts 6:1–7');
+   await returning.locator('#studyOverlay .jacob-share-action').first().click();
+   const rangeShare=await returning.evaluate(()=>window.__lastShared);
+   assert.equal(new URL(rangeShare.url).searchParams.get('jacob'),'ACT.6.1-7');
    await returning.goto(base+'?book=ROM&chapter=12&verse=17&translation=KJV1769&jacob=NOT_A_RECORD',
     {waitUntil:'domcontentloaded'});
    await returning.locator('#verses .reader-verse[data-verse="17"]').waitFor({state:'visible'});
