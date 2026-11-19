@@ -11,6 +11,9 @@ const jacob=fs.readFileSync(path.join(dir,'jacob-search.js'),'utf8');
 const returnScript=fs.readFileSync(path.join(dir,'reader-return.js'),'utf8');
 const shell=fs.readFileSync(path.join(dir,'sw.js'),'utf8');
 assert(script.includes('SOTWReaderTrail={capture,commit,restore,clear'));
+assert(script.includes('m15 18-6-6 6-6')&&script.includes('const openLabel='),'Use same left-chevron SVG as Back to Scripture');
+assert(!script.includes('↩'),'The curved arrow is not used');
+assert(script.includes("openLabel.textContent='Back to '+last.label"),'Changing label must preserve static chevron');
 assert(script.includes("query:searchInput.value,scroll:results.scrollTop"),'Exact search state is saved');
 assert(script.includes("heading:heading.textContent,scroll:panel.scrollTop"),'Topic scroll saved');
 assert(script.includes("if(!heading||heading!==snap.heading){clear();return false;}"),'Never restore another topic under stale title');
@@ -22,6 +25,6 @@ assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTW
 assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
 assert(index.includes('reader-trail.js?v=20261119-trail2'));
 assert(returnScript.includes("sotwReturnToPassage"),'Original Back to Scripture remains intact');
-assert(shell.includes('shell-v0182')&&shell.includes("'./reader-trail.js'"),'PWA must preload the new return script');
+assert(shell.includes('shell-v0183')&&shell.includes("'./reader-trail.js'"),'PWA must preload the new return script');
 assert(!script.includes('sessionStorage')&&!script.includes('localStorage'),'Trail is per-tab in-memory only');
 console.log('PASS: one dismissible local trail, topic/search scroll and query preserved, original Scripture return intact');
