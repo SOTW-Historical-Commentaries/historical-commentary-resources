@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Servants of the Way Bible",
-  "short_name": "SOTW Bible",
-  "description": "Mobile-first Scripture reading and study",
+  "name": "Study Bible",
+  "short_name": "Study Bible",
+  "description": "CGBC · Servants of the Way Study Bible",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,10 +10,22 @@
   "theme_color": "#111a20",
   "icons": [
     {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "./icons/cgbc-sotw/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "./icons/cgbc-sotw/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/cgbc-sotw/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
