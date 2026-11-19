@@ -955,10 +955,27 @@ betaCloseSheet=function(){
 /* Capture close clicks before legacy beta listeners so the selection always clears. */
 betaClose.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseSheet()},{capture:true});
 betaShade.addEventListener('click',e=>{e.stopImmediatePropagation();betaCloseSheet()},{capture:true});
-readerView.addEventListener('pointerdown',e=>{modernGesture.x=e.clientX;modernGesture.y=e.clientY;modernGesture.moved=false},{passive:true});
-readerView.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-modernGesture.x)>9||Math.abs(e.clientY-modernGesture.y)>9)modernGesture.moved=true},{passive:true});
-readerView.addEventListener('touchmove',()=>{modernGesture.moved=true},{passive:true});
-readerView.addEventListener('scroll',()=>{if(modernProgrammaticScroll)return;modernGesture.scrollTime=Date.now();modernGesture.moved=true},{passive:true});
+// A scroll without preceding human movement may be caused by browser focus,
+ // Playwright visibility or a verified Scripture jump. Do not treat it as
+ // a finger-scroll and accidentally suppress the next legitimate verse tap.
+readerView.addEventListener('pointerdown',e=>{
+ modernGesture.x=e.clientX;modernGesture.y=e.clientY;modernGesture.moved=false;
+ modernGesture.pointerDown=true;
+},{passive:true});
+readerView.addEventListener('pointermove',e=>{
+ if(!modernGesture.pointerDown)return;
+ if(Math.abs(e.clientX-modernGesture.x)>9||Math.abs(e.clientY-modernGesture.y)>9){
+  modernGesture.moved=true;modernGesture.lastHumanScroll=Date.now();
+ }
+},{passive:true});
+readerView.addEventListener('pointerup',()=>{modernGesture.pointerDown=false},{passive:true});
+readerView.addEventListener('pointercancel',()=>{modernGesture.pointerDown=false},{passive:true});
+readerView.addEventListener('touchmove',()=>{modernGesture.moved=true;modernGesture.lastHumanScroll=Date.now()},{passive:true});
+readerView.addEventListener('wheel',()=>{modernGesture.lastHumanScroll=Date.now()},{passive:true});
+readerView.addEventListener('scroll',()=>{
+ if(modernProgrammaticScroll||Date.now()-(modernGesture.lastHumanScroll||0)>400)return;
+ modernGesture.scrollTime=Date.now();modernGesture.moved=true;
+},{passive:true});
 readerView.addEventListener('click',e=>{
  // The rotated-square commentary shortcut never opens normal verse tools.
  if(e.target.closest('button.jacob-verse-marker'))return;
