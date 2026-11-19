@@ -54,7 +54,7 @@ assert(sotw.includes('src="../mobile-bible-sotw/branding/v1/Bible_and_Wordmark_D
 assert(!sotw.includes('sotw-brand-wordmark'),'Old temporary text wordmark removed');
 assert(sotw.includes('href="../mobile-bible-sotw/manifest.webmanifest"'));
 assert(sotw.includes("navigator.serviceWorker.register('../mobile-bible-sotw/sw.js')"));
-assert(swC.includes('shell-v0184')&&swS.includes('shell-v0002'),'Distinct caches');
+assert(swC.includes('shell-v0185')&&swS.includes('shell-v0003'),'Distinct caches');
 assert(swS.includes('../mobile-bible-beta/jacob-search.js'),'SOTW shares published reader runtime');
 assert(!swS.includes("'./icons/cgbc-sotw/"),'Do not cache nonexistent CGBC icons inside SOTW scope');
 for(const file of ['SOTW_Bible_and_Name_Transparent.png','Bible_and_Wordmark_Dark_Grey_4x_Transparent.png'])assert(swS.includes('./branding/v1/'+file),'Precache SOTW header asset '+file);
