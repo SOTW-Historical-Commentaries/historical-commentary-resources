@@ -14,6 +14,9 @@ on:
       - "mobile-bible-beta/jacob-search.js"
       - "mobile-bible-beta/tests/jacob-search.test.cjs"
       - "mobile-bible-beta/tests/jacob-search-browser.test.cjs"
+      - "mobile-bible-beta/tests/jacob-doctrine.test.cjs"
+      - "mobile-bible-beta/tests/jacob-doctrine-browser.test.cjs"
+      - "mobile-bible-beta/data/verse-doctrine-tags.v1.json"
       - "mobile-bible-beta/tests/jacob-scripture-browser.test.cjs"
       - "mobile-bible-beta/tests/exodus-link-browser.test.cjs"
       - "mobile-bible-beta/tests/bsb-lexical-browser.test.cjs"
@@ -51,6 +54,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Show only validated doctrine and aliases on the matching Jacob commentary entry
+        run: node mobile-bible-beta/tests/jacob-doctrine-browser.test.cjs
       - name: Exercise actual mobile viewport reader interactions
         run: node mobile-bible-beta/tests/discovery-browser.test.cjs
       - name: Exercise published Jacob cross-references in both viewers
