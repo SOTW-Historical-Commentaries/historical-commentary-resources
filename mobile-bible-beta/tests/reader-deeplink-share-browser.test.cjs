@@ -51,6 +51,8 @@ const {chromium}=require('playwright-core');
    });
    const romanRef=returning.locator('#studyOverlay .jacob-passage-reference').first();
    assert.equal((await romanRef.innerText()).trim(),'Romans 12:17');
+   const romanTitle=returning.locator('#studyOverlay h4').first();
+   assert.equal((await romanTitle.innerText()).trim(),'Refuse Retaliation, Pursue What Is Honorable',dir+' must not repeat the passage in its displayed title');
    const romanShare=returning.locator('#studyOverlay .jacob-share-action').first();
    assert.equal((await romanShare.innerText()).trim(),'↗ Share');
    const shareRect=await romanShare.boundingBox();
