@@ -64,6 +64,7 @@ assert(script.includes('The first tap shows topic content and Scripture citation
 assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
 assert(script.includes('One historical source citation')&&script.includes('expandList('));
+assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('parent.append(link)'),'Topic citation must be a navigable verified link');
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
