@@ -151,8 +151,17 @@ function referenceButton(parent,ref){
  const first=(ref.scopes||[]).find(s=>parseScope(s,BOOKS));
  if(!first)return false;
  const label=asText(ref.raw).replace(/(\d)\-(\d)/g,'$1–$2');
- const b=button(parent,label,()=>jump(first),'discovery-citation');
- b.setAttribute('aria-label','Open first cited verse of '+label);
+ const parsed=parseScope(first,BOOKS);
+ const params=new URLSearchParams({
+  book:parsed.book.code,chapter:String(parsed.chapter),verse:String(parsed.verse),
+  translation:state.edition
+ });
+ // The reader's existing verified passage-link handler owns navigation,
+ // visible failure reporting, and Back-to-original-passage history.
+ const link=el('a','discovery-citation jacob-passage-link',label);
+ link.href=location.pathname+'?'+params.toString();
+ link.setAttribute('aria-label','Open first cited verse of '+label);
+ parent.append(link);
  return true;
 }
 function expandList(parent,rows,render,visibleCount=4){
