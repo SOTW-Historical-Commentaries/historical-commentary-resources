@@ -58,7 +58,8 @@ assert(!script.includes('rankEntities')&&!script.includes('showEntity('));
 assert(!script.includes('sourceJson(BSB+')&&!script.includes('discovery-bsb'),
  'Redundant source-language order panel must be absent');
 assert(!css.includes('.discovery-word-grid')&&!css.includes('.discovery-original-body'));
-assert(script.includes("'Related Bible Topics ›'")&&script.includes('sourceHeading('));
+assert(script.includes("'Related Bible Topics'")&&script.includes("'Explore topics ›'")&&script.includes('sourceHeading('));
+assert(css.includes('border:0;border-radius:11px;background:transparent'),'Topics launcher should not have nested border');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
 assert(script.includes('One historical source citation')&&script.includes('expandList('));
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
