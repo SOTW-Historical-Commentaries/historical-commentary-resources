@@ -35,7 +35,11 @@ function verseTopicIds(index,scope){
 function sourceHeading(label){
  const original=asText(label);
  const cleaned=original.replace(/^[.\s·]+/,'').replace(/\s+/g,' ').trim();
- if(!cleaned||/^\d{2,5}\s*:?$/.test(cleaned)||/^[.,:;]+$/.test(cleaned)||
+ // Historical index fragments may contain bare chapter:verse ranges
+ // (e.g. "18:5-7,9;" or "5:8,16;6:18;"), not subject headings.
+ // Retain the literal source label separately for provenance.
+ const numericReferences=/^\d{1,3}:\d{1,3}(?:[-–]\d{1,3})?(?:[,;]\s*(?:\d{1,3}:)?\d{1,3}(?:[-–]\d{1,3})?)*;?$/;
+ if(!cleaned||/^\d{2,5}\s*:?$/.test(cleaned)||numericReferences.test(cleaned)||/^[.,:;]+$/.test(cleaned)||
   /(?:of|from|in)\s*[1-3]?\s*(?:Ge|Gen|Ex|Exo)\s*\d/i.test(cleaned))
   return {title:'Other indexed passages',sourceLabel:original};
  return {title:cleaned,sourceLabel:''};
