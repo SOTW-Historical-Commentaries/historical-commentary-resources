@@ -33,6 +33,11 @@ assert.deepEqual(Array.from(core.verseTopicIds(idx,'GEN.4.19')),[]);
 assert.equal(core.sourceHeading('.Esau forgives Jacob').title,'Esau forgives Jacob');
 assert.equal(core.sourceHeading('1545:').title,'Other indexed passages');
 assert.equal(core.sourceHeading('1545:').sourceLabel,'1545:');
+for(const label of ['18:5-7,9;','5:8,16;6:18;']){
+ assert.equal(core.sourceHeading(label).title,'Other indexed passages');
+ assert.equal(core.sourceHeading(label).sourceLabel,label);
+}
+assert.equal(core.sourceHeading('The old man of Gibeah').title,'The old man of Gibeah');
 const sampleTopic={references:[
  {raw:'Genesis 33:4,11',status:'mapped',verse_ids:['GEN.33.4','GEN.33.11']},
  {raw:'Genesis 45:5-15',status:'mapped',verse_ids:['GEN.45.5','GEN.45.6']},
