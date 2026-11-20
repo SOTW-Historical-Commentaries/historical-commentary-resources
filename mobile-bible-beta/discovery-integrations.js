@@ -268,7 +268,38 @@ async function showVerseTopics(){
  if(titles.length){
   verseBody.append(el('h3','discovery-heading','Topics indexed for this verse'));
   note(verseBody,'Historical Nave/Torrey groupings, not doctrinal conclusions.');
-  expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t),'discovery-citation'),6);
+  // The first tap shows topic content and Scripture citations, not a second menu.
+  const host=el('div','discovery-topic-groups');verseBody.append(host);
+  for(const topic of titles.slice(0,6)){
+   const group=el('section','discovery-topic-group');host.append(group);
+   group.append(el('h4','discovery-heading',topic.title));
+   const loading=note(group,'Loading Scripture references…');
+   try{
+    const shard=await sourceJson(TOPICS+topic.shard);
+    if(current!==verseSeq||!group.isConnected)return;
+    const row=shard?.topics?.find(t=>t.id===topic.id);
+    if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
+    loading.remove();
+    const sections=topicSections(row);
+    if(!sections.length){note(group,'No mapped Scripture citations.');continue;}
+    for(const section of sections.slice(0,5)){
+     const sectionBox=el('div','discovery-verse-topic-section');group.append(sectionBox);
+     sectionBox.append(el('h5','discovery-source-heading',section.title));
+     expandList(sectionBox,section.references,referenceButton,4);
+    }
+    if(sections.length>5){
+     const more=button(group,'Show remaining '+(sections.length-5)+' sections',()=>{
+      more.remove();
+      sections.slice(5).forEach(section=>{
+       const sectionBox=el('div','discovery-verse-topic-section');group.append(sectionBox);
+       sectionBox.append(el('h5','discovery-source-heading',section.title));
+       expandList(sectionBox,section.references,referenceButton,4);
+      });
+     },'discovery-more');
+    }
+   }catch{if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}}
+  }
+  if(titles.length>6)note(verseBody,'Showing the first six indexed topics for this verse.');
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
  sourceLink(verseBody);
 }
