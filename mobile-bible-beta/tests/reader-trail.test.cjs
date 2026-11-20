@@ -21,6 +21,7 @@ assert(script.includes("if(searchInput.value!==snap.query){clear();return false;
 assert(script.includes("dismiss.addEventListener('click',clear)"),'Dismissibility');
 assert(discovery.includes("'discovery-citation jacob-passage-link'")&&discovery.includes('link.href=location.pathname'),'Topic citations must use verified passage links');
 assert(returnScript.includes("closest('a.jacob-passage-link')")&&returnScript.includes('follow(anchor)'),'Reader return handler must intercept topic citation links');
+assert(returnScript.includes("SOTWReaderTrail.capture('topic')")&&returnScript.includes('SOTWReaderTrail.commit(trail)'),'Topic citation navigation must preserve return trail');
 assert(discovery.includes('Back to search results'),'Topic can return to its source results');
 assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTWReaderTrail.commit(trail)'));
 assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
