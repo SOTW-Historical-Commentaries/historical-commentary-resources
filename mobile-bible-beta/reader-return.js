@@ -77,12 +77,14 @@ async function follow(anchor){
  if(busy)return;
  const url=new URL(anchor.href,location.href),book=url.searchParams.get('book'),chapter=Number(url.searchParams.get('chapter')),verse=Number(url.searchParams.get('verse'));
  const saved=origin||snapshot();if(!saved)return;
+ const trail=anchor.classList.contains('discovery-citation')?SOTWReaderTrail.capture('topic'):null;
  busy=true;
  try{
   if(!await verified(book,chapter,verse))throw Error('Invalid Scripture reference');
   betaCloseSheet();document.querySelector('#sotwDiscoveryDetail')?.classList.remove('is-open');
   if(!await navigate(book,chapter,verse))throw Error('Could not load passage');
   if(!origin&&!same(saved,{book,chapter,verse,edition:state.edition}))origin=saved;
+  if(trail)SOTWReaderTrail.commit(trail);
   display();
  }catch(_){failure('This Scripture passage could not be opened. Try again shortly.');}
  finally{busy=false;}

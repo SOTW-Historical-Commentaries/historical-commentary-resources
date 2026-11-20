@@ -118,31 +118,6 @@ function showDetail(heading){
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
  return body;
 }
-async function jump(scope){
- const parsed=parseScope(scope,BOOKS);
- if(!parsed)return;
- const b=parsed.book;
- try{
-  const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+parsed.chapter+'.json');
-  const max=Number(idx?.verse_count||0);
-  if(idx?.canonical_chapter!==b.code+'.'+parsed.chapter||max<1||
-     (parsed.hasVerse&&parsed.verse>max))throw Error('Invalid Bible scope');
-  const last=SOTWReaderTrail.capture('topic');
-  detail.veil.classList.remove('is-open');searchModal.veil.classList.remove('is-open');
-  betaCloseSheet();
-  const same=state.book===b.code&&state.chapter===parsed.chapter;
-  state.book=b.code;state.chapter=parsed.chapter;state.verse=parsed.verse;
-  $('book').value=b.code;
-  if(!same)await loadBook();else chooseVerse(parsed.verse);
-  if(state.bible&&state.book===b.code&&state.chapter===parsed.chapter){
-   modernJumpToVerse(parsed.verse);
-   SOTWReaderTrail.commit(last);
-  }
- }catch{
-  const body=detail.panel.querySelector('.discovery-detail-body');
-  if(body)note(body,'Could not verify the Scripture location. The reader was not changed.','discovery-error');
- }
-}
 function referenceButton(parent,ref){
  // One historical source citation, not one separate chip for each verse.
  // When it names several verses, the first verified one is the navigation
@@ -150,8 +125,17 @@ function referenceButton(parent,ref){
  const first=(ref.scopes||[]).find(s=>parseScope(s,BOOKS));
  if(!first)return false;
  const label=asText(ref.raw).replace(/(\d)\-(\d)/g,'$1–$2');
- const b=button(parent,label,()=>jump(first),'discovery-citation');
- b.setAttribute('aria-label','Open first cited verse of '+label);
+ const parsed=parseScope(first,BOOKS);
+ const params=new URLSearchParams({
+  book:parsed.book.code,chapter:String(parsed.chapter),verse:String(parsed.verse),
+  translation:state.edition
+ });
+ // The reader's existing verified passage-link handler owns navigation,
+ // visible failure reporting, and Back-to-original-passage history.
+ const link=el('a','discovery-citation jacob-passage-link',label);
+ link.href=location.pathname+'?'+params.toString();
+ link.setAttribute('aria-label','Open first cited verse of '+label);
+ parent.append(link);
  return true;
 }
 function expandList(parent,rows,render,visibleCount=4){

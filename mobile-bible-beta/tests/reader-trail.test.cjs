@@ -19,12 +19,14 @@ assert(script.includes("heading:heading.textContent,scroll:panel.scrollTop"),'To
 assert(script.includes("if(!heading||heading!==snap.heading){clear();return false;}"),'Never restore another topic under stale title');
 assert(script.includes("if(searchInput.value!==snap.query){clear();return false;}"),'Avoid stale search result restoration');
 assert(script.includes("dismiss.addEventListener('click',clear)"),'Dismissibility');
-assert(discovery.includes("SOTWReaderTrail.capture('topic')")&&discovery.includes('SOTWReaderTrail.commit(last)'));
+assert(discovery.includes("'discovery-citation jacob-passage-link'")&&discovery.includes('link.href=location.pathname'),'Topic citations must use verified passage links');
+assert(returnScript.includes("closest('a.jacob-passage-link')")&&returnScript.includes('follow(anchor)'),'Reader return handler must intercept topic citation links');
+assert(returnScript.includes("SOTWReaderTrail.capture('topic')")&&returnScript.includes('SOTWReaderTrail.commit(trail)'),'Topic citation navigation must preserve return trail');
 assert(discovery.includes('Back to search results'),'Topic can return to its source results');
 assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTWReaderTrail.commit(trail)'));
 assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
 assert(index.includes('reader-trail.js?v=20261119-trail2'));
 assert(returnScript.includes("sotwReturnToPassage"),'Original Back to Scripture remains intact');
-assert(shell.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&shell.includes("CACHE=PREFIX+'v0188'")&&shell.includes('./reader-trail.js'),'PWA must preload the new return script');
+assert(shell.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&shell.includes("CACHE=PREFIX+'v0190'")&&shell.includes('./reader-trail.js'),'PWA must preload the new return script');
 assert(!script.includes('sessionStorage')&&!script.includes('localStorage'),'Trail is per-tab in-memory only');
 console.log('PASS: one dismissible local trail, topic/search scroll and query preserved, original Scripture return intact');
