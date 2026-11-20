@@ -25,6 +25,6 @@ assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTW
 assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
 assert(index.includes('reader-trail.js?v=20261119-trail2'));
 assert(returnScript.includes("sotwReturnToPassage"),'Original Back to Scripture remains intact');
-assert(shell.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&shell.includes("CACHE=PREFIX+'v0187'")&&shell.includes('./reader-trail.js'),'PWA must preload the new return script');
+assert(shell.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&shell.includes("CACHE=PREFIX+'v0188'")&&shell.includes('./reader-trail.js'),'PWA must preload the new return script');
 assert(!script.includes('sessionStorage')&&!script.includes('localStorage'),'Trail is per-tab in-memory only');
 console.log('PASS: one dismissible local trail, topic/search scroll and query preserved, original Scripture return intact');
