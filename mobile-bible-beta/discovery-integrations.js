@@ -118,32 +118,6 @@ function showDetail(heading){
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
  return body;
 }
-async function jump(scope){
- const parsed=parseScope(scope,BOOKS);
- if(!parsed)return;
- const b=parsed.book;
- try{
-  // Verify the published destination before leaving the current study.
-  const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+parsed.chapter+'.json');
-  const max=Number(idx?.verse_count||0);
-  if(idx?.canonical_chapter!==b.code+'.'+parsed.chapter||max<1||
-     (parsed.hasVerse&&parsed.verse>max))throw Error('Invalid Bible scope');
-  // Use the reader's supported deep-link contract. The previous in-place
-  // transition closed the sheet before confirming navigation and could
-  // silently leave the reader on the original passage.
-  const params=new URLSearchParams({
-   book:b.code,chapter:String(parsed.chapter),verse:String(parsed.verse),
-   translation:state.edition
-  });
-  const destination=new URL(location.pathname+'?'+params.toString(),location.origin);
-  location.assign(destination.href);
- }catch{
-  // Keep the current tools open when verification fails, so errors are visible.
-  const visible=document.querySelector('.discovery-verse-body:not([hidden])');
-  const body=visible||detail.panel.querySelector('.discovery-detail-body');
-  if(body)note(body,'Could not open the verified Scripture location. The reader was not changed.','discovery-error');
- }
-}
 function referenceButton(parent,ref){
  // One historical source citation, not one separate chip for each verse.
  // When it names several verses, the first verified one is the navigation
