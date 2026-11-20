@@ -33,6 +33,11 @@ assert.deepEqual(Array.from(core.verseTopicIds(idx,'GEN.4.19')),[]);
 assert.equal(core.sourceHeading('.Esau forgives Jacob').title,'Esau forgives Jacob');
 assert.equal(core.sourceHeading('1545:').title,'Other indexed passages');
 assert.equal(core.sourceHeading('1545:').sourceLabel,'1545:');
+for(const label of ['18:5-7,9;','5:8,16;6:18;']){
+ assert.equal(core.sourceHeading(label).title,'Other indexed passages');
+ assert.equal(core.sourceHeading(label).sourceLabel,label);
+}
+assert.equal(core.sourceHeading('The old man of Gibeah').title,'The old man of Gibeah');
 const sampleTopic={references:[
  {raw:'Genesis 33:4,11',status:'mapped',verse_ids:['GEN.33.4','GEN.33.11']},
  {raw:'Genesis 45:5-15',status:'mapped',verse_ids:['GEN.45.5','GEN.45.6']},
@@ -67,13 +72,13 @@ assert(script.includes('One historical source citation')&&script.includes('expan
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261119-discovery7'));
+assert(html.includes('discovery-integrations.js?v=20261120-discovery8'));
 assert(html.includes('reader-return.js?v=20261118-return1'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261119-discovery3'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0188'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0189'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
