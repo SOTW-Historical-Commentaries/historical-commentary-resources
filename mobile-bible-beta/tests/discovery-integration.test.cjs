@@ -60,6 +60,8 @@ assert(!script.includes('sourceJson(BSB+')&&!script.includes('discovery-bsb'),
 assert(!css.includes('.discovery-word-grid')&&!css.includes('.discovery-original-body'));
 assert(script.includes("'Related Bible Topics'")&&script.includes("'Explore topics ›'")&&script.includes('sourceHeading('));
 assert(css.includes('border:0;border-radius:11px;background:transparent'),'Topics launcher should not have nested border');
+assert(script.includes('The first tap shows topic content and Scripture citations'),'Topics must render actual content without intermediate topic menu');
+assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
 assert(script.includes('One historical source citation')&&script.includes('expandList('));
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
