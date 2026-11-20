@@ -72,16 +72,23 @@
  margin:12px 0 7px;text-decoration:underline;
 }
 .mobile-beta .discovery-study{
- border:1px solid #405a65;background:#1c3039;border-radius:11px;
- margin:9px 0 13px;padding:9px;
+ border:1px solid #405a65;background:#253b46;border-radius:11px;
+ margin:9px 0 13px;padding:0;
 }
 .mobile-beta .discovery-launch{
- width:100%;padding:9px 12px;min-height:41px;text-align:left;
- border:1px solid #536f7d;border-radius:8px;background:#253b46;
- color:#e1eff2;font:650 13px system-ui;cursor:pointer;
+ width:100%;padding:13px 15px;min-height:50px;text-align:left;
+ display:flex;align-items:center;justify-content:space-between;gap:12px;
+ border:0;border-radius:11px;background:transparent;
+ color:#e1eff2;font:650 15px system-ui;cursor:pointer;
 }
+.mobile-beta .discovery-launch-meta{
+ color:#afc9d1;font:400 12px system-ui;white-space:nowrap;
+}
+.mobile-beta .discovery-verse-body:not([hidden]){padding:0 12px 12px}
+.mobile-beta .discovery-launch:focus-visible{outline:2px solid #b9e3f1;outline-offset:2px}
 .mobile-beta.beta-light .discovery-study{background:#f3f7f5;border-color:#b4cbcc}
-.mobile-beta.beta-light .discovery-launch,
+.mobile-beta.beta-light .discovery-launch{background:transparent;color:#29424a}
+.mobile-beta.beta-light .discovery-launch-meta{color:#4b6670}
 .mobile-beta.beta-light .discovery-topic-group{background:#e6f0ef;border-color:#a4bcc4;color:#29424a}
 .mobile-beta.beta-light .discovery-citation{background:#e5f0f0;color:#24424a;border-color:#9cbac2}
 .mobile-beta.beta-light .discovery-more{color:#315762;border-color:#9cbac2}
