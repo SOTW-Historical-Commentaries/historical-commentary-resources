@@ -443,7 +443,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:wght@400&amp;family=M+PLUS+1p:wght@300;400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
 <link rel="stylesheet" href="./study-ux-repair.css?v=20261118-reader162">
-<link rel="stylesheet" href="./discovery-integrations.css?v=20261118-discovery2">
+<link rel="stylesheet" href="./discovery-integrations.css?v=20261119-discovery3">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -1287,6 +1287,15 @@ function openAuthorCommentary(author){
     (!author.chapterOnly||e.scopeType==='CHAPTER_INTRODUCTION')&&
     typeof e.commentary==='string'&&e.commentary.trim());
   const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
+  // Trim only a leading reference matching this entry's canonical scope.
+  function jacobDisplayTitle(entry,fallback){
+   const title=String(entry.title||fallback);
+   const reference=formatScope(entry.scopeKey);
+   const prefix=reference.replace(/[-–]/g,'[-–]').replace(/ /g,'\\s+');
+   const pattern=new RegExp('^'+prefix+'\\s*[:.\\-–]\\s*','i');
+   const trimmed=title.replace(pattern,'').trim();
+   return trimmed||title;
+  }
   // Display each verified published scope beside its own compact Share action.
   function appendJacobReferenceShare(container,entry){
    const parsed=parseScope(entry.scopeKey);
@@ -1316,14 +1325,14 @@ function openAuthorCommentary(author){
    if(entry.scopeType==='CHAPTER_INTRODUCTION'&&direct.length){
     const disclosure=document.createElement('details');
     const summary=document.createElement('summary');summary.textContent='Chapter Intro';
-    const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
+    const heading=document.createElement('h4');heading.textContent=jacobDisplayTitle(entry,'Chapter introduction');
     const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
     disclosure.append(summary);appendJacobReferenceShare(disclosure,entry);disclosure.append(heading);
     appendJacobDoctrineBadge(disclosure,entry,gen);
     disclosure.append(prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
    }
    appendJacobReferenceShare(body,entry);
-   const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
+   const h=document.createElement('h4');h.textContent=jacobDisplayTitle(entry,'Commentary');body.append(h);
    appendJacobDoctrineBadge(body,entry,gen);
    appendVisibleCommentary(body,entry.commentary);
    appendJacobScriptureReferences(body,entry);
@@ -1653,7 +1662,7 @@ editionModal.veil.addEventListener('click',event=>{
 },true);
 </script>
 <script src="./study-ux-repair.js?v=20261118-reader166"></script>
-<script src="./discovery-integrations.js?v=20261118-discovery6"></script>
+<script src="./discovery-integrations.js?v=20261119-discovery7"></script>
 <script src="./reader-return.js?v=20261118-return1"></script>
 <script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
 <script src="./reader-trail.js?v=20261119-trail2"></script>
