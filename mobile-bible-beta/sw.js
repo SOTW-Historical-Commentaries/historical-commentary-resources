@@ -1,6 +1,6 @@
 /* One brand-owned PWA cache; do not delete the sibling Study Bible app's assets. */
 const PREFIX='sotw-mobile-bible-beta-shell-';
-const CACHE=PREFIX+'v0188';
+const CACHE=PREFIX+'v0190';
 const SHELL=["./","./index.html","./manifest.webmanifest","./icon.svg","./icons/cgbc-sotw/apple-touch-icon.png","./icons/cgbc-sotw/icon-192.png","./icons/cgbc-sotw/icon-512.png","./icons/cgbc-sotw/icon-maskable-512.png","./study-ux-repair.js","./study-ux-repair.css","./discovery-integrations.js","./jacob-scripture-links.js","./reader-return.js","./reader-trail.js","./jacob-search.js","./discovery-integrations.css"];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
