@@ -1295,6 +1295,16 @@ function openAuthorCommentary(author){
     (!author.chapterOnly||e.scopeType==='CHAPTER_INTRODUCTION')&&
     typeof e.commentary==='string'&&e.commentary.trim());
   const body=createVisibleAuthorCard('Jacob Lannom','Pastoral Commentary');
+  // Only trim a title's leading reference when it matches this exact published scope.
+  // The canonical title and the actual commentary prose remain untouched.
+  function jacobDisplayTitle(entry,fallback){
+   const title=String(entry.title||fallback);
+   const reference=formatScope(entry.scopeKey);
+   const escaped=reference.replace(/[.*+?^${}()|[\]\\]/g,'\\  // Display each verified published scope beside its own compact Share action.');
+   const pattern=new RegExp('^'+escaped.replace(/\\ /g,'\\s+').replace(/-/g,'[-–]')+'\\s*[:.\\-–]\\s*','i');
+   const trimmed=title.replace(pattern,'').trim();
+   return trimmed||title;
+  }
   // Display each verified published scope beside its own compact Share action.
   function appendJacobReferenceShare(container,entry){
    const parsed=parseScope(entry.scopeKey);
@@ -1324,14 +1334,14 @@ function openAuthorCommentary(author){
    if(entry.scopeType==='CHAPTER_INTRODUCTION'&&direct.length){
     const disclosure=document.createElement('details');
     const summary=document.createElement('summary');summary.textContent='Chapter Intro';
-    const heading=document.createElement('h4');heading.textContent=entry.title||'Chapter introduction';
+    const heading=document.createElement('h4');heading.textContent=jacobDisplayTitle(entry,'Chapter introduction');
     const prose=document.createElement('p');prose.className='copy';prose.textContent=entry.commentary;
     disclosure.append(summary);appendJacobReferenceShare(disclosure,entry);disclosure.append(heading);
     appendJacobDoctrineBadge(disclosure,entry,gen);
     disclosure.append(prose);appendJacobScriptureReferences(disclosure,entry);body.append(disclosure);continue;
    }
    appendJacobReferenceShare(body,entry);
-   const h=document.createElement('h4');h.textContent=entry.title||'Commentary';body.append(h);
+   const h=document.createElement('h4');h.textContent=jacobDisplayTitle(entry,'Commentary');body.append(h);
    appendJacobDoctrineBadge(body,entry,gen);
    appendVisibleCommentary(body,entry.commentary);
    appendJacobScriptureReferences(body,entry);
