@@ -242,7 +242,8 @@ searchModal.veil.addEventListener('click',()=>{
 // Verse-specific reverse index references. Never infer a separate link for
 // every verse in a chapter or claim that historical topic tags are doctrine.
 const verseDiscovery=el('section','discovery-study');
-button(verseDiscovery,'Related Bible Topics ›',()=>showVerseTopics(),'discovery-launch');
+const topicsButton=button(verseDiscovery,'Related Bible Topics',()=>showVerseTopics(),'discovery-launch');
+topicsButton.replaceChildren(el('span','discovery-launch-label','Related Bible Topics'),el('small','discovery-launch-meta','Explore topics ›'));
 const verseBody=el('div','discovery-verse-body');verseBody.hidden=true;verseDiscovery.append(verseBody);
 modernCommentaryMenu.before(verseDiscovery);
 let verseSeq=0;
