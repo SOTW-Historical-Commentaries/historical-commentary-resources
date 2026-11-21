@@ -66,3 +66,13 @@ for(const [name,expected] of [
 }
 assert(!fs.existsSync(path.join(root,'mobile-bible-sotw','api')),'No second canonical author collection');
 console.log('PASS: dual Study Bible PWAs, eight original icons, exact owner SOTW header art, distinct branding and valid SOTW cache');
+
+
+// Desktop workspace is CSS-only and scoped away from touch/mobile widths.
+for(const brand of brands){
+ const html=fs.readFileSync(path.join(root,brand.dir,'index.html'),'utf8');
+ assert(html.includes('@media (min-width:1100px) and (pointer:fine)'),'Desktop layout must be width and pointer gated');
+ assert(html.includes('grid-template-columns:minmax(0,1.25fr) minmax(370px,.85fr)'),'Desktop study must use two columns');
+ assert(html.includes('.mobile-beta.study-open #studyShade{display:none!important}'),'Desktop study must not dim Scripture');
+ assert(html.includes('position:sticky!important;inset:auto!important'),'Desktop study must not cover the Bible');
+}
