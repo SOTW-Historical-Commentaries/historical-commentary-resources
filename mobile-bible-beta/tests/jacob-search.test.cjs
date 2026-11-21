@@ -52,5 +52,5 @@ assert(html.includes('readerView.scrollTop=Math.max(0,readerView.scrollTop+ancho
  'Scroll the chapter pane, not the sticky document');
 assert(!html.includes("el.scrollIntoView({block:'start',behavior:'instant'})"),
  'No document-level verse jump under sticky header');
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0190'")&&sw.includes('./jacob-search.js'));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0191'")&&sw.includes('./jacob-search.js'));
 console.log('PASS: 16 published Jacob entries, author/book/topic matches, exact scope, marker-first chapter scrolling and cache');
