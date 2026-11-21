@@ -79,7 +79,7 @@ assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must loa
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261120-discovery4'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0190'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0191'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
