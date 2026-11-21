@@ -445,6 +445,38 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 .mobile-beta.beta-light .jacob-scripture-group h4{color:#294a54}
 .mobile-beta.beta-light .jacob-passage-link{background:#e9f2f2;border-color:#9dbdc5;color:#234b59}
 .mobile-beta.beta-light .jacob-relation-type,.mobile-beta.beta-light .jacob-relation-note{color:#526f76!important}
+/* Desktop study workspace only. Mobile/tablet presentation is unchanged. */
+@media (min-width:1100px) and (pointer:fine){
+ .mobile-beta main{max-width:1540px;margin-inline:auto;padding:24px 32px 54px;transition:none}
+ .mobile-beta .head-inner{max-width:1540px;margin-inline:auto;padding-inline:32px}
+ .mobile-beta .layout{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;align-items:start}
+ .mobile-beta .layout>.scripture{min-width:0;max-width:920px;width:100%;margin-inline:auto}
+ .mobile-beta .all-verses{height:calc(100svh - 270px)!important;min-height:480px}
+ .mobile-beta #verses .reader-paragraph{font-size:20px;line-height:1.85}
+ .mobile-beta #betaBar{left:50%;right:auto;transform:translateX(-50%);width:min(660px,90vw);
+  border:1px solid #40535d;border-radius:14px 14px 0 0;box-shadow:0 -6px 24px #0004}
+ .mobile-beta #betaBar button{font-size:12px;padding:11px 9px}
+ .mobile-beta.study-open main{max-width:1540px}
+ .mobile-beta.study-open .layout{grid-template-columns:minmax(0,1.25fr) minmax(370px,.85fr)}
+ .mobile-beta.study-open .layout>.scripture{max-width:none;margin:0}
+ .mobile-beta.study-open #studyShade{display:none!important}
+ .mobile-beta.study-open section[aria-label="Commentary comparison"]{
+  position:sticky!important;inset:auto!important;top:20px!important;right:auto!important;
+  width:100%!important;max-width:none!important;height:calc(100svh - 40px)!important;
+  max-height:calc(100svh - 40px)!important;min-width:0!important;
+  border:1px solid #41555d!important;border-radius:16px!important;
+  box-shadow:0 12px 35px #0003!important;overflow:hidden!important;
+  padding:0 18px 16px!important;z-index:20!important}
+ .mobile-beta.study-open section[aria-label="Commentary comparison"] .tools{
+  padding:12px 0!important;min-height:52px!important;margin:0 0 12px!important}
+ .mobile-beta.study-open #modernStudyVerse{font-size:19px!important;max-height:32svh!important}
+ .mobile-beta.study-open #studyOverlay{inset:62px 0 12px!important;border-radius:12px}
+ .mobile-beta.study-open #studyOverlayBody{padding-bottom:28px}
+ .mobile-beta.study-open #modernCommentaryMenu{margin-top:12px}
+ .mobile-beta.study-open #studyClose{min-width:100px}
+ .mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"]{
+  border-color:#c4d3d0!important;box-shadow:0 12px 35px #0001!important}
+}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
