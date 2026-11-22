@@ -10,6 +10,9 @@ on:
       - "mobile-bible-beta/discovery-integrations.js"
       - "mobile-bible-beta/index.html"
       - "mobile-bible-beta/universal-search.js"
+      - "mobile-bible-beta/approved-names-search.js"
+      - "mobile-bible-beta/tests/approved-names.test.cjs"
+      - "mobile-bible-beta/tests/approved-names-browser.test.cjs"
       - "mobile-bible-beta/universal-search.css"
       - "mobile-bible-beta/data/universal-search/**"
       - "mobile-bible-beta/tests/universal-search-browser.test.cjs"
@@ -72,6 +75,8 @@ jobs:
           done
       - name: Verify Universal Search questions, source menu and passage return in both readers
         run: node mobile-bible-beta/tests/universal-search-browser.test.cjs
+      - name: Verify eligible People and Places search, citation, Scripture navigation and exclusions
+        run: node mobile-bible-beta/tests/approved-names-browser.test.cjs
       - name: Verify both Study Bible deep links and verse/author sharing
         run: node mobile-bible-beta/tests/reader-deeplink-share-browser.test.cjs
       - name: Open a fresh ASV1901 shared link with raw GitHub blocked, using only official fallback

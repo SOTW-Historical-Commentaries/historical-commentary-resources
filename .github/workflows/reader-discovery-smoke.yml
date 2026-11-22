@@ -7,6 +7,9 @@ on:
     paths:
       - "mobile-bible-beta/index.html"
       - "mobile-bible-beta/universal-search.js"
+      - "mobile-bible-beta/approved-names-search.js"
+      - "mobile-bible-beta/tests/approved-names.test.cjs"
+      - "mobile-bible-beta/tests/approved-names-browser.test.cjs"
       - "mobile-bible-beta/universal-search.css"
       - "mobile-bible-beta/data/universal-search/**"
       - "mobile-bible-beta/scripts/build-universal-search.mjs"
@@ -56,6 +59,9 @@ jobs:
         run: |
           node --check mobile-bible-beta/discovery-integrations.js
           node --check mobile-bible-beta/universal-search.js
+          node --check mobile-bible-beta/approved-names-search.js
+          node --check mobile-bible-beta/tests/approved-names.test.cjs
+          node --check mobile-bible-beta/tests/approved-names-browser.test.cjs
           node --check mobile-bible-beta/scripts/build-universal-search.mjs
           node --check mobile-bible-beta/tests/universal-search.test.cjs
           node --check mobile-bible-beta/study-ux-repair.js
@@ -74,6 +80,8 @@ jobs:
         run: node mobile-bible-beta/scripts/build-universal-search.mjs --verify
       - name: Verify Universal Search source integrity, relevance and two-brand wiring
         run: node mobile-bible-beta/tests/universal-search.test.cjs
+      - name: Verify approved name allowlist, excluded IDs, explicit links, evidence gates
+        run: node mobile-bible-beta/tests/approved-names.test.cjs
       - name: Adapter behavior, stable IDs, Scripture and safety gates
         run: node mobile-bible-beta/tests/discovery-integration.test.cjs
       - name: Verify explicit Scripture URL precedence and author share scope
