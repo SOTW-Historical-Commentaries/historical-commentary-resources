@@ -77,14 +77,26 @@ function validTarget(t){
 }
 async function article(entry){
  const key=entry[0];if(articleCache.has(key))return articleCache.get(key);
- const p=read(publishedUrl("entries/"+entry[1]+".json")).then(a=>{
+ const p=read(publishedUrl("entries/"+entry[1]+".json")).then(async a=>{
   if(a?.id!==key||a.slug!==entry[1]||a.title!==entry[2]||
      a.collection!=="bible/names"||a.source?.resource!=="en_tw"||
      a.source?.version!=="91"||a.source?.publisher!=="unfoldingWord"||
      !Array.isArray(a.bibleReferences))throw Error("Unverified name article");
   const refs=a.bibleReferences.filter(r=>r.resolutionStatus==="READER_ANCHOR_AVAILABLE"&&
     validTarget(r.scriptureTarget));
-  if(!refs.length)throw Error("Name article has no canonical Scripture targets");
+  // Ten eligible articles have no direct article citations. The publisher's
+  // explicitly matched Q&A may provide a valid Scripture anchor, not a
+  // manufactured article citation or identity claim.
+  if(!refs.length&&entry[4]){
+   const links=await relationships(entry);
+   const found=links.flatMap(l=>l.scriptureTargets||[]).find(validTarget);
+   if(found){
+    const book=BOOKS.find(x=>x.code===found.book);
+    refs.push({label:"Q&A mention · "+book.name+" "+found.chapter+":"+found.verse,
+      scriptureTarget:found,fromAssociation:true});
+   }
+  }
+  if(!refs.length)throw Error("Name article has no published Scripture target");
   return {source:a,refs};
  }).catch(err=>{articleCache.delete(key);throw err});
  articleCache.set(key,p);return p;
@@ -136,7 +148,7 @@ async function showDetail(entry,a,card,button){
  if(prev){prev.remove();button.textContent="View profile";return}
  const area=el("div","universal-name-detail");area.append(el("h5","","Source article"));
  area.append(el("p","universal-name-full-definition",String(a.source.sections?.Definition||"")));
- area.append(el("h5","","Published Bible references"));
+ area.append(el("h5","","Published Scripture references"));
  const refs=el("div","universal-name-references");
  for(const e of a.refs.slice(0,12)){
   const b=el("button","universal-qa-ref","Read "+citation(e)+" in "+state.edition);
