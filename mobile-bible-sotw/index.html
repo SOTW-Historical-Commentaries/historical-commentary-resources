@@ -883,6 +883,15 @@ appearanceButton.setAttribute('aria-label','Switch between light and dark readin
 const appearanceTitle=document.createElement('span');appearanceTitle.className='more-item-title';appearanceTitle.textContent='☼  Appearance';
 const appearanceState=document.createElement('span');appearanceState.className='more-item-note';
 appearanceButton.append(appearanceTitle,appearanceState);moreModal.panel.append(appearanceButton);
+// Keep all resource notices inside one explicit hamburger section.
+const sourcesSection=document.createElement('section');
+sourcesSection.id='readerSourcesAttribution';
+sourcesSection.className='more-sources-section';
+sourcesSection.setAttribute('aria-labelledby','readerSourcesHeading');
+const sourcesHeading=document.createElement('h3');
+sourcesHeading.id='readerSourcesHeading';
+sourcesHeading.textContent='Sources & Attribution';
+sourcesSection.append(sourcesHeading);moreModal.panel.append(sourcesSection);
 function syncMoreAppearance(){appearanceState.textContent=document.body.classList.contains('beta-light')?'Light mode · Switch to dark':'Dark mode · Switch to light';}
 function addMoreResource(title,description,links){
  const disclosure=document.createElement('details');disclosure.className='more-resource';
@@ -897,7 +906,7 @@ function addMoreResource(title,description,links){
   }
   disclosure.append(resources);
  }
- moreModal.panel.append(disclosure);
+ sourcesSection.append(disclosure);
 }
 addMoreResource('Bible translations',
  'Read KJV 1769, ASV 1901, Berean Standard Bible, and Webster 1833 as distinct published editions. The translation selector chooses which Bible text you are reading.',
