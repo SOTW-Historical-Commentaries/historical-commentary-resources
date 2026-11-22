@@ -1,0 +1,20 @@
+/* Universal Search: compact, accessible Q&A cards for both branded readers. */
+.mobile-beta .universal-qa-section{display:grid;gap:10px;margin:9px 0 16px;min-width:0}
+.mobile-beta .universal-qa-heading{margin:7px 0 1px;font:700 13px/1.4 system-ui;color:#b5d8df}
+.mobile-beta .universal-qa-card{min-width:0;padding:12px;border:1px solid #536e77;border-radius:11px;background:#233840;color:#ecf4f6}
+.mobile-beta .universal-qa-top{display:flex;justify-content:space-between;align-items:center;gap:9px;font:650 11px/1.3 system-ui;color:#afc9d1}
+.mobile-beta .universal-qa-source{min-height:36px;padding:5px 8px;border:1px solid #617b83;border-radius:7px;background:transparent;color:#d4eef3;cursor:pointer;font:600 11px/1.3 system-ui}
+.mobile-beta .universal-qa-open{margin:9px 0 6px;padding:0;width:100%;display:block;text-align:left;border:none;background:transparent;color:inherit;font:650 15px/1.45 system-ui;cursor:pointer;min-height:28px}
+.mobile-beta .universal-qa-open:hover{text-decoration:underline}
+.mobile-beta .universal-qa-answer{margin:3px 0 9px;font:14px/1.55 system-ui;color:#d1e1e7;white-space:pre-wrap}
+.mobile-beta .universal-qa-ref{padding:7px 9px;width:auto;max-width:100%;border-radius:8px;border:1px solid #658b94;background:#294850;color:#e3f5f8;font:600 12px/1.5 system-ui;text-align:left;cursor:pointer;overflow-wrap:anywhere}
+.mobile-beta .universal-qa-status{font:13px/1.5 system-ui;margin:8px;color:#b6cad1}
+.mobile-beta .universal-qa-card button:focus-visible{outline:3px solid #dfa94f;outline-offset:3px}
+.mobile-beta .universal-qa-card button:disabled{opacity:.7;cursor:wait}
+.mobile-beta.beta-light .universal-qa-heading{color:#365b66}
+.mobile-beta.beta-light .universal-qa-card{background:#f0f6f5;color:#263d44;border-color:#adc5c5}
+.mobile-beta.beta-light .universal-qa-top{color:#4e6870}
+.mobile-beta.beta-light .universal-qa-source{color:#305963;border-color:#9bb5b7}
+.mobile-beta.beta-light .universal-qa-open{color:#233f49}
+.mobile-beta.beta-light .universal-qa-answer{color:#3d5861}
+.mobile-beta.beta-light .universal-qa-ref{background:#e3f0ee;color:#255464;border-color:#9dbdbb}
