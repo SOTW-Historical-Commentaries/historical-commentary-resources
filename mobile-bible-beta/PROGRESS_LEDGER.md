@@ -1,5 +1,10 @@
 # SOTW BIBLE READER — PROGRESS LEDGER
 
+## 2026-11-22 | SEARCH SCRIPTURE PREVIEW IMPLEMENTED — QA PENDING
+
+Commit `3a8371280711399def8131f617306c21edcd12c6` adds an inline, dismissible Scripture preview to the top published Q&A answer card in `mobile-bible-beta/universal-search.js`. Preview uses the selected translation's published chapter JSON and canonical chapter index identity checks; has Close and Open in Bible controls; does not synthesize verse text. Earlier commit `f067bebbe268e3f8763b025eb1ccb47e93f20bba` initially collapses secondary Q&A groups and re-enables citation navigation after success. **Source code committed, but live Pages deployment, mobile/desktop interaction, automated tests, source-integrity and relevance benchmark gates are NOT verified or passed.** Nave/Torrey are accepted established verse-study resources; evaluate only their search placement, labeling and navigation, not their source validity. Q&A is newer and must be evaluated separately. Continue preserving excluded historical people/place data and source rights.
+
+
 ## 2026-11-22 | UNIVERSAL SEARCH THREE-GATE MILESTONE STARTED — PARTIAL IMPLEMENTATION
 
 **Owner-approved direction:** evaluate (1) established Scripture/Nave-Torrey search and reader navigation, (2) published unfoldingWord Q&A source integrity, and (3) natural-language relevance/presentation independently. Nave/Torrey are established, already verse-integrated resources, not an unproven collection. The newer Q&A retrieval must not determine whether the entire search foundation passes. Do not use the separate unready SOTW historical people/place master.
