@@ -88,7 +88,7 @@ assert.deepEqual(types([
 assert(coord.weight("jacob","Jacob Romans 12","")>coord.weight("topic","Jacob Romans 12","Romans"));
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("search-coordinator.js?v=20261122-search2"),"Both branded readers load the coordinator");
+ assert(html.includes("search-coordinator.js?v=20261122-search3"),"Both branded readers load the coordinator");
 }
 
 // A passage group is only created when DIFFERENT independently attributed
@@ -134,7 +134,7 @@ assert.equal(coord.groupEvidence([
 ],books).length,0,"Overlapping chapter but different exact verse must not be joined");
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("search-coordinator.js?v=20261122-search2"),
+ assert(html.includes("search-coordinator.js?v=20261122-search3"),
  "Both independent brands load the exact same passage evidence code");
 }
 
