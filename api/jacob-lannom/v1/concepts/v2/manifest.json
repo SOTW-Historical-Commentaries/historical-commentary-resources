@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "sotw-jacob-concepts-portable-snapshot/1.0.0",
+  "identity": "JACOB_LANNOM_PORTABLE_CONCEPTS",
+  "holding": "SOTW_SELF_HOSTED_READ_ONLY_SOURCE_IDENTICAL_SNAPSHOT",
+  "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+  "sourceRepository": "joelpsadler/CGBC-Sermon-Player",
+  "sourcePinnedCommit": "cdc422cac73635e78969b733fc3c6af529223ac5",
+  "sourcePaths": {
+    "registry": "knowledge/CGBC_CONCEPT_REGISTRY_v2.json",
+    "schema": "knowledge/CGBC_CONCEPT_REGISTRY_SCHEMA_v2.json"
+  },
+  "localPaths": {
+    "registry": "api/jacob-lannom/v1/concepts/v2/registry.json",
+    "schema": "api/jacob-lannom/v1/concepts/v2/schema.json"
+  },
+  "sourceGitBlobSha": {
+    "registry": "16dcbc5537a40b97cb828e9bc484f6130d008ec0",
+    "schema": "bf796aab7454face0ad3e75955041aacf8e1ef4f"
+  },
+  "capturedAt": "2026-11-22",
+  "sourceRegistryVersion": "2.0",
+  "sourceRegistryState": "ACTIVE",
+  "acceptedConceptCountAtCapture": 11,
+  "conceptIdsAtCapture": [
+    "cgbc-responsive-hearts",
+    "cgbc-dependency",
+    "cgbc-opportunity",
+    "cgbc-generosity",
+    "cgbc-reversal",
+    "cgbc-comparison",
+    "cgbc-grace",
+    "cgbc-impartiality",
+    "cgbc-service",
+    "cgbc-urgency",
+    "cgbc-envy"
+  ],
+  "sourceMeaningEvidenceStatus": "REFERENCES_PRESERVED_NOT_MATERIALIZED_IN_THIS_SOTW_SNAPSHOT",
+  "readerConceptDiscoveryStatus": "NOT_CONNECTED_EVIDENCE_JOIN_REQUIRED",
+  "updateContract": {
+    "cadence": "AFTER_EACH_ACCEPTED_WEEKLY_OR_OUT_OF_CYCLE_REGISTRY_CHANGE",
+    "authority": "CURRENT_OWNER_APPROVED_LIVE_SCHEMA_AND_ACCEPTED_REGISTRY",
+    "replace": "ATOMIC_SOURCE_IDENTICAL_REGISTRY_AND_SCHEMA_WITH_UPDATED_MANIFEST",
+    "preserve": "STABLE_CONCEPT_IDS_PROVENANCE_AND_ACCEPTED_REVISIONS",
+    "allowNewEntries": true,
+    "doNotAssumeFixedConceptCount": true,
+    "futureIndependentOwnership": "SOTW_COPY_PERSISTS_IF_CGBC_UNAVAILABLE; A LATER OWNER_AUTHORIZED_AUTHOR_PRIMARY_TRANSITION_MUST_RECONCILE_EVIDENCE_AND_GOVERNANCE",
+    "avoid": "NO_AUTOMATIC_CONCEPT_TO_VERSE_LINKS_FROM_LABELS_OR_SOURCE_METADATA"
+  },
+  "privacyAndScope": "NO_RAW_TRANSCRIPTS_LOGOS_NOTES_SLIDES_OR_PRIVATE_CHURCH_RESEARCH_COPIED"
+}

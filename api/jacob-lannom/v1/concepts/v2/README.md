@@ -1,0 +1,11 @@
+# Jacob Lannom: portable concepts (v2)
+
+This is SOTW's **independently hosted, exact-content read-only snapshot** of the currently accepted CGBC Concept Registry v2 and its governing JSON Schema. It is part of Jacob Lannom's durable author assets, alongside portable commentary, but is not a duplicate independently editable sermon record.
+
+Files: `registry.json` and `schema.json` are byte-identical to the original published CGBC files at the exact pinned source commit shown in `manifest.json`. The original `cgbc-` stable concept IDs, lifecycle states, definitions, labels, aliases, typed relationships and provenance are preserved without rewriting or asserting church-independent authorship.
+
+**What portability means today:** SOTW can retain and serve the current concept definitions even if the CGBC site or API becomes unavailable. The original concepts are still grounded in CGBC sermon/node/passage research identifiers, currently `media-fdtrrp`. This snapshot does **not** contain the underlying canonical Info Map, original speech, notes, slides, or other private church research. Their evidence references are preserved as references, not independently reproduced proof, and must not be shown as verified Scripture links by the public reader without a separately checked canonical chain.
+
+**Weekly / out-of-cycle update contract:** When Jake's accepted concepts change after preaching or a documented correction, obtain the CURRENT authoritative live CGBC schema and accepted registry (not an assumed fixed set of 11), reconcile version/schema and source provenance, then atomically replace both snapshot files and regenerate `manifest.json` with the exact source commit, source blob checksums, and current set of IDs. If accepted concepts are later made SOTW author-primary, that requires an owner-authorized transition and evidence migration, not parallel free editing. Historical Git revisions retain earlier snapshots; use a fresh safety baseline before publishing.
+
+**Reader status:** This commit publishes durable assets. It does **not** activate an automatic concept search adapter, make unverified concepts clickable, modify the CGBC registry, or alter the Word-by-Word/Topics/Q&A/Jacob reader interfaces. Future reader integration is governed by the approved Bible-first search and source-evidence contract.
