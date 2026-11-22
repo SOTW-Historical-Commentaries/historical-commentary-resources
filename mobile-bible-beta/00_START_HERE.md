@@ -14,6 +14,16 @@
 
 
 
+
+## 2026-11-21 (local; 2026-11-22 UTC) | REVIEW-ELIGIBLE PEOPLE & PLACES SEARCH MERGED
+
+**Owner clarification:** The previously described names QA “pending” state was out of date for the published reader overlay: the 2026-11-21 Foundation `reader-eligibility.json` accepts 332 en_tw v91 names articles for DISPLAY and explicitly excludes 23. The owner confirmed that review is complete and scrubbed; do not reopen it or reintroduce the excluded dataset. Original articles remain separately attributed, not independent historical-master records.
+
+PR #19 merged as `8cc2f2cdbb5f0df3ed7635d48e44bb0c21f35765`. Both branded Bible Readers search approved names and aliases, show source article definition and verified passage navigation in the CURRENT Bible edition, and optionally reveal original explicit name-linked Q&A. Of 332 display-eligible names, 304 have 9,303 explicit mention relationships across 6,129 distinct existing Q&A; 28 have no Q&A links. Ten eligible articles lacking direct article references use only explicitly linked Q&A Scripture anchors, labeled as such, never fabricated historical links. No People/Places/Events directory, no separate historical master, no excluded 23 items.
+
+**Source UI correction retained:** the user-verified compact upper-right **Source ↗** control links to the complete publisher citation in the hamburger; no redesign. A separate en_tw v91 attribution entry joins existing source notices. Source and Chromium QA passed at https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44989989753 and https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/44989986399. Recovery branch `safety/pre-approved-names-20261121-d2d58a85` pins `d2d58a8568ded79a7dc28d4158a9eb979d26dbd7`. PWA caches CGBC v0194 and SOTW v0012. Independent Pages fetch and physical iPhone QA pending. Whole-Bible text search, final search filters and Info Map/concept semantics still outstanding. See Progress Ledger for exact implementation and gates.
+
+
 ## 2026-11-21 (local; 2026-11-22 UTC) | ATTRIBUTION MENU CORRECTED; PEOPLE PROFILES REMAIN PENDING
 
 PR #18 merged to main at `31cd92791f19fb36ba9f31e4232fc146b5ba076f`. Both branded Study Bible readers now show a dedicated `Sources & Attribution` heading inside the hamburger, containing all six existing resource notices. Every Bible Questions `Source ↗` goes straight to the unfoldingWord v91 notice *inside* that section, showing original source/version, CC BY-SA 4.0, SOTW attribution and source-record qualification. Direct hamburger access works without searching first. The isolated PWA caches are CGBC v0193 and SOTW v0011. QA PASS: source/integration run 44989361351; Chromium browser run 44989358419. Prechange recovery branch `safety/pre-source-menu-20261121-9666afd3` at `9666afd3e401908285d4c59dc71bb30533bb5bf9`. Independent Pages and physical-device acceptance still require their own verification.
