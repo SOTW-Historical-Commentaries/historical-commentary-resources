@@ -20,7 +20,8 @@ const books=[
  {code:'EPH',name:'Ephesians',chapterCount:6},{code:'1CO',name:'1 Corinthians',chapterCount:16},
  {code:'GAL',name:'Galatians',chapterCount:6},{code:'ROM',name:'Romans',chapterCount:16},
  {code:'GEN',name:'Genesis',chapterCount:50},{code:'1SA',name:'1 Samuel',chapterCount:31},
- {code:'LUK',name:'Luke',chapterCount:24}
+ {code:'LUK',name:'Luke',chapterCount:24},
+ {code:'REV',name:'Revelation',chapterCount:22},{code:'1TH',name:'1 Thessalonians',chapterCount:5}
 ];
 const scopes=q=>Array.from(core.search(data.entries,q,books),r=>r.entry.scopeKey);
 assert.equal(scopes('Lannom').length,data.entries.length);
