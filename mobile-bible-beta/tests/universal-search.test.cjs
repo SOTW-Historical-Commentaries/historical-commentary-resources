@@ -38,7 +38,8 @@ const bronze=rows.find(r=>r[0]==="utq:v91:2KI:18:4:ndxy");
 assert(bronze&&core.score(bronze,core.words("Moses snake on stick"),core.normalize("Moses snake on stick"))>0,
  "Natural-language Moses/snake/stick retrieves published bronze-serpent question");
 assert(core.score(bronze,core.words("bronze serpant Moses"),core.normalize("bronze serpant Moses"))>0,"One-edit spelling tolerance");
-assert.equal(core.rank([{...rows[0],3:[]}],"Moses",10).length,0); // unsupported citation cannot be ranked
+const noReference=[...rows[0]];noReference[3]=[];
+assert.equal(core.rank([noReference],"Moses",10).length,0); // unsupported citation cannot be ranked
 assert.equal(core.rank(rows,"and the of",10).length,0);
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
