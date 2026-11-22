@@ -14,6 +14,13 @@
 
 
 
+## 2026-11-21 (local; 2026-11-22 UTC) | ATTRIBUTION MENU CORRECTED; PEOPLE PROFILES REMAIN PENDING
+
+PR #18 merged to main at `31cd92791f19fb36ba9f31e4232fc146b5ba076f`. Both branded Study Bible readers now show a dedicated `Sources & Attribution` heading inside the hamburger, containing all six existing resource notices. Every Bible Questions `Source ↗` goes straight to the unfoldingWord v91 notice *inside* that section, showing original source/version, CC BY-SA 4.0, SOTW attribution and source-record qualification. Direct hamburger access works without searching first. The isolated PWA caches are CGBC v0193 and SOTW v0011. QA PASS: source/integration run 44989361351; Chromium browser run 44989358419. Prechange recovery branch `safety/pre-source-menu-20261121-9666afd3` at `9666afd3e401908285d4c59dc71bb30533bb5bf9`. Independent Pages and physical-device acceptance still require their own verification.
+
+**People/place profiles are not yet installed.** The v91 relationship manifest gives 355 name-article candidates, 332 eligibility-screened, 304 explicitly Q&A-linked, 28 without explicit matches and 23 excluded. The 9,303 explicit links cover 6,129 distinct Q&A. This index is not approval to publish a person or place profile: respect the separately ongoing owner review, keep the excluded historical master out of the reader and preserve the retired People/Places/Events directory removal. Do not claim the remaining Universal Search v1 features are complete. See the Progress Ledger entry for exact scope and tests.
+
+
 ## 2026-11-21 (local; 2026-11-22 UTC) | UNIVERSAL SEARCH Q&A MILESTONE MERGED, FULL V1 STILL IN PROGRESS
 
 **Read this release status before the older planning entry below.** PR #17 is merged to `main`: `f619d6ed669371ba9b51c29f82bbc6e79cc81098`. Safety baseline: `0bad5dce6f1fac6069fbb843f88978f5dab4f032` at `safety/pre-universal-search-20261121-0bad5dce`. This release integrates the complete 12,139-record pinned unfoldingWord v91 Q&A index (eight generated shards), query/answer fuzzy and colloquial retrieval, approved Bible Questions card layout, centralized CC BY-SA 4.0 source notice, and verified passage jumps in the active reader translation in both reader brands. Reproducible generator: `mobile-bible-beta/scripts/build-universal-search.mjs --verify`. Source/Node smoke PASS 44988385657; Chromium browser regression PASS 44988385739. PWA caches: CGBC v0192 and SOTW v0010.
