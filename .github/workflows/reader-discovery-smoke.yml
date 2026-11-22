@@ -64,6 +64,7 @@ jobs:
         run: |
           node --check mobile-bible-beta/discovery-integrations.js
           node --check mobile-bible-beta/tests/search-passage-browser.test.cjs
+          node --check mobile-bible-beta/tests/search-iphone-navigation-browser.test.cjs
           node --check mobile-bible-beta/search-coordinator.js
           node --check mobile-bible-beta/universal-search.js
           node --check mobile-bible-beta/approved-names-search.js

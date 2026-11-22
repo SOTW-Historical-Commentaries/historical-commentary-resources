@@ -18,6 +18,7 @@ on:
       - "mobile-bible-beta/desktop-workspace.css"
       - "mobile-bible-beta/tests/desktop-workspace-browser.test.cjs"
       - "mobile-bible-beta/data/universal-search/**"
+      - "mobile-bible-beta/tests/search-iphone-navigation-browser.test.cjs"
       - "mobile-bible-beta/tests/search-passage-browser.test.cjs"
       - "mobile-bible-beta/tests/universal-search-browser.test.cjs"
       - "mobile-bible-beta/icons/**"
@@ -83,6 +84,8 @@ jobs:
         run: node mobile-bible-beta/tests/universal-search-browser.test.cjs
       - name: Verify exact shared-source Scripture passage grouping and in-Bible return
         run: node mobile-bible-beta/tests/search-passage-browser.test.cjs
+      - name: Reproduce iPhone Ruth to Noah Search, Scripture and return without feedback loops
+        run: node mobile-bible-beta/tests/search-iphone-navigation-browser.test.cjs
       - name: Verify eligible People and Places search, citation, Scripture navigation and exclusions
         run: node mobile-bible-beta/tests/approved-names-browser.test.cjs
       - name: Verify both Study Bible deep links and verse/author sharing
