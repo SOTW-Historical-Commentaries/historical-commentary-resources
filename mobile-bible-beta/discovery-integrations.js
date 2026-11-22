@@ -269,29 +269,20 @@ let seq=0,timer=0;
 async function appendTopicSearch(query,current){
  try{
   const indexed=await topicsIndex();
-  if(current!==seq||norm(searchInput.value)!==norm(query)||
-   !searchModal.veil.classList.contains('is-open'))return;
-  let matches=[],byBook={};
-  try{
-   // The Q&A adapter caches the original publisher shards; reused here.
-   // Reverse indexes are existing published source artifacts, not inference.
-   matches=await root.SOTWUniversalSearch?.searchCandidates(query,8)||[];
-   const books=requiredTopicBooks(matches,3);
-   const indexes=await Promise.allSettled(books.map(book=>
-    sourceJson(TOPICS+'index/by-scripture/'+book+'.json')));
-   books.forEach((book,i)=>{if(indexes[i].status==='fulfilled')
-    byBook[book]=indexes[i].value;});
-  }catch(_){/* Literal historical topic lookup stays usable. */}
-  if(current!==seq||norm(searchInput.value)!==norm(query)||
-   !searchModal.veil.classList.contains('is-open'))return;
-  const linked=evidenceLinkedTopics(indexed,matches,byBook,
-   root.SOTWUniversalSearchCore,8);
-  const topics=rankTopics(indexed,query,8,linked);
-  pending.hidden=true;
-  if(!topics.length)return;
-  searchResults.append(el('h4','discovery-search-label','Historical Bible Topics · Nave/Torrey'));
-  for(const t of topics){
-   const hit=button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit');
+  const valid=()=>current===seq&&norm(searchInput.value)===norm(query)&&
+   searchModal.veil.classList.contains('is-open');
+  if(!valid())return;
+  const direct=rankTopics(indexed,query,8);
+  const displayed=new Set();
+  let label=null;
+  function addTopics(topics){
+   if(!valid())return;
+   for(const t of topics){
+    if(displayed.size>=8||displayed.has(t.id))continue;
+    if(!label)label=searchResults.appendChild(
+     el('h4','discovery-search-label','Historical Bible Topics · Nave/Torrey'));
+    displayed.add(t.id);
+    const hit=button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit');
    // Fetch existing source shard, never guess Scripture links from a title.
    // Mapped citations are associations in a historical index, not doctrine.
    sourceJson(TOPICS+t.shard).then(shard=>{
@@ -315,6 +306,26 @@ async function appendTopicSearch(query,current){
     root.SOTWSearchCoordinator?.refresh();
    }).catch(()=>{});
   }
+  }
+  addTopics(direct); // Preserve fast literal lookup even when remote reverse indexes are slow.
+  pending.hidden=true;
+  if(displayed.size>=8)return;
+  try{
+   // Reuse original, already checked Q&A records. Source citations are
+   // evidence of an association, not a newly authored Bible reference.
+   const matches=await root.SOTWUniversalSearch?.searchCandidates(query,8)||[];
+   if(!valid())return;
+   const books=requiredTopicBooks(matches,3);
+   const responses=await Promise.allSettled(books.map(book=>
+    sourceJson(TOPICS+'index/by-scripture/'+book+'.json')));
+   if(!valid())return;
+   const byBook={};
+   books.forEach((book,i)=>{if(responses[i].status==='fulfilled')
+    byBook[book]=responses[i].value;});
+   const linked=evidenceLinkedTopics(indexed,matches,byBook,
+    root.SOTWUniversalSearchCore,8);
+   addTopics(rankTopics(indexed,query,8,linked));
+  }catch(_){/* Only original literal topic results remain when unavailable. */}
  }catch{
   if(current===seq&&searchModal.veil.classList.contains('is-open')){
    pending.hidden=true;
