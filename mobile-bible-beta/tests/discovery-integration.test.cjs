@@ -74,10 +74,10 @@ for(const [row,book,expected] of [
  assert.deepEqual(linked,[expected],book+' finds only a topic named in Q&A and citing the same verse');
 }
 assert.deepEqual(Array.from(core.evidenceLinkedTopics(topicFixture,[qaFixture[0]],
- {2KI:{...sources['2KI'],book_code:'GEN'}},lexical),t=>t.id),[],
+ {'2KI':{...sources['2KI'],book_code:'GEN'}},lexical),t=>t.id),[],
  'Unverified reverse-index identity does not produce topic hits');
 assert.deepEqual(Array.from(core.evidenceLinkedTopics(topicFixture,[qaFixture[0]],
- {2KI:{...sources['2KI'],verses:{'2KI.18.5':['NEUU:TOPIC:brazen_serpent']}}},lexical),t=>t.id),[],
+ {'2KI':{...sources['2KI'],verses:{'2KI.18.5':['NEUU:TOPIC:brazen_serpent']}}},lexical),t=>t.id),[],
  'A same-chapter different-verse historical topic is not linked');
 assert.deepEqual(Array.from(core.evidenceLinkedTopics([
  {...topicFixture[0],verse_link_count:0}],[qaFixture[0]],sources,lexical),t=>t.id),[],
