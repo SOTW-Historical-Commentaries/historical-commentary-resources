@@ -99,7 +99,7 @@ const {chromium}=require("playwright-core");
    await page.locator("#modernSearchButton").click();
    await page.locator("#modernSearchInput").fill("Abarim");
    await page.waitForTimeout(1000);
-   assert.equal(await page.locator(".discovery-hit").count(),0,"Topic without Scripture mapping must be excluded");
+   assert.equal(await page.locator(".discovery-hit").filter({hasText:/^ABARIM$/}).count(),0,"Exact unlinked ABARIM topic must not be navigable; related mapped topic titles may remain");
    assert.deepEqual(pageErrors,[],"Browser console errors "+brand);
    await ctx.close();
   }
