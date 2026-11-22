@@ -45,6 +45,29 @@ const bronze=rows.find(r=>r[0]==="utq:v91:2KI:18:4:ndxy");
 assert(bronze&&core.score(bronze,core.words("Moses snake on stick"),core.normalize("Moses snake on stick"))>0,
  "Natural-language Moses/snake/stick retrieves published bronze-serpent question");
 assert(core.score(bronze,core.words("bronze serpant Moses"),core.normalize("bronze serpant Moses"))>0,"One-edit spelling tolerance");
+
+const intentTerms=[
+ ["Moses snake on stick","utq:v91:2KI:18:4:ndxy"],
+ ["Moses snake on a pole","utq:v91:2KI:18:4:ndxy"],
+ ["snake on pole","utq:v91:2KI:18:4:ndxy"],
+ ["bronze serpent","utq:v91:2KI:18:4:ndxy"],
+ ["Moses staff became a snake","utq:v91:EXO:4:4:ns41"]
+];
+for(const [query,expectedId] of intentTerms){
+ const ranked=core.rank(rows,query,15);
+ assert.equal(ranked[0]?.row[0],expectedId,
+  "Top published question follows described event for "+query);
+}
+const bronzeFirst=core.rank(rows,"Moses snake on stick",15);
+assert.deepEqual(bronzeFirst[0].row[3],[["2KI",18,4,0]],
+ "Promoted question keeps original published citation: 2 Kings 18:4");
+assert(bronzeFirst.some(x=>x.row[0]==="utq:v91:EXO:4:4:ns41"),
+ "Alternative staff-turns-to-snake question remains available");
+assert.equal(core.rank(rows,"Moses snake on stick",15).length,8,
+ "Relevance fix does not delete any matching Q&A");
+assert.equal(core.rank(rows,"Who was the Word with?",20).some(x=>x.row[0]==="utq:v91:JHN:1:1-2:jzv6"),true,
+ "Existing exact Bible question continues to rank");
+
 const noReference=[...rows[0]];noReference[3]=[];
 assert.equal(core.rank([noReference],"Moses",10).length,0); // unsupported citation cannot be ranked
 assert.equal(core.rank(rows,"and the of",10).length,0);
