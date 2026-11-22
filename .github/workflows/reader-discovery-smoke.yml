@@ -32,6 +32,8 @@ on:
       - "mobile-bible-beta/tests/jacob-scripture-links.test.cjs"
       - "review-jake-scripture.html"
       - "api/jacob-lannom/v1/current-commentary.json"
+      - "api/jacob-lannom/v1/concepts/**"
+      - "mobile-bible-beta/tests/portable-concept-registry.test.cjs"
       - "mobile-bible-beta/discovery-integrations.css"
       - "mobile-bible-beta/sw.js"
       - "mobile-bible-beta/icons/**"
@@ -66,6 +68,7 @@ jobs:
           node --check mobile-bible-beta/tests/approved-names-browser.test.cjs
           node --check mobile-bible-beta/scripts/build-universal-search.mjs
           node --check mobile-bible-beta/tests/universal-search.test.cjs
+          node --check mobile-bible-beta/tests/portable-concept-registry.test.cjs
           node --check mobile-bible-beta/tests/desktop-workspace-browser.test.cjs
           node --check mobile-bible-beta/study-ux-repair.js
           node --check mobile-bible-beta/jacob-scripture-links.js
@@ -79,6 +82,8 @@ jobs:
           node --check mobile-bible-beta/tests/discovery-integration.test.cjs
           node --check mobile-bible-beta/tests/pwa-brands.test.cjs
           node --check mobile-bible-beta/tests/shared-asv-launch.test.cjs
+      - name: Verify self-hosted Jacob concepts, schema, evidence and exact snapshot hashes
+        run: node mobile-bible-beta/tests/portable-concept-registry.test.cjs
       - name: Verify all pinned source Q&A against generated search shards
         run: node mobile-bible-beta/scripts/build-universal-search.mjs --verify
       - name: Verify Universal Search source integrity, relevance and two-brand wiring

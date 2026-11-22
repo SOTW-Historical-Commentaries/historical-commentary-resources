@@ -10,7 +10,7 @@ assert.equal(manifest.readerConceptDiscoveryStatus,'NOT_CONNECTED_EVIDENCE_JOIN_
 assert.equal(manifest.sourceMeaningEvidenceStatus,'REFERENCES_PRESERVED_NOT_MATERIALIZED_IN_THIS_SOTW_SNAPSHOT');
 const file=(n,sha)=>{
  const bytes=fs.readFileSync(path.join(root,base,n));
- const gitBlob=crypto.createHash('sha1').update('blob '+bytes.length+'\\0').update(bytes).digest('hex');
+ const gitBlob=crypto.createHash('sha1').update('blob '+bytes.length).update(Buffer.from([0])).update(bytes).digest('hex');
  assert.equal(gitBlob,sha,n+' changed from owner-approved source');
  return JSON.parse(bytes.toString('utf8'));
 };
