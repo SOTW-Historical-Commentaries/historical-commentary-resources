@@ -1,7 +1,7 @@
 /* Universal Search v1: evidence-linked unfoldingWord v91 Bible Questions.
    Source is precomputed from pinned published en_tq, not a web crawler.
    Existing Scripture, Bible Topics and Jacob search remain independent.
-   Historical people/place master and unaccepted names articles are excluded. */
+   Historical people/place master stays excluded; the approved subset is indexed separately. */
 (function(root){
 "use strict";
 const STOP=new Set(["a","an","and","are","as","at","be","by","did","do","does","for","from","how","i","in","is","it","of","on","or","the","to","was","were","what","when","where","which","who","why","with","would","you"]);
@@ -171,5 +171,10 @@ searchInput.addEventListener("input",()=>{
 });
 searchNote.textContent="Search Bible references, current-chapter Scripture text, published Bible Questions, Bible Topics, and Jacob Lannom commentary. Whole-Bible text indexing is still being developed.";
 searchInput.placeholder="John 3:16, Moses snake on stick, Bible Questions or Topics";
-root.SOTWUniversalSearch={reload:()=>{rows=null;loading=null},sourceStatus:"SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED"};
+root.SOTWUniversalSearch={
+ reload:()=>{rows=null;loading=null},
+ sourceStatus:"SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED",
+ questionsByIds:()=>index(),
+ navigateToTarget:(target,button)=>navigate([null,null,null,[target]],button)
+};
 })(typeof globalThis==="object"?globalThis:this);
