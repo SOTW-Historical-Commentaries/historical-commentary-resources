@@ -120,7 +120,7 @@ function topicSections(topic){
   return {...sourceHeading(aspect.label),references:refs};
  }).filter(section=>section.references.length);
 }
-root.SOTWDiscoveryCore={rankTopics,topicQueryIntent,parseScope,verseTopicIds,sourceHeading,topicSections};
+root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
