@@ -61,6 +61,7 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    const details=page.locator("#sotwDiscoveryDetail .discovery-detail-body");
    await details.waitFor({state:"visible"});
    assert.match(await details.innerText(),/2 Kings 18:4/);
+   await details.locator(".discovery-topic-group").nth(1).locator("summary").click();
    assert.match(await details.innerText(),/John 3:14,15/);
    assert.equal(await details.locator(".discovery-original-citation").count(),2,
     "Both original historical citations stay visibly attributed");
