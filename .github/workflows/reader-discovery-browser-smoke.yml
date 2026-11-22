@@ -9,6 +9,10 @@ on:
       - "mobile-bible-beta/study-ux-repair.js"
       - "mobile-bible-beta/discovery-integrations.js"
       - "mobile-bible-beta/index.html"
+      - "mobile-bible-beta/universal-search.js"
+      - "mobile-bible-beta/universal-search.css"
+      - "mobile-bible-beta/data/universal-search/**"
+      - "mobile-bible-beta/tests/universal-search-browser.test.cjs"
       - "mobile-bible-beta/icons/**"
       - "mobile-bible-beta/manifest.webmanifest"
       - "mobile-bible-beta/sw.js"
@@ -66,6 +70,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Verify Universal Search questions, source menu and passage return in both readers
+        run: node mobile-bible-beta/tests/universal-search-browser.test.cjs
       - name: Verify both Study Bible deep links and verse/author sharing
         run: node mobile-bible-beta/tests/reader-deeplink-share-browser.test.cjs
       - name: Open a fresh ASV1901 shared link with raw GitHub blocked, using only official fallback
