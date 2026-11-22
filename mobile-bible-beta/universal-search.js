@@ -222,6 +222,8 @@ function render(matches){
  function cardFor(cluster){
   const row=cluster[0],card=document.createElement("article");
   card.className="universal-qa-card";card.dataset.qaId=row[0];
+  card.dataset.searchEvidence=JSON.stringify([{type:"question",id:row[0],
+   relationship:"PUBLISHED_QUESTION_CITATION",targets:row[3].map(t=>({book:t[0],chapter:t[1],verse:t[2]}))}]);
   const top=document.createElement("div");top.className="universal-qa-top";
   top.append(textNode("span","","Bible Questions · publisher Q&A"));
   const source=textNode("button","universal-qa-source","Source ↗");
