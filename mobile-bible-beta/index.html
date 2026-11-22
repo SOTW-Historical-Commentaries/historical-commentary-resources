@@ -29,6 +29,27 @@
  .mobile-beta.study-open #modernCommentaryMenu{margin-top:8px}
  .mobile-beta.study-open #studyClose{min-width:80px}
 }
+
+/* Desktop workspace contract: full-width toolbar; fixed left Scripture/right tools slots. */
+@media (min-width:1100px) and (pointer:fine){
+ .mobile-beta #modernReaderHeader{padding:8px clamp(20px,3vw,52px) 9px!important}
+ .mobile-beta #modernReaderHeader .modern-inner{max-width:none!important;width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:24px;row-gap:5px}
+ .mobile-beta #modernReaderHeader .brand-line{grid-column:1;grid-row:1;min-width:0;margin:0!important;justify-content:space-between;gap:20px}
+ .mobile-beta #modernReaderHeader .reader-brandmark img{max-height:46px;width:auto;max-width:min(330px,38vw);object-fit:contain;object-position:left center}
+ .mobile-beta #modernReaderHeader .location-line{grid-column:2;grid-row:1;display:flex;gap:24px;align-items:center;justify-content:flex-end;min-width:260px}
+ .mobile-beta #modernReaderHeader #readerLocation{font-size:23px!important;white-space:nowrap}
+ .mobile-beta #modernReaderHeader #sotwReturnToPassage,.mobile-beta #modernReaderHeader #sotwTrail,.mobile-beta #modernReaderHeader #sotwReturnStatus{grid-row:2;margin:0!important;align-self:center}
+ .mobile-beta #modernReaderHeader #sotwReturnToPassage{grid-column:1;justify-self:start}
+ .mobile-beta #modernReaderHeader #sotwTrail{grid-column:2;justify-self:end}
+ .mobile-beta #modernReaderHeader #sotwReturnStatus{grid-column:1;justify-self:start}
+ .mobile-beta main,.mobile-beta.study-open main{max-width:none!important;width:100%;padding:14px clamp(20px,3vw,52px) 40px!important}
+ .mobile-beta .layout,.mobile-beta.study-open .layout{display:grid!important;grid-template-columns:minmax(0,1.38fr) minmax(370px,1fr)!important;gap:20px!important;align-items:start}
+ .mobile-beta .layout>.scripture,.mobile-beta.study-open .layout>.scripture{grid-column:1;grid-row:1;max-width:none!important;width:100%;margin:0!important;min-width:0}
+ .mobile-beta .layout>section[aria-label="Commentary comparison"]{grid-column:2;grid-row:1;min-width:0}
+ .mobile-beta.study-open section[aria-label="Commentary comparison"]{top:14px!important;height:calc(100svh - 28px)!important;max-height:calc(100svh - 28px)!important}
+ .mobile-beta #verses .reader-paragraph{font-size:18px!important;line-height:1.7!important}
+ .mobile-beta.study-open #modernStudyVerse{font-size:16px!important;line-height:1.6!important;padding:10px 12px!important;max-height:23svh!important;overflow:auto}
+}
 </style>
 
 <style id="mobileBetaStyles">
