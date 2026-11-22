@@ -18,6 +18,18 @@
 
 
 
+
+## 2026-11-22 | OWNER IPHONE SEARCH CRASH REGRESSION REPAIRED IN READER CODE; DEVICE RETEST OPEN
+
+**Owner report:** Physical iPhone screenshot showed Ruth 1 while Search query `Noah` displayed the eligible unfoldingWord name profile. Owner reports normal navigation to a verse from Scripture study worked, but navigating from Search caused a crash. This is a Search-specific acceptance failure, NOT successful iPhone Search acceptance.
+
+**Fix / release:** SOTW Reader PR #26 merged into `main` at `a35332074ca09cfae58ae9b6dd34e39eb2f8a9e1`. Shared `mobile-bible-beta/search-coordinator.js` now coalesces async source-result updates, drains MutationObserver records created by its OWN DOM sorting/rebuilding, and sorts only source-owned result nodes rather than repeatedly displacing its own inserted citation summaries. Exact approved-name result placement is stable. Uses backward-compatible own-property validation for evidence types. Shared script cache-busted `20261122-search3`; the two independent brand caches increment to CGBC v0201 and SOTW v0019. No source index, Scripture, Jacob author, historical master, concept registry or CGBC media player was altered.
+
+**QA:** Exact reproducible mobile-width, touch-enabled Ruth 1 / Noah search to the original published Genesis citation and back-to-search flow added as `mobile-bible-beta/tests/search-iphone-navigation-browser.test.cjs`; also checks query retention and that Search DOM mutations settle instead of looping. Full two-brand Chromium browser integration SUCCESS (run 45069484024, head `ebda7fffc3031ce296c39d92a8078e308d4d9753`). Full source/integrity SUCCESS (run 45069491350, final feature head `3ff64a027ce5fa8fe6125e1ffbadbcda136f6fa5`). Exact Git compare confirms only source workflow YAML changed after browser-tested head. Reversible prior baseline pinned at `safety/pre-search-iphone-crash-20261122-99b23742` -> `99b23742566b74a14884dbdb059ce6b4c5abb851`.
+
+**Release and next acceptance:** Code in `main` confirmed by merge; Pages workflow and live reader publication must be verified separately. Neither Chromium nor a screenshot establishes physical Safari success. Owner should refresh the updated reader on iPhone, start at Ruth 1, search `Noah`, open the name's published Genesis Scripture link, then use Back to Search. Also check a Search Bible Questions result, its inline preview and Open in Bible. If iPhone still reloads, record which control was tapped and the exact behavior; retain and consider reverting only the search coordinator from the safe baseline. Do not restart SPP/biblical research or alter accepted source data.
+
+
 ## 2026-11-22 | VERIFIED CANONICAL PASSAGE EVIDENCE GROUPING RELEASED — SEARCH STAGE 2
 
 **Release and protected fallback:** SOTW Reader PR #25 merged to main as a4cbf91c3728e35d73b7a32b704e4944e6bb7fb7. The full previous main is protected at safety/pre-passage-evidence-search-20261122-d71b69de -> d71b69de47ddc876293df99bb71db1e0ffe1c53c. Both CGBC-branded mobile-bible-beta/ and unbranded mobile-bible-sotw/ retain their separate PWA identities, icons, wording, install caches and independent locations; both consume the identical shared Search coordinator. Cache versions: CGBC v0200, SOTW v0018, shared JS query 20261122-search2.
