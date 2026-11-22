@@ -126,6 +126,14 @@ function render(results,query){
   const name=document.createElement('strong');name.textContent=item.entry.title;
   const caption=document.createElement('small');
   const p=entryReference(item.entry,item.book);
+  // Only a published passage scope is an explicit verse citation.
+  // Chapter introductions/book overviews are never assigned to verse 1.
+  if(/^([1-3]?[A-Z]{2,3})\.\d+\.\d+(?:-\d+)?$/.test(item.entry.scopeKey)&&
+     item.entry.scopeKey.split(".")[0]===item.book.code){
+   b.dataset.searchEvidence=JSON.stringify([{type:"jacob",id:item.entry.scopeKey,
+    relationship:"ACCEPTED_AUTHOR_PASSAGE_SCOPE",
+    targets:[{book:p.book,chapter:p.chapter,verse:p.verse}]}]);
+  }
   caption.textContent=p.display+' · '+(item.entry.scopeType==='BOOK_OVERVIEW'?'Book overview':
    item.entry.scopeType==='CHAPTER_INTRODUCTION'?'Chapter introduction':'Passage commentary');
   b.append(name,caption);
