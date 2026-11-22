@@ -15,6 +15,14 @@
 
 
 
+
+## 2026-11-22 | IPHONE NOAH SEARCH AND RESULT CLARITY RELEASE
+
+**Latest owner iPhone screenshots supersede the prior search presentation assessment.** PR #20 merged to main as `baf3ee70ac08bebc2aa46abdce94ebe44f47d7e2`. Searching `Noah` now promotes the approved profile ahead of incidental Genesis chapter hits; `Oah` and `Noh` yield the approved Noah suggestion without exposing the 23 excluded name articles. Publisher Q&A questions are no longer misleading verse links: the unchanged answer is visibly labeled, verse navigation is distinct and selected-edition-aware, and identical answers are grouped without discarding source question variants. Current-chapter hits are limited initially, with an expand control; iPhone Enter/Done reveals results. Historical topic fragments such as `1.` or `Intoxi` remain original source text but appear under honest neutral headings. A multi-verse indexed citation now states the exact first Scripture verse it will open, retaining the full original reference.
+
+The previously owner-accepted small Source control continues opening its detailed hamburger attribution. The source sheet now uses an appropriately routed, reader-owned icon image, not an unapproved unfoldingWord publisher logo. Only one return chip is prioritized when the saved Back to Search trail is visible, with original-passage history preserved. Separate PWA cache versions CGBC v0195 / SOTW v0013. SOURCE QA PASS https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/45033338555; two-brand Chromium mobile QA PASS https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/45033338514 on final head `d3724b28eed5adbc441020a0288b0f8d142a53e3`. The browser test verifies ASV1901 navigation for Noah. Recovery branch `safety/pre-search-clarity-20261122-64609b7c` at old main `64609b7c249fc90a9ec42867fccc90ab3deb26eb`. Independent Pages HTTP and physical iPhone acceptance remain separate checks. See Progress Ledger for precise limitations.
+
+
 ## 2026-11-21 (local; 2026-11-22 UTC) | REVIEW-ELIGIBLE PEOPLE & PLACES SEARCH MERGED
 
 **Owner clarification:** The previously described names QA “pending” state was out of date for the published reader overlay: the 2026-11-21 Foundation `reader-eligibility.json` accepts 332 en_tw v91 names articles for DISPLAY and explicitly excludes 23. The owner confirmed that review is complete and scrubbed; do not reopen it or reintroduce the excluded dataset. Original articles remain separately attributed, not independent historical-master records.
