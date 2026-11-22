@@ -41,7 +41,7 @@ const {chromium}=require("playwright-core");
    await page.locator("#readerMoreModal .modal-close").click();
    await page.locator("#modernMoreButton").click();
    assert(await page.locator("#readerSourcesAttribution #universalSearchAttribution").count()===1,"Source notice is accessible directly through hamburger, without any search");
-   assert.equal(await page.locator("#readerSourcesAttribution .more-resource").count(),6,"All six attributed resources remain together");
+   assert.equal(await page.locator("#readerSourcesAttribution .more-resource").count(),7,"Six existing source notices plus approved names attribution stay together");
    assert(!requests.some(u=>u.includes("/historical-people-places/")),"Excluded separate historical dataset not requested");
    assert.deepEqual(pageErrors,[],"Browser console errors "+brand);
    await ctx.close();
