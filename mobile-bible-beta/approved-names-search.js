@@ -9,8 +9,19 @@ const ELIGIBILITY_BLOB="0dc471653bc005fd4713f5b7c586f0195e672c08";
 const RELATION_BLOB="83bee8b4cdc5af57e10c23403a48ed965786cbdb";
 const ORIGIN="https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/"+COMMIT+"/data/unfoldingword/v91/names/";
 function normalize(v){return String(v||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}
+function oneEdit(a,b){
+ if(a===b)return true;
+ if(Math.abs(a.length-b.length)>1)return false;
+ let i=0,j=0,errors=0;
+ while(i<a.length&&j<b.length){
+  if(a[i]===b[j]){i++;j++;continue}
+  if(++errors>1)return false;
+  if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++}
+ }
+ return errors+(a.length-i)+(b.length-j)<=1;
+}
 function match(entries,query,limit=8){
- let q=normalize(query).replace(/^(who|what) (is|was|were) /,"").replace(/^tell me about /,"");
+ const q=normalize(query).replace(/^(who|what) (is|was|were) /,"").replace(/^tell me about /,"");
  if(q.length<3||q.split(" ").length>4||!Array.isArray(entries))return [];
  const found=[];
  for(const e of entries){
@@ -18,11 +29,10 @@ function match(entries,query,limit=8){
   const title=normalize(e[2]),forms=String(e[2]).split(/[,()]/).map(normalize).filter(Boolean);
   let score=title===q?100:forms.some(t=>t===q)?95:forms.some(t=>t.startsWith(q+" "))?80:0;
   if(!score&&q.length>3&&title.startsWith(q))score=62;
-  // No incidental name matches in long natural-language questions.
-  if(!score&&q.split(" ").length===1&&q.length>=5){
-   for(const t of forms){if(Math.abs(t.length-q.length)===1&&
-      (t.startsWith(q.slice(0,-1))||q.startsWith(t.slice(0,-1))))score=30}
-  }
+  // One insertion, omission or substitution (Oah -> Noah), only for a
+  // single name query; never use fuzzy matching to reinstate excluded IDs.
+  if(!score&&q.split(" ").length===1&&q.length>=3&&
+    forms.some(t=>t.length>=4&&oneEdit(t,q)))score=42;
   if(score>0)found.push({entry:e,score});
  }
  found.sort((a,b)=>b.score-a.score||String(a.entry[2]).localeCompare(String(b.entry[2])));
@@ -170,8 +180,11 @@ async function showDetail(entry,a,card,button){
     const q=lookup.get(link.qaId);
     const t=link.scriptureTargets?.find(validTarget);
     if(!q||!t)continue;
-    const b=el("button","universal-name-question",q[1]+" · "+citation({label:BOOKS.find(x=>x.code===t.book).name+" "+t.chapter+":"+t.verse,scriptureTarget:t}));
-    b.type="button";b.addEventListener("click",()=>openPassage(t,b));related.append(b);
+    const item=el("article","universal-name-qa-detail");
+    item.append(el("strong","",q[1]));
+    item.append(el("p","universal-qa-answer",q[2]));
+    const b=el("button","universal-qa-ref","Open "+BOOKS.find(x=>x.code===t.book).name+" "+t.chapter+":"+t.verse+" · "+state.edition);
+    b.type="button";b.addEventListener("click",()=>openPassage(t,b));item.append(b);related.append(item);
     if(++shown===8)break;
    }
    if(!shown)related.append(el("p","universal-name-note","No verified Q&A target available in this edition."));
@@ -185,22 +198,35 @@ function render(rows){
  document.querySelectorAll(".universal-name-section").forEach(n=>n.remove());
  if(!rows.length)return;
  const section=el("section","universal-name-section");
- section.append(el("h4","universal-qa-heading","People & Places · unfoldingWord ("+rows.length+" matching profiles)"));
+ section.append(el("h4","universal-qa-heading","People & Places profiles ("+rows.length+" matching)"));
+ const entered=normalize(searchInput.value).replace(/^(who|what) (is|was|were) /,"");
  for(const [entry,a] of rows){
   const card=el("article","universal-qa-card universal-name-card");card.dataset.nameId=entry[0];
-  const top=el("div","universal-qa-top");top.append(el("span","","People & Places"));
+  const top=el("div","universal-qa-top");top.append(el("span","","Approved name article · unfoldingWord"));
   const source=el("button","universal-qa-source","Source ↗");source.type="button";
   source.addEventListener("click",sourceMenu);top.append(source);card.append(top);
   card.append(el("h5","universal-name-title",entry[2]));
-  card.append(el("p","universal-qa-answer",firstDefinition(a.source)));
-  const ref=a.refs[0],row=el("div","universal-name-actions");
-  const view=el("button","universal-name-open","View profile");view.type="button";
-  view.addEventListener("click",()=>showDetail(entry,a,card,view));row.append(view);
-  const jump=el("button","universal-qa-ref","Read "+citation(ref)+" in "+state.edition);
-  jump.type="button";jump.addEventListener("click",()=>openPassage(ref.scriptureTarget,jump));row.append(jump);
-  card.append(row);section.append(card);
+  if(!String(entry[2]).split(/[,()]/).map(normalize).includes(entered)&&
+     !normalize(entry[2]).startsWith(entered+" ")&&entered.split(" ").length===1)
+   card.append(el("p","universal-name-note","Closest matching name for “"+searchInput.value.trim()+"”"));
+  if(a?.source){
+   card.append(el("p","universal-qa-answer",firstDefinition(a.source)));
+   const ref=a.refs[0],row=el("div","universal-name-actions");
+   const view=el("button","universal-name-open","Read profile & references");view.type="button";
+   view.addEventListener("click",()=>showDetail(entry,a,card,view));row.append(view);
+   const jump=el("button","universal-qa-ref","Open "+citation(ref)+" · "+state.edition);
+   jump.type="button";jump.addEventListener("click",()=>openPassage(ref.scriptureTarget,jump));row.append(jump);
+   card.append(row);
+  }else{
+   card.append(el("p","universal-name-note",a===null?
+    "Publisher profile temporarily unavailable. Try searching again later.":
+    "Loading approved publisher profile…"));
+  }
+  section.append(card);
  }
- searchResults.append(section);
+ // Name matches are the primary answer to an exact or near-exact name query.
+ // Do not let chapter hits, questions or network order bury the profile.
+ searchResults.prepend(section);
 }
 function current(n,q){return n===request&&searchInput.value.trim()===q&&searchModal.veil.classList.contains("is-open")}
 searchInput.addEventListener("input",()=>{
@@ -214,9 +240,11 @@ searchInput.addEventListener("input",()=>{
    const idx=await getIndex();if(!current(n,q))return;
    const matches=match(idx.entries,q);
    if(!matches.length)return;
-   searchResults.append(status);
-   const details=await Promise.all(matches.map(e=>article(e).then(a=>[e,a]).catch(()=>null)));
-   if(current(n,q))render(details.filter(Boolean));
+   // Show the allowed name immediately, even when the remote publisher
+   // article is slow or temporarily blocked on mobile networks.
+   render(matches.map(e=>[e,undefined]));
+   const details=await Promise.all(matches.map(e=>article(e).then(a=>[e,a]).catch(()=>[e,null])));
+   if(current(n,q))render(details);
   }catch(_){if(current(n,q))status.textContent="Published name profiles are temporarily unavailable. Scripture and Bible Questions are still available."}
   finally{if(status.isConnected)status.remove()}
  },310);
