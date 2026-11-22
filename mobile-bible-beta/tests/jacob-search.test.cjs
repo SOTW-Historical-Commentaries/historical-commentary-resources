@@ -20,7 +20,8 @@ const books=[
  {code:'EPH',name:'Ephesians',chapterCount:6},{code:'1CO',name:'1 Corinthians',chapterCount:16},
  {code:'GAL',name:'Galatians',chapterCount:6},{code:'ROM',name:'Romans',chapterCount:16},
  {code:'GEN',name:'Genesis',chapterCount:50},{code:'1SA',name:'1 Samuel',chapterCount:31},
- {code:'LUK',name:'Luke',chapterCount:24}
+ {code:'LUK',name:'Luke',chapterCount:24},
+ {code:'REV',name:'Revelation',chapterCount:22},{code:'1TH',name:'1 Thessalonians',chapterCount:5}
 ];
 const scopes=q=>Array.from(core.search(data.entries,q,books),r=>r.entry.scopeKey);
 assert.equal(scopes('Lannom').length,data.entries.length);
@@ -52,5 +53,5 @@ assert(html.includes('readerView.scrollTop=Math.max(0,readerView.scrollTop+ancho
  'Scroll the chapter pane, not the sticky document');
 assert(!html.includes("el.scrollIntoView({block:'start',behavior:'instant'})"),
  'No document-level verse jump under sticky header');
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0191'")&&sw.includes('./jacob-search.js'));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0192'")&&sw.includes('./jacob-search.js'));
 console.log('PASS: 16 published Jacob entries, author/book/topic matches, exact scope, marker-first chapter scrolling and cache');

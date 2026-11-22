@@ -11,7 +11,7 @@ const study=fs.readFileSync(path.join(dir,'study-ux-repair.js'),'utf8');
 assert.equal(index.schema,'sotw-reader-verse-doctrine-display-v1');
 assert.equal(index.status,'LIMITED_EVIDENCE_SCOPED_COVERAGE');
 assert.equal(jacob.authorId,'jacob-lannom');
-assert.equal(jacob.entries.length,16);
+assert(jacob.entries.length>=16,'Published Jacob corpus must not shrink below the validated baseline');
 const mapped=new Set();
 for(const tag of index.entries){
  assert(tag.display&&tag.formal&&Array.isArray(tag.aliases)&&tag.aliases.length);
@@ -39,4 +39,4 @@ assert(html.includes('tag.aliases.slice(0,4)'),'Source-owned aliases are display
 assert(!html.includes('showVerseDoctrineTags()'),'No standalone general verse study doctrine card');
 assert(!study.includes('doctrineTags'),'Word study must not expect the removed generic badge widget');
 assert(!html.includes('id=\'doctrineTags\''),'Generic study badge container removed');
-console.log('PASS: seven accepted scoped doctrine rows, 16 Jacob entries, author-only badge placement, no inference');
+console.log('PASS: seven accepted scoped doctrine rows, expanded Jacob source entries, author-only badge placement, no inference');
