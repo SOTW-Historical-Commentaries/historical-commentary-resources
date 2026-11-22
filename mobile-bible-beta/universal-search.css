@@ -28,3 +28,24 @@
 }
 .mobile-beta.beta-light #readerMoreModal .more-sources-section{border-color:#bbcdca}
 .mobile-beta.beta-light #readerMoreModal .more-sources-section>h3{color:#345963}
+
+
+/* Search-only eligible People & Places profiles, not a directory. */
+.mobile-beta .universal-name-section{display:grid;gap:10px;margin:9px 0 16px;min-width:0}
+.mobile-beta .universal-name-card .universal-name-title{font:700 16px/1.4 system-ui;margin:10px 0 7px;color:inherit}
+.mobile-beta .universal-name-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px}
+.mobile-beta .universal-name-open{border:1px solid #6e9aa3;color:#ecf6f7;background:#35525b;border-radius:8px;min-height:36px;padding:8px 12px;cursor:pointer;font:650 12px system-ui}
+.mobile-beta .universal-name-detail{margin-top:13px;padding-top:12px;border-top:1px solid #52707a}
+.mobile-beta .universal-name-detail h5{margin:8px 0;font:700 13px/1.5 system-ui;color:#b8dbe5}
+.mobile-beta .universal-name-full-definition{font:13px/1.65 system-ui;color:#dbe9ed;white-space:pre-wrap;overflow-wrap:anywhere}
+.mobile-beta .universal-name-references{display:flex;gap:7px;flex-wrap:wrap}
+.mobile-beta .universal-name-related{margin-top:11px}
+.mobile-beta .universal-name-note{font:12px/1.5 system-ui;color:#b9cfd5}
+.mobile-beta .universal-name-question{display:block;width:100%;border:1px solid #587680;border-radius:8px;background:#2a424a;color:#e7f5f7;text-align:left;margin:7px 0;padding:10px;cursor:pointer;font:12px/1.55 system-ui}
+.mobile-beta .universal-name-status{margin:8px;font:13px/1.5 system-ui;color:#a9c8d1}
+.mobile-beta.beta-light .universal-name-open{background:#d7e9e5;color:#285160;border-color:#94b6b9}
+.mobile-beta.beta-light .universal-name-detail{border-color:#acc9c8}
+.mobile-beta.beta-light .universal-name-detail h5{color:#345963}
+.mobile-beta.beta-light .universal-name-full-definition{color:#34505b}
+.mobile-beta.beta-light .universal-name-note{color:#4a6a72}
+.mobile-beta.beta-light .universal-name-question{background:#e1efed;color:#2b535e;border-color:#a4c2c4}
