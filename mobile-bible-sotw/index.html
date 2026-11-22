@@ -871,7 +871,7 @@ const moreIntro=document.createElement('p');moreIntro.className='modern-panel-de
 moreIntro.textContent='Appearance and source information for this reader. These are credits and explanations, not extra commentary on the selected verse.';
 moreModal.panel.append(moreIntro);
 const aboutReaderIdentity=document.createElement('div');aboutReaderIdentity.className='reader-citation-identity';
-const aboutReaderMark=document.createElement('img');aboutReaderMark.src='./branding/v1/SOTW_Bible_and_Name_Transparent.png';aboutReaderMark.alt='Servants of the Way reader identity';aboutReaderMark.loading='lazy';
+const aboutReaderMark=document.createElement('img');aboutReaderMark.src='./branding/v1/SOTW_Bible_and_Name_Transparent.png';aboutReaderMark.alt='Servants of the Way reader identity';aboutReaderMark.loading='eager';
 const aboutReaderCaption=document.createElement('span');aboutReaderCaption.textContent='Reader: Servants of the Way. Publisher credits for each source are below.';
 aboutReaderIdentity.append(aboutReaderMark,aboutReaderCaption);moreIntro.after(aboutReaderIdentity);
 const shareVerseAction=document.createElement('button');
