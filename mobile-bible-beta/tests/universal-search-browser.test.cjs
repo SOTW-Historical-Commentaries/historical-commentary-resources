@@ -51,6 +51,18 @@ const {chromium}=require("playwright-core");
    // only the top answer group. Preserve this user-controlled expansion.
    if(!await snake.count())await page.locator(".universal-qa-section > .universal-qa-show-more").click();
    await snake.waitFor({state:"visible"});
+
+   // The first search destination is Scripture only when a published source
+   // supplies the citation; it forwards to the existing in-search preview.
+   const scriptureShortcut=page.locator("#modernSearchResults > .sotw-search-scripture");
+   await scriptureShortcut.waitFor({state:"visible"});
+   assert.match(await scriptureShortcut.innerText(),/Preview Scripture cited by Bible Questions/);
+   await scriptureShortcut.click();
+   const forwardedPreview=page.locator(".universal-qa-section .universal-qa-card .universal-scripture-preview").first();
+   await forwardedPreview.waitFor({state:"visible"});
+   assert(await input.isVisible(),"Coordinated Scripture shortcut keeps Search open");
+   await forwardedPreview.getByRole("button",{name:"Close Scripture preview"}).click();
+
    await snake.locator(".universal-qa-ref").click();
    const bronzePreview=snake.locator(".universal-scripture-preview");
    await bronzePreview.waitFor({state:"visible"});
