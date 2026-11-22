@@ -6,12 +6,23 @@
 "use strict";
 const STOP=new Set(["a","an","and","are","as","at","be","by","did","do","does","for","from","how","i","in","is","it","of","on","or","the","to","was","were","what","when","where","which","who","why","with","would","you"]);
 const ALIASES={snake:["serpent"],serpent:["snake"],stick:["pole","staff","rod"],pole:["stick","staff"],bronze:["brass","brazen"],brass:["bronze","brazen"],raised:["lifted","lift"],lifted:["raised","lift"],cross:["crucified"],jesus:["christ"],christ:["jesus"],forgive:["forgiveness"],forgiveness:["forgive"],resurrection:["raised","rise"]};
+ // Make existing lexicon bidirectional for all source types; do not add
+ // person/event-specific aliases or infer new Scripture destinations.
+const EXPANDED_ALIASES=new Map();
+for(const [term,related] of Object.entries(ALIASES)){
+ if(!EXPANDED_ALIASES.has(term))EXPANDED_ALIASES.set(term,new Set());
+ for(const alias of related){
+  EXPANDED_ALIASES.get(term).add(alias);
+  if(!EXPANDED_ALIASES.has(alias))EXPANDED_ALIASES.set(alias,new Set());
+  EXPANDED_ALIASES.get(alias).add(term);
+ }
+}
 function normalize(value){return String(value||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9]+/g," ").trim()}
 function words(value){return [...new Set(normalize(value).split(" ").filter(t=>t.length>1&&!STOP.has(t)))]}
 function near(a,b){if(a===b)return true;if(Math.abs(a.length-b.length)>1||a.length<4||b.length<4)return false;let i=0,j=0,m=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue}if(++m>1)return false;if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++}}return m+(a.length-i)+(b.length-j)<=1}
 function tokenMatch(term,set){
  if(set.has(term))return 1;
- for(const alias of ALIASES[term]||[])if(set.has(alias))return .75;
+ for(const alias of EXPANDED_ALIASES.get(term)||[])if(set.has(alias))return .75;
  if(term.length>=4)for(const w of set)if(w.startsWith(term)&&w.length-term.length<=3)return .55;
  if(term.length>=5)for(const w of set)if(near(term,w))return .4;
  return 0;
@@ -71,7 +82,7 @@ function verseQuestions(reverse,records,book,chapter,verse){
  }
  return found;
 }
-root.SOTWUniversalSearchCore={normalize,words,near,score,rank,verseQuestions};
+root.SOTWUniversalSearchCore={normalize,words,near,tokenMatch,score,rank,verseQuestions};
 if(typeof document==="undefined"||typeof searchInput==="undefined"||typeof searchResults==="undefined"||typeof state==="undefined")return;
 const base=new URL(".",document.currentScript?.src||location.href);
 const path=new URL("./data/universal-search/v1/",base);
@@ -354,6 +365,7 @@ root.SOTWUniversalSearch={
  reload:()=>{rows=null;loading=null},
  sourceStatus:"SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED",
  questionsByIds:()=>index(),
+ searchCandidates:async(query,limit=8)=>rank(await index(),query,Math.min(12,Math.max(1,limit))),
  navigateToTarget:(target,button)=>navigate([null,null,null,[target]],button)
 };
 })(typeof globalThis==="object"?globalThis:this);

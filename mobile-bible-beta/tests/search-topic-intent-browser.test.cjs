@@ -4,11 +4,24 @@
 "use strict";
 const assert=require("node:assert/strict");
 const {chromium}=require("playwright-core");
+const faithIndexTopic={id:"NEUU:TOPIC:faith",slug:"faith",
+ title:"FAITH",shard:"topics/F.json",sources:["NAV","TOR"],
+ verse_link_count:442,see_also:[]};
 const index={schema:"sotw-topics-search-index/1.0.0",topics:[
  {id:"NEUU:TOPIC:brazen_serpent",slug:"brazen_serpent",
   title:"BRAZEN SERPENT",shard:"topics/B.json",sources:["NAV"],
-  verse_link_count:3,see_also:[]}
+  verse_link_count:3,see_also:[]},faithIndexTopic
 ]};
+const faithShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
+ id:"NEUU:TOPIC:faith",title:"FAITH",slug:"faith",sources:["NAV","TOR"],
+ aspects:[{label:"Without fruits, is dead",references:["James 2:17,20,26"],source:"TOR"}],
+ references:[{raw:"James 2:17,20,26",status:"mapped",
+  verse_ids:["JAS.2.17","JAS.2.20","JAS.2.26"]}]
+}]};
+const reverse2KI={schema:"sotw-topics-scripture-index/1.0.0",
+ book_code:"2KI",verses:{"2KI.18.4":["NEUU:TOPIC:brazen_serpent"]}};
+const reverseJAS={schema:"sotw-topics-scripture-index/1.0.0",
+ book_code:"JAS",verses:{"JAS.2.17":["NEUU:TOPIC:faith"]}};
 const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
  id:"NEUU:TOPIC:brazen_serpent",title:"BRAZEN SERPENT",
  slug:"brazen_serpent",sources:["NAV"],see_also:[],
@@ -35,6 +48,12 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    const errors=[];page.on("pageerror",e=>errors.push(String(e)));
    await page.route("**/data/topics/nave-torrey/v1/index/topics.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(index)}));
+   await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/2KI.json",route=>
+    route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverse2KI)}));
+   await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/JAS.json",route=>
+    route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverseJAS)}));
+   await page.route("**/data/topics/nave-torrey/v1/topics/F.json",route=>
+    route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(faithShard)}));
    await page.route("**/data/topics/nave-torrey/v1/topics/B.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(shard)}));
    await page.goto("http://127.0.0.1:8765/"+brand+
@@ -74,9 +93,25 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await page.locator("#modernSearchResults .discovery-hit")
     .filter({hasText:/^BRAZEN SERPENT$/}).count(),0,
     "Unrelated staff transformation must not generate brazen serpent topic");
+   // A different published subject follows the same cross-source path.
+   await input.fill("What is faith by itself if it has no works");
+   const faith=page.locator('#modernSearchResults .discovery-hit').filter({hasText:/^FAITH$/});
+   await faith.waitFor({state:"visible"});
+   const published=page.locator('.universal-qa-card[data-qa-id="utq:v91:JAS:2:17:fpr8"]');
+   await published.waitFor({state:"visible"});
+   await page.waitForFunction(()=>{
+    const g=document.querySelector("#modernSearchResults > .sotw-passage-evidence");
+    return !!g&&g.textContent.includes("James 2:17");
+   });
+   await faith.click();
+   const faithDetail=page.locator("#sotwDiscoveryDetail .discovery-detail-body");
+   await faithDetail.waitFor({state:"visible"});
+   assert.match(await faithDetail.innerText(),/James 2:17,20,26/);
+   await faithDetail.locator(".discovery-back-search").click();
+   assert.equal(await input.inputValue(),"What is faith by itself if it has no works");
    assert.deepEqual(errors,[],"Unexpected browser errors "+brand);
    await context.close();
   }
-  console.log("PASS: both brands recover source-published serpent topic for a natural-language query, share precise citation and exclude staff confusion");
+  console.log("PASS: both brands recover multiple independent source-mapped topics through general Scripture-link evidence");
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});
