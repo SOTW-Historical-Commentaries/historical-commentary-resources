@@ -38,6 +38,10 @@ for(const label of ['18:5-7,9;','5:8,16;6:18;']){
  assert.equal(core.sourceHeading(label).sourceLabel,label);
 }
 assert.equal(core.sourceHeading('The old man of Gibeah').title,'The old man of Gibeah');
+assert.equal(core.sourceHeading('1.').title,'Other indexed passages');
+assert.equal(core.sourceHeading('1.').sourceLabel,'1.');
+assert.equal(core.sourceHeading('Intoxi').title,'Unclear historical index heading');
+assert.equal(core.sourceHeading('Intoxi').sourceLabel,'Intoxi');
 const sampleTopic={references:[
  {raw:'Genesis 33:4,11',status:'mapped',verse_ids:['GEN.33.4','GEN.33.11']},
  {raw:'Genesis 45:5-15',status:'mapped',verse_ids:['GEN.45.5','GEN.45.6']},
