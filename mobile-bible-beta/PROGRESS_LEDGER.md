@@ -5,6 +5,19 @@
 
 
 
+
+## 2026-11-22 | OWNER SEARCH ACCEPTANCE FAILED: ORIGINAL NUMBERS 21 SERPENT ACCOUNT MISSING
+
+**Physical-iPhone owner test:** The owner's intended search was the event where Moses placed a serpent on a pole and bitten Israelites looked and lived. Search returned the later `2 Kings 18:4` bronze-serpent Q&A and its historical-topic connections, but did NOT surface the original account. Record this as **SEARCH ACCEPTANCE FAIL (coverage)**, not proof of successful natural-language biblical search. The owner also tested faith/works; no corresponding issue was reported here. UI polishing remains deferred.
+
+**Canonical Scripture verified in the project's existing published translation sources, not an invented citation:** SOTW KJV1769 `data/kjv1769/numbers/chapters/21.json` contains `NUM.21.6` (fiery serpents bite the people), `NUM.21.8` (God directs Moses to make a fiery serpent and place it on a pole; a bitten person looking shall live), and `NUM.21.9` (Moses makes the brass serpent; bitten people look and live). SOTW ASV1901 `data/asv1901/numbers/chapters/21.json` independently has the same narrative, with `standard` in verse 8. The SOTW Nave/Torrey published reverse index `data/topics/nave-torrey/v1/index/by-scripture/NUM.json` contains exact NUM.21.8 and NUM.21.9 topic associations; the earlier `BRAZEN SERPENT` topic is an independently published *later* reference to 2KI.18.4 and JHN.3.14–15, not a substitute for the Numbers 21 account.
+
+**Observed root cause:** The pinned 12,139-record unfoldingWord v91 Bible Questions Search corpus contains **zero original Q&A records covering NUM.21.6–9**. The newly deployed PR #29 general Q&A→historical-topic bridge can only discover passages already cited by a matching source Q&A. It therefore has no path to Numbers 21 from this narrative query. Better Moses synonyms or more topic-title boosts WILL NOT solve that fundamental gap across all books.
+
+**Required next Search milestone:** Build a **general, source-verified whole-Bible Scripture-text search index**, grounded in existing accepted SOTW public-domain KJV1769/ASV1901 chapter files and stable `BOOK.CHAPTER.VERSE` IDs, with source manifest/hash/rights and no invented relationships. Search must search more than the currently loaded chapter, rank original matching verse/passage context ahead of later cross-references when narrative wording matches, use selected-edition navigation, and preserve accurate source attribution and Back to Search. Include tests for (a) the original Numbers 21:8–9 result from the owner's narrative description, (b) staff turning into a snake in Exodus 4 or 7 as a distinct event, (c) later 2 Kings 18:4 as secondary, and (d) unrelated subjects/books. Use conservative language synonyms/inflections and context windows, but no named-person patch or model-generated Scripture reference. Preserve offline/phone performance and distinct CGBC/SOTW PWA brands. Treat whole-Bible text search as **not yet implemented** and owner iPhone acceptance as **not passed**.
+
+**Change-control status:** This entry records diagnosis only. No new runtime feature, Scripture content change, author corpus change, media-player integration, concept mapping, or deployment is claimed.
+
 ## 2026-11-22 | GENERAL SOURCE-VERIFIED SEARCH BRIDGE, FIRST REUSABLE CROSS-SOURCE RELEASE
 
 **Owner direction:** Search relevance must apply to all eligible subjects and both independent branded readers, NOT accumulate a long list of named Moses/Noah/David exceptions. This is a **general mechanism**, bounded by actually indexed source evidence, not a promise of unlimited semantic understanding.
