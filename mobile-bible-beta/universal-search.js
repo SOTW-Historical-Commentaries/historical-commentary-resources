@@ -136,21 +136,63 @@ sourcesHeading.after(sourceDisclosure);
 function render(matches){
  document.querySelectorAll(".universal-qa-section").forEach(e=>e.remove());
  if(!matches.length)return;
- const host=document.createElement("section");host.className="universal-qa-section";
- const heading=textNode("h4","universal-qa-heading","Bible Questions · unfoldingWord ("+matches.length+" best matches)");host.append(heading);
+ // Identical published answers are grouped, never discarded or recast as
+ // a new authored answer. Each source question and distinct verse stays available.
+ const clusters=new Map();
  for(const {row} of matches){
-  const card=document.createElement("article");card.className="universal-qa-card";card.dataset.qaId=row[0];
-  const top=document.createElement("div");top.className="universal-qa-top";
-  top.append(textNode("span","","Bible Questions"));
-  const source=textNode("button","universal-qa-source","Source ↗");source.type="button";source.addEventListener("click",openSource);top.append(source);
-  const question=textNode("button","search-hit universal-qa-open",row[1]);question.type="button";
-  question.addEventListener("click",()=>navigate(row,question));
-  const answer=textNode("p","universal-qa-answer",row[2]);
-  const ref=textNode("button","search-hit universal-qa-ref","Read "+row[3].map(reference).filter(Boolean).join(" · ")+" in "+state.edition);
-  ref.type="button";ref.addEventListener("click",()=>navigate(row,ref));
-  card.append(top,question,answer,ref);host.append(card);
+  const key=normalize(row[2]);
+  if(!clusters.has(key))clusters.set(key,[]);
+  clusters.get(key).push(row);
  }
- searchResults.append(host);
+ const groups=[...clusters.values()];
+ const host=document.createElement("section");host.className="universal-qa-section";
+ host.append(textNode("h4","universal-qa-heading",
+   "Bible Questions · unfoldingWord ("+matches.length+" matches · "+groups.length+" answers)"));
+ const listings=document.createElement("div");listings.className="universal-qa-results";
+ function scriptureButton(row,label){
+  const ref=textNode("button","search-hit universal-qa-ref",label+" "+row[3].map(reference).filter(Boolean).join(" · ")+" · "+state.edition);
+  ref.type="button";ref.addEventListener("click",()=>navigate(row,ref));return ref;
+ }
+ function cardFor(cluster){
+  const row=cluster[0],card=document.createElement("article");
+  card.className="universal-qa-card";card.dataset.qaId=row[0];
+  const top=document.createElement("div");top.className="universal-qa-top";
+  top.append(textNode("span","","Bible Questions · publisher Q&A"));
+  const source=textNode("button","universal-qa-source","Source ↗");
+  source.type="button";source.addEventListener("click",openSource);top.append(source);
+  card.append(top);
+  card.append(textNode("h5","universal-qa-question",row[1]));
+  card.append(textNode("span","universal-qa-answer-label","Published answer"));
+  card.append(textNode("p","universal-qa-answer",row[2]));
+  card.append(scriptureButton(row,"Open cited passage:"));
+  if(cluster.length>1){
+   const more=document.createElement("details");more.className="universal-qa-variants";
+   more.append(textNode("summary","",cluster.length-1+" more questions with this same published answer"));
+   for(const variant of cluster.slice(1)){
+    const item=document.createElement("div");item.className="universal-qa-variant";
+    item.append(textNode("p","",variant[1]));
+    item.append(scriptureButton(variant,"Open cited passage:"));
+    more.append(item);
+   }
+   card.append(more);
+  }
+  return card;
+ }
+ groups.slice(0,5).forEach(cluster=>listings.append(cardFor(cluster)));
+ host.append(listings);
+ if(groups.length>5){
+  const more=document.createElement("button");more.type="button";
+  more.className="universal-qa-show-more";
+  more.textContent="Show "+(groups.length-5)+" more Bible Questions answers";
+  more.addEventListener("click",()=>{
+   groups.slice(5).forEach(cluster=>listings.append(cardFor(cluster)));
+   more.remove();
+  });
+  host.append(more);
+ }
+ // Specific profile first, then Q&A, with incidental current-chapter hits last.
+ const chapter=searchResults.querySelector(".reader-current-chapter-search");
+ if(chapter)searchResults.insertBefore(host,chapter);else searchResults.append(host);
 }
 function stillCurrent(n,q){return n===request&&searchInput.value.trim()===q&&searchModal.veil.classList.contains("is-open")}
 searchInput.addEventListener("input",()=>{
@@ -169,7 +211,7 @@ searchInput.addEventListener("input",()=>{
   }
  },240);
 });
-searchNote.textContent="Search Bible references, current-chapter Scripture text, published Bible Questions, review-eligible People & Places profiles, Bible Topics, and Jacob Lannom commentary. Whole-Bible text indexing is still being developed.";
+searchNote.textContent="Find a Bible passage, approved person/place profile, Bible Question, Topic, or Jacob commentary. Scripture-word search currently covers this chapter.";
 searchInput.placeholder="John 3:16, Abraham, Moses snake on stick, or Topics";
 root.SOTWUniversalSearch={
  reload:()=>{rows=null;loading=null},

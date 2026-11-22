@@ -496,7 +496,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
 <link rel="stylesheet" href="./study-ux-repair.css?v=20261118-reader162">
 <link rel="stylesheet" href="./discovery-integrations.css?v=20261120-discovery4">
-<link rel="stylesheet" href="./universal-search.css?v=20261121-us3">
+<link rel="stylesheet" href="./universal-search.css?v=20261122-us4">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -882,6 +882,10 @@ moreModal.panel.setAttribute('aria-label','About Servants of the Way sources and
 const moreIntro=document.createElement('p');moreIntro.className='modern-panel-desc';
 moreIntro.textContent='Appearance and source information for this reader. These are credits and explanations, not extra commentary on the selected verse.';
 moreModal.panel.append(moreIntro);
+const aboutReaderIdentity=document.createElement('div');aboutReaderIdentity.className='reader-citation-identity';
+const aboutReaderMark=document.createElement('img');aboutReaderMark.src='./icons/cgbc-sotw/icon-192.png';aboutReaderMark.alt='Servants of the Way reader identity';aboutReaderMark.loading='eager';
+const aboutReaderCaption=document.createElement('span');aboutReaderCaption.textContent='Reader: Servants of the Way. Publisher credits for each source are below.';
+aboutReaderIdentity.append(aboutReaderMark,aboutReaderCaption);moreIntro.after(aboutReaderIdentity);
 const shareVerseAction=document.createElement('button');
 shareVerseAction.type='button';shareVerseAction.id='shareCurrentVerse';
 shareVerseAction.className='more-appearance';
@@ -1239,21 +1243,39 @@ function modernSearchRender(){
  }
  if(q.length>1){
   const verses=(state.bible?.verses||[]).filter(v=>displayVerseText(v).toLowerCase().includes(q)).slice(0,8);
-  for(const v of verses){
-   const button=document.createElement('button');button.className='search-hit';button.type='button';
-   const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
-   const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
-   button.append(label,desc);button.addEventListener('click',()=>{
-    const trail=SOTWReaderTrail.capture('search');
-    searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
-    SOTWReaderTrail.commit(trail);
+  if(verses.length){
+   const section=document.createElement('section');section.className='reader-current-chapter-search';
+   const heading=document.createElement('h4');heading.className='universal-qa-heading';
+   heading.textContent='Current chapter · '+bookInfo().name+' '+state.chapter+' ('+state.edition+')';
+   section.append(heading);
+   const list=document.createElement('div');list.className='reader-chapter-results';section.append(list);
+   verses.forEach((v,i)=>{
+    const button=document.createElement('button');button.className='search-hit';button.type='button';
+    if(i>=2)button.hidden=true;
+    const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
+    const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
+    button.append(label,desc);button.addEventListener('click',()=>{
+     const trail=SOTWReaderTrail.capture('search');
+     searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
+     SOTWReaderTrail.commit(trail);
+    });
+    list.append(button);
    });
-   searchResults.append(button);
+   if(verses.length>2){
+    const more=document.createElement('button');more.type='button';more.className='universal-qa-show-more';
+    more.textContent='Show '+(verses.length-2)+' more hits in this chapter';
+    more.addEventListener('click',()=>{list.querySelectorAll('button[hidden]').forEach(x=>x.hidden=false);more.remove()});
+    section.append(more);
+   }
+   searchResults.append(section);
   }
  }
 }
+searchInput.setAttribute('enterkeyhint','done');
 searchInput.addEventListener('input',modernSearchRender);
-searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&searchResults.firstElementChild)searchResults.firstElementChild.click()});
+// The iPhone Done key should reveal results, not open an arbitrary first hit.
+searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();searchInput.blur();searchResults.scrollTop=0;positionSearchViewport()}});
+
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil,moreModal.veil])x.classList.remove('is-open')}});
 if(betaSaved.theme==='light')document.body.classList.add('beta-light');
 modernUpdateHeader();
@@ -1724,11 +1746,11 @@ editionModal.veil.addEventListener('click',event=>{
 },true);
 </script>
 <script src="./study-ux-repair.js?v=20261118-reader166"></script>
-<script src="./discovery-integrations.js?v=20261120-discovery9"></script>
+<script src="./discovery-integrations.js?v=20261122-discovery10"></script>
 <script src="./reader-return.js?v=20261118-return1"></script>
 <script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
 <script src="./reader-trail.js?v=20261119-trail2"></script>
-<script src="./universal-search.js?v=20261121-us3"></script>
-<script src="./approved-names-search.js?v=20261121-names1"></script>
+<script src="./universal-search.js?v=20261122-us4"></script>
+<script src="./approved-names-search.js?v=20261122-names2"></script>
 </body>
 </html>

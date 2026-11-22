@@ -27,6 +27,7 @@ const assert=require("node:assert/strict"),{chromium}=require("playwright-core")
    await input.fill("Abram");
    const profile=page.locator('.universal-name-card[data-name-id="utw:v91:names:abraham"]');
    await profile.waitFor({state:"visible"});
+   await page.waitForFunction(()=>document.querySelector('.universal-name-card[data-name-id="utw:v91:names:abraham"]')?.textContent?.includes("forefather of the Israelites"));
    assert((await profile.innerText()).includes("forefather of the Israelites"),"Published article definition visible");
    await profile.locator(".universal-qa-source").click();
    const source=page.locator("#readerSourcesAttribution #approvedNameSourceAttribution");
@@ -49,6 +50,36 @@ const assert=require("node:assert/strict"),{chromium}=require("playwright-core")
    await input.fill("Moses snake on stick");
    await page.waitForTimeout(800);
    assert.equal(await page.locator(".universal-name-card").count(),0,"Long Q&A request does not generate incidental profile");
+   // Regression from the owner's iPhone report: Noah must lead even when
+   // the current chapter contains many Noah mentions, and Oah is one edit.
+   const noah={
+    id:"utw:v91:names:noah",slug:"noah",title:"Noah",collection:"bible/names",
+    source:{publisher:"unfoldingWord",resource:"en_tw",version:"91"},
+    sections:{Definition:"Noah was a man who lived over 4,000 years ago, at the time when God sent a worldwide flood to destroy all the evil people in the world."},
+    bibleReferences:[{label:"Genesis 8:1",resolutionStatus:"READER_ANCHOR_AVAILABLE",
+      scriptureTarget:{book:"GEN",chapter:8,verse:1,scope:"GEN.8.1"}}]
+   };
+   await page.route("**/names/entries/noah.json",route=>route.fulfill({
+    status:200,contentType:"application/json",body:JSON.stringify(noah)}));
+   await input.fill("Noah");
+   const noahProfile=page.locator('.universal-name-card[data-name-id="utw:v91:names:noah"]');
+   await noahProfile.waitFor({state:"visible"});
+   assert.equal(await page.locator("#modernSearchResults").evaluate(el=>el.firstElementChild?.classList.contains("universal-name-section")),true,
+    "Exact name profile stays ahead of incidental chapter and Q&A results");
+   await page.waitForFunction(()=>document.querySelector('.universal-name-card[data-name-id="utw:v91:names:noah"]')?.textContent?.includes("worldwide flood"));
+   await input.fill("Oah");
+   await noahProfile.waitFor({state:"visible"});
+   assert((await noahProfile.innerText()).includes("Closest matching name"),"Oah suggests Noah");
+   await page.locator("#readerSearchModal .modal-close").click();
+   await page.locator("#readerEdition").click();
+   await page.locator('.edition-option[data-edition="ASV1901"]').click();
+   await page.waitForFunction(()=>state.edition==="ASV1901"&&state.bible?.verses?.length>0);
+   await page.locator("#modernSearchButton").click();
+   await input.fill("Oah");
+   await noahProfile.locator(".universal-qa-ref").waitFor({state:"visible"});
+   assert((await noahProfile.innerText()).includes("ASV1901"),"Profile citation follows selected edition");
+   await noahProfile.locator(".universal-qa-ref").first().click();
+   await page.waitForFunction(()=>state.book==="GEN"&&state.chapter===8&&state.verse===1&&state.edition==="ASV1901");
    assert.deepEqual(errors,[],"No profile browser errors "+brand);
    await context.close();
   }

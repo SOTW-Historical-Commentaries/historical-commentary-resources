@@ -36,6 +36,9 @@ vm.runInContext(js,ctx,{filename:"approved-names-search.js"});
 const matches=q=>ctx.SOTWNameSearchCore.match(m.entries,q).map(e=>e[0]);
 assert(matches("Abraham").includes("utw:v91:names:abraham"));
 assert(matches("Abram").includes("utw:v91:names:abraham"));
+assert(matches("Noah")[0]==="utw:v91:names:noah","Exact Noah profile ranks first");
+assert(matches("Oah")[0]==="utw:v91:names:noah","One missing initial letter returns Noah");
+assert(matches("Noh")[0]==="utw:v91:names:noah","One omitted internal letter returns Noah");
 assert(matches("who was Moses").includes("utw:v91:names:moses"));
 assert(matches("Moses snake on stick").length===0,"No incidental Moses profile for snake Q&A");
 assert(matches("Abiathar").length===0,"Excluded name cannot appear as profile");
@@ -46,7 +49,7 @@ assert(js.includes("disclosure.id=\"approvedNameSourceAttribution\""),"Separate 
 assert(!js.includes("/historical-people-places/"),"Retired unaccepted master must not load");
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.join(base,"..",brand,"index.html"),"utf8");
- assert(html.includes("approved-names-search.js?v=20261121-names1"),"Missing profiles adapter "+brand);
- assert(html.includes("universal-search.css?v=20261121-us3"),"Missing named search styles "+brand);
+ assert(html.includes("approved-names-search.js?v=20261122-names2"),"Missing profiles adapter "+brand);
+ assert(html.includes("universal-search.css?v=20261122-us4"),"Missing named search styles "+brand);
 }
 console.log("PASS: 332 review-eligible name profiles, 23 exclusions, 304 Q&A-linked, 9,303 explicit associations, anchored search in two readers");

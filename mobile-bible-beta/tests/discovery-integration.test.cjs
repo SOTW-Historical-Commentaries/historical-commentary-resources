@@ -38,6 +38,10 @@ for(const label of ['18:5-7,9;','5:8,16;6:18;']){
  assert.equal(core.sourceHeading(label).sourceLabel,label);
 }
 assert.equal(core.sourceHeading('The old man of Gibeah').title,'The old man of Gibeah');
+assert.equal(core.sourceHeading('1.').title,'Other indexed passages');
+assert.equal(core.sourceHeading('1.').sourceLabel,'1.');
+assert.equal(core.sourceHeading('Intoxi').title,'Unclear historical index heading');
+assert.equal(core.sourceHeading('Intoxi').sourceLabel,'Intoxi');
 const sampleTopic={references:[
  {raw:'Genesis 33:4,11',status:'mapped',verse_ids:['GEN.33.4','GEN.33.11']},
  {raw:'Genesis 45:5-15',status:'mapped',verse_ids:['GEN.45.5','GEN.45.6']},
@@ -69,17 +73,17 @@ assert(script.includes('The first tap shows topic content and Scripture citation
 assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
 assert(script.includes('One historical source citation')&&script.includes('expandList('));
-assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('parent.append(link)'),'Topic citation must be a navigable verified link');
+assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('wrapper.append(link);parent.append(wrapper)'),'Topic citation must be a navigable verified link with original text');
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261120-discovery9'));
+assert(html.includes('discovery-integrations.js?v=20261122-discovery10'));
 assert(html.includes('reader-return.js?v=20261118-return1'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261120-discovery4'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0194'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0195'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));

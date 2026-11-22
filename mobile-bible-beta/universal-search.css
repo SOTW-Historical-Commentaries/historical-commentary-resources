@@ -49,3 +49,39 @@
 .mobile-beta.beta-light .universal-name-full-definition{color:#34505b}
 .mobile-beta.beta-light .universal-name-note{color:#4a6a72}
 .mobile-beta.beta-light .universal-name-question{background:#e1efed;color:#2b535e;border-color:#a4c2c4}
+
+
+/* Result hierarchy: exact People & Places, published Q&A, then this chapter. */
+.mobile-beta .universal-qa-results{display:grid;gap:10px}
+.mobile-beta .universal-qa-question{font:700 15px/1.45 system-ui;margin:10px 0 8px;color:inherit;overflow-wrap:anywhere}
+.mobile-beta .universal-qa-answer-label{display:block;margin:6px 0;font:700 11px/1.5 system-ui;letter-spacing:.03em;text-transform:uppercase;color:#b8d7df}
+.mobile-beta .universal-qa-variants{margin-top:12px;border-top:1px solid #506d75;padding-top:10px}
+.mobile-beta .universal-qa-variants>summary{cursor:pointer;font:650 12px/1.5 system-ui;color:#c8e5ec}
+.mobile-beta .universal-qa-variant{margin:9px 0;padding:9px;border-radius:7px;border:1px solid #52727c}
+.mobile-beta .universal-qa-variant p{font:13px/1.5 system-ui;margin:0 0 8px}
+.mobile-beta .universal-qa-show-more{width:100%;margin:8px 0 13px;padding:11px 12px;border-radius:9px;border:1px solid #71939b;background:transparent;color:#d7edf1;font:650 13px/1.4 system-ui;cursor:pointer}
+.mobile-beta .reader-current-chapter-search{display:grid;gap:9px;margin-top:8px}
+.mobile-beta .reader-chapter-results{display:grid;gap:8px}
+.mobile-beta .reader-chapter-results [hidden]{display:none!important}
+.mobile-beta .universal-name-qa-detail{padding:10px 0;border-top:1px solid #4a6a74;margin:9px 0}
+.mobile-beta .universal-name-qa-detail>strong{display:block;font:650 13px/1.45 system-ui}
+.mobile-beta .universal-name-qa-detail .universal-qa-answer{margin:6px 0 10px}
+.mobile-beta .universal-name-card .universal-name-note{margin:7px 0}
+.mobile-beta #readerSearchModal .modal-content .modern-panel-desc{font-size:12px;line-height:1.45}
+.mobile-beta.beta-light .universal-qa-answer-label{color:#416d77}
+.mobile-beta.beta-light .universal-qa-variants{border-color:#b0c8c9}
+.mobile-beta.beta-light .universal-qa-variants>summary{color:#385f6a}
+.mobile-beta.beta-light .universal-qa-variant{border-color:#afc9c8}
+.mobile-beta.beta-light .universal-qa-show-more{color:#2b5964;border-color:#adc3c6}
+/* Keep prior Scripture return available, but show one primary return action. */
+.mobile-beta #modernReaderHeader:has(#sotwTrail:not([hidden])) #sotwReturnToPassage{display:none!important}
+.mobile-beta .discovery-reference-entry{display:grid;gap:6px;margin:5px 0 9px}
+.mobile-beta .discovery-original-citation{font:12px/1.5 system-ui;color:#b4ced6}
+.mobile-beta.beta-light .discovery-original-citation{color:#486870}
+
+/* The citation sheet shows the reader-owned mark, never an unlicensed publisher logo. */
+.mobile-beta #readerMoreModal .reader-citation-identity{display:flex;align-items:center;gap:12px;margin:0 0 14px;padding:9px 11px;border:1px solid #4b636b;border-radius:10px}
+.mobile-beta #readerMoreModal .reader-citation-identity img{display:block;width:82px;max-height:54px;object-fit:contain;flex:none}
+.mobile-beta #readerMoreModal .reader-citation-identity span{font:12px/1.45 system-ui;color:#c1d7dc}
+.mobile-beta.beta-light #readerMoreModal .reader-citation-identity{border-color:#b3c8c7}
+.mobile-beta.beta-light #readerMoreModal .reader-citation-identity span{color:#365862}

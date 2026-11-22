@@ -39,9 +39,11 @@ function sourceHeading(label){
  // (e.g. "18:5-7,9;" or "5:8,16;6:18;"), not subject headings.
  // Retain the literal source label separately for provenance.
  const numericReferences=/^\d{1,3}:\d{1,3}(?:[-–]\d{1,3})?(?:[,;]\s*(?:\d{1,3}:)?\d{1,3}(?:[-–]\d{1,3})?)*;?$/;
- if(!cleaned||/^\d{2,5}\s*:?$/.test(cleaned)||numericReferences.test(cleaned)||/^[.,:;]+$/.test(cleaned)||
+ if(!cleaned||/^\d{2,5}\s*:?$/.test(cleaned)||/^\d+[.)]$/.test(cleaned)||numericReferences.test(cleaned)||/^[.,:;]+$/.test(cleaned)||
   /(?:of|from|in)\s*[1-3]?\s*(?:Ge|Gen|Ex|Exo)\s*\d/i.test(cleaned))
   return {title:'Other indexed passages',sourceLabel:original};
+ // A visibly truncated source fragment must not become an invented subject.
+ if(/^intoxi$/i.test(cleaned))return {title:'Unclear historical index heading',sourceLabel:original};
  return {title:cleaned,sourceLabel:''};
 }
 function topicSections(topic){
@@ -134,12 +136,15 @@ function referenceButton(parent,ref){
   book:parsed.book.code,chapter:String(parsed.chapter),verse:String(parsed.verse),
   translation:state.edition
  });
- // The reader's existing verified passage-link handler owns navigation,
- // visible failure reporting, and Back-to-original-passage history.
- const link=el('a','discovery-citation jacob-passage-link',label);
+ // Preserve the published original citation, but state exactly which verse
+ // the reader can open in the currently selected translation.
+ const wrapper=el('div','discovery-reference-entry');
+ wrapper.append(el('small','discovery-original-citation','Indexed citation: '+label));
+ const destination=parsed.book.name+' '+parsed.chapter+':'+parsed.verse;
+ const link=el('a','discovery-citation jacob-passage-link','Read '+destination+' · '+state.edition);
  link.href=location.pathname+'?'+params.toString();
- link.setAttribute('aria-label','Open first cited verse of '+label);
- parent.append(link);
+ link.setAttribute('aria-label','Read '+destination+' in '+state.edition+' (first verse of '+label+')');
+ wrapper.append(link);parent.append(wrapper);
  return true;
 }
 function expandList(parent,rows,render,visibleCount=4){
