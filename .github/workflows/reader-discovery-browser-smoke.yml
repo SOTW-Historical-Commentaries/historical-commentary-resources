@@ -14,6 +14,8 @@ on:
       - "mobile-bible-beta/tests/approved-names.test.cjs"
       - "mobile-bible-beta/tests/approved-names-browser.test.cjs"
       - "mobile-bible-beta/universal-search.css"
+      - "mobile-bible-beta/desktop-workspace.css"
+      - "mobile-bible-beta/tests/desktop-workspace-browser.test.cjs"
       - "mobile-bible-beta/data/universal-search/**"
       - "mobile-bible-beta/tests/universal-search-browser.test.cjs"
       - "mobile-bible-beta/icons/**"
@@ -73,6 +75,8 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/mobile-bible-beta/ >/dev/null; then break; fi
             sleep 1
           done
+      - name: Verify desktop Scripture and study layout in both brands, with mobile isolation
+        run: node mobile-bible-beta/tests/desktop-workspace-browser.test.cjs
       - name: Verify Universal Search questions, source menu and passage return in both readers
         run: node mobile-bible-beta/tests/universal-search-browser.test.cjs
       - name: Verify eligible People and Places search, citation, Scripture navigation and exclusions
