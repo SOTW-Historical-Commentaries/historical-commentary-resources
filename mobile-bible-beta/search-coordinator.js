@@ -138,7 +138,7 @@ function passageSummary(query){
  if(!groups.length){old?.remove();return}
  // Rebuild only on a semantic group identity change, not each sort mutation.
  const signature=JSON.stringify(groups.map(g=>[g.key,g.members.map(m=>m.type+"|"+m.id)]))+"|"+state.edition;
- if(old?.dataset.signature===signature)return;
+ if(old?.dataset.signature===signature&&old._sources?.every(el=>el.isConnected))return;
  const host=document.createElement("section");
  host.className="sotw-passage-evidence";host.dataset.signature=signature;
  const heading=document.createElement("h4");
@@ -176,6 +176,7 @@ function passageSummary(query){
   }
   details.append(actions);host.append(details);
  }
+ host._sources=groups.flatMap(g=>g.members.map(m=>m.element)).filter(Boolean);
  if(old)old.replaceWith(host);else searchResults.prepend(host);
 }
 function sync(){
