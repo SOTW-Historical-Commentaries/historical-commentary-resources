@@ -21,6 +21,8 @@ const {chromium}=require("playwright-core");
    assert((await hit.innerText()).includes("The Word was with God."),"Unaltered answer visible");
    assert((await hit.innerText()).includes("John 1:1–2"),"Exact source range retained");
    await hit.locator(".universal-qa-ref").click();
+   await page.waitForFunction(()=>state.book==="JHN"&&state.chapter===1&&state.verse===1&&
+     !document.getElementById("sotwTrail")?.hidden);
    await page.locator('#verses .reader-verse[data-verse="1"]').waitFor({state:"visible"});
    const location=await page.evaluate(()=>({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition,trail:document.getElementById("sotwTrail")?.hidden}));
    assert.deepEqual(location,{book:"JHN",chapter:1,verse:1,edition:"KJV1769",trail:false},"Navigates verified Scripture in selected edition and preserves search trail");
