@@ -46,7 +46,7 @@ assert(js.includes("disclosure.id=\"approvedNameSourceAttribution\""),"Separate 
 assert(!js.includes("/historical-people-places/"),"Retired unaccepted master must not load");
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.join(base,"..",brand,"index.html"),"utf8");
- assert(html.includes("approved-names-search.js?v=20261121-names1"),"Missing profiles adapter "+brand);
- assert(html.includes("universal-search.css?v=20261121-us3"),"Missing named search styles "+brand);
+ assert(html.includes("approved-names-search.js?v=20261122-names2"),"Missing profiles adapter "+brand);
+ assert(html.includes("universal-search.css?v=20261122-us4"),"Missing named search styles "+brand);
 }
 console.log("PASS: 332 review-eligible name profiles, 23 exclusions, 304 Q&A-linked, 9,303 explicit associations, anchored search in two readers");
