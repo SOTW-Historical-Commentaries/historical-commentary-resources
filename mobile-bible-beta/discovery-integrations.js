@@ -9,13 +9,31 @@ const TOPICS='https://raw.githubusercontent.com/Stewards-of-the-Way/bible-founda
 const SOURCE='https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/topics/nave-torrey/v1';
 const asText=x=>String(x??'').trim();
 const norm=x=>asText(x).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ');
+// Retrieval-only expression normalizer. It does NOT assign a Scripture
+// reference; every opened topic keeps the publisher's original mapped links.
+function topicQueryIntent(query){
+ const q=norm(query).replace(/[^a-z0-9]+/g,' ').trim();
+ const serpent=/\b(?:snake|serpent|snakes|serpents)\b/.test(q);
+ const bronze=/\b(?:bronze|brass|brazen)\b/.test(q);
+ const mounted=/\b(?:snake|serpent|snakes|serpents)\s+(?:on|upon)\s+(?:(?:a|the)\s+)?(?:stick|pole)\b/.test(q);
+ return serpent&&(bronze||mounted)?'BRAZEN SERPENT':'';
+}
 function rankTopics(rows,query,limit=8){
  const q=norm(query);
  if(q.length<2||!Array.isArray(rows))return [];
  const rank=x=>{const t=norm(x.title);
   return t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;};
- return rows.filter(x=>x&&x.id&&x.title&&Number(x.verse_link_count)>0&&rank(x)<99)
-  .sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title))
+ const valid=x=>x&&x.id&&x.title&&Number(x.verse_link_count)>0;
+ const matches=rows.filter(x=>valid(x)&&rank(x)<99);
+ const intent=topicQueryIntent(query);
+ if(intent){
+  // Exact pinned source title/ID only, and still only when the index reports
+  // mapped Scripture. No topic is fabricated from a user phrase.
+  const source=rows.find(x=>valid(x)&&x.id==='NEUU:TOPIC:brazen_serpent'&&
+   norm(x.title)===norm(intent));
+  if(source&&!matches.some(x=>x.id===source.id))matches.push(source);
+ }
+ return matches.sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title))
   .slice(0,limit);
 }
 function parseScope(scope,bookRows){
@@ -58,7 +76,7 @@ function topicSections(topic){
   return {...sourceHeading(aspect.label),references:refs};
  }).filter(section=>section.references.length);
 }
-root.SOTWDiscoveryCore={rankTopics,parseScope,verseTopicIds,sourceHeading,topicSections};
+root.SOTWDiscoveryCore={rankTopics,topicQueryIntent,parseScope,verseTopicIds,sourceHeading,topicSections};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
