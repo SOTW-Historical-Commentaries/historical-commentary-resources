@@ -1,4 +1,4 @@
-/* Browser-level Q&A search, source link, selected-edition jump and return. */
+/* Browser-level Q&A in-search citation previews, explicit Bible jump, source and return. */
 "use strict";
 const assert=require("node:assert/strict");
 const {chromium}=require("playwright-core");
@@ -23,6 +23,19 @@ const {chromium}=require("playwright-core");
    assert.equal(await hit.locator(".universal-qa-answer-label").innerText(),"PUBLISHED ANSWER","Published answer is distinguishable from Bible passage");
    assert((await hit.innerText()).includes("John 1:1–2"),"Exact source range retained");
    await hit.locator(".universal-qa-ref").click();
+   const inline=hit.locator(".universal-scripture-preview");
+   await inline.waitFor({state:"visible"});
+   await page.waitForFunction(()=>document.querySelector('[data-qa-id="utq:v91:JHN:1:1-2:jzv6"] .universal-scripture-preview p')?.textContent.includes("2 "));
+   assert((await inline.innerText()).includes("John 1:1–2"),"Cited range appears inside search");
+   const before=await page.evaluate(()=>({book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition}));
+   assert.deepEqual(before,{book:"GEN",chapter:1,verse:1,edition:"KJV1769"},"Preview must not navigate Scripture");
+   assert(await input.isVisible(),"Search remains open while reading inline verse");
+   assert.equal(await input.inputValue(),"Who was the Word with?","Query is unchanged during preview");
+   await inline.getByRole("button",{name:"Close Scripture preview"}).click();
+   assert.equal(await hit.locator(".universal-scripture-preview").count(),0,"Close dismisses only the preview");
+   assert(await input.isVisible(),"Closing preview keeps search/results in place");
+   await hit.locator(".universal-qa-ref").click();
+   await hit.locator(".universal-scripture-preview").getByRole("button",{name:"Open in Bible"}).click();
    await page.waitForFunction(()=>state.book==="JHN"&&state.chapter===1&&state.verse===1&&
      !document.getElementById("sotwTrail")?.hidden);
    await page.locator('#verses .reader-verse[data-verse="1"]').waitFor({state:"visible"});
@@ -38,6 +51,13 @@ const {chromium}=require("playwright-core");
    // only the top answer group. Preserve this user-controlled expansion.
    if(!await snake.count())await page.locator(".universal-qa-section > .universal-qa-show-more").click();
    await snake.waitFor({state:"visible"});
+   await snake.locator(".universal-qa-ref").click();
+   const bronzePreview=snake.locator(".universal-scripture-preview");
+   await bronzePreview.waitFor({state:"visible"});
+   await page.waitForFunction(()=>document.querySelector('[data-qa-id="utq:v91:2KI:18:4:ndxy"] .universal-scripture-preview p')?.textContent.includes("4 "));
+   assert(await input.isVisible(),"Bronze-serpent citation opens inline without leaving search");
+   await bronzePreview.getByRole("button",{name:"Close Scripture preview"}).click();
+   assert(await snake.isVisible(),"Expanded search result remains after closing preview");
    await snake.locator(".universal-qa-source").click();
    await page.locator("#universalSearchAttribution").waitFor({state:"visible"});
    assert.equal(await page.locator("#readerSourcesHeading").innerText(),"Sources & Attribution","Hamburger has dedicated attribution section");
