@@ -81,7 +81,8 @@ function sync(){
  const ordered=order(described,query);
  // Source modules may finish in any network order. One stable sort avoids
  // Q&A prepend, historical append and names prepend racing each other.
- ordered.forEach(({el},i)=>{if(searchResults.children[i]!==el)searchResults.insertBefore(el,searchResults.children[i]||null)});
+ const offset=searchResults.querySelector(":scope > .sotw-search-scripture")?1:0;
+ ordered.forEach(({el},i)=>{const position=i+offset;if(searchResults.children[position]!==el)searchResults.insertBefore(el,searchResults.children[position]||null)});
  const exactProfile=described.some(({el,type,caption})=>type==="name"&&exactName(query,caption));
  const chapter=described.some(({type})=>type==="scripture");
  const bookExact=described.some(({type,caption})=>type==="book"&&normalize(caption)===normalize(query));
