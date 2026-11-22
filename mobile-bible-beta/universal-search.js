@@ -30,6 +30,14 @@ function score(row,queryTerms,phrase){
  else if(phrase.length>=4&&a.includes(phrase))total+=10;
  total+=matched*3;
  if(queryTerms.length>1&&matched===queryTerms.length)total+=14;
+ // Phrase intent matters: a snake placed ON a stick or pole is a
+ // different search from a STAFF BECOMING a snake. Promote the already
+ // published "bronze serpent Moses had made" question when its wording
+ // explicitly supports the event, without creating an inferred verse link.
+ // The original Q&A citation (2KI 18:4) remains the only destination.
+ const raisedSerpentIntent=/\\b(?:snake|serpent)\\s+(?:on|upon)\\s+(?:(?:a|the)\\s+)?(?:stick|pole)\\b/.test(phrase);
+ if(raisedSerpentIntent&&/\\bbronze serpent\\b/.test(q+" "+a)&&
+    /\\bmoses\\b/.test(q+" "+a))total+=28;
  return Math.round(total*100)/100;
 }
 function rank(records,query,limit=20){
