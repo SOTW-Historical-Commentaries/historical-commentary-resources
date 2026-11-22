@@ -19,14 +19,14 @@ const {chromium}=require('playwright-core');
   // Ordinary Jacob queries are compact: the full catalog remains in the
   // published source but does not bury the search field and Bible results.
   await input.fill('Lannom');
-  await page.waitForFunction(()=>document.querySelector('.jacob-search-section')?.textContent.includes('(16)'));
+  await page.waitForFunction(()=>document.querySelector('.jacob-search-section')?.textContent.includes('(20)'));
   const group=page.locator('details.jacob-search-results');
   assert.equal(await group.getAttribute('open'),null,'Lannom stays collapsed');
-  assert.equal(await page.locator('.jacob-search-hit').count(),16,'All 16 preserved in collapsible list');
+  assert.equal(await page.locator('.jacob-search-hit').count(),20,'All published entries preserved in collapsible list');
   assert.equal(await page.locator('.jacob-search-hit:visible').count(),0);
   // Explicit author All is the intentional expand-everything command.
   await input.fill('Lannom all');
-  await page.waitForFunction(()=>document.querySelector('.jacob-search-results[open]')?.querySelectorAll('.jacob-search-hit').length===16);
+  await page.waitForFunction(()=>document.querySelector('.jacob-search-results[open]')?.querySelectorAll('.jacob-search-hit').length===20);
   // Simulate the reduced visual area while an iOS software keyboard is open.
   await page.setViewportSize({width:390,height:430});
   await page.waitForTimeout(120);
