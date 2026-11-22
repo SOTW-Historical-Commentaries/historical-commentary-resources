@@ -1227,21 +1227,39 @@ function modernSearchRender(){
  }
  if(q.length>1){
   const verses=(state.bible?.verses||[]).filter(v=>displayVerseText(v).toLowerCase().includes(q)).slice(0,8);
-  for(const v of verses){
-   const button=document.createElement('button');button.className='search-hit';button.type='button';
-   const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
-   const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
-   button.append(label,desc);button.addEventListener('click',()=>{
-    const trail=SOTWReaderTrail.capture('search');
-    searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
-    SOTWReaderTrail.commit(trail);
+  if(verses.length){
+   const section=document.createElement('section');section.className='reader-current-chapter-search';
+   const heading=document.createElement('h4');heading.className='universal-qa-heading';
+   heading.textContent='Current chapter · '+bookInfo().name+' '+state.chapter+' ('+state.edition+')';
+   section.append(heading);
+   const list=document.createElement('div');list.className='reader-chapter-results';section.append(list);
+   verses.forEach((v,i)=>{
+    const button=document.createElement('button');button.className='search-hit';button.type='button';
+    if(i>=2)button.hidden=true;
+    const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
+    const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
+    button.append(label,desc);button.addEventListener('click',()=>{
+     const trail=SOTWReaderTrail.capture('search');
+     searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
+     SOTWReaderTrail.commit(trail);
+    });
+    list.append(button);
    });
-   searchResults.append(button);
+   if(verses.length>2){
+    const more=document.createElement('button');more.type='button';more.className='universal-qa-show-more';
+    more.textContent='Show '+(verses.length-2)+' more hits in this chapter';
+    more.addEventListener('click',()=>{list.querySelectorAll('button[hidden]').forEach(x=>x.hidden=false);more.remove()});
+    section.append(more);
+   }
+   searchResults.append(section);
   }
  }
 }
+searchInput.setAttribute('enterkeyhint','done');
 searchInput.addEventListener('input',modernSearchRender);
-searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&searchResults.firstElementChild)searchResults.firstElementChild.click()});
+// The iPhone Done key should reveal results, not open an arbitrary first hit.
+searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();searchInput.blur();searchResults.scrollTop=0;positionSearchViewport()}});
+
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){for(const x of [navModal.veil,editionModal.veil,searchModal.veil,moreModal.veil])x.classList.remove('is-open')}});
 if(betaSaved.theme==='light')document.body.classList.add('beta-light');
 modernUpdateHeader();
