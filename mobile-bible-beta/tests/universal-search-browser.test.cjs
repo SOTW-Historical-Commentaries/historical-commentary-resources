@@ -41,7 +41,13 @@ const {chromium}=require("playwright-core");
    assert(await page.locator("#universalSearchAttribution").getAttribute("open")!==null,"Source ↗ expands matching source notice");
    assert(await page.locator("#universalSearchAttribution").innerText().then(s=>s.includes("CC BY-SA 4.0")),"Full license and provenance in hamburger source section");
    assert.equal(await page.locator("#readerMoreModal .reader-citation-identity img").count(),1,"Owned reader mark appears on citation screen");
-   await page.waitForFunction(()=>{const img=document.querySelector("#readerMoreModal .reader-citation-identity img");return img?.complete&&img.naturalWidth>0;},"Citation image should finish loading");
+   try{
+    await page.waitForFunction(()=>{const img=document.querySelector("#readerMoreModal .reader-citation-identity img");return img?.complete&&img.naturalWidth>0;},null,{timeout:8000});
+   }catch(error){
+    const info=await page.locator("#readerMoreModal .reader-citation-identity img").evaluate(img=>({src:img.src,complete:img.complete,naturalWidth:img.naturalWidth}));
+    const response=await page.request.get(info.src);
+    throw new Error("Citation mark failed: "+JSON.stringify({...info,status:response.status(),type:response.headers()["content-type"]}));
+   }
    assert(await page.locator("#readerMoreModal .reader-citation-identity img").evaluate(img=>img.naturalWidth>0),"Citation-screen reader image loads");
    await page.locator("#readerMoreModal .modal-close").click();
    await page.locator("#modernMoreButton").click();
