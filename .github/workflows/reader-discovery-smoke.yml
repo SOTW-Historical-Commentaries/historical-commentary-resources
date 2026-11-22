@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - "mobile-bible-beta/index.html"
+      - "mobile-bible-beta/search-coordinator.js"
       - "mobile-bible-beta/universal-search.js"
       - "mobile-bible-beta/approved-names-search.js"
       - "mobile-bible-beta/tests/approved-names.test.cjs"
@@ -62,6 +63,8 @@ jobs:
       - name: JavaScript syntax gates
         run: |
           node --check mobile-bible-beta/discovery-integrations.js
+          node --check mobile-bible-beta/tests/search-passage-browser.test.cjs
+          node --check mobile-bible-beta/search-coordinator.js
           node --check mobile-bible-beta/universal-search.js
           node --check mobile-bible-beta/approved-names-search.js
           node --check mobile-bible-beta/tests/approved-names.test.cjs

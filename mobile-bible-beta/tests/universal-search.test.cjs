@@ -88,7 +88,54 @@ assert.deepEqual(types([
 assert(coord.weight("jacob","Jacob Romans 12","")>coord.weight("topic","Jacob Romans 12","Romans"));
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("search-coordinator.js?v=20261122-search1"),"Both branded readers load the coordinator");
+ assert(html.includes("search-coordinator.js?v=20261122-search2"),"Both branded readers load the coordinator");
+}
+
+// A passage group is only created when DIFFERENT independently attributed
+// source types explicitly cite the same canonical book.chapter.verse.
+const books=[{code:"2KI",name:"2 Kings",chapterCount:25},
+ {code:"GEN",name:"Genesis",chapterCount:50},
+ {code:"ROM",name:"Romans",chapterCount:16},
+ {code:"1CO",name:"1 Corinthians",chapterCount:16}];
+const valid=(type,id,book,chapter,verse,relationship)=>({
+ type,id,relationship:relationship||coord.RELATIONS[type],
+ targets:[{book,chapter,verse}]
+});
+const passageCandidates=[
+ valid("question","utq:v91:2KI:18:4:ndxy","2KI",18,4),
+ valid("topic","NEUU:TOPIC:brazen-serpent","2KI",18,4),
+ valid("topic","NEUU:TOPIC:brazen-serpent","2KI",18,4), // same record cannot inflate coverage
+ valid("jacob","ROM.12.17","ROM",12,17),
+ valid("name","utw:v91:names:noah","GEN",6,8),
+ valid("question","utq:v91:GEN:6:8:fictional-fixture","GEN",6,8)
+];
+const grouped=coord.groupEvidence(passageCandidates,books);
+assert.equal(grouped.length,2,"Only explicitly overlapping citations make a group");
+const bronzeGroup=grouped.find(g=>g.key==="2KI.18.4");
+assert(bronzeGroup&&bronzeGroup.sources.length===2&&bronzeGroup.members.length===2,
+ "The same historical source ID must not count twice");
+const noahGroup=grouped.find(g=>g.key==="GEN.6.8");
+assert(noahGroup&&noahGroup.sources.includes("name")&&noahGroup.sources.includes("question"));
+assert(!grouped.some(g=>g.key==="ROM.12.17"),"An isolated accepted Jacob scope cannot claim other sources");
+assert.equal(coord.canonicalTarget({book:"2KI",chapter:18,verse:4},books).key,"2KI.18.4");
+assert.equal(coord.canonicalTarget({book:"2KI",chapter:27,verse:4},books),null);
+assert.equal(coord.canonicalTarget({book:"2KI",chapter:18,verse:0},books),null);
+assert.equal(coord.groupEvidence([
+ valid("topic","unmapped","2KI",18,4,"TITLE_ONLY"),
+ valid("question","verified","2KI",18,4)
+],books).length,0,"A topic name alone is not mapped Scripture evidence");
+assert.equal(coord.groupEvidence([
+ valid("name","publisher-qa-association","2KI",18,4,"QUESTION_MENTION_ONLY"),
+ valid("question","verified","2KI",18,4)
+],books).length,0,"A publisher name mention is not an independent article citation");
+assert.equal(coord.groupEvidence([
+ valid("question","a","1CO",16,10),
+ valid("topic","b","1CO",16,11)
+],books).length,0,"Overlapping chapter but different exact verse must not be joined");
+for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
+ const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
+ assert(html.includes("search-coordinator.js?v=20261122-search2"),
+ "Both independent brands load the exact same passage evidence code");
 }
 
 console.log("PASS: 12,139 unique source-unaltered Q&A; valid passage IDs; natural/fuzzy ranking; two-brand wiring");

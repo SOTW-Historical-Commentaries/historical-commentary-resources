@@ -202,6 +202,11 @@ function render(rows){
  const entered=normalize(searchInput.value).replace(/^(who|what) (is|was|were) /,"");
  for(const [entry,a] of rows){
   const card=el("article","universal-qa-card universal-name-card");card.dataset.nameId=entry[0];
+  if(a?.source){
+   const explicit=a.refs.filter(ref=>!ref.fromAssociation&&validTarget(ref.scriptureTarget));
+   if(explicit.length)card.dataset.searchEvidence=JSON.stringify([{type:"name",id:entry[0],
+    relationship:"PUBLISHED_ARTICLE_CITATION",targets:explicit.map(ref=>ref.scriptureTarget)}]);
+  }
   const top=el("div","universal-qa-top");top.append(el("span","","Approved name article · unfoldingWord"));
   const source=el("button","universal-qa-source","Source ↗");source.type="button";
   source.addEventListener("click",sourceMenu);top.append(source);card.append(top);

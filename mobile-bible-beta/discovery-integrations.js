@@ -212,7 +212,31 @@ async function appendTopicSearch(query,current){
   pending.hidden=true;
   if(!topics.length)return;
   searchResults.append(el('h4','discovery-search-label','Historical Bible Topics · Nave/Torrey'));
-  topics.forEach(t=>button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit'));
+  for(const t of topics){
+   const hit=button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit');
+   // Fetch existing source shard, never guess Scripture links from a title.
+   // Mapped citations are associations in a historical index, not doctrine.
+   sourceJson(TOPICS+t.shard).then(shard=>{
+    if(current!==seq||!hit.isConnected||
+       norm(searchInput.value)!==norm(query)||!searchModal.veil.classList.contains('is-open'))return;
+    const row=shard?.topics?.find(x=>x.id===t.id);
+    if(shard?.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)return;
+    const targets=[];
+    for(const section of topicSections(row)){
+     for(const ref of section.references){
+      for(const scope of ref.scopes||[]){
+       const p=parseScope(scope,BOOKS);
+       if(p?.hasVerse)targets.push({book:p.book.code,chapter:p.chapter,verse:p.verse});
+      }
+     }
+    }
+    if(!targets.length)return;
+    // The complete source article remains available in the topic detail.
+    hit.dataset.searchEvidence=JSON.stringify([{type:'topic',id:t.id,
+     relationship:'MAPPED_HISTORICAL_INDEX_REFERENCE',targets}]);
+    root.SOTWSearchCoordinator?.refresh();
+   }).catch(()=>{});
+  }
  }catch{
   if(current===seq&&searchModal.veil.classList.contains('is-open')){
    pending.hidden=true;
