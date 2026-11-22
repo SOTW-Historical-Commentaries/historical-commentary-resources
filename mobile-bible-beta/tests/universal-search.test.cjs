@@ -43,8 +43,8 @@ assert.equal(core.rank([noReference],"Moses",10).length,0); // unsupported citat
 assert.equal(core.rank(rows,"and the of",10).length,0);
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("universal-search.js?v=20261121-us3"));
- assert(html.includes("universal-search.css?v=20261121-us3"));
+ assert(html.includes("universal-search.js?v=20261122-us4"));
+ assert(html.includes("universal-search.css?v=20261122-us4"));
  assert(html.includes("id='readerSourcesAttribution'"),"Sources & Attribution section must be mounted in hamburger");
 }
 const script=fs.readFileSync(path.join(root,"universal-search.js"),"utf8");
