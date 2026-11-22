@@ -1,5 +1,12 @@
 # SOTW BIBLE READER — PROGRESS LEDGER
 
+## 2026-11-22 | UNIVERSAL SEARCH THREE-GATE MILESTONE STARTED — PARTIAL IMPLEMENTATION
+
+**Owner-approved direction:** evaluate (1) established Scripture/Nave-Torrey search and reader navigation, (2) published unfoldingWord Q&A source integrity, and (3) natural-language relevance/presentation independently. Nave/Torrey are established, already verse-integrated resources, not an unproven collection. The newer Q&A retrieval must not determine whether the entire search foundation passes. Do not use the separate unready SOTW historical people/place master.
+
+**Initial targeted change:** commit `f067bebbe268e3f8763b025eb1ccb47e93f20bba` in `mobile-bible-beta/universal-search.js` restores the Q&A citation button's enabled state after successful navigation, so a returned search result can be reopened; shows the top-ranked Q&A answer group initially, with remaining answer groups behind a user-initiated expand control. Published records, citation data, Nave/Torrey, Jacob commentary and other source collections unchanged. **Status: source committed; not yet verified in live browser or on iPhone.** This does NOT implement an in-search Scripture preview, relevance benchmark, Bible-wide semantic search, or full release QA. Search ranking remains lexical and requires benchmark evaluation; preserve existing reader navigation and recoverable baseline. Coordinate with concurrent reader changes before further code edits.
+
+
 ## 2026-11-22 | IPHONE SEARCH CLARITY / NOAH REPORT REPAIRED
 
 **Release:** PR #20 https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/20 merged to `main` at `baf3ee70ac08bebc2aa46abdce94ebe44f47d7e2`. Recovery branch `safety/pre-search-clarity-20261122-64609b7c` pins pre-change `64609b7c249fc90a9ec42867fccc90ab3deb26eb`. These changes affect only the two SOTW reader brands, their shared runtime/CSS/tests and caches; canonical Scripture, approved en_tw names overlay (332 eligible, 23 excluded), 12,139 Q&A source records, Jacob commentary, historical people/place master and CGBC media player remain untouched.
