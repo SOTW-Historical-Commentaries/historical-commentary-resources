@@ -19,6 +19,8 @@ const {chromium}=require("playwright-core");
    const hit=page.locator('.universal-qa-card[data-qa-id="utq:v91:JHN:1:1-2:jzv6"]');
    await hit.waitFor({state:"visible"});
    assert((await hit.innerText()).includes("The Word was with God."),"Unaltered answer visible");
+   assert.equal(await hit.locator(".universal-qa-question").count(),1,"Question is a label, not a misleading Scripture hyperlink");
+   assert.equal(await hit.locator(".universal-qa-answer-label").innerText(),"PUBLISHED ANSWER","Published answer is distinguishable from Bible passage");
    assert((await hit.innerText()).includes("John 1:1–2"),"Exact source range retained");
    await hit.locator(".universal-qa-ref").click();
    await page.waitForFunction(()=>state.book==="JHN"&&state.chapter===1&&state.verse===1&&
@@ -38,6 +40,8 @@ const {chromium}=require("playwright-core");
    assert.equal(await page.locator("#readerSourcesAttribution #universalSearchAttribution").count(),1,"Question source appears once inside Sources & Attribution");
    assert(await page.locator("#universalSearchAttribution").getAttribute("open")!==null,"Source ↗ expands matching source notice");
    assert(await page.locator("#universalSearchAttribution").innerText().then(s=>s.includes("CC BY-SA 4.0")),"Full license and provenance in hamburger source section");
+   assert.equal(await page.locator("#readerMoreModal .reader-citation-identity img").count(),1,"Owned reader mark appears on citation screen");
+   assert(await page.locator("#readerMoreModal .reader-citation-identity img").evaluate(img=>img.complete&&img.naturalWidth>0),"Citation-screen reader image loads");
    await page.locator("#readerMoreModal .modal-close").click();
    await page.locator("#modernMoreButton").click();
    assert(await page.locator("#readerSourcesAttribution #universalSearchAttribution").count()===1,"Source notice is accessible directly through hamburger, without any search");
