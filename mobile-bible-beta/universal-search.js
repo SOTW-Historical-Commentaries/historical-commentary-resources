@@ -40,7 +40,30 @@ function rank(records,query,limit=20){
  scored.sort((a,b)=>b.score-a.score||String(a.row[0]).localeCompare(String(b.row[0])));
  return scored.slice(0,limit);
 }
-root.SOTWUniversalSearchCore={normalize,words,near,score,rank};
+
+/* Source-backed verse-to-question lookup: no new sources or inferred links. */
+function verseQuestions(reverse,records,book,chapter,verse){
+ if(reverse?.schema!=="sotw-qa-verse-index/1.0.0"||reverse.book!==book||
+    !reverse.verses||typeof reverse.verses!=="object"||Array.isArray(reverse.verses))
+   throw Error("Unverified Bible Questions reverse index");
+ const ids=reverse.verses[chapter+"."+verse]||[];
+ if(!Array.isArray(ids))throw Error("Invalid verse-to-question IDs");
+ if(!ids.length)return [];
+ const lookup=new Map(records.map(r=>[r[0],r])),seen=new Set(),found=[];
+ for(const id of ids){
+  if(typeof id!=="string"||!id.startsWith("utq:v91:"+book+":"))throw Error("Invalid question ID");
+  if(seen.has(id))continue;
+  seen.add(id);
+  const row=lookup.get(id);
+  if(!row||!Array.isArray(row[3])||!row[3].some(t=>Array.isArray(t)&&
+     t[0]===book&&t[1]===chapter&&t[2]<=verse&&
+     (Number.isInteger(t[3])&&t[3]>=t[2]?t[3]:t[2])>=verse))
+    throw Error("Verse-to-question citation mismatch");
+  found.push(row);
+ }
+ return found;
+}
+root.SOTWUniversalSearchCore={normalize,words,near,score,rank,verseQuestions};
 if(typeof document==="undefined"||typeof searchInput==="undefined"||typeof searchResults==="undefined"||typeof state==="undefined")return;
 const base=new URL(".",document.currentScript?.src||location.href);
 const path=new URL("./data/universal-search/v1/",base);
@@ -256,6 +279,67 @@ searchInput.addEventListener("input",()=>{
 });
 searchNote.textContent="Find a Bible passage, approved person/place profile, Bible Question, Topic, or Jacob commentary. Scripture-word search currently covers this chapter.";
 searchInput.placeholder="John 3:16, Abraham, Moses snake on stick, or Topics";
+
+/* Optional source-linked questions while studying a verse. Scripture stays primary. */
+const qaVerseSection=textNode("section","discovery-study","");
+qaVerseSection.id="sotwVerseQuestions";
+const qaVerseButton=textNode("button","discovery-launch","");
+qaVerseButton.type="button";
+qaVerseButton.replaceChildren(textNode("span","discovery-launch-label","Bible Questions"),
+ textNode("small","discovery-launch-meta","For this Scripture verse ›"));
+qaVerseSection.append(qaVerseButton);
+const qaVerseBody=textNode("div","discovery-verse-body","");
+qaVerseBody.hidden=true;qaVerseSection.append(qaVerseBody);
+modernCommentaryMenu.before(qaVerseSection);
+const verseSource="https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/"+
+ "b4a7702a8bb1f7410514b7f44663c49ecfd25d33/data/unfoldingword/v91/qa/by-verse/";
+let qaVerseGeneration=0;
+const validStudy=(n,book,chapter,verse,edition)=>n===qaVerseGeneration&&
+ document.body.classList.contains("study-open")&&state.book===book&&
+ state.chapter===chapter&&modernStudyVerse===verse&&state.edition===edition&&qaVerseBody.isConnected;
+qaVerseButton.addEventListener("click",async()=>{
+ if(!qaVerseBody.hidden){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();return}
+ const book=state.book,chapter=state.chapter,verse=modernStudyVerse,edition=state.edition,n=++qaVerseGeneration;
+ if(!Number.isInteger(verse)||verse<1||!BOOKS.some(x=>x.code===book&&chapter>=1&&chapter<=x.chapterCount))return;
+ qaVerseBody.hidden=false;qaVerseBody.replaceChildren(textNode("p","discovery-note","Loading questions indexed to this verse…"));
+ try{
+  const [reverse,records]=await Promise.all([json(verseSource+book+".json"),index()]);
+  if(!validStudy(n,book,chapter,verse,edition))return;
+  if(state.bible?.book_code!==book||Number(state.bible.chapter)!==chapter||
+   state.bible.edition_id!==edition||!state.bible.verses?.some(v=>Number(v.verse)===verse))
+   throw Error("Selected edition verse not verified");
+  const rows=verseQuestions(reverse,records,book,chapter,verse);
+  qaVerseBody.replaceChildren();
+  if(!rows.length){qaVerseBody.append(textNode("p","discovery-note","No published Bible Questions are indexed to this exact verse."));return}
+  qaVerseBody.append(textNode("h3","discovery-heading","Bible Questions for "+bookOf(book).name+" "+chapter+":"+verse));
+  qaVerseBody.append(textNode("p","discovery-note","Publisher questions and answers from unfoldingWord v91. Not independently fact-checked."));
+  const cards=textNode("div","universal-qa-results","");qaVerseBody.append(cards);
+  const addRow=row=>{
+   const card=textNode("article","universal-qa-card","");card.dataset.qaId=row[0];
+   const top=textNode("div","universal-qa-top","");
+   top.append(textNode("span","","Bible Questions · publisher Q&A"));
+   const source=textNode("button","universal-qa-source","Source ↗");
+   source.type="button";source.addEventListener("click",openSource);top.append(source);card.append(top);
+   card.append(textNode("h5","universal-qa-question",row[1]));
+   card.append(textNode("span","universal-qa-answer-label","Published answer"));
+   card.append(textNode("p","universal-qa-answer",row[2]));
+   const citation=textNode("button","search-hit universal-qa-ref",
+    "Open cited Scripture: "+row[3].map(reference).filter(Boolean).join(" · ")+" · "+edition);
+   citation.type="button";citation.addEventListener("click",()=>navigate(row,citation));
+   card.append(citation);cards.append(card);
+  };
+  rows.slice(0,3).forEach(addRow);
+  if(rows.length>3){
+   const more=textNode("button","universal-qa-show-more","Show "+(rows.length-3)+" more published questions");
+   more.type="button";more.addEventListener("click",()=>{rows.slice(3).forEach(addRow);more.remove()});
+   qaVerseBody.append(more);
+  }
+ }catch(_){if(validStudy(n,book,chapter,verse,edition))qaVerseBody.replaceChildren(
+   textNode("p","discovery-error","Verse-linked questions could not be verified. Scripture and other tools are unaffected."))}
+});
+const priorQAOpen=betaOpen,priorQAClose=betaCloseSheet;
+betaOpen=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();return priorQAOpen(...args)};
+betaCloseSheet=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();return priorQAClose(...args)};
 root.SOTWUniversalSearch={
  reload:()=>{rows=null;loading=null},
  sourceStatus:"SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED",

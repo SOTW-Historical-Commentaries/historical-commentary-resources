@@ -14,7 +14,7 @@ function rankTopics(rows,query,limit=8){
  if(q.length<2||!Array.isArray(rows))return [];
  const rank=x=>{const t=norm(x.title);
   return t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;};
- return rows.filter(x=>x&&x.id&&x.title&&rank(x)<99)
+ return rows.filter(x=>x&&x.id&&x.title&&Number(x.verse_link_count)>0&&rank(x)<99)
   .sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title))
   .slice(0,limit);
 }
