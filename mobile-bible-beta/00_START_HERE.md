@@ -16,6 +16,16 @@
 
 
 
+
+## 2026-11-22 | MAC DESKTOP TWO-COLUMN STUDY DESIGN REPAIR MERGED
+
+PR #21 https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/21 merged to main as `21cbdb61dc05672ee4a745db033222c461ca4576` after owner screenshot of BSB Genesis 3:19 revealed a tiny compressed header, undersized reading typography and an oversized, mostly empty right-hand study rectangle. Two-column CSS working is not equivalent to satisfactory visual design.
+
+`mobile-bible-beta/desktop-workspace.css` now supplies one **desktop fine-pointer 1100px+ only** final layer for both CGBC and SOTW readers. Header branding/search live above a distinct passage/edition row. Scripture is readable at 20px; focused verse at 18px. The balanced study panel fits its contents, only scrolls when needed and still supports nested Word-by-Word, dictionary and commentary overlays. Mobile phone/tablet/coarse-pointer layouts are not changed. Distinct PWA caches CGBC v0196 / SOTW v0014.
+
+QA source/integrity PASS run 45036944125; complete browser PASS run 45037047513 with actual desktop geometry assertions at 1280/1512 in both brands and 390px mobile layout regression. Safety baseline `safety/pre-desktop-workspace-20261122-0446b9fa` at `0446b9fa0a3616bba1427c3442bf0a4fc513ae2c`. Prior concurrent search work from main preserved; one old browser assertion changed to open the newly collapsed Q&A group before locating the citation. No canonical source record changed. GitHub Pages workflow and owner Mac Safari acceptance are separate and must not be claimed without checks.
+
+
 ## 2026-11-22 | IPHONE NOAH SEARCH AND RESULT CLARITY RELEASE
 
 **Latest owner iPhone screenshots supersede the prior search presentation assessment.** PR #20 merged to main as `baf3ee70ac08bebc2aa46abdce94ebe44f47d7e2`. Searching `Noah` now promotes the approved profile ahead of incidental Genesis chapter hits; `Oah` and `Noh` yield the approved Noah suggestion without exposing the 23 excluded name articles. Publisher Q&A questions are no longer misleading verse links: the unchanged answer is visibly labeled, verse navigation is distinct and selected-edition-aware, and identical answers are grouped without discarding source question variants. Current-chapter hits are limited initially, with an expand control; iPhone Enter/Done reveals results. Historical topic fragments such as `1.` or `Intoxi` remain original source text but appear under honest neutral headings. A multi-verse indexed citation now states the exact first Scripture verse it will open, retaining the full original reference.
