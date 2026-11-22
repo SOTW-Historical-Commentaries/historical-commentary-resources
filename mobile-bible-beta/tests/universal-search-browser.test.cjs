@@ -33,6 +33,10 @@ const {chromium}=require("playwright-core");
    await hit.waitFor({state:"visible"});
    await input.fill("Moses snake on stick");
    const snake=page.locator('.universal-qa-card[data-qa-id="utq:v91:2KI:18:4:ndxy"]');
+   await page.locator(".universal-qa-section").waitFor({state:"visible"});
+   // The concurrent Universal Search three-gate milestone initially reveals
+   // only the top answer group. Preserve this user-controlled expansion.
+   if(!await snake.count())await page.locator(".universal-qa-section .universal-qa-show-more").click();
    await snake.waitFor({state:"visible"});
    await snake.locator(".universal-qa-source").click();
    await page.locator("#universalSearchAttribution").waitFor({state:"visible"});
