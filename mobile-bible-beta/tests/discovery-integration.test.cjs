@@ -24,27 +24,76 @@ assert.deepEqual(Array.from(core.rankTopics(topics,'Aaron',3),x=>x.id),['t2','t1
 assert.equal(core.rankTopics(topics,'a').length,0);
 assert.equal(core.rankTopics([{id:'orphan',title:'ABARIM',verse_link_count:0}],'ABARIM').length,0,'Unmapped topic must not be navigable');
 
-const historicalSerpent={id:'NEUU:TOPIC:brazen_serpent',title:'BRAZEN SERPENT',
- shard:'topics/B.json',verse_link_count:3};
-const historicalExamples=[historicalSerpent,
- {id:'NEUU:TOPIC:moses',title:'MOSES',verse_link_count:77},
- {id:'NEUU:TOPIC:serpent',title:'SERPENT',verse_link_count:49},
- {id:'NEUU:TOPIC:brazen_sea',title:'BRAZEN SEA',verse_link_count:0}];
-for(const query of ['Moses snake on stick','Moses snake on a pole',
- 'snake on pole','bronze snake','bronze serpent','brass serpent','brazen serpent']){
- assert.deepEqual(Array.from(core.rankTopics(historicalExamples,query),x=>x.id),
-  ['NEUU:TOPIC:brazen_serpent'],query+' must find only the existing mapped source topic');
+// Generic cross-source retrieval: the bridge applies to EVERY source-backed
+// question and topic. These small records are synthetic test fixtures, not
+// new historical index entries or asserted Bible references.
+const qContext={};qContext.globalThis=qContext;
+vm.createContext(qContext);
+vm.runInContext(fs.readFileSync(path.join(root,'universal-search.js'),'utf8'),qContext);
+const lexical=qContext.SOTWUniversalSearchCore;
+assert(lexical&&typeof lexical.tokenMatch==='function');
+assert(lexical.tokenMatch('brazen',new Set(['bronze']))>.7,
+ 'Original lexical synonyms are usable in either source direction');
+const topicFixture=[
+ {id:'NEUU:TOPIC:brazen_serpent',title:'BRAZEN SERPENT',
+  shard:'topics/B.json',verse_link_count:3},
+ {id:'FIXTURE:noah',title:'NOAH',shard:'topics/N.json',verse_link_count:4},
+ {id:'FIXTURE:timothy',title:'TIMOTHY',shard:'topics/T.json',verse_link_count:4},
+ {id:'FIXTURE:faith',title:'FAITH',shard:'topics/F.json',verse_link_count:4},
+ {id:'FIXTURE:unrelated',title:'INCENSE OFFERINGS',shard:'topics/I.json',verse_link_count:4}
+];
+const qaFixture=[
+ {row:['utq:v91:2KI:18:4:ndxy',
+  'What were the people doing to the bronze serpent Moses had made?',
+  'The people were burning incense to the bronze serpent.',[['2KI',18,4,0]]],score:49},
+ {row:['utq:v91:GEN:6:9:test',
+  'What kind of person was Noah?','Noah was righteous.',[['GEN',6,9,0]]],score:40},
+ {row:['utq:v91:1CO:16:10:test',
+  'What did Paul say about Timothy?','Timothy was working.',[['1CO',16,10,11]]],score:39},
+ {row:['utq:v91:JAS:2:17:test',
+  'What is faith by itself?','Faith without works is dead.',[['JAS',2,17,0]]],score:38}
+];
+const sources={
+ '2KI':{schema:'sotw-topics-scripture-index/1.0.0',book_code:'2KI',
+  verses:{'2KI.18.4':['NEUU:TOPIC:brazen_serpent','FIXTURE:unrelated']}},
+ 'GEN':{schema:'sotw-topics-scripture-index/1.0.0',book_code:'GEN',
+  verses:{'GEN.6.9':['FIXTURE:noah']}},
+ '1CO':{schema:'sotw-topics-scripture-index/1.0.0',book_code:'1CO',
+  verses:{'1CO.16.10':['FIXTURE:timothy']}},
+ 'JAS':{schema:'sotw-topics-scripture-index/1.0.0',book_code:'JAS',
+  verses:{'JAS.2.17':['FIXTURE:faith']}}
+};
+for(const [row,book,expected] of [
+ [qaFixture[0],'2KI','NEUU:TOPIC:brazen_serpent'],
+ [qaFixture[1],'GEN','FIXTURE:noah'],
+ [qaFixture[2],'1CO','FIXTURE:timothy'],
+ [qaFixture[3],'JAS','FIXTURE:faith']
+]){
+ const linked=Array.from(core.evidenceLinkedTopics(topicFixture,[row],
+  {[book]:sources[book]},lexical),t=>t.id);
+ assert.deepEqual(linked,[expected],book+' finds only a topic named in Q&A and citing the same verse');
 }
-for(const query of ['Moses staff became a snake','Moses snake on ground',
- 'bronze basin','Noah','Moses']){
- assert(!core.rankTopics(historicalExamples,query).some(x=>x.id==='NEUU:TOPIC:brazen_serpent'),
-  query+' cannot imply the historical topic');
-}
-assert.deepEqual(Array.from(core.rankTopics([{...historicalSerpent,verse_link_count:0}],
- 'Moses snake on stick'),x=>x.id),[],'Unmapped historical topic cannot appear');
-assert.deepEqual(Array.from(core.rankTopics([{...historicalSerpent,id:'unverified-title-only'}],
- 'Moses snake on stick'),x=>x.id),[],'Topic ID/source identity is required');
-assert.equal(core.topicQueryIntent('snake on the pole'),'BRAZEN SERPENT');
+assert.deepEqual(Array.from(core.evidenceLinkedTopics(topicFixture,[qaFixture[0]],
+ {2KI:{...sources['2KI'],book_code:'GEN'}},lexical),t=>t.id),[],
+ 'Unverified reverse-index identity does not produce topic hits');
+assert.deepEqual(Array.from(core.evidenceLinkedTopics(topicFixture,[qaFixture[0]],
+ {2KI:{...sources['2KI'],verses:{'2KI.18.5':['NEUU:TOPIC:brazen_serpent']}}},lexical),t=>t.id),[],
+ 'A same-chapter different-verse historical topic is not linked');
+assert.deepEqual(Array.from(core.evidenceLinkedTopics([
+ {...topicFixture[0],verse_link_count:0}],[qaFixture[0]],sources,lexical),t=>t.id),[],
+ 'A topic without verified mapped verses cannot be retrieved');
+assert.deepEqual(Array.from(core.evidenceLinkedTopics(topicFixture,
+ [{row:[...qaFixture[0].row.slice(0,3),[]],score:49}],sources,lexical),t=>t.id),[],
+ 'Question text without an original Scripture citation cannot create a link');
+assert.equal(core.rankTopics(topicFixture,'Moses snake on stick').length,0,
+ 'No hardcoded biblical event in literal topic matching');
+assert.deepEqual(Array.from(core.rankTopics(topicFixture,'Moses snake on stick',8,
+ core.evidenceLinkedTopics(topicFixture,[qaFixture[0]],sources,lexical)),t=>t.id),
+ ['NEUU:TOPIC:brazen_serpent']);
+assert.deepEqual(Array.from(core.rankTopics(topicFixture,'BRAZEN SERPENT',8,
+ [topicFixture[0]]),t=>t.id),['NEUU:TOPIC:brazen_serpent'],
+ 'Cross-source match must not duplicate a literal source title');
+assert.deepEqual(Array.from(core.requiredTopicBooks(qaFixture,3)),['2KI','GEN','1CO']);
 
 assert.deepEqual(Array.from(core.rankTopics([{id:'mapped',title:'Aaron',verse_link_count:1},{id:'orphan',title:'Aaron',verse_link_count:0}],'Aaron'),x=>x.id),['mapped']);
 const books=[{code:'GEN',name:'Genesis',chapterCount:50},{code:'EXO',name:'Exodus',chapterCount:40}];
