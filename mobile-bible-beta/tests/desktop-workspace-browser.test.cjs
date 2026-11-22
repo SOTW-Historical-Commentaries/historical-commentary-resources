@@ -38,7 +38,7 @@ const {chromium}=require("playwright-core");
     assert(g.panel.h-g.tools.h-g.scroll.h<125,`No giant empty footer below study controls ${brand} ${width} ${JSON.stringify(g)}`);
     assert(g.bodyOverflow<=width+2,`Desktop workspace should not overflow horizontally ${brand} ${width}`);
     assert(parseFloat(g.excerptFont)>=19,`Readable Scripture on desktop ${brand} ${width}`);
-    assert(g.studyVerseText.includes("dust"),`Study displays actual selected verse ${brand} ${width}`);
+    assert(g.studyVerseText.includes("sweat"),`Study displays actual selected Genesis 3:19 verse ${brand} ${width}`);
     assert.deepEqual(errors,[],`No browser errors desktop ${brand} ${width}`);
     await context.close();
    }
