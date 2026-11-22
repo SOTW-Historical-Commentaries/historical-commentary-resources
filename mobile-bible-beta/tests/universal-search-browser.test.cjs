@@ -36,7 +36,7 @@ const {chromium}=require("playwright-core");
    await page.locator(".universal-qa-section").waitFor({state:"visible"});
    // The concurrent Universal Search three-gate milestone initially reveals
    // only the top answer group. Preserve this user-controlled expansion.
-   if(!await snake.count())await page.locator(".universal-qa-section .universal-qa-show-more").click();
+   if(!await snake.count())await page.locator(".universal-qa-section > .universal-qa-show-more").click();
    await snake.waitFor({state:"visible"});
    await snake.locator(".universal-qa-source").click();
    await page.locator("#universalSearchAttribution").waitFor({state:"visible"});
