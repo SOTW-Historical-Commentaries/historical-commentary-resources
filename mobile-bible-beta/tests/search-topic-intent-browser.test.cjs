@@ -4,14 +4,14 @@
 "use strict";
 const assert=require("node:assert/strict");
 const {chromium}=require("playwright-core");
+const faithIndexTopic={id:"NEUU:TOPIC:faith",slug:"faith",
+ title:"FAITH",shard:"topics/F.json",sources:["NAV","TOR"],
+ verse_link_count:442,see_also:[]};
 const index={schema:"sotw-topics-search-index/1.0.0",topics:[
  {id:"NEUU:TOPIC:brazen_serpent",slug:"brazen_serpent",
   title:"BRAZEN SERPENT",shard:"topics/B.json",sources:["NAV"],
   verse_link_count:3,see_also:[]},faithIndexTopic
 ]};
-const faithIndexTopic={id:"NEUU:TOPIC:faith",slug:"faith",
- title:"FAITH",shard:"topics/F.json",sources:["NAV","TOR"],
- verse_link_count:442,see_also:[]};
 const faithShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
  id:"NEUU:TOPIC:faith",title:"FAITH",slug:"faith",sources:["NAV","TOR"],
  aspects:[{label:"Without fruits, is dead",references:["James 2:17,20,26"],source:"TOR"}],
