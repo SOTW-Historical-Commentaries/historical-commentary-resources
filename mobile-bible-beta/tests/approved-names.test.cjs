@@ -1,0 +1,52 @@
+"use strict";
+const assert=require("node:assert/strict"),fs=require("node:fs"),vm=require("node:vm"),path=require("node:path");
+const base=path.resolve(__dirname,"..");
+const m=JSON.parse(fs.readFileSync(path.join(base,"data/universal-search/v1/approved-names.json"),"utf8"));
+assert.equal(m.schema,"sotw-reader-approved-names/1.0.0");
+assert.equal(m.foundationCommit,"d6152251b3073a718c6cbe9e6f3d285f0b7da3f3");
+assert.equal(m.nameIndexGitBlob,"e8aba2eb47739f26c02f1f7b7bd4e7098ce7481a");
+assert.equal(m.eligibilityGitBlob,"0dc471653bc005fd4713f5b7c586f0195e672c08");
+assert.equal(m.qaLinkIndexGitBlob,"83bee8b4cdc5af57e10c23403a48ed965786cbdb");
+assert.equal(m.approvalDate,"2026-11-21");
+assert.equal(m.displayEligible,332);assert.equal(m.excludedCount,23);
+assert.equal(m.qaLinkedEligible,304);assert.equal(m.qaRelationshipCount,9303);
+assert.equal(m.entries.length,332);assert.equal(m.excludedIds.length,23);
+assert.equal(new Set(m.excludedIds).size,23);
+const allowed=new Set(),blocked=new Set(m.excludedIds);
+for(const entry of m.entries){
+ assert.equal(entry.length,5);
+ const [id,slug,title,refs,linked]=entry;
+ assert.match(id,/^utw:v91:names:[a-z0-9]+$/);
+ assert.equal(id,"utw:v91:names:"+slug);
+ assert(!blocked.has(id),"Excluded name reappeared: "+id);
+ assert(!allowed.has(id),"Duplicate eligible ID "+id);
+ assert(title&&typeof title==="string");assert(Number.isInteger(refs)&&refs>=0);
+ assert(Number.isInteger(linked)&&linked>=0);
+ assert(refs>0||linked>0,"Every visible result must have source-supported Scripture path");
+ allowed.add(id);
+}
+assert.equal(allowed.size,332);
+assert.equal(m.entries.filter(e=>e[4]>0).length,304);
+assert.equal(m.entries.reduce((n,e)=>n+e[4],0),9303);
+assert.equal(m.entries.filter(e=>e[3]===0&&e[4]>0).length,10);
+for(const id of blocked)assert(!allowed.has(id));
+const ctx={};ctx.globalThis=ctx;vm.createContext(ctx);
+const js=fs.readFileSync(path.join(base,"approved-names-search.js"),"utf8");
+vm.runInContext(js,ctx,{filename:"approved-names-search.js"});
+const matches=q=>ctx.SOTWNameSearchCore.match(m.entries,q).map(e=>e[0]);
+assert(matches("Abraham").includes("utw:v91:names:abraham"));
+assert(matches("Abram").includes("utw:v91:names:abraham"));
+assert(matches("who was Moses").includes("utw:v91:names:moses"));
+assert(matches("Moses snake on stick").length===0,"No incidental Moses profile for snake Q&A");
+assert(matches("Abiathar").length===0,"Excluded name cannot appear as profile");
+assert(matches("Mary").every(id=>allowed.has(id)),"Ambiguous names retain distinct eligible entries");
+assert(js.includes("if(!refs.length&&entry[4])"),"Explicit Q&A anchors support ten no-reference profiles");
+assert(js.includes("a.source?.version!==\"91\""),"Reject mismatched source version");
+assert(js.includes("disclosure.id=\"approvedNameSourceAttribution\""),"Separate source attribution");
+assert(!js.includes("/historical-people-places/"),"Retired unaccepted master must not load");
+for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
+ const html=fs.readFileSync(path.join(base,"..",brand,"index.html"),"utf8");
+ assert(html.includes("approved-names-search.js?v=20261121-names1"),"Missing profiles adapter "+brand);
+ assert(html.includes("universal-search.css?v=20261121-us3"),"Missing named search styles "+brand);
+}
+console.log("PASS: 332 review-eligible name profiles, 23 exclusions, 304 Q&A-linked, 9,303 explicit associations, anchored search in two readers");
