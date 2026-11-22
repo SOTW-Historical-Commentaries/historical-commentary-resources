@@ -11,6 +11,8 @@ on:
       - "mobile-bible-beta/tests/approved-names.test.cjs"
       - "mobile-bible-beta/tests/approved-names-browser.test.cjs"
       - "mobile-bible-beta/universal-search.css"
+      - "mobile-bible-beta/desktop-workspace.css"
+      - "mobile-bible-beta/tests/desktop-workspace-browser.test.cjs"
       - "mobile-bible-beta/data/universal-search/**"
       - "mobile-bible-beta/scripts/build-universal-search.mjs"
       - "mobile-bible-beta/tests/universal-search.test.cjs"
@@ -64,6 +66,7 @@ jobs:
           node --check mobile-bible-beta/tests/approved-names-browser.test.cjs
           node --check mobile-bible-beta/scripts/build-universal-search.mjs
           node --check mobile-bible-beta/tests/universal-search.test.cjs
+          node --check mobile-bible-beta/tests/desktop-workspace-browser.test.cjs
           node --check mobile-bible-beta/study-ux-repair.js
           node --check mobile-bible-beta/jacob-scripture-links.js
           node --check mobile-bible-beta/reader-return.js

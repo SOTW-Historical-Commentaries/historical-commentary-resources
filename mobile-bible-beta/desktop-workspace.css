@@ -1,0 +1,215 @@
+/* Desktop-only Scripture + study workspace.
+ * One isolated final layer replaces overlapping 2026-11-21 desktop layout
+ * overrides. Nothing here applies to phones, tablets or coarse pointers.
+ * The existing source, citation and word-study runtimes are unchanged. */
+@media (min-width:1100px) and (pointer:fine) {
+  .mobile-beta #modernReaderHeader {
+    padding:14px clamp(24px,3.2vw,56px) 15px!important;
+  }
+  .mobile-beta #modernReaderHeader .modern-inner {
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) auto!important;
+    grid-auto-rows:auto;
+    gap:10px 22px!important;
+    align-items:center!important;
+    max-width:1520px!important;
+    width:100%!important;
+    margin:0 auto!important;
+  }
+  .mobile-beta #modernReaderHeader .brand-line {
+    grid-column:1/-1!important;
+    grid-row:1!important;
+    margin:0!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:space-between!important;
+    gap:22px!important;
+  }
+  .mobile-beta #modernReaderHeader .reader-brandmark {
+    min-width:0!important;
+    max-width:360px!important;
+    flex:0 1 360px!important;
+  }
+  .mobile-beta #modernReaderHeader .reader-brandmark img {
+    display:block;
+    max-width:360px!important;
+    width:auto!important;
+    max-height:56px!important;
+    height:auto!important;
+    object-fit:contain!important;
+    object-position:left center!important;
+  }
+  .mobile-beta #modernReaderHeader .header-actions{gap:8px!important}
+  .mobile-beta #modernReaderHeader .location-line{
+    grid-column:1/-1!important;
+    grid-row:2!important;
+    min-width:0!important;
+    width:100%!important;
+    justify-content:space-between!important;
+    gap:20px!important;
+    padding-top:9px;
+    border-top:1px solid #283942;
+  }
+  .mobile-beta #modernReaderHeader #readerLocation {
+    font:600 27px/1.2 Georgia,serif!important;
+    text-overflow:ellipsis;
+  }
+  .mobile-beta #modernReaderHeader #readerEdition {
+    font-size:14px!important;
+    max-width:none!important;
+    padding:7px 12px!important;
+  }
+  .mobile-beta #modernReaderHeader #sotwReturnToPassage,
+  .mobile-beta #modernReaderHeader #sotwTrail,
+  .mobile-beta #modernReaderHeader #sotwReturnStatus{
+    grid-column:1/-1!important;
+    grid-row:3!important;
+    justify-self:start!important;
+    margin:0!important;
+  }
+  .mobile-beta #modernReaderHeader #sotwTrail[hidden],
+  .mobile-beta #modernReaderHeader #sotwReturnToPassage[hidden]{
+    display:none!important;
+  }
+  .mobile-beta main,.mobile-beta.study-open main{
+    max-width:1520px!important;
+    width:100%!important;
+    padding:24px clamp(24px,3.2vw,56px) 45px!important;
+    margin-inline:auto!important;
+  }
+  .mobile-beta.study-open .layout{
+    display:grid!important;
+    grid-template-columns:minmax(0,1.42fr) minmax(390px,.92fr)!important;
+    gap:28px!important;
+    align-items:start!important;
+  }
+  .mobile-beta.study-open .layout>.scripture{
+    grid-column:1!important;
+    grid-row:1!important;
+    min-width:0!important;
+    width:100%!important;
+    max-width:none!important;
+    margin:0!important;
+  }
+  .mobile-beta.study-open .layout>.scripture .panel-body{
+    max-width:820px;
+    margin-inline:auto;
+    padding:0 12px!important;
+  }
+  .mobile-beta #verses .reader-paragraph {
+    font-size:20px!important;
+    line-height:1.83!important;
+    letter-spacing:.004em!important;
+    color:#e0e7ea;
+  }
+  .mobile-beta.study-open #verses .reader-verse.is-studying{
+    background:rgba(107,170,189,.14)!important;
+    box-shadow:inset 3px 0 #8ac0cd!important;
+  }
+  /* Fit the study pane to its actual content; never force a blank, nearly
+     full-height box when only the verse and launchers are visible. */
+  .mobile-beta.study-open .layout>section[aria-label="Commentary comparison"]{
+    grid-column:2!important;
+    grid-row:1!important;
+    position:sticky!important;
+    top:20px!important;
+    inset:auto!important;
+    display:flex!important;
+    flex-direction:column!important;
+    align-self:start!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:calc(100svh - 145px)!important;
+    width:100%!important;
+    max-width:none!important;
+    padding:0 20px 16px!important;
+    overflow:hidden!important;
+    border:1px solid #3d5863!important;
+    border-radius:14px!important;
+    box-shadow:0 6px 20px #0002!important;
+    background:#15232b!important;
+    z-index:20!important;
+  }
+  .mobile-beta.study-open section[aria-label="Commentary comparison"] .tools{
+    flex:0 0 auto!important;
+    position:static!important;
+    padding:13px 0!important;
+    margin:0 0 13px!important;
+    min-height:54px!important;
+    border-bottom:1px solid #38505c!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:space-between!important;
+    background:transparent!important;
+  }
+  .mobile-beta.study-open section[aria-label="Commentary comparison"] .tools::before{
+    content:"Study this verse";
+    font:650 15px/1.4 system-ui;
+    color:#d2e5ea;
+    letter-spacing:.01em;
+  }
+  .mobile-beta.study-open #studyClose{
+    min-height:36px!important;
+    min-width:92px!important;
+    margin-left:auto;
+  }
+  .mobile-beta.study-open #studyBodyScroll{
+    flex:0 1 auto!important;
+    min-height:0!important;
+    max-height:calc(100svh - 280px)!important;
+    overflow-y:auto!important;
+    padding:3px 2px 18px!important;
+  }
+  .mobile-beta.study-open #studyBodyScroll #studyHeading{
+    font:600 14px/1.5 system-ui!important;
+    color:#a9cbd5!important;
+    margin:0 0 10px!important;
+  }
+  .mobile-beta.study-open #studyBodyScroll #modernStudyVerse{
+    font:normal 18px/1.7 Georgia,serif!important;
+    margin:0 0 16px!important;
+    padding:16px 17px!important;
+    max-height:none!important;
+    height:auto!important;
+    overflow:visible!important;
+  }
+  .mobile-beta.study-open #studyBodyScroll .study-launch{
+    min-height:50px!important;
+    padding:12px 14px!important;
+    font-size:14px!important;
+  }
+  .mobile-beta.study-open #studyBodyScroll #modernCommentaryMenu{
+    margin:15px 0 2px!important;
+    padding:15px 0 0!important;
+  }
+  /* A full-height inner overlay still needs a usable canvas to show
+     commentary, dictionaries and Word-by-Word rather than collapsing. */
+  .mobile-beta.study-open .layout>section[aria-label="Commentary comparison"]:has(#studyOverlay.is-open){
+    min-height:min(680px,calc(100svh - 145px))!important;
+  }
+  .mobile-beta.study-open #studyOverlay{
+    inset:54px 0 10px!important;
+    border-radius:0 0 12px 12px;
+  }
+  .mobile-beta.beta-light #modernReaderHeader .location-line{
+    border-top-color:#cfdddd!important;
+  }
+  .mobile-beta.beta-light #verses .reader-paragraph{
+    color:#28383c!important;
+  }
+  .mobile-beta.beta-light.study-open .layout>section[aria-label="Commentary comparison"]{
+    background:#f8faf8!important;
+    border-color:#c5d4d2!important;
+    box-shadow:0 6px 20px #0000000c!important;
+  }
+  .mobile-beta.beta-light.study-open section[aria-label="Commentary comparison"] .tools::before{
+    color:#244852!important;
+  }
+}
+/* The standalone Scripture view remains an uncluttered reading column. */
+@media (min-width:1100px) and (pointer:fine){
+  .mobile-beta:not(.study-open) .layout>.scripture{
+    max-width:900px!important;
+    margin-inline:auto!important;
+  }
+}
