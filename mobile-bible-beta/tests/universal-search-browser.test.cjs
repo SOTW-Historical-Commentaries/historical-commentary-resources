@@ -78,6 +78,27 @@ const {chromium}=require("playwright-core");
    assert(await page.locator("#readerSourcesAttribution #universalSearchAttribution").count()===1,"Source notice is accessible directly through hamburger, without any search");
    assert.equal(await page.locator("#readerSourcesAttribution .more-resource").count(),7,"Six existing source notices plus approved names attribution stay together");
    assert(!requests.some(u=>u.includes("/historical-people-places/")),"Excluded separate historical dataset not requested");
+   // Source-backed questions are opt-in on the studied verse, not a new source.
+   await page.goto("http://127.0.0.1:8765/"+brand+"/?book=1CO&chapter=16&verse=10&translation=KJV1769",{waitUntil:"domcontentloaded"});
+   const verse10=page.locator('#verses .reader-verse[data-verse="10"]');
+   await verse10.waitFor({state:"visible"});await verse10.click();
+   const studyQA=page.locator("#sotwVerseQuestions");
+   await studyQA.waitFor({state:"visible"});
+   assert.equal(await studyQA.locator(".universal-qa-card").count(),0);
+   await studyQA.locator("button.discovery-launch").click();
+   const timothy=studyQA.locator('.universal-qa-card[data-qa-id="utq:v91:1CO:16:10-11:lt0q"]');
+   await timothy.waitFor({state:"visible"});
+   assert((await timothy.innerText()).includes("What did Paul command the church at Corinth"));
+   assert((await timothy.innerText()).includes("1 Corinthians 16:10–11"));
+   assert((await timothy.innerText()).includes("PUBLISHED ANSWER"));
+   assert.deepEqual(await page.evaluate(()=>({book:state.book,chapter:state.chapter,verse:modernStudyVerse,edition:state.edition})),
+    {book:"1CO",chapter:16,verse:10,edition:"KJV1769"});
+   await studyQA.locator("button.discovery-launch").click();
+   assert.equal(await studyQA.locator(".universal-qa-card").count(),0);
+   await page.locator("#modernSearchButton").click();
+   await page.locator("#modernSearchInput").fill("Abarim");
+   await page.waitForTimeout(1000);
+   assert.equal(await page.locator(".discovery-hit").count(),0,"Topic without Scripture mapping must be excluded");
    assert.deepEqual(pageErrors,[],"Browser console errors "+brand);
    await ctx.close();
   }

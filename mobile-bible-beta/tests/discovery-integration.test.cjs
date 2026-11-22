@@ -22,6 +22,8 @@ const topics=[
 ];
 assert.deepEqual(Array.from(core.rankTopics(topics,'Aaron',3),x=>x.id),['t2','t1']);
 assert.equal(core.rankTopics(topics,'a').length,0);
+assert.equal(core.rankTopics([{id:'orphan',title:'ABARIM',verse_link_count:0}],'ABARIM').length,0,'Unmapped topic must not be navigable');
+assert.deepEqual(Array.from(core.rankTopics([{id:'mapped',title:'Aaron',verse_link_count:1},{id:'orphan',title:'Aaron',verse_link_count:0}],'Aaron'),x=>x.id),['mapped']);
 const books=[{code:'GEN',name:'Genesis',chapterCount:50},{code:'EXO',name:'Exodus',chapterCount:40}];
 assert.equal(core.parseScope('GEN.4.17',books)?.verse,17);
 assert.equal(core.parseScope('EXO.7',books)?.hasVerse,false);
@@ -77,13 +79,13 @@ assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includ
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261122-discovery10'));
+assert(html.includes('discovery-integrations.js?v=20261122-discovery11'));
 assert(html.includes('reader-return.js?v=20261118-return1'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261120-discovery4'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0197'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0198'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));

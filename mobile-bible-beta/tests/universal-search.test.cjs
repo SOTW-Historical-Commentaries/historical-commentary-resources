@@ -32,6 +32,13 @@ const context={};context.globalThis=context;vm.createContext(context);
 vm.runInContext(fs.readFileSync(path.join(root,"universal-search.js"),"utf8"),context,{filename:"universal-search.js"});
 const core=context.SOTWUniversalSearchCore;
 assert(core&&typeof core.rank==="function");
+const timothy=rows.find(r=>r[0]==="utq:v91:1CO:16:10-11:lt0q");
+assert(timothy,"Published multi-verse Q&A must exist");
+const reverse={schema:"sotw-qa-verse-index/1.0.0",book:"1CO",verses:{"16.10":[timothy[0]],"16.11":[timothy[0]],"16.12":[]}};
+for(const v of [10,11])assert.deepEqual(Array.from(core.verseQuestions(reverse,rows,"1CO",16,v),r=>r[0]),[timothy[0]]);
+assert.equal(core.verseQuestions(reverse,rows,"1CO",16,12).length,0);
+assert.throws(()=>core.verseQuestions({...reverse,verses:{"16.12":[timothy[0]]}},rows,"1CO",16,12),/citation mismatch/);
+assert.throws(()=>core.verseQuestions({...reverse,book:"2KI"},rows,"1CO",16,11),/Unverified/);
 const exact=core.rank(rows,"Who was the Word with?",20);
 assert(exact.some(r=>r.row[0]==="utq:v91:JHN:1:1-2:jzv6"),"Exact question finds published John 1:1–2");
 const bronze=rows.find(r=>r[0]==="utq:v91:2KI:18:4:ndxy");
@@ -43,13 +50,15 @@ assert.equal(core.rank([noReference],"Moses",10).length,0); // unsupported citat
 assert.equal(core.rank(rows,"and the of",10).length,0);
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("universal-search.js?v=20261122-us5"));
- assert(html.includes("universal-search.css?v=20261122-us5"));
+ assert(html.includes("universal-search.js?v=20261122-us6"));
+ assert(html.includes("universal-search.css?v=20261122-us6"));
  assert(html.includes("id='readerSourcesAttribution'"),"Sources & Attribution section must be mounted in hamburger");
 }
 const script=fs.readFileSync(path.join(root,"universal-search.js"),"utf8");
 assert(script.includes("chapterIndex?.canonical_chapter"),"Scripture chapter checked before link");
 assert(script.includes("state.edition"),"Preserves currently selected edition");
+assert(script.includes("verseSource+book"),"Existing source reverse index must be consumed");
+assert(script.includes("priorQAOpen=betaOpen"),"Study lifecycle must reset question panel");
 assert(script.includes("SOTWReaderTrail"),"Supports return to search");
 assert(script.includes('ref.addEventListener("click",()=>preview(row,ref))'),"Q&A citation opens in-search Scripture");
 assert(script.includes('close.addEventListener("click",()=>{panel.remove();anchor.focus({preventScroll:true});})'),"Close returns to search reference without scrolling");
