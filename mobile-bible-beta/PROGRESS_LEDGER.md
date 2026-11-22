@@ -1,5 +1,10 @@
 # SOTW BIBLE READER — PROGRESS LEDGER
 
+## 2026-11-21 | DESKTOP-ONLY READER VISUAL REFINEMENT
+
+Commit `0eaf20c20c17429951e624c0d4b09ea1c0dc7c62` updated `mobile-bible-beta/index.html` with an isolated `@media (min-width:1100px) and (pointer:fine)` CSS block. Desktop refinements: tighter header/chapter controls, 1.38:1 study-open column ratio, 18px/1.7 Scripture paragraph typography, softer selected-verse emphasis with narrow accent, more compact/sticky study tools and verse preview. Existing Jacob Lannom commentary diamond logic remains unchanged. No mobile/tablet CSS rules, search logic, data, or source files intentionally modified. **Status: committed to GitHub main; source readback verified. NOT YET verified in live Pages/browser or on physical desktop/mobile; visual QA and Pages deployment confirmation pending.** Search history buttons were not restructured, and drag-resizable split view was not implemented; both require separate UI interaction testing and coordination with concurrent Universal Search work.
+
+
 ## 2026-11-21 (local; 2026-11-22 UTC) | UNIVERSAL SEARCH V1 BIBLE QUESTIONS MILESTONE MERGED TO MAIN
 
 **Status: READER SOURCE CODE MERGED; SOURCE/SYNTAX QA PASS; CHROMIUM QA PASS; INDEPENDENT PAGES DELIVERY UNVERIFIED; PHYSICAL IPHONE QA PENDING.** PR #17 https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/17 was merged to main at `f619d6ed669371ba9b51c29f82bbc6e79cc81098`. Pre-change main `0bad5dce6f1fac6069fbb843f88978f5dab4f032` is preserved on safety branch `safety/pre-universal-search-20261121-0bad5dce`. No CGBC media-player, SPP, canonical author commentary, Scripture/translation data, historical master, source foundations or owner-curated quote files were changed.
