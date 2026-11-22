@@ -51,6 +51,10 @@ const {chromium}=require("playwright-core");
    // only the top answer group. Preserve this user-controlled expansion.
    if(!await snake.count())await page.locator(".universal-qa-section > .universal-qa-show-more").click();
    await snake.waitFor({state:"visible"});
+   assert.equal(await page.locator(".universal-qa-section .universal-qa-card").first().getAttribute("data-qa-id"),
+    "utq:v91:2KI:18:4:ndxy",
+    "Moses snake on stick leads with published bronze-serpent question rather than Moses staff");
+
 
    // The first search destination is Scripture only when a published source
    // supplies the citation; it forwards to the existing in-search preview.
