@@ -2,6 +2,20 @@
 
 
 
+
+## 2026-11-22 | SEARCH RELEVANCE: MOSES SNAKE ON STICK INTENT FIX RELEASED
+
+**Owner's physical iPhone evidence:** Search for `Moses snake on stick` returned generic Moses staff-to-snake Bible Questions first, with the existing bronze-serpent question far down the list. This is a retrieval/ranking defect, not a missing published Q&A or broken Scripture citation. Owner also showed `Noah` and the original publisher Q&A cards; no UI redesign is authorized in this stage.
+
+**Release:** PR #27 merged into `main` at `b6660b8cc1528fd43e41ca909bac2b368c8321fc`. Baseline safely retained at `safety/pre-search-intent-ranking-20261122-765d29f3`, exactly `765d29f37233c71043f28058cf2cf3bb01c3983c`. Shared `mobile-bible-beta/universal-search.js` checks the actual phrase intent of snake/serpent ON a pole/stick and promotes only an already source-published Q&A whose text explicitly contains bronze serpent and Moses. This is a ranking aid, not a manufactured Numbers 21 citation or a novel source-to-verse relation. All eight original Q&A hits and original target arrays are retained; the approved source data, Jacob records and shared scripture-evidence coordinator remain unchanged. Same shared script (`20261122-us7`) used in both separately branded readers; caches independently bumped CGBC v0202, SOTW v0020.
+
+**Measured source results:** All 12,139 pinned unfoldingWord v91 original Q&A records checked. For `Moses snake on stick`, bronze-serpent Q&A `utq:v91:2KI:18:4:ndxy` moves from rank 4 to rank 1 (49.75), still cites only the original 2 Kings 18:4. The Exodus staff-to-snake questions remain in positions 2 and 3 (42.75). `Moses snake on a pole` and `snake on pole` also lead with the source-supported bronze question; deliberately different `Moses staff became a snake` still leads with Exodus 4:4. Original `bronze serpent`, `Noah`, `Timothy`, and `faith and works` searches remain supported. No semantic search, whole-Bible literal search, or accepted author concept-to-verse inference is being claimed.
+
+**Release gates:** Source/integrity Actions run `45071185036` PASS and two-reader mobile Chromium Actions run `45071185023` PASS, both at identical feature SHA `ecdfb98c353bc1fc9f5ac0e964eca21217739c9c`; browser verifies first relevant Q&A on the query, plus all prior Scripture navigation, source and shared-passage regressions. GitHub Pages and physical iPhone publication/acceptance are distinct checks and must not be assumed from merge alone.
+
+**Next Search gate:** Use owner-observed real queries to improve semantic intent/disambiguation with strict pinned-source relevance tests, not broad Moses-only Q&A matching. Source citations remain source facts; ranking confidence alone cannot establish theology or link a new verse. Preserve two brands and leave mobile layout refinement for later.
+
+
 ## 2026-11-22 | OWNER IPHONE SEARCH CRASH REGRESSION REPAIRED IN READER CODE; DEVICE RETEST OPEN
 
 **Owner report:** Physical iPhone screenshot showed Ruth 1 while Search query `Noah` displayed the eligible unfoldingWord name profile. Owner reports normal navigation to a verse from Scripture study worked, but navigating from Search caused a crash. This is a Search-specific acceptance failure, NOT successful iPhone Search acceptance.
