@@ -1276,7 +1276,12 @@ function modernSearchRender(){
     if(i>=2)button.hidden=true;
     const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
     const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
-    button.append(label,desc);button.addEventListener('click',()=>{
+    button.append(label,desc);
+    if(i<2)button.dataset.searchEvidence=JSON.stringify([{type:'scripture',
+     id:state.edition+':'+state.book+'.'+state.chapter+'.'+Number(v.verse),
+     relationship:'CURRENT_EDITION_VERSE',
+     targets:[{book:state.book,chapter:state.chapter,verse:Number(v.verse)}]}]);
+    button.addEventListener('click',()=>{
      const trail=SOTWReaderTrail.capture('search');
      searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
      SOTWReaderTrail.commit(trail);
