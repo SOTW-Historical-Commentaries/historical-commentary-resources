@@ -95,6 +95,7 @@ const {chromium}=require("playwright-core");
     {book:"1CO",chapter:16,verse:10,edition:"KJV1769"});
    await studyQA.locator("button.discovery-launch").click();
    assert.equal(await studyQA.locator(".universal-qa-card").count(),0);
+   await page.locator("#studyClose").click();
    await page.locator("#modernSearchButton").click();
    await page.locator("#modernSearchInput").fill("Abarim");
    await page.waitForTimeout(1000);

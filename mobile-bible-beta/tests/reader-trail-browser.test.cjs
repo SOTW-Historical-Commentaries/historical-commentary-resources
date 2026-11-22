@@ -14,7 +14,7 @@ const {chromium}=require('playwright-core');
   const topicRoot='**/data/topics/nave-torrey/v1/';
   await page.route(topicRoot+'index/topics.json',route=>route.fulfill({status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},body:JSON.stringify({
    schema:'sotw-topics-search-index/1.0.0',
-   topics:[{id:'test-topic-forgiveness',title:'Forgiveness',shard:'shards/fixture.json'}]
+   topics:[{id:'test-topic-forgiveness',title:'Forgiveness',verse_link_count:2,shard:'shards/fixture.json'}]
   })}));
   await page.route(topicRoot+'shards/fixture.json',route=>route.fulfill({status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},body:JSON.stringify({
    schema:'sotw-topics-neuu-shard/1.0.0',
