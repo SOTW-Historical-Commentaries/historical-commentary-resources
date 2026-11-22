@@ -24,7 +24,53 @@ function order(groups,query){
  return groups.map((g,i)=>({...g,originalIndex:i,priority:weight(g.type,query,g.caption)}))
   .sort((a,b)=>b.priority-a.priority||a.originalIndex-b.originalIndex);
 }
-root.SOTWSearchCoordinatorCore={normalize,exactName,weight,order};
+// A source must explicitly supply this canonical Scripture destination.
+// No topic-name, question-wording, concept-label or author-text inference.
+const SOURCE_LABELS={
+ question:"Bible Questions · unfoldingWord",
+ name:"Approved name article · unfoldingWord",
+ topic:"Historical index · Nave/Torrey",
+ jacob:"Published Jacob Lannom commentary",
+ scripture:"Selected-edition Scripture"
+};
+const RELATIONS={
+ question:"PUBLISHED_QUESTION_CITATION",name:"PUBLISHED_ARTICLE_CITATION",
+ topic:"MAPPED_HISTORICAL_INDEX_REFERENCE",
+ jacob:"ACCEPTED_AUTHOR_PASSAGE_SCOPE",scripture:"CURRENT_EDITION_VERSE"
+};
+function canonicalTarget(t,books){
+ if(!t||!Array.isArray(books))return null;
+ const book=books.find(b=>b.code===t.book),chapter=t.chapter,verse=t.verse;
+ if(!book||!Number.isInteger(chapter)||!Number.isInteger(verse)||
+    chapter<1||chapter>book.chapterCount||verse<1||verse>176)return null;
+ return {key:book.code+"."+chapter+"."+verse,book:book.code,
+  chapter,verse,label:book.name+" "+chapter+":"+verse};
+}
+function groupEvidence(records,books){
+ const at=new Map();
+ for(const record of records||[]){
+  if(!record||!Object.hasOwn(SOURCE_LABELS,record.type)||
+     record.relationship!==RELATIONS[record.type]||
+     typeof record.id!=="string"||!record.id||
+     !Array.isArray(record.targets)||!record.targets.length)continue;
+  for(const target of record.targets){
+   const c=canonicalTarget(target,books);if(!c)continue;
+   if(!at.has(c.key))at.set(c.key,{...c,members:[],seen:new Set()});
+   const group=at.get(c.key),id=record.type+"|"+record.id;
+   if(group.seen.has(id))continue;
+   group.seen.add(id);
+   group.members.push({type:record.type,id:record.id,
+    relationship:record.relationship,element:record.element||null});
+  }
+ }
+ return [...at.values()].map(g=>({
+  key:g.key,book:g.book,chapter:g.chapter,verse:g.verse,label:g.label,
+  sources:[...new Set(g.members.map(m=>m.type))],members:g.members
+ })).filter(g=>g.sources.length>=2)
+ .sort((a,b)=>b.sources.length-a.sources.length||
+   b.members.length-a.members.length||a.key.localeCompare(b.key));
+}
+root.SOTWSearchCoordinatorCore={normalize,exactName,weight,order,canonicalTarget,groupEvidence,RELATIONS};
 if(typeof document==="undefined"||typeof searchInput==="undefined"||
  typeof searchResults==="undefined"||typeof searchModal==="undefined")return;
 const css=document.createElement("style");
@@ -33,7 +79,13 @@ css.textContent=".mobile-beta .sotw-search-topics-group{display:grid;gap:7px;min
  "border:1px solid #7b9195;border-radius:10px;padding:10px 13px;background:transparent;" +
  "color:inherit;font:inherit;cursor:pointer}" +
  ".mobile-beta .sotw-search-scripture strong{font-weight:650;font-size:14px}" +
- ".mobile-beta .sotw-search-scripture small{font-size:12px;opacity:.83}";
+ ".mobile-beta .sotw-search-scripture small{font-size:12px;opacity:.83}" +
+ ".mobile-beta .sotw-passage-evidence{border:1px solid #657d83;border-radius:10px;padding:10px;display:grid;gap:8px}" +
+ ".mobile-beta .sotw-passage-evidence details{border-top:1px solid #657d83;padding-top:7px}" +
+ ".mobile-beta .sotw-passage-evidence summary{cursor:pointer;font-size:14px;font-weight:600}" +
+ ".mobile-beta .sotw-passage-evidence p{font-size:12px;line-height:1.45;margin:2px 0;opacity:.86}" +
+ ".mobile-beta .sotw-passage-actions{display:grid;gap:5px;margin-top:8px}" +
+ ".mobile-beta .sotw-passage-actions button{min-height:40px;border:1px solid #829ba1;background:transparent;color:inherit;border-radius:8px;text-align:left;padding:8px;font:inherit;font-size:13px}";
 document.head.append(css);
 let pending=false,latest="";
 function groupType(el){
@@ -71,18 +123,74 @@ function sourceCitation(){
  const citation=raw.slice("Read cited Scripture:".length).trim();
  return citation?{citation,button:question}:null;
 }
+function readEvidence(){
+ const candidates=[];
+ for(const el of searchResults.querySelectorAll("[data-search-evidence]")){
+  let source;try{source=JSON.parse(el.dataset.searchEvidence)}catch{continue}
+  if(!Array.isArray(source))continue;
+  for(const candidate of source)candidates.push({...candidate,element:el});
+ }
+ return candidates;
+}
+function passageSummary(query){
+ let old=searchResults.querySelector(":scope > .sotw-passage-evidence");
+ const groups=groupEvidence(readEvidence(),typeof BOOKS!=="undefined"?BOOKS:[]).slice(0,6);
+ if(!groups.length){old?.remove();return}
+ // Rebuild only on a semantic group identity change, not each sort mutation.
+ const signature=JSON.stringify(groups.map(g=>[g.key,g.members.map(m=>m.type+"|"+m.id)]))+"|"+state.edition;
+ if(old?.dataset.signature===signature)return;
+ const host=document.createElement("section");
+ host.className="sotw-passage-evidence";host.dataset.signature=signature;
+ const heading=document.createElement("h4");
+ heading.className="universal-qa-heading";heading.textContent="Shared Scripture citations";
+ host.append(heading);
+ const note=document.createElement("p");
+ note.textContent="These published sources cite the same verse. A shared reference does not establish agreement or doctrinal proof.";
+ host.append(note);
+ for(const group of groups){
+  const details=document.createElement("details");
+  const summary=document.createElement("summary");
+  summary.textContent=group.label+" · "+group.sources.length+" source types";
+  details.append(summary);
+  const actions=document.createElement("div");actions.className="sotw-passage-actions";
+  const open=document.createElement("button");open.type="button";
+  open.textContent="Open "+group.label+" in "+state.edition;
+  open.addEventListener("click",()=>{
+   root.SOTWUniversalSearch?.navigateToTarget([group.book,group.chapter,group.verse,null],open);
+  });
+  actions.append(open);
+  for(const member of group.members){
+   const btn=document.createElement("button");btn.type="button";
+   btn.textContent="View "+SOURCE_LABELS[member.type];
+   btn.addEventListener("click",()=>{
+    const el=member.element;
+    if(!el?.isConnected)return;
+    for(let ancestor=el.parentElement;ancestor&&ancestor!==searchResults;ancestor=ancestor.parentElement){
+     if(ancestor.tagName==="DETAILS")ancestor.open=true;
+    }
+    el.scrollIntoView({block:"nearest"});
+    const focus=el.querySelector("button,summary")||el;
+    focus.focus({preventScroll:true});
+   });
+   actions.append(btn);
+  }
+  details.append(actions);host.append(details);
+ }
+ if(old)old.replaceWith(host);else searchResults.prepend(host);
+}
 function sync(){
  if(!searchModal.veil.classList.contains("is-open"))return;
  const query=searchInput.value.trim();
  if(!query||typeof modernParseReference==="function"&&modernParseReference(query))return;
  wrapHistoricalTopics();
- const nodes=Array.from(searchResults.children).filter(n=>!n.classList.contains("sotw-search-scripture"));
+ const nodes=Array.from(searchResults.children).filter(n=>!n.classList.contains("sotw-search-scripture")&&!n.classList.contains("sotw-passage-evidence"));
  const described=nodes.map(el=>({el,type:groupType(el),caption:caption(el,groupType(el))}));
  const ordered=order(described,query);
  // Source modules may finish in any network order. One stable sort avoids
  // Q&A prepend, historical append and names prepend racing each other.
- const offset=searchResults.querySelector(":scope > .sotw-search-scripture")?1:0;
+ const offset=Number(!!searchResults.querySelector(":scope > .sotw-search-scripture"))+Number(!!searchResults.querySelector(":scope > .sotw-passage-evidence"));
  ordered.forEach(({el},i)=>{const position=i+offset;if(searchResults.children[position]!==el)searchResults.insertBefore(el,searchResults.children[position]||null)});
+ passageSummary(query);
  const exactProfile=described.some(({el,type,caption})=>type==="name"&&exactName(query,caption));
  const chapter=described.some(({type})=>type==="scripture");
  const bookExact=described.some(({type,caption})=>type==="book"&&normalize(caption)===normalize(query));
@@ -111,5 +219,5 @@ function schedule(){
 searchInput.addEventListener("input",()=>{latest=searchInput.value.trim();schedule()});
 const observer=new MutationObserver(schedule);
 observer.observe(searchResults,{childList:true});
-root.SOTWSearchCoordinator={version:"scripture-first-v1",refresh:schedule};
+root.SOTWSearchCoordinator={version:"passage-evidence-v2",refresh:schedule};
 })(typeof globalThis==="object"?globalThis:this);
