@@ -167,5 +167,7 @@ searchInput.addEventListener("input",()=>{
   }
  },240);
 });
+searchNote.textContent="Search Bible references, current-chapter Scripture text, published Bible Questions, Bible Topics, and Jacob Lannom commentary. Whole-Bible text indexing is still being developed.";
+searchInput.placeholder="John 3:16, Moses snake on stick, Bible Questions or Topics";
 root.SOTWUniversalSearch={reload:()=>{rows=null;loading=null},sourceStatus:"SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED"};
 })(typeof globalThis==="object"?globalThis:this);
