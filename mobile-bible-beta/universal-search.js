@@ -211,7 +211,7 @@ searchInput.addEventListener("input",()=>{
   }
  },240);
 });
-searchNote.textContent="Search Bible references, current-chapter Scripture text, published Bible Questions, review-eligible People & Places profiles, Bible Topics, and Jacob Lannom commentary. Whole-Bible text indexing is still being developed.";
+searchNote.textContent="Find a Bible passage, approved person/place profile, Bible Question, Topic, or Jacob commentary. Scripture-word search currently covers this chapter.";
 searchInput.placeholder="John 3:16, Abraham, Moses snake on stick, or Topics";
 root.SOTWUniversalSearch={
  reload:()=>{rows=null;loading=null},
