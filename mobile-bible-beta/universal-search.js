@@ -150,35 +150,51 @@ function render(matches){
  host.append(textNode("h4","universal-qa-heading",
    "Bible Questions · unfoldingWord ("+matches.length+" matches · "+groups.length+" answers)"));
  const listings=document.createElement("div");listings.className="universal-qa-results";
- async function preview(row,card){
+ async function preview(row,anchor){
+  // A cited Scripture reference reads in Search first. Only the separate
+  // "Open in Bible" action changes the active passage or closes Search.
+  const existing=anchor.nextElementSibling;
+  if(existing?.classList.contains("universal-scripture-preview")){
+   existing.remove();return;
+  }
+  const card=anchor.closest(".universal-qa-card");
+  card?.querySelectorAll(".universal-scripture-preview").forEach(el=>el.remove());
   const target=(row[3]||[]).find(t=>Array.isArray(t)&&bookOf(t[0])&&t[1]>0&&t[2]>0);
   if(!target)return;
   const [code,chapter,verse]=target,book=bookOf(code);
-  card.querySelectorAll(".universal-scripture-preview").forEach(el=>el.remove());
   const panel=document.createElement("section");panel.className="universal-scripture-preview";
+  panel.setAttribute("aria-label","Scripture preview");
   panel.style.cssText="border:1px solid #66858e;border-radius:10px;padding:12px;margin:10px 0;background:#1d3038;color:#e8f1f3";
   const heading=document.createElement("div");heading.style.cssText="display:flex;align-items:center;justify-content:space-between;gap:10px";
   heading.append(textNode("strong","",reference(target)+" · "+state.edition));
   const close=textNode("button","","×");close.type="button";close.setAttribute("aria-label","Close Scripture preview");
   close.style.cssText="padding:5px 11px;border:1px solid #67808a;border-radius:8px;background:transparent;color:inherit";
-  close.addEventListener("click",()=>panel.remove());heading.append(close);panel.append(heading);
-  const body=textNode("p","","Loading verified published Scripture…");body.style.lineHeight="1.7";panel.append(body);
+  close.addEventListener("click",()=>{panel.remove();anchor.focus({preventScroll:true});});
+  heading.append(close);panel.append(heading);
+  const body=textNode("p","","Loading verified published Scripture…");
+  body.style.lineHeight="1.7";body.style.whiteSpace="pre-line";panel.append(body);
   const open=textNode("button","universal-qa-show-more","Open in Bible");open.type="button";
-  open.addEventListener("click",()=>navigate(row,open));panel.append(open);card.append(panel);
+  open.addEventListener("click",()=>navigate(row,open));panel.append(open);
+  anchor.insertAdjacentElement("afterend",panel);
   try{
    const edition=state.edition,entry=EDITIONS[edition];
    const url="https://raw.githubusercontent.com/"+entry[1]+"/main/data/"+entry[2]+"/"+book.slug+"/chapters/"+String(chapter).padStart(2,"0")+".json";
    const [idx,bib]=await Promise.all([getJson(snapshotRoot(book)+"index/"+code+"/"+chapter+".json"),fetchTranslationWithFallback(url)]);
    if(!panel.isConnected)return;
    if(idx?.canonical_chapter!==code+"."+chapter||Number(idx.verse_count)<verse||bib.book_code!==code||bib.chapter!==chapter||bib.edition_id!==edition)throw Error("Source identity mismatch");
-   const found=bib.verses?.find(v=>Number(v.verse)===verse);
-   if(!found)throw Error("Verse missing");
-   body.textContent=(found.spans||[]).map(part=>part.text||"").join("")||"No published verse text";
+   // Show the cited same-chapter verse range, not just the first verse.
+   // Cap long previews and keep the full cited reference intact on the card.
+   const last=Number(target[3])>=verse?Math.min(Number(target[3]),verse+19):verse;
+   const found=(bib.verses||[]).filter(v=>Number(v.verse)>=verse&&Number(v.verse)<=last);
+   if(found.length!==last-verse+1)throw Error("Cited verse missing");
+   const lines=found.map(v=>Number(v.verse)+" "+(v.spans||[]).map(part=>part.text||"").join("").trim());
+   if(lines.some(line=>!line.replace(/^\d+\s*/,"").trim()))throw Error("Verse text missing");
+   body.textContent=lines.join("\n")+(Number(target[3])>last?"\nPreview limited to 20 verses. Open in Bible for the complete cited passage.":"");
   }catch(_){if(panel.isConnected)body.textContent="This verse cannot be verified in the selected translation right now. Open in Bible to retry."}
  }
  function scriptureButton(row,label){
   const ref=textNode("button","search-hit universal-qa-ref",label+" "+row[3].map(reference).filter(Boolean).join(" · ")+" · "+state.edition);
-  ref.type="button";ref.addEventListener("click",()=>navigate(row,ref));return ref;
+  ref.type="button";ref.addEventListener("click",()=>preview(row,ref));return ref;
  }
  function cardFor(cluster){
   const row=cluster[0],card=document.createElement("article");
@@ -191,16 +207,14 @@ function render(matches){
   card.append(textNode("h5","universal-qa-question",row[1]));
   card.append(textNode("span","universal-qa-answer-label","Published answer"));
   card.append(textNode("p","universal-qa-answer",row[2]));
-  const peek=textNode("button","universal-qa-show-more","Preview cited Scripture");peek.type="button";
-  peek.addEventListener("click",()=>preview(row,card));card.append(peek);
-  card.append(scriptureButton(row,"Open cited passage:"));
+  card.append(scriptureButton(row,"Read cited Scripture:"));
   if(cluster.length>1){
    const more=document.createElement("details");more.className="universal-qa-variants";
    more.append(textNode("summary","",cluster.length-1+" more questions with this same published answer"));
    for(const variant of cluster.slice(1)){
     const item=document.createElement("div");item.className="universal-qa-variant";
     item.append(textNode("p","",variant[1]));
-    item.append(scriptureButton(variant,"Open cited passage:"));
+    item.append(scriptureButton(variant,"Read cited Scripture:"));
     more.append(item);
    }
    card.append(more);
