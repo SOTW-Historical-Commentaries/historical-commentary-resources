@@ -65,4 +65,30 @@ assert(script.includes('close.addEventListener("click",()=>{panel.remove();ancho
 assert(!script.includes("data/historical/"),"Excluded historical collection must not load");
 assert(script.includes("sourcesHeading.after(sourceDisclosure)"),"Q&A attribution must live inside hamburger source section");
 assert(script.includes('sourceDisclosure.open=true'),"Source control expands its own entry");
+// Shared coordination ranks published source sections without creating facts
+// or changing adapter-owned IDs, ranges, author scopes or click behavior.
+const coordinatorContext={};coordinatorContext.globalThis=coordinatorContext;
+vm.createContext(coordinatorContext);
+vm.runInContext(fs.readFileSync(path.join(root,"search-coordinator.js"),"utf8"),coordinatorContext);
+const coord=coordinatorContext.SOTWSearchCoordinatorCore;
+assert(coord&&typeof coord.order==="function");
+assert.equal(coord.exactName("Who was Noah?","Noah"),true);
+assert.equal(coord.exactName("Noah","Noah, Noah's family"),true);
+const types=(groups,q)=>Array.from(coord.order(groups,q),g=>g.type);
+assert.deepEqual(types([
+ {type:"questions",caption:"What did Moses lift on the pole?"},
+ {type:"topic",caption:"Moses"},
+ {type:"scripture",caption:"Current chapter"}
+],"Moses snake on stick"),["scripture","questions","topic"]);
+assert.deepEqual(types([
+ {type:"scripture",caption:"Current chapter"},
+ {type:"questions",caption:"Who was Noah?"},
+ {type:"name",caption:"Noah"}
+],"Noah"),["name","scripture","questions"]);
+assert(coord.weight("jacob","Jacob Romans 12","")>coord.weight("topic","Jacob Romans 12","Romans"));
+for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
+ const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
+ assert(html.includes("search-coordinator.js?v=20261122-search1"),"Both branded readers load the coordinator");
+}
+
 console.log("PASS: 12,139 unique source-unaltered Q&A; valid passage IDs; natural/fuzzy ranking; two-brand wiring");
