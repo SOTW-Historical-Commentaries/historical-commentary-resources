@@ -3,6 +3,20 @@
 
 
 
+
+## 2026-11-22 | SOURCE-VERIFIED TOPIC COVERAGE FOR NATURAL-LANGUAGE SEARCH RELEASED
+
+**Release / scope:** PR #28 merged to SOTW Reader `main` at `eae117156ab4d1aa23b7fc8dfb4fef4b6453cb6e`. This is the next bounded Search coverage improvement, not a full semantic engine. A shared change to `mobile-bible-beta/discovery-integrations.js` is loaded by the CGBC-branded and separately branded SOTW Study Bible with script version `20261122-discovery12` and independent PWA shell caches CGBC v0203, SOTW v0021. Exact prior `main` preserved at `safety/pre-topic-intent-search-20261122-c2147c5e` -> `c2147c5e041fe04478b932c1cf32936b9daa4567`.
+
+**Observed gap and verified source:** The owner showed Search `Moses snake on stick`: a relevant original Q&A is now top-ranked, but the existing historical Nave/Torrey index topic `NEUU:TOPIC:brazen_serpent` / `BRAZEN SERPENT` was excluded by literal-title matching. The actual published indexed title has three mapped verse links in its source shard `topics/B.json`: original references `2 Kings 18:4` and `John 3:14,15`. The first overlaps the published Q&A's exact 2 Kings 18:4 target; the second is an original historical index association, not an independent theology claim or invented Numbers 21 link.
+
+**Implementation:** Search-only phrase matching retrieves that source title for a specifically described snake/serpent ON a pole/stick or bronze/brass/brazen snake/serpent. The historical-source ID, exact indexed title, and positive `verse_link_count` are mandatory. It does not fabricate a topic or Bible reference, does not change the historical topic's actual citations, and does not merge separate doctrinal claims. Unrelated descriptions such as `Moses staff became a snake`, `Moses snake on ground`, and `bronze basin` do not recover the brazen serpent topic. Existing literal topic searches and other published source modules are unchanged. The existing canonical Search coordinator groups the relevant Bible Question and historical index record via their shared, independently published 2 Kings 18:4 target.
+
+**QA:** Source/integrity PASS on final feature head `e4810572591a760b68124d10376bf62376d8d655` in Actions `45081747778`; full two-brand Chromium browser PASS on runtime-equivalent head `75c32b3856fd761cf95916c46e6a72d159398dea` in Actions `45081743649`. Git compare confirmed only source workflow YAML changed after the browser-tested head. New `search-topic-intent-browser.test.cjs` checks natural query -> verified historical title, shared 2 Kings 18:4 citation, original 2 Kings and John references, return-to-search, excluded staff-to-snake query, and both independent brands. Existing tests for source fidelity, both PWA caches, selected-edition Bible, name Q&A and Jacob stay required.
+
+**Acceptance / next gate:** GitHub Pages publication is separate from the successful merge and must be verified through the final workflow. Physical iPhone acceptance remains owner-controlled. Next Search work: analyze additional actual source-backed natural-language misses across approved Q&A/topics/names/Jacob records, not add speculative mappings. Whole-Bible literal text search and Bible Quiz remain separate phases. Leave Search layout refinement deferred. Do not change accepted Scripture text, Jacob author JSON, Concept Registry v2, CGBC Info Map, media player, historical master or rights.
+
+
 ## 2026-11-22 | SEARCH RELEVANCE: MOSES SNAKE ON STICK INTENT FIX RELEASED
 
 **Owner's physical iPhone evidence:** Search for `Moses snake on stick` returned generic Moses staff-to-snake Bible Questions first, with the existing bronze-serpent question far down the list. This is a retrieval/ranking defect, not a missing published Q&A or broken Scripture citation. Owner also showed `Noah` and the original publisher Q&A cards; no UI redesign is authorized in this stage.
