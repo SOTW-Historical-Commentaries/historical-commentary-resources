@@ -177,7 +177,14 @@ function passageSummary(query){
   details.append(actions);host.append(details);
  }
  host._sources=groups.flatMap(g=>g.members.map(m=>m.element)).filter(Boolean);
- if(old)old.replaceWith(host);else searchResults.prepend(host);
+ if(old)old.replaceWith(host);
+ else {
+  // Exact approved name profiles remain the first result for name queries.
+  const nameSection=searchResults.querySelector(":scope > .universal-name-section");
+  const exact=nameSection&&[...nameSection.querySelectorAll(".universal-name-title")]
+   .some(title=>exactName(query,title.textContent));
+  if(exact)nameSection.after(host);else searchResults.prepend(host);
+ }
 }
 function sync(){
  if(!searchModal.veil.classList.contains("is-open"))return;
