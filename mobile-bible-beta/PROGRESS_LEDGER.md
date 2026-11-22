@@ -1,5 +1,10 @@
 # SOTW BIBLE READER — PROGRESS LEDGER
 
+## 2026-11-22 | OWNER TEST STATUS — NOT YET TESTED
+
+**Owner explicitly confirms the recent Universal Search changes have NOT been tested by the owner.** Keep the milestone **AWAITING OWNER TESTING / NOT ACCEPTED**. Commits `f067bebbe268e3f8763b025eb1ccb47e93f20bba` (repeat citation and collapsed Q&A) and `3a8371280711399def8131f617306c21edcd12c6` (inline cited-Scripture preview) represent source implementation only. Do not infer live GitHub Pages publication, mobile/desktop QA, correct behavior, acceptance, or milestone PASS from these commits. Remaining work: verify deployed version, test iPhone/desktop preview/close/open/return, evaluate search placement of accepted Nave/Torrey topics, independently benchmark Q&A source/citation integrity and natural-language relevance, then record actual observed outcomes. Preserve established Nave/Torrey validity and verse-tool integration without reopening source validation.
+
+
 ## 2026-11-22 | DESKTOP STUDY WORKSPACE REBALANCED (OWNER MAC SCREENSHOT)
 
 **Post-merge compatibility correction (2026-11-22):** The combined `main` Chromium run after PR #21 initially failed on a strict locator, not the desktop UI: concurrent Universal Search work added an inline `Preview cited Scripture` control with the same CSS class as `Show related Bible Questions answers`. PR #22 https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/22 merged the scoped test selector to `main` at `613a8a6342631e4d6b1531128d3682a998e0faf9`. Full combined source/regression QA on PR #22 head **PASS** https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/actions/runs/45037294921. This follow-up is a **test-only** selector repair; the inline Scripture preview, Q&A rankings, source records, and desktop styling were not changed. The already-positive desktop geometry gate continued to pass. GitHub Pages publication of latest main and owner Mac Safari visual acceptance are independently qualified.
