@@ -108,6 +108,7 @@ async function navigate(row,button){
   searchInput.blur();searchModal.veil.classList.remove("is-open");
   modernJumpToVerse(verse);
   root.SOTWReaderTrail?.commit(trail);
+  button.disabled=false; // Returning to search must allow reopening the same citation.
  }catch(error){
   button.disabled=false;
   button.textContent="Unable to open this passage in "+state.edition+". Try again.";
@@ -178,14 +179,14 @@ function render(matches){
   }
   return card;
  }
- groups.slice(0,5).forEach(cluster=>listings.append(cardFor(cluster)));
+ groups.slice(0,1).forEach(cluster=>listings.append(cardFor(cluster)));
  host.append(listings);
- if(groups.length>5){
+ if(groups.length>1){
   const more=document.createElement("button");more.type="button";
   more.className="universal-qa-show-more";
-  more.textContent="Show "+(groups.length-5)+" more Bible Questions answers";
+  more.textContent="Show "+(groups.length-1)+" related Bible Questions answers";
   more.addEventListener("click",()=>{
-   groups.slice(5).forEach(cluster=>listings.append(cardFor(cluster)));
+   groups.slice(1).forEach(cluster=>listings.append(cardFor(cluster)));
    more.remove();
   });
   host.append(more);
