@@ -59,9 +59,10 @@ const {chromium}=require('playwright-core');
   await page.locator('#verses [data-verse="1"]').first().click();
   assert.equal(await page.locator('.discovery-bsb').count(),0,
    'Redundant BSB original-language order panel must be absent');
-  assert.equal(await page.locator('.discovery-study .discovery-launch').count(),1,
-   'Study should show only the compact Related Bible Topics action');
-  assert.match(await page.locator('.discovery-study .discovery-launch').innerText(),/Related Bible Topics/);
+  assert.equal(await page.locator('.discovery-study .discovery-launch').count(),2,
+   'Study retains Related Bible Topics plus opt-in source-linked Bible Questions');
+  assert.match(await page.locator('.discovery-study').first().locator('.discovery-launch').innerText(),/Related Bible Topics/);
+  assert.match(await page.locator('#sotwVerseQuestions .discovery-launch').innerText(),/Bible Questions/);
   // Word-by-Word remains the single full original-language study for BSB.
   await page.locator('#originalLanguageEntry').waitFor({state:'visible'});
   await page.locator('#originalLanguageEntry').click();
@@ -74,11 +75,11 @@ const {chromium}=require('playwright-core');
   assert.match(await rows.nth(2).innerText(),/Not separately translated/);
   assert.equal(await page.locator('#studyOverlay .word-sequence-plain').count(),0);
   await page.locator('#studyOverlayBack').click();
-  await page.locator('.discovery-study .discovery-launch').first().click();
-  await page.locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
-  assert.match(await page.locator('.discovery-verse-body').innerText(),/Topics indexed for this verse/);
+  await page.locator('.discovery-study').first().locator('.discovery-launch').click();
+  await page.locator('.discovery-study').first().locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
+  assert.match(await page.locator('.discovery-study').first().locator('.discovery-verse-body').innerText(),/Topics indexed for this verse/);
   assert(!/People, places & events|Chapter-level context/.test(
-   await page.locator('.discovery-verse-body').innerText()));
+   await page.locator('.discovery-study').first().locator('.discovery-verse-body').innerText()));
   // Regression: the owner's screenshot verse remains fully aligned to BSB
   // English-order glosses, without a second language-order panel.
   await page.goto('http://127.0.0.1:8765/mobile-bible-beta/?book=MAT&chapter=5&verse=18&translation=BSB',
