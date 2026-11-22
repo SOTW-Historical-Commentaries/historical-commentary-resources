@@ -14,6 +14,15 @@
 
 
 
+## 2026-11-21 (local; 2026-11-22 UTC) | UNIVERSAL SEARCH Q&A MILESTONE MERGED, FULL V1 STILL IN PROGRESS
+
+**Read this release status before the older planning entry below.** PR #17 is merged to `main`: `f619d6ed669371ba9b51c29f82bbc6e79cc81098`. Safety baseline: `0bad5dce6f1fac6069fbb843f88978f5dab4f032` at `safety/pre-universal-search-20261121-0bad5dce`. This release integrates the complete 12,139-record pinned unfoldingWord v91 Q&A index (eight generated shards), query/answer fuzzy and colloquial retrieval, approved Bible Questions card layout, centralized CC BY-SA 4.0 source notice, and verified passage jumps in the active reader translation in both reader brands. Reproducible generator: `mobile-bible-beta/scripts/build-universal-search.mjs --verify`. Source/Node smoke PASS 44988385657; Chromium browser regression PASS 44988385739. PWA caches: CGBC v0192 and SOTW v0010.
+
+**Not yet implemented:** whole-Bible verse-text index, final unified search filters, approved name/article profile integration, and evidence-qualified Concept Registry/Info Map semantic search. Existing reader Scripture reference/current-chapter text, Bible Topics and accepted Jacob commentary search still work independently. Do not import the separate historical people/place master or the 355 names candidates pending acceptance; do not present 9,303 explicit name-to-Q&A links as new Q&A records. Bible Quiz is still a separate future phase.
+
+**Delivery qualification:** code is merged to main, but an independent public GitHub Pages fetch was unavailable here and physical iPhone acceptance remains PENDING. Verify the actual hosted reader before claiming Pages PASS. See `PROGRESS_LEDGER.md` for exact source evidence, exclusions, tests and release history. Retain the standing release authorization above.
+
+
 ## 2026-11-21 | OWNER-APPROVED UNIVERSAL SEARCH + Q&A DESIGN; BIBLE-FIRST RESULT GATE; QUIZ SEPARATE
 
 DESIGN DECISION ONLY, NOT INSTALLED. Owner approves universal search spanning Scripture addresses and text, existing Bible Topics, published Jacob Lannom commentary and evidence-linked concepts (inspect live Info Map 3.0 / Concept Registry v2 and Jacob schema before adapter design), unfoldingWord v91 Bible Q&A questions AND answers, and natural/approximate phrasing such as "Moses snake on stick." A result MUST have an actual source-supported Scripture reference or passage range; exclude unreferenced items, never fabricate a link or relationship. Opening any result navigates to its verified passage in the reader's CURRENT selected edition (KJV1769/ASV1901/BSB/WEBSTER1833), preserving return-to-search and existing Word-by-Word, Topics and Commentary tools. Rank and group evidence-backed matches, preserve original source wording and provenance, and do not present similarity as theological verification. Q&A verse-study discovery remains secondary to universal search.
