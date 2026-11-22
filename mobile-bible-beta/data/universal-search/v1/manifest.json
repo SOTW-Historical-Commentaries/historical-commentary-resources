@@ -1,0 +1,54 @@
+{
+  "schema": "sotw-reader-universal-search-manifest/1.0.0",
+  "indexVersion": "1.0.0",
+  "source": {
+    "repository": "Stewards-of-the-Way/bible-foundation",
+    "commit": "b4a7702a8bb1f7410514b7f44663c49ecfd25d33",
+    "path": "data/unfoldingword/v91/qa/",
+    "resource": "en_tq",
+    "version": "91",
+    "originalRecordCount": 12139,
+    "license": "CC BY-SA 4.0",
+    "attributionId": "utq-v91",
+    "reviewStatus": "SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED"
+  },
+  "indexedRecords": 12139,
+  "shards": [
+    {
+      "path": "questions-01.json",
+      "count": 2677
+    },
+    {
+      "path": "questions-02.json",
+      "count": 3498
+    },
+    {
+      "path": "questions-03.json",
+      "count": 1390
+    },
+    {
+      "path": "questions-04.json",
+      "count": 476
+    },
+    {
+      "path": "questions-05.json",
+      "count": 2758
+    },
+    {
+      "path": "questions-06.json",
+      "count": 509
+    },
+    {
+      "path": "questions-07.json",
+      "count": 509
+    },
+    {
+      "path": "questions-08.json",
+      "count": 322
+    }
+  ],
+  "excludedSources": [
+    "separate-historical-people-places",
+    "unreviewed-name-profile-articles"
+  ]
+}
