@@ -9,32 +9,76 @@ const TOPICS='https://raw.githubusercontent.com/Stewards-of-the-Way/bible-founda
 const SOURCE='https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/topics/nave-torrey/v1';
 const asText=x=>String(x??'').trim();
 const norm=x=>asText(x).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ');
-// Retrieval-only expression normalizer. It does NOT assign a Scripture
-// reference; every opened topic keeps the publisher's original mapped links.
-function topicQueryIntent(query){
- const q=norm(query).replace(/[^a-z0-9]+/g,' ').trim();
- const serpent=/\b(?:snake|serpent|snakes|serpents)\b/.test(q);
- const bronze=/\b(?:bronze|brass|brazen)\b/.test(q);
- const mounted=/\b(?:snake|serpent|snakes|serpents)\s+(?:on|upon)\s+(?:(?:a|the)\s+)?(?:stick|pole)\b/.test(q);
- return serpent&&(bronze||mounted)?'BRAZEN SERPENT':'';
-}
-function rankTopics(rows,query,limit=8){
+// Reusable evidence bridge: any source-published Q&A citation may lead to
+// original historical topics indexed to the SAME exact verse. Topic title
+// terms must be present in the source Q&A (with the shared lexical matcher).
+// No biblical person, event, topic, or passage is hardcoded here.
+function rankTopics(rows,query,limit=8,linked=[]){
  const q=norm(query);
  if(q.length<2||!Array.isArray(rows))return [];
  const rank=x=>{const t=norm(x.title);
   return t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;};
- const valid=x=>x&&x.id&&x.title&&Number(x.verse_link_count)>0;
- const matches=rows.filter(x=>valid(x)&&rank(x)<99);
- const intent=topicQueryIntent(query);
- if(intent){
-  // Exact pinned source title/ID only, and still only when the index reports
-  // mapped Scripture. No topic is fabricated from a user phrase.
-  const source=rows.find(x=>valid(x)&&x.id==='NEUU:TOPIC:brazen_serpent'&&
-   norm(x.title)===norm(intent));
-  if(source&&!matches.some(x=>x.id===source.id))matches.push(source);
+ const valid=x=>x&&typeof x.id==='string'&&x.title&&
+  Number.isInteger(x.verse_link_count)&&x.verse_link_count>0;
+ const literal=rows.filter(x=>valid(x)&&rank(x)<99)
+  .sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title));
+ const result=literal.slice(0,limit),ids=new Set(result.map(t=>t.id));
+ // Real reverse-index associations are supplemental, not interchangeable
+ // with direct title matches or proof of the historical claim.
+ for(const t of linked){
+  if(result.length>=limit)break;
+  if(valid(t)&&!ids.has(t.id)){result.push(t);ids.add(t.id)}
  }
- return matches.sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title))
-  .slice(0,limit);
+ return result;
+}
+function evidenceLinkedTopics(topics,questionMatches,byBook,core,limit=8){
+ if(!Array.isArray(topics)||!Array.isArray(questionMatches)||
+    !byBook||typeof byBook!=='object'||typeof core?.words!=='function'||
+    typeof core?.tokenMatch!=='function')return [];
+ const eligible=new Map(topics.filter(t=>t&&typeof t.id==='string'&&
+  Number.isInteger(t.verse_link_count)&&t.verse_link_count>0&&t.title)
+  .map(t=>[t.id,t]));
+ const ranked=new Map();
+ const high=questionMatches[0]?.score||0;
+ for(const {row,score} of questionMatches.slice(0,8)){
+  if(!Array.isArray(row)||!row[0]?.startsWith('utq:v91:')||
+     !Array.isArray(row[3])||score<Math.max(17,high*.55))continue;
+  const context=new Set(core.words(row[1]+' '+row[2]));
+  for(const target of row[3]){
+   if(!Array.isArray(target)||target.length<3)continue;
+   const [book,chapter,first,last]=target,idx=byBook[book];
+   if(idx?.schema!=='sotw-topics-scripture-index/1.0.0'||
+      idx.book_code!==book||!idx.verses||
+      !Number.isInteger(chapter)||!Number.isInteger(first)||
+      chapter<1||first<1||first>176)continue;
+   const end=Number.isInteger(last)&&last>=first?Math.min(last,first+3):first;
+   for(let verse=first;verse<=end;verse++){
+    for(const id of idx.verses[book+'.'+chapter+'.'+verse]||[]){
+     const topic=eligible.get(id);
+     if(!topic)continue;
+     const terms=core.words(topic.title);
+     if(!terms.length)continue;
+     const count=terms.filter(t=>core.tokenMatch(t,context)>=.7).length;
+     if(count<Math.max(1,Math.ceil(terms.length*.75)))continue;
+     const relevance=score*(count/terms.length);
+     if(relevance>(ranked.get(id)?.score||0))ranked.set(id,{topic,score:relevance});
+    }
+   }
+  }
+ }
+ return [...ranked.values()].sort((a,b)=>b.score-a.score||
+    a.topic.title.localeCompare(b.topic.title)).slice(0,limit).map(x=>x.topic);
+}
+function requiredTopicBooks(matches,limit=3){
+ const result=[];
+ for(const {row} of (matches||[]).slice(0,8)){
+  for(const ref of row[3]||[]){
+   const book=ref?.[0];
+   if(typeof book==='string'&&!result.includes(book))result.push(book);
+   if(result.length>=limit)return result;
+  }
+ }
+ return result;
 }
 function parseScope(scope,bookRows){
  const m=/^([1-3]?[A-Z]{2,3})\.(\d+)(?:\.(\d+))?$/.exec(asText(scope));
@@ -224,9 +268,25 @@ searchResults.after(pending);
 let seq=0,timer=0;
 async function appendTopicSearch(query,current){
  try{
-  const topics=rankTopics(await topicsIndex(),query,8);
+  const indexed=await topicsIndex();
   if(current!==seq||norm(searchInput.value)!==norm(query)||
    !searchModal.veil.classList.contains('is-open'))return;
+  let matches=[],byBook={};
+  try{
+   // The Q&A adapter caches the original publisher shards; reused here.
+   // Reverse indexes are existing published source artifacts, not inference.
+   matches=await root.SOTWUniversalSearch?.searchCandidates(query,8)||[];
+   const books=requiredTopicBooks(matches,3);
+   const indexes=await Promise.allSettled(books.map(book=>
+    sourceJson(TOPICS+'index/by-scripture/'+book+'.json')));
+   books.forEach((book,i)=>{if(indexes[i].status==='fulfilled')
+    byBook[book]=indexes[i].value;});
+  }catch(_){/* Literal historical topic lookup stays usable. */}
+  if(current!==seq||norm(searchInput.value)!==norm(query)||
+   !searchModal.veil.classList.contains('is-open'))return;
+  const linked=evidenceLinkedTopics(indexed,matches,byBook,
+   root.SOTWUniversalSearchCore,8);
+  const topics=rankTopics(indexed,query,8,linked);
   pending.hidden=true;
   if(!topics.length)return;
   searchResults.append(el('h4','discovery-search-label','Historical Bible Topics · Nave/Torrey'));
