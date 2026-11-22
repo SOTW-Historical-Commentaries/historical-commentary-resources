@@ -18,3 +18,13 @@
 .mobile-beta.beta-light .universal-qa-open{color:#233f49}
 .mobile-beta.beta-light .universal-qa-answer{color:#3d5861}
 .mobile-beta.beta-light .universal-qa-ref{background:#e3f0ee;color:#255464;border-color:#9dbdbb}
+
+/* The hamburger owns one structured source-information section. */
+.mobile-beta #readerMoreModal .more-sources-section{
+ margin-top:18px;padding-top:12px;border-top:1px solid #52646d;
+}
+.mobile-beta #readerMoreModal .more-sources-section>h3{
+ margin:0 0 11px;color:#b8dbe5;font:700 14px/1.4 system-ui;
+}
+.mobile-beta.beta-light #readerMoreModal .more-sources-section{border-color:#bbcdca}
+.mobile-beta.beta-light #readerMoreModal .more-sources-section>h3{color:#345963}

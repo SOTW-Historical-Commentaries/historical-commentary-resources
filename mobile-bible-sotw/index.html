@@ -484,7 +484,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
 <link rel="stylesheet" href="./study-ux-repair.css?v=20261118-reader162">
 <link rel="stylesheet" href="./discovery-integrations.css?v=20261120-discovery4">
-<link rel="stylesheet" href="../mobile-bible-beta/universal-search.css?v=20261121-us1">
+<link rel="stylesheet" href="../mobile-bible-beta/universal-search.css?v=20261121-us2">
 </head>
 <body class="mobile-beta">
 <header><div class="head-inner"><div><div class="brand">Servants of the Way · Scripture Library</div><h1>Servants of the Way Bible</h1><p>Scripture first. Study when you want to go deeper.</p></div><nav class="head-links" aria-label="Related libraries"><a href="../review-jacob-coverage.html" target="_blank" rel="noopener">Jacob coverage archive</a><a href="../review-jake-scripture.html" target="_blank" rel="noopener">Jacob-only reader</a><a href="../index.html" target="_blank" rel="noopener">Historical library</a></nav></div></header>
@@ -883,6 +883,15 @@ appearanceButton.setAttribute('aria-label','Switch between light and dark readin
 const appearanceTitle=document.createElement('span');appearanceTitle.className='more-item-title';appearanceTitle.textContent='☼  Appearance';
 const appearanceState=document.createElement('span');appearanceState.className='more-item-note';
 appearanceButton.append(appearanceTitle,appearanceState);moreModal.panel.append(appearanceButton);
+// Keep all resource notices inside one explicit hamburger section.
+const sourcesSection=document.createElement('section');
+sourcesSection.id='readerSourcesAttribution';
+sourcesSection.className='more-sources-section';
+sourcesSection.setAttribute('aria-labelledby','readerSourcesHeading');
+const sourcesHeading=document.createElement('h3');
+sourcesHeading.id='readerSourcesHeading';
+sourcesHeading.textContent='Sources & Attribution';
+sourcesSection.append(sourcesHeading);moreModal.panel.append(sourcesSection);
 function syncMoreAppearance(){appearanceState.textContent=document.body.classList.contains('beta-light')?'Light mode · Switch to dark':'Dark mode · Switch to light';}
 function addMoreResource(title,description,links){
  const disclosure=document.createElement('details');disclosure.className='more-resource';
@@ -897,7 +906,7 @@ function addMoreResource(title,description,links){
   }
   disclosure.append(resources);
  }
- moreModal.panel.append(disclosure);
+ sourcesSection.append(disclosure);
 }
 addMoreResource('Bible translations',
  'Read KJV 1769, ASV 1901, Berean Standard Bible, and Webster 1833 as distinct published editions. The translation selector chooses which Bible text you are reading.',
@@ -1707,6 +1716,6 @@ editionModal.veil.addEventListener('click',event=>{
 <script src="./reader-return.js?v=20261118-return1"></script>
 <script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
 <script src="./reader-trail.js?v=20261119-trail2"></script>
-<script src="../mobile-bible-beta/universal-search.js?v=20261121-us1"></script>
+<script src="../mobile-bible-beta/universal-search.js?v=20261121-us2"></script>
 </body>
 </html>

@@ -118,7 +118,9 @@ function openSource(event){
  searchModal.veil.classList.remove("is-open");
  moreModal.veil.classList.add("is-open");
  sourceDisclosure.open=true;
+ // Open the existing Sources & Attribution section, not an orphan menu item.
  sourceDisclosure.scrollIntoView({block:"nearest"});
+ sourceDisclosure.querySelector("summary")?.focus({preventScroll:true});
 }
 const sourceDisclosure=document.createElement("details");sourceDisclosure.className="more-resource";sourceDisclosure.id="universalSearchAttribution";
 sourceDisclosure.append(textNode("summary","","Bible Questions · unfoldingWord v91"));
@@ -130,7 +132,7 @@ const urls=[
 const linkbox=document.createElement("div");linkbox.className="more-resource-links";
 for(const [label,url] of urls){const a=textNode("a","",label);a.href=url;a.target="_blank";a.rel="noopener noreferrer";linkbox.append(a)}
 sourceDisclosure.append(linkbox);
-moreModal.panel.append(sourceDisclosure);
+sourcesHeading.after(sourceDisclosure);
 function render(matches){
  document.querySelectorAll(".universal-qa-section").forEach(e=>e.remove());
  if(!matches.length)return;
