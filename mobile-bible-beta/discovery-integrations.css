@@ -26,14 +26,14 @@
 }
 .mobile-beta .discovery-guide{font:12px/1.5 system-ui;color:#a9c6cf;margin:10px 0}
 .mobile-beta .discovery-error{font:12px/1.5 system-ui;color:#f0b8a8;padding:9px 0}
-.mobile-beta .discovery-topic-groups{display:grid;gap:8px;margin:14px 0}
+.mobile-beta .discovery-topic-groups{display:grid;gap:0;margin:9px 0 12px;min-width:0}
 .mobile-beta .discovery-topic-group{
- min-width:0;border:1px solid #415b65;border-radius:10px;background:#1f343e;
- padding:0 11px;
+ min-width:0;border:0;border-bottom:1px solid #40545d;border-radius:0;
+ background:transparent;padding:0;
 }
 .mobile-beta .discovery-topic-summary{
  display:flex;align-items:center;justify-content:space-between;gap:10px;
- cursor:pointer;min-height:50px;padding:10px 0;font:650 13px/1.4 system-ui;
+ cursor:pointer;min-height:46px;padding:10px 1px;font:650 14px/1.4 system-ui;
  color:#e1edf1;list-style-position:inside;
 }
 .mobile-beta .discovery-topic-summary span{flex:1;min-width:0;overflow-wrap:anywhere}
@@ -41,31 +41,32 @@
  color:#acc7cf;font:11px/1.4 system-ui;white-space:nowrap;
 }
 .mobile-beta .discovery-topic-group[open] .discovery-topic-summary{
- border-bottom:1px solid #3c535e;margin-bottom:5px;
+ border-bottom:0;margin-bottom:0;
 }
 .mobile-beta .discovery-source-heading{
  font:11px/1.45 system-ui;color:#aac3cc;margin:8px 0;
 }
 .mobile-beta .discovery-passage-list{
- display:grid;gap:7px;margin:10px 0;min-width:0;
+ display:grid;gap:1px;margin:5px 0 6px;min-width:0;
 }
 .mobile-beta .discovery-citation{
- display:block;width:100%;text-align:left;min-width:0;
- padding:10px 11px;border:1px solid #4e6b76;border-radius:8px;
- background:#294650;color:#e3f2f5;font:12px/1.45 system-ui;
+ display:flex;justify-content:space-between;align-items:center;gap:10px;
+ width:100%;min-width:0;min-height:42px;text-align:left;
+ padding:9px 7px;border:0;border-bottom:1px solid #344f5a;border-radius:0;
+ background:transparent;color:#e3f2f5;font:13px/1.45 system-ui;
  overflow-wrap:anywhere;cursor:pointer;touch-action:manipulation;text-decoration:none;
 }
 .mobile-beta .discovery-citation:hover,.mobile-beta .discovery-launch:hover{
- background:#385966;
+ background:#304852;
 }
 .mobile-beta .discovery-citation:focus-visible,.mobile-beta .discovery-more:focus-visible{
  outline:2px solid #b9e3f1;outline-offset:2px;
 }
 .mobile-beta .discovery-more{
- display:block;width:100%;min-height:39px;text-align:center;
- padding:7px 10px;margin:8px 0 12px;background:transparent;
- color:#b9dce8;border:1px solid #597784;border-radius:8px;
- font:650 12px/1.4 system-ui;cursor:pointer;
+ display:block;width:100%;min-height:38px;text-align:left;
+ padding:8px 7px;margin:1px 0 8px;background:transparent;
+ color:#b9dce8;border:0;border-radius:5px;
+ font:600 12px/1.4 system-ui;cursor:pointer;
 }
 .mobile-beta .discovery-link{
  display:inline-block;font:12px/1.5 system-ui;color:#bbdfeb;
@@ -89,9 +90,9 @@
 .mobile-beta.beta-light .discovery-study{background:#f3f7f5;border-color:#b4cbcc}
 .mobile-beta.beta-light .discovery-launch{background:transparent;color:#29424a}
 .mobile-beta.beta-light .discovery-launch-meta{color:#4b6670}
-.mobile-beta.beta-light .discovery-topic-group{background:#e6f0ef;border-color:#a4bcc4;color:#29424a}
-.mobile-beta.beta-light .discovery-citation{background:#e5f0f0;color:#24424a;border-color:#9cbac2}
-.mobile-beta.beta-light .discovery-more{color:#315762;border-color:#9cbac2}
+.mobile-beta.beta-light .discovery-topic-group{background:transparent;border-color:#cfdddd;color:#29424a}
+.mobile-beta.beta-light .discovery-citation{background:transparent;color:#24424a;border-color:#d5e1e2}
+.mobile-beta.beta-light .discovery-more{color:#315762;border-color:transparent}
 .mobile-beta.beta-light .discovery-note,
 .mobile-beta.beta-light .discovery-guide,
 .mobile-beta.beta-light .discovery-source-heading,
@@ -107,6 +108,25 @@
  .mobile-beta #sotwDiscoveryDetail .modal-content{
   width:calc(100vw - 20px)!important;max-height:88svh!important;
  }
- .mobile-beta .discovery-topic-summary{min-height:52px}
+ .mobile-beta .discovery-topic-summary{min-height:44px}
  .mobile-beta .discovery-topic-summary small{font-size:10px}
 }
+
+/* Verse-study topics: reading-oriented references, not a nested index table. */
+.mobile-beta .discovery-verse-heading{margin:12px 1px 0;font:650 16px/1.35 system-ui}
+.mobile-beta .discovery-verse-topic .discovery-topic-content{padding:0 1px 10px}
+.mobile-beta .discovery-verse-topic-section{margin:2px 0 7px;padding:7px 0 0;min-width:0}
+.mobile-beta .discovery-verse-topic-section+.discovery-verse-topic-section{
+ border-top:1px solid #354d56;padding-top:11px
+}
+.mobile-beta .discovery-section-title{
+ margin:0 0 4px;font:600 12px/1.45 system-ui;color:#c4dbe1;
+ text-transform:none;letter-spacing:0
+}
+.mobile-beta .discovery-reference-entry{min-width:0}
+.mobile-beta .discovery-citation::after{content:'›';flex:none;font-size:19px;line-height:1;opacity:.75}
+.mobile-beta .discovery-topic-group[open]>.discovery-topic-summary{color:#f0fafb}
+.mobile-beta .discovery-topic-summary:focus-visible{outline:2px solid #b9e3f1;outline-offset:2px}
+.mobile-beta.beta-light .discovery-verse-topic-section+.discovery-verse-topic-section{border-color:#d5e1e2}
+.mobile-beta.beta-light .discovery-section-title{color:#345864}
+.mobile-beta.beta-light .discovery-topic-group[open]>.discovery-topic-summary{color:#24424a}
