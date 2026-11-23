@@ -147,7 +147,7 @@ const VERIFIED_SACRED_CAPTIONS=Object.freeze([
 // Unverified trailing divine-name fragments must not reach readers. Do not
 // extrapolate automatic corrections from a partial word or rewrite the source.
 function isTruncatedSacredNameHeading(title){
- return /(?:^|[\\s,;:.])(?:Go|GO|Lor|LOR|Jes|JES|Jesu|JESU|Chri|CHRI|Chris|CHRIS|(?:Holy|HOLY)\\s+(?:Spi|Spir|Spiri|SPI|SPIR|SPIRI))\\s*$/u.test(asText(title));
+ return /(?:^|[\s,;:.])(?:Go|GO|Lor|LOR|Jes|JES|Jesu|JESU|Chri|CHRI|Chris|CHRIS|(?:Holy|HOLY)\s+(?:Spi|Spir|Spiri|SPI|SPIR|SPIRI))\s*$/u.test(asText(title));
 }
 
 function sourceHeading(label,context={}){
