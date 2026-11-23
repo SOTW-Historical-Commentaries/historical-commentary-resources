@@ -147,7 +147,7 @@
 }
 @media(max-width:600px){
  .mobile-beta .discovery-study .discovery-verse-body:not([hidden]){
-  padding:0 12px 12px
+  padding:0 7px 9px
  }
  .mobile-beta .discovery-study .discovery-verse-heading{
   font:700 13px/1.4 system-ui;text-transform:uppercase;
@@ -157,13 +157,13 @@
   font:400 14px/1.55 system-ui;margin:2px 0 16px;
   color:#b7cdd4
  }
- .mobile-beta .discovery-study .discovery-topic-groups{margin:5px 0 10px}
+ .mobile-beta .discovery-study .discovery-topic-groups{margin:3px 0 6px}
  .mobile-beta .discovery-study .discovery-verse-topic{
-  border-bottom:1px solid #4b6670;padding:0 0 10px
+  border-bottom:1px solid #4b6670;padding:0 0 5px
  }
  .mobile-beta .discovery-study .discovery-verse-topic>.discovery-topic-summary{
-  list-style:none;min-height:48px;
-  padding:9px 4px 9px 11px;margin:3px 0 5px;
+  list-style:none;min-height:44px;
+   padding:7px 3px 7px 8px;margin:2px 0 3px;
   border-left:3px solid #80c7d6;
   color:#f1f9fb;font:750 19px/1.3 system-ui;letter-spacing:-.015em
  }
@@ -175,30 +175,31 @@
   content:'⌃'
  }
  .mobile-beta .discovery-study .discovery-verse-topic .discovery-topic-content{
-  padding:0 2px 7px 13px
+  padding:0 1px 4px 8px
  }
  .mobile-beta .discovery-study .discovery-verse-topic-section{
-  margin:0 0 14px;padding:13px 0 2px
+  margin:0 0 8px;padding:8px 0 1px
  }
  .mobile-beta .discovery-study .discovery-verse-topic-section+.discovery-verse-topic-section{
-  border-top:1px solid #4a6570;padding-top:18px
+  border-top:1px solid #4a6570;padding-top:11px
  }
  .mobile-beta .discovery-study .discovery-section-title{
-  margin:0 0 9px;
-  color:#bde2eb;font:750 16.5px/1.45 system-ui;
+  margin:0 0 5px;
+   color:#bde2eb;font:750 14.5px/1.4 system-ui;
   letter-spacing:0
  }
  .mobile-beta .discovery-study .discovery-citation{
-  min-height:49px;padding:11px 7px;
-  color:#ecf5f7;font:400 17px/1.45 system-ui;
+  min-height:44px;padding:8px 5px;
+   color:#ecf5f7;font:400 16px/1.4 system-ui;
   border-color:#405c67
  }
  .mobile-beta .discovery-study .discovery-citation::after{
   font-size:21px;color:#aacdd7
  }
  .mobile-beta .discovery-study .discovery-more{
-  min-height:45px;padding:10px 7px;
-  font:650 14px/1.4 system-ui;color:#a8deed
+  min-height:42px;width:max-content;max-width:100%;padding:8px 12px 8px 5px;margin:6px 0 8px;
+   font:800 14px/1.3 system-ui;color:#d4f4fb;
+   background:#365664;border:1px solid #709aa8;border-radius:6px
  }
  .mobile-beta .discovery-study .discovery-launch{
   min-height:46px;padding:9px 12px;font-size:14.5px
@@ -216,6 +217,6 @@
  }
  .mobile-beta.beta-light .discovery-study .discovery-section-title{color:#2e6373}
  .mobile-beta.beta-light .discovery-study .discovery-citation{color:#294b55;border-color:#c9dbdf}
- .mobile-beta.beta-light .discovery-study .discovery-more{color:#2f6a7a}
+ .mobile-beta.beta-light .discovery-study .discovery-more{color:#205665;background:#dcecef;border-color:#8caeb8}
  .mobile-beta.beta-light .discovery-study .discovery-verse-topic{border-color:#b6cdd4}
 }

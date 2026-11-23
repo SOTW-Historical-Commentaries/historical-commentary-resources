@@ -505,9 +505,14 @@ async function showVerseTopics(){
          section.remove();
         more.textContent='Show '+rest+' more '+(rest===1?'section':'sections');
         more.setAttribute('aria-expanded','false');
+        more.classList.remove('discovery-show-fewer');
        }else{
         sections.slice(5).forEach(renderSection);
-        more.textContent='Show fewer sections';more.setAttribute('aria-expanded','true');
+        more.textContent='↑ Show fewer sections';more.setAttribute('aria-expanded','true');
+        more.classList.add('discovery-show-fewer');
+        // Put the collapse control before the extra sections, not after a long list.
+        const extra=content.querySelectorAll(':scope > .discovery-verse-topic-section')[5];
+        if(extra)content.insertBefore(more,extra);
        }
       },'discovery-more');
      more.setAttribute('aria-expanded','false');
