@@ -9,9 +9,6 @@ const css=document.createElement('style');
 css.textContent=[
  '.mobile-beta #sotwReturnToPassage{display:inline-flex;align-items:center;gap:6px;max-width:100%;min-height:29px;margin-top:5px;padding:5px 10px;border:1px solid #536b72;border-radius:999px;background:#24343c;color:#d9e8ec;font:600 12px/1.25 system-ui;cursor:pointer}',
  '.mobile-beta #sotwReturnToPassage[hidden],.mobile-beta #sotwReturnStatus[hidden]{display:none!important}',
- // The responsive reader header can otherwise inherit display:none after
- // a returned study sheet. Show the validated origin only in reading mode.
- '.mobile-beta:not(.study-open) #sotwReturnToPassage:not([hidden]){display:inline-flex!important}',
  '.mobile-beta #sotwReturnToPassage svg{width:13px;height:13px;flex:none}',
  '.mobile-beta #sotwReturnToPassage:hover{border-color:#93bfca;background:#304751}',
  '.mobile-beta #sotwReturnToPassage:focus-visible{outline:3px solid #dfa94f;outline-offset:2px}',
