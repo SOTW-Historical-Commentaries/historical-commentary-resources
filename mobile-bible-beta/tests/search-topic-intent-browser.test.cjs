@@ -261,6 +261,19 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    // Back to Scripture first, then Back to the previously opened Topic.
    await contextual.click();
    await page.waitForURL(/book=MAT&chapter=5&verse=11&translation=KJV1769/);
+   const returnState=await page.evaluate(()=>({
+    url:location.search,book:state.book,chapter:state.chapter,verse:state.verse,
+    studyOpen:document.body.classList.contains('study-open'),
+    returnHidden:document.querySelector('#sotwReturnToPassage')?.hidden,
+    returnLabel:document.querySelector('#sotwReturnToPassage')?.textContent,
+    trailHidden:document.querySelector('#sotwTrail')?.hidden,
+    trailLabel:document.querySelector('#sotwTrailOpen')?.textContent,
+    readerReturnReady:!!window.SOTWReaderReturn,
+    topicText:document.querySelector('#sotwVerseTopicsBody')?.textContent?.slice(0,90)
+   }));
+   assert.equal(returnState.returnHidden,false,
+    'Return to original Scripture must stay active after a second topic citation: '+
+    JSON.stringify(returnState));
    await page.locator("#sotwReturnToPassage").click();
    await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
