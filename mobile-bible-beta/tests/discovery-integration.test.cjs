@@ -138,7 +138,7 @@ assert.equal(sections[2].title,'Other indexed passages');
 assert.deepEqual(Array.from(core.readerSections(sampleTopic),x=>x.title),
  ['Esau forgives Jacob','Joseph forgives his brothers'],
  'Ambiguous fragment headings are retained in raw source, not rendered as unknown sections');
-for(const label of ['Unknown','Uncategorized','AI only derived','AI-derived','Only AI']){
+for(const label of ['Unknown','Uncategorized','Uncategorized / Unknown','AI only derived','AI-derived','Only AI']){
  assert.equal(core.isReaderLabel(label),false,'Suppress unsupported public heading '+label);
 }
 assert.equal(core.isReaderLabel('Against Joseph by Potiphar’s wife'),true);
