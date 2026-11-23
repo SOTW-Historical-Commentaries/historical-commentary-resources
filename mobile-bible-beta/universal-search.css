@@ -73,8 +73,9 @@
 .mobile-beta.beta-light .universal-qa-variants>summary{color:#385f6a}
 .mobile-beta.beta-light .universal-qa-variant{border-color:#afc9c8}
 .mobile-beta.beta-light .universal-qa-show-more{color:#2b5964;border-color:#adc3c6}
-/* Keep prior Scripture return available, but show one primary return action. */
-.mobile-beta #modernReaderHeader:has(#sotwTrail:not([hidden])) #sotwReturnToPassage{display:none!important}
+/* Search and modal-topic trails have one primary return. Inline Study Topics
+   offer two distinct destinations: original Scripture AND the exact Study Topic. */
+.mobile-beta #modernReaderHeader:has(#sotwTrail:not([hidden]):not([data-return-kind="study-topic"])) #sotwReturnToPassage{display:none!important}
 .mobile-beta .discovery-reference-entry{display:grid;gap:6px;margin:5px 0 9px}
 .mobile-beta .discovery-original-citation{font:12px/1.5 system-ui;color:#b4ced6}
 .mobile-beta.beta-light .discovery-original-citation{color:#486870}
