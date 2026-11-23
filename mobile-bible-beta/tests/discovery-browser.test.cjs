@@ -77,7 +77,12 @@ const {chromium}=require('playwright-core');
   await page.locator('#studyOverlayBack').click();
   await page.locator('.discovery-study').first().locator('.discovery-launch').click();
   await page.locator('.discovery-study').first().locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
-  assert.match(await page.locator('.discovery-study').first().locator('.discovery-verse-body').innerText(),/Topics indexed for this verse/);
+  assert.equal(await page.locator('.discovery-study').first()
+   .locator('.discovery-verse-heading').innerText(),'Topics',
+   'Verse location is already shown above; its topic heading should be concise');
+  assert(!/Indexed citation:/.test(await page.locator('.discovery-study').first()
+   .locator('.discovery-verse-body').innerText()),
+   'No technical citation labels in the reader');
   assert(!/People, places & events|Chapter-level context/.test(
    await page.locator('.discovery-study').first().locator('.discovery-verse-body').innerText()));
   // Regression: the owner's screenshot verse remains fully aligned to BSB
