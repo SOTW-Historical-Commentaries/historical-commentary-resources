@@ -284,7 +284,11 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
      headerRect:header?.getBoundingClientRect()?.toJSON(),
      documentBodyClass:document.body.className};
    });
-   console.log('STUDY_TOPIC_RETURN_DIAG '+brand+' '+JSON.stringify({returnState,displayInfo}));
+   assert.equal(returnState.pageMarker,'still-on-same-page',
+    "Following a second topic link must navigate inside the reader");
+   assert.equal(displayInfo.buttonDisplay,'inline-flex',
+    "A live Back to Scripture destination must be visibly displayed, not CSS-hidden: "+
+    JSON.stringify({returnState,displayInfo}));
    await page.locator("#sotwReturnToPassage").click();
    await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
