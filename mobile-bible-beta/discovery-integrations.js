@@ -269,7 +269,7 @@ function expandList(parent,rows,render,visibleCount=4){
  }
 }
 async function showTopic(topic){
- const body=showDetail('Bible Topic · '+readerTopicTitle(topic.title));
+ const body=showDetail('Historical Bible Topic · '+topic.title);
  note(body,'Historical Nave/Torrey references. These index associations are not doctrinal rulings.');
  const busy=note(body,'Loading source references…');
  try{
