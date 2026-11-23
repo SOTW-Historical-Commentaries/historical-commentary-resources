@@ -238,6 +238,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
    await firstTopic.locator(":scope > summary").click(); // Reopened panel begins collapsed again.
    assert.equal(await firstTopic.getAttribute("open"),"");
+   if(await longGroup.getAttribute("open")===null)await longGroup.locator("summary").click();
    await general.locator(".discovery-more").click();
    assert.equal(await general.locator(".discovery-citation").count(),7);
    const contextual=general.locator(".discovery-citation").filter({hasText:"Matthew 5:11"});
