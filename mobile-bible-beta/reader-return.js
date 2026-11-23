@@ -145,7 +145,10 @@ window.SOTWReaderReturn={
   const matches=()=>state.book===snapshot.book&&state.chapter===snapshot.chapter&&
    state.verse===snapshot.verse&&state.edition===snapshot.edition&&
    state.index?.canonical_chapter===snapshot.book+'.'+snapshot.chapter&&
-   state.bible?.book_code===snapshot.book;
+   Number(state.index?.verse_count)>=snapshot.verse&&
+   state.bible?.book_code===snapshot.book&&
+   Number(state.bible?.chapter)===snapshot.chapter&&
+   state.bible?.edition_id===snapshot.edition;
   if(matches())return true;
   // The existing Back to Scripture pathway is source-verified; reuse it.
   if(!origin||!same(origin,snapshot))return false;
