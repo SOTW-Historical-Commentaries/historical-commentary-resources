@@ -145,8 +145,7 @@ function makeExpandable(section,type,query){
  details.className="sotw-search-expandable";
  // Keep existing Q&A and topic navigation visible until the reader folds it.
  // Incidental current-chapter hits begin folded and always rank last.
- details.open=type==="questions"||type==="topic"||
-  type==="name"&&exactName(query,caption(section,type));
+ details.open=type!=="scripture"; // fuzzy yet approved profiles stay visible too
  const summary=document.createElement("summary");
  summary.className=heading.className;
  summary.textContent=heading.textContent;details.append(summary);
