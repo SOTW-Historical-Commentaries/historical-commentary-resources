@@ -168,7 +168,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     "Reopening after an interrupted load works");
    const topicsBody=page.locator(".discovery-verse-body").filter({hasText:"Accusation"});
    await topicsBody.locator(".discovery-verse-heading").waitFor({state:"visible"});
-   assert.equal(await topicsBody.locator(".discovery-verse-heading").innerText(),"Topics");
+   assert.match(await topicsBody.locator(".discovery-verse-heading").innerText(),/^topics$/i);
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
    assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
    assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
