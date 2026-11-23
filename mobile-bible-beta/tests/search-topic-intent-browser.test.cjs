@@ -174,7 +174,9 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     "License and doctrine disclaimers belong in About & Sources, not atop listings");
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
    assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
-   assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
+   assert.equal(await firstTopic.getAttribute("open"),null,"All suggested topics start closed for scanning");
+    await firstTopic.locator("summary").click();
+    assert.equal(await firstTopic.getAttribute("open"),"","Reader chooses which historical topic to open");
    const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
@@ -235,6 +237,8 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    // Preserve open topic, expanded citation list, and source verse in both brands.
    await topicsControl.click();
    await firstTopic.locator("summary").waitFor({state:"visible"});
+   await firstTopic.locator("summary").click(); // Reopened panel begins collapsed again.
+   assert.equal(await firstTopic.getAttribute("open"),"");
    await general.locator(".discovery-more").click();
    assert.equal(await general.locator(".discovery-citation").count(),7);
    const contextual=general.locator(".discovery-citation").filter({hasText:"Matthew 5:11"});
@@ -294,7 +298,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(returnState.pageMarker,'still-on-same-page',
     "Following a second topic link must navigate inside the reader");
    assert.equal(returnState.trailHidden,false,"The Study Topic destination remains separately available");
-   assert.equal(displayInfo.buttonDisplay,'inline-flex',
+   assert(['flex','inline-flex'].includes(displayInfo.buttonDisplay),
     "A live Back to Scripture destination must be visibly displayed, not CSS-hidden: "+
     JSON.stringify({returnState,displayInfo}));
    await page.locator("#sotwReturnToPassage").click();
@@ -305,6 +309,19 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await firstTopic.locator("summary").waitFor({state:"visible"});
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"true");
    assert.equal(await general.locator(".discovery-citation").count(),7);
+   // Dismissing only the original Scripture chip must NOT strand Back to Topic.
+   await contextual.click();
+   await page.waitForURL(/book=MAT&chapter=5&verse=11&translation=KJV1769/);
+   await page.locator("#sotwReturnDismiss").waitFor({state:"visible"});
+   await page.locator("#sotwReturnDismiss").click();
+   assert.equal(await page.locator("#sotwReturnToPassage").isVisible(),false);
+   assert.equal(await studyTrail.isVisible(),true,"Topic return remains independently available");
+   await studyTrail.click();
+   await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
+   await firstTopic.locator("summary").waitFor({state:"visible"});
+   assert.equal(await firstTopic.getAttribute("open"),"");
+   assert.equal(await general.locator(".discovery-citation").count(),7,
+    "Topic and expanded citations survive an independently dismissed verse return");
    assert.deepEqual(errors,[],"Unexpected browser errors "+brand);
    await context.close();
   }

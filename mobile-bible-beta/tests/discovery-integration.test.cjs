@@ -180,7 +180,7 @@ assert(!script.includes('sourceJson(BSB+')&&!script.includes('discovery-bsb'),
 assert(!css.includes('.discovery-word-grid')&&!css.includes('.discovery-original-body'));
 assert(script.includes("'Related Bible Topics'")&&script.includes("'Explore topics ›'")&&script.includes('sourceHeading('));
 assert(css.includes('border:0;border-radius:11px;background:transparent'),'Topics launcher should not have nested border');
-assert(script.includes('The first tap shows topic content and Scripture citations'),'Topics must render actual content without intermediate topic menu');
+assert(script.includes('group.open=false;host.append(group);'),'All historical topic headings must start collapsed');
 assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
 assert(script.includes('Preserve the original, complete historical citation')&&script.includes('expandList('),
@@ -199,13 +199,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261122-discovery18'));
-assert(html.includes('reader-return.js?v=20261122-return3'),'Reader must load return navigation');
+assert(html.includes('discovery-integrations.js?v=20261123-discovery19'));
+assert(html.includes('reader-return.js?v=20261123-return4'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261122-discovery7'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0209'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0210'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
