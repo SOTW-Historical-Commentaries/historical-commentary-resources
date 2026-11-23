@@ -33,7 +33,7 @@ function rankTopics(rows,query,limit=8,linked=[],core=null){
  // Match indexed source TITLES conservatively, not fabricated verse links.
  // Reserve room for linked evidence during the earlier asynchronous pass.
  const terms=typeof core?.words==='function'?core.words(query):[];
- if(terms.length&&typeof core?.tokenMatch==='function'){
+ if(terms.length>1&&typeof core?.tokenMatch==='function'){
   const candidates=[];
   for(const t of rows){
    if(!valid(t)||ids.has(t.id))continue;
