@@ -161,13 +161,21 @@ function isReaderTopic(topic){
  return !Array.isArray(topic.sources)||!topic.sources.length||
   topic.sources.some(source=>source==='NAV'||source==='TOR');
 }
+function isAmbiguousSection(section){
+ const title=asText(section?.title),words=title.match(/[\\p{L}\\p{N}]+/gu)||[];
+ if(!title||title==='Other indexed passages'||title==='Unclear historical index heading')return true;
+ if(isGeneralSection(section))return false;
+ if(words.length===1||words.length===2&&words.every(w=>w.length<=3))return true;
+ if(/\\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\\s*$/iu.test(title))return true;
+ return false;
+}
 function readerSections(topic){
  const sections=topicSections(topic).filter(section=>
-  isReaderLabel(section.title)&&section.title!=='Other indexed passages'&&
-  section.title!=='Unclear historical index heading');
+  isReaderLabel(section.title));
  // Keep original source order inside each tier; general lists follow the
  // more descriptive historical headings, without inventing relevance.
- return sections.sort((a,b)=>Number(isGeneralSection(a))-Number(isGeneralSection(b)));
+ return sections.sort((a,b)=>Number(isAmbiguousSection(a))-Number(isAmbiguousSection(b))||
+  Number(isGeneralSection(a))-Number(isGeneralSection(b)));
 }
 function isGeneralSection(section){
  return /^(?:general(?: scriptures? concerning| references?)?|scriptures? generally)$/i.test(asText(section?.title));
@@ -195,7 +203,7 @@ function readerSectionTitle(section){
   return 'Other references';
  return section?.title||'References';
 }
-root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
+root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isAmbiguousSection,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
@@ -489,15 +497,17 @@ async function showVerseTopics(){
     loading.remove();
     const sections=readerSections(row);
     if(!sections.length){group.remove();continue;}
+    const primary=sections.filter(s=>!isAmbiguousSection(s));
+    const uncertain=sections.filter(isAmbiguousSection);
     function renderSection(section){
      const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
      sectionBox.append(el('h5','discovery-section-title',readerSectionTitle(section)));
      if(section.sourceLabel)sectionBox.dataset.originalSourceHeading=section.sourceLabel;
      expandList(sectionBox,section.references,referenceButton,4);
     }
-    sections.slice(0,5).forEach(renderSection);
-    if(sections.length>5){
-     const rest=sections.length-5;
+    primary.slice(0,5).forEach(renderSection);
+    if(primary.length>5){
+     const rest=primary.length-5;
      const more=button(content,'Show '+rest+' more '+(rest===1?'section':'sections'),
       ()=>{const expanded=more.getAttribute('aria-expanded')==='true';
        if(expanded){
@@ -507,7 +517,7 @@ async function showVerseTopics(){
         more.setAttribute('aria-expanded','false');
         more.classList.remove('discovery-show-fewer');
        }else{
-        sections.slice(5).forEach(renderSection);
+        primary.slice(5).forEach(renderSection);
         more.textContent='↑ Show fewer sections';more.setAttribute('aria-expanded','true');
         more.classList.add('discovery-show-fewer');
         // Put the collapse control before the extra sections, not after a long list.
@@ -516,6 +526,19 @@ async function showVerseTopics(){
        }
       },'discovery-more');
      more.setAttribute('aria-expanded','false');
+    }
+    if(uncertain.length){
+     const other=el('details','discovery-uncertain-sections');
+     other.append(el('summary','discovery-uncertain-summary',
+      'Other indexed references ('+uncertain.length+')'));
+     const otherBody=el('div','discovery-uncertain-body');other.append(otherBody);
+     for(const section of uncertain){
+      const item=el('section','discovery-verse-topic-section');otherBody.append(item);
+      item.append(el('h5','discovery-section-title',readerSectionTitle(section)));
+      if(section.sourceLabel)item.dataset.originalSourceHeading=section.sourceLabel;
+      expandList(item,section.references,referenceButton,4);
+     }
+     content.append(other);
     }
    }catch{
     if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}
