@@ -166,6 +166,7 @@ function isAmbiguousSection(section){
  if(!title||title==='Other indexed passages'||title==='Unclear historical index heading')return true;
  if(isGeneralSection(section))return false;
  if(words.length===1||words.length===2&&words.every(w=>w.length<=3))return true;
+ if(/^(?:of|from|with|by|and|to)\s+/iu.test(title))return true;
  if(/\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\s*$/iu.test(title))return true;
  return false;
 }
