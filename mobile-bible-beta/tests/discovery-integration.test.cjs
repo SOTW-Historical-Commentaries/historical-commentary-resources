@@ -135,6 +135,16 @@ assert.equal(sections[0].references[0].scopes.length,2,
  'One source citation may contain multiple verses and must remain one reference row');
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
+assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'Accusation, False');
+assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
+assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
+assert.equal(core.readerSectionTitle({title:'Against Joseph by Potiphar’s wife'}),
+ 'Against Joseph by Potiphar’s wife');
+assert(script.includes("'Show '+remaining+' more '"),'Expansion must identify only the hidden passage count');
+assert(!script.includes("Indexed citation: "),'Raw index jargon must not appear to readers');
+assert(script.includes("link.setAttribute('aria-label','Read '+label"),
+ 'Complete original reference remains navigable and accessible');
+
 assert(!script.includes('accepted-source.json')&&!script.includes('ACCEPTED='),
  'People/Places/Events directory must not be loaded by the public reader');
 assert(!script.includes('rankEntities')&&!script.includes('showEntity('));
