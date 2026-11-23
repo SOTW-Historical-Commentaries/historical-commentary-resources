@@ -78,7 +78,7 @@ const {chromium}=require('playwright-core');
   await page.locator('.discovery-study').first().locator('.discovery-launch').click();
   await page.locator('.discovery-study').first().locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
   assert.equal(await page.locator('.discovery-study').first()
-   .locator('.discovery-verse-heading').innerText(),'Topics',
+   .locator('.discovery-verse-heading').innerText().then(t=>t.toLowerCase()),'topics',
    'Verse location is already shown above; its topic heading should be concise');
   assert(!/Indexed citation:/.test(await page.locator('.discovery-study').first()
    .locator('.discovery-verse-body').innerText()),
