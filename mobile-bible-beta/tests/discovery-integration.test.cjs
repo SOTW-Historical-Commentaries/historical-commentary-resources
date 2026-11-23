@@ -159,6 +159,16 @@ assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
 assert(script.includes('Preserve the original, complete historical citation')&&script.includes('expandList('),
  'Each source reference retains its complete published wording with compact progressive disclosure');
 assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('wrapper.append(link);parent.append(wrapper)'),'Topic citation must be a navigable verified link with original text');
+assert(script.includes("topicsButton.setAttribute('aria-expanded','false')")&&
+ script.includes("topicsButton.setAttribute('aria-expanded','true')")&&
+ script.includes("if(!verseBody.hidden){closeVerseTopics();return;}"),
+ 'Related Bible Topics must be a real two-way accessible disclosure');
+assert(script.includes("Close topics ↑")&&script.includes("()=>closeVerseTopics(true)"),
+ 'Long Topics sections must have an accessible close action at the bottom');
+assert(css.includes(".discovery-study .discovery-section-title")&&
+ css.includes(".discovery-study .discovery-verse-topic>.discovery-topic-summary")&&
+ css.includes(".discovery-study .discovery-citation"),
+ 'Mobile subsection, topic and verse references must have separate typography');
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
