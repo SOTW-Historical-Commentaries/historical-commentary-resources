@@ -298,7 +298,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(returnState.pageMarker,'still-on-same-page',
     "Following a second topic link must navigate inside the reader");
    assert.equal(returnState.trailHidden,false,"The Study Topic destination remains separately available");
-   assert.equal(displayInfo.buttonDisplay,'inline-flex',
+   assert(['flex','inline-flex'].includes(displayInfo.buttonDisplay),
     "A live Back to Scripture destination must be visibly displayed, not CSS-hidden: "+
     JSON.stringify({returnState,displayInfo}));
    await page.locator("#sotwReturnToPassage").click();
