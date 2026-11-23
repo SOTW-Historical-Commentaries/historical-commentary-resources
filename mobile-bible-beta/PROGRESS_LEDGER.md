@@ -6,6 +6,16 @@
 
 
 
+## 2026-11-23 | CURATED TOPIC NESTING AND GENERIC HEADING FILTER — PR #38
+
+**Owner iPhone acceptance evidence:** PR #37 Jephthah display was substantially improved but still exposed “General references”; Jealousy → “Attributed to God” exposed a long list of citations without an independent subtopic collapse. Owner explicitly authorized completing checks and publishing.
+
+**Implemented:** [PR #38](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/38) merged as `7feff82d12833470bc1a7920bd826b656cba3846`. Curated related-topic sections now suppress generic catch-all index headings including “General references” while preserving complete original publisher data. Meaningful subtopics with more than four citations use their own initially closed disclosure; opening one reveals four citations and a local Show more references control. “of Tob” remains eligible. Reader return-trail capture and restoration now preserve open nested subtopics and expanded citations after navigating away and back. Both branded readers use updated cache versions (`v0213` CGBC, `v0031` SOTW).
+
+**Verification:** PR head `6c7abdb50ab5efd01cbaa71cd3bb1cc4ecd8be1f` passed source QA run `45209228648` and browser integration run `45209228593`, including nested citation return behavior. Production Pages deployment from merge commit `7feff82` is tracked by run `45209619719`; check its final result before claiming deployment success. The owner has not yet inspected this release on iPhone.
+
+**Remaining:** Owner inspect Jephthah and Jealousy/Attributed to God on both readers, including the nested Show more and Back to Topic path. Historical ingestion-wide quality certification, S shard coverage, and source typo investigation remain separate open work. Do not silently change original publisher headings or unrelated Scripture records.
+
 ## 2026-11-23 | MEANINGFUL-ONLY HISTORICAL TOPICS — PR #37 MERGED AND PAGES DEPLOYED
 
 **Owner decision:** Related Bible Topics should prioritize useful descriptive headings, not display every fragment in the historical index. Preserve contextually meaningful short headings such as “of Tob”; omit high-confidence fragments such as “Re” and “Ma” and incomplete headings such as “Faith of” from the reader. Do not add an “Other indexed references” drawer. Keep complete original historical data and Scripture references in the source repository for scholars and provenance.
