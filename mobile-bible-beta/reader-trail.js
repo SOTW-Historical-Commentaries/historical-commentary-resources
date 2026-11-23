@@ -155,7 +155,7 @@ async function restore(){
 open.addEventListener('click',()=>{
  if(open.disabled)return;
  open.disabled=true;
- Promise.resolve(restore()).finally(()=>{open.disabled=false;});
+ Promise.resolve(restore()).catch(()=>false).finally(()=>{open.disabled=false;});
 });
 dismiss.addEventListener('click',clear);
 for(const id of ['readerSearchModal','sotwDiscoveryDetail']){
