@@ -21,7 +21,19 @@ assert(script.includes("if(searchInput.value!==snap.query){clear();return false;
 assert(script.includes("dismiss.addEventListener('click',clear)"),'Dismissibility');
 assert(discovery.includes("'discovery-citation jacob-passage-link'")&&discovery.includes('link.href=location.pathname'),'Topic citations must use verified passage links');
 assert(returnScript.includes("closest('a.jacob-passage-link')")&&returnScript.includes('follow(anchor)'),'Reader return handler must intercept topic citation links');
-assert(returnScript.includes("SOTWReaderTrail.capture('topic')")&&returnScript.includes('SOTWReaderTrail.commit(trail)'),'Topic citation navigation must preserve return trail');
+assert(returnScript.includes("SOTWReaderTrail.capture(anchor.closest('#sotwVerseTopicsBody')?'study-topic':'topic',anchor)")&&
+ returnScript.includes('SOTWReaderTrail.commit(trail)'),
+ 'Both inline Study Topics and Search topic dialogs must preserve the return trail');
+assert(script.includes('function studyTopicSnapshot(anchor)')&&script.includes("kind:'study-topic'")&&
+ script.includes('expandedReferences:')&&script.includes('openTopics:')&&script.includes('scroll:panel?.scrollTop'),
+ 'Store actual publisher topic, expanded citations and scroll before leaving the Study Tool');
+assert(script.includes("root.SOTWDiscoveryCore?.openVerseTopics")&&
+ script.includes('selected.open=true')&&script.includes('groups.forEach((g,i)=>'),
+ 'Restore the exact inline publisher topic and disclosures, not just original Scripture');
+assert(returnScript.includes('returnToStudySource(snapshot)')&&returnScript.includes('return !!await goBack()&&matches()'),
+ 'Return to Study must reuse the existing source-verified Back to Scripture navigation');
+assert(discovery.includes('root.SOTWDiscoveryCore.openVerseTopics=showVerseTopics'),
+ 'Existing original-source topic loader must be reused rather than another index');
 assert(discovery.includes('Back to search results'),'Topic can return to its source results');
 assert(index.includes("SOTWReaderTrail.capture('search')")&&index.includes('SOTWReaderTrail.commit(trail)'));
 assert(jacob.includes("SOTWReaderTrail.capture('search')")&&jacob.includes('SOTWReaderTrail.commit(trail)'));
