@@ -135,6 +135,33 @@ assert.equal(sections[0].references[0].scopes.length,2,
  'One source citation may contain multiple verses and must remain one reference row');
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
+assert.deepEqual(Array.from(core.readerSections(sampleTopic),x=>x.title),
+ ['Esau forgives Jacob','Joseph forgives his brothers'],
+ 'Ambiguous fragment headings are retained in raw source, not rendered as unknown sections');
+for(const label of ['Unknown','Uncategorized','AI only derived','AI-derived','Only AI']){
+ assert.equal(core.isReaderLabel(label),false,'Suppress unsupported public heading '+label);
+}
+assert.equal(core.isReaderLabel('Against Joseph by Potiphar’s wife'),true);
+assert.equal(core.isReaderTopic({title:'Uncategorized',sources:['NAV']}),false);
+assert.equal(core.isReaderTopic({title:'Faith',sources:['AI_ONLY']}),false,
+ 'Only verified original Nave/Torrey source entries should be visible');
+assert.deepEqual(Array.from(core.orderVerseTopics([
+ {title:'GENTILES',sources:['NAV'],verse_link_count:440},
+ {title:'TRINITY',sources:['NAV'],verse_link_count:85},
+ {title:'CHRIST, THE PROPHET',sources:['TOR'],verse_link_count:85},
+ {title:'UNKNOWN',sources:['NAV'],verse_link_count:1},
+ {title:'STRIFE',sources:['NAV'],verse_link_count:173}
+]),x=>x.title),['CHRIST, THE PROPHET','TRINITY','STRIFE','GENTILES'],
+ 'Verse topics use published breadth as a focus proxy, never source alphabetical order');
+const reordered=core.readerSections({references:sampleTopic.references,aspects:[
+ {label:'General scriptures concerning',references:['Genesis 33:4,11'],source:'NAV'},
+ {label:'Specific context',references:['Genesis 45:5-15'],source:'NAV'},
+ {label:'Unknown',references:['Genesis 33:4,11'],source:'NAV'},
+ {label:'AI only derived',references:['Genesis 45:5-15'],source:'AI_ONLY'},
+ {label:'Uncategorized',references:['Genesis 33:4,11'],source:'NAV'}
+]});
+assert.deepEqual(Array.from(reordered,x=>x.title),['Specific context','General scriptures concerning'],
+ 'Show source-labeled context first, put general links last and exclude unknown/AI-only sections');
 assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'False Accusation');
 assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
 assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
