@@ -10,8 +10,8 @@ J shard: 297 topics, 1,572 referenced aspects, 133 labels of three characters or
 ## Reader policy
 - Preserve original labels, source IDs, mapped references, verse scopes, and provenance.
 - Prefer complete descriptive headings. Do not use word length alone to infer theological relevance.
-- Move isolated one-word captions, short ambiguous fragments, orphaned leading/trailing connectors, and existing unclassified fragments into a **closed, clearly named “Other indexed references”** disclosure below the descriptive captions. References remain accessible.
-- Never silently invent a completion or correct the source's spelling in a purported original quotation.
+- Exclude high-confidence fragments and incomplete captions from the curated reader; preserve their references and original captions in the full source repository. Allow contextual short geographic labels such as “of Tob.”
+- Never silently invent a completion or correct the source's spelling in a purported original quotation. Apply a three-state ingestion decision (DISPLAY / REVIEW / EXCLUDE FROM READER); the current reader gate is a conservative first-pass heuristic, not a complete manually adjudicated quality certification.
 - Audit publisher ingestion separately: inspect source scans/transcription where available, identify the first stage where fragments and typos appeared, document corrections with evidence, and rerun a collection-wide quality check before any source-data replacement.
 - Treat this as a conservative display-quality gate, not a permanent verdict that every one-word historical caption is erroneous. Review legitimate single-word headings for exceptions before a final beta release.
 
@@ -19,4 +19,4 @@ J shard: 297 topics, 1,572 referenced aspects, 133 labels of three characters or
 1. Complete the S-shard count using a reliable large-file retrieval and validate any additional unlettered shards.
 2. Review a stratified sample of the 1,214 short captions against actual source context and confirm false positives.
 3. Introduce a versioned source-ingestion QA report with suspicious truncations, spelling candidates, duplicate labels, citation mapping and review dispositions. Do not auto-correct publisher text.
-4. Verify iPhone behavior and accessibility of the collapsed historical references after reader deployment.
+4. Verify iPhone behavior of the streamlined meaningful-only topic list after reader deployment; inspect source repository for full excluded material.
