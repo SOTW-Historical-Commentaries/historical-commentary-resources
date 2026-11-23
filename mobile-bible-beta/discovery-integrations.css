@@ -220,3 +220,14 @@
  .mobile-beta.beta-light .discovery-study .discovery-more{color:#205665;background:#dcecef;border-color:#8caeb8}
  .mobile-beta.beta-light .discovery-study .discovery-verse-topic{border-color:#b6cdd4}
 }
+
+/* Ambiguous publisher index captions are accessible, never promoted to main topics. */
+.mobile-beta .discovery-study .discovery-uncertain-sections{
+ margin:10px 0 4px;border-top:1px solid #4a6570;padding-top:7px
+}
+.mobile-beta .discovery-study .discovery-uncertain-summary{
+ cursor:pointer;min-height:44px;padding:10px 5px;
+ font:750 13.5px/1.35 system-ui;color:#bde2eb
+}
+.mobile-beta .discovery-study .discovery-uncertain-body{padding:0 0 3px 8px}
+.mobile-beta.beta-light .discovery-study .discovery-uncertain-summary{color:#205665}
