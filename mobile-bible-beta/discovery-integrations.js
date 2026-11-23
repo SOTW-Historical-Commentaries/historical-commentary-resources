@@ -162,11 +162,11 @@ function isReaderTopic(topic){
   topic.sources.some(source=>source==='NAV'||source==='TOR');
 }
 function isAmbiguousSection(section){
- const title=asText(section?.title),words=title.match(/[\\p{L}\\p{N}]+/gu)||[];
+ const title=asText(section?.title),words=title.match(/[\p{L}\p{N}]+/gu)||[];
  if(!title||title==='Other indexed passages'||title==='Unclear historical index heading')return true;
  if(isGeneralSection(section))return false;
  if(words.length===1||words.length===2&&words.every(w=>w.length<=3))return true;
- if(/\\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\\s*$/iu.test(title))return true;
+ if(/\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\s*$/iu.test(title))return true;
  return false;
 }
 function readerSections(topic){
