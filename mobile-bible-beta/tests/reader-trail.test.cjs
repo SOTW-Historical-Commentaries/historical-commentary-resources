@@ -45,6 +45,6 @@ assert(index.includes('reader-trail.js?v=20261122-trail3'));
 assert(returnScript.includes("sotwReturnToPassage"),'Original Back to Scripture remains intact');
 assert(returnScript.includes("dismiss.id='sotwReturnDismiss'")&&returnScript.includes("origin=null;pending=null;clearTimeout(pendingTimer)"),'Original Scripture return can be dismissed independently without navigation');
 assert(index.includes('#modernReaderHeader #sotwReturnGroup'),'Desktop reader grid reserves the return group as one unit');
-assert(shell.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&shell.includes("CACHE=PREFIX+'v0212'")&&shell.includes('./reader-trail.js'),'PWA must preload the new return script');
+assert(shell.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&shell.includes("CACHE=PREFIX+'v0213'")&&shell.includes('./reader-trail.js'),'PWA must preload the new return script');
 assert(!script.includes('sessionStorage')&&!script.includes('localStorage'),'Trail is per-tab in-memory only');
 console.log('PASS: one dismissible local trail, topic/search scroll and query preserved, original Scripture return intact');

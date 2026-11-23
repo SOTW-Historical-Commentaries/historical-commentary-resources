@@ -144,7 +144,13 @@ assert.equal(core.isAmbiguousSection({title:'property'}),true);
 assert.equal(core.isAmbiguousSection({title:'Faith of'}),true);
 assert.equal(core.isAmbiguousSection({title:'of Tob'}),false);
 assert.equal(core.isAmbiguousSection({title:'His message to the king of the Ammonites'}),false);
-assert.equal(core.isAmbiguousSection({title:'General references'}),false);
+assert.equal(core.isAmbiguousSection({title:'General references'}),true);
+assert.equal(core.isMeaningfulSection({title:'General scriptures concerning'}),false);
+assert.equal(core.isMeaningfulSection({title:'Miscellaneous references'}),false);
+assert.equal(core.isMeaningfulSection({title:'Attributed to God'}),true);
+assert(script.includes('function renderCollapsibleReferences('));
+assert(script.includes("el('details','discovery-subtopic-references')"));
+assert(script.includes('renderCollapsibleReferences(sectionBox,section,referenceButton)'));
 assert(!script.includes("'Other indexed references ('"),'Reader does not expose a low-value fragment drawer');
 assert.equal(core.isMeaningfulSection({title:'of Tob'}),true);
 assert.equal(core.isMeaningfulSection({title:'His message to the king of the Ammonites'}),true);
@@ -171,8 +177,8 @@ const reordered=core.readerSections({references:sampleTopic.references,aspects:[
  {label:'AI only derived',references:['Genesis 45:5-15'],source:'AI_ONLY'},
  {label:'Uncategorized',references:['Genesis 33:4,11'],source:'NAV'}
 ]});
-assert.deepEqual(Array.from(reordered,x=>x.title),['Specific context','General scriptures concerning'],
- 'Show source-labeled context first, put general links last and exclude unknown/AI-only sections');
+assert.deepEqual(Array.from(reordered,x=>x.title),['Specific context'],
+ 'Show source-labeled context and exclude generic, unknown and AI-only sections');
 assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'False Accusation');
 assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
 assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
@@ -210,13 +216,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261123-discovery21'));
+assert(html.includes('discovery-integrations.js?v=20261123-discovery22'));
 assert(html.includes('reader-return.js?v=20261123-return4'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
-assert(html.includes('discovery-integrations.css?v=20261123-compact2'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0212'"));
+assert(html.includes('discovery-integrations.css?v=20261123-compact3'));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0213'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));

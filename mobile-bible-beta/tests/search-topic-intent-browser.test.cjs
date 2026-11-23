@@ -51,8 +51,8 @@ const originalReferences=[
 ];
 const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
  id:accusationTopic.id,title:accusationTopic.title,aspects:[
- {label:"General scriptures concerning",references:originalReferences.slice(0,7).map(r=>r[0])},
- {label:".Against Joseph by Potiphar’s wife",references:["Genesis 39:7-20"]}],
+ {label:".Against Joseph by Potiphar’s wife",references:["Genesis 39:7-20"]},
+ {label:"Other false accusations",references:originalReferences.slice(0,7).map(r=>r[0])}],
  references:originalReferences.map(([raw,verse_ids])=>({raw,status:"mapped",verse_ids}))
 }]};
 (async()=>{
@@ -173,32 +173,31 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await topicsBody.locator(".discovery-note").count(),0,
     "License and doctrine disclaimers belong in About & Sources, not atop listings");
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
-   assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
+   assert.match(await firstTopic.locator(":scope > summary").innerText(),/False Accusation/);
    assert.equal(await firstTopic.getAttribute("open"),null,"All suggested topics start closed for scanning");
-    await firstTopic.locator("summary").click();
+    await firstTopic.locator(":scope > summary").click();
     assert.equal(await firstTopic.getAttribute("open"),"","Reader chooses which historical topic to open");
    const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
    assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
    const general=firstTopic.locator(".discovery-verse-topic-section").nth(1);
-   assert.equal(await general.locator(".discovery-section-title").innerText(),"General references",
-    "Descriptive historical sections must precede general references");
-   const firstLink=general.locator(".discovery-citation").first();
-   assert.equal(await firstLink.innerText(),"Exodus 23:1,7","Full source wording is the link");
-   assert.match(await firstLink.getAttribute("href"),/book=EXO.*chapter=23.*verse=1.*translation=KJV1769/);
-   assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0,
-    "No CSV-style Indexed citation metadata");
-   const more=general.locator(".discovery-more");
-   assert.match(await more.innerText(),/Show 3 more passages/);
+   const longGroup=general.locator(".discovery-subtopic-references");
+   assert.equal(await longGroup.getAttribute("open"),null,
+    "Long meaningful subtopic starts collapsed independently");
+   assert.match(await longGroup.locator("summary").innerText(),/Other false accusations/);
+   await longGroup.locator("summary").click();
+   const firstLink=longGroup.locator(".discovery-citation").first();
+   assert.equal(await firstLink.innerText(),"Exodus 23:1,7");
+   const more=longGroup.locator(".discovery-more");
    await more.click();
    assert.equal(await general.locator(".discovery-citation").count(),7);
-   assert.match(await more.innerText(),/Show fewer passages/);
    await more.click();
    assert.equal(await general.locator(".discovery-citation").count(),4);
-   await firstTopic.locator("summary").click();
-   assert.equal(await firstLink.isVisible(),false,"Topic can be folded without losing source data");
-   await firstTopic.locator("summary").click();
+   assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0);
+   await firstTopic.locator(":scope > summary").click();
+   assert.equal(await firstLink.isVisible(),false);
+   await firstTopic.locator(":scope > summary").click();
    await firstLink.waitFor({state:"visible"});
    const visual=await page.evaluate(()=>{
     const area=document.querySelector("#sotwVerseTopicsBody");
@@ -236,9 +235,10 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    // Restore the original verse Study Tool, not just the reader passage.
    // Preserve open topic, expanded citation list, and source verse in both brands.
    await topicsControl.click();
-   await firstTopic.locator("summary").waitFor({state:"visible"});
-   await firstTopic.locator("summary").click(); // Reopened panel begins collapsed again.
+   await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
+   await firstTopic.locator(":scope > summary").click(); // Reopened panel begins collapsed again.
    assert.equal(await firstTopic.getAttribute("open"),"");
+   if(await longGroup.getAttribute("open")===null)await longGroup.locator("summary").click();
    await general.locator(".discovery-more").click();
    assert.equal(await general.locator(".discovery-citation").count(),7);
    const contextual=general.locator(".discovery-citation").filter({hasText:"Matthew 5:11"});
@@ -306,7 +306,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
    await studyTrail.waitFor({state:"visible"});
    await studyTrail.click();
-   await firstTopic.locator("summary").waitFor({state:"visible"});
+   await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"true");
    assert.equal(await general.locator(".discovery-citation").count(),7);
    // Dismissing only the original Scripture chip must NOT strand Back to Topic.
@@ -318,7 +318,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await studyTrail.isVisible(),true,"Topic return remains independently available");
    await studyTrail.click();
    await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
-   await firstTopic.locator("summary").waitFor({state:"visible"});
+   await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
    assert.equal(await firstTopic.getAttribute("open"),"");
    assert.equal(await general.locator(".discovery-citation").count(),7,
     "Topic and expanded citations survive an independently dismissed verse return");

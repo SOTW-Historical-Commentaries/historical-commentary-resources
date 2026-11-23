@@ -221,3 +221,9 @@
  .mobile-beta.beta-light .discovery-study .discovery-verse-topic{border-color:#b6cdd4}
 }
 
+
+/* Nested citation groups are collapsed independently of their topic. */
+.discovery-subtopic-references{margin:0;padding:0}
+.discovery-subtopic-summary{cursor:pointer;list-style-position:inside;min-height:40px;padding:10px 2px;font-weight:700;color:inherit}
+.discovery-subtopic-summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+.discovery-subtopic-body{padding:2px 0 6px 10px}
