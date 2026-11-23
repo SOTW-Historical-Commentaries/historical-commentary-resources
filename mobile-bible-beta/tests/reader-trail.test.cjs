@@ -30,6 +30,8 @@ assert(script.includes('function studyTopicSnapshot(anchor)')&&script.includes("
 assert(script.includes("root.SOTWDiscoveryCore?.openVerseTopics")&&
  script.includes('selected.open=true')&&script.includes('groups.forEach((g,i)=>'),
  'Restore the exact inline publisher topic and disclosures, not just original Scripture');
+assert(returnScript.includes('#sotwReturnToPassage:not([hidden]){display:inline-flex!important}'),
+ 'Back to Scripture must remain visually available after a restored Study Topic');
 assert(returnScript.includes('returnToStudySource(snapshot)')&&returnScript.includes('return !!await goBack()&&matches()'),
  'Return to Study must reuse the existing source-verified Back to Scripture navigation');
 assert(discovery.includes('root.SOTWDiscoveryCore.openVerseTopics=showVerseTopics'),
