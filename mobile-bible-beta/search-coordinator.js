@@ -173,7 +173,10 @@ function readEvidence(){
 }
 function passageSummary(query){
  let old=searchResults.querySelector(":scope > .sotw-passage-evidence");
- const groups=groupEvidence(readEvidence(),typeof BOOKS!=="undefined"?BOOKS:[]).slice(0,6);
+ // Current-chapter incidental word hits are ranked last, not used to
+ // elevate an otherwise unrelated passage into the shared-evidence section.
+ const groups=groupEvidence(readEvidence().filter(r=>r.type!=="scripture"),
+  typeof BOOKS!=="undefined"?BOOKS:[]).slice(0,6);
  if(!groups.length){old?.remove();return}
  // Rebuild only on a semantic group identity change, not each sort mutation.
  const signature=JSON.stringify(groups.map(g=>[g.key,g.members.map(m=>m.type+"|"+m.id)]))+"|"+state.edition;
