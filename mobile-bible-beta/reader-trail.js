@@ -98,7 +98,9 @@ async function restore(){
   const sameSource=state.book===snap.book&&state.chapter===snap.chapter&&
    state.verse===snap.verse&&state.edition===snap.edition&&
    state.index?.canonical_chapter===snap.book+'.'+snap.chapter&&
-   state.bible?.book_code===snap.book;
+   Number(state.index?.verse_count)>=snap.verse&&
+   state.bible?.book_code===snap.book&&Number(state.bible?.chapter)===snap.chapter&&
+   state.bible?.edition_id===snap.edition;
   if(!sameSource){
    const returned=await root.SOTWReaderReturn?.returnToStudySource?.(snap);
    if(!returned)return false;
