@@ -159,9 +159,24 @@ window.SOTWReaderReturn={
    Number(state.bible?.chapter)===snapshot.chapter&&
    state.bible?.edition_id===snapshot.edition;
   if(matches())return true;
-  // The existing Back to Scripture pathway is source-verified; reuse it.
-  if(!origin||!same(origin,snapshot))return false;
-  return !!await goBack()&&matches();
+  // Reuse the source-verified original-verse return when it is active.
+  if(origin&&same(origin,snapshot))return !!await goBack()&&matches();
+  if(origin||busy)return false;
+  // Dismissing the Scripture chip must not disable its separate Topic return.
+  // Verify the published source independently; never resurrect an unverified passage.
+  const prior=loadedSnapshot();busy=true;
+  try{
+   if(!await verified(snapshot.book,snapshot.chapter,snapshot.verse))throw Error('Topic source unavailable');
+   betaCloseSheet();document.querySelector('#sotwDiscoveryDetail')?.classList.remove('is-open');
+   document.querySelector('#readerSearchModal')?.classList.remove('is-open');
+   state.edition=snapshot.edition;document.getElementById('edition').value=snapshot.edition;
+   if(!await navigate(snapshot.book,snapshot.chapter,snapshot.verse))throw Error('Topic source unavailable');
+   return matches();
+  }catch(_){
+   restoreLoaded(prior);
+   failure('Could not return to the saved topic Scripture. The topic link remains available.');
+   return false;
+  }finally{busy=false;}
  }
 };
 dismiss.addEventListener('click',()=>{
