@@ -136,8 +136,8 @@ assert.equal(sections[0].references[0].scopes.length,2,
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
 assert.deepEqual(Array.from(core.readerSections(sampleTopic),x=>x.title),
- ['Esau forgives Jacob','Joseph forgives his brothers','Other indexed passages'],
- 'Unclear historical captions remain available after descriptive sections');
+ ['Esau forgives Jacob','Joseph forgives his brothers'],
+ 'Only meaningful historical captions are shown in the reader');
 assert.equal(core.isAmbiguousSection({title:'Re'}),true);
 assert.equal(core.isAmbiguousSection({title:'Ma'}),true);
 assert.equal(core.isAmbiguousSection({title:'property'}),true);
@@ -145,7 +145,10 @@ assert.equal(core.isAmbiguousSection({title:'Faith of'}),true);
 assert.equal(core.isAmbiguousSection({title:'of Tob'}),true);
 assert.equal(core.isAmbiguousSection({title:'His message to the king of the Ammonites'}),false);
 assert.equal(core.isAmbiguousSection({title:'General references'}),false);
-assert(script.includes('Other indexed references ('),'Low-information source headings remain in collapsed source-linked group');
+assert(!script.includes("'Other indexed references ('"),'Reader does not expose a low-value fragment drawer');
+assert.equal(core.isMeaningfulSection({title:'of Tob'}),true);
+assert.equal(core.isMeaningfulSection({title:'His message to the king of the Ammonites'}),true);
+assert.equal(core.isMeaningfulSection({title:'Faith of'}),false);
 for(const label of ['Unknown','Uncategorized','Uncategorized / Unknown','AI only derived','AI-derived','Only AI']){
  assert.equal(core.isReaderLabel(label),false,'Suppress unsupported public heading '+label);
 }
