@@ -122,9 +122,43 @@ function verseTopicIds(index,scope){
  if(!verses||typeof verses!=='object'||Array.isArray(verses))return [];
  return Array.isArray(verses[scope])?verses[scope]:[];
 }
-function sourceHeading(label){
+// Owner-protected divine names: only these published captions have been
+// checked against their topic identity and an original mapped Scripture citation.
+// Preserve all publisher bytes; repair display text only, retaining sourceLabel.
+const VERIFIED_SACRED_CAPTIONS=Object.freeze([
+ ["NEUU:TOPIC:bereavement","From Go","From God","Exodus 12:29"],
+ ["NEUU:TOPIC:church","HOUSE OF THE LOR","HOUSE OF THE LORD","Exodus 23:19"],
+ ["NEUU:TOPIC:curiosity","To see Go","To see God","Exodus 19:21,24"],
+ ["NEUU:TOPIC:deafness","Inflicted by Go","Inflicted by God","Exodus 4:11"],
+ ["NEUU:TOPIC:decalogue","Written by Go","Written by God","Exodus 24:12"],
+ ["NEUU:TOPIC:disease","Healing of, from Go","Healing of, from God","Exodus 15:26"],
+ ["NEUU:TOPIC:dumb__deafness__mute_","Stricken of Go","Stricken of God","Exodus 4:11"],
+ ["NEUU:TOPIC:firstborn","Of man and beast, reserved to himself by Go","Of man and beast, reserved to himself by God","Exodus 13:2,12-16"],
+ ["NEUU:TOPIC:gospel","THE DISPENSATION OF THE GRACE OF GO","THE DISPENSATION OF THE GRACE OF GOD","Ephesians 3:2"],
+ ["NEUU:TOPIC:heaven","THE KINGDOM OF CHRIST AND OF GO","THE KINGDOM OF CHRIST AND OF GOD","Ephesians 5:5"],
+ ["NEUU:TOPIC:jealousy","Attributed to Go","Attributed to God","Exodus 20:5"],
+ ["NEUU:TOPIC:love","OF MAN FOR GO","OF MAN FOR GOD","Deuteronomy 6:5"],
+ ["NEUU:TOPIC:mocking","The Ammonites mock Go","The Ammonites mock God","Ezekiel 25:3"],
+ ["NEUU:TOPIC:murmuring","AGAINST GO","AGAINST GOD","Exodus 16:8,12"],
+ ["NEUU:TOPIC:vision","Of the glory of Go","Of the glory of God","Exodus 24:9-11"],
+ ["NEUU:TOPIC:vision","Of the manifestation of the glory of Go","Of the manifestation of the glory of God","Exodus 24:10,17"],
+ ["NEUU:TOPIC:voice","OF GO","OF GOD","John 5:37"]
+]);
+// Unverified trailing divine-name fragments must not reach readers. Do not
+// extrapolate automatic corrections from a partial word or rewrite the source.
+function isTruncatedSacredNameHeading(title){
+ return /(?:^|[\\s,;:.])(?:Go|GO|Lor|LOR|Jes|JES|Jesu|JESU|Chri|CHRI|Chris|CHRIS|(?:Holy|HOLY)\\s+(?:Spi|Spir|Spiri|SPI|SPIR|SPIRI))\\s*$/u.test(asText(title));
+}
+
+function sourceHeading(label,context={}){
  const original=asText(label);
  const cleaned=original.replace(/^[.\s·]+/,'').replace(/\s+/g,' ').trim();
+ const repair=VERIFIED_SACRED_CAPTIONS.find(([id,old])=>id===context.topicId&&old===cleaned);
+ if(repair&&context.source==='NAV'&&Array.isArray(context.mappedReferences)&&
+    context.mappedReferences.includes(repair[3]))
+  return {title:repair[2],sourceLabel:original,verifiedSacredName:true};
+ if(isTruncatedSacredNameHeading(cleaned))
+  return {title:'Unclear historical index heading',sourceLabel:original};
  // Historical index fragments may contain bare chapter:verse ranges
  // (e.g. "18:5-7,9;" or "5:8,16;6:18;"), not subject headings.
  // Retain the literal source label separately for provenance.
@@ -146,7 +180,8 @@ function topicSections(topic){
    if(!mapped.has(raw)||seen.has(raw))return false;
    seen.add(raw);return true;
   }).map(raw=>({raw,scopes:mapped.get(raw).verse_ids}));
-  return {...sourceHeading(aspect.label),references:refs};
+  return {...sourceHeading(aspect.label,{topicId:topic.id,source:aspect.source,
+   mappedReferences:refs.map(r=>r.raw)}),references:refs};
  }).filter(section=>section.references.length);
 }
 // Presentation filters only. Preserve the complete source shards, reference
@@ -157,7 +192,7 @@ function isReaderLabel(label){
  return !/\b(?:ai\s*only|only\s*ai|ai\s*derived|derived\s*by\s*ai|ai\s*generated)\b/.test(value);
 }
 function isReaderTopic(topic){
- if(!topic||!isReaderLabel(topic.title))return false;
+ if(!topic||!isReaderLabel(topic.title)||isTruncatedSacredNameHeading(topic.title))return false;
  return !Array.isArray(topic.sources)||!topic.sources.length||
   topic.sources.some(source=>source==='NAV'||source==='TOR');
 }
@@ -167,10 +202,10 @@ function isMeaningfulSection(section){
  const title=asText(section?.title);
  const words=title.match(/[\p{L}\p{N}]+/gu)||[];
  if(!isReaderLabel(title)||/^(?:Other indexed passages|Unclear historical index heading|general references?|general scriptures? concerning|scriptures? generally|miscellaneous(?: references?)?|other references?|references? generally)$/i.test(title))return false;
- if(isGeneralSection(section))return false;
+ if(isGeneralSection(section)||isTruncatedSacredNameHeading(title))return false;
  if(/^(?:of|from|in|at|near)\s+[\p{Lu}][\p{L}.'’-]+$/u.test(title))return true;
  if(words.length===1)return false;
- if(words.length===2&&words.every(w=>w.length<=3))return false;
+ if(words.length===2&&words.every(w=>w.length<=3)&&!section?.verifiedSacredName)return false;
  if(/^(?:Re|Ma|Es|Il|A|B|C)$/i.test(title))return false;
  if(/\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\s*$/iu.test(title))return false;
  if(/^(?:and|or|with|by|to)\s+/iu.test(title))return false;
@@ -212,7 +247,7 @@ function readerSectionTitle(section){
   return 'Other references';
  return section?.title||'References';
 }
-root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isMeaningfulSection,isAmbiguousSection,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
+root.SOTWDiscoveryCore={isTruncatedSacredNameHeading,rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isMeaningfulSection,isAmbiguousSection,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;

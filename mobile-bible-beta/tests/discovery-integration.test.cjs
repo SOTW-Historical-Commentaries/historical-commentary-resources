@@ -116,6 +116,136 @@ assert.equal(core.sourceHeading('1.').title,'Other indexed passages');
 assert.equal(core.sourceHeading('1.').sourceLabel,'1.');
 assert.equal(core.sourceHeading('Intoxi').title,'Unclear historical index heading');
 assert.equal(core.sourceHeading('Intoxi').sourceLabel,'Intoxi');
+// High-priority divine-name integrity: verified contextual repairs only.
+// These are original publisher captions with their mapped source witnesses.
+const protectedHeadingCases=[
+ [
+  "NEUU:TOPIC:bereavement",
+  "From Go",
+  "From God",
+  "Exodus 12:29"
+ ],
+ [
+  "NEUU:TOPIC:church",
+  "HOUSE OF THE LOR",
+  "HOUSE OF THE LORD",
+  "Exodus 23:19"
+ ],
+ [
+  "NEUU:TOPIC:curiosity",
+  "To see Go",
+  "To see God",
+  "Exodus 19:21,24"
+ ],
+ [
+  "NEUU:TOPIC:deafness",
+  "Inflicted by Go",
+  "Inflicted by God",
+  "Exodus 4:11"
+ ],
+ [
+  "NEUU:TOPIC:decalogue",
+  "Written by Go",
+  "Written by God",
+  "Exodus 24:12"
+ ],
+ [
+  "NEUU:TOPIC:disease",
+  "Healing of, from Go",
+  "Healing of, from God",
+  "Exodus 15:26"
+ ],
+ [
+  "NEUU:TOPIC:dumb__deafness__mute_",
+  "Stricken of Go",
+  "Stricken of God",
+  "Exodus 4:11"
+ ],
+ [
+  "NEUU:TOPIC:firstborn",
+  "Of man and beast, reserved to himself by Go",
+  "Of man and beast, reserved to himself by God",
+  "Exodus 13:2,12-16"
+ ],
+ [
+  "NEUU:TOPIC:gospel",
+  "THE DISPENSATION OF THE GRACE OF GO",
+  "THE DISPENSATION OF THE GRACE OF GOD",
+  "Ephesians 3:2"
+ ],
+ [
+  "NEUU:TOPIC:heaven",
+  "THE KINGDOM OF CHRIST AND OF GO",
+  "THE KINGDOM OF CHRIST AND OF GOD",
+  "Ephesians 5:5"
+ ],
+ [
+  "NEUU:TOPIC:jealousy",
+  "Attributed to Go",
+  "Attributed to God",
+  "Exodus 20:5"
+ ],
+ [
+  "NEUU:TOPIC:love",
+  "OF MAN FOR GO",
+  "OF MAN FOR GOD",
+  "Deuteronomy 6:5"
+ ],
+ [
+  "NEUU:TOPIC:mocking",
+  "The Ammonites mock Go",
+  "The Ammonites mock God",
+  "Ezekiel 25:3"
+ ],
+ [
+  "NEUU:TOPIC:murmuring",
+  "AGAINST GO",
+  "AGAINST GOD",
+  "Exodus 16:8,12"
+ ],
+ [
+  "NEUU:TOPIC:vision",
+  "Of the glory of Go",
+  "Of the glory of God",
+  "Exodus 24:9-11"
+ ],
+ [
+  "NEUU:TOPIC:vision",
+  "Of the manifestation of the glory of Go",
+  "Of the manifestation of the glory of God",
+  "Exodus 24:10,17"
+ ],
+ [
+  "NEUU:TOPIC:voice",
+  "OF GO",
+  "OF GOD",
+  "John 5:37"
+ ]
+];
+for(const [topicId,raw,expected,anchor] of protectedHeadingCases){
+ const approved=core.sourceHeading(raw,{topicId,source:'NAV',mappedReferences:[anchor]});
+ assert.equal(approved.title,expected,'Protected divine name must be complete in reader');
+ assert.equal(approved.sourceLabel,raw,'Keep the literal historical source label');
+ assert.equal(approved.verifiedSacredName,true);
+ const topic={id:topicId,references:[{raw:anchor,status:'mapped',verse_ids:['EXO.20.5']}],
+  aspects:[{label:raw,source:'NAV',references:[anchor]}]};
+ assert.equal(core.readerSections(topic)[0]?.title,expected,'Reader shows verified sacred caption');
+ assert.equal(core.sourceHeading(raw,{topicId,source:'NAV',mappedReferences:[]}).title,
+  'Unclear historical index heading','Missing citation must not silently repair');
+ assert.equal(core.sourceHeading(raw,{topicId,source:'AI_ONLY',mappedReferences:[anchor]}).title,
+  'Unclear historical index heading','Unverified source must not silently repair');
+}
+for(const unverified of ['Attributed to Go','The Lor','Jesus Chri','Lord Jesu','the Holy Spiri']){
+ assert.equal(core.sourceHeading(unverified).title,'Unclear historical index heading',
+  'Incomplete divine name must be excluded pending verification: '+unverified);
+ assert.equal(core.isMeaningfulSection({title:unverified}),false);
+}
+for(const complete of ['Attributed to God','The Lord','Jesus Christ','The Holy Spirit']){
+ assert.equal(core.sourceHeading(complete).title,complete,'Complete sacred name must remain intact');
+}
+assert.equal(core.sourceHeading('To go and serve').title,'To go and serve',
+ 'Ordinary motion verb must not be silently rewritten');
+
 const sampleTopic={references:[
  {raw:'Genesis 33:4,11',status:'mapped',verse_ids:['GEN.33.4','GEN.33.11']},
  {raw:'Genesis 45:5-15',status:'mapped',verse_ids:['GEN.45.5','GEN.45.6']},
@@ -216,13 +346,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261123-discovery22'));
+assert(html.includes('discovery-integrations.js?v=20261123-discovery23'));
 assert(html.includes('reader-return.js?v=20261123-return4'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261123-compact3'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0213'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0214'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
