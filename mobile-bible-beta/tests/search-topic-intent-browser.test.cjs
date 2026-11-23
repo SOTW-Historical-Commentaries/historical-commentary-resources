@@ -65,6 +65,22 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await input.fill("Moses snake on stick");
    const topic=page.locator('#modernSearchResults .discovery-hit').filter({hasText:/^BRAZEN SERPENT$/});
    await topic.waitFor({state:"visible"});
+   const fold=page.locator("#modernSearchResults > .sotw-search-topics-group > details.sotw-search-expandable");
+   await fold.locator("summary").waitFor({state:"visible"});
+   assert.equal(await fold.getAttribute("open"),"","Nave group is expanded by default");
+   await fold.locator("summary").click();
+   assert.equal(await topic.isVisible(),false,"Nave results can be collapsed");
+   await fold.locator("summary").click();
+   await topic.waitFor({state:"visible"});
+   // Titles are source-verified. A missing Q&A does not block Nave matching.
+   const fallback=await page.evaluate(()=>{
+    const core=window.SOTWDiscoveryCore,words=window.SOTWUniversalSearchCore;
+    const topics=[{id:"NEUU:TOPIC:serpent",title:"SERPENT",verse_link_count:49},
+     {id:"NEUU:TOPIC:salvation",title:"SALVATION",verse_link_count:316}];
+    return core.rankTopics(topics,"Moses snake on stick",8,[],words).map(x=>x.id);
+   });
+   assert(fallback.includes("NEUU:TOPIC:serpent"),
+    "Original publisher SERPENT topic can be found without a Q&A citation");
    const bronze=page.locator('.universal-qa-card[data-qa-id="utq:v91:2KI:18:4:ndxy"]');
    await bronze.waitFor({state:"visible"});
    assert.match(await bronze.innerText(),/2 Kings 18:4/);
