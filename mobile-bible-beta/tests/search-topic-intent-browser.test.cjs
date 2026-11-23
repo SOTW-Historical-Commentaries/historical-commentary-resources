@@ -164,7 +164,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await topicsBody.locator(".discovery-verse-heading").waitFor({state:"visible"});
    assert.equal(await topicsBody.locator(".discovery-verse-heading").innerText(),"Topics");
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
-   assert.match(await firstTopic.locator("summary").innerText(),/Accusation, False/);
+   assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
    assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
    const general=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.equal(await general.locator(".discovery-section-title").innerText(),"General references");
