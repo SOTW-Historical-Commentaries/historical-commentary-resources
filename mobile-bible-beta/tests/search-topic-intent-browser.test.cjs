@@ -276,6 +276,15 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(returnState.returnHidden,false,
     'Return to original Scripture must stay active after a second topic citation: '+
     JSON.stringify(returnState));
+   const displayInfo=await page.evaluate(()=>{
+    const el=document.querySelector('#sotwReturnToPassage'),header=el?.closest('#modernReaderHeader');
+    const cs=el?getComputedStyle(el):null,hs=header?getComputedStyle(header):null;
+    return {buttonDisplay:cs?.display,buttonVisibility:cs?.visibility,
+     headerDisplay:hs?.display,headerVisibility:hs?.visibility,
+     headerRect:header?.getBoundingClientRect()?.toJSON(),
+     documentBodyClass:document.body.className};
+   });
+   console.log('STUDY_TOPIC_RETURN_DIAG '+brand+' '+JSON.stringify({returnState,displayInfo}));
    await page.locator("#sotwReturnToPassage").click();
    await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
