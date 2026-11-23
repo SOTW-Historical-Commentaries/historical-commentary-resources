@@ -309,6 +309,19 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await firstTopic.locator("summary").waitFor({state:"visible"});
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"true");
    assert.equal(await general.locator(".discovery-citation").count(),7);
+   // Dismissing only the original Scripture chip must NOT strand Back to Topic.
+   await contextual.click();
+   await page.waitForURL(/book=MAT&chapter=5&verse=11&translation=KJV1769/);
+   await page.locator("#sotwReturnDismiss").waitFor({state:"visible"});
+   await page.locator("#sotwReturnDismiss").click();
+   assert.equal(await page.locator("#sotwReturnToPassage").isVisible(),false);
+   assert.equal(await studyTrail.isVisible(),true,"Topic return remains independently available");
+   await studyTrail.click();
+   await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
+   await firstTopic.locator("summary").waitFor({state:"visible"});
+   assert.equal(await firstTopic.getAttribute("open"),"");
+   assert.equal(await general.locator(".discovery-citation").count(),7,
+    "Topic and expanded citations survive an independently dismissed verse return");
    assert.deepEqual(errors,[],"Unexpected browser errors "+brand);
    await context.close();
   }
