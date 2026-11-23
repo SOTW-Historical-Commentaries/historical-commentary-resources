@@ -181,25 +181,14 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
    assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
-   const general=firstTopic.locator(".discovery-verse-topic-section").nth(1);
-   assert.equal(await general.locator(".discovery-section-title").innerText(),"General references",
-    "Descriptive historical sections must precede general references");
-   const firstLink=general.locator(".discovery-citation").first();
-   assert.equal(await firstLink.innerText(),"Exodus 23:1,7","Full source wording is the link");
-   assert.match(await firstLink.getAttribute("href"),/book=EXO.*chapter=23.*verse=1.*translation=KJV1769/);
+   assert.equal(await firstTopic.locator(".discovery-verse-topic-section").count(),1,
+    "Generic historical references are excluded from curated topic view");
    assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0,
     "No CSV-style Indexed citation metadata");
-   const more=general.locator(".discovery-more");
-   assert.match(await more.innerText(),/Show 3 more passages/);
-   await more.click();
-   assert.equal(await general.locator(".discovery-citation").count(),7);
-   assert.match(await more.innerText(),/Show fewer passages/);
-   await more.click();
-   assert.equal(await general.locator(".discovery-citation").count(),4);
    await firstTopic.locator("summary").click();
-   assert.equal(await firstLink.isVisible(),false,"Topic can be folded without losing source data");
+   assert.equal(await joseph.isVisible(),false,"Topic can be folded without losing source data");
    await firstTopic.locator("summary").click();
-   await firstLink.waitFor({state:"visible"});
+   await joseph.waitFor({state:"visible"});
    const visual=await page.evaluate(()=>{
     const area=document.querySelector("#sotwVerseTopicsBody");
     const px=el=>parseFloat(getComputedStyle(el).fontSize);
