@@ -136,8 +136,15 @@ assert.equal(sections[0].references[0].scopes.length,2,
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
 assert.deepEqual(Array.from(core.readerSections(sampleTopic),x=>x.title),
- ['Esau forgives Jacob','Joseph forgives his brothers'],
- 'Ambiguous fragment headings are retained in raw source, not rendered as unknown sections');
+ ['Esau forgives Jacob','Joseph forgives his brothers','Other indexed passages'],
+ 'Unclear historical captions remain available after descriptive sections');
+assert.equal(core.isAmbiguousSection({title:'Re'}),true);
+assert.equal(core.isAmbiguousSection({title:'Ma'}),true);
+assert.equal(core.isAmbiguousSection({title:'property'}),true);
+assert.equal(core.isAmbiguousSection({title:'Faith of'}),true);
+assert.equal(core.isAmbiguousSection({title:'His message to the king of the Ammonites'}),false);
+assert.equal(core.isAmbiguousSection({title:'General references'}),false);
+assert(script.includes('Other indexed references ('),'Low-information source headings remain in collapsed source-linked group');
 for(const label of ['Unknown','Uncategorized','Uncategorized / Unknown','AI only derived','AI-derived','Only AI']){
  assert.equal(core.isReaderLabel(label),false,'Suppress unsupported public heading '+label);
 }
