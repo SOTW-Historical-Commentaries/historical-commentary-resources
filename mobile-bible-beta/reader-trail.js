@@ -65,6 +65,9 @@ function studyTopicSnapshot(anchor){
   expandedSections:groups.map((g,i)=>({
    topic:i,expanded:!!g.querySelector(':scope > .discovery-topic-content > .discovery-more[aria-expanded="true"]')
   })).filter(x=>x.expanded),
+  openSubtopics:groups.flatMap((g,i)=>[...g.querySelectorAll('.discovery-verse-topic-section')]
+   .flatMap((section,n)=>section.querySelector('.discovery-subtopic-references')?.open
+    ?[{topic:i,section:n}]:[])),
   expandedReferences:groups.flatMap((g,i)=>[...g.querySelectorAll('.discovery-verse-topic-section')]
    .flatMap((section,n)=>section.querySelector('.discovery-more[aria-expanded="true"]')
     ?[{topic:i,section:n}]:[])),
@@ -122,6 +125,15 @@ async function restore(){
   for(const entry of snap.expandedSections||[]){
    const button=groups[entry.topic]?.querySelector(':scope > .discovery-topic-content > .discovery-more');
    if(button?.getAttribute('aria-expanded')==='false')button.click();
+  }
+  for(const entry of snap.openSubtopics||[]){
+   const section=groups[entry.topic]?.querySelectorAll('.discovery-verse-topic-section')[entry.section];
+   const disclosure=section?.querySelector('.discovery-subtopic-references');
+   if(disclosure&&!disclosure.open){
+    disclosure.open=true;
+    // Render the initially deferred references before restoring Show more.
+    disclosure.dispatchEvent(new Event('toggle'));
+   }
   }
   for(const entry of snap.expandedReferences||[]){
    const section=groups[entry.topic]?.querySelectorAll('.discovery-verse-topic-section')[entry.section];
