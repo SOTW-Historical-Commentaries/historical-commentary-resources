@@ -6,6 +6,16 @@
 
 
 
+## 2026-11-22 | OWNER DECISION: UNIFIED SEARCH ACCEPTED FOR CURRENT SCOPE — NO WHOLE-BIBLE INDEX
+
+**Current owner acceptance / stop point:** The owner reports that the newly released unified Search is testing nicely and considers this iteration sufficient **for now**. Stop Search feature expansion until a new, specifically requested idea or demonstrated problem. This is an acceptance of the present scope and direction, not a claim that every natural-language query or the earlier Numbers 21 ranking test passed independently. Keep ordinary maintenance and truthful incident diagnosis available without automatically starting a new Search milestone.
+
+**Controlling source strategy:** Nave/Torrey's already published topic-to-Scripture references are the principal topical discovery backbone. Publisher Bible Questions (unfoldingWord Q&A) are useful supplemental topical entries, not a prerequisite for finding Nave material and not a universal surrogate for the Scripture. Approved person profiles appear for eligible names, published Jacob Lannom commentary is included when relevant, source results remain clearly grouped/expandable, and incidental current-chapter text hits stay at the bottom. Keep provenance, rights, original source distinctions and Scripture authority intact.
+
+**Explicitly not planned or authorized:** Do NOT build or schedule a whole-Bible KJV/ASV semantic, verse-text or concept search index as a continuing requirement. The owner judges a large automatic index likely to flatten important contextual distinctions among Scripture, truths, concepts, doctrines and cross-references; preserve the source-grounded value of Nave rather than silently deriving or conflating new connections. Earlier progress text calling a whole-Bible index mandatory is historical and SUPERSEDED by this instruction. A new owner request, not a self-started indexing campaign, is required to revisit that scope.
+
+**Release/evidence boundaries:** Existing PR #30 remains the tested merged Search release, and the owner's positive hands-on experience is noted. No new reader code, source data, deployment or SPP/CGBC media-player changes are requested by this closure. Preserve the earlier Numbers 21:8–9 vs 2 Kings 18:4 failure as historical diagnostic evidence without treating a whole-Bible indexing project as its automatic remedy.
+
 ## 2026-11-22 | OWNER-APPROVED UNIFIED SEARCH INTENT AND INDEPENDENT NAVE FALLBACK — PR #30 MERGED
 
 **Controlling owner Search design:** Treat source classes differently while maintaining ONE Search experience. For a person query, show an eligible verified unfoldingWord profile first (including a close-name spelling). For a question, show original publisher Q&A when it actually matches; when Q&A is absent, Nave/Torrey must still be independently searchable rather than being gated by Q&A citations. Show all relevant currently published Jacob Lannom commentary entries as their own clearly attributed source group. Present publisher/source groups as expandable results, retain existing exact-verse multi-source citation groups and original source actions, and rank incidental results from the currently loaded chapter **last** (direct book/chapter/verse navigation stays immediate). Do not fabricate associations or imply historical-index agreement proves doctrine.
