@@ -177,8 +177,8 @@ const reordered=core.readerSections({references:sampleTopic.references,aspects:[
  {label:'AI only derived',references:['Genesis 45:5-15'],source:'AI_ONLY'},
  {label:'Uncategorized',references:['Genesis 33:4,11'],source:'NAV'}
 ]});
-assert.deepEqual(Array.from(reordered,x=>x.title),['Specific context','General scriptures concerning'],
- 'Show source-labeled context first, put general links last and exclude unknown/AI-only sections');
+assert.deepEqual(Array.from(reordered,x=>x.title),['Specific context'],
+ 'Show source-labeled context and exclude generic, unknown and AI-only sections');
 assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'False Accusation');
 assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
 assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
