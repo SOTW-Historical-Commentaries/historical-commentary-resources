@@ -7,21 +7,30 @@ const line=header?.querySelector('.location-line');
 if(!line||!reader||typeof chooseVerse!=='function'||typeof loadBook!=='function')return;
 const css=document.createElement('style');
 css.textContent=[
- '.mobile-beta #sotwReturnToPassage{display:inline-flex;align-items:center;gap:6px;max-width:100%;min-height:29px;margin-top:5px;padding:5px 10px;border:1px solid #536b72;border-radius:999px;background:#24343c;color:#d9e8ec;font:600 12px/1.25 system-ui;cursor:pointer}',
+ '.mobile-beta #sotwReturnGroup{display:inline-flex;align-items:stretch;max-width:100%;min-height:29px;margin-top:5px;border:1px solid #536b72;border-radius:999px;background:#24343c;color:#d9e8ec;overflow:hidden}',
+ '.mobile-beta #sotwReturnGroup[hidden]{display:none!important}',
+ '.mobile-beta #sotwReturnToPassage{display:inline-flex;align-items:center;gap:6px;max-width:min(280px,70vw);min-width:0;padding:5px 10px;border:0;background:transparent;color:inherit;font:600 12px/1.25 system-ui;cursor:pointer}',
  '.mobile-beta #sotwReturnToPassage[hidden],.mobile-beta #sotwReturnStatus[hidden]{display:none!important}',
+ '.mobile-beta #sotwReturnToPassage span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
  '.mobile-beta #sotwReturnToPassage svg{width:13px;height:13px;flex:none}',
- '.mobile-beta #sotwReturnToPassage:hover{border-color:#93bfca;background:#304751}',
- '.mobile-beta #sotwReturnToPassage:focus-visible{outline:3px solid #dfa94f;outline-offset:2px}',
+ '.mobile-beta #sotwReturnDismiss{min-width:34px;padding:4px 10px;border:0;border-left:1px solid #536b72;background:transparent;color:inherit;font:600 16px/1.25 system-ui;cursor:pointer}',
+ '.mobile-beta #sotwReturnGroup button:hover{background:#304751}',
+ '.mobile-beta #sotwReturnGroup button:focus-visible{outline:3px solid #dfa94f;outline-offset:-3px}',
  '.mobile-beta #sotwReturnToPassage:disabled{opacity:.65;cursor:wait}',
- '.mobile-beta.beta-light #sotwReturnToPassage{background:#edf4f2;color:#304a50;border-color:#b7c9c8}',
- '.mobile-beta.beta-light #sotwReturnToPassage:hover{background:#e0edeb}',
+ '.mobile-beta.beta-light #sotwReturnGroup{background:#edf4f2;color:#304a50;border-color:#b7c9c8}',
+ '.mobile-beta.beta-light #sotwReturnGroup button:hover{background:#e0edeb}',
+ '.mobile-beta.beta-light #sotwReturnDismiss{border-left-color:#b7c9c8}',
  '.mobile-beta #sotwReturnStatus{margin:5px 0 0;font:12px/1.4 system-ui;color:#fac8a8}'
 ].join('');document.head.append(css);
+const returnGroup=document.createElement('div');returnGroup.id='sotwReturnGroup';returnGroup.hidden=true;
 const button=document.createElement('button');button.id='sotwReturnToPassage';button.type='button';button.hidden=true;
 button.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m15 18-6-6 6-6"/></svg>';
 const label=document.createElement('span');button.append(label);
+const dismiss=document.createElement('button');dismiss.id='sotwReturnDismiss';dismiss.type='button';
+dismiss.textContent='×';dismiss.setAttribute('aria-label','Dismiss original verse return');
+returnGroup.append(button,dismiss);
 const status=document.createElement('p');status.id='sotwReturnStatus';status.hidden=true;status.setAttribute('role','status');
-line.after(button,status);
+line.after(returnGroup,status);
 let origin=null,pending=null,busy=false,pendingTimer=0,statusTimer=0;
 function same(a,b){return !!a&&!!b&&a.book===b.book&&a.chapter===b.chapter&&a.verse===b.verse&&a.edition===b.edition;}
 function snapshot(){
@@ -38,7 +47,7 @@ function snapshot(){
 function passage(p){const b=BOOKS.find(x=>x.code===p.book);return (b?.name||p.book)+' '+p.chapter+':'+p.verse;}
 function display(){
  if(origin&&same(origin,{book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition}))origin=null;
- button.hidden=!origin;
+ returnGroup.hidden=!origin;button.hidden=!origin;
  if(origin){label.textContent='Back to '+passage(origin);button.setAttribute('aria-label','Return to original reading: '+passage(origin));}
 }
 function failure(text){clearTimeout(statusTimer);status.textContent=text;status.hidden=false;statusTimer=setTimeout(()=>status.hidden=true,6500);}
@@ -155,6 +164,11 @@ window.SOTWReaderReturn={
   return !!await goBack()&&matches();
  }
 };
+dismiss.addEventListener('click',()=>{
+ // Dismiss only the optional return destination; leave the currently viewed Scripture in place.
+ origin=null;pending=null;clearTimeout(pendingTimer);clearTimeout(statusTimer);
+ status.hidden=true;display();
+});
 button.addEventListener('click',goBack);
 document.addEventListener('click',event=>{
  if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.altKey||event.shiftKey)return;
