@@ -135,6 +135,16 @@ assert.equal(sections[0].references[0].scopes.length,2,
  'One source citation may contain multiple verses and must remain one reference row');
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
+assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'False Accusation');
+assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
+assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
+assert.equal(core.readerSectionTitle({title:'Against Joseph by Potiphar’s wife'}),
+ 'Against Joseph by Potiphar’s wife');
+assert(script.includes("'Show '+remaining+' more '"),'Expansion must identify only the hidden passage count');
+assert(!script.includes("Indexed citation: "),'Raw index jargon must not appear to readers');
+assert(script.includes("link.setAttribute('aria-label','Read '+label"),
+ 'Complete original reference remains navigable and accessible');
+
 assert(!script.includes('accepted-source.json')&&!script.includes('ACCEPTED='),
  'People/Places/Events directory must not be loaded by the public reader');
 assert(!script.includes('rankEntities')&&!script.includes('showEntity('));
@@ -146,18 +156,19 @@ assert(css.includes('border:0;border-radius:11px;background:transparent'),'Topic
 assert(script.includes('The first tap shows topic content and Scripture citations'),'Topics must render actual content without intermediate topic menu');
 assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
-assert(script.includes('One historical source citation')&&script.includes('expandList('));
+assert(script.includes('Preserve the original, complete historical citation')&&script.includes('expandList('),
+ 'Each source reference retains its complete published wording with compact progressive disclosure');
 assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('wrapper.append(link);parent.append(wrapper)'),'Topic citation must be a navigable verified link with original text');
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261122-discovery14'));
+assert(html.includes('discovery-integrations.js?v=20261122-discovery15'));
 assert(html.includes('reader-return.js?v=20261118-return1'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
-assert(html.includes('discovery-integrations.css?v=20261120-discovery4'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0205'"));
+assert(html.includes('discovery-integrations.css?v=20261122-discovery5'));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0206'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
