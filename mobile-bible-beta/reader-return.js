@@ -65,18 +65,46 @@ async function verified(book,chapter,verse){
  const idx=await getJson(snapshotRoot(b)+'index/'+b.code+'/'+chapter+'.json');
  return idx?.canonical_chapter===b.code+'.'+chapter&&Number(idx.verse_count)>=verse;
 }
+function loadedSnapshot(){
+ if(!state.index||!state.bible)return null;
+ return {book:state.book,chapter:state.chapter,verse:state.verse,
+  edition:state.edition,index:state.index,bible:state.bible,scrollTop:reader.scrollTop};
+}
+function restoreLoaded(previous){
+ if(!previous)return;
+ state.book=previous.book;state.chapter=previous.chapter;state.verse=previous.verse;
+ state.edition=previous.edition;state.index=previous.index;state.bible=previous.bible;
+ document.getElementById('book').value=previous.book;
+ document.getElementById('edition').value=previous.edition;
+ fillNumbers(document.getElementById('chapter'),
+  BOOKS.find(b=>b.code===previous.book).chapterCount,previous.chapter);
+ fillNumbers(document.getElementById('verse'),Number(previous.index.verse_count),previous.verse);
+ chooseVerse(previous.verse);
+ reader.scrollTop=previous.scrollTop;
+}
+function chapterMatches(book,chapter,verse){
+ return state.book===book&&state.chapter===chapter&&state.verse===verse&&
+  state.index?.canonical_chapter===book+'.'+chapter&&
+  state.bible?.book_code===book&&Number(state.bible?.chapter)===chapter&&
+  state.bible?.edition_id===state.edition&&
+  state.bible?.verses?.some(v=>Number(v.verse)===verse);
+}
 async function navigate(book,chapter,verse){
  const sameChapter=state.book===book&&state.chapter===chapter;
  state.book=book;state.chapter=chapter;state.verse=verse;
  document.getElementById('book').value=book;
- if(sameChapter&&state.bible)chooseVerse(verse);else await loadBook(false);
- if(!state.bible||state.book!==book||state.chapter!==chapter||state.verse!==verse)return false;
+ if(sameChapter&&chapterMatches(book,chapter,verse))chooseVerse(verse);
+ else await loadBook(false);
+ // A failed remote request must NEVER make old Matthew text appear
+ // beneath a changed Genesis book selector or create a false return.
+ if(!chapterMatches(book,chapter,verse))return false;
  modernJumpToVerse(verse);return true;
 }
 async function follow(anchor){
  if(busy)return;
  const url=new URL(anchor.href,location.href),book=url.searchParams.get('book'),chapter=Number(url.searchParams.get('chapter')),verse=Number(url.searchParams.get('verse'));
  const saved=origin||snapshot();if(!saved)return;
+ const prior=loadedSnapshot();
  const trail=anchor.classList.contains('discovery-citation')?SOTWReaderTrail.capture('topic'):null;
  busy=true;
  try{
@@ -86,12 +114,15 @@ async function follow(anchor){
   if(!origin&&!same(saved,{book,chapter,verse,edition:state.edition}))origin=saved;
   if(trail)SOTWReaderTrail.commit(trail);
   display();
- }catch(_){failure('This Scripture passage could not be opened. Try again shortly.');}
+ }catch(_){
+  restoreLoaded(prior);
+  failure('This Scripture passage could not be opened. The previous passage was restored.');
+ }
  finally{busy=false;}
 }
 async function goBack(){
  if(!origin||busy)return;
- const saved={...origin};busy=true;button.disabled=true;
+ const saved={...origin},prior=loadedSnapshot();busy=true;button.disabled=true;
  try{
   if(!await verified(saved.book,saved.chapter,saved.verse))throw Error('Original passage unavailable');
   betaCloseSheet();document.querySelector('#sotwDiscoveryDetail')?.classList.remove('is-open');
@@ -100,7 +131,10 @@ async function goBack(){
   if(!await navigate(saved.book,saved.chapter,saved.verse))throw Error('Original passage unavailable');
   reader.scrollTop=saved.scrollTop;
   origin=null;pending=null;clearTimeout(pendingTimer);display();
- }catch(_){failure('Could not return to the saved passage. The return link remains available.');}
+ }catch(_){
+  restoreLoaded(prior);
+  failure('Could not return to the saved passage. The return link remains available.');
+ }
  finally{busy=false;button.disabled=false;}
 }
 button.addEventListener('click',goBack);
