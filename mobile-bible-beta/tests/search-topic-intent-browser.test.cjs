@@ -167,13 +167,21 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"true",
     "Reopening after an interrupted load works");
    const topicsBody=page.locator(".discovery-verse-body").filter({hasText:"Accusation"});
-   await topicsBody.locator(".discovery-verse-heading").waitFor({state:"visible"});
-   assert.match(await topicsBody.locator(".discovery-verse-heading").innerText(),/^topics$/i);
+   await topicsBody.locator(".discovery-verse-topic").first().waitFor({state:"visible"});
+   assert.equal(await topicsBody.locator(".discovery-verse-heading").count(),0,
+    "The launcher already identifies the Topics panel");
+   assert.equal(await topicsBody.locator(".discovery-note").count(),0,
+    "License and doctrine disclaimers belong in About & Sources, not atop listings");
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
    assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
    assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
-   const general=firstTopic.locator(".discovery-verse-topic-section").first();
-   assert.equal(await general.locator(".discovery-section-title").innerText(),"General references");
+   const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
+   assert.match(await joseph.locator(".discovery-section-title").innerText(),
+    /Against Joseph by Potiphar/);
+   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
+   const general=firstTopic.locator(".discovery-verse-topic-section").nth(1);
+   assert.equal(await general.locator(".discovery-section-title").innerText(),"General references",
+    "Descriptive historical sections must precede general references");
    const firstLink=general.locator(".discovery-citation").first();
    assert.equal(await firstLink.innerText(),"Exodus 23:1,7","Full source wording is the link");
    assert.match(await firstLink.getAttribute("href"),/book=EXO.*chapter=23.*verse=1.*translation=KJV1769/);
@@ -184,10 +192,6 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await more.click();
    assert.equal(await general.locator(".discovery-citation").count(),7);
    assert.match(await more.innerText(),/Show fewer passages/);
-   const joseph=firstTopic.locator(".discovery-verse-topic-section").nth(1);
-   assert.match(await joseph.locator(".discovery-section-title").innerText(),
-    /Against Joseph by Potiphar/);
-   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
    await more.click();
    assert.equal(await general.locator(".discovery-citation").count(),4);
    await firstTopic.locator("summary").click();
