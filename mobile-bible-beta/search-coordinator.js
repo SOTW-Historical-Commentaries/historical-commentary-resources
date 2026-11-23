@@ -10,18 +10,32 @@ function exactName(query,title){
  const q=normalize(query).replace(/^(who|what) (is|was|were) /,"").replace(/^tell me about /,"");
  return !!q&&String(title||"").split(/[,()]/).some(part=>normalize(part)===q);
 }
-function weight(type,query,caption){
- const q=normalize(query),s=normalize(caption);
- if(type==="scripture")return 115;
- if(type==="name")return exactName(query,caption)?125:77;
- if(type==="book")return s===q?112:46;
- if(type==="questions")return q.length>=4&&s.includes(q)?99:84;
- if(type==="topic")return s===q?94:s.startsWith(q)?83:66;
- if(type==="jacob")return /\b(jacob|lannom)\b/.test(q)?101:73;
+function queryIntent(query){
+ const q=normalize(query);
+ if(/\b(jacob|lannom)\b/.test(q))return "author";
+ if(/^(who (is|was|were)|tell me about|which person)\b/.test(q))return "person";
+ if(/^(what|why|how|when|where|which|is|does|did|can|should)\b/.test(q)||/\?\s*$/.test(query))return "question";
+ return "subject";
+}
+// Rank published source groups by request, not async completion order.
+// A missing Q&A promotes existing Nave results, never an invented answer.
+function weight(type,query,caption,hasQuestions=false){
+ const q=normalize(query),s=normalize(caption),intent=queryIntent(query);
+ if(type==="scripture")return 4;
+ if(type==="name")return exactName(query,caption)?135:intent==="person"?116:74;
+ if(type==="book")return s===q?128:49;
+ if(type==="jacob")return intent==="author"?130:81;
+ if(type==="questions")return intent==="question"?122:q.length>=4&&s.includes(q)?105:94;
+ if(type==="topic"){
+  if(intent==="question"&&!hasQuestions)return 117;
+  return s===q?115:s.startsWith(q)?103:intent==="subject"?99:78;
+ }
  return 0;
 }
 function order(groups,query){
- return groups.map((g,i)=>({...g,originalIndex:i,priority:weight(g.type,query,g.caption)}))
+ const hasQuestions=groups.some(g=>g.type==="questions");
+ return groups.map((g,i)=>({...g,originalIndex:i,
+  priority:weight(g.type,query,g.caption,hasQuestions)}))
   .sort((a,b)=>b.priority-a.priority||a.originalIndex-b.originalIndex);
 }
 // A source must explicitly supply this canonical Scripture destination.
@@ -70,7 +84,7 @@ function groupEvidence(records,books){
  .sort((a,b)=>b.sources.length-a.sources.length||
    b.members.length-a.members.length||a.key.localeCompare(b.key));
 }
-root.SOTWSearchCoordinatorCore={normalize,exactName,weight,order,canonicalTarget,groupEvidence,RELATIONS};
+root.SOTWSearchCoordinatorCore={normalize,exactName,queryIntent,weight,order,canonicalTarget,groupEvidence,RELATIONS};
 if(typeof document==="undefined"||typeof searchInput==="undefined"||
  typeof searchResults==="undefined"||typeof searchModal==="undefined")return;
 const css=document.createElement("style");
@@ -85,7 +99,11 @@ css.textContent=".mobile-beta .sotw-search-topics-group{display:grid;gap:7px;min
  ".mobile-beta .sotw-passage-evidence summary{cursor:pointer;font-size:14px;font-weight:600}" +
  ".mobile-beta .sotw-passage-evidence p{font-size:12px;line-height:1.45;margin:2px 0;opacity:.86}" +
  ".mobile-beta .sotw-passage-actions{display:grid;gap:5px;margin-top:8px}" +
- ".mobile-beta .sotw-passage-actions button{min-height:40px;border:1px solid #829ba1;background:transparent;color:inherit;border-radius:8px;text-align:left;padding:8px;font:inherit;font-size:13px}";
+ ".mobile-beta .sotw-passage-actions button{min-height:40px;border:1px solid #829ba1;background:transparent;color:inherit;border-radius:8px;text-align:left;padding:8px;font:inherit;font-size:13px}" +
+ ".mobile-beta .sotw-search-expandable{border:1px solid #647d86;border-radius:10px;padding:0 9px;min-width:0}" +
+ ".mobile-beta .sotw-search-expandable>summary{cursor:pointer;padding:12px 4px;font-size:13px;font-weight:650;line-height:1.4}" +
+ ".mobile-beta .sotw-search-expandable[open]{padding-bottom:9px}" +
+ ".mobile-beta.beta-light .sotw-search-expandable{border-color:#b2c6c7}";
 document.head.append(css);
 let pending=false,observer=null;
 function groupType(el){
@@ -107,11 +125,32 @@ function caption(el,type){
 }
 function wrapHistoricalTopics(){
  const label=Array.from(searchResults.children).find(n=>n.classList.contains("discovery-search-label"));
- if(!label)return;
- const group=document.createElement("section");group.className="sotw-search-topics-group";
- label.before(group);group.append(label);
- while(group.nextElementSibling?.classList.contains("discovery-hit"))
-  group.append(group.nextElementSibling);
+ let group=Array.from(searchResults.children).find(n=>n.classList.contains("sotw-search-topics-group"));
+ if(label&&!group){
+  group=document.createElement("section");group.className="sotw-search-topics-group";
+  label.before(group);group.append(label);
+ }
+ if(!group)return;
+ // A late topic response must join the same expandable source section.
+ const target=group.querySelector(":scope > .sotw-search-expandable")||group;
+ for(const hit of Array.from(searchResults.children).filter(n=>n.classList.contains("discovery-hit")))
+  target.append(hit);
+}
+function makeExpandable(section,type,query){
+ if(!["name","questions","topic","scripture"].includes(type)||
+    section.querySelector(":scope > .sotw-search-expandable"))return;
+ const heading=section.querySelector(":scope > h4");
+ if(!heading)return;
+ const details=document.createElement("details");
+ details.className="sotw-search-expandable";
+ // Keep existing Q&A and topic navigation visible until the reader folds it.
+ // Incidental current-chapter hits begin folded and always rank last.
+ details.open=type==="questions"||type==="topic"||
+  type==="name"&&exactName(query,caption(section,type));
+ const summary=document.createElement("summary");
+ summary.textContent=heading.textContent;details.append(summary);
+ heading.replaceWith(details);
+ while(details.nextSibling)details.append(details.nextSibling);
 }
 function sourceCitation(){
  // These controls are made by the existing source-validated Q&A adapter.
@@ -193,6 +232,7 @@ function sync(){
  wrapHistoricalTopics();
  const nodes=Array.from(searchResults.children).filter(n=>!n.classList.contains("sotw-search-scripture")&&!n.classList.contains("sotw-passage-evidence"));
  const described=nodes.map(el=>({el,type:groupType(el),caption:caption(el,groupType(el))}));
+ for(const {el,type} of described)makeExpandable(el,type,query);
  const ordered=order(described,query);
  // Source modules may finish in any network order. One stable sort avoids
  // Q&A prepend, historical append and names prepend racing each other.
@@ -254,5 +294,5 @@ function schedule(){
 searchInput.addEventListener("input",schedule);
 observer=new MutationObserver(schedule);
 observer.observe(searchResults,{childList:true});
-root.SOTWSearchCoordinator={version:"passage-evidence-v2.1",refresh:schedule};
+root.SOTWSearchCoordinator={version:"unified-intent-groups-v3",refresh:schedule};
 })(typeof globalThis==="object"?globalThis:this);
