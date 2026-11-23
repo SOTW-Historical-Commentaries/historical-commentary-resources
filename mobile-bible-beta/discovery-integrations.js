@@ -13,7 +13,7 @@ const norm=x=>asText(x).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLower
 // original historical topics indexed to the SAME exact verse. Topic title
 // terms must be present in the source Q&A (with the shared lexical matcher).
 // No biblical person, event, topic, or passage is hardcoded here.
-function rankTopics(rows,query,limit=8,linked=[]){
+function rankTopics(rows,query,limit=8,linked=[],core=null){
  const q=norm(query);
  if(q.length<2||!Array.isArray(rows))return [];
  const rank=x=>{const t=norm(x.title);
@@ -23,11 +23,39 @@ function rankTopics(rows,query,limit=8,linked=[]){
  const literal=rows.filter(x=>valid(x)&&rank(x)<99)
   .sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title));
  const result=literal.slice(0,limit),ids=new Set(result.map(t=>t.id));
- // Real reverse-index associations are supplemental, not interchangeable
- // with direct title matches or proof of the historical claim.
+ // Prioritize published Q&A-linked topics only when their original indexed
+ // verse and title evidence was independently verified by the adapter.
  for(const t of linked){
   if(result.length>=limit)break;
   if(valid(t)&&!ids.has(t.id)){result.push(t);ids.add(t.id)}
+ }
+ // A question without a matching Q&A still has access to Nave directly.
+ // Match indexed source TITLES conservatively, not fabricated verse links.
+ // Reserve room for linked evidence during the earlier asynchronous pass.
+ const terms=typeof core?.words==='function'?core.words(query):[];
+ if(terms.length>1&&typeof core?.tokenMatch==='function'){
+  const candidates=[];
+  for(const t of rows){
+   if(!valid(t)||ids.has(t.id))continue;
+   const titleTerms=core.words(t.title),nameWords=new Set(titleTerms);
+   if(!titleTerms.length)continue;
+   let count=0,strength=0;
+   for(const term of terms){
+    const match=core.tokenMatch(term,nameWords);
+    if(match>=.7){count++;strength+=match;}
+   }
+   // A single generic word may match a one-word topic; longer titles
+   // require at least two independently matching terms.
+   if(count<(titleTerms.length>1?2:1))continue;
+   candidates.push({topic:t,score:strength*10+count/titleTerms.length});
+  }
+  candidates.sort((a,b)=>b.score-a.score||a.topic.title.localeCompare(b.topic.title));
+  // Do not swamp historical source-linked candidates with broad lexical hits.
+  const ceiling=linked.length?limit:Math.min(limit,4);
+  for(const {topic} of candidates){
+   if(result.length>=ceiling)break;
+   result.push(topic);ids.add(topic.id);
+  }
  }
  return result;
 }
@@ -272,7 +300,7 @@ async function appendTopicSearch(query,current){
   const valid=()=>current===seq&&norm(searchInput.value)===norm(query)&&
    searchModal.veil.classList.contains('is-open');
   if(!valid())return;
-  const direct=rankTopics(indexed,query,8);
+  const direct=rankTopics(indexed,query,8,[],root.SOTWUniversalSearchCore);
   const displayed=new Set();
   let label=null;
   function addTopics(topics){
@@ -324,7 +352,7 @@ async function appendTopicSearch(query,current){
     byBook[book]=responses[i].value;});
    const linked=evidenceLinkedTopics(indexed,matches,byBook,
     root.SOTWUniversalSearchCore,8);
-   addTopics(rankTopics(indexed,query,8,linked));
+   addTopics(rankTopics(indexed,query,8,linked,root.SOTWUniversalSearchCore));
   }catch(_){/* Only original literal topic results remain when unavailable. */}
  }catch{
   if(current===seq&&searchModal.veil.classList.contains('is-open')){

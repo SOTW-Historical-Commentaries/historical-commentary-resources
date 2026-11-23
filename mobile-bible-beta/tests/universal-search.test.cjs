@@ -102,16 +102,16 @@ assert.deepEqual(types([
  {type:"questions",caption:"What did Moses lift on the pole?"},
  {type:"topic",caption:"Moses"},
  {type:"scripture",caption:"Current chapter"}
-],"Moses snake on stick"),["scripture","questions","topic"]);
+],"Moses snake on stick"),["topic","questions","scripture"]);
 assert.deepEqual(types([
  {type:"scripture",caption:"Current chapter"},
  {type:"questions",caption:"Who was Noah?"},
  {type:"name",caption:"Noah"}
-],"Noah"),["name","scripture","questions"]);
+],"Noah"),["name","questions","scripture"]);
 assert(coord.weight("jacob","Jacob Romans 12","")>coord.weight("topic","Jacob Romans 12","Romans"));
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("search-coordinator.js?v=20261122-search3"),"Both branded readers load the coordinator");
+ assert(html.includes("search-coordinator.js?v=20261122-search4"),"Both branded readers load the coordinator");
 }
 
 // A passage group is only created when DIFFERENT independently attributed
@@ -157,7 +157,7 @@ assert.equal(coord.groupEvidence([
 ],books).length,0,"Overlapping chapter but different exact verse must not be joined");
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("search-coordinator.js?v=20261122-search3"),
+ assert(html.includes("search-coordinator.js?v=20261122-search4"),
  "Both independent brands load the exact same passage evidence code");
 }
 
