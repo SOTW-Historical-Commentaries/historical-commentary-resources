@@ -9,6 +9,7 @@ const index=fs.readFileSync(path.join(dir,'index.html'),'utf8');
 const discovery=fs.readFileSync(path.join(dir,'discovery-integrations.js'),'utf8');
 const jacob=fs.readFileSync(path.join(dir,'jacob-search.js'),'utf8');
 const returnScript=fs.readFileSync(path.join(dir,'reader-return.js'),'utf8');
+const universalCss=fs.readFileSync(path.join(dir,'universal-search.css'),'utf8');
 const shell=fs.readFileSync(path.join(dir,'sw.js'),'utf8');
 assert(script.includes('SOTWReaderTrail={capture,commit,restore,clear'));
 assert(script.includes('m15 18-6-6 6-6')&&script.includes('const openLabel='),'Use same left-chevron SVG as Back to Scripture');
@@ -30,8 +31,9 @@ assert(script.includes('function studyTopicSnapshot(anchor)')&&script.includes("
 assert(script.includes("root.SOTWDiscoveryCore?.openVerseTopics")&&
  script.includes('selected.open=true')&&script.includes('groups.forEach((g,i)=>'),
  'Restore the exact inline publisher topic and disclosures, not just original Scripture');
-assert(returnScript.includes('#sotwReturnToPassage:not([hidden]){display:inline-flex!important}'),
- 'Back to Scripture must remain visually available after a restored Study Topic');
+assert(script.includes("group.dataset.returnKind=last?.kind||''")&&
+ universalCss.includes(':not([data-return-kind="study-topic"])'),
+ 'Show both original Scripture and Study Topic returns, retain one primary action for Search');
 assert(returnScript.includes('returnToStudySource(snapshot)')&&returnScript.includes('return !!await goBack()&&matches()'),
  'Return to Study must reuse the existing source-verified Back to Scripture navigation');
 assert(discovery.includes('root.SOTWDiscoveryCore.openVerseTopics=showVerseTopics'),
