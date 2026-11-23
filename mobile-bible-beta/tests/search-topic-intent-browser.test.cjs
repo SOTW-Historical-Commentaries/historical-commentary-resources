@@ -10,7 +10,7 @@ const faithIndexTopic={id:"NEUU:TOPIC:faith",slug:"faith",
 const index={schema:"sotw-topics-search-index/1.0.0",topics:[
  {id:"NEUU:TOPIC:brazen_serpent",slug:"brazen_serpent",
   title:"BRAZEN SERPENT",shard:"topics/B.json",sources:["NAV"],
-  verse_link_count:3,see_also:[]},faithIndexTopic
+  verse_link_count:3,see_also:[]},faithIndexTopic,accusationTopic
 ]};
 const faithShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
  id:"NEUU:TOPIC:faith",title:"FAITH",slug:"faith",sources:["NAV","TOR"],
@@ -35,6 +35,26 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
   {raw:"John 3:14,15",status:"mapped",verse_ids:["JHN.3.14","JHN.3.15"]}
  ]
 }]};
+const accusationTopic={id:"NEUU:TOPIC:accusation__false",title:"ACCUSATION, FALSE",
+ shard:"topics/A.json",verse_link_count:210};
+const reverseMAT={schema:"sotw-topics-scripture-index/1.0.0",
+ book_code:"MAT",verses:{"MAT.12.5":[accusationTopic.id]}};
+const originalReferences=[
+ ["Exodus 23:1,7",["EXO.23.1","EXO.23.7"]],
+ ["Leviticus 19:16",["LEV.19.16"]],
+ ["Psalms 41:5-9",["PSA.41.5","PSA.41.6","PSA.41.7","PSA.41.8","PSA.41.9"]],
+ ["Matthew 5:11",["MAT.5.11"]],
+ ["Luke 3:14",["LUK.3.14"]],
+ ["2 Timothy 3:3",["2TI.3.3"]],
+ ["1 Peter 4:14",["1PE.4.14"]],
+ ["Genesis 39:7-20",["GEN.39.7"]]
+];
+const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
+ id:accusationTopic.id,title:accusationTopic.title,aspects:[
+ {label:"General scriptures concerning",references:originalReferences.slice(0,7).map(r=>r[0])},
+ {label:".Against Joseph by Potiphar’s wife",references:["Genesis 39:7-20"]}],
+ references:originalReferences.map(([raw,verse_ids])=>({raw,status:"mapped",verse_ids}))
+}]};
 (async()=>{
  const browser=await chromium.launch({headless:true,
   executablePath:process.env.CHROME_PATH||"/usr/bin/google-chrome",
@@ -50,6 +70,10 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(index)}));
    await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/2KI.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverse2KI)}));
+   await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/MAT.json",route=>
+    route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverseMAT)}));
+   await page.route("**/data/topics/nave-torrey/v1/topics/A.json",route=>
+    route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(accusationShard)}));
    await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/JAS.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverseJAS)}));
    await page.route("**/data/topics/nave-torrey/v1/topics/F.json",route=>
@@ -98,8 +122,8 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.match(await details.innerText(),/2 Kings 18:4/);
    await details.locator(".discovery-topic-group").nth(1).locator("summary").click();
    assert.match(await details.innerText(),/John 3:14,15/);
-   assert.equal(await details.locator(".discovery-original-citation").count(),2,
-    "Both original historical citations stay visibly attributed");
+   assert.equal(await details.locator(".discovery-citation").count(),2,
+    "Both complete original historical citations remain available as direct links");
    await details.locator(".discovery-back-search").click();
    assert.equal(await input.inputValue(),"Moses snake on stick");
    await topic.waitFor({state:"visible"});
@@ -125,6 +149,46 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.match(await faithDetail.innerText(),/James 2:17,20,26/);
    await faithDetail.locator(".discovery-back-search").click();
    assert.equal(await input.inputValue(),"What is faith by itself if it has no works");
+   // Matthew 12:5: source headings and original reference count are genuine
+   // Nave/Torrey data, while the mobile presentation is a compact link list.
+   await page.goto("http://127.0.0.1:8765/"+brand+
+    "/?book=MAT&chapter=12&verse=5&translation=KJV1769",
+    {waitUntil:"domcontentloaded"});
+   await page.locator('#verses .reader-verse[data-verse="5"]').click();
+   const topicsLauncher=page.locator("#sotwVerseTopics .discovery-launch");
+   // The historical Topics module owns a distinctive launch label.
+   const topicsControl=page.locator(".discovery-study .discovery-launch")
+    .filter({hasText:"Related Bible Topics"});
+   await topicsControl.waitFor({state:"visible"});
+   await topicsControl.click();
+   const topicsBody=page.locator(".discovery-verse-body").filter({hasText:"Accusation"});
+   await topicsBody.locator(".discovery-verse-heading").waitFor({state:"visible"});
+   assert.equal(await topicsBody.locator(".discovery-verse-heading").innerText(),"Topics");
+   const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
+   assert.match(await firstTopic.locator("summary").innerText(),/Accusation, False/);
+   assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
+   const general=firstTopic.locator(".discovery-verse-topic-section").first();
+   assert.equal(await general.locator(".discovery-section-title").innerText(),"General references");
+   const firstLink=general.locator(".discovery-citation").first();
+   assert.equal(await firstLink.innerText(),"Exodus 23:1,7","Full source wording is the link");
+   assert.match(await firstLink.getAttribute("href"),/book=EXO.*chapter=23.*verse=1.*translation=KJV1769/);
+   assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0,
+    "No CSV-style Indexed citation metadata");
+   const more=general.locator(".discovery-more");
+   assert.match(await more.innerText(),/Show 3 more passages/);
+   await more.click();
+   assert.equal(await general.locator(".discovery-citation").count(),7);
+   assert.match(await more.innerText(),/Show fewer passages/);
+   const joseph=firstTopic.locator(".discovery-verse-topic-section").nth(1);
+   assert.match(await joseph.locator(".discovery-section-title").innerText(),
+    /Against Joseph by Potiphar/);
+   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
+   await more.click();
+   assert.equal(await general.locator(".discovery-citation").count(),4);
+   await firstTopic.locator("summary").click();
+   assert.equal(await firstLink.isVisible(),false,"Topic can be folded without losing source data");
+   await firstTopic.locator("summary").click();
+   await firstLink.waitFor({state:"visible"});
    assert.deepEqual(errors,[],"Unexpected browser errors "+brand);
    await context.close();
   }
