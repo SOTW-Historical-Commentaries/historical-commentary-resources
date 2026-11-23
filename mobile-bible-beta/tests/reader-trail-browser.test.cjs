@@ -85,6 +85,69 @@ const {chromium}=require('playwright-core');
   assert.equal(await page.locator('.jacob-search-results').getAttribute('open'),'');
   assert.equal(await page.locator('.jacob-search-hit:visible').count(),4);
   assert.deepEqual(errors,[]);
+  // Owner-reported failure: Genesis pilot has no published per-book manifest.
+  // An HTTP 503 for that nonexistent path must not prevent an independently
+  // verified GEN index and source translation from opening. Also ensure a
+  // genuine failure at another book restores the prior loaded passage.
+  for(const brand of ['mobile-bible-beta','mobile-bible-sotw']){
+   const p=await context.newPage();p.setDefaultTimeout(45000);
+   const runtimeErrors=[];p.on('pageerror',e=>runtimeErrors.push(String(e)));
+   let genesisManifestRequests=0;
+   await p.route('**/api/v3/snapshots/structured-genesis-2026-11-03/manifest.json',route=>{
+    genesisManifestRequests++;
+    return route.fulfill({status:503,body:'Service Unavailable'});
+   });
+   await p.goto('http://127.0.0.1:8765/'+brand+
+    '/?book=MAT&chapter=12&verse=33&translation=BSB',{waitUntil:'domcontentloaded'});
+   await p.locator('#verses .reader-verse[data-verse="33"]').waitFor({state:'visible'});
+   await p.evaluate(()=>{
+    const a=document.createElement('a');
+    a.id='verified-topic-reference';a.className='discovery-citation jacob-passage-link';
+    a.href=location.pathname+'?book=GEN&chapter=1&verse=1&translation=BSB';
+    a.textContent='Genesis 1:1';
+    document.body.append(a);
+   });
+   await p.locator('#verified-topic-reference').click();
+   await p.waitForURL(/book=GEN&chapter=1&verse=1&translation=BSB/);
+   await p.locator('#verses .reader-verse[data-verse="1"]').waitFor({state:'visible'});
+   const genesis=await p.evaluate(()=>({
+    book:state.book,canonical:state.index?.canonical_chapter,
+    translation:state.bible?.edition_id,content:state.bible?.book_code,
+    status:document.querySelector('#status')?.textContent
+   }));
+   assert.equal(genesisManifestRequests,0,'Absent Genesis manifest must never be requested');
+   assert.equal(genesis.book,'GEN');assert.equal(genesis.canonical,'GEN.1');
+   assert.equal(genesis.content,'GEN');assert.equal(genesis.translation,'BSB');
+   assert(!/Cannot verify|HTTP 503/i.test(genesis.status||''));
+   await p.locator('#sotwReturnToPassage').click();
+   await p.waitForURL(/book=MAT&chapter=12&verse=33&translation=BSB/);
+   await p.waitForFunction(()=>state.bible?.book_code==='MAT'&&
+    state.index?.canonical_chapter==='MAT.12');
+   await p.route('**/api/v3/snapshots/structured-exodus-2026-11-03/manifest.json',route=>
+    route.fulfill({status:503,body:'Service Unavailable'}));
+   await p.evaluate(()=>{
+    const a=document.querySelector('#verified-topic-reference');
+    a.href=location.pathname+'?book=EXO&chapter=21&verse=24&translation=BSB';
+    a.textContent='Exodus 21:24';
+   });
+   await p.locator('#verified-topic-reference').click();
+   await p.locator('#sotwReturnStatus:visible').waitFor({state:'visible'});
+   const afterError=await p.evaluate(()=>({
+    book:state.book,chapter:state.chapter,verse:state.verse,
+    canonical:state.index?.canonical_chapter,
+    translationBook:state.bible?.book_code,selected:document.querySelector('#book').value,
+    url:location.search,notice:document.querySelector('#sotwReturnStatus').textContent
+   }));
+   assert.equal(afterError.book,'MAT');
+   assert.equal(afterError.translationBook,'MAT');
+   assert.equal(afterError.canonical,'MAT.12');
+   assert.equal(afterError.selected,'MAT');
+   assert.match(afterError.url,/book=MAT&chapter=12&verse=33/);
+   assert.match(afterError.notice,/previous passage was restored/i);
+   assert.deepEqual(runtimeErrors,[],brand+' navigation errors');
+   await p.close();
+  }
+  console.log('PASS: verified Genesis pilot navigation despite simulated 503 manifest; failing source request restores previous passage in both brands');
   console.log('PASS: topic to verse and back with disclosure/scroll; topic to search; Jacob search returns without retyping, dismiss');
  }finally{await browser.close();}
 })().catch(err=>{console.error(err);process.exit(1)});

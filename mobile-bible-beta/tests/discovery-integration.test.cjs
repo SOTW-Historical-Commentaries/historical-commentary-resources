@@ -135,6 +135,33 @@ assert.equal(sections[0].references[0].scopes.length,2,
  'One source citation may contain multiple verses and must remain one reference row');
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
+assert.deepEqual(Array.from(core.readerSections(sampleTopic),x=>x.title),
+ ['Esau forgives Jacob','Joseph forgives his brothers'],
+ 'Ambiguous fragment headings are retained in raw source, not rendered as unknown sections');
+for(const label of ['Unknown','Uncategorized','Uncategorized / Unknown','AI only derived','AI-derived','Only AI']){
+ assert.equal(core.isReaderLabel(label),false,'Suppress unsupported public heading '+label);
+}
+assert.equal(core.isReaderLabel('Against Joseph by Potiphar’s wife'),true);
+assert.equal(core.isReaderTopic({title:'Uncategorized',sources:['NAV']}),false);
+assert.equal(core.isReaderTopic({title:'Faith',sources:['AI_ONLY']}),false,
+ 'Only verified original Nave/Torrey source entries should be visible');
+assert.deepEqual(Array.from(core.orderVerseTopics([
+ {title:'GENTILES',sources:['NAV'],verse_link_count:440},
+ {title:'TRINITY',sources:['NAV'],verse_link_count:85},
+ {title:'CHRIST, THE PROPHET',sources:['TOR'],verse_link_count:85},
+ {title:'UNKNOWN',sources:['NAV'],verse_link_count:1},
+ {title:'STRIFE',sources:['NAV'],verse_link_count:173}
+]),x=>x.title),['CHRIST, THE PROPHET','TRINITY','STRIFE','GENTILES'],
+ 'Verse topics use published breadth as a focus proxy, never source alphabetical order');
+const reordered=core.readerSections({references:sampleTopic.references,aspects:[
+ {label:'General scriptures concerning',references:['Genesis 33:4,11'],source:'NAV'},
+ {label:'Specific context',references:['Genesis 45:5-15'],source:'NAV'},
+ {label:'Unknown',references:['Genesis 33:4,11'],source:'NAV'},
+ {label:'AI only derived',references:['Genesis 45:5-15'],source:'AI_ONLY'},
+ {label:'Uncategorized',references:['Genesis 33:4,11'],source:'NAV'}
+]});
+assert.deepEqual(Array.from(reordered,x=>x.title),['Specific context','General scriptures concerning'],
+ 'Show source-labeled context first, put general links last and exclude unknown/AI-only sections');
 assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'False Accusation');
 assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
 assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
@@ -172,13 +199,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261122-discovery16'));
-assert(html.includes('reader-return.js?v=20261118-return1'),'Reader must load return navigation');
+assert(html.includes('discovery-integrations.js?v=20261122-discovery17'));
+assert(html.includes('reader-return.js?v=20261122-return2'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
-assert(html.includes('discovery-integrations.css?v=20261122-discovery6'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0207'"));
+assert(html.includes('discovery-integrations.css?v=20261122-discovery7'));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0208'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
