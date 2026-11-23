@@ -150,7 +150,10 @@ function topicSections(topic){
 }
 function readerTopicTitle(title){
  const text=asText(title);
- // Typography only: published title and source ID remain unaltered.
+ // Safely unfold simple inverted index adjectives for natural reading.
+ // Both the original published title and source ID remain untouched.
+ const inverted=/^([^,]+),\s*(false|true)$/iu.exec(text);
+ if(inverted)return readerTopicTitle(inverted[2])+' '+readerTopicTitle(inverted[1]);
  return text===text.toLocaleUpperCase()?
   text.toLocaleLowerCase().replace(/(^|[\s,(/-])([\p{L}])/gu,(_,lead,letter)=>lead+letter.toLocaleUpperCase()):text;
 }
