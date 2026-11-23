@@ -245,6 +245,13 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.match(await studyTrail.innerText(),/Back to Topic · False Accusation/,
     "An inline Study Topic citation must generate a contextual return");
    assert.match(await page.locator("#sotwReturnToPassage").innerText(),/Back to Matthew 12:5/);
+   assert.equal(await page.locator("#sotwReturnToPassage").isVisible(),true,
+    "Back to Scripture and Back to Study Topic have different destinations; both must be visible");
+   const headerOverflow=await page.evaluate(()=>{
+    const h=document.querySelector('#modernReaderHeader .modern-inner');
+    return h.scrollWidth-h.clientWidth;
+   });
+   assert(headerOverflow<=4,"Dual return controls must not horizontally overflow iPhone layout: "+headerOverflow);
    await studyTrail.click();
    await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
    await page.waitForFunction(()=>
