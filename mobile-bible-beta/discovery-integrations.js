@@ -471,11 +471,11 @@ async function showVerseTopics(){
  const named=new Map(indexResult.value.map(t=>[t.id,t]));
  const titles=orderVerseTopics(Array.from(new Set(ids)).map(id=>named.get(id)).filter(Boolean));
  if(titles.length){
-  // The first tap shows topic content and Scripture citations, not a second menu.
+  // Let the reader survey all topics before choosing which one to expand.
   const host=el('div','discovery-topic-groups');verseBody.append(host);
   for(const [index,topic] of titles.slice(0,6).entries()){
    const group=el('details','discovery-topic-group discovery-verse-topic');
-   group.open=index===0;host.append(group);
+   group.open=false;host.append(group);
    const summary=el('summary','discovery-topic-summary');
    summary.append(el('span','',readerTopicTitle(topic.title)));
    group.append(summary);
