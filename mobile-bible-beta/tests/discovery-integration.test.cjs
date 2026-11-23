@@ -142,6 +142,7 @@ assert.equal(core.isAmbiguousSection({title:'Re'}),true);
 assert.equal(core.isAmbiguousSection({title:'Ma'}),true);
 assert.equal(core.isAmbiguousSection({title:'property'}),true);
 assert.equal(core.isAmbiguousSection({title:'Faith of'}),true);
+assert.equal(core.isAmbiguousSection({title:'of Tob'}),true);
 assert.equal(core.isAmbiguousSection({title:'His message to the king of the Ammonites'}),false);
 assert.equal(core.isAmbiguousSection({title:'General references'}),false);
 assert(script.includes('Other indexed references ('),'Low-information source headings remain in collapsed source-linked group');
