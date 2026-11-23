@@ -522,6 +522,9 @@ async function showVerseTopics(){
  const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
  dismiss.setAttribute('aria-label','Close Related Bible Topics');
 }
+// Reuse exactly the same published reverse-index pathway when returning to a
+// verse-study topic. No parallel topic cache or invented association.
+root.SOTWDiscoveryCore.openVerseTopics=showVerseTopics;
 // Keep the existing study lifecycle; no separate original-order panel, no
 // People/Places section. BSB Word-by-Word continues in study-ux-repair.js.
 const earlierOpen=betaOpen,earlierClose=betaCloseSheet;
