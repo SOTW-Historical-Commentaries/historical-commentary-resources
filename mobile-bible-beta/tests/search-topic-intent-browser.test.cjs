@@ -160,6 +160,12 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     .filter({hasText:"Related Bible Topics"});
    await topicsControl.waitFor({state:"visible"});
    await topicsControl.click();
+   await topicsControl.click();
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"false",
+    "Closing during an in-flight source lookup cancels disclosure safely");
+   await topicsControl.click();
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"true",
+    "Reopening after an interrupted load works");
    const topicsBody=page.locator(".discovery-verse-body").filter({hasText:"Accusation"});
    await topicsBody.locator(".discovery-verse-heading").waitFor({state:"visible"});
    assert.equal(await topicsBody.locator(".discovery-verse-heading").innerText(),"Topics");
