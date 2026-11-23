@@ -76,6 +76,7 @@ function capture(type,anchor){
 }
 function paint(){
  group.hidden=!last;
+ group.dataset.returnKind=last?.kind||'';
  if(last){openLabel.textContent='Back to '+last.label;
   open.setAttribute('aria-label','Return to previous '+last.label);}
 }
