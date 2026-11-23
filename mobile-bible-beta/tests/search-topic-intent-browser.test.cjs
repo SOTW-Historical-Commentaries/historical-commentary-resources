@@ -231,6 +231,44 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"false",
     "Tapping Related Bible Topics again closes the entire section");
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
+   // Restore the original verse Study Tool, not just the reader passage.
+   // Preserve open topic, expanded citation list, and source verse in both brands.
+   await topicsControl.click();
+   await firstTopic.locator("summary").waitFor({state:"visible"});
+   await general.locator(".discovery-more").click();
+   assert.equal(await general.locator(".discovery-citation").count(),7);
+   const contextual=general.locator(".discovery-citation").filter({hasText:"Matthew 5:11"});
+   await contextual.click();
+   await page.waitForURL(/book=MAT&chapter=5&verse=11&translation=KJV1769/);
+   const studyTrail=page.locator("#sotwTrailOpen");
+   await studyTrail.waitFor({state:"visible"});
+   assert.match(await studyTrail.innerText(),/Back to Topic · False Accusation/,
+    "An inline Study Topic citation must generate a contextual return");
+   assert.match(await page.locator("#sotwReturnToPassage").innerText(),/Back to Matthew 12:5/);
+   await studyTrail.click();
+   await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
+   await page.waitForFunction(()=>
+    document.body.classList.contains("study-open")&&
+    document.querySelector("#sotwVerseTopicsBody")?.hidden===false&&
+    document.querySelector(".discovery-verse-topic summary")?.textContent.includes("False Accusation"));
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"true");
+   assert.equal(await firstTopic.getAttribute("open"),"");
+   assert.equal(await general.locator(".discovery-citation").count(),7,
+    "Expanded historical references must be restored, not reset to four");
+   assert.equal(await studyTrail.isVisible(),false,
+    "One-time return target clears once restored to Study Topics");
+   // Also support the owner's two-stage route:
+   // Back to Scripture first, then Back to the previously opened Topic.
+   await contextual.click();
+   await page.waitForURL(/book=MAT&chapter=5&verse=11&translation=KJV1769/);
+   await page.locator("#sotwReturnToPassage").click();
+   await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
+   assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
+   await studyTrail.waitFor({state:"visible"});
+   await studyTrail.click();
+   await firstTopic.locator("summary").waitFor({state:"visible"});
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"true");
+   assert.equal(await general.locator(".discovery-citation").count(),7);
    assert.deepEqual(errors,[],"Unexpected browser errors "+brand);
    await context.close();
   }
