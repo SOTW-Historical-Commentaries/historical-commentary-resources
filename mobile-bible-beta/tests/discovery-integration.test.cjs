@@ -137,7 +137,18 @@ assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
 assert.deepEqual(Array.from(core.readerSections(sampleTopic),x=>x.title),
  ['Esau forgives Jacob','Joseph forgives his brothers'],
- 'Ambiguous fragment headings are retained in raw source, not rendered as unknown sections');
+ 'Only meaningful historical captions are shown in the reader');
+assert.equal(core.isAmbiguousSection({title:'Re'}),true);
+assert.equal(core.isAmbiguousSection({title:'Ma'}),true);
+assert.equal(core.isAmbiguousSection({title:'property'}),true);
+assert.equal(core.isAmbiguousSection({title:'Faith of'}),true);
+assert.equal(core.isAmbiguousSection({title:'of Tob'}),false);
+assert.equal(core.isAmbiguousSection({title:'His message to the king of the Ammonites'}),false);
+assert.equal(core.isAmbiguousSection({title:'General references'}),false);
+assert(!script.includes("'Other indexed references ('"),'Reader does not expose a low-value fragment drawer');
+assert.equal(core.isMeaningfulSection({title:'of Tob'}),true);
+assert.equal(core.isMeaningfulSection({title:'His message to the king of the Ammonites'}),true);
+assert.equal(core.isMeaningfulSection({title:'Faith of'}),false);
 for(const label of ['Unknown','Uncategorized','Uncategorized / Unknown','AI only derived','AI-derived','Only AI']){
  assert.equal(core.isReaderLabel(label),false,'Suppress unsupported public heading '+label);
 }
@@ -199,13 +210,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261123-discovery20'));
+assert(html.includes('discovery-integrations.js?v=20261123-discovery21'));
 assert(html.includes('reader-return.js?v=20261123-return4'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
-assert(html.includes('discovery-integrations.css?v=20261123-compact1'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0211'"));
+assert(html.includes('discovery-integrations.css?v=20261123-compact2'));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0212'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));

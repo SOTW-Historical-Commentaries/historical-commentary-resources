@@ -161,13 +161,30 @@ function isReaderTopic(topic){
  return !Array.isArray(topic.sources)||!topic.sources.length||
   topic.sources.some(source=>source==='NAV'||source==='TOR');
 }
+// Conservative display curation: no source data is changed or inferred.
+// Contextual short labels remain visible; high-confidence fragments are omitted.
+function isMeaningfulSection(section){
+ const title=asText(section?.title);
+ const words=title.match(/[\p{L}\p{N}]+/gu)||[];
+ if(!isReaderLabel(title)||/^(?:Other indexed passages|Unclear historical index heading)$/i.test(title))return false;
+ if(isGeneralSection(section))return true;
+ if(/^(?:of|from|in|at|near)\s+[\p{Lu}][\p{L}.'’-]+$/u.test(title))return true;
+ if(words.length===1)return false;
+ if(words.length===2&&words.every(w=>w.length<=3))return false;
+ if(/^(?:Re|Ma|Es|Il|A|B|C)$/i.test(title))return false;
+ if(/\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\s*$/iu.test(title))return false;
+ if(/^(?:and|or|with|by|to)\s+/iu.test(title))return false;
+ return true;
+}
+function isAmbiguousSection(section){return !isMeaningfulSection(section);}
 function readerSections(topic){
- const sections=topicSections(topic).filter(section=>
-  isReaderLabel(section.title)&&section.title!=='Other indexed passages'&&
-  section.title!=='Unclear historical index heading');
- // Keep original source order inside each tier; general lists follow the
- // more descriptive historical headings, without inventing relevance.
- return sections.sort((a,b)=>Number(isGeneralSection(a))-Number(isGeneralSection(b)));
+ const seen=new Set();
+ return topicSections(topic).filter(section=>{
+  if(!isMeaningfulSection(section))return false;
+  const key=section.title.toLocaleLowerCase()+'|'+section.references.map(r=>r.raw).join('|');
+  if(seen.has(key))return false;
+  seen.add(key);return true;
+ }).sort((a,b)=>Number(isGeneralSection(a))-Number(isGeneralSection(b)));
 }
 function isGeneralSection(section){
  return /^(?:general(?: scriptures? concerning| references?)?|scriptures? generally)$/i.test(asText(section?.title));
@@ -195,7 +212,7 @@ function readerSectionTitle(section){
   return 'Other references';
  return section?.title||'References';
 }
-root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
+root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isMeaningfulSection,isAmbiguousSection,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
@@ -489,15 +506,16 @@ async function showVerseTopics(){
     loading.remove();
     const sections=readerSections(row);
     if(!sections.length){group.remove();continue;}
+    const primary=sections;
     function renderSection(section){
      const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
      sectionBox.append(el('h5','discovery-section-title',readerSectionTitle(section)));
      if(section.sourceLabel)sectionBox.dataset.originalSourceHeading=section.sourceLabel;
      expandList(sectionBox,section.references,referenceButton,4);
     }
-    sections.slice(0,5).forEach(renderSection);
-    if(sections.length>5){
-     const rest=sections.length-5;
+    primary.slice(0,5).forEach(renderSection);
+    if(primary.length>5){
+     const rest=primary.length-5;
      const more=button(content,'Show '+rest+' more '+(rest===1?'section':'sections'),
       ()=>{const expanded=more.getAttribute('aria-expanded')==='true';
        if(expanded){
@@ -507,7 +525,7 @@ async function showVerseTopics(){
         more.setAttribute('aria-expanded','false');
         more.classList.remove('discovery-show-fewer');
        }else{
-        sections.slice(5).forEach(renderSection);
+        primary.slice(5).forEach(renderSection);
         more.textContent='↑ Show fewer sections';more.setAttribute('aria-expanded','true');
         more.classList.add('discovery-show-fewer');
         // Put the collapse control before the extra sections, not after a long list.
