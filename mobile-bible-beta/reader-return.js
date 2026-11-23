@@ -105,7 +105,8 @@ async function follow(anchor){
  const url=new URL(anchor.href,location.href),book=url.searchParams.get('book'),chapter=Number(url.searchParams.get('chapter')),verse=Number(url.searchParams.get('verse'));
  const saved=origin||snapshot();if(!saved)return;
  const prior=loadedSnapshot();
- const trail=anchor.classList.contains('discovery-citation')?SOTWReaderTrail.capture('topic'):null;
+ const trail=anchor.classList.contains('discovery-citation')?
+ SOTWReaderTrail.capture(anchor.closest('#sotwVerseTopicsBody')?'study-topic':'topic',anchor):null;
  busy=true;
  try{
   if(!await verified(book,chapter,verse))throw Error('Invalid Scripture reference');
@@ -121,7 +122,7 @@ async function follow(anchor){
  finally{busy=false;}
 }
 async function goBack(){
- if(!origin||busy)return;
+ if(!origin||busy)return false;
  const saved={...origin},prior=loadedSnapshot();busy=true;button.disabled=true;
  try{
   if(!await verified(saved.book,saved.chapter,saved.verse))throw Error('Original passage unavailable');
@@ -131,12 +132,29 @@ async function goBack(){
   if(!await navigate(saved.book,saved.chapter,saved.verse))throw Error('Original passage unavailable');
   reader.scrollTop=saved.scrollTop;
   origin=null;pending=null;clearTimeout(pendingTimer);display();
+  return true;
  }catch(_){
   restoreLoaded(prior);
   failure('Could not return to the saved passage. The return link remains available.');
+  return false;
  }
  finally{busy=false;button.disabled=false;}
 }
+window.SOTWReaderReturn={
+ async returnToStudySource(snapshot){
+  const matches=()=>state.book===snapshot.book&&state.chapter===snapshot.chapter&&
+   state.verse===snapshot.verse&&state.edition===snapshot.edition&&
+   state.index?.canonical_chapter===snapshot.book+'.'+snapshot.chapter&&
+   Number(state.index?.verse_count)>=snapshot.verse&&
+   state.bible?.book_code===snapshot.book&&
+   Number(state.bible?.chapter)===snapshot.chapter&&
+   state.bible?.edition_id===snapshot.edition;
+  if(matches())return true;
+  // The existing Back to Scripture pathway is source-verified; reuse it.
+  if(!origin||!same(origin,snapshot))return false;
+  return !!await goBack()&&matches();
+ }
+};
 button.addEventListener('click',goBack);
 document.addEventListener('click',event=>{
  if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.altKey||event.shiftKey)return;
