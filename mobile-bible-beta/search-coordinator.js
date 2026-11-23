@@ -296,6 +296,8 @@ function schedule(){
  },65);
 }
 searchInput.addEventListener("input",schedule);
+if(typeof searchNote!=="undefined")
+ searchNote.textContent="Profiles, publisher Bible Questions, Nave/Torrey topics and published Jacob Lannom commentary are grouped by source. Current-chapter word matches appear last; whole-Bible word search is not yet available.";
 observer=new MutationObserver(schedule);
 observer.observe(searchResults,{childList:true});
 root.SOTWSearchCoordinator={version:"unified-intent-groups-v3",refresh:schedule};
