@@ -208,7 +208,7 @@ function isMeaningfulSection(section){
  if(words.length===2&&words.every(w=>w.length<=3)&&!section?.verifiedSacredName)return false;
  if(/^(?:Re|Ma|Es|Il|A|B|C)$/i.test(title))return false;
  if(/\b(?:of|to|for|from|with|by|in|and|the|his|her|their|a|an)\s*$/iu.test(title))return false;
- if(/^(?:and|or|with|by|to)\s+/iu.test(title))return false;
+ if(/^(?:and|or|with|by|to)\s+/iu.test(title)&&!section?.verifiedSacredName)return false;
  return true;
 }
 function isAmbiguousSection(section){return !isMeaningfulSection(section);}
