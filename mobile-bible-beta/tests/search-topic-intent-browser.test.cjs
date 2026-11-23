@@ -174,7 +174,9 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     "License and doctrine disclaimers belong in About & Sources, not atop listings");
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
    assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
-   assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
+   assert.equal(await firstTopic.getAttribute("open"),null,"All suggested topics start closed for scanning");
+    await firstTopic.locator("summary").click();
+    assert.equal(await firstTopic.getAttribute("open"),"","Reader chooses which historical topic to open");
    const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
