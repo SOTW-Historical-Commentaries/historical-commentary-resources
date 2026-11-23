@@ -156,7 +156,8 @@ assert(css.includes('border:0;border-radius:11px;background:transparent'),'Topic
 assert(script.includes('The first tap shows topic content and Scripture citations'),'Topics must render actual content without intermediate topic menu');
 assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
 assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
-assert(script.includes('One historical source citation')&&script.includes('expandList('));
+assert(script.includes('Preserve the original, complete historical citation')&&script.includes('expandList('),
+ 'Each source reference retains its complete published wording with compact progressive disclosure');
 assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('wrapper.append(link);parent.append(wrapper)'),'Topic citation must be a navigable verified link with original text');
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
