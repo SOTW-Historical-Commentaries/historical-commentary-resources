@@ -223,8 +223,8 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
    assert.match(await topicsControl.innerText(),/Explore topics/);
    await topicsControl.click();
-   await page.locator("#sotwVerseTopicsBody .discovery-verse-heading")
-    .waitFor({state:"visible"});
+   await page.locator("#sotwVerseTopicsBody .discovery-verse-topic > summary")
+    .first().waitFor({state:"visible"});
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"true",
     "Closed section can be reopened from the same launcher");
    await topicsControl.click();
