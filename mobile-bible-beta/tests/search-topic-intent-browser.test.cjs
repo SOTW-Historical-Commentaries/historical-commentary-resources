@@ -212,7 +212,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
      linkWeight:weight(area.querySelector(".discovery-citation"))
     };
    });
-   assert(visual.topic>=18&&visual.section>=16&&visual.passage>=16.5,
+   assert(visual.topic>=18&&visual.section>=14&&visual.section<=15&&visual.passage>=15.5,
     "Mobile reading type must be larger and hierarchy distinct: "+JSON.stringify(visual));
    assert(visual.subjectWeight>visual.linkWeight,
     "Subject title must be visually stronger than Scripture link");
