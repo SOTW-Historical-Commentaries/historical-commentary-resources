@@ -173,9 +173,9 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await topicsBody.locator(".discovery-note").count(),0,
     "License and doctrine disclaimers belong in About & Sources, not atop listings");
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
-   assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
+   assert.match(await firstTopic.locator(":scope > summary").innerText(),/False Accusation/);
    assert.equal(await firstTopic.getAttribute("open"),null,"All suggested topics start closed for scanning");
-    await firstTopic.locator("summary").click();
+    await firstTopic.locator(":scope > summary").click();
     assert.equal(await firstTopic.getAttribute("open"),"","Reader chooses which historical topic to open");
    const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
@@ -195,9 +195,9 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    await more.click();
    assert.equal(await general.locator(".discovery-citation").count(),4);
    assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0);
-   await firstTopic.locator("summary").click();
+   await firstTopic.locator(":scope > summary").click();
    assert.equal(await firstLink.isVisible(),false);
-   await firstTopic.locator("summary").click();
+   await firstTopic.locator(":scope > summary").click();
    await firstLink.waitFor({state:"visible"});
    const visual=await page.evaluate(()=>{
     const area=document.querySelector("#sotwVerseTopicsBody");
@@ -235,8 +235,8 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    // Restore the original verse Study Tool, not just the reader passage.
    // Preserve open topic, expanded citation list, and source verse in both brands.
    await topicsControl.click();
-   await firstTopic.locator("summary").waitFor({state:"visible"});
-   await firstTopic.locator("summary").click(); // Reopened panel begins collapsed again.
+   await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
+   await firstTopic.locator(":scope > summary").click(); // Reopened panel begins collapsed again.
    assert.equal(await firstTopic.getAttribute("open"),"");
    await general.locator(".discovery-more").click();
    assert.equal(await general.locator(".discovery-citation").count(),7);
@@ -305,7 +305,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
    await studyTrail.waitFor({state:"visible"});
    await studyTrail.click();
-   await firstTopic.locator("summary").waitFor({state:"visible"});
+   await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
    assert.equal(await topicsControl.getAttribute("aria-expanded"),"true");
    assert.equal(await general.locator(".discovery-citation").count(),7);
    // Dismissing only the original Scripture chip must NOT strand Back to Topic.
@@ -317,7 +317,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await studyTrail.isVisible(),true,"Topic return remains independently available");
    await studyTrail.click();
    await page.waitForURL(/book=MAT&chapter=12&verse=5&translation=KJV1769/);
-   await firstTopic.locator("summary").waitFor({state:"visible"});
+   await firstTopic.locator(":scope > summary").waitFor({state:"visible"});
    assert.equal(await firstTopic.getAttribute("open"),"");
    assert.equal(await general.locator(".discovery-citation").count(),7,
     "Topic and expanded citations survive an independently dismissed verse return");
