@@ -144,6 +144,20 @@ const {chromium}=require('playwright-core');
    assert.equal(afterError.selected,'MAT');
    assert.match(afterError.url,/book=MAT&chapter=12&verse=33/);
    assert.match(afterError.notice,/previous passage was restored/i);
+   // Dismissing the optional original-verse return must keep the new passage.
+   await p.evaluate(()=>{
+    const a=document.querySelector('#verified-topic-reference');
+    a.href=location.pathname+'?book=GEN&chapter=1&verse=1&translation=BSB';
+    a.textContent='Genesis 1:1';
+   });
+   await p.locator('#verified-topic-reference').click();
+   await p.waitForURL(/book=GEN&chapter=1&verse=1&translation=BSB/);
+   await p.locator('#sotwReturnDismiss').waitFor({state:'visible'});
+   await p.locator('#sotwReturnDismiss').click();
+   assert.equal(await p.locator('#sotwReturnToPassage').isVisible(),false,
+    'Return disappears when X is tapped, without navigating');
+   assert.equal(await p.evaluate(()=>state.book),'GEN',
+    'Dismissing the return keeps the verse currently being read');
    assert.deepEqual(runtimeErrors,[],brand+' navigation errors');
    await p.close();
   }
