@@ -37,6 +37,26 @@ const assert=require("node:assert/strict"),{chromium}=require("playwright-core")
    // Let the independent Q&A, topic, and author adapters complete too.
    await page.waitForTimeout(1300);
    assert(await card.isVisible(),"Noah profile survives async Search updates");
+   const nameGroup=page.locator(".universal-name-section > details.sotw-search-expandable");
+   assert.equal(await nameGroup.getAttribute("open"),"","Exact name profile expands first");
+   // Every source remains independent: author, question, subject and chapter
+   // intent change order, without manufacturing any Scripture relationship.
+   const ranked=await page.evaluate(()=>{
+    const core=window.SOTWSearchCoordinatorCore;
+    const groups=[{type:"scripture",caption:"Ruth 1"},{type:"topic",caption:"FAITH"},
+     {type:"questions",caption:"What is faith?"},{type:"name",caption:"Noah"},
+     {type:"jacob",caption:"Published Jacob Lannom Romans"}];
+    const types=(q,list=groups)=>core.order(list,q).map(x=>x.type);
+    return {name:types("Who was Noah?"),question:types("What is faith?"),
+     fallback:types("What is faith?",groups.filter(x=>x.type!=="questions")),
+     author:types("Jacob Lannom Romans"),subject:types("serpent")};
+   });
+   assert.equal(ranked.name[0],"name","Person profile leads");
+   assert.equal(ranked.question[0],"questions","Published Q&A leads question intent");
+   assert.equal(ranked.fallback[0],"topic","Nave leads when Q&A absent");
+   assert.equal(ranked.author[0],"jacob","Published Jacob commentary leads author intent");
+   for(const list of Object.values(ranked))
+    assert.equal(list.at(-1),"scripture","Current chapter ranks last");
    assert.equal(await page.locator("#modernSearchResults").evaluate(el=>
     el.firstElementChild?.classList.contains("universal-name-section")),true,
     "Exact Noah profile should lead");
