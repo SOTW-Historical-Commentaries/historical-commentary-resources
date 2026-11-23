@@ -51,8 +51,8 @@ const originalReferences=[
 ];
 const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
  id:accusationTopic.id,title:accusationTopic.title,aspects:[
- {label:"Other false accusations",references:originalReferences.slice(0,7).map(r=>r[0])},
- {label:".Against Joseph by Potiphar’s wife",references:["Genesis 39:7-20"]}],
+ {label:".Against Joseph by Potiphar’s wife",references:["Genesis 39:7-20"]},
+ {label:"Other false accusations",references:originalReferences.slice(0,7).map(r=>r[0])}],
  references:originalReferences.map(([raw,verse_ids])=>({raw,status:"mapped",verse_ids}))
 }]};
 (async()=>{
