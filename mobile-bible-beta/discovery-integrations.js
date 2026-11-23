@@ -152,8 +152,8 @@ function topicSections(topic){
 // Presentation filters only. Preserve the complete source shards, reference
 // IDs and raw aspect captions for historical/provenance use.
 function isReaderLabel(label){
- const value=norm(label).replace(/[_,:;-]+/g,' ').replace(/\s+/g,' ').trim();
- if(!value||/^(?:unknown|uncategorized|uncategorised|unclassified|unclear|n a)$/.test(value))return false;
+ const value=norm(label).replace(/[_,:;/.-]+/g,' ').replace(/\s+/g,' ').trim();
+ if(!value||/^(?:unknown|uncategorized|uncategorised|unclassified|unclear|n a)(?:\s+(?:unknown|uncategorized|uncategorised|unclassified|unclear))*$/.test(value))return false;
  return !/\b(?:ai\s*only|only\s*ai|ai\s*derived|derived\s*by\s*ai|ai\s*generated)\b/.test(value);
 }
 function isReaderTopic(topic){
