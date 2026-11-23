@@ -76,10 +76,11 @@ const {chromium}=require('playwright-core');
   assert.equal(await page.locator('#studyOverlay .word-sequence-plain').count(),0);
   await page.locator('#studyOverlayBack').click();
   await page.locator('.discovery-study').first().locator('.discovery-launch').click();
-  await page.locator('.discovery-study').first().locator('.discovery-verse-body .discovery-heading').first().waitFor({state:'visible',timeout:45000});
+  await page.locator('.discovery-study').first()
+   .locator('.discovery-verse-topic > summary').first().waitFor({state:'visible',timeout:45000});
   assert.equal(await page.locator('.discovery-study').first()
-   .locator('.discovery-verse-heading').innerText().then(t=>t.toLowerCase()),'topics',
-   'Verse location is already shown above; its topic heading should be concise');
+   .locator('.discovery-verse-heading').count(),0,
+   'The launcher already names Topics; do not duplicate a heading');
   assert(!/Indexed citation:/.test(await page.locator('.discovery-study').first()
    .locator('.discovery-verse-body').innerText()),
    'No technical citation labels in the reader');
