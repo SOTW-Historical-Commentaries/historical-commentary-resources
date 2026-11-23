@@ -139,7 +139,8 @@ function sourceHeading(label){
 function topicSections(topic){
  const mapped=new Map((topic?.references||[]).filter(x=>x?.status==='mapped'&&
   asText(x.raw)&&Array.isArray(x.verse_ids)&&x.verse_ids.length).map(x=>[x.raw,x]));
- return (topic?.aspects||[]).map(aspect=>{
+ return (topic?.aspects||[]).filter(aspect=>
+  !aspect?.source||aspect.source==='NAV'||aspect.source==='TOR').map(aspect=>{
   const seen=new Set();
   const refs=(aspect.references||[]).filter(raw=>{
    if(!mapped.has(raw)||seen.has(raw))return false;
@@ -147,6 +148,37 @@ function topicSections(topic){
   }).map(raw=>({raw,scopes:mapped.get(raw).verse_ids}));
   return {...sourceHeading(aspect.label),references:refs};
  }).filter(section=>section.references.length);
+}
+// Presentation filters only. Preserve the complete source shards, reference
+// IDs and raw aspect captions for historical/provenance use.
+function isReaderLabel(label){
+ const value=norm(label).replace(/[_,:;-]+/g,' ').replace(/\s+/g,' ').trim();
+ if(!value||/^(?:unknown|uncategorized|uncategorised|unclassified|unclear|n a)$/.test(value))return false;
+ return !/\b(?:ai\s*only|only\s*ai|ai\s*derived|derived\s*by\s*ai|ai\s*generated)\b/.test(value);
+}
+function isReaderTopic(topic){
+ if(!topic||!isReaderLabel(topic.title))return false;
+ return !Array.isArray(topic.sources)||!topic.sources.length||
+  topic.sources.some(source=>source==='NAV'||source==='TOR');
+}
+function readerSections(topic){
+ const sections=topicSections(topic).filter(section=>
+  isReaderLabel(section.title)&&section.title!=='Other indexed passages'&&
+  section.title!=='Unclear historical index heading');
+ // Keep original source order inside each tier; general lists follow the
+ // more descriptive historical headings, without inventing relevance.
+ return sections.sort((a,b)=>Number(isGeneralSection(a))-Number(isGeneralSection(b)));
+}
+function isGeneralSection(section){
+ return /^(?:general(?: scriptures? concerning| references?)?|scriptures? generally)$/i.test(asText(section?.title));
+}
+function orderVerseTopics(rows){
+ // A narrower published Scripture-link footprint is a transparent, stable
+ // focus proxy, not a machine-inferred theological or semantic relationship.
+ return rows.filter(isReaderTopic).sort((a,b)=>
+  (Number.isInteger(a.verse_link_count)&&a.verse_link_count>0?a.verse_link_count:Infinity)-
+  (Number.isInteger(b.verse_link_count)&&b.verse_link_count>0?b.verse_link_count:Infinity)||
+  a.title.localeCompare(b.title));
 }
 function readerTopicTitle(title){
  const text=asText(title);
@@ -163,7 +195,7 @@ function readerSectionTitle(section){
   return 'Other references';
  return section?.title||'References';
 }
-root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle};
+root.SOTWDiscoveryCore={rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
@@ -186,7 +218,7 @@ async function topicsIndex(){
  const data=await sourceJson(TOPICS+'index/topics.json');
  if(data.schema!=='sotw-topics-search-index/1.0.0'||!Array.isArray(data.topics))
   throw Error('Unexpected topics index');
- topicIndex=data.topics;return topicIndex;
+ topicIndex=data.topics.filter(isReaderTopic);return topicIndex;
 }
 function el(tag,cls,value){
  const node=document.createElement(tag);
@@ -281,8 +313,8 @@ async function showTopic(topic){
   if(!body.isConnected||!detail.veil.classList.contains('is-open'))return;
   if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Topic not found');
   busy.remove();
-  const sections=topicSections(row);
-  if(!sections.length){note(body,'This topic has no mapped Scripture citations.');sourceLink(body);return;}
+  const sections=readerSections(row);
+  if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');sourceLink(body);return;}
   note(body,sections.length+' groups of Scripture references.','discovery-guide');
   const host=el('div','discovery-topic-groups');body.append(host);
   function renderGroup(section,index){
@@ -437,10 +469,8 @@ async function showVerseTopics(){
  }
  const ids=verseTopicIds(reverseResult.value,scope);
  const named=new Map(indexResult.value.map(t=>[t.id,t]));
- const titles=Array.from(new Set(ids)).map(id=>named.get(id)).filter(Boolean);
+ const titles=orderVerseTopics(Array.from(new Set(ids)).map(id=>named.get(id)).filter(Boolean));
  if(titles.length){
-  verseBody.append(el('h3','discovery-heading discovery-verse-heading','Topics'));
-  note(verseBody,'Nave/Torrey Scripture references · historical index, not doctrine.');
   // The first tap shows topic content and Scripture citations, not a second menu.
   const host=el('div','discovery-topic-groups');verseBody.append(host);
   for(const [index,topic] of titles.slice(0,6).entries()){
@@ -457,8 +487,8 @@ async function showVerseTopics(){
     const row=shard?.topics?.find(t=>t.id===topic.id);
     if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
     loading.remove();
-    const sections=topicSections(row);
-    if(!sections.length){note(content,'No mapped Scripture references.');continue;}
+    const sections=readerSections(row);
+    if(!sections.length){note(content,'No source-labeled Scripture references available.');continue;}
     function renderSection(section){
      const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
      sectionBox.append(el('h5','discovery-section-title',readerSectionTitle(section)));
