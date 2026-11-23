@@ -1,5 +1,17 @@
 # 00 START HERE — SERVANTS OF THE WAY BIBLE READER
 
+## 2026-11-23 | SACRED-NAME HEADING INTEGRITY — PR #39 MERGED AND DEPLOYED
+
+**Owner quality decision:** Do not correct every minor historical typo. Treat truncated divine names/titles concerning God, Jesus, Lord, Christ and the Holy Spirit as high-priority reader integrity defects, never as acceptable public captions. The owner confirmed “Attributed to Go” under Jealousy refers to God from its Scripture links.
+
+**Source verification:** Published Nave/Torrey JEALOUSY contains the literal source caption “Attributed to Go” with 19 mapped references including Exodus 20:5 and Exodus 34:13–14. A bounded scan of 24 readable topic shards identified 17 obvious divine-name truncations; S could not be completely retrieved, so exhaustive ingestion QA remains open. No source captions were silently rewritten.
+
+**Reader-only resolution:** [PR #39](https://github.com/SOTW-Historical-Commentaries/historical-commentary-resources/pull/39) merged as `e03f10d88abf879d74f203cf53e9011f99d70081`. An explicit 17-caption display repair list requires matching source topic ID, exact original caption, NAV attribution and a mapped witness reference. Corrected headings retain the original caption in sourceLabel. Any other suspicious truncated divine-name ending is excluded from reader display pending source review rather than automatically completed. Complete names and ordinary verbs such as “to go” remain unaffected. No publisher source files, citations, BSB, Scripture translations, accepted Jacob commentary, search source or CGBC production sermon player content changed. CGBC/SOTW branded reader caches advance to `v0214`/`v0032`.
+
+**Gates and publication:** Tested head `04995c010243f6fc15547826b2da45992f156b87`: source QA `45215772122` PASS, full Chromium browser integration `45215772185` PASS. Real publisher JEALOUSY source was verified to render “Attributed to God” with all 19 original mapped citations. GitHub Pages deployment from merge `e03f10d`, run `45216169441`, SUCCESS. Pre-edit exact-main recovery branch: `safety/pre-sacred-name-heading-20261123-c6ccd4f` at `c6ccd4f5471bd7277fac4cfea8b8295af5bf2eba`. Separately, PR #38's final Pages run `45209898885` is confirmed SUCCESS.
+
+**Remaining:** Physical iPhone acceptance on CGBC and SOTW readers, especially Jealousy → Attributed to God; source-wide historical ingestion audit and the large S shard remain open. This is a targeted display safeguard, not a blanket spelling overhaul or source corpus correction.
+
 ## 2026-11-23 | CURATED TOPIC NESTING AND GENERIC HEADING FILTER — PR #38
 
 **Owner iPhone acceptance evidence:** PR #37 Jephthah display was substantially improved but still exposed “General references”; Jealousy → “Attributed to God” exposed a long list of citations without an independent subtopic collapse. Owner explicitly authorized completing checks and publishing.
