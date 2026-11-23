@@ -160,9 +160,15 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     .filter({hasText:"Related Bible Topics"});
    await topicsControl.waitFor({state:"visible"});
    await topicsControl.click();
+   await topicsControl.click();
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"false",
+    "Closing during an in-flight source lookup cancels disclosure safely");
+   await topicsControl.click();
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"true",
+    "Reopening after an interrupted load works");
    const topicsBody=page.locator(".discovery-verse-body").filter({hasText:"Accusation"});
    await topicsBody.locator(".discovery-verse-heading").waitFor({state:"visible"});
-   assert.equal(await topicsBody.locator(".discovery-verse-heading").innerText(),"Topics");
+   assert.match(await topicsBody.locator(".discovery-verse-heading").innerText(),/^topics$/i);
    const firstTopic=topicsBody.locator(".discovery-verse-topic").first();
    assert.match(await firstTopic.locator("summary").innerText(),/False Accusation/);
    assert.equal(await firstTopic.getAttribute("open"),"","First relevant topic expands initially");
@@ -188,6 +194,39 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.equal(await firstLink.isVisible(),false,"Topic can be folded without losing source data");
    await firstTopic.locator("summary").click();
    await firstLink.waitFor({state:"visible"});
+   const visual=await page.evaluate(()=>{
+    const area=document.querySelector("#sotwVerseTopicsBody");
+    const px=el=>parseFloat(getComputedStyle(el).fontSize);
+    const weight=el=>parseInt(getComputedStyle(el).fontWeight,10);
+    return {
+     topic:px(area.querySelector(".discovery-verse-topic > summary")),
+     section:px(area.querySelector(".discovery-section-title")),
+     passage:px(area.querySelector(".discovery-citation")),
+     subjectWeight:weight(area.querySelector(".discovery-verse-topic > summary")),
+     linkWeight:weight(area.querySelector(".discovery-citation"))
+    };
+   });
+   assert(visual.topic>=18&&visual.section>=16&&visual.passage>=16.5,
+    "Mobile reading type must be larger and hierarchy distinct: "+JSON.stringify(visual));
+   assert(visual.subjectWeight>visual.linkWeight,
+    "Subject title must be visually stronger than Scripture link");
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"true",
+    "Launcher exposes an accessible expanded state");
+   const closeFooter=page.locator("#sotwVerseTopicsBody .discovery-close-topics");
+   await closeFooter.click();
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"false",
+    "Footer closes the entire Topics section");
+   assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
+   assert.match(await topicsControl.innerText(),/Explore topics/);
+   await topicsControl.click();
+   await page.locator("#sotwVerseTopicsBody .discovery-verse-heading")
+    .waitFor({state:"visible"});
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"true",
+    "Closed section can be reopened from the same launcher");
+   await topicsControl.click();
+   assert.equal(await topicsControl.getAttribute("aria-expanded"),"false",
+    "Tapping Related Bible Topics again closes the entire section");
+   assert.equal(await page.locator("#sotwVerseTopicsBody").isVisible(),false);
    assert.deepEqual(errors,[],"Unexpected browser errors "+brand);
    await context.close();
   }

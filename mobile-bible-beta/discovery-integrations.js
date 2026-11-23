@@ -400,12 +400,28 @@ const verseDiscovery=el('section','discovery-study');
 const topicsButton=button(verseDiscovery,'Related Bible Topics',()=>showVerseTopics(),'discovery-launch');
 topicsButton.replaceChildren(el('span','discovery-launch-label','Related Bible Topics'),el('small','discovery-launch-meta','Explore topics ›'));
 const verseBody=el('div','discovery-verse-body');verseBody.hidden=true;verseDiscovery.append(verseBody);
+topicsButton.setAttribute('aria-expanded','false');
+topicsButton.setAttribute('aria-controls','sotwVerseTopicsBody');
+verseBody.id='sotwVerseTopicsBody';
 modernCommentaryMenu.before(verseDiscovery);
 let verseSeq=0;
+function closeVerseTopics(restoreFocus=false){
+ ++verseSeq; // Invalidate any pending historical shard response.
+ verseBody.hidden=true;verseBody.replaceChildren();
+ topicsButton.setAttribute('aria-expanded','false');
+ topicsButton.querySelector('.discovery-launch-meta').textContent='Explore topics ›';
+ if(restoreFocus){
+  topicsButton.focus({preventScroll:true});
+  topicsButton.scrollIntoView({block:'nearest'});
+ }
+}
 async function showVerseTopics(){
+ if(!verseBody.hidden){closeVerseTopics();return;}
  const book=state.book,chapter=state.chapter,verse=modernStudyVerse,current=++verseSeq;
  const scope=book+'.'+chapter+'.'+verse;
  verseBody.hidden=false;verseBody.replaceChildren();
+ topicsButton.setAttribute('aria-expanded','true');
+ topicsButton.querySelector('.discovery-launch-meta').textContent='Hide topics ↑';
  note(verseBody,'Loading topic references…');
  const [indexResult,reverseResult]=await Promise.allSettled([
   topicsIndex(),sourceJson(TOPICS+'index/by-scripture/'+book+'.json')
@@ -415,6 +431,8 @@ async function showVerseTopics(){
  verseBody.replaceChildren();
  if(indexResult.status!=='fulfilled'||reverseResult.status!=='fulfilled'){
   note(verseBody,'Historical topics are temporarily unavailable. The Bible text is unaffected.','discovery-error');
+  const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
+  dismiss.setAttribute('aria-label','Close Related Bible Topics');
   return;
  }
  const ids=verseTopicIds(reverseResult.value,scope);
@@ -471,14 +489,16 @@ async function showVerseTopics(){
   if(titles.length>6)note(verseBody,'Showing the first six indexed topics for this verse.');
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
  sourceLink(verseBody);
+ const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
+ dismiss.setAttribute('aria-label','Close Related Bible Topics');
 }
 // Keep the existing study lifecycle; no separate original-order panel, no
 // People/Places section. BSB Word-by-Word continues in study-ux-repair.js.
 const earlierOpen=betaOpen,earlierClose=betaCloseSheet;
 betaOpen=function(){
- ++verseSeq;verseBody.hidden=true;verseBody.replaceChildren();earlierOpen();
+ closeVerseTopics();earlierOpen();
 };
 betaCloseSheet=function(){
- ++verseSeq;verseBody.hidden=true;verseBody.replaceChildren();earlierClose();
+ closeVerseTopics();earlierClose();
 };
 })(typeof globalThis==='object'?globalThis:this);
