@@ -282,10 +282,23 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     return {buttonDisplay:cs?.display,buttonVisibility:cs?.visibility,
      headerDisplay:hs?.display,headerVisibility:hs?.visibility,
      headerRect:header?.getBoundingClientRect()?.toJSON(),
+     hiddenAttribute:el?.getAttribute('hidden'),
+     inlineStyle:el?.getAttribute('style'),
+     visibleRuleMatches:el?.matches('.mobile-beta:not(.study-open) #sotwReturnToPassage:not([hidden])'),
+     matchingDisplayRules:[...document.styleSheets].flatMap(sheet=>{
+      try{
+       return [...sheet.cssRules].filter(rule=>rule.selectorText&&rule.style?.display&&
+        el.matches(rule.selectorText)).map(rule=>({
+         selector:rule.selectorText,display:rule.style.display,
+         priority:rule.style.getPropertyPriority('display'),href:sheet.href
+        }));
+      }catch{return [];}
+     }).slice(-15),
      documentBodyClass:document.body.className};
    });
    assert.equal(returnState.pageMarker,'still-on-same-page',
     "Following a second topic link must navigate inside the reader");
+   console.log('MATCHING_RETURN_CSS '+brand+' '+JSON.stringify(displayInfo));
    assert.equal(displayInfo.buttonDisplay,'inline-flex',
     "A live Back to Scripture destination must be visibly displayed, not CSS-hidden: "+
     JSON.stringify({returnState,displayInfo}));
