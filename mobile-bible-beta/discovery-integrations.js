@@ -166,8 +166,8 @@ function isReaderTopic(topic){
 function isMeaningfulSection(section){
  const title=asText(section?.title);
  const words=title.match(/[\p{L}\p{N}]+/gu)||[];
- if(!isReaderLabel(title)||/^(?:Other indexed passages|Unclear historical index heading)$/i.test(title))return false;
- if(isGeneralSection(section))return true;
+ if(!isReaderLabel(title)||/^(?:Other indexed passages|Unclear historical index heading|general references?|general scriptures? concerning|scriptures? generally|miscellaneous(?: references?)?|other references?|references? generally)$/i.test(title))return false;
+ if(isGeneralSection(section))return false;
  if(/^(?:of|from|in|at|near)\s+[\p{Lu}][\p{L}.'’-]+$/u.test(title))return true;
  if(words.length===1)return false;
  if(words.length===2&&words.every(w=>w.length<=3))return false;
@@ -299,6 +299,26 @@ function referenceButton(parent,ref){
  link.title='Open '+destination+' in '+state.edition;
  wrapper.append(link);parent.append(wrapper);
  return true;
+}
+// For very long subtopic citation lists, collapse at the heading itself.
+// A reader may open just this subtopic without opening all its citations.
+function renderCollapsibleReferences(parent,section,render){
+ const title=readerSectionTitle(section);
+ const rows=section.references;
+ if(rows.length<=4){
+  parent.append(el('h5','discovery-section-title',title));
+  expandList(parent,rows,render,4);
+  return;
+ }
+ const details=el('details','discovery-subtopic-references');
+ const summary=el('summary','discovery-subtopic-summary',title+' ('+rows.length+' references)');
+ details.append(summary);
+ const inner=el('div','discovery-subtopic-body');
+ details.append(inner);
+ details.addEventListener('toggle',()=>{
+  if(details.open&&!inner.childElementCount)expandList(inner,rows,render,4);
+ });
+ parent.append(details);
 }
 function expandList(parent,rows,render,visibleCount=4){
  const list=el('div','discovery-passage-list');parent.append(list);
@@ -509,9 +529,8 @@ async function showVerseTopics(){
     const primary=sections;
     function renderSection(section){
      const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
-     sectionBox.append(el('h5','discovery-section-title',readerSectionTitle(section)));
      if(section.sourceLabel)sectionBox.dataset.originalSourceHeading=section.sourceLabel;
-     expandList(sectionBox,section.references,referenceButton,4);
+     renderCollapsibleReferences(sectionBox,section,referenceButton);
     }
     primary.slice(0,5).forEach(renderSection);
     if(primary.length>5){
