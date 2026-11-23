@@ -677,7 +677,35 @@ async function loadChapter(resetVerse=false){const request=++chapterRequest;cons
  retry.style.cssText='display:inline-block;margin:8px 0 0;padding:8px 12px;border:1px solid #8ca7af;border-radius:8px;background:#24414b;color:#f1f7f8;cursor:pointer';
  retry.addEventListener('click',()=>loadChapter(false));$('status').append(retry);
  $('focus-text').textContent='Source not available. No substitute text displayed.';$('verses').replaceChildren();$('voices').replaceChildren()}}
-async function loadBook(resetChapter=false){++chapterRequest;const b=bookInfo();setStatus('Loading published chapter inventory for '+b.name+'…');try{let count=b.chapterCount;try{const m=await getJson(snapshotRoot(b)+'manifest.json');if(m.snapshot_id!==b.snapshot||!m.books?.includes(b.code))throw Error('Unexpected book manifest');const publishedCount=m.chapter_verse_count?Object.keys(m.chapter_verse_count).length:Number(m.counts?.chapters);if(!Number.isInteger(publishedCount)||publishedCount!==b.chapterCount)throw Error('Unverified book chapter count');count=publishedCount}catch(e){if(!String(e.message).includes('HTTP 404'))throw e;/* Genesis pilot has no per-book manifest. Its known canonical chapter count comes from the published KJV book inventory; chapter-index identity is checked on loading. */}if(state.book!==b.code)return;state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));fillNumbers($('chapter'),count,state.chapter);await loadChapter(resetChapter)}catch(e){setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);$('voices').replaceChildren()}}
+async function loadBook(resetChapter=false){
+ ++chapterRequest;
+ const b=bookInfo();
+ setStatus('Loading published chapter inventory for '+b.name+'…');
+ try{
+  let count=b.chapterCount;
+  // The published Genesis pilot does not have a manifest.json at all.
+  // Its 50 chapters are pinned in BOOKS; loadChapter still verifies the
+  // original GEN chapter index and the selected translation before display.
+  // Do not request that absent file, which some Pages failures report as 503.
+  if(b.code!=='GEN'){
+   const m=await getJson(snapshotRoot(b)+'manifest.json');
+   if(m.snapshot_id!==b.snapshot||!m.books?.includes(b.code))
+    throw Error('Unexpected book manifest');
+   const publishedCount=m.chapter_verse_count?
+    Object.keys(m.chapter_verse_count).length:Number(m.counts?.chapters);
+   if(!Number.isInteger(publishedCount)||publishedCount!==b.chapterCount)
+    throw Error('Unverified book chapter count');
+   count=publishedCount;
+  }
+  if(state.book!==b.code)return;
+  state.chapter=resetChapter?1:Math.max(1,Math.min(count,state.chapter));
+  fillNumbers($('chapter'),count,state.chapter);
+  await loadChapter(resetChapter);
+ }catch(e){
+  setStatus('Cannot verify the '+b.name+' snapshot: '+e.message,true);
+  $('voices').replaceChildren();
+ }
+}
 async function loadJacob(){try{const j=await getJson('../api/jacob-lannom/v1/current-commentary.json');if(j.authorId!=='jacob-lannom'||!Array.isArray(j.entries))throw Error('Unexpected Jacob author contract');if(!j.entries.every(e=>e&&typeof e.scopeKey==='string'&&typeof e.commentary==='string'))throw Error('Invalid Jacob scope entries');state.jacob=j.entries;if(state.bible)renderBible();const jump=$('jacobJump');jump.replaceChildren();addOption(jump,'','Choose a covered passage…');for(const e of j.entries)addOption(jump,e.scopeKey,formatScope(e.scopeKey)+' · '+e.title);coverageReady=true;return true}catch(e){coverageReady=false;setStatus('Jacob commentary is unavailable: '+e.message,true);return false}}
 async function begin(){
  for(const b of BOOKS)addOption($('book'),b.code,b.name);
