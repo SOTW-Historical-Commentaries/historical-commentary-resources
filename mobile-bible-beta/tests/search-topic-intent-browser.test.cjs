@@ -7,6 +7,8 @@ const {chromium}=require("playwright-core");
 const faithIndexTopic={id:"NEUU:TOPIC:faith",slug:"faith",
  title:"FAITH",shard:"topics/F.json",sources:["NAV","TOR"],
  verse_link_count:442,see_also:[]};
+const accusationTopic={id:"NEUU:TOPIC:accusation__false",title:"ACCUSATION, FALSE",
+ shard:"topics/A.json",verse_link_count:210};
 const index={schema:"sotw-topics-search-index/1.0.0",topics:[
  {id:"NEUU:TOPIC:brazen_serpent",slug:"brazen_serpent",
   title:"BRAZEN SERPENT",shard:"topics/B.json",sources:["NAV"],
@@ -35,8 +37,6 @@ const shard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
   {raw:"John 3:14,15",status:"mapped",verse_ids:["JHN.3.14","JHN.3.15"]}
  ]
 }]};
-const accusationTopic={id:"NEUU:TOPIC:accusation__false",title:"ACCUSATION, FALSE",
- shard:"topics/A.json",verse_link_count:210};
 const reverseMAT={schema:"sotw-topics-scripture-index/1.0.0",
  book_code:"MAT",verses:{"MAT.12.5":[accusationTopic.id]}};
 const originalReferences=[
@@ -155,7 +155,6 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     "/?book=MAT&chapter=12&verse=5&translation=KJV1769",
     {waitUntil:"domcontentloaded"});
    await page.locator('#verses .reader-verse[data-verse="5"]').click();
-   const topicsLauncher=page.locator("#sotwVerseTopics .discovery-launch");
    // The historical Topics module owns a distinctive launch label.
    const topicsControl=page.locator(".discovery-study .discovery-launch")
     .filter({hasText:"Related Bible Topics"});
