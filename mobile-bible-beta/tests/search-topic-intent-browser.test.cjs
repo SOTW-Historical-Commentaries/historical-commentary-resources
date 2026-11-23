@@ -259,9 +259,11 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     "One-time return target clears once restored to Study Topics");
    // Also support the owner's two-stage route:
    // Back to Scripture first, then Back to the previously opened Topic.
+   await page.evaluate(()=>{window.__studyReturnContinuity='still-on-same-page';});
    await contextual.click();
    await page.waitForURL(/book=MAT&chapter=5&verse=11&translation=KJV1769/);
    const returnState=await page.evaluate(()=>({
+    pageMarker:window.__studyReturnContinuity,
     url:location.search,book:state.book,chapter:state.chapter,verse:state.verse,
     studyOpen:document.body.classList.contains('study-open'),
     returnHidden:document.querySelector('#sotwReturnToPassage')?.hidden,
