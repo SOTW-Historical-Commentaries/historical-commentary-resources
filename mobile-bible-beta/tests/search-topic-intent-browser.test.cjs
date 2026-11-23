@@ -51,7 +51,7 @@ const originalReferences=[
 ];
 const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
  id:accusationTopic.id,title:accusationTopic.title,aspects:[
- {label:"General scriptures concerning",references:originalReferences.slice(0,7).map(r=>r[0])},
+ {label:"Other false accusations",references:originalReferences.slice(0,7).map(r=>r[0])},
  {label:".Against Joseph by Potiphar’s wife",references:["Genesis 39:7-20"]}],
  references:originalReferences.map(([raw,verse_ids])=>({raw,status:"mapped",verse_ids}))
 }]};
@@ -181,14 +181,24 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
    assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
-   assert.equal(await firstTopic.locator(".discovery-verse-topic-section").count(),1,
-    "Generic historical references are excluded from curated topic view");
-   assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0,
-    "No CSV-style Indexed citation metadata");
+   const general=firstTopic.locator(".discovery-verse-topic-section").nth(1);
+   const longGroup=general.locator(".discovery-subtopic-references");
+   assert.equal(await longGroup.getAttribute("open"),null,
+    "Long meaningful subtopic starts collapsed independently");
+   assert.match(await longGroup.locator("summary").innerText(),/Other false accusations/);
+   await longGroup.locator("summary").click();
+   const firstLink=longGroup.locator(".discovery-citation").first();
+   assert.equal(await firstLink.innerText(),"Exodus 23:1,7");
+   const more=longGroup.locator(".discovery-more");
+   await more.click();
+   assert.equal(await general.locator(".discovery-citation").count(),7);
+   await more.click();
+   assert.equal(await general.locator(".discovery-citation").count(),4);
+   assert.equal(await topicsBody.locator(".discovery-original-citation").count(),0);
    await firstTopic.locator("summary").click();
-   assert.equal(await joseph.isVisible(),false,"Topic can be folded without losing source data");
+   assert.equal(await firstLink.isVisible(),false);
    await firstTopic.locator("summary").click();
-   await joseph.waitFor({state:"visible"});
+   await firstLink.waitFor({state:"visible"});
    const visual=await page.evaluate(()=>{
     const area=document.querySelector("#sotwVerseTopicsBody");
     const px=el=>parseFloat(getComputedStyle(el).fontSize);
