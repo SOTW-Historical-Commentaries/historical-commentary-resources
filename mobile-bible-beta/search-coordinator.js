@@ -148,6 +148,7 @@ function makeExpandable(section,type,query){
  details.open=type==="questions"||type==="topic"||
   type==="name"&&exactName(query,caption(section,type));
  const summary=document.createElement("summary");
+ summary.className=heading.className;
  summary.textContent=heading.textContent;details.append(summary);
  heading.replaceWith(details);
  while(details.nextSibling)details.append(details.nextSibling);
