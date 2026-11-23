@@ -135,7 +135,7 @@ assert.equal(sections[0].references[0].scopes.length,2,
  'One source citation may contain multiple verses and must remain one reference row');
 assert.equal(sections[1].title,'Joseph forgives his brothers');
 assert.equal(sections[2].title,'Other indexed passages');
-assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'Accusation, False');
+assert.equal(core.readerTopicTitle('ACCUSATION, FALSE'),'False Accusation');
 assert.equal(core.readerSectionTitle({title:'General scriptures concerning'}),'General references');
 assert.equal(core.readerSectionTitle({title:'Other indexed passages'}),'Other references');
 assert.equal(core.readerSectionTitle({title:'Against Joseph by Potiphar’s wife'}),
