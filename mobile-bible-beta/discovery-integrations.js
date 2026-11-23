@@ -488,7 +488,7 @@ async function showVerseTopics(){
     if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
     loading.remove();
     const sections=readerSections(row);
-    if(!sections.length){note(content,'No source-labeled Scripture references available.');continue;}
+    if(!sections.length){group.remove();continue;}
     function renderSection(section){
      const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
      sectionBox.append(el('h5','discovery-section-title',readerSectionTitle(section)));
