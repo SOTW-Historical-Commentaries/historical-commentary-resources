@@ -157,7 +157,7 @@ assert.equal(coord.groupEvidence([
 ],books).length,0,"Overlapping chapter but different exact verse must not be joined");
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("search-coordinator.js?v=20261122-search3"),
+ assert(html.includes("search-coordinator.js?v=20261122-search4"),
  "Both independent brands load the exact same passage evidence code");
 }
 
