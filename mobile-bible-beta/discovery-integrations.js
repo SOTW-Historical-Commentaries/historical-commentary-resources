@@ -251,8 +251,8 @@ function readerTopicTitle(title){
  const text=asText(title);
  // Safely unfold simple inverted index adjectives for natural reading.
  // Both the original published title and source ID remain untouched.
- const inverted=/^([^,]+),\s*(false|true)$/iu.exec(text);
- if(inverted)return readerTopicTitle(inverted[2])+' '+readerTopicTitle(inverted[1]);
+ const inverted=/^([^,]+),\s*(false|true|the)$/iu.exec(text);
+ if(inverted)return (inverted[2].toLowerCase()==='the'?'The':readerTopicTitle(inverted[2]))+' '+readerTopicTitle(inverted[1]);
  return text===text.toLocaleUpperCase()?
   text.toLocaleLowerCase().replace(/(^|[\s,(/-])([\p{L}])/gu,(_,lead,letter)=>lead+letter.toLocaleUpperCase()):text;
 }
@@ -309,10 +309,36 @@ function button(parent,label,action,cls='discovery-ref'){
  const b=el('button',cls,label);b.type='button';
  b.addEventListener('click',action);parent.append(b);return b;
 }
+const topicAttribution=el('details','more-resource');
+topicAttribution.id='historicalTopicsAttribution';
+topicAttribution.append(el('summary','','Historical Bible Topics · Nave/Torrey'));
+note(topicAttribution,'NEUU Bible Topics Dataset, CC BY 4.0; Nave and Torrey; CCEL digitisation; SOTW editorial selection and navigation. Historical index associations are not doctrinal rulings.','');
+const topicCredits=el('div','more-resource-links');
+for(const [label,url] of [['Published topic source and provenance',SOURCE],['License · CC BY 4.0','https://creativecommons.org/licenses/by/4.0/']]){
+ const link=el('a','',label);link.href=url;link.target='_blank';link.rel='noopener noreferrer';topicCredits.append(link);
+}
+topicAttribution.append(topicCredits);sourcesSection.append(topicAttribution);
 function sourceLink(parent){
  const a=el('a','discovery-link','About the Nave/Torrey historical source');
- a.title='NEUU Bible Topics Dataset, CC BY 4.0; Nave and Torrey; CCEL digitisation; SOTW editorial selection and navigation';
- a.href=SOURCE;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);
+ a.href='#historicalTopicsAttribution';
+ a.addEventListener('click',event=>{
+  event.preventDefault();
+  const fromTopic=detail.veil.classList.contains('is-open');
+  if(fromTopic)detail.veil.classList.remove('is-open');
+  syncMoreAppearance();openModal(moreModal);
+  topicAttribution.open=true;
+  requestAnimationFrame(()=>{topicAttribution.scrollIntoView({block:'start'});topicAttribution.querySelector('summary')?.focus({preventScroll:true});});
+  if(fromTopic){
+   const observer=new MutationObserver(()=>{
+    if(!moreModal.veil.classList.contains('is-open')){
+     observer.disconnect();
+     if(!searchModal.veil.classList.contains('is-open')&&!navModal.veil.classList.contains('is-open')&&!editionModal.veil.classList.contains('is-open'))detail.veil.classList.add('is-open');
+    }
+   });
+   observer.observe(moreModal.veil,{attributes:true,attributeFilter:['class']});
+  }
+ });
+ parent.append(a);
 }
 const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
 detail.panel.classList.add('discovery-dialog');
@@ -441,6 +467,33 @@ function renderSharedSection(content,section){
  if(section.source)sectionBox.dataset.source=section.source;
  renderCollapsibleReferences(sectionBox,section,referenceButton);
 }
+function renderSharedSections(content,sections){
+ const primary=sections;
+    function renderSection(section){renderSharedSection(content,section);}
+    primary.slice(0,5).forEach(renderSection);
+    if(primary.length>5){
+     const rest=primary.length-5;
+     const more=button(content,'Show '+rest+' more '+(rest===1?'section':'sections'),
+      ()=>{const expanded=more.getAttribute('aria-expanded')==='true';
+       if(expanded){
+        for(const section of Array.from(content.querySelectorAll(':scope > .discovery-verse-topic-section')).slice(5))
+         section.remove();
+        more.textContent='Show '+rest+' more '+(rest===1?'section':'sections');
+        more.setAttribute('aria-expanded','false');
+        more.classList.remove('discovery-show-fewer');
+       }else{
+        primary.slice(5).forEach(renderSection);
+        more.textContent='↑ Show fewer sections';more.setAttribute('aria-expanded','true');
+        more.classList.add('discovery-show-fewer');
+        // Put the collapse control before the extra sections, not after a long list.
+        const extra=content.querySelectorAll(':scope > .discovery-verse-topic-section')[5];
+        if(extra)content.insertBefore(more,extra);
+       }
+      },'discovery-more');
+     more.setAttribute('aria-expanded','false');
+    }
+
+}
 function expandList(parent,rows,render,visibleCount=4){
  const list=el('div','discovery-passage-list');parent.append(list);
  rows.slice(0,visibleCount).forEach(x=>render(list,x));
@@ -462,8 +515,7 @@ function expandList(parent,rows,render,visibleCount=4){
  }
 }
 async function showTopic(topic){
- const body=showDetail('Historical Bible Topic · '+readerTopicTitle(topic.title));
- note(body,'Historical index associations are not doctrinal rulings.');
+ const body=showDetail(readerTopicTitle(topic.title));
  const busy=note(body,'Loading source references…');
  try{
   const shard=await sourceJson(TOPICS+topic.shard);
@@ -473,9 +525,8 @@ async function showTopic(topic){
   busy.remove();
   const sections=readerSections(row);
   if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');sourceLink(body);return;}
-  note(body,sections.length+' groups of Scripture references.','discovery-guide');
-  const host=el('div','discovery-topic-groups');body.append(host);
-  sections.forEach(section=>renderSharedSection(host,section));
+  const host=el('div','discovery-topic-groups discovery-topic-content');body.append(host);
+  renderSharedSections(host,sections);
   sourceLink(body);
  }catch{
   if(body.isConnected){busy.textContent='Topic references are unavailable right now.';busy.className='discovery-error';}
@@ -504,7 +555,7 @@ async function appendTopicSearch(query,current){
     if(!label)label=searchResults.appendChild(
      el('h4','discovery-search-label','Historical Bible Topics'));
     displayed.add(t.id);
-    const hit=button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit');
+    const hit=button(searchResults,readerTopicTitle(t.title),()=>showTopic(t),'search-hit discovery-hit');
    // Fetch existing source shard, never guess Scripture links from a title.
    // Mapped citations are associations in a historical index, not doctrine.
    sourceJson(TOPICS+t.shard).then(shard=>{
@@ -639,30 +690,7 @@ async function showVerseTopics(){
      if(!sections.length)return;
     }
     if(!sections.length){group.remove();return;}
-    const primary=sections;
-    function renderSection(section){renderSharedSection(content,section);}
-    primary.slice(0,5).forEach(renderSection);
-    if(primary.length>5){
-     const rest=primary.length-5;
-     const more=button(content,'Show '+rest+' more '+(rest===1?'section':'sections'),
-      ()=>{const expanded=more.getAttribute('aria-expanded')==='true';
-       if(expanded){
-        for(const section of Array.from(content.querySelectorAll(':scope > .discovery-verse-topic-section')).slice(5))
-         section.remove();
-        more.textContent='Show '+rest+' more '+(rest===1?'section':'sections');
-        more.setAttribute('aria-expanded','false');
-        more.classList.remove('discovery-show-fewer');
-       }else{
-        primary.slice(5).forEach(renderSection);
-        more.textContent='↑ Show fewer sections';more.setAttribute('aria-expanded','true');
-        more.classList.add('discovery-show-fewer');
-        // Put the collapse control before the extra sections, not after a long list.
-        const extra=content.querySelectorAll(':scope > .discovery-verse-topic-section')[5];
-        if(extra)content.insertBefore(more,extra);
-       }
-      },'discovery-more');
-     more.setAttribute('aria-expanded','false');
-    }
+    renderSharedSections(content,sections);
    }catch{
     if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}
    }

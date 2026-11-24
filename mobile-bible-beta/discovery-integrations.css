@@ -237,3 +237,12 @@
 .mobile-beta .discovery-inline-text p{font:inherit;line-height:1.65;margin:8px 0}
 .mobile-beta .discovery-inline-book{display:flex;justify-content:center;align-items:center;float:right;width:44px;min-height:44px;border:0;background:transparent;color:inherit}
 .mobile-beta .discovery-inline-close:focus-visible,.mobile-beta .discovery-inline-trigger:focus-visible,.mobile-beta .discovery-inline-book:focus-visible{outline:2px solid currentColor}
+
+/* Same topic reading presentation for Search and Verse Tools. */
+.mobile-beta #sotwDiscoveryDetail .discovery-heading{font:750 19px/1.3 system-ui;letter-spacing:-.015em;border-left:3px solid #80c7d6;padding:8px;margin:12px 0}
+.mobile-beta.beta-light #sotwDiscoveryDetail .discovery-heading{border-left-color:#347b90}
+.mobile-beta #sotwDiscoveryDetail .discovery-verse-topic-section{margin:0 0 8px;padding:8px 0 1px}
+.mobile-beta #sotwDiscoveryDetail .discovery-subtopic-summary,.mobile-beta .discovery-study .discovery-subtopic-summary{font:700 15px/1.4 system-ui;min-height:44px}
+.mobile-beta #sotwDiscoveryDetail .discovery-inline-trigger,.mobile-beta .discovery-study .discovery-inline-trigger{font:400 16px/1.4 system-ui;min-height:44px;padding:8px 5px}
+.mobile-beta #sotwDiscoveryDetail .discovery-more,.mobile-beta .discovery-study .discovery-more-topics{min-height:42px;width:max-content;max-width:100%;padding:8px 12px;margin:6px 0 8px;font:700 14px/1.3 system-ui;color:#d4f4fb;background:#365664;border:1px solid #709aa8;border-radius:6px}
+.mobile-beta.beta-light #sotwDiscoveryDetail .discovery-more,.mobile-beta.beta-light .discovery-study .discovery-more-topics{color:#205665;background:#dcecef;border-color:#8caeb8}

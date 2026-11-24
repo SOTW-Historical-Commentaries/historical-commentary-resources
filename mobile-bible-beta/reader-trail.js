@@ -46,7 +46,7 @@ function topicSnapshot(){
  const panel=veil?.querySelector('.modal-content');
  const heading=panel?.querySelector('.discovery-detail-body .discovery-heading');
  if(!visible(veil)||!heading)return null;
- return {kind:'topic',label:heading.textContent.replace(/^Historical Bible Topic\s*·\s*/,'Topic · ').slice(0,65),
+ return {kind:'topic',label:('Topic · '+heading.textContent.replace(/^Historical Bible Topic\s*·\s*/, '')).slice(0,65),
    heading:heading.textContent,scroll:panel.scrollTop};
 }
 function studyTopicSnapshot(anchor){
