@@ -523,16 +523,21 @@ function expandList(parent,rows,render,visibleCount=4){
   more.setAttribute('aria-expanded','false');
  }
 }
+async function loadTopicSections(member){
+ const shard=await sourceJson(TOPICS+member.shard);
+ const row=shard?.topics?.find(t=>t.id===member.id);
+ if(shard?.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
+ return readerSections(row);
+}
 async function showTopic(topic){
  const body=showDetail(readerTopicTitle(topic.title));
  const busy=note(body,'Loading source references…');
  try{
-  const shard=await sourceJson(TOPICS+topic.shard);
-  const row=shard?.topics?.find(t=>t.id===topic.id);
+  const results=await Promise.allSettled(topic.members.map(loadTopicSections));
   if(!body.isConnected||!detail.veil.classList.contains('is-open'))return;
-  if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Topic not found');
   busy.remove();
-  const sections=readerSections(row);
+  const sections=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
+  if(results.some(result=>result.status==='rejected'))note(body,'Some historical source references are unavailable.','discovery-error');
   if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');return;}
   const host=el('div','discovery-topic-groups discovery-topic-content');body.append(host);
   renderSharedSections(host,sections);
@@ -553,40 +558,38 @@ async function appendTopicSearch(query,current){
   const valid=()=>current===seq&&norm(searchInput.value)===norm(query)&&
    searchModal.veil.classList.contains('is-open');
   if(!valid())return;
-  const direct=rankTopics(indexed,query,8,[],root.SOTWUniversalSearchCore);
+  // Rank source records first, then count distinct reader-facing topic identities.
+  // Reuse Verse Tools grouping for all members, including matching titles outside
+  // the ranked window. Preserve the first matching record's relevance position.
+  const groups=groupVerseTopics(indexed);
+  const byTitle=new Map(groups.map(group=>[norm(group.title),group]));
+  const direct=rankTopics(indexed,query,indexed.length,[],root.SOTWUniversalSearchCore);
   const displayed=new Set();
   let label=null;
   function addTopics(topics){
    if(!valid())return;
    for(const t of topics){
-    if(displayed.size>=8||displayed.has(t.id))continue;
-    if(!label)label=searchResults.appendChild(
-     el('h4','discovery-search-label','Historical Bible Topics'));
-    displayed.add(t.id);
-    const hit=button(searchResults,readerTopicTitle(t.title),()=>showTopic(t),'search-hit discovery-hit');
-   // Fetch existing source shard, never guess Scripture links from a title.
-   // Mapped citations are associations in a historical index, not doctrine.
-   sourceJson(TOPICS+t.shard).then(shard=>{
-    if(current!==seq||!hit.isConnected||
-       norm(searchInput.value)!==norm(query)||!searchModal.veil.classList.contains('is-open'))return;
-    const row=shard?.topics?.find(x=>x.id===t.id);
-    if(shard?.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)return;
-    const targets=[];
-    for(const section of readerSections(row)){
-     for(const ref of section.references){
-      for(const scope of ref.scopes||[]){
-       const p=parseScope(scope,BOOKS);
-       if(p?.hasVerse)targets.push({book:p.book.code,chapter:p.chapter,verse:p.verse});
-      }
+    const key=norm(readerTopicTitle(t.title)),group=byTitle.get(key);
+    if(!group||displayed.size>=8||displayed.has(key))continue;
+    if(!label)label=searchResults.appendChild(el('h4','discovery-search-label','Historical Bible Topics'));
+    displayed.add(key);
+    const hit=button(searchResults,group.title,()=>showTopic(group),'search-hit discovery-hit');
+    Promise.allSettled(group.members.map(async member=>{
+     const sections=await loadTopicSections(member);
+     const targets=[];
+     for(const section of sections)for(const ref of section.references)for(const scope of ref.scopes||[]){
+      const p=parseScope(scope,BOOKS);
+      if(p?.hasVerse)targets.push({book:p.book.code,chapter:p.chapter,verse:p.verse});
      }
-    }
-    if(!targets.length)return;
-    // The complete source article remains available in the topic detail.
-    hit.dataset.searchEvidence=JSON.stringify([{type:'topic',id:t.id,
-     relationship:'MAPPED_HISTORICAL_INDEX_REFERENCE',targets}]);
-    root.SOTWSearchCoordinator?.refresh();
-   }).catch(()=>{});
-  }
+     return {type:'topic',id:member.id,relationship:'MAPPED_HISTORICAL_INDEX_REFERENCE',targets};
+    })).then(results=>{
+     if(!valid()||!hit.isConnected)return;
+     const evidence=results.filter(x=>x.status==='fulfilled'&&x.value.targets.length).map(x=>x.value);
+     if(!evidence.length)return;
+     hit.dataset.searchEvidence=JSON.stringify(evidence);
+     root.SOTWSearchCoordinator?.refresh();
+    });
+   }
   }
   addTopics(direct); // Preserve fast literal lookup even when remote reverse indexes are slow.
   pending.hidden=true;
@@ -605,7 +608,7 @@ async function appendTopicSearch(query,current){
     byBook[book]=responses[i].value;});
    const linked=evidenceLinkedTopics(indexed,matches,byBook,
     root.SOTWUniversalSearchCore,8);
-   addTopics(rankTopics(indexed,query,8,linked,root.SOTWUniversalSearchCore));
+   addTopics(rankTopics(indexed,query,indexed.length,linked,root.SOTWUniversalSearchCore));
   }catch(_){/* Only original literal topic results remain when unavailable. */}
  }catch{
   if(current===seq&&searchModal.veil.classList.contains('is-open')){
@@ -686,12 +689,7 @@ async function showVerseTopics(){
    const content=el('div','discovery-topic-content');group.append(content);
    const loading=note(content,'Loading Scripture references…');
    try{
-    const results=await Promise.allSettled(topic.members.map(async member=>{
-     const shard=await sourceJson(TOPICS+member.shard);
-     const row=shard?.topics?.find(t=>t.id===member.id);
-     if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
-     return readerSections(row);
-    }));
+    const results=await Promise.allSettled(topic.members.map(loadTopicSections));
     if(current!==verseSeq||!group.isConnected)return;
     loading.remove();
     const sections=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
