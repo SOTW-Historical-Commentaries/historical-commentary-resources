@@ -151,6 +151,7 @@ function makeExpandable(section,type,query){
  summary.textContent=heading.textContent;details.append(summary);
  heading.replaceWith(details);
  while(details.nextSibling)details.append(details.nextSibling);
+ // Preserve native category toggles; do not rewrap or reset on later async results.
 }
 function sourceCitation(){
  // These controls are made by the existing source-validated Q&A adapter.

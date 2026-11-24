@@ -154,6 +154,17 @@ async function relationships(entry){
  linkCache.set(entry[0],p);return p;
 }
 const shared=root.SOTWDiscoveryCore;
+function appendProfileDefinition(parent,value){
+ const clean=text=>text.replace(/\[([^\]]+)\]\([^\n)]*\)/g,'$1').replace(/\*\*([^*]+)\*\*/g,'$1');
+ let list=null,paragraph=[];
+ const flush=()=>{if(paragraph.length){parent.append(el('p','universal-qa-answer',clean(paragraph.join('\n'))));paragraph=[];}};
+ for(const line of String(value||'').split(/\r?\n/)){
+  const bullet=line.match(/^\s*[*+-]\s+(.+)$/);
+  if(bullet){flush();if(!list){list=el('ul','universal-name-bullets');parent.append(list);}list.append(el('li','',clean(bullet[1])));}
+  else{list=null;if(!line.trim())flush();else paragraph.push(line);}
+ }
+ flush();
+}
 function profileCitation(parent,ref){
  const t=ref.scriptureTarget;
  if(!validTarget(t))return;
@@ -176,7 +187,7 @@ function render(rows){
    const explicit=a.refs.filter(ref=>!ref.fromAssociation&&validTarget(ref.scriptureTarget));
    if(explicit.length)card.dataset.searchEvidence=JSON.stringify([{type:"name",id:entry[0],
     relationship:"PUBLISHED_ARTICLE_CITATION",targets:explicit.map(ref=>ref.scriptureTarget)}]);
-   content.append(el("p","universal-qa-answer universal-name-definition",String(a.source.sections?.Definition||"")));
+   const definition=el("div","universal-name-definition");appendProfileDefinition(definition,a.source.sections?.Definition);content.append(definition);
    if(a.refs.length){
     const refs=el("div","universal-name-citations");
     for(const ref of a.refs)profileCitation(refs,ref);

@@ -138,3 +138,13 @@
 .mobile-beta #readerSearchModal .jacob-search-book .jacob-search-list{padding-left:12px}
 .mobile-beta.beta-light #readerSearchModal .jacob-search-book{border-bottom-color:#b4cbcc}
 .mobile-beta.beta-light #readerSearchModal .jacob-search-book>summary{border-left-color:#347b90}
+
+/* Keep commentary search return in the existing study header. */
+.mobile-beta #studyOverlayHeader{flex-wrap:wrap;gap:8px}
+.mobile-beta .jacob-back-search{border:1px solid #526b74;border-radius:9px;background:#263c45;color:#e5eff2;padding:9px 13px;font:600 13px system-ui;cursor:pointer}
+.mobile-beta .jacob-back-search[hidden]{display:none!important}
+.mobile-beta.beta-light .jacob-back-search{background:#e8f0ef;color:#2b4650;border-color:#b6cccb}
+.mobile-beta .universal-name-bullets{padding-left:1.35em;margin:8px 0 14px;font:400 16px/1.65 system-ui}
+.mobile-beta .universal-name-bullets li{margin:4px 0}
+.mobile-beta .jacob-search-hit[aria-busy=true]{opacity:.65;cursor:wait}
+.mobile-beta .jacob-search-hit[aria-busy=true]::after{content:'…'!important}

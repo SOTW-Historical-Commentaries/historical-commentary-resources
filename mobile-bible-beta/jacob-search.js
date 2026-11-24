@@ -60,7 +60,21 @@ css.textContent=[
  '.mobile-beta.beta-light .jacob-search-more{background:#e3edec;color:#314f56;border-color:#a5baba}'
 ].join('');
 document.head.append(css);
-let generation=0,loading=null;
+let generation=0,loading=null,opening=false;
+let searchOrigin=null;
+const backToSearch=document.createElement('button');
+backToSearch.type='button';backToSearch.className='jacob-back-search';backToSearch.textContent='‹ Back to Search';backToSearch.hidden=true;
+studyOverlayHeader.append(backToSearch);
+backToSearch.addEventListener('click',()=>{
+ const origin=searchOrigin;
+ if(!origin||searchInput.value!==origin.query)return;
+ betaCloseSheet();searchOrigin=null;backToSearch.hidden=true;
+ searchModal.veil.classList.add('is-open');
+ if(typeof positionSearchViewport==='function')positionSearchViewport();
+ requestAnimationFrame(()=>{searchResults.scrollTop=origin.scroll;});
+});
+const originalHide=hideStudyLayer;
+hideStudyLayer=function(...args){searchOrigin=null;backToSearch.hidden=true;return originalHide(...args)};
 async function published(){
  if(!loading)loading=getJson('../api/jacob-lannom/v1/current-commentary.json').then(data=>{
   if(data?.authorId!=='jacob-lannom'||!Array.isArray(data.entries)||
@@ -80,35 +94,51 @@ async function openEntry(item,button){
  const entry=item.entry,p=entryReference(entry,item.book);
  if(!Number.isInteger(p.chapter)||p.chapter<1||p.chapter>item.book.chapterCount||
     !Number.isInteger(p.verse)||p.verse<1)return;
- button.disabled=true;
+ if(opening)return;
+ opening=true;button.disabled=true;button.setAttribute('aria-busy','true');
+ const origin={query:searchInput.value,scroll:searchResults.scrollTop};
+ const old={book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition};
+ let leftSearch=false;
  try{
   const index=await getJson(snapshotRoot(item.book)+'index/'+p.book+'/'+p.chapter+'.json');
   if(index?.canonical_chapter!==p.book+'.'+p.chapter||Number(index.verse_count)<p.verse)
    throw Error('Published chapter/verse not verified');
+  if(!searchModal.veil.classList.contains('is-open')||searchInput.value!==origin.query)return;
   const trail=SOTWReaderTrail.capture('search');
   searchInput.blur();searchModal.veil.classList.remove('is-open');
-  betaCloseSheet();
+  leftSearch=true;betaCloseSheet();
   const same=state.book===p.book&&state.chapter===p.chapter;
   state.book=p.book;state.chapter=p.chapter;state.verse=p.verse;
   document.getElementById('book').value=p.book;
   if(same&&state.bible)chooseVerse(p.verse);else await loadBook(false);
   if(!state.bible||state.book!==p.book||state.chapter!==p.chapter||
-     state.verse!==p.verse||state.bible.book_code!==p.book)return;
+     state.verse!==p.verse||state.bible.book_code!==p.book||state.bible.edition_id!==old.edition)throw Error('Passage load incomplete');
   modernJumpToVerse(p.verse);
   // Use the published, exact author scope even for a chapter introduction
   // or a book overview, which need not have a verse-level Jacob marker.
   modernStudyVerse=p.verse;betaOpen();
   openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom',
    kind:'Pastoral Commentary',scopeKey:entry.scopeKey});
+  searchOrigin=origin;backToSearch.hidden=false;
   SOTWReaderTrail.commit(trail);
  }catch(_){
-  button.disabled=false;
-  button.textContent='Unable to open this published passage. Try again.';
- }
+  if(leftSearch){
+   betaCloseSheet();
+   if(state.book!==old.book||state.chapter!==old.chapter||state.bible?.book_code!==old.book||Number(state.bible?.chapter)!==old.chapter){
+    Object.assign(state,old);document.getElementById('book').value=old.book;await loadBook(false);
+   }else{chooseVerse(old.verse);}
+   searchModal.veil.classList.add('is-open');
+   if(typeof positionSearchViewport==='function')positionSearchViewport();
+   requestAnimationFrame(()=>{searchResults.scrollTop=origin.scroll;});
+  }
+  button.setAttribute('title','Unable to open this published passage. Try again.');
+  if(typeof setStatus==='function')setStatus('Unable to open this published passage. Try again.',true);
+ }finally{opening=false;button.disabled=false;button.removeAttribute('aria-busy');}
 }
 function render(results,query){
  if(!results.length)return;
  // Open the author category; only matching books receive a disclosure.
+ searchResults.querySelectorAll(':scope > .jacob-search-results').forEach(n=>n.remove());
  const host=document.createElement('details');host.className='jacob-search-results';
  host.open=true;
  const title=document.createElement('summary');title.className='jacob-search-section';
@@ -127,7 +157,11 @@ function render(results,query){
   group.append(heading);
   const list=document.createElement('div');list.className='jacob-search-list';group.append(list);
   host.append(group);
-  for(const item of items){
+  function populate(){
+   if(list.dataset.loaded)return;
+   list.dataset.loaded='true';
+   const fragment=document.createDocumentFragment();
+   for(const item of items){
   const b=document.createElement('button');b.type='button';b.className='search-hit jacob-search-hit';
   b.dataset.jacobScope=item.entry.scopeKey;
   const name=document.createElement('strong');name.textContent=item.entry.title;
@@ -144,10 +178,14 @@ function render(results,query){
   caption.textContent=p.display+' · '+(item.entry.scopeType==='BOOK_OVERVIEW'?'Book overview':
    item.entry.scopeType==='CHAPTER_INTRODUCTION'?'Chapter introduction':'Passage commentary');
   b.append(name,caption);
-  b.addEventListener('click',()=>openEntry(item,b));list.append(b);
+  b.addEventListener('click',()=>openEntry(item,b));fragment.append(b);
  }
+ list.append(fragment);
+  }
+  group.addEventListener('toggle',()=>{if(group.open)populate();});
  }
- root.SOTWDiscoveryCore?.resetDisclosure(host);
+ // Native disclosures control their own open state; no cascading reset here.
+ 
  searchResults.append(host);
 }
 searchInput.addEventListener('input',async()=>{
