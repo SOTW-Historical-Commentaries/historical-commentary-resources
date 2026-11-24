@@ -1,5 +1,9 @@
 # 00 START HERE — SERVANTS OF THE WAY BIBLE READER
 
+## 2026-11-24 | OWNER CHECKPOINT: DATASET COMPLETE FOR NOW; UI REFINEMENT OPEN
+
+Owner confirms preliminary iPhone testing looks good overall; remaining findings are UI presentation, not dataset correction. CGBC Jealousy: Attributed to God PASS on physical iPhone. Screenshots show duplicate Ambition and Presumption (3 John 1:9), Sin (Romans 7:7), and repetitive MISCELLANY OF MINOR SUB-TOPICS prefixes/numbering. Owner-approved next UI refinement: group equivalent visible topics, retaining separate Nave/Torrey IDs, references and provenance; suppress generic display prefixes and numbering while retaining full source paths and meaningful context. Preserve nested disclosures, return trails, translation and Word-by-Word in both brands. Owner continues testing; remaining physical checks unconfirmed. Dataset recovery/migration COMPLETE FOR NOW; pinned publication `c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce`, PR #40 merge `81e6a618d75da0f9e93e40b8605e1a872edd6cb9`, Pages 45336367513 SUCCESS. Reopen dataset only for evidenced source/transcription/mapping error. No dataset or runtime edits in this checkpoint; separate sermon player untouched.
+
 ## 2026-11-23 | NAVE–TORREY READER PROJECTION — PR #40 MERGED AND DEPLOYED
 
 Both branded readers now share the adapter pinned to Bible Foundation `c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce`, `data/topics/nave-torrey/reader/v1/`. Manifest reports 1,272 topics, 22,636 display subsections, 165 alias relationships, 25,898 verse keys, 56,039 reference entries and 574 chapter keys. Legacy database remains intact. Reader adapter uses restored display paths, explicit aliases, original citation punctuation, source-specific IDs, index-supplied shards and manifest-aware absent reverse indexes. CGBC cache v0215; SOTW v0033. No CSS or separate sermon-player changes.
