@@ -71,6 +71,7 @@ function studyTopicSnapshot(anchor){
   expandedReferences:groups.flatMap((g,i)=>[...g.querySelectorAll('.discovery-verse-topic-section')]
    .flatMap((section,n)=>section.querySelector('.discovery-more[aria-expanded="true"]')
     ?[{topic:i,section:n}]:[])),
+  previews:groups.flatMap((g,i)=>[...g.querySelectorAll('.discovery-verse-topic-section')].flatMap((section,n)=>[...section.querySelectorAll('.discovery-inline-trigger')].flatMap((b,k)=>b.getAttribute('aria-expanded')==='true'?[{topic:i,section:n,citation:k,raw:b.dataset.rawCitation}]:[]))),
   scroll:panel?.scrollTop||0};
 }
 function capture(type,anchor){
@@ -142,6 +143,11 @@ async function restore(){
   }
   groups.forEach((g,i)=>{g.open=snap.openTopics.includes(i);});
   selected.open=true;
+  for(const entry of snap.previews||[]){
+   const section=groups[entry.topic]?.querySelectorAll('.discovery-verse-topic-section')[entry.section];
+   const trigger=section?.querySelectorAll('.discovery-inline-trigger')[entry.citation];
+   if(trigger?.dataset.rawCitation===entry.raw)trigger.click();
+  }
   const panel=document.querySelector('section[aria-label="Commentary comparison"]');
   requestAnimationFrame(()=>{if(panel)panel.scrollTop=snap.scroll;});
   clear();

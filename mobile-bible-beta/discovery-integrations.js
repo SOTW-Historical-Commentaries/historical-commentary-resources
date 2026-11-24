@@ -338,47 +338,99 @@ function showDetail(heading){
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
  return body;
 }
-function referenceButton(parent,ref){
- // Preserve the original, complete historical citation as the visible link.
- // Source-provenance and first-verse navigation remain separately explicit
- // in the accessible label; never invent a new multi-verse target.
- const first=(ref.scopes||[]).find(s=>parseScope(s,BOOKS));
- if(!first)return false;
- const parsed=parseScope(first,BOOKS);
- const label=asText(ref.raw);
- const destination=parsed.book.name+' '+parsed.chapter+(parsed.hasVerse?':'+parsed.verse:'');
- const params=new URLSearchParams({
-  book:parsed.book.code,chapter:String(parsed.chapter),verse:String(parsed.verse),
-  translation:state.edition
+// Shared topic citation renderer: display mapped verses only; no inferred range.
+const shortBooks={GEN:'Gen',EXO:'Exo',LEV:'Lev',NUM:'Num',DEU:'Deu',JOS:'Jos',JDG:'Jdg',RUT:'Rut','1SA':'1 Sam','2SA':'2 Sam','1KI':'1 Kin','2KI':'2 Kin','1CH':'1 Chr','2CH':'2 Chr',EZR:'Ezr',NEH:'Neh',EST:'Est',JOB:'Job',PSA:'Psa',PRO:'Pro',ECC:'Ecc',SNG:'Son',ISA:'Isa',JER:'Jer',LAM:'Lam',EZK:'Eze',DAN:'Dan',HOS:'Hos',JOL:'Joe',AMO:'Amo',OBA:'Oba',JON:'Jon',MIC:'Mic',NAM:'Nah',HAB:'Hab',ZEP:'Zep',HAG:'Hag',ZEC:'Zec',MAL:'Mal',MAT:'Mat',MRK:'Mar',LUK:'Luk',JHN:'Joh',ACT:'Act',ROM:'Rom','1CO':'1 Cor','2CO':'2 Cor',GAL:'Gal',EPH:'Eph',PHP:'Phi',COL:'Col','1TH':'1 The','2TH':'2 The','1TI':'1 Tim','2TI':'2 Tim',TIT:'Tit',PHM:'Phm',HEB:'Heb',JAS:'Jam','1PE':'1 Pet','2PE':'2 Pet','1JN':'1 Joh','2JN':'2 Joh','3JN':'3 Joh',JUD:'Jud',REV:'Rev'};
+function shortBook(book){return shortBooks[book.code]||book.name.replace(/^(\d)\s*(\w{3}).*$/,'$1 $2').replace(/^([A-Za-z]{3})[A-Za-z]+$/,'$1');}
+function citationLabel(ref,targets){
+ let label=asText(ref.raw);
+ const books=[...new Set(targets.map(t=>t.book))].sort((a,b)=>b.name.length-a.name.length);
+ for(const book of books)label=label.split(book.name).join(shortBook(book));
+ return label;
+}
+function resetTopicDisclosure(details){
+ details.addEventListener('toggle',()=>{
+  if(details.open)return;
+  details.querySelectorAll('.discovery-inline-close').forEach(b=>b.click());
+  details.querySelectorAll('details[open]').forEach(d=>{d.open=false;});
+  details.querySelectorAll('.discovery-more[aria-expanded="true"]').forEach(b=>b.click());
  });
+}
+async function readTopicScope(targets,edition){
+ const groups=new Map();
+ for(const t of targets){
+  const key=t.book.code+'.'+t.chapter;
+  if(!groups.has(key))groups.set(key,{book:t.book,chapter:t.chapter,verses:new Set(),whole:false});
+  const g=groups.get(key);if(t.hasVerse)g.verses.add(t.verse);else g.whole=true;
+ }
+ const output=[];
+ for(const g of groups.values()){
+  const {book,chapter}=g,code=book.code,entry=EDITIONS[edition];
+  if(!entry)throw Error('Edition unavailable');
+  const url='https://raw.githubusercontent.com/'+entry[1]+'/main/data/'+entry[2]+'/'+book.slug+'/chapters/'+String(chapter).padStart(2,'0')+'.json';
+  const [idx,bib]=await Promise.all([getJson(snapshotRoot(book)+'index/'+code+'/'+chapter+'.json'),fetchTranslationWithFallback(url)]);
+  if(idx?.canonical_chapter!==code+'.'+chapter||bib.book_code!==code||Number(bib.chapter)!==chapter||bib.edition_id!==edition)throw Error('Source identity mismatch');
+  const count=Number(idx.verse_count);
+  const verses=g.whole?Array.from({length:count},(_,i)=>i+1):[...g.verses].sort((a,b)=>a-b);
+  if(!count||verses.some(v=>v>count))throw Error('Invalid scope');
+  for(const verse of verses){
+   const row=(bib.verses||[]).find(v=>Number(v.verse)===verse);
+   const value=(row?.spans||[]).map(p=>p.text||'').join('').trim();
+   if(!value)throw Error('Missing verse');
+   output.push({label:shortBook(book)+' '+chapter+':'+verse,text:value});
+  }
+ }
+ return output;
+}
+function referenceButton(parent,ref){
+ const targets=(ref.scopes||[]).map(s=>parseScope(s,BOOKS)).filter(Boolean);
+ if(!targets.length)return false;
+ const first=targets[0],label=citationLabel(ref,targets);
  const wrapper=el('div','discovery-reference-entry');
- const link=el('a','discovery-citation jacob-passage-link',label);
- link.href=location.pathname+'?'+params.toString();
- link.setAttribute('aria-label','Read '+label+' in '+state.edition+
-  '. Opens at '+destination+'.');
- link.title='Open '+destination+' in '+state.edition;
- wrapper.append(link);parent.append(wrapper);
+ const heading=el('div','discovery-inline-heading');
+ const trigger=button(heading,label,()=>{if(!wrapper.querySelector('.discovery-inline-preview'))openPreview();},'discovery-citation discovery-inline-trigger');
+ trigger.setAttribute('aria-expanded','false');
+ trigger.dataset.rawCitation=ref.raw;
+ wrapper.append(heading);parent.append(wrapper);
+ async function openPreview(){
+  const edition=state.edition;
+  trigger.setAttribute('aria-expanded','true');
+  const close=button(heading,'×',()=>{panel.remove();close.remove();trigger.setAttribute('aria-expanded','false');},'discovery-inline-close');
+  close.setAttribute('aria-label','Close '+label+' preview');
+  const panel=el('div','discovery-inline-preview');
+  const body=el('div','discovery-inline-text','Loading Scripture…');panel.append(body);
+  wrapper.append(panel);
+  try{
+   const rows=await readTopicScope(targets,edition);
+   if(!panel.isConnected)return;
+   body.replaceChildren();
+   rows.forEach(row=>{const p=el('p','');p.append(el('strong','',row.label+' '),document.createTextNode(row.text));body.append(p);});
+   const link=el('a','discovery-citation jacob-passage-link discovery-inline-book');
+   link.href=location.pathname+'?'+new URLSearchParams({book:first.book.code,chapter:String(first.chapter),verse:String(first.verse),translation:edition});
+   link.setAttribute('aria-label','Open '+label+' in Bible');
+   link.innerHTML='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6c-3-2-6-2-10-1v14c4-1 7-1 10 1 3-2 6-2 10-1V5c-4-1-7-1-10 1v14"/></svg>';
+   panel.append(link);
+  }catch(_){if(panel.isConnected)body.textContent='This citation cannot be verified in the active Scripture translation right now.';}
+ }
  return true;
 }
-// For very long subtopic citation lists, collapse at the heading itself.
-// A reader may open just this subtopic without opening all its citations.
 function renderCollapsibleReferences(parent,section,render){
- const title=readerSectionTitle(section);
- const rows=section.references;
- if(rows.length<=4){
-  parent.append(el('h5','discovery-section-title',title));
-  expandList(parent,rows,render,4);
-  return;
- }
  const details=el('details','discovery-subtopic-references');
- const summary=el('summary','discovery-subtopic-summary',title+' ('+rows.length+' references)');
+ const summary=el('summary','discovery-subtopic-summary',readerSectionTitle(section));
  details.append(summary);
- const inner=el('div','discovery-subtopic-body');
- details.append(inner);
+ const inner=el('div','discovery-subtopic-body');details.append(inner);
  details.addEventListener('toggle',()=>{
-  if(details.open&&!inner.childElementCount)expandList(inner,rows,render,4);
+  if(details.open&&!inner.childElementCount)expandList(inner,section.references,render,4);
  });
+ resetTopicDisclosure(details);
  parent.append(details);
+}
+function renderSharedSection(content,section){
+ const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
+ if(section.sourceLabel)sectionBox.dataset.originalSourceHeading=section.sourceLabel;
+ if(section.sourcePath)sectionBox.dataset.originalSourcePath=JSON.stringify(section.sourcePath);
+ sectionBox.dataset.topicId=section.topicId;
+ if(section.source)sectionBox.dataset.source=section.source;
+ renderCollapsibleReferences(sectionBox,section,referenceButton);
 }
 function expandList(parent,rows,render,visibleCount=4){
  const list=el('div','discovery-passage-list');parent.append(list);
@@ -401,8 +453,8 @@ function expandList(parent,rows,render,visibleCount=4){
  }
 }
 async function showTopic(topic){
- const body=showDetail('Historical Bible Topic · '+topic.title);
- note(body,'Historical Nave/Torrey references. These index associations are not doctrinal rulings.');
+ const body=showDetail('Historical Bible Topic · '+readerTopicTitle(topic.title));
+ note(body,'Historical index associations are not doctrinal rulings.');
  const busy=note(body,'Loading source references…');
  try{
   const shard=await sourceJson(TOPICS+topic.shard);
@@ -414,24 +466,7 @@ async function showTopic(topic){
   if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');sourceLink(body);return;}
   note(body,sections.length+' groups of Scripture references.','discovery-guide');
   const host=el('div','discovery-topic-groups');body.append(host);
-  function renderGroup(section,index){
-   const group=el('details','discovery-topic-group');
-   group.open=index===0;
-   const summary=el('summary','discovery-topic-summary');
-   summary.append(el('span','',readerSectionTitle(section)));
-   summary.append(el('small','',section.references.length+' '+(section.references.length===1?'passage':'passages')));
-   group.append(summary);
-   // Retain ambiguous publisher headings as metadata, not screen clutter.
-   if(section.sourceLabel)group.dataset.originalSourceHeading=section.sourceLabel;
-   expandList(group,section.references,referenceButton,4);
-   host.append(group);
-  }
-  sections.slice(0,5).forEach(renderGroup);
-  if(sections.length>5){
-   const show=button(body,'Show all '+sections.length+' topic sections',()=>{
-    host.replaceChildren();sections.forEach(renderGroup);show.remove();
-   },'discovery-more');
-  }
+  sections.forEach(section=>renderSharedSection(host,section));
   sourceLink(body);
  }catch{
   if(body.isConnected){busy.textContent='Topic references are unavailable right now.';busy.className='discovery-error';}
@@ -458,7 +493,7 @@ async function appendTopicSearch(query,current){
    for(const t of topics){
     if(displayed.size>=8||displayed.has(t.id))continue;
     if(!label)label=searchResults.appendChild(
-     el('h4','discovery-search-label','Historical Bible Topics · Nave/Torrey'));
+     el('h4','discovery-search-label','Historical Bible Topics'));
     displayed.add(t.id);
     const hit=button(searchResults,t.title,()=>showTopic(t),'search-hit discovery-hit');
    // Fetch existing source shard, never guess Scripture links from a title.
@@ -572,7 +607,7 @@ async function showVerseTopics(){
   const host=el('div','discovery-topic-groups');verseBody.append(host);
   for(const [index,topic] of titles.slice(0,6).entries()){
    const group=el('details','discovery-topic-group discovery-verse-topic');
-   group.open=false;host.append(group);
+   group.open=false;host.append(group);resetTopicDisclosure(group);
    const summary=el('summary','discovery-topic-summary');
    summary.append(el('span','',readerTopicTitle(topic.title)));
    group.append(summary);
@@ -594,15 +629,7 @@ async function showVerseTopics(){
     }
     if(!sections.length){group.remove();continue;}
     const primary=sections;
-    function renderSection(section){
-     const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
-     if(section.sourceLabel)sectionBox.dataset.originalSourceHeading=section.sourceLabel;
-     if(section.sourcePath)sectionBox.dataset.originalSourcePath=JSON.stringify(section.sourcePath);
-     sectionBox.dataset.topicId=section.topicId;
-     if(section.source)sectionBox.dataset.source=section.source;
-     if(topic.members.length>1&&section.source)note(sectionBox,section.source==='NAV'?'Nave':'Torrey','discovery-guide');
-     renderCollapsibleReferences(sectionBox,section,referenceButton);
-    }
+    function renderSection(section){renderSharedSection(content,section);}
     primary.slice(0,5).forEach(renderSection);
     if(primary.length>5){
      const rest=primary.length-5;

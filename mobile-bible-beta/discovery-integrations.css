@@ -227,3 +227,13 @@
 .discovery-subtopic-summary{cursor:pointer;list-style-position:inside;min-height:40px;padding:10px 2px;font-weight:700;color:inherit}
 .discovery-subtopic-summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
 .discovery-subtopic-body{padding:2px 0 6px 10px}
+
+/* Shared inline historical topic citations: flat, theme-inherited reading surface. */
+.mobile-beta .discovery-inline-heading{display:flex;align-items:center;gap:6px}
+.mobile-beta .discovery-inline-trigger{flex:1;text-align:left;cursor:pointer;font:inherit}
+.mobile-beta .discovery-inline-trigger::after,.mobile-beta .discovery-inline-book::after{content:none!important}
+.mobile-beta .discovery-inline-close{border:0;background:transparent;color:inherit;font:700 23px system-ui;min-width:44px;min-height:44px;cursor:pointer}
+.mobile-beta .discovery-inline-preview{padding:4px 8px 10px;margin:0 0 12px;border-bottom:1px solid currentColor;color:inherit;display:flow-root}
+.mobile-beta .discovery-inline-text p{font:inherit;line-height:1.65;margin:8px 0}
+.mobile-beta .discovery-inline-book{display:flex;justify-content:center;align-items:center;float:right;width:44px;min-height:44px;border:0;background:transparent;color:inherit}
+.mobile-beta .discovery-inline-close:focus-visible,.mobile-beta .discovery-inline-trigger:focus-visible,.mobile-beta .discovery-inline-book:focus-visible{outline:2px solid currentColor}
