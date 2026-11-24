@@ -180,7 +180,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
-   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
+   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7-20/);
    const general=firstTopic.locator(".discovery-verse-topic-section").nth(1);
    const longGroup=general.locator(".discovery-subtopic-references");
    assert.equal(await longGroup.getAttribute("open"),null,
