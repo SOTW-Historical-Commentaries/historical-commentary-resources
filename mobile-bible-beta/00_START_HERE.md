@@ -1,5 +1,9 @@
 # 00 START HERE — SERVANTS OF THE WAY BIBLE READER
 
+## 2026-11-24 | CURRENT HANDOFF: PEOPLE & PLACES AND LANNOM BOOK GROUPING
+Owner narrowed scope to visual finishing only: search-only approved name profiles consistent with shared study rows; Lannom Commentary expanded by default with matching books collapsed individually in canonical order. No broad testing exercise or dataset work requested. Implemented on main at a021d92306951e661fc59b94f32bac340910eac3; CGBC cache v0227 / SOTW v0045. Both brands share expandable profiles, existing inline Scripture renderer, explicit associated Bible Questions and source attribution pullout; commentary preserves exact published scopes. No source datasets, historical master, Scripture texts, accepted commentary or separate sermon player changed. Recovery branch safety/pre-profile-book-grouping-20261124-1843d3f verified at 1843d3f38a5a078555a7aac7195c9e6a014de6a1. Automatic workflow status at checkpoint: SOTW reader browser integration smoke 45488731570: in_progress; pages build and deployment 45488731155: in_progress; SOTW reader Topics, BSB and Jacob source QA 45488731461: failure. Physical iPhone visual review not yet performed for this update. Older QA entries are historical, not the scope of this refinement. Scripture address intent work is not part of this release.
+
+
 ## 2026-11-24 | CURRENT HANDOFF: SHARED STUDY UI DEPLOYED; SEARCH INTENT AND PROFILE REFINEMENT NEXT
 
 This checkpoint supersedes conflicting older reader UI instructions below; preserve their history. Scope is both CGBC and SOTW Bible readers, not the separate CGBC sermon player or SPP. Owner reports the latest presentation looks great on physical iPhone; this is visual acceptance, not full functional certification.
