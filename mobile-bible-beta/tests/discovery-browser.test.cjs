@@ -15,11 +15,15 @@ const {chromium}=require('playwright-core');
   page.on('request',request=>requests.push(request.url()));
   // The real topic contract is tested separately. This fixture isolates the
   // verse backlink interaction from intermittent remote index latency.
-  await page.route('**/data/topics/nave-torrey/v1/index/by-scripture/GEN.json',route=>route.fulfill({
+  await page.route('**/data/topics/nave-torrey/reader/v1/index/by-scripture/GEN.json',route=>route.fulfill({
    status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},
    body:JSON.stringify({schema:'sotw-topics-scripture-index/1.0.0',book_code:'GEN',
-    verses:{'GEN.1.1':['NEUU:TOPIC:creation']}})
+    verses:{'GEN.1.1':['NEUU:TOPIC:xml-tor-c-p1596.3']}})
   }));
+  const sourceRoot='**/data/topics/nave-torrey/reader/v1/';
+  const fixtureRefs=Array.from({length:18},(_,i)=>({raw:i===0?'Exodus 23:4':'Genesis 1:'+(i+1),status:'mapped',verse_ids:[i===0?'EXO.23.4':'GEN.1.'+(i+1)]}));
+  await page.route(sourceRoot+'index/topics.json',route=>route.fulfill({json:{schema:'sotw-topics-search-index/1.0.0',topics:[{id:'fixture-forgiveness',title:'Forgiveness',shard:'topics/fixture.json',verse_link_count:18},{id:'fixture-jesus',title:'Jesus',shard:'topics/fixture.json',verse_link_count:1},{id:'NEUU:TOPIC:xml-tor-c-p1596.3',title:'Creation',shard:'topics/fixture.json',verse_link_count:75}]}}));
+  await page.route(sourceRoot+'topics/fixture.json',route=>route.fulfill({json:{schema:'sotw-topics-neuu-shard/1.0.0',topics:['fixture-forgiveness','fixture-jesus','NEUU:TOPIC:xml-tor-c-p1596.3'].map(id=>({id,references:fixtureRefs,aspects:[{label:'OF ENEMIES',source:'NAV',references:fixtureRefs.map(r=>r.raw)}]}))}}));
   await page.goto('http://127.0.0.1:8765/mobile-bible-beta/?book=GEN&chapter=1&verse=1&translation=BSB',
    {waitUntil:'domcontentloaded'});
   await page.locator('#modernSearchButton').waitFor({state:'visible'});
