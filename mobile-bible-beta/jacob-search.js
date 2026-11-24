@@ -64,7 +64,16 @@ let generation=0,loading=null,opening=false;
 let searchOrigin=null;
 const backToSearch=document.createElement('button');
 backToSearch.type='button';backToSearch.className='jacob-back-search';backToSearch.textContent='‹ Back to Search';backToSearch.hidden=true;
-studyOverlayHeader.append(backToSearch);
+studyOverlayHeader.prepend(backToSearch);
+function paintSearchOrigin(){
+ const fromSearch=!!searchOrigin;
+ backToSearch.hidden=!fromSearch;
+ studyOverlayHeader.classList.toggle('jacob-search-origin',fromSearch);
+ studyOverlayHeader.classList.toggle('jacob-search-author',fromSearch&&studyView==='author');
+ studyOverlayBack.textContent=fromSearch&&studyView==='author'?'All Commentary ›':'← Back';
+}
+const originalOpenLayer=openStudyLayer;
+openStudyLayer=function(...args){const result=originalOpenLayer(...args);paintSearchOrigin();return result;};
 backToSearch.addEventListener('click',()=>{
  const origin=searchOrigin;
  if(!origin||searchInput.value!==origin.query)return;
@@ -74,7 +83,7 @@ backToSearch.addEventListener('click',()=>{
  requestAnimationFrame(()=>{searchResults.scrollTop=origin.scroll;});
 });
 const originalHide=hideStudyLayer;
-hideStudyLayer=function(...args){searchOrigin=null;backToSearch.hidden=true;return originalHide(...args)};
+hideStudyLayer=function(...args){searchOrigin=null;const result=originalHide(...args);paintSearchOrigin();return result};
 async function published(){
  if(!loading)loading=getJson('../api/jacob-lannom/v1/current-commentary.json').then(data=>{
   if(data?.authorId!=='jacob-lannom'||!Array.isArray(data.entries)||
@@ -119,7 +128,7 @@ async function openEntry(item,button){
   modernStudyVerse=p.verse;betaOpen();
   openAuthorCommentary({id:'jacob-lannom',name:'Jacob Lannom',
    kind:'Pastoral Commentary',scopeKey:entry.scopeKey});
-  searchOrigin=origin;backToSearch.hidden=false;
+  searchOrigin=origin;paintSearchOrigin();
   SOTWReaderTrail.commit(trail);
  }catch(_){
   if(leftSearch){

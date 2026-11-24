@@ -253,7 +253,7 @@ searchInput.placeholder="John 3:16, Abraham, Moses snake on stick, or Topics";
 
 /* Optional source-linked questions while studying a verse. Scripture stays primary. */
 const qaVerseSection=textNode("section","discovery-study","");
-qaVerseSection.id="sotwVerseQuestions";
+qaVerseSection.id="sotwVerseQuestions";qaVerseSection.hidden=true;
 const qaVerseButton=textNode("button","discovery-launch","");
 qaVerseButton.type="button";
 qaVerseButton.replaceChildren(textNode("span","discovery-launch-label","Bible Questions"),
@@ -265,33 +265,53 @@ modernCommentaryMenu.before(qaVerseSection);
 
 const verseSource="https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/"+
  "b4a7702a8bb1f7410514b7f44663c49ecfd25d33/data/unfoldingword/v91/qa/by-verse/";
-let qaVerseGeneration=0;
+let qaVerseGeneration=0,qaAvailable=[],qaPending=null;
+const reverseCache=new Map();
 const validStudy=(n,book,chapter,verse,edition)=>n===qaVerseGeneration&&
  document.body.classList.contains("study-open")&&state.book===book&&
  state.chapter===chapter&&modernStudyVerse===verse&&state.edition===edition&&qaVerseBody.isConnected;
-async function openVerseQuestions(){
- if(!qaVerseBody.hidden){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return}
- const book=state.book,chapter=state.chapter,verse=modernStudyVerse,edition=state.edition,n=++qaVerseGeneration;
+function resetVerseQuestions(){
+ ++qaVerseGeneration;qaAvailable=[];qaPending=null;qaVerseSection.hidden=true;
+ qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");
+}
+function reverseFor(book){
+ if(!reverseCache.has(book))reverseCache.set(book,json(verseSource+book+".json").catch(e=>{reverseCache.delete(book);throw e}));
+ return reverseCache.get(book);
+}
+async function checkVerseQuestions(){
+ const book=state.book,chapter=state.chapter,verse=modernStudyVerse,edition=state.edition,n=qaVerseGeneration;
  if(!Number.isInteger(verse)||verse<1||!BOOKS.some(x=>x.code===book&&chapter>=1&&chapter<=x.chapterCount))return;
- qaVerseBody.hidden=false;qaVerseButton.setAttribute("aria-expanded","true");qaVerseBody.replaceChildren(textNode("p","discovery-note","Loading questions indexed to this verse…"));
  try{
-  const [reverse,records]=await Promise.all([json(verseSource+book+".json"),index()]);
+  const reverse=await reverseFor(book);
+  if(!validStudy(n,book,chapter,verse,edition))return;
+  if(reverse?.schema!=="sotw-qa-verse-index/1.0.0"||reverse.book!==book||
+     !reverse.verses||typeof reverse.verses!=="object"||Array.isArray(reverse.verses))throw Error("Unverified reverse index");
+  const ids=reverse.verses[chapter+"."+verse]||[];
+  if(!Array.isArray(ids))throw Error("Invalid verse-to-question IDs");
+  if(!ids.length)return; // No Q&A: never render an empty launcher or load unnecessary shards.
+  const records=await index();
   if(!validStudy(n,book,chapter,verse,edition))return;
   if(state.bible?.book_code!==book||Number(state.bible.chapter)!==chapter||
-   state.bible.edition_id!==edition||!state.bible.verses?.some(v=>Number(v.verse)===verse))
+     state.bible.edition_id!==edition||!state.bible.verses?.some(v=>Number(v.verse)===verse))
    throw Error("Selected edition verse not verified");
-  const rows=verseQuestions(reverse,records,book,chapter,verse);
-  qaVerseBody.replaceChildren();
-  if(!rows.length){qaVerseBody.append(textNode("p","discovery-note","No published Bible Questions are indexed to this exact verse."));return}
-  questionList(qaVerseBody,rows.map(row=>[row]),5);
-  shared.sourceLink(qaVerseBody,sourceDisclosure,'About the unfoldingWord source');
- }catch(_){if(validStudy(n,book,chapter,verse,edition))qaVerseBody.replaceChildren(
-   textNode("p","discovery-error","Verse-linked questions could not be verified. Scripture and other tools are unaffected."))}
+  qaAvailable=verseQuestions(reverse,records,book,chapter,verse);
+  qaVerseSection.hidden=!qaAvailable.length;
+ }catch(_){if(validStudy(n,book,chapter,verse,edition)){qaAvailable=[];qaVerseSection.hidden=true;}}
+}
+async function openVerseQuestions(){
+ const n=qaVerseGeneration;
+ if(qaPending)await qaPending;
+ if(n!==qaVerseGeneration||qaVerseSection.hidden||!qaAvailable.length)return;
+ if(!qaVerseBody.hidden){qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return}
+ qaVerseBody.replaceChildren();
+ questionList(qaVerseBody,qaAvailable.map(row=>[row]),5);
+ shared.sourceLink(qaVerseBody,sourceDisclosure,'About the unfoldingWord source');
+ qaVerseBody.hidden=false;qaVerseButton.setAttribute("aria-expanded","true");
 }
 qaVerseButton.setAttribute("aria-expanded","false");qaVerseButton.addEventListener("click",openVerseQuestions);
 const priorQAOpen=betaOpen,priorQAClose=betaCloseSheet;
-betaOpen=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return priorQAOpen(...args)};
-betaCloseSheet=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return priorQAClose(...args)};
+betaOpen=function(...args){resetVerseQuestions();const result=priorQAOpen(...args);qaPending=checkVerseQuestions();return result};
+betaCloseSheet=function(...args){resetVerseQuestions();return priorQAClose(...args)};
 root.SOTWUniversalSearch={
  openVerseQuestions,
  reload:()=>{rows=null;loading=null},
