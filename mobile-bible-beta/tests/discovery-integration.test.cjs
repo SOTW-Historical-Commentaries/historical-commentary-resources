@@ -346,13 +346,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261123-discovery24'));
+assert(html.includes('discovery-integrations.js?v=20261124-discovery25'));
 assert(html.includes('reader-return.js?v=20261123-return4'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261123-compact3'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0215'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0216'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
@@ -366,3 +366,6 @@ assert.equal(core.readerSections(reviewed)[0].title,'FIGURATIVE');
 assert.equal(core.readerSections(reviewed)[0].references[0].raw,'3Jo 1:9,10');
 assert.deepEqual(Array.from(core.readerSections(reviewed)[0].references[0].scopes),['3JN.1.9','3JN.1.10']);
 assert.equal(core.rankTopics([{id:'alias',title:'ABLUTION',search_aliases:['PURIFICATION'],verse_link_count:89}],'purification')[0].id,'alias');
+
+// UI-only grouping and heading cleanup preserve source records.
+{const c=globalThis.SOTWDiscoveryCore; const rows=[{id:'nav',title:'SIN',sources:['NAV'],verse_link_count:2},{id:'tor',title:'Sin',sources:['TOR'],verse_link_count:3}];const grouped=c.groupVerseTopics(rows);assert.equal(grouped.length,1);assert.deepEqual(grouped[0].members.map(t=>t.id),['nav','tor']);assert.equal(c.displaySectionPath(['SIN','MISCELLANY OF MINOR SUB-TOPICS','3. Murder']),'Murder');assert.equal(c.displaySectionPath(['SIN','Consequences','Defiles']),'Consequences › Defiles');}
