@@ -297,6 +297,7 @@ root.SOTWUniversalSearch={
  reload:()=>{rows=null;loading=null},
  sourceStatus:"SOURCE_RECORD_UNALTERED_NOT_INDEPENDENTLY_FACT_CHECKED",
  questionsByIds:()=>index(),
+ renderPublishedQuestion:(row)=>questionRow([row]),
  searchCandidates:async(query,limit=8)=>rank(await index(),query,Math.min(12,Math.max(1,limit))),
  navigateToTarget:(target,button)=>navigate([null,null,null,[target]],button)
 };

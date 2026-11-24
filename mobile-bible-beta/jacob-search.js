@@ -108,19 +108,26 @@ async function openEntry(item,button){
 }
 function render(results,query){
  if(!results.length)return;
- const words=tokenize(query);
- const expandAll=words.includes('all')&&words.some(w=>w==='lannom'||w==='jacob');
- // One collapsible author section, regardless of the number of results.
- // Explicit "Lannom all" opens the full list; ordinary author/book/topic
- // searches show a compact count until the reader chooses to expand.
+ // Open the author category; only matching books receive a disclosure.
  const host=document.createElement('details');host.className='jacob-search-results';
- host.open=expandAll;
+ host.open=true;
  const title=document.createElement('summary');title.className='jacob-search-section';
  title.textContent='Lannom Commentary';
  title.setAttribute('aria-label','Toggle '+results.length+' published Jacob Lannom commentary results');
  host.append(title);
- const list=document.createElement('div');list.className='jacob-search-list';host.append(list);
+ const groups=new Map();
  for(const item of results){
+  if(!groups.has(item.book.code))groups.set(item.book.code,[]);
+  groups.get(item.book.code).push(item);
+ }
+ for(const book of BOOKS){
+  const items=groups.get(book.code);if(!items?.length)continue;
+  const group=document.createElement('details');group.className='jacob-search-book';
+  const heading=document.createElement('summary');heading.textContent=book.name;
+  group.append(heading);
+  const list=document.createElement('div');list.className='jacob-search-list';group.append(list);
+  host.append(group);
+  for(const item of items){
   const b=document.createElement('button');b.type='button';b.className='search-hit jacob-search-hit';
   b.dataset.jacobScope=item.entry.scopeKey;
   const name=document.createElement('strong');name.textContent=item.entry.title;
@@ -139,6 +146,8 @@ function render(results,query){
   b.append(name,caption);
   b.addEventListener('click',()=>openEntry(item,b));list.append(b);
  }
+ }
+ root.SOTWDiscoveryCore?.resetDisclosure(host);
  searchResults.append(host);
 }
 searchInput.addEventListener('input',async()=>{

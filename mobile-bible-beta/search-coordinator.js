@@ -229,7 +229,7 @@ function passageSummary(query){
 }
 function sync(){
  if(!searchModal.veil.classList.contains("is-open"))return;
- searchResults.querySelectorAll(':scope > .sotw-passage-evidence,:scope > .sotw-search-scripture,:scope > .reader-current-chapter-search,:scope > .universal-name-section').forEach(n=>n.remove());
+ searchResults.querySelectorAll(':scope > .sotw-passage-evidence,:scope > .sotw-search-scripture,:scope > .reader-current-chapter-search').forEach(n=>n.remove());
  const query=searchInput.value.trim();
  if(!query||typeof modernParseReference==="function"&&modernParseReference(query))return;
  wrapHistoricalTopics();
@@ -264,7 +264,7 @@ function schedule(){
 }
 searchInput.addEventListener("input",schedule);
 if(typeof searchNote!=="undefined")
- searchNote.textContent="Find a Scripture address, Historical Bible Topic, Bible Question, or published Jacob Lannom commentary.";
+ searchNote.textContent="Find a Scripture address, Historical Bible Topic, Bible Question, People & Places, or published Jacob Lannom commentary.";
 observer=new MutationObserver(schedule);
 observer.observe(searchResults,{childList:true});
 root.SOTWSearchCoordinator={version:"unified-intent-groups-v3",refresh:schedule};

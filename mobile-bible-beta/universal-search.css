@@ -124,3 +124,17 @@
 .mobile-beta.beta-light #readerSearchModal .jacob-search-hit{border-bottom-color:#b4cbcc!important}
 .mobile-beta.beta-light #readerSearchModal .jacob-search-hit::before{background:#347b90}
 .mobile-beta.beta-light #readerSearchModal .jacob-search-hit::after{color:#497782}
+
+/* Approved name profiles and author book headings share the flat study rows. */
+.mobile-beta #readerSearchModal .universal-name-section,
+.mobile-beta #readerSearchModal .universal-name-section>.sotw-search-expandable{border:0!important;background:transparent!important;border-radius:0!important;box-shadow:none!important;padding:0!important;gap:0}
+.mobile-beta #readerSearchModal .universal-name-card>summary.universal-name-title{font:750 19px/1.3 system-ui!important;margin:8px 0;padding:8px 6px 8px 10px}
+.mobile-beta #readerSearchModal .universal-name-definition{white-space:pre-wrap;overflow-wrap:anywhere}
+.mobile-beta #readerSearchModal .universal-name-related{margin:12px 0}
+.mobile-beta #readerSearchModal .universal-name-related>summary{font:650 16px/1.4 system-ui;cursor:pointer;padding:10px 0}
+.mobile-beta #readerSearchModal .universal-name-questions .shared-qa-row>summary{font:650 16px/1.4 system-ui!important}
+.mobile-beta #readerSearchModal .jacob-search-book{border-bottom:1px solid #526b75}
+.mobile-beta #readerSearchModal .jacob-search-book>summary{cursor:pointer;font:750 19px/1.3 system-ui;padding:12px 8px 12px 10px;margin:8px 0;border-left:3px solid #80c7d6;min-height:44px}
+.mobile-beta #readerSearchModal .jacob-search-book .jacob-search-list{padding-left:12px}
+.mobile-beta.beta-light #readerSearchModal .jacob-search-book{border-bottom-color:#b4cbcc}
+.mobile-beta.beta-light #readerSearchModal .jacob-search-book>summary{border-left-color:#347b90}

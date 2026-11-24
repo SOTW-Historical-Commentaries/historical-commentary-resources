@@ -153,84 +153,78 @@ async function relationships(entry){
  }).catch(e=>{linkCache.delete(entry[0]);throw e});
  linkCache.set(entry[0],p);return p;
 }
-async function showDetail(entry,a,card,button){
- const prev=card.querySelector(".universal-name-detail");
- if(prev){prev.remove();button.textContent="View profile";return}
- const area=el("div","universal-name-detail");area.append(el("h5","","Source article"));
- area.append(el("p","universal-name-full-definition",String(a.source.sections?.Definition||"")));
- area.append(el("h5","","Published Scripture references"));
- const refs=el("div","universal-name-references");
- for(const e of a.refs.slice(0,12)){
-  const b=el("button","universal-qa-ref","Read "+citation(e)+" in "+state.edition);
-  b.type="button";b.addEventListener("click",()=>openPassage(e.scriptureTarget,b));refs.append(b);
- }
- area.append(refs);
- if(a.refs.length>12)area.append(el("p","universal-name-note",a.refs.length-12+" additional source references are not shown here."));
- const related=el("section","universal-name-related");
- if(entry[4]){
-  related.append(el("h5","","Explicit Bible Questions mentions ("+entry[4]+")"));
-  related.append(el("p","universal-name-note","A name mentioned in a question or answer is not, by itself, a historical relationship claim."));
-  const status=el("p","universal-name-note","Loading published matches…");related.append(status);
-  Promise.all([relationships(entry),root.SOTWUniversalSearch?.questionsByIds()]).then(([associations,qaRows])=>{
-   if(!area.isConnected)return;
-   status.remove();
-   const lookup=new Map((qaRows||[]).map(q=>[q[0],q]));
-   let shown=0;
-   for(const link of associations){
-    const q=lookup.get(link.qaId);
-    const t=link.scriptureTargets?.find(validTarget);
-    if(!q||!t)continue;
-    const item=el("article","universal-name-qa-detail");
-    item.append(el("strong","",q[1]));
-    item.append(el("p","universal-qa-answer",q[2]));
-    const b=el("button","universal-qa-ref","Open "+BOOKS.find(x=>x.code===t.book).name+" "+t.chapter+":"+t.verse+" · "+state.edition);
-    b.type="button";b.addEventListener("click",()=>openPassage(t,b));item.append(b);related.append(item);
-    if(++shown===8)break;
-   }
-   if(!shown)related.append(el("p","universal-name-note","No verified Q&A target available in this edition."));
-  }).catch(()=>{if(area.isConnected)status.textContent="Related questions could not be loaded. Published Scripture references remain available."});
- }else{
-  related.append(el("p","universal-name-note","No explicit Q&A name mentions are published for this article."));
- }
- area.append(related);card.append(area);button.textContent="Hide profile";
+const shared=root.SOTWDiscoveryCore;
+function profileCitation(parent,ref){
+ const t=ref.scriptureTarget;
+ if(!validTarget(t))return;
+ const book=BOOKS.find(b=>b.code===t.book);
+ const label=book.name+" "+t.chapter+":"+t.verse;
+ if(ref.fromAssociation)parent.append(el("p","universal-name-note","Q&A mention"));
+ shared.renderCitation(parent,{raw:label,scopes:[t.book+"."+t.chapter+"."+t.verse]});
 }
 function render(rows){
  document.querySelectorAll(".universal-name-section").forEach(n=>n.remove());
  if(!rows.length)return;
  const section=el("section","universal-name-section");
- section.append(el("h4","universal-qa-heading","People & Places profiles ("+rows.length+" matching)"));
- const entered=normalize(searchInput.value).replace(/^(who|what) (is|was|were) /,"");
+ section.append(el("h4","universal-qa-heading","People & Places"));
  for(const [entry,a] of rows){
-  const card=el("article","universal-qa-card universal-name-card");card.dataset.nameId=entry[0];
+  const card=el("details","universal-qa-card shared-qa-row universal-name-card");
+  card.dataset.nameId=entry[0];
+  card.append(el("summary","universal-name-title universal-qa-question",entry[2]));
+  const content=el("div","shared-qa-content universal-name-content");card.append(content);
   if(a?.source){
    const explicit=a.refs.filter(ref=>!ref.fromAssociation&&validTarget(ref.scriptureTarget));
    if(explicit.length)card.dataset.searchEvidence=JSON.stringify([{type:"name",id:entry[0],
     relationship:"PUBLISHED_ARTICLE_CITATION",targets:explicit.map(ref=>ref.scriptureTarget)}]);
-  }
-  const top=el("div","universal-qa-top");top.append(el("span","","Approved name article · unfoldingWord"));
-  const source=el("button","universal-qa-source","Source ↗");source.type="button";
-  source.addEventListener("click",sourceMenu);top.append(source);card.append(top);
-  card.append(el("h5","universal-name-title",entry[2]));
-  if(!String(entry[2]).split(/[,()]/).map(normalize).includes(entered)&&
-     !normalize(entry[2]).startsWith(entered+" ")&&entered.split(" ").length===1)
-   card.append(el("p","universal-name-note","Closest matching name for “"+searchInput.value.trim()+"”"));
-  if(a?.source){
-   card.append(el("p","universal-qa-answer",firstDefinition(a.source)));
-   const ref=a.refs[0],row=el("div","universal-name-actions");
-   const view=el("button","universal-name-open","Read profile & references");view.type="button";
-   view.addEventListener("click",()=>showDetail(entry,a,card,view));row.append(view);
-   const jump=el("button","universal-qa-ref","Open "+citation(ref)+" · "+state.edition);
-   jump.type="button";jump.addEventListener("click",()=>openPassage(ref.scriptureTarget,jump));row.append(jump);
-   card.append(row);
-  }else{
-   card.append(el("p","universal-name-note",a===null?
-    "Publisher profile temporarily unavailable. Try searching again later.":
-    "Loading approved publisher profile…"));
-  }
-  section.append(card);
+   content.append(el("p","universal-qa-answer universal-name-definition",String(a.source.sections?.Definition||"")));
+   if(a.refs.length){
+    const refs=el("div","universal-name-citations");
+    for(const ref of a.refs)profileCitation(refs,ref);
+    content.append(refs);
+   }
+   if(entry[4]){
+    const related=el("details","universal-name-related");
+    related.append(el("summary","","Bible Questions"));
+    related.append(el("p","universal-name-note","Explicit name mentions in published questions or answers."));
+    const body=el("div","universal-name-questions");related.append(body);
+    let loaded=false,loading=false;
+    related.addEventListener("toggle",async()=>{
+     if(!related.open||loaded||loading)return;
+     loading=true;body.replaceChildren(el("p","universal-name-note","Loading published questions…"));
+     try{
+      const [associations,qaRows]=await Promise.all([relationships(entry),root.SOTWUniversalSearch.questionsByIds()]);
+      if(!body.isConnected)return;
+      const lookup=new Map(qaRows.map(q=>[q[0],q])),seen=new Set();
+      const matches=[];
+      for(const link of associations){
+       const q=lookup.get(link.qaId);
+       if(!q||seen.has(link.qaId))continue;
+       seen.add(link.qaId);matches.push(q);
+      }
+      body.replaceChildren();
+      const add=(from,to)=>{for(const q of matches.slice(from,to))body.append(root.SOTWUniversalSearch.renderPublishedQuestion(q));};
+      add(0,8);
+      if(matches.length>8){
+       const more=el("button","universal-qa-show-more shared-qa-more","Show "+(matches.length-8)+" more questions ↓");more.type="button";
+       more.setAttribute("aria-expanded","false");
+       more.addEventListener("click",()=>{
+        const open=more.getAttribute("aria-expanded")!=="true";
+        if(open){more.remove();add(8,matches.length);body.append(more);}
+        else{Array.from(body.querySelectorAll(":scope > .shared-qa-row")).slice(8).forEach(n=>n.remove());}
+        more.setAttribute("aria-expanded",String(open));more.textContent=open?"Show fewer questions ↑":"Show "+(matches.length-8)+" more questions ↓";
+       });body.append(more);
+      }
+      if(!matches.length)body.append(el("p","universal-name-note","No published associated questions available."));
+      loaded=true;
+     }catch(_){body.replaceChildren(el("p","universal-name-note","Associated questions temporarily unavailable."));}
+     finally{loading=false;}
+    });
+    shared.resetDisclosure(related);content.append(related);
+   }
+  }else content.append(el("p","universal-name-note","Publisher profile temporarily unavailable. Try searching again later."));
+  shared.resetDisclosure(card);section.append(card);
  }
- // Name matches are the primary answer to an exact or near-exact name query.
- // Do not let chapter hits, questions or network order bury the profile.
+ shared.sourceLink(section,disclosure,"About the unfoldingWord names source");
  searchResults.prepend(section);
 }
 function current(n,q){return n===request&&searchInput.value.trim()===q&&searchModal.veil.classList.contains("is-open")}
@@ -247,7 +241,6 @@ searchInput.addEventListener("input",()=>{
    if(!matches.length)return;
    // Show the allowed name immediately, even when the remote publisher
    // article is slow or temporarily blocked on mobile networks.
-   render(matches.map(e=>[e,undefined]));
    const details=await Promise.all(matches.map(e=>article(e).then(a=>[e,a]).catch(()=>[e,null])));
    if(current(n,q))render(details);
   }catch(_){if(current(n,q))status.textContent="Published name profiles are temporarily unavailable. Scripture and Bible Questions are still available."}
