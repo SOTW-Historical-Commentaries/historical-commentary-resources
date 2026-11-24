@@ -193,6 +193,10 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 @media (min-width:750px){.mobile-beta #readerSearchModal{align-items:center}}
 
 .mobile-beta .search-hit{width:100%;text-align:left;border:1px solid #41565d;background:#23343b;color:#e8f2f4;border-radius:10px;padding:11px;font:14px/1.5 system-ui}
+.mobile-beta #readerSearchModal .reader-address-hit{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;padding:12px 4px;border:0;border-bottom:1px solid #526b75;border-radius:0;background:transparent;color:inherit;font:700 19px/1.4 system-ui;cursor:pointer}
+.mobile-beta #readerSearchModal .reader-address-hit::after{content:'›';font:400 24px/1 system-ui;color:#a5cbd6;flex:none}
+.mobile-beta.beta-light #readerSearchModal .reader-address-hit{border-color:#b4cbcc;background:transparent;color:#29434d}
+.mobile-beta.beta-light #readerSearchModal .reader-address-hit::after{color:#497782}
 .mobile-beta .search-hit small{display:block;color:#a8bfc7;font-size:12px}
 .mobile-beta.study-open section[aria-label="Commentary comparison"]{background:#152129;border:1px solid #41555d;padding:16px!important;max-height:84svh}
 .mobile-beta #studyHeading{font:650 13px system-ui;color:#b3ccd4;margin:8px 0 12px}
@@ -1224,8 +1228,8 @@ function modernSearchRender(){
  const ref=modernParseReference(q);
  if(ref){
   const {book:b,chapter,verse,hasVerse}=ref;
-  const button=document.createElement('button');button.className='search-hit';button.type='button';
-  button.textContent='Open '+b.name+' '+chapter+(hasVerse?':'+verse:'');
+  const button=document.createElement('button');button.className='search-hit reader-address-hit';button.type='button';
+  button.textContent=b.name+' '+chapter+(hasVerse?':'+verse:'');
   button.addEventListener('click',async()=>{
    // Check the published chapter index before navigation, so a non-existent
    // verse is never silently changed into a different passage.
