@@ -171,7 +171,7 @@ const shared=root.SOTWDiscoveryCore;
 function questionCitations(parent,row){
  for(const target of row[3]||[]){
   const [code,chapter,first,end]=target;
-  const book=bookOf(code),last=end==null?first:Number(end);
+  const book=bookOf(code),last=end==null||end===0?first:Number(end);
   if(!book||!Number.isInteger(chapter)||chapter<1||chapter>book.chapterCount||!Number.isInteger(first)||first<1||!Number.isInteger(last)||last<first||last>176)continue;
   const scopes=Array.from({length:last-first+1},(_,i)=>code+'.'+chapter+'.'+(first+i));
   const before=parent.children.length;
@@ -215,12 +215,9 @@ function questionList(parent,groups,initial){
   parent.append(more);
  }
 }
-const searchQAFooter=textNode('footer','discovery-pinned-source shared-qa-search-source','');
-searchQAFooter.hidden=true;shared.sourceLink(searchQAFooter,sourceDisclosure,'About the unfoldingWord source');
-searchModal.panel.append(searchQAFooter);
+
 function render(matches){
  document.querySelectorAll('.universal-qa-section').forEach(e=>e.remove());
- searchQAFooter.hidden=!matches.length;
  if(!matches.length)return;
  const clusters=new Map();
  for(const {row} of matches){
@@ -230,6 +227,7 @@ function render(matches){
  const host=textNode('section','universal-qa-section','');
  host.append(textNode('h4','universal-qa-heading','Bible Questions · unfoldingWord ('+matches.length+' matches · '+groups.length+' answers)'));
  questionList(host,groups,5);
+ shared.sourceLink(host,sourceDisclosure,'About the unfoldingWord source');
  const chapter=searchResults.querySelector('.reader-current-chapter-search');
  if(chapter)searchResults.insertBefore(host,chapter);else searchResults.append(host);
 }
@@ -237,7 +235,6 @@ function stillCurrent(n,q){return n===request&&searchInput.value.trim()===q&&sea
 searchInput.addEventListener("input",()=>{
  const n=++request,q=searchInput.value.trim();clearTimeout(timer);
  document.querySelectorAll(".universal-qa-section,.universal-qa-status").forEach(e=>e.remove());
- searchQAFooter.hidden=true;
  if(q.length<3||typeof modernParseReference==="function"&&modernParseReference(q))return;
  timer=setTimeout(async()=>{
   if(!stillCurrent(n,q))return;
@@ -265,9 +262,7 @@ qaVerseSection.append(qaVerseButton);
 const qaVerseBody=textNode("div","discovery-verse-body","");
 qaVerseBody.hidden=true;qaVerseSection.append(qaVerseBody);
 modernCommentaryMenu.before(qaVerseSection);
-const qaStudyPanel=document.querySelector('section[aria-label="Commentary comparison"]');
-const qaStudyFooter=textNode("footer","discovery-pinned-source discovery-study-source shared-qa-study-source","");
-qaStudyFooter.hidden=true;shared.sourceLink(qaStudyFooter,sourceDisclosure,"About the unfoldingWord source");qaStudyPanel.append(qaStudyFooter);
+
 const verseSource="https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/"+
  "b4a7702a8bb1f7410514b7f44663c49ecfd25d33/data/unfoldingword/v91/qa/by-verse/";
 let qaVerseGeneration=0;
@@ -275,10 +270,10 @@ const validStudy=(n,book,chapter,verse,edition)=>n===qaVerseGeneration&&
  document.body.classList.contains("study-open")&&state.book===book&&
  state.chapter===chapter&&modernStudyVerse===verse&&state.edition===edition&&qaVerseBody.isConnected;
 async function openVerseQuestions(){
- if(!qaVerseBody.hidden){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaStudyFooter.hidden=true;qaVerseButton.setAttribute("aria-expanded","false");return}
+ if(!qaVerseBody.hidden){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return}
  const book=state.book,chapter=state.chapter,verse=modernStudyVerse,edition=state.edition,n=++qaVerseGeneration;
  if(!Number.isInteger(verse)||verse<1||!BOOKS.some(x=>x.code===book&&chapter>=1&&chapter<=x.chapterCount))return;
- qaVerseBody.hidden=false;qaStudyFooter.hidden=false;qaVerseButton.setAttribute("aria-expanded","true");qaVerseBody.replaceChildren(textNode("p","discovery-note","Loading questions indexed to this verse…"));
+ qaVerseBody.hidden=false;qaVerseButton.setAttribute("aria-expanded","true");qaVerseBody.replaceChildren(textNode("p","discovery-note","Loading questions indexed to this verse…"));
  try{
   const [reverse,records]=await Promise.all([json(verseSource+book+".json"),index()]);
   if(!validStudy(n,book,chapter,verse,edition))return;
@@ -289,13 +284,14 @@ async function openVerseQuestions(){
   qaVerseBody.replaceChildren();
   if(!rows.length){qaVerseBody.append(textNode("p","discovery-note","No published Bible Questions are indexed to this exact verse."));return}
   questionList(qaVerseBody,rows.map(row=>[row]),5);
+  shared.sourceLink(qaVerseBody,sourceDisclosure,'About the unfoldingWord source');
  }catch(_){if(validStudy(n,book,chapter,verse,edition))qaVerseBody.replaceChildren(
    textNode("p","discovery-error","Verse-linked questions could not be verified. Scripture and other tools are unaffected."))}
 }
 qaVerseButton.setAttribute("aria-expanded","false");qaVerseButton.addEventListener("click",openVerseQuestions);
 const priorQAOpen=betaOpen,priorQAClose=betaCloseSheet;
-betaOpen=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaStudyFooter.hidden=true;qaVerseButton.setAttribute("aria-expanded","false");return priorQAOpen(...args)};
-betaCloseSheet=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaStudyFooter.hidden=true;qaVerseButton.setAttribute("aria-expanded","false");return priorQAClose(...args)};
+betaOpen=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return priorQAOpen(...args)};
+betaCloseSheet=function(...args){++qaVerseGeneration;qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return priorQAClose(...args)};
 root.SOTWUniversalSearch={
  openVerseQuestions,
  reload:()=>{rows=null;loading=null},

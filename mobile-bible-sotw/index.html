@@ -483,7 +483,7 @@ body.mobile-beta{background:#10171c;color:#d4dce0;font-family:system-ui,-apple-s
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:wght@400&amp;family=M+PLUS+1p:wght@300;400;500;700&amp;display=swap">
 <link rel="stylesheet" href="./asv-facsimile.css?v=20261117-reader13">
 <link rel="stylesheet" href="./study-ux-repair.css?v=20261118-reader162">
-<link rel="stylesheet" href="./discovery-integrations.css?v=20261124-inline6">
+<link rel="stylesheet" href="./discovery-integrations.css?v=20261124-inline7">
 <link rel="stylesheet" href="../mobile-bible-beta/universal-search.css?v=20261124-us-css8">
 <link rel="stylesheet" href="../mobile-bible-beta/desktop-workspace.css?v=20261122-desk1">
 </head>
@@ -1258,40 +1258,7 @@ function modernSearchRender(){
   });
   searchResults.append(button);
  }
- if(q.length>1){
-  const verses=(state.bible?.verses||[]).filter(v=>displayVerseText(v).toLowerCase().includes(q)).slice(0,8);
-  if(verses.length){
-   const section=document.createElement('section');section.className='reader-current-chapter-search';
-   const heading=document.createElement('h4');heading.className='universal-qa-heading';
-   heading.textContent='Current chapter · '+bookInfo().name+' '+state.chapter+' ('+state.edition+')';
-   section.append(heading);
-   const list=document.createElement('div');list.className='reader-chapter-results';section.append(list);
-   verses.forEach((v,i)=>{
-    const button=document.createElement('button');button.className='search-hit';button.type='button';
-    if(i>=2)button.hidden=true;
-    const label=document.createElement('strong');label.textContent=bookInfo().name+' '+state.chapter+':'+v.verse;
-    const desc=document.createElement('small');desc.textContent=displayVerseText(v).slice(0,110);
-    button.append(label,desc);
-    if(i<2)button.dataset.searchEvidence=JSON.stringify([{type:'scripture',
-     id:state.edition+':'+state.book+'.'+state.chapter+'.'+Number(v.verse),
-     relationship:'CURRENT_EDITION_VERSE',
-     targets:[{book:state.book,chapter:state.chapter,verse:Number(v.verse)}]}]);
-    button.addEventListener('click',()=>{
-     const trail=SOTWReaderTrail.capture('search');
-     searchModal.veil.classList.remove('is-open');chooseVerse(Number(v.verse));modernJumpToVerse(Number(v.verse));
-     SOTWReaderTrail.commit(trail);
-    });
-    list.append(button);
-   });
-   if(verses.length>2){
-    const more=document.createElement('button');more.type='button';more.className='universal-qa-show-more';
-    more.textContent='Show '+(verses.length-2)+' more hits in this chapter';
-    more.addEventListener('click',()=>{list.querySelectorAll('button[hidden]').forEach(x=>x.hidden=false);more.remove()});
-    section.append(more);
-   }
-   searchResults.append(section);
-  }
- }
+
 }
 searchInput.setAttribute('enterkeyhint','done');
 searchInput.addEventListener('input',modernSearchRender);
@@ -1768,12 +1735,11 @@ editionModal.veil.addEventListener('click',event=>{
 },true);
 </script>
 <script src="./study-ux-repair.js?v=20261118-reader166"></script>
-<script src="./discovery-integrations.js?v=20261124-discovery31"></script>
+<script src="./discovery-integrations.js?v=20261124-discovery32"></script>
 <script src="./reader-return.js?v=20261124-return6"></script>
 <script src="./jacob-search.js?v=20261118-jacobsearch2"></script>
 <script src="./reader-trail.js?v=20261124-trail8"></script>
-<script src="../mobile-bible-beta/universal-search.js?v=20261124-us9"></script>
-<script src="../mobile-bible-beta/approved-names-search.js?v=20261122-names2"></script>
-<script src="../mobile-bible-beta/search-coordinator.js?v=20261124-search5"></script>
+<script src="../mobile-bible-beta/universal-search.js?v=20261124-us10"></script>
+<script src="../mobile-bible-beta/search-coordinator.js?v=20261124-search6"></script>
 </body>
 </html>

@@ -351,7 +351,7 @@ function sourceLink(parent,attribution=topicAttribution,label='About the Nave/To
 }
 const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
 detail.panel.classList.add('discovery-dialog');
-const detailFooter=el('footer','discovery-pinned-source');sourceLink(detailFooter);detail.panel.append(detailFooter);
+
 function showDetail(heading){
  // A topic opened from search retains a return route to that exact result list.
  const fromSearch=searchModal.veil.classList.contains('is-open');
@@ -369,7 +369,7 @@ function showDetail(heading){
   },'discovery-back-search');
   back.setAttribute('aria-label','Return to search results for '+query.slice(0,90));
  }
- detailFooter.before(body);
+ detail.panel.append(body);
  searchModal.veil.classList.remove('is-open');
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
  return body;
@@ -542,6 +542,7 @@ async function showTopic(topic){
   if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');return;}
   const host=el('div','discovery-topic-groups discovery-topic-content');body.append(host);
   renderSharedSections(host,sections);
+  sourceLink(body);
  }catch{
   if(body.isConnected){busy.textContent='Topic references are unavailable right now.';busy.className='discovery-error';}
  }
@@ -640,12 +641,11 @@ topicsButton.setAttribute('aria-expanded','false');
 topicsButton.setAttribute('aria-controls','sotwVerseTopicsBody');
 verseBody.id='sotwVerseTopicsBody';
 modernCommentaryMenu.before(verseDiscovery);
-const studyPanel=document.querySelector('section[aria-label="Commentary comparison"]');
-const studyFooter=el('footer','discovery-pinned-source discovery-study-source');studyFooter.hidden=true;sourceLink(studyFooter);studyPanel.append(studyFooter);
+
 let verseSeq=0;
 function closeVerseTopics(restoreFocus=false){
  ++verseSeq; // Invalidate any pending historical shard response.
- verseBody.hidden=true;verseBody.replaceChildren();studyFooter.hidden=true;studyPanel.classList.remove('discovery-source-active');
+ verseBody.hidden=true;verseBody.replaceChildren();
  topicsButton.setAttribute('aria-expanded','false');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Explore topics ›';
  if(restoreFocus){
@@ -657,7 +657,7 @@ async function showVerseTopics(){
  if(!verseBody.hidden){closeVerseTopics();return;}
  const book=state.book,chapter=state.chapter,verse=modernStudyVerse,current=++verseSeq;
  const scope=book+'.'+chapter+'.'+verse;
- verseBody.hidden=false;verseBody.replaceChildren();studyFooter.hidden=false;studyPanel.classList.add('discovery-source-active');
+ verseBody.hidden=false;verseBody.replaceChildren();
  topicsButton.setAttribute('aria-expanded','true');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Hide topics ↑';
  note(verseBody,'Loading topic references…');
@@ -735,6 +735,7 @@ async function showVerseTopics(){
    more.expandTopics=()=>setExpanded(true);
   }
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
+ sourceLink(verseBody);
  const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
  dismiss.setAttribute('aria-label','Close Related Bible Topics');
 }

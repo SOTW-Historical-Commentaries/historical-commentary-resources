@@ -259,3 +259,7 @@
 .mobile-beta.beta-light .discovery-pinned-source{background:#f7faf7;color:#315762;border-color:#b4cbcc}
 .mobile-beta #sotwTopicAttribution{z-index:240!important}
 .mobile-beta #sotwTopicAttribution .modal-content{max-width:590px;overscroll-behavior:contain}
+
+/* Resource-specific attribution belongs to the end of its list, never the viewport. */
+.mobile-beta .discovery-link{display:inline-block;max-width:100%;padding:4px 0;margin:10px 0 5px;border:0;background:transparent;color:#bbdfeb;font:400 12px/1.5 system-ui;text-decoration:underline;text-align:left;cursor:pointer;justify-self:start}
+.mobile-beta.beta-light .discovery-link{color:#315762}
