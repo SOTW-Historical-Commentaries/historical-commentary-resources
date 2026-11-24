@@ -85,10 +85,10 @@ const {chromium}=require('playwright-core');
   const topicGroups=page.locator('#sotwVerseTopicsBody .discovery-verse-topic');
   assert.equal(await topicGroups.evaluateAll(groups=>groups.filter(group=>group.open).length),0,
    'All related-topic choices must start collapsed on first opening');
-  await topicGroups.first().locator('summary').click();
+  await topicGroups.first().locator(':scope > summary').click();
   assert.equal(await topicGroups.first().getAttribute('open'),'',
    'Readers can choose their own first topic to expand');
-  await topicGroups.first().locator('summary').click();
+  await topicGroups.first().locator(':scope > summary').click();
   assert.equal(await page.locator('.discovery-study').first()
    .locator('.discovery-verse-heading').count(),0,
    'The launcher already names Topics; do not duplicate a heading');
