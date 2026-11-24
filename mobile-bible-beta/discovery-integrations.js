@@ -5,8 +5,8 @@
    BSB publisher interlinear belongs to the existing Word-by-Word view. */
 (function(root){
 'use strict';
-const TOPICS='https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/';
-const SOURCE='https://github.com/Stewards-of-the-Way/bible-foundation/tree/main/data/topics/nave-torrey/v1';
+const TOPICS='https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce/data/topics/nave-torrey/reader/v1/';
+const SOURCE='https://github.com/Stewards-of-the-Way/bible-foundation/tree/c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce/data/topics/nave-torrey/reader/v1';
 const asText=x=>String(x??'').trim();
 const norm=x=>asText(x).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ');
 // Reusable evidence bridge: any source-published Q&A citation may lead to
@@ -17,7 +17,8 @@ function rankTopics(rows,query,limit=8,linked=[],core=null){
  const q=norm(query);
  if(q.length<2||!Array.isArray(rows))return [];
  const rank=x=>{const t=norm(x.title);
-  return t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;};
+  const direct=t===q?0:t.startsWith(q)?1:t.includes(' '+q)?2:t.includes(q)?3:99;
+  return Math.min(direct,...(Array.isArray(x.search_aliases)?x.search_aliases:[]).map(a=>norm(a)===q?4:99));};
  const valid=x=>x&&typeof x.id==='string'&&x.title&&
   Number.isInteger(x.verse_link_count)&&x.verse_link_count>0;
  const literal=rows.filter(x=>valid(x)&&rank(x)<99)
@@ -179,9 +180,10 @@ function topicSections(topic){
   const refs=(aspect.references||[]).filter(raw=>{
    if(!mapped.has(raw)||seen.has(raw))return false;
    seen.add(raw);return true;
-  }).map(raw=>({raw,scopes:mapped.get(raw).verse_ids}));
-  return {...sourceHeading(aspect.label,{topicId:topic.id,source:aspect.source,
-   mappedReferences:refs.map(r=>r.raw)}),references:refs};
+  }).map(raw=>({raw,scopes:mapped.get(raw).verse_ids,scopeMetadata:mapped.get(raw).scopes||[]}));
+  const reviewed=Array.isArray(aspect.display_path)&&aspect.display_path.length>1&&Array.isArray(aspect.source_key);
+  const heading=reviewed?{title:asText(aspect.display_path.slice(1).join(' › ')),sourceLabel:aspect.source_heading||aspect.label}:sourceHeading(aspect.label,{topicId:topic.id,source:aspect.source,mappedReferences:refs.map(r=>r.raw)});
+  return {...heading,reviewed,references:refs};
  }).filter(section=>section.references.length);
 }
 // Presentation filters only. Preserve the complete source shards, reference
@@ -203,6 +205,7 @@ function isMeaningfulSection(section){
  const words=title.match(/[\p{L}\p{N}]+/gu)||[];
  if(!isReaderLabel(title)||/^(?:Other indexed passages|Unclear historical index heading|general references?|general scriptures? concerning|scriptures? generally|miscellaneous(?: references?)?|other references?|references? generally)$/i.test(title))return false;
  if(isGeneralSection(section)||isTruncatedSacredNameHeading(title))return false;
+ if(section?.reviewed)return true;
  if(/^(?:of|from|in|at|near)\s+[\p{Lu}][\p{L}.'’-]+$/u.test(title))return true;
  if(words.length===1)return false;
  if(words.length===2&&words.every(w=>w.length<=3)&&!section?.verifiedSacredName)return false;
@@ -265,6 +268,15 @@ function sourceJson(url){
  return cache.get(url);
 }
 let topicIndex=null;
+async function reverseIndex(book){
+ const path='index/by-scripture/'+book+'.json';
+ const manifest=await sourceJson(TOPICS+'manifest.json');
+ if(manifest.schema!=='sotw-topics-neuu-manifest/1.0.0'||!Array.isArray(manifest.files))throw Error('Unexpected topic manifest');
+ if(!manifest.files.some(f=>f.path===path))return {schema:'sotw-topics-scripture-index/1.0.0',book_code:book,verses:{},chapter_scopes:{}};
+ const data=await sourceJson(TOPICS+path);
+ if(data.schema!=='sotw-topics-scripture-index/1.0.0'||data.book_code!==book||!data.verses)throw Error('Unexpected reverse index');
+ return data;
+}
 async function topicsIndex(){
  if(topicIndex)return topicIndex;
  const data=await sourceJson(TOPICS+'index/topics.json');
@@ -287,6 +299,7 @@ function button(parent,label,action,cls='discovery-ref'){
 }
 function sourceLink(parent){
  const a=el('a','discovery-link','About the Nave/Torrey historical source');
+ a.title='NEUU Bible Topics Dataset, CC BY 4.0; Nave and Torrey; CCEL digitisation; SOTW editorial selection and navigation';
  a.href=SOURCE;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);
 }
 const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
@@ -320,8 +333,8 @@ function referenceButton(parent,ref){
  const first=(ref.scopes||[]).find(s=>parseScope(s,BOOKS));
  if(!first)return false;
  const parsed=parseScope(first,BOOKS);
- const label=asText(ref.raw).replace(/(\d)\-(\d)/g,'$1–$2');
- const destination=parsed.book.name+' '+parsed.chapter+':'+parsed.verse;
+ const label=asText(ref.raw);
+ const destination=parsed.book.name+' '+parsed.chapter+(parsed.hasVerse?':'+parsed.verse:'');
  const params=new URLSearchParams({
   book:parsed.book.code,chapter:String(parsed.chapter),verse:String(parsed.verse),
   translation:state.edition
@@ -444,7 +457,7 @@ async function appendTopicSearch(query,current){
     const row=shard?.topics?.find(x=>x.id===t.id);
     if(shard?.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)return;
     const targets=[];
-    for(const section of topicSections(row)){
+    for(const section of readerSections(row)){
      for(const ref of section.references){
       for(const scope of ref.scopes||[]){
        const p=parseScope(scope,BOOKS);
@@ -470,7 +483,7 @@ async function appendTopicSearch(query,current){
    if(!valid())return;
    const books=requiredTopicBooks(matches,3);
    const responses=await Promise.allSettled(books.map(book=>
-    sourceJson(TOPICS+'index/by-scripture/'+book+'.json')));
+    reverseIndex(book)));
    if(!valid())return;
    const byBook={};
    books.forEach((book,i)=>{if(responses[i].status==='fulfilled')
@@ -528,7 +541,7 @@ async function showVerseTopics(){
  topicsButton.querySelector('.discovery-launch-meta').textContent='Hide topics ↑';
  note(verseBody,'Loading topic references…');
  const [indexResult,reverseResult]=await Promise.allSettled([
-  topicsIndex(),sourceJson(TOPICS+'index/by-scripture/'+book+'.json')
+  topicsIndex(),reverseIndex(book)
  ]);
  if(current!==verseSeq||!document.body.classList.contains('study-open')||
     state.book!==book||state.chapter!==chapter||modernStudyVerse!==verse)return;

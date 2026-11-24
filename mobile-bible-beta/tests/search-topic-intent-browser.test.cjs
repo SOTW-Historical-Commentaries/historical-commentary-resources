@@ -66,19 +66,19 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
     isMobile:true,hasTouch:true,serviceWorkers:"block"});
    const page=await context.newPage();page.setDefaultTimeout(50000);
    const errors=[];page.on("pageerror",e=>errors.push(String(e)));
-   await page.route("**/data/topics/nave-torrey/v1/index/topics.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/index/topics.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(index)}));
-   await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/2KI.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/index/by-scripture/2KI.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverse2KI)}));
-   await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/MAT.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/index/by-scripture/MAT.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverseMAT)}));
-   await page.route("**/data/topics/nave-torrey/v1/topics/A.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/topics/A.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(accusationShard)}));
-   await page.route("**/data/topics/nave-torrey/v1/index/by-scripture/JAS.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/index/by-scripture/JAS.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(reverseJAS)}));
-   await page.route("**/data/topics/nave-torrey/v1/topics/F.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/topics/F.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(faithShard)}));
-   await page.route("**/data/topics/nave-torrey/v1/topics/B.json",route=>
+   await page.route("**/data/topics/nave-torrey/reader/v1/topics/B.json",route=>
     route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(shard)}));
    await page.goto("http://127.0.0.1:8765/"+brand+
     "/?book=RUT&chapter=1&verse=1&translation=KJV1769",
@@ -180,7 +180,7 @@ const accusationShard={schema:"sotw-topics-neuu-shard/1.0.0",topics:[{
    const joseph=firstTopic.locator(".discovery-verse-topic-section").first();
    assert.match(await joseph.locator(".discovery-section-title").innerText(),
     /Against Joseph by Potiphar/);
-   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7–20/);
+   assert.match(await joseph.locator(".discovery-citation").first().innerText(),/Genesis 39:7-20/);
    const general=firstTopic.locator(".discovery-verse-topic-section").nth(1);
    const longGroup=general.locator(".discovery-subtopic-references");
    assert.equal(await longGroup.getAttribute("open"),null,

@@ -119,9 +119,9 @@ jobs:
           node <<'NODE'
           const assert=require('node:assert/strict');
           const urls={
-            topics:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/topics.json',
+            topics:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce/data/topics/nave-torrey/reader/v1/index/topics.json',
             bsb:'https://raw.githubusercontent.com/SOTW-BSB/-bsb-resources/main/data/bsb/helloao-interlinear/v1/chapters/GEN/01.json',
-            reverse:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/main/data/topics/nave-torrey/v1/index/by-scripture/GEN.json'
+            reverse:'https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce/data/topics/nave-torrey/reader/v1/index/by-scripture/GEN.json'
           };
           (async()=>{
             const read=async(url)=>{
@@ -131,9 +131,9 @@ jobs:
             };
             const [topics,bsb,reverse]=await Promise.all(Object.values(urls).map(read));
             assert.equal(topics.schema,'sotw-topics-search-index/1.0.0');
-            assert.equal(topics.topics.length,5745);
+            assert.equal(topics.topics.length,1272);
             assert.equal(reverse.schema,'sotw-topics-scripture-index/1.0.0');
-            assert(Array.isArray(reverse.verses['GEN.1.1'])&&reverse.verses['GEN.1.1'].includes('NEUU:TOPIC:creation'));
+            assert(Array.isArray(reverse.verses['GEN.1.1'])&&reverse.verses['GEN.1.1'].includes('NEUU:TOPIC:xml-tor-c-p1596.3'));
             assert.equal(bsb.schema,'sotw-bsb-helloao-interlinear-source/1.0.0');
             assert.equal(bsb.book_code,'GEN');assert.equal(bsb.chapter,1);
             assert(bsb.verses.some(v=>v.id==='GEN.1.1'&&v.words?.[0]?.strongs));

@@ -77,6 +77,6 @@ async function workerChecks(dir,own,sibling){
 }
 Promise.all([
  ...(globalThis._pendingTestRuns||[]),
- workerChecks('mobile-bible-beta','sotw-mobile-bible-beta-shell-v0214','sotw-mobile-bible-sotw-shell-v0032'),
- workerChecks('mobile-bible-sotw','sotw-mobile-bible-sotw-shell-v0032','sotw-mobile-bible-beta-shell-v0214')
+ workerChecks('mobile-bible-beta','sotw-mobile-bible-beta-shell-v0215','sotw-mobile-bible-sotw-shell-v0033'),
+ workerChecks('mobile-bible-sotw','sotw-mobile-bible-sotw-shell-v0033','sotw-mobile-bible-beta-shell-v0215')
 ]).then(()=>console.log('PASS shared ASV link recovery and both SW cache ownership')).catch(e=>{console.error(e);process.exitCode=1});

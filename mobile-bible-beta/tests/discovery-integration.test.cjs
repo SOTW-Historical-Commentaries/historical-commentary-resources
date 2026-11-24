@@ -329,7 +329,7 @@ assert(script.includes("'Related Bible Topics'")&&script.includes("'Explore topi
 assert(css.includes('border:0;border-radius:11px;background:transparent'),'Topics launcher should not have nested border');
 assert(script.includes('group.open=false;host.append(group);'),'All historical topic headings must start collapsed');
 assert(!script.includes("expandList(verseBody,titles,(parent,t)=>button(parent,t.title,()=>showTopic(t)"),'No extra topic selection layer');
-assert(script.includes("sourceJson(TOPICS+'index/by-scripture/'"));
+assert(script.includes("reverseIndex(book)"));
 assert(script.includes('Preserve the original, complete historical citation')&&script.includes('expandList('),
  'Each source reference retains its complete published wording with compact progressive disclosure');
 assert(script.includes("'discovery-citation jacob-passage-link'")&&script.includes('wrapper.append(link);parent.append(wrapper)'),'Topic citation must be a navigable verified link with original text');
@@ -346,13 +346,13 @@ assert(css.includes(".discovery-study .discovery-section-title")&&
 assert(!script.includes('innerHTML='),'Source text must never become executable HTML');
 assert(!script.includes('eval('));
 assert(html.includes("const moreModal=modalLayer('readerMoreModal','About & Sources')"));
-assert(html.includes('discovery-integrations.js?v=20261123-discovery23'));
+assert(html.includes('discovery-integrations.js?v=20261123-discovery24'));
 assert(html.includes('reader-return.js?v=20261123-return4'),'Reader must load return navigation');
 assert(html.includes('study-ux-repair.js?v=20261118-reader166'),'Reader must load current Strong’s repair');
 assert(html.includes('m.counts?.chapters'),'Exodus-style manifests must be accepted with verified chapter counts');
 assert(study.includes('canonicalStrongsEntryKey(id)'),'Padded BSB Strong’s IDs must resolve to canonical dictionary keys');
 assert(html.includes('discovery-integrations.css?v=20261123-compact3'));
-assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0214'"));
+assert(sw.includes("PREFIX='sotw-mobile-bible-beta-shell-'")&&sw.includes("CACHE=PREFIX+'v0215'"));
 assert(sw.includes('./reader-return.js'),'PWA must precache the return script');
 assert(sw.includes('./jacob-search.js'),'PWA must precache published Jacob search');
 assert(html.includes('jacob-search.js?v=20261118-jacobsearch2'));
@@ -360,3 +360,9 @@ assert(sw.includes('./discovery-integrations.js')&&sw.includes('./discovery-inte
 assert(study.includes('renderBsbWordByWord')&&study.includes("if(state.edition==='BSB')"),
  'Full publisher-aligned BSB Word-by-Word must remain intact');
 console.log('PASS: topic-only adapter, compact mapped citations, old directory and original-order panel removed, BSB unchanged');
+
+const reviewed={id:'NEUU:TOPIC:xml-nav-k-p64.3',references:[{raw:'3Jo 1:9,10',status:'mapped',verse_ids:['3JN.1.9','3JN.1.10'],scopes:[{type:'verse',id:'3JN.1.9'},{type:'verse',id:'3JN.1.10'}]}],aspects:[{label:'FIGURATIVE',source:'NAV',source_key:['nave','k-p64.3','k-p67'],display_path:['KEY','FIGURATIVE'],references:['3Jo 1:9,10']}]};
+assert.equal(core.readerSections(reviewed)[0].title,'FIGURATIVE');
+assert.equal(core.readerSections(reviewed)[0].references[0].raw,'3Jo 1:9,10');
+assert.deepEqual(Array.from(core.readerSections(reviewed)[0].references[0].scopes),['3JN.1.9','3JN.1.10']);
+assert.equal(core.rankTopics([{id:'alias',title:'ABLUTION',search_aliases:['PURIFICATION'],verse_link_count:89}],'purification')[0].id,'alias');
