@@ -1,5 +1,11 @@
 # SOTW BIBLE READER — PROGRESS LEDGER
 
+## 2026-11-23 | NAVE–TORREY READER PROJECTION — PR #40 MERGED AND DEPLOYED
+
+Both branded readers now share the adapter pinned to Bible Foundation `c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce`, `data/topics/nave-torrey/reader/v1/`. Manifest reports 1,272 topics, 22,636 display subsections, 165 alias relationships, 25,898 verse keys, 56,039 reference entries and 574 chapter keys. Legacy database remains intact. Reader adapter uses restored display paths, explicit aliases, original citation punctuation, source-specific IDs, index-supplied shards and manifest-aware absent reverse indexes. CGBC cache v0215; SOTW v0033. No CSS or separate sermon-player changes.
+
+Recovery branch `safety/pre-reader-dataset-20261123-e0ee320` verified identical to pre-edit main `e0ee320f5e58d99b6edc42116b37352668f7f5c5`. PR #40 tested head `903f63fdbd819d6a1448375133bb5cc1f72c8f57`: source QA run 45336119763 PASS, Chromium run 45336119501 PASS. Merge `81e6a618d75da0f9e93e40b8605e1a872edd6cb9`; post-merge source QA 45336367842 PASS; Pages run 45336367513 SUCCESS. Independent live HTTP/browser check blocked: public URL fetch inaccessible and connected browser requires originating browser context. Deployment is verified, live consumption and physical iPhone acceptance are not independently verified. Check both brands for Jealousy, short restored headings, aliases, split shards, 3Jo 1:9,10, chapter-only references, disclosure restoration, translation and Word-by-Word. No claim of exhaustive runtime navigation validation.
+
 ## 2026-11-23 | SACRED-NAME HEADING INTEGRITY — PR #39 MERGED AND DEPLOYED
 
 **Owner quality decision:** Do not correct every minor historical typo. Treat truncated divine names/titles concerning God, Jesus, Lord, Christ and the Holy Spirit as high-priority reader integrity defects, never as acceptable public captions. The owner confirmed “Attributed to Go” under Jealousy refers to God from its Scripture links.
