@@ -75,7 +75,17 @@ function studyTopicSnapshot(anchor){
   previews:groups.flatMap((g,i)=>[...g.querySelectorAll('.discovery-verse-topic-section')].flatMap((section,n)=>[...section.querySelectorAll('.discovery-inline-trigger')].flatMap((b,k)=>b.getAttribute('aria-expanded')==='true'?[{topic:i,section:n,citation:k,raw:b.dataset.rawCitation}]:[]))),
   scroll:panel?.scrollTop||0};
 }
+function qaSnapshot(anchor){
+ const body=document.querySelector('#sotwVerseQuestions .discovery-verse-body');
+ if(!body||body.hidden||!document.body.classList.contains('study-open'))return null;
+ const cards=[...body.querySelectorAll('.shared-qa-row')];
+ return {kind:'study-qa',label:'Bible Questions',book:state.book,chapter:state.chapter,verse:Number(modernStudyVerse)||state.verse,edition:state.edition,
+ expanded:body.querySelector('.shared-qa-more')?.getAttribute('aria-expanded')==='true',
+ rows:cards.filter(c=>c.open).map(c=>({id:c.dataset.qaId,variants:!!c.querySelector('.universal-qa-variants[open]'),previews:[...c.querySelectorAll('.discovery-inline-trigger')].map((b,i)=>b.getAttribute('aria-expanded')==='true'?i:-1).filter(i=>i>=0)})),
+ scroll:document.querySelector('section[aria-label="Commentary comparison"]')?.scrollTop||0};
+}
 function capture(type,anchor){
+ if(type==='study-qa')return qaSnapshot(anchor);
  return type==='study-topic'?studyTopicSnapshot(anchor):
   type==='topic'?topicSnapshot():searchSnapshot();
 }
@@ -88,7 +98,7 @@ function paint(){
 function commit(snapshot){
  if(!snapshot)return;
  // Do not save a failed navigation that never left its source context.
- if(snapshot.kind==='study-topic'){
+ if(snapshot.kind==='study-topic'||snapshot.kind==='study-qa'){
   if(document.body.classList.contains('study-open'))return;
  }else{
   const target=snapshot.kind==='topic'?document.getElementById('sotwDiscoveryDetail'):search;
@@ -100,6 +110,24 @@ function clear(){last=null;paint();}
 async function restore(){
  if(!last)return false;
  const snap=last;
+ if(snap.kind==='study-qa'){
+  const same=state.book===snap.book&&state.chapter===snap.chapter&&state.verse===snap.verse&&state.edition===snap.edition&&state.bible?.book_code===snap.book&&Number(state.bible?.chapter)===snap.chapter&&state.bible?.edition_id===snap.edition;
+  if(!same&&!await root.SOTWReaderReturn?.returnToStudySource?.(snap))return false;
+  modernStudyVerse=snap.verse;chooseVerse(snap.verse);betaOpen();
+  await root.SOTWUniversalSearch?.openVerseQuestions?.();
+  const body=document.querySelector('#sotwVerseQuestions .discovery-verse-body');
+  if(!body||body.hidden)return false;
+  if(snap.expanded)body.querySelector('.shared-qa-more')?.click();
+  const cards=[...body.querySelectorAll('.shared-qa-row')];
+  if(snap.rows.some(saved=>!cards.some(c=>c.dataset.qaId===saved.id)))return false;
+  for(const saved of snap.rows){
+   const card=cards.find(c=>c.dataset.qaId===saved.id);card.open=true;
+   const variants=card.querySelector('.universal-qa-variants');if(variants)variants.open=saved.variants;
+   for(const i of saved.previews)card.querySelectorAll('.discovery-inline-trigger')[i]?.click();
+  }
+  const panel=document.querySelector('section[aria-label="Commentary comparison"]');
+  requestAnimationFrame(()=>{if(panel)panel.scrollTop=snap.scroll;});clear();return true;
+ }
  if(snap.kind==='study-topic'){
   const sameSource=state.book===snap.book&&state.chapter===snap.chapter&&
    state.verse===snap.verse&&state.edition===snap.edition&&

@@ -158,8 +158,7 @@ function sourceCitation(){
  const question=searchResults.querySelector(".universal-qa-section .universal-qa-card .universal-qa-ref");
  if(!question)return null;
  const raw=question.textContent||"";
- if(!raw.startsWith("Read cited Scripture:"))return null;
- const citation=raw.slice("Read cited Scripture:".length).trim();
+ const citation=raw.replace(/^Read cited Scripture:\s*/,"").trim();
  return citation?{citation,button:question}:null;
 }
 function readEvidence(){
@@ -278,7 +277,10 @@ function sync(){
  if(link.lastElementChild.textContent!==source.citation)link.lastElementChild.textContent=source.citation;
  link.onclick=()=>{
   const current=sourceCitation();
-  if(current&&current.citation===source.citation&&current.button.isConnected)current.button.click();
+  if(current&&current.citation===source.citation&&current.button.isConnected){
+   for(let p=current.button.parentElement;p&&p!==searchResults;p=p.parentElement)if(p.tagName==="DETAILS")p.open=true;
+   current.button.click();current.button.scrollIntoView({block:"nearest"});
+  }
  };
  if(searchResults.firstElementChild!==link)searchResults.prepend(link);
 }

@@ -86,3 +86,22 @@
 .mobile-beta #readerMoreModal .reader-citation-identity span{font:12px/1.45 system-ui;color:#c1d7dc}
 .mobile-beta.beta-light #readerMoreModal .reader-citation-identity{border-color:#b3c8c7}
 .mobile-beta.beta-light #readerMoreModal .reader-citation-identity span{color:#365862}
+
+/* Shared study hierarchy: flat headings, inline Scripture, restrained separators. */
+.mobile-beta .sotw-search-topics-group,.mobile-beta .universal-qa-section{border:0!important;background:transparent!important;border-radius:0!important;box-shadow:none!important;padding:0!important}
+.mobile-beta .sotw-search-topics-group>.sotw-search-expandable,.mobile-beta .universal-qa-section>.sotw-search-expandable{border:0!important;background:transparent!important;padding:0!important}
+.mobile-beta .sotw-search-topics-group .discovery-hit{border:0!important;border-radius:0!important;border-bottom:1px solid #526b75!important;background:transparent!important;color:inherit!important;font:750 19px/1.3 system-ui!important;min-height:46px;padding:12px 8px 12px 12px!important;position:relative}
+.mobile-beta .sotw-search-topics-group .discovery-hit::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:3px;background:#80c7d6}
+.mobile-beta .sotw-search-topics-group .discovery-hit::after{content:'›';float:right;color:#a5cbd6}
+.mobile-beta .universal-qa-card.shared-qa-row{border:0!important;border-bottom:1px solid #526b75!important;border-radius:0!important;background:transparent!important;color:inherit!important;padding:0!important;box-shadow:none!important}
+.mobile-beta .shared-qa-row[hidden]{display:none!important}
+.mobile-beta .shared-qa-row>summary{cursor:pointer;font:750 17px/1.4 system-ui;margin:8px 0;padding:8px 6px 8px 10px;border-left:3px solid #80c7d6;min-height:44px}
+.mobile-beta .shared-qa-content{padding:0 6px 12px 12px}
+.mobile-beta .shared-qa-content .universal-qa-answer{font:400 16px/1.65 system-ui;color:inherit}
+.mobile-beta .shared-qa-content .universal-qa-ref{border:0;border-bottom:1px solid #526b75;border-radius:0;background:transparent;color:inherit;font:400 16px/1.4 system-ui;width:100%}
+.mobile-beta .shared-qa-content .universal-qa-variant{border:0;border-radius:0;padding:8px 0;border-bottom:1px solid #526b75}
+.mobile-beta .shared-qa-search-source{margin-top:auto}
+.mobile-beta .shared-qa-study-source:not([hidden])~.discovery-study-source{bottom:60px}
+.mobile-beta.beta-light .sotw-search-topics-group .discovery-hit::before,.mobile-beta.beta-light .shared-qa-row>summary{border-left-color:#347b90}
+.mobile-beta.beta-light .sotw-search-topics-group .discovery-hit::before{background:#347b90}
+.mobile-beta.beta-light .shared-qa-row,.mobile-beta.beta-light .sotw-search-topics-group .discovery-hit{border-bottom-color:#b4cbcc!important}

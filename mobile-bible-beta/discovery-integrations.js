@@ -321,11 +321,11 @@ topicAttribution.append(topicCredits);sourcesSection.append(topicAttribution);
 // Pull out the actual hamburger attribution node, not a second copy.
 const attributionModal=modalLayer('sotwTopicAttribution','Sources & Attribution');
 attributionModal.panel.setAttribute('aria-label','Historical Bible Topics source attribution');
-let sourceOrigin=null,sourceWasOpen=false,sourceSlot=null;
+let sourceOrigin=null,sourceWasOpen=false,sourceSlot=null,activeAttribution=null;
 function restoreAttribution(){
  if(!sourceSlot)return;
- sourceSlot.replaceWith(topicAttribution);sourceSlot=null;
- topicAttribution.open=sourceWasOpen;
+ sourceSlot.replaceWith(activeAttribution);sourceSlot=null;
+ activeAttribution.open=sourceWasOpen;activeAttribution=null;
  sourceOrigin?.focus({preventScroll:true});sourceOrigin=null;
 }
 new MutationObserver(()=>{
@@ -334,15 +334,16 @@ new MutationObserver(()=>{
 attributionModal.veil.addEventListener('keydown',event=>{
  if(event.key==='Escape'){event.stopPropagation();attributionModal.veil.classList.remove('is-open');}
 });
-function sourceLink(parent){
- const a=el('button','discovery-link','About the Nave/Torrey historical source');
+function sourceLink(parent,attribution=topicAttribution,label='About the Nave/Torrey historical source'){
+ const a=el('button','discovery-link',label);
  a.type='button';a.setAttribute('aria-haspopup','dialog');
  a.addEventListener('click',()=>{
   if(sourceSlot)return;
-  sourceOrigin=a;sourceWasOpen=topicAttribution.open;
+  sourceOrigin=a;activeAttribution=attribution;sourceWasOpen=attribution.open;
   sourceSlot=document.createComment('Historical topic attribution home');
-  topicAttribution.before(sourceSlot);
-  attributionModal.panel.append(topicAttribution);topicAttribution.open=true;
+  attribution.before(sourceSlot);
+  attributionModal.panel.setAttribute('aria-label',attribution.querySelector('summary')?.textContent||'Source attribution');
+  attributionModal.panel.append(attribution);attribution.open=true;
   attributionModal.veil.classList.add('is-open');
   attributionModal.panel.querySelector('.modal-close')?.focus({preventScroll:true});
  });
@@ -740,6 +741,9 @@ async function showVerseTopics(){
 // Reuse exactly the same published reverse-index pathway when returning to a
 // verse-study topic. No parallel topic cache or invented association.
 root.SOTWDiscoveryCore.openVerseTopics=showVerseTopics;
+root.SOTWDiscoveryCore.renderCitation=referenceButton;
+root.SOTWDiscoveryCore.resetDisclosure=resetTopicDisclosure;
+root.SOTWDiscoveryCore.sourceLink=sourceLink;
 // Keep the existing study lifecycle; no separate original-order panel, no
 // People/Places section. BSB Word-by-Word continues in study-ux-repair.js.
 const earlierOpen=betaOpen,earlierClose=betaCloseSheet;

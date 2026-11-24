@@ -124,12 +124,13 @@ async function follow(anchor){
  const saved=origin||snapshot();if(!saved)return;
  const prior=loadedSnapshot();
  const trail=anchor.classList.contains('discovery-citation')?
- SOTWReaderTrail.capture(anchor.closest('#sotwVerseTopicsBody')?'study-topic':'topic',anchor):null;
+ SOTWReaderTrail.capture(anchor.closest('#sotwVerseQuestions')?'study-qa':anchor.closest('#sotwVerseTopicsBody')?'study-topic':anchor.closest('#readerSearchModal')?'search':'topic',anchor):null;
  busy=true;
  try{
   if(!await verified(book,chapter,verse))throw Error('Invalid Scripture reference');
   betaCloseSheet();document.querySelector('#sotwDiscoveryDetail')?.classList.remove('is-open');
   if(!await navigate(book,chapter,verse))throw Error('Could not load passage');
+  if(trail?.kind==='search')document.querySelector('#readerSearchModal')?.classList.remove('is-open');
   if(!origin&&!same(saved,{book,chapter,verse,edition:state.edition}))origin=saved;
   if(trail)SOTWReaderTrail.commit(trail);
   display();
