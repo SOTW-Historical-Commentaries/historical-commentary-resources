@@ -342,10 +342,18 @@ function showDetail(heading){
 const shortBooks={GEN:'Gen',EXO:'Exo',LEV:'Lev',NUM:'Num',DEU:'Deu',JOS:'Jos',JDG:'Jdg',RUT:'Rut','1SA':'1 Sam','2SA':'2 Sam','1KI':'1 Kin','2KI':'2 Kin','1CH':'1 Chr','2CH':'2 Chr',EZR:'Ezr',NEH:'Neh',EST:'Est',JOB:'Job',PSA:'Psa',PRO:'Pro',ECC:'Ecc',SNG:'Son',ISA:'Isa',JER:'Jer',LAM:'Lam',EZK:'Eze',DAN:'Dan',HOS:'Hos',JOL:'Joe',AMO:'Amo',OBA:'Oba',JON:'Jon',MIC:'Mic',NAM:'Nah',HAB:'Hab',ZEP:'Zep',HAG:'Hag',ZEC:'Zec',MAL:'Mal',MAT:'Mat',MRK:'Mar',LUK:'Luk',JHN:'Joh',ACT:'Act',ROM:'Rom','1CO':'1 Cor','2CO':'2 Cor',GAL:'Gal',EPH:'Eph',PHP:'Phi',COL:'Col','1TH':'1 The','2TH':'2 The','1TI':'1 Tim','2TI':'2 Tim',TIT:'Tit',PHM:'Phm',HEB:'Heb',JAS:'Jam','1PE':'1 Pet','2PE':'2 Pet','1JN':'1 Joh','2JN':'2 Joh','3JN':'3 Joh',JUD:'Jud',REV:'Rev'};
 function shortBook(book){return shortBooks[book.code]||book.name.replace(/^(\d)\s*(\w{3}).*$/,'$1 $2').replace(/^([A-Za-z]{3})[A-Za-z]+$/,'$1');}
 function citationLabel(ref,targets){
- let label=asText(ref.raw);
- const books=[...new Set(targets.map(t=>t.book))].sort((a,b)=>b.name.length-a.name.length);
- for(const book of books)label=label.split(book.name).join(shortBook(book));
- return label;
+ const books=[...new Set(targets.map(t=>t.book))];
+ const normalizeBook=x=>String(x).toLowerCase().replace(/[^a-z0-9]/g,'');
+ // Replace only explicit book tokens immediately preceding a chapter number.
+ // Resolve abbreviated historical spellings against the already mapped books.
+ let seen=0;
+ return asText(ref.raw).replace(/(^|[;,]\s*)((?:[1-3]\s*)?[A-Za-z]+(?:\s+[A-Za-z]+)*)(?=\s*\d)/g,(all,sep,token)=>{
+  const key=normalizeBook(token);
+  const matches=books.filter(book=>normalizeBook(book.name).startsWith(key)||normalizeBook(shortBook(book))===key||normalizeBook(book.code)===key);
+  const book=matches.length===1?matches[0]:seen===0?targets[0].book:null;
+  seen++;
+  return book?sep+shortBook(book):all;
+ });
 }
 function resetTopicDisclosure(details){
  details.addEventListener('toggle',()=>{
@@ -390,6 +398,7 @@ function referenceButton(parent,ref){
  const trigger=button(heading,label,()=>{if(!wrapper.querySelector('.discovery-inline-preview'))openPreview();},'discovery-citation discovery-inline-trigger');
  trigger.setAttribute('aria-expanded','false');
  trigger.dataset.rawCitation=ref.raw;
+ trigger.title=ref.raw;
  wrapper.append(heading);parent.append(wrapper);
  async function openPreview(){
   const edition=state.edition;

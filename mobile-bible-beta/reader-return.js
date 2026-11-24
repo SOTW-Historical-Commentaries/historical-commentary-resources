@@ -48,7 +48,16 @@ function passage(p){const b=BOOKS.find(x=>x.code===p.book);return (b?.name||p.bo
 function display(){
  if(origin&&same(origin,{book:state.book,chapter:state.chapter,verse:state.verse,edition:state.edition}))origin=null;
  returnGroup.hidden=!origin;button.hidden=!origin;
- if(origin){label.textContent='Back to '+passage(origin);button.setAttribute('aria-label','Return to original reading: '+passage(origin));}
+ // Some mobile header styles constrain the first child of this flex group.
+ // Set the actual return control's visibility and sizing explicitly.
+ button.style.setProperty('display',origin?'inline-flex':'none','important');
+ button.style.setProperty('flex','0 0 auto','important');
+ button.style.setProperty('width','auto','important');
+ button.style.setProperty('min-width','max-content','important');
+ returnGroup.style.setProperty('width','max-content','important');
+ returnGroup.style.setProperty('max-width','100%','important');
+ dismiss.hidden=!origin;
+ if(origin){label.style.setProperty('display','inline','important');label.style.setProperty('visibility','visible','important');label.textContent='Back to '+passage(origin);button.setAttribute('aria-label','Return to original reading: '+passage(origin));}
 }
 function failure(text){clearTimeout(statusTimer);status.textContent=text;status.hidden=false;statusTimer=setTimeout(()=>status.hidden=true,6500);}
 function arm(){
