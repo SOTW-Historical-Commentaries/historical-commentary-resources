@@ -171,6 +171,18 @@ function sourceHeading(label,context={}){
  if(/^intoxi$/i.test(cleaned))return {title:'Unclear historical index heading',sourceLabel:original};
  return {title:cleaned,sourceLabel:''};
 }
+function displaySectionPath(path){
+ return path.slice(1).map(x=>asText(x).replace(/^\d+[.)]\s+/,'')).filter(x=>x&&!/^miscellany of minor sub[- ]topics$/i.test(x)).join(' › ');
+}
+function groupVerseTopics(rows){
+ const groups=new Map();
+ for(const topic of orderVerseTopics(rows)){
+  const key=norm(readerTopicTitle(topic.title));
+  if(!groups.has(key))groups.set(key,{title:readerTopicTitle(topic.title),members:[]});
+  groups.get(key).members.push(topic);
+ }
+ return [...groups.values()];
+}
 function topicSections(topic){
  const mapped=new Map((topic?.references||[]).filter(x=>x?.status==='mapped'&&
   asText(x.raw)&&Array.isArray(x.verse_ids)&&x.verse_ids.length).map(x=>[x.raw,x]));
@@ -182,8 +194,8 @@ function topicSections(topic){
    seen.add(raw);return true;
   }).map(raw=>({raw,scopes:mapped.get(raw).verse_ids,scopeMetadata:mapped.get(raw).scopes||[]}));
   const reviewed=Array.isArray(aspect.display_path)&&aspect.display_path.length>1&&Array.isArray(aspect.source_key);
-  const heading=reviewed?{title:asText(aspect.display_path.slice(1).join(' › ')),sourceLabel:aspect.source_heading||aspect.label}:sourceHeading(aspect.label,{topicId:topic.id,source:aspect.source,mappedReferences:refs.map(r=>r.raw)});
-  return {...heading,reviewed,references:refs};
+  const heading=reviewed?{title:displaySectionPath(aspect.display_path),sourceLabel:aspect.source_heading||aspect.label,sourcePath:aspect.display_path.slice()}:sourceHeading(aspect.label,{topicId:topic.id,source:aspect.source,mappedReferences:refs.map(r=>r.raw)});
+  return {...heading,reviewed,source:aspect.source,topicId:topic.id,references:refs};
  }).filter(section=>section.references.length);
 }
 // Presentation filters only. Preserve the complete source shards, reference
@@ -250,7 +262,7 @@ function readerSectionTitle(section){
   return 'Other references';
  return section?.title||'References';
 }
-root.SOTWDiscoveryCore={isTruncatedSacredNameHeading,rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isMeaningfulSection,isAmbiguousSection,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics};
+root.SOTWDiscoveryCore={isTruncatedSacredNameHeading,rankTopics,evidenceLinkedTopics,requiredTopicBooks,parseScope,verseTopicIds,sourceHeading,topicSections,readerTopicTitle,readerSectionTitle,readerSections,isMeaningfulSection,isAmbiguousSection,isReaderLabel,isReaderTopic,isGeneralSection,orderVerseTopics,groupVerseTopics,displaySectionPath};
 if(typeof document==='undefined')return;
 if(typeof state==='undefined'||typeof searchInput==='undefined'||
  typeof betaOpen==='undefined'||typeof modernCommentaryMenu==='undefined')return;
@@ -554,7 +566,7 @@ async function showVerseTopics(){
  }
  const ids=verseTopicIds(reverseResult.value,scope);
  const named=new Map(indexResult.value.map(t=>[t.id,t]));
- const titles=orderVerseTopics(Array.from(new Set(ids)).map(id=>named.get(id)).filter(Boolean));
+ const titles=groupVerseTopics(Array.from(new Set(ids)).map(id=>named.get(id)).filter(Boolean));
  if(titles.length){
   // Let the reader survey all topics before choosing which one to expand.
   const host=el('div','discovery-topic-groups');verseBody.append(host);
@@ -567,17 +579,28 @@ async function showVerseTopics(){
    const content=el('div','discovery-topic-content');group.append(content);
    const loading=note(content,'Loading Scripture references…');
    try{
-    const shard=await sourceJson(TOPICS+topic.shard);
+    const results=await Promise.allSettled(topic.members.map(async member=>{
+     const shard=await sourceJson(TOPICS+member.shard);
+     const row=shard?.topics?.find(t=>t.id===member.id);
+     if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
+     return readerSections(row);
+    }));
     if(current!==verseSeq||!group.isConnected)return;
-    const row=shard?.topics?.find(t=>t.id===topic.id);
-    if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Missing topic');
     loading.remove();
-    const sections=readerSections(row);
+    const sections=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
+    if(results.some(result=>result.status==='rejected')){
+     note(content,'Some historical source references are unavailable.','discovery-error');
+     if(!sections.length)continue;
+    }
     if(!sections.length){group.remove();continue;}
     const primary=sections;
     function renderSection(section){
      const sectionBox=el('section','discovery-verse-topic-section');content.append(sectionBox);
      if(section.sourceLabel)sectionBox.dataset.originalSourceHeading=section.sourceLabel;
+     if(section.sourcePath)sectionBox.dataset.originalSourcePath=JSON.stringify(section.sourcePath);
+     sectionBox.dataset.topicId=section.topicId;
+     if(section.source)sectionBox.dataset.source=section.source;
+     if(topic.members.length>1&&section.source)note(sectionBox,section.source==='NAV'?'Nave':'Torrey','discovery-guide');
      renderCollapsibleReferences(sectionBox,section,referenceButton);
     }
     primary.slice(0,5).forEach(renderSection);
