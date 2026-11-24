@@ -47,7 +47,7 @@ function topicSnapshot(){
  const heading=panel?.querySelector('.discovery-detail-body .discovery-heading');
  if(!visible(veil)||!heading)return null;
  return {kind:'topic',label:('Topic · '+heading.textContent.replace(/^Historical Bible Topic\s*·\s*/, '')).slice(0,65),
-   heading:heading.textContent,scroll:panel.scrollTop};
+   heading:heading.textContent,scroll:(panel.querySelector('.discovery-detail-body')||panel).scrollTop};
 }
 function studyTopicSnapshot(anchor){
  const body=document.getElementById('sotwVerseTopicsBody');
@@ -162,7 +162,7 @@ async function restore(){
   if(!heading||heading!==snap.heading){clear();return false;}
   search.classList.remove('is-open');
   topic.classList.add('is-open');
-  requestAnimationFrame(()=>{panel.scrollTop=snap.scroll;});
+  requestAnimationFrame(()=>{(panel.querySelector('.discovery-detail-body')||panel).scrollTop=snap.scroll;});
  }else{
   if(searchInput.value!==snap.query){clear();return false;}
   topic?.classList.remove('is-open');

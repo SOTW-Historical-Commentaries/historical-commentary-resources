@@ -246,3 +246,16 @@
 .mobile-beta #sotwDiscoveryDetail .discovery-inline-trigger,.mobile-beta .discovery-study .discovery-inline-trigger{font:400 16px/1.4 system-ui;min-height:44px;padding:8px 5px}
 .mobile-beta #sotwDiscoveryDetail .discovery-more,.mobile-beta .discovery-study .discovery-more-topics{min-height:42px;width:max-content;max-width:100%;padding:8px 12px;margin:6px 0 8px;font:700 14px/1.3 system-ui;color:#d4f4fb;background:#365664;border:1px solid #709aa8;border-radius:6px}
 .mobile-beta.beta-light #sotwDiscoveryDetail .discovery-more,.mobile-beta.beta-light .discovery-study .discovery-more-topics{color:#205665;background:#dcecef;border-color:#8caeb8}
+
+/* Attribution stays visible while topic content scrolls, without covering text. */
+.mobile-beta #sotwDiscoveryDetail .modal-content{display:flex;flex-direction:column;overflow:hidden!important;min-height:0}
+.mobile-beta #sotwDiscoveryDetail .modal-head{flex:none}
+.mobile-beta #sotwDiscoveryDetail .discovery-detail-body{overflow:auto;min-height:0;overscroll-behavior:contain;flex:1 1 auto}
+.mobile-beta .discovery-pinned-source{flex:none;padding:8px 10px max(8px,env(safe-area-inset-bottom));border-top:1px solid #546b75;background:#192931;color:#bbdfeb;z-index:4;text-align:center}
+.mobile-beta .discovery-pinned-source[hidden]{display:none!important}
+.mobile-beta .discovery-pinned-source .discovery-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin:0;padding:4px 8px;border:0;background:transparent;color:inherit;font:500 13px/1.4 system-ui;cursor:pointer;text-decoration:underline}
+.mobile-beta .discovery-study-source{position:sticky;bottom:0;margin:0 -16px -16px;box-shadow:0 -5px 14px #0004}
+.mobile-beta section.discovery-source-active{scroll-padding-bottom:70px}
+.mobile-beta.beta-light .discovery-pinned-source{background:#f7faf7;color:#315762;border-color:#b4cbcc}
+.mobile-beta #sotwTopicAttribution{z-index:240!important}
+.mobile-beta #sotwTopicAttribution .modal-content{max-width:590px;overscroll-behavior:contain}

@@ -318,30 +318,39 @@ for(const [label,url] of [['Published topic source and provenance',SOURCE],['Lic
  const link=el('a','',label);link.href=url;link.target='_blank';link.rel='noopener noreferrer';topicCredits.append(link);
 }
 topicAttribution.append(topicCredits);sourcesSection.append(topicAttribution);
+// Pull out the actual hamburger attribution node, not a second copy.
+const attributionModal=modalLayer('sotwTopicAttribution','Sources & Attribution');
+attributionModal.panel.setAttribute('aria-label','Historical Bible Topics source attribution');
+let sourceOrigin=null,sourceWasOpen=false,sourceSlot=null;
+function restoreAttribution(){
+ if(!sourceSlot)return;
+ sourceSlot.replaceWith(topicAttribution);sourceSlot=null;
+ topicAttribution.open=sourceWasOpen;
+ sourceOrigin?.focus({preventScroll:true});sourceOrigin=null;
+}
+new MutationObserver(()=>{
+ if(!attributionModal.veil.classList.contains('is-open'))restoreAttribution();
+}).observe(attributionModal.veil,{attributes:true,attributeFilter:['class']});
+attributionModal.veil.addEventListener('keydown',event=>{
+ if(event.key==='Escape'){event.stopPropagation();attributionModal.veil.classList.remove('is-open');}
+});
 function sourceLink(parent){
- const a=el('a','discovery-link','About the Nave/Torrey historical source');
- a.href='#historicalTopicsAttribution';
- a.addEventListener('click',event=>{
-  event.preventDefault();
-  const fromTopic=detail.veil.classList.contains('is-open');
-  if(fromTopic)detail.veil.classList.remove('is-open');
-  syncMoreAppearance();openModal(moreModal);
-  topicAttribution.open=true;
-  requestAnimationFrame(()=>{topicAttribution.scrollIntoView({block:'start'});topicAttribution.querySelector('summary')?.focus({preventScroll:true});});
-  if(fromTopic){
-   const observer=new MutationObserver(()=>{
-    if(!moreModal.veil.classList.contains('is-open')){
-     observer.disconnect();
-     if(!searchModal.veil.classList.contains('is-open')&&!navModal.veil.classList.contains('is-open')&&!editionModal.veil.classList.contains('is-open'))detail.veil.classList.add('is-open');
-    }
-   });
-   observer.observe(moreModal.veil,{attributes:true,attributeFilter:['class']});
-  }
+ const a=el('button','discovery-link','About the Nave/Torrey historical source');
+ a.type='button';a.setAttribute('aria-haspopup','dialog');
+ a.addEventListener('click',()=>{
+  if(sourceSlot)return;
+  sourceOrigin=a;sourceWasOpen=topicAttribution.open;
+  sourceSlot=document.createComment('Historical topic attribution home');
+  topicAttribution.before(sourceSlot);
+  attributionModal.panel.append(topicAttribution);topicAttribution.open=true;
+  attributionModal.veil.classList.add('is-open');
+  attributionModal.panel.querySelector('.modal-close')?.focus({preventScroll:true});
  });
  parent.append(a);
 }
 const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
 detail.panel.classList.add('discovery-dialog');
+const detailFooter=el('footer','discovery-pinned-source');sourceLink(detailFooter);detail.panel.append(detailFooter);
 function showDetail(heading){
  // A topic opened from search retains a return route to that exact result list.
  const fromSearch=searchModal.veil.classList.contains('is-open');
@@ -359,7 +368,7 @@ function showDetail(heading){
   },'discovery-back-search');
   back.setAttribute('aria-label','Return to search results for '+query.slice(0,90));
  }
- detail.panel.append(body);
+ detailFooter.before(body);
  searchModal.veil.classList.remove('is-open');
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
  return body;
@@ -524,10 +533,9 @@ async function showTopic(topic){
   if(shard.schema!=='sotw-topics-neuu-shard/1.0.0'||!row)throw Error('Topic not found');
   busy.remove();
   const sections=readerSections(row);
-  if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');sourceLink(body);return;}
+  if(!sections.length){note(body,'No displayable, source-labeled Scripture references.');return;}
   const host=el('div','discovery-topic-groups discovery-topic-content');body.append(host);
   renderSharedSections(host,sections);
-  sourceLink(body);
  }catch{
   if(body.isConnected){busy.textContent='Topic references are unavailable right now.';busy.className='discovery-error';}
  }
@@ -628,10 +636,12 @@ topicsButton.setAttribute('aria-expanded','false');
 topicsButton.setAttribute('aria-controls','sotwVerseTopicsBody');
 verseBody.id='sotwVerseTopicsBody';
 modernCommentaryMenu.before(verseDiscovery);
+const studyPanel=document.querySelector('section[aria-label="Commentary comparison"]');
+const studyFooter=el('footer','discovery-pinned-source discovery-study-source');studyFooter.hidden=true;sourceLink(studyFooter);studyPanel.append(studyFooter);
 let verseSeq=0;
 function closeVerseTopics(restoreFocus=false){
  ++verseSeq; // Invalidate any pending historical shard response.
- verseBody.hidden=true;verseBody.replaceChildren();
+ verseBody.hidden=true;verseBody.replaceChildren();studyFooter.hidden=true;studyPanel.classList.remove('discovery-source-active');
  topicsButton.setAttribute('aria-expanded','false');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Explore topics ›';
  if(restoreFocus){
@@ -643,7 +653,7 @@ async function showVerseTopics(){
  if(!verseBody.hidden){closeVerseTopics();return;}
  const book=state.book,chapter=state.chapter,verse=modernStudyVerse,current=++verseSeq;
  const scope=book+'.'+chapter+'.'+verse;
- verseBody.hidden=false;verseBody.replaceChildren();
+ verseBody.hidden=false;verseBody.replaceChildren();studyFooter.hidden=false;studyPanel.classList.add('discovery-source-active');
  topicsButton.setAttribute('aria-expanded','true');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Hide topics ↑';
  note(verseBody,'Loading topic references…');
@@ -726,7 +736,6 @@ async function showVerseTopics(){
    more.expandTopics=()=>setExpanded(true);
   }
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
- sourceLink(verseBody);
  const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
  dismiss.setAttribute('aria-label','Close Related Bible Topics');
 }
