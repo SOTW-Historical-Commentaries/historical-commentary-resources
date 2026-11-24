@@ -11,7 +11,7 @@ const {chromium}=require('playwright-core');
   const page=await context.newPage();page.setDefaultTimeout(45000);
   const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   const base='http://127.0.0.1:8765/mobile-bible-beta/';
-  const topicRoot='**/data/topics/nave-torrey/v1/';
+  const topicRoot='**/data/topics/nave-torrey/reader/v1/';
   await page.route(topicRoot+'index/topics.json',route=>route.fulfill({status:200,contentType:'application/json',headers:{'access-control-allow-origin':'*'},body:JSON.stringify({
    schema:'sotw-topics-search-index/1.0.0',
    topics:[{id:'test-topic-forgiveness',title:'Forgiveness',verse_link_count:2,shard:'shards/fixture.json'}]
