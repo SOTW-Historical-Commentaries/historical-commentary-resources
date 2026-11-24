@@ -116,7 +116,7 @@ function render(results,query){
  const host=document.createElement('details');host.className='jacob-search-results';
  host.open=expandAll;
  const title=document.createElement('summary');title.className='jacob-search-section';
- title.textContent='Jacob Lannom · Published pastoral commentary ('+results.length+')';
+ title.textContent='Lannom Commentary';
  title.setAttribute('aria-label','Toggle '+results.length+' published Jacob Lannom commentary results');
  host.append(title);
  const list=document.createElement('div');list.className='jacob-search-list';host.append(list);

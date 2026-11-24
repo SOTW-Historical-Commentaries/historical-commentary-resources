@@ -225,7 +225,7 @@ function render(matches){
  }
  const groups=[...clusters.values()];
  const host=textNode('section','universal-qa-section','');
- host.append(textNode('h4','universal-qa-heading','Bible Questions · unfoldingWord ('+matches.length+' matches · '+groups.length+' answers)'));
+ host.append(textNode('h4','universal-qa-heading','Bible Questions'));
  questionList(host,groups,5);
  shared.sourceLink(host,sourceDisclosure,'About the unfoldingWord source');
  const chapter=searchResults.querySelector('.reader-current-chapter-search');
@@ -248,7 +248,7 @@ searchInput.addEventListener("input",()=>{
   }
  },240);
 });
-searchNote.textContent="Find a Bible passage, approved person/place profile, Bible Question, Topic, or Jacob commentary. Scripture-word search currently covers this chapter.";
+searchNote.textContent="Find a Scripture address, Historical Bible Topic, Bible Question, or Jacob Lannom commentary.";
 searchInput.placeholder="John 3:16, Abraham, Moses snake on stick, or Topics";
 
 /* Optional source-linked questions while studying a verse. Scripture stays primary. */

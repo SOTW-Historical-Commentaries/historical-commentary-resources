@@ -105,3 +105,22 @@
 .mobile-beta.beta-light .sotw-search-topics-group .discovery-hit::before,.mobile-beta.beta-light .shared-qa-row>summary{border-left-color:#347b90}
 .mobile-beta.beta-light .sotw-search-topics-group .discovery-hit::before{background:#347b90}
 .mobile-beta.beta-light .shared-qa-row,.mobile-beta.beta-light .sotw-search-topics-group .discovery-hit{border-bottom-color:#b4cbcc!important}
+
+/* One search result hierarchy for Topics, Bible Questions and Lannom Commentary. */
+.mobile-beta #readerSearchModal .sotw-search-expandable>summary.discovery-search-label,
+.mobile-beta #readerSearchModal .sotw-search-expandable>summary.universal-qa-heading,
+.mobile-beta #readerSearchModal .jacob-search-results>summary.jacob-search-section{font:700 13px/1.4 system-ui!important;text-transform:uppercase;letter-spacing:.07em;color:#a9c5cf;margin:12px 0 8px;padding:10px 4px!important;border:0;background:transparent}
+.mobile-beta #readerSearchModal .shared-qa-row>summary,
+.mobile-beta #sotwVerseQuestions .shared-qa-row>summary{font:750 19px/1.3 system-ui!important}
+.mobile-beta #readerSearchModal .jacob-search-results{border:0!important;border-radius:0!important;background:transparent!important;padding:0!important;box-shadow:none!important}
+.mobile-beta #readerSearchModal .jacob-search-list{gap:0!important}
+.mobile-beta #readerSearchModal .jacob-search-hit{position:relative;border:0!important;border-bottom:1px solid #526b75!important;border-radius:0!important;background:transparent!important;color:inherit!important;min-height:46px;padding:12px 28px 12px 12px!important}
+.mobile-beta #readerSearchModal .jacob-search-hit strong{font:750 19px/1.3 system-ui!important;margin:0 0 4px}
+.mobile-beta #readerSearchModal .jacob-search-hit::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:3px;background:#80c7d6}
+.mobile-beta #readerSearchModal .jacob-search-hit::after{content:'›';position:absolute;right:8px;top:50%;transform:translateY(-50%);font:400 24px/1 system-ui;color:#a5cbd6}
+.mobile-beta.beta-light #readerSearchModal .sotw-search-expandable>summary.discovery-search-label,
+.mobile-beta.beta-light #readerSearchModal .sotw-search-expandable>summary.universal-qa-heading,
+.mobile-beta.beta-light #readerSearchModal .jacob-search-results>summary.jacob-search-section{color:#587c87}
+.mobile-beta.beta-light #readerSearchModal .jacob-search-hit{border-bottom-color:#b4cbcc!important}
+.mobile-beta.beta-light #readerSearchModal .jacob-search-hit::before{background:#347b90}
+.mobile-beta.beta-light #readerSearchModal .jacob-search-hit::after{color:#497782}
