@@ -61,6 +61,7 @@ function studyTopicSnapshot(anchor){
  return {kind:'study-topic',label:'Topic · '+title.slice(0,58),
   book:state.book,chapter:state.chapter,verse:Number(modernStudyVerse)||state.verse,
   edition:state.edition,selectedTitle:title,selectedIndex:index,
+  expandedTopics:body.querySelector('.discovery-more-topics')?.getAttribute('aria-expanded')==='true',
   openTopics:groups.map((g,i)=>g.open?i:-1).filter(i=>i>=0),
   expandedSections:groups.map((g,i)=>({
    topic:i,expanded:!!g.querySelector(':scope > .discovery-topic-content > .discovery-more[aria-expanded="true"]')
@@ -115,6 +116,7 @@ async function restore(){
   chooseVerse(snap.verse);betaOpen();
   await root.SOTWDiscoveryCore.openVerseTopics();
   const body=document.getElementById('sotwVerseTopicsBody');
+  if(snap.expandedTopics)await body?.querySelector('.discovery-more-topics')?.expandTopics?.();
   const groups=body?[...body.querySelectorAll('.discovery-verse-topic')]:[];
   if(!groups.length||body.hidden){
    // Keep the return available if the original publisher data cannot reload.

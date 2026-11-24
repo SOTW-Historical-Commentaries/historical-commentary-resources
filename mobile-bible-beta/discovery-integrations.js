@@ -614,9 +614,11 @@ async function showVerseTopics(){
  if(titles.length){
   // Let the reader survey all topics before choosing which one to expand.
   const host=el('div','discovery-topic-groups');verseBody.append(host);
-  for(const [index,topic] of titles.slice(0,6).entries()){
+  async function renderTopic(topic){
+   if(current!==verseSeq||!host.isConnected)return;
+   const index=titles.indexOf(topic);
    const group=el('details','discovery-topic-group discovery-verse-topic');
-   group.open=false;host.append(group);resetTopicDisclosure(group);
+   group.open=false;group.dataset.topicIndex=String(index);host.append(group);resetTopicDisclosure(group);
    const summary=el('summary','discovery-topic-summary');
    summary.append(el('span','',readerTopicTitle(topic.title)));
    group.append(summary);
@@ -634,9 +636,9 @@ async function showVerseTopics(){
     const sections=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
     if(results.some(result=>result.status==='rejected')){
      note(content,'Some historical source references are unavailable.','discovery-error');
-     if(!sections.length)continue;
+     if(!sections.length)return;
     }
-    if(!sections.length){group.remove();continue;}
+    if(!sections.length){group.remove();return;}
     const primary=sections;
     function renderSection(section){renderSharedSection(content,section);}
     primary.slice(0,5).forEach(renderSection);
@@ -665,7 +667,36 @@ async function showVerseTopics(){
     if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}
    }
   }
-  if(titles.length>6)note(verseBody,'Showing the first six indexed topics for this verse.');
+  await Promise.all(titles.slice(0,6).map(renderTopic));
+  if(current!==verseSeq||!host.isConnected)return;
+  if(titles.length>6){
+   const moreLabel='Show '+(titles.length-6)+' more topics ↓';
+   let pending=null;
+   const more=button(verseBody,moreLabel,()=>setExpanded(more.getAttribute('aria-expanded')!=='true'),'discovery-more discovery-more-topics');
+   more.setAttribute('aria-expanded','false');
+   host.after(more);
+   async function setExpanded(expand){
+    if(pending)await pending;
+    if(current!==verseSeq||!host.isConnected)return;
+    if(expand===(more.getAttribute('aria-expanded')==='true'))return;
+    more.disabled=true;
+    if(expand){
+     more.setAttribute('aria-expanded','true');
+     more.textContent='Show fewer topics ↑';
+     pending=Promise.all(titles.slice(6).map(renderTopic));
+     await pending;pending=null;
+    }else{
+     host.querySelectorAll('[data-topic-index]').forEach(group=>{
+      if(Number(group.dataset.topicIndex)>=6)group.remove();
+     });
+     more.setAttribute('aria-expanded','false');more.textContent=moreLabel;
+     more.scrollIntoView({block:'nearest'});
+    }
+    more.disabled=false;
+   }
+   // Return restoration awaits the actual topic rows, not an arbitrary timer.
+   more.expandTopics=()=>setExpanded(true);
+  }
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
  sourceLink(verseBody);
  const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
