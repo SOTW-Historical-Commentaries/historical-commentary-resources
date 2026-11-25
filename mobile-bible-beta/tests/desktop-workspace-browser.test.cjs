@@ -12,7 +12,17 @@ const {chromium}=require("playwright-core");
     const errors=[];page.on("pageerror",e=>errors.push(String(e)));
     await page.goto("http://127.0.0.1:8765/"+brand+"/?book=GEN&chapter=3&verse=19&translation=BSB",{waitUntil:"domcontentloaded"});
     const v=page.locator('#verses .reader-verse[data-verse="19"]');
-    await v.waitFor({state:"visible"});await v.click();
+    await v.waitFor({state:"visible"});
+    await page.locator("#desktop-book").waitFor({state:"visible"});
+    assert.equal(await page.locator("#desktop-book").inputValue(),"GEN");
+    assert.equal(await page.locator("#desktop-chapter").inputValue(),"3");
+    await page.locator("#desktop-verse").selectOption("22");
+    await page.waitForFunction(()=>document.querySelector("#studyHeading")?.textContent.includes("3:22"));
+    await page.locator("#studyClose").click();
+    assert(!await page.locator("body").evaluate(e=>e.classList.contains("study-open")));
+    assert(await page.locator("#desktopStudyEmpty").isVisible(),"Workspace remains after clearing");
+    assert.equal(await page.locator("#verses .is-studying").count(),0);
+    await v.click();
     await page.locator("#studyBodyScroll #modernStudyVerse").waitFor({state:"visible"});
     const g=await page.evaluate(()=>{
      const rect=s=>{const e=document.querySelector(s);if(!e)return null;const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height,right:r.right,bottom:r.bottom}};

@@ -35,7 +35,7 @@ function apply(){
  if(active){
  line.insertBefore(nav,line.firstChild);nav.hidden=false;nav.style.removeProperty('display');
  panel.append(empty);empty.hidden=false;
- anchors.forEach(({node,marker})=>{node.before(marker);line.insertBefore(node,edition)});
+ anchors.forEach(({node,marker})=>{node.before(marker);edition.before(node)});
  keys.forEach(key=>{const node=document.getElementById(key);if(node)observer.observe(node,{childList:true,subtree:true,attributes:true})});
  sync();
  }else{
