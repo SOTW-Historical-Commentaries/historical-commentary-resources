@@ -172,7 +172,10 @@ function sourceHeading(label,context={}){
  return {title:cleaned,sourceLabel:''};
 }
 function displaySectionPath(path){
- return path.slice(1).map(x=>asText(x).replace(/^\d+[.)]\s+/,'')).filter(x=>x&&!/^miscellany of minor sub[- ]topics$/i.test(x)).join(' › ');
+ const parts=path.slice(1).map(x=>asText(x).replace(/^\d+[.)]\s+/,'')).filter(x=>x&&!/^miscellany of minor sub[- ]topics$/i.test(x));
+ // Suppress only the redundant Instances of ancestor when a descriptive
+ // child follows. Keep the full published path in sourcePath.
+ return parts.filter((x,i)=>!(/^instances of$/i.test(x.trim())&&i<parts.length-1&&!/^instances of$/i.test(parts[i+1].trim()))).join(' › ');
 }
 function groupVerseTopics(rows){
  const groups=new Map();
