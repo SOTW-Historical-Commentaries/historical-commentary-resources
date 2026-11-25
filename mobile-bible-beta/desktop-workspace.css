@@ -213,3 +213,21 @@
     margin-inline:auto!important;
   }
 }
+
+@media (min-width:1100px) and (pointer:fine){
+.mobile-beta.desktop-workspace .location-picker{display:none!important}
+.mobile-beta.desktop-workspace #desktopPassage{display:flex;align-items:center;gap:12px;margin-right:auto}
+.mobile-beta.desktop-workspace #desktopPassage select{appearance:auto;background:transparent;color:inherit;border:0;font:600 22px Georgia,serif;padding:4px;max-width:230px}
+.mobile-beta.desktop-workspace #desktopPassage option{color:#182c34;background:#fff}
+.mobile-beta.desktop-workspace .layout{display:grid!important;grid-template-columns:minmax(0,1.42fr) minmax(390px,.92fr)!important;gap:28px!important;align-items:start!important}
+.mobile-beta.desktop-workspace .layout>.scripture{grid-column:1!important;grid-row:1!important;max-width:none!important;width:100%!important;margin:0!important;min-width:0!important}
+.mobile-beta.desktop-workspace .layout>section[aria-label="Commentary comparison"]{display:flex!important;flex-direction:column!important;grid-column:2!important;grid-row:1!important;position:sticky!important;inset:auto!important;top:20px!important;width:100%!important;max-width:none!important;height:auto!important;min-height:180px!important;max-height:calc(100svh - 145px)!important;padding:0 20px 16px!important;overflow:hidden!important;border:0!important;border-left:1px solid #567078!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;align-self:start!important}
+.mobile-beta.desktop-workspace:not(.study-open) #studyBodyScroll,.mobile-beta.desktop-workspace:not(.study-open) #studyClose,.mobile-beta.desktop-workspace:not(.study-open) #studyOverlay{display:none!important}
+.mobile-beta.desktop-workspace:not(.study-open) #desktopStudyEmpty{display:block!important}
+.mobile-beta.desktop-workspace.study-open #desktopStudyEmpty{display:none!important}
+.mobile-beta.desktop-workspace #desktopStudyEmpty{padding:16px 0;color:inherit;opacity:.75}
+.mobile-beta.desktop-workspace #modernReaderHeader #sotwReturnGroup,.mobile-beta.desktop-workspace #modernReaderHeader #sotwTrail{margin:0!important;flex:none}
+.mobile-beta.desktop-workspace #modernStudyVerse,.mobile-beta.desktop-workspace #studyBodyScroll .study-launch{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;border-bottom:1px solid #567078!important;padding-inline:0!important}
+.mobile-beta.desktop-workspace #studyClose{border:0!important;background:transparent!important;min-width:0!important}
+.mobile-beta.desktop-workspace .word-sequence-nav button{display:none!important}
+}
