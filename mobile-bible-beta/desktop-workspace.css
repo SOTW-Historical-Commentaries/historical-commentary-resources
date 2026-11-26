@@ -231,3 +231,128 @@
 .mobile-beta.desktop-workspace #studyClose{border:0!important;background:transparent!important;min-width:0!important}
 .mobile-beta.desktop-workspace .word-sequence-nav button{display:none!important}
 }
+
+/* Desktop embeds the accepted mobile topic presentation. Rules below are
+ * the exact phone-width topic declarations, scoped to the desktop controller.
+ * Mobile stylesheets and resource DOM are not modified. */
+@media (min-width:1100px) and (pointer:fine){
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-body:not([hidden]){
+  padding:0 7px 9px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-heading{
+  font:700 13px/1.4 system-ui;text-transform:uppercase;
+  letter-spacing:.09em;color:#9ec8d4;margin:18px 0 7px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-body>.discovery-note{
+  font:400 14px/1.55 system-ui;margin:2px 0 16px;
+  color:#b7cdd4
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-topic-groups{margin:3px 0 6px}
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic{
+  border-bottom:1px solid #4b6670;padding:0 0 5px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic>.discovery-topic-summary{
+  list-style:none;min-height:44px;
+   padding:7px 3px 7px 8px;margin:2px 0 3px;
+  border-left:3px solid #80c7d6;
+  color:#f1f9fb;font:750 19px/1.3 system-ui;letter-spacing:-.015em
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic>.discovery-topic-summary::-webkit-details-marker{display:none}
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic>.discovery-topic-summary::after{
+  content:'⌄';flex:none;color:#a5cbd6;font:700 21px/1 system-ui
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic[open]>.discovery-topic-summary::after{
+  content:'⌃'
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic .discovery-topic-content{
+  padding:0 1px 4px 8px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic-section{
+  margin:0 0 8px;padding:8px 0 1px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-verse-topic-section+.discovery-verse-topic-section{
+  border-top:1px solid #4a6570;padding-top:11px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-section-title{
+  margin:0 0 5px;
+   color:#bde2eb;font:750 14.5px/1.4 system-ui;
+  letter-spacing:0
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-citation{
+  min-height:44px;padding:8px 5px;
+   color:#ecf5f7;font:400 16px/1.4 system-ui;
+  border-color:#405c67
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-citation::after{
+  font-size:21px;color:#aacdd7
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-more{
+  min-height:42px;width:max-content;max-width:100%;padding:8px 12px 8px 5px;margin:6px 0 8px;
+   font:800 14px/1.3 system-ui;color:#d4f4fb;
+   background:#365664;border:1px solid #709aa8;border-radius:6px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-launch{
+  min-height:46px;padding:9px 12px;font-size:14.5px
+ }
+ .mobile-beta.desktop-workspace .discovery-study .discovery-launch-meta{
+  font-size:12px
+ }
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-verse-heading{color:#426b76}
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-verse-body>.discovery-note{color:#496b76}
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-verse-topic>.discovery-topic-summary{
+  color:#213f49;border-left-color:#347b90
+ }
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-verse-topic>.discovery-topic-summary::after{
+  color:#497782
+ }
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-section-title{color:#2e6373}
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-citation{color:#294b55;border-color:#c9dbdf}
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-more{color:#205665;background:#dcecef;border-color:#8caeb8}
+ .mobile-beta.desktop-workspace.beta-light .discovery-study .discovery-verse-topic{border-color:#b6cdd4}
+
+ .mobile-beta.desktop-workspace #desktopPassage select{
+ appearance:none;-webkit-appearance:none;width:auto;max-width:190px;
+ padding:4px 22px 4px 4px;cursor:pointer;
+ background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M2 2l4 4 4-4' fill='none' stroke='%239fbac4' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 4px center;
+ }
+ .mobile-beta.desktop-workspace #desktop-book{width:clamp(110px,12vw,180px)}
+ .mobile-beta.desktop-workspace #desktop-chapter,.mobile-beta.desktop-workspace #desktop-verse{width:70px}
+ .mobile-beta.desktop-workspace #modernReaderHeader .location-actions{display:flex;align-items:center;gap:12px;min-width:0}
+ .mobile-beta.desktop-workspace #modernReaderHeader #sotwReturnGroup,.mobile-beta.desktop-workspace #modernReaderHeader #sotwTrail{max-width:220px;min-width:0}
+ .mobile-beta.desktop-workspace #studyBodyScroll #studyHeading,
+ .mobile-beta.desktop-workspace #studyBodyScroll #modernStudyVerse{display:none!important}
+ .mobile-beta.desktop-workspace .layout>section[aria-label="Commentary comparison"] .tools{
+ display:flex!important;position:static!important;align-items:center;justify-content:space-between;
+ min-height:48px!important;margin:0 0 8px!important;padding:8px 0!important;
+ border-bottom:1px solid #526b75!important;background:transparent!important;
+ }
+ .mobile-beta.desktop-workspace .layout>section[aria-label="Commentary comparison"] .tools::before{
+ content:"Study tools";font:650 15px/1.4 system-ui;color:inherit;
+ }
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll{padding:0 2px 18px!important;max-height:calc(100svh - 220px)!important}
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll .discovery-study{
+ border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;margin:0!important;padding:0!important;
+ }
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll #originalLanguageEntry,
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll .discovery-study>.discovery-launch,
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll #modernCommentaryMenu .study-launch{
+ background:transparent!important;border:0!important;border-radius:0!important;
+ border-bottom:1px solid #526b75!important;box-shadow:none!important;
+ color:inherit!important;padding:10px 4px!important;margin:0!important;
+ min-height:46px!important;font:650 14.5px system-ui!important;
+ }
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll #modernCommentaryMenu{
+ border:0!important;margin:0!important;padding:0!important;background:transparent!important;
+ }
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll .discovery-study .discovery-topic-summary{
+ background:transparent!important;border-radius:0!important;
+ }
+ .mobile-beta.desktop-workspace.study-open #studyBodyScroll .discovery-study .discovery-verse-topic{
+ background:transparent!important;border-radius:0!important;box-shadow:none!important;
+ }
+ .mobile-beta.desktop-workspace.beta-light.study-open #studyBodyScroll #originalLanguageEntry,
+ .mobile-beta.desktop-workspace.beta-light.study-open #studyBodyScroll .discovery-study>.discovery-launch,
+ .mobile-beta.desktop-workspace.beta-light.study-open #studyBodyScroll #modernCommentaryMenu .study-launch,
+ .mobile-beta.desktop-workspace.beta-light .layout>section[aria-label="Commentary comparison"] .tools{border-bottom-color:#b4cbcc!important}
+ .mobile-beta.desktop-workspace .discovery-study-source,.mobile-beta.desktop-workspace .shared-qa-study-source{position:static!important;box-shadow:none!important}
+}
