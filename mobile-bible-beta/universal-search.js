@@ -195,8 +195,10 @@ function questionRow(cluster){
    const item=textNode('div','universal-qa-variant','');
    item.append(textNode('p','',variant[1]));questionCitations(item,variant);more.append(item);
   }
+  shared.bottomDisclosureClose(more,more,'Close related questions ↑');
   shared.resetDisclosure(more);content.append(more);
  }
+ shared.bottomDisclosureClose(card,content,'Close question ↑');
  card.append(content);shared.resetDisclosure(card);return card;
 }
 function questionList(parent,groups,initial){
@@ -298,14 +300,21 @@ async function checkVerseQuestions(){
   qaVerseSection.hidden=!qaAvailable.length;
  }catch(_){if(validStudy(n,book,chapter,verse,edition)){qaAvailable=[];qaVerseSection.hidden=true;}}
 }
+function closeVerseQuestions(restoreFocus=false){
+ qaVerseBody.hidden=true;qaVerseBody.replaceChildren();
+ qaVerseButton.setAttribute("aria-expanded","false");
+ if(restoreFocus)shared.returnToDisclosureHeading(qaVerseButton);
+}
 async function openVerseQuestions(){
  const n=qaVerseGeneration;
  if(qaPending)await qaPending;
  if(n!==qaVerseGeneration||qaVerseSection.hidden||!qaAvailable.length)return;
- if(!qaVerseBody.hidden){qaVerseBody.hidden=true;qaVerseBody.replaceChildren();qaVerseButton.setAttribute("aria-expanded","false");return}
+ if(!qaVerseBody.hidden){closeVerseQuestions();return}
  qaVerseBody.replaceChildren();
  questionList(qaVerseBody,qaAvailable.map(row=>[row]),5);
  shared.sourceLink(qaVerseBody,sourceDisclosure,'About the unfoldingWord source');
+ const close=textNode('button','shared-bottom-collapse shared-category-collapse','Close Bible Questions ↑');
+ close.type='button';close.addEventListener('click',()=>closeVerseQuestions(true));qaVerseBody.append(close);
  qaVerseBody.hidden=false;qaVerseButton.setAttribute("aria-expanded","true");
 }
 qaVerseButton.setAttribute("aria-expanded","false");qaVerseButton.addEventListener("click",openVerseQuestions);

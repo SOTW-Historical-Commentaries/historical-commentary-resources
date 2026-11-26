@@ -263,3 +263,8 @@
 /* Resource-specific attribution belongs to the end of its list, never the viewport. */
 .mobile-beta .discovery-link{display:inline-block;max-width:100%;padding:4px 0;margin:10px 0 5px;border:0;background:transparent;color:#bbdfeb;font:400 12px/1.5 system-ui;text-decoration:underline;text-align:left;cursor:pointer;justify-self:start}
 .mobile-beta.beta-light .discovery-link{color:#315762}
+
+/* Shared bottom disclosure controls: part of the normal reading flow. */
+.mobile-beta .shared-bottom-collapse{display:block;width:100%;min-height:44px;margin:10px 0 4px;padding:10px 8px;border:1px solid #70909b;border-radius:6px;background:transparent;color:inherit;font:650 13px/1.4 system-ui;cursor:pointer;text-align:center}
+.mobile-beta.beta-light .shared-bottom-collapse{border-color:#9bb8bf}
+.mobile-beta .shared-bottom-collapse:focus-visible{outline:2px solid currentColor;outline-offset:2px}

@@ -394,6 +394,31 @@ function citationLabel(ref,targets){
   return book?sep+shortBook(book):all;
  });
 }
+// Close only the requested disclosure, then restore its own heading in
+// the nearest scrollable reading surface (never scroll the underlying Bible).
+function returnToDisclosureHeading(heading){
+ if(!heading?.isConnected)return;
+ heading.focus({preventScroll:true});
+ let pane=heading.parentElement;
+ while(pane&&pane!==document.body){
+  const style=getComputedStyle(pane);
+  if(/auto|scroll/.test(style.overflowY)&&pane.scrollHeight>pane.clientHeight+1){
+   const rect=pane.getBoundingClientRect(),target=heading.getBoundingClientRect();
+   if(target.top<rect.top+8||target.bottom>rect.bottom-8)
+    pane.scrollTop+=target.top-rect.top-pane.clientTop-8;
+   return;
+  }
+  pane=pane.parentElement;
+ }
+}
+function bottomDisclosureClose(details,host,label){
+ if(host.querySelector(':scope > .shared-bottom-collapse'))return;
+ const close=button(host,label,()=>{
+  details.open=false;
+  returnToDisclosureHeading(details.querySelector(':scope > summary'));
+ },'shared-bottom-collapse');
+ close.type='button';
+}
 function resetTopicDisclosure(details){
  details.addEventListener('toggle',()=>{
   if(details.open)return;
@@ -467,7 +492,10 @@ function renderCollapsibleReferences(parent,section,render){
  details.append(summary);
  const inner=el('div','discovery-subtopic-body');details.append(inner);
  details.addEventListener('toggle',()=>{
-  if(details.open&&!inner.childElementCount)expandList(inner,section.references,render,4);
+  if(details.open&&!inner.childElementCount){
+   expandList(inner,section.references,render,4);
+   bottomDisclosureClose(details,inner,'Close references ↑');
+  }
  });
  resetTopicDisclosure(details);
  parent.append(details);
@@ -652,8 +680,7 @@ function closeVerseTopics(restoreFocus=false){
  topicsButton.setAttribute('aria-expanded','false');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Explore topics ›';
  if(restoreFocus){
-  topicsButton.focus({preventScroll:true});
-  topicsButton.scrollIntoView({block:'nearest'});
+  returnToDisclosureHeading(topicsButton);
  }
 }
 async function showVerseTopics(){
@@ -703,6 +730,7 @@ async function showVerseTopics(){
     }
     if(!sections.length){group.remove();return;}
     renderSharedSections(content,sections);
+    bottomDisclosureClose(group,content,'Close topic ↑');
    }catch{
     if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}
    }
@@ -747,6 +775,8 @@ async function showVerseTopics(){
 root.SOTWDiscoveryCore.openVerseTopics=showVerseTopics;
 root.SOTWDiscoveryCore.renderCitation=referenceButton;
 root.SOTWDiscoveryCore.resetDisclosure=resetTopicDisclosure;
+root.SOTWDiscoveryCore.bottomDisclosureClose=bottomDisclosureClose;
+root.SOTWDiscoveryCore.returnToDisclosureHeading=returnToDisclosureHeading;
 root.SOTWDiscoveryCore.sourceLink=sourceLink;
 // Keep the existing study lifecycle; no separate original-order panel, no
 // People/Places section. BSB Word-by-Word continues in study-ux-repair.js.

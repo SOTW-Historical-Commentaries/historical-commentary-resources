@@ -4,6 +4,25 @@ const assert=require("node:assert/strict");
 const {chromium}=require("playwright-core");
 (async()=>{
  const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH||"/usr/bin/google-chrome",args:["--no-sandbox","--disable-dev-shm-usage"]});
+ async function checkBottomCollapse(page){
+  const launch=page.locator('#studyBodyScroll .discovery-launch').filter({hasText:"Related Bible Topics"});
+  await launch.click();
+  const topics=page.locator('#sotwVerseTopicsBody .discovery-verse-topic');
+  await topics.first().waitFor({state:"visible"});
+  const first=topics.first();
+  await first.locator(':scope > summary').click();
+  const itemClose=first.locator(':scope > .discovery-topic-content > .shared-bottom-collapse');
+  await itemClose.waitFor({state:"visible"});
+  if(await topics.count()>1){
+   const second=topics.nth(1);await second.locator(':scope > summary').click();
+   await itemClose.click();
+   assert.equal(await first.getAttribute("open"),null,"Individual topic collapses");
+   assert.notEqual(await second.getAttribute("open"),null,"Unrelated topic expansion preserved");
+  }else{await itemClose.click();assert.equal(await first.getAttribute("open"),null);}
+  await page.locator('#sotwVerseTopicsBody > .discovery-close-topics').click();
+  assert.equal(await launch.getAttribute("aria-expanded"),"false");
+  assert(await launch.evaluate(el=>document.activeElement===el),"Category close restores heading focus");
+ }
  try{
   for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
    for(const width of [1280,1512]){
@@ -44,6 +63,7 @@ const {chromium}=require("playwright-core");
     assert.equal(topicStyle.border,"3px","Mobile topic accent bar reused");
     assert.equal(topicStyle.font,"19px","Mobile topic typography reused");
     await page.locator('#studyBodyScroll .discovery-launch').filter({hasText:"Related Bible Topics"}).click();
+    await checkBottomCollapse(page);
     const g=await page.evaluate(()=>{
      const rect=s=>{const e=document.querySelector(s);if(!e)return null;const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height,right:r.right,bottom:r.bottom}};
      const study=document.querySelector('section[aria-label="Commentary comparison"]');
@@ -83,6 +103,7 @@ const {chromium}=require("playwright-core");
    });
    assert(m.open&&m.position==="fixed"&&m.w>=m.viewport-5,`Mobile study must remain full screen ${brand} ${JSON.stringify(m)}`);
    assert(await page.locator("#modernStudyVerse").isVisible(),"Mobile retains verse quotation");
+   await checkBottomCollapse(page);
    assert.equal(await page.locator("#desktopPassage").count(),0,"Desktop controls absent on mobile");
    await page.locator("#studyClose").click();
    assert(!await page.locator("body").evaluate(e=>e.classList.contains("study-open")),`Mobile Close still works ${brand}`);
