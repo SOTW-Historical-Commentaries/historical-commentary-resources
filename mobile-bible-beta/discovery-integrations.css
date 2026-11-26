@@ -268,3 +268,13 @@
 .mobile-beta .shared-bottom-collapse{display:block;width:100%;min-height:44px;margin:10px 0 4px;padding:10px 8px;border:1px solid #70909b;border-radius:6px;background:transparent;color:inherit;font:650 13px/1.4 system-ui;cursor:pointer;text-align:center}
 .mobile-beta.beta-light .shared-bottom-collapse{border-color:#9bb8bf}
 .mobile-beta .shared-bottom-collapse:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+
+/* Topics pilot: pinned sibling of the scroll pane, not an overlay. */
+.mobile-beta .shared-context-nav[hidden],.mobile-beta .shared-context-action[hidden]{display:none!important}
+.mobile-beta .shared-context-nav{flex:0 0 auto;min-width:0;margin:0;padding:6px 4px max(6px,env(safe-area-inset-bottom));border-top:1px solid #526b75;background:#192931;color:#d7edf2;z-index:3}
+.mobile-beta .shared-context-crumb{font:600 12px/1.4 system-ui;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0 4px 3px}
+.mobile-beta .shared-context-actions{display:flex;justify-content:flex-end;align-items:center;gap:6px;flex-wrap:wrap}
+.mobile-beta .shared-context-action{min-height:44px;max-width:100%;padding:7px 9px;border:0;background:transparent;color:inherit;font:650 13px/1.3 system-ui;cursor:pointer;overflow-wrap:anywhere;text-align:right}
+.mobile-beta .shared-context-action:focus-visible{outline:2px solid currentColor}
+.mobile-beta.beta-light .shared-context-nav{background:#f7faf7;color:#294b55;border-color:#b4cbcc}
+.mobile-beta:not(.study-open) .shared-context-nav,.mobile-beta:has(#studyOverlay.is-open) .shared-context-nav{display:none!important}

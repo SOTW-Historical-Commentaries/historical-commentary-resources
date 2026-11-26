@@ -9,19 +9,16 @@ const {chromium}=require("playwright-core");
   await launch.click();
   const topics=page.locator('#sotwVerseTopicsBody .discovery-verse-topic');
   await topics.first().waitFor({state:"visible"});
-  const first=topics.first();
-  await first.locator(':scope > summary').click();
-  const itemClose=first.locator(':scope > .discovery-topic-content > .shared-bottom-collapse');
-  await itemClose.waitFor({state:"visible"});
-  if(await topics.count()>1){
-   const second=topics.nth(1);await second.locator(':scope > summary').click();
-   await itemClose.click();
-   assert.equal(await first.getAttribute("open"),null,"Individual topic collapses");
-   assert.notEqual(await second.getAttribute("open"),null,"Unrelated topic expansion preserved");
-  }else{await itemClose.click();assert.equal(await first.getAttribute("open"),null);}
-  await page.locator('#sotwVerseTopicsBody > .discovery-close-topics').click();
+  const footer=page.locator('.shared-context-nav');await footer.waitFor({state:"visible"});
+  assert.equal(await page.locator('#sotwVerseTopicsBody .shared-bottom-collapse').count(),0);
+  const first=topics.first();await first.locator(':scope > summary').click();
+  await footer.getByRole('button',{name:/^Close (?!all topics)/}).waitFor({state:"visible"});
+  await footer.getByRole('button',{name:/^Close (?!all topics)/}).click();
+  assert.equal(await first.getAttribute("open"),null,"Individual topic collapses");
+  await footer.getByRole('button',{name:"Close all topics",exact:true}).click();
   assert.equal(await launch.getAttribute("aria-expanded"),"false");
   assert(await launch.evaluate(el=>document.activeElement===el),"Category close restores heading focus");
+  await footer.waitFor({state:"hidden"});
  }
  try{
   for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){

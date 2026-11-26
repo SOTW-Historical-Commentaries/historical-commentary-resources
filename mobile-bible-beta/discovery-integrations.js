@@ -494,7 +494,7 @@ function renderCollapsibleReferences(parent,section,render){
  details.addEventListener('toggle',()=>{
   if(details.open&&!inner.childElementCount){
    expandList(inner,section.references,render,4);
-   bottomDisclosureClose(details,inner,'Close references ↑');
+   if(!details.closest('#sotwVerseTopicsBody'))bottomDisclosureClose(details,inner,'Close references ↑');
   }
  });
  resetTopicDisclosure(details);
@@ -673,10 +673,61 @@ topicsButton.setAttribute('aria-controls','sotwVerseTopicsBody');
 verseBody.id='sotwVerseTopicsBody';
 modernCommentaryMenu.before(verseDiscovery);
 
+// Reusable disclosure navigation. One non-overlay footer per scroll surface.
+function createContextNavigation({pane,body,categoryHeading,closeCategory,categoryName}){
+ const footer=el('nav','shared-context-nav');footer.hidden=true;
+ footer.setAttribute('aria-label',categoryName+' navigation');pane.after(footer);
+ const crumb=el('div','shared-context-crumb');footer.append(crumb);
+ const actions=el('div','shared-context-actions');footer.append(actions);
+ let active=null,more=null,frame=0,observer=null,heading=null;
+ const back=button(actions,'Back to heading ↑',()=>{if(heading)returnToDisclosureHeading(heading);},'shared-context-action');
+ const fewer=button(actions,'Show fewer ↑',()=>{if(more&&!more.disabled){more.click();schedule();}},'shared-context-action');
+ const close=button(actions,'Close topics ×',()=>{
+  if(active){const item=active,target=item.querySelector(':scope > summary');item.open=false;active=item.parentElement.closest('details[open]');returnToDisclosureHeading(target);schedule();}
+  else closeCategory(true);
+ },'shared-context-action');
+ function valid(node){return node?.isConnected&&body.contains(node)&&node.open&&!node.closest('[hidden]')&&node.getClientRects().length>0;}
+ function visible(node){if(!node)return false;const a=node.getBoundingClientRect(),b=pane.getBoundingClientRect();return a.top>=b.top-1&&a.bottom<=b.bottom+1;}
+ function update(){
+  frame=0;
+  if(body.hidden||!document.body.classList.contains('study-open')||!body.isConnected){footer.hidden=true;observer?.disconnect();heading=null;active=null;return;}
+  const p=pane.getBoundingClientRect(),b=body.getBoundingClientRect(),h=categoryHeading.getBoundingClientRect();
+  if(b.bottom<=p.top||h.top>=p.bottom||pane.clientHeight===0){footer.hidden=true;observer?.disconnect();heading=null;return;}
+  footer.hidden=false;
+  if(!valid(active))active=null;
+  // A single bounded pass over open disclosures, not all topic content.
+  // Prefer the deepest open region crossing the reading anchor.
+  const y=p.top+Math.min(85,p.height*.25);
+  const open=Array.from(body.querySelectorAll('details[open]')).filter(valid);
+  const crossing=open.filter(d=>{const r=d.getBoundingClientRect();return r.top<=y&&r.bottom>y;});
+  if(crossing.length)active=crossing[crossing.length-1];
+  else if(active){const r=active.getBoundingClientRect();if(r.bottom<=p.top||r.top>=p.bottom)active=null;}
+  const next=active?active.querySelector(':scope > summary'):categoryHeading;
+  if(next!==heading){observer?.disconnect();heading=next;if(typeof IntersectionObserver==='function'){observer=new IntersectionObserver(()=>{back.hidden=visible(heading);},{root:pane,threshold:[0,1]});observer.observe(heading);}}
+  back.hidden=visible(heading);
+  const name=active?(heading?.textContent||'section').trim():categoryName;
+  const parent=active?.parentElement.closest('.discovery-verse-topic');
+  const parentName=parent&&parent!==active?parent.querySelector(':scope > summary')?.textContent.trim():null;
+  crumb.textContent=categoryName+(parentName?' › '+parentName:'')+(active?' › '+name:'');
+  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':'Close '+name+' ×'):'Close topics ×';
+  close.setAttribute('aria-label',active?'Close '+name:'Close all topics');
+  const container=active?active.querySelector(':scope > .discovery-topic-content,:scope > .discovery-subtopic-body'):body;
+  more=container?.querySelector(':scope > .discovery-more[aria-expanded="true"]')||null;
+  fewer.hidden=!more;fewer.disabled=!!more?.disabled;
+ }
+ function schedule(){if(!frame)frame=requestAnimationFrame(update);}
+ body.addEventListener('toggle',e=>{if(e.target.matches('details')&&e.target.open)active=e.target;schedule();},true);
+ body.addEventListener('click',e=>{const d=e.target.closest('details');if(d&&d.open)active=d;schedule();});
+ pane.addEventListener('scroll',schedule,{passive:true});
+ new MutationObserver(schedule).observe(body,{childList:true,subtree:true,attributes:true,attributeFilter:['open','hidden','aria-expanded','disabled']});
+ window.addEventListener('resize',schedule,{passive:true});
+ return {refresh:schedule,reset(){active=null;heading=null;observer?.disconnect();footer.hidden=true;schedule();}};
+}
+const topicContext=createContextNavigation({pane:document.getElementById('studyBodyScroll'),body:verseBody,categoryHeading:topicsButton,closeCategory:closeVerseTopics,categoryName:'Topics'});
 let verseSeq=0;
 function closeVerseTopics(restoreFocus=false){
  ++verseSeq; // Invalidate any pending historical shard response.
- verseBody.hidden=true;verseBody.replaceChildren();
+ verseBody.hidden=true;verseBody.replaceChildren();topicContext.reset();
  topicsButton.setAttribute('aria-expanded','false');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Explore topics ›';
  if(restoreFocus){
@@ -687,7 +738,7 @@ async function showVerseTopics(){
  if(!verseBody.hidden){closeVerseTopics();return;}
  const book=state.book,chapter=state.chapter,verse=modernStudyVerse,current=++verseSeq;
  const scope=book+'.'+chapter+'.'+verse;
- verseBody.hidden=false;verseBody.replaceChildren();
+ verseBody.hidden=false;verseBody.replaceChildren();topicContext.refresh();
  topicsButton.setAttribute('aria-expanded','true');
  topicsButton.querySelector('.discovery-launch-meta').textContent='Hide topics ↑';
  note(verseBody,'Loading topic references…');
@@ -699,8 +750,7 @@ async function showVerseTopics(){
  verseBody.replaceChildren();
  if(indexResult.status!=='fulfilled'||reverseResult.status!=='fulfilled'){
   note(verseBody,'Historical topics are temporarily unavailable. The Bible text is unaffected.','discovery-error');
-  const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
-  dismiss.setAttribute('aria-label','Close Related Bible Topics');
+  topicContext.refresh();
   return;
  }
  const ids=verseTopicIds(reverseResult.value,scope);
@@ -730,7 +780,7 @@ async function showVerseTopics(){
     }
     if(!sections.length){group.remove();return;}
     renderSharedSections(content,sections);
-    bottomDisclosureClose(group,content,'Close topic ↑');
+
    }catch{
     if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}
    }
@@ -767,8 +817,7 @@ async function showVerseTopics(){
   }
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
  sourceLink(verseBody);
- const dismiss=button(verseBody,'Close topics ↑',()=>closeVerseTopics(true),'discovery-close-topics');
- dismiss.setAttribute('aria-label','Close Related Bible Topics');
+ topicContext.refresh();
 }
 // Reuse exactly the same published reverse-index pathway when returning to a
 // verse-study topic. No parallel topic cache or invented association.
