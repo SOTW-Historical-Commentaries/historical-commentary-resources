@@ -493,7 +493,7 @@ function renderCollapsibleReferences(parent,section,render){
  const inner=el('div','discovery-subtopic-body');details.append(inner);
  details.addEventListener('toggle',()=>{
   if(details.open&&!inner.childElementCount){
-   expandList(inner,section.references,render,4);
+   expandList(inner,section.references,render,details.closest('#sotwVerseTopicsBody')?section.references.length:4);
    if(!details.closest('#sotwVerseTopicsBody'))bottomDisclosureClose(details,inner,'Close references ↑');
   }
  });
@@ -511,6 +511,7 @@ function renderSharedSection(content,section){
 function renderSharedSections(content,sections){
  const primary=sections;
     function renderSection(section){renderSharedSection(content,section);}
+    if(content.closest('#sotwVerseTopicsBody')){primary.forEach(renderSection);return;}
     primary.slice(0,5).forEach(renderSection);
     if(primary.length>5){
      const rest=primary.length-5;
@@ -679,9 +680,8 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
  footer.setAttribute('aria-label',categoryName+' navigation');pane.after(footer);
  const crumb=el('div','shared-context-crumb');footer.append(crumb);
  const actions=el('div','shared-context-actions');footer.append(actions);
- let active=null,more=null,frame=0,observer=null,heading=null;
+ let active=null,frame=0,observer=null,heading=null;
  const back=button(actions,'Back to heading ↑',()=>{if(heading)returnToDisclosureHeading(heading);},'shared-context-action');
- const fewer=button(actions,'Show fewer ↑',()=>{if(more&&!more.disabled){more.click();schedule();}},'shared-context-action');
  const close=button(actions,'Close topics ×',()=>{
   if(active){const item=active,target=item.querySelector(':scope > summary');item.open=false;active=item.parentElement.closest('details[open]');returnToDisclosureHeading(target);schedule();}
   else closeCategory(true);
@@ -711,9 +711,6 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   crumb.textContent=categoryName+(parentName?' › '+parentName:'')+(active?' › '+name:'');
   close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':'Close '+name+' ×'):'Close topics ×';
   close.setAttribute('aria-label',active?'Close '+name:'Close all topics');
-  const container=active?active.querySelector(':scope > .discovery-topic-content,:scope > .discovery-subtopic-body'):body;
-  more=container?.querySelector(':scope > .discovery-more[aria-expanded="true"]')||null;
-  fewer.hidden=!more;fewer.disabled=!!more?.disabled;
  }
  function schedule(){if(!frame)frame=requestAnimationFrame(update);}
  body.addEventListener('toggle',e=>{if(e.target.matches('details')&&e.target.open)active=e.target;schedule();},true);
@@ -759,62 +756,39 @@ async function showVerseTopics(){
  if(titles.length){
   // Let the reader survey all topics before choosing which one to expand.
   const host=el('div','discovery-topic-groups');verseBody.append(host);
-  async function renderTopic(topic){
-   if(current!==verseSeq||!host.isConnected)return;
-   const index=titles.indexOf(topic);
+  // All verified index headings are available immediately. Fetch source
+  // sections only on opening a topic; Scripture previews remain on demand.
+  titles.forEach((topic,index)=>{
    const group=el('details','discovery-topic-group discovery-verse-topic');
-   group.open=false;group.dataset.topicIndex=String(index);host.append(group);resetTopicDisclosure(group);
+   group.dataset.topicIndex=String(index);host.append(group);resetTopicDisclosure(group);
    const summary=el('summary','discovery-topic-summary');
-   summary.append(el('span','',readerTopicTitle(topic.title)));
-   group.append(summary);
+   summary.append(el('span','',readerTopicTitle(topic.title)));group.append(summary);
    const content=el('div','discovery-topic-content');group.append(content);
-   const loading=note(content,'Loading Scripture references…');
-   try{
-    const results=await Promise.allSettled(topic.members.map(loadTopicSections));
-    if(current!==verseSeq||!group.isConnected)return;
-    loading.remove();
-    const sections=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
-    if(results.some(result=>result.status==='rejected')){
-     note(content,'Some historical source references are unavailable.','discovery-error');
-     if(!sections.length)return;
-    }
-    if(!sections.length){group.remove();return;}
-    renderSharedSections(content,sections);
-
-   }catch{
-    if(group.isConnected){loading.textContent='Topic references are unavailable.';loading.className='discovery-error';}
-   }
-  }
-  await Promise.all(titles.slice(0,6).map(renderTopic));
-  if(current!==verseSeq||!host.isConnected)return;
-  if(titles.length>6){
-   const moreLabel='Show '+(titles.length-6)+' more topics ↓';
-   let pending=null;
-   const more=button(verseBody,moreLabel,()=>setExpanded(more.getAttribute('aria-expanded')!=='true'),'discovery-more discovery-more-topics');
-   more.setAttribute('aria-expanded','false');
-   host.after(more);
-   async function setExpanded(expand){
-    if(pending)await pending;
-    if(current!==verseSeq||!host.isConnected)return;
-    if(expand===(more.getAttribute('aria-expanded')==='true'))return;
-    more.disabled=true;
-    if(expand){
-     more.setAttribute('aria-expanded','true');
-     more.textContent='Show fewer topics ↑';
-     pending=Promise.all(titles.slice(6).map(renderTopic));
-     await pending;pending=null;
-    }else{
-     host.querySelectorAll('[data-topic-index]').forEach(group=>{
-      if(Number(group.dataset.topicIndex)>=6)group.remove();
-     });
-     more.setAttribute('aria-expanded','false');more.textContent=moreLabel;
-     more.scrollIntoView({block:'nearest'});
-    }
-    more.disabled=false;
-   }
-   // Return restoration awaits the actual topic rows, not an arbitrary timer.
-   more.expandTopics=()=>setExpanded(true);
-  }
+   let loaded=false,pending=null;
+   group.loadTopicContent=()=>{
+    if(loaded)return Promise.resolve(true);
+    if(pending)return pending;
+    content.replaceChildren();note(content,'Loading Scripture references…');
+    pending=(async()=>{
+     try{
+      const results=await Promise.allSettled(topic.members.map(loadTopicSections));
+      if(current!==verseSeq||!group.isConnected)return false;
+      content.replaceChildren();
+      const sections=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
+      const failed=results.some(result=>result.status==='rejected');
+      if(failed)note(content,'Some historical source references are unavailable.','discovery-error');
+      if(sections.length)renderSharedSections(content,sections);
+      else if(!failed)note(content,'No displayable Scripture references for this topic.');
+      loaded=!failed;topicContext.refresh();return sections.length>0||!failed;
+     }catch{
+      if(group.isConnected){content.replaceChildren();note(content,'Topic references are unavailable.','discovery-error');}
+      return false;
+     }finally{pending=null;}
+    })();
+    return pending;
+   };
+   group.addEventListener('toggle',()=>{if(group.open)group.loadTopicContent();});
+  });
  }else note(verseBody,'No historical topic entry is indexed for this exact verse.');
  sourceLink(verseBody);
  topicContext.refresh();

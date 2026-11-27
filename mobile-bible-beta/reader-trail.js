@@ -57,7 +57,7 @@ function studyTopicSnapshot(anchor){
  if(body?.hidden||!document.body.classList.contains('study-open')||
   !selected||index<0||!state.index||!state.bible)return null;
  const title=selected.querySelector(':scope > summary span')?.textContent.trim()||'Bible Topic';
- const panel=document.querySelector('section[aria-label="Commentary comparison"]');
+ const panel=document.getElementById('studyBodyScroll')||document.querySelector('section[aria-label="Commentary comparison"]');
  return {kind:'study-topic',label:'Topic · '+title.slice(0,58),
   book:state.book,chapter:state.chapter,verse:Number(modernStudyVerse)||state.verse,
   edition:state.edition,selectedTitle:title,selectedIndex:index,
@@ -144,7 +144,6 @@ async function restore(){
   chooseVerse(snap.verse);betaOpen();
   await root.SOTWDiscoveryCore.openVerseTopics();
   const body=document.getElementById('sotwVerseTopicsBody');
-  if(snap.expandedTopics)await body?.querySelector('.discovery-more-topics')?.expandTopics?.();
   const groups=body?[...body.querySelectorAll('.discovery-verse-topic')]:[];
   if(!groups.length||body.hidden){
    // Keep the return available if the original publisher data cannot reload.
@@ -153,9 +152,13 @@ async function restore(){
   const selected=groups[snap.selectedIndex];
   if(!selected||selected.querySelector(':scope > summary span')?.textContent.trim()!==snap.selectedTitle)
    return false;
-  for(const entry of snap.expandedSections||[]){
-   const button=groups[entry.topic]?.querySelector(':scope > .discovery-topic-content > .discovery-more');
-   if(button?.getAttribute('aria-expanded')==='false')button.click();
+  // The full heading inventory is now stable. Restore only previously open
+  // topics and await their lazy source sections before restoring descendants.
+  const openIndices=new Set([...(snap.openTopics||[]),snap.selectedIndex]);
+  for(const i of openIndices){
+   const g=groups[i];if(!g)return false;
+   g.open=true;
+   if(g.loadTopicContent&&!(await g.loadTopicContent()))return false;
   }
   for(const entry of snap.openSubtopics||[]){
    const section=groups[entry.topic]?.querySelectorAll('.discovery-verse-topic-section')[entry.section];
@@ -166,19 +169,12 @@ async function restore(){
     disclosure.dispatchEvent(new Event('toggle'));
    }
   }
-  for(const entry of snap.expandedReferences||[]){
-   const section=groups[entry.topic]?.querySelectorAll('.discovery-verse-topic-section')[entry.section];
-   const button=section?.querySelector('.discovery-more');
-   if(button?.getAttribute('aria-expanded')==='false')button.click();
-  }
-  groups.forEach((g,i)=>{g.open=snap.openTopics.includes(i);});
-  selected.open=true;
   for(const entry of snap.previews||[]){
    const section=groups[entry.topic]?.querySelectorAll('.discovery-verse-topic-section')[entry.section];
    const trigger=section?.querySelectorAll('.discovery-inline-trigger')[entry.citation];
    if(trigger?.dataset.rawCitation===entry.raw)trigger.click();
   }
-  const panel=document.querySelector('section[aria-label="Commentary comparison"]');
+  const panel=document.getElementById('studyBodyScroll')||document.querySelector('section[aria-label="Commentary comparison"]');
   requestAnimationFrame(()=>{if(panel)panel.scrollTop=snap.scroll;});
   clear();
   return true;
