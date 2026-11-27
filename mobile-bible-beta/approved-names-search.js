@@ -214,17 +214,7 @@ function render(rows){
       }
       body.replaceChildren();
       const add=(from,to)=>{for(const q of matches.slice(from,to))body.append(root.SOTWUniversalSearch.renderPublishedQuestion(q));};
-      add(0,8);
-      if(matches.length>8){
-       const more=el("button","universal-qa-show-more shared-qa-more","Show "+(matches.length-8)+" more questions ↓");more.type="button";
-       more.setAttribute("aria-expanded","false");
-       more.addEventListener("click",()=>{
-        const open=more.getAttribute("aria-expanded")!=="true";
-        if(open){more.remove();add(8,matches.length);body.append(more);}
-        else{Array.from(body.querySelectorAll(":scope > .shared-qa-row")).slice(8).forEach(n=>n.remove());}
-        more.setAttribute("aria-expanded",String(open));more.textContent=open?"Show fewer questions ↑":"Show "+(matches.length-8)+" more questions ↓";
-       });body.append(more);
-      }
+      add(0,matches.length);
       if(!matches.length)body.append(el("p","universal-name-note","No published associated questions available."));
       loaded=true;
      }catch(_){body.replaceChildren(el("p","universal-name-note","Associated questions temporarily unavailable."));}

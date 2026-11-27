@@ -195,27 +195,13 @@ function questionRow(cluster){
    const item=textNode('div','universal-qa-variant','');
    item.append(textNode('p','',variant[1]));questionCitations(item,variant);more.append(item);
   }
-  shared.bottomDisclosureClose(more,more,'Close related questions ↑');
   shared.resetDisclosure(more);content.append(more);
  }
- shared.bottomDisclosureClose(card,content,'Close question ↑');
  card.append(content);shared.resetDisclosure(card);return card;
 }
 function questionList(parent,groups,initial){
  const listings=textNode('div','universal-qa-results','');parent.append(listings);
- groups.forEach((cluster,i)=>{const row=questionRow(cluster);row.hidden=i>=initial;listings.append(row);});
- if(groups.length>initial){
-  const more=textNode('button','universal-qa-show-more shared-qa-more','Show '+(groups.length-initial)+' more questions ↓');
-  more.type='button';more.setAttribute('aria-expanded','false');
-  more.addEventListener('click',()=>{
-   const expand=more.getAttribute('aria-expanded')!=='true';
-   Array.from(listings.children).slice(initial).forEach(row=>{
-    row.hidden=!expand;if(!expand){row.querySelectorAll('.discovery-inline-close').forEach(b=>b.click());row.querySelectorAll('details[open]').forEach(x=>x.open=false);row.open=false;}
-   });
-   more.setAttribute('aria-expanded',String(expand));more.textContent=expand?'Show fewer questions ↑':'Show '+(groups.length-initial)+' more questions ↓';
-  });
-  parent.append(more);
- }
+ groups.forEach(cluster=>listings.append(questionRow(cluster)));
 }
 
 function render(matches){
@@ -313,11 +299,11 @@ async function openVerseQuestions(){
  qaVerseBody.replaceChildren();
  questionList(qaVerseBody,qaAvailable.map(row=>[row]),5);
  shared.sourceLink(qaVerseBody,sourceDisclosure,'About the unfoldingWord source');
- const close=textNode('button','shared-bottom-collapse shared-category-collapse','Close Bible Questions ↑');
- close.type='button';close.addEventListener('click',()=>closeVerseQuestions(true));qaVerseBody.append(close);
+
  qaVerseBody.hidden=false;qaVerseButton.setAttribute("aria-expanded","true");
 }
 qaVerseButton.setAttribute("aria-expanded","false");qaVerseButton.addEventListener("click",openVerseQuestions);
+root.SOTWContextNavigation.create({pane:document.getElementById('studyBodyScroll'),body:qaVerseBody,categoryHeading:qaVerseButton,closeCategory:closeVerseQuestions,categoryName:'Bible Questions',isActive:()=>document.body.classList.contains('study-open')&&root.SOTWContextNavigation.qaOwnsOverview(),rootCloseLabel:'Close questions ×',rootCloseAria:'Close Bible Questions'});
 const priorQAOpen=betaOpen,priorQAClose=betaCloseSheet;
 betaOpen=function(...args){resetVerseQuestions();const result=priorQAOpen(...args);qaPending=checkVerseQuestions();return result};
 betaCloseSheet=function(...args){resetVerseQuestions();return priorQAClose(...args)};

@@ -278,3 +278,8 @@
 .mobile-beta .shared-context-action:focus-visible{outline:2px solid currentColor}
 .mobile-beta.beta-light .shared-context-nav{background:#f7faf7;color:#294b55;border-color:#b4cbcc}
 .mobile-beta:not(.study-open) .shared-context-nav,.mobile-beta:has(#studyOverlay.is-open) .shared-context-nav{display:none!important}
+
+/* Contextual navigation in modal and overlay scrolling surfaces. */
+.mobile-beta #studyOverlay.is-open>.shared-context-nav:not([hidden]){display:block!important}
+.mobile-beta #readerSearchModal .shared-context-nav,.mobile-beta #sotwDiscoveryDetail .shared-context-nav,.mobile-beta #studyOverlay .shared-context-nav{flex-shrink:0;width:100%;}
+.mobile-beta #studyOverlayBody{min-height:0}

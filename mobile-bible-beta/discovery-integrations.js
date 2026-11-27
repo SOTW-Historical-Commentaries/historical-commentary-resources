@@ -352,6 +352,7 @@ function sourceLink(parent,attribution=topicAttribution,label='About the Nave/To
  });
  parent.append(a);
 }
+let detailNavigation=null;
 const detail=modalLayer('sotwDiscoveryDetail','Bible Topic');
 detail.panel.classList.add('discovery-dialog');
 
@@ -359,6 +360,7 @@ function showDetail(heading){
  // A topic opened from search retains a return route to that exact result list.
  const fromSearch=searchModal.veil.classList.contains('is-open');
  const query=searchInput.value,scroll=searchResults.scrollTop;
+ detailNavigation?.destroy();
  detail.panel.querySelectorAll('.discovery-detail-body').forEach(node=>node.remove());
  const body=el('div','discovery-detail-body');
  body.append(el('h3','discovery-heading',heading));
@@ -375,6 +377,7 @@ function showDetail(heading){
  detail.panel.append(body);
  searchModal.veil.classList.remove('is-open');
  detail.veil.classList.add('is-open');detail.panel.scrollTop=0;
+ detailNavigation=createContextNavigation({pane:body,body,categoryHeading:body.querySelector('.discovery-heading'),closeCategory:()=>{const back=body.querySelector('.discovery-back-search');if(back)back.click();else detail.panel.querySelector('.modal-close')?.click();},categoryName:heading,isActive:()=>detail.veil.classList.contains('is-open'),visibilityRoot:detail.veil,rootCloseLabel:fromSearch?'Back to search':'Close topic ×',rootCloseAria:fromSearch?'Back to search results':'Close topic'});
  return body;
 }
 // Shared topic citation renderer: display mapped verses only; no inferred range.
@@ -493,8 +496,7 @@ function renderCollapsibleReferences(parent,section,render){
  const inner=el('div','discovery-subtopic-body');details.append(inner);
  details.addEventListener('toggle',()=>{
   if(details.open&&!inner.childElementCount){
-   expandList(inner,section.references,render,details.closest('#sotwVerseTopicsBody')?section.references.length:4);
-   if(!details.closest('#sotwVerseTopicsBody'))bottomDisclosureClose(details,inner,'Close references ↑');
+   expandList(inner,section.references,render,section.references.length);
   }
  });
  resetTopicDisclosure(details);
@@ -511,31 +513,9 @@ function renderSharedSection(content,section){
 function renderSharedSections(content,sections){
  const primary=sections;
     function renderSection(section){renderSharedSection(content,section);}
-    if(content.closest('#sotwVerseTopicsBody')){primary.forEach(renderSection);return;}
-    primary.slice(0,5).forEach(renderSection);
-    if(primary.length>5){
-     const rest=primary.length-5;
-     const more=button(content,'Show '+rest+' more '+(rest===1?'section':'sections'),
-      ()=>{const expanded=more.getAttribute('aria-expanded')==='true';
-       if(expanded){
-        for(const section of Array.from(content.querySelectorAll(':scope > .discovery-verse-topic-section')).slice(5))
-         section.remove();
-        more.textContent='Show '+rest+' more '+(rest===1?'section':'sections');
-        more.setAttribute('aria-expanded','false');
-        more.classList.remove('discovery-show-fewer');
-       }else{
-        primary.slice(5).forEach(renderSection);
-        more.textContent='↑ Show fewer sections';more.setAttribute('aria-expanded','true');
-        more.classList.add('discovery-show-fewer');
-        // Put the collapse control before the extra sections, not after a long list.
-        const extra=content.querySelectorAll(':scope > .discovery-verse-topic-section')[5];
-        if(extra)content.insertBefore(more,extra);
-       }
-      },'discovery-more');
-     more.setAttribute('aria-expanded','false');
-    }
-
+    primary.forEach(renderSection);
 }
+
 function expandList(parent,rows,render,visibleCount=4){
  const list=el('div','discovery-passage-list');parent.append(list);
  rows.slice(0,visibleCount).forEach(x=>render(list,x));
@@ -675,24 +655,25 @@ verseBody.id='sotwVerseTopicsBody';
 modernCommentaryMenu.before(verseDiscovery);
 
 // Reusable disclosure navigation. One non-overlay footer per scroll surface.
-function createContextNavigation({pane,body,categoryHeading,closeCategory,categoryName}){
+function createContextNavigation({pane,body,categoryHeading,closeCategory,categoryName,isActive=()=>document.body.classList.contains('study-open'),visibilityRoot=null,rootCloseLabel='Close topics ×',rootCloseAria='Close all topics',nameFor=null,showWhenFits=true}){
  const footer=el('nav','shared-context-nav');footer.hidden=true;
- footer.setAttribute('aria-label',categoryName+' navigation');pane.after(footer);
+ footer.setAttribute('aria-label',(typeof categoryName==='function'?'Study':categoryName)+' navigation');pane.after(footer);
  const crumb=el('div','shared-context-crumb');footer.append(crumb);
  const actions=el('div','shared-context-actions');footer.append(actions);
  let active=null,frame=0,observer=null,heading=null;
- const back=button(actions,'Back to heading ↑',()=>{if(heading)returnToDisclosureHeading(heading);},'shared-context-action');
- const close=button(actions,'Close topics ×',()=>{
+ const back=button(actions,'Back to heading ↑',()=>{if(heading===categoryHeading&&!pane.contains(heading)){pane.scrollTop=0;}else if(heading)returnToDisclosureHeading(heading);},'shared-context-action');
+ const close=button(actions,rootCloseLabel,()=>{
   if(active){const item=active,target=item.querySelector(':scope > summary');item.open=false;active=item.parentElement.closest('details[open]');returnToDisclosureHeading(target);schedule();}
   else closeCategory(true);
  },'shared-context-action');
  function valid(node){return node?.isConnected&&body.contains(node)&&node.open&&!node.closest('[hidden]')&&node.getClientRects().length>0;}
- function visible(node){if(!node)return false;const a=node.getBoundingClientRect(),b=pane.getBoundingClientRect();return a.top>=b.top-1&&a.bottom<=b.bottom+1;}
+ function visible(node){if(!node)return false;if(!pane.contains(node))return node.getClientRects().length>0;const a=node.getBoundingClientRect(),b=pane.getBoundingClientRect();return a.top>=b.top-1&&a.bottom<=b.bottom+1;}
  function update(){
   frame=0;
-  if(body.hidden||!document.body.classList.contains('study-open')||!body.isConnected){footer.hidden=true;observer?.disconnect();heading=null;active=null;return;}
+  if(body.hidden||!isActive()||!body.isConnected){footer.hidden=true;observer?.disconnect();heading=null;active=null;return;}
   const p=pane.getBoundingClientRect(),b=body.getBoundingClientRect(),h=categoryHeading.getBoundingClientRect();
-  if(b.bottom<=p.top||h.top>=p.bottom||pane.clientHeight===0){footer.hidden=true;observer?.disconnect();heading=null;return;}
+  if((body!==pane&&(b.bottom<=p.top||h.top>=p.bottom))||pane.clientHeight===0){footer.hidden=true;observer?.disconnect();heading=null;return;}
+  if(!showWhenFits&&footer.hidden&&pane.scrollHeight<=pane.clientHeight+2&&!body.querySelector('details[open]'))return;
   footer.hidden=false;
   if(!valid(active))active=null;
   // A single bounded pass over open disclosures, not all topic content.
@@ -703,24 +684,42 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   if(crossing.length)active=crossing[crossing.length-1];
   else if(active){const r=active.getBoundingClientRect();if(r.bottom<=p.top||r.top>=p.bottom)active=null;}
   const next=active?active.querySelector(':scope > summary'):categoryHeading;
-  if(next!==heading){observer?.disconnect();heading=next;if(typeof IntersectionObserver==='function'){observer=new IntersectionObserver(()=>{back.hidden=visible(heading);},{root:pane,threshold:[0,1]});observer.observe(heading);}}
-  back.hidden=visible(heading);
-  const name=active?(heading?.textContent||'section').trim():categoryName;
+  if(next!==heading){observer?.disconnect();heading=next;if(typeof IntersectionObserver==='function'&&pane.contains(heading)){observer=new IntersectionObserver(()=>{back.hidden=visible(heading);},{root:pane,threshold:[0,1]});observer.observe(heading);}}
+  back.hidden=heading===categoryHeading&&!pane.contains(heading)?pane.scrollTop<=2:visible(heading);
+  const category=typeof categoryName==='function'?categoryName():categoryName;
+  const name=active?(heading?.textContent||'section').trim():category;
   const parent=active?.parentElement.closest('.discovery-verse-topic');
   const parentName=parent&&parent!==active?parent.querySelector(':scope > summary')?.textContent.trim():null;
-  crumb.textContent=categoryName+(parentName?' › '+parentName:'')+(active?' › '+name:'');
-  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':'Close '+name+' ×'):'Close topics ×';
-  close.setAttribute('aria-label',active?'Close '+name:'Close all topics');
+  const parents=[];for(let d=active?.parentElement.closest('details[open]');d&&body.contains(d);d=d.parentElement.closest('details[open]')){const title=d.querySelector(':scope > summary')?.textContent.trim();if(title)parents.unshift(title);}
+  crumb.textContent=[category,...parents,...(active?[name]:[])].join(' › ');
+  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':'Close '+name+' ×'):rootCloseLabel;
+  close.setAttribute('aria-label',active?'Close '+name:rootCloseAria);
  }
  function schedule(){if(!frame)frame=requestAnimationFrame(update);}
  body.addEventListener('toggle',e=>{if(e.target.matches('details')&&e.target.open)active=e.target;schedule();},true);
  body.addEventListener('click',e=>{const d=e.target.closest('details');if(d&&d.open)active=d;schedule();});
  pane.addEventListener('scroll',schedule,{passive:true});
- new MutationObserver(schedule).observe(body,{childList:true,subtree:true,attributes:true,attributeFilter:['open','hidden','aria-expanded','disabled']});
- window.addEventListener('resize',schedule,{passive:true});
- return {refresh:schedule,reset(){active=null;heading=null;observer?.disconnect();footer.hidden=true;schedule();}};
+ const changes=new MutationObserver(schedule);changes.observe(body,{childList:true,subtree:true,attributes:true,attributeFilter:['open','hidden','aria-expanded','disabled']});
+ const visibility=visibilityRoot?new MutationObserver(schedule):null;visibility?.observe(visibilityRoot,{attributes:true,attributeFilter:['class','hidden']});
+ window.addEventListener('resize',schedule,{passive:true});schedule();
+ return {refresh:schedule,reset(){active=null;heading=null;observer?.disconnect();footer.hidden=true;schedule();},destroy(){changes.disconnect();visibility?.disconnect();observer?.disconnect();cancelAnimationFrame(frame);pane.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);footer.remove();}};
 }
-const topicContext=createContextNavigation({pane:document.getElementById('studyBodyScroll'),body:verseBody,categoryHeading:topicsButton,closeCategory:closeVerseTopics,categoryName:'Topics'});
+// One active footer in the overview. Q&A takes over only when its body
+// intersects the reading anchor; otherwise the accepted Topics footer owns it.
+const overviewPane=document.getElementById('studyBodyScroll');
+function qaOwnsOverview(){
+ const q=document.querySelector('#sotwVerseQuestions .discovery-verse-body');
+ if(!q||q.hidden||q.closest('[hidden]'))return false;
+ const p=overviewPane.getBoundingClientRect(),r=q.getBoundingClientRect();
+ if(r.bottom<=p.top||r.top>=p.bottom)return false;
+ const t=verseBody.getBoundingClientRect();
+ return verseBody.hidden||t.bottom<=p.top||t.top>=p.bottom||r.top<=p.top+Math.min(85,p.height*.25);
+}
+const topicContext=createContextNavigation({pane:overviewPane,body:verseBody,categoryHeading:topicsButton,closeCategory:closeVerseTopics,categoryName:'Topics',isActive:()=>document.body.classList.contains('study-open')&&!qaOwnsOverview()});
+root.SOTWContextNavigation={create:createContextNavigation,qaOwnsOverview};
+const searchContext=createContextNavigation({pane:searchResults,body:searchResults,categoryHeading:searchInput,closeCategory:()=>searchModal.panel.querySelector('.modal-close')?.click(),categoryName:'Search results',isActive:()=>searchModal.veil.classList.contains('is-open')&&!!searchInput.value.trim()&&searchResults.childElementCount>0,visibilityRoot:searchModal.veil,rootCloseLabel:'Close search ×',rootCloseAria:'Close search',showWhenFits:false});
+const overlayPane=document.getElementById('studyOverlayBody'),overlayRoot=document.getElementById('studyOverlay');
+const overlayContext=createContextNavigation({pane:overlayPane,body:overlayPane,categoryHeading:document.getElementById('studyOverlayTitle'),closeCategory:()=>document.getElementById('studyOverlayBack')?.click(),categoryName:()=>document.getElementById('studyOverlayTitle').textContent||'Study',isActive:()=>overlayRoot.classList.contains('is-open'),visibilityRoot:overlayRoot,rootCloseLabel:'Back to tools',rootCloseAria:'Back to previous study view',showWhenFits:false});
 let verseSeq=0;
 function closeVerseTopics(restoreFocus=false){
  ++verseSeq; // Invalidate any pending historical shard response.
