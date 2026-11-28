@@ -4,6 +4,17 @@ const assert=require("node:assert/strict");
 const {chromium}=require("playwright-core");
 (async()=>{
  const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH||"/usr/bin/google-chrome",args:["--no-sandbox","--disable-dev-shm-usage"]});
+ async function checkSearchFooter(page){
+  // Exercise the standalone search state without opening verse tools.
+  await page.evaluate(()=>{betaCloseSheet();searchModal.veil.classList.add('is-open');searchInput.value='navigation test';searchResults.replaceChildren();const d=document.createElement('details');d.open=true;const h=document.createElement('summary');h.textContent='Test search section';d.append(h);const content=document.createElement('div');content.textContent='Test search navigation';content.style.height='1200px';d.append(content);searchResults.append(d);});
+  const footer=page.locator('#readerSearchModal .shared-context-nav');
+  await footer.waitFor({state:'visible'});
+  assert(!await page.locator('body').evaluate(e=>e.classList.contains('study-open')));
+  await footer.getByRole('button',{name:'Close Test search section',exact:true}).click();
+  assert.equal(await page.locator('#modernSearchResults details').getAttribute('open'),null);
+  await page.evaluate(()=>{searchModal.veil.classList.remove('is-open');searchResults.replaceChildren();searchInput.value='';});
+  await footer.waitFor({state:'hidden'});
+ }
  async function checkBottomCollapse(page){
   const launch=page.locator('#studyBodyScroll .discovery-launch').filter({hasText:"Related Bible Topics"});
   await launch.click();
@@ -33,6 +44,7 @@ const {chromium}=require("playwright-core");
     await page.goto("http://127.0.0.1:8765/"+brand+"/?book=GEN&chapter=3&verse=19&translation=BSB",{waitUntil:"domcontentloaded"});
     const v=page.locator('#verses .reader-verse[data-verse="19"]');
     await v.waitFor({state:"visible"});
+    await checkSearchFooter(page);
     await page.locator("#desktop-book").waitFor({state:"visible"});
     assert.equal(await page.locator("#desktop-book").inputValue(),"GEN");
     assert.equal(await page.locator("#desktop-chapter").inputValue(),"3");
@@ -97,7 +109,7 @@ const {chromium}=require("playwright-core");
    const mobile=await browser.newContext({viewport:{width:390,height:844},hasTouch:true,isMobile:true,serviceWorkers:"block"});
    const page=await mobile.newPage();page.setDefaultTimeout(50000);
    await page.goto("http://127.0.0.1:8765/"+brand+"/?book=GEN&chapter=3&verse=19&translation=BSB",{waitUntil:"domcontentloaded"});
-   const v=page.locator('#verses .reader-verse[data-verse="19"]');await v.waitFor({state:"visible"});await v.click();
+   const v=page.locator('#verses .reader-verse[data-verse="19"]');await v.waitFor({state:"visible"});await checkSearchFooter(page);await v.click();
    const m=await page.evaluate(()=>{
     const e=document.querySelector('section[aria-label="Commentary comparison"]'),r=e.getBoundingClientRect();
     return {position:getComputedStyle(e).position,x:r.x,y:r.y,w:r.width,h:r.height,viewport:innerWidth,open:document.body.classList.contains("study-open")};

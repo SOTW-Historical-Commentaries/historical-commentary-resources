@@ -657,6 +657,7 @@ modernCommentaryMenu.before(verseDiscovery);
 // Reusable disclosure navigation. One non-overlay footer per scroll surface.
 function createContextNavigation({pane,body,categoryHeading,closeCategory,categoryName,isActive=()=>document.body.classList.contains('study-open'),visibilityRoot=null,rootCloseLabel='Close topics ×',rootCloseAria='Close all topics',nameFor=null,showWhenFits=true}){
  const footer=el('nav','shared-context-nav');footer.hidden=true;
+ footer.dataset.contextSurface=pane.id==='studyBodyScroll'?'overview':pane.id==='modernSearchResults'?'search':pane.id==='studyOverlayBody'?'overlay':'topic-detail';
  footer.setAttribute('aria-label',(typeof categoryName==='function'?'Study':categoryName)+' navigation');pane.after(footer);
  const crumb=el('div','shared-context-crumb');footer.append(crumb);
  const actions=el('div','shared-context-actions');footer.append(actions);
@@ -666,7 +667,7 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   if(active){const item=active,target=item.querySelector(':scope > summary');item.open=false;active=item.parentElement.closest('details[open]');returnToDisclosureHeading(target);schedule();}
   else closeCategory(true);
  },'shared-context-action');
- function valid(node){return node?.isConnected&&body.contains(node)&&node.open&&!node.closest('[hidden]')&&node.getClientRects().length>0;}
+ function valid(node){return node?.isConnected&&body.contains(node)&&node.open&&!node.closest('[hidden]')&&node.getClientRects().length>0&&!node.parentElement.closest('details:not([open])');}
  function visible(node){if(!node)return false;if(!pane.contains(node))return node.getClientRects().length>0;const a=node.getBoundingClientRect(),b=pane.getBoundingClientRect();return a.top>=b.top-1&&a.bottom<=b.bottom+1;}
  function update(){
   frame=0;
@@ -682,6 +683,7 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   const open=Array.from(body.querySelectorAll('details[open]')).filter(valid);
   const crossing=open.filter(d=>{const r=d.getBoundingClientRect();return r.top<=y&&r.bottom>y;});
   if(crossing.length)active=crossing[crossing.length-1];
+  else if(body===pane&&!active){const inView=open.filter(d=>{const r=d.getBoundingClientRect();return r.bottom>p.top&&r.top<p.bottom;});if(inView.length)active=inView[0];}
   else if(active){const r=active.getBoundingClientRect();if(r.bottom<=p.top||r.top>=p.bottom)active=null;}
   const next=active?active.querySelector(':scope > summary'):categoryHeading;
   if(next!==heading){observer?.disconnect();heading=next;if(typeof IntersectionObserver==='function'&&pane.contains(heading)){observer=new IntersectionObserver(()=>{back.hidden=visible(heading);},{root:pane,threshold:[0,1]});observer.observe(heading);}}
@@ -692,7 +694,7 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   const parentName=parent&&parent!==active?parent.querySelector(':scope > summary')?.textContent.trim():null;
   const parents=[];for(let d=active?.parentElement.closest('details[open]');d&&body.contains(d);d=d.parentElement.closest('details[open]')){const title=d.querySelector(':scope > summary')?.textContent.trim();if(title)parents.unshift(title);}
   crumb.textContent=[category,...parents,...(active?[name]:[])].join(' › ');
-  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':'Close '+name+' ×'):rootCloseLabel;
+  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':name.length>32?'Close section ×':'Close '+name+' ×'):rootCloseLabel;
   close.setAttribute('aria-label',active?'Close '+name:rootCloseAria);
  }
  function schedule(){if(!frame)frame=requestAnimationFrame(update);}
@@ -717,7 +719,7 @@ function qaOwnsOverview(){
 }
 const topicContext=createContextNavigation({pane:overviewPane,body:verseBody,categoryHeading:topicsButton,closeCategory:closeVerseTopics,categoryName:'Topics',isActive:()=>document.body.classList.contains('study-open')&&!qaOwnsOverview()});
 root.SOTWContextNavigation={create:createContextNavigation,qaOwnsOverview};
-const searchContext=createContextNavigation({pane:searchResults,body:searchResults,categoryHeading:searchInput,closeCategory:()=>searchModal.panel.querySelector('.modal-close')?.click(),categoryName:'Search results',isActive:()=>searchModal.veil.classList.contains('is-open')&&!!searchInput.value.trim()&&searchResults.childElementCount>0,visibilityRoot:searchModal.veil,rootCloseLabel:'Close search ×',rootCloseAria:'Close search',showWhenFits:false});
+const searchContext=createContextNavigation({pane:searchResults,body:searchResults,categoryHeading:searchInput,closeCategory:()=>searchModal.panel.querySelector('.modal-close')?.click(),categoryName:'Search results',isActive:()=>searchModal.veil.classList.contains('is-open')&&!!searchInput.value.trim()&&searchResults.childElementCount>0,visibilityRoot:searchModal.veil,rootCloseLabel:'Close search ×',rootCloseAria:'Close search',showWhenFits:true});
 const overlayPane=document.getElementById('studyOverlayBody'),overlayRoot=document.getElementById('studyOverlay');
 const overlayContext=createContextNavigation({pane:overlayPane,body:overlayPane,categoryHeading:document.getElementById('studyOverlayTitle'),closeCategory:()=>document.getElementById('studyOverlayBack')?.click(),categoryName:()=>document.getElementById('studyOverlayTitle').textContent||'Study',isActive:()=>overlayRoot.classList.contains('is-open'),visibilityRoot:overlayRoot,rootCloseLabel:'Back to tools',rootCloseAria:'Back to previous study view',showWhenFits:false});
 let verseSeq=0;

@@ -277,9 +277,26 @@
 .mobile-beta .shared-context-action{min-height:44px;max-width:100%;padding:7px 9px;border:0;background:transparent;color:inherit;font:650 13px/1.3 system-ui;cursor:pointer;overflow-wrap:anywhere;text-align:right}
 .mobile-beta .shared-context-action:focus-visible{outline:2px solid currentColor}
 .mobile-beta.beta-light .shared-context-nav{background:#f7faf7;color:#294b55;border-color:#b4cbcc}
-.mobile-beta:not(.study-open) .shared-context-nav,.mobile-beta:has(#studyOverlay.is-open) .shared-context-nav{display:none!important}
+.mobile-beta:not(.study-open) .shared-context-nav[data-context-surface='overview'],.mobile-beta:has(#studyOverlay.is-open) .shared-context-nav[data-context-surface='overview']{display:none!important}
 
 /* Contextual navigation in modal and overlay scrolling surfaces. */
 .mobile-beta #studyOverlay.is-open>.shared-context-nav:not([hidden]){display:block!important}
 .mobile-beta #readerSearchModal .shared-context-nav,.mobile-beta #sotwDiscoveryDetail .shared-context-nav,.mobile-beta #studyOverlay .shared-context-nav{flex-shrink:0;width:100%;}
 .mobile-beta #studyOverlayBody{min-height:0}
+
+/* Search uses the accepted flat study hierarchy, independently of study-open. */
+.mobile-beta #readerSearchModal #modernSearchResults{gap:0}
+.mobile-beta #readerSearchModal .sotw-search-expandable,.mobile-beta #readerSearchModal .jacob-search-results,.mobile-beta #readerSearchModal .jacob-search-book,.mobile-beta #readerSearchModal .universal-name-card,.mobile-beta #readerSearchModal .sotw-passage-evidence{border:0!important;border-bottom:1px solid #4b6670!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;padding:0!important;margin:3px 0 9px}
+.mobile-beta #readerSearchModal .sotw-search-expandable>summary,.mobile-beta #readerSearchModal .jacob-search-results>summary,.mobile-beta #readerSearchModal .jacob-search-book>summary,.mobile-beta #readerSearchModal .universal-name-card>summary,.mobile-beta #readerSearchModal .shared-qa-row>summary{display:flex!important;align-items:center;justify-content:space-between;gap:8px;list-style:none;min-height:44px;border:0!important;border-left:3px solid #80c7d6!important;border-radius:0!important;background:transparent!important;padding:7px 3px 7px 8px!important;margin:2px 0 3px!important;color:#f1f9fb;font:750 19px/1.3 system-ui!important;text-transform:none;letter-spacing:-.015em}
+.mobile-beta #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.shared-qa-row)>summary::-webkit-details-marker{display:none}
+.mobile-beta #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.shared-qa-row)>summary::after{content:'⌄'!important;flex:none;color:#a5cbd6;font:700 21px/1 system-ui}
+.mobile-beta #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.shared-qa-row)[open]>summary::after{content:'⌃'!important}
+.mobile-beta #readerSearchModal :is(.discovery-hit,.jacob-search-hit,.sotw-search-scripture){min-height:44px;border:0!important;border-bottom:1px solid #405c67!important;border-radius:0!important;background:transparent!important;padding:8px 5px!important;font:400 16px/1.4 system-ui!important;box-shadow:none!important}
+.mobile-beta #readerSearchModal :is(.shared-qa-content,.jacob-search-list,.universal-name-detail){padding-left:8px}
+.mobile-beta #readerSearchModal .universal-qa-results{gap:0}
+.mobile-beta #readerSearchModal .discovery-inline-trigger{font:400 16px/1.4 system-ui;min-height:44px;padding:8px 5px}
+.mobile-beta #sotwDiscoveryDetail .discovery-inline-trigger{border-color:#405c67}
+.mobile-beta.beta-light #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.shared-qa-row)>summary{color:#213f49;border-left-color:#347b90!important}
+.mobile-beta.beta-light #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.shared-qa-row)>summary::after{color:#497782}
+.mobile-beta.beta-light #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.sotw-passage-evidence,.discovery-hit,.jacob-search-hit,.sotw-search-scripture){border-bottom-color:#c9dbdf!important}
+.mobile-beta.beta-light #sotwDiscoveryDetail .discovery-inline-trigger{border-color:#c9dbdf}
