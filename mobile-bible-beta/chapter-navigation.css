@@ -1,0 +1,7 @@
+.mobile-beta #verses .chapter-boundary{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 0 12px;margin:0 0 12px;border-bottom:1px solid #425963}
+.mobile-beta #verses .chapter-boundary-end{border-bottom:0;border-top:1px solid #425963;padding:12px 0 24px;margin:12px 0 0}
+.mobile-beta #verses .chapter-boundary button{min-height:44px;max-width:49%;border:0;background:transparent;color:#b8d5df;font:650 14px/1.4 system-ui;text-align:left;cursor:pointer;padding:6px 2px}
+.mobile-beta #verses .chapter-boundary .chapter-next{margin-left:auto;text-align:right}
+.mobile-beta #verses .chapter-boundary button:disabled{opacity:.5}
+.mobile-beta.beta-light #verses .chapter-boundary{border-color:#bdcdd0}
+.mobile-beta.beta-light #verses .chapter-boundary button{color:#315b69}

@@ -24,6 +24,18 @@ const {chromium}=require("playwright-core");
   assert(await launch.evaluate(el=>document.activeElement===el),"Category close restores heading focus");
   await footer.waitFor({state:"hidden"});
  }
+ async function checkChapterNavigation(page){
+  const end=page.locator('.chapter-boundary-end .chapter-next');
+  await end.waitFor({state:'visible'});
+  await end.click();
+  await page.waitForFunction(()=>state.book==='GEN'&&state.chapter===4&&state.bible?.chapter===4);
+  assert.equal(await page.evaluate(()=>state.edition),'BSB');
+  assert(!await page.locator('body').evaluate(e=>e.classList.contains('study-open')));
+  await page.locator('.chapter-boundary-start .chapter-previous').click();
+  await page.waitForFunction(()=>state.book==='GEN'&&state.chapter===3&&state.bible?.chapter===3);
+  assert.equal(await page.evaluate(()=>state.verse),1);
+  assert(!await page.locator('body').evaluate(e=>e.classList.contains('study-open')));
+ }
  try{
   for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
    for(const width of [1280,1512]){
@@ -33,6 +45,7 @@ const {chromium}=require("playwright-core");
     await page.goto("http://127.0.0.1:8765/"+brand+"/?book=GEN&chapter=3&verse=19&translation=BSB",{waitUntil:"domcontentloaded"});
     const v=page.locator('#verses .reader-verse[data-verse="19"]');
     await v.waitFor({state:"visible"});
+    await checkChapterNavigation(page);
     await page.locator("#desktop-book").waitFor({state:"visible"});
     assert.equal(await page.locator("#desktop-book").inputValue(),"GEN");
     assert.equal(await page.locator("#desktop-chapter").inputValue(),"3");
@@ -97,7 +110,7 @@ const {chromium}=require("playwright-core");
    const mobile=await browser.newContext({viewport:{width:390,height:844},hasTouch:true,isMobile:true,serviceWorkers:"block"});
    const page=await mobile.newPage();page.setDefaultTimeout(50000);
    await page.goto("http://127.0.0.1:8765/"+brand+"/?book=GEN&chapter=3&verse=19&translation=BSB",{waitUntil:"domcontentloaded"});
-   const v=page.locator('#verses .reader-verse[data-verse="19"]');await v.waitFor({state:"visible"});await v.click();
+   const v=page.locator('#verses .reader-verse[data-verse="19"]');await v.waitFor({state:"visible"});await checkChapterNavigation(page);await v.click();
    const m=await page.evaluate(()=>{
     const e=document.querySelector('section[aria-label="Commentary comparison"]'),r=e.getBoundingClientRect();
     return {position:getComputedStyle(e).position,x:r.x,y:r.y,w:r.width,h:r.height,viewport:innerWidth,open:document.body.classList.contains("study-open")};
