@@ -142,7 +142,7 @@ function makeExpandable(section,type,query){
  const heading=section.querySelector(":scope > h4");
  if(!heading)return;
  const details=document.createElement("details");
- details.className="sotw-search-expandable";
+ details.className="sotw-search-expandable";details.dataset.searchResource=type;
  // Keep existing Q&A and topic navigation visible until the reader folds it.
  // Incidental current-chapter hits begin folded and always rank last.
  details.open=type!=="scripture"; // fuzzy yet approved profiles stay visible too

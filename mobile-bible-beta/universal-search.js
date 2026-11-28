@@ -19,12 +19,13 @@ for(const [term,related] of Object.entries(ALIASES)){
 }
 function normalize(value){return String(value||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9]+/g," ").trim()}
 function words(value){return [...new Set(normalize(value).split(" ").filter(t=>t.length>1&&!STOP.has(t)))]}
-function near(a,b){if(a===b)return true;if(Math.abs(a.length-b.length)>1||a.length<4||b.length<4)return false;let i=0,j=0,m=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue}if(++m>1)return false;if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++}}return m+(a.length-i)+(b.length-j)<=1}
+function adjacentSwap(a,b){if(a.length!==b.length||a.length<4)return false;let i=0;while(i<a.length&&a[i]===b[i])i++;return i+1<a.length&&a[i]===b[i+1]&&a[i+1]===b[i]&&a.slice(i+2)===b.slice(i+2);}
+function near(a,b){if(adjacentSwap(a,b))return true;if(a===b)return true;if(Math.abs(a.length-b.length)>1||a.length<4||b.length<4)return false;let i=0,j=0,m=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue}if(++m>1)return false;if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++}}return m+(a.length-i)+(b.length-j)<=1}
 function tokenMatch(term,set){
  if(set.has(term))return 1;
  for(const alias of EXPANDED_ALIASES.get(term)||[])if(set.has(alias))return .75;
  if(term.length>=4)for(const w of set)if(w.startsWith(term)&&w.length-term.length<=3)return .55;
- if(term.length>=5)for(const w of set)if(near(term,w))return .4;
+ if(term.length>=4)for(const w of set)if(adjacentSwap(term,w)||(term.length>=5&&near(term,w)))return .4;
  return 0;
 }
 function score(row,queryTerms,phrase){

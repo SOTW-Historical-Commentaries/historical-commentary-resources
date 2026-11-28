@@ -300,3 +300,14 @@
 .mobile-beta.beta-light #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.shared-qa-row)>summary::after{color:#497782}
 .mobile-beta.beta-light #readerSearchModal :is(.sotw-search-expandable,.jacob-search-results,.jacob-search-book,.universal-name-card,.sotw-passage-evidence,.discovery-hit,.jacob-search-hit,.sotw-search-scripture){border-bottom-color:#c9dbdf!important}
 .mobile-beta.beta-light #sotwDiscoveryDetail .discovery-inline-trigger{border-color:#c9dbdf}
+
+/* Fixed Search workspace; source arrivals only change the scrollable content. */
+.mobile-beta #readerSearchModal .modal-content,.mobile-beta #sotwDiscoveryDetail .modal-content{box-sizing:border-box!important;width:min(590px,calc(100vw - 24px))!important;height:min(760px,calc(100% - 24px))!important;max-height:none!important;flex:0 0 auto;min-height:0!important;overflow:hidden!important}
+.mobile-beta #readerSearchModal #modernSearchResults{flex:1 1 0!important;min-height:0!important;align-content:start;overflow-y:auto}
+.mobile-beta #readerSearchModal .shared-context-nav:not([hidden]),.mobile-beta #sotwDiscoveryDetail .shared-context-nav:not([hidden]){flex:0 0 auto;margin-top:auto;box-sizing:border-box}
+.mobile-beta #readerSearchModal .discovery-search-loading{margin:0;font-size:12px;min-height:0}
+.mobile-beta #readerSearchModal .discovery-hit{display:flex!important;align-items:center;justify-content:space-between;gap:8px;min-height:44px;font:750 19px/1.3 system-ui!important;letter-spacing:-.015em;border-left:3px solid #80c7d6!important;padding:7px 3px 7px 8px!important;margin:2px 0 3px!important;color:#f1f9fb}
+.mobile-beta #readerSearchModal .discovery-hit::after{content:'›';flex:none;color:#a5cbd6;font:700 21px/1 system-ui}
+.mobile-beta.beta-light #readerSearchModal .discovery-hit{color:#213f49;border-left-color:#347b90!important}
+.mobile-beta.beta-light #readerSearchModal .discovery-hit::after{color:#497782}
+@media(max-width:749px){.mobile-beta #readerSearchModal .modal-content,.mobile-beta #sotwDiscoveryDetail .modal-content{width:calc(100vw - 12px)!important;height:calc(100% - 12px)!important;border-radius:12px}}

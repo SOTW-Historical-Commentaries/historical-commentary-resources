@@ -9,7 +9,9 @@ const ELIGIBILITY_BLOB="0dc471653bc005fd4713f5b7c586f0195e672c08";
 const RELATION_BLOB="83bee8b4cdc5af57e10c23403a48ed965786cbdb";
 const ORIGIN="https://raw.githubusercontent.com/Stewards-of-the-Way/bible-foundation/"+COMMIT+"/data/unfoldingword/v91/names/";
 function normalize(v){return String(v||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}
+function adjacentSwap(a,b){if(a.length!==b.length||a.length<4)return false;let i=0;while(i<a.length&&a[i]===b[i])i++;return i+1<a.length&&a[i]===b[i+1]&&a[i+1]===b[i]&&a.slice(i+2)===b.slice(i+2);}
 function oneEdit(a,b){
+ if(adjacentSwap(a,b))return true;
  if(a===b)return true;
  if(Math.abs(a.length-b.length)>1)return false;
  let i=0,j=0,errors=0;

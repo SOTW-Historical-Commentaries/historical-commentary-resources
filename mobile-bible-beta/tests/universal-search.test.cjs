@@ -31,6 +31,9 @@ assert.equal(rows.length,12139);assert.equal(rows.length,manifest.indexedRecords
 const context={};context.globalThis=context;vm.createContext(context);
 vm.runInContext(fs.readFileSync(path.join(root,"universal-search.js"),"utf8"),context,{filename:"universal-search.js"});
 const core=context.SOTWUniversalSearchCore;
+assert.equal(core.tokenMatch('pual',new Set(['paul'])),.4);
+assert.equal(core.tokenMatch('paul',new Set(['paul'])),1);
+assert.equal(core.tokenMatch('pual',new Set(['pall'])),0);
 assert(core&&typeof core.rank==="function");
 const timothy=rows.find(r=>r[0]==="utq:v91:1CO:16:10-11:lt0q");
 assert(timothy,"Published multi-verse Q&A must exist");
@@ -73,7 +76,7 @@ assert.equal(core.rank([noReference],"Moses",10).length,0); // unsupported citat
 assert.equal(core.rank(rows,"and the of",10).length,0);
 for(const brand of ["mobile-bible-beta","mobile-bible-sotw"]){
  const html=fs.readFileSync(path.resolve(root,"..",brand,"index.html"),"utf8");
- assert(html.includes("universal-search.js?v=20261127-unified1"));
+ assert(html.includes("universal-search.js?v=20261128-searchfinish1"));
  assert(html.includes("universal-search.css?v=20261124-us-css12"));
  assert(html.includes("id='readerSourcesAttribution'"),"Sources & Attribution section must be mounted in hamburger");
 }

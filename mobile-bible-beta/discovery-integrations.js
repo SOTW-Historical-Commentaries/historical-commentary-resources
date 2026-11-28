@@ -13,6 +13,7 @@ const norm=x=>asText(x).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLower
 // original historical topics indexed to the SAME exact verse. Topic title
 // terms must be present in the source Q&A (with the shared lexical matcher).
 // No biblical person, event, topic, or passage is hardcoded here.
+function adjacentSwap(a,b){if(a.length!==b.length||a.length<4)return false;let i=0;while(i<a.length&&a[i]===b[i])i++;return i+1<a.length&&a[i]===b[i+1]&&a[i+1]===b[i]&&a.slice(i+2)===b.slice(i+2);}
 function rankTopics(rows,query,limit=8,linked=[],core=null){
  const q=norm(query);
  if(q.length<2||!Array.isArray(rows))return [];
@@ -57,6 +58,10 @@ function rankTopics(rows,query,limit=8,linked=[],core=null){
    if(result.length>=ceiling)break;
    result.push(topic);ids.add(topic.id);
   }
+ }
+ if(q.length>=4&&!q.includes(' ')&&!literal.length){
+  const candidates=rows.filter(t=>valid(t)&&!ids.has(t.id)&&[t.title,...(t.search_aliases||[])].some(a=>{const title=norm(a);return !title.includes(' ')&&(adjacentSwap(q,title)||(q.length>=5&&typeof core?.tokenMatch==='function'&&core.tokenMatch(q,new Set([title]))===.4));})).sort((a,b)=>a.title.localeCompare(b.title));
+  for(const t of candidates){if(result.length>=limit)break;result.push(t);ids.add(t.id);}
  }
  return result;
 }
@@ -562,7 +567,7 @@ async function showTopic(topic){
 // The reader's own Scripture results remain at the top. No Person, Place or
 // Event index is fetched here: its directory awaits a future evidence-led UI.
 searchNote.textContent='Scripture references and current-chapter text first. Published Jacob Lannom commentary and Historical Bible Topics appear in clearly labeled results. Whole-Bible word search is not yet available.';
-searchInput.placeholder='John 3:16, Lannom Romans, Revenge Lannom, or Bible topic';
+searchInput.placeholder='John 3:16, Moses, Faith, or Lannom Romans';
 const pending=el('p','discovery-search-loading');pending.hidden=true;
 searchResults.after(pending);
 let seq=0,timer=0;
@@ -682,7 +687,12 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   const y=p.top+Math.min(85,p.height*.25);
   const open=Array.from(body.querySelectorAll('details[open]')).filter(valid);
   const crossing=open.filter(d=>{const r=d.getBoundingClientRect();return r.top<=y&&r.bottom>y;});
-  if(crossing.length)active=crossing[crossing.length-1];
+  if(footer.dataset.contextSurface==='search'){
+   // Scroll context wins over stale click context, including category gaps.
+   const at=open.filter(d=>{const r=d.getBoundingClientRect();return r.top<=y&&r.bottom>y;});
+   const inView=open.filter(d=>{const r=d.getBoundingClientRect();return r.bottom>p.top&&r.top<p.bottom;});
+   active=at[at.length-1]||inView.find(d=>!d.parentElement.closest('details[open]'))||null;
+  }else if(crossing.length)active=crossing[crossing.length-1];
   else if(body===pane&&!active){const inView=open.filter(d=>{const r=d.getBoundingClientRect();return r.bottom>p.top&&r.top<p.bottom;});if(inView.length)active=inView[0];}
   else if(active){const r=active.getBoundingClientRect();if(r.bottom<=p.top||r.top>=p.bottom)active=null;}
   const next=active?active.querySelector(':scope > summary'):categoryHeading;
@@ -694,7 +704,8 @@ function createContextNavigation({pane,body,categoryHeading,closeCategory,catego
   const parentName=parent&&parent!==active?parent.querySelector(':scope > summary')?.textContent.trim():null;
   const parents=[];for(let d=active?.parentElement.closest('details[open]');d&&body.contains(d);d=d.parentElement.closest('details[open]')){const title=d.querySelector(':scope > summary')?.textContent.trim();if(title)parents.unshift(title);}
   crumb.textContent=[category,...parents,...(active?[name]:[])].join(' › ');
-  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':name.length>32?'Close section ×':'Close '+name+' ×'):rootCloseLabel;
+  const shortName=footer.dataset.contextSurface==='search'?({'Bible Questions':'Q&A','Historical Bible Topics':'Topics','Lannom Commentary':'Commentary'}[name]||name):name;
+  close.textContent=active?(active.classList.contains('discovery-subtopic-references')?'Close subsection ×':shortName.length>32?'Close section ×':'Close '+shortName+' ×'):rootCloseLabel;
   close.setAttribute('aria-label',active?'Close '+name:rootCloseAria);
  }
  function schedule(){if(!frame)frame=requestAnimationFrame(update);}
